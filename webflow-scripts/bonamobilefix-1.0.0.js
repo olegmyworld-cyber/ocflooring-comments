@@ -40,8 +40,16 @@
       var b = pa(bl, root) || bl;
       var tl = leaf(root, 'LIVING') || leaf(root, 'KITCHEN');
       var t = tl ? (pa(tl, root) || tl) : null;
-      b.style.removeProperty('top'); b.style.removeProperty('bottom'); b.style.removeProperty('font-size');
-      if (window.innerWidth <= 600) { b.style.setProperty('font-size', '10px', 'important'); b.style.setProperty('white-space', 'nowrap', 'important'); }
+      ['top', 'bottom', 'right', 'left', 'max-width', 'font-size', 'white-space', 'box-sizing'].forEach(function (k) { b.style.removeProperty(k); });
+      if (window.innerWidth <= 600) {
+        b.style.setProperty('font-size', '10px', 'important');
+        b.style.setProperty('white-space', 'nowrap', 'important');
+        // Pin inside the image's right edge so the badge is never clipped on phones.
+        b.style.setProperty('right', '8px', 'important');
+        b.style.setProperty('left', 'auto', 'important');
+        b.style.setProperty('max-width', 'calc(100% - 16px)', 'important');
+        b.style.setProperty('box-sizing', 'border-box', 'important');
+      }
       if (t) {
         var br = b.getBoundingClientRect(), tr = t.getBoundingClientRect();
         if (ov(br, tr)) {
