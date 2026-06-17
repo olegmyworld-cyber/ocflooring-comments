@@ -35,23 +35,28 @@ small. The title lives in the shared `Section // Hero` component, styled by the
 layouts). Original sizing: no `main` (desktop) `font-size` at all, and a flat
 `2.3rem` cap at the mobile-portrait (`tiny`, ≤478px) breakpoint.
 
-**Fix:** Set an explicit, balanced responsive scale on both `heading-hero` and
-`heading-hero-custom` directly in the Webflow Designer (native style change, no
-script — so the above-the-fold title doesn't flash/resize on load). This brings
-desktop *down* and mobile *up*, with smooth steps in between:
+**Root cause (important):** Two things were missed on the first attempt:
 
-| Breakpoint        | `font-size` | `line-height` |
-|-------------------|-------------|---------------|
-| `main` (desktop)  | `3.25rem`   | `1.12`        |
-| `medium` (≤991px) | `3rem`      | `1.12`        |
-| `small` (≤767px)  | `2.95rem`   | `1.1`         |
-| `tiny` (≤478px)   | `2.9rem`    | `1.08`        |
+1. The hero `<h1>` inherited its size from the base `h1` tag style
+   (`default-h1`: `font-size: 3rem` on `main`, `2.5rem` on `tiny`). The
+   `heading-hero` class had **no** `main` `font-size`, so desktop rendered at
+   `3rem`. The first pass set `main` to `3.25rem` — i.e. it made desktop
+   *bigger*, the wrong direction.
+2. The site uses a **fluid root font-size** (in the `Global Styles` embed:
+   `html { font-size: calc(... + vw) }`), so every `rem` scales with viewport
+   width. That's why the original `clamp(...vw...)` barely moved on phones.
 
-The `tiny` breakpoint also keeps `letter-spacing: -0.015em` for a tighter,
-more premium headline. (A first pass had set `tiny` to
-`clamp(2.4rem, 10vw, 3.2rem)`, but on phone-width screens that landed only
-~2px above the original 2.3rem, so it was replaced with the flat `2.9rem`
-above.)
+**Fix:** A deliberate *reverse ramp* on both `heading-hero` and
+`heading-hero-custom` — smallest on desktop, growing toward mobile — set
+directly in the Webflow Designer (native style change, no script). The `.heading-hero`
+class legitimately overrides the `h1` tag (there is no `!important` anywhere):
+
+| Breakpoint        | `font-size` | `line-height` | notes                    |
+|-------------------|-------------|---------------|--------------------------|
+| `main` (desktop)  | `2.6rem`    | `1.16`        | down from inherited 3rem |
+| `medium` (≤991px) | `2.65rem`   | `1.16`        |                          |
+| `small` (≤767px)  | `2.75rem`   | `1.14`        |                          |
+| `tiny` (≤478px)   | `2.85rem`   | `1.1`         | `letter-spacing -0.01em` |
 
 The hero paragraph (`paragraph-hero`) under the title was also bumped on mobile
 for readability: `font-size 1rem → 1.0625rem`, `line-height 1.6` at `tiny`
@@ -60,3 +65,7 @@ for readability: `font-size 1rem → 1.0625rem`, `line-height 1.6` at `tiny`
 Applies site-wide to every page using the Hero component (home, service, and
 city landing pages). Published live to `nwocflooring.com`,
 `www.nwocflooring.com`, and the Webflow subdomain.
+
+> If a published change ever appears to "not show", it is almost always browser
+> /CDN caching — load the page in a private window or with a `?v=2` query string
+> to bypass the cache.
