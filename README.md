@@ -22,3 +22,29 @@ phones. See [`webflow-scripts/bonamobilefix-1.0.0.js`](webflow-scripts/bonamobil
 
 Published live to `nwocflooring.com`, `www.nwocflooring.com`, and the Webflow
 subdomain.
+
+## Changes on branch `claude/mobile-tile-h1-sizing-fj08xy`
+
+### Hero `h1` title — too small on mobile (2026-06-17)
+
+**Problem:** On phones the hero `<h1>` page title (e.g. "Hardwood Floor
+Installation in Monroe, WA") looked too small. The title lives in the shared
+`Section // Hero` component and is styled by the `heading-hero` class (with a
+sibling `heading-hero-custom` variant used on other hero layouts). Both classes
+capped the mobile-portrait (`tiny`, ≤478px) font size at a fixed `2.3rem`, which
+is the size phones in portrait actually rendered.
+
+**Fix:** Updated the `tiny` breakpoint of both `heading-hero` and
+`heading-hero-custom` directly in the Webflow Designer (no script — a native
+style change so the above-the-fold title doesn't flash/resize on load):
+
+- `font-size: clamp(2.4rem, 10vw, 3.2rem)` — fluid, so the title scales with the
+  viewport (~38px on a 320px screen up to ~48px near the 478px breakpoint)
+  instead of a flat 2.3rem.
+- `line-height: 1.08` — tighter, more impactful multi-line wrapping.
+- `letter-spacing: -0.015em` — subtle tracking for a more premium headline.
+
+Desktop/tablet sizing is untouched (only the `tiny` breakpoint changed). Applies
+site-wide to every page using the Hero component (home, service, and city
+landing pages). Published live to `nwocflooring.com`, `www.nwocflooring.com`,
+and the Webflow subdomain.
