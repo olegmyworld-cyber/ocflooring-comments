@@ -22,3 +22,23 @@ phones. See [`webflow-scripts/bonamobilefix-1.0.0.js`](webflow-scripts/bonamobil
 
 Published live to `nwocflooring.com`, `www.nwocflooring.com`, and the Webflow
 subdomain.
+
+### Service-area pins / "Why Choose OC Flooring" spacing (2026-06-17)
+
+**Problem:** On the home and city (`hardwood-floor-refinishing-in-*`) pages, the
+service-area links block (the 📍 city pins injected by `OCAreaLinksInjector`) sat
+flush against the `Why Choose OC Flooring in <City>` section (injected by
+`OCWhyTrustV5Injector`) — there was no gap between the two.
+
+**Fix:** Added a second, independent IIFE to the existing `OCTrustReviewsInjector9d`
+script rather than registering a new footer script (the site's script block was
+already at its 15-per-block limit). The added code locates the `Why Choose OC
+Flooring` heading by its visible text (robust to the injected markup's class names),
+climbs to the outermost wrapper whose text still *starts* with that heading (the
+dedicated Why-Choose block, with no pins preceding it), and applies a responsive top
+margin (`48px` on phones, `80px` on wider screens). Because it has its own
+heading-present guard, it runs site-wide regardless of the loader's path guard. See
+[`webflow-scripts/octrustreviewsinjector9d-1.0.0.js`](webflow-scripts/octrustreviewsinjector9d-1.0.0.js).
+
+Published live to `nwocflooring.com`, `www.nwocflooring.com`, and the Webflow
+subdomain.
