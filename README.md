@@ -69,6 +69,12 @@ deliberate *reverse ramp* — smaller on desktop, larger on mobile:
 | `≤767px`     | `41px`      |              |
 | `≤479px`     | `38px`      | up from ~30px |
 
+**Follow-up — hero subheading (same day):** the hero subheading
+(`.subheading-hero`, e.g. "Love Your Floors Again — Without the Mess") was
+shrinking out of proportion with the title on phones. Added mobile-only rules to
+the same `OCHeaderInit` block (desktop left at its Designer `2.3rem`) so the
+title:subheading ratio matches desktop: `≤991px 34px / ≤767px 32px / ≤479px 30px`.
+
 See [`webflow-scripts/ocheaderinit-1.0.0.js`](webflow-scripts/ocheaderinit-1.0.0.js).
 Applies site-wide to every page using the Hero component (home, service, and
 city landing pages). Published live to `nwocflooring.com`,
