@@ -35,37 +35,45 @@ small. The title lives in the shared `Section // Hero` component, styled by the
 layouts). Original sizing: no `main` (desktop) `font-size` at all, and a flat
 `2.3rem` cap at the mobile-portrait (`tiny`, ≤478px) breakpoint.
 
-**Root cause (important):** Two things were missed on the first attempt:
+**Actual root cause (found after Designer edits had no visible effect):** a
+*different* registered script, **`OCHeadingFix`** (`ocheadingfix`), injects this
+into `<head>`:
 
-1. The hero `<h1>` inherited its size from the base `h1` tag style
-   (`default-h1`: `font-size: 3rem` on `main`, `2.5rem` on `tiny`). The
-   `heading-hero` class had **no** `main` `font-size`, so desktop rendered at
-   `3rem`. The first pass set `main` to `3.25rem` — i.e. it made desktop
-   *bigger*, the wrong direction.
-2. The site uses a **fluid root font-size** (in the `Global Styles` embed:
-   `html { font-size: calc(... + vw) }`), so every `rem` scales with viewport
-   width. That's why the original `clamp(...vw...)` barely moved on phones.
+```css
+html body .heading-hero, … { font-size: clamp(30px, 6.2vw, 57px) !important }
+```
 
-**Fix:** A deliberate *reverse ramp* on both `heading-hero` and
-`heading-hero-custom` — smallest on desktop, growing toward mobile — set
-directly in the Webflow Designer (native style change, no script). The `.heading-hero`
-class legitimately overrides the `h1` tag (there is no `!important` anywhere):
+That `!important` rule pins the hero title to **~57px on desktop** (too big) and
+**~30px on phones** (too small) — matching the complaint exactly — and it
+overrides any `font-size` set on `.heading-hero` / `.heading-hero-custom` in the
+Webflow Designer. That is why several rounds of Designer class edits (and the
+`Global Styles` fluid root font-size, `html { font-size: calc(... + vw) }`) made
+no visible difference. NOTE: the earlier Designer breakpoint edits to
+`heading-hero` / `heading-hero-custom` are still in place but are now moot —
+they're outranked by the `!important` rule below.
 
-| Breakpoint        | `font-size` | `line-height` | notes                    |
-|-------------------|-------------|---------------|--------------------------|
-| `main` (desktop)  | `2.6rem`    | `1.16`        | down from inherited 3rem |
-| `medium` (≤991px) | `2.65rem`   | `1.16`        |                          |
-| `small` (≤767px)  | `2.75rem`   | `1.14`        |                          |
-| `tiny` (≤478px)   | `2.85rem`   | `1.1`         | `letter-spacing -0.01em` |
+**Fix:** Beat the `!important` clamp with a competing rule of **higher
+specificity** — `html body .heading-hero.heading-hero` (repeated class →
+specificity `(0,2,2)` vs the old `(0,1,2)`) — plus `!important`, so it wins
+regardless of stylesheet order. Because both Webflow script blocks are at the
+15-script-per-block limit, the rule is **merged into the already-applied header
+script `OCHeaderInit`** (the same merge tactic used for `BonaMobileFix`), rather
+than adding a new script. Header placement means the CSS lands before first
+paint (no flash). Sizes are in **px** (independent of the fluid root) and form a
+deliberate *reverse ramp* — smaller on desktop, larger on mobile:
 
-The hero paragraph (`paragraph-hero`) under the title was also bumped on mobile
-for readability: `font-size 1rem → 1.0625rem`, `line-height 1.6` at `tiny`
-(it already had `font-style: italic` there).
+| Breakpoint   | `font-size` | vs old clamp |
+|--------------|-------------|--------------|
+| desktop      | `46px`      | down from ~57px |
+| `≤991px`     | `44px`      |              |
+| `≤767px`     | `41px`      |              |
+| `≤479px`     | `38px`      | up from ~30px |
 
+See [`webflow-scripts/ocheaderinit-1.0.0.js`](webflow-scripts/ocheaderinit-1.0.0.js).
 Applies site-wide to every page using the Hero component (home, service, and
 city landing pages). Published live to `nwocflooring.com`,
 `www.nwocflooring.com`, and the Webflow subdomain.
 
-> If a published change ever appears to "not show", it is almost always browser
-> /CDN caching — load the page in a private window or with a `?v=2` query string
-> to bypass the cache.
+> Lesson: before changing hero/heading sizes in the Designer, check the
+> registered Scripts (`OCHeadingFix`, `SiteFontStyle*`, etc.) for `!important`
+> CSS that may already be pinning them.
