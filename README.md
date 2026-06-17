@@ -25,26 +25,38 @@ subdomain.
 
 ## Changes on branch `claude/mobile-tile-h1-sizing-fj08xy`
 
-### Hero `h1` title — too small on mobile (2026-06-17)
+### Hero typography — too big on desktop, too small on mobile (2026-06-17)
 
-**Problem:** On phones the hero `<h1>` page title (e.g. "Hardwood Floor
-Installation in Monroe, WA") looked too small. The title lives in the shared
-`Section // Hero` component and is styled by the `heading-hero` class (with a
-sibling `heading-hero-custom` variant used on other hero layouts). Both classes
-capped the mobile-portrait (`tiny`, ≤478px) font size at a fixed `2.3rem`, which
-is the size phones in portrait actually rendered.
+**Problem:** The hero `<h1>` page title (e.g. "Hardwood Floor Installation in
+Snohomish, WA") had **no explicit desktop size**, so it inherited a very large
+base size and dominated the screen on desktop, while on phones it still felt
+small. The title lives in the shared `Section // Hero` component, styled by the
+`heading-hero` class (with a sibling `heading-hero-custom` used on other hero
+layouts). Original sizing: no `main` (desktop) `font-size` at all, and a flat
+`2.3rem` cap at the mobile-portrait (`tiny`, ≤478px) breakpoint.
 
-**Fix:** Updated the `tiny` breakpoint of both `heading-hero` and
-`heading-hero-custom` directly in the Webflow Designer (no script — a native
-style change so the above-the-fold title doesn't flash/resize on load):
+**Fix:** Set an explicit, balanced responsive scale on both `heading-hero` and
+`heading-hero-custom` directly in the Webflow Designer (native style change, no
+script — so the above-the-fold title doesn't flash/resize on load). This brings
+desktop *down* and mobile *up*, with smooth steps in between:
 
-- `font-size: clamp(2.4rem, 10vw, 3.2rem)` — fluid, so the title scales with the
-  viewport (~38px on a 320px screen up to ~48px near the 478px breakpoint)
-  instead of a flat 2.3rem.
-- `line-height: 1.08` — tighter, more impactful multi-line wrapping.
-- `letter-spacing: -0.015em` — subtle tracking for a more premium headline.
+| Breakpoint        | `font-size` | `line-height` |
+|-------------------|-------------|---------------|
+| `main` (desktop)  | `3.25rem`   | `1.12`        |
+| `medium` (≤991px) | `3rem`      | `1.12`        |
+| `small` (≤767px)  | `2.95rem`   | `1.1`         |
+| `tiny` (≤478px)   | `2.9rem`    | `1.08`        |
 
-Desktop/tablet sizing is untouched (only the `tiny` breakpoint changed). Applies
-site-wide to every page using the Hero component (home, service, and city
-landing pages). Published live to `nwocflooring.com`, `www.nwocflooring.com`,
-and the Webflow subdomain.
+The `tiny` breakpoint also keeps `letter-spacing: -0.015em` for a tighter,
+more premium headline. (A first pass had set `tiny` to
+`clamp(2.4rem, 10vw, 3.2rem)`, but on phone-width screens that landed only
+~2px above the original 2.3rem, so it was replaced with the flat `2.9rem`
+above.)
+
+The hero paragraph (`paragraph-hero`) under the title was also bumped on mobile
+for readability: `font-size 1rem → 1.0625rem`, `line-height 1.6` at `tiny`
+(it already had `font-style: italic` there).
+
+Applies site-wide to every page using the Hero component (home, service, and
+city landing pages). Published live to `nwocflooring.com`,
+`www.nwocflooring.com`, and the Webflow subdomain.
