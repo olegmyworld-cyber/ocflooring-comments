@@ -43,28 +43,36 @@ heading-present guard, it runs site-wide regardless of the loader's path guard. 
 Published live to `nwocflooring.com`, `www.nwocflooring.com`, and the Webflow
 subdomain.
 
-### Hardwood installation before/after caption → H3 (2026-06-17)
+### Hardwood installation before/after caption → serif heading above photos (2026-06-17)
 
 **Problem:** On the ~30 hardwood floor installation pages (slug contains
 `hardwood-floor-installation`), the before/after section's caption *"Love your home.
 Love your floors. Love the life lived on them."* was a small italic text block
-(class `Text Block 67`). The request was to present it as a proper, good-looking H3.
+(class `Text Block 67`). The ask was to present it in the hero-subtitle style
+(*"Crafted Just for Your Home — Built to Last"*) and position it with the photos.
 
 **Why a script (not a Designer/class edit):** these are individual static pages (no
 shared component for this block), and `Text Block 67` is also used on the refinishing
 pages — where it additionally wraps the *"Just 2 days between these photos."* quote —
 so restyling the global class would bleed onto other pages and wrongly enlarge that
 quote. The Pages custom-code API also returned 404 for these pages (no page-level
-custom code), so the change was added as a **third independent IIFE inside
-`OCTrustReviewsInjector9d`** (the site script block is at its 15-per-block limit).
+custom code), and the site script block is at its 15-per-block limit.
 
-**Fix:** scoped strictly to installation pages via a path guard, the IIFE finds the
-element whose exact text is the caption, replaces it with a real `<h3>`, and styles it
-(`font-size: clamp(22px,4.6vw,34px)`, centered, comfortable line-height/margin). The
-bare `<h3>` inherits the site's global heading font/color so it matches other headings.
-It is idempotent (`data-oc-h3` marker) and never touches the "Just 2 days…" quote or
-the refinishing pages. See
-[`webflow-scripts/octrustreviewsinjector9d-1.0.0.js`](webflow-scripts/octrustreviewsinjector9d-1.0.0.js).
+**Iterations:** first attempt turned the caption into a bare `<h3>`. Second attempt
+overlaid the line *on top of* the before/after photos — but with the photos stacked on
+mobile the centered caption crossed the seam in white text over light areas and looked
+bad. **Final:** the caption is restyled to match the hero subtitle (serif font, weight
+and color copied at runtime from that subtitle) and moved to sit as a clean centered
+heading **directly above** the photo pair.
+
+**Where it lives:** merged into the **`OC Mobile BeforeAfter Fix`
+(`oc_mobile_beforeafter_fix`)** script, which already owns the before/after section. It
+is scoped to installation pages and the exact caption text, locates the photo pair as
+the lowest common ancestor of the visible *Before*/*After* badges (which are kept), and
+inserts the caption above it. See
+[`webflow-scripts/oc_mobile_beforeafter_fix-1.0.0.js`](webflow-scripts/oc_mobile_beforeafter_fix-1.0.0.js).
+(The brief experiment that lived in `OCTrustReviewsInjector9d` was reverted; that script
+is back to its loader + area-spacing IIFEs.)
 
 Published live to `nwocflooring.com`, `www.nwocflooring.com`, and the Webflow
 subdomain.

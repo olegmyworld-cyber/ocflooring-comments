@@ -18,16 +18,9 @@
 // when a "Why Choose OC Flooring" heading exists), so it runs site-wide regardless of the
 // loader's path guard above.
 //
-// Change (2026-06-17b): appended a third, independent IIFE ("install caption → h3"). On the
-// hardwood floor installation pages (slug contains "hardwood-floor-installation") the
-// before/after section's caption "Love your home. Love your floors. Love the life lived on
-// them." was a small italic Text Block (class "Text Block 67"). It's now upgraded to a real
-// <h3> styled to look good (the bare <h3> inherits the site's global heading font/color; we
-// only set a responsive size, centering and margin). Merged here (not a new script, and not a
-// page-level script — the Pages custom-code API returned 404 for these pages) to respect the
-// 15-script-per-block site limit. Scoped strictly to installation pages via the path guard and
-// to the exact caption text, so it never touches the "Just 2 days…" quote or the refinishing
-// pages (which share the same "Text Block 67" class). Idempotent via the data-oc-h3 marker.
+// Change (2026-06-17b): a caption-styling IIFE was briefly added here, then moved to the
+// OC Mobile BeforeAfter Fix script (oc_mobile_beforeafter_fix), which owns the before/after
+// section. See that file. This script is back to just the loader + area-spacing IIFEs.
 (function () {
   var p = location.pathname.replace(/\/+$/, '');
   var home = p === '' || p === '/index' || p === '/home';
@@ -72,32 +65,4 @@
     [300, 900, 1600, 2600, 4000, 6000].forEach(function (t) { setTimeout(fix, t); });
   }
   if (document.readyState != 'loading') init(); else addEventListener('DOMContentLoaded', init);
-})();
-
-// Install caption → h3: upgrade the before/after caption to a styled heading.
-(function () {
-  if (!/hardwood-floor-installation/.test(location.pathname)) return;
-  var T = 'love your home. love your floors. love the life lived on them.';
-
-  function go() {
-    // Deepest element whose own text is exactly the caption.
-    var a = document.querySelectorAll('div,p'), el = null;
-    for (var i = 0; i < a.length; i++) {
-      var t = (a[i].textContent || '').replace(/\s+/g, ' ').trim().toLowerCase();
-      if (t === T && (!el || el.contains(a[i]))) el = a[i];
-    }
-    if (!el || el.getAttribute('data-oc-h3')) return;
-
-    // Replace with a real <h3>. We intentionally drop the original class ("Text Block 67",
-    // which forces italic Droid Sans 400) so the bare <h3> inherits the site's heading
-    // font/color; we only set a responsive size, line-height, margin and centering.
-    var h = document.createElement('h3');
-    h.setAttribute('data-oc-h3', '1');
-    h.textContent = el.textContent;
-    h.style.cssText = 'font-size:clamp(22px,4.6vw,34px);line-height:1.25;margin:.3em 0 .5em;text-align:center';
-    el.parentNode.replaceChild(h, el);
-  }
-
-  // Static section (not async-injected) — a few timers cover late style/layout passes.
-  [400, 1200, 2500].forEach(function (t) { setTimeout(go, t); });
 })();
