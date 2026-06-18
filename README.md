@@ -38,3 +38,25 @@ the element by a distinctive substring of its text, tags it `oc-hero-desc-sm`, a
 injects a mobile media query (14px ≤767px, 13px ≤479px, tighter line-height). Page-scoped
 so the other ~40 pages using the same hero component are unaffected. See
 [`webflow-scripts/herodescmobile-1.0.0.js`](webflow-scripts/herodescmobile-1.0.0.js).
+
+### Reviews section as a mobile swipe slider — install + refinishing pages (2026-06-18)
+
+**Goal:** make the customer-reviews section a horizontal swipe slider on phones across all
+hardwood floor **installation** and **refinishing** pages.
+
+**Two different review sections exist:**
+- Installation pages use a self-contained html-embed `<section class="ocf-reviews">` with a
+  `.ocf-grid` of `.ocf-card`s. Known structure -> pure CSS scroll-snap on `.ocf-reviews .ocf-grid`.
+- Refinishing pages render reviews at runtime via the external bundle `oc-trust-reviews-v9c-min.js`
+  (loaded by `OCTrustReviewsInjector9d`). Its DOM can't be inspected from this environment
+  (network egress blocked, Designer offline), so the script detects the card "track" generically:
+  inside `#oc-trust-reviews` / `[class*="oc-trust"]` / `[class*="trust-reviews"]` it tags the
+  element with the most text-bearing direct children (>=3) as `.ocrs-track` and applies the same
+  scroll-snap CSS. **Best-effort for the trust section — verify live.**
+
+**Fix:** Registered inline script `OCReviewsSlider` (`ocreviewsslider`). The site-level script
+budget was full (15/15), so it's applied as a **page-level** header script on 60 pages
+(31 installation + 29 refinishing). Pages that already had a page custom-code block were updated
+additively; pages without one were created via `set_page_scripts`. The slider activates only at
+<=767px; desktop/tablet are unchanged. `/services/hardwood-floor-installation` was skipped (no
+reviews section). See [`webflow-scripts/ocreviewsslider-1.0.0.js`](webflow-scripts/ocreviewsslider-1.0.0.js).
