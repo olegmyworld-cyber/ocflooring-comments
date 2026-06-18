@@ -22,3 +22,19 @@ phones. See [`webflow-scripts/bonamobilefix-1.0.0.js`](webflow-scripts/bonamobil
 
 Published live to `nwocflooring.com`, `www.nwocflooring.com`, and the Webflow
 subdomain.
+
+### Bellevue hardwood page — hero paragraph too large on mobile (2026-06-18)
+
+**Problem:** On the Bellevue hardwood-installation page
+(`/city-of-bellevue/hardwood-floor-installation-in-bellevue-wa`, page id
+`65f32565e111adbbb806d03e`), the hero "Description" paragraph ("OC Flooring provides
+professional hardwood floor installation in Bellevue, WA…") rendered too large on
+phones.
+
+**Fix:** Registered a new inline script `HeroDescMobile` (`herodescmobile`) and applied
+it to that page's footer only. The paragraph lives inside the shared hero component
+(`859df468-…`), so its class can't be read via the Data API; the script instead locates
+the element by a distinctive substring of its text, tags it `oc-hero-desc-sm`, and
+injects a mobile media query (14px ≤767px, 13px ≤479px, tighter line-height). Page-scoped
+so the other ~40 pages using the same hero component are unaffected. See
+[`webflow-scripts/herodescmobile-1.0.0.js`](webflow-scripts/herodescmobile-1.0.0.js).
