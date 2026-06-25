@@ -45,3 +45,26 @@ than site-wide because the site footer's registered-script block was at its
 15-script limit; per-page scoping also guarantees the home page, hardwood, vinyl,
 and other page types are unaffected, and the desktop media query leaves mobile
 untouched. See [`webflow-scripts/laminate-hero-fix.css`](webflow-scripts/laminate-hero-fix.css).
+
+### Unified hero across all laminate city pages (2026-06-25)
+
+**Problem:** Only the Arlington laminate page had the new photo-hero design
+(`.section_hero` with a `.hero-cover-img` floor photo on the right). Every other
+laminate city page still used the older shared **"Section // Hero"** component,
+which has a different layout and a different background image — so the laminate
+city pages were inconsistent.
+
+**Fix (done in the Webflow Designer, not in this repo):** Converted Arlington's
+hero into a reusable component **"Laminate City Hero"** and added two
+`textContent` props (`Heading`, `Description`) bound to the H1 and paragraph. Then
+on all 29 laminate city pages, replaced the old `Section // Hero` instance with a
+`Laminate City Hero` instance positioned at the top of the body, setting each
+page's Heading/Description props to that page's own existing (verbatim) SEO copy.
+Result: every laminate city page now shares Arlington's hero design and the same
+floor photo, while keeping its own city-specific text. The desktop-enlarge CSS
+above applies automatically since the new hero uses `.section_hero .hero-cover-img`.
+
+Known follow-up: the Seattle page
+(`laminate-flooring-installation-in-seattle-wa`) had pre-existing copy that names
+"Seattle" (not "West Seattle") and describes hardwood (not laminate); preserved
+verbatim during the migration and left for content review.
