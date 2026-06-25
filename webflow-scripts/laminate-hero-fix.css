@@ -1,0 +1,36 @@
+/* OC Flooring — Laminate hero desktop fix
+ * Site: OC Flooring Hardwood Refinishing (6377e8e6a53936b48ef1cad0) — nwocflooring.com
+ *
+ * Deployed as: page-level FOOTER freeform custom code (a <style> block) on every
+ * laminate floor installation page — the laminate-flooring-installation hub page
+ * plus all laminate-flooring-installation-in-<city>-wa city pages (30 pages total).
+ * It is applied per page (not site-wide) so it cannot affect the home page,
+ * hardwood, vinyl, or any other page type. This file is the source of record for
+ * that injected CSS.
+ *
+ * Problem: on desktop the city hero (.section_hero) is a two-column layout — text
+ * on the left, the floor cover photo (.hero-cover-img) on the right. The photo
+ * rendered small and top-aligned, leaving a large empty area beside the text, so
+ * the hero looked undersized ("too small on desktop"). The mobile single-column
+ * stacked layout already looked correct.
+ *
+ * Fix: on screens >= 992px only, enlarge .hero-cover-img inside the hero so it
+ * fills the right column as a substantial, balanced image (~48vw wide, capped at
+ * 760px, 560px tall). The desktop media query leaves the mobile layout untouched.
+ * These exact dimensions were verified in the Webflow Designer against the
+ * Arlington hero before rollout.
+ *
+ * The deployed copy is minified onto a couple of lines to keep each page's footer
+ * code block compact; the rule below is identical.
+ */
+@media (min-width: 992px) {
+  .section_hero .hero-cover-img {
+    width: 48vw !important;
+    max-width: 760px !important;
+    height: 560px !important;
+    min-height: 560px !important;
+    align-self: center !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}

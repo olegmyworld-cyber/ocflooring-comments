@@ -22,3 +22,26 @@ phones. See [`webflow-scripts/bonamobilefix-1.0.0.js`](webflow-scripts/bonamobil
 
 Published live to `nwocflooring.com`, `www.nwocflooring.com`, and the Webflow
 subdomain.
+
+## Changes on branch `claude/hero-responsive-design-4y25xa`
+
+### Laminate hero — too small on desktop (2026-06-25)
+
+**Problem:** On the laminate floor installation pages the desktop hero
+(`.section_hero`) is a two-column layout — heading/description/button on the left,
+the floor cover photo (`.hero-cover-img`) on the right. The photo rendered small
+and top-aligned, leaving a large empty area beside the text, so the hero looked
+undersized on desktop. The mobile (stacked) layout already looked correct.
+
+**Fix:** Injected a small desktop-only (`min-width: 992px`) CSS rule that enlarges
+`.hero-cover-img` inside the hero (~48vw wide, capped at 760px, 560px tall) so the
+photo fills the right column and the hero reads as a proper, full-size hero. The
+dimensions were verified live in the Webflow Designer against the Arlington hero.
+
+Shipped as **page-level footer freeform custom code** on all 30 laminate pages
+(the `laminate-flooring-installation` hub page + every
+`laminate-flooring-installation-in-<city>-wa` page). It is applied per page rather
+than site-wide because the site footer's registered-script block was at its
+15-script limit; per-page scoping also guarantees the home page, hardwood, vinyl,
+and other page types are unaffected, and the desktop media query leaves mobile
+untouched. See [`webflow-scripts/laminate-hero-fix.css`](webflow-scripts/laminate-hero-fix.css).
