@@ -25,7 +25,7 @@ subdomain.
 
 ## Changes on branch `claude/openai-ads-pixel-tracking-qoqapj`
 
-### OpenAI Ads Manager pixel — `estimate_booked` conversion events (2026-08-10)
+### OpenAI Ads Manager pixel — `appointment_scheduled` conversion events (2026-08-10)
 
 **Pixel setup script:** already installed site-wide (Site Settings → Custom Code →
 Head Code) with pixel id `KJ9XC2XYzNhirk6GgaXQ86`, loading
@@ -35,7 +35,7 @@ snippet has `debug:true` enabled.
 **Conversion events (`OCOaiqEvents`):** appended to the site-wide **Footer Code**
 block (Site Settings → Custom Code → Footer Code) because the applied-scripts
 list is at Webflow's 15-script cap. Fires
-`oaiq("measure","estimate_booked",{type:"customer_action",amount:0,currency:"USD"})`
+`oaiq("measure","appointment_scheduled",{type:"customer_action",amount:0,currency:"USD"})`
 on:
 
 1. **Calendly booking completed** — listens for the `calendly.event_scheduled`
@@ -65,3 +65,16 @@ links) as raw CSS text, so the schema markup and preloads were dead on every pag
 
 **Fix:** Added the missing `</style>` immediately after the overflow rule. No
 other characters in the head block were changed. Takes effect on next publish.
+
+### Event renamed to standard `appointment_scheduled` (2026-08-10, follow-up)
+
+The originally requested custom name `estimate_booked` is not valid as a direct
+`oaiq("measure", ...)` event: OpenAI Ads only accepts its standard event
+taxonomy there (custom names require the separate
+`oaiq("measure","custom",{type:"custom"},{custom_event_name:...})` form and
+can't be picked as a base event in Ads Manager's conversion dialog). Switched
+all three triggers to the standard `appointment_scheduled` event
+(`customer_action` shape, amount 0 USD) so it matches the "Appointment
+scheduled" base event in Ads Manager. Verified with a 10-case headless-Chromium
+test suite (postMessage booking, origin spoofing, link click, embed
+suppression, form success/failure, missing-pixel guard) — all passing.

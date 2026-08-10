@@ -1,5 +1,5 @@
 /* OCOaiqEvents 1.0.0 — OpenAI Ads Manager conversion events for nwocflooring.com.
-   Fires oaiq("measure","estimate_booked",{type:"customer_action",amount:0,currency:"USD"}) on:
+   Fires oaiq("measure","appointment_scheduled",{type:"customer_action",amount:0,currency:"USD"}) on:
    1) Calendly booking completed (calendly.event_scheduled postMessage — covers inline embeds
       and Calendly popup widgets on any page);
    2) click of an external calendly.com link — only when the page has NO Calendly embed,
@@ -15,7 +15,7 @@
     FIRED[key] = 1;
     try {
       if (typeof window.oaiq === "function") {
-        window.oaiq("measure", "estimate_booked", { type: "customer_action", amount: 0, currency: "USD" });
+        window.oaiq("measure", "appointment_scheduled", { type: "customer_action", amount: 0, currency: "USD" });
       }
     } catch (e) {}
   }
