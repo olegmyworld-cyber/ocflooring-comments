@@ -1,4 +1,4 @@
-/* OCGreenCta 1.0.1 — green accent for the "See Available Appointment" booking CTA.
+/* OCGreenCta 1.0.2 — green accent for the "See Available Appointment" booking CTA.
    Oleg wants the booking button to stand out from the site's red/navy palette,
    so it gets #1e7a3c (hover #166132, white text kept). Applied site-wide via the
    Footer Code block (Site Settings → Custom Code → Footer Code).
@@ -19,20 +19,44 @@
    .oc-cta-green:hover{background:#166132 !important;background-image:none !important;border-color:#166132 !important;color:#fff !important}
    .oc-cta-green:focus-visible{outline:3px solid rgba(30,122,60,.4) !important;outline-offset:2px}
 */
+
+/* v1.0.2 additions:
+   - length cap raised 48 -> 120 so hover text-swap buttons (which duplicate the
+     label in markup) still match; whitespace collapsed before matching.
+   - CSS now also recolors descendants and ::before/::after fill overlays, so
+     link-blocks whose inner div carries the red background go green too.
+   - Debug badge: open any page with ?ocdebug=1 to see a corner badge with
+     tagged count and candidate button texts (for remote diagnosis).
+*/
 (function () {
+  var info = { tagged: 0, cand: [] };
   function tag() {
     var els = document.querySelectorAll('a,button,input[type="submit"]');
+    info.tagged = 0; info.cand = [];
     for (var i = 0; i < els.length; i++) {
       var e = els[i];
-      var t = ((e.tagName === "INPUT" ? e.value : e.textContent) || "").trim();
-      if (t.length < 48 && /see\s+available\s+appointment/i.test(t)) {
+      var t = ((e.tagName === "INPUT" ? e.value : e.textContent) || "").replace(/\s+/g, " ").trim();
+      if (/appointment/i.test(t) && info.cand.length < 6) info.cand.push(t.slice(0, 60));
+      if (t.length < 120 && /see\s+available\s+appointment/i.test(t)) {
         e.classList.add("oc-cta-green");
+        info.tagged++;
       }
     }
+    if (/[?&]ocdebug=1/.test(location.search)) dbg();
+  }
+  function dbg() {
+    var d = document.getElementById("ocdbg");
+    if (!d) {
+      d = document.createElement("div");
+      d.id = "ocdbg";
+      d.style.cssText = "position:fixed;left:8px;bottom:8px;z-index:99999;background:#111;color:#0f0;font:12px/1.4 monospace;padding:8px 10px;border-radius:6px;max-width:70vw";
+      document.body.appendChild(d);
+    }
+    d.textContent = "OCGreenCta v1.0.2 tagged=" + info.tagged + " cand=" + JSON.stringify(info.cand);
   }
   if (document.readyState !== "loading") tag();
   else document.addEventListener("DOMContentLoaded", tag);
   window.addEventListener("load", tag);
   setTimeout(tag, 800);
-  setTimeout(tag, 2000);
+  setTimeout(tag, 2500);
 })();

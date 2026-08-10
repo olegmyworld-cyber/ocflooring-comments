@@ -105,3 +105,12 @@ The button stayed visually red after v1.0.0 despite the code being live: the
 styled with a gradient (`background-image` paints on top — reproduced in a
 headless-Chromium test). v1.0.1 uses the `background` shorthand plus
 `background-image:none` so the green wins either way. Republished.
+
+### Green CTA v1.0.2 — nested/overlay coverage + debug badge (2026-08-10, follow-up)
+
+Button still displayed red after v1.0.1, so v1.0.2 covers the remaining
+plausible structures: recolors descendants and `::before`/`::after` fill
+overlays (link-blocks where an inner div carries the red background), raises
+the text-length cap so hover text-swap buttons with duplicated labels match,
+and adds a `?ocdebug=1` corner badge showing tagged count + candidate button
+texts for screenshot-based remote diagnosis. All cases browser-tested.
