@@ -123,3 +123,12 @@ gets the green accent. Plain text links to `/contact` (footer/nav) are excluded
 — a link qualifies only if it has a button/btn/cta class (own or descendant) or
 a filled background. Browser-tested: relative + absolute + wrapped link-block
 buttons go green; text link and non-contact buttons untouched. Published live.
+
+### Green CTA v1.1.1 — announcement banner excluded (2026-08-10)
+
+v1.1.0's filled-background heuristic also caught the full-width "1,000+ Floors
+Installed & Restored Across Washington" announcement strip (it links to
+/contact). v1.1.1 excludes full-width elements (offsetWidth > 700px or
+edge-to-edge with the viewport), so banners keep their design while real
+buttons — including mobile full-width-in-container CTAs — stay green.
+Browser-tested at desktop and mobile viewports. Published live.

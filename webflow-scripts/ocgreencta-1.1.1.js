@@ -1,4 +1,4 @@
-/* OCGreenCta 1.1.0 — green accent for the "See Available Appointment" booking CTA.
+/* OCGreenCta 1.1.1 — green accent for the "See Available Appointment" booking CTA.
    Oleg wants the booking button to stand out from the site's red/navy palette,
    so it gets #1e7a3c (hover #166132, white text kept). Applied site-wide via the
    Footer Code block (Site Settings → Custom Code → Footer Code).
@@ -20,7 +20,12 @@
    .oc-cta-green:focus-visible{outline:3px solid rgba(30,122,60,.4) !important;outline-offset:2px}
 */
 
-/* v1.1.0: also recolors every BUTTON that links to /contact, site-wide
+/* v1.1.1: full-width elements are excluded (offsetWidth > 700px, or
+   edge-to-edge with the viewport) so announcement bars that link to /contact
+   — like the "1,000+ Floors Installed" strip — keep their original design.
+   Also removes the class from elements that stop qualifying on re-runs.
+
+   v1.1.0: also recolors every BUTTON that links to /contact, site-wide
    (relative "/contact" or absolute https://www.nwocflooring.com/contact,
    trailing slash tolerated via a.pathname). Plain TEXT links to /contact are
    left alone: a link qualifies only if it (or a descendant) has a
@@ -49,6 +54,10 @@
     } catch (r) {}
     return false;
   }
+  function wide(e) {
+    var w = e.offsetWidth;
+    return w > 700 || w >= ((window.innerWidth || 1e9) - 4);
+  }
   function tag() {
     var els = document.querySelectorAll('a,button,input[type="submit"]');
     info.tagged = 0; info.cand = [];
@@ -56,11 +65,13 @@
       var e = els[i];
       var t = ((e.tagName === "INPUT" ? e.value : e.textContent) || "").replace(/\s+/g, " ").trim();
       if (/appointment/i.test(t) && info.cand.length < 8) info.cand.push(t.slice(0, 60));
-      var byText = t.length < 120 && /see\s+available\s+appointment/i.test(t);
-      var byLink = e.tagName === "A" && e.pathname && e.pathname.replace(/\/+$/, "") === "/contact" && isBtn(e);
+      var byText = t.length < 120 && /see\s+available\s+appointment/i.test(t) && !wide(e);
+      var byLink = e.tagName === "A" && e.pathname && e.pathname.replace(/\/+$/, "") === "/contact" && isBtn(e) && !wide(e);
       if (byText || byLink) {
         e.classList.add("oc-cta-green");
         info.tagged++;
+      } else {
+        e.classList.remove("oc-cta-green");
       }
     }
     if (/[?&]ocdebug=1/.test(location.search)) dbg();
@@ -73,7 +84,7 @@
       d.style.cssText = "position:fixed;left:8px;bottom:8px;z-index:99999;background:#111;color:#0f0;font:12px/1.4 monospace;padding:8px 10px;border-radius:6px;max-width:70vw";
       document.body.appendChild(d);
     }
-    d.textContent = "OCGreenCta v1.1.0 tagged=" + info.tagged + " cand=" + JSON.stringify(info.cand);
+    d.textContent = "OCGreenCta v1.1.1 tagged=" + info.tagged + " cand=" + JSON.stringify(info.cand);
   }
   if (document.readyState !== "loading") tag();
   else document.addEventListener("DOMContentLoaded", tag);
