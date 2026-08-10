@@ -89,3 +89,11 @@ the site republished. The JSON-LD schema fix remains in place. The removed
 block is archived in
 [`webflow-scripts/removed-head-font-override.html`](webflow-scripts/removed-head-font-override.html)
 with restore instructions.
+
+### Green booking CTA accent (2026-08-10)
+
+Oleg wants the "See Available Appointment" booking button to stand out from the
+site's red/navy palette. Added `OCGreenCta` to the site-wide Footer Code block:
+finds buttons/links by their visible text (robust to class changes) and applies
+green `#1e7a3c` (hover `#166132`, white text, green focus ring). Published live.
+Source: [`webflow-scripts/ocgreencta-1.0.0.js`](webflow-scripts/ocgreencta-1.0.0.js).
