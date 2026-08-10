@@ -114,3 +114,12 @@ overlays (link-blocks where an inner div carries the red background), raises
 the text-length cap so hover text-swap buttons with duplicated labels match,
 and adds a `?ocdebug=1` corner badge showing tagged count + candidate button
 texts for screenshot-based remote diagnosis. All cases browser-tested.
+
+### Green CTA v1.1.0 — all /contact buttons site-wide (2026-08-10)
+
+v1.0.2 confirmed working (hero button green). Extended per Oleg's request: every
+BUTTON linking to `/contact` (relative or absolute URL) across all pages now
+gets the green accent. Plain text links to `/contact` (footer/nav) are excluded
+— a link qualifies only if it has a button/btn/cta class (own or descendant) or
+a filled background. Browser-tested: relative + absolute + wrapped link-block
+buttons go green; text link and non-contact buttons untouched. Published live.

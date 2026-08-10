@@ -1,4 +1,4 @@
-/* OCGreenCta 1.0.2 — green accent for the "See Available Appointment" booking CTA.
+/* OCGreenCta 1.1.0 — green accent for the "See Available Appointment" booking CTA.
    Oleg wants the booking button to stand out from the site's red/navy palette,
    so it gets #1e7a3c (hover #166132, white text kept). Applied site-wide via the
    Footer Code block (Site Settings → Custom Code → Footer Code).
@@ -20,7 +20,13 @@
    .oc-cta-green:focus-visible{outline:3px solid rgba(30,122,60,.4) !important;outline-offset:2px}
 */
 
-/* v1.0.2 additions:
+/* v1.1.0: also recolors every BUTTON that links to /contact, site-wide
+   (relative "/contact" or absolute https://www.nwocflooring.com/contact,
+   trailing slash tolerated via a.pathname). Plain TEXT links to /contact are
+   left alone: a link qualifies only if it (or a descendant) has a
+   button/btn/cta class, or it has a filled (non-transparent) background.
+
+   v1.0.2 additions:
    - length cap raised 48 -> 120 so hover text-swap buttons (which duplicate the
      label in markup) still match; whitespace collapsed before matching.
    - CSS now also recolors descendants and ::before/::after fill overlays, so
@@ -30,14 +36,29 @@
 */
 (function () {
   var info = { tagged: 0, cand: [] };
+  function isBtn(e) {
+    if (/button|btn|cta/i.test(e.className || "")) return true;
+    var k = e.querySelectorAll("[class]");
+    for (var i = 0; i < k.length && i < 10; i++) {
+      var c = k[i].className;
+      if (typeof c === "string" && /button|btn|cta/i.test(c)) return true;
+    }
+    try {
+      var bg = getComputedStyle(e).backgroundColor;
+      if (bg && bg !== "transparent" && bg !== "rgba(0, 0, 0, 0)") return true;
+    } catch (r) {}
+    return false;
+  }
   function tag() {
     var els = document.querySelectorAll('a,button,input[type="submit"]');
     info.tagged = 0; info.cand = [];
     for (var i = 0; i < els.length; i++) {
       var e = els[i];
       var t = ((e.tagName === "INPUT" ? e.value : e.textContent) || "").replace(/\s+/g, " ").trim();
-      if (/appointment/i.test(t) && info.cand.length < 6) info.cand.push(t.slice(0, 60));
-      if (t.length < 120 && /see\s+available\s+appointment/i.test(t)) {
+      if (/appointment/i.test(t) && info.cand.length < 8) info.cand.push(t.slice(0, 60));
+      var byText = t.length < 120 && /see\s+available\s+appointment/i.test(t);
+      var byLink = e.tagName === "A" && e.pathname && e.pathname.replace(/\/+$/, "") === "/contact" && isBtn(e);
+      if (byText || byLink) {
         e.classList.add("oc-cta-green");
         info.tagged++;
       }
@@ -52,7 +73,7 @@
       d.style.cssText = "position:fixed;left:8px;bottom:8px;z-index:99999;background:#111;color:#0f0;font:12px/1.4 monospace;padding:8px 10px;border-radius:6px;max-width:70vw";
       document.body.appendChild(d);
     }
-    d.textContent = "OCGreenCta v1.0.2 tagged=" + info.tagged + " cand=" + JSON.stringify(info.cand);
+    d.textContent = "OCGreenCta v1.1.0 tagged=" + info.tagged + " cand=" + JSON.stringify(info.cand);
   }
   if (document.readyState !== "loading") tag();
   else document.addEventListener("DOMContentLoaded", tag);
