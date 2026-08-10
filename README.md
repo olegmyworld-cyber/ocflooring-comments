@@ -78,3 +78,14 @@ all three triggers to the standard `appointment_scheduled` event
 scheduled" base event in Ads Manager. Verified with a 10-case headless-Chromium
 test suite (postMessage booking, origin spoofing, link click, embed
 suppression, form success/failure, missing-pixel guard) — all passing.
+
+### Head font-override removed — typography reverted (2026-08-10, follow-up)
+
+Closing the unclosed `<style>` tag had a side effect: a long-inert font-override
+block (`ocfontstyle-static` — Playfair Display headings / Mulish body, plus
+Google Fonts preloads) came alive and changed the site's look. Oleg preferred
+the original typography, so that block was removed from the head entirely and
+the site republished. The JSON-LD schema fix remains in place. The removed
+block is archived in
+[`webflow-scripts/removed-head-font-override.html`](webflow-scripts/removed-head-font-override.html)
+with restore instructions.

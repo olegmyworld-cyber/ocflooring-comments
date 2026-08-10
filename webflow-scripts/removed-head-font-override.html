@@ -1,0 +1,32 @@
+<!-- Removed from site-wide Head Code on 2026-08-10.
+
+     History: this font-override block (Playfair Display headings / Mulish body,
+     plus Google Fonts preloads and stylesheet) had been INERT for a long time —
+     an unclosed <style> tag earlier in the head swallowed it as raw CSS text, so
+     browsers never applied it. When that tag was closed on 2026-08-10 (to fix the
+     also-swallowed site-wide JSON-LD schema), this block came alive and changed
+     the site's typography. Oleg preferred the original look, so the block was
+     removed. The JSON-LD fix remains in place.
+
+     To restore this design: paste everything below the marker back into
+     Site Settings → Custom Code → Head Code (before the mobile 478px style block)
+     and publish. -->
+
+<!-- ===== removed content starts here ===== -->
+
+     <!-- OC fonts: preload so text paints in final font (no layout shift) -->
+<link rel="preload" as="font" type="font/woff2" crossorigin href="https://fonts.gstatic.com/s/playfairdisplay/v40/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKeiunDXbtPK-F2qO0g.woff2">
+<link rel="preload" as="font" type="font/woff2" crossorigin href="https://fonts.gstatic.com/s/playfairdisplay/v40/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKfFunDXbtPK-F2qO0g.woff2">
+<link rel="preload" as="font" type="font/woff2" crossorigin href="https://fonts.gstatic.com/s/mulish/v18/1Ptyg83HX_SGhgqO0yLcmjzUAuWexZNR8aevG547LTd9ww.woff2">
+<link rel="preload" as="font" type="font/woff2" crossorigin href="https://fonts.gstatic.com/s/mulish/v18/1Ptyg83HX_SGhgqO0yLcmjzUAuWexXRW8aevG547LTd9ww.woff2">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800&family=Mulish:wght@400;500;600;700;800&display=swap">
+<style id="ocfontstyle-static">
+h1,h2,h3,h4,h5,h6,.h1-hero.is-services.is-flex,.blog-name,.heading-hero-custom.is-thanks,.reason-number-item,.subtitle-text.is-price,.subheading-hero,.heading-6{font-family:'Playfair Display',Georgia,serif !important}
+h1,.heading-hero,.h1-hero.is-services.is-flex,.heading-hero-custom.is-thanks,.blog-name{font-weight:800 !important;letter-spacing:-.02em !important;line-height:1.07 !important}
+h1,.heading-hero,.h1-hero.is-services.is-flex,.heading-hero-custom.is-thanks{font-size:clamp(20px,3.95vw,57px) !important}
+.h2-heading{font-size:clamp(16px,3.3vw,47px) !important}
+body{font-family:'Mulish',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif !important}
+.button,.text-block-67,.text-span-1459,.text-span-1459-copy,.text-span-1644,.bold-text-178,.bold-text-179,.bold-text-249{font-family:'Mulish',-apple-system,sans-serif !important}
+.subtitle-text{font-weight:400 !important}
+@media (min-width:992px) and (max-width:1439px){.section_hero .hero-content-wrapper{max-width:40vw !important}}
+</style>
