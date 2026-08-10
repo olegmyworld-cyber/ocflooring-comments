@@ -132,3 +132,11 @@ Installed & Restored Across Washington" announcement strip (it links to
 edge-to-edge with the viewport), so banners keep their design while real
 buttons — including mobile full-width-in-container CTAs — stay green.
 Browser-tested at desktop and mobile viewports. Published live.
+
+### Green CTA v1.2.0 — top button labeled "See Available Appointments" (2026-08-10)
+
+Per Oleg: on each page, the first visible green booking button now reads
+"See Available Appointments"; other green buttons keep their own wording.
+The label swap preserves nested markup (inner divs, hover text-swap spans) and
+skips hidden elements like mobile-nav duplicates when picking the top button.
+Browser-tested, published live.

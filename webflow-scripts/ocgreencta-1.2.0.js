@@ -1,4 +1,4 @@
-/* OCGreenCta 1.1.1 — green accent for the "See Available Appointment" booking CTA.
+/* OCGreenCta 1.2.0 — green accent for the "See Available Appointment" booking CTA.
    Oleg wants the booking button to stand out from the site's red/navy palette,
    so it gets #1e7a3c (hover #166132, white text kept). Applied site-wide via the
    Footer Code block (Site Settings → Custom Code → Footer Code).
@@ -20,7 +20,14 @@
    .oc-cta-green:focus-visible{outline:3px solid rgba(30,122,60,.4) !important;outline-offset:2px}
 */
 
-/* v1.1.1: full-width elements are excluded (offsetWidth > 700px, or
+/* v1.2.0: the FIRST visible green button on each page gets its label set to
+   "See Available Appointments" (setLabel preserves nested markup: single text
+   leaf replaced in place; identical duplicated leaves, as in hover text-swap
+   buttons, all replaced; mixed multi-segment text collapses into the first
+   leaf). Other green buttons keep their own wording. Hidden elements (e.g.
+   mobile-nav duplicates) are skipped when picking the top button.
+
+   v1.1.1: full-width elements are excluded (offsetWidth > 700px, or
    edge-to-edge with the viewport) so announcement bars that link to /contact
    — like the "1,000+ Floors Installed" strip — keep their original design.
    Also removes the class from elements that stop qualifying on re-runs.
@@ -41,6 +48,7 @@
 */
 (function () {
   var info = { tagged: 0, cand: [] };
+  var renamed = false;
   function isBtn(e) {
     if (/button|btn|cta/i.test(e.className || "")) return true;
     var k = e.querySelectorAll("[class]");
@@ -58,6 +66,35 @@
     var w = e.offsetWidth;
     return w > 700 || w >= ((window.innerWidth || 1e9) - 4);
   }
+  function setLabel(e, txt) {
+    var leaves = [], all = e.getElementsByTagName("*");
+    if (all.length === 0) { e.textContent = txt; return; }
+    for (var i = 0; i < all.length; i++) {
+      var n = all[i];
+      if (n.children.length === 0 && (n.textContent || "").trim()) leaves.push(n);
+    }
+    if (leaves.length === 0) { e.textContent = txt; return; }
+    var first = leaves[0].textContent.trim(), same = true;
+    for (var j = 1; j < leaves.length; j++) {
+      if (leaves[j].textContent.trim() !== first) { same = false; break; }
+    }
+    for (var j = 0; j < leaves.length; j++) {
+      if (j === 0 || same) leaves[j].textContent = txt;
+      else leaves[j].textContent = "";
+    }
+  }
+  function renameTop() {
+    if (renamed) return;
+    var gs = document.querySelectorAll(".oc-cta-green");
+    for (var i = 0; i < gs.length; i++) {
+      var e = gs[i];
+      if (e.offsetWidth > 0 && e.offsetHeight > 0) {
+        setLabel(e, "See Available Appointments");
+        renamed = true;
+        break;
+      }
+    }
+  }
   function tag() {
     var els = document.querySelectorAll('a,button,input[type="submit"]');
     info.tagged = 0; info.cand = [];
@@ -74,6 +111,7 @@
         e.classList.remove("oc-cta-green");
       }
     }
+    renameTop();
     if (/[?&]ocdebug=1/.test(location.search)) dbg();
   }
   function dbg() {
@@ -84,7 +122,7 @@
       d.style.cssText = "position:fixed;left:8px;bottom:8px;z-index:99999;background:#111;color:#0f0;font:12px/1.4 monospace;padding:8px 10px;border-radius:6px;max-width:70vw";
       document.body.appendChild(d);
     }
-    d.textContent = "OCGreenCta v1.1.1 tagged=" + info.tagged + " cand=" + JSON.stringify(info.cand);
+    d.textContent = "OCGreenCta v1.2.0 tagged=" + info.tagged + " renamed=" + renamed + " cand=" + JSON.stringify(info.cand);
   }
   if (document.readyState !== "loading") tag();
   else document.addEventListener("DOMContentLoaded", tag);
