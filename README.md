@@ -97,3 +97,11 @@ site's red/navy palette. Added `OCGreenCta` to the site-wide Footer Code block:
 finds buttons/links by their visible text (robust to class changes) and applies
 green `#1e7a3c` (hover `#166132`, white text, green focus ring). Published live.
 Source: [`webflow-scripts/ocgreencta-1.0.0.js`](webflow-scripts/ocgreencta-1.0.0.js).
+
+### Green CTA v1.0.1 — gradient-proof override (2026-08-10, follow-up)
+
+The button stayed visually red after v1.0.0 despite the code being live: the
+1.0.0 CSS only overrode `background-color`, which loses when the button is
+styled with a gradient (`background-image` paints on top — reproduced in a
+headless-Chromium test). v1.0.1 uses the `background` shorthand plus
+`background-image:none` so the green wins either way. Republished.
