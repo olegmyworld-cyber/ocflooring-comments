@@ -55,3 +55,13 @@ load. Readable source: [`webflow-scripts/ocoaiqevents-1.0.0.js`](webflow-scripts
 Not yet published — pending review in Webflow. (A registered-script copy
 `ocOaiqEvents 1.0.0` also exists in the site's script library but is not applied
 anywhere; the footer block is the live copy.)
+
+### Head Code — unclosed `<style>` tag fix (2026-08-10)
+
+**Problem:** In the site-wide Head Code, the `body, html {overflow-x: hidden}`
+`<style>` block was never closed. Browsers treated everything up to the next
+`</style>` (the site-wide LocalBusiness JSON-LD schema and the four font preload
+links) as raw CSS text, so the schema markup and preloads were dead on every page.
+
+**Fix:** Added the missing `</style>` immediately after the overflow rule. No
+other characters in the head block were changed. Takes effect on next publish.
