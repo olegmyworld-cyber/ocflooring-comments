@@ -30,6 +30,20 @@ repair city pages instead:
 
 This was the only stale-URL problem found on any of the 31 pages.
 
+**Fixed (2026-08-22, same session):** the stale embed was replaced with a
+native Webflow section (`.ocsa`, element `ed8d99a3-7024-88ff-5bed-1eb5caf762ad`)
+carrying the same heading, intro copy, and 30-city grid, with all 29 links
+now pointing at the `hardwood-floor-repair-in-{city}-wa` pages (verified to
+exist) and "Seattle, WA" kept as the non-linked current-page marker. Because
+HTML-embed code cannot be edited through the Data API, the block was rebuilt
+as real elements; its styling (including hover, responsive clamp() sizes,
+and the 2-column mobile grid) was recreated in a `<style id="ocsa-css">`
+block appended to the Seattle page's footer custom code, alongside the
+existing `oc-repair-hero-css` block. The old embed element
+(`2f264998-ac12-0ef3-c23f-83a67940373d`) was removed. Site republish to
+both custom domains and the Webflow subdomain initiated (Webflow's
+1-publish-per-minute rate limit required a retry).
+
 ## Minor
 
 2. **Bellevue and Renton pages are missing the "Book Your Free {City} Floor
