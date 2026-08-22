@@ -44,6 +44,36 @@ existing `oc-repair-hero-css` block. The old embed element
 republished to www.nwocflooring.com, nwocflooring.com, and the Webflow
 subdomain (publish confirmed 2026-08-22 18:18:58 UTC).
 
+**Revised (same day, follow-up):** per Oleg's feedback the interim custom
+`.ocsa` section did not match the sitewide service-areas design, so it was
+removed again and replaced with the real shared **Section // Areas** slider
+component. Three coordinated changes:
+
+1. **New "Floor Repair Service Areas" slide** appended to the shared
+   Section // Areas component (5th `.content-box-area`, same
+   `heading-area` / `area-table` / `areas-row` / `area-link-item`
+   structure and styles as the existing four slides). Its 30 city entries
+   are real links to the `hardwood-floor-repair-in-{city}-wa` pages —
+   unlike the other four slides, whose links get hrefs injected at runtime
+   by the `ocarealinksinjector` script. Appears on every page carrying the
+   Areas section.
+2. **OCAreasStart v1.0.0** (inline script appended to the site-wide
+   freeform footer code; source of record
+   `webflow-scripts/ocareasstart-1.0.0.js`): the Areas slider now opens on
+   the slide matching the page — repair pages on Floor Repair, the home
+   page and refinishing pages on Hardwood Floor Refinishing, vinyl plank
+   pages on Luxury Vinyl Plank, hardwood installation pages on Hardwood.
+   It reorders the slide blocks at parse time, before the slider
+   (which waits on the deferred Swiper bundle) initializes.
+3. **Seattle page** now uses the shared Section // Areas component in
+   place of the custom `.ocsa` block (instance
+   `64b8c8ad-6a34-14a2-96b0-f7b0f9b9286a`; custom section and its
+   `ocsa-css` page-footer styles removed — the hero CSS block was kept).
+
+To verify visually: the areas slider should show 5 dots; repair pages open
+on "Floor Repair Service Areas" with clickable city links; the home page
+opens on "Hardwood Floor Refinishing Service Areas".
+
 ## Minor
 
 2. **Bellevue and Renton pages are missing the "Book Your Free {City} Floor
