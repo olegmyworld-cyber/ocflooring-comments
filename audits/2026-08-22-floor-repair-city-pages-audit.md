@@ -203,3 +203,18 @@ posts, and rewrite them as answer-first content:
   city (map: `blog-backup/guides-link-map-2026-08-22.json`). Styling via
   builder-applied `ocgd` classes plus the `#ocgd-css` block in the
   site-wide footer code.
+
+### Blog hero images (same session, per Oleg)
+
+The blog template's hero used the shared Section // Hero component, whose
+image is a fixed photo inside the component — so every post showed the
+same sander picture regardless of its CMS Main Image. Fix, using the
+proven CMS-token support in collection-page custom code:
+
+- Template head now emits per-post `og:image` / `twitter:image` metas and
+  a BlogPosting `image` property from the Main Image field (also fixes
+  social-share previews, which had no image at all).
+- A small `oc-blog-hero-img` script in the template footer swaps the hero
+  `.hero-cover-img` to the og:image URL at parse time (guarded: a post
+  with no Main Image keeps the default photo; the post title becomes the
+  image alt).
