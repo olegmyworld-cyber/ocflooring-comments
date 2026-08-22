@@ -150,3 +150,28 @@ Areas".
   slider hides its self-referential Floor Repair card only on repair pages
   (scoped `:has(#ocpq)` CSS); footer review-count normalizer (103) matches
   the "103 five-star reviews" used in page copy.
+
+---
+
+## Blog activation & rewrite (2026-08-22, same session)
+
+Per Oleg's request to unify all blogs on the reference design
+(`/blog/hardwood-floor-refinishing-process-timeline`), activate inactive
+posts, and rewrite them as answer-first content:
+
+- Inventory: 109 blog items — 98 already live in the ocb design system
+  with FAQs and fresh metadata (a prior work pass had modernized them);
+  11 archived, never-published posts (all carpet/tile topics) held the
+  old thin content.
+- All 11 were rewritten from scratch in the ocb template (Quick-answer
+  card, fact tiles, city-specific sections, 6–8 item FAQ accordion with
+  exactly matching FAQPage JSON-LD, CTA card), researched against real
+  Reddit/Google/forum questions via web search, interlinked to live
+  blogs, service pages, and city pages, and assigned to the current
+  category set. Positioning follows the live carpet posts: OC Flooring
+  is a hard-surface company and does not sell or install carpet; carpet
+  figures are market rates.
+- All 11 were un-archived and published; the live collection now counts
+  109/109 active, all included in the sitemap. Slugs and images were
+  left unchanged. Originals: `blog-backup/blogs-original-2026-08-22.json`;
+  new content: `blog-backup/rewrites-2026-08-22/`.
