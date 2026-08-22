@@ -218,3 +218,18 @@ proven CMS-token support in collection-page custom code:
   `.hero-cover-img` to the og:image URL at parse time (guarded: a post
   with no Main Image keeps the default photo; the post title becomes the
   image alt).
+
+### Blog image cropping fix (same session, per Oleg)
+
+The new blog images are infographics with text at the edges; both the
+post hero and the blog cards were crop-filling them (object-fit: cover),
+clipping the text. Fixes:
+- Blog template footer: `#oc-blog-hero-img-css` — the post hero image now
+  displays whole (object-fit: contain, centered, max-height 560/600px,
+  rounded with shadow), mirroring the city pages' hero treatment.
+- Site-wide footer: `#oc-blog-card-img-css` — `.blog-image` cards on the
+  blog listing, related-posts grids, and home now use contain with a warm
+  letterbox background instead of cover-cropping.
+- Not fixable by CSS: the "Dustless vs. Traditional" thumbnail has a
+  "DOWNLOAD BOTH IMAGES (MAIN + THUMBNAIL) – AVIF" button baked into the
+  image file itself — that image needs re-exporting/replacing in the CMS.
