@@ -1,4 +1,4 @@
-// OC Areas slider start slide (OCAreasStart) v1.0.0
+// OC Areas slider start slide (OCAreasStart) v1.0.1
 // Applied as inline <script> in the SITE-WIDE freeform footer custom code block
 // (not a registered script — the registered footer block is at its 15-script limit).
 //
@@ -13,7 +13,9 @@
 //                                                   -> "Luxury Vinyl Plank Service Areas"
 //   hardwood installation pages + /services/hardwood-floor-installation
 //                                                   -> "Hardwood Service Areas"
-// Pages with no match keep the default order (Laminate first).
+// Pages with no match keep the default order — Hardwood Floor Refinishing first,
+// since the Laminate slide was removed from the component in v1.0.1 (laminate is
+// a blog topic, not a service category).
 //
 // Mechanism: runs synchronously at parse time (bottom of <body>) and moves the
 // matching .content-box-area slide to the front of .areas-content-wrapper BEFORE

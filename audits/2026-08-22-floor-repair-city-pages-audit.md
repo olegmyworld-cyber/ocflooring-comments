@@ -70,9 +70,19 @@ component. Three coordinated changes:
    `64b8c8ad-6a34-14a2-96b0-f7b0f9b9286a`; custom section and its
    `ocsa-css` page-footer styles removed — the hero CSS block was kept).
 
-To verify visually: the areas slider should show 5 dots; repair pages open
-on "Floor Repair Service Areas" with clickable city links; the home page
-opens on "Hardwood Floor Refinishing Service Areas".
+**Laminate slide removed (same day, per Oleg):** laminate installation is
+not an offered category (blog topic only), so the "Laminate Floor Service
+Areas" slide was deleted from the shared Section // Areas component. The
+slider is now 4 slides — Hardwood Floor Refinishing, Luxury Vinyl Plank,
+Hardwood, Floor Repair — with Refinishing as the default first slide on
+pages OCAreasStart doesn't reorder. OCAreasStart bumped to v1.0.1
+(comment-only change; source of record
+`webflow-scripts/ocareasstart-1.0.1.js`).
+
+To verify visually: the areas slider should show 4 dots and no Laminate
+slide; repair pages open on "Floor Repair Service Areas" with clickable
+city links; the home page opens on "Hardwood Floor Refinishing Service
+Areas".
 
 ## Minor
 
