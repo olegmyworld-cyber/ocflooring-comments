@@ -40,9 +40,9 @@ as real elements; its styling (including hover, responsive clamp() sizes,
 and the 2-column mobile grid) was recreated in a `<style id="ocsa-css">`
 block appended to the Seattle page's footer custom code, alongside the
 existing `oc-repair-hero-css` block. The old embed element
-(`2f264998-ac12-0ef3-c23f-83a67940373d`) was removed. Site republish to
-both custom domains and the Webflow subdomain initiated (Webflow's
-1-publish-per-minute rate limit required a retry).
+(`2f264998-ac12-0ef3-c23f-83a67940373d`) was removed and the site
+republished to www.nwocflooring.com, nwocflooring.com, and the Webflow
+subdomain (publish confirmed 2026-08-22 18:18:58 UTC).
 
 ## Minor
 
