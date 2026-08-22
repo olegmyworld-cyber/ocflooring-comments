@@ -175,3 +175,31 @@ posts, and rewrite them as answer-first content:
   109/109 active, all included in the sitemap. Slugs and images were
   left unchanged. Originals: `blog-backup/blogs-original-2026-08-22.json`;
   new content: `blog-backup/rewrites-2026-08-22/`.
+
+---
+
+## Blog SEO/AEO follow-ups (2026-08-22, same session, per Oleg)
+
+- **Slug cleanup:** the two never-indexed carpet slugs were shortened —
+  `carpet-installation-cost-bothell-wa` and `flooring-guide-mill-creek-wa`
+  (both republished; the old slugs were never published before today).
+- **Category cleanup:** the 7 orphaned legacy blog categories (General,
+  City Guides, Comparisons & Guides, Repair & Care, Vinyl & Laminate,
+  Installation, Refinishing) were unpublished and deleted; exactly the
+  current 7 remain, and every post is assigned to one of them.
+- **Article schema:** the Blogs Template page head now emits static
+  BlogPosting JSON-LD per post (headline/description/url from CMS field
+  tokens, author + publisher = OC Flooring, publisher linked to the
+  site-wide LocalBusiness `#ocflooring` entity). Static markup, so AI
+  crawlers that don't execute JavaScript can read it.
+- **Outbound links in 8 vinyl posts:** 21 contextual links added
+  surgically (existing phrases wrapped; bodies otherwise byte-identical)
+  and republished.
+- **Inbound links for indexing:** all 119 city service pages
+  (repair/installation/refinishing/vinyl × cities) now carry a
+  "Flooring Guides & Answers" section above the footer with 5 blog links
+  each, assigned so that **every one of the 109 blog posts receives 4–7
+  inbound links from Google-indexed pages**, matched by service type and
+  city (map: `blog-backup/guides-link-map-2026-08-22.json`). Styling via
+  builder-applied `ocgd` classes plus the `#ocgd-css` block in the
+  site-wide footer code.
