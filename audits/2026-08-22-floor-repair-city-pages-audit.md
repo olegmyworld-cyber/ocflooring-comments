@@ -388,3 +388,58 @@ descriptions >170; booking on old nwwillsflooring Calendly slug
 WATCH: 30 new repair pages + ~40 older blogs at 0 impressions (new URLs
 / interlinks just shipped — resubmit sitemap, recheck in 3–4 weeks);
 "oc flooring" brand query at avg position 5.8.
+
+### Audit fixes applied (2026-08-23, per Oleg's approval)
+
+Redirects: Oleg had already added them in Webflow (171 rules; old laminate
+city URLs 301 → the repair pages) — the audit's "404" concern was wrong;
+old ranked URLs redirect correctly and Google will catch up on its own.
+
+Fixes shipped and published:
+1. **Wrong brand name** — /services/eco-friendly-floor-refinishing: both
+   "Fisher Hardwood Flooring" mentions → "OC Flooring"; H1 trailing space
+   removed. Page-wide "Fisher" search: 0 matches.
+2. **Carpet-as-a-service removed everywhere approved**:
+   - Calculator: "Carpet" service radio removed (form script verified
+     safe — selects by group name; tear-out carpet options kept);
+     "adress" typo fixed.
+   - Commercial page: install-list, services card (now "Commercial Floor
+     Removal & Prep", honest tear-out copy under the carpet-tile photo),
+     both FAQ embeds + their FAQPage JSON-LD, SEO meta description; also
+     fixed placeholder H2 ("Commercial Services Section" → real heading)
+     and the residential "Arlington homeowners" CTA → Puget Sound
+     businesses. Only remaining "carpet" = legitimate tear-out sentence.
+   - Flooring-store page: carpet card removed from the selection grid,
+     rich-text bullet + sentence, FAQ embed (4 answers) + JSON-LD made
+     verbatim-matching, SEO title/description. "carpet" matches: 0.
+   - Our-products page: carpet dropped from product lists, 3 FAQ answers
+     + JSON-LD, SEO meta description. "carpet" matches: 0.
+   - Stairs page: FAQ "carpeted stairs" → "luxury vinyl plank treads"
+     (JSON-LD matched); draft heading replaced with "Stair Materials:
+     Wood, Engineered & Laminate Options".
+   - SHARED "Section // Services" component: "Flooring Materials" card
+     description "...vinyl, or carpet..." → "...or vinyl..." — fixes the
+     claim on every page rendering that section.
+3. **Vinyl city pages — cross-city leak fixed on all 30** (plus North
+   Bend hardwood-installation page): every page had the CTA subtitle
+   hardcoded to "Arlington homeowners" and 4 benefits-image alts
+   hardcoded to Kirkland; Edmonds' hero additionally said Lynnwood.
+   All corrected to each page's own city; service-area lists, county
+   names, showroom address, and blog-guide links left intact. Verified
+   0 "Arlington"/"Kirkland" leaks remaining per page. (One agent found
+   5 stale page ids in its manifest and re-resolved them via list_pages
+   before editing — all paths verified.)
+4. **/reviews rebuilt as a real reviews page**: pricing content removed
+   (5 elements incl. the pricing FAQ embed), the live Google-reviews
+   widget (Elfsight — the site's only true review source) moved up under
+   a new H1 "OC Flooring Reviews — What King & Snohomish County
+   Homeowners Say", new service-grouped section (Refinishing / Repair /
+   Vinyl / Installation cards linking each service) + CTA; "Why Choose"
+   copy now review-focused; page title "Price" → "Reviews", SEO
+   title/description updated. No reviews were invented — the widget
+   pulls the real 103 Google reviews.
+
+Flagged for Oleg (not changed): commercial page still lists epoxy /
+polished concrete / rubber (confirm if offered); flooring-store still
+has a "Tile and Stone" card (confirm if the store sells tile); Calendly
+booking question still offers Carpet/Tile choices (Calendly side).
