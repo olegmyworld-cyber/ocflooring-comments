@@ -33,6 +33,29 @@ breakpoint already renders the image uncropped). See
 Published live to `nwocflooring.com`, `www.nwocflooring.com`, and the Webflow
 subdomain.
 
+### Same fix site-wide for the city floor-repair pages (2026-08-23)
+
+The same 650×550 composite (asset `69ec0333eda923fe81bd51c9`) is the hero image
+on the city `hardwood-floor-repair-in-*` pages, with the identical crop problem.
+Rolled the fix out site-wide as CSS keyed to that one asset id
+(`img.hero-cover-img[src*="69ec0333eda923fe81bd51c9"]`), so heroes with other
+images — e.g. the refinishing pages' sander photo, a plain photo where
+center-crop is fine — are untouched.
+
+Delivery: merged into the existing **OCHeaderInit** registered script
+(→ v1.1.0), which already injects CSS synchronously at the site header (no
+flash of cropped content), because the site is at its 15-applied-scripts limit —
+same convention as the earlier BonaMobileFix merge. A standalone `ocheroba`
+1.0.0 registration created before hitting the limit could be neither applied nor
+deleted (API 400); it is unapplied and inert. The page-scoped rule on
+`/services/flooring-repair` stays in place (identical values, no conflict).
+Verified in the local hero replica (script-injection variant) at 1280–2560 px:
+the card holds the image's 1.182 aspect at every width. See
+[`webflow-scripts/ocheaderinit-1.1.0.js`](webflow-scripts/ocheaderinit-1.1.0.js).
+
+Published live to `nwocflooring.com`, `www.nwocflooring.com`, and the Webflow
+subdomain.
+
 ## Changes on branch `claude/oc-flooring-webflow-fixes-amosur`
 
 ### Bona sealer widget — "CUSTOMER FAVORITE" badge overlap (2026-06-14)
