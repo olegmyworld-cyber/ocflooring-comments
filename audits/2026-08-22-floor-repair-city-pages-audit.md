@@ -298,3 +298,47 @@ the canvas, ideally ≥5% margin):
 - what-type-of-wood-is-best-species-guide-thumbnail.avif
 - flooring-real-estate-success-playbook-thumbnail.avif
 - dustless-vs-traditional thumbnail (download button baked in)
+
+### Blog duplicate audit + de-duplication rewrites (2026-08-23, per Oleg)
+
+Oleg asked for a full duplicate check across all blogs, with rewrites for
+anything found. Scan of all 109 posts (fresh CMS pull, saved locally as
+scratchpad blogs-current-flat.json):
+
+- **Clean at the surface level:** no duplicate names, title-tags, or
+  meta-descriptions anywhere; no copied body content (max 6-gram shingle
+  similarity between any two posts: 4.7%).
+- **Four topic/identity duplicate pairs found** (same search intent
+  targeted twice) and resolved by re-angling the weaker post while the
+  stronger stays canonical; rewritten bodies validated (FAQ = JSON-LD,
+  links checked against live slugs, first .ocb embed byte-identical,
+  images untouched) and pushed byte-exact:
+  1. `solid-v-s-engineered-wood-floors-whats-right-for-your-home` — was a
+     second "Solid vs Engineered" post; now **"Wood Floors on Slabs,
+     Basements & Radiant Heat: What Your House Allows"** (installation-
+     situations guide). Canonical comparison remains
+     `solid-vs-engineered-hardwood-which-is-right-for-your-home`.
+  2. `benefits-of-vinyl-plank-flooring-for-seattle-wa-homes-...` — was a
+     second "vinyl plank is great for Seattle" post; now **"How to Choose
+     Vinyl Plank for a Seattle Home: A Buyer's Spec Guide"** (wear-layer
+     mils, SPC/WPC cores, 2026 Seattle price tiers). Canonical case-for
+     post remains `why-vinyl-plank-flooring-is-perfect-for-seattle-homes`.
+  3. `cost-to-refinish-hardwood-floors` — competed with the canonical 43K
+     price guide for the same head query; now **"Hardwood Refinishing
+     Budgets: 5 Real Projects, Line by Line (2026)"** (worked examples,
+     linked to the canonical guide 5×). Canonical remains
+     `how-much-does-it-cost-to-refinish-hardwood-floors`.
+  4. `hardwood-floor-refinishing-near-me-seattle-wa` — was an UNPUBLISHED
+     DRAFT colliding with both the contractor-hiring checklist and the
+     day-by-day timeline post; now **"Booking Hardwood Floor Refinishing
+     in Seattle: Timing & Logistics"** (lead times, seasonal windows,
+     condo/HOA + parking logistics, re-entry times) and **flipped live**
+     — 109/109 posts are now published.
+- Every pair now cross-links its mate with descriptive anchors instead of
+  competing. CMS items published (live immediately); site republished so
+  sitemap.xml includes the newly live URL.
+- **Borderline-adjacent pairs reviewed and intentionally left** (bodies
+  and intents already differentiated): refinish-or-replace trio
+  (cheaper-math / damage-guide / worth-it), Seattle-climate vs
+  PNW-climate, dustless-vs-traditional vs living-through-dust-free, and
+  the two OC-process posts ("our process" vs "what it fixes").
