@@ -261,3 +261,40 @@ Reminder for review: browsers cache the old HTML/CSS aggressively — check
 with a hard refresh (Cmd+Shift+R / Ctrl+F5). The dustless-vs-traditional
 thumbnail still carries the baked-in "DOWNLOAD BOTH IMAGES" band inside
 the image file; only replacing the image in the CMS fixes that one.
+
+### Blog card images — root cause isolated to the image files (same session, per Oleg)
+
+Oleg reported edge text still cut off on /blog cards after the class-level
+contain fix. Full verification pass this round:
+
+- The /blog card is a plain `<img class="blog-image">` (element
+  3d83953f-...37da0 on page 65f32565e111adbbb806ceaa) — confirmed via the
+  element API, so `object-fit` genuinely governs it.
+- Live CSS chain re-verified end to end: the `.blog-image` class is
+  contain (base + main); the site-wide footer `#oc-blog-card-img-css`
+  contain override has been live since the 23:04 publish; the listing
+  page's own head block styles only card typography (no image rule); the
+  template-head cover rule was fixed in the 02:37 publish. Nothing in the
+  cascade crops anymore — and `object-fit: contain` cannot cut pixels.
+- The screenshot's cuts are **asymmetric** (left edge of each infographic
+  intact, right edge cut mid-word: "MAXIMIZ…", "…help you choos"),
+  which centered CSS cropping can never produce. Conclusion: the text is
+  cut **inside the generated AVIF files themselves** — the generator ran
+  the right-hand text column past the canvas edge on at least the
+  species-guide and real-estate-playbook thumbnails (plus the previously
+  noted dustless-vs-traditional thumbnail with the baked-in download
+  button). CDN egress is blocked from this environment and CMS-uploaded
+  files are not in the site asset library, so the files could not be
+  opened here; the raw URLs were given to Oleg for a 10-second visual
+  check.
+- Presentation hardening shipped anyway: the /blog listing page footer
+  (previously empty) now carries `#oc-blog-card-inset-css` — a 10px
+  parchment inset (padding + border-box) on `.blog-image`, so any
+  edge-hugging text in a healthy file renders with breathing room.
+  Published to both domains + subdomain.
+
+Files flagged for re-export/replacement in the CMS (text must stay inside
+the canvas, ideally ≥5% margin):
+- what-type-of-wood-is-best-species-guide-thumbnail.avif
+- flooring-real-estate-success-playbook-thumbnail.avif
+- dustless-vs-traditional thumbnail (download button baked in)
