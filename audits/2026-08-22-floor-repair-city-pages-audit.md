@@ -443,3 +443,26 @@ Flagged for Oleg (not changed): commercial page still lists epoxy /
 polished concrete / rubber (confirm if offered); flooring-store still
 has a "Tile and Stone" card (confirm if the store sells tile); Calendly
 booking question still offers Carpet/Tile choices (Calendly side).
+
+### Service-scope corrections (2026-08-23, per Oleg: "no, we dont do that")
+
+- **Commercial page** — epoxy flooring, polished concrete, and rubber
+  flooring removed as offered services: three install-list items replaced
+  with real services (commercial laminate installation, commercial
+  hardwood refinishing, floor removal & subfloor prep); warehouse and gym
+  industry lines rewritten to LVT/rigid-core vinyl; cost FAQ re-tiered to
+  laminate/vinyl vs LVT/hardwood (JSON-LD matched verbatim); SEO meta
+  description rewritten without epoxy/concrete. Page sweep: 0 matches for
+  epoxy/concrete/rubber/tile; only carpet mention is the allowed
+  tear-out sentence.
+- **Flooring-store page** — "Tile and Stone" card removed from the
+  selection grid (3 cards remain: Hardwood, Laminate, Luxury Vinyl); rest
+  of page, FAQ, SEO, and the Products CMS (all 191 items) verified
+  tile/stone-free (only false positives: brand "Stonewood", color "Slate
+  Grey", laminate "look of wood or stone" comparison).
+- **Calendly booking question** ("What services are you interested in?"
+  offering Carpet/Tile) — NOT editable via the Calendly API (custom
+  questions aren't exposed by update_event_type); Oleg must remove the
+  two choices in the Calendly dashboard on the "OC Flooring" event type.
+- Note: the store page's "Brands We Carry" strip is an external Elfsight
+  widget — its brand logos are managed in Elfsight, not Webflow.
