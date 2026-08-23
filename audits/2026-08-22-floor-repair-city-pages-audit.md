@@ -342,3 +342,49 @@ scratchpad blogs-current-flat.json):
   (cheaper-math / damage-guide / worth-it), Seattle-climate vs
   PNW-climate, dustless-vs-traditional vs living-through-dust-free, and
   the two OC-process posts ("our process" vs "what it fixes").
+
+### Full site audit (2026-08-23, per Oleg — "let me know if everything works")
+
+Layers checked: 160 pages + SEO/OG metadata (full), 109 blogs (full),
+sitemap inclusion (full), site scripts (full), forms + Calendly booking
+(verified live via API), GA4 + Search Console (Windsor connectors,
+nwocflooring property isolated from willsflooring/olegsonsremodeling),
+content sweep of 41 pages (all 29 core/service/static + 12 city sample)
+via a 9-agent workflow. Report artifact:
+https://claude.ai/code/artifact/98983a76-4636-44c3-a671-e1a0db76e58d
+
+WORKS: publishing clean (0 drafts); unique SEO titles/descriptions on
+all pages; blogs 100% complete; 0 broken internal links found; both lead
+forms present; Calendly event active; GA4 collecting (40–192
+sessions/day, generate_lead ×16 / form_submit ×5 in 14d); 46,485
+impressions / 243 clicks 28d and rising; sitemap complete.
+
+CRITICAL FINDINGS:
+1. 32 dead URLs still ranked in Google (7,621 impressions/28d → 404):
+   the old laminate city pages (converted to repair pages without
+   redirects) + renamed service slugs. Redirect map delivered
+   (audits/redirect-map-2026-08-23.csv); must be pasted into Webflow UI
+   (301 API is Enterprise-only on this plan).
+2. /services/eco-friendly-floor-refinishing names the business "Fisher
+   Hardwood Flooring" twice.
+3. Carpet offered as a service in 5 places (calculator step 1,
+   commercial, flooring-store, our-products, stairs FAQ) + Calendly
+   question offers Carpet/Tile.
+4. Wrong-city copy on vinyl city pages (Edmonds hero says Lynnwood;
+   Renton/Edmonds/Whidbey CTAs say "Arlington homeowners"; Kirkland/
+   Arlington alt texts) — 3/3 sampled vinyl pages affected.
+5. /reviews contains only pricing content, no reviews (H1 "How Much Does
+   Hardwood Floor Refinishing Cost in Bellevue?").
+6. GA4 has no key events marked (conversions read 0 though leads fire).
+
+MEDIUM: stairs draft heading "TYPES OF STAIRS / MATERIALS" live; blog
+hero leftover editorial note; unfinished-hardwood duplicated heading;
+"No items found" on our-products + vinyl service Projects; "adress"
+typo; staining page vinyl alt texts; financing empty description; wood
+wall panels Marble Oak missing description; 3 titles >65 chars, 2
+descriptions >170; booking on old nwwillsflooring Calendly slug
+(functional, cosmetic).
+
+WATCH: 30 new repair pages + ~40 older blogs at 0 impressions (new URLs
+/ interlinks just shipped — resubmit sitemap, recheck in 3–4 weeks);
+"oc flooring" brand query at avg position 5.8.
