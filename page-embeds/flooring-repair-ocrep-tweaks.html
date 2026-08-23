@@ -13,12 +13,16 @@
 /* Step badge: sit it on the image/caption seam instead of absolute-positioning
    against the card, whose height varies with the caption length. */
 .ocseq-num{position:static!important;margin:-17px 0 0 16px!important;align-self:flex-start!important;z-index:2}
-/* Hero before/after composite: the BEFORE/AFTER pills and the caption live in
-   the top-left/center of the image, so cover-cropping from the center (50% 50%)
-   clipped the BEFORE pill at the card's top edge. Anchor the crop to the
-   top-left corner instead - overflow is trimmed from the bottom/right, which is
-   plain flooring, and the pills and caption always stay visible. */
-.section_hero .hero-cover-img{object-position:0% 0%!important}
+/* Hero before/after composite (650x550 with the BEFORE/AFTER pills and caption
+   baked in): the card box is taller than the image's aspect ratio, so
+   object-fit:cover cropped the photos' sides and clipped the pills. Let the
+   card follow the image's own aspect ratio instead - same width as before,
+   height:auto, vertically centered - so the whole composite is always visible,
+   uncropped. On ultra-wide screens (>1929px), where natural height would
+   outgrow the section, size by height instead and center the card in its
+   column. */
+.section_hero .hero-cover-img{height:auto!important;object-position:50% 50%!important}
+@media (min-width:1930px){.section_hero .hero-cover-img{height:calc(100% - 48px)!important;width:auto!important;justify-self:center}}
 </style>
 <script>
 (function(){
