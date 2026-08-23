@@ -1,0 +1,39 @@
+<!-- OC Flooring — Webflow page HtmlEmbed: "ocrep-tweaks"
+     Site: OC Flooring Hardwood Refinishing (6377e8e6a53936b48ef1cad0) — nwocflooring.com
+     Page: /services/flooring-repair (page id 65f32565e111adbbb806cf4f,
+     embed element id b1b902bd-5672-4a4e-0d18-be38db92ee9c)
+
+     Page-scoped tweaks that live in an HtmlEmbed on the page itself (unlike the
+     registered footer scripts in ../webflow-scripts/). This file is the source of
+     record; the deployed copy is the embed's code setting, updated via the
+     Webflow MCP data_element_settings_tool. -->
+<style id="ocrep-tweaks">
+/* This IS the floor-repair page - do not cross-sell it back to itself. */
+.swiper-slide.is-services:has(> a[href="/services/flooring-repair"]){display:none!important}
+/* Step badge: sit it on the image/caption seam instead of absolute-positioning
+   against the card, whose height varies with the caption length. */
+.ocseq-num{position:static!important;margin:-17px 0 0 16px!important;align-self:flex-start!important;z-index:2}
+/* Hero before/after composite: the BEFORE/AFTER pills and the caption live in
+   the top-left/center of the image, so cover-cropping from the center (50% 50%)
+   clipped the BEFORE pill at the card's top edge. Anchor the crop to the
+   top-left corner instead - overflow is trimmed from the bottom/right, which is
+   plain flooring, and the pills and caption always stay visible. */
+.section_hero .hero-cover-img{object-position:0% 0%!important}
+</style>
+<script>
+(function(){
+var TXT='1,000+ Floor Repairs Across Washington';
+function fix(){
+var el=document.querySelector('a.navbar-sub-line .text-block-68');
+if(!el)return false;
+var t=el.textContent;
+if(t.indexOf(TXT)>-1)return true;
+if(t.indexOf('Floors Installed')>-1||t.indexOf('Floor Repairs')>-1){el.textContent=TXT;return true}
+return false;
+}
+if(!fix()){
+if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',fix)}
+var n=0,t=setInterval(function(){if(fix()||++n>30)clearInterval(t)},100);
+}
+})();
+</script>
