@@ -233,3 +233,31 @@ clipping the text. Fixes:
 - Not fixable by CSS: the "Dustless vs. Traditional" thumbnail has a
   "DOWNLOAD BOTH IMAGES (MAIN + THUMBNAIL) – AVIF" button baked into the
   image file itself — that image needs re-exporting/replacing in the CMS.
+
+### Blog image cropping — round 2, fixed at the class level (same session, per Oleg)
+
+Oleg reported the /blog listing cards were still cropping the infographic
+text after the round-1 CSS overrides. Root cause: the Webflow class
+`.blog-image` itself (style id 219526ce-56b4-db04-9f23-084ca4d31bff) sets
+`height: 16rem; object-fit: cover`, and depending on load/cascade order it
+could win over the late-injected footer override. Fix moved to the source:
+
+- **`.blog-image` class updated via the Style API** (base + main
+  breakpoint): `object-fit: contain` with `background-color: #f6f2ec`
+  (warm letterbox), keeping `width: 100%; height: 16rem` so the card grid
+  layout is unchanged. This applies everywhere the class renders — /blog
+  listing, related-posts grids, home — with no dependence on custom-code
+  ordering.
+- **Blog template head** (`oc-blog-readable` block): its own
+  `.blog-image` rule flipped from `object-fit: cover; background-size:
+  cover` to `object-fit: contain; background-size: contain;
+  background-repeat: no-repeat; background-color: #f6f2ec` so the
+  head-level `!important` rule no longer re-crops the related-posts cards
+  on blog post pages. Everything else in the block byte-identical.
+- Site republished to www.nwocflooring.com, nwocflooring.com, and the
+  Webflow subdomain.
+
+Reminder for review: browsers cache the old HTML/CSS aggressively — check
+with a hard refresh (Cmd+Shift+R / Ctrl+F5). The dustless-vs-traditional
+thumbnail still carries the baked-in "DOWNLOAD BOTH IMAGES" band inside
+the image file; only replacing the image in the CMS fixes that one.
