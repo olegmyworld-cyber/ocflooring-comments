@@ -36,6 +36,35 @@ as a native Webflow page in the **City of Bellevue** folder:
 - **Not published:** the page is staged in the Designer only — publish the site
   to take it live.
 
+### Carpet page fixes after first publish (2026-08-24)
+
+Three problems surfaced on the live page; all fixed in the Designer (republish
+to take effect):
+
+1. **Unstyled cost estimator.** The `es-*` styles written to the page's head
+   custom code via the API did not survive to the published page (the stored
+   head block came back empty). Fix: bundle
+   [`webflow-scripts/oc-carpet-bellevue-1.1.0.js`](webflow-scripts/oc-carpet-bellevue-1.1.0.js)
+   now injects its own `<style>` at load, so the estimator no longer depends on
+   page custom code. Loader
+   [`webflow-scripts/occarpetbellevue-1.1.0.js`](webflow-scripts/occarpetbellevue-1.1.0.js)
+   registered as v1.1.0 and applied to the page footer.
+2. **Stretch-vs-replace gallery broke at desktop widths.** The
+   `auto-fit/minmax` column template fit three tracks at full width, throwing
+   the two-row layout off. Fix: `ci-gal-grid` locked to
+   `repeat(2, minmax(0,1fr))` (1 column on mobile portrait) and the cells got
+   explicit heights (`476px` tall stairs cell, `230px` others) with
+   `overflow:hidden` + radius on the cell itself.
+3. **Duplicate navigation.** The design's own nav row duplicated the site-wide
+   injected header. Fix: removed the `ci-nav-row` element and its styles — the
+   standard site header (injected by the existing site scripts) is the only nav
+   now.
+
+Also added per Oleg's request: the **Calendly scheduler** from the Contact page
+(`calendly.com/nwwillsflooring/free-in-home-estimate-online-today-clone-1`) now
+sits at the top of the page in a white booking card (`ci-book-*`), directly
+under the breadcrumb, as an HTML embed with the identical widget code.
+
 ## Changes on branch `claude/oc-flooring-webflow-fixes-amosur`
 
 ### Bona sealer widget — "CUSTOMER FAVORITE" badge overlap (2026-06-14)
