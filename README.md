@@ -61,9 +61,23 @@ to take effect):
    now.
 
 Also added per Oleg's request: the **Calendly scheduler** from the Contact page
-(`calendly.com/nwwillsflooring/free-in-home-estimate-online-today-clone-1`) now
-sits at the top of the page in a white booking card (`ci-book-*`), directly
-under the breadcrumb, as an HTML embed with the identical widget code.
+(`calendly.com/nwwillsflooring/free-in-home-estimate-online-today-clone-1`) as
+an HTML embed with the identical widget code.
+
+### Second round of layout changes (2026-08-24, same day)
+
+- **Calendly moved** from the top of the page to a new two-column section
+  (`ci-book-sec` / `ci-book-grid`) directly under the "How much does carpet
+  installation cost" section: info column on the left (eyebrow, heading, what
+  the visit includes, phone line) and the scheduling calendar in a white card
+  on the right (`ci-book-cal`). The old top booking card and its styles were
+  removed.
+- **Standard site navbar added.** The carpet page now starts with the same
+  "Global Styles" and "Navbar" component instances as the home page, with the
+  navbar's prop overrides copied from the home page instance (variant
+  `eb34f5cc…`, "Get a Free Estimate" button, "Contact Us" / "Service Areas"
+  labels). The earlier assumption that the site header was injected by
+  scripts was wrong — it is a Webflow component placed per page.
 
 ## Changes on branch `claude/oc-flooring-webflow-fixes-amosur`
 
