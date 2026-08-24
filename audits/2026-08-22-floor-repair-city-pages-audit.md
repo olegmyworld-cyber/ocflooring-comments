@@ -466,3 +466,35 @@ booking question still offers Carpet/Tile choices (Calendly side).
   two choices in the Calendly dashboard on the "OC Flooring" event type.
 - Note: the store page's "Brands We Carry" strip is an external Elfsight
   widget — its brand logos are managed in Elfsight, not Webflow.
+
+### Repair pages: photo-upload buttons + new sections on all 30 (2026-08-24, per Oleg)
+
+Oleg asked for three more photo-upload touchpoints at the bottom of every
+repair city page, with animation. Iterated on Mukilteo first (per his
+request), he chose "Radar Rings" from a 10-option animation demo
+(claude.ai artifact), then approved the full rollout.
+
+Shipped to all 30 floor-repair city pages:
+- **Three "Upload Your Photos" ring buttons** per page (end of What We
+  Repair, end of Repair-or-Refinish, end of FAQ), all anchoring to the
+  existing #ocpq photo-quote form — five upload touchpoints per page
+  total. Animation: continuous green radar rings (pure CSS, ::before/
+  ::after, prefers-reduced-motion respected) + hover lift.
+- **Three new city-localized photo sections** between FAQ and the closing
+  CTA: solid-hardwood sand-outs (Bona sander photo), squeaks/gaps/
+  subfloor (parquet repair photo), stairs/thresholds (staircase photo).
+  Copy localized per city from each page's own local prose (honest
+  framing where a city has little solid wood; Newcastle's no-framing-work
+  exclusion honored; Seattle adapted to its different lmb/lmf embed
+  structure across three embeds).
+- Process: every write was byte-exact string surgery verified by full
+  sha256 of the STORED value (authoritative get_settings read) — adopted
+  after one agent corrupted the Mukilteo draft by eliding a middle span
+  when retyping (caught pre-publish, restored, never live). Webflow
+  get_page_content can serve stale cache after writes; get_settings is
+  authoritative.
+- Earlier iterations on Mukilteo: rise/fade entrance (rejected), Webflow
+  IX2 native classes investigated (per-element data-w-id bindings, not
+  attachable via API), 10-option demo built, Radar Rings chosen.
+
+Published to www.nwocflooring.com, nwocflooring.com + subdomain.
