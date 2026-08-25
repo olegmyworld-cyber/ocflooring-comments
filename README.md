@@ -36,6 +36,12 @@ against four mock section structures (exact class, nested list, flat rows,
 late-injected) — one insert each, correct position. See
 [`webflow-scripts/occalendlysteps-1.1.0.js`](webflow-scripts/occalendlysteps-1.1.0.js).
 
+**v1.2.0:** Accented booking card per follow-up request ("make more accent on
+it"): the calendar now sits in a white card with a red top bar, a red
+"★ FREE — BOOK ONLINE" pill badge, a larger navy serif heading and a short
+sub-line, matching the site's navy/red/cream palette. See
+[`webflow-scripts/occalendlysteps-1.2.0.js`](webflow-scripts/occalendlysteps-1.2.0.js).
+
 Published live to `nwocflooring.com`, `www.nwocflooring.com`, and the Webflow
 subdomain.
 
