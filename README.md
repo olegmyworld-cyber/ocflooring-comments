@@ -269,6 +269,30 @@ Icons are injected at runtime into soft rounded chips (cream `#F5EDE4`, rust
 strokes); idempotent per element and wrapped in try/catch, so a failure
 leaves the page exactly as before.
 
+### Same icon treatment on the Bellevue floor-repair page (2026-08-25)
+
+Per Oleg ("do the same icons on hardwood floor repair page"): new page-scoped
+bundle
+[`webflow-scripts/oc-repair-icons-1.0.0.js`](webflow-scripts/oc-repair-icons-1.0.0.js)
+(loader
+[`webflow-scripts/ocrepairicons-1.0.0.js`](webflow-scripts/ocrepairicons-1.0.0.js),
+applied at the page footer of
+`/city-of-bellevue/hardwood-floor-repair-in-bellevue-wa` — that page's first
+page-level script). The repair page already carries icons in its embeds
+(What-We-Repair card icons, green ✓ list bullets, numbered photo steps,
+FAQ +/-), so this fills only the gaps, in the page's own palette (tan chips,
+`#be1e2d` strokes):
+
+- camera inside all four green "Upload Your Photos" pills (`.ocbp-btn`);
+- wrench / swap chips in the top-right of the "Repair it if / Refinish it
+  if" decision cards, tinted green/red to match each card's accent;
+- the two quick-test glyphs (● water drop, ☀ rug test) upgraded to matching
+  stroke SVGs;
+- a book icon on the "Flooring Guides & Answers" heading.
+
+Bellevue only for now — the other 29 repair city pages share the same embeds
+and could take the same script if wanted.
+
 ## Changes on branch `claude/oc-flooring-webflow-fixes-amosur`
 
 ### Bona sealer widget — "CUSTOMER FAVORITE" badge overlap (2026-06-14)
