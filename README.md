@@ -296,12 +296,14 @@ every `hardwood-floor-repair-in-*` page (Arlington, Bellevue, Bothell,
 Cottage Lake, Duvall, Edmonds, Everett, Issaquah, Kenmore, Kirkland, Lake
 Stevens, Lynnwood, Marysville, Medina, Mercer Island, Mill Creek, Monroe,
 Mukilteo, Newcastle, North Bend, Oak Harbor, Redmond, Renton, Sammamish,
-Seattle, Shoreline, Snohomish, Snoqualmie, Whidbey Island, Woodinville).
-None of these pages had page-level scripts before, so each page's scripts
-list is exactly this one entry. The decorator is selector-driven and no-ops
-on any element it can't find, so pages with structural quirks (e.g.
-Seattle's split embeds) degrade safely. The main
-`/services/flooring-repair` page was not touched.
+Seattle, Shoreline, Snohomish, Snoqualmie, Whidbey Island, Woodinville) —
+**plus the main `/services/flooring-repair` service page** (page id
+65f32565e111adbbb806cf4f), added per Oleg's follow-up. None of these pages
+had page-level scripts before, so each page's scripts list is exactly this
+one entry. The decorator is selector-driven and no-ops on any element it
+can't find, so pages with structural quirks (e.g. Seattle's split embeds,
+or any repair-widget sections the main service page doesn't have) degrade
+safely.
 
 ## Changes on branch `claude/oc-flooring-webflow-fixes-amosur`
 
