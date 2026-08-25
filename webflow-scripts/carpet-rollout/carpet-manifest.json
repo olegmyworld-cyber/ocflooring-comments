@@ -1,0 +1,242 @@
+[
+ {
+  "citySlug": "arlington",
+  "folderId": "65f32565e111adbbb806cecd",
+  "folderPath": "/city-of-arlington",
+  "repairPageId": "65fc667c924173ea31822fe5",
+  "repairSlug": "hardwood-floor-repair-in-arlington-wa",
+  "cityName": "Arlington"
+ },
+ {
+  "citySlug": "bellevue",
+  "folderId": "65f32565e111adbbb806cece",
+  "folderPath": "/city-of-bellevue",
+  "repairPageId": "65fa27ec5d0c6abb2205947e",
+  "repairSlug": "hardwood-floor-repair-in-bellevue-wa",
+  "cityName": "Bellevue"
+ },
+ {
+  "citySlug": "bothell",
+  "folderId": "65f32565e111adbbb806cf70",
+  "folderPath": "/hardwood-floor-refinishing",
+  "repairPageId": "65fa2d7a75518bafeb5d9b72",
+  "repairSlug": "hardwood-floor-repair-in-bothell-wa",
+  "cityName": "Bothell"
+ },
+ {
+  "citySlug": "cottage-lake",
+  "folderId": "65f32565e111adbbb806cecf",
+  "folderPath": "/city-of-cottage-lake",
+  "repairPageId": "65fc510b9a8101405117712e",
+  "repairSlug": "hardwood-floor-repair-in-cottage-lake-wa",
+  "cityName": "Cottage Lake"
+ },
+ {
+  "citySlug": "duvall",
+  "folderId": "65f32565e111adbbb806ced0",
+  "folderPath": "/city-of-duvall",
+  "repairPageId": "65fbb41f536ff7cb224a4537",
+  "repairSlug": "hardwood-floor-repair-in-duvall-wa",
+  "cityName": "Duvall"
+ },
+ {
+  "citySlug": "edmonds",
+  "folderId": "65f32565e111adbbb806ced1",
+  "folderPath": "/city-of-edmonds",
+  "repairPageId": "65fba5f0fd3ca0bccfd01141",
+  "repairSlug": "hardwood-floor-repair-in-edmonds-wa",
+  "cityName": "Edmonds"
+ },
+ {
+  "citySlug": "everett",
+  "folderId": "65f32565e111adbbb806ced2",
+  "folderPath": "/city-of-everett",
+  "repairPageId": "65fa5047e60eaa06dde2238d",
+  "repairSlug": "hardwood-floor-repair-in-everett-wa",
+  "cityName": "Everett"
+ },
+ {
+  "citySlug": "issaquah",
+  "folderId": "65f32565e111adbbb806ced3",
+  "folderPath": "/city-of-issaquah",
+  "repairPageId": "65fbca6364aeea5b39baab44",
+  "repairSlug": "hardwood-floor-repair-in-issaquah-wa",
+  "cityName": "Issaquah"
+ },
+ {
+  "citySlug": "kenmore",
+  "folderId": "65f32565e111adbbb806ced4",
+  "folderPath": "/city-of-kenmore",
+  "repairPageId": "65fbdc141db038383ea38a00",
+  "repairSlug": "hardwood-floor-repair-in-kenmore-wa",
+  "cityName": "Kenmore"
+ },
+ {
+  "citySlug": "kirkland",
+  "folderId": "65f32565e111adbbb806ced5",
+  "folderPath": "/city-of-kirkland",
+  "repairPageId": "65f32565e111adbbb806d05b",
+  "repairSlug": "hardwood-floor-repair-in-kirkland-wa",
+  "cityName": "Kirkland"
+ },
+ {
+  "citySlug": "lake-stevens",
+  "folderId": "65f32565e111adbbb806ced6",
+  "folderPath": "/city-of-lake-stevens",
+  "repairPageId": "65fc5a5a9bc577ed532ac6e2",
+  "repairSlug": "hardwood-floor-repair-in-lake-stevens-wa",
+  "cityName": "Lake Stevens"
+ },
+ {
+  "citySlug": "lynnwood",
+  "folderId": "65f32565e111adbbb806ced7",
+  "folderPath": "/city-of-lynnwood",
+  "repairPageId": "65fb7ce245261f69619647ab",
+  "repairSlug": "hardwood-floor-repair-in-lynnwood-wa",
+  "cityName": "Lynnwood"
+ },
+ {
+  "citySlug": "marysville",
+  "folderId": "65f32565e111adbbb806ced8",
+  "folderPath": "/city-of-marysville",
+  "repairPageId": "65fbb72ac1ab3c9b85aff924",
+  "repairSlug": "hardwood-floor-repair-in-marysville-wa",
+  "cityName": "Marysville"
+ },
+ {
+  "citySlug": "medina",
+  "folderId": "65f32565e111adbbb806cedc",
+  "folderPath": "/city-of-medina",
+  "repairPageId": "65fbd829acf49af524aa63f7",
+  "repairSlug": "hardwood-floor-repair-in-medina-wa",
+  "cityName": "Medina"
+ },
+ {
+  "citySlug": "mercer-island",
+  "folderId": "65f32565e111adbbb806ceee",
+  "folderPath": "/city-of-mercer-island",
+  "repairPageId": "65fbbc2f536ff7cb22516bf7",
+  "repairSlug": "hardwood-floor-repair-in-mercer-island-wa",
+  "cityName": "Mercer Island"
+ },
+ {
+  "citySlug": "mill-creek",
+  "folderId": "65f32565e111adbbb806ceef",
+  "folderPath": "/city-of-mill-creek",
+  "repairPageId": "65fa38b94f4f3e531a93aa20",
+  "repairSlug": "hardwood-floor-repair-in-mill-creek-wa",
+  "cityName": "Mill Creek"
+ },
+ {
+  "citySlug": "monroe",
+  "folderId": "65f32565e111adbbb806cef0",
+  "folderPath": "/city-of-monroe",
+  "repairPageId": "65fbb06e746b8c70d01b9b99",
+  "repairSlug": "hardwood-floor-repair-in-monroe-wa",
+  "cityName": "Monroe"
+ },
+ {
+  "citySlug": "mukilteo",
+  "folderId": "65f32565e111adbbb806cef1",
+  "folderPath": "/city-of-mukilteo",
+  "repairPageId": "65fb73df79973c66302f72e8",
+  "repairSlug": "hardwood-floor-repair-in-mukilteo-wa",
+  "cityName": "Mukilteo"
+ },
+ {
+  "citySlug": "newcastle",
+  "folderId": "65f32565e111adbbb806cef2",
+  "folderPath": "/city-of-new-castle",
+  "repairPageId": "65fbbfbdceac45fcfcb8e45c",
+  "repairSlug": "hardwood-floor-repair-in-newcastle-wa",
+  "cityName": "Newcastle"
+ },
+ {
+  "citySlug": "north-bend",
+  "folderId": "65f32565e111adbbb806cef3",
+  "folderPath": "/city-of-north-bend",
+  "repairPageId": "65fbd54c80715f6b2e9cf43f",
+  "repairSlug": "hardwood-floor-repair-in-north-bend-wa",
+  "cityName": "North Bend"
+ },
+ {
+  "citySlug": "oak-harbor",
+  "folderId": "65f32565e111adbbb806cef4",
+  "folderPath": "/city-of-oak-harbor",
+  "repairPageId": "65fbc66552fd7a3bbd494e02",
+  "repairSlug": "hardwood-floor-repair-in-oak-harbor-wa",
+  "cityName": "Oak Harbor"
+ },
+ {
+  "citySlug": "redmond",
+  "folderId": "65f32565e111adbbb806cef6",
+  "folderPath": "/city-of-redmond",
+  "repairPageId": "65fbaaf2ea85400f35078734",
+  "repairSlug": "hardwood-floor-repair-in-redmond-wa",
+  "cityName": "Redmond"
+ },
+ {
+  "citySlug": "renton",
+  "folderId": "65f32565e111adbbb806cef7",
+  "folderPath": "/city-of-renton",
+  "repairPageId": "65fbc43b6ecac3477837d5dd",
+  "repairSlug": "hardwood-floor-repair-in-renton-wa",
+  "cityName": "Renton"
+ },
+ {
+  "citySlug": "sammamish",
+  "folderId": "65f32565e111adbbb806cef8",
+  "folderPath": "/city-of-sammamish",
+  "repairPageId": "65fbcd7a651fb9d4a82d5824",
+  "repairSlug": "hardwood-floor-repair-in-sammamish-wa",
+  "cityName": "Sammamish"
+ },
+ {
+  "citySlug": "seattle",
+  "folderId": "65f32565e111adbbb806d07d",
+  "folderPath": "/seattle",
+  "repairPageId": "65fa360c05862b6a72763373",
+  "repairSlug": "hardwood-floor-repair-in-seattle-wa",
+  "cityName": "Seattle"
+ },
+ {
+  "citySlug": "shoreline",
+  "folderId": "65f32565e111adbbb806cef9",
+  "folderPath": "/city-of-shoreline",
+  "repairPageId": "65fa46451c30f8603b73f7c3",
+  "repairSlug": "hardwood-floor-repair-in-shoreline-wa",
+  "cityName": "Shoreline"
+ },
+ {
+  "citySlug": "snohomish",
+  "folderId": "65f32565e111adbbb806cefa",
+  "folderPath": "/city-of-snohomish",
+  "repairPageId": "65fa4b7f42b77c8947ab2a7f",
+  "repairSlug": "hardwood-floor-repair-in-snohomish-wa",
+  "cityName": "Snohomish"
+ },
+ {
+  "citySlug": "snoqualmie",
+  "folderId": "65f32565e111adbbb806cefb",
+  "folderPath": "/city-of-snoqualmie",
+  "repairPageId": "65fbd23a746b8c70d03a202c",
+  "repairSlug": "hardwood-floor-repair-in-snoqualmie-wa",
+  "cityName": "Snoqualmie"
+ },
+ {
+  "citySlug": "whidbey-island",
+  "folderId": "65f32565e111adbbb806cefc",
+  "folderPath": "/city-of-whidbey-island",
+  "repairPageId": "65fc5e0fa576730db1d2e153",
+  "repairSlug": "hardwood-floor-repair-in-whidbey-island-wa",
+  "cityName": "Whidbey Island"
+ },
+ {
+  "citySlug": "woodinville",
+  "folderId": "65f32565e111adbbb806cefd",
+  "folderPath": "/city-of-woodinville",
+  "repairPageId": "65fa1e92509fa1482c7d4288",
+  "repairSlug": "hardwood-floor-repair-in-woodinville-wa",
+  "cityName": "Woodinville"
+ }
+]
