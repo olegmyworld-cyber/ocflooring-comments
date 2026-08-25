@@ -305,6 +305,85 @@ can't find, so pages with structural quirks (e.g. Seattle's split embeds,
 or any repair-widget sections the main service page doesn't have) degrade
 safely.
 
+### Carpet category rollout: 30 city pages, nav, slider, internal links (2026-08-25)
+
+Per Oleg: carpet pages "for all city names", a Services nav entry, the carpet
+category in the service-areas slider "as shown in the screenshot", internal
+links between all carpet pages, carpet blog links on the city pages, unique
+per-city text, and no duplicate content.
+
+**Pages.** `/…/carpet-installation-in-<city>-wa` now exists for all 30 cities
+that have a floor-repair page (Arlington, Bellevue, Bothell, Cottage Lake,
+Duvall, Edmonds, Everett, Issaquah, Kenmore, Kirkland, Lake Stevens,
+Lynnwood, Marysville, Medina, Mercer Island, Mill Creek, Monroe, Mukilteo,
+Newcastle, North Bend, Oak Harbor, Redmond, Renton, Sammamish, Seattle,
+Shoreline, Snohomish, Snoqualmie, Whidbey Island, Woodinville), each in that
+city's existing folder. Every page is a duplicate of the Bellevue design, so
+layout, styles, icons, estimator and photo-quote widget are identical.
+
+**Text.** Each page carries a full content pack written for that city alone —
+86 replaced strings (breadcrumb through footer), 16 real neighborhood names,
+SEO title/description, Open Graph copy, image alt texts, map coordinates,
+and a 10-question FAQ. The angle per city comes from its own identity:
+Boeing shift work in Everett, Deception Pass and PCS move dates in Oak
+Harbor, ferry-bluff stairs in Mukilteo, Ridge builder-grade upgrades in
+Snoqualmie, estate discretion in Medina, Craftsman-vs-townhouse wear in
+Seattle. Packs are stored in
+[`webflow-scripts/carpet-rollout/packs/`](webflow-scripts/carpet-rollout/packs/)
+as the source of record. Prices and claims are identical everywhere by
+design ($1.49/sq ft install, from $2.49 carpet+pad, $18/step, $99/room
+stretch, $0.50 haul-away, $0.65 pet pad, 20+ samples, three pad grades,
+1-year workmanship warranty).
+
+**Schema.** Every page gets its own JSON-LD graph: FlooringContractor +
+Service (city-scoped, with that city's coordinates) + BreadcrumbList +
+FAQPage carrying its 10 unique Q&As.
+
+**Navigation and category.**
+- The site Navbar's Services dropdown gained a "Carpet Installation" entry
+  (component-level, so it appears site-wide).
+- The shared "Section // Areas" component gained a fifth slide, **Carpet
+  Installation Service Areas**, listing all 30 cities — the same pattern as
+  the Hardwood/LVP/Repair slides in Oleg's screenshot. Bundle v1.8.0 moves
+  that slide to the front on carpet pages, mirroring the site's existing
+  OCAreasStart behavior for the other categories.
+
+**Internal linking.** The "Also serving" chip row on every carpet page is now
+29 real links — one to each of the other 29 carpet city pages — giving the
+category a complete mesh (870 internal links total). Each page also gained a
+**Carpet guides** section linking five of the site's existing carpet blog
+posts, chosen per city (local posts preferred where one exists).
+
+**Scripts.** All carpet pages run
+[`oc-carpet-bellevue-1.8.0.js`](webflow-scripts/oc-carpet-bellevue-1.8.0.js)
+(city derived from the URL slug for the estimator label and the areas-slider
+promotion) and
+[`carpetbellevuefontscanonical-1.2.0.js`](webflow-scripts/carpetbellevuefontscanonical-1.2.0.js)
+(fonts + a canonical derived from the page path).
+
+**Two defects found and fixed during the rollout** (both recorded here
+because the automated builders reported them rather than hiding them):
+1. *Self-links.* The Bellevue page was given its 29 city links before being
+   used as the duplication source, so every copy inherited Bellevue's set —
+   linking to itself and missing Bellevue. A correction pass re-audited all
+   30 pages by actual link target (not count), removed each self-link and
+   added the missing Bellevue link. Final state: 30/30 pages at exactly 29
+   correct links.
+2. *Stale guides section.* Copies made after Bellevue got its guides section
+   inherited Bellevue's five blog links. The same pass replaced those with
+   each city's own five (affected Arlington, Bothell, Cottage Lake, Duvall).
+
+**De-duplication.** A deterministic 8-gram audit across all 406 city pairs
+showed the marketing copy was well differentiated but the fact-heavy blocks
+converged (up to 97% of pairs shared an 8-word run in the mobile-showroom FAQ
+answer). The ten worst blocks — cost paragraph, hero lede, photo-upload
+prompt, booking checklist line and six FAQ answers — were rewritten per city
+with different sentence skeletons, varied openings and local anchors while
+keeping every number identical; the pass also restored the typical-project
+price ranges ($2,000–$4,500 and $5,500–$8,500) that a dozen writers had
+dropped. Driven by
+[`webflow-scripts/carpet-rollout/dedup-playbook.md`](webflow-scripts/carpet-rollout/dedup-playbook.md).
+
 ## Changes on branch `claude/oc-flooring-webflow-fixes-amosur`
 
 ### Bona sealer widget — "CUSTOMER FAVORITE" badge overlap (2026-06-14)
