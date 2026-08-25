@@ -97,3 +97,12 @@ phones. See [`webflow-scripts/bonamobilefix-1.0.0.js`](webflow-scripts/bonamobil
 
 Published live to `nwocflooring.com`, `www.nwocflooring.com`, and the Webflow
 subdomain.
+
+### Navbar overlap fix (2026-08-25)
+
+The site navbar is `position:fixed`, so after adding it the page content slid
+underneath it (breadcrumb hidden, hero cropped). Fix: `ci-page` got a `7rem`
+baseline `padding-top`, and bundle
+[`webflow-scripts/oc-carpet-bellevue-1.2.0.js`](webflow-scripts/oc-carpet-bellevue-1.2.0.js)
+now measures the rendered navbar (announcement strip included) on load/resize
+and sets the wrapper's exact top clearance. Loader registered as v1.2.0.
