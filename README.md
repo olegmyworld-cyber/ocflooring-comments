@@ -177,6 +177,49 @@ want same as I have on hardwood floor repair."
   loader
   [`webflow-scripts/occarpetbellevue-1.5.1.js`](webflow-scripts/occarpetbellevue-1.5.1.js).
 
+### The real repair-page uploader, wired the real way (2026-08-25, v1.6.0)
+
+Oleg tested the live page: the redesigned native Webflow form uploaded the
+photo but **failed on submit**, and he asked for "the same email address and
+format as on hardwood floor repair page and their design for upload photo."
+
+- **Root cause of the earlier "dead UI" verdict found.** The repair pages'
+  `#ocpq` widget is NOT dead: its styles and submit script live in an HTML
+  embed inside the shared **Footer component** (documented in the city-pages
+  audit on branch `claude/oc-flooring-city-pages-review-cvv1u7`) — a location
+  the earlier asset/site-script sweep never looked. It submits a multipart
+  POST to **formsubmit.co** (account token for `info.ocflooring@gmail.com`),
+  `_template=table`, subject `Photo quote - <City> - <Name> - <N> photos`,
+  photos attached, city derived from the URL slug. The carpet page uses the
+  design's own footer, so it never had that wiring.
+- **Carpet page now runs the identical widget.** Bundle
+  [`webflow-scripts/oc-carpet-bellevue-1.6.0.js`](webflow-scripts/oc-carpet-bellevue-1.6.0.js)
+  (loader
+  [`webflow-scripts/occarpetbellevue-1.6.0.js`](webflow-scripts/occarpetbellevue-1.6.0.js))
+  injects the same `#ocpq` CSS, renders the widget section before the final
+  CTA, and runs the same submit script — same formsubmit.co token, same email
+  format to info.ocflooring@gmail.com, subject
+  `Photo quote - Bellevue, WA - <Name> - <N> photos` — with carpet wording
+  and carpet chips (Ripples & waves / Matted traffic paths / Pet damage or
+  odor / Seams splitting or fraying / Stairs & landings / Water damage /
+  Not sure; no "new carpet" chip, per the 1.5.1 request). Widget source of
+  record:
+  [`webflow-scripts/carpet-ocpq-embed-1.0.0.html`](webflow-scripts/carpet-ocpq-embed-1.0.0.html)
+  (self-guarded with `data-init`, so adding the site Footer component to the
+  page later cannot double-bind). Verified end-to-end locally with a stubbed
+  formsubmit.co (multipart POST with attachment observed, success state
+  rendered).
+- **Old native form removed** (the `ci-pq` section) — its submissions were
+  failing on the live site; the FormWrapper-based uploader is gone.
+- **Stretch-section button fixed for real:** the "Upload Your Photos" button
+  had carried a literal `href` attribute to the repair page since the first
+  build, silently overriding every later `set_link` repoint — clicks were
+  leaving the page. The stale attribute is removed and the link setting now
+  targets `#ocpq` on the carpet page.
+- Fonts script bumped to
+  [`webflow-scripts/carpetbellevuefontscanonical-1.1.0.js`](webflow-scripts/carpetbellevuefontscanonical-1.1.0.js)
+  (adds Playfair Display 700/800, which the widget's headings use).
+
 ## Changes on branch `claude/oc-flooring-webflow-fixes-amosur`
 
 ### Bona sealer widget — "CUSTOMER FAVORITE" badge overlap (2026-06-14)

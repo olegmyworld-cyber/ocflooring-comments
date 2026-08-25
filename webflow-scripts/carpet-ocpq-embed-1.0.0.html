@@ -1,0 +1,347 @@
+<!-- OC Flooring — carpet page photo-quote widget (HTML embed, page
+     /city-of-bellevue/carpet-installation-in-bellevue-wa, inserted between the
+     service-areas and final CTA sections).
+
+     This is the SAME widget as the hardwood floor-repair pages' #ocpq
+     photo-quote form: markup copied from the repair page embed, styles and
+     submit script copied from the shared Footer component embed (which the
+     carpet page does not include — it uses the design's own footer), with
+     carpet wording. Submission is identical: multipart POST to
+     formsubmit.co/<token for info.ocflooring@gmail.com> with the photos as
+     attachments, _template=table, subject "Photo quote - <City> - <Name> -
+     <N> photos", city derived from the URL slug ("Bellevue, WA").
+
+     The script self-guards with data-init, so if the shared Footer component
+     is ever added to this page its copy of the wiring will no-op. -->
+<section id="ocpq" aria-labelledby="ocpq-title"><div class="ocpq-wrap"><header class="ocpq-head"><div class="ocpq-eyebrow"><span></span>No appointment needed</div><h2 id="ocpq-title">Send photos of your carpet. Get a real quote by email today.</h2><p class="ocpq-lead">Photograph the ripples — or the whole room — on your phone or upload from your computer. One of our estimators looks at every photo personally and emails you a written price the same business day — no visit, no sales call, no obligation.</p></header><div class="ocpq-card"><div id="ocpq-form"><div class="ocpq-drop" id="ocpq-drop" role="button" tabindex="0"><div class="ocpq-dropicon"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 16V4"/><path d="m7 9 5-5 5 5"/><path d="M4 16v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2"/></svg></div><div class="ocpq-droptitle">Drag your photos here, or tap to browse</div><div class="ocpq-dropsub">Even one photo helps. Three is ideal: a close-up of the worst spot, one from a few feet back, and one of the whole room. Up to 8 &middot; JPG, PNG or HEIC.</div></div><div class="ocpq-btnrow"><button type="button" class="ocpq-ghost" id="ocpq-browse"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20h16a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-4l-2-2h-4L8 6H4a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2Z"/><circle cx="12" cy="13" r="3.2"/></svg>Choose from device</button><button type="button" class="ocpq-ghost" id="ocpq-camera"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M8 7 9.5 4h5L16 7"/><circle cx="12" cy="14" r="3.4"/></svg>Take a photo now</button></div><div class="ocpq-hint" id="ocpq-emptyhint"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14"/><path d="m6 13 6 6 6-6"/></svg>Add a photo and we'll ask for your name, email and phone next — two more taps.</div><div class="ocpq-working" id="ocpq-working" role="status" aria-live="polite" hidden></div><input type="file" id="ocpq-file" accept="image/*" multiple hidden><input type="file" id="ocpq-cam" accept="image/*" capture="environment" hidden><div id="ocpq-gallery" hidden><div class="ocpq-galhead"><div class="ocpq-count" id="ocpq-count"></div><div class="ocpq-need" id="ocpq-need"></div></div><div class="ocpq-grid" id="ocpq-thumbs"></div><div class="ocpq-nopreview" id="ocpq-nopreview" hidden></div></div><div class="ocpq-err" id="ocpq-photoerr" role="alert" aria-live="assertive" hidden></div><div id="ocpq-reveal" hidden><div class="ocpq-block"><div class="ocpq-blockhead"><div class="ocpq-blocktitle">What's going on with the carpet?</div><div class="ocpq-blocksub">Pick everything that applies — it tells us what to look for in your photos.</div></div><div class="ocpq-chips" id="ocpq-chips"><button type="button" class="ocpq-chip" aria-pressed="false">Ripples &amp; waves</button><button type="button" class="ocpq-chip" aria-pressed="false">Matted traffic paths</button><button type="button" class="ocpq-chip" aria-pressed="false">Pet damage or odor</button><button type="button" class="ocpq-chip" aria-pressed="false">Seams splitting or fraying</button><button type="button" class="ocpq-chip" aria-pressed="false">Stairs &amp; landings</button><button type="button" class="ocpq-chip" aria-pressed="false">Water damage</button><button type="button" class="ocpq-chip" aria-pressed="false">Not sure — you tell me</button></div></div><div class="ocpq-block"><div class="ocpq-blockhead"><div class="ocpq-blocktitle">Tell us about it in your own words</div><div class="ocpq-blocksub">Optional — how many rooms, when it started, whether you already have carpet picked out. Whatever you think we should know.</div></div><textarea id="ocpq-notes" class="ocpq-textarea" rows="4" maxlength="2000" placeholder="Example: The carpet in two bedrooms and the hallway is rippling near the doors. About 600 sq ft total. We also have 13 stairs. Would like a price for stretching vs replacing with mid-grade carpet."></textarea></div><div class="ocpq-block"><div class="ocpq-blocktitle">Where should the quote go?</div><div class="ocpq-fields"><label class="ocpq-field"><span>Full name</span><input type="text" id="ocpq-name" placeholder="Jordan Alvarez" autocomplete="name"></label><label class="ocpq-field"><span>Email</span><input type="email" id="ocpq-email" placeholder="you@email.com" autocomplete="email" inputmode="email"></label><label class="ocpq-field"><span>Phone</span><input type="tel" id="ocpq-phone" placeholder="(425) 555-0148" autocomplete="tel" inputmode="tel"></label></div></div><div class="ocpq-err" id="ocpq-formerr" role="alert" aria-live="assertive" hidden></div><div class="ocpq-submitrow"><button type="button" class="ocpq-submit" id="ocpq-submit">Send photos &amp; get my quote</button><div class="ocpq-note">Sent before 3pm on a weekday? Your price lands today. After that, first thing next morning.</div></div></div><div id="ocpq-done" hidden><div class="ocpq-donetop"><div class="ocpq-check"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m4 12.5 5 5L20 6.5"/></svg></div><div><h3 id="ocpq-donehead"></h3><p id="ocpq-donebody"></p></div></div><div class="ocpq-next"><div class="ocpq-nexttag">What happens next</div><div class="ocpq-step"><span>1</span><div><b>An estimator opens your photos</b><i>Not an algorithm — the same person who would have walked your carpet in person.</i></div></div><div class="ocpq-step"><span>2</span><div><b>You get a written price by email</b><i>Stretch or replace, itemized — what it costs and how long we need in your home.</i></div></div><div class="ocpq-step"><span>3</span><div><b>Only then do you decide</b><i>Reply to book a date, ask a question, or ignore it entirely. No follow-up sales calls.</i></div></div></div><div class="ocpq-donebtns"><a class="ocpq-call" href="tel:+14255951079">Call (425) 595-1079</a><button type="button" class="ocpq-ghost" id="ocpq-reset">Send another room</button></div></div></div><div class="ocpq-promise"><div><b>Same day</b><span>A written price in your inbox, not a callback</span></div><div><b>A person, not a bot</b><span>Every photo reviewed by one of our estimators</span></div><div><b>No obligation</b><span>Licensed and insured &middot; 1-year workmanship warranty</span></div></div></div></section>
+<style id="ocpq-carpet-css">
+#ocpq{background:#f6f2ec;padding:clamp(36px,6vw,84px) clamp(16px,4vw,48px);color:#0b1f3a}
+#ocpq *{box-sizing:border-box}
+#ocpq [hidden]{display:none!important}
+#ocpq .ocpq-wrap{max-width:1060px;margin:0 auto;display:flex;flex-direction:column;gap:clamp(26px,4vw,40px)}
+#ocpq .ocpq-head{display:flex;flex-direction:column;gap:14px;max-width:740px}
+#ocpq .ocpq-eyebrow{display:flex;align-items:center;gap:10px;font-size:13px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#be1e2d}
+#ocpq .ocpq-eyebrow span{width:28px;height:2px;background:#be1e2d;display:block}
+#ocpq h2{font-family:'Playfair Display',Georgia,serif;font-size:clamp(29px,5vw,50px);font-weight:800;line-height:1.06;letter-spacing:-.02em;margin:0;color:#0b1f3a}
+#ocpq .ocpq-lead{font-size:clamp(16px,1.6vw,19px);line-height:1.6;color:#4a5666;margin:0;max-width:62ch}
+#ocpq .ocpq-card{background:#fff;border:1px solid #e7e0d6;border-radius:20px;box-shadow:0 24px 48px -32px rgba(12,31,63,.4);padding:clamp(22px,3.4vw,40px);display:flex;flex-direction:column;gap:clamp(22px,3vw,30px)}
+#ocpq #ocpq-form{display:flex;flex-direction:column;gap:16px}
+#ocpq .ocpq-drop{border:2px dashed #dccfb9;background:#fcfaf6;border-radius:16px;padding:clamp(26px,5vw,52px) 20px;text-align:center;cursor:pointer;display:flex;flex-direction:column;align-items:center;gap:13px;transition:background .15s,border-color .15s}
+#ocpq .ocpq-drop.is-over{border-color:#be1e2d;background:#fbeeef}
+#ocpq .ocpq-dropicon{width:58px;height:58px;border-radius:15px;background:#f1e7d6;color:#be1e2d;display:grid;place-items:center}
+#ocpq .ocpq-dropicon svg{width:28px;height:28px}
+#ocpq .ocpq-droptitle{font-family:'Playfair Display',Georgia,serif;font-size:clamp(18px,2.2vw,22px);font-weight:800}
+#ocpq .ocpq-dropsub{font-size:15px;color:#6b5b4a;line-height:1.5;max-width:46ch}
+#ocpq .ocpq-btnrow{display:flex;flex-wrap:wrap;gap:12px}
+#ocpq .ocpq-ghost{flex:1 1 210px;min-height:54px;border-radius:12px;border:1.5px solid #dccfb9;background:#fff;color:#0b1f3a;font-weight:700;font-size:15px;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:9px;font-family:inherit;transition:background .15s,border-color .15s}
+#ocpq .ocpq-ghost:hover{background:#fbf6ee;border-color:#be1e2d}
+#ocpq .ocpq-ghost svg{width:18px;height:18px}
+#ocpq .ocpq-hint{display:flex;align-items:center;gap:9px;font-size:14.5px;color:#7a6a58;line-height:1.5}
+#ocpq .ocpq-hint svg{width:16px;height:16px;color:#be1e2d;flex:0 0 auto}
+#ocpq .ocpq-galhead{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-bottom:12px}
+#ocpq .ocpq-count{font-weight:800;font-size:15px}
+#ocpq .ocpq-need{font-size:14px}
+#ocpq .ocpq-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(128px,1fr));gap:12px}
+#ocpq .ocpq-thumb{position:relative;border-radius:12px;overflow:hidden;border:1px solid #e7e0d6;background:#f1eade;aspect-ratio:4/3}
+#ocpq .ocpq-thumb .img{width:100%;height:100%;background-size:cover;background-position:center}
+#ocpq .ocpq-thumb .rm{position:absolute;top:6px;right:6px;width:30px;height:30px;border-radius:50%;border:none;background:rgba(11,31,58,.72);color:#fff;cursor:pointer;display:grid;place-items:center}
+#ocpq .ocpq-thumb .rm:hover{background:#be1e2d}
+#ocpq .ocpq-thumb .rm svg{width:14px;height:14px}
+#ocpq .ocpq-thumb .nm{position:absolute;left:0;right:0;bottom:0;padding:14px 8px 6px;font-size:11px;color:#fff;background:linear-gradient(transparent,rgba(11,31,58,.8));white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+#ocpq .ocpq-working{font-size:14.5px;color:#6b5b4a;font-weight:600}
+#ocpq .ocpq-textarea{width:100%;min-height:120px;padding:14px 15px;border-radius:12px;border:1.5px solid #dccfb9;background:#fcfaf6;font-size:16px;line-height:1.55;color:#0b1f3a;font-family:inherit;resize:vertical}
+#ocpq .ocpq-textarea:focus{outline:none;border-color:#be1e2d;background:#fff}
+#ocpq .ocpq-textarea::placeholder{color:#a2937f}
+#ocpq .ocpq-thumb.is-nopreview{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:7px;padding:10px;text-align:center;background:#f6efe2}
+#ocpq .ocpq-thumb.is-nopreview svg{width:22px;height:22px;color:#b09873}
+#ocpq .ocpq-thumb.is-nopreview .lbl{font-size:11px;color:#6b5b4a;line-height:1.3;word-break:break-word}
+#ocpq .ocpq-nopreview{font-size:13.5px;color:#7a6a58;margin-top:10px;line-height:1.5}
+#ocpq .ocpq-err{color:#a32e19;font-size:14.5px;font-weight:600}
+#ocpq #ocpq-reveal{display:flex;flex-direction:column;gap:clamp(22px,3vw,28px);border-top:1px solid #efe6d7;padding-top:clamp(22px,3vw,28px);animation:ocpqReveal .32s ease both}
+@keyframes ocpqReveal{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+#ocpq .ocpq-block{display:flex;flex-direction:column;gap:12px}
+#ocpq .ocpq-blocktitle{font-family:'Playfair Display',Georgia,serif;font-weight:800;font-size:clamp(17px,2vw,20px)}
+#ocpq .ocpq-blocksub{font-size:14.5px;color:#7a6a58}
+#ocpq .ocpq-chips{display:flex;flex-wrap:wrap;gap:9px}
+#ocpq .ocpq-chip{min-height:48px;padding:0 18px;border-radius:999px;cursor:pointer;font-weight:600;font-size:15px;background:#fcfaf6;border:1.5px solid #dccfb9;color:#3a2e22;font-family:inherit;transition:background .15s,border-color .15s}
+#ocpq .ocpq-chip[aria-pressed="true"]{background:#fbe7e9;border-color:#be1e2d;color:#0b1f3a}
+#ocpq .ocpq-fields{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:14px}
+#ocpq .ocpq-field{display:flex;flex-direction:column;gap:7px}
+#ocpq .ocpq-field span{font-weight:800;font-size:14px}
+#ocpq .ocpq-field input{width:100%;min-height:54px;padding:0 15px;border-radius:12px;border:1.5px solid #dccfb9;background:#fcfaf6;font-size:16px;color:#0b1f3a;font-family:inherit}
+#ocpq .ocpq-field input:focus{outline:none;border-color:#be1e2d;background:#fff}
+#ocpq .ocpq-submitrow{display:flex;flex-wrap:wrap;align-items:center;gap:16px}
+#ocpq .ocpq-submit{min-height:58px;padding:0 32px;border-radius:12px;border:none;background:#be1e2d;color:#fff;font-weight:800;font-size:17px;cursor:pointer;font-family:inherit;transition:background .15s}
+#ocpq .ocpq-submit:hover{background:#9c1623}
+#ocpq .ocpq-submit[disabled]{opacity:.65;cursor:default}
+#ocpq .ocpq-note{font-size:14px;color:#7a6a58;line-height:1.5;max-width:40ch}
+#ocpq #ocpq-done{display:flex;flex-direction:column;gap:clamp(22px,3vw,30px)}
+#ocpq .ocpq-donetop{display:flex;align-items:flex-start;gap:15px}
+#ocpq .ocpq-check{width:46px;height:46px;border-radius:50%;background:#e7f0e3;color:#1f8a4c;display:grid;place-items:center;flex:0 0 auto}
+#ocpq .ocpq-check svg{width:23px;height:23px}
+#ocpq #ocpq-donehead{font-family:'Playfair Display',Georgia,serif;font-size:clamp(21px,2.6vw,28px);font-weight:800;margin:0 0 6px}
+#ocpq #ocpq-donebody{margin:0;color:#4a5666;font-size:16px;line-height:1.55;max-width:58ch}
+#ocpq .ocpq-next{background:#0b1f3a;border-radius:16px;padding:clamp(22px,3vw,30px);color:#f6eee1;display:flex;flex-direction:column;gap:16px}
+#ocpq .ocpq-nexttag{font-size:12px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#e0a15c}
+#ocpq .ocpq-step{display:flex;gap:14px;align-items:flex-start}
+#ocpq .ocpq-step>span{width:24px;height:24px;border-radius:50%;border:1.5px solid rgba(224,161,92,.55);display:grid;place-items:center;font-size:12px;font-weight:800;color:#e0a15c;flex:0 0 auto;margin-top:2px}
+#ocpq .ocpq-step b{display:block;font-weight:800;font-size:16px}
+#ocpq .ocpq-step i{display:block;font-style:normal;font-size:14.5px;color:#c9bcaa;line-height:1.55;max-width:56ch;margin-top:3px}
+#ocpq .ocpq-donebtns{display:flex;flex-wrap:wrap;gap:12px;align-items:center}
+#ocpq .ocpq-call{min-height:54px;padding:0 24px;border-radius:12px;background:#0b1f3a;color:#fff7ea;font-weight:800;font-size:15px;text-decoration:none;display:inline-flex;align-items:center}
+#ocpq .ocpq-promise{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:clamp(16px,2.5vw,28px);border-top:1px solid #e7e0d6;padding-top:clamp(22px,3vw,32px)}
+#ocpq .ocpq-promise div{display:flex;flex-direction:column;gap:5px}
+#ocpq .ocpq-promise b{font-family:'Playfair Display',Georgia,serif;font-weight:800;font-size:22px}
+#ocpq .ocpq-promise span{font-size:14.5px;color:#6b5b4a;line-height:1.5}
+</style>
+<script>
+(function(){
+var D=document,root=D.getElementById('ocpq');if(!root||root.dataset.init)return;root.dataset.init='1';
+var TOKEN='23b2e17e0ea51fa0ff449f9fc736414e';
+var ACTION='https://formsubmit.co/'+TOKEN;
+var INBOX='info.ocflooring@gmail.com';
+var MAX=8,MIN=1,TIMEOUT=120000;
+var HARD_TOTAL=9*1024*1024;
+var photos=[],damage=[],busy=false;
+function titleCase(s){return s.split('-').map(function(w){return w?w.charAt(0).toUpperCase()+w.slice(1):w}).join(' ')}
+function cityName(){
+var seg=location.pathname.split('/').filter(Boolean).pop()||'';
+var i=seg.indexOf('-in-');
+if(i>-1){var c=seg.slice(i+4);if(c.slice(-3)==='-wa')c=c.slice(0,-3);if(c)return titleCase(c)+', WA';}
+var h=D.querySelector('h1');
+if(h&&h.textContent){var t=h.textContent,j=t.toLowerCase().lastIndexOf(' in ');if(j>-1)return t.slice(j+4).trim();}
+return seg?titleCase(seg):'Unknown page';
+}
+var CITY=cityName();
+function $(id){return D.getElementById(id)}
+var drop=$('ocpq-drop'),fileIn=$('ocpq-file'),camIn=$('ocpq-cam');
+function encode(cv,q){return new Promise(function(res){try{cv.toBlob(res,'image/jpeg',q)}catch(e){res(null)}})}
+function decodeOriented(file){
+var first=Promise.reject();first.catch(function(){});
+if(typeof createImageBitmap==='function'){
+first=createImageBitmap(file,{imageOrientation:'from-image'})
+.catch(function(e){if(e&&e.name==='TypeError'){return createImageBitmap(file)}throw e})
+.then(function(b){return {d:b,free:function(){if(b.close)b.close()}}});
+}
+return first.catch(function(){
+var url=URL.createObjectURL(file),free=function(){URL.revokeObjectURL(url)};
+var img=new Image();img.decoding='async';img.src=url;
+var ready=img.decode?img.decode():new Promise(function(ok,no){img.onload=ok;img.onerror=function(){no(new Error('load'))}});
+return ready.then(function(){if(!img.naturalWidth){free();throw new Error('no pixels')}return {d:img,free:free}},function(e){free();throw e});
+});
+}
+function canPreview(url){return new Promise(function(res){var im=new Image();im.onload=function(){res(true)};im.onerror=function(){res(false)};im.src=url})}
+function isJpeg(t){t=String(t||'').toLowerCase();return t.indexOf('jpeg')>-1||t.indexOf('jpg')>-1}
+function baseName(n){var i=String(n).lastIndexOf('.');return i>0?String(n).slice(0,i):String(n)}
+function shrink(file,maxEdge,cap,retried){
+maxEdge=maxEdge||2048;cap=cap||700*1024;var src=null;
+if(!(file instanceof File)||String(file.type||'').toLowerCase().indexOf('image/')!==0)return Promise.resolve(file);
+return decodeOriented(file).then(function(s){
+src=s;var d=s.d,sw=d.width||d.naturalWidth,sh=d.height||d.naturalHeight;
+if(!sw||!sh)throw new Error('no dims');
+if(Math.max(sw,sh)<=maxEdge&&isJpeg(file.type)&&file.size<=cap)throw {keep:1};
+var scale=Math.min(1,maxEdge/Math.max(sw,sh));
+var tw=Math.max(1,Math.round(sw*scale)),th=Math.max(1,Math.round(sh*scale));
+var AREA=16777216;
+if(tw*th>AREA){var k=Math.sqrt(AREA/(tw*th));tw=Math.max(1,Math.floor(tw*k));th=Math.max(1,Math.floor(th*k))}
+var cv=D.createElement('canvas');cv.width=tw;cv.height=th;
+var ctx=cv.getContext('2d',{alpha:false});
+if(!ctx)throw {keep:1};
+ctx.fillStyle='#fff';ctx.fillRect(0,0,tw,th);
+ctx.imageSmoothingEnabled=true;ctx.imageSmoothingQuality='high';
+ctx.drawImage(d,0,0,tw,th);s.free();src=null;
+var q=0.80;
+return encode(cv,q).then(function step(b){
+if(b&&b.size>cap&&q>0.55){q=Math.round((q-0.10)*100)/100;return encode(cv,q).then(step)}
+return b;
+}).then(function(b){
+cv.width=cv.height=1;
+if(!b||!b.size||b.type!=='image/jpeg')return file;
+if(b.size>cap&&!retried&&maxEdge>1400)return shrink(file,1400,cap,true);
+if(b.size>=file.size)return file;
+return new File([b],baseName(file.name)+'.jpg',{type:'image/jpeg',lastModified:file.lastModified||Date.now()});
+});
+}).catch(function(){if(src&&src.free)src.free();return file});
+}
+function show(el,t){if(t!==undefined)el.textContent=t;el.hidden=false}
+function hide(el){el.hidden=true}
+function bytes(n){return n>=1048576?(n/1048576).toFixed(1)+' MB':Math.round(n/1024)+' KB'}
+function totalBytes(){var t=0;photos.forEach(function(p){t+=p.file.size});return t}
+function render(){
+var n=photos.length;
+$('ocpq-gallery').hidden=n===0;$('ocpq-reveal').hidden=n===0;$('ocpq-emptyhint').hidden=n>0;
+$('ocpq-count').textContent=(n===1?'1 photo added':n+' photos added')+(n?' · '+bytes(totalBytes()):'');
+var need=$('ocpq-need');
+if(n>=3){need.textContent='Great — that is plenty to work from.';need.style.color='#1f8a4c'}
+else{need.textContent='One or two more angles helps us price it faster.';need.style.color='#7a6a58'}
+var g=$('ocpq-thumbs');g.innerHTML='';
+photos.forEach(function(p){
+var d=D.createElement('div');d.className='ocpq-thumb';
+var im=D.createElement('div');
+if(p.ok===false){
+d.className='ocpq-thumb is-nopreview';im.className='lbl';
+im.innerHTML='<svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3v5h5"/><path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h9l5 5v11a2 2 0 0 1-2 2Z"/></svg>';
+var tl=D.createElement('div');tl.className='lbl';tl.textContent=p.name;im.appendChild(tl);
+im.setAttribute('aria-label','Photo '+p.name+', no preview available in this browser. It will still be sent.');
+}else{
+im.className='img';im.setAttribute('role','img');
+im.setAttribute('aria-label','Photo of your carpet: '+p.name);
+im.style.backgroundImage='url("'+p.url+'")';
+}
+var rm=D.createElement('button');rm.type='button';rm.className='rm';
+rm.setAttribute('aria-label','Remove photo '+p.name);
+rm.innerHTML='<svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M18 6 6 18M6 6l12 12"/></svg>';
+rm.addEventListener('click',function(e){e.stopPropagation();if(busy)return;
+URL.revokeObjectURL(p.url);photos=photos.filter(function(x){return x.id!==p.id});
+hide($('ocpq-photoerr'));render()});
+var nm=D.createElement('div');nm.className='nm';nm.textContent=p.name;
+d.appendChild(im);d.appendChild(rm);
+if(p.ok!==false)d.appendChild(nm);
+g.appendChild(d);
+});
+var np=$('ocpq-nopreview'),blind=photos.filter(function(x){return x.ok===false}).length;
+if(blind){np.textContent=blind===1?'One photo cannot be previewed in this browser (iPhone HEIC files often cannot). It will still be sent with your request.':blind+' photos cannot be previewed in this browser (iPhone HEIC files often cannot). They will still be sent with your request.';np.hidden=false}
+else np.hidden=true;
+}
+function addFiles(list){
+var files=Array.prototype.slice.call(list||[]);
+if(!files.length||busy)return;
+var room=MAX-photos.length,err='',ok=[];
+files.forEach(function(f){
+if(String(f.type||'').toLowerCase().indexOf('image/')!==0){err='Photos only, please — '+f.name+' is not an image.';return}
+ok.push(f);
+});
+if(ok.length>room)err='Eight photos is the limit — we kept the first '+Math.max(room,0)+'.';
+ok=ok.slice(0,Math.max(room,0));
+if(!ok.length){if(err)show($('ocpq-photoerr'),err);drop.classList.remove('is-over');return}
+busy=true;var st=$('ocpq-working');
+show(st,'Preparing '+(ok.length===1?'your photo':ok.length+' photos')+'…');
+var i=0;
+(function next(){
+if(i>=ok.length){
+busy=false;hide(st);drop.classList.remove('is-over');
+if(totalBytes()>HARD_TOTAL){
+var over=[];
+while(totalBytes()>HARD_TOTAL&&photos.length>MIN){var g=photos.pop();URL.revokeObjectURL(g.url);over.push(g.name)}
+if(over.length)err='These were very large, so we kept the first '+photos.length+' photos.';
+}
+if(err)show($('ocpq-photoerr'),err);else hide($('ocpq-photoerr'));
+render();return;
+}
+var f=ok[i++];st.textContent='Preparing photo '+i+' of '+ok.length+'…';
+shrink(f).then(function(out){
+var u=URL.createObjectURL(out);
+canPreview(u).then(function(okPrev){
+photos.push({id:String(Date.now())+'-'+String(i)+'-'+out.size,name:out.name,url:u,file:out,ok:okPrev});
+render();next();
+});
+});
+})();
+}
+drop.addEventListener('click',function(){if(!busy)fileIn.click()});
+drop.addEventListener('keydown',function(e){if((e.key==='Enter'||e.key===' ')&&!busy){e.preventDefault();fileIn.click()}});
+drop.addEventListener('dragover',function(e){e.preventDefault();drop.classList.add('is-over')});
+drop.addEventListener('dragleave',function(){drop.classList.remove('is-over')});
+drop.addEventListener('drop',function(e){e.preventDefault();addFiles(e.dataTransfer.files)});
+$('ocpq-browse').addEventListener('click',function(){if(!busy)fileIn.click()});
+$('ocpq-camera').addEventListener('click',function(){if(!busy)camIn.click()});
+fileIn.addEventListener('change',function(e){addFiles(e.target.files);e.target.value=''});
+camIn.addEventListener('change',function(e){addFiles(e.target.files);e.target.value=''});
+Array.prototype.forEach.call(D.querySelectorAll('#ocpq .ocpq-chip'),function(b){
+var label=b.textContent.trim();
+b.addEventListener('click',function(){
+var i=damage.indexOf(label);
+if(i>-1){damage.splice(i,1);b.setAttribute('aria-pressed','false')}
+else{damage.push(label);b.setAttribute('aria-pressed','true')}
+hide($('ocpq-formerr'));
+});
+});
+function digits(v){return String(v).replace(/[^0-9]/g,'')}
+function fmtPhone(v){var d=digits(v);if(d.length===11&&d.charAt(0)==='1')d=d.slice(1);
+return d.length===10?'('+d.slice(0,3)+') '+d.slice(3,6)+'-'+d.slice(6):String(v).trim()}
+function emailOk(v){var at=v.indexOf('@');if(at<1)return false;var dom=v.slice(at+1);
+if(dom.indexOf('@')>-1)return false;var dot=dom.lastIndexOf('.');
+return dot>0&&dom.length-dot>2&&v.indexOf(' ')===-1}
+function fail(el,msg,focusId){show(el,msg);
+if(focusId){var f=$(focusId);if(f){try{f.focus({preventScroll:true})}catch(e){f.focus()}}}
+el.scrollIntoView({block:'center',behavior:'smooth'})}
+function hiddenIn(form,name,value){var i=D.createElement('input');i.type='hidden';i.name=name;i.value=value;form.appendChild(i)}
+$('ocpq-submit').addEventListener('click',function(){
+if(busy)return;
+var name=$('ocpq-name').value.trim(),email=$('ocpq-email').value.trim(),phone=$('ocpq-phone').value.trim();
+var fe=$('ocpq-formerr'),pe=$('ocpq-photoerr');
+if(photos.length<MIN)return fail(pe,'Add at least one photo of the carpet so we can price it.');
+if(!damage.length)return fail(fe,'Tell us what is going on with the carpet — one tap.');
+if(!name)return fail(fe,'We need a name to put on the quote.','ocpq-name');
+if(!emailOk(email))return fail(fe,'That email address does not look right — the quote goes there.','ocpq-email');
+if(digits(phone).length<10)return fail(fe,'A phone number lets us reach you if a photo is unclear.','ocpq-phone');
+hide(fe);hide(pe);busy=true;
+var btn=$('ocpq-submit');btn.disabled=true;btn.textContent='Sending your photos…';
+var done=false;
+var sink=D.createElement('iframe');
+sink.name='ocpq-sink-'+Date.now();sink.style.display='none';
+D.body.appendChild(sink);
+var form=D.createElement('form');
+form.method='POST';form.action=ACTION;form.enctype='multipart/form-data';
+form.target=sink.name;form.style.display='none';
+hiddenIn(form,'_next',location.origin+'/robots.txt');
+hiddenIn(form,'_captcha','false');
+hiddenIn(form,'_template','table');
+hiddenIn(form,'_subject','Photo quote - '+CITY+' - '+name+' - '+photos.length+(photos.length===1?' photo':' photos'));
+hiddenIn(form,'_replyto',email);
+hiddenIn(form,'Name',name);
+hiddenIn(form,'Email',email);
+hiddenIn(form,'Phone',fmtPhone(phone));
+hiddenIn(form,'Damage',damage.join(', '));
+hiddenIn(form,'Details',($('ocpq-notes').value||'').trim()||'(none given)');
+hiddenIn(form,'Photos',String(photos.length));
+hiddenIn(form,'City',CITY);
+hiddenIn(form,'Page',(D.title||'').split('|')[0].trim()||CITY);
+hiddenIn(form,'Page URL',location.href.split('?')[0]);
+photos.forEach(function(p,i){
+var inp=D.createElement('input');inp.type='file';
+inp.name=(i===0)?'attachment':('attachment'+(i+1));
+var dt=new DataTransfer();dt.items.add(p.file);inp.files=dt.files;
+form.appendChild(inp);
+});
+D.body.appendChild(form);
+function cleanup(){try{form.remove()}catch(e){}setTimeout(function(){try{sink.remove()}catch(e){}},1000)}
+function succeed(){
+if(done)return;done=true;clearTimeout(timer);busy=false;cleanup();
+photos.forEach(function(p){URL.revokeObjectURL(p.url)});
+$('ocpq-form').hidden=true;$('ocpq-done').hidden=false;
+$('ocpq-donehead').textContent='Got it, '+(name.split(' ')[0]||'thanks')+' — your photos are with our estimator.';
+$('ocpq-donebody').textContent='Your written quote follows the same business day. If the photos leave anything unclear, we will call you at '+fmtPhone(phone)+' rather than guess.';
+try{$('ocpq-donehead').setAttribute('tabindex','-1');$('ocpq-donehead').focus({preventScroll:true})}catch(e){}
+$('ocpq-done').scrollIntoView({block:'start',behavior:'smooth'});
+try{if(typeof window.gtag==='function')window.gtag('event','generate_lead',{method:'photo_quote',city:CITY})}catch(e){}
+}
+function stumble(msg){
+if(done)return;done=true;clearTimeout(timer);busy=false;cleanup();
+btn.disabled=false;btn.textContent='Send photos & get my quote';
+fail(fe,msg);
+try{if(typeof window.gtag==='function')window.gtag('event','form_error',{method:'photo_quote',city:CITY})}catch(e2){}
+}
+sink.addEventListener('load',function(){
+var href=null;
+try{href=sink.contentWindow.location.href}catch(e){href=null}
+if(href&&href.indexOf(location.origin)===0)return succeed();
+stumble('That did not go through, and we would rather tell you than lose it. Your photos are still here — press Send again, or email them to '+INBOX+'.');
+});
+var timer=setTimeout(function(){
+stumble('That took too long to upload — usually a weak signal. Your photos are still here, so try Send again, ideally on Wi-Fi.');
+},TIMEOUT);
+form.submit();
+});
+$('ocpq-reset').addEventListener('click',function(){
+photos.forEach(function(p){URL.revokeObjectURL(p.url)});
+photos=[];damage=[];busy=false;
+Array.prototype.forEach.call(D.querySelectorAll('#ocpq .ocpq-chip'),function(c){c.setAttribute('aria-pressed','false')});
+$('ocpq-name').value='';$('ocpq-email').value='';$('ocpq-phone').value='';$('ocpq-notes').value='';
+hide($('ocpq-photoerr'));hide($('ocpq-formerr'));hide($('ocpq-working'));
+var btn=$('ocpq-submit');btn.disabled=false;btn.textContent='Send photos & get my quote';
+$('ocpq-done').hidden=true;$('ocpq-form').hidden=false;render();
+});
+render();
+})();
+</script>
