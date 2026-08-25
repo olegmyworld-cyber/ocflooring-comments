@@ -14,7 +14,8 @@ Refinishing Process in Bellevue" column on the Floor Refinishing page
 (`/services/floor-refinishing`, page id `65f32565e111adbbb806cf36`).
 
 **Fix:** New registered inline script `OCCalendlySteps` (`occalendlysteps`),
-applied at the page footer of the Floor Refinishing page only (the site-wide
+applied at the page footers of the Floor Refinishing page and the Home page
+(`65f32565e111adbbb806ce6e`), which renders the same section (the site-wide
 footer block is at its 15-script limit; page-level blocks are separate). The
 5-step process is the right column (`.ots-steps-col`) of the runtime-injected
 Bona tone/steps section (`#oc-tone-steps`), so the script polls until that

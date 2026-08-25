@@ -1,7 +1,8 @@
 // OC Flooring — Webflow registered inline script: "OCCalendlySteps" (id: occalendlysteps)
 // Site: OC Flooring Hardwood Refinishing (6377e8e6a53936b48ef1cad0) — nwocflooring.com
-// Applied at: page footer of "Floor Refinishing" (page 65f32565e111adbbb806cf36,
-// published at /services/floor-refinishing).
+// Applied at: page footers of "Floor Refinishing" (page 65f32565e111adbbb806cf36,
+// published at /services/floor-refinishing) and "Home" (page 65f32565e111adbbb806ce6e),
+// both of which render the #oc-tone-steps section via ocrecoatrefinish.
 //
 // What it does:
 //   Fills the empty space under step 5 ("Final Walkthrough") of the "Our 5-Step
