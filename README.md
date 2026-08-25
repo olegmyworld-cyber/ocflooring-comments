@@ -220,6 +220,26 @@ format as on hardwood floor repair page and their design for upload photo."
   [`webflow-scripts/carpetbellevuefontscanonical-1.1.0.js`](webflow-scripts/carpetbellevuefontscanonical-1.1.0.js)
   (adds Playfair Display 700/800, which the widget's headings use).
 
+### SEO/AI-search visibility for the widget (2026-08-25, v1.6.1)
+
+Per Oleg's question whether the page is "clearly seen for SEO and AI search":
+everything except the JS-rendered widget already was — the thirteen content
+sections, H1, FAQ, prices, meta/OG and the JSON-LD schema are native
+server-rendered HTML. To close the one gap, the photo-quote section's header
+(eyebrow, H2 "Send photos of your carpet…", lead including
+installation/stretching/repair keywords) now ships as a real HTML embed on the
+page — visible to non-JS crawlers (GPTBot, ClaudeBot, PerplexityBot, CCBot)
+the same way the repair pages' widget markup is. The embed carries an empty
+`#ocpq-shell`; bundle
+[`webflow-scripts/oc-carpet-bellevue-1.6.1.js`](webflow-scripts/oc-carpet-bellevue-1.6.1.js)
+(loader
+[`webflow-scripts/occarpetbellevue-1.6.1.js`](webflow-scripts/occarpetbellevue-1.6.1.js))
+fills the shell with the interactive interior, keeping the full
+section-render as a fallback when the embed is absent. Both paths verified
+locally end-to-end against a stubbed formsubmit.co. The cost estimator's
+internals remain JS-only by design (it is a calculator; its section heading
+and copy are native elements).
+
 ## Changes on branch `claude/oc-flooring-webflow-fixes-amosur`
 
 ### Bona sealer widget — "CUSTOMER FAVORITE" badge overlap (2026-06-14)
