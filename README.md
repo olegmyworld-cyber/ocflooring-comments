@@ -373,16 +373,37 @@ because the automated builders reported them rather than hiding them):
    inherited Bellevue's five blog links. The same pass replaced those with
    each city's own five (affected Arlington, Bothell, Cottage Lake, Duvall).
 
-**De-duplication.** A deterministic 8-gram audit across all 406 city pairs
-showed the marketing copy was well differentiated but the fact-heavy blocks
-converged (up to 97% of pairs shared an 8-word run in the mobile-showroom FAQ
-answer). The ten worst blocks — cost paragraph, hero lede, photo-upload
-prompt, booking checklist line and six FAQ answers — were rewritten per city
-with different sentence skeletons, varied openings and local anchors while
-keeping every number identical; the pass also restored the typical-project
-price ranges ($2,000–$4,500 and $5,500–$8,500) that a dozen writers had
-dropped. Driven by
+**De-duplication (measured, not assumed).** A deterministic 8-gram audit
+across all 406 city pairs showed the marketing copy was well differentiated
+but the fact-heavy blocks converged. The ten worst blocks — cost paragraph,
+hero lede, photo-upload prompt, booking checklist line and six FAQ answers —
+were rewritten per city with different sentence skeletons, varied openings
+and local anchors, keeping every number identical. Driven by
 [`webflow-scripts/carpet-rollout/dedup-playbook.md`](webflow-scripts/carpet-rollout/dedup-playbook.md).
+
+The rewritten text was then read back OUT of Webflow and re-audited (copies
+in [`webflow-scripts/carpet-rollout/verify/`](webflow-scripts/carpet-rollout/verify/)).
+Share of the 406 city pairs sharing an 8-word run, before → after:
+
+| field | before | after |
+|---|---|---|
+| mobile-showroom FAQ | 96.6% | 21.4% |
+| pet-carpet FAQ | 95.6% | 22.7% |
+| cost paragraph | 84.2% | 16.7% |
+| stretch-or-replace FAQ | 84.2% | 5.4% |
+| install-cost FAQ | 84.0% | 16.5% |
+| warranty FAQ | 79.1% | 24.1% |
+| photo-upload prompt | 69.7% | 8.6% |
+| hero lede | 51.7% | 12.8% |
+| booking checklist line | 45.3% | 22.4% |
+| stretching-cost FAQ | 41.6% | 4.4% |
+
+2,972 → 630 duplicate pairs (**78.8% reduction**); all 290 blocks confirmed
+changed on the live pages; all 29 blocks unique per field; zero price figures
+lost and zero stray "Bellevue" mentions. The residual overlap is the
+mandated shared facts (rates, "20+ carpet samples", warranty terms), which
+must read the same on every page. Every page names its own city in the
+breadcrumb, eyebrow, H1, cost sentence, SEO title and SEO description.
 
 ## Changes on branch `claude/oc-flooring-webflow-fixes-amosur`
 
