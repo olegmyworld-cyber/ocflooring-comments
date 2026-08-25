@@ -23,8 +23,18 @@ column exists, then appends a "Book Your Free In-Home Estimate" heading and the
 Calendly inline widget, and loads Calendly's `widget.js` once. The embed URL
 (`calendly.com/nwwillsflooring/free-in-home-estimate-online-today-clone-1`
 with `hide_gdpr_banner=1`) and sizing were copied verbatim from the Contact Us
-page's HTML embed. See
-[`webflow-scripts/occalendlysteps-1.0.0.js`](webflow-scripts/occalendlysteps-1.0.0.js).
+page's HTML embed.
+
+**v1.1.0:** v1.0.0 anchored on `#oc-tone-steps .ots-steps-col`, which did not
+match the Home page's current section markup (nothing appeared). v1.1.0 is
+markup-agnostic: it still tries `.ots-steps-col` first, then falls back to
+finding the rendered "Final Walkthrough" text (skipping script/style template
+strings), climbing to the steps column that holds the "5-Step … Process"
+heading, and inserting the calendar right after the last step. Polling extended
+15s → 60s in case the section builds late. Verified in headless Chromium
+against four mock section structures (exact class, nested list, flat rows,
+late-injected) — one insert each, correct position. See
+[`webflow-scripts/occalendlysteps-1.1.0.js`](webflow-scripts/occalendlysteps-1.1.0.js).
 
 Published live to `nwocflooring.com`, `www.nwocflooring.com`, and the Webflow
 subdomain.
