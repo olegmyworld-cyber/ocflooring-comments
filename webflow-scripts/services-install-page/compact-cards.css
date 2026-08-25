@@ -1,0 +1,16 @@
+/* Services install page — compact modern card grid for the native
+   "Flooring Types" and "Installation Methods" sections (2026-08-25).
+   Deployed as a page HtmlEmbed. Turns the oversized 2x2 giant-image cards
+   into a 4-across compact grid (2-across tablet, 1-col phone) with 150px
+   cover images, white cards, cream borders and soft shadows matching the
+   newer sections. Also normalizes bold description text to regular. */
+.section_features .services-wrap{display:grid!important;grid-template-columns:repeat(4,1fr)!important;gap:18px!important;max-width:1180px!important;margin-left:auto!important;margin-right:auto!important;width:100%!important;align-items:stretch!important}
+.section_features .services-item-wpapper{background:#fff!important;border:1px solid #E7DFCF!important;border-radius:14px!important;overflow:hidden!important;box-shadow:0 6px 16px rgba(11,31,58,.06)!important;padding:0 0 18px!important;margin:0!important;display:flex!important;flex-direction:column!important;align-items:stretch!important;max-width:none!important;width:auto!important;transition:transform .15s ease,box-shadow .15s ease!important}
+.section_features .services-item-wpapper:hover{transform:translateY(-3px)!important;box-shadow:0 14px 30px rgba(11,31,58,.13)!important}
+.section_features .services-image{width:100%!important;height:150px!important;max-height:150px!important;object-fit:cover!important;border-radius:0!important;margin:0!important}
+.section_features .services-item-wpapper .h3-heading{font-size:1.12rem!important;line-height:1.25!important;margin:14px 14px 6px!important;text-align:center!important}
+.section_features .services-description{font-size:.92rem!important;font-weight:400!important;line-height:1.5!important;color:#4A5263!important;margin:0 16px!important;text-align:center!important}
+.section_features .services-description strong,.section_features .services-description b{font-weight:400!important;color:#4A5263!important}
+.section_features .heading-wrapper .h2-heading,.section_features .heading-wrapper .h2-style{margin-bottom:.4rem!important}
+@media(max-width:991px){.section_features .services-wrap{grid-template-columns:repeat(2,1fr)!important;gap:14px!important}}
+@media(max-width:600px){.section_features .services-wrap{grid-template-columns:1fr!important}.section_features .services-image{height:150px!important}}

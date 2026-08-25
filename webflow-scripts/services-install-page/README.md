@@ -31,3 +31,14 @@ Skipped as already present or not visible: reviews (same 3 on both pages), FAQ
 basics, city links, flooring types, install methods, guide cards
 (#oc-install-guide exists on both), cost calculator (removed at runtime by
 ocRemoveCostCalc on both pages), Bellevue neighborhood blocks (city-specific).
+
+## Follow-ups (2026-08-25, same session)
+
+- **Reviews moved:** a small embed repositions the `#oc2-reviews` "What
+  Homeowners Say" section directly above `#oc-install-guide` ("Everything our
+  hardwood floor installation covers"), re-asserting for 15s so it wins over
+  the layout script.
+- **Compact card redesign:** `compact-cards.css` (deployed as a page embed)
+  restyles the native Flooring Types and Installation Methods sections from
+  oversized 2x2 giant-image tiles into a compact 4-across card grid with 150px
+  cover images, matching the newer sections' white-card/cream/navy design.
