@@ -88,6 +88,13 @@ baseline `padding-top`, and bundle
 now measures the rendered navbar (announcement strip included) on load/resize
 and sets the wrapper's exact top clearance. Loader registered as v1.2.0.
 
+### Van photo in booking section (2026-08-25)
+
+Added the OC Flooring van photo (asset `6a8cdcef02643a402aaa9e4a`,
+`oc-flooring-van-150kb.avif`, uploaded by Oleg) under the "Prefer the phone?"
+line in the booking section's info column — full-width, 340px tall,
+object-fit cover, 20px radius (`ci-book-photo`).
+
 ## Changes on branch `claude/oc-flooring-webflow-fixes-amosur`
 
 ### Bona sealer widget — "CUSTOMER FAVORITE" badge overlap (2026-06-14)
