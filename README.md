@@ -95,6 +95,18 @@ Added the OC Flooring van photo (asset `6a8cdcef02643a402aaa9e4a`,
 line in the booking section's info column — full-width, 340px tall,
 object-fit cover, 20px radius (`ci-book-photo`).
 
+### Photo-upload CTA in the stretch section (2026-08-25)
+
+Under the "Stretch it / Replace it" cards, a white card now offers "Not sure
+which one you're looking at?" with the same pulsing green **Upload Your
+Photos** button used on the hardwood floor repair page, linking to that
+page's photo-quote widget
+(`/city-of-bellevue/hardwood-floor-repair-in-bellevue-wa#ocpq`) so carpet
+visitors can send pictures and get a stretch-or-replace answer by email.
+The ring animation keyframes live in bundle
+[`webflow-scripts/oc-carpet-bellevue-1.3.0.js`](webflow-scripts/oc-carpet-bellevue-1.3.0.js)
+(Webflow styles cannot hold @keyframes); loader registered as v1.3.0.
+
 ## Changes on branch `claude/oc-flooring-webflow-fixes-amosur`
 
 ### Bona sealer widget — "CUSTOMER FAVORITE" badge overlap (2026-06-14)
