@@ -1,0 +1,260 @@
+<title>Carpet Launch Map</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Karla:wght@400;500;700&family=JetBrains+Mono:wght@400;500&display=swap">
+
+<style>
+:root{
+  --ground:#FBFAF7; --surface:#FFFFFF; --raise:#F4F1EA;
+  --ink:#161C24; --body:#3E444C; --muted:#71736F;
+  --rule:#E3DFD6; --rule-soft:#EEEAE2;
+  --accent:#A93228; --accent-ink:#8C2820; --accent-wash:#F6E7E4;
+  --pine:#2C4A42; --pine-wash:#E6EDEA;
+  --shadow:0 1px 2px rgba(22,28,36,.05), 0 8px 24px -18px rgba(22,28,36,.28);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --ground:#12161B; --surface:#191F26; --raise:#20272F;
+    --ink:#EDEAE3; --body:#C3C6C4; --muted:#8E918D;
+    --rule:#2A323B; --rule-soft:#232A32;
+    --accent:#E07A6C; --accent-ink:#F0A197; --accent-wash:#33221F;
+    --pine:#8FBDAF; --pine-wash:#1B2926;
+    --shadow:0 1px 2px rgba(0,0,0,.4), 0 8px 24px -18px rgba(0,0,0,.7);
+  }
+}
+:root[data-theme="dark"]{
+  --ground:#12161B; --surface:#191F26; --raise:#20272F;
+  --ink:#EDEAE3; --body:#C3C6C4; --muted:#8E918D;
+  --rule:#2A323B; --rule-soft:#232A32;
+  --accent:#E07A6C; --accent-ink:#F0A197; --accent-wash:#33221F;
+  --pine:#8FBDAF; --pine-wash:#1B2926;
+  --shadow:0 1px 2px rgba(0,0,0,.4), 0 8px 24px -18px rgba(0,0,0,.7);
+}
+
+*{box-sizing:border-box}
+body{
+  margin:0; background:var(--ground); color:var(--body);
+  font-family:Karla,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  font-size:16px; line-height:1.6; -webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:960px; margin:0 auto; padding:0 24px}
+
+/* ---- masthead: loop-pile rule derived from carpet construction ---- */
+.mast{border-bottom:1px solid var(--rule); background:var(--surface)}
+.pile{height:9px;
+  background-image:repeating-linear-gradient(90deg,
+    var(--accent) 0 2px, transparent 2px 7px);
+  opacity:.5;
+}
+.mast-in{padding:40px 0 34px; display:flex; flex-direction:column; gap:14px}
+.eyebrow{
+  font-size:11.5px; font-weight:700; letter-spacing:.16em; text-transform:uppercase;
+  color:var(--accent-ink);
+}
+h1{
+  margin:0; font-family:Fraunces,Georgia,serif; font-weight:700;
+  font-size:clamp(30px,4.6vw,46px); line-height:1.08; letter-spacing:-.015em;
+  color:var(--ink); text-wrap:balance;
+}
+.standfirst{margin:0; max-width:62ch; font-size:17px; color:var(--body)}
+
+.stats{display:flex; flex-wrap:wrap; gap:10px; margin-top:8px}
+.stat{
+  background:var(--raise); border:1px solid var(--rule-soft); border-radius:10px;
+  padding:10px 14px; display:flex; align-items:baseline; gap:8px;
+}
+.stat b{
+  font-family:Fraunces,Georgia,serif; font-weight:700; font-size:20px; color:var(--ink);
+  font-variant-numeric:tabular-nums;
+}
+.stat span{font-size:13.5px; color:var(--muted)}
+
+section{padding:44px 0; border-bottom:1px solid var(--rule-soft)}
+section:last-of-type{border-bottom:0}
+h2{
+  margin:0 0 6px; font-family:Fraunces,Georgia,serif; font-weight:700;
+  font-size:24px; line-height:1.2; color:var(--ink); text-wrap:balance;
+}
+.lede{margin:0 0 22px; max-width:64ch; color:var(--body)}
+
+/* ---- county groups ---- */
+.county{margin-top:30px}
+.county:first-of-type{margin-top:0}
+.county-head{
+  display:flex; align-items:baseline; gap:10px; padding-bottom:8px;
+  border-bottom:1px solid var(--rule);
+}
+.county-head h3{
+  margin:0; font-family:Fraunces,Georgia,serif; font-weight:500; font-size:17px;
+  color:var(--ink); letter-spacing:.01em;
+}
+.county-head .n{
+  font-size:12px; color:var(--muted); font-variant-numeric:tabular-nums;
+  font-family:"JetBrains Mono",ui-monospace,monospace;
+}
+.rows{display:flex; flex-direction:column}
+.row{
+  display:grid; grid-template-columns:minmax(120px,1.1fr) minmax(0,2.4fr);
+  gap:4px 20px; padding:13px 0; border-bottom:1px solid var(--rule-soft);
+  align-items:start;
+}
+.row:last-child{border-bottom:0}
+.city{display:flex; flex-direction:column; gap:3px}
+.city a{
+  color:var(--ink); text-decoration:none; font-weight:700; font-size:15.5px;
+  border-bottom:1.5px solid transparent; align-self:flex-start;
+}
+.city a:hover{color:var(--accent-ink); border-bottom-color:var(--accent)}
+.city a:focus-visible{outline:2px solid var(--accent); outline-offset:3px; border-radius:2px}
+.slug{
+  font-family:"JetBrains Mono",ui-monospace,monospace; font-size:11px;
+  color:var(--muted); word-break:break-all; line-height:1.45;
+}
+.angle{font-size:14.5px; color:var(--body)}
+
+/* ---- anatomy list ---- */
+.anatomy{display:grid; grid-template-columns:repeat(auto-fit,minmax(228px,1fr)); gap:14px}
+.card{
+  background:var(--surface); border:1px solid var(--rule); border-radius:12px;
+  padding:16px 18px; box-shadow:var(--shadow);
+}
+.card h4{
+  margin:0 0 5px; font-size:14.5px; font-weight:700; color:var(--ink);
+  letter-spacing:.005em;
+}
+.card p{margin:0; font-size:14px; color:var(--body)}
+
+/* ---- checklist ---- */
+ol.checks{margin:0; padding:0; list-style:none; counter-reset:c;
+  display:flex; flex-direction:column; gap:2px}
+ol.checks li{
+  counter-increment:c; display:grid; grid-template-columns:26px 1fr; gap:14px;
+  padding:14px 0; border-bottom:1px solid var(--rule-soft);
+}
+ol.checks li:last-child{border-bottom:0}
+ol.checks li::before{
+  content:counter(c); font-family:"JetBrains Mono",ui-monospace,monospace;
+  font-size:12px; font-weight:500; color:var(--accent-ink);
+  background:var(--accent-wash); border-radius:6px;
+  height:24px; display:grid; place-items:center; margin-top:1px;
+}
+ol.checks b{color:var(--ink); font-weight:700}
+ol.checks p{margin:3px 0 0; font-size:14.5px}
+
+.note{
+  margin-top:26px; background:var(--pine-wash); border-left:3px solid var(--pine);
+  border-radius:0 10px 10px 0; padding:15px 18px;
+}
+.note p{margin:0; font-size:14.5px; color:var(--body)}
+.note b{color:var(--ink)}
+
+footer{padding:30px 0 52px; color:var(--muted); font-size:13px}
+
+@media (max-width:620px){
+  .row{grid-template-columns:1fr; gap:6px}
+  .mast-in{padding:32px 0 28px}
+}
+@media (prefers-reduced-motion:reduce){*{animation:none!important; transition:none!important}}
+</style>
+
+<div class="mast">
+  <div class="pile"></div>
+  <div class="wrap mast-in">
+    <div class="eyebrow">OC Flooring · staged in Webflow, awaiting publish</div>
+    <h1>Carpet Launch Map</h1>
+    <p class="standfirst">Thirty carpet-installation city pages, one per city already covered by a floor-repair page. Same design throughout; the words on each one were written for that city alone.</p>
+    <div class="stats">
+      <div class="stat"><b>30</b><span>city pages</span></div>
+      <div class="stat"><b>870</b><span>links between them</span></div>
+      <div class="stat"><b>150</b><span>blog links added</span></div>
+      <div class="stat"><b>79%</b><span>less repeated wording</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="wrap">
+
+<section>
+  <h2>The thirty pages</h2>
+  <p class="lede">Grouped the way your service-areas slider groups them. Each line shows the angle that page leads with — the local reason someone in that city needs carpet done a particular way.</p>
+
+  <div class="county">
+    <div class="county-head"><h3>King County</h3><span class="n">18</span></div>
+    <div class="rows">
+      <div class="row"><div class="city"><a href="https://www.nwocflooring.com/city-of-bellevue/carpet-installation-in-bellevue-wa">Bellevue</a><span class="slug">/city-of-bellevue/carpet-installation-in-bellevue-wa</span></div><div class="angle">The original page — mid-century oak neighborhoods and view-window fade.</div></div>
+      <div class="row"><div class="city"><a href="https://www.nwocflooring.com/hardwood-floor-refinishing/carpet-installation-in-bothell-wa">Bothell</a><span class="slug">/hardwood-floor-refinishing/carpet-installation-in-bothell-wa</span></div><div class="angle">Student rentals near Cascadia through Canyon Park family two-storys.</div></div>
+      <div class="row"><div class="city"><a href="https://www.nwocflooring.com/city-of-cottage-lake/carpet-installation-in-cottage-lake-wa">Cottage Lake</a><span class="slug">/city-of-cottage-lake/carpet-installation-in-cottage-lake-wa</span></div><div class="angle">Acreage and gravel driveways — nothing here is near a showroom.</div></div>
+      <div class="row"><div class="city"><a href="https://www.nwocflooring.com/city-of-duvall/carpet-installation-in-duvall-wa">Duvall</a><span class="slug">/city-of-duvall/carpet-installation-in-duvall-wa</span></div><div class="angle">Valley commuter subdivisions outgrowing their builder-grade carpet.</div></div>
+      <div class="row"><div class="city"><a href="https://www.nwocflooring.com/city-of-issaquah/carpet-installation-in-issaquah-wa">Issaquah</a><span class="slug">/city-of-issaquah/carpet-installation-in-issaquah-wa</span></div><div class="angle">Highlands three-storys where the stairs got the thinnest carpet.</div></div>
+      <div class="row"><div class="city"><a href="https://www.nwocflooring.com/city-of-kenmore/carpet-installation-in-kenmore-wa">Kenmore</a><span class="slug">/city-of-kenmore/carpet-installation-in-kenmore-wa</span></div><div class="angle">Split-levels and daylight basements — stairs and lower levels.</div></div>
+      <div class="row"><div class="city"><a href="https://www.nwocflooring.com/city-of-kirkland/carpet-installation-in-kirkland-wa">Kirkland</a><span class="slug">/city-of-kirkland/carpet-installation-in-kirkland-wa</span></div><div class="angle">Bedrooms and stairs matched to remodeled main floors.</div></div>
+      <div class="row"><div class="city"><a href="https://www.nwocflooring.com/city-of-medina/carpet-installation-in-medina-wa">Medina</a><span class="slug">/city-of-medina/carpet-installation-in-medina-wa</span></div><div class="angle">Wool and premium lines, exact appointment times, no showroom trip.</div></div>
+      <div class="row"><div class="city"><a href="https://www.nwocflooring.com/city-of-mercer-island/carpet-installation-in-mercer-island-wa">Mercer Island</a><span class="slug">/city-of-mercer-island/carpet-installation-in-mercer-island-wa</span></div><div class="angle">Quieting multi-level view homes from stairs to lower level.</div></div>
+      <div class="row"><div class="city"><a href="https://www.nwocflooring.com/city-of-new-castle/carpet-installation-in-newcastle-wa">Newcastle</a><span class="slug">/city-of-new-castle/carpet-installation-in-newcastle-wa</span></div><div class="angle">Nineties two-storys on the Cougar Mountain flank — stair-heavy plans.</div></div>
+      <div class="row"><div class="city"><a href="https://www.nwocflooring.com/city-of-north-bend/carpet-installation-in-north-bend-wa">North Bend</a><span class="slug">/city-of-north-bend/carpet-installation-in-north-bend-wa</span></div><div class="angle">Warmth underfoot that shrugs off trail mud below Mount Si.</div></div>
+      <div class="row"><div class="city"><a href="https://www.nwocflooring.com/city-of-redmond/carpet-installation-in-redmond-wa">Redmond</a><span class="slug">/city-of-redmond/carpet-installation-in-redmond-wa</span></div><div class="angle">Work-from-home quiet — offices and stairs, scheduled around calls.</div></div>
+      <div class="row"><div class="city"><a href="https://www.nwocflooring.com/city-of-renton/carpet-installation-in-renton-wa">Renton</a><span class="slug">/city-of-renton/carpet-installation-in-renton-wa</span></div><div class="angle">Split-level and stair work at honest prices.</div></div>
+      <div class="row"><div class="city"><a href="https://www.nwocflooring.com/city-of-sammamish/carpet-installation-in-sammamish-wa">Sammamish</a><span class="slug">/city-of-sammamish/carpet-installation-in-sammamish-wa</span></div><div class="angle">Whole-upstairs recarpets and bonus rooms between school runs.</div></div>
+      <div class="row"><div class="city"><a href="https://www.nwocflooring.com/seattle/carpet-installation-in-seattle-wa">Seattle</a><span class="slug">/seattle/carpet-installation-in-seattle-wa</span></div><div class="angle">Craftsman bungalows to Belltown high-rises — parking and elevators handled.</div></div>
+      <div class="row"><div class="city"><a href="https://www.nwocflooring.com/city-of-shoreline/carpet-installation-in-shoreline-wa">Shoreline</a><span class="slug">/city-of-shoreline/carpet-installation-in-shoreline-wa</span></div><div class="angle">Updating original fifties ramblers and daylight basements.</div></div>
+      <div class="row"><div class="city"><a href="https://www.nwocflooring.com/city-of-snoqualmie/carpet-installation-in-snoqualmie-wa">Snoqualmie</a><span class="slug">/city-of-snoqualmie/carpet-installation-in-snoqualmie-wa</span></div><div class="angle">Ridge homes trading builder-grade for quieter, warmer uppers.</div></div>
+      <div class="row"><div class="city"><a href="https://www.nwocflooring.com/city-of-woodinville/carpet-installation-in-woodinville-wa">Woodinville</a><span class="slug">/city-of-woodinville/carpet-installation-in-woodinville-wa</span></div><div class="angle">Entertaining-ready great rooms, stairs and guest rooms.</div></div>
+    </div>
+  </div>
+
+  <div class="county">
+    <div class="county-head"><h3>Snohomish County</h3><span class="n">10</span></div>
+    <div class="rows">
+      <div class="row"><div class="city"><a href="https://www.nwocflooring.com/city-of-arlington/carpet-installation-in-arlington-wa">Arlington</a><span class="slug">/city-of-arlington/carpet-installation-in-arlington-wa</span></div><div class="angle">Big lots, boots and dogs — carpet that takes a beating.</div></div>
+      <div class="row"><div class="city"><a href="https://www.nwocflooring.com/city-of-edmonds/carpet-installation-in-edmonds-wa">Edmonds</a><span class="slug">/city-of-edmonds/carpet-installation-in-edmonds-wa</span></div><div class="angle">Quiet, soft floors for view homes — condo rules handled.</div></div>
+      <div class="row"><div class="city"><a href="https://www.nwocflooring.com/city-of-everett/carpet-installation-in-everett-wa">Everett</a><span class="slug">/city-of-everett/carpet-installation-in-everett-wa</span></div><div class="angle">Millworker four-squares to Silver Lake ramblers; shift-work hours.</div></div>
+      <div class="row"><div class="city"><a href="https://www.nwocflooring.com/city-of-lake-stevens/carpet-installation-in-lake-stevens-wa">Lake Stevens</a><span class="slug">/city-of-lake-stevens/carpet-installation-in-lake-stevens-wa</span></div><div class="angle">Family-proof carpet for new subdivisions around the lake.</div></div>
+      <div class="row"><div class="city"><a href="https://www.nwocflooring.com/city-of-lynnwood/carpet-installation-in-lynnwood-wa">Lynnwood</a><span class="slug">/city-of-lynnwood/carpet-installation-in-lynnwood-wa</span></div><div class="angle">First houses and rentals — fast, fair, quick turns.</div></div>
+      <div class="row"><div class="city"><a href="https://www.nwocflooring.com/city-of-marysville/carpet-installation-in-marysville-wa">Marysville</a><span class="slug">/city-of-marysville/carpet-installation-in-marysville-wa</span></div><div class="angle">Maximum durability per dollar for growing families.</div></div>
+      <div class="row"><div class="city"><a href="https://www.nwocflooring.com/city-of-mill-creek/carpet-installation-in-mill-creek-wa">Mill Creek</a><span class="slug">/city-of-mill-creek/carpet-installation-in-mill-creek-wa</span></div><div class="angle">Crisp, warrantied work that keeps an HOA-neat home neat.</div></div>
+      <div class="row"><div class="city"><a href="https://www.nwocflooring.com/city-of-monroe/carpet-installation-in-monroe-wa">Monroe</a><span class="slug">/city-of-monroe/carpet-installation-in-monroe-wa</span></div><div class="angle">Acreage, mud rooms and shop-adjacent homes, priced straight.</div></div>
+      <div class="row"><div class="city"><a href="https://www.nwocflooring.com/city-of-mukilteo/carpet-installation-in-mukilteo-wa">Mukilteo</a><span class="slug">/city-of-mukilteo/carpet-installation-in-mukilteo-wa</span></div><div class="angle">Harbour Pointe bluff homes — stairs and quiet upper floors.</div></div>
+      <div class="row"><div class="city"><a href="https://www.nwocflooring.com/city-of-snohomish/carpet-installation-in-snohomish-wa">Snohomish</a><span class="slug">/city-of-snohomish/carpet-installation-in-snohomish-wa</span></div><div class="angle">Character homes — landings and out-of-square rooms measured right.</div></div>
+    </div>
+  </div>
+
+  <div class="county">
+    <div class="county-head"><h3>Island County</h3><span class="n">2</span></div>
+    <div class="rows">
+      <div class="row"><div class="city"><a href="https://www.nwocflooring.com/city-of-oak-harbor/carpet-installation-in-oak-harbor-wa">Oak Harbor</a><span class="slug">/city-of-oak-harbor/carpet-installation-in-oak-harbor-wa</span></div><div class="angle">Navy move-out dates met — measured this week, installed before the movers.</div></div>
+      <div class="row"><div class="city"><a href="https://www.nwocflooring.com/city-of-whidbey-island/carpet-installation-in-whidbey-island-wa">Whidbey Island</a><span class="slug">/city-of-whidbey-island/carpet-installation-in-whidbey-island-wa</span></div><div class="angle">The showroom rides the ferry — one visit covers the trip.</div></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>What every page carries</h2>
+  <p class="lede">Identical layout, icons, estimator and photo uploader — the difference between pages is entirely in the words.</p>
+  <div class="anatomy">
+    <div class="card"><h4>Its own 10-question FAQ</h4><p>Cost, stairs, stretching, pets, warranty and more — written for that city, and matched by FAQ schema so search engines and AI assistants can quote it.</p></div>
+    <div class="card"><h4>Working photo uploader</h4><p>The same widget as your repair pages, emailing photo quotes to info.ocflooring@gmail.com with the city in the subject line.</p></div>
+    <div class="card"><h4>29 links to the other cities</h4><p>Every carpet page links to all the others, so the whole category reinforces itself instead of standing alone.</p></div>
+    <div class="card"><h4>Five carpet blog guides</h4><p>Chosen per city, favouring a local post where you already have one — Bothell gets the Bothell cost guide, Kenmore the stairs guide.</p></div>
+    <div class="card"><h4>Local map coordinates</h4><p>Each page's schema carries its own city's latitude and longitude rather than pointing everything at Bellevue.</p></div>
+    <div class="card"><h4>Real neighborhood names</h4><p>Sixteen per page — Gleneagle, Harbour Pointe, Silver Lake, Klahanie — the terms people actually search alongside their city.</p></div>
+  </div>
+</section>
+
+<section>
+  <h2>After you publish</h2>
+  <p class="lede">Everything is staged and out of draft. One publish takes all thirty live, plus the nav and slider changes. Then five things are worth eyeballing.</p>
+  <ol class="checks">
+    <li><div><b>Open any two city pages side by side.</b><p>Confirm the writing reads differently — the hero paragraph and the FAQ answers should feel like separate pages, not one page with the city swapped.</p></div></li>
+    <li><div><b>Check the Services menu.</b><p>"Carpet Installation" should sit under Floor Repair in the dropdown, on every page of the site.</p></div></li>
+    <li><div><b>Find the new slider category.</b><p>In "Proudly Serving Homeowners", a Carpet Installation Service Areas slide now joins Refinishing, LVP, Hardwood and Repair. On carpet pages it shows first. Click through the arrows once to confirm the fifth slide is reachable.</p></div></li>
+    <li><div><b>Send one test photo quote.</b><p>From any city page. The email should arrive with that city's name in the subject line.</p></div></li>
+    <li><div><b>Request indexing for a few.</b><p>In Google Search Console, submit two or three of the new URLs — the rest follow from your sitemap and the links between pages.</p></div></li>
+  </ol>
+  <div class="note">
+    <p><b>One judgement call worth knowing:</b> prices, warranty terms and the "20+ samples" promise read the same on every page — they have to, because they're the same offer. The repeated wording that remains is almost entirely those facts. Everything around them is city-specific.</p>
+  </div>
+</section>
+
+<footer class="wrap">Staged in Webflow · not yet published · source of record on branch <span style="font-family:'JetBrains Mono',monospace;font-size:12px">claude/oc-flooring-carpet-page-ig4q1w</span></footer>
+
+</div>
