@@ -79,10 +79,10 @@ including one replicating the live layout. Applied to all 31 pages. See
 **Scope-down (2026-08-25):** per follow-up request ("Remove it from all
 hardwood floor refinishing pages"), `occalendlysteps` was removed from the 29
 `hardwood-floor-refinishing-in-*-wa` city pages and from
-`/services/floor-refinishing`. It remains applied ONLY on the Home page
-(65f32565e111adbbb806ce6e), where the card was originally requested and
-confirmed working. The script stays registered site-side (v1.4.0), so
-re-adding it to any page is a single `add_page_script` call.
+`/services/floor-refinishing`, and then (same day, follow-up request) from the
+Home page as well. The card is now applied to NO pages. The script stays
+registered site-side (`occalendlysteps` v1.4.0, working and position-verified),
+so re-adding it to any page is a single `add_page_script` call.
 
 Published live to `nwocflooring.com`, `www.nwocflooring.com`, and the Webflow
 subdomain.
