@@ -240,6 +240,35 @@ locally end-to-end against a stubbed formsubmit.co. The cost estimator's
 internals remain JS-only by design (it is a calculator; its section heading
 and copy are native elements).
 
+### Icon layer for the text-heavy sections (2026-08-25, v1.7.0)
+
+Per Oleg ("i need more icons for this page… because here most text
+information"): bundle
+[`webflow-scripts/oc-carpet-bellevue-1.7.0.js`](webflow-scripts/oc-carpet-bellevue-1.7.0.js)
+(loader
+[`webflow-scripts/occarpetbellevue-1.7.0.js`](webflow-scripts/occarpetbellevue-1.7.0.js))
+adds ~25 decorative inline-SVG stroke icons (aria-hidden, currentColor,
+1.8-stroke — same visual language as the photo-quote widget and the repair
+pages), each matched to its element's meaning by keyword so edited or
+reordered cards keep sensible icons:
+
+- Trust bar: house ("12 years, family owned"), shield-check ("Licensed,
+  bonded & insured").
+- Hook stat cards: showroom van (1 visit), price tag ($1.49/sq ft),
+  clock (1 day).
+- How-it-works cards: calendar / van / written-quote clipboard / house-check
+  in the top-right corner of each step.
+- Services & prices cards: pad layers, carpet roll, stairs, stretch arrows.
+- Extras cards: van (haul-away), sofa (furniture moving), paw (pet pad).
+- Pad tiles: check (Standard), star (Recommended), paw (Pets & kids).
+- Stretch it / Replace it: stretch arrows vs swap arrows.
+- Service-areas heading: map pin. CTA buttons: calendar + phone. The green
+  "Upload Your Photos" button: camera.
+
+Icons are injected at runtime into soft rounded chips (cream `#F5EDE4`, rust
+strokes); idempotent per element and wrapped in try/catch, so a failure
+leaves the page exactly as before.
+
 ## Changes on branch `claude/oc-flooring-webflow-fixes-amosur`
 
 ### Bona sealer widget — "CUSTOMER FAVORITE" badge overlap (2026-06-14)
