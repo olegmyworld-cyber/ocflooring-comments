@@ -107,6 +107,36 @@ The ring animation keyframes live in bundle
 [`webflow-scripts/oc-carpet-bellevue-1.3.0.js`](webflow-scripts/oc-carpet-bellevue-1.3.0.js)
 (Webflow styles cannot hold @keyframes); loader registered as v1.3.0.
 
+### Marketing hook + on-page photo uploader (2026-08-25)
+
+- **Red marketing hook band** (`ci-hook`) directly under the hero: "Skip the
+  carpet store. Our mobile showroom brings it to you — and you leave the visit
+  with your exact price," with three stat cards (1 visit / from $1.49 per sq ft
+  / 1 day) and a white "Bring the showroom to me" button that scrolls to the
+  booking section (`#book`, id set at runtime by the bundle — the settings API
+  rejected writing it).
+- **On-page photo uploader** (`ci-pq` section, `#ci-photo-quote`, between the
+  service areas and final CTA): a **native Webflow form** named "Carpet Photo
+  Quote" — name/email (required), phone, project-type select (HTML select via
+  WHTML; the API select's options were not editable), details textarea, and
+  THREE native Webflow file-upload fields (Photo 1/2/3, 10 MB each, supported
+  by the site's Ecommerce plan). Submissions land in Webflow's Forms panel and
+  email notifications like the existing Quiz Form. Includes an "or text your
+  photos to (425) 595-1079" line. The stretch-section "Upload Your Photos"
+  button now scrolls to `#ci-photo-quote` instead of the repair page.
+- **Important finding:** the hardwood repair page's `#ocpq` uploader has NO
+  JavaScript behind it anywhere (checked all 1,200 assets — every one of the
+  95 .js assets downloaded and grepped — all 15 applied site scripts, page
+  scripts, embeds, and custom code). It is dead UI: none of its buttons or its
+  submit can work. Consider replacing it with a native Webflow form like the
+  carpet page's.
+- Bundle
+  [`webflow-scripts/oc-carpet-bellevue-1.4.1.js`](webflow-scripts/oc-carpet-bellevue-1.4.1.js)
+  (loader
+  [`webflow-scripts/occarpetbellevue-1.4.1.js`](webflow-scripts/occarpetbellevue-1.4.1.js))
+  adds the form styling, runtime placeholders (the API reserves the
+  placeholder attribute), and the `#book` anchor.
+
 ## Changes on branch `claude/oc-flooring-webflow-fixes-amosur`
 
 ### Bona sealer widget — "CUSTOMER FAVORITE" badge overlap (2026-06-14)
