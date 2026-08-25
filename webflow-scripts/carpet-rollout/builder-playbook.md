@@ -1,6 +1,8 @@
 # Carpet city page builder playbook
 
-You are building ONE carpet-installation city page for OC Flooring (Webflow siteId `6377e8e6a53936b48ef1cad0`) by duplicating the Bellevue template page and applying a city content pack. Follow these steps EXACTLY and in order. Your prompt gives you: `citySlug`, and `pack` (the content). Look up your city's record in the CITIES table below.
+You are building ONE carpet-installation city page for OC Flooring (Webflow siteId `6377e8e6a53936b48ef1cad0`) by duplicating the Bellevue template page and applying a city content pack. Follow these steps EXACTLY and in order. Your prompt gives you `citySlug`. Look up your city's record in the CITIES table below.
+
+READ YOUR CONTENT PACK FROM: `/tmp/claude-0/-home-user-ocflooring-comments/5b439edc-55c6-5748-8501-db5632544699/scratchpad/packs/<citySlug>.json` — that JSON object is `pack` (fields: repl[86], neighborhoods[16], guides[5], seoTitle, seoDesc, ogTitle, ogDesc, embedH2, embedLead, heroAlt, vanAlt, lat, lng).
 
 First load tools: ToolSearch query `select:mcp__Webflow__data_pages_tool,mcp__Webflow__data_element_tool,mcp__Webflow__data_element_settings_tool,mcp__Webflow__data_scripts_tool,mcp__Webflow__data_element_builder,mcp__Webflow__data_whtml_builder`.
 
@@ -53,11 +55,15 @@ If create_page FAILS because the slug already exists (a previous partial run), i
 ## Step 3 — neighborhood chips
 `pack.neighborhoods` = 16 strings. For i in 0..15: set_text on `{component: PAGEID, element: chipEls[i]}`. Batch into one call.
 
-## Step 4 — nearby-city internal links
+## Step 4 — nearby-city internal links (IDEMPOTENT — read carefully)
 Parent: `{component: PAGEID, element: "474b1d83-1342-12a5-2ea8-342a25ead091"}` (the ci-chip-row2 block).
-(a) `data_element_builder`, ONE call, 29 actions (all with that parent, creation_position "append", in the CITIES-table order, SKIPPING your own city): each action `element_schema` = `{type:"TextLink", set_style:{style_names:["ci-chip2"]}, set_text:{text:"<CityName>"}, set_link:{link_type:"url", link:"<page path from table>"}}`.
-(b) Then remove the 18 old text chips with `data_element_tool` remove_element (component=PAGEID) for these element ids, batched in one call:
-474b1d83-1342-12a5-2ea8-342a25ead075, -2ea8-342a25ead077, -2ea8-342a25ead079, -2ea8-342a25ead07b, -2ea8-342a25ead07d, -2ea8-342a25ead07f, -2ea8-342a25ead081, -2ea8-342a25ead083, -2ea8-342a25ead085, -2ea8-342a25ead087, -2ea8-342a25ead089, -2ea8-342a25ead08b, -2ea8-342a25ead08d, -2ea8-342a25ead08f, ... STOP — do NOT guess ids. Instead: query_elements with element_filter {style:"ci-chip2"} limit 50 on PAGEID, and remove every match whose type is "Block" (the old text chips). Your newly created TextLinks have type Link — do not remove those.
+
+(a) FIRST inspect what is already there: `data_element_tool` query_elements, element_filter `{style:"ci-chip2"}`, children_depth 1, limit 60, on PAGEID. From the result build:
+   - `existingLinks` = the set of city names already present as type "Link" (read each one's String child textContent),
+   - `staleBlocks` = every match whose type is "Block" (these are the template's old plain-text chips).
+(b) Create links ONLY for cities that are in the CITIES table, are NOT your own city, and are NOT already in `existingLinks`. One `data_element_builder` call, one action per missing city, parent as above, creation_position "append", `element_schema` = `{type:"TextLink", set_style:{style_names:["ci-chip2"]}, set_text:{text:"<CityName>"}, set_link:{link_type:"url", link:"<page path from table>"}}`. If nothing is missing, skip this call entirely.
+(c) Remove every element in `staleBlocks` with `data_element_tool` remove_element (component=PAGEID), batched in one call. NEVER remove a match whose type is "Link".
+End state must be exactly 29 ci-chip2 elements, all of type Link, one per other city.
 
 ## Step 5 — photo-quote embed (city lead)
 `data_element_settings_tool` set_settings on `{component: PAGEID, element: "ba9f3312-17ad-cec4-ebb7-d0334fdada88"}`, key `code`, static_text value = the template below with `{{H2}}` → `pack.embedH2` and `{{LEAD}}` → `pack.embedLead` (plain text; escape nothing else):
@@ -109,6 +115,8 @@ Take this structure and substitute: CITY = CityName; PATH = the page path from t
 
 ## Step 10 — verify and report
 - query_elements: style `ci-h1` children_depth 1 → text must equal pack.repl[2].
-- query_elements: style `ci-chip2` limit 50 → exactly 29 matches, all type Link.
+- query_elements: style `ci-chip2` limit 60 → exactly 29 matches, all type Link (zero Block).
+- query_elements: style `cg-sec` → exactly 1 match (the carpet-guides section).
 - get_page_scripts → the 2 scripts above.
-Return via StructuredOutput: citySlug, pageId, ok (true only if ALL steps succeeded and verifications passed), plus per-step booleans and an errors array with exact messages for anything that failed. Do NOT return the pack.
+Also confirm via `data_pages_tool` get_page_metadata that the page is no longer a draft.
+Return via StructuredOutput: citySlug, pageId, ok (true only if ALL steps succeeded and ALL verifications passed), chipCount (integer), plus per-step booleans and an errors array with exact messages for anything that failed. Do NOT return the pack contents.
