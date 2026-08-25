@@ -64,6 +64,18 @@ inline-`<script>` embedding. Applied to all 31 pages (Home, Floor Refinishing,
 29 city pages). See
 [`webflow-scripts/occalendlysteps-1.3.0.js`](webflow-scripts/occalendlysteps-1.3.0.js).
 
+**v1.4.0 — placement fix:** v1.3.0 rendered, but the card landed below the
+whole two-column section — on the live pages the section heading is a sibling
+of the column wrap, so climbing to "the ancestor holding the heading" overshot
+to section level. v1.4.0 anchors to the steps list itself: climb from the
+visible "Final Walkthrough" leaf until the parent also contains step 2's title
+("Dustless Sanding") — that parent is the innermost container holding all five
+steps and the stopped-on node is the step-5 row; the card is inserted right
+after it, exactly under "5 · Final Walkthrough". Heading-climb kept as
+fallback; `.ots-steps-col` fast path removed. Verified against six mocks
+including one replicating the live layout. Applied to all 31 pages. See
+[`webflow-scripts/occalendlysteps-1.4.0.js`](webflow-scripts/occalendlysteps-1.4.0.js).
+
 Published live to `nwocflooring.com`, `www.nwocflooring.com`, and the Webflow
 subdomain.
 
