@@ -170,6 +170,12 @@ want same as I have on hardwood floor repair."
 - Note: the repair page's own `#ocpq` widget has no CSS or JS anywhere on the
   site (see previous entry) — so this round recreates its intended design
   from its markup rather than copying live styles.
+- **1.5.1** (same day, per Oleg): removed "New carpet installation" from the
+  project-type chips (and the hidden select) — the chips are now Carpet
+  stretching / Carpet repair / Stair carpet / Not sure. Bundle
+  [`webflow-scripts/oc-carpet-bellevue-1.5.1.js`](webflow-scripts/oc-carpet-bellevue-1.5.1.js),
+  loader
+  [`webflow-scripts/occarpetbellevue-1.5.1.js`](webflow-scripts/occarpetbellevue-1.5.1.js).
 
 ## Changes on branch `claude/oc-flooring-webflow-fixes-amosur`
 
