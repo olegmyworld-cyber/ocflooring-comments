@@ -22,3 +22,21 @@ phones. See [`webflow-scripts/bonamobilefix-1.0.0.js`](webflow-scripts/bonamobil
 
 Published live to `nwocflooring.com`, `www.nwocflooring.com`, and the Webflow
 subdomain.
+
+## Changes on branch `claude/remove-why-different-nav-qwpgea`
+
+### Navbar — removed "Why We're Different" link (2026-08-25)
+
+**Request:** Remove the "Why We're Different" item from the site's navigation bar.
+
+**Change:** Made directly in the Webflow site (no custom code involved). Deleted
+the `NavbarLink` element (style `Nav Link`, element id
+`8f0a51f1-09ac-f0dd-7a56-830df8c0e54d`) containing the "Why We're Different" text
+from the shared `Navbar` component (component id
+`6f76eb68-426e-d4a4-55b1-e419a08b720a`, used on 154 pages), via the Webflow MCP
+Data API. The remaining nav links (About Us, Services, Our Work, Price, Financing,
+phone) are untouched, and the `/why-were-different` page itself still exists — only
+the nav link was removed.
+
+Published live to `nwocflooring.com`, `www.nwocflooring.com`, and the Webflow
+subdomain.
