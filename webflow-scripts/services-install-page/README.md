@@ -42,3 +42,7 @@ ocRemoveCostCalc on both pages), Bellevue neighborhood blocks (city-specific).
   restyles the native Flooring Types and Installation Methods sections from
   oversized 2x2 giant-image tiles into a compact 4-across card grid with 150px
   cover images, matching the newer sections' white-card/cream/navy design.
+- **Mobile slider:** on phones (≤767px) the compacted Flooring Types and
+  Installation Methods sections render as a swipeable horizontal scroll-snap
+  slider (cards 86% wide with next-card peek, hidden scrollbar), matching the
+  Bellevue page's mobile slider pattern; 768–991px stays a 2-across grid.
