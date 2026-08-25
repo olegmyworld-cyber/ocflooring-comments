@@ -1,7 +1,8 @@
 // OC Flooring — Webflow registered inline script: "OCCalendlySteps" (id: occalendlysteps)
 // Site: OC Flooring Hardwood Refinishing (6377e8e6a53936b48ef1cad0) — nwocflooring.com
-// Applied at: page footers of "Home" (page 65f32565e111adbbb806ce6e, published at /)
-// and "Floor Refinishing" (page 65f32565e111adbbb806cf36, /services/floor-refinishing).
+// Applied at: page footers of "Home" (page 65f32565e111adbbb806ce6e, published at /),
+// "Floor Refinishing" (page 65f32565e111adbbb806cf36, /services/floor-refinishing),
+// and all 29 hardwood-floor-refinishing-in-*-wa city pages.
 //
 // What it does:
 //   Fills the empty space under step 5 ("Final Walkthrough") of the "Our 5-Step

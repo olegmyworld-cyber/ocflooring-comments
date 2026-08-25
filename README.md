@@ -42,6 +42,13 @@ it"): the calendar now sits in a white card with a red top bar, a red
 sub-line, matching the site's navy/red/cream palette. See
 [`webflow-scripts/occalendlysteps-1.2.0.js`](webflow-scripts/occalendlysteps-1.2.0.js).
 
+**Rollout to city pages:** per follow-up request, v1.2.0 was also applied at the
+page footer of all 29 `hardwood-floor-refinishing-in-*-wa` city pages (their
+5-step section carries the same "Our 5-Step Hardwood Refinishing Process in
+{City}" heading, which the script's text-based placement already handles; the
+city name in the heading doesn't matter to it). Pages that somehow lack the
+section are unaffected — the script no-ops after its 60s poll window.
+
 Published live to `nwocflooring.com`, `www.nwocflooring.com`, and the Webflow
 subdomain.
 
