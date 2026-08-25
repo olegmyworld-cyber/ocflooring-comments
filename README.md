@@ -42,12 +42,27 @@ it"): the calendar now sits in a white card with a red top bar, a red
 sub-line, matching the site's navy/red/cream palette. See
 [`webflow-scripts/occalendlysteps-1.2.0.js`](webflow-scripts/occalendlysteps-1.2.0.js).
 
-**Rollout to city pages:** per follow-up request, v1.2.0 was also applied at the
-page footer of all 29 `hardwood-floor-refinishing-in-*-wa` city pages (their
-5-step section carries the same "Our 5-Step Hardwood Refinishing Process in
-{City}" heading, which the script's text-based placement already handles; the
-city name in the heading doesn't matter to it). Pages that somehow lack the
+**Rollout to city pages:** per follow-up request, the script was also applied at
+the page footer of all 29 `hardwood-floor-refinishing-in-*-wa` city pages
+(published under city folders, e.g. `/seattle/hardwood-floor-refinishing-in-seattle-wa`;
+their 5-step section carries the same "Our 5-Step … Process in {City}" heading,
+which the text-based placement already handles). Pages that somehow lack the
 section are unaffected — the script no-ops after its 60s poll window.
+
+**v1.3.0 — root-cause fix ("nothing appears on any page" after v1.2.0):**
+v1.2.0 built the card via `innerHTML` with literal HTML tags inside the inline
+script source. Every proven-rendering inline script on this site builds DOM
+exclusively with `createElement` (bigger markup lives in external hosted
+files); v1.1.0 (createElement-only) worked while v1.2.0 (innerHTML) rendered
+nowhere — Webflow's inline custom-code pipeline evidently doesn't tolerate
+tag-like sequences in registered inline scripts. v1.3.0 rebuilds the identical
+accent card with `createElement` only (the deployed minified source contains no
+`<` character at all) and adds visibility-aware anchoring (hidden template
+copies of the section can't swallow the card). Verified in headless Chromium
+against six mock structures, including hidden-template and true
+inline-`<script>` embedding. Applied to all 31 pages (Home, Floor Refinishing,
+29 city pages). See
+[`webflow-scripts/occalendlysteps-1.3.0.js`](webflow-scripts/occalendlysteps-1.3.0.js).
 
 Published live to `nwocflooring.com`, `www.nwocflooring.com`, and the Webflow
 subdomain.
