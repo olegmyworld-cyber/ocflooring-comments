@@ -290,8 +290,18 @@ FAQ +/-), so this fills only the gaps, in the page's own palette (tan chips,
   stroke SVGs;
 - a book icon on the "Flooring Guides & Answers" heading.
 
-Bellevue only for now — the other 29 repair city pages share the same embeds
-and could take the same script if wanted.
+**Rolled out to all 30 repair city pages** (same day, per Oleg): the
+registered `ocrepairicons` 1.0.0 loader is now applied at the page footer of
+every `hardwood-floor-repair-in-*` page (Arlington, Bellevue, Bothell,
+Cottage Lake, Duvall, Edmonds, Everett, Issaquah, Kenmore, Kirkland, Lake
+Stevens, Lynnwood, Marysville, Medina, Mercer Island, Mill Creek, Monroe,
+Mukilteo, Newcastle, North Bend, Oak Harbor, Redmond, Renton, Sammamish,
+Seattle, Shoreline, Snohomish, Snoqualmie, Whidbey Island, Woodinville).
+None of these pages had page-level scripts before, so each page's scripts
+list is exactly this one entry. The decorator is selector-driven and no-ops
+on any element it can't find, so pages with structural quirks (e.g.
+Seattle's split embeds) degrade safely. The main
+`/services/flooring-repair` page was not touched.
 
 ## Changes on branch `claude/oc-flooring-webflow-fixes-amosur`
 
