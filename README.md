@@ -137,6 +137,40 @@ The ring animation keyframes live in bundle
   adds the form styling, runtime placeholders (the API reserves the
   placeholder attribute), and the `#book` anchor.
 
+### Natural hook band + repair-page-style uploader (2026-08-25)
+
+Oleg's feedback on the previous round: the red hook band was too loud ("make it
+natural and not in red color fon") and the plain stacked form "looks old — I
+want same as I have on hardwood floor repair."
+
+- **Hook band restyled to the page's natural palette** (Designer style
+  updates, no markup change): cream `#F7F2EC` background with a hairline top
+  border instead of the red gradient; dark serif heading, muted body copy;
+  stat cards are now white with the numbers as the only red accent; the
+  "Bring the showroom to me" button is now the standard red pill (white on
+  red, hover darkened). Same copy, same stats, same anchor.
+- **Photo-quote form rebuilt into the repair page's uploader design.** Bundle
+  [`webflow-scripts/oc-carpet-bellevue-1.5.0.js`](webflow-scripts/oc-carpet-bellevue-1.5.0.js)
+  (loader
+  [`webflow-scripts/occarpetbellevue-1.5.0.js`](webflow-scripts/occarpetbellevue-1.5.0.js))
+  restructures the form at runtime into the `#ocpq` widget's visual language:
+  a white card with three dashed **photo drop-tiles** ("The worst spot / A few
+  feet back / The whole room", tap to add, `accept="image/*"` so phones open
+  the camera roll), a **chip row** for the project type (the chips drive the
+  hidden native select, now submitting as "Project type"), block titles with
+  subtitles ("Tell us about it in your own words", "Where should the price
+  go?"), a 3-column labeled field grid, the red pill submit next to the
+  "sent before 3pm" note, and a 3-card promise row (Same day / A person, not
+  a bot / No obligation). The native Webflow form and its file-upload widgets
+  stay intact underneath — nodes are only moved/wrapped, so Webflow's upload
+  handlers and Forms-panel/email delivery keep working; if the runtime
+  rebuild ever fails the form falls back to the previous stacked layout.
+  Also fixed: the real `w-file-upload-input` is kept visually hidden again
+  (the v1.4.x fallback rule could reveal it on the published page).
+- Note: the repair page's own `#ocpq` widget has no CSS or JS anywhere on the
+  site (see previous entry) — so this round recreates its intended design
+  from its markup rather than copying live styles.
+
 ## Changes on branch `claude/oc-flooring-webflow-fixes-amosur`
 
 ### Bona sealer widget — "CUSTOMER FAVORITE" badge overlap (2026-06-14)
