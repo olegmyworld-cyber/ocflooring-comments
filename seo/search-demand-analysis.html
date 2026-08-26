@@ -1,0 +1,536 @@
+<title>Pages Google Wants</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<style>
+  :root{
+    --ground:#EFEFEC;
+    --surface:#FFFFFF;
+    --surface-2:#E6E5E1;
+    --line:#D3D2CC;
+    --line-soft:#E2E1DC;
+    --ink:#1C1815;
+    --ink-2:#57514B;
+    --ink-3:#837C74;
+    --accent:#9A5A16;
+    --accent-soft:#EFDFCB;
+    --good:#3C6B4C;
+    --warn:#9A5A16;
+    --crit:#8C2F26;
+    --crit-soft:#F0DCD9;
+    --bar:#B9773A;
+    --bar-track:#DEDDD8;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --ground:#16130F;
+      --surface:#1F1B16;
+      --surface-2:#282219;
+      --line:#3A322A;
+      --line-soft:#2D261F;
+      --ink:#EFEAE1;
+      --ink-2:#B4ABA0;
+      --ink-3:#8A8177;
+      --accent:#D89A4E;
+      --accent-soft:#3A2C18;
+      --good:#7FB08C;
+      --warn:#D89A4E;
+      --crit:#DC8A80;
+      --crit-soft:#3A211E;
+      --bar:#C08444;
+      --bar-track:#2E2820;
+    }
+  }
+  :root[data-theme="dark"]{
+    --ground:#16130F;
+    --surface:#1F1B16;
+    --surface-2:#282219;
+    --line:#3A322A;
+    --line-soft:#2D261F;
+    --ink:#EFEAE1;
+    --ink-2:#B4ABA0;
+    --ink-3:#8A8177;
+    --accent:#D89A4E;
+    --accent-soft:#3A2C18;
+    --good:#7FB08C;
+    --warn:#D89A4E;
+    --crit:#DC8A80;
+    --crit-soft:#3A211E;
+    --bar:#C08444;
+    --bar-track:#2E2820;
+  }
+
+  *{box-sizing:border-box;}
+  body{
+    background:var(--ground);
+    color:var(--ink);
+    font-family:"Source Serif 4",Georgia,"Times New Roman",serif;
+    font-size:17px;
+    line-height:1.62;
+    margin:0;
+    padding:0 24px 96px;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:1060px;margin:0 auto;}
+  .col{max-width:680px;}
+
+  h1,h2,h3,.eyebrow,.stat-n,.tag,th,.rank,.btn{font-family:Archivo,"Helvetica Neue",Arial,sans-serif;}
+  h1{
+    font-size:clamp(2.4rem,6vw,4rem);
+    font-weight:800;
+    letter-spacing:-.032em;
+    line-height:.98;
+    margin:0 0 18px;
+    text-wrap:balance;
+  }
+  h2{
+    font-size:clamp(1.35rem,2.6vw,1.85rem);
+    font-weight:700;
+    letter-spacing:-.02em;
+    line-height:1.14;
+    margin:0 0 14px;
+    text-wrap:balance;
+  }
+  h3{
+    font-size:1.06rem;
+    font-weight:700;
+    letter-spacing:-.008em;
+    margin:0 0 8px;
+  }
+  p{margin:0 0 16px;}
+  a{color:var(--accent);text-decoration-thickness:1px;text-underline-offset:2px;}
+  a:focus-visible,.q:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:2px;}
+  strong{font-weight:600;color:var(--ink);}
+
+  .eyebrow{
+    font-size:.7rem;
+    font-weight:700;
+    letter-spacing:.16em;
+    text-transform:uppercase;
+    color:var(--ink-3);
+    margin:0 0 12px;
+  }
+
+  /* masthead */
+  header.mast{padding:72px 0 40px;border-bottom:2px solid var(--ink);}
+  .mast-meta{
+    display:flex;flex-wrap:wrap;gap:8px 22px;
+    font-family:"IBM Plex Mono",ui-monospace,monospace;
+    font-size:.76rem;color:var(--ink-3);
+    margin-top:26px;letter-spacing:.01em;
+  }
+  .lede{font-size:1.18rem;line-height:1.55;color:var(--ink-2);max-width:640px;margin:0;}
+
+  section{padding:52px 0 0;}
+  .rule{height:1px;background:var(--line);border:0;margin:52px 0 0;}
+
+  /* callout */
+  .note{
+    border-left:3px solid var(--accent);
+    background:var(--surface);
+    padding:20px 24px;
+    margin:0 0 28px;
+    max-width:720px;
+  }
+  .note.alarm{border-left-color:var(--crit);background:var(--crit-soft);}
+  .note p:last-child{margin-bottom:0;}
+  .note h3{margin-bottom:6px;}
+
+  /* stats */
+  .stats{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+    gap:1px;
+    background:var(--line);
+    border:1px solid var(--line);
+    margin:34px 0 0;
+  }
+  .stat{background:var(--surface);padding:20px 20px 18px;}
+  .stat-n{
+    font-size:clamp(1.6rem,3.6vw,2.3rem);
+    font-weight:700;
+    letter-spacing:-.03em;
+    line-height:1;
+    display:block;
+    font-variant-numeric:tabular-nums;
+  }
+  .stat-n.hot{color:var(--crit);}
+  .stat-l{
+    font-family:"IBM Plex Mono",ui-monospace,monospace;
+    font-size:.7rem;letter-spacing:.06em;text-transform:uppercase;
+    color:var(--ink-3);margin-top:10px;display:block;line-height:1.4;
+  }
+
+  /* bar chart */
+  .bars{margin:26px 0 0;display:flex;flex-direction:column;gap:2px;}
+  .brow{
+    display:grid;
+    grid-template-columns:minmax(140px,190px) 1fr 74px 60px;
+    align-items:center;
+    gap:14px;
+    padding:9px 0;
+    border-bottom:1px solid var(--line-soft);
+  }
+  .brow:first-child{border-top:1px solid var(--line-soft);}
+  .bname{font-size:.94rem;line-height:1.25;}
+  .btrack{background:var(--bar-track);height:15px;position:relative;}
+  .bfill{background:var(--bar);height:100%;}
+  .bfill.dim{background:var(--ink-3);opacity:.5;}
+  .bnum{
+    font-family:"IBM Plex Mono",ui-monospace,monospace;
+    font-size:.8rem;text-align:right;font-variant-numeric:tabular-nums;color:var(--ink-2);
+  }
+  .bctr{
+    font-family:"IBM Plex Mono",ui-monospace,monospace;
+    font-size:.75rem;text-align:right;font-variant-numeric:tabular-nums;color:var(--ink-3);
+  }
+  .bctr.zero{color:var(--crit);}
+  .bhead{
+    display:grid;
+    grid-template-columns:minmax(140px,190px) 1fr 74px 60px;
+    gap:14px;
+    font-family:"IBM Plex Mono",ui-monospace,monospace;
+    font-size:.68rem;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-3);
+    padding-bottom:7px;
+  }
+  .bhead span:nth-child(3),.bhead span:nth-child(4){text-align:right;}
+
+  /* query chips */
+  .q{
+    font-family:"IBM Plex Mono",ui-monospace,monospace;
+    font-size:.78rem;
+    background:var(--surface-2);
+    color:var(--ink-2);
+    padding:2px 7px;
+    border-radius:2px;
+    white-space:nowrap;
+  }
+  .qlist{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0 0;}
+
+  /* build cards */
+  .builds{display:flex;flex-direction:column;gap:1px;background:var(--line);border:1px solid var(--line);margin-top:30px;}
+  .build{background:var(--surface);padding:26px 26px 24px;display:grid;grid-template-columns:46px 1fr;gap:20px;}
+  .rank{
+    font-size:1.5rem;font-weight:800;color:var(--accent);
+    letter-spacing:-.04em;line-height:1;font-variant-numeric:tabular-nums;
+  }
+  .build-body p:last-child{margin-bottom:0;}
+  .slug{
+    font-family:"IBM Plex Mono",ui-monospace,monospace;
+    font-size:.8rem;color:var(--accent);word-break:break-all;
+    display:inline-block;margin-bottom:10px;
+  }
+  .kv{
+    display:grid;grid-template-columns:auto 1fr;gap:4px 14px;
+    font-size:.88rem;margin:14px 0 0;
+  }
+  .kv dt{
+    font-family:"IBM Plex Mono",ui-monospace,monospace;
+    font-size:.68rem;letter-spacing:.07em;text-transform:uppercase;
+    color:var(--ink-3);padding-top:5px;
+  }
+  .kv dd{margin:0;color:var(--ink-2);}
+
+  .tag{
+    display:inline-block;font-size:.64rem;font-weight:700;letter-spacing:.1em;
+    text-transform:uppercase;padding:3px 8px;border-radius:2px;margin-bottom:10px;
+  }
+  .tag.none{background:var(--crit-soft);color:var(--crit);}
+  .tag.weak{background:var(--accent-soft);color:var(--accent);}
+
+  /* tables */
+  .tw{overflow-x:auto;margin:24px 0 0;border:1px solid var(--line);}
+  table{border-collapse:collapse;width:100%;background:var(--surface);font-size:.88rem;}
+  th{
+    text-align:left;font-size:.68rem;font-weight:700;letter-spacing:.08em;
+    text-transform:uppercase;color:var(--ink-3);
+    padding:11px 14px;border-bottom:1px solid var(--line);white-space:nowrap;
+  }
+  td{padding:11px 14px;border-bottom:1px solid var(--line-soft);vertical-align:top;color:var(--ink-2);}
+  tr:last-child td{border-bottom:0;}
+  td.mono,th.num{font-family:"IBM Plex Mono",ui-monospace,monospace;font-variant-numeric:tabular-nums;}
+  td.num{text-align:right;font-family:"IBM Plex Mono",ui-monospace,monospace;font-variant-numeric:tabular-nums;white-space:nowrap;}
+  th.num{text-align:right;}
+  td.bad{color:var(--crit);}
+
+  ul.clean{margin:14px 0 0;padding-left:20px;}
+  ul.clean li{margin-bottom:9px;}
+
+  .foot{
+    margin-top:60px;padding-top:22px;border-top:1px solid var(--line);
+    font-family:"IBM Plex Mono",ui-monospace,monospace;
+    font-size:.74rem;color:var(--ink-3);line-height:1.7;max-width:700px;
+  }
+
+  @media (max-width:640px){
+    body{font-size:16px;padding:0 18px 72px;}
+    header.mast{padding:48px 0 32px;}
+    .brow,.bhead{grid-template-columns:minmax(96px,1fr) 66px 52px;}
+    .brow .btrack,.bhead span:nth-child(2){display:none;}
+    .build{grid-template-columns:1fr;gap:8px;}
+  }
+  @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;}}
+</style>
+
+<div class="wrap">
+
+<header class="mast">
+  <p class="eyebrow">Search Console teardown &middot; nwocflooring.com</p>
+  <h1>Pages Google&nbsp;Wants</h1>
+  <p class="lede">Twelve months of real search data, sorted into the category pages worth building — and the ones that would be a waste of your time.</p>
+  <div class="mast-meta">
+    <span>Aug 2025 – Aug 2026</span>
+    <span>4,602 queries (≥15 impressions)</span>
+    <span>Source: Google Search Console</span>
+  </div>
+</header>
+
+<section class="col">
+  <div class="note">
+    <h3>Two things before the numbers</h3>
+    <p><strong>This is the Seattle market, not Orange County.</strong> Every query in this data is Puget Sound — Bellevue, Everett, Lynnwood, Redmond, Snohomish, Mercer Island. "OC" here reads as the company name, not the region.</p>
+    <p><strong>I could not use your Chrome or Semrush.</strong> I run in a cloud container with no access to your machine or your logged-in Semrush session. So this is built on Search Console instead — which is better for this question anyway: Semrush estimates national volume, Search Console shows the actual queries that put <em>your</em> site in front of <em>your</em> customers.</p>
+  </div>
+</section>
+
+<section>
+  <p class="eyebrow">The headline problem</p>
+  <h2 class="col">Half a million impressions. Seven hundred clicks.</h2>
+  <div class="stats">
+    <div class="stat"><span class="stat-n">519,967</span><span class="stat-l">Non-branded impressions</span></div>
+    <div class="stat"><span class="stat-n hot">731</span><span class="stat-l">Non-branded clicks</span></div>
+    <div class="stat"><span class="stat-n hot">0.14%</span><span class="stat-l">Non-branded CTR</span></div>
+    <div class="stat"><span class="stat-n">340</span><span class="stat-l">Of 4,597 queries earned even one click</span></div>
+    <div class="stat"><span class="stat-n">518</span><span class="stat-l">Clicks from the single query "oc flooring"</span></div>
+  </div>
+  <div class="col" style="margin-top:26px">
+    <p>Google shows your site constantly and almost nobody clicks. 41% of all your search clicks come from one branded query — people who already knew your name. Everyone <em>discovering</em> you through search adds up to about two clicks a day.</p>
+    <p>That reframes the job. You have roughly 400 pages already; the problem is not page count. It is that the pages you have rank on page 3–5 for the queries that matter, and the categories that convert best have no page at all.</p>
+  </div>
+</section>
+
+<hr class="rule">
+
+<section>
+  <p class="eyebrow">Read this before you build anything</p>
+  <h2 class="col">About 66,000 of those impressions are not real people</h2>
+  <div class="col">
+    <p>Forty queries sit in Google's <strong>top 12 results</strong>, pull <strong>400+ impressions each</strong>, and earn <strong>exactly zero clicks</strong>. At position 3–8, real searchers click 2–10% of the time. Zero, forty times over, is not a CTR problem — it is automated traffic.</p>
+    <p>The tell is the shape. Look at these:</p>
+  </div>
+  <div class="tw">
+    <table>
+      <thead><tr><th>Query</th><th class="num">Impressions</th><th class="num">Position</th><th class="num">Clicks</th></tr></thead>
+      <tbody>
+        <tr><td class="mono">hardwood floor cleaning mill creek wa</td><td class="num">509</td><td class="num">8.4</td><td class="num bad">0</td></tr>
+        <tr><td class="mono">hardwood floor cleaning edmonds wa</td><td class="num">501</td><td class="num">6.6</td><td class="num bad">0</td></tr>
+        <tr><td class="mono">hardwood floor cleaning everett wa</td><td class="num">501</td><td class="num">7.7</td><td class="num bad">0</td></tr>
+        <tr><td class="mono">hardwood floor cleaning bellevue wa</td><td class="num">498</td><td class="num">2.5</td><td class="num bad">0</td></tr>
+        <tr><td class="mono">hardwood floor cleaning issaquah wa</td><td class="num">496</td><td class="num">7.1</td><td class="num bad">0</td></tr>
+        <tr><td class="mono">hardwood floor cleaning east renton highlands wa</td><td class="num">464</td><td class="num">12.9</td><td class="num bad">0</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="col" style="margin-top:24px">
+    <p>Twenty cities, all landing within 60 impressions of each other, all at zero clicks. Real human demand is never that evenly distributed — and nobody types "east renton highlands wa". The same fingerprint shows on the <span class="q">local laminate floor installations in redmond, wa</span> phrasing and the Mercer Island tile cluster.</p>
+    <p><strong>Practical effect:</strong> ignore raw impressions as your build signal. Everything ranked below is weighted by <em>clicks</em>, which bots don't generate.</p>
+  </div>
+</section>
+
+<hr class="rule">
+
+<section>
+  <p class="eyebrow">Verified demand</p>
+  <h2 class="col">What people are actually looking for</h2>
+  <div class="col">
+    <p>Non-branded search themes over twelve months. Buckets overlap on purpose — "hardwood floor refinishing cost" counts under hardwood, refinishing, and cost, because that is how a page has to serve it.</p>
+  </div>
+
+  <div class="bhead"><span>Theme</span><span></span><span>Impressions</span><span>CTR</span></div>
+  <div class="bars">
+    <div class="brow"><span class="bname">Hardwood — all queries</span><span class="btrack"><span class="bfill" style="width:100%"></span></span><span class="bnum">173,444</span><span class="bctr">0.15%</span></div>
+    <div class="brow"><span class="bname">Cost &amp; pricing</span><span class="btrack"><span class="bfill" style="width:59%"></span></span><span class="bnum">103,118</span><span class="bctr">0.08%</span></div>
+    <div class="brow"><span class="bname">Refinishing &amp; sanding</span><span class="btrack"><span class="bfill" style="width:54%"></span></span><span class="bnum">92,940</span><span class="bctr">0.19%</span></div>
+    <div class="brow"><span class="bname">Carpet</span><span class="btrack"><span class="bfill" style="width:54%"></span></span><span class="bnum">92,811</span><span class="bctr">0.17%</span></div>
+    <div class="brow"><span class="bname">Laminate</span><span class="btrack"><span class="bfill" style="width:29%"></span></span><span class="bnum">50,627</span><span class="bctr">0.03%</span></div>
+    <div class="brow"><span class="bname">LVP / vinyl plank</span><span class="btrack"><span class="bfill" style="width:27%"></span></span><span class="bnum">45,996</span><span class="bctr">0.14%</span></div>
+    <div class="brow"><span class="bname">Stain colors</span><span class="btrack"><span class="bfill" style="width:12%"></span></span><span class="bnum">20,553</span><span class="bctr">0.44%</span></div>
+    <div class="brow"><span class="bname">Cleaning &amp; maintenance</span><span class="btrack"><span class="bfill dim" style="width:12%"></span></span><span class="bnum">20,037</span><span class="bctr zero">0.02%</span></div>
+    <div class="brow"><span class="bname">Repair</span><span class="btrack"><span class="bfill" style="width:10%"></span></span><span class="bnum">18,001</span><span class="bctr">0.45%</span></div>
+    <div class="brow"><span class="bname">Floating floors</span><span class="btrack"><span class="bfill dim" style="width:5%"></span></span><span class="bnum">8,495</span><span class="bctr zero">0.00%</span></div>
+    <div class="brow"><span class="bname">Engineered hardwood</span><span class="btrack"><span class="bfill" style="width:3%"></span></span><span class="bnum">5,889</span><span class="bctr">0.05%</span></div>
+    <div class="brow"><span class="bname">Tile</span><span class="btrack"><span class="bfill dim" style="width:3%"></span></span><span class="bnum">5,025</span><span class="bctr zero">0.00%</span></div>
+    <div class="brow"><span class="bname">Stairs</span><span class="btrack"><span class="bfill dim" style="width:1%"></span></span><span class="bnum">1,291</span><span class="bctr zero">0.00%</span></div>
+  </div>
+
+  <div class="col" style="margin-top:34px">
+    <p>Two things jump out. <strong>Stain colors and repair have by far your best CTR</strong> — 0.44% and 0.45%, three times the site average — on a fraction of the impressions. Those are people close to buying. And <strong>laminate converts worst of anything</strong> at 0.03%, despite 50,000 impressions, because nearly all of that volume is the bot cluster.</p>
+  </div>
+
+  <h3 style="margin-top:38px">The queries that genuinely earn clicks</h3>
+  <div class="tw">
+    <table>
+      <thead><tr><th>Query</th><th class="num">Clicks</th><th class="num">Impr.</th><th class="num">Pos.</th></tr></thead>
+      <tbody>
+        <tr><td class="mono">duraseal stain colors</td><td class="num">34</td><td class="num">1,709</td><td class="num">9.3</td></tr>
+        <tr><td class="mono">hardwood floor refinishing</td><td class="num">24</td><td class="num">4,064</td><td class="num">29.0</td></tr>
+        <tr><td class="mono">hardwood floor refinishing near me</td><td class="num">20</td><td class="num">5,338</td><td class="num">47.8</td></tr>
+        <tr><td class="mono">hardwood floor refinishing seattle</td><td class="num">18</td><td class="num">1,925</td><td class="num">12.9</td></tr>
+        <tr><td class="mono">hardwood flooring seattle</td><td class="num">15</td><td class="num">770</td><td class="num">18.8</td></tr>
+        <tr><td class="mono">top 10 carpet brands</td><td class="num">13</td><td class="num">546</td><td class="num">9.7</td></tr>
+        <tr><td class="mono">crestwood flooring</td><td class="num">11</td><td class="num">2,626</td><td class="num">14.8</td></tr>
+        <tr><td class="mono">floor refinishing near me</td><td class="num">11</td><td class="num">5,474</td><td class="num">37.8</td></tr>
+        <tr><td class="mono">carpet installation cost</td><td class="num">10</td><td class="num">3,614</td><td class="num">25.9</td></tr>
+        <tr><td class="mono">most popular duraseal stain colors</td><td class="num">10</td><td class="num">357</td><td class="num">8.7</td></tr>
+        <tr><td class="mono">hardwood floor repair</td><td class="num">9</td><td class="num">1,619</td><td class="num">32.0</td></tr>
+        <tr><td class="mono">vinyl floor repair</td><td class="num">5</td><td class="num">234</td><td class="num">1.4</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="col" style="margin-top:18px;font-size:.94rem;color:var(--ink-2)">Notice the positions. Your best-converting money queries — "hardwood floor refinishing", "floor refinishing near me" — are sitting on <strong>page 3 to page 5</strong>. They still bring clicks from there. Moving them to page one is the single largest available gain on this site, and it needs consolidation, not new pages.</p>
+</section>
+
+<hr class="rule">
+
+<section>
+  <p class="eyebrow">Build list</p>
+  <h2 class="col">Six category pages, in priority order</h2>
+  <p class="col">Ranked by verified click demand against what your site currently has. I checked all ~400 indexed URLs to confirm each gap.</p>
+
+  <div class="builds">
+
+    <div class="build">
+      <span class="rank">1</span>
+      <div class="build-body">
+        <span class="tag none">No page exists</span>
+        <h3>Carpet Installation</h3>
+        <span class="slug">/services/carpet-installation</span>
+        <p>Your biggest hole by a wide margin. <strong>92,811 impressions and 158 clicks on carpet queries — and you do not have a single carpet service page.</strong> All of it is being absorbed by two blog posts, which is why "carpet installation cost" ranks 25.9 and "best carpet brands" ranks 51.8.</p>
+        <p>Those blogs prove the demand is real: <span class="q">what is a good price to pay for carpet in seattle wa</span> alone pulled 110,599 impressions and 225 clicks. Give carpet a real service hub with pricing, brands, the estimate flow, and link both blogs into it.</p>
+        <dl class="kv">
+          <dt>Targets</dt><dd>carpet installation cost · carpet cost per square foot · carpet installation seattle · best carpet brands · carpet replacement cost</dd>
+          <dt>Then</dt><dd>Carpet city pages for Seattle, Bellevue, Lynnwood, Bothell, Mill Creek — the only service in your catalog with no city coverage at all.</dd>
+        </dl>
+      </div>
+    </div>
+
+    <div class="build">
+      <span class="rank">2</span>
+      <div class="build-body">
+        <span class="tag weak">Exists, but scattered across 9 URLs</span>
+        <h3>Hardwood Floor Refinishing — one consolidated hub</h3>
+        <span class="slug">/services/hardwood-floor-refinishing</span>
+        <p>This is your highest-intent service and your worst structural problem. Nine pages currently compete for the same query set: <span class="q">/services/floor-refinishing</span>, <span class="q">/blog/hardwood-floor-refinishing</span>, <span class="q">/blog/cost-to-refinish-hardwood-floors</span>, <span class="q">/blog/how-much-does-it-cost-to-refinish-hardwood-floors</span>, <span class="q">/blog/hardwood-floor-refinishing-cost-seattle-wa</span>, <span class="q">/services/dustless-floor-sanding</span> <em>and</em> its <span class="q">-copy</span> duplicate, <span class="q">/services/buff-and-recoat-hardwood-floors</span>, plus two eco-friendly refinishing pages.</p>
+        <p>Google splits authority across all of them, so none reaches page one. Build one authoritative hub — process, dustless sanding, buff &amp; recoat, timeline, cost — and 301 the weakest duplicates into it.</p>
+        <dl class="kv">
+          <dt>Targets</dt><dd>hardwood floor refinishing · floor refinishing near me · hardwood floor refinishing seattle · cost to refinish hardwood floors</dd>
+          <dt>Upside</dt><dd>These already earn 60+ clicks from positions 29–48. Page one is a multiple, not a percentage.</dd>
+        </dl>
+      </div>
+    </div>
+
+    <div class="build">
+      <span class="rank">3</span>
+      <div class="build-body">
+        <span class="tag weak">Thin page only</span>
+        <h3>Stain Color Gallery &amp; DuraSeal Chart</h3>
+        <span class="slug">/stain-colors</span>
+        <p>Your best CTR of any category — <strong>0.44%, triple the site average</strong> — and you already rank well: <span class="q">duraseal stain colors</span> at position 9.3 with 34 clicks, <span class="q">most popular duraseal stain colors</span> at 8.7, <span class="q">duraseal chestnut on white oak</span> at 4.6.</p>
+        <p>Somebody searching a stain color has already decided to refinish. They are picking the shade. Build a proper visual gallery: every DuraSeal color shot on white oak, red oak, and maple — using photos of your own jobs, which nobody else in the market can copy — with a "book a sample viewing" CTA on each swatch.</p>
+        <dl class="kv">
+          <dt>Targets</dt><dd>duraseal stain colors · duraseal stain chart · wood floor stain colors · most popular hardwood floor stain color · duraseal chestnut on white oak</dd>
+          <dt>Note</dt><dd>Your blog <span class="q">what-color-should-i-stain-my-wood-floors</span> already pulls 54,925 impressions. Make it the feeder, not the destination.</dd>
+        </dl>
+      </div>
+    </div>
+
+    <div class="build">
+      <span class="rank">4</span>
+      <div class="build-body">
+        <span class="tag weak">One generic page</span>
+        <h3>Floor Repair — split by material</h3>
+        <span class="slug">/services/floor-repair/{hardwood|vinyl-plank|laminate}</span>
+        <p>Repair ties stain colors for your best CTR at 0.45%, and you are already winning the vinyl half: <span class="q">vinyl floor repair</span> ranks <strong>1.4</strong> and <span class="q">vinyl flooring repair</span> ranks 1.8. Meanwhile <span class="q">hardwood floor repair</span> languishes at position 32 on 1,619 impressions.</p>
+        <p>One <span class="q">/services/flooring-repair</span> page is trying to serve three different materials and three different customers. Split it. Repair jobs are also the cheapest way to open a door that later becomes a whole-house refinish.</p>
+        <dl class="kv">
+          <dt>Targets</dt><dd>hardwood floor repair · floor repair near me · water damage hardwood floor repair · how to repair vinyl plank flooring · subfloor repair seattle</dd>
+        </dl>
+      </div>
+    </div>
+
+    <div class="build">
+      <span class="rank">5</span>
+      <div class="build-body">
+        <span class="tag weak">Calculator exists at 821 impressions</span>
+        <h3>Pricing Hub</h3>
+        <span class="slug">/pricing</span>
+        <p>103,118 impressions on cost queries at 0.08% CTR and an average position of 31.7 — the biggest volume you rank badly for. Cost pages also convert: <span class="q">how much does it cost to refinish 500 square feet of hardwood floors</span> earned 4 clicks from just 202 impressions.</p>
+        <p>You have <span class="q">/flooring-calculator</span> buried at 821 impressions. Promote it into a real pricing hub: per-square-foot ranges by service, what changes the price, and the calculator front and center. Publish actual numbers — the competitors who hide pricing are why these queries are winnable.</p>
+        <dl class="kv">
+          <dt>Targets</dt><dd>carpet installation cost per square foot · hardwood floor refinishing cost · cost to refinish hardwood floors · laminate flooring installation cost</dd>
+        </dl>
+      </div>
+    </div>
+
+    <div class="build">
+      <span class="rank">6</span>
+      <div class="build-body">
+        <span class="tag none">No brand pages exist</span>
+        <h3>Brand Landing Pages</h3>
+        <span class="slug">/brands/{crestwood|kentwood|stonewood|reward}</span>
+        <p><span class="q">crestwood flooring</span> brought 11 clicks from position 14.8, and <span class="q">abode by kentwood</span> another 4 from position 6.8. You carry roughly 150 product SKUs across Kentwood, Crestwood, Stonewood, Reward and Triangulo, but every one is an orphan product page with no brand hub above it.</p>
+        <p>Cheap to build — the products already exist. A brand page per line, collecting its SKUs with pricing and "see it in our Lynnwood showroom", captures shoppers who are researching a specific floor and don't yet know who installs it locally.</p>
+        <dl class="kv">
+          <dt>Targets</dt><dd>crestwood flooring · abode by kentwood · kentwood collection · stonewood flooring · reward flooring costa</dd>
+        </dl>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<hr class="rule">
+
+<section>
+  <p class="eyebrow">Skip these</p>
+  <h2 class="col">Where I'd tell you not to spend the money</h2>
+  <div class="col">
+    <ul class="clean">
+      <li><strong>20 × "hardwood floor cleaning [city] wa" pages.</strong> On raw impressions this looks like a 20,000-impression opportunity across twenty cities. It is the bot cluster from earlier — 0.02% CTR, five clicks in a year, and you already rank position 2–9 for it. Building pages will not change a number that is not coming from people.</li>
+      <li><strong>Tile.</strong> 5,025 impressions, zero clicks, and heavily concentrated in the same synthetic Mercer Island pattern. If you want tile as a business line, that is a business decision — the search data does not support it on its own.</li>
+      <li><strong>Stairs.</strong> 1,291 impressions and zero clicks. You already have two stair pages. Leave it.</li>
+      <li><strong>More city × service pages.</strong> You have around 300 of them and they average under 3,000 impressions each. The matrix is saturated. The exception is carpet, which has none.</li>
+    </ul>
+  </div>
+</section>
+
+<hr class="rule">
+
+<section>
+  <p class="eyebrow">Housekeeping</p>
+  <h2 class="col">Broken and duplicated URLs found while checking</h2>
+  <p class="col">These are costing you rankings right now and cost nothing to fix.</p>
+  <div class="tw">
+    <table>
+      <thead><tr><th>URL</th><th>Problem</th></tr></thead>
+      <tbody>
+        <tr><td class="mono">/city-of-bellevue/https-www-nwocflooring-com-service-area-hardwood-flooring-services-in-bellevue-wa</td><td>A full URL was pasted into the slug field. 1,450 impressions on a broken address.</td></tr>
+        <tr><td class="mono">/city-of-edmonds/vinyl-plank-flooring-installation-in-lynnwood-wa-waterproof-floor</td><td>Lynnwood page filed under Edmonds. 2,117 impressions pointed at the wrong city.</td></tr>
+        <tr><td class="mono">/services/dustless-floor-sanding-copy</td><td>Unfinished duplicate of the live page, indexed at 973 impressions.</td></tr>
+        <tr><td class="mono">/city-of-edmonds/hardwood-floor-installation-in-edmonds-wa-2</td><td>Duplicate of the same page, 2,524 impressions split off the original.</td></tr>
+        <tr><td class="mono">/services/eco-friendly-floor-refinishing<br>/services/eco-friendly-floor-refinishing-sustainable-health</td><td>Two live pages, same topic, competing with each other.</td></tr>
+        <tr><td class="mono">/hardwood-floor-refinishing/…-in-bothell-wa</td><td>All four Bothell city pages sit under a service folder instead of <span class="q">/city-of-bothell/</span>, breaking the pattern every other city follows.</td></tr>
+        <tr><td class="mono">/city-of-kirkland/laminate-floor-installation-in-kirkland-wa-laminate-flooring<br>/city-of-kirkland/laminate-flooring-installation-in-kirkland-wa</td><td>Every city has both an old long slug and a new short slug for the same service — roughly 60 duplicate pairs sitewide, each splitting its own ranking.</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="col" style="margin-top:20px">That last row is the big one. Across the site there are about sixty city pages duplicated under two slug conventions. Pick the shorter slug, 301 the old one into it, and you consolidate sixty pages' worth of authority without writing a word of new copy.</p>
+</section>
+
+<div class="foot">
+  Google Search Console via the connected Windsor.ai feed · property https://www.nwocflooring.com/ · 26 Aug 2025 – 26 Aug 2026<br>
+  4,602 queries at ≥15 impressions; 521,783 impressions; 1,254 clicks. Branded = any query containing "oc flooring", "ocflooring" or "nwoc".<br>
+  Page inventory from all URLs with ≥1 impression in the same window. Impression totals exclude the long tail below 15 impressions, so true site totals run modestly higher.
+</div>
+
+</div>
