@@ -421,6 +421,30 @@ is not reachable from this environment). Fix is manual: Site settings →
 Publishing → 301 redirects → search "carpet" → delete any rule whose old
 path matches a `carpet-installation-in-…` URL, then publish.
 
+### Crawlability audit + JSON-LD backfill on 7 pages (2026-08-26)
+
+Oleg asked whether the carpet pages are "in embed code" or readable for
+SEO/AI search. Audit result: the pages are almost entirely **native
+Webflow elements** — every heading, city paragraph, FAQ (real
+`h3`+paragraph markup), chip link, guides link and slider link is plain
+HTML in the page source, readable without JavaScript. The single embed
+per page is the `#ocpq` photo-quote widget, and its visible header (H2 +
+city-specific lead paragraph) is static HTML inside the embed — verified
+on Everett — so crawlers index it too; only the upload form itself is JS.
+
+The audit also caught a real gap: **7 of the 30 pages had no JSON-LD**
+(Everett, Newcastle, North Bend, Arlington, Bothell, Cottage Lake,
+Duvall — the pages whose original builder agents were killed by usage
+limits mid-run; their resumed builds skipped the schema step). Each got
+a full graph rebuilt to match the 23 complete pages — business +
+city-scoped Service (pack coordinates) + BreadcrumbList + FAQPage — with
+the FAQ text **read back from the live page elements** (post-dedup
+wording), so the schema matches the visible content exactly. Sources in
+[`webflow-scripts/carpet-rollout/jsonld-fix/`](webflow-scripts/carpet-rollout/jsonld-fix/)
+(per-city FAQ extracts + `build.py` generator). Verified after writing:
+30/30 pages now store a complete city-specific schema with 10 FAQ
+entries each. Needs a site publish to go live.
+
 **De-duplication (measured, not assumed).** A deterministic 8-gram audit
 across all 406 city pairs showed the marketing copy was well differentiated
 but the fact-heavy blocks converged. The ten worst blocks — cost paragraph,
