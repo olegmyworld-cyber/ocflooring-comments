@@ -450,6 +450,42 @@ doesn't surface — search the redirect list by the *destination*
 cache replaying the old redirect locally even after the server is fixed —
 which only an incognito window or cache clear reveals.
 
+### Dedup pass 2, chip-section removal, blog-link audit (2026-08-26)
+
+Three follow-ups from Oleg on the carpet pages, all applied and verified:
+
+**"Also serving" chip section removed from all 30 pages.** The `ci-areas`
+section (the "Also serving the Eastside & Seattle" chip row) duplicated
+the new service-areas slider, so it was removed page by page and its
+absence verified. The 29-city internal mesh survives intact through the
+carpet slide in the shared slider, which every carpet page now carries.
+(The four `ci-areas` fields also drop out of the duplication ledger.)
+
+**Second de-duplication pass — the next 10 worst blocks.** A fresh
+8-gram audit over the live text (packs + pass-1 verify snapshots) found
+the first pass's 10 fields fixed but the next tier still converged: the
+how-it-works samples card, cost lead-in and footnote, booking lede, hook
+heading, price card, estimator note, and the stairs/timeline/furniture
+FAQ answers (shared in up to 164 of 435 city pairs). All 10 were
+rewritten per city — 290 blocks, composed with per-city structure
+rotation, validated locally to **zero shared 8-grams** across all 30
+pages (Bellevue anchors included) with every price and claim preserved
+($4–$7/sq ft with city name, $18/step + waterfall/cap-and-band, the
+$235–$400 staircase range only where it already appeared, "August 2026",
+the six carpet styles + three pad grades, tack strip/heat seams/power
+stretch) — then applied via 290 `set_text` writes and spot-verified.
+Sources: [`webflow-scripts/carpet-rollout/dedup2/`](webflow-scripts/carpet-rollout/dedup2/)
+(`current.json` = before, `applied.json` = after). Post-pass audit:
+duplicate field-pairs are down to ~4% of all field×pair combinations,
+and the survivors are the mandated shared facts — "all three pad grades
+and 20+ carpet samples", the install-steps list, FAQ question wording —
+which must read the same on every page.
+
+**Blog links audited.** All 12 carpet blog posts are linked from the
+carpet city pages: every page carries 5 guide links (150 total), and
+every post appears on 2–30 pages (the restretch guide on all 30, the
+Mohawk retailer post on 2).
+
 ### Crawlability audit + JSON-LD backfill on 7 pages (2026-08-26)
 
 Oleg asked whether the carpet pages are "in embed code" or readable for
