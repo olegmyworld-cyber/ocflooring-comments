@@ -421,6 +421,35 @@ is not reachable from this environment). Fix is manual: Site settings →
 Publishing → 301 redirects → search "carpet" → delete any rule whose old
 path matches a `carpet-installation-in-…` URL, then publish.
 
+### Mukilteo follow-up: full client-side audit rules everything out but HTTP redirects (2026-08-26)
+
+After Oleg deleted the 301 redirects, clicking "Mukilteo, WA" on the home
+page's carpet slide still landed on hardwood installation. A complete
+audit of every layer that could rewrite that click found nothing:
+
+- All 30 carpet-slide hrefs are stored correctly (as both the link
+  setting and a literal `href` attribute baked into the markup).
+- Every piece of custom code on the site was read end-to-end: the site
+  head/footer code, all 15 registered site scripts *and* the 7 hosted
+  sub-scripts they load (`oc-area-links-v1`, `oc-areas-slider-v4`,
+  `bona-pkg-loader-v2`, `oc-faq-v5`, `oc-whytrust-v15`,
+  `oc-trust-reviews-v9d`, `oc-recoat-refinish-v9`), the home page's 3
+  page scripts + head/footer code + all 5 body embeds, and the Footer
+  and Areas components' embeds. None touch `.area-link-item` links.
+- Notable: the hardwood/LVP/refinishing slides' cells have **no links at
+  all** (`linkType: none`) — only the repair and carpet slides are
+  clickable. No runtime link-assigner exists.
+- DNS resolves straight to `cdn.webflow.com` — no Cloudflare or other
+  proxy layer that could hold redirect rules.
+
+Conclusion: the browser leaves the click with the correct URL; the bounce
+is HTTP-level. Remaining causes are (a) the redirect deletions not being
+published yet, (b) a wildcard rule (`(.*)`) that a "carpet" search
+doesn't surface — search the redirect list by the *destination*
+(`hardwood-floor-installation`) instead, and (c) Chrome's permanent 301
+cache replaying the old redirect locally even after the server is fixed —
+which only an incognito window or cache clear reveals.
+
 ### Crawlability audit + JSON-LD backfill on 7 pages (2026-08-26)
 
 Oleg asked whether the carpet pages are "in embed code" or readable for
