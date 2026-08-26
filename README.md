@@ -386,6 +386,41 @@ because the automated builders reported them rather than hiding them):
    dropdown's "Carpet Installation" link target (label stored, href
    missing); its URL is now set and verified.
 
+### Areas slider on every carpet page + Woodinville link audit (2026-08-26)
+
+**Slider on carpet pages.** Per Oleg's follow-up, every one of the 30 carpet
+city pages now carries an instance of the shared "Section // Areas" slider,
+inserted between the final CTA section and the footer — the same position
+the repair/installation pages use. The carpet bundle (v1.8.0) already
+promotes the "Carpet Installation Service Areas" slide to the front on
+carpet pages, so the slider opens on the carpet slide there. Verified on
+Woodinville: `…ci-cta → Section // Areas → ci-footer`.
+
+**"Woodinville goes to hardwood installation" audit.** Oleg reported that
+following the carpet link for Woodinville lands on the hardwood-floor
+installation page. A full audit found every stored link correct:
+
+- All 30 pages' real `publishedPath`s match the link table exactly
+  (including the quirks: Seattle `/seattle/…`, Bothell
+  `/hardwood-floor-refinishing/…`, Newcastle `/city-of-new-castle/…`);
+  none are drafts.
+- The carpet slide's 30 cell hrefs, the 29-chip rows, and the nav
+  dropdown link were all read back correct.
+- Every site script was audited for link rewriting: `oc-area-links-v1`
+  (loads on `*-installation-in-*` paths but exits unless the path is in
+  its hardwood/laminate/vinyl map — carpet paths are not), the areas
+  slider script (moves DOM only, never touches hrefs), `siteCleanupD`
+  (rewrites only two `/services/…` links), plus OCSeoFixes3,
+  OCJunkCleanup, OCGreenCta, OCAreasStart, OCUtmLead and the carpet
+  bundle — none rewrite city links.
+
+The only remaining mechanism is a **legacy 301 redirect in Webflow site
+settings** (redirects are applied before page resolution and shadow real
+pages; the Data API does not expose the redirect list, and the live site
+is not reachable from this environment). Fix is manual: Site settings →
+Publishing → 301 redirects → search "carpet" → delete any rule whose old
+path matches a `carpet-installation-in-…` URL, then publish.
+
 **De-duplication (measured, not assumed).** A deterministic 8-gram audit
 across all 406 city pairs showed the marketing copy was well differentiated
 but the fact-heavy blocks converged. The ten worst blocks — cost paragraph,
