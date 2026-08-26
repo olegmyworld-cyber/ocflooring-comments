@@ -1,0 +1,2613 @@
+[
+ {
+  "el": "46287d9a-896a-dd9e-a2ee-b0e5e1ff06a2",
+  "type": "Link",
+  "styles": [
+   "ti-crumb"
+  ],
+  "text": "Home",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "46287d9a-896a-dd9e-a2ee-b0e5e1ff06a4",
+  "type": "Block",
+  "styles": [
+   "ti-crumb-sep"
+  ],
+  "text": "/",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "46287d9a-896a-dd9e-a2ee-b0e5e1ff06a6",
+  "type": "Link",
+  "styles": [
+   "ti-crumb"
+  ],
+  "text": "Services",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "46287d9a-896a-dd9e-a2ee-b0e5e1ff06a8",
+  "type": "Block",
+  "styles": [
+   "ti-crumb-sep"
+  ],
+  "text": "/",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "d3dbedfc-be9f-d868-db1e-4946dc8d8cf4",
+  "type": "Paragraph",
+  "styles": [
+   "ti-crumb-here"
+  ],
+  "text": "Tile Installation Bellevue WA",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "8f30a5a5-c0fe-28e5-f4f4-883f861a63e0",
+  "type": "Paragraph",
+  "styles": [
+   "ti-eyebrow"
+  ],
+  "text": "Tile installation \u00b7 Bellevue, Washington",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "54c977ba-bf1d-f43a-a545-4151a7725136",
+  "type": "Heading",
+  "styles": [
+   "ti-h1"
+  ],
+  "text": "Waterproofed first. Tiled second.",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "54c977ba-bf1d-f43a-a545-4151a7725138",
+  "type": "Paragraph",
+  "styles": [
+   "ti-hero-lead"
+  ],
+  "text": "Tile and grout are not waterproof \u2014 the membrane behind them is. That hidden layer is the difference between a Bellevue shower that lasts twenty years and a $40,000 framing repair. We build the assembly, flood-test it for 24 hours, photograph it, then set a single tile.",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "54c977ba-bf1d-f43a-a545-4151a772513a",
+  "type": "Link",
+  "styles": [
+   "ti-btn"
+  ],
+  "text": "Book a free tile estimate",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "54c977ba-bf1d-f43a-a545-4151a772513c",
+  "type": "Link",
+  "styles": [
+   "ti-btn-ghost"
+  ],
+  "text": "(425) 595-1079",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "54c977ba-bf1d-f43a-a545-4151a772513f",
+  "type": "Block",
+  "styles": [
+   "ti-stat-n"
+  ],
+  "text": "24 hr",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "54c977ba-bf1d-f43a-a545-4151a7725141",
+  "type": "Block",
+  "styles": [
+   "ti-stat-l"
+  ],
+  "text": "Flood test, documented",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "54c977ba-bf1d-f43a-a545-4151a7725144",
+  "type": "Block",
+  "styles": [
+   "ti-stat-n"
+  ],
+  "text": "2 yr",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "54c977ba-bf1d-f43a-a545-4151a7725146",
+  "type": "Block",
+  "styles": [
+   "ti-stat-l"
+  ],
+  "text": "Workmanship warranty",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "54c977ba-bf1d-f43a-a545-4151a7725149",
+  "type": "Block",
+  "styles": [
+   "ti-stat-n"
+  ],
+  "text": "1,000+",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "ae6346ca-66b6-1972-9015-5eebbe31ebaf",
+  "type": "Paragraph",
+  "styles": [
+   "ti-stat-l"
+  ],
+  "text": "Eastside floors since 2013",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "59dd19c2-7005-0f91-6f9c-98da541fb350",
+  "type": "Block",
+  "styles": [
+   "ti-trust-score"
+  ],
+  "text": "4.7",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "59dd19c2-7005-0f91-6f9c-98da541fb352",
+  "type": "Block",
+  "styles": [
+   "ti-trust-stars"
+  ],
+  "text": "\u2605\u2605\u2605\u2605\u2605",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "59dd19c2-7005-0f91-6f9c-98da541fb354",
+  "type": "Block",
+  "styles": [
+   "ti-trust-sub"
+  ],
+  "text": "119 Google reviews",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "54e2b512-abb1-88f2-d5d6-f5d6ccce95d4",
+  "type": "Paragraph",
+  "styles": [
+   "ti-trust-cell"
+  ],
+  "text": "12 years \u00b7 family owned \u00b7 Bellevue based",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "59dd19c2-7005-0f91-6f9c-98da541fb35e",
+  "type": "Block",
+  "styles": [
+   "ti-trust-lic"
+  ],
+  "text": "Licensed, bonded & insured \u00b7 ",
+  "nkids": 4,
+  "mixed": true
+ },
+ {
+  "el": "59dd19c2-7005-0f91-6f9c-98da541fb35d",
+  "type": "Link",
+  "styles": [
+   "ti-trust-link"
+  ],
+  "text": "WA OCFLOFL852KQ",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "6bc92476-dace-11bd-64b0-593b5f4728ea",
+  "type": "Block",
+  "styles": [
+   "ti-eyebrow"
+  ],
+  "text": "Cost, plainly",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "6bc92476-dace-11bd-64b0-593b5f4728ec",
+  "type": "Heading",
+  "styles": [
+   "ti-h2"
+  ],
+  "text": "How much does tile installation cost in Bellevue, WA?",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "6bc92476-dace-11bd-64b0-593b5f4728ef",
+  "type": "Paragraph",
+  "styles": [
+   "ti-cost-p"
+  ],
+  "text": "Tile installation in Bellevue costs roughly $14\u2013$26 per square foot installed once you count tile, setting materials, substrate prep and labor \u2014 labor alone starts at $11/sq ft. A standard tub-shower surround runs $3,200\u2013$6,800; a full bathroom with floor, shower and niche usually lands between $6,500 and $14,000.",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "6bc92476-dace-11bd-64b0-593b5f4728f1",
+  "type": "Paragraph",
+  "styles": [
+   "ti-cost-p2"
+  ],
+  "text": "The surprise for most homeowners: tile format moves the price more than tile price does. A $4 mosaic sheet can cost more to install than a $12 large-format porcelain plank, because labor follows cuts and grout lines, not the invoice.",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "6bc92476-dace-11bd-64b0-593b5f4728f5",
+  "type": "Block",
+  "styles": [
+   "ti-band-l"
+  ],
+  "text": "Bathroom floor \u00b7 45 sq ft",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "6bc92476-dace-11bd-64b0-593b5f4728f7",
+  "type": "Block",
+  "styles": [
+   "ti-band-p"
+  ],
+  "text": "$900\u2013$1,600",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "6bc92476-dace-11bd-64b0-593b5f4728f9",
+  "type": "Block",
+  "styles": [
+   "ti-band-n"
+  ],
+  "text": "Porcelain, demo and haul-away included.",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "6bc92476-dace-11bd-64b0-593b5f4728fc",
+  "type": "Block",
+  "styles": [
+   "ti-band-l"
+  ],
+  "text": "Tub / shower surround",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "6bc92476-dace-11bd-64b0-593b5f4728fe",
+  "type": "Block",
+  "styles": [
+   "ti-band-p"
+  ],
+  "text": "$3,200\u2013$6,800",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "6bc92476-dace-11bd-64b0-593b5f472900",
+  "type": "Block",
+  "styles": [
+   "ti-band-n"
+  ],
+  "text": "Waterproofed assembly, niche, flood test.",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "6bc92476-dace-11bd-64b0-593b5f472903",
+  "type": "Block",
+  "styles": [
+   "ti-band-l"
+  ],
+  "text": "Full bathroom \u00b7 floor + shower",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "6bc92476-dace-11bd-64b0-593b5f472905",
+  "type": "Block",
+  "styles": [
+   "ti-band-p"
+  ],
+  "text": "$6,500\u2013$14,000",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "6bc92476-dace-11bd-64b0-593b5f472907",
+  "type": "Block",
+  "styles": [
+   "ti-band-n"
+  ],
+  "text": "Four to six working days, start to grout.",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "6bc92476-dace-11bd-64b0-593b5f47290a",
+  "type": "Block",
+  "styles": [
+   "ti-band-l"
+  ],
+  "text": "Kitchen backsplash \u00b7 30 sq ft",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "6bc92476-dace-11bd-64b0-593b5f47290c",
+  "type": "Block",
+  "styles": [
+   "ti-band-p"
+  ],
+  "text": "$1,100\u2013$2,200",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "6bc92476-dace-11bd-64b0-593b5f47290e",
+  "type": "Block",
+  "styles": [
+   "ti-band-n"
+  ],
+  "text": "Outlet cuts, edge trim, matched grout.",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "6bc92476-dace-11bd-64b0-593b5f472912",
+  "type": "Paragraph",
+  "styles": [
+   "ti-note"
+  ],
+  "text": "Installed ranges for Bellevue homes, August 2026 \u00b7 tile + materials + labor. Your written quote at the free estimate is the real number.",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "4dde5867-0010-1dc3-2905-a37c488ef4a0",
+  "type": "Block",
+  "styles": [
+   "ti-eyebrow"
+  ],
+  "text": "The part you never see",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "4dde5867-0010-1dc3-2905-a37c488ef4a2",
+  "type": "Heading",
+  "styles": [
+   "ti-h2"
+  ],
+  "text": "What's behind a shower that lasts",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "4dde5867-0010-1dc3-2905-a37c488ef4a4",
+  "type": "Paragraph",
+  "styles": [
+   "ti-lead"
+  ],
+  "text": "Seven layers, bottom to top. Every shower failure we're called to repair in Bellevue skipped one of them \u2014 usually the membrane, usually to save a few hundred dollars on a job that then costs five figures to open back up.",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "4dde5867-0010-1dc3-2905-a37c488ef4a7",
+  "type": "Block",
+  "styles": [
+   "ti-layer-n"
+  ],
+  "text": "7",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "4dde5867-0010-1dc3-2905-a37c488ef4a9",
+  "type": "Block",
+  "styles": [
+   "ti-layer-name"
+  ],
+  "text": "Grout + silicone",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "4dde5867-0010-1dc3-2905-a37c488ef4ab",
+  "type": "Block",
+  "styles": [
+   "ti-layer-what"
+  ],
+  "text": "Colour-matched grout; silicone in every change of plane, never grout.",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "4dde5867-0010-1dc3-2905-a37c488ef4ae",
+  "type": "Block",
+  "styles": [
+   "ti-layer-tag"
+  ],
+  "text": "Finish",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "4dde5867-0010-1dc3-2905-a37c488ef4b1",
+  "type": "Block",
+  "styles": [
+   "ti-layer-n"
+  ],
+  "text": "6",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "4dde5867-0010-1dc3-2905-a37c488ef4b3",
+  "type": "Block",
+  "styles": [
+   "ti-layer-name"
+  ],
+  "text": "Tile",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "4dde5867-0010-1dc3-2905-a37c488ef4b5",
+  "type": "Block",
+  "styles": [
+   "ti-layer-what"
+  ],
+  "text": "Porcelain on floors and shower floors. Back-buttered on large format.",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "4dde5867-0010-1dc3-2905-a37c488ef4b8",
+  "type": "Block",
+  "styles": [
+   "ti-layer-tag"
+  ],
+  "text": "Finish",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "4dde5867-0010-1dc3-2905-a37c488ef4bb",
+  "type": "Block",
+  "styles": [
+   "ti-layer-n"
+  ],
+  "text": "5",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "4dde5867-0010-1dc3-2905-a37c488ef4bd",
+  "type": "Block",
+  "styles": [
+   "ti-layer-name"
+  ],
+  "text": "Modified thinset",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "4dde5867-0010-1dc3-2905-a37c488ef4bf",
+  "type": "Block",
+  "styles": [
+   "ti-layer-what"
+  ],
+  "text": "Full coverage \u2014 no voids under the tile to hold water or crack.",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "4dde5867-0010-1dc3-2905-a37c488ef4c2",
+  "type": "Block",
+  "styles": [
+   "ti-layer-tag"
+  ],
+  "text": "Setting",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "4dde5867-0010-1dc3-2905-a37c488ef4c5",
+  "type": "Block",
+  "styles": [
+   "ti-layer-n"
+  ],
+  "text": "4",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "4dde5867-0010-1dc3-2905-a37c488ef4c7",
+  "type": "Block",
+  "styles": [
+   "ti-layer-name"
+  ],
+  "text": "Bonded waterproof membrane",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "4dde5867-0010-1dc3-2905-a37c488ef4c9",
+  "type": "Block",
+  "styles": [
+   "ti-layer-what"
+  ],
+  "text": "Sheet or liquid, carried up the walls, corners and pipes sealed.",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "4dde5867-0010-1dc3-2905-a37c488ef4cc",
+  "type": "Block",
+  "styles": [
+   "ti-layer-tag",
+   "ti-layer-tag-crit"
+  ],
+  "text": "Critical",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "4dde5867-0010-1dc3-2905-a37c488ef4cf",
+  "type": "Block",
+  "styles": [
+   "ti-layer-n"
+  ],
+  "text": "3",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "4dde5867-0010-1dc3-2905-a37c488ef4d1",
+  "type": "Block",
+  "styles": [
+   "ti-layer-name"
+  ],
+  "text": "24-hour flood test",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "4dde5867-0010-1dc3-2905-a37c488ef4d3",
+  "type": "Block",
+  "styles": [
+   "ti-layer-what"
+  ],
+  "text": "Plugged, filled, left overnight, photographed. Before any tile.",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "4dde5867-0010-1dc3-2905-a37c488ef4d6",
+  "type": "Block",
+  "styles": [
+   "ti-layer-tag",
+   "ti-layer-tag-crit"
+  ],
+  "text": "Critical",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "4dde5867-0010-1dc3-2905-a37c488ef4d9",
+  "type": "Block",
+  "styles": [
+   "ti-layer-n"
+  ],
+  "text": "2",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "4dde5867-0010-1dc3-2905-a37c488ef4db",
+  "type": "Block",
+  "styles": [
+   "ti-layer-name"
+  ],
+  "text": "Pre-sloped base + backer",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "4dde5867-0010-1dc3-2905-a37c488ef4dd",
+  "type": "Block",
+  "styles": [
+   "ti-layer-what"
+  ],
+  "text": "Positive slope to the drain, cement backer board, blocking behind.",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "4dde5867-0010-1dc3-2905-a37c488ef4e0",
+  "type": "Block",
+  "styles": [
+   "ti-layer-tag"
+  ],
+  "text": "Structure",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "4dde5867-0010-1dc3-2905-a37c488ef4e3",
+  "type": "Block",
+  "styles": [
+   "ti-layer-n"
+  ],
+  "text": "1",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "4dde5867-0010-1dc3-2905-a37c488ef4e7",
+  "type": "Block",
+  "styles": [
+   "ti-layer-name"
+  ],
+  "text": "Sound framing & subfloor",
+  "nkids": 3,
+  "mixed": false
+ },
+ {
+  "el": "4dde5867-0010-1dc3-2905-a37c488ef4e9",
+  "type": "Block",
+  "styles": [
+   "ti-layer-what"
+  ],
+  "text": "Deflection checked, rot repaired, subfloor flattened first.",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "4dde5867-0010-1dc3-2905-a37c488ef4ec",
+  "type": "Block",
+  "styles": [
+   "ti-layer-tag"
+  ],
+  "text": "Structure",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "4dde5867-0010-1dc3-2905-a37c488ef4ef",
+  "type": "Block",
+  "styles": [
+   "ti-stack-note"
+  ],
+  "text": "Assembly per TCNA / ANSI A118.10 practice. We photograph layers 2\u20134 before they disappear.",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "4dde5867-0010-1dc3-2905-a37c488ef4f2",
+  "type": "Block",
+  "styles": [
+   "ti-eyebrow",
+   "ti-eyebrow-gold"
+  ],
+  "text": "Why it matters",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "4dde5867-0010-1dc3-2905-a37c488ef4f4",
+  "type": "Paragraph",
+  "styles": [
+   "ti-why-p"
+  ],
+  "text": "A shower leak doesn't announce itself. Water passes grout, soaks the substrate, and shows up two years later as a soft floor in the hallway or a stain on the ceiling below. By then the repair is framing, subfloor, drywall and a full re-tile.",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "4dde5867-0010-1dc3-2905-a37c488ef4f6",
+  "type": "Paragraph",
+  "styles": [
+   "ti-why-p"
+  ],
+  "text": "Waterproofing is about 10% of a shower's cost. Skipping it is the single most expensive decision in a bathroom remodel.",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "d235747e-2660-4b6a-6e22-5c2b931d8c7b",
+  "type": "Block",
+  "styles": [
+   "ti-eyebrow"
+  ],
+  "text": "Scope & starting prices",
+  "nkids": 3,
+  "mixed": false
+ },
+ {
+  "el": "d235747e-2660-4b6a-6e22-5c2b931d8c7d",
+  "type": "Heading",
+  "styles": [
+   "ti-h2"
+  ],
+  "text": "What we tile in Bellevue",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "d235747e-2660-4b6a-6e22-5c2b931d8c80",
+  "type": "Paragraph",
+  "styles": [
+   "ti-scope-intro"
+  ],
+  "text": "Starting prices \u2014 tile format, substrate condition and layout complexity move them. The real number is written, on site, free.",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "d235747e-2660-4b6a-6e22-5c2b931d8c83",
+  "type": "Block",
+  "styles": [
+   "ti-card-tag"
+  ],
+  "text": "Most requested",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "d235747e-2660-4b6a-6e22-5c2b931d8c87",
+  "type": "Heading",
+  "styles": [
+   "ti-card-h"
+  ],
+  "text": "Shower & bath tile",
+  "nkids": 3,
+  "mixed": false
+ },
+ {
+  "el": "d235747e-2660-4b6a-6e22-5c2b931d8c89",
+  "type": "Paragraph",
+  "styles": [
+   "ti-card-p"
+  ],
+  "text": "Full waterproofed assembly: pre-slope, bonded membrane, flood test, niche, curb or curbless entry, then tile. The part you pay us for is the part you can't see.",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "d235747e-2660-4b6a-6e22-5c2b931d8c8d",
+  "type": "Block",
+  "styles": [
+   "ti-card-price"
+  ],
+  "text": "from $3,200 ",
+  "nkids": 2,
+  "mixed": true
+ },
+ {
+  "el": "d235747e-2660-4b6a-6e22-5c2b931d8c8c",
+  "type": "Span",
+  "styles": [
+   "ti-card-unit"
+  ],
+  "text": "/ shower",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "d235747e-2660-4b6a-6e22-5c2b931d8c90",
+  "type": "Block",
+  "styles": [
+   "ti-card-tag"
+  ],
+  "text": "Floors",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "d235747e-2660-4b6a-6e22-5c2b931d8c94",
+  "type": "Heading",
+  "styles": [
+   "ti-card-h"
+  ],
+  "text": "Porcelain & stone floors",
+  "nkids": 3,
+  "mixed": false
+ },
+ {
+  "el": "d235747e-2660-4b6a-6e22-5c2b931d8c96",
+  "type": "Paragraph",
+  "styles": [
+   "ti-card-p"
+  ],
+  "text": "Bathrooms, kitchens, entries, mudrooms and basements. Subfloor flattened and an uncoupling membrane where movement or radiant heat calls for it.",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "d235747e-2660-4b6a-6e22-5c2b931d8c9a",
+  "type": "Block",
+  "styles": [
+   "ti-card-price"
+  ],
+  "text": "from $11 ",
+  "nkids": 2,
+  "mixed": true
+ },
+ {
+  "el": "d235747e-2660-4b6a-6e22-5c2b931d8c99",
+  "type": "Span",
+  "styles": [
+   "ti-card-unit"
+  ],
+  "text": "/ sq ft labor",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "d235747e-2660-4b6a-6e22-5c2b931d8c9d",
+  "type": "Block",
+  "styles": [
+   "ti-card-tag"
+  ],
+  "text": "Kitchens",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "d235747e-2660-4b6a-6e22-5c2b931d8c9f",
+  "type": "Heading",
+  "styles": [
+   "ti-card-h"
+  ],
+  "text": "Backsplash",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "d235747e-2660-4b6a-6e22-5c2b931d8ca1",
+  "type": "Paragraph",
+  "styles": [
+   "ti-card-p"
+  ],
+  "text": "Subway, mosaic sheet, herringbone or slab-look porcelain. Outlet cuts, edge trim, and grout matched to the counter \u2014 not to the tile box.",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "d235747e-2660-4b6a-6e22-5c2b931d8ca5",
+  "type": "Block",
+  "styles": [
+   "ti-card-price"
+  ],
+  "text": "from $1,100 ",
+  "nkids": 2,
+  "mixed": true
+ },
+ {
+  "el": "d235747e-2660-4b6a-6e22-5c2b931d8ca4",
+  "type": "Span",
+  "styles": [
+   "ti-card-unit"
+  ],
+  "text": "/ backsplash",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "d235747e-2660-4b6a-6e22-5c2b931d8ca8",
+  "type": "Block",
+  "styles": [
+   "ti-card-tag"
+  ],
+  "text": "Upgrade",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "d235747e-2660-4b6a-6e22-5c2b931d8caa",
+  "type": "Heading",
+  "styles": [
+   "ti-card-h"
+  ],
+  "text": "Heated tile floors",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "d235747e-2660-4b6a-6e22-5c2b931d8cac",
+  "type": "Paragraph",
+  "styles": [
+   "ti-card-p"
+  ],
+  "text": "Electric radiant mat over an uncoupling membrane, resistance-tested before and after setting, on its own circuit. Only worth doing while the floor is open.",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "d235747e-2660-4b6a-6e22-5c2b931d8cb0",
+  "type": "Block",
+  "styles": [
+   "ti-card-price"
+  ],
+  "text": "from $11 ",
+  "nkids": 2,
+  "mixed": true
+ },
+ {
+  "el": "d235747e-2660-4b6a-6e22-5c2b931d8caf",
+  "type": "Span",
+  "styles": [
+   "ti-card-unit"
+  ],
+  "text": "/ sq ft added",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "d235747e-2660-4b6a-6e22-5c2b931d8cb3",
+  "type": "Block",
+  "styles": [
+   "ti-card-tag"
+  ],
+  "text": "Repairs",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "d235747e-2660-4b6a-6e22-5c2b931d8cb7",
+  "type": "Heading",
+  "styles": [
+   "ti-card-h"
+  ],
+  "text": "Tile repair & regrout",
+  "nkids": 3,
+  "mixed": false
+ },
+ {
+  "el": "d235747e-2660-4b6a-6e22-5c2b931d8cb9",
+  "type": "Paragraph",
+  "styles": [
+   "ti-card-p"
+  ],
+  "text": "Cracked tile, failed grout, loose shower corners. We'll tell you straight whether it's a repair or the substrate below has already failed.",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "d235747e-2660-4b6a-6e22-5c2b931d8cbd",
+  "type": "Block",
+  "styles": [
+   "ti-card-price"
+  ],
+  "text": "from $8 ",
+  "nkids": 2,
+  "mixed": true
+ },
+ {
+  "el": "d235747e-2660-4b6a-6e22-5c2b931d8cbc",
+  "type": "Span",
+  "styles": [
+   "ti-card-unit"
+  ],
+  "text": "/ sq ft",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "d235747e-2660-4b6a-6e22-5c2b931d8cc0",
+  "type": "Block",
+  "styles": [
+   "ti-card-tag"
+  ],
+  "text": "Prep",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "d235747e-2660-4b6a-6e22-5c2b931d8cc4",
+  "type": "Heading",
+  "styles": [
+   "ti-card-h"
+  ],
+  "text": "Demo & haul-away",
+  "nkids": 3,
+  "mixed": false
+ },
+ {
+  "el": "d235747e-2660-4b6a-6e22-5c2b931d8cc6",
+  "type": "Paragraph",
+  "styles": [
+   "ti-card-p"
+  ],
+  "text": "Old tile, thinset and backer out, dust contained with sheeting and negative air, everything hauled. Nothing left in your driveway.",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "d235747e-2660-4b6a-6e22-5c2b931d8cca",
+  "type": "Block",
+  "styles": [
+   "ti-card-price"
+  ],
+  "text": "from $3.50 ",
+  "nkids": 2,
+  "mixed": true
+ },
+ {
+  "el": "d235747e-2660-4b6a-6e22-5c2b931d8cc9",
+  "type": "Span",
+  "styles": [
+   "ti-card-unit"
+  ],
+  "text": "/ sq ft",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "90d8159e-3ec4-7d29-58db-3f5e5f9f8f46",
+  "type": "Block",
+  "styles": [
+   "ti-eyebrow"
+  ],
+  "text": "Material guide",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "90d8159e-3ec4-7d29-58db-3f5e5f9f8f48",
+  "type": "Heading",
+  "styles": [
+   "ti-h2"
+  ],
+  "text": "Which tile, and where",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "90d8159e-3ec4-7d29-58db-3f5e5f9f8f4a",
+  "type": "Paragraph",
+  "styles": [
+   "ti-lead"
+  ],
+  "text": "Most bad tile decisions in Bellevue homes are the right tile in the wrong room. Here's the short version we'd give you standing in your bathroom.",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "90d8159e-3ec4-7d29-58db-3f5e5f9f8f4d",
+  "type": "Block",
+  "styles": [
+   "ti-th"
+  ],
+  "text": "Material",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "90d8159e-3ec4-7d29-58db-3f5e5f9f8f4f",
+  "type": "Block",
+  "styles": [
+   "ti-th"
+  ],
+  "text": "Best for",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "90d8159e-3ec4-7d29-58db-3f5e5f9f8f51",
+  "type": "Block",
+  "styles": [
+   "ti-th"
+  ],
+  "text": "Avoid",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "90d8159e-3ec4-7d29-58db-3f5e5f9f8f53",
+  "type": "Block",
+  "styles": [
+   "ti-th"
+  ],
+  "text": "What it costs you later",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "90d8159e-3ec4-7d29-58db-3f5e5f9f8f56",
+  "type": "Block",
+  "styles": [
+   "ti-mat-name"
+  ],
+  "text": "Porcelain",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "90d8159e-3ec4-7d29-58db-3f5e5f9f8f58",
+  "type": "Block",
+  "styles": [
+   "ti-mat-rate"
+  ],
+  "text": "$3\u2013$14 / sf",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "90d8159e-3ec4-7d29-58db-3f5e5f9f8f5b",
+  "type": "Block",
+  "styles": [
+   "ti-td"
+  ],
+  "text": "Floors, shower floors, wet rooms, high traffic",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "90d8159e-3ec4-7d29-58db-3f5e5f9f8f5d",
+  "type": "Block",
+  "styles": [
+   "ti-td",
+   "ti-td-mut"
+  ],
+  "text": "Nothing structural \u2014 it is the default for a reason",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "90d8159e-3ec4-7d29-58db-3f5e5f9f8f5f",
+  "type": "Block",
+  "styles": [
+   "ti-td"
+  ],
+  "text": "Least maintenance of anything here. Under 0.5% water absorption.",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "90d8159e-3ec4-7d29-58db-3f5e5f9f8f62",
+  "type": "Block",
+  "styles": [
+   "ti-mat-name"
+  ],
+  "text": "Ceramic",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "90d8159e-3ec4-7d29-58db-3f5e5f9f8f64",
+  "type": "Block",
+  "styles": [
+   "ti-mat-rate"
+  ],
+  "text": "$2\u2013$8 / sf",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "90d8159e-3ec4-7d29-58db-3f5e5f9f8f67",
+  "type": "Block",
+  "styles": [
+   "ti-td"
+  ],
+  "text": "Walls, backsplash, tub surrounds",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "90d8159e-3ec4-7d29-58db-3f5e5f9f8f69",
+  "type": "Block",
+  "styles": [
+   "ti-td",
+   "ti-td-mut"
+  ],
+  "text": "Floors, and anywhere heavy things get dropped",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "90d8159e-3ec4-7d29-58db-3f5e5f9f8f6b",
+  "type": "Block",
+  "styles": [
+   "ti-td"
+  ],
+  "text": "Chips show the clay body underneath. Cheap to buy, cheap to replace.",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "90d8159e-3ec4-7d29-58db-3f5e5f9f8f6e",
+  "type": "Block",
+  "styles": [
+   "ti-mat-name"
+  ],
+  "text": "Natural stone",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "90d8159e-3ec4-7d29-58db-3f5e5f9f8f70",
+  "type": "Block",
+  "styles": [
+   "ti-mat-rate"
+  ],
+  "text": "$8\u2013$30 / sf",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "90d8159e-3ec4-7d29-58db-3f5e5f9f8f73",
+  "type": "Block",
+  "styles": [
+   "ti-td"
+  ],
+  "text": "Feature walls, entries, statement floors",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "90d8159e-3ec4-7d29-58db-3f5e5f9f8f75",
+  "type": "Block",
+  "styles": [
+   "ti-td",
+   "ti-td-mut"
+  ],
+  "text": "Shower floors and kitchen backsplash behind a range",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "90d8159e-3ec4-7d29-58db-3f5e5f9f8f77",
+  "type": "Block",
+  "styles": [
+   "ti-td"
+  ],
+  "text": "Needs sealing every 1\u20133 years. Marble etches from anything acidic.",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "90d8159e-3ec4-7d29-58db-3f5e5f9f8f7a",
+  "type": "Block",
+  "styles": [
+   "ti-mat-name"
+  ],
+  "text": "Glass mosaic",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "90d8159e-3ec4-7d29-58db-3f5e5f9f8f7c",
+  "type": "Block",
+  "styles": [
+   "ti-mat-rate"
+  ],
+  "text": "$10\u2013$28 / sf",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "90d8159e-3ec4-7d29-58db-3f5e5f9f8f7f",
+  "type": "Block",
+  "styles": [
+   "ti-td"
+  ],
+  "text": "Niches, accent bands, backsplash",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "90d8159e-3ec4-7d29-58db-3f5e5f9f8f81",
+  "type": "Block",
+  "styles": [
+   "ti-td",
+   "ti-td-mut"
+  ],
+  "text": "Floors \u2014 and any large uninterrupted area",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "90d8159e-3ec4-7d29-58db-3f5e5f9f8f83",
+  "type": "Block",
+  "styles": [
+   "ti-td"
+  ],
+  "text": "Labor-heavy to set, but nothing else holds colour like it.",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "90d8159e-3ec4-7d29-58db-3f5e5f9f8f86",
+  "type": "Block",
+  "styles": [
+   "ti-mat-name"
+  ],
+  "text": "Zellige / handmade",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "90d8159e-3ec4-7d29-58db-3f5e5f9f8f88",
+  "type": "Block",
+  "styles": [
+   "ti-mat-rate"
+  ],
+  "text": "$14\u2013$40 / sf",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "90d8159e-3ec4-7d29-58db-3f5e5f9f8f8b",
+  "type": "Block",
+  "styles": [
+   "ti-td"
+  ],
+  "text": "Backsplash and walls you want to look alive",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "90d8159e-3ec4-7d29-58db-3f5e5f9f8f8d",
+  "type": "Block",
+  "styles": [
+   "ti-td",
+   "ti-td-mut"
+  ],
+  "text": "Anywhere you want a perfectly flat, uniform surface",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "90d8159e-3ec4-7d29-58db-3f5e5f9f8f8f",
+  "type": "Block",
+  "styles": [
+   "ti-td"
+  ],
+  "text": "Variation and lippage are the point. Budget extra labor, not extra tile.",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "90d8159e-3ec4-7d29-58db-3f5e5f9f8f94",
+  "type": "Paragraph",
+  "styles": [
+   "ti-note"
+  ],
+  "text": "Rates are material only, before installation. We'll bring samples and tell you where each one earns its price.",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "f9a23f3a-bdfe-4b00-01ab-478f713eea19",
+  "type": "Paragraph",
+  "styles": [
+   "ti-eyebrow",
+   "ti-eyebrow-gold"
+  ],
+  "text": "Bellevue tile cost calculator",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "82d13a79-9f91-ee1f-1d87-e8d6aa4ec6ee",
+  "type": "Heading",
+  "styles": [
+   "ti-h2",
+   "ti-h2-light"
+  ],
+  "text": "Price your tile job before we arrive",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "82d13a79-9f91-ee1f-1d87-e8d6aa4ec6f1",
+  "type": "Paragraph",
+  "styles": [
+   "ti-est-intro"
+  ],
+  "text": "The same arithmetic we do on site \u2014 scope, square footage, format, prep. Not a quote, but close enough to plan around.",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "02f05b49-2188-07bf-b3f4-54a6cb0aab44",
+  "type": "Block",
+  "styles": [
+   "ti-eyebrow"
+  ],
+  "text": "Schedule",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "02f05b49-2188-07bf-b3f4-54a6cb0aab46",
+  "type": "Heading",
+  "styles": [
+   "ti-h2"
+  ],
+  "text": "A bathroom, day by day",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "02f05b49-2188-07bf-b3f4-54a6cb0aab48",
+  "type": "Paragraph",
+  "styles": [
+   "ti-lead"
+  ],
+  "text": "Four to six working days for a typical Bellevue bathroom. The two days people don't expect are the ones that make it last.",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "02f05b49-2188-07bf-b3f4-54a6cb0aab4b",
+  "type": "Block",
+  "styles": [
+   "ti-day-n"
+  ],
+  "text": "01",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "02f05b49-2188-07bf-b3f4-54a6cb0aab4f",
+  "type": "Block",
+  "styles": [
+   "ti-day-t"
+  ],
+  "text": "Demo & protection",
+  "nkids": 3,
+  "mixed": false
+ },
+ {
+  "el": "02f05b49-2188-07bf-b3f4-54a6cb0aab52",
+  "type": "Block",
+  "styles": [
+   "ti-day-b"
+  ],
+  "text": "Floor paths covered, doorways sheeted, negative air on. Old tile, thinset and backer out to bare framing, and the first honest look at the subfloor.",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "02f05b49-2188-07bf-b3f4-54a6cb0aab55",
+  "type": "Block",
+  "styles": [
+   "ti-day-n"
+  ],
+  "text": "02",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "02f05b49-2188-07bf-b3f4-54a6cb0aab59",
+  "type": "Block",
+  "styles": [
+   "ti-day-t"
+  ],
+  "text": "Substrate & waterproofing",
+  "nkids": 3,
+  "mixed": false
+ },
+ {
+  "el": "02f05b49-2188-07bf-b3f4-54a6cb0aab5c",
+  "type": "Block",
+  "styles": [
+   "ti-day-b"
+  ],
+  "text": "Rot repaired, backer board set, pre-slope built, membrane bonded and every corner and penetration sealed. Then the flood test goes in and sits overnight.",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "02f05b49-2188-07bf-b3f4-54a6cb0aab5f",
+  "type": "Block",
+  "styles": [
+   "ti-day-n"
+  ],
+  "text": "03",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "02f05b49-2188-07bf-b3f4-54a6cb0aab61",
+  "type": "Block",
+  "styles": [
+   "ti-day-t"
+  ],
+  "text": "Flood test cleared, tile starts",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "02f05b49-2188-07bf-b3f4-54a6cb0aab64",
+  "type": "Block",
+  "styles": [
+   "ti-day-b"
+  ],
+  "text": "We photograph the test, drain it, and start setting \u2014 layout dry-laid first so cuts land where you'd want them, not where they fall.",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "02f05b49-2188-07bf-b3f4-54a6cb0aab67",
+  "type": "Block",
+  "styles": [
+   "ti-day-n"
+  ],
+  "text": "04",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "02f05b49-2188-07bf-b3f4-54a6cb0aab69",
+  "type": "Block",
+  "styles": [
+   "ti-day-t"
+  ],
+  "text": "Tile finished",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "02f05b49-2188-07bf-b3f4-54a6cb0aab6c",
+  "type": "Block",
+  "styles": [
+   "ti-day-b"
+  ],
+  "text": "Walls, floor, niche and edge trim complete. Large format back-buttered, lippage checked as we go rather than at the end.",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "02f05b49-2188-07bf-b3f4-54a6cb0aab6f",
+  "type": "Block",
+  "styles": [
+   "ti-day-n"
+  ],
+  "text": "05",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "02f05b49-2188-07bf-b3f4-54a6cb0aab71",
+  "type": "Block",
+  "styles": [
+   "ti-day-t"
+  ],
+  "text": "Grout, silicone, done",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "02f05b49-2188-07bf-b3f4-54a6cb0aab74",
+  "type": "Block",
+  "styles": [
+   "ti-day-b"
+  ],
+  "text": "Grout, then silicone in every change of plane. 24 hours of cure before you use the shower, and we walk it with you before we invoice.",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "cf5df2eb-1aa1-4e3c-b2f6-ae426edf54fb",
+  "type": "Block",
+  "styles": [
+   "ti-eyebrow"
+  ],
+  "text": "Recent work",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "cf5df2eb-1aa1-4e3c-b2f6-ae426edf54fd",
+  "type": "Heading",
+  "styles": [
+   "ti-h2"
+  ],
+  "text": "Tile in Eastside homes",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "cf5df2eb-1aa1-4e3c-b2f6-ae426edf5500",
+  "type": "Link",
+  "styles": [
+   "ti-ulink"
+  ],
+  "text": "Full gallery \u2192",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "a4180595-6954-cd1e-c863-ed1037d06b3f",
+  "type": "Block",
+  "styles": [
+   "ti-eyebrow"
+  ],
+  "text": "4.7 \u2605 \u00b7 119 Google reviews",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "a4180595-6954-cd1e-c863-ed1037d06b41",
+  "type": "Heading",
+  "styles": [
+   "ti-h2"
+  ],
+  "text": "What Bellevue clients say",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "a4180595-6954-cd1e-c863-ed1037d06b44",
+  "type": "Link",
+  "styles": [
+   "ti-ulink"
+  ],
+  "text": "Read all reviews \u2192",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "a4180595-6954-cd1e-c863-ed1037d06b47",
+  "type": "Block",
+  "styles": [
+   "ti-quote-stars"
+  ],
+  "text": "\u2605\u2605\u2605\u2605\u2605",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "a4180595-6954-cd1e-c863-ed1037d06b49",
+  "type": "Paragraph",
+  "styles": [
+   "ti-quote-p"
+  ],
+  "text": "\u201cThey placed plastic sheeting over the cabinets to contain the dust, so we noticed hardly any. The floors look as good or better than new.\u201d",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "a4180595-6954-cd1e-c863-ed1037d06b4b",
+  "type": "Block",
+  "styles": [
+   "ti-quote-by"
+  ],
+  "text": "Richard L. \u00b7 Bellevue \u00b7 Google",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "a4180595-6954-cd1e-c863-ed1037d06b4e",
+  "type": "Block",
+  "styles": [
+   "ti-quote-stars"
+  ],
+  "text": "\u2605\u2605\u2605\u2605\u2605",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "a4180595-6954-cd1e-c863-ed1037d06b50",
+  "type": "Paragraph",
+  "styles": [
+   "ti-quote-p"
+  ],
+  "text": "\u201cWe chose them because they were professional and top-notch. The work was smooth, fast and cost-effective \u2014 such skill and precision!\u201d",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "a4180595-6954-cd1e-c863-ed1037d06b52",
+  "type": "Block",
+  "styles": [
+   "ti-quote-by"
+  ],
+  "text": "Jasen H. \u00b7 floor repair \u00b7 Google",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "a4180595-6954-cd1e-c863-ed1037d06b55",
+  "type": "Block",
+  "styles": [
+   "ti-quote-stars"
+  ],
+  "text": "\u2605\u2605\u2605\u2605\u2605",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "a4180595-6954-cd1e-c863-ed1037d06b57",
+  "type": "Paragraph",
+  "styles": [
+   "ti-quote-p"
+  ],
+  "text": "\u201cThe installers were great! The floor is exactly what we wanted. We worked with OC Flooring previously \u2014 highly recommend.\u201d",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "a4180595-6954-cd1e-c863-ed1037d06b5b",
+  "type": "Block",
+  "styles": [
+   "ti-quote-by"
+  ],
+  "text": "Deborah C. \u00b7 stairs & refinishing \u00b7 Google",
+  "nkids": 3,
+  "mixed": false
+ },
+ {
+  "el": "4acec5fa-370f-f09f-53a4-87118f141cd7",
+  "type": "Block",
+  "styles": [
+   "ti-eyebrow"
+  ],
+  "text": "Straight answers",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "4acec5fa-370f-f09f-53a4-87118f141cd9",
+  "type": "Heading",
+  "styles": [
+   "ti-h2"
+  ],
+  "text": "Tile installation FAQ \u2014 Bellevue, WA",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "4acec5fa-370f-f09f-53a4-87118f141cde",
+  "type": "Paragraph",
+  "styles": [
+   "ti-lead"
+  ],
+  "text": "Not here? Call us at  \u2014 you'll get an installer on the phone, not a call center.",
+  "nkids": 3,
+  "mixed": true
+ },
+ {
+  "el": "4acec5fa-370f-f09f-53a4-87118f141cdc",
+  "type": "Link",
+  "styles": [
+   "ti-faq-tel"
+  ],
+  "text": "(425) 595-1079",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "4acec5fa-370f-f09f-53a4-87118f141ce1",
+  "type": "Heading",
+  "styles": [
+   "ti-faq-qt"
+  ],
+  "text": "How much does tile installation cost in Bellevue, WA?",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "4acec5fa-370f-f09f-53a4-87118f141ce3",
+  "type": "Block",
+  "styles": [
+   "ti-faq-sign"
+  ],
+  "text": "+",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "4acec5fa-370f-f09f-53a4-87118f141ce6",
+  "type": "Paragraph",
+  "styles": [
+   "ti-faq-a"
+  ],
+  "text": "Tile installation in Bellevue costs about $14 to $26 per square foot installed, counting tile, setting materials, substrate prep and labor. Labor alone starts at $11 per square foot. A standard tub-shower surround runs $3,200 to $6,800, and a full bathroom with floor, shower and niche usually lands between $6,500 and $14,000. Tile format drives the price more than tile price does: large-format and mosaic sheets take significantly more labor per square foot than 12\u00d712.",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "4acec5fa-370f-f09f-53a4-87118f141ce9",
+  "type": "Heading",
+  "styles": [
+   "ti-faq-qt"
+  ],
+  "text": "How much does it cost to tile a shower in Bellevue?",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "4acec5fa-370f-f09f-53a4-87118f141ceb",
+  "type": "Block",
+  "styles": [
+   "ti-faq-sign"
+  ],
+  "text": "+",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "4acec5fa-370f-f09f-53a4-87118f141cee",
+  "type": "Paragraph",
+  "styles": [
+   "ti-faq-a"
+  ],
+  "text": "A tiled shower in Bellevue runs $3,200 to $6,800 for a standard alcove, including demolition, a bonded waterproofing system, the pre-sloped base or pan, tile setting, a niche and grout. Curbless entries, benches, full-height stone and steam showers push above that. The waterproofing is roughly a tenth of the cost and prevents the one failure that costs tens of thousands.",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "4acec5fa-370f-f09f-53a4-87118f141cf1",
+  "type": "Heading",
+  "styles": [
+   "ti-faq-qt"
+  ],
+  "text": "Do you waterproof showers before tiling?",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "4acec5fa-370f-f09f-53a4-87118f141cf3",
+  "type": "Block",
+  "styles": [
+   "ti-faq-sign"
+  ],
+  "text": "+",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "4acec5fa-370f-f09f-53a4-87118f141cf6",
+  "type": "Paragraph",
+  "styles": [
+   "ti-faq-a"
+  ],
+  "text": "Yes. Every shower we tile gets a bonded waterproofing system behind the tile, not just cement board and thinset. That means a pre-sloped base, a sheet or liquid membrane carried up the walls, sealed corners, seams and pipe penetrations, and a documented 24-hour flood test before a single tile goes on. Tile and grout are not waterproof; the membrane behind them is what keeps water out of your framing.",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "4acec5fa-370f-f09f-53a4-87118f141cf9",
+  "type": "Heading",
+  "styles": [
+   "ti-faq-qt"
+  ],
+  "text": "How long does a bathroom tile job take?",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "4acec5fa-370f-f09f-53a4-87118f141cfb",
+  "type": "Block",
+  "styles": [
+   "ti-faq-sign"
+  ],
+  "text": "+",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "4acec5fa-370f-f09f-53a4-87118f141cfe",
+  "type": "Paragraph",
+  "styles": [
+   "ti-faq-a"
+  ],
+  "text": "A bathroom tile job in Bellevue takes about four to six working days: one day for demolition and dust protection, one for substrate and waterproofing plus a 24-hour flood test, one to two for setting tile, and one for grout, silicone and trim. Add 24 hours of cure time before the shower is used. Floors on their own are usually one to two days.",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "4acec5fa-370f-f09f-53a4-87118f141d01",
+  "type": "Heading",
+  "styles": [
+   "ti-faq-qt"
+  ],
+  "text": "Porcelain or ceramic tile \u2014 which is better?",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "4acec5fa-370f-f09f-53a4-87118f141d03",
+  "type": "Block",
+  "styles": [
+   "ti-faq-sign"
+  ],
+  "text": "+",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "4acec5fa-370f-f09f-53a4-87118f141d06",
+  "type": "Paragraph",
+  "styles": [
+   "ti-faq-a"
+  ],
+  "text": "Porcelain is the better choice for floors, showers and anything that gets wet or heavy traffic: it is denser, absorbs less than 0.5% water, and chips less. Ceramic is fine for walls and backsplashes and costs less. In Bellevue we specify porcelain for every floor and shower floor, and let ceramic or glass earn its place on walls and backsplash.",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "4acec5fa-370f-f09f-53a4-87118f141d09",
+  "type": "Heading",
+  "styles": [
+   "ti-faq-qt"
+  ],
+  "text": "Can you install a heated tile floor?",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "4acec5fa-370f-f09f-53a4-87118f141d0b",
+  "type": "Block",
+  "styles": [
+   "ti-faq-sign"
+  ],
+  "text": "+",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "4acec5fa-370f-f09f-53a4-87118f141d0e",
+  "type": "Paragraph",
+  "styles": [
+   "ti-faq-a"
+  ],
+  "text": "Yes. Electric radiant mat under tile adds about $11 to $16 per square foot installed including the thermostat, and it is the cheapest luxury in a Bellevue bathroom because it is only worth doing while the floor is already open. It goes in over an uncoupling membrane, is resistance-tested before and after setting, and runs on its own dedicated circuit.",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "4acec5fa-370f-f09f-53a4-87118f141d11",
+  "type": "Heading",
+  "styles": [
+   "ti-faq-qt"
+  ],
+  "text": "Do I need to remove the old tile first?",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "4acec5fa-370f-f09f-53a4-87118f141d13",
+  "type": "Block",
+  "styles": [
+   "ti-faq-sign"
+  ],
+  "text": "+",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "4acec5fa-370f-f09f-53a4-87118f141d16",
+  "type": "Paragraph",
+  "styles": [
+   "ti-faq-a"
+  ],
+  "text": "Usually yes. Old tile removal and haul-away runs about $3.50 per square foot, and it is the only way to see the subfloor, check for rot or movement, and get the new floor height right at doorways. Tiling over existing tile is possible on a sound, flat, well-bonded floor, but it raises the floor and hides problems we would rather find at demolition than after grout.",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "4acec5fa-370f-f09f-53a4-87118f141d19",
+  "type": "Heading",
+  "styles": [
+   "ti-faq-qt"
+  ],
+  "text": "How much does a kitchen backsplash cost in Bellevue?",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "4acec5fa-370f-f09f-53a4-87118f141d1b",
+  "type": "Block",
+  "styles": [
+   "ti-faq-sign"
+  ],
+  "text": "+",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "4acec5fa-370f-f09f-53a4-87118f141d1e",
+  "type": "Paragraph",
+  "styles": [
+   "ti-faq-a"
+  ],
+  "text": "A kitchen backsplash in Bellevue costs $1,100 to $2,200 for a typical 30 square foot run, installed with outlet cuts, edge trim and color-matched grout. Mosaic sheets, herringbone layouts, a picture-frame detail behind the range and full-height slab-look porcelain sit at the top of that range because of layout and cutting time.",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "4acec5fa-370f-f09f-53a4-87118f141d21",
+  "type": "Heading",
+  "styles": [
+   "ti-faq-qt"
+  ],
+  "text": "Can you fix cracked tile or regrout instead of replacing?",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "4acec5fa-370f-f09f-53a4-87118f141d23",
+  "type": "Block",
+  "styles": [
+   "ti-faq-sign"
+  ],
+  "text": "+",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "4acec5fa-370f-f09f-53a4-87118f141d26",
+  "type": "Paragraph",
+  "styles": [
+   "ti-faq-a"
+  ],
+  "text": "Often, yes. Tile repair and regrout starts at $8 per square foot and is the right call when grout is stained or crumbling, a few tiles cracked from an impact, or shower corners need the grout cut out and replaced with silicone. If tiles sound hollow, are popping loose in a pattern, or the wall feels soft, the substrate below has failed and a repair only buys months \u2014 we tell you which one you have before we quote.",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "4acec5fa-370f-f09f-53a4-87118f141d29",
+  "type": "Heading",
+  "styles": [
+   "ti-faq-qt"
+  ],
+  "text": "Which Bellevue neighborhoods do you tile?",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "4acec5fa-370f-f09f-53a4-87118f141d2b",
+  "type": "Block",
+  "styles": [
+   "ti-faq-sign"
+  ],
+  "text": "+",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "4acec5fa-370f-f09f-53a4-87118f141d2e",
+  "type": "Paragraph",
+  "styles": [
+   "ti-faq-a"
+  ],
+  "text": "We tile homes across all of Bellevue \u2014 West Bellevue, Downtown, Crossroads, Lake Hills, Factoria, Somerset, Newport Hills, Eastgate, Wilburton, Bridle Trails, Northwest Bellevue, Woodridge, Cougar Mountain and Clyde Hill \u2014 plus Kirkland, Redmond, Issaquah, Sammamish, Mercer Island and the wider Eastside and Seattle.",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "4acec5fa-370f-f09f-53a4-87118f141d31",
+  "type": "Heading",
+  "styles": [
+   "ti-faq-qt"
+  ],
+  "text": "What warranty comes with tile installation?",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "4acec5fa-370f-f09f-53a4-87118f141d33",
+  "type": "Block",
+  "styles": [
+   "ti-faq-sign"
+  ],
+  "text": "+",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "4acec5fa-370f-f09f-53a4-87118f141d36",
+  "type": "Paragraph",
+  "styles": [
+   "ti-faq-a"
+  ],
+  "text": "You get a 2-year workmanship warranty from OC Flooring on tile installation, longer than we give on carpet because tile failures show up in year two, not week two. Bonded waterproofing systems carry the manufacturer's own warranty when we install their full assembly, and we photograph the membrane and the flood test so the record exists if you ever sell the house.",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "d85340f0-b88f-455f-8e6e-37981d9011bb",
+  "type": "Block",
+  "styles": [
+   "ti-eyebrow"
+  ],
+  "text": "Service area",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "d85340f0-b88f-455f-8e6e-37981d9011bd",
+  "type": "Heading",
+  "styles": [
+   "ti-h2-sm"
+  ],
+  "text": "Bellevue neighborhoods we tile",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "ad6fc010-c198-301b-e18a-1381e6458c4b",
+  "type": "Paragraph",
+  "styles": [
+   "ti-chip"
+  ],
+  "text": "Downtown Bellevue",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "ad6fc010-c198-301b-e18a-1381e6458c4d",
+  "type": "Paragraph",
+  "styles": [
+   "ti-chip"
+  ],
+  "text": "West Bellevue",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "ad6fc010-c198-301b-e18a-1381e6458c4f",
+  "type": "Paragraph",
+  "styles": [
+   "ti-chip"
+  ],
+  "text": "Northwest Bellevue",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "ad6fc010-c198-301b-e18a-1381e6458c51",
+  "type": "Paragraph",
+  "styles": [
+   "ti-chip"
+  ],
+  "text": "Crossroads",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "ad6fc010-c198-301b-e18a-1381e6458c53",
+  "type": "Paragraph",
+  "styles": [
+   "ti-chip"
+  ],
+  "text": "Lake Hills",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "ad6fc010-c198-301b-e18a-1381e6458c55",
+  "type": "Paragraph",
+  "styles": [
+   "ti-chip"
+  ],
+  "text": "Factoria",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "ad6fc010-c198-301b-e18a-1381e6458c57",
+  "type": "Paragraph",
+  "styles": [
+   "ti-chip"
+  ],
+  "text": "Somerset",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "ad6fc010-c198-301b-e18a-1381e6458c59",
+  "type": "Paragraph",
+  "styles": [
+   "ti-chip"
+  ],
+  "text": "Newport Hills",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "ad6fc010-c198-301b-e18a-1381e6458c5b",
+  "type": "Paragraph",
+  "styles": [
+   "ti-chip"
+  ],
+  "text": "Eastgate",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "ad6fc010-c198-301b-e18a-1381e6458c5d",
+  "type": "Paragraph",
+  "styles": [
+   "ti-chip"
+  ],
+  "text": "Wilburton",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "ad6fc010-c198-301b-e18a-1381e6458c5f",
+  "type": "Paragraph",
+  "styles": [
+   "ti-chip"
+  ],
+  "text": "Bridle Trails",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "ad6fc010-c198-301b-e18a-1381e6458c61",
+  "type": "Paragraph",
+  "styles": [
+   "ti-chip"
+  ],
+  "text": "Woodridge",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "ad6fc010-c198-301b-e18a-1381e6458c63",
+  "type": "Paragraph",
+  "styles": [
+   "ti-chip"
+  ],
+  "text": "Cougar Mountain",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "ad6fc010-c198-301b-e18a-1381e6458c65",
+  "type": "Paragraph",
+  "styles": [
+   "ti-chip"
+  ],
+  "text": "Clyde Hill",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "ad6fc010-c198-301b-e18a-1381e6458c67",
+  "type": "Paragraph",
+  "styles": [
+   "ti-chip"
+  ],
+  "text": "Beaux Arts Village",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "ad6fc010-c198-301b-e18a-1381e6458c69",
+  "type": "Paragraph",
+  "styles": [
+   "ti-chip"
+  ],
+  "text": "Medina",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "1c802dfa-7edc-bcfb-fe72-fe6edce3ca6f",
+  "type": "Paragraph",
+  "styles": [
+   "ti-hoods-outp"
+  ],
+  "text": "Not on the list? If you're within about an hour of Bellevue, ask when you book.",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "1c802dfa-7edc-bcfb-fe72-fe6edce3ca72",
+  "type": "Link",
+  "styles": [
+   "ti-outlink"
+  ],
+  "text": "carpet installation in Bellevue",
+  "nkids": 1,
+  "mixed": false,
+  "href": "/city-of-bellevue/carpet-installation-in-bellevue-wa"
+ },
+ {
+  "el": "d85340f0-b88f-455f-8e6e-37981d9011e4",
+  "type": "Link",
+  "styles": [
+   "ti-outlink"
+  ],
+  "text": "hardwood floor installation",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "d85340f0-b88f-455f-8e6e-37981d9011e7",
+  "type": "Link",
+  "styles": [
+   "ti-outlink"
+  ],
+  "text": "flooring products",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "d85340f0-b88f-455f-8e6e-37981d9011ea",
+  "type": "Link",
+  "styles": [
+   "ti-outlink"
+  ],
+  "text": "financing options",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "4e337b71-b24a-0199-773b-9a9c8d6c5a19",
+  "type": "Block",
+  "styles": [
+   "ti-eyebrow"
+  ],
+  "text": "Tile guides",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "4e337b71-b24a-0199-773b-9a9c8d6c5a1b",
+  "type": "Heading",
+  "styles": [
+   "ti-h2-sm"
+  ],
+  "text": "Tile reading for Bellevue homeowners",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "4e337b71-b24a-0199-773b-9a9c8d6c5a1d",
+  "type": "Block",
+  "styles": [
+   "tg-kicker"
+  ],
+  "text": "Kitchens",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "4e337b71-b24a-0199-773b-9a9c8d6c5a1f",
+  "type": "Block",
+  "styles": [
+   "tg-title"
+  ],
+  "text": "Hardwood vs. Tile in the Kitchen: Which Should You Choose?",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "4e337b71-b24a-0199-773b-9a9c8d6c5a21",
+  "type": "Block",
+  "styles": [
+   "tg-more"
+  ],
+  "text": "Read the guide \u2192",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "4e337b71-b24a-0199-773b-9a9c8d6c5a24",
+  "type": "Block",
+  "styles": [
+   "tg-kicker"
+  ],
+  "text": "Materials",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "4e337b71-b24a-0199-773b-9a9c8d6c5a26",
+  "type": "Block",
+  "styles": [
+   "tg-title"
+  ],
+  "text": "Benefits of Vinyl Flooring: Sheet vs. Plank vs. Tile, Explained",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "4e337b71-b24a-0199-773b-9a9c8d6c5a28",
+  "type": "Block",
+  "styles": [
+   "tg-more"
+  ],
+  "text": "Read the guide \u2192",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "4e337b71-b24a-0199-773b-9a9c8d6c5a2b",
+  "type": "Block",
+  "styles": [
+   "tg-kicker"
+  ],
+  "text": "Planning",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "4e337b71-b24a-0199-773b-9a9c8d6c5a2d",
+  "type": "Block",
+  "styles": [
+   "tg-title"
+  ],
+  "text": "Alternatives to Tile Flooring in Snohomish, WA: What to Use Instead",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "4e337b71-b24a-0199-773b-9a9c8d6c5a2f",
+  "type": "Block",
+  "styles": [
+   "tg-more"
+  ],
+  "text": "Read the guide \u2192",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "5474fc9a-654f-7679-2121-368c4da8d88d",
+  "type": "Heading",
+  "styles": [
+   "ti-cta-h"
+  ],
+  "text": "Get the tile job that's still watertight in 2046",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "5474fc9a-654f-7679-2121-368c4da8d88f",
+  "type": "Paragraph",
+  "styles": [
+   "ti-cta-lead"
+  ],
+  "text": "One visit: we look at the substrate, talk format and layout, and leave a written price. Free, and there's no reason to say yes on the spot.",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "5474fc9a-654f-7679-2121-368c4da8d891",
+  "type": "Block",
+  "styles": [
+   "ti-cal-t"
+  ],
+  "text": "Pick your free estimate time",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "5474fc9a-654f-7679-2121-368c4da8d893",
+  "type": "Block",
+  "styles": [
+   "ti-cal-s"
+  ],
+  "text": "Takes about a minute \u00b7 no deposit, no obligation",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "5474fc9a-654f-7679-2121-368c4da8d898",
+  "type": "Block",
+  "styles": [
+   "ti-cta-alt"
+  ],
+  "text": "Rather talk it through first?",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "5474fc9a-654f-7679-2121-368c4da8d89a",
+  "type": "Link",
+  "styles": [
+   "ti-btn-darkghost"
+  ],
+  "text": "Call (425) 595-1079",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "5474fc9a-654f-7679-2121-368c4da8d89f",
+  "type": "Paragraph",
+  "styles": [
+   "ti-cta-fine"
+  ],
+  "text": "Tile installation in Bellevue, WA \u00b7 Licensed, bonded & insured \u00b7 WA Reg # OCFLOFL852KQ \u00b7 2-year workmanship warranty",
+  "nkids": 3,
+  "mixed": false
+ },
+ {
+  "el": "bd792e44-2c37-0c95-1fcf-d6ca3292e2ea",
+  "type": "Block",
+  "styles": [
+   "ti-footer-name"
+  ],
+  "text": "OC Flooring",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "0ff25750-6aff-cc11-4c2c-ee533f5c6872",
+  "type": "Paragraph",
+  "styles": [
+   "ti-footer-tag"
+  ],
+  "text": "Crafting beautiful spaces, one floor at a time. Tile \u00b7 carpet \u00b7 hardwood \u2014 Bellevue, WA \u00b7 (425) 595-1079",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "bd792e44-2c37-0c95-1fcf-d6ca3292e2ef",
+  "type": "Link",
+  "styles": [
+   "ti-footer-a"
+  ],
+  "text": "Products",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "bd792e44-2c37-0c95-1fcf-d6ca3292e2f1",
+  "type": "Link",
+  "styles": [
+   "ti-footer-a"
+  ],
+  "text": "Gallery",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "bd792e44-2c37-0c95-1fcf-d6ca3292e2f3",
+  "type": "Link",
+  "styles": [
+   "ti-footer-a"
+  ],
+  "text": "Financing",
+  "nkids": 1,
+  "mixed": false
+ },
+ {
+  "el": "bd792e44-2c37-0c95-1fcf-d6ca3292e2f5",
+  "type": "Link",
+  "styles": [
+   "ti-footer-a"
+  ],
+  "text": "Contact",
+  "nkids": 1,
+  "mixed": false
+ }
+]
