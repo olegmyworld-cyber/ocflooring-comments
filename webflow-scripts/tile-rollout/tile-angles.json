@@ -1,0 +1,147 @@
+{
+ "arlington": {
+  "region": "north Snohomish County",
+  "angle": "Small-city practicality: ramblers, farmhouse remodels, well water and iron staining; hard-working bathrooms redone once and done right.",
+  "voice": "plainspoken, no-frills"
+ },
+ "bothell": {
+  "region": "the Bothell\u2013Mill Creek corridor",
+  "angle": "90s-boom subdivisions hitting the age where builder-grade tub surrounds fail; first-remodel families comparing bids.",
+  "voice": "reassuring, comparison-savvy"
+ },
+ "cottage-lake": {
+  "region": "the Woodinville\u2013Cottage Lake area",
+  "angle": "Wooded acreage homes, private wells, mudroom and entry tile that has to survive boots, dogs and gravel driveways.",
+  "voice": "rural-practical"
+ },
+ "duvall": {
+  "region": "the Snoqualmie Valley",
+  "angle": "Valley weather and long wet winters; heated floors as morning comfort in farmhouse and new-build baths alike.",
+  "voice": "warm, seasonal"
+ },
+ "edmonds": {
+  "region": "the north King\u2013south Snohomish shoreline",
+  "angle": "View homes and mid-century baths near the ferry; owners upgrading original 60s tile without losing character.",
+  "voice": "heritage-respectful"
+ },
+ "everett": {
+  "region": "the North Sound",
+  "angle": "Working-city housing stock from 1910s craftsman to 90s split-levels; honest triage between repair and full re-tile.",
+  "voice": "straight-shooting"
+ },
+ "issaquah": {
+  "region": "the Issaquah Alps foothills",
+  "angle": "Newer Highlands construction vs older in-town homes; large-format porcelain and curbless showers in recent remodels.",
+  "voice": "modern, detail-oriented"
+ },
+ "kenmore": {
+  "region": "the north end of Lake Washington",
+  "angle": "Lakeside humidity and split-level baths; ventilation and waterproofing as the quiet heroes of a remodel.",
+  "voice": "quietly technical"
+ },
+ "kirkland": {
+  "region": "the Eastside waterfront",
+  "angle": "Condo and view-home remodels where design ambition meets HOA logistics; zellige and designer porcelain requests.",
+  "voice": "design-forward"
+ },
+ "lake-stevens": {
+  "region": "the Lake Stevens basin",
+  "angle": "Fast-growing families, new construction punch-lists and first big bathroom upgrades; budget clarity above all.",
+  "voice": "budget-transparent"
+ },
+ "lynnwood": {
+  "region": "south Snohomish County",
+  "angle": "70s\u201380s ramblers mid-renovation; replacing acrylic surrounds with real tiled showers before resale.",
+  "voice": "resale-minded"
+ },
+ "marysville": {
+  "region": "the Marysville\u2013Tulalip flats",
+  "angle": "Value-focused big-box tile purchases installed properly; what $3 tile needs underneath it to last.",
+  "voice": "value-focused"
+ },
+ "medina": {
+  "region": "the Gold Coast of Lake Washington",
+  "angle": "High-end stone, slab-look porcelain and steam showers; discretion, protection of finishes, exacting layout.",
+  "voice": "understated luxury"
+ },
+ "mercer-island": {
+  "region": "Mercer Island",
+  "angle": "Mid-century daylight ramblers with original baths; structural honesty about 60-year-old subfloors before tile goes down.",
+  "voice": "engineering-candid"
+ },
+ "mill-creek": {
+  "region": "the Mill Creek corridor",
+  "angle": "Planned-community homes turning 30; ensuite master baths refreshed with heated floors and niche storage.",
+  "voice": "comfort-upgrade"
+ },
+ "monroe": {
+  "region": "the Skykomish Valley",
+  "angle": "Acreage and shop-house properties; durable porcelain for entries and utility spaces plus one showpiece bath.",
+  "voice": "rugged-practical"
+ },
+ "mukilteo": {
+  "region": "the Possession Sound bluff",
+  "angle": "Salt air, ferry-town view homes, and baths remodeled around a view window; condensation-aware assemblies.",
+  "voice": "coastal-precise"
+ },
+ "newcastle": {
+  "region": "the Newcastle highlands",
+  "angle": "90s luxury builds where beige 4x4 tile dates a great house; full-bath transformations with large format.",
+  "voice": "transformation-story"
+ },
+ "north-bend": {
+  "region": "the upper Snoqualmie Valley",
+  "angle": "Mountain weather, mudrooms, wood stoves and radiant-heated tile as a genuine comfort feature at elevation.",
+  "voice": "mountain-hardy"
+ },
+ "oak-harbor": {
+  "region": "Whidbey Island's north end",
+  "angle": "Navy-family timelines and island logistics; scheduling certainty, materials ordered right the first time.",
+  "voice": "logistics-certain"
+ },
+ "redmond": {
+  "region": "the Redmond tech corridor",
+  "angle": "Data-driven homeowners who want the assembly spec explained; smart thermostats on heated floors.",
+  "voice": "spec-precise"
+ },
+ "renton": {
+  "region": "south Lake Washington",
+  "angle": "Boeing-era ramblers and newer hillside townhomes; two very different substrates, one waterproofing standard.",
+  "voice": "two-eras comparison"
+ },
+ "sammamish": {
+  "region": "the Sammamish plateau",
+  "angle": "Family homes with double-vanity ensuites; kid-proof floors, ledger-stone fireplaces, weekend-proof grout.",
+  "voice": "family-durability"
+ },
+ "seattle": {
+  "region": "Seattle proper",
+  "angle": "Craftsman and townhome baths from Ballard to Beacon Hill; old-house framing surprises handled without drama.",
+  "voice": "city-wise"
+ },
+ "shoreline": {
+  "region": "the north Seattle line",
+  "angle": "Post-war brick ramblers with tiny baths; layouts that make 5x8 feet feel bigger with the right format.",
+  "voice": "small-space-clever"
+ },
+ "snohomish": {
+  "region": "the Snohomish River valley",
+  "angle": "Historic-district Victorians and farm properties; period-appropriate tile with modern waterproofing hidden behind it.",
+  "voice": "historic-modern"
+ },
+ "snoqualmie": {
+  "region": "Snoqualmie Ridge",
+  "angle": "Ridge new-builds coming off warranty; fixing builder shortcuts before they become leaks.",
+  "voice": "post-warranty-vigilant"
+ },
+ "whidbey-island": {
+  "region": "Whidbey Island",
+  "angle": "Island homes, beach cabins and ferry-scheduled projects; moisture everywhere, planning that respects the boat.",
+  "voice": "island-patient"
+ },
+ "woodinville": {
+  "region": "wine country",
+  "angle": "Entertaining kitchens and tasting-room-inspired backsplashes; hosting-ready durability.",
+  "voice": "host-ready"
+ }
+}
