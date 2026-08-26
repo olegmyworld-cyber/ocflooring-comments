@@ -361,7 +361,7 @@ promotion) and
 [`carpetbellevuefontscanonical-1.2.0.js`](webflow-scripts/carpetbellevuefontscanonical-1.2.0.js)
 (fonts + a canonical derived from the page path).
 
-**Two defects found and fixed during the rollout** (both recorded here
+**Three defects found and fixed during the rollout** (recorded here
 because the automated builders reported them rather than hiding them):
 1. *Self-links.* The Bellevue page was given its 29 city links before being
    used as the duplication source, so every copy inherited Bellevue's set —
@@ -372,6 +372,19 @@ because the automated builders reported them rather than hiding them):
 2. *Stale guides section.* Copies made after Bellevue got its guides section
    inherited Bellevue's five blog links. The same pass replaced those with
    each city's own five (affected Arlington, Bothell, Cottage Lake, Duvall).
+3. *Slider cells published as placeholders* (caught by Oleg on the live
+   site, fixed 2026-08-26). Inside a component definition, the Webflow MCP
+   element builder silently downgrades nested `TextBlock`s to plain divs
+   and drops their `set_text`/`set_link` setup, so the new carpet slide's
+   30 city cells rendered Webflow's stock "This is some text inside of a
+   div block." text (the hrefs, set separately, were fine). The cells were
+   rebuilt through the WHTML builder — `<a class="area-link-item"
+   href="…"><div class="area-text">City, WA</div></a>` — which matches the
+   original slides' exact markup and persists text correctly; all 30 were
+   then read back and verified ("City, WA" + correct href, in the same
+   order as the other slides). The same creation bug had eaten the nav
+   dropdown's "Carpet Installation" link target (label stored, href
+   missing); its URL is now set and verified.
 
 **De-duplication (measured, not assumed).** A deterministic 8-gram audit
 across all 406 city pairs showed the marketing copy was well differentiated
