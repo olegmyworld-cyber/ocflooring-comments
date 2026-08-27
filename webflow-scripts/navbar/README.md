@@ -263,3 +263,47 @@ negative margin — plus a decoy navbar phone link reproducing trap (1). All
 four render as clean stacked buttons with no overlap and no horizontal page
 overflow; the navbar link is left untouched; the slider and cities-removal
 behaviour was re-run and unchanged.
+
+### Slider enforcement REMOVED (2026-08-27) — it was damaging an unrelated section
+
+User screenshot showed the "Solid & engineered hardwood / Proven installation
+methods / Prefinished… / Cost, timeline…" card stack rendered broken: cards
+wider than the viewport and text sliced off at *both* edges ("ays", "ting",
+"eful"). That damage was caused by the slider heuristic added earlier the same
+day. Two compounding faults:
+
+1. **The heading regex was far too loose.** `/Installation Methods/i` was meant
+   to match the section "Our Hardwood Floor Installation Methods", but it also
+   matches the card heading **"Proven installation methods"** in a completely
+   different section.
+2. **`cardRow()` then picked a `<ul>`.** Its heuristic — "the descendant with
+   the most children carrying text" — scores a 4-item bullet list higher than
+   an actual card grid, so the list was turned into a
+   `display:flex; flex-wrap:nowrap; overflow-x:auto` scroller with each `<li>`
+   forced to 86% width. Hence list text scrolled horizontally and clipped.
+
+Compounding the error: the two sections the enforcement targeted **already had
+working sliders** — the pagination dots visible in the original screenshots come
+from the site's own script. The enforcement was never needed.
+
+**Action: the entire slider block (`applySlider`, `cardRow`, `sectionRow`) was
+deleted** from the live embed. The script now does only two narrowly-targeted
+things, both matched on text that appears nowhere else on the page:
+- `ctaFix` — the overlapping phone / "Book My Free Estimate" buttons.
+- `killAreas` — the duplicate "…Installation Across King & Snohomish County"
+  city-links block.
+
+Because every style the heuristic applied was a runtime inline style (nothing
+was ever persisted to the page), simply no longer applying it restores the
+section on the next load — no cleanup pass required.
+
+**Verified in headless Chromium** against a mock reproducing the damaged
+section (cards each containing a `<ul>`, including one headed "Proven
+installation methods"): the `<ul>`, its `<li>` items and all four cards come
+back with **empty inline style attributes** — i.e. genuinely untouched — every
+card fits the viewport, there is no horizontal page overflow, and the CTA and
+cities fixes still work.
+
+**Lesson recorded:** heuristics that guess at structure must not be shipped to
+a page this environment cannot load. Only text matches that are unique on the
+page are safe here.
