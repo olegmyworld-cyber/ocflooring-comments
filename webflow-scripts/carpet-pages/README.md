@@ -72,3 +72,36 @@ registered-script limit — so it's hosted as a site asset (uploaded via the
 Data API's presigned-S3 flow, same as the site's own script bundles) and
 loaded by a tiny inline loader script `ocCarpetPatchLoader`, applied at the
 page footer of all 30 carpet installation pages (including Bellevue).
+
+## Follow-up (2026-08-27, same session): mobile trust-bar alignment fix
+
+Request: fix the "4.7★ 119 Google reviews / 12 years, family owned /
+Licensed, bonded & insured in WA" trust bar's mobile layout on all carpet
+installation pages, without touching desktop.
+
+Unlike the swatches grid and Also-serving section, this trust bar is
+**native Designer content** (`.ci-trust` / `.ci-trust-inner` and its
+children — genuine global styles, confirmed shared across pages the same
+way `.ti-work-grid` is on the tile pages), so it was fixed directly via
+the Style API rather than a runtime script.
+
+**Real bug (reproduced in a headless-Chromium mock of the exact live CSS
+before touching anything):** `.ci-trust-inner` is a 3-column
+`auto-fit, minmax(220px,1fr)` grid that correctly collapses to a single
+stacked column on phones — no horizontal overflow. The actual problem was
+alignment: item 1 (rating) is left-aligned, item 2 (years) is
+`text-align:center`, item 3 (licensing) is `text-align:right` — by design,
+for a 3-column desktop row. Stacked to one column on mobile, that produces
+a jarring left → center → right zig-zag down the page.
+
+**Fix**, added at the `small` (≤767px) breakpoint only — desktop's 3-column
+row is untouched (verified: still 3 tracks at 1280px after the change):
+- `.ci-trust-inner`: force `grid-template-columns:1fr`, tighter padding,
+  smaller row gap.
+- `.ci-trust-mid` / `.ci-trust-right`: `text-align:left` + `min-width:0`
+  (belt-and-suspenders against grid-item min-content overflow).
+- `.ci-trust-score`: `min-width:0` (same overflow guard).
+
+Verified against the mock at 390px: all three items read left-aligned,
+`document.body.scrollWidth` stayed 390 = viewport (no overflow) both before
+and after.
