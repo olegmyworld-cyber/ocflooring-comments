@@ -622,8 +622,38 @@ under [`webflow-scripts/tile-rollout/`](webflow-scripts/tile-rollout/).
   Webflow rate-limits per *action*, so a call with 29 set_text actions can
   return HTTP 200 while later actions fail with 429 — a silent partial write.
   `gen-actions.py` now emits ≤15-action chunks (`1a`/`1b`/`2a`/`2b`).
-- **Not published**: everything is staged in the Designer — publish the site
-  to take the 30 tile pages, the new slider slide and the nav item live.
+- **Published** 2026-08-27 03:25 UTC by the site owner.
+
+#### Slider links landing on hardwood pages — diagnosis (2026-08-27)
+
+Reported: clicking Seattle (and some other cities) in the home page's "Tile
+Installation Service Areas" slide lands on that city's hardwood floor
+installation page. Same symptom the carpet slide showed in August. Everything
+on the Webflow side checks out, so the cause is the HTTP-layer 301 redirect
+table, which the Webflow API does not expose:
+
+- All 30 `href`s in the tile slide were read back from the component and match
+  each page's real `publishedPath` exactly (`/seattle/tile-installation-in-seattle-wa`
+  etc.) — see `tile-urls.txt` for the full list.
+- All 30 pages exist and are published.
+- No link rewriting or client-side redirect exists anywhere: the site's head and
+  footer freeform code, all 15 site-applied registered scripts, and the four
+  nested bundles they load (`bona-pkg-loader-v2`, `oc-cost-calc`,
+  `oc-trust-reviews-v9d`, `oc-whytrust-v15`) were all fetched and scanned for
+  `setAttribute('href')`, `location.replace/assign/href=` and `.area-link-item`.
+  `OCAreaLinksInjector` only *appends* an "Explore More Flooring Services"
+  block on hardwood/vinyl/laminate city pages; `siteCleanupD` rewrites only two
+  unrelated `/services/...` hrefs.
+- Click-through between slides is ruled out: `oc-areas-slider-v4` lays the
+  slides out in a nowrap flex row inside an `overflow:hidden` viewport and
+  moves them with `translateX`, so off-screen slides are beside the visible one,
+  never stacked over it.
+
+Because the tile URLs are brand new, no per-URL redirect could pre-exist for
+them — so the rule catching them must be a **wildcard** (e.g. `/seattle/(.*)`
+or `/city-of-*/...`) pointing at that city's hardwood page. That also explains
+why the carpet links kept misbehaving after exact-path redirects were removed.
+Fix is in Webflow → Site settings → Publishing → 301 redirects.
 
 ## Changes on branch `claude/oc-flooring-webflow-fixes-amosur`
 
