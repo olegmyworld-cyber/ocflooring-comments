@@ -101,3 +101,54 @@ removed cleanly and every decoy is left untouched, at every viewport.
 
 Published live to `nwocflooring.com`, `www.nwocflooring.com`, and the
 Webflow subdomain.
+
+## Follow-up (2026-08-27, same session): "All problems still stay" — hardened both fixes
+
+User report after the above: both issues were still visible live, despite
+the CSS/script being verified correctly saved and the site verified
+compiled. Re-checked everything server-side again (embed content, applied
+scripts, publish timestamps) — all still exactly as deployed, ruling out a
+silent revert or failed publish. That points at a **timing** bug in the
+original fixes rather than a wrong selector or bad CSS:
+
+- **`ocRmAreasPage` v1.0.0** polled for the target heading for a fixed 120
+  tries × 500ms = 60 seconds, then gave up. If the cities section is
+  lazy-rendered by `ocServicesLayout` (e.g. only built once its container
+  scrolls into view, or on some other delayed trigger this environment
+  can't inspect — the script is externally hosted and unreadable here),
+  a real visitor scrolling down the page past the 60s mark would see it
+  appear *after* the script had already stopped looking, with nothing to
+  remove it.
+- The original steps-slider CSS fix could in principle be fought at
+  runtime by the same unreadable `ocServicesLayout` script if it reasserts
+  its own inline styles on `.steps-content-wrapper.is-services` — plausible
+  given its name, though unconfirmed since its source isn't readable here.
+
+**Fix — replaced fixed-timeout polling with indefinite detection:**
+- `ocRmAreasPage` → **`ocRmAreasPageV2`**
+  ([`ocrmareaspagev2-1.0.0.js`](ocrmareaspagev2-1.0.0.js)): same
+  heading-climb removal logic, but now primarily driven by a
+  `MutationObserver` on `document.body` (fires immediately whenever new
+  content is inserted, no matter how late), with the original 500ms poll
+  kept as a much longer (5-minute) belt-and-suspenders fallback.
+- New **`ocStepsEnforce`**
+  ([`ocstepsenforce-1.0.0.js`](ocstepsenforce-1.0.0.js)): defensively
+  re-applies the mobile slider styles to `.steps-content-wrapper.is-services`
+  and its `.steps-inner-wrap` children as `!important` **inline** styles
+  (via `style.setProperty(..., 'important')`, which beats a stylesheet
+  `!important` rule) on load, on resize, on any DOM mutation, and on a
+  1-second interval — and cleanly removes those inline overrides above
+  767px so desktop is unaffected either way.
+
+**Verified in headless Chromium** against two adversarial scenarios in one
+test: (1) a competing script that resets the steps section's `flex-wrap`
+back to `wrap` every 150ms — `ocStepsEnforce`'s 1s interval still keeps it
+correctly as a non-wrapping slider at mobile widths; (2) the cities section
+injected into the DOM 4 seconds in (standing in for a lazy/delayed
+render, deliberately timed to be well past what a fixed-poll script would
+tolerate) — `ocRmAreasPageV2`'s `MutationObserver` catches and removes it
+almost immediately. Resizing back to desktop after all of this correctly
+restores the original wrapping-row layout with no leftover inline styles.
+
+Published live to `nwocflooring.com`, `www.nwocflooring.com`, and the
+Webflow subdomain.
