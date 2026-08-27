@@ -120,3 +120,52 @@ icons prepended normally inside their links. All 5 verified via
 
 Published live to `nwocflooring.com`, `www.nwocflooring.com`, and the
 Webflow subdomain.
+
+## Follow-up (2026-08-27): About Us + Blogs icons, and fixing the detached About Us icon
+
+Request: "also, add to about us and blogs icons as well" — with a screenshot
+showing the About Us icon rendering **detached, floating to the left of the
+text**, and Blogs with no icon at all.
+
+**Why About Us was detached:** its `NavbarLink` is prop-bound and rejected
+child insertion ("Missing element"), so the icon had been inserted as a
+*sibling* `before` the link — which renders as its own separate element
+outside the link box. That element has now been removed.
+
+**Where "Blogs" actually comes from — mystery solved:** it is not in the
+Navbar component at all. It is injected at runtime by a script in the
+**site footer freeform custom code** block:
+`a.className='nav-link w-nav-link'; a.setAttribute('href','/blog');
+a.textContent='Blogs';`. That is why no API query of the component tree
+could ever find it.
+
+**Fix — CSS `::before` mask icons, which work on both cases** (a prop-bound
+link that rejects children, and a link that does not exist until runtime):
+a small `<style>` + tagging script that finds `a` elements whose class
+contains `nav-link` and whose text starts with "about" / "blog", and adds
+`.oc-ni-about` / `.oc-ni-blog`. The icon is drawn with `mask-image` +
+`background-color:currentColor`, so it **inherits each link's text colour
+automatically** — matching the existing inline-SVG icons'
+`stroke="currentColor"` behaviour.
+
+**Delivery:** an **HtmlEmbed element inside the Navbar component**
+(`nav-icons-embed.js` holds the script portion as the source of record).
+This was chosen because:
+- both site script blocks are **full at Webflow's 15-scripts-per-block
+  limit**, so it could not be a registered script;
+- registered inline scripts on this site silently fail if they contain `<`
+  (see `../services-install-page/README.md`), and a data-URI SVG is full of
+  them — an HtmlEmbed has no such restriction (the SVGs are still written
+  with `%3C` encoding, which data-URI SVG parsing requires anyway);
+- the Navbar component is instanced on all 214 pages, so one embed covers
+  the whole site without rewriting the large freeform code block.
+
+**Verified in headless Chromium** against a mock nav: About Us and Blogs
+each render a 17px icon coloured `rgb(255,255,255)` (inherited from the
+nav's white text), while Services and Our Work (which already have real
+inline SVG icons) are left untouched, and two deliberate traps — a *footer*
+link also reading "Blogs" and a nav link reading "Learn about flooring" —
+are both correctly skipped.
+
+Published live to `nwocflooring.com`, `www.nwocflooring.com`, and the
+Webflow subdomain.

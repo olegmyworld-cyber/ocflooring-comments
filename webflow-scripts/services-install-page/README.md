@@ -150,5 +150,66 @@ tolerate) — `ocRmAreasPageV2`'s `MutationObserver` catches and removes it
 almost immediately. Resizing back to desktop after all of this correctly
 restores the original wrapping-row layout with no leftover inline styles.
 
+## ROOT CAUSE FOUND (2026-08-27): registered inline scripts containing `<` never run
+
+User reported a third time that nothing had changed. Both prior "fixes"
+were verified saved server-side and the site verified compiled — yet had
+zero effect. The reason: **neither script ever executed.**
+
+This repo's own top-level README already documents the rule, discovered
+earlier in the same session on the Calendly card (v1.2.0 → v1.3.0):
+Webflow's **registered inline script** pipeline on this site silently
+drops scripts containing tag-like `<` sequences — the v1.3.0 fix note
+records that "the deployed minified source contains no `<` character at
+all" and rewrites comparisons as `len>i` for exactly this reason.
+
+Both `ocRmAreasPageV2` and `ocStepsEnforce` contained `<` in ordinary loop
+conditions (`i<hs.length`, `i<kids.length`, `indexOf(...)<0`). So they were
+dropped on deploy, every time — which is why two rounds of otherwise-correct
+logic produced no visible change whatsoever.
+
+Confirmed the boundary of the rule: **HtmlEmbed *elements* tolerate `<` fine**
+— `ocgd.html` (28 `<` characters) renders on this very page, visible in the
+user's own screenshot as "Flooring Guides & Answers". It is specifically
+*registered inline scripts* that are affected. Every registered inline
+script on this site that is known to work (e.g. `ochidefinancingnav`)
+contains zero `<`.
+
+**Fix:** both behaviours were merged into a single script delivered as an
+**HtmlEmbed element** appended to the page body
+([`pagefix-embed.js`](pagefix-embed.js)) — the delivery mechanism proven to
+work on this page — and the two dead registered scripts were removed from
+the page. (The script is *also* written with zero `<` characters, so it is
+valid under either mechanism.)
+
+### A second real bug the tests caught: content-box card overflow
+
+While testing the slider enforcement, the mock showed cards rendering
+**385.6px wide inside a 374px track** — wider than their own container,
+which is precisely what "overlapping / card clipped at the screen edge"
+looks like in the user's screenshot. Cause: the cards carry `padding:2rem`
+and, without `box-sizing:border-box`, `width:86%` sets the *content* box —
+so 86% + 64px of padding overflows the track. Fixed by also forcing
+`box-sizing:border-box` on the cards; card then measures 322px = a correct
+86% of the track.
+
+The script is also **structure-aware**: it styles the *actual parent of the
+cards* rather than assuming they are direct children of `.services-wrap` /
+`.steps-content-wrapper`. If the page's own (externally hosted, unreadable
+here) `ocServicesLayout` script nests the cards inside its own track
+element, the earlier CSS child-combinator rules
+(`.services-wrap>.services-item-wpapper`) would silently stop matching —
+the JS handles that case, and neutralises the outer wrapper so the track
+spans full width and the percentage math stays correct.
+
+**Verified in headless Chromium** with cards deliberately nested one level
+deeper than expected, a heading rendered as a `div` (not an `h2` — the old
+selector only searched `h1`–`h4` and would have missed it), the cities
+section injected 3s late, and a competing script fighting the layout every
+150ms: slider correct at 390px, cards fit the track, no page overflow,
+cities section removed, decoy text containing "King County"/"Snohomish"
+left untouched, and all inline overrides cleanly removed on resize to
+desktop.
+
 Published live to `nwocflooring.com`, `www.nwocflooring.com`, and the
 Webflow subdomain.
