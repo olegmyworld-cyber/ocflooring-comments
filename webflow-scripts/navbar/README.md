@@ -64,3 +64,59 @@ rebuilt every icon (wrapper + child shapes) using the correct
 Published live to `nwocflooring.com`, `www.nwocflooring.com`, and the
 Webflow subdomain (same publish as the carpet-pages `#book` anchor fix
 above).
+
+## Follow-up (2026-08-27, same session): top-level menu icons
+
+Request: "I need icons here as well" — a screenshot of the full-screen
+mobile menu overlay (opened from the hamburger button) showed the
+top-level items — About Us, Services, Our Work, Blogs — with no icons.
+
+### Investigation: "About Us" and "Blogs" aren't plain static text
+
+Text-searching the Navbar component for "About Us" or "Blogs" returned
+nothing, and the first top-level `NavbarLink` element had zero children and
+zero attributes — yet the Home page's Navbar **component instance** (in its
+`props` list) showed a prop named "Nav Link - Text 2" whose value is
+literally `"About Us"`. This nav bar is built with Webflow **component
+props**: several top-level links (About Us, and a second slot that shows
+"Contact Us" on Home but reads "Blogs" in the user's screenshot, "Shop" as
+its unoverridden default) get their *text* from per-instance prop
+overrides — each page can independently override the same prop slot with
+different link text/label — while the underlying *element* is one shared
+node in the component tree. An icon added to that shared element shows up
+under whatever text a given page renders there, so it doesn't matter that
+the exact wording ("About Us" vs. something else) varies by page or that
+"Blogs" couldn't be pinned to one specific prop.
+
+Also discovered while investigating: `OCHideFinancingNav` /
+`OCHeaderInit` (site-wide header scripts) hide the "Financing" nav link
+via `.nav-link[href="/financing"]{display:none!important}`, and the
+"Price" link has its own `Price Link Visibility` prop — both explaining
+why those two items don't appear in the visible mobile menu even though
+they're real elements in the Navbar component.
+
+### Icons added
+
+Same inline-SVG convention as the Services dropdown icons above, added to
+every top-level Nav Link element in the shared Navbar component:
+
+| Item | Icon |
+|---|---|
+| About Us | info circle |
+| Services (top-level toggle) | list/menu lines |
+| Our Work | briefcase |
+| Price | dollar sign |
+| Financing | credit card |
+
+The About Us icon's target element (`NavbarLink`, prop-bound, no
+children) rejected a `prepend` insert ("Missing element") — its structure
+doesn't accept child elements the normal way — so that one icon was
+inserted as a sibling immediately **before** the link (`creation_position:
+"before"`) instead of inside it; visually equivalent, still shows up right
+ahead of whatever text that slot renders on a given page. The other four
+icons prepended normally inside their links. All 5 verified via
+`query_elements` as real `svg`/`line`/`rect`/`circle`/`path` elements, not
+`div`, before publishing.
+
+Published live to `nwocflooring.com`, `www.nwocflooring.com`, and the
+Webflow subdomain.
