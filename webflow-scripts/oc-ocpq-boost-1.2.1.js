@@ -1,4 +1,4 @@
-// OC Flooring — photo-quote confirmation + attention layer v1.1.0
+// OC Flooring — photo-quote confirmation + attention layer v1.2.1
 //
 // Applies to every page that carries the #ocpq photo-upload widget
 // (hardwood floor repair pages, where the widget lives in the shared Footer
@@ -17,11 +17,14 @@
 //      after 10s and can be dismissed by click or Escape.
 //
 //   On tile installation pages (identified by the .ti-page wrapper) the toast
-//   and the in-card bar are painted in the tile palette's own green, #2E5D57 —
-//   the same green those pages already use for buttons, links and accents —
-//   with the tan #C08B5C as the edge rule, instead of the generic success
-//   green. Carpet and repair pages keep the neutral dark/green treatment,
-//   which already matches their own palettes.
+//   and the in-card bar are painted burnt orange, #B4531B. Orange is the tile
+//   pages' warm accent family — the eyebrow line and every gallery category
+//   label use rust #8F5230, and the tan #C08B5C runs through the CTAs — but
+//   this is deliberately brighter and more saturated than either, so the
+//   notification reads as a distinct alert rather than as another muted tone
+//   from the page. Off-white on #B4531B measures 4.8:1, above the 4.5:1 AA floor.
+//   Carpet and repair pages keep the neutral dark/green treatment, which
+//   already matches their own palettes.
 //
 //   2. ATTENTION. Gentle motion that draws the eye to the two actions that
 //      matter — uploading a photo and booking a visit. The drop zone breathes
@@ -64,12 +67,12 @@
     '#ocb-toast .ocb-x{margin-left:auto;flex:0 0 auto;opacity:.55;font-size:19px;line-height:1}' +
     '.ocb-sentbar{margin:0 0 20px;background:#e7f0e3;border-left:3px solid #1f8a4c;color:#14361f;padding:14px 16px;font:600 15px/1.5 Archivo,Arial,Helvetica,sans-serif;display:flex;gap:11px;align-items:center;animation:ocbPop .4s ease both}' +
     '.ocb-sentbar svg{width:19px;height:19px;flex:0 0 auto;display:block}' +
-    '#ocb-toast.ocb-tile{background:#2E5D57;border-left-color:#C08B5C}' +
-    '#ocb-toast.ocb-tile .ocb-tick{background:#FBFAF7;color:#2E5D57}' +
-    '#ocb-toast.ocb-tile small{color:rgba(251,250,247,.78)}' +
-    '.ocb-sentbar.ocb-tile{background:#DCE7E3;border-left-color:#2E5D57;color:#16201E}' +
+    '#ocb-toast.ocb-tile{background:#B4531B;border-left-color:#F0C08A}' +
+    '#ocb-toast.ocb-tile .ocb-tick{background:#FBFAF7;color:#B4531B}' +
+    '#ocb-toast.ocb-tile small{color:rgba(251,250,247,.9)}' +
+    '.ocb-sentbar.ocb-tile{background:#F7E9DC;border-left-color:#B4531B;color:#5A3116}' +
     '.ocb-sentbar svg{color:#1f8a4c}' +
-    '.ocb-sentbar.ocb-tile svg{color:#2E5D57}' +
+    '.ocb-sentbar.ocb-tile svg{color:#B4531B}' +
     '.ocb-sr{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}' +
     '@media (max-width:640px){#ocb-toast{top:auto;bottom:16px;animation:none}}' +
     '@media (prefers-reduced-motion:reduce){.ocb-breathe,.ocb-breathe .ocpq-dropicon,.ocb-ring,.ocb-sheen::after,#ocb-toast,#ocb-toast .ocb-tick,.ocb-sentbar{animation:none!important}}';
@@ -98,8 +101,8 @@
     } catch (e) {}
   }
 
-  // Tile installation pages carry the .ti-page wrapper and their own palette:
-  // green #2E5D57, tan #C08B5C, paper #FBFAF7.
+  // Tile installation pages carry the .ti-page wrapper. Their notification
+  // runs in the warm accent family — burnt orange #B4531B — not the page green.
   function isTile() {
     try { return !!D.querySelector('.ti-page'); } catch (e) { return false; }
   }

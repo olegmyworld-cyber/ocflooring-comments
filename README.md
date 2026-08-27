@@ -786,13 +786,19 @@ cap of **15 registered site scripts**, and `add_site_script` returns
 `max_scripts_per_block`. The script self-gates — no `#ocpq` and no booking card
 means it does nothing — and every hook is try/catch-guarded and idempotent.
 
-**Tile-page colours (v1.1.0, same day).** Oleg tested it live and asked for the
-tile pages' notification to be recoloured to the green the site already uses.
-[`webflow-scripts/oc-ocpq-boost-1.1.0.js`](webflow-scripts/oc-ocpq-boost-1.1.0.js)
-detects the `.ti-page` wrapper and, on tile pages only, paints the toast in the
-tile palette — panel `#2E5D57` (the same green as the tile pages' buttons,
-links and accents), tan `#C08B5C` edge rule, off-white tick disc — and tints the
-in-card bar to `#DCE7E3` / `#2E5D57`. Carpet and repair pages keep the neutral
+**Tile-page colours (v1.2.1, same day).** Oleg tested it live and wanted the
+tile pages' notification in a visibly different colour. A first pass in the tile
+green `#2E5D57` still read as "more of the same", so the shipped version is
+**burnt orange**:
+[`webflow-scripts/oc-ocpq-boost-1.2.1.js`](webflow-scripts/oc-ocpq-boost-1.2.1.js)
+detects the `.ti-page` wrapper and on tile pages only paints the toast panel
+`#B4531B` with an `#F0C08A` edge rule and an off-white tick disc, and tints the
+in-card bar to `#F7E9DC` / `#B4531B`. Orange is the tile pages' warm accent
+family — the hero eyebrow and every gallery category label use rust `#8F5230`,
+the CTAs use tan `#C08B5C` — but `#B4531B` is deliberately brighter and more
+saturated than either, so it reads as an alert rather than as more page
+furniture. Measured contrast: off-white on the panel 4.80:1, bar text on the bar
+9.36:1, both above the 4.5:1 AA floor. Carpet and repair pages keep the neutral
 dark panel, which already matches their own palettes.
 
 The 91 pages did **not** need re-applying: `update_registered_script` on
