@@ -1,0 +1,21 @@
+Old path,Redirect to path
+/services/buff-and-recoat-hardwood-floors,/services-near-me/buff-and-recoat-hardwood-floors
+/services/commercial-flooring-installation,/services-near-me/commercial-flooring-installation
+/services/dustless-floor-sanding,/services-near-me/dustless-floor-sanding
+/services/eco-friendly-floor-refinishing,/services-near-me/eco-friendly-floor-refinishing
+/services/engineered-hardwood-flooring,/services-near-me/engineered-hardwood-flooring
+/services/floor-refinishing,/services-near-me/floor-refinishing
+/services/flooring-repair,/services-near-me/flooring-repair
+/services/flooring-store,/services-near-me/flooring-store
+/services/hardwood-floor-installation,/services-near-me/hardwood-floor-installation
+/services/hardwood-floor-maintenance,/services-near-me/hardwood-floor-maintenance
+/services/hardwood-floor-staining,/services-near-me/hardwood-floor-staining
+/services/insurance-restoration-services,/services-near-me/insurance-restoration-services
+/services/laminate-flooring-installation,/services-near-me/laminate-flooring-installation
+/services/our-products,/services-near-me/our-products
+/services/solid-hardwood-flooring,/services-near-me/solid-hardwood-flooring
+/services/stair-installation-and-remodeling,/services-near-me/stair-installation-and-remodeling
+/services/unfinished-hardwood-floors,/services-near-me/unfinished-hardwood-floors
+/services/vinyl-plank-flooring-and-laminate-flooring,/services-near-me/vinyl-plank-flooring-and-laminate-flooring
+/services/wood-wall-panels,/services-near-me/wood-wall-panels
+/services/(.*),/services-near-me/%1
