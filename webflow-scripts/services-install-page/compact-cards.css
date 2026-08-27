@@ -14,3 +14,14 @@
 .section_features .heading-wrapper .h2-heading,.section_features .heading-wrapper .h2-style{margin-bottom:.4rem!important}
 @media(min-width:768px) and (max-width:991px){.section_features .services-wrap{grid-template-columns:repeat(2,1fr)!important;gap:14px!important}}
 @media(max-width:767px){.section_features .services-wrap{display:flex!important;flex-direction:row!important;flex-wrap:nowrap!important;overflow-x:auto!important;overflow-y:hidden!important;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;gap:14px!important;max-width:none!important;padding-bottom:12px!important;scrollbar-width:none}.section_features .services-wrap::-webkit-scrollbar{display:none}.section_features .services-wrap>.services-item-wpapper{flex:0 0 86%!important;width:86%!important;max-width:86%!important;min-width:0!important;scroll-snap-align:center}.section_features .services-image{height:160px!important}}
+
+/* Follow-up (2026-08-27): "5 Steps" process slider (steps-content-wrapper.is-services)
+   mobile overlap fix. Root cause: the native combo class ".steps-content-wrapper
+   .is-services" sets display:flex;flex-direction:row;flex-wrap:wrap UNCONDITIONALLY
+   (no breakpoint override at all), so it beats the plain ".steps-content-wrapper"
+   class's own mobile stacking rule (which only applies below 480px) at every
+   normal phone width — 5 step cards wrap into a cramped multi-per-row layout with
+   no room to breathe, reading as "overlapping". Fix: below 767px, force it into the
+   same clean horizontal scroll-snap slider used for Flooring Types/Installation
+   Methods above; untouched above 767px (still the intentional wrapping row). */
+@media(max-width:767px){.steps-content-wrapper.is-services{display:flex!important;flex-direction:row!important;flex-wrap:nowrap!important;justify-content:flex-start!important;overflow-x:auto!important;overflow-y:hidden!important;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;gap:16px!important;padding-bottom:10px!important;scrollbar-width:none}.steps-content-wrapper.is-services::-webkit-scrollbar{display:none}.steps-content-wrapper.is-services .steps-inner-wrap{flex:0 0 86%!important;max-width:86%!important;width:86%!important;min-width:0!important;scroll-snap-align:center}}

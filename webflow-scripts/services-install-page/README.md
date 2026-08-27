@@ -46,3 +46,58 @@ ocRemoveCostCalc on both pages), Bellevue neighborhood blocks (city-specific).
   Installation Methods sections render as a swipeable horizontal scroll-snap
   slider (cards 86% wide with next-card peek, hidden scrollbar), matching the
   Bellevue page's mobile slider pattern; 768–991px stays a 2-across grid.
+
+## Follow-up (2026-08-27, same session): "5 Steps" slider overlap + duplicate cities section
+
+Request (screenshots): the "1. Book a Free Estimate / 2. In-Home Visit / …"
+process-steps slider looked cramped/overlapping on mobile; asked to fix it,
+and apply the same fix to the Flooring Types and Installation Methods
+sliders too. Also: remove the "Hardwood Installation Across King &
+Snohomish County" cities-pill section, since a separate cities section
+already exists.
+
+**Steps-slider root cause (confirmed via the Style API, not guessed):** the
+steps section uses a native GLOBAL combo class,
+`.steps-content-wrapper.is-services`, which sets
+`display:flex;flex-direction:row;flex-wrap:wrap` **unconditionally — no
+breakpoint override at all**. The plain `.steps-content-wrapper` class does
+have a clean single-column mobile rule, but only below 480px, and the combo
+class (higher specificity, no media query) wins at every normal phone width
+in between — so 5 step cards wrap into a cramped multi-per-row layout with
+no breathing room. Fixed by extending `compact-cards.css` (same page embed
+as the Flooring Types/Installation Methods fix) with a `@media(max-width:
+767px)` rule that turns `.steps-content-wrapper.is-services` into the same
+clean horizontal scroll-snap slider pattern (86%-width cards, hidden
+scrollbar) — scoped to this page only via the embed, not a global Style API
+edit, since `.is-services` could plausibly be reused elsewhere and a page
+embed carries zero risk of touching it. Desktop/tablet (>767px) keep the
+original wrapping-row layout, unchanged.
+
+**Flooring Types / Installation Methods — verified, not actually broken:**
+reproduced both sections in headless Chromium using the *exact* native
+Style-API values plus the *exact* live `compact-cards.css`. At 1280/800/390px
+neither section shows any card-to-card overlap and the page never overflows
+horizontally — the existing mobile-slider fix from 2026-08-25 is working
+correctly. No change made to these two sections.
+
+**Cities-list section removed:** "Hardwood Installation Across King &
+Snohomish County" isn't native Designer content and isn't in any of this
+page's 10 HtmlEmbeds — it also doesn't match the real "Section // Areas"
+component (which has different content: "Proudly Serving Homeowners Across
+King & Snohomish Counties" broken out per service category). It's almost
+certainly rendered by `ocServicesLayout`, a page-scoped **hosted** script
+whose source this environment can't read (network egress to
+`cdn.prod.website-files.com` is blocked, same constraint hit earlier this
+session). Rather than guess at its internals, added a new small registered
+script, `ocRmAreasPage`
+([`ocrmareaspage-1.0.0.js`](ocrmareaspage-1.0.0.js), 643 chars), applied to
+**this page's footer only**: it finds the rendered heading containing
+"Installation Across", climbs to the smallest ancestor whose text also
+contains "Snohomish" (i.e. the full two-county section, not just the
+heading), and removes it. Verified in headless Chromium against a mock with
+decoy sections (including one that mentions "King County"/"Snohomish" in an
+unrelated sentence, to rule out false positives) — the target section is
+removed cleanly and every decoy is left untouched, at every viewport.
+
+Published live to `nwocflooring.com`, `www.nwocflooring.com`, and the
+Webflow subdomain.
