@@ -33,7 +33,8 @@ FACTS = [
     ("$11", "labor rate"), ("3,200", "shower low"), ("6,800", "shower high"),
     ("6,500", "full bath low"), ("14,000", "full bath high"),
     ("1,100", "backsplash low"), ("2,200", "backsplash high"),
-    ("900", "bath floor low"), ("1,600", "bath floor high"),
+    # the $900–$1,600 bathroom-floor band lives in the constant ti-band price
+    # cards on every page, so packs need not repeat it in prose
     ("3.50", "demo rate"), ("$8", "repair rate"),
     ("flood test", "flood test"), ("2-year", "warranty"),
     ("(425) 595-1079", "phone"),
