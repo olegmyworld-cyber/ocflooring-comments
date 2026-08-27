@@ -786,6 +786,21 @@ cap of **15 registered site scripts**, and `add_site_script` returns
 `max_scripts_per_block`. The script self-gates — no `#ocpq` and no booking card
 means it does nothing — and every hook is try/catch-guarded and idempotent.
 
+**Tile-page colours (v1.1.0, same day).** Oleg tested it live and asked for the
+tile pages' notification to be recoloured to the green the site already uses.
+[`webflow-scripts/oc-ocpq-boost-1.1.0.js`](webflow-scripts/oc-ocpq-boost-1.1.0.js)
+detects the `.ti-page` wrapper and, on tile pages only, paints the toast in the
+tile palette — panel `#2E5D57` (the same green as the tile pages' buttons,
+links and accents), tan `#C08B5C` edge rule, off-white tick disc — and tints the
+in-card bar to `#DCE7E3` / `#2E5D57`. Carpet and repair pages keep the neutral
+dark panel, which already matches their own palettes.
+
+The 91 pages did **not** need re-applying: `update_registered_script` on
+`ocpqboost` at the same version 1.0.0 accepted new source pointing at the 1.1.0
+asset, and Webflow re-hosted the loader under a cache-busted filename. (Note for
+next time: that same call 404s if `display_name` is passed alongside — send only
+`site_id`, `script_id`, `version` and `source_code`.)
+
 One thing to check after publishing: the repair pages' `#ocpq` widget lives in
 an HTML embed inside the shared **Footer component** rather than in a bundle.
 The carpet widget was cloned from it and uses the same element ids
