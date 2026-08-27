@@ -1,0 +1,9 @@
+2026-08-27T02:35:14Z start newcastle pageId=6a8f6909e71b7aa203888acd (note: folder is /city-of-new-castle)
+2026-08-27T02:36:40Z step1 prose batch 1/2 OK (29/29 set_text)
+2026-08-27T02:38:10Z step1 prose batch 2/2 OK (28/28 set_text) - 57 prose roles complete
+2026-08-27T02:39:01Z step2+3 chips 16/16 + carpetLink text/url OK (url /city-of-new-castle/carpet-installation-in-newcastle-wa per tile-pageids.json; no removals needed)
+2026-08-27T02:39:27Z step4 image alts OK (7/7 altText applied)
+2026-08-27T02:39:50Z step5 SEO/OG OK (seo title+desc, og title+desc, copied flags false; title/slug/folder untouched)
+2026-08-27T02:40:54Z step6 JSON-LD OK (9741 chars, graph echoed back: business/service/breadcrumb/FAQ)
+2026-08-27T02:41:16Z step7 verify OK (heroLead, faqA1, footerTag textContent match pack exactly)
+2026-08-27T02:41:16Z newcastle DONE (7/7 steps, no retries)

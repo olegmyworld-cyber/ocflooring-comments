@@ -1,0 +1,9 @@
+2026-08-27T02:41:16Z start north-bend pageId=6a8f690a09a362d7faa5a0dd
+2026-08-27T02:42:41Z step1 prose batch 1/2 OK (29/29 set_text)
+2026-08-27T02:44:06Z step1 prose batch 2/2 OK (28/28 set_text) - 57 prose roles complete
+2026-08-27T02:44:56Z step2+3 chips 16/16 + carpetLink text/url OK (no removals needed)
+2026-08-27T02:45:29Z step4 image alts OK (7/7 altText applied)
+2026-08-27T02:45:51Z step5 SEO/OG OK (seo title+desc, og title+desc, copied flags false; title/slug/folder untouched)
+2026-08-27T02:46:53Z step6 JSON-LD OK (9758 chars, graph echoed back: business/service/breadcrumb/FAQ)
+2026-08-27T02:47:16Z step7 verify OK (heroLead, faqA1, footerTag textContent match pack exactly)
+2026-08-27T02:47:16Z north-bend DONE (7/7 steps, no retries)

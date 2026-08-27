@@ -1,0 +1,11 @@
+2026-08-27T02:16:56Z start whidbey-island pageId=6a8f694041301eaefe08200d
+2026-08-27T02:20:13Z step1 prose 1/3 OK (29 set_text; r20-r28 hit 429, retried after 45s, all OK)
+2026-08-27T02:21:19Z step1 prose 2a/3 OK (14 set_text, r29-r42)
+2026-08-27T02:22:26Z step1 prose complete: 57/57 set_text OK
+2026-08-27T02:23:27Z step2 chips OK (16/16 set_text, no removals needed)
+2026-08-27T02:23:27Z step3 carpetLink OK (text + url /city-of-whidbey-island/carpet-installation-in-whidbey-island-wa)
+2026-08-27T02:24:08Z step4 image alts OK (7/7 altText applied)
+2026-08-27T02:25:09Z step5 SEO/OG OK (seoTitle/seoDesc/ogTitle/ogDesc set, copied flags false)
+2026-08-27T02:26:16Z step6 JSON-LD OK (graph written via bulk_update_pages_schema_markup)
+2026-08-27T02:27:17Z step7 verify OK (heroLead, faqA1, footerTag match pack exactly)
+2026-08-27T02:27:17Z whidbey-island DONE

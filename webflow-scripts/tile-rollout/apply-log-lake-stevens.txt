@@ -1,0 +1,9 @@
+2026-08-27T02:29:13Z start lake-stevens pageId=6a8f68d311b1cbc670f1c726
+2026-08-27T02:30:43Z step1 prose batch 1/2 OK (29/29 set_text)
+2026-08-27T02:32:11Z step1 prose batch 2/2 OK (28/28 set_text) - 57 prose roles complete
+2026-08-27T02:32:59Z step2+3 chips 16/16 + carpetLink text/url OK (no removals needed)
+2026-08-27T02:33:25Z step4 image alts OK (7/7 altText applied)
+2026-08-27T02:33:47Z step5 SEO/OG OK (seo title+desc, og title+desc, copied flags false; title/slug/folder untouched)
+2026-08-27T02:34:52Z step6 JSON-LD OK (10256 chars, graph echoed back: business/service/breadcrumb/FAQ)
+2026-08-27T02:35:14Z step7 verify OK (heroLead, faqA1, footerTag textContent match pack exactly)
+2026-08-27T02:35:14Z lake-stevens DONE (7/7 steps, no retries)

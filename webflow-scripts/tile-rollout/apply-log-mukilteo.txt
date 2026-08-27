@@ -1,3 +1,15 @@
 2026-08-27T02:10:21Z step1 prose batch 1/4 (14 set_text) OK
 2026-08-27T02:11:18Z step1 prose batch 2/4 (14 set_text) OK
 2026-08-27T02:12:21Z step1 prose batch 3/4 (14 set_text) OK
+2026-08-27T02:43:43Z RESUME: full re-apply from step 1 (previous run interrupted mid-write) pageId=6a8f6906ff0a12f1d0634c20
+2026-08-27T02:44:44Z step1 prose 1/4 OK (15 set_text, r0-r14)
+2026-08-27T02:45:44Z step1 prose 2/4 OK (14 set_text, r15-r28)
+2026-08-27T02:46:49Z step1 prose 3/4 OK (14 set_text, r29-r42)
+2026-08-27T02:47:49Z step1 prose complete: 57/57 set_text OK across 4 batches
+2026-08-27T02:48:54Z step2 chips OK (16/16 set_text, no removals needed)
+2026-08-27T02:48:54Z step3 carpetLink OK (text + url /city-of-mukilteo/carpet-installation-in-mukilteo-wa)
+2026-08-27T02:49:36Z step4 image alts OK (7/7 altText applied)
+2026-08-27T02:50:35Z step5 SEO/OG OK (seoTitle/seoDesc/ogTitle/ogDesc set, copied flags false)
+2026-08-27T02:51:43Z step6 JSON-LD OK (graph written via bulk_update_pages_schema_markup)
+2026-08-27T02:52:12Z step7 verify OK (heroLead, faqA1, footerTag match pack exactly)
+2026-08-27T02:52:12Z mukilteo DONE (full re-apply)

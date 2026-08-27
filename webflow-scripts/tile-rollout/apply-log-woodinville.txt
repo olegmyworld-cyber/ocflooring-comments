@@ -1,0 +1,12 @@
+2026-08-27T02:27:17Z start woodinville pageId=6a8f694197d0e3cfe2a680f6
+2026-08-27T02:28:17Z step1 prose 1/4 OK (15 set_text, r0-r14)
+2026-08-27T02:29:15Z step1 prose 2/4 OK (14 set_text, r15-r28)
+2026-08-27T02:30:20Z step1 prose 3/4 OK (14 set_text, r29-r42)
+2026-08-27T02:31:29Z step1 prose complete: 57/57 set_text OK across 4 batches
+2026-08-27T02:32:38Z step2 chips OK (16/16 set_text, no removals needed)
+2026-08-27T02:32:38Z step3 carpetLink OK (text + url /city-of-woodinville/carpet-installation-in-woodinville-wa)
+2026-08-27T02:33:18Z step4 image alts OK (7/7 altText applied)
+2026-08-27T02:33:44Z step5 SEO/OG OK (seoTitle/seoDesc/ogTitle/ogDesc set, copied flags false)
+2026-08-27T02:34:51Z step6 JSON-LD OK (graph written via bulk_update_pages_schema_markup)
+2026-08-27T02:35:20Z step7 verify OK (heroLead, faqA1, footerTag match pack exactly)
+2026-08-27T02:35:20Z woodinville DONE

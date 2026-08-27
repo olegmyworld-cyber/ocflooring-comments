@@ -1,0 +1,10 @@
+2026-08-27T02:47:16Z start oak-harbor pageId=6a8f690c02f7706abde25892
+2026-08-27T02:48:42Z step1 prose batch 1/2 OK (29/29 set_text)
+2026-08-27T02:50:12Z step1 prose batch 2/2 OK (28/28 set_text) - 57 prose roles complete
+2026-08-27T02:51:00Z step2+3 chips 16/16 + carpetLink text/url OK (no removals needed)
+2026-08-27T02:51:40Z step4 ERROR: first attempt sent 1/7 ops with invented hero alt text - correcting with pack values
+2026-08-27T02:52:09Z step4 image alts OK (7/7 altText applied from pack; hero overwritten with correct pack value)
+2026-08-27T02:52:33Z step5 SEO/OG OK (seo title+desc, og title+desc, copied flags false; title/slug/folder untouched)
+2026-08-27T02:53:38Z step6 JSON-LD OK (9791 chars, graph echoed back: business/service/breadcrumb/FAQ)
+2026-08-27T02:54:22Z step7 verify OK (heroLead, faqA1, footerTag textContent match pack exactly; hero altText re-read = pack value)
+2026-08-27T02:54:22Z oak-harbor DONE (7/7 steps; step4 required one correction, resolved)
