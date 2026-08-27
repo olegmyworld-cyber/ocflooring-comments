@@ -169,3 +169,65 @@ are both correctly skipped.
 
 Published live to `nwocflooring.com`, `www.nwocflooring.com`, and the
 Webflow subdomain.
+
+## Follow-up (2026-08-27): why three rounds of page fixes did nothing — wrong page, wrong selectors
+
+User: "still the same problem, you just did icons, and nothing what i uploaded
+in screenshots." The icons *did* land — and that was the decisive clue: the
+icons ship in an HtmlEmbed **inside the Navbar component**, whereas the page
+fixes shipped in an HtmlEmbed on the **page body** of
+`/services/hardwood-floor-installation`. Two separate mistakes were stacked:
+
+**1. Wrong page.** The cities section is built by the site-wide registered
+script `ocAreaLinksInjector`, which begins:
+`if(!/-(installation|refinishing)-in-[a-z-]+-wa\/?$/.test(location.pathname))return;`
+— it runs **only on city pages**, never on `/services/hardwood-floor-installation`.
+Re-reading the user's screenshot confirms it: **"Sammamish" is highlighted in
+red** in the city-pill list, i.e. the screenshots were taken on the Sammamish
+*city* page. An earlier text search of the services page for "Hardwood
+Installation Across" had already returned zero matches — that result was
+correctly observed but wrongly explained away at the time.
+
+**2. Wrong selectors.** Those city-page sections are rendered by external
+hosted scripts (unreadable from this environment — egress to
+`cdn.prod.website-files.com` and `nwocflooring.com` is blocked by org policy,
+403 on CONNECT), so they do **not** carry the Designer class names
+(`.services-wrap`, `.steps-content-wrapper.is-services`) every previous fix
+targeted. The pagination dots visible in the screenshots are the giveaway that
+a script owns that markup.
+
+**Fix:** rewritten to be **text/structure-based** — the same approach already
+proven necessary on the carpet pages earlier in this session — and moved into
+the Navbar component embed, the one delivery mechanism with *observed* proof
+of execution (the icons). Source of record:
+[`install-pages-fix.js`](install-pages-fix.js). It is path-guarded to
+`hardwood-floor-installation` pages, so it covers the services page *and* all
+city installation pages while leaving every other page untouched.
+
+It locates each section by its visible text ("Flooring Types We Install",
+"Installation Methods", "Book a Free Estimate"), then finds the real card row
+beneath it by structure (the descendant with the most children that carry text
+or an image — the same heuristic the site's own `OCReviewsSlider` footer code
+uses). Each `run()` step is wrapped in its own `try/catch`, so one failing
+section can no longer block the others — a latent flaw in the previous version.
+
+Also fixed from the same screenshots: the **overlapping CTA buttons** in the
+red "Get Your Firm Written Quote — Free" box (the phone and "Book My Free
+Estimate" buttons were absolutely positioned on top of each other on mobile);
+they now wrap and stack.
+
+**Verified in headless Chromium** against a mock reproducing the *script-built*
+markup — deliberately using none of the class names previously targeted, plus
+pagination dots and a 22-city list injected 2.5s late: all three sections
+become sliders with cards that fit their track (335px in a 390px viewport),
+the dots container is left alone, the CTA buttons no longer overlap, the whole
+cities block is removed, a decoy paragraph containing "King County"/"Snohomish"
+survives, there is no horizontal page overflow, and every inline override is
+cleared on resize to desktop. A second page whose URL does not match the guard
+was confirmed completely untouched.
+
+Note: an assertion-only check initially reported the cities section as
+"removed" while a screenshot showed the city list still on screen — only the
+heading had been deleted, because the climb stopped as soon as an ancestor
+contained "Snohomish" and the heading itself reads "…King & Snohomish County".
+The climb now walks up to the container actually holding the city links.
