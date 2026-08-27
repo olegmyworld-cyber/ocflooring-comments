@@ -1,0 +1,6 @@
+2026-08-27T03:53:27Z step1 bothell OK domId cleared on 5474fc9a-654f-7679-2121-368c4da8d88d
+2026-08-27T03:53:46Z step2 bothell OK booktop section=112156ce-f45c-63d6-a26b-104f4c5947e8 btnrow=caadf538-8ebd-06a2-a800-ab24231703db
+2026-08-27T03:54:03Z step3 bothell OK ti-booktop-in=112156ce-f45c-63d6-a26b-104f4c5947e7 (1 match)
+2026-08-27T03:54:28Z step4 bothell OK ti-cal-card moved (append) into ti-booktop-in
+2026-08-27T03:54:47Z step5 bothell VERIFY OK id=book matches=1; ti-cal-mount ancestors=[Body, ti-page, ti-booktop, ti-booktop-in, ti-cal-card] includes ti-booktop
+2026-08-27T03:54:47Z bothell DONE

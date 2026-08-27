@@ -1,0 +1,6 @@
+2026-08-27T04:18:36Z step1 lake-stevens OK domId cleared on 5474fc9a-654f-7679-2121-368c4da8d88d
+2026-08-27T04:19:36Z step2 lake-stevens OK booktop section=e071c096-9308-104d-2a4a-80d4d966e3ba btnrow=c1e25ca5-43ab-96d9-ea37-44a919ab229d
+2026-08-27T04:20:36Z step3 lake-stevens OK ti-booktop-in=e071c096-9308-104d-2a4a-80d4d966e3b9 (1 match)
+2026-08-27T04:21:35Z step4 lake-stevens OK ti-cal-card moved (append) into ti-booktop-in
+2026-08-27T04:22:39Z step5 lake-stevens VERIFY OK id=book matches=1; ti-cal-mount ancestors=[Body, ti-page, ti-booktop, ti-booktop-in, ti-cal-card] includes ti-booktop
+2026-08-27T04:22:39Z lake-stevens DONE

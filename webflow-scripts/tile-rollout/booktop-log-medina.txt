@@ -1,0 +1,6 @@
+step1 clear domId on CTA heading (5474fc9a-654f-7679-2121-368c4da8d88d) - OK
+step2 built ti-booktop section (67ee78df-ea52-8a7a-30ba-6ca8e52ddcaf) + ti-cta-btnrow (6d5ceb05-0a02-cf2c-1588-8cea771d506e) - OK
+step3 found .ti-booktop-in = 67ee78df-ea52-8a7a-30ba-6ca8e52ddcae (1 match) - OK
+step4 moved .ti-cal-card (5474fc9a-654f-7679-2121-368c4da8d896) into .ti-booktop-in - OK
+step5 verify attempt 1 - 429 rate limit, waiting 45s to retry
+step5 verify (retry after 45s): id=book matches=1; ti-cal-mount ancestors include ti-booktop (ti-page > ti-booktop > ti-booktop-in > ti-cal-card) - OK - DONE

@@ -1,0 +1,5 @@
+step1 shoreline: cleared domId on CTA heading 5474fc9a-654f-7679-2121-368c4da8d88d - success
+step2 shoreline: inserted ti-booktop section (06ffe12d-7b9e-9b44-8b73-80c9429630a2) after trust bar + ti-cta-btnrow (6ac8cf52-fe69-ba6a-b969-c9ed5c381138) after CTA lead - success
+step3 shoreline: found .ti-booktop-in = 06ffe12d-7b9e-9b44-8b73-80c9429630a1 (1 match) - success
+step4 shoreline: moved .ti-cal-card 5474fc9a-654f-7679-2121-368c4da8d896 into ti-booktop-in (append) - success
+step5 shoreline: VERIFIED id=book matches=1 (ti-anchor 06ffe12d-...309c); ti-cal-mount ancestors include ti-booktop + ti-booktop-in + ti-cal-card - success (two 429s; succeeded after 45s then 90s backoff)

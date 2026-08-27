@@ -1,0 +1,8 @@
+2026-08-27T04:07:32Z step1 issaquah OK domId cleared on 5474fc9a-654f-7679-2121-368c4da8d88d
+2026-08-27T04:08:33Z step2 issaquah OK booktop section=fd05bf76-626d-c2aa-0027-db77f582452f btnrow=8ca7fe65-c9af-7001-690d-870d74ccb485
+2026-08-27T04:08:54Z step3 issaquah OK ti-booktop-in=fd05bf76-626d-c2aa-0027-db77f582452e (1 match)
+2026-08-27T04:09:32Z step4 issaquah OK ti-cal-card moved (append) into ti-booktop-in
+2026-08-27T04:09:52Z step5 issaquah 429 on verify query; waiting 45s to retry identical call
+2026-08-27T04:10:52Z step5 issaquah 429 again on retry; verification DEFERRED to end of run (steps 1-4 all applied OK)
+2026-08-27T04:23:42Z step5 issaquah VERIFY OK (deferred retry) id=book matches=1; ti-cal-mount ancestors=[Body, ti-page, ti-booktop, ti-booktop-in, ti-cal-card] includes ti-booktop; exactly 1 Section.ti-booktop (no duplicate)
+2026-08-27T04:23:42Z issaquah DONE

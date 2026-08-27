@@ -1,0 +1,6 @@
+2026-08-27T03:51:27Z step1 arlington OK domId cleared on 5474fc9a-654f-7679-2121-368c4da8d88d
+2026-08-27T03:51:48Z step2 arlington OK booktop section=077f8277-ce7e-89df-4328-5d28c947c576 btnrow=dd704ebf-caf3-7143-3806-a3f0bb4318a1
+2026-08-27T03:52:05Z step3 arlington OK ti-booktop-in=077f8277-ce7e-89df-4328-5d28c947c575 (1 match)
+2026-08-27T03:52:26Z step4 arlington OK ti-cal-card moved (append) into ti-booktop-in
+2026-08-27T03:52:50Z step5 arlington VERIFY OK id=book matches=1; ti-cal-mount ancestors=[Body, ti-page, ti-booktop, ti-booktop-in, ti-cal-card] includes ti-booktop
+2026-08-27T03:52:50Z arlington DONE

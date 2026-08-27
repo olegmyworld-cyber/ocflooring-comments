@@ -1,0 +1,5 @@
+step1 woodinville: cleared domId on CTA heading 5474fc9a-654f-7679-2121-368c4da8d88d - success
+step2 woodinville: inserted ti-booktop section (58955e03-5a37-104c-eda1-2b2964371bd3) after trust bar + ti-cta-btnrow (aa9e6ac6-a5a3-004a-effb-bdf67f83eff1) after CTA lead - success
+step3 woodinville: found .ti-booktop-in = 58955e03-5a37-104c-eda1-2b2964371bd2 (1 match) - success
+step4 woodinville: moved .ti-cal-card 5474fc9a-654f-7679-2121-368c4da8d896 into ti-booktop-in (append) - success
+step5 woodinville: VERIFIED id=book matches=1 (ti-anchor 58955e03-...1bcd); ti-cal-mount ancestors include ti-booktop + ti-booktop-in + ti-cal-card - success

@@ -1,0 +1,5 @@
+step1 seattle: cleared domId on CTA heading 5474fc9a-654f-7679-2121-368c4da8d88d - success
+step2 seattle: inserted ti-booktop section (a7bec3e3-bd28-9dfe-4d1d-2b44dc885b53) after trust bar + ti-cta-btnrow (c83d5861-e1c4-e84f-99f5-2869b88a4dc7) after CTA lead - success
+step3 seattle: found .ti-booktop-in = a7bec3e3-bd28-9dfe-4d1d-2b44dc885b52 (1 match) - success
+step4 seattle: moved .ti-cal-card 5474fc9a-654f-7679-2121-368c4da8d896 into ti-booktop-in (append) - success
+step5 seattle: VERIFIED id=book matches=1 (ti-anchor a7bec3e3-...5b4d); ti-cal-mount ancestors include ti-booktop + ti-booktop-in + ti-cal-card - success (one 429 retried after 45s)

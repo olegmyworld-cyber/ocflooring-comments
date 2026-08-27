@@ -1,0 +1,5 @@
+step1 snoqualmie: cleared domId on CTA heading 5474fc9a-654f-7679-2121-368c4da8d88d - success
+step2 snoqualmie: inserted ti-booktop section (d18d8d9e-4420-1003-daa7-b0f472001805) after trust bar + ti-cta-btnrow (9998421d-5c05-be4a-900f-1ba2aa5c7d1e) after CTA lead - success
+step3 snoqualmie: found .ti-booktop-in = d18d8d9e-4420-1003-daa7-b0f472001804 (1 match) - success
+step4 snoqualmie: moved .ti-cal-card 5474fc9a-654f-7679-2121-368c4da8d896 into ti-booktop-in (append) - success
+step5 snoqualmie: VERIFIED id=book matches=1 (ti-anchor d18d8d9e-...17ff); ti-cal-mount ancestors include ti-booktop + ti-booktop-in + ti-cal-card - success

@@ -1,0 +1,6 @@
+2026-08-27T03:58:31Z step1 duvall OK domId cleared on 5474fc9a-654f-7679-2121-368c4da8d88d
+2026-08-27T03:58:52Z step2 duvall OK booktop section=974a1863-1944-6d02-0b3f-02842bcfcc54 btnrow=39411dcd-c07d-e857-ff60-c28d6b6395f1
+2026-08-27T03:59:13Z step3 duvall OK ti-booktop-in=974a1863-1944-6d02-0b3f-02842bcfcc53 (1 match)
+2026-08-27T03:59:32Z step4 duvall OK ti-cal-card moved (append) into ti-booktop-in
+2026-08-27T03:59:54Z step5 duvall VERIFY OK id=book matches=1; ti-cal-mount ancestors=[Body, ti-page, ti-booktop, ti-booktop-in, ti-cal-card] includes ti-booktop
+2026-08-27T03:59:54Z duvall DONE

@@ -700,3 +700,105 @@ phones. See [`webflow-scripts/bonamobilefix-1.0.0.js`](webflow-scripts/bonamobil
 
 Published live to `nwocflooring.com`, `www.nwocflooring.com`, and the Webflow
 subdomain.
+
+### Tile gallery page + photo-sent confirmation and attention motion (2026-08-27)
+
+Three requests from Oleg in one round.
+
+#### 1. A dedicated tile gallery, linked from every tile page
+
+New page **`/tile-gallery`** (page id `6a8fb630bf19a48fafa6a9e5`), built from
+the `Tile Gallery.dc.html` design in
+`Carpet_mobile_showroom_service_design.zip`: breadcrumb, hero with three stat
+cards (1,000+ floors since 2013 · 4.7★ / 119 Google reviews · 21 projects
+shown), a sticky category filter bar, a 21-photo grid with per-project category
+/ materials / title / body, a dark CTA and a footer. The design's dev-only
+"Adding your photos" bar was omitted, per its own note to turn it off before
+publishing.
+
+- **21 photos uploaded** as Webflow assets and bound to Image elements (the
+  WHTML builder reported "linked to existing assets in the library" for every
+  one, so they are real library assets, not hot-linked URLs). Slug → asset id in
+  [`webflow-scripts/tile-gallery/gallery-asset-ids.json`](webflow-scripts/tile-gallery/gallery-asset-ids.json).
+- **Shared Navbar and Global Styles components** inserted, with the Navbar's
+  variant and label props set to the same values the tile city pages use.
+- **SEO/OG + JSON-LD**: CollectionPage (with an `ImageGallery` mainEntity), the
+  `#business` node, and a BreadcrumbList.
+- **Script** `tilegalleryfontsfilter` 1.0.1 (source of record
+  [`webflow-scripts/tilegalleryfontsfilter-1.0.1.js`](webflow-scripts/tilegalleryfontsfilter-1.0.1.js))
+  loads the fonts, sets the canonical, clears the fixed navbar and runs the
+  category filter.
+- **`/our-work` does not exist on this site** — not a page, not a folder, across
+  all 221 page entries. That means the tile pages' "Full gallery →" link *and*
+  their footer "Gallery" link have both been dead since the rollout. Both are
+  now repointed to `/tile-gallery` **on all 30 tile pages**. Each link also
+  carried a literal `href="/our-work"` **attribute**, which silently overrides
+  `set_link` (the same trap documented in the v1.6.0 round) — so every page
+  needed `remove_attribute` *and* `set_link`. Verified: zero elements matching
+  `href~=our-work` remain on the sampled pages.
+- The design's canonical `/our-work/tile-gallery` was therefore not viable; the
+  page sits at the root instead, which also keeps it clear of the per-city
+  folder wildcard 301s.
+
+#### 2. "Your pictures were sent" confirmation on the photo uploader
+
+Per Oleg: *"for hardwood floor repair, carpet installation, and tile
+installation pages where we have the option to upload pictures, after uploading
+and being sent, i need some quick confirmation for the client that the pictures
+were sent."*
+
+The `#ocpq` widget already swapped in a success panel, but on a long page that
+swap is easy to miss. New layer
+[`webflow-scripts/oc-ocpq-boost-1.0.0.js`](webflow-scripts/oc-ocpq-boost-1.0.0.js)
+watches `#ocpq-done` for the moment it stops being hidden and then:
+
+- shows a **fixed toast** at the top of the viewport (bottom on phones) — green
+  tick, "Photos sent, `<first name>`." and "All N photos are on their way to our
+  estimator." Dismissed by click, Escape, or automatically after 10 s;
+- pins a **green "sent" bar** above the success copy inside the card, so the
+  confirmation is still there after the toast goes;
+- announces the same thing through an `aria-live` region for screen readers.
+
+The photo count comes from the rendered thumbnails and the first name is parsed
+out of the widget's own success headline, so nothing about how the submission is
+built or sent was touched.
+
+#### 3. Attention motion on "upload a photo" and "book a visit"
+
+Per Oleg: *"upload a picture or schedule an appointment, do some easy animation
+to draw attention to the visitors."* Same script, all of it gated on
+`prefers-reduced-motion`:
+
+- the **drop zone** breathes (a soft expanding ring) and its upload icon floats,
+  starting when it scrolls into view and stopping the moment the visitor adds a
+  photo or opens the file picker;
+- the **send button** gets a slow sheen sweep, but only while the form is
+  revealed and the button is enabled;
+- the **booking card** (`.ti-cal-card` on tile, `.ci-book-cal` on carpet, any
+  `.calendly-inline-widget` parent elsewhere) pulses a ring three times the
+  first time it scrolls into view.
+
+**Applied to 91 pages** — 30 tile, 30 carpet, 30 hardwood floor repair plus
+`/services/flooring-repair` (list in
+[`webflow-scripts/tile-gallery/ocpqboost-target-pages.json`](webflow-scripts/tile-gallery/ocpqboost-target-pages.json)).
+It had to go on per page rather than site-wide: the site is at Webflow's hard
+cap of **15 registered site scripts**, and `add_site_script` returns
+`max_scripts_per_block`. The script self-gates — no `#ocpq` and no booking card
+means it does nothing — and every hook is try/catch-guarded and idempotent.
+
+One thing to check after publishing: the repair pages' `#ocpq` widget lives in
+an HTML embed inside the shared **Footer component** rather than in a bundle.
+The carpet widget was cloned from it and uses the same element ids
+(`#ocpq-done`, `#ocpq-donehead`, `#ocpq-thumbs`), so the confirmation should
+appear there too — but that is inference from the v1.6.0 notes, not something
+verifiable through the API, and the live site is not reachable from here. If the
+toast does not appear on a repair page, the ids differ and the selector needs
+widening.
+
+#### Scheduler moved to the top of all 29 remaining tile pages
+
+The `ti-booktop` rollout from the previous section finished in this round.
+All 29 pages verified: `#ti-cal-mount`'s ancestor chain is
+`Body → .ti-page → section.ti-booktop → .ti-booktop-in → .ti-cal-card` on every
+one, and each page has exactly one `id="book"` anchor. Logs per city in
+`webflow-scripts/tile-rollout/booktop-log-<slug>.txt`.

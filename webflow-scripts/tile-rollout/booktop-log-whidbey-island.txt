@@ -1,0 +1,5 @@
+step1 whidbey-island: cleared domId on CTA heading 5474fc9a-654f-7679-2121-368c4da8d88d - success
+step2 whidbey-island: inserted ti-booktop section (2b936d9b-1fa0-3e99-d824-471c5a387af5) after trust bar + ti-cta-btnrow (5c8bc573-9431-c6ba-f57a-482e22074589) after CTA lead - success
+step3 whidbey-island: found .ti-booktop-in = 2b936d9b-1fa0-3e99-d824-471c5a387af4 (1 match) - success
+step4 whidbey-island: moved .ti-cal-card 5474fc9a-654f-7679-2121-368c4da8d896 into ti-booktop-in (append) - success
+step5 whidbey-island: VERIFIED id=book matches=1 (ti-anchor 2b936d9b-...7aef); ti-cal-mount ancestors include ti-booktop + ti-booktop-in + ti-cal-card - success

@@ -1,0 +1,6 @@
+2026-08-27T04:03:35Z step1 everett OK domId cleared on 5474fc9a-654f-7679-2121-368c4da8d88d
+2026-08-27T04:04:33Z step2 everett OK booktop section=0772c43d-bcc4-d5ac-36c1-bc412fc66dba btnrow=dba76ab6-a0d1-6a6c-4a5a-0af165258014
+2026-08-27T04:04:52Z step3 everett OK ti-booktop-in=0772c43d-bcc4-d5ac-36c1-bc412fc66db9 (1 match)
+2026-08-27T04:05:33Z step4 everett OK ti-cal-card moved (append) into ti-booktop-in
+2026-08-27T04:06:35Z step5 everett VERIFY OK id=book matches=1; ti-cal-mount ancestors=[Body, ti-page, ti-booktop, ti-booktop-in, ti-cal-card] includes ti-booktop
+2026-08-27T04:06:35Z everett DONE

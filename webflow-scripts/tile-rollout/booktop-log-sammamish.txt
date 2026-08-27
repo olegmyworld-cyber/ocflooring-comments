@@ -1,0 +1,5 @@
+step1 sammamish: cleared domId on CTA heading 5474fc9a-654f-7679-2121-368c4da8d88d - success
+step2 sammamish: inserted ti-booktop section (7c5c7a94-630d-5570-f65e-78d6fbdc257d) after trust bar + ti-cta-btnrow (d7c4d2d4-6714-eead-a50e-d329a16bfecd) after CTA lead - success
+step3 sammamish: found .ti-booktop-in = 7c5c7a94-630d-5570-f65e-78d6fbdc257c (1 match) - success
+step4 sammamish: moved .ti-cal-card 5474fc9a-654f-7679-2121-368c4da8d896 into ti-booktop-in (append) - success
+step5 sammamish: VERIFIED id=book matches=1 (ti-anchor 7c5c7a94-...2577); ti-cal-mount ancestors include ti-booktop + ti-booktop-in + ti-cal-card - success (one 429 retried after 45s)

@@ -1,0 +1,5 @@
+step1 redmond: cleared domId on CTA heading 5474fc9a-654f-7679-2121-368c4da8d88d - success
+step2 redmond: inserted ti-booktop section (2a24f561-10de-3f31-0bee-bf26d72e8d61) after trust bar + ti-cta-btnrow (6cb5a08a-94df-73b7-9a44-25c7033216c3) after CTA lead - success
+step3 redmond: found .ti-booktop-in = 2a24f561-10de-3f31-0bee-bf26d72e8d60 (1 match) - success
+step4 redmond: moved .ti-cal-card 5474fc9a-654f-7679-2121-368c4da8d896 into ti-booktop-in (append) - success
+step5 redmond: VERIFIED id=book matches=1 (ti-anchor 2a24f561-...8d5b); ti-cal-mount ancestors include ti-booktop + ti-booktop-in + ti-cal-card - success (one 429 retried after 45s)

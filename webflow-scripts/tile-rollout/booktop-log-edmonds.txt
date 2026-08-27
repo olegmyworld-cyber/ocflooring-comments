@@ -1,0 +1,6 @@
+2026-08-27T04:00:32Z step1 edmonds OK domId cleared on 5474fc9a-654f-7679-2121-368c4da8d88d
+2026-08-27T04:01:32Z step2 edmonds OK booktop section=00d55572-c09f-c212-e94b-e2a0fc5740f5 btnrow=6ce6cf5b-bc58-265b-5101-29d9769e53f6
+2026-08-27T04:01:53Z step3 edmonds OK ti-booktop-in=00d55572-c09f-c212-e94b-e2a0fc5740f4 (1 match)
+2026-08-27T04:02:31Z step4 edmonds OK ti-cal-card moved (append) into ti-booktop-in
+2026-08-27T04:02:53Z step5 edmonds VERIFY OK id=book matches=1; ti-cal-mount ancestors=[Body, ti-page, ti-booktop, ti-booktop-in, ti-cal-card] includes ti-booktop
+2026-08-27T04:02:53Z edmonds DONE
