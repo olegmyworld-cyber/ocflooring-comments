@@ -105,3 +105,42 @@ row is untouched (verified: still 3 tracks at 1280px after the change):
 Verified against the mock at 390px: all three items read left-aligned,
 `document.body.scrollWidth` stayed 390 = viewport (no overflow) both before
 and after.
+
+## Follow-up (2026-08-27, same session): "Bring the showroom to me" CTA scroll fix
+
+Request: "only for mobile version when i click on the bottom bring the
+showroom to me, i need it scrolling righaway on schedule, not on the
+description" — on all carpet installation pages.
+
+**Investigation:** the CTA (`Link`, in the hero/hook section with the
+"1 visit / $1.49/sq ft / 1 day" stat row) has `href="#book"`. The
+semantically-matching target — the booking/schedule `Section`
+(class `.ci-book-sec`) — had **no DOM id set anywhere on the page**, so the
+in-page anchor had nothing to resolve to and the browser fell through to
+whatever content happened to sit near the top of the fragment (reading as
+"lands on the description"). This is a page-wide broken anchor, not a
+genuine responsive bug — it was most visible on mobile because the longer
+stacked layout makes a missed jump obvious, while on desktop's shorter
+layout "landing nowhere" and "landing near schedule" look similar.
+
+**Fix:** set the real Designer DOM id `book` on `.ci-book-sec` (via the
+Style/Settings API's `set_dom_id`, not a runtime script — this is native
+Designer content) on all 30 carpet installation pages, exploiting the same
+cloned-page element-ID stability used for the trust-bar fix above: the
+target section's `element` ID suffix is identical across all 30 pages, so
+one `set_dom_id` call per page (same element-id literal) was enough,
+without a per-page "find" round-trip. A working native `href="#book"` →
+`id="book"` anchor is correct on every device, so no mobile-only JS shim
+was needed.
+
+## Follow-up (2026-08-27, same session): nav-menu category icons
+
+Request: "add some nice icons to each categories, specially on mobile
+version" — for the 13 category links in the site's "Services" dropdown nav
+menu (Floor Installation, Floor Refinishing, Vinyl Plank Flooring, Floor
+Repair, Carpet Installation, Tile Installation, Stairs Installation,
+Laminate Installation, Floor Staining, Dustless Floor Sanding, Eco-Friendly
+Finishing, Screen and Recoat, Our Floor Products).
+
+This isn't carpet-page-specific — the nav menu is shared sitewide — so it's
+documented in [`webflow-scripts/navbar/README.md`](../navbar/README.md).

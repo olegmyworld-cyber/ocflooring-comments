@@ -87,6 +87,26 @@ so re-adding it to any page is a single `add_page_script` call.
 Published live to `nwocflooring.com`, `www.nwocflooring.com`, and the Webflow
 subdomain.
 
+### Other work on this branch (2026-08-27), documented in subdirectory READMEs
+
+- [`webflow-scripts/services-install-page/`](webflow-scripts/services-install-page/README.md)
+  — ported all content from the Bellevue hardwood-installation page onto
+  `/services/hardwood-floor-installation` for a design match, then
+  redesigned the flooring-type/installation-method card grids to be
+  compact with a mobile slider, and repositioned the reviews section.
+- [`webflow-scripts/carpet-pages/`](webflow-scripts/carpet-pages/README.md)
+  — mobile-only swatches slider, "Also serving" section removal, trust-bar
+  mobile alignment fix, and the `#book` CTA anchor-scroll fix, across all
+  30 carpet installation pages.
+- [`webflow-scripts/tile-pages/`](webflow-scripts/tile-pages/README.md) —
+  "Recent work" photo gallery redesign (framed cards, hover zoom) across
+  all tile installation pages.
+- [`webflow-scripts/navbar/`](webflow-scripts/navbar/README.md) — icons
+  added to all 13 category links in the sitewide "Services" dropdown menu.
+
+Published live to `nwocflooring.com`, `www.nwocflooring.com`, and the
+Webflow subdomain.
+
 ## Changes on branch `claude/oc-flooring-webflow-fixes-amosur`
 
 ### Bona sealer widget — "CUSTOMER FAVORITE" badge overlap (2026-06-14)
