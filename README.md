@@ -655,6 +655,33 @@ or `/city-of-*/...`) pointing at that city's hardwood page. That also explains
 why the carpet links kept misbehaving after exact-path redirects were removed.
 Fix is in Webflow → Site settings → Publishing → 301 redirects.
 
+#### Scheduler moved to the top of the Bellevue tile page (2026-08-27)
+
+Per Oleg's request the Calendly booking card was moved out of the closing CTA
+to a new `ti-booktop` section placed directly after the hero and trust bar, so
+it is the first thing under the fold:
+
+- The existing `.ti-cal-card` (header bar + `#ti-cal-mount`) was *moved*, not
+  rebuilt, so the mount id the bundle initialises travels with it.
+- New dark section carries an eyebrow ("Book in about a minute") and an H2
+  ("Pick a time for your free Bellevue tile estimate").
+- The `#book` anchor moved with it: the id was cleared from the bottom CTA
+  heading and re-created as a zero-height `.ti-anchor` div at the top of the
+  booking section, so the hero button and the estimator's "Book the free
+  estimate" button both land on the calendar.
+- The closing CTA keeps its heading, lead, phone and warranty line, and gained
+  a "Pick your estimate time" button that scrolls back up to the scheduler.
+
+**API note:** `set_dom_id` and `set_attributes` were both rejected on this page
+with `MPS rejected update … [Conflict] The operation could not be applied to
+the component map` — apparently because the id "book" was still held by the
+element it had just been cleared from. Creating the element with the id inline
+through `data_whtml_builder` worked first time, and is the reliable route for
+anchors.
+
+This change is on the **Bellevue page only** — the other 29 tile pages still
+have the scheduler inside their closing CTA.
+
 ## Changes on branch `claude/oc-flooring-webflow-fixes-amosur`
 
 ### Bona sealer widget — "CUSTOMER FAVORITE" badge overlap (2026-06-14)
