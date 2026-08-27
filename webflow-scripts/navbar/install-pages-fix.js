@@ -52,23 +52,32 @@
       for(i=0;cards.length>i;i++)clr(cards[i],CARD);
     }
   }
-  function ctaFix(){
-    var b=null,els=document.body.getElementsByTagName('*'),i,t;
-    for(i=0;els.length>i;i++){
-      t=T(els[i]);
-      if(t.indexOf('595-1079')===-1||t.indexOf('Free Estimate')===-1||t.length>200)continue;
-      if(!b||T(b).length>t.length)b=els[i];
+  function ctaOne(bt){
+    var anc=bt.parentElement,lvl=0,ph=null,a2,j;
+    while(anc&&6>lvl){
+      a2=anc.getElementsByTagName('a');
+      for(j=0;a2.length>j;j++){if(T(a2[j]).indexOf('595-1079')!==-1){ph=a2[j];break;}}
+      if(ph)break;
+      anc=anc.parentElement;lvl++;
     }
-    if(!b)return;
-    var k=b.children,j;
+    if(!ph||!anc||T(anc).length>600)return;
+    var all=anc.getElementsByTagName('*'),k;
     if(767>=window.innerWidth){
-      imp(b,'display','flex');imp(b,'flex-wrap','wrap');imp(b,'gap','10px');
-      imp(b,'align-items','center');imp(b,'justify-content','center');
-      for(j=0;k.length>j;j++){imp(k[j],'position','static');imp(k[j],'margin','0');imp(k[j],'max-width','100%');imp(k[j],'float','none');}
+      imp(anc,'display','block');imp(anc,'height','auto');imp(anc,'min-height','0');
+      for(k=0;all.length>k;k++){imp(all[k],'position','static');imp(all[k],'float','none');imp(all[k],'transform','none');}
+      imp(ph,'display','block');imp(ph,'width','auto');imp(ph,'max-width','92%');imp(ph,'margin','10px auto');imp(ph,'white-space','normal');
+      imp(bt,'display','block');imp(bt,'width','auto');imp(bt,'max-width','92%');imp(bt,'margin','10px auto');imp(bt,'white-space','normal');
     }else{
-      clr(b,['display','flex-wrap','gap','align-items','justify-content']);
-      for(j=0;k.length>j;j++)clr(k[j],['position','margin','max-width','float']);
+      clr(anc,['display','height','min-height']);
+      for(k=0;all.length>k;k++)clr(all[k],['position','float','transform']);
+      clr(ph,['display','width','max-width','margin','white-space']);
+      clr(bt,['display','width','max-width','margin','white-space']);
     }
+  }
+  function ctaFix(){
+    var as=document.body.getElementsByTagName('a'),i,t,list=[];
+    for(i=0;as.length>i;i++){t=T(as[i]);if(40>t.length&&t.indexOf('Free Estimate')!==-1)list.push(as[i]);}
+    for(i=0;list.length>i;i++)ctaOne(list[i]);
   }
   function killAreas(){
     if(document.getElementById('oc-hia-gone'))return;

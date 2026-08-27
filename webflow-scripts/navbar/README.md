@@ -231,3 +231,35 @@ Note: an assertion-only check initially reported the cities section as
 heading had been deleted, because the climb stopped as soon as an ancestor
 contained "Snohomish" and the heading itself reads "…King & Snohomish County".
 The climb now walks up to the container actually holding the city links.
+
+### CTA overlap fix — corrected (2026-08-27)
+
+The first `ctaFix` never styled anything on the live site. It searched the
+whole document for the smallest element containing both "595-1079" and
+"Free Estimate", then normalised only that element's **direct children**.
+Two problems, both found by testing rather than by reading the live page
+(which this environment cannot load — org egress policy returns 403):
+
+1. **It matched the navbar phone link.** The Navbar contains
+   `<a class="nav-phone" href="tel:+14255951079">(425) 595-1079</a>`, which
+   comes first in document order. Pairing that with the CTA button made the
+   common ancestor `<body>`, so the size guard bailed out and nothing was
+   ever styled.
+2. **Direct children only.** Where the buttons sit inside wrapper divs, the
+   wrappers were normalised while the positioned `<a>` elements inside kept
+   their offsets.
+
+**Corrected approach:** start from each short link whose text contains
+"Free Estimate", climb at most 6 levels to the nearest ancestor that also
+contains a `595-1079` link (so the navbar can never be paired with a page
+CTA), bail if that ancestor's text exceeds 600 chars, then clear
+`position`/`float`/`transform` on **every descendant** and lay the two
+buttons out as centred blocks. Handles multiple CTA blocks per page.
+
+**Verified in headless Chromium** against four distinct overlap causes in one
+page — absolutely-positioned anchors, anchors nested inside positioned
+wrapper divs, `flex: 0 0 260px` with a negative margin, and floats with a
+negative margin — plus a decoy navbar phone link reproducing trap (1). All
+four render as clean stacked buttons with no overlap and no horizontal page
+overflow; the navbar link is left untouched; the slider and cities-removal
+behaviour was re-run and unchanged.
