@@ -102,7 +102,12 @@ subdomain.
   "Recent work" photo gallery redesign (framed cards, hover zoom) across
   all tile installation pages.
 - [`webflow-scripts/navbar/`](webflow-scripts/navbar/README.md) — icons
-  added to all 13 category links in the sitewide "Services" dropdown menu.
+  added to all 13 category links in the sitewide "Services" dropdown menu,
+  plus the top-level mobile menu items (About Us, Services, Our Work,
+  Price, Financing).
+- [`webflow-scripts/our-work-page/`](webflow-scripts/our-work-page/README.md)
+  — mobile-only slider for the Hardwood Floor Refinishing and Flooring
+  Installation gallery categories on `/our-work`.
 
 Published live to `nwocflooring.com`, `www.nwocflooring.com`, and the
 Webflow subdomain.

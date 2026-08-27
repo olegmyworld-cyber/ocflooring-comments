@@ -1,0 +1,80 @@
+<!-- OC Flooring — Our Work Gallery (filterable categories + fullscreen viewer) -->
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Source+Sans+3:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
+<style>
+#ocw-gal{--ocw-accent:#d6232a;--ocw-navy:#0e2238;background:#f6f4f0;padding:8px 0 48px;font-family:'Source Sans 3',system-ui,sans-serif;color:var(--ocw-navy)}
+#ocw-gal *{box-sizing:border-box}
+.ocw-sec{max-width:1180px;margin:0 auto;padding:40px 28px}
+.ocw-head{display:flex;align-items:flex-end;justify-content:space-between;gap:20px;flex-wrap:wrap;border-bottom:1px solid #e4ded4;padding-bottom:18px;margin-bottom:30px}
+.ocw-eyebrow{display:flex;align-items:center;gap:9px;margin-bottom:9px}
+.ocw-eyebrow span:first-child{width:22px;height:2px;background:var(--ocw-accent)}
+.ocw-kicker{font-family:'IBM Plex Mono',monospace;font-size:11.5px;letter-spacing:2px;text-transform:uppercase;color:var(--ocw-accent)}
+.ocw-h2{font-family:'Playfair Display',serif;font-weight:800;font-size:34px;margin:0;color:var(--ocw-navy);letter-spacing:-.4px}
+.ocw-count{font-family:'IBM Plex Mono',monospace;font-size:13px;color:#9aa0a8;letter-spacing:.3px}
+.ocw-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.ocw-card{margin:0;position:relative;cursor:pointer;background:#fff;border-radius:16px;overflow:hidden;border:1px solid #ece7df;box-shadow:0 2px 5px rgba(14,34,56,.05);transition:transform .2s,box-shadow .2s}
+.ocw-card:hover{box-shadow:0 16px 34px -16px rgba(14,34,56,.4);transform:translateY(-4px)}
+.ocw-imgwrap{position:relative;aspect-ratio:4/3}
+.ocw-imgwrap img{width:100%;height:100%;object-fit:cover;display:block}
+.ocw-zoom{position:absolute;top:10px;right:10px;width:34px;height:34px;border-radius:50%;background:rgba(13,31,54,.78);color:#fff;font-size:15px;display:flex;align-items:center;justify-content:center;backdrop-filter:blur(4px);pointer-events:none}
+.ocw-cap{padding:13px 16px 15px;font-size:14px;line-height:1.42;color:#4d5763}
+@keyframes ocwLbIn{from{opacity:0;transform:scale(.96)}to{opacity:1;transform:scale(1)}}
+@keyframes ocwFade{from{opacity:0}to{opacity:1}}
+#ocw-lb{position:fixed;inset:0;z-index:9999;background:rgba(7,14,24,.93);backdrop-filter:blur(8px);display:none;flex-direction:column;animation:ocwFade .2s ease both}
+#ocw-lb.open{display:flex}
+.ocw-lb-top{display:flex;align-items:center;justify-content:space-between;padding:18px 26px;color:#fff;flex:none}
+.ocw-lb-cat{font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:2px;text-transform:uppercase;color:var(--ocw-accent)}
+.ocw-lb-pos{font-family:'IBM Plex Mono',monospace;font-size:12px;color:#7b8696;margin-left:11px}
+.ocw-x{width:42px;height:42px;border:none;border-radius:50%;background:rgba(255,255,255,.12);color:#fff;font-size:19px;cursor:pointer}
+.ocw-stage{flex:1;display:flex;align-items:center;justify-content:center;gap:18px;padding:0 22px;min-height:0}
+.ocw-nav{flex:none;width:56px;height:56px;border:none;border-radius:50%;background:var(--ocw-accent);color:#fff;font-size:24px;cursor:pointer;box-shadow:0 10px 26px -8px rgba(0,0,0,.6)}
+.ocw-stage-mid{flex:1;max-width:1000px;height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:16px;min-height:0}
+.ocw-lb-imgbox{width:100%;flex:1;min-height:0;border-radius:14px;overflow:hidden;background:#0d1f36;box-shadow:0 30px 70px -20px rgba(0,0,0,.7);animation:ocwLbIn .25s ease both}
+.ocw-lb-imgbox img{width:100%;height:100%;object-fit:contain;display:block}
+.ocw-lb-cap{margin:0;color:#dfe5ee;font-size:15px;text-align:center;max-width:760px;line-height:1.45;flex:none}
+.ocw-rail{flex:none;display:flex;align-items:center;justify-content:center;gap:10px;padding:18px 22px 24px;overflow-x:auto}
+.ocw-thumb{flex:none;width:78px;height:58px;border-radius:8px;overflow:hidden;cursor:pointer;padding:0;background:#0d1f36;transition:all .15s;border:2px solid transparent;opacity:.55}
+.ocw-thumb.active{border-color:var(--ocw-accent);opacity:1}
+.ocw-thumb img{width:100%;height:100%;object-fit:cover;pointer-events:none}
+@media(max-width:900px){.ocw-grid{grid-template-columns:repeat(2,1fr)}.ocw-h2{font-size:28px}.ocw-nav{width:46px;height:46px;font-size:20px}}
+@media(max-width:767px){.ocw-grid{display:flex;grid-template-columns:none;flex-wrap:nowrap;overflow-x:auto;scroll-snap-type:x mandatory;gap:14px;padding-bottom:8px;-webkit-overflow-scrolling:touch;scrollbar-width:none}.ocw-grid::-webkit-scrollbar{display:none}.ocw-card{flex:0 0 82%;scroll-snap-align:center}.ocw-sec{padding:28px 18px}}
+</style>
+
+<div id="ocw-gal"></div>
+<div id="ocw-lb" role="dialog" aria-modal="true"></div>
+
+<script>
+(function(){
+  var DATA=[{"sub":"Natural Color / Stain","title":"Hardwood Floor Refinishing","photos":[{"src":"https://cdn.prod.website-files.com/6377e8e6a539368c54f1cadd/6a1a539ad891929be34b28ce_Restored%20maple%20hardwood%20floor%20with%20natural%20Pallmann%20finish%20in%20Everett.avif","caption":"Red oak entry & curved staircase — high-gloss natural finish"},{"src":"https://cdn.prod.website-files.com/6377e8e6a539368c54f1cadd/6a1a55e2b187ffdba1fce276_red-oak-floor-natural-finish-bellevue.avif","caption":"Red oak living room — rich stain, high-gloss finish"},{"src":"https://cdn.prod.website-files.com/6377e8e6a539368c54f1cadd/6a1a5278656dbb77c2095be1_Refinished%20red%20oak%20hardwood%20floor%20with%20natural%20matte%20finish%20in%20a%20Bellevue%20living%20room.avif","caption":"Red oak dining room — natural matte finish"},{"src":"https://cdn.prod.website-files.com/6377e8e6a539368c54f1cadd/6a1a569fbd358dea9ab99779_red-oak-special-walnut-stain-mercer-island.avif","caption":"Red oak kitchen — natural finish"},{"src":"https://cdn.prod.website-files.com/6377e8e6a539368c54f1cadd/6a1a5726edaee5a60b26e533_red-oak-glossy-finish-bellevue.avif","caption":"Heart pine bathroom — natural seal"},{"src":"https://cdn.prod.website-files.com/6377e8e6a539368c54f1cadd/6a1a547bc231e9d5761c82c1_red-oak-bona-traffic-hd-lynnwood-staircase.avif.avif","caption":"Ambrosia maple great room — satin finish"},{"src":"https://cdn.prod.website-files.com/6377e8e6a539368c54f1cadd/6a1a566ac231e9d5761cafc4_hardwood-staircase-refinished-issaquah.avif","caption":"White oak kitchen — natural matte finish"},{"src":"https://cdn.prod.website-files.com/6377e8e6a539368c54f1cadd/6a1a56f7929285f0a6540078_white-oak-natural-seal-edmonds.avif","caption":"Red oak living room — dark stain, high-gloss finish"},{"src":"https://cdn.prod.website-files.com/6377e8e6a539368c54f1cadd/6a1a5647caa064ef336eee2c_white-oak-sanded-sealed-sammamish.avif","caption":"Parquet floor & spiral staircase — high-gloss refinish"},{"src":"https://cdn.prod.website-files.com/6377e8e6a539368c54f1cadd/6a1a570f6b8fa6046c0afd73_maple-floor-low-voc-finish-bothell.avif","caption":"Red oak kitchen — natural finish"},{"src":"https://cdn.prod.website-files.com/6377e8e6a539368c54f1cadd/6a1a5629b187ffdba1fce645_oak-floor-satin-finish-seattle.avif","caption":"Red oak entry & hall — natural gloss with inlay border"},{"src":"https://cdn.prod.website-files.com/6377e8e6a539368c54f1cadd/6a1a56dc50966f1b3194c864_dustless-hardwood-refinishing-mukilteo.avif","caption":"Red oak — dark walnut stain, high-gloss finish"},{"src":"https://cdn.prod.website-files.com/6377e8e6a539368c54f1cadd/6a1a56856d4d91ecdba05dfd_douglas-fir-floor-refinished-snohomish.avif","caption":"Red oak kitchen — natural finish"},{"src":"https://cdn.prod.website-files.com/6377e8e6a539368c54f1cadd/686cdb4498718f0d0aca0eee_6382c7a6bfe74734b081eff9_646B396D-5904-4073-8405-BAC5874FF26F_Original.avif","caption":"Maple entry — natural finish"}]},{"sub":"Hardwood · Engineered · Luxury Vinyl Plank","title":"Flooring Installation","photos":[{"src":"https://cdn.prod.website-files.com/6377e8e6a539368c54f1cadd/6a1a58ccedaee5a60b270a34_dustless-hardwood-refinishing-mukilteo-dining.avif","caption":"Hand-scraped hardwood — kitchen & dining install"},{"src":"https://cdn.prod.website-files.com/6377e8e6a539368c54f1cadd/6a1a58e78b7d2d08a141f40a_white-oak-dark-walnut-stain-mercer-island.avif","caption":"White oak wide-plank — kitchen install"},{"src":"https://cdn.prod.website-files.com/6377e8e6a539368c54f1cadd/6a1a594d9c83315aa8dce579_hardwood-floor-sanding-dust-containment-kirkland.avif","caption":"European oak wide-plank — waterfront condo"},{"src":"https://cdn.prod.website-files.com/6377e8e6a539368c54f1cadd/6a1a5935b5992c08650ec9f3_oak-floor-white-baseboards-bellevue.avif","caption":"White oak wide-plank — great room install"},{"src":"https://cdn.prod.website-files.com/6377e8e6a539368c54f1cadd/688a42fed398db6079bfeed7_6439f3e909cf566698a4731b_2021-04-22-1-.avif","caption":"Herringbone luxury vinyl — billiards hall"},{"src":"https://cdn.prod.website-files.com/6377e8e6a539368c54f1cadd/688a43a99d25681234822942_644c70339ee144973c519623_Great-room.avif","caption":"White oak wide-plank — new-build great room"},{"src":"https://cdn.prod.website-files.com/6377e8e6a539368c54f1cadd/688a43b5a5b54c1864ab814a_644c744c1ebaf9b26453ecdc_2020-05-22-min.avif","caption":"White oak wide-plank — entry install"},{"src":"https://cdn.prod.website-files.com/6377e8e6a539368c54f1cadd/688a43e6a70566dc91d6a791_644c706bf697a8dfdc8a4475_2022-07-18.avif","caption":"White oak herringbone — fireplace surround"},{"src":"https://cdn.prod.website-files.com/6377e8e6a539368c54f1cadd/688a430b959d7ba89d3c3b3d_644c7040818568fed7138cf5_c896bdef-350b-44b6-8967-1f4f6e2a3940.avif","caption":"White oak wide-plank — upstairs hall"},{"src":"https://cdn.prod.website-files.com/6377e8e6a539368c54f1cadd/688a436cb81907b36490b0d3_644c70534fd7c847816fb017_casita.avif","caption":"Luxury vinyl plank — open-concept great room"},{"src":"https://cdn.prod.website-files.com/6377e8e6a539368c54f1cadd/688a4351fbe8559898909afd_644c74229e88aafbd7729364_2021-08-04-min.avif","caption":"White oak stair treads install"},{"src":"https://cdn.prod.website-files.com/6377e8e6a539368c54f1cadd/688a4417dbb34bc41b3ca1b5_643b776152c9ee51d7f0a398_IMG_3257_-1-min.avif","caption":"White oak wide-plank — loft living"},{"src":"https://cdn.prod.website-files.com/6377e8e6a539368c54f1cadd/688a43221b6f8cdb99c19ba6_644c74031679fe7223364548_2020-11-15-min.avif","caption":"White oak stair & landing install"},{"src":"https://cdn.prod.website-files.com/6377e8e6a539368c54f1cadd/688a433252a362cdff076478_644c70241679fe31a2361785_2022-07-17.avif","caption":"White oak herringbone — galley kitchen"},{"src":"https://cdn.prod.website-files.com/6377e8e6a539368c54f1cadd/688a434352a362cdff076cfb_644c741121d3feb9f0f99694_2023_LVP2-min.avif","caption":"Herringbone wood-look — kitchen install"}]}];
+  var gal=document.getElementById('ocw-gal'), lb=document.getElementById('ocw-lb'), open=null;
+  function esc(s){return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
+  var h='';
+  DATA.forEach(function(s,ci){
+    h+='<section class="ocw-sec"><div class="ocw-head"><div><div class="ocw-eyebrow"><span></span><span class="ocw-kicker">'+esc(s.sub)+'</span></div><h2 class="ocw-h2">'+esc(s.title)+'</h2></div><span class="ocw-count">'+s.photos.length+' projects</span></div><div class="ocw-grid">';
+    s.photos.forEach(function(p,i){
+      h+='<figure class="ocw-card" data-c="'+ci+'" data-i="'+i+'"><div class="ocw-imgwrap"><img loading="lazy" src="'+p.src+'" alt="'+esc(p.caption)+'"><span class="ocw-zoom">⤢</span></div><figcaption class="ocw-cap">'+esc(p.caption)+'</figcaption></figure>';
+    });
+    h+='</div></section>';
+  });
+  gal.innerHTML=h;
+  gal.addEventListener('click',function(e){var c=e.target.closest('.ocw-card');if(c)show(+c.dataset.c,+c.dataset.i);});
+
+  function show(c,i){open={c:c,i:i};render();lb.classList.add('open');document.body.style.overflow='hidden';}
+  function close(){open=null;lb.classList.remove('open');lb.innerHTML='';document.body.style.overflow='';}
+  function move(d){if(!open)return;var ph=DATA[open.c].photos;open.i=(open.i+d+ph.length)%ph.length;render();}
+  function render(){
+    if(!open)return;var s=DATA[open.c],p=s.photos[open.i];
+    var th='';s.photos.forEach(function(t,i){th+='<button class="ocw-thumb'+(i===open.i?' active':'')+'" data-j="'+i+'"><img src="'+t.src+'" alt=""></button>';});
+    lb.innerHTML='<div class="ocw-lb-top"><div><span class="ocw-lb-cat">'+esc(s.title)+'</span><span class="ocw-lb-pos">'+(open.i+1)+' / '+s.photos.length+'</span></div><button class="ocw-x" data-act="close">✕</button></div>'+
+      '<div class="ocw-stage"><button class="ocw-nav" data-act="prev">←</button><div class="ocw-stage-mid"><div class="ocw-lb-imgbox"><img src="'+p.src+'" alt="'+esc(p.caption)+'"></div><p class="ocw-lb-cap">'+esc(p.caption)+'</p></div><button class="ocw-nav" data-act="next">→</button></div>'+
+      '<div class="ocw-rail">'+th+'</div>';
+  }
+  lb.addEventListener('click',function(e){
+    var b=e.target.closest('[data-act]'), t=e.target.closest('.ocw-thumb');
+    if(b){var a=b.dataset.act;if(a==='close')close();else if(a==='prev')move(-1);else if(a==='next')move(1);return;}
+    if(t){open.i=+t.dataset.j;render();return;}
+    if(e.target===lb)close();
+  });
+  document.addEventListener('keydown',function(e){if(!open)return;if(e.key==='Escape')close();else if(e.key==='ArrowRight')move(1);else if(e.key==='ArrowLeft')move(-1);});
+})();
+</script>
