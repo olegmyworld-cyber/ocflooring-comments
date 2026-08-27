@@ -1,0 +1,12 @@
+2026-08-27T01:36:07Z start cottage-lake pageId=6a8f68b4f6076a76a4ea0b32
+2026-08-27T01:37:02Z step1 prose batch 1/4 OK (15 set_text)
+2026-08-27T01:38:02Z step1 prose batch 2/4 OK (15 set_text)
+2026-08-27T01:39:04Z step1 prose batch 3/4 OK (14 set_text)
+2026-08-27T01:40:01Z step1 prose complete: 57 set_text across 4 batches, all OK
+2026-08-27T01:41:05Z step2 chips OK (16/16 set_text, no removals needed)
+2026-08-27T01:41:50Z step3 carpetLink OK (text + url /city-of-cottage-lake/carpet-installation-in-cottage-lake-wa)
+2026-08-27T01:42:48Z step4 image alts OK (7/7 altText applied)
+2026-08-27T01:43:09Z step5 SEO/OG OK (seoTitle/seoDesc/ogTitle/ogDesc set, copied flags false)
+2026-08-27T01:44:05Z step6 JSON-LD OK (graph written via bulk_update_pages_schema_markup)
+2026-08-27T01:44:31Z step7 verify OK (heroLead, faqA1, footerTag match pack)
+2026-08-27T01:44:31Z cottage-lake DONE

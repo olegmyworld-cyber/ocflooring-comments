@@ -1,0 +1,12 @@
+2026-08-27T01:19:21Z start arlington pageId=6a8f68b3339c117eebaa3b57
+2026-08-27T01:20:09Z step1 prose batch 1/4 OK (15 set_text)
+2026-08-27T01:21:08Z step1 prose batch 2/4 OK (15 set_text)
+2026-08-27T01:22:01Z step1 prose batch 3/4 OK (14 set_text)
+2026-08-27T01:22:56Z step1 prose complete: 57 set_text across 4 batches, all OK
+2026-08-27T01:24:03Z step2 chips OK (16/16 set_text, no removals needed)
+2026-08-27T01:24:45Z step3 carpetLink OK (text + url /city-of-arlington/carpet-installation-in-arlington-wa)
+2026-08-27T01:25:44Z step4 image alts OK (7/7 altText applied)
+2026-08-27T01:26:05Z step5 SEO/OG OK (seoTitle/seoDesc/ogTitle/ogDesc set, copied flags false)
+2026-08-27T01:27:03Z step6 JSON-LD OK (graph written via bulk_update_pages_schema_markup)
+2026-08-27T01:27:52Z step7 verify OK (heroLead, faqA1, footerTag match pack)
+2026-08-27T01:27:52Z arlington DONE

@@ -1,0 +1,12 @@
+2026-08-27T02:02:00Z start everett pageId=6a8f68d195b401f2ac7d82ce
+2026-08-27T02:02:56Z step1 prose batch 1/4 OK (15 set_text)
+2026-08-27T02:03:50Z step1 prose batch 2/4 OK (15 set_text)
+2026-08-27T02:04:44Z step1 prose batch 3/4 OK (14 set_text)
+2026-08-27T02:05:34Z step1 prose complete: 57 set_text across 4 batches, all OK
+2026-08-27T02:06:28Z step2 chips OK (16/16 set_text, no removals needed)
+2026-08-27T02:07:08Z step3 carpetLink OK (text + url /city-of-everett/carpet-installation-in-everett-wa)
+2026-08-27T02:07:37Z step4 image alts OK (7/7 altText applied)
+2026-08-27T02:07:58Z step5 SEO/OG OK (seoTitle/seoDesc/ogTitle/ogDesc set, copied flags false)
+2026-08-27T02:08:55Z step6 JSON-LD OK (graph written via bulk_update_pages_schema_markup)
+2026-08-27T02:09:21Z step7 verify OK (heroLead, faqA1, footerTag match pack)
+2026-08-27T02:09:21Z everett DONE

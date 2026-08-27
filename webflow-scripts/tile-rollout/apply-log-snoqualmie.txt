@@ -1,0 +1,3 @@
+step1 prose batch1/4 (15 set_text) OK
+step1 prose batch2/4 (15 set_text) OK
+step1 prose batch3/4 (15 set_text) OK

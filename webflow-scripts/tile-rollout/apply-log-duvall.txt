@@ -1,0 +1,12 @@
+2026-08-27T01:44:31Z start duvall pageId=6a8f68b57bebcdf1b5516311
+2026-08-27T01:45:27Z step1 prose batch 1/4 OK (15 set_text)
+2026-08-27T01:46:28Z step1 prose batch 2/4 OK (15 set_text)
+2026-08-27T01:47:25Z step1 prose batch 3/4 OK (14 set_text)
+2026-08-27T01:48:26Z step1 prose complete: 57 set_text across 4 batches, all OK
+2026-08-27T01:49:30Z step2 chips OK (16/16 set_text, no removals needed)
+2026-08-27T01:50:14Z step3 carpetLink OK (text + url /city-of-duvall/carpet-installation-in-duvall-wa)
+2026-08-27T01:51:12Z step4 image alts OK (7/7 altText applied)
+2026-08-27T01:51:33Z step5 SEO/OG OK (seoTitle/seoDesc/ogTitle/ogDesc set, copied flags false)
+2026-08-27T01:52:29Z step6 JSON-LD OK (graph written via bulk_update_pages_schema_markup)
+2026-08-27T01:52:55Z step7 verify OK (heroLead, faqA1, footerTag match pack)
+2026-08-27T01:52:55Z duvall DONE

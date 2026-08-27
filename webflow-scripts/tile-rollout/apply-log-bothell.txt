@@ -1,0 +1,12 @@
+2026-08-27T01:27:52Z start bothell pageId=6a8f68b4b08d01669cf9e237
+2026-08-27T01:28:48Z step1 prose batch 1/4 OK (15 set_text)
+2026-08-27T01:29:41Z step1 prose batch 2/4 OK (15 set_text)
+2026-08-27T01:30:39Z step1 prose batch 3/4 OK (14 set_text)
+2026-08-27T01:31:39Z step1 prose complete: 57 set_text across 4 batches, all OK
+2026-08-27T01:32:42Z step2 chips OK (16/16 set_text, no removals needed)
+2026-08-27T01:33:26Z step3 carpetLink OK (text + url /hardwood-floor-refinishing/carpet-installation-in-bothell-wa)
+2026-08-27T01:34:24Z step4 image alts OK (7/7 altText applied)
+2026-08-27T01:34:44Z step5 SEO/OG OK (seoTitle/seoDesc/ogTitle/ogDesc set, copied flags false)
+2026-08-27T01:35:41Z step6 JSON-LD OK (graph written via bulk_update_pages_schema_markup)
+2026-08-27T01:36:07Z step7 verify OK (heroLead, faqA1, footerTag match pack)
+2026-08-27T01:36:07Z bothell DONE

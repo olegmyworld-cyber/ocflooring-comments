@@ -1,0 +1,10 @@
+step1 prose batch1/4 (15 set_text) OK
+step1 prose batch2/4 (15 set_text) OK
+step1 prose batch3/4 (15 set_text) OK
+step1 prose batch4/4 (12 set_text) OK - all 57 prose roles done
+step2 chips 16/16 set_text OK (no removals needed)
+step3 carpetLink set_text + set_link (/city-of-renton/carpet-installation-in-renton-wa) OK
+step4 image altText x7 OK
+step5 SEO/OG update_page_settings OK
+step6 JSON-LD bulk_update_pages_schema_markup OK (9585 chars, graph echoed back)
+step7 verify heroLead/faqA1/footerTag all match pack text - RENTON APPLIED OK
