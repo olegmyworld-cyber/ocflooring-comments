@@ -606,6 +606,22 @@ under [`webflow-scripts/tile-rollout/`](webflow-scripts/tile-rollout/).
 - **Blogs connected**: the three tile-related posts (hardwood-vs-tile-in-the-
   kitchen, benefits-of-vinyl-flooring, alternatives-to-tile-flooring-in-
   snohomish-wa) are linked from every tile page's "Tile guides" section.
+- **Applied and verified on all 30 pages**: every page carries its own 57
+  prose fields, 16 chips, carpet cross-link, 7 image alts, SEO/OG and JSON-LD.
+  Verification was done three ways, since `query_elements` with `element_id`
+  alone returns no text and so cannot confirm a write:
+  (1) per-page reads of breadcrumb, region stat and first chip with
+  `children_depth`; (2) a schema audit of all 30 pages confirming 4 graph
+  nodes, city-matched Service name and `@id` path, correct geo coordinates and
+  11 FAQ entries matching each pack verbatim; (3) two leak sweeps — the
+  baseline mentions "Bellevue" in 30 of 57 fields, and every city page returned
+  only its legitimate mentions, while five baseline-only phrases covering the
+  other 27 fields returned zero matches site-wide.
+- **Operational gotcha recorded** in
+  [`apply-playbook.md`](webflow-scripts/tile-rollout/apply-playbook.md):
+  Webflow rate-limits per *action*, so a call with 29 set_text actions can
+  return HTTP 200 while later actions fail with 429 — a silent partial write.
+  `gen-actions.py` now emits ≤15-action chunks (`1a`/`1b`/`2a`/`2b`).
 - **Not published**: everything is staged in the Designer — publish the site
   to take the 30 tile pages, the new slider slide and the nav item live.
 

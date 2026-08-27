@@ -14,8 +14,12 @@ Tools: use ToolSearch first to load `mcp__Webflow__data_element_tool`,
 `mcp__Webflow__data_element_settings_tool`, `mcp__Webflow__data_pages_tool`.
 
 ## Rate-limit discipline (shared 60 req/min budget with sibling agents)
-- Batch aggressively: one data_element_tool call can carry MANY actions. Use
-  ~12–15 set_text actions per call.
+- **Webflow counts individual actions, not tool calls.** A call carrying 29
+  set_text actions can return HTTP 200 while the later actions inside it fail
+  with `init-multiplayer-connection returned 429` — a partial write that looks
+  like success. ALWAYS inspect every action's status in the response, not just
+  the call's. Keep batches to **≤15 actions** and ~18 s between calls; re-send
+  only the failed actions after a 45 s wait.
 - Sleep ~10 seconds between MCP calls (`sleep 10` via Bash with run_in_background
   NOT needed — foreground `sleep 10` alone in a Bash call is fine; if a hook blocks
   it, use `python3 -c "import time;time.sleep(10)"`).
@@ -42,8 +46,24 @@ Tools: use ToolSearch first to load `mcp__Webflow__data_element_tool`,
 6. **JSON-LD.** Run `python3 build-jsonld.py <slug>` and pass the printed string
    verbatim as jsonLdSchema in data_pages_tool bulk_update_pages_schema_markup
    (site_id + one page entry).
-7. **Verify.** One query_elements call checking 3 fields (heroLead, faqA1,
-   footerTag) now return the pack text. If a set_text silently failed, redo it.
+7. **Verify.** `query_elements` with `element_id` alone returns the element's
+   type/styles/settings but NO text — it cannot confirm a set_text landed. Use
+   either `element_id` + `children_depth: 1` (returns the String child with
+   `textContent`) or `element_filter: {text: "<distinctive substring>"}`.
+   Check heroLead, faqA1 and footerTag against the pack; redo any that differ.
+
+   Whole-rollout audit (cheaper than per-field checks): the Bellevue baseline
+   has 30 of 57 fields containing the word "Bellevue", while a correctly
+   applied city page should contain it only in `trustCell` ("Bellevue based"),
+   the static Google-review byline "Richard L. · Bellevue · Google", and
+   `faqA10` where the pack lists Bellevue as a neighbouring city. Query each
+   page for text "Bellevue" and compare the count to that expectation — any
+   excess is an unapplied field. Cover the remaining 27 fields by querying for
+   baseline-only phrases such as "curb or curbless entry, then tile",
+   "Nothing left in your driveway", "not just cement board and thinset",
+   "no reason to say yes on the spot" and
+   "photograph the membrane and the flood test", which must return zero
+   matches on every city page.
 
 Log progress per city to
 /home/user/ocflooring-comments/webflow-scripts/tile-rollout/apply-log-<slug>.txt
