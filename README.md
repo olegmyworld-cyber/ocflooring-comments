@@ -22,3 +22,32 @@ phones. See [`webflow-scripts/bonamobilefix-1.0.0.js`](webflow-scripts/bonamobil
 
 Published live to `nwocflooring.com`, `www.nwocflooring.com`, and the Webflow
 subdomain.
+
+## Changes on branch `claude/flooring-near-me-sections-icwi7l`
+
+### "near me" added to city-page hero copy (2026-08-28)
+
+**Request:** Add the phrase "near me" to the hero intro paragraph (the one under the
+H1/subheading, above the appointment button) on every city landing page.
+
+**Scope:** 149 city pages across the five service lines —
+carpet installation (30), tile installation (30), hardwood floor refinishing (29),
+floor repair (30), and vinyl plank installation (30).
+
+**Fix:** Each hero paragraph keeps its existing copy and gains a short lead-in
+question in front of it:
+
+> Searching for `<service>` near me in `<City>`? `<existing copy…>`
+
+Whidbey Island and Mercer Island use "near me **on** …". The Cottage Lake vinyl
+plank page already opened with "Vinyl plank flooring near me delivers…", so that
+stray phrase was dropped to avoid saying "near me" twice.
+
+Depending on how each page was built, the copy lives either in a `Section // Hero`
+component instance (`Description` prop) or in a plain hero paragraph
+(`paragraph-hero`, `ci-lede`, `ti-hero-lead`). Both were updated via the Webflow
+Data API. The full page-by-page list of lead-ins is in
+[`content-records/near-me-hero-lead-ins.csv`](content-records/near-me-hero-lead-ins.csv).
+
+Published live to `nwocflooring.com`, `www.nwocflooring.com`, and the Webflow
+subdomain.
