@@ -137,3 +137,27 @@ which the Seattle page does not have.
 
 Published live to `nwocflooring.com`, `www.nwocflooring.com`, and the Webflow
 subdomain.
+
+### Floor refinishing hub redesign reverted (2026-08-28)
+
+The redesign above was not wanted and has been undone. `/flooring-services-near-me/floor-refinishing`
+is back to its previous layout and copy:
+
+- Removed the added Benefits, FAQ, Flooring Guides, Cost and Schedule sections.
+- Restored the `Section // Reviews` and `Section // CTA` blocks and the original
+  section order (Hero · Partners · Features · Gallery · CTA 2 · Reviews · Services ·
+  CTA · Why Choose · Areas).
+- Hero back to the static background image (no video), H1 back to
+  "Love your floors again".
+- CTA 2, Why Choose and Cost copy reset to their previous values.
+- Cleared the `FAQPage` / `BreadcrumbList` JSON-LD that the redesign added; the page
+  again has no structured data, as before.
+
+The only thing intentionally kept is the "near me" lead-in in the hero paragraph, which
+predates the redesign and is part of the site-wide near-me work.
+
+Two pre-existing issues were restored along with everything else, and are still live:
+the Why Choose body copy ends with the stray note "what h tag i need to use?", and it
+describes Bellevue rather than the whole service area.
+
+Published live to `nwocflooring.com`, `www.nwocflooring.com`, and the Webflow subdomain.
