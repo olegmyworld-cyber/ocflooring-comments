@@ -1,8 +1,10 @@
 # OC Flooring Blog — Editorial Calendar & Standing Rules
 
-Cadence: **3 posts per week**, written in the OC Flooring house style and created as
-CMS items in the Webflow **Blogs** collection (`65f32565e111adbbb806ce92`,
-site `6377e8e6a53936b48ef1cad0`).
+Cadence: **3 posts per week — automated Mon/Wed/Fri ~7:00 AM Pacific** (Routine
+`trig_016wNSjucGgwvifoSmFcP3jD`, one post per run), written in the OC Flooring house
+style and created as **draft** CMS items in the Webflow **Blogs** collection
+(`65f32565e111adbbb806ce92`, site `6377e8e6a53936b48ef1cad0`). Publishing happens
+only after Oleg adds Main Image + Thumbnail.
 
 ## Standing rules (set by Oleg, 2026-08-28)
 
