@@ -161,3 +161,52 @@ the Why Choose body copy ends with the stray note "what h tag i need to use?", a
 describes Bellevue rather than the whole service area.
 
 Published live to `nwocflooring.com`, `www.nwocflooring.com`, and the Webflow subdomain.
+
+---
+
+## 2026-08-28 — Floor refinishing hub: process steps become a mobile slider
+
+Page: `/flooring-services-near-me/floor-refinishing` (`65f32565e111adbbb806cf36`)
+
+On phones the six "Step 1 … Step 6" process cards rendered as very tall, full-width
+stacked blocks — roughly six screens of scrolling for one section. They are now a
+horizontal, snap-scrolling slider on mobile.
+
+What changed on the page (two edits only — nothing was restructured):
+
+1. The card grid `.services-wrap.is-repair` (`4067ffcc-0e2a-216b-fd30-631bda5723f4`)
+   was given the DOM id `oc-steps`. All new CSS is scoped to that id, so the shared
+   `services-wrap` / `services-item-wpapper` classes are untouched on every other page.
+2. A new HTML Embed, "Steps Mobile Slider (embed)"
+   (`a52292c8-9137-8dc6-b17f-938caa63cf97`), was appended inside `container-main`
+   directly after the card grid. Its source is kept in
+   `webflow-scripts/floor-refinishing-steps-mobile-slider.html`.
+
+Behaviour by breakpoint:
+
+- **≤ 479px** — one card per screen at 84% width, so the next card peeks in and signals
+  the swipe; scroll-snaps to centre.
+- **480–767px** — same slider, two cards visible at 46% width.
+- **≥ 768px** — completely unchanged. The slider CSS lives entirely inside
+  `max-width: 767px` media queries and the dots are hidden.
+
+Design changes on mobile (mobile only):
+
+- Card padding removed so the photo is full-bleed at the top, fixed 11rem height with
+  `object-fit: cover` (previously the images were free-height and dominated the card).
+- Rounded 1rem corners, a soft shadow, left-aligned text.
+- The "Step N" line of each `h3` is turned into a small red pill badge by the embed's
+  script; the heading's `<br>` is hidden with CSS rather than removed from the DOM, so
+  the desktop two-line heading still renders exactly as before.
+- Progress dots below the slider; the active dot widens into a pill. Dots are clickable
+  and track scroll position.
+- The accent colour is read at runtime from the computed background of `.line-red`, so
+  the badge and dots always match the site's brand red (fallback `#c0392f`).
+
+Verified before publishing by rendering the section structure and its Webflow base
+styles locally in Chromium at 390px, 700px and 1280px.
+
+To undo: delete the embed element and clear the `oc-steps` DOM id. Nothing else was
+modified.
+
+Published live to `nwocflooring.com`, `www.nwocflooring.com`, and the Webflow subdomain.
