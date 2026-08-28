@@ -346,3 +346,30 @@ section (a legitimate buyer question), the 3-step process copy (already vinyl-co
 location-neutral), and the CTA 2 block.
 
 Published live to `nwocflooring.com`, `www.nwocflooring.com`, and the Webflow subdomain.
+
+---
+
+## 2026-08-28 — Vinyl plank hub page: new hero photo
+
+Page: `/flooring-services-near-me/vinyl-plank-flooring-and-laminate-flooring`
+(`65f32565e111adbbb806d0d7`)
+
+Replaced the floor-sanding hero photo (a refinishing image) with a vinyl plank
+installation photo — a fitter laying a plank over underlayment, asset
+`65f32565e111adbbb806cf98`.
+
+One prop write, no component changes: set **Hero Cover Image**
+(`de38cb5d-bad1-346f-8c74-ae9220d21eda`) on the hero instance
+`3101a4ea-758c-0a9b-e2f0-95429c683b54`. This is the prop added earlier today for the
+Seattle page, so the swap is now a single value per page.
+
+Known cosmetic issue: this same photo also appears further down the page in the
+`section_vinyl` block (`79cc8021-4b53-0f8b-7521-061d70ca6e1f`), so it now shows twice.
+Flagged to the owner; either image can be swapped in one call if they want them
+different.
+
+Still outstanding: the ~30 vinyl plank **city** pages
+(`vinyl-plank-flooring-installation-in-<city>-wa`) all still inherit the sander photo
+from the component default. Offered as a batch.
+
+Published live to `nwocflooring.com`, `www.nwocflooring.com`, and the Webflow subdomain.
