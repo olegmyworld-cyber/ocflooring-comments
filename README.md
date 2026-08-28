@@ -22,3 +22,11 @@ phones. See [`webflow-scripts/bonamobilefix-1.0.0.js`](webflow-scripts/bonamobil
 
 Published live to `nwocflooring.com`, `www.nwocflooring.com`, and the Webflow
 subdomain.
+
+## Blog content pipeline (branch `claude/oc-flooring-blogs-7ihsfc`)
+
+`blogs/` holds source records for CMS blog posts written for nwocflooring.com
+(3/week), plus the editorial calendar and standing rules in
+[`blogs/EDITORIAL-CALENDAR.md`](blogs/EDITORIAL-CALENDAR.md). Bodies are generated
+by the scripts in `blogs/src/` and created as draft items in the Webflow Blogs
+collection via the API.
