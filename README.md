@@ -373,3 +373,49 @@ Still outstanding: the ~30 vinyl plank **city** pages
 from the component default. Offered as a batch.
 
 Published live to `nwocflooring.com`, `www.nwocflooring.com`, and the Webflow subdomain.
+
+---
+
+## 2026-08-28 — Home page: H2 changed to "Wood Floor Refinishing"
+
+Page: Home (`65f32565e111adbbb806ce6e`)
+
+Audited every H2 the home page renders, then changed the one that carried the phrase
+"Hardwood Floor Refinishing".
+
+Changed:
+
+- FAQ embed (`45677bd5-6464-5d02-0495-73d844d53c95`, nested inside `section_faq`):
+  `<h2 id="faqx-title">Hardwood Floor Refinishing FAQ – Bellevue, WA</h2>` →
+  `Wood Floor Refinishing FAQ – Bellevue, WA`. It is plain HTML in the embed, so it is
+  in the served markup — no JS involved, crawlable as-is.
+
+Full H2 inventory of the home page, for reference:
+
+| H2 | Source | Contains the phrase? |
+|---|---|---|
+| Wood Floor Refinishing FAQ – Bellevue, WA | FAQ embed `45677bd5` | **yes — changed** |
+| The hardwood floors we refinish in Bellevue & Seattle | embed `9e0bbd5f` (`#oc-refinish-guide`) | no — says "hardwood floors", left alone |
+| Why Homeowners Trust OC Flooring | native heading `b66eb083` | no |
+| Our Gallery | `Section // Galllery` | no |
+| Like What You See? Let's Make It Yours | `Section // CTA 2` | no |
+| Our Services | `Section // Services` | no |
+| Why Choose OC Flooring in Bellevue, WA | `Section // Why Choose` | no |
+| Proudly Serving Homeowners Across King & Snohomish Counties | `Section // Areas` | no |
+| Refinishing Cost Guide – Bellevue & Nearby Areas | `Section // Cost` | no — and the section is hidden (`Section Visibility` = false) |
+
+Notes for future work:
+
+- "Hardwood Floor Refinishing Service Areas" is an **h3**, not an h2, and lives in the
+  shared `Section // Areas` component — editing it would change every page on the site.
+- The `Section // Services` subtitle ("…most trusted hardwood floor refinishing
+  service.") and the `Section // Why Choose` subtitle ("Trusted Hardwood Floor
+  Refinishers") are not heading elements, so they were out of scope.
+- Query gotcha: `element_filter {tag: "h2"}` matches Block/DOM elements only and returns
+  nothing for Webflow Heading elements — use `{type: "Heading"}` and read
+  `settings.headingLevel` instead.
+- The agent proxy blocks `cdn.prod.website-files.com`, so hosted script sources could not
+  be fetched to check for script-injected H2s. The locally mirrored scripts in
+  `webflow-scripts/` contain no `<h2>`.
+
+Published live to `nwocflooring.com`, `www.nwocflooring.com`, and the Webflow subdomain.
