@@ -282,3 +282,67 @@ To undo: clear the Hero Cover Image override on the Seattle instance (it falls b
 the default sander photo).
 
 Published live to `nwocflooring.com`, `www.nwocflooring.com`, and the Webflow subdomain.
+
+---
+
+## 2026-08-28 — Vinyl plank hub page retargeted to King & Snohomish counties
+
+Page: `/flooring-services-near-me/vinyl-plank-flooring-and-laminate-flooring`
+(`65f32565e111adbbb806d0d7`)
+
+The page carried a generic H1 and Bellevue-only body copy. It now targets King and
+Snohomish counties throughout, and the copy is about vinyl plank installation rather
+than hardwood.
+
+**Hero** (`3101a4ea-758c-0a9b-e2f0-95429c683b54`)
+
+- H1: "Vinyl & Laminate Flooring Installation " →
+  "Vinyl Plank Flooring Installation in King & Snohomish Counties"
+- Subheading: "Love Your Floors Again — Without the Mess" (a refinishing line) →
+  "Waterproof Floors Built for Northwest Homes"
+- Description now names both counties and anchor cities on each side of the line.
+  The "near me" lead-in was preserved.
+
+**Body copy**
+
+- Cost H2: "What Vinyl Flooring Costs in Bellevue & King County" →
+  "What Vinyl Plank Flooring Costs in King & Snohomish Counties"
+- Cost lead-in: "Most vinyl plank installs in Bellevue…" → "…across King and Snohomish
+  counties…". Edited the String node directly so the bold "$2,000–$4,000" survived.
+- Waterproof bullet: "perfect for Seattle's wet weather" → "built for wet Puget Sound
+  winters, from Seattle to Everett".
+
+**Why Choose** (`b35db868-9429-1318-2882-2d5b280a731c`)
+
+- Heading → "Luxury Vinyl Plank Flooring Installation Across King & Snohomish Counties"
+- Subtitle was "Trusted Experts in Hardwood Refinishing and Installation" — a hardwood
+  refinishing line inherited from the component default, on a vinyl page. Now
+  "Waterproof LVP Installed by Licensed Local Pros".
+- Body rewritten county-wide, ending with an explicit city list split by county.
+
+**FAQ embed** (`a4f7efe7-cc7e-2d6d-598e-474c05acff1d`)
+
+- Retitled to "…in King & Snohomish Counties".
+- Added a new first question, "Which cities do you install vinyl plank flooring in?",
+  listing all served cities by county.
+- The cost question and its answers now reference both counties, and the FAQPage JSON-LD
+  inside the embed was updated to match the visible text (8 questions, was 7).
+
+**SEO / head code**
+
+- Page-settings SEO title and description retargeted to both counties.
+- **Fixed a real bug:** the head custom code's canonical, hreflang, `og:url` and Service
+  `@id`/`url` all pointed at `https://www.nwocflooring.com/services-near-me/vinyl-plank-flooring-and-laminate-flooring`,
+  but the page's actual published path is `/flooring-services-near-me/…`. The page was
+  canonicalising itself to a different URL. All five now use the correct path.
+- Removed the duplicate `<title>` and `<meta name="description">` from the head code —
+  Webflow already emits both from page settings, so the page was shipping two of each.
+  They now come only from page settings.
+- Schema `areaServed` is now the two counties as `AdministrativeArea` entries, plus the
+  city list on the Service node.
+
+Left alone deliberately: the "Vinyl or Linoleum – What's Best for Your Home?" comparison
+section (a legitimate buyer question), the 3-step process copy (already vinyl-correct and
+location-neutral), and the CTA 2 block.
+
+Published live to `nwocflooring.com`, `www.nwocflooring.com`, and the Webflow subdomain.
