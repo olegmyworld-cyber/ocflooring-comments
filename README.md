@@ -51,3 +51,21 @@ Data API. The full page-by-page list of lead-ins is in
 
 Published live to `nwocflooring.com`, `www.nwocflooring.com`, and the Webflow
 subdomain.
+
+### "near me" extended to the Home page, service hubs and installation pages (2026-08-28)
+
+Follow-up to the change above, covering the pages the city-page pass had skipped:
+
+- **Home page (`/`)** — the hero shown in the original screenshot ("Dustless Hardwood
+  Floor Refinishing in Bellevue, WA"). It lives on the Home page rather than on a
+  city page, which is also why the refinishing city count was 29 and not 30.
+- **Three service hub pages** — `/services-near-me/floor-refinishing`,
+  `/services-near-me/flooring-repair`, and
+  `/services-near-me/vinyl-plank-flooring-and-laminate-flooring`. These are
+  region-wide, so their lead-in has no city: "Searching for `<service>` near me?"
+- **30 `hardwood-floor-installation-in-<city>` pages** — a sixth service line, using
+  the same city-specific pattern as the rest.
+
+Same approach as before: the existing copy is preserved and the lead-in question is
+prepended. Total across both passes: **183 pages**. Published live to
+`nwocflooring.com`, `www.nwocflooring.com`, and the Webflow subdomain.
