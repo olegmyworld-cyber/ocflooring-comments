@@ -240,3 +240,45 @@ To undo: re-insert a `Section // CTA` instance between the FAQ embed
 (`b35db868-9429-1318-2882-2d5b280a731c`).
 
 Published live to `nwocflooring.com`, `www.nwocflooring.com`, and the Webflow subdomain.
+
+---
+
+## 2026-08-28 — Seattle vinyl plank page: new hero photo
+
+Page: `/city-of-seattle/vinyl-plank-flooring-installation-in-seattle-wa`
+(`65fa331a9d90d967c68994a3`)
+
+The hero photo was a man running a Hummel drum sander on bare hardwood — a refinishing
+image on a vinyl plank page. It is now the plank-floor close-up (wide oak-look planks
+with a chair and side table), asset `65f32565e111adbbb806d223`.
+
+That photo was not a prop. It was hardcoded on the `hero-cover-img` image element
+(`90853aa2-42b4-3cbd-decf-9484f6779ce6`, asset `6a1a756e28c89451e4068776`) inside the
+shared `Section // Hero` component (`859df468-e2b7-0f08-0168-07d7647bc860`), so every
+page using that hero rendered the same sander photo and there was no way to override it
+per page.
+
+Changes:
+
+1. Added a new prop to `Section // Hero` — **Hero Cover Image**
+   (`de38cb5d-bad1-346f-8c74-ae9220d21eda`, type `image`), default
+   `6a1a756e28c89451e4068776`, i.e. the photo that was already there.
+2. Bound the `hero-cover-img` element's `assetId` to that prop.
+3. Set the prop to `65f32565e111adbbb806d223` on the Seattle page's hero instance
+   (`42a381c2-d362-3575-9a43-c784ee32bbf4`) only.
+
+Because the prop default is the original asset, every other page is byte-identical —
+verified on the vinyl + laminate hub page, whose hero still resolves to
+`6a1a756e28c89451e4068776` with no override.
+
+Useful side effect: the hero photo is now overridable per page from the Designer. Any
+other page can get its own hero image by setting **Hero Cover Image** on its instance,
+with no further component work.
+
+Note: the hero's separate **Background Image** prop is unrelated and was left alone —
+on the Seattle page it is still the family-in-kitchen photo (`68adb3df42707c30bd24f000`).
+
+To undo: clear the Hero Cover Image override on the Seattle instance (it falls back to
+the default sander photo).
+
+Published live to `nwocflooring.com`, `www.nwocflooring.com`, and the Webflow subdomain.
