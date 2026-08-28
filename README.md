@@ -97,3 +97,43 @@ calculator and the galleries do not use this hero section at all.
 
 Published live to `nwocflooring.com`, `www.nwocflooring.com`, and the Webflow
 subdomain.
+
+### Floor refinishing hub page rebuilt to match the Seattle city page (2026-08-28)
+
+`/flooring-services-near-me/floor-refinishing` (page `65f32565e111adbbb806cf36`) now
+mirrors the Seattle refinishing page section-for-section, with region-wide copy so the
+two pages don't compete for the same terms.
+
+**Section order — now identical to Seattle:**
+Navbar · Hero · Line RED · Partners · Benefits · Features · Gallery · Cost ·
+Schedule · CTA 2 · Services · FAQ · Why Choose · Areas · Flooring Guides · Footer
+
+**Added**
+- Benefits section, rebuilt natively with the Seattle classes (`section_benefits`,
+  `container-main is-benefits`, `benefits-item`, …) plus the red
+  "Get My Free In-Home Estimate" button.
+- `Section // Cost` and `Section // Schedule` component instances.
+- A 5-question FAQ block using the `sea-faq*` classes, with region-wide questions,
+  plus matching `FAQPage` + `BreadcrumbList` JSON-LD (the page had none before).
+- "Flooring Guides & Answers" links section, pointing at the five refinishing-related
+  service pages rather than Seattle-specific blog posts.
+
+**Changed**
+- Hero switched from the static background image to the video treatment Seattle uses;
+  H1 is now "Dustless Hardwood Floor Refinishing in Bellevue & Seattle, WA".
+- CTA 2, Why Choose and Cost copy rewritten region-wide. The Why Choose text had been
+  falling through to the component default, which ended with the stray note
+  "what h tag i need to use?" — that is gone.
+
+**Removed** (as agreed): the `Section // Reviews` and second `Section // CTA` blocks,
+which the Seattle page does not have.
+
+**Known deviations from Seattle** — API limits, not choices:
+- The gallery still shows all flooring types; Seattle's is filtered to hardwood. The
+  Designer's filter prop type is not writable through the Data API.
+- Benefit items render as plain text; Seattle bolds the leading question. `Strong` /
+  `Span` elements cannot be created through the element builder.
+- The guides list uses styled divs rather than `ul`/`li` for the same reason.
+
+Published live to `nwocflooring.com`, `www.nwocflooring.com`, and the Webflow
+subdomain.
