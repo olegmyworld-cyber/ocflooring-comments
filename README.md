@@ -69,3 +69,31 @@ Follow-up to the change above, covering the pages the city-page pass had skipped
 Same approach as before: the existing copy is preserved and the lead-in question is
 prepended. Total across both passes: **183 pages**. Published live to
 `nwocflooring.com`, `www.nwocflooring.com`, and the Webflow subdomain.
+
+### "near me" extended to the remaining service pages (2026-08-28)
+
+I had wrongly claimed the previous pass covered every hero on the site. It did not:
+the `/flooring-services-near-me/` folder holds **19** service pages and only 3 had
+been updated. The other **16** are now done:
+
+hardwood-floor-installation · laminate-flooring-installation ·
+stair-installation-and-remodeling · hardwood-floor-staining · dustless-floor-sanding ·
+eco-friendly-floor-refinishing · buff-and-recoat-hardwood-floors ·
+hardwood-floor-maintenance · solid-hardwood-flooring · engineered-hardwood-flooring ·
+unfinished-hardwood-floors · commercial-flooring-installation ·
+insurance-restoration-services · wood-wall-panels · flooring-store · our-products
+
+These are region-wide, so the lead-in carries no city: "Searching for `<service>`
+near me?" The buff-and-recoat page already opened with "Buff & Coat near me
+refreshes hardwood…", so that stray phrase was reworded to avoid saying "near me"
+twice.
+
+Running total: **199 pages**.
+
+**Deliberately left alone** — three pages use the same hero but are not service
+pages, so a "near me" lead-in would not fit the copy: Our Work, Why We're
+Different, and Financing. About Us, Contact, Reviews, Blog, the flooring
+calculator and the galleries do not use this hero section at all.
+
+Published live to `nwocflooring.com`, `www.nwocflooring.com`, and the Webflow
+subdomain.
