@@ -419,3 +419,61 @@ Notes for future work:
   `webflow-scripts/` contain no `<h2>`.
 
 Published live to `nwocflooring.com`, `www.nwocflooring.com`, and the Webflow subdomain.
+
+---
+
+## 2026-08-28 — All refinishing pages: H2 "Hardwood Floor Refinishing" → "Wood Floor Refinishing"
+
+Applied the same H2 change made on the home page earlier today to all 31 hardwood floor
+refinishing pages (29 city pages + 2 service hubs). **33 edits across 30 pages**,
+each read back from Webflow after writing to confirm it stored.
+
+**City pages (29).** All had exactly one qualifying H2 — the FAQ section heading. Two
+naming patterns existed and both were handled:
+
+- `"<City> Hardwood Floor Refinishing — FAQs"` → `"<City> Wood Floor Refinishing — FAQs"`
+  (27 pages)
+- `"Hardwood Floor Refinishing in <City>, WA — FAQs"` →
+  `"Wood Floor Refinishing in <City>, WA — FAQs"` (Seattle, Shoreline)
+
+**`HUB floor-refinishing`** had 4, three of them inside HTML embeds:
+
+- `Hardwood Floor Refinishing in Seattle, WA` → `Wood Floor Refinishing in Seattle, WA`
+- `What our hardwood floor refinishing service includes` → `What our wood floor refinishing service includes` (lowercase form preserved)
+- `Hardwood Floor Refinishing Across the Puget Sound` → `Wood Floor Refinishing Across the Puget Sound`
+- `Hardwood Floor Refinishing in Seattle, WA — FAQs` → `Wood Floor Refinishing in Seattle, WA — FAQs`
+
+**`HUB eco-friendly-floor-refinishing`** — no change, verified correct by hand. Its H2s are
+"Water-Based Urethane Finishes…", "Trusted Green Flooring Brands…", "Pall-X Gold &
+Pallmann Eco Finishes…" and, in its embed, "Eco-Friendly Hardwood Floor **Finishes** in
+Bellevue, WA — FAQs". None contain the phrase.
+
+Scope held to H2 text only. Untouched by design: H1s, H3–H6, FAQ `<summary>` questions,
+body copy, JSON-LD schema, CSS/JS, page SEO settings, and all component definitions
+(only per-page instances were written, so no shared component changed).
+
+### Verification
+
+An independent quality review of the run flagged three concerns; each was checked by hand:
+
+1. *"eco hub reported zero H2s without showing its work."* Re-audited directly — it has
+   3 H2s, none matching. The zero result was correct.
+2. *"`Dustless Hardwood Floor Refinishing in Sammamish, WA` may be an H2 that was skipped."*
+   Checked — it is the hero **H1**, correctly out of scope.
+3. *"No city-page embed was ever opened, and the hub kept 3 of 4 matches in embeds."*
+   Spot-checked Sammamish: its city-guide embed's H2 is "White oak & custom-stain
+   refinishing in Sammamish"; the phrase appears there only in a `<p class="cg-eyebrow">`,
+   not an H2. A full read-only sweep opening every embed on all 29 city pages is running
+   to close this properly.
+
+### Known gotchas (cost real time this run)
+
+- `element_filter {tag: "h2"}` returns **zero** for Webflow Heading elements — the tag
+  filter only matches Block/DOM elements. Use `{type: "Heading"}` + `settings.headingLevel`.
+  A silent zero here reads exactly like "page is clean" and is the main false-negative trap.
+- Heading text is in child String nodes, so `children_depth` must be ≥ 2 to read it, and a
+  text filter on the heading itself will not match.
+- `query_elements` with `{type: "HtmlEmbed"}` finds nested embeds; a top-level tree walk
+  does not.
+
+Published live to `nwocflooring.com`, `www.nwocflooring.com`, and the Webflow subdomain.
