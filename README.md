@@ -210,3 +210,33 @@ To undo: delete the embed element and clear the `oc-steps` DOM id. Nothing else 
 modified.
 
 Published live to `nwocflooring.com`, `www.nwocflooring.com`, and the Webflow subdomain.
+
+---
+
+## 2026-08-28 — Vinyl plank & laminate page: removed the in-home visit CTA
+
+Page: `/flooring-services-near-me/vinyl-plank-flooring-and-laminate-flooring`
+(`65f32565e111adbbb806d0d7`)
+
+Removed the "Free 30-Minute In-Home Flooring Visit" banner — the red full-bleed card
+with the copy "We come to you, measure the space, photograph the condition, and email
+you a written quote within 24 hours…" and the green "Schedule Free In-Home Estimate"
+button. It sat between the LVP FAQ embed and the Why Choose section.
+
+It was the `Section // CTA` component instance (`d477cb1b-09ef-c408-ea75-a86d119c2f7d`,
+component `da0eab0d-9168-89a7-b68f-090ba8869879`). The headline, body copy and button
+label are not props on that instance — they are overrides on the nested `CTA Wrapper`
+instance inside the component definition, which is why a page text search did not find
+them.
+
+Only this page's instance was deleted. The `Section // CTA` component definition is
+untouched, so every other page that uses it is unaffected.
+
+`Section // CTA 2` ("We Bring the Showroom to You") is still on the page — that is a
+different section and was left alone.
+
+To undo: re-insert a `Section // CTA` instance between the FAQ embed
+(`a4f7efe7-cc7e-2d6d-598e-474c05acff1d`) and `Section // Why Choose`
+(`b35db868-9429-1318-2882-2d5b280a731c`).
+
+Published live to `nwocflooring.com`, `www.nwocflooring.com`, and the Webflow subdomain.
