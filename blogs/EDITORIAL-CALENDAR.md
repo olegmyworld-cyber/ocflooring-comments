@@ -48,7 +48,7 @@ only after Oleg adds Main Image + Thumbnail.
 
 | Date | Topic (# from master list) | City | Slug | Webflow item | Status |
 |------|---------------------------|------|------|--------------|--------|
-| 2026-08-28 | 1. Water-based vs oil-based finish 🔥 | Bellevue | `water-based-vs-oil-based-floor-finish` | `6a92158f27f99832e0f5e272` | Draft — needs images |
+| 2026-08-28 | 1. Water-based vs oil-based finish 🔥 | Bellevue | `water-based-vs-oil-based-floor-finish` | `6a92158f27f99832e0f5e272` | **Published 2026-08-28** — images still to add |
 | 2026-08-28 | 2. Low-VOC finishes, kids & pets 🔥 | Everett | `low-voc-hardwood-floor-finishes-kids-pets` | `6a92161235db8207e7addc49` | Draft — needs images |
 | 2026-08-28 | 26. Refinishing fir floors 🔥 | Seattle | `refinishing-fir-floors-old-seattle-homes` | `6a921686d10d54b94afab8a3` | Draft — needs images |
 
