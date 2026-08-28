@@ -477,3 +477,42 @@ An independent quality review of the run flagged three concerns; each was checke
   does not.
 
 Published live to `nwocflooring.com`, `www.nwocflooring.com`, and the Webflow subdomain.
+
+### Completeness sweep result (same day)
+
+The independent read-only sweep finished. **29 pages swept, 86 embeds opened, zero misses.**
+
+- `pagesStillContainingPhraseInAnH2`: **empty** — no H2 anywhere still contains
+  "hardwood floor refinishing".
+- `pagesWhereNoEmbedWasOpened`: **empty** — every page had its embeds actually read
+  (2–4 each), which is the gap the first pass had left.
+- `pagesWithNoConfirmedSwap`: **empty** — every page shows its new "Wood Floor
+  Refinishing" heading.
+
+This closes the reviewer's concern: city-page embeds do contain H2s (one each, e.g.
+Arlington's "Bringing Arlington's oak and fir floors back to life"), but none carried the
+target phrase, so the one-edit-per-city-page result was correct rather than under-covered.
+
+### Still saying "hardwood" — 12 H2s, deliberately not changed
+
+These H2s mention hardwood in a form that is NOT the phrase "hardwood floor refinishing",
+so the rule left them alone. Listed here so the owner can decide whether they should change
+too:
+
+| Page | H2 |
+|---|---|
+| Bothell | Refinishing Bothell hardwood floors, your way |
+| Duvall | Repairing and refinishing Duvall's hardwood |
+| Issaquah | Refinishing engineered & solid hardwood in Issaquah |
+| Kirkland | Low-VOC hardwood refinishing for Kirkland homes & condos |
+| Lake Stevens | Restoring original hardwood in Lake Stevens |
+| Marysville | Affordable hardwood refinishing in Marysville |
+| Medina | Custom-color hardwood refinishing in Medina |
+| Newcastle | Refinish or replace? Newcastle hardwood, answered |
+| Renton | Why Renton Homeowners Choose Our Hardwood Refinishing Services |
+| Shoreline | Sand-and-refinish for Shoreline hardwood |
+| Snohomish | Restoring antique hardwood in Snohomish |
+| Woodinville | Custom-stain hardwood refinishing in Woodinville |
+
+Note that "hardwood refinishing" (Kirkland, Marysville, Medina, Renton, Woodinville) is the
+closest to the target phrase — it is the same idea with the word "Floor" omitted.
