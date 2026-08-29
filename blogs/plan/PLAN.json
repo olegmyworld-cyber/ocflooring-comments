@@ -1,0 +1,972 @@
+[
+ {
+  "seq": 1,
+  "topic": 5,
+  "name": "Bona Traffic HD vs Pallmann Pall-X: A Kirkland Contractor's Comparison",
+  "slug": "bona-traffic-hd-vs-pallmann-pall-x",
+  "category": "6a4d865c243ea1352fa4d555",
+  "catkey": "refinish",
+  "city": "Kirkland",
+  "publish_date": "2026-08-31"
+ },
+ {
+  "seq": 2,
+  "topic": 62,
+  "name": "Sandless Refinishing: Does It Actually Work? A Renton Reality Check",
+  "slug": "sandless-hardwood-floor-refinishing-does-it-work",
+  "category": "6a4d865c243ea1352fa4d555",
+  "catkey": "refinish",
+  "city": "Renton",
+  "publish_date": "2026-09-02"
+ },
+ {
+  "seq": 3,
+  "topic": 67,
+  "name": "Can Engineered Hardwood Be Refinished? Check the Wear Layer (Sammamish Guide)",
+  "slug": "can-engineered-hardwood-be-refinished-wear-layer",
+  "category": "6a4d865c243ea1352fa4d555",
+  "catkey": "refinish",
+  "city": "Sammamish",
+  "publish_date": "2026-09-04"
+ },
+ {
+  "seq": 4,
+  "topic": 77,
+  "name": "Refinishing a Mercer Island Waterfront Home",
+  "slug": "refinishing-mercer-island-waterfront-home",
+  "category": "6a4d865c243ea1352fa4d561",
+  "catkey": "local",
+  "city": "Mercer Island",
+  "publish_date": "2026-09-07"
+ },
+ {
+  "seq": 5,
+  "topic": 38,
+  "name": "How Long Before You Can Walk on Refinished Floors? A Redmond Timeline",
+  "slug": "how-long-before-you-can-walk-on-refinished-floors",
+  "category": "6a4d865c243ea1352fa4d555",
+  "catkey": "refinish",
+  "city": "Redmond",
+  "publish_date": "2026-09-09"
+ },
+ {
+  "seq": 6,
+  "topic": 11,
+  "name": "How to Restore Faded, Sun-Damaged Hardwood Floors in Edmonds Homes",
+  "slug": "restore-faded-sun-damaged-hardwood-floors",
+  "category": "6a4d865c243ea1352fa4d555",
+  "catkey": "refinish",
+  "city": "Edmonds",
+  "publish_date": "2026-09-11"
+ },
+ {
+  "seq": 7,
+  "topic": 92,
+  "name": "Gymnasium Floor Refinishing in Seattle: Process and Scheduling",
+  "slug": "gymnasium-floor-refinishing-seattle",
+  "category": "6a4d865c243ea1352fa4d555",
+  "catkey": "refinish",
+  "city": "Seattle",
+  "publish_date": "2026-09-14"
+ },
+ {
+  "seq": 8,
+  "topic": 55,
+  "name": "How Stair Refinishing Is Priced in Bellevue, and Why It's Per-Step",
+  "slug": "stair-refinishing-cost-per-step",
+  "category": "6a4d865c243ea1352fa4d55d",
+  "catkey": "cost",
+  "city": "Bellevue",
+  "publish_date": "2026-09-16"
+ },
+ {
+  "seq": 9,
+  "topic": 3,
+  "name": "Matte, Satin, or Semi-Gloss: Choosing a Hardwood Floor Sheen",
+  "slug": "matte-satin-semi-gloss-hardwood-floor-sheen",
+  "category": "6a4d865c243ea1352fa4d555",
+  "catkey": "refinish",
+  "city": null,
+  "publish_date": "2026-09-18"
+ },
+ {
+  "seq": 10,
+  "topic": 75,
+  "name": "Refinishing Floors in a 1920s Seattle Bungalow",
+  "slug": "refinishing-floors-1920s-seattle-bungalow",
+  "category": "6a4d865c243ea1352fa4d561",
+  "catkey": "local",
+  "city": "Seattle",
+  "publish_date": "2026-09-21"
+ },
+ {
+  "seq": 11,
+  "topic": 50,
+  "name": "What Makes One Lynnwood Refinishing Quote $2/sqft and Another $6",
+  "slug": "refinishing-quote-2-vs-6-per-sqft",
+  "category": "6a4d865c243ea1352fa4d55d",
+  "catkey": "cost",
+  "city": "Lynnwood",
+  "publish_date": "2026-09-23"
+ },
+ {
+  "seq": 12,
+  "topic": 65,
+  "name": "Hardwood Refinishing vs Wood Floor Cleaning Services in Everett",
+  "slug": "hardwood-refinishing-vs-floor-cleaning-services",
+  "category": "6a4d865c243ea1352fa4d555",
+  "catkey": "refinish",
+  "city": "Everett",
+  "publish_date": "2026-09-25"
+ },
+ {
+  "seq": 13,
+  "topic": 81,
+  "name": "Condo Refinishing in Bellevue: HOA Rules and Noise Windows",
+  "slug": "condo-hardwood-refinishing-bellevue-hoa",
+  "category": "6a4d865c243ea1352fa4d561",
+  "catkey": "local",
+  "city": "Bellevue",
+  "publish_date": "2026-09-28"
+ },
+ {
+  "seq": 14,
+  "topic": 30,
+  "name": "Douglas Fir vs Oak in an Older Seattle Craftsman Home",
+  "slug": "douglas-fir-vs-oak-craftsman-home",
+  "category": "6a4d865c243ea1352fa4d559",
+  "catkey": "species",
+  "city": "Seattle",
+  "publish_date": "2026-09-30"
+ },
+ {
+  "seq": 15,
+  "topic": 17,
+  "name": "Deep vs Surface Scratches: Which Need a Full Refinish",
+  "slug": "deep-vs-surface-scratches-hardwood-refinish",
+  "category": "6a4d865c243ea1352fa4d555",
+  "catkey": "refinish",
+  "city": null,
+  "publish_date": "2026-10-02"
+ },
+ {
+  "seq": 16,
+  "topic": 82,
+  "name": "Should You Refinish Floors Before Listing Your Kirkland Home",
+  "slug": "refinish-floors-before-listing-home",
+  "category": "6a4d865c243ea1352fa4d561",
+  "catkey": "local",
+  "city": "Kirkland",
+  "publish_date": "2026-10-05"
+ },
+ {
+  "seq": 17,
+  "topic": 72,
+  "name": "Best Time of Year to Refinish Floors in Everett and Western Washington",
+  "slug": "best-time-of-year-refinish-floors-western-washington",
+  "category": "6a4d865c243ea1352fa4d561",
+  "catkey": "local",
+  "city": "Everett",
+  "publish_date": "2026-10-07"
+ },
+ {
+  "seq": 18,
+  "topic": 21,
+  "name": "Pet Scratches on Hardwood in Renton: Repair, Recoat, or Refinish",
+  "slug": "pet-scratches-hardwood-repair-recoat-refinish",
+  "category": "6a4d865c243ea1352fa4d555",
+  "catkey": "refinish",
+  "city": "Renton",
+  "publish_date": "2026-10-09"
+ },
+ {
+  "seq": 19,
+  "topic": 84,
+  "name": "Flooring Decisions for Fix-and-Flip Investors in Renton and King County",
+  "slug": "fix-and-flip-flooring-king-county",
+  "category": "6a4d865c243ea1352fa4d561",
+  "catkey": "local",
+  "city": "Renton",
+  "publish_date": "2026-10-12"
+ },
+ {
+  "seq": 20,
+  "topic": 63,
+  "name": "Buff and Coat vs Full Sand in Sammamish: An Honest Comparison",
+  "slug": "buff-and-coat-vs-full-sand-refinishing",
+  "category": "6a4d865c243ea1352fa4d555",
+  "catkey": "refinish",
+  "city": "Sammamish",
+  "publish_date": "2026-10-14"
+ },
+ {
+  "seq": 21,
+  "topic": 44,
+  "name": "Refinishing an Occupied Redmond Home: Room-by-Room Scheduling",
+  "slug": "refinishing-occupied-home-room-by-room",
+  "category": "6a4d865c243ea1352fa4d555",
+  "catkey": "refinish",
+  "city": "Redmond",
+  "publish_date": "2026-10-16"
+ },
+ {
+  "seq": 22,
+  "topic": 7,
+  "name": "Why Natural (No Stain) Is the Most Popular Finish in Seattle Homes",
+  "slug": "natural-no-stain-hardwood-finish-seattle",
+  "category": "6a4d865c243ea1352fa4d555",
+  "catkey": "refinish",
+  "city": "Seattle",
+  "publish_date": "2026-10-19"
+ },
+ {
+  "seq": 23,
+  "topic": 12,
+  "name": "Cupped Hardwood Floors in Everett: Causes, and Whether Refinishing Fixes It",
+  "slug": "cupped-hardwood-floors-causes-refinishing",
+  "category": "6a4d865c243ea1352fa4d555",
+  "catkey": "refinish",
+  "city": "Everett",
+  "publish_date": "2026-10-21"
+ },
+ {
+  "seq": 24,
+  "topic": 52,
+  "name": "Refinish vs Replace: Running the Numbers on 800 sqft of Bellevue Oak",
+  "slug": "refinish-vs-replace-800-sqft-oak",
+  "category": "6a4d865c243ea1352fa4d55d",
+  "catkey": "cost",
+  "city": "Bellevue",
+  "publish_date": "2026-10-23"
+ },
+ {
+  "seq": 25,
+  "topic": 29,
+  "name": "Refinishing Hickory in Sammamish: Why the Grain Fights You",
+  "slug": "refinishing-hickory-floors-grain",
+  "category": "6a4d865c243ea1352fa4d559",
+  "catkey": "species",
+  "city": "Sammamish",
+  "publish_date": "2026-10-26"
+ },
+ {
+  "seq": 26,
+  "topic": 39,
+  "name": "What the Smell During Refinishing Is, and How Long It Lasts",
+  "slug": "refinishing-smell-how-long-it-lasts",
+  "category": "6a4d865c243ea1352fa4d555",
+  "catkey": "refinish",
+  "city": null,
+  "publish_date": "2026-10-28"
+ },
+ {
+  "seq": 27,
+  "topic": 86,
+  "name": "Cheapest Floor Upgrade That Still Passes a Kirkland Buyer Inspection",
+  "slug": "cheapest-floor-upgrade-buyer-inspection",
+  "category": "6a4d865c243ea1352fa4d561",
+  "catkey": "local",
+  "city": "Kirkland",
+  "publish_date": "2026-10-30"
+ },
+ {
+  "seq": 28,
+  "topic": 13,
+  "name": "Buckled Hardwood After a Leak in Renton: Repair or Replace",
+  "slug": "buckled-hardwood-after-leak-repair-replace",
+  "category": "6a4d865c243ea1352fa4d555",
+  "catkey": "refinish",
+  "city": "Renton",
+  "publish_date": "2026-11-02"
+ },
+ {
+  "seq": 29,
+  "topic": 97,
+  "name": "How to Clean Refinished Hardwood in Redmond Without Voiding the Warranty",
+  "slug": "clean-refinished-hardwood-without-voiding-warranty",
+  "category": "6a4d865c243ea1352fa4d55f",
+  "catkey": "care",
+  "city": "Redmond",
+  "publish_date": "2026-11-04"
+ },
+ {
+  "seq": 30,
+  "topic": 35,
+  "name": "Wide Plank Hardwood in Mercer Island Homes: Special Considerations",
+  "slug": "wide-plank-hardwood-refinishing-considerations",
+  "category": "6a4d865c243ea1352fa4d559",
+  "catkey": "species",
+  "city": "Mercer Island",
+  "publish_date": "2026-11-06"
+ },
+ {
+  "seq": 31,
+  "topic": 53,
+  "name": "Hidden Costs in Lynnwood Refinishing Quotes to Watch For",
+  "slug": "hidden-costs-refinishing-quotes",
+  "category": "6a4d865c243ea1352fa4d55d",
+  "catkey": "cost",
+  "city": "Lynnwood",
+  "publish_date": "2026-11-09"
+ },
+ {
+  "seq": 32,
+  "topic": 40,
+  "name": "Do You Need to Leave Your House During Refinishing?",
+  "slug": "do-you-need-to-leave-house-during-refinishing",
+  "category": "6a4d865c243ea1352fa4d555",
+  "catkey": "refinish",
+  "city": null,
+  "publish_date": "2026-11-11"
+ },
+ {
+  "seq": 33,
+  "topic": 14,
+  "name": "Black Stains on Hardwood in Edmonds: What They Are, Can They Be Sanded Out",
+  "slug": "black-stains-hardwood-can-they-be-sanded-out",
+  "category": "6a4d865c243ea1352fa4d555",
+  "catkey": "refinish",
+  "city": "Edmonds",
+  "publish_date": "2026-11-13"
+ },
+ {
+  "seq": 34,
+  "topic": 87,
+  "name": "What Home Inspectors Flag on Hardwood Floors in Seattle",
+  "slug": "what-home-inspectors-flag-hardwood-floors",
+  "category": "6a4d865c243ea1352fa4d561",
+  "catkey": "local",
+  "city": "Seattle",
+  "publish_date": "2026-11-16"
+ },
+ {
+  "seq": 35,
+  "topic": 66,
+  "name": "Drum vs Belt vs Orbital Sander: What Your Everett Contractor Uses",
+  "slug": "drum-belt-orbital-sander-comparison",
+  "category": "6a4d865c243ea1352fa4d555",
+  "catkey": "refinish",
+  "city": "Everett",
+  "publish_date": "2026-11-18"
+ },
+ {
+  "seq": 36,
+  "topic": 41,
+  "name": "How Many Times Can a Bellevue Hardwood Floor Be Refinished",
+  "slug": "how-many-times-can-hardwood-floor-be-refinished",
+  "category": "6a4d865c243ea1352fa4d555",
+  "catkey": "refinish",
+  "city": "Bellevue",
+  "publish_date": "2026-11-20"
+ },
+ {
+  "seq": 37,
+  "topic": 98,
+  "name": "Best and Worst Cleaners for Hardwood Floors",
+  "slug": "best-and-worst-cleaners-hardwood-floors",
+  "category": "6a4d865c243ea1352fa4d55f",
+  "catkey": "care",
+  "city": null,
+  "publish_date": "2026-11-23"
+ },
+ {
+  "seq": 38,
+  "topic": 33,
+  "name": "Ash Hardwood Floors in Kirkland: Refinishing and Staining Notes",
+  "slug": "ash-hardwood-floors-refinishing-staining",
+  "category": "6a4d865c243ea1352fa4d559",
+  "catkey": "species",
+  "city": "Kirkland",
+  "publish_date": "2026-11-25"
+ },
+ {
+  "seq": 39,
+  "topic": 54,
+  "name": "Is Recoating Worth It in Renton, or Just Delaying the Real Cost",
+  "slug": "is-recoating-worth-it-or-delaying-cost",
+  "category": "6a4d865c243ea1352fa4d55d",
+  "catkey": "cost",
+  "city": "Renton",
+  "publish_date": "2026-11-27"
+ },
+ {
+  "seq": 40,
+  "topic": 42,
+  "name": "What Happens to Your Baseboards During a Sammamish Refinish",
+  "slug": "what-happens-to-baseboards-during-refinish",
+  "category": "6a4d865c243ea1352fa4d555",
+  "catkey": "refinish",
+  "city": "Sammamish",
+  "publish_date": "2026-11-30"
+ },
+ {
+  "seq": 41,
+  "topic": 15,
+  "name": "Squeaky Hardwood Floors in Redmond: Why Refinishing Won't Fix It",
+  "slug": "squeaky-hardwood-floors-refinishing-wont-fix",
+  "category": "6a4d865c243ea1352fa4d555",
+  "catkey": "refinish",
+  "city": "Redmond",
+  "publish_date": "2026-12-02"
+ },
+ {
+  "seq": 42,
+  "topic": 73,
+  "name": "Refinishing During Seattle's Rainy Season",
+  "slug": "refinishing-during-seattle-rainy-season",
+  "category": "6a4d865c243ea1352fa4d561",
+  "catkey": "local",
+  "city": "Seattle",
+  "publish_date": "2026-12-04"
+ },
+ {
+  "seq": 43,
+  "topic": 68,
+  "name": "Refinishing vs Installing New Prefinished Hardwood in Everett",
+  "slug": "refinishing-vs-installing-new-prefinished-hardwood",
+  "category": "6a4d865c243ea1352fa4d555",
+  "catkey": "refinish",
+  "city": "Everett",
+  "publish_date": "2026-12-07"
+ },
+ {
+  "seq": 44,
+  "topic": 99,
+  "name": "Rugs and Rug Pads That Don't Damage Your Finish",
+  "slug": "rugs-and-rug-pads-that-dont-damage-finish",
+  "category": "6a4d865c243ea1352fa4d55f",
+  "catkey": "care",
+  "city": null,
+  "publish_date": "2026-12-09"
+ },
+ {
+  "seq": 45,
+  "topic": 27,
+  "name": "Refinishing Parquet Floors in Bellevue: What's Possible and What Isn't",
+  "slug": "refinishing-parquet-floors-whats-possible",
+  "category": "6a4d865c243ea1352fa4d559",
+  "catkey": "species",
+  "city": "Bellevue",
+  "publish_date": "2026-12-11"
+ },
+ {
+  "seq": 46,
+  "topic": 56,
+  "name": "Minimum Job Sizes in Lynnwood: Why Small Jobs Cost More Per Foot",
+  "slug": "minimum-job-sizes-small-refinishing-jobs",
+  "category": "6a4d865c243ea1352fa4d55d",
+  "catkey": "cost",
+  "city": "Lynnwood",
+  "publish_date": "2026-12-14"
+ },
+ {
+  "seq": 47,
+  "topic": 45,
+  "name": "What Contractors Do About HVAC and Dust Control in Mercer Island Homes",
+  "slug": "hvac-dust-control-during-refinishing",
+  "category": "6a4d865c243ea1352fa4d555",
+  "catkey": "refinish",
+  "city": "Mercer Island",
+  "publish_date": "2026-12-16"
+ },
+ {
+  "seq": 48,
+  "topic": 16,
+  "name": "White Cloudy Spots on Hardwood Floors in Edmonds Homes",
+  "slug": "white-cloudy-spots-hardwood-floors",
+  "category": "6a4d865c243ea1352fa4d555",
+  "catkey": "refinish",
+  "city": "Edmonds",
+  "publish_date": "2026-12-18"
+ },
+ {
+  "seq": 49,
+  "topic": 85,
+  "name": "Refinishing Rental Hardwood Between Tenants in Renton",
+  "slug": "refinishing-rental-hardwood-between-tenants",
+  "category": "6a4d865c243ea1352fa4d561",
+  "catkey": "local",
+  "city": "Renton",
+  "publish_date": "2026-12-21"
+ },
+ {
+  "seq": 50,
+  "topic": 69,
+  "name": "Screen and Recoat vs Chemical Abrasion Systems",
+  "slug": "screen-recoat-vs-chemical-abrasion",
+  "category": "6a4d865c243ea1352fa4d555",
+  "catkey": "refinish",
+  "city": null,
+  "publish_date": "2026-12-23"
+ },
+ {
+  "seq": 51,
+  "topic": 34,
+  "name": "Pine Floors in Century Homes: Refinishing Softwood in Seattle",
+  "slug": "pine-floors-century-homes-refinishing",
+  "category": "6a4d865c243ea1352fa4d559",
+  "catkey": "species",
+  "city": "Seattle",
+  "publish_date": "2026-12-25"
+ },
+ {
+  "seq": 52,
+  "topic": 57,
+  "name": "What a Kirkland Refinishing Deposit Should and Shouldn't Cover",
+  "slug": "refinishing-deposit-what-it-should-cover",
+  "category": "6a4d865c243ea1352fa4d55d",
+  "catkey": "cost",
+  "city": "Kirkland",
+  "publish_date": "2026-12-28"
+ },
+ {
+  "seq": 53,
+  "topic": 46,
+  "name": "Handling Transitions Between Rooms and Flooring Types in Redmond",
+  "slug": "flooring-transitions-between-rooms",
+  "category": "6a4d865c243ea1352fa4d555",
+  "catkey": "refinish",
+  "city": "Redmond",
+  "publish_date": "2026-12-30"
+ },
+ {
+  "seq": 54,
+  "topic": 18,
+  "name": "Sticky Hardwood Floors After Cleaning in Everett: What Went Wrong",
+  "slug": "sticky-hardwood-floors-after-cleaning",
+  "category": "6a4d865c243ea1352fa4d55f",
+  "catkey": "care",
+  "city": "Everett",
+  "publish_date": "2027-01-01"
+ },
+ {
+  "seq": 55,
+  "topic": 89,
+  "name": "Staging on Newly Refinished Floors in Bellevue: What Not to Do",
+  "slug": "staging-on-newly-refinished-floors",
+  "category": "6a4d865c243ea1352fa4d561",
+  "catkey": "local",
+  "city": "Bellevue",
+  "publish_date": "2027-01-04"
+ },
+ {
+  "seq": 56,
+  "topic": 28,
+  "name": "Bamboo Floor Refinishing in Sammamish: When It Works and When It Doesn't",
+  "slug": "bamboo-floor-refinishing-when-it-works",
+  "category": "6a4d865c243ea1352fa4d559",
+  "catkey": "species",
+  "city": "Sammamish",
+  "publish_date": "2027-01-06"
+ },
+ {
+  "seq": 57,
+  "topic": 100,
+  "name": "A 10-Year Maintenance Plan for Newly Refinished Floors",
+  "slug": "10-year-maintenance-plan-refinished-floors",
+  "category": "6a4d865c243ea1352fa4d55f",
+  "catkey": "care",
+  "city": null,
+  "publish_date": "2027-01-08"
+ },
+ {
+  "seq": 58,
+  "topic": 47,
+  "name": "Can You Refinish Hardwood Under Kitchen Cabinets in Lynnwood Homes",
+  "slug": "refinish-hardwood-under-kitchen-cabinets",
+  "category": "6a4d865c243ea1352fa4d555",
+  "catkey": "refinish",
+  "city": "Lynnwood",
+  "publish_date": "2027-01-11"
+ },
+ {
+  "seq": 59,
+  "topic": 19,
+  "name": "Peeling or Flaking Floor Finish in Seattle: Why It Happens",
+  "slug": "peeling-flaking-floor-finish-why",
+  "category": "6a4d865c243ea1352fa4d555",
+  "catkey": "refinish",
+  "city": "Seattle",
+  "publish_date": "2027-01-13"
+ },
+ {
+  "seq": 60,
+  "topic": 58,
+  "name": "Does Homeowners Insurance Cover Hardwood Floor Damage in Everett",
+  "slug": "homeowners-insurance-hardwood-floor-damage",
+  "category": "6a4d865c243ea1352fa4d55d",
+  "catkey": "cost",
+  "city": "Everett",
+  "publish_date": "2027-01-15"
+ },
+ {
+  "seq": 61,
+  "topic": 36,
+  "name": "Herringbone and Chevron in Mercer Island Homes: Sanding Patterned Floors",
+  "slug": "herringbone-chevron-sanding-patterned-floors",
+  "category": "6a4d865c243ea1352fa4d559",
+  "catkey": "species",
+  "city": "Mercer Island",
+  "publish_date": "2027-01-18"
+ },
+ {
+  "seq": 62,
+  "topic": 48,
+  "name": "Refinishing Around Radiators, Vents, and Built-Ins in Edmonds Homes",
+  "slug": "refinishing-around-radiators-vents-built-ins",
+  "category": "6a4d865c243ea1352fa4d555",
+  "catkey": "refinish",
+  "city": "Edmonds",
+  "publish_date": "2027-01-20"
+ },
+ {
+  "seq": 63,
+  "topic": 88,
+  "name": "Refinishing Timeline When You're Under Contract on a Kirkland Sale",
+  "slug": "refinishing-timeline-under-contract",
+  "category": "6a4d865c243ea1352fa4d561",
+  "catkey": "local",
+  "city": "Kirkland",
+  "publish_date": "2027-01-22"
+ },
+ {
+  "seq": 64,
+  "topic": 20,
+  "name": "Water Rings and Heat Marks on Hardwood",
+  "slug": "water-rings-heat-marks-hardwood",
+  "category": "6a4d865c243ea1352fa4d55f",
+  "catkey": "care",
+  "city": null,
+  "publish_date": "2027-01-25"
+ },
+ {
+  "seq": 65,
+  "topic": 70,
+  "name": "Site-Finished vs Factory-Finished in Renton: The Long-Term Reality",
+  "slug": "site-finished-vs-factory-finished-long-term",
+  "category": "6a4d865c243ea1352fa4d555",
+  "catkey": "refinish",
+  "city": "Renton",
+  "publish_date": "2027-01-27"
+ },
+ {
+  "seq": 66,
+  "topic": 59,
+  "name": "When a Cheap Redmond Refinishing Quote Costs You More Later",
+  "slug": "when-cheap-refinishing-quote-costs-more",
+  "category": "6a4d865c243ea1352fa4d55d",
+  "catkey": "cost",
+  "city": "Redmond",
+  "publish_date": "2027-01-29"
+ },
+ {
+  "seq": 67,
+  "topic": 80,
+  "name": "Old-Growth Fir in Ballard and Queen Anne Homes",
+  "slug": "old-growth-fir-ballard-queen-anne",
+  "category": "6a4d865c243ea1352fa4d561",
+  "catkey": "local",
+  "city": "Seattle",
+  "publish_date": "2027-02-01"
+ },
+ {
+  "seq": 68,
+  "topic": 49,
+  "name": "Why Your Refinished Floor Looks Different Room to Room in Bellevue",
+  "slug": "refinished-floor-looks-different-room-to-room",
+  "category": "6a4d865c243ea1352fa4d555",
+  "catkey": "refinish",
+  "city": "Bellevue",
+  "publish_date": "2027-02-03"
+ },
+ {
+  "seq": 69,
+  "topic": 22,
+  "name": "Worn Traffic Paths in Everett Hardwood: Can You Fix Just That Area",
+  "slug": "worn-traffic-paths-hardwood-spot-fix",
+  "category": "6a4d865c243ea1352fa4d555",
+  "catkey": "refinish",
+  "city": "Everett",
+  "publish_date": "2027-02-05"
+ },
+ {
+  "seq": 70,
+  "topic": 93,
+  "name": "Restaurant and Bar Hardwood in Seattle: Refinishing Around Service Hours",
+  "slug": "restaurant-bar-hardwood-refinishing",
+  "category": "6a4d865c243ea1352fa4d555",
+  "catkey": "refinish",
+  "city": "Seattle",
+  "publish_date": "2027-02-08"
+ },
+ {
+  "seq": 71,
+  "topic": 8,
+  "name": "Penetrating Oil Finishes in Sammamish: Pros, Cons, and Maintenance Reality",
+  "slug": "penetrating-oil-finish-pros-cons-maintenance",
+  "category": "6a4d865c243ea1352fa4d555",
+  "catkey": "refinish",
+  "city": "Sammamish",
+  "publish_date": "2027-02-10"
+ },
+ {
+  "seq": 72,
+  "topic": 23,
+  "name": "Uneven Color From a Previous Refinish in Lynnwood: Can It Be Corrected",
+  "slug": "uneven-color-previous-refinish-corrected",
+  "category": "6a4d865c243ea1352fa4d555",
+  "catkey": "refinish",
+  "city": "Lynnwood",
+  "publish_date": "2027-02-12"
+ },
+ {
+  "seq": 73,
+  "topic": 90,
+  "name": "Refinishing for Landlords in Everett: Durability Over Beauty",
+  "slug": "refinishing-for-landlords-durability",
+  "category": "6a4d865c243ea1352fa4d561",
+  "catkey": "local",
+  "city": "Everett",
+  "publish_date": "2027-02-15"
+ },
+ {
+  "seq": 74,
+  "topic": 4,
+  "name": "How Many Coats of Finish Does a Hardwood Floor Actually Need",
+  "slug": "how-many-coats-of-finish-hardwood-floor",
+  "category": "6a4d865c243ea1352fa4d555",
+  "catkey": "refinish",
+  "city": null,
+  "publish_date": "2027-02-17"
+ },
+ {
+  "seq": 75,
+  "topic": 31,
+  "name": "Can Cork Floors Be Refinished? A Kirkland Homeowner's Guide",
+  "slug": "can-cork-floors-be-refinished",
+  "category": "6a4d865c243ea1352fa4d559",
+  "catkey": "species",
+  "city": "Kirkland",
+  "publish_date": "2027-02-19"
+ },
+ {
+  "seq": 76,
+  "topic": 74,
+  "name": "Why Puget Sound Humidity Changes Your Everett Refinishing Schedule",
+  "slug": "puget-sound-humidity-refinishing-schedule",
+  "category": "6a4d865c243ea1352fa4d561",
+  "catkey": "local",
+  "city": "Everett",
+  "publish_date": "2027-02-22"
+ },
+ {
+  "seq": 77,
+  "topic": 24,
+  "name": "Nail Holes, Gouges, and Filler in Renton Floors: What Sanding Can't Hide",
+  "slug": "nail-holes-gouges-filler-what-sanding-cant-hide",
+  "category": "6a4d865c243ea1352fa4d555",
+  "catkey": "refinish",
+  "city": "Renton",
+  "publish_date": "2027-02-24"
+ },
+ {
+  "seq": 78,
+  "topic": 94,
+  "name": "Office and Retail Hardwood Refinishing in Seattle",
+  "slug": "office-retail-hardwood-refinishing-seattle",
+  "category": "6a4d865c243ea1352fa4d555",
+  "catkey": "refinish",
+  "city": "Seattle",
+  "publish_date": "2027-02-26"
+ },
+ {
+  "seq": 79,
+  "topic": 6,
+  "name": "Hardwood Sealer vs Finish: What's the Difference",
+  "slug": "hardwood-sealer-vs-finish-difference",
+  "category": "6a4d865c243ea1352fa4d555",
+  "catkey": "refinish",
+  "city": null,
+  "publish_date": "2027-03-01"
+ },
+ {
+  "seq": 80,
+  "topic": 32,
+  "name": "Refinishing Walnut in Mercer Island Homes Without Losing the Color",
+  "slug": "refinishing-walnut-without-losing-color",
+  "category": "6a4d865c243ea1352fa4d559",
+  "catkey": "species",
+  "city": "Mercer Island",
+  "publish_date": "2027-03-03"
+ },
+ {
+  "seq": 81,
+  "topic": 60,
+  "name": "Refinishing Cost by Room in Bellevue: Kitchen, Stairs, Hallway, Bedroom",
+  "slug": "refinishing-cost-by-room",
+  "category": "6a4d865c243ea1352fa4d55d",
+  "catkey": "cost",
+  "city": "Bellevue",
+  "publish_date": "2027-03-05"
+ },
+ {
+  "seq": 82,
+  "topic": 43,
+  "name": "Should You Refinish Before or After Painting in Redmond",
+  "slug": "refinish-before-or-after-painting",
+  "category": "6a4d865c243ea1352fa4d555",
+  "catkey": "refinish",
+  "city": "Redmond",
+  "publish_date": "2027-03-08"
+ },
+ {
+  "seq": 83,
+  "topic": 76,
+  "name": "Eastside vs Seattle Homes: Different Floors, Different Problems",
+  "slug": "eastside-vs-seattle-homes-different-floors",
+  "category": "6a4d865c243ea1352fa4d561",
+  "catkey": "local",
+  "city": "Bellevue",
+  "publish_date": "2027-03-10"
+ },
+ {
+  "seq": 84,
+  "topic": 25,
+  "name": "Mold Under Hardwood Floors in Edmonds: Signs and Next Steps",
+  "slug": "mold-under-hardwood-floors-signs",
+  "category": "6a4d865c243ea1352fa4d555",
+  "catkey": "refinish",
+  "city": "Edmonds",
+  "publish_date": "2027-03-12"
+ },
+ {
+  "seq": 85,
+  "topic": 95,
+  "name": "Church and Community Hall Floor Restoration in Everett",
+  "slug": "church-community-hall-floor-restoration",
+  "category": "6a4d865c243ea1352fa4d555",
+  "catkey": "refinish",
+  "city": "Everett",
+  "publish_date": "2027-03-15"
+ },
+ {
+  "seq": 86,
+  "topic": 9,
+  "name": "How Long Does a Hardwood Floor Finish Actually Last",
+  "slug": "how-long-does-hardwood-floor-finish-last",
+  "category": "6a4d865c243ea1352fa4d555",
+  "catkey": "refinish",
+  "city": null,
+  "publish_date": "2027-03-17"
+ },
+ {
+  "seq": 87,
+  "topic": 37,
+  "name": "Reclaimed Wood Floors in Seattle: Refinishing Without Killing the Character",
+  "slug": "reclaimed-wood-floors-refinishing-character",
+  "category": "6a4d865c243ea1352fa4d559",
+  "catkey": "species",
+  "city": "Seattle",
+  "publish_date": "2027-03-19"
+ },
+ {
+  "seq": 88,
+  "topic": 61,
+  "name": "What You're Actually Paying For in a Lynnwood Line-Item Estimate",
+  "slug": "line-item-refinishing-estimate-explained",
+  "category": "6a4d865c243ea1352fa4d55d",
+  "catkey": "cost",
+  "city": "Lynnwood",
+  "publish_date": "2027-03-22"
+ },
+ {
+  "seq": 89,
+  "topic": 78,
+  "name": "Daylight Basement Floors in Renton and the Pacific Northwest",
+  "slug": "daylight-basement-floors-pacific-northwest",
+  "category": "6a4d865c243ea1352fa4d561",
+  "catkey": "local",
+  "city": "Renton",
+  "publish_date": "2027-03-24"
+ },
+ {
+  "seq": 90,
+  "topic": 91,
+  "name": "Do Kirkland Buyers Pay More for Natural vs Stained Floors",
+  "slug": "buyers-natural-vs-stained-floors",
+  "category": "6a4d865c243ea1352fa4d561",
+  "catkey": "local",
+  "city": "Kirkland",
+  "publish_date": "2027-03-26"
+ },
+ {
+  "seq": 91,
+  "topic": 51,
+  "name": "Why Square Footage Alone Doesn't Set Your Seattle Refinishing Price",
+  "slug": "square-footage-alone-doesnt-set-price",
+  "category": "6a4d865c243ea1352fa4d55d",
+  "catkey": "cost",
+  "city": "Seattle",
+  "publish_date": "2027-03-29"
+ },
+ {
+  "seq": 92,
+  "topic": 64,
+  "name": "Refinishing vs Resurfacing vs Restoration: Terms Explained",
+  "slug": "refinishing-vs-resurfacing-vs-restoration-terms",
+  "category": "6a4d865c243ea1352fa4d555",
+  "catkey": "refinish",
+  "city": null,
+  "publish_date": "2027-03-31"
+ },
+ {
+  "seq": 93,
+  "topic": 10,
+  "name": "Whitewashed and Bleached Hardwood Floors: How They're Done",
+  "slug": "whitewashed-bleached-hardwood-floors",
+  "category": "6a4d865c243ea1352fa4d555",
+  "catkey": "refinish",
+  "city": null,
+  "publish_date": "2027-04-02"
+ },
+ {
+  "seq": 94,
+  "topic": 79,
+  "name": "Radiant Heat Under Hardwood in Redmond: Refinishing Considerations",
+  "slug": "radiant-heat-hardwood-refinishing",
+  "category": "6a4d865c243ea1352fa4d555",
+  "catkey": "refinish",
+  "city": "Redmond",
+  "publish_date": "2027-04-05"
+ },
+ {
+  "seq": 95,
+  "topic": 83,
+  "name": "What Refinished Floors Add to a Sammamish Appraisal",
+  "slug": "what-refinished-floors-add-to-appraisal",
+  "category": "6a4d865c243ea1352fa4d561",
+  "catkey": "local",
+  "city": "Sammamish",
+  "publish_date": "2027-04-07"
+ },
+ {
+  "seq": 96,
+  "topic": 96,
+  "name": "Commercial Refinishing Contracts in Bellevue: What Facility Managers Should Ask",
+  "slug": "commercial-refinishing-contracts-facility-managers",
+  "category": "6a4d865c243ea1352fa4d555",
+  "catkey": "refinish",
+  "city": "Bellevue",
+  "publish_date": "2027-04-09"
+ },
+ {
+  "seq": 97,
+  "topic": 71,
+  "name": "Pro Refinishing vs Rental Sander in Everett: What Actually Goes Wrong",
+  "slug": "pro-refinishing-vs-rental-sander",
+  "category": "6a4d865c243ea1352fa4d555",
+  "catkey": "refinish",
+  "city": "Everett",
+  "publish_date": "2027-04-12"
+ }
+]
