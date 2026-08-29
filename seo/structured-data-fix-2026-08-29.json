@@ -1,0 +1,184 @@
+{
+ "date": "2026-08-29",
+ "site": "nwocflooring.com",
+ "webflow_site_id": "6377e8e6a53936b48ef1cad0",
+ "source_audit": "Semrush Site Audit \u2014 'structured data items are invalid', crawled 2026-08-28 20:03 UTC (30 rows)",
+ "reported_error": "LocalBusiness: 'A value for the address field is required.'",
+ "root_cause": "The LocalBusiness JSON-LD inside each page's oc-ocf-reviews embed carried only name, telephone, areaServed and review. Google requires 'address' on LocalBusiness. The address nested inside areaServed describes the city served, not the business, so it does not satisfy the requirement.",
+ "fix_applied": {
+  "field": "address",
+  "value": {
+   "@type": "PostalAddress",
+   "streetAddress": "13343 NE Bel Red Rd #210",
+   "addressLocality": "Bellevue",
+   "addressRegion": "WA",
+   "postalCode": "98005",
+   "addressCountry": "US"
+  },
+  "source": "the canonical LocalBusiness (#ocflooring) already defined on the homepage",
+  "pages": 30
+ },
+ "additional_fix": {
+  "issue": "BreadcrumbList item URL pointed at https://www.nwocflooring.com/services/hardwood-floor-installation, which 404s after the services URL rename",
+  "replacement": "https://www.nwocflooring.com/flooring-services-near-me/hardwood-floor-installation",
+  "pages": 30
+ },
+ "verification": [
+  "All 30 page schemas re-fetched: 0 contain the old /services/ URL, 30 contain the new one.",
+  "Byte-level check: each page's schema differs from its pre-fix version ONLY by that URL.",
+  "7 embeds re-read and independently parsed: address present exactly once, JSON valid, LocalBusiness keys ['@context','@type','name','telephone','address','areaServed','review'], each areaServed city matches its own page.",
+  "Template-integrity check: embeds normalized by city name are byte-identical across pages, confirming no page-specific review copy was overwritten."
+ ],
+ "pages": [
+  {
+   "path": "/city-of-bellevue/hardwood-floor-installation-in-bellevue-wa",
+   "address_added": true,
+   "breadcrumb_fixed": true
+  },
+  {
+   "path": "/city-of-kenmore/hardwood-floor-installation-in-kenmore-wa",
+   "address_added": true,
+   "breadcrumb_fixed": true
+  },
+  {
+   "path": "/city-of-mercer-island/hardwood-floor-installation-in-mercer-island-wa",
+   "address_added": true,
+   "breadcrumb_fixed": true
+  },
+  {
+   "path": "/city-of-oak-harbor/hardwood-floor-installation-in-oak-harbor-wa",
+   "address_added": true,
+   "breadcrumb_fixed": true
+  },
+  {
+   "path": "/city-of-snoqualmie/hardwood-floor-installation-in-snoqualmie-wa",
+   "address_added": true,
+   "breadcrumb_fixed": true
+  },
+  {
+   "path": "/city-of-cottage-lake/hardwood-floor-installation-in-cottage-lake-wa",
+   "address_added": true,
+   "breadcrumb_fixed": true
+  },
+  {
+   "path": "/city-of-kirkland/hardwood-floor-installation-in-kirkland-wa",
+   "address_added": true,
+   "breadcrumb_fixed": true
+  },
+  {
+   "path": "/city-of-mill-creek/hardwood-floor-installation-in-mill-creek-wa",
+   "address_added": true,
+   "breadcrumb_fixed": true
+  },
+  {
+   "path": "/city-of-redmond/hardwood-floor-installation-in-redmond-wa",
+   "address_added": true,
+   "breadcrumb_fixed": true
+  },
+  {
+   "path": "/city-of-whidbey-island/hardwood-floor-installation-in-whidbey-island-wa",
+   "address_added": true,
+   "breadcrumb_fixed": true
+  },
+  {
+   "path": "/city-of-duvall/hardwood-floor-installation-in-duvall-wa",
+   "address_added": true,
+   "breadcrumb_fixed": true
+  },
+  {
+   "path": "/city-of-lake-stevens/hardwood-floor-installation-in-lake-stevens-wa",
+   "address_added": true,
+   "breadcrumb_fixed": true
+  },
+  {
+   "path": "/city-of-monroe/hardwood-floor-installation-in-monroe-wa",
+   "address_added": true,
+   "breadcrumb_fixed": true
+  },
+  {
+   "path": "/city-of-renton/hardwood-floor-installation-in-renton-wa",
+   "address_added": true,
+   "breadcrumb_fixed": true
+  },
+  {
+   "path": "/city-of-woodinville/hardwood-floor-installation-in-woodinville-wa",
+   "address_added": true,
+   "breadcrumb_fixed": true
+  },
+  {
+   "path": "/city-of-edmonds/hardwood-floor-installation-in-edmonds-wa",
+   "address_added": true,
+   "breadcrumb_fixed": true
+  },
+  {
+   "path": "/city-of-lynnwood/hardwood-floor-installation-in-lynnwood-wa",
+   "address_added": true,
+   "breadcrumb_fixed": true
+  },
+  {
+   "path": "/city-of-mukilteo/hardwood-floor-installation-in-mukilteo-wa",
+   "address_added": true,
+   "breadcrumb_fixed": true
+  },
+  {
+   "path": "/city-of-sammamish/hardwood-floor-installation-in-sammamish-wa",
+   "address_added": true,
+   "breadcrumb_fixed": true
+  },
+  {
+   "path": "/hardwood-floor-refinishing/hardwood-floor-installation-in-bothell-wa",
+   "address_added": true,
+   "breadcrumb_fixed": true
+  },
+  {
+   "path": "/city-of-everett/hardwood-floor-installation-in-everett-wa",
+   "address_added": true,
+   "breadcrumb_fixed": true
+  },
+  {
+   "path": "/city-of-marysville/hardwood-floor-installation-in-marysville-wa",
+   "address_added": true,
+   "breadcrumb_fixed": true
+  },
+  {
+   "path": "/city-of-new-castle/hardwood-floor-installation-in-newcastle-wa",
+   "address_added": true,
+   "breadcrumb_fixed": true
+  },
+  {
+   "path": "/city-of-shoreline/hardwood-floor-installation-in-shoreline-wa",
+   "address_added": true,
+   "breadcrumb_fixed": true
+  },
+  {
+   "path": "/seattle/hardwood-floor-installation-in-seattle-wa",
+   "address_added": true,
+   "breadcrumb_fixed": true
+  },
+  {
+   "path": "/city-of-issaquah/hardwood-floor-installation-in-issaquah-wa",
+   "address_added": true,
+   "breadcrumb_fixed": true
+  },
+  {
+   "path": "/city-of-medina/hardwood-floor-installation-in-medina-wa",
+   "address_added": true,
+   "breadcrumb_fixed": true
+  },
+  {
+   "path": "/city-of-north-bend/hardwood-floor-installation-in-north-bend-wa",
+   "address_added": true,
+   "breadcrumb_fixed": true
+  },
+  {
+   "path": "/city-of-snohomish/hardwood-floor-installation-in-snohomish-wa",
+   "address_added": true,
+   "breadcrumb_fixed": true
+  },
+  {
+   "path": "/arlington/hardwood-floor-installation",
+   "address_added": true,
+   "breadcrumb_fixed": true
+  }
+ ]
+}
