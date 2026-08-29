@@ -970,5 +970,934 @@
    "old": "/services/hardwood-floor-installation",
    "new": "/flooring-services-near-me/hardwood-floor-installation"
   }
- ]
+ ],
+ "stale_href_attribute_pass": {
+  "why": "Link elements carried BOTH a Webflow link setting and a redundant custom HTML attribute named 'href'. Correcting the link setting left the custom attribute holding the old 404 URL, so each element carried two conflicting values.",
+  "method": "Removed the redundant custom href attribute, leaving the corrected Webflow link setting as the single source of truth. Note: Webflow reserves 'href' and rejects set_attributes on it ('internal error occurred'); remove_attribute and set_link both work.",
+  "page_checks": 208,
+  "attributes_removed": 184,
+  "pages_affected": 62,
+  "details": [
+   {
+    "path": "/tile-gallery",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-renton/tile-installation-in-renton-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-renton/tile-installation-in-renton-wa",
+    "stale_attr": "/services/hardwood-floor-installation",
+    "link_setting": "/flooring-services-near-me/hardwood-floor-installation"
+   },
+   {
+    "path": "/city-of-renton/tile-installation-in-renton-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-renton/tile-installation-in-renton-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-mercer-island/tile-installation-in-mercer-island-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-mercer-island/tile-installation-in-mercer-island-wa",
+    "stale_attr": "/services/hardwood-floor-installation",
+    "link_setting": "/flooring-services-near-me/hardwood-floor-installation"
+   },
+   {
+    "path": "/city-of-mercer-island/tile-installation-in-mercer-island-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-mercer-island/tile-installation-in-mercer-island-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-everett/tile-installation-in-everett-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-everett/tile-installation-in-everett-wa",
+    "stale_attr": "/services/hardwood-floor-installation",
+    "link_setting": "/flooring-services-near-me/hardwood-floor-installation"
+   },
+   {
+    "path": "/city-of-everett/tile-installation-in-everett-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-everett/tile-installation-in-everett-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-whidbey-island/carpet-installation-in-whidbey-island-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-whidbey-island/carpet-installation-in-whidbey-island-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-oak-harbor/carpet-installation-in-oak-harbor-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-oak-harbor/carpet-installation-in-oak-harbor-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-marysville/carpet-installation-in-marysville-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-marysville/carpet-installation-in-marysville-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-cottage-lake/carpet-installation-in-cottage-lake-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-cottage-lake/carpet-installation-in-cottage-lake-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-woodinville/tile-installation-in-woodinville-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-woodinville/tile-installation-in-woodinville-wa",
+    "stale_attr": "/services/hardwood-floor-installation",
+    "link_setting": "/flooring-services-near-me/hardwood-floor-installation"
+   },
+   {
+    "path": "/city-of-woodinville/tile-installation-in-woodinville-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-woodinville/tile-installation-in-woodinville-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-redmond/tile-installation-in-redmond-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-redmond/tile-installation-in-redmond-wa",
+    "stale_attr": "/services/hardwood-floor-installation",
+    "link_setting": "/flooring-services-near-me/hardwood-floor-installation"
+   },
+   {
+    "path": "/city-of-redmond/tile-installation-in-redmond-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-redmond/tile-installation-in-redmond-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-medina/tile-installation-in-medina-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-medina/tile-installation-in-medina-wa",
+    "stale_attr": "/services/hardwood-floor-installation",
+    "link_setting": "/flooring-services-near-me/hardwood-floor-installation"
+   },
+   {
+    "path": "/city-of-medina/tile-installation-in-medina-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-medina/tile-installation-in-medina-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-edmonds/tile-installation-in-edmonds-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-edmonds/tile-installation-in-edmonds-wa",
+    "stale_attr": "/services/hardwood-floor-installation",
+    "link_setting": "/flooring-services-near-me/hardwood-floor-installation"
+   },
+   {
+    "path": "/city-of-edmonds/tile-installation-in-edmonds-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-edmonds/tile-installation-in-edmonds-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-snoqualmie/carpet-installation-in-snoqualmie-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-snoqualmie/carpet-installation-in-snoqualmie-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-north-bend/carpet-installation-in-north-bend-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-north-bend/carpet-installation-in-north-bend-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-lynnwood/carpet-installation-in-lynnwood-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-lynnwood/carpet-installation-in-lynnwood-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/arlington/carpet-installation",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/arlington/carpet-installation",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-whidbey-island/tile-installation-in-whidbey-island-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-whidbey-island/tile-installation-in-whidbey-island-wa",
+    "stale_attr": "/services/hardwood-floor-installation",
+    "link_setting": "/flooring-services-near-me/hardwood-floor-installation"
+   },
+   {
+    "path": "/city-of-whidbey-island/tile-installation-in-whidbey-island-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-whidbey-island/tile-installation-in-whidbey-island-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-oak-harbor/tile-installation-in-oak-harbor-wa",
+    "stale_attr": "(already removed prior to this pass)",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-oak-harbor/tile-installation-in-oak-harbor-wa",
+    "stale_attr": "/services/hardwood-floor-installation",
+    "link_setting": "/flooring-services-near-me/hardwood-floor-installation"
+   },
+   {
+    "path": "/city-of-oak-harbor/tile-installation-in-oak-harbor-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-oak-harbor/tile-installation-in-oak-harbor-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-marysville/tile-installation-in-marysville-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-marysville/tile-installation-in-marysville-wa",
+    "stale_attr": "/services/hardwood-floor-installation",
+    "link_setting": "/flooring-services-near-me/hardwood-floor-installation"
+   },
+   {
+    "path": "/city-of-marysville/tile-installation-in-marysville-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-marysville/tile-installation-in-marysville-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-duvall/tile-installation-in-duvall-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-duvall/tile-installation-in-duvall-wa",
+    "stale_attr": "/services/hardwood-floor-installation",
+    "link_setting": "/flooring-services-near-me/hardwood-floor-installation"
+   },
+   {
+    "path": "/city-of-duvall/tile-installation-in-duvall-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-duvall/tile-installation-in-duvall-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-snohomish/carpet-installation-in-snohomish-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-snohomish/carpet-installation-in-snohomish-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-new-castle/carpet-installation-in-newcastle-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-new-castle/carpet-installation-in-newcastle-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-lake-stevens/carpet-installation-in-lake-stevens-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-lake-stevens/carpet-installation-in-lake-stevens-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/hardwood-floor-refinishing/carpet-installation-in-bothell-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/hardwood-floor-refinishing/carpet-installation-in-bothell-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-snoqualmie/tile-installation-in-snoqualmie-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-snoqualmie/tile-installation-in-snoqualmie-wa",
+    "stale_attr": "/services/hardwood-floor-installation",
+    "link_setting": "/flooring-services-near-me/hardwood-floor-installation"
+   },
+   {
+    "path": "/city-of-snoqualmie/tile-installation-in-snoqualmie-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-snoqualmie/tile-installation-in-snoqualmie-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-north-bend/tile-installation-in-north-bend-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-north-bend/tile-installation-in-north-bend-wa",
+    "stale_attr": "/services/hardwood-floor-installation",
+    "link_setting": "/flooring-services-near-me/hardwood-floor-installation"
+   },
+   {
+    "path": "/city-of-north-bend/tile-installation-in-north-bend-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-north-bend/tile-installation-in-north-bend-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-lynnwood/tile-installation-in-lynnwood-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-lynnwood/tile-installation-in-lynnwood-wa",
+    "stale_attr": "/services/hardwood-floor-installation",
+    "link_setting": "/flooring-services-near-me/hardwood-floor-installation"
+   },
+   {
+    "path": "/city-of-lynnwood/tile-installation-in-lynnwood-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-lynnwood/tile-installation-in-lynnwood-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-cottage-lake/tile-installation-in-cottage-lake-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-cottage-lake/tile-installation-in-cottage-lake-wa",
+    "stale_attr": "/services/hardwood-floor-installation",
+    "link_setting": "/flooring-services-near-me/hardwood-floor-installation"
+   },
+   {
+    "path": "/city-of-cottage-lake/tile-installation-in-cottage-lake-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-cottage-lake/tile-installation-in-cottage-lake-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-shoreline/carpet-installation-in-shoreline-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-shoreline/carpet-installation-in-shoreline-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-mukilteo/carpet-installation-in-mukilteo-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-mukilteo/carpet-installation-in-mukilteo-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-kenmore/carpet-installation-in-kenmore-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-kenmore/carpet-installation-in-kenmore-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-kirkland/carpet-installation-in-kirkland-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-kirkland/carpet-installation-in-kirkland-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-snohomish/tile-installation-in-snohomish-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-snohomish/tile-installation-in-snohomish-wa",
+    "stale_attr": "/services/hardwood-floor-installation",
+    "link_setting": "/flooring-services-near-me/hardwood-floor-installation"
+   },
+   {
+    "path": "/city-of-snohomish/tile-installation-in-snohomish-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-snohomish/tile-installation-in-snohomish-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-new-castle/tile-installation-in-newcastle-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-new-castle/tile-installation-in-newcastle-wa",
+    "stale_attr": "/services/hardwood-floor-installation",
+    "link_setting": "/flooring-services-near-me/hardwood-floor-installation"
+   },
+   {
+    "path": "/city-of-new-castle/tile-installation-in-newcastle-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-new-castle/tile-installation-in-newcastle-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-lake-stevens/tile-installation-in-lake-stevens-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-lake-stevens/tile-installation-in-lake-stevens-wa",
+    "stale_attr": "/services/hardwood-floor-installation",
+    "link_setting": "/flooring-services-near-me/hardwood-floor-installation"
+   },
+   {
+    "path": "/city-of-lake-stevens/tile-installation-in-lake-stevens-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-lake-stevens/tile-installation-in-lake-stevens-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/hardwood-floor-refinishing/tile-installation-in-bothell-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/hardwood-floor-refinishing/tile-installation-in-bothell-wa",
+    "stale_attr": "/services/hardwood-floor-installation",
+    "link_setting": "/flooring-services-near-me/hardwood-floor-installation"
+   },
+   {
+    "path": "/hardwood-floor-refinishing/tile-installation-in-bothell-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/hardwood-floor-refinishing/tile-installation-in-bothell-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/seattle/carpet-installation-in-seattle-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/seattle/carpet-installation-in-seattle-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-monroe/carpet-installation-in-monroe-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-monroe/carpet-installation-in-monroe-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-issaquah/carpet-installation-in-issaquah-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-issaquah/carpet-installation-in-issaquah-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-bellevue/carpet-installation-in-bellevue-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-shoreline/tile-installation-in-shoreline-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-shoreline/tile-installation-in-shoreline-wa",
+    "stale_attr": "/services/hardwood-floor-installation",
+    "link_setting": "/flooring-services-near-me/hardwood-floor-installation"
+   },
+   {
+    "path": "/city-of-shoreline/tile-installation-in-shoreline-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-shoreline/tile-installation-in-shoreline-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-mukilteo/tile-installation-in-mukilteo-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-mukilteo/tile-installation-in-mukilteo-wa",
+    "stale_attr": "/services/hardwood-floor-installation",
+    "link_setting": "/flooring-services-near-me/hardwood-floor-installation"
+   },
+   {
+    "path": "/city-of-mukilteo/tile-installation-in-mukilteo-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-mukilteo/tile-installation-in-mukilteo-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-kirkland/tile-installation-in-kirkland-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-kirkland/tile-installation-in-kirkland-wa",
+    "stale_attr": "/services/hardwood-floor-installation",
+    "link_setting": "/flooring-services-near-me/hardwood-floor-installation"
+   },
+   {
+    "path": "/city-of-kirkland/tile-installation-in-kirkland-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-kirkland/tile-installation-in-kirkland-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/arlington/tile-installation",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/arlington/tile-installation",
+    "stale_attr": "/services/hardwood-floor-installation",
+    "link_setting": "/flooring-services-near-me/hardwood-floor-installation"
+   },
+   {
+    "path": "/arlington/tile-installation",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/arlington/tile-installation",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-renton/carpet-installation-in-renton-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-renton/carpet-installation-in-renton-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-mill-creek/carpet-installation-in-mill-creek-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-mill-creek/carpet-installation-in-mill-creek-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-edmonds/carpet-installation-in-edmonds-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-edmonds/carpet-installation-in-edmonds-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/seattle/tile-installation-in-seattle-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/seattle/tile-installation-in-seattle-wa",
+    "stale_attr": "/services/hardwood-floor-installation",
+    "link_setting": "/flooring-services-near-me/hardwood-floor-installation"
+   },
+   {
+    "path": "/seattle/tile-installation-in-seattle-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/seattle/tile-installation-in-seattle-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-monroe/tile-installation-in-monroe-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-monroe/tile-installation-in-monroe-wa",
+    "stale_attr": "/services/hardwood-floor-installation",
+    "link_setting": "/flooring-services-near-me/hardwood-floor-installation"
+   },
+   {
+    "path": "/city-of-monroe/tile-installation-in-monroe-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-monroe/tile-installation-in-monroe-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-kenmore/tile-installation-in-kenmore-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-kenmore/tile-installation-in-kenmore-wa",
+    "stale_attr": "/services/hardwood-floor-installation",
+    "link_setting": "/flooring-services-near-me/hardwood-floor-installation"
+   },
+   {
+    "path": "/city-of-kenmore/tile-installation-in-kenmore-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-kenmore/tile-installation-in-kenmore-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-bellevue/tile-installation-in-bellevue-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-bellevue/tile-installation-in-bellevue-wa",
+    "stale_attr": "/services/hardwood-floor-installation",
+    "link_setting": "/flooring-services-near-me/hardwood-floor-installation"
+   },
+   {
+    "path": "/city-of-bellevue/tile-installation-in-bellevue-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-bellevue/tile-installation-in-bellevue-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-sammamish/carpet-installation-in-sammamish-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-sammamish/carpet-installation-in-sammamish-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-mercer-island/carpet-installation-in-mercer-island-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-mercer-island/carpet-installation-in-mercer-island-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-everett/carpet-installation-in-everett-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-everett/carpet-installation-in-everett-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/reviews",
+    "stale_attr": "/services/floor-refinishing",
+    "link_setting": "/flooring-services-near-me/floor-refinishing"
+   },
+   {
+    "path": "/reviews",
+    "stale_attr": "/services/flooring-repair",
+    "link_setting": "/flooring-services-near-me/flooring-repair"
+   },
+   {
+    "path": "/reviews",
+    "stale_attr": "/services/vinyl-plank-flooring-and-laminate-flooring",
+    "link_setting": "/flooring-services-near-me/vinyl-plank-flooring-and-laminate-flooring"
+   },
+   {
+    "path": "/reviews",
+    "stale_attr": "/services/hardwood-floor-installation",
+    "link_setting": "/flooring-services-near-me/hardwood-floor-installation"
+   },
+   {
+    "path": "/city-of-sammamish/tile-installation-in-sammamish-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-sammamish/tile-installation-in-sammamish-wa",
+    "stale_attr": "/services/hardwood-floor-installation",
+    "link_setting": "/flooring-services-near-me/hardwood-floor-installation"
+   },
+   {
+    "path": "/city-of-sammamish/tile-installation-in-sammamish-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-sammamish/tile-installation-in-sammamish-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-mill-creek/tile-installation-in-mill-creek-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-mill-creek/tile-installation-in-mill-creek-wa",
+    "stale_attr": "/services/hardwood-floor-installation",
+    "link_setting": "/flooring-services-near-me/hardwood-floor-installation"
+   },
+   {
+    "path": "/city-of-mill-creek/tile-installation-in-mill-creek-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-mill-creek/tile-installation-in-mill-creek-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-issaquah/tile-installation-in-issaquah-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-issaquah/tile-installation-in-issaquah-wa",
+    "stale_attr": "/services/hardwood-floor-installation",
+    "link_setting": "/flooring-services-near-me/hardwood-floor-installation"
+   },
+   {
+    "path": "/city-of-issaquah/tile-installation-in-issaquah-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-issaquah/tile-installation-in-issaquah-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-woodinville/carpet-installation-in-woodinville-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-woodinville/carpet-installation-in-woodinville-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-redmond/carpet-installation-in-redmond-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-redmond/carpet-installation-in-redmond-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-medina/carpet-installation-in-medina-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-medina/carpet-installation-in-medina-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-duvall/carpet-installation-in-duvall-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   },
+   {
+    "path": "/city-of-duvall/carpet-installation-in-duvall-wa",
+    "stale_attr": "/services/our-products",
+    "link_setting": "/flooring-services-near-me/our-products"
+   }
+  ]
+ }
 }
