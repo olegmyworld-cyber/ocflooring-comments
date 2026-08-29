@@ -21,15 +21,24 @@ A canonical pointing at a 404 tells Google the page's authoritative version does
 
 ## Why these files exist instead of the fix being applied
 
-Webflow's Data API **refuses any write to page head custom code that contains a `<script>` tag** — it returns HTTP 406. This was verified directly, not assumed:
+Webflow's Data API **refuses to write page head custom code that contains a canonical link, an hreflang link, or a `<script>` tag** — it returns HTTP 406. Webflow owns those tags (canonical is a native Page Settings SEO field), so it rejects them in raw head code.
+
+Established by bisection against a live page, restoring the original content after each test:
 
 | Payload | Result |
 |---|---|
-| 450 bytes, meta tags only | **200 OK** |
-| 60 bytes: `<meta …/>` + `<script>var a=1;</script>` | **406** |
-| 4.6 KB corrected head with JSON-LD script | **406** |
+| `<meta charset>` + robots | **200 OK** |
+| `<meta name="viewport">` + robots | **200 OK** |
+| `<title>` + robots | **200 OK** |
+| 4,912-byte head with og/twitter meta and `<template>` blocks | **200 OK** |
+| `<link rel="canonical" …>` + robots | **406** |
+| `<link rel="alternate" hreflang=…>` + robots | **406** |
+| `<script>var a=1;</script>` + robots | **406** |
+| `<script type="application/ld+json">` + robots | **406** |
 
-16 of the 18 pages carry a JSON-LD `<script>` in head code, so they cannot be written through the API. The two that can (`hardwood-floor-installation`, which uses `<template>` instead of `<script>`, and `flooring-repair`, whose head is meta-only) were applied via API.
+This rules out size and content volume as causes — a 4.9 KB write succeeded while a 60-byte one containing a canonical link failed.
+
+**Consequence:** the canonical and hreflang tags — the exact things that need correcting — cannot be written through the API under any arrangement. Relocating the JSON-LD into Webflow's native schema field (which *is* API-writable, and was verified working) does not help, because the remaining head code still contains the canonical and hreflang links that trigger the rejection. These pages must be edited in the Webflow Designer.
 
 ## How to apply the rest
 

@@ -21,17 +21,21 @@ The dead URL was not only in the canonical. It repeated in:
 
 **108 stale URL references across 18 service pages**, plus 21 more across 3 Arlington pages found by a wider sweep (below).
 
-## The blocker: Webflow's API refuses head code containing `<script>`
+## The blocker: Webflow's API refuses canonical links, hreflang links and scripts in head code
 
-Writes to page head custom code fail with **HTTP 406** whenever the payload contains a `<script>` tag. Verified by bisection rather than assumed:
+Writes to page head custom code fail with **HTTP 406** when the payload contains a `<link rel="canonical">`, a `<link rel="alternate" hreflang>`, or a `<script>` tag. Webflow owns those tags — canonical is a native Page Settings SEO field — so it rejects them in raw head code. Established by bisection against a live page, restoring the original after each test:
 
 | Payload | Result |
 |---|---|
-| 450 bytes, meta tags only | **200 OK** |
-| 60 bytes: `<meta …/>` + `<script>var a=1;</script>` | **406** |
-| 4.6 KB corrected head containing JSON-LD | **406** |
+| `<meta charset>`, `<meta viewport>`, `<title>`, og/twitter meta | **200 OK** |
+| 4,912-byte head with `<template>` blocks | **200 OK** |
+| `<link rel="canonical" …>` | **406** |
+| `<link rel="alternate" hreflang=…>` | **406** |
+| `<script>` (plain or `application/ld+json`) | **406** |
 
-Reads always succeed; only writes are affected. 19 of the 21 affected pages carry a `<script>` in head code, so they cannot be repaired through the API.
+Size is not the cause: a 4.9 KB write succeeded while a 60-byte one containing a canonical link failed. Reads always succeed.
+
+**This means the canonical and hreflang tags cannot be corrected through the API at all.** Moving the JSON-LD into Webflow's native page schema field *is* API-writable and was verified working, but it does not unblock these pages, because the remaining head code still contains the canonical and hreflang links that trigger the rejection. The Designer is the only route.
 
 ## What was fixed automatically
 

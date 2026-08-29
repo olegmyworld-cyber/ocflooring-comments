@@ -1,0 +1,149 @@
+[
+ {
+  "file": "buff-and-recoat-hardwood-floors.head.html",
+  "jsonld": 1,
+  "other_scripts": 0,
+  "guardrail": false,
+  "other_len": 0
+ },
+ {
+  "file": "commercial-flooring-installation.head.html",
+  "jsonld": 1,
+  "other_scripts": 0,
+  "guardrail": false,
+  "other_len": 0
+ },
+ {
+  "file": "dustless-floor-sanding.head.html",
+  "jsonld": 1,
+  "other_scripts": 0,
+  "guardrail": false,
+  "other_len": 0
+ },
+ {
+  "file": "eco-friendly-floor-refinishing.head.html",
+  "jsonld": 1,
+  "other_scripts": 0,
+  "guardrail": false,
+  "other_len": 0
+ },
+ {
+  "file": "engineered-hardwood-flooring.head.html",
+  "jsonld": 2,
+  "other_scripts": 1,
+  "guardrail": true,
+  "other_len": 631
+ },
+ {
+  "file": "floor-refinishing.head.html",
+  "jsonld": 1,
+  "other_scripts": 0,
+  "guardrail": false,
+  "other_len": 0
+ },
+ {
+  "file": "flooring-repair.head.html",
+  "jsonld": 0,
+  "other_scripts": 0,
+  "guardrail": false,
+  "other_len": 0
+ },
+ {
+  "file": "flooring-store.head.html",
+  "jsonld": 1,
+  "other_scripts": 1,
+  "guardrail": true,
+  "other_len": 617
+ },
+ {
+  "file": "hardwood-floor-installation-arlington.head.html",
+  "jsonld": 2,
+  "other_scripts": 1,
+  "guardrail": true,
+  "other_len": 614
+ },
+ {
+  "file": "hardwood-floor-installation.head.html",
+  "jsonld": 0,
+  "other_scripts": 0,
+  "guardrail": false,
+  "other_len": 0
+ },
+ {
+  "file": "hardwood-floor-maintenance.head.html",
+  "jsonld": 1,
+  "other_scripts": 1,
+  "guardrail": true,
+  "other_len": 629
+ },
+ {
+  "file": "hardwood-floor-refinishing-arlington.head.html",
+  "jsonld": 2,
+  "other_scripts": 1,
+  "guardrail": true,
+  "other_len": 613
+ },
+ {
+  "file": "hardwood-floor-staining.head.html",
+  "jsonld": 1,
+  "other_scripts": 0,
+  "guardrail": false,
+  "other_len": 0
+ },
+ {
+  "file": "insurance-restoration-services.head.html",
+  "jsonld": 1,
+  "other_scripts": 0,
+  "guardrail": false,
+  "other_len": 0
+ },
+ {
+  "file": "laminate-flooring-installation.head.html",
+  "jsonld": 2,
+  "other_scripts": 1,
+  "guardrail": true,
+  "other_len": 633
+ },
+ {
+  "file": "our-products.head.html",
+  "jsonld": 1,
+  "other_scripts": 1,
+  "guardrail": true,
+  "other_len": 615
+ },
+ {
+  "file": "solid-hardwood-flooring.head.html",
+  "jsonld": 2,
+  "other_scripts": 1,
+  "guardrail": true,
+  "other_len": 626
+ },
+ {
+  "file": "stair-installation-and-remodeling.head.html",
+  "jsonld": 1,
+  "other_scripts": 0,
+  "guardrail": false,
+  "other_len": 0
+ },
+ {
+  "file": "unfinished-hardwood-floors.head.html",
+  "jsonld": 2,
+  "other_scripts": 1,
+  "guardrail": true,
+  "other_len": 629
+ },
+ {
+  "file": "vinyl-plank-flooring-installation-arlington.head.html",
+  "jsonld": 2,
+  "other_scripts": 1,
+  "guardrail": true,
+  "other_len": 620
+ },
+ {
+  "file": "wood-wall-panels.head.html",
+  "jsonld": 2,
+  "other_scripts": 1,
+  "guardrail": true,
+  "other_len": 619
+ }
+]
