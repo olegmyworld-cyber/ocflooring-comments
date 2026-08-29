@@ -34,7 +34,8 @@ only after Oleg adds Main Image + Thumbnail.
    dark-red CTA block, "Related reading" footer, reveal-animation script), plus a
    **green published-date pill** (`date_badge()`, #16a34a) as the first visible element
    of every post — set it to the actual publish date, and refresh it if a draft
-   publishes on a later day. Generators in `blogs/src/` — reuse `builder.py`.
+   publishes on a later day. The **post-summary must also start with the publish
+   date** (`August 28, 2026 · …`) so the date shows on the blog-grid cards. Generators in `blogs/src/` — reuse `builder.py`.
 5. **Consistent facts:** $1.99/sq ft screen & recoat · $3.99 natural refinish ·
    $6.50 stain refinish · stairs $55–$75/tread · 500 sq ft minimum · dust containment
    +$250 · washer/dryer pair +$160, other appliances +$80 · new-install labor $3–$4.25/sq ft ·
