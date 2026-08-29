@@ -30,3 +30,14 @@ subdomain.
 [`blogs/EDITORIAL-CALENDAR.md`](blogs/EDITORIAL-CALENDAR.md). Bodies are generated
 by the scripts in `blogs/src/` and created as draft items in the Webflow Blogs
 collection via the API.
+
+### Blog card date pills — ocBlogDates (2026-08-29)
+
+Every blog post's `post-summary` now begins with its publish/creation date
+(`March 18, 2023 · …`). [`webflow-scripts/ocblogdates-1.0.0.js`](webflow-scripts/ocblogdates-1.0.0.js)
+finds that prefix on text-only card summaries, strips it from the text, and inserts
+a green pill (#16a34a) above the summary — matching the in-article date badge on
+new posts. Registered as inline script `ocblogdates` and applied **page-level**
+(the site footer block is at its 15-script limit) to the Blog listing page,
+the Blogs Template, and the Blog Categories Template. Idempotent, with a
+MutationObserver for dynamically injected related-post cards.
