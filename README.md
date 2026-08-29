@@ -22,3 +22,16 @@ phones. See [`webflow-scripts/bonamobilefix-1.0.0.js`](webflow-scripts/bonamobil
 
 Published live to `nwocflooring.com`, `www.nwocflooring.com`, and the Webflow
 subdomain.
+
+## SEO
+
+### Semrush 4xx client errors (2026-08-29)
+
+23 URLs returning 404. Two were unpublished blog drafts linked from a live post — both
+published via the CMS API, no redirect needed. The other 21 are paths that never existed
+(`/services-near-me/*` instead of the real `/flooring-services-near-me/*`, plus five
+city-level laminate pages that were never created) and need 301 redirects, which the
+Webflow Data API cannot set.
+
+Redirect table, verified targets, and the one remaining manual code fix:
+[`seo/301-redirects-2026-08-29.md`](seo/301-redirects-2026-08-29.md).
