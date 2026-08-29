@@ -1,10 +1,22 @@
 # OC Flooring Blog — Editorial Calendar & Standing Rules
 
-Cadence: **3 posts per week — automated Mon/Wed/Fri ~7:00 AM Pacific** (Routine
-`trig_016wNSjucGgwvifoSmFcP3jD`, one post per run), written in the OC Flooring house
-style and created as **draft** CMS items in the Webflow **Blogs** collection
-(`65f32565e111adbbb806ce92`, site `6377e8e6a53936b48ef1cad0`). Publishing happens
-only after Oleg adds Main Image + Thumbnail.
+Cadence: **3 posts per week — automated Mon/Wed/Fri ~7:00 AM Pacific**
+(Routine `trig_016wNSjucGgwvifoSmFcP3jD`, one post per run).
+
+**All 100 posts are written.** They exist as **draft** CMS items in the Webflow
+**Blogs** collection (`65f32565e111adbbb806ce92`, site `6377e8e6a53936b48ef1cad0`),
+each pre-dated to its scheduled slot in `blogs/plan/PLAN.json`
+(2026-08-31 → 2027-04-12).
+
+The routine is now in **PUBLISH mode**, not write mode. Each run it:
+1. finds the earliest post that is due and not yet in `blogs/PUBLISHED.json`;
+2. **image gate** — if that post has no Main Image, it publishes NOTHING and notifies
+   Oleg (the queue waits rather than skipping ahead);
+3. otherwise sets `isDraft: false`, publishes that one item, records it in
+   `blogs/PUBLISHED.json`, and pushes.
+
+Oleg's only recurring task: add **Main Image + Thumbnail** to upcoming drafts in
+Webflow CMS → Blogs, working down the queue in date order.
 
 ## Standing rules (set by Oleg, 2026-08-28)
 
