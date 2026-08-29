@@ -1,0 +1,51 @@
+[
+ {
+  "seq": 8,
+  "slug": "stair-refinishing-cost-per-step",
+  "item_id": "6a922e231584be1e5d8d01ca",
+  "ok": true,
+  "note": "draft created; validated incl. mid-batch rule update (4+ blog links, Bellevue->Kirkland/Seattle pages)"
+ },
+ {
+  "seq": 9,
+  "slug": "matte-satin-semi-gloss-hardwood-floor-sheen",
+  "item_id": "6a922f4fa54c8f443f904746",
+  "ok": true,
+  "note": "draft created; general post, 5 blog links, Seattle city page"
+ },
+ {
+  "seq": 10,
+  "slug": "refinishing-floors-1920s-seattle-bungalow",
+  "item_id": "6a92304119d5c595374a9ce9",
+  "ok": true,
+  "note": "draft created; Seattle local section + city page"
+ },
+ {
+  "seq": 11,
+  "slug": "refinishing-quote-2-vs-6-per-sqft",
+  "item_id": "6a9231314b4041c69325c80c",
+  "ok": true,
+  "note": "draft created; Lynnwood city page linked"
+ },
+ {
+  "seq": 12,
+  "slug": "hardwood-refinishing-vs-floor-cleaning-services",
+  "item_id": "6a92322163e0c17b5d90fc30",
+  "ok": true,
+  "note": "draft created; Everett city page linked"
+ },
+ {
+  "seq": 13,
+  "slug": "condo-hardwood-refinishing-bellevue-hoa",
+  "item_id": "6a92330fe17eff730b4009eb",
+  "ok": true,
+  "note": "draft created; Bellevue exception -> Kirkland + Seattle pages"
+ },
+ {
+  "seq": 14,
+  "slug": "douglas-fir-vs-oak-craftsman-home",
+  "item_id": "6a9234020e74f6e4e6fe7964",
+  "ok": true,
+  "note": "draft created; Seattle city page linked"
+ }
+]
