@@ -22,3 +22,31 @@ phones. See [`webflow-scripts/bonamobilefix-1.0.0.js`](webflow-scripts/bonamobil
 
 Published live to `nwocflooring.com`, `www.nwocflooring.com`, and the Webflow
 subdomain.
+
+## Changes on branch `claude/nwocflooring-blog-sections-470kqm`
+
+### Blog listing page — removed three trailing sections (2026-08-29)
+
+**Request:** remove the "See Available Appointments" CTA, the Google Reviews
+carousel, and the "More services" carousel from `/blog`.
+
+**Change:** removed three component instances from the Blog page
+(`65f32565e111adbbb806ceaa`) via the Webflow Data API. No component definitions
+were touched, so every other page that uses these sections is unaffected.
+
+| Removed instance | Component | Rendered as |
+| --- | --- | --- |
+| `fb218189-298c-5985-be04-6be23ffba878` | `Section // CTA 2` | "See Available Appointments" + image grid + *Schedule Free In-Home Estimate* button |
+| `e8f86afb-d7cf-889a-5692-3a73ef388a65` | `Section // Reviews` | Elfsight Google Reviews widget (`elfsight-app-48ef4cd4-…`) |
+| `8f988b5e-0fe5-5afa-8f20-343cc2093e03` | `Section // Services` | "More services" carousel + *Book Appointment* button |
+
+Page body order is now: Global Styles, Navbar, `section_hero-services`,
+`Line RED`, `Section // Partners`, `section_blog`, `Section // Areas`, `Footer`.
+
+No script change was needed: neither `octrustreviewsinjector9d` nor
+`ocreviewsmover` runs on `/blog` (both guard on home / city / about-us /
+our-work / why-were-different paths), so nothing re-injects a review section
+there.
+
+Published live to `nwocflooring.com`, `www.nwocflooring.com`, and the Webflow
+subdomain.
