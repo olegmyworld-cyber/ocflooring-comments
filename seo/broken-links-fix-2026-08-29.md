@@ -42,6 +42,6 @@ Fixing only the link setting leaves a contradictory `href` attribute behind, whi
 
 - Live HTML could not be fetched to confirm the rendered output: this session's egress policy returns 403 for `nwocflooring.com` and `oc-flooring.webflow.io`. Removing the conflicting attribute is correct regardless of which of the two values Webflow would have rendered. Re-running the Semrush audit is the way to confirm end to end.
 - The Semrush crawl predates the Aug 28 23:58 publish, so a handful of its rows were already stale (e.g. Arlington pages have since moved to `/arlington/…` with short slugs).
-- No 301 redirects were added (the Webflow MCP connector doesn't expose the redirects API). If old `/services/…` URLs have external backlinks, adding wildcard 301s in Webflow Site Settings → Publishing → 301 redirects would preserve that equity: `/services/(.*)` → `/flooring-services-near-me/%1` and `/services-near-me/(.*)` → `/flooring-services-near-me/%1`.
+- No 301 redirects were added: the Webflow Data API's 301-redirect endpoints are gated to Enterprise hosting plans and this site is not on one (confirmed by an API call). The required rules are written up in `301-redirects-required.md` and must be added by hand in Site Settings → Publishing → 301 redirects.
 - Machine-readable details: `broken-links-fix-2026-08-29.json` (per-page and per-post counts).
 - Re-run the Semrush audit to confirm the error count drops to zero.

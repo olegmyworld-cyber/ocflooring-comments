@@ -1,0 +1,9 @@
+fromUrl,toUrl,note
+"/services-near-me/(.*)","/flooring-services-near-me/%1","wildcard - covers 15 URLs"
+"/city-of-edmonds/laminate-flooring-installation-in-edmonds-wa","/flooring-services-near-me/laminate-flooring-installation",""
+"/city-of-everett/laminate-flooring-installation-in-everett-wa","/flooring-services-near-me/laminate-flooring-installation",""
+"/city-of-lynnwood/laminate-flooring-installation-in-lynnwood-wa","/flooring-services-near-me/laminate-flooring-installation",""
+"/city-of-mukilteo/laminate-flooring-installation-in-mukilteo-wa","/flooring-services-near-me/laminate-flooring-installation",""
+"/city-of-snohomish/laminate-flooring-installation-in-snohomish-wa","/flooring-services-near-me/laminate-flooring-installation",""
+"/city-of-bellevue/hardwood-floor-refinishing-in-bellevue-wa","/","homepage is the Bellevue refinishing page"
+"/services/(.*)","/flooring-services-near-me/%1","recommended - not in audit but likely holds backlinks"
