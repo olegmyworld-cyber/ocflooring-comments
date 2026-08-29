@@ -55,11 +55,14 @@ Link that city's service page: `/hardwood-floor-refinishing-in-<city>-wa` (lower
 still link ≥1 city refinishing page naturally.
 
 ## Link rules (STRICT — validator enforces)
-Internal links may ONLY be: slugs in `blogs/plan/EXISTING-SLUGS.txt` (as `/blog/<slug>` for blog
-posts, or bare `/<slug>` for pages in `blogs/plan/pages_index.json`), OR `/blog/<slug>` of a
+Internal links may ONLY be: `/blog/<slug>` for slugs in `blogs/plan/EXISTING-SLUGS.txt`, exact paths
+listed in `blogs/plan/VALID-PAGE-PATHS.txt` for site pages, OR `/blog/<slug>` of a
 PLAN.json post whose `publish_date` is STRICTLY EARLIER than yours. **At least 4 distinct `/blog/` links per post**
 (4–6 is the target) in prose + related; **the post's own city refinishing page is MANDATORY**
-(`/hardwood-floor-refinishing-in-<city>-wa`; Bellevue posts link Seattle or Kirkland instead);
+(city service pages live in FOLDERS — use the exact paths in `blogs/plan/URL-MAP.json`,
+e.g. `/city-of-kirkland/hardwood-floor-refinishing-in-kirkland-wa` and the Seattle exception
+`/seattle/hardwood-floor-refinishing-in-seattle-wa`. NEVER link the bare `/hardwood-floor-...` form —
+it 404s. Bellevue posts link Seattle or Kirkland instead);
 general posts still link ≥1 city refinishing page; `/contact` in related. No external links except the two already
 in cta() (tel: and the Google review URL — builder handles those).
 

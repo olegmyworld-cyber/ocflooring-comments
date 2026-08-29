@@ -6,7 +6,7 @@ me = plan[slug]
 body = open(f'blogs/{slug}.body.html').read()
 meta = json.load(open(f'blogs/{slug}.meta.json'))
 existing = set(open('blogs/plan/EXISTING-SLUGS.txt').read().split())
-pages = {p['slug'] for p in json.load(open('blogs/plan/pages_index.json')) if p['slug']}
+pages = set(open('blogs/plan/VALID-PAGE-PATHS.txt').read().split())
 errs = []
 # links
 for L in set(re.findall(r'href="([^"]+)"', body)):
@@ -17,16 +17,16 @@ for L in set(re.findall(r'href="([^"]+)"', body)):
         if s in plan and plan[s]['publish_date'] < me['publish_date']: continue
         errs.append(f'bad blog link (missing or scheduled later): {L}')
     elif L.startswith('/'):
-        if L[1:] not in pages: errs.append(f'bad page link: {L}')
+        if L not in pages: errs.append(f'bad page link (not a verified published path): {L}')
     else: errs.append(f'unexpected link: {L}')
 blog_links = {L[6:] for L in set(re.findall(r'href="(/blog/[^"]+)"', body))}
 if len(blog_links) < 4: errs.append(f'only {len(blog_links)} blog-to-blog links; need >= 4')
 city = me.get('city')
 NO_PAGE = {'Bellevue'}
 if city and city not in NO_PAGE:
-    cslug = 'hardwood-floor-refinishing-in-' + city.lower().replace(' ', '-') + '-wa'
-    if f'href="/{cslug}"' not in body: errs.append(f'must link own city service page /{cslug}')
-if not re.search(r'href="/hardwood-floor-refinishing', body): errs.append('no city refinishing page link')
+    cp = json.load(open('blogs/plan/URL-MAP.json'))['CITY_PATH'].get(city)
+    if cp and f'href="{cp}"' not in body: errs.append(f'must link own city service page {cp}')
+if not re.search(r'href="/(?:seattle|city-of-[a-z-]+)/hardwood-floor-refinishing', body): errs.append('no city refinishing page link')
 if '/contact' not in body: errs.append('no /contact link')
 # structure
 from datetime import date

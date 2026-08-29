@@ -1,0 +1,29 @@
+{
+ "CITY_PATH": {
+  "Seattle": "/seattle/hardwood-floor-refinishing-in-seattle-wa",
+  "Everett": "/city-of-everett/hardwood-floor-refinishing-in-everett-wa",
+  "Kirkland": "/city-of-kirkland/hardwood-floor-refinishing-in-kirkland-wa",
+  "Edmonds": "/city-of-edmonds/hardwood-floor-refinishing-in-edmonds-wa",
+  "Lynnwood": "/city-of-lynnwood/hardwood-floor-refinishing-in-lynnwood-wa",
+  "Sammamish": "/city-of-sammamish/hardwood-floor-refinishing-in-sammamish-wa",
+  "Redmond": "/city-of-redmond/hardwood-floor-refinishing-in-redmond-wa",
+  "Renton": "/city-of-renton/hardwood-floor-refinishing-in-renton-wa",
+  "Mercer Island": "/city-of-mercer-island/hardwood-floor-refinishing-in-mercer-island-wa",
+  "Mill Creek": "/city-of-mill-creek/hardwood-floor-refinishing-in-mill-creek-wa"
+ },
+ "FIX": {
+  "/hardwood-floor-refinishing-in-seattle-wa": "/seattle/hardwood-floor-refinishing-in-seattle-wa",
+  "/hardwood-floor-refinishing-in-everett-wa": "/city-of-everett/hardwood-floor-refinishing-in-everett-wa",
+  "/hardwood-floor-refinishing-in-kirkland-wa": "/city-of-kirkland/hardwood-floor-refinishing-in-kirkland-wa",
+  "/hardwood-floor-refinishing-in-edmonds-wa": "/city-of-edmonds/hardwood-floor-refinishing-in-edmonds-wa",
+  "/hardwood-floor-refinishing-in-lynnwood-wa": "/city-of-lynnwood/hardwood-floor-refinishing-in-lynnwood-wa",
+  "/hardwood-floor-refinishing-in-sammamish-wa": "/city-of-sammamish/hardwood-floor-refinishing-in-sammamish-wa",
+  "/hardwood-floor-refinishing-in-redmond-wa": "/city-of-redmond/hardwood-floor-refinishing-in-redmond-wa",
+  "/hardwood-floor-refinishing-in-renton-wa": "/city-of-renton/hardwood-floor-refinishing-in-renton-wa",
+  "/hardwood-floor-refinishing-in-mercer-island-wa": "/city-of-mercer-island/hardwood-floor-refinishing-in-mercer-island-wa",
+  "/hardwood-floor-refinishing-in-mill-creek-wa": "/city-of-mill-creek/hardwood-floor-refinishing-in-mill-creek-wa",
+  "/hardwood-floor-repair-in-edmonds-wa": "/city-of-edmonds/hardwood-floor-repair-in-edmonds-wa",
+  "/commercial-flooring-installation": "/flooring-services-near-me/commercial-flooring-installation",
+  "/insurance-restoration-services": "/flooring-services-near-me/insurance-restoration-services"
+ }
+}
