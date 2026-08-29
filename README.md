@@ -35,3 +35,12 @@ Webflow Data API cannot set.
 
 Redirect table, verified targets, and the one remaining manual code fix:
 [`seo/301-redirects-2026-08-29.md`](seo/301-redirects-2026-08-29.md).
+
+### Semrush internal broken links (2026-08-29)
+
+The companion report, from the source side: 22 links on 21 pages. The two blog links were
+the drafts above. The other 20 are injected at runtime by a CDN-hosted script whose source
+is unreadable from a sandboxed session, so they are corrected in the DOM by
+`ocLinkFix` ([`webflow-scripts/oclinkfix-1.0.0.js`](webflow-scripts/oclinkfix-1.0.0.js)),
+applied to the 20 source pages. Details, evidence, and the site-wide alternative:
+[`seo/broken-internal-links-2026-08-29.md`](seo/broken-internal-links-2026-08-29.md).
