@@ -19,6 +19,13 @@ for L in set(re.findall(r'href="([^"]+)"', body)):
     elif L.startswith('/'):
         if L[1:] not in pages: errs.append(f'bad page link: {L}')
     else: errs.append(f'unexpected link: {L}')
+blog_links = {L[6:] for L in set(re.findall(r'href="(/blog/[^"]+)"', body))}
+if len(blog_links) < 4: errs.append(f'only {len(blog_links)} blog-to-blog links; need >= 4')
+city = me.get('city')
+NO_PAGE = {'Bellevue'}
+if city and city not in NO_PAGE:
+    cslug = 'hardwood-floor-refinishing-in-' + city.lower().replace(' ', '-') + '-wa'
+    if f'href="/{cslug}"' not in body: errs.append(f'must link own city service page /{cslug}')
 if not re.search(r'href="/hardwood-floor-refinishing', body): errs.append('no city refinishing page link')
 if '/contact' not in body: errs.append('no /contact link')
 # structure

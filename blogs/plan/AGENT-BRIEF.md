@@ -57,8 +57,10 @@ still link ≥1 city refinishing page naturally.
 ## Link rules (STRICT — validator enforces)
 Internal links may ONLY be: slugs in `blogs/plan/EXISTING-SLUGS.txt` (as `/blog/<slug>` for blog
 posts, or bare `/<slug>` for pages in `blogs/plan/pages_index.json`), OR `/blog/<slug>` of a
-PLAN.json post whose `publish_date` is STRICTLY EARLIER than yours. 3–6 blog links in prose +
-related; ≥1 city refinishing page; `/contact` in related. No external links except the two already
+PLAN.json post whose `publish_date` is STRICTLY EARLIER than yours. **At least 4 distinct `/blog/` links per post**
+(4–6 is the target) in prose + related; **the post's own city refinishing page is MANDATORY**
+(`/hardwood-floor-refinishing-in-<city>-wa`; Bellevue posts link Seattle or Kirkland instead);
+general posts still link ≥1 city refinishing page; `/contact` in related. No external links except the two already
 in cta() (tel: and the Google review URL — builder handles those).
 
 ## Metadata rules

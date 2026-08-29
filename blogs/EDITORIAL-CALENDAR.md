@@ -26,9 +26,11 @@ only after Oleg adds Main Image + Thumbnail.
    | 8 | Lynnwood | ~381 | 19–26 | |
    | 9 | Kirkland | ~365 | 8.5 ✅ | Defend |
    | 10 | Renton | ~324 | 4.8 ✅ | Defend |
-3. **Interlinks (every post):** at least one city `hardwood-floor-refinishing-in-<city>-wa`
-   service page + 3–6 related blogs (same topic cluster) + `/contact`. Validate every
-   href against live slugs before creating the item.
+3. **Interlinks (every post — Oleg's rule, 2026-08-29):** the post's OWN city
+   `hardwood-floor-refinishing-in-<city>-wa` service page is mandatory (Bellevue has no
+   refinishing page — link Seattle or Kirkland instead; general posts link ≥1 city page),
+   PLUS **at least 4 links to other blog posts** (4–6 target, same topic cluster),
+   PLUS `/contact`. Validate every href against live slugs before creating the item.
 4. **House style:** `.ocb` component system (Quick-answer card with chips, 3-fact grid,
    comparison tables, green-light/red-flag 2-col, FAQ accordion **with FAQPage JSON-LD**,
    dark-red CTA block, "Related reading" footer, reveal-animation script), plus a
