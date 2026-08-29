@@ -75,6 +75,17 @@ Webflow CMS → Blogs, working down the queue in date order.
      into the donor's `city-links` field under a "More floor-care guides" list marked
      `data-oc-guides="1"`; donor bodies are never touched and no existing link is removed.
    Verified city-page URL paths are in `blogs/plan/URL-MAP.json` → `CITY_PATH_ALL`.
+9. **Tags the Webflow Editor deletes (learned the hard way, 2026-08-29):** saving a
+   post in the Editor — which is how a Main Image gets added — re-runs the rich-text
+   sanitizer over `post-body` and **silently deletes every `<section>` and every
+   inline `<svg>`**. Losing `<section>` takes the `.ocb`, `.ocb-cta` and `.faq-wrap`
+   wrapper classes with it, and the site's own `html body .post-body h2/p/a
+   {...!important}` rules in the Blogs Template head then win — the CTA turns
+   dark-on-dark and the FAQ loses its card. So: **never use `<section>` or inline
+   `<svg>` in a post body.** `builder.py` emits `<div>` and draws the chip icons from
+   CSS (`.ocb-ic-*`, data-URI backgrounds in `shared_css.html`). The `ocbguard`
+   page script on the Blogs Template is the safety net — it re-adds the wrapper
+   classes and forces the CTA colors for any post that was sanitized anyway.
    Three do **not** follow the `city-of-<slug>/` pattern: Seattle (`/seattle/…`),
    Newcastle (`/city-of-new-castle/…`) and Bothell (`/hardwood-floor-refinishing/…`).
 
