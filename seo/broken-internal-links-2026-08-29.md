@@ -7,8 +7,19 @@ same dead URLs from the destination side.
 | Source pages | Broken link | Status |
 | --- | --- | --- |
 | `/blog/water-based-vs-oil-based-floor-finish` (2 links) | two `/blog/*` posts | **Fixed** — both were unpublished drafts, now published |
-| 15 × `/flooring-services-near-me/<slug>` | `/services-near-me/<same slug>` | **Fixed** — `ocLinkFix` rewrites the href |
+| 15 × `/flooring-services-near-me/<slug>` | `/services-near-me/<same slug>` | **Not** fixed by `ocLinkFix` — see correction below |
 | 5 × `/city-of-<c>/hardwood-floor-repair-in-<c>-wa` | `/city-of-<c>/laminate-flooring-installation-in-<c>-wa` | **Fixed** — `ocLinkFix` rewrites the href |
+
+## Correction (29 Aug, after the hreflang report)
+
+The 15 service-page rows are **not `<a>` links**. They are the `rel="canonical"`,
+`hreflang` and `og:url` tags in each page's head custom code, which Semrush counts here as
+well as under its hreflang check. `ocLinkFix` only rewrites `<a href>`, so it is a no-op on
+those 15 pages — it was left applied as a guard, but the real fix is the manual head edit in
+[`hreflang-canonical-2026-08-29.md`](hreflang-canonical-2026-08-29.md).
+
+The 5 city-repair rows are genuine `<a>` links — the Edmonds repair page's head code
+contains no laminate URL — so `ocLinkFix` does address those.
 
 ## Where the links come from
 

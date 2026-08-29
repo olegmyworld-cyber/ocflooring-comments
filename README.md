@@ -44,3 +44,14 @@ is unreadable from a sandboxed session, so they are corrected in the DOM by
 `ocLinkFix` ([`webflow-scripts/oclinkfix-1.0.0.js`](webflow-scripts/oclinkfix-1.0.0.js)),
 applied to the 20 source pages. Details, evidence, and the site-wide alternative:
 [`seo/broken-internal-links-2026-08-29.md`](seo/broken-internal-links-2026-08-29.md).
+
+### Semrush incorrect hreflang links (2026-08-29)
+
+15 reported issues, traced to hand-written head custom code that names a stale URL in the
+page's canonical tag, its three hreflang tags, `og:url`, and a "Guardrail" script — so 20
+pages (not 15) tell Google their canonical version lives at a 404. One was fixable through
+the API; the other 19 head blocks contain `<script>`, which Webflow's custom-code endpoint
+refuses with HTTP 406, so they need a one-pass find-and-replace in the Designer. The same
+audit found 155 dead `/services/…` URLs in the JSON-LD of 152 pages. Full findings, the
+per-page edit list, and why none of it was patched with JavaScript:
+[`seo/hreflang-canonical-2026-08-29.md`](seo/hreflang-canonical-2026-08-29.md).
