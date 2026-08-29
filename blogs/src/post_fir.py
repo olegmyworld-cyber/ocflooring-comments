@@ -78,7 +78,7 @@ related_block = related([
     ("/contact", "Book a free estimate"),
 ])
 
-assemble(slug, [qa_card, intro, facts_grid, h2_what, h2_sanding, h2_stain, h2_repairs,
+assemble(slug, [date_badge('August 28, 2026'), qa_card, intro, facts_grid, h2_what, h2_sanding, h2_stain, h2_repairs,
                 '<h2>Expectations, Honestly Set</h2>', expectations, h2_local, faq_block, cta_block, related_block])
 
 meta = {

@@ -31,8 +31,10 @@ only after Oleg adds Main Image + Thumbnail.
    href against live slugs before creating the item.
 4. **House style:** `.ocb` component system (Quick-answer card with chips, 3-fact grid,
    comparison tables, green-light/red-flag 2-col, FAQ accordion **with FAQPage JSON-LD**,
-   dark-red CTA block, "Related reading" footer, reveal-animation script). Generators
-   in `blogs/src/` — reuse `builder.py`.
+   dark-red CTA block, "Related reading" footer, reveal-animation script), plus a
+   **green published-date pill** (`date_badge()`, #16a34a) as the first visible element
+   of every post — set it to the actual publish date, and refresh it if a draft
+   publishes on a later day. Generators in `blogs/src/` — reuse `builder.py`.
 5. **Consistent facts:** $1.99/sq ft screen & recoat · $3.99 natural refinish ·
    $6.50 stain refinish · stairs $55–$75/tread · 500 sq ft minimum · dust containment
    +$250 · washer/dryer pair +$160, other appliances +$80 · new-install labor $3–$4.25/sq ft ·
