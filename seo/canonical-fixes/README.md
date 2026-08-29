@@ -53,6 +53,20 @@ Then **Publish**.
 
 `hardwood-floor-installation` and `flooring-repair` carry no `<link rel="canonical">` in head code (their stale `/services-near-me/` references were in `og:url` and JSON-LD, now fixed). Their real canonical — if any — is set in Page Settings → SEO → Canonical Tag, which the API does not expose. Worth checking in the Designer.
 
+## Three more pages found by a site-wide audit (NOT in the Semrush report)
+
+Semrush only checks URLs present in the sitemap. A read-only sweep of the other 190 pages found the same defect on three Arlington pages, which canonical to `/city-of-arlington/…-in-arlington-wa` URLs — that folder was renamed to `/arlington/` and the old paths now 404:
+
+| Page | Canonical was pointing at (404) |
+|---|---|
+| `/arlington/hardwood-floor-installation` | `/city-of-arlington/hardwood-floor-installation-in-arlington-wa` |
+| `/arlington/hardwood-floor-refinishing` | `/city-of-arlington/hardwood-floor-refinishing-in-arlington-wa` |
+| `/arlington/vinyl-plank-flooring-installation` | `/city-of-arlington/vinyl-plank-flooring-installation-in-arlington-wa` |
+
+Corrected files: `*-arlington.head.html` (7 URL references fixed each, including the guardrail script's hardcoded target). All three contain `<script>` tags, so they need the same manual paste.
+
+The rest of that sweep was clean: no other page's head code referenced a dead URL, 86 pages carry correct self-referencing canonicals, and the only `noindex` page is `/changelog`, which is appropriate.
+
 ## Also flagged by the audit, and NOT fixable here
 
 The five city repair pages — Edmonds, Everett, Lynnwood, Mukilteo, Snohomish — were flagged non-canonical too, but they declare no canonical in head code, in any page embed, or in site-wide code (all three were checked exhaustively). Theirs must be set in **Page Settings → SEO → Canonical Tag URL**, which the Webflow API exposes neither for reading nor writing. Open one of those pages in the Designer and check that field: it should either be empty or contain the page's own URL.
