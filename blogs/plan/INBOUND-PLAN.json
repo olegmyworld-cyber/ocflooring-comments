@@ -1,0 +1,2806 @@
+{
+ "note": "Each new post receives 4 inbound links from already-indexed live posts. Donor links are added ONLY when the target post goes live (linking to a draft would 404). Appended to the donor post city-links field under a \"More floor-care guides\" list.",
+ "donor_cap": 4,
+ "targets": [
+  {
+   "slug": "low-voc-hardwood-floor-finishes-kids-pets",
+   "name": "Low-VOC Hardwood Finishes in Everett: Refinishing With Kids and Pets at Home",
+   "publish_date": "2026-08-28",
+   "item_id": "6a92161235db8207e7addc49",
+   "donors": [
+    {
+     "slug": "when-can-wood-floors-not-be-refinished",
+     "item_id": "65f32565e111adbbb806d36c",
+     "name": "When Can Wood Floors Not Be Refinished? 7 Honest Signs"
+    },
+    {
+     "slug": "what-is-better-laminate-or-engineered-hardwood",
+     "item_id": "65f32565e111adbbb806d103",
+     "name": "Laminate or Engineered Hardwood: Which Is Better for Your Home?"
+    },
+    {
+     "slug": "what-you-need-to-know-about-baseboards",
+     "item_id": "65f32565e111adbbb806d27f",
+     "name": "What You Need to Know About Baseboards (Before New Floors Go In)"
+    },
+    {
+     "slug": "what-is-the-best-flooring-for-kids-pets",
+     "item_id": "65f32565e111adbbb806d375",
+     "name": "What Is the Best Flooring for Kids & Pets? A Room-by-Room Ranking"
+    }
+   ]
+  },
+  {
+   "slug": "refinishing-fir-floors-old-seattle-homes",
+   "name": "Refinishing Fir Floors in Old Seattle Homes: An Owner's Guide",
+   "publish_date": "2026-08-28",
+   "item_id": "6a921686d10d54b94afab8a3",
+   "donors": [
+    {
+     "slug": "pet-friendly-allergy-friendly-flooring-seattle",
+     "item_id": "6a20ec44eda8ac22f6ca40fb",
+     "name": "Pet-Friendly, Allergy-Friendly Flooring for Seattle Homes"
+    },
+    {
+     "slug": "why-vinyl-plank-flooring-is-perfect-for-seattle-homes",
+     "item_id": "65f32565e111adbbb806d34e",
+     "name": "Why Vinyl Plank Flooring Is Perfect for Seattle Homes: A Rainy-Week Reality Check"
+    },
+    {
+     "slug": "red-oak-vs-white-oak-flooring",
+     "item_id": "65f32565e111adbbb806d367",
+     "name": "Red Oak vs White Oak Flooring: Which Is Right for Your Home?"
+    },
+    {
+     "slug": "where-to-buy-hardwood-flooring-near-me",
+     "item_id": "66cbcf1aeab179734860bea4",
+     "name": "Where to Buy Hardwood Flooring Near Me: An Honest Buying Guide"
+    }
+   ]
+  },
+  {
+   "slug": "water-based-vs-oil-based-floor-finish",
+   "name": "Water-Based vs Oil-Based Floor Finish: What Bellevue Homes Choose",
+   "publish_date": "2026-08-28",
+   "item_id": "6a92158f27f99832e0f5e272",
+   "donors": [
+    {
+     "slug": "floor-refinishing-near-me-seattle-wa",
+     "item_id": "6a17bf3971561e488b935062",
+     "name": "How to Choose a Floor Refinishing Contractor Near You (Seattle & Bellevue Checklist)"
+    },
+    {
+     "slug": "bona-hd-the-ultimate-floor-finish-for-your-home",
+     "item_id": "65f32565e111adbbb806d05f",
+     "name": "Bona HD Floor Finish: What It Is and When It's Worth It"
+    },
+    {
+     "slug": "pallmann-finish-the-ultimate-solution-for-your-hardwood-floors",
+     "item_id": "65f32565e111adbbb806d355",
+     "name": "Pallmann Floor Finishes Explained: Film Finish vs Hardwax Oil"
+    },
+    {
+     "slug": "what-to-do-when-you-experience-water-damage-in-your-seattle-home-or-business",
+     "item_id": "65f32565e111adbbb806d2e0",
+     "name": "Water Damage on Your Floors: The First 24 Hours (Seattle-Area Guide)"
+    }
+   ]
+  },
+  {
+   "slug": "bona-traffic-hd-vs-pallmann-pall-x",
+   "name": "Bona Traffic HD vs Pallmann Pall-X: A Kirkland Contractor's Comparison",
+   "publish_date": "2026-08-31",
+   "item_id": "6a923004adcfac63b9184637",
+   "donors": [
+    {
+     "slug": "does-refinishing-wood-floors-increase-home-value-in-kirkland-wa",
+     "item_id": "65f32565e111adbbb806d0d9",
+     "name": "Does Refinishing Wood Floors Increase Home Value in Kirkland, WA?"
+    },
+    {
+     "slug": "5-flooring-installation-options-in-kirkland-wa",
+     "item_id": "65f32565e111adbbb806cfc4",
+     "name": "5 Flooring Installation Options for Kirkland, WA Homes"
+    },
+    {
+     "slug": "why-oc-flooring-hardwood-refinishing-is-worth-the-investment-for-your-home-in-seattle-wa-area",
+     "item_id": "65f32565e111adbbb806d197",
+     "name": "What a Quality Hardwood Refinish Includes \u2014 and Why It\u2019s Worth the Investment"
+    },
+    {
+     "slug": "upkeep-for-carpet-vs-hardwood-flooring",
+     "item_id": "65f32565e111adbbb806d36a",
+     "name": "Carpet vs. Hardwood Upkeep: The Honest 10-Year Comparison"
+    }
+   ]
+  },
+  {
+   "slug": "sandless-hardwood-floor-refinishing-does-it-work",
+   "name": "Sandless Refinishing: Does It Actually Work? A Renton Reality Check",
+   "publish_date": "2026-09-02",
+   "item_id": "6a9230b9fd507e2a51998474",
+   "donors": [
+    {
+     "slug": "refinishing-hardwood-floors-with-urine-stains-a-comprehensive-guide",
+     "item_id": "65f32565e111adbbb806d360",
+     "name": "Refinishing Hardwood Floors With Pet Urine Stains: What Actually Works"
+    },
+    {
+     "slug": "renew-your-home-with-wood-floor-refinishing-service-from-oc-flooring-company-in-seattle-wa",
+     "item_id": "65f32565e111adbbb806cf96",
+     "name": "Wood Floor Refinishing in Seattle: What It Fixes and How We Work"
+    },
+    {
+     "slug": "what-is-dust-free-hardwood-floor-refinishing-oc-flooring",
+     "item_id": "65f32565e111adbbb806d2de",
+     "name": "What Is Dust-Free Hardwood Floor Refinishing Actually Like to Live Through?"
+    },
+    {
+     "slug": "why-vinyl-plank-flooring-is-perfect-for-seattle-homes",
+     "item_id": "65f32565e111adbbb806d34e",
+     "name": "Why Vinyl Plank Flooring Is Perfect for Seattle Homes: A Rainy-Week Reality Check"
+    }
+   ]
+  },
+  {
+   "slug": "can-engineered-hardwood-be-refinished-wear-layer",
+   "name": "Can Engineered Hardwood Be Refinished? Check the Wear Layer (Sammamish Guide)",
+   "publish_date": "2026-09-04",
+   "item_id": "6a92316c6568d7e2b4ee613b",
+   "donors": [
+    {
+     "slug": "top-hardwood-flooring-options-for-lakeside-homes-in-sammamish-wa-by-oc-flooring",
+     "item_id": "65f32565e111adbbb806d22e",
+     "name": "Top Hardwood Flooring Options for Lakeside Homes in Sammamish"
+    },
+    {
+     "slug": "how-many-times-can-a-wood-floor-be-sanded-and-refinished-in-the-seattle-wa-area",
+     "item_id": "65f32565e111adbbb806d2e2",
+     "name": "How Many Times Can a Wood Floor Be Sanded and Refinished?"
+    },
+    {
+     "slug": "trio-sanding-machine-for-flat-floors",
+     "item_id": "65f32565e111adbbb806d37c",
+     "name": "The TRIO Sanding Machine: Why Our Refinished Floors Come Out Flat"
+    },
+    {
+     "slug": "solid-vs-engineered-hardwood-which-is-right-for-your-home",
+     "item_id": "65f32565e111adbbb806d243",
+     "name": "Solid vs Engineered Hardwood: Construction, Wear Layers, and the 50-Year Math"
+    }
+   ]
+  },
+  {
+   "slug": "refinishing-mercer-island-waterfront-home",
+   "name": "Refinishing a Mercer Island Waterfront Home",
+   "publish_date": "2026-09-07",
+   "item_id": "6a923220e5b355d1c7ff3aa6",
+   "donors": [
+    {
+     "slug": "choosing-the-right-hardwood-flooring-for-your-bellevue-wa-home",
+     "item_id": "65f32565e111adbbb806d34d",
+     "name": "Choosing the Right Hardwood Flooring for Your Bellevue Home"
+    },
+    {
+     "slug": "what-to-do-with-your-floor-before-putting-your-house-on-the-market-in-woodinville-wa",
+     "item_id": "65f32565e111adbbb806d377",
+     "name": "What to Do With Your Floors Before Listing Your Woodinville Home"
+    },
+    {
+     "slug": "whats-the-best-carpeting-for-stairs-in-kenmore-wa",
+     "item_id": "65f32565e111adbbb806d382",
+     "name": "What's the Best Carpeting for Stairs? An Honest Kenmore, WA Guide"
+    },
+    {
+     "slug": "flooring-guide-mill-creek-wa",
+     "item_id": "65f32565e111adbbb806d373",
+     "name": "Flooring in Mill Creek, WA: An Honest Room-by-Room Local Guide"
+    }
+   ]
+  },
+  {
+   "slug": "how-long-before-you-can-walk-on-refinished-floors",
+   "name": "How Long Before You Can Walk on Refinished Floors? A Redmond Timeline",
+   "publish_date": "2026-09-09",
+   "item_id": "6a92329a4b4041c693268ef3",
+   "donors": [
+    {
+     "slug": "5-things-you-need-to-know-about-brazilian-cherry-floor-in-bellevue-wa",
+     "item_id": "65f32565e111adbbb806d216",
+     "name": "Own a Brazilian Cherry Floor in Bellevue? 5 Things to Know"
+    },
+    {
+     "slug": "hardwood-floor-refinishing-process-timeline",
+     "item_id": "6a20ec44eda8ac22f6ca40fd",
+     "name": "What to Expect During Hardwood Floor Refinishing: The Day-by-Day Timeline"
+    },
+    {
+     "slug": "how-many-times-can-a-wood-floor-be-sanded-and-refinished-in-the-seattle-wa-area",
+     "item_id": "65f32565e111adbbb806d2e2",
+     "name": "How Many Times Can a Wood Floor Be Sanded and Refinished?"
+    },
+    {
+     "slug": "what-to-know-about-home-flooring-installation",
+     "item_id": "65f32565e111adbbb806d356",
+     "name": "Home Flooring Installation: The Homeowner's Prep & Timeline Handbook"
+    }
+   ]
+  },
+  {
+   "slug": "restore-faded-sun-damaged-hardwood-floors",
+   "name": "How to Restore Faded, Sun-Damaged Hardwood Floors in Edmonds Homes",
+   "publish_date": "2026-09-11",
+   "item_id": "6a923310e9a71d42282c0973",
+   "donors": [
+    {
+     "slug": "american-cherry-hardwood-vs-brazilian-cherry-hardwood",
+     "item_id": "65f32565e111adbbb806d149",
+     "name": "American Cherry vs Brazilian Cherry Flooring: Two Very Different Woods"
+    },
+    {
+     "slug": "sun-damaged-hardwood-floors",
+     "item_id": "65f32565e111adbbb806d37b",
+     "name": "Sun-Damaged Hardwood Floors: Why It Happens and How to Fix It"
+    },
+    {
+     "slug": "can-i-install-hardwood-flooring-in-a-basement-or-other-moisture-prone-areas",
+     "item_id": "65f32565e111adbbb806d131",
+     "name": "Can You Install Hardwood in a Basement? The Honest Moisture Answer"
+    },
+    {
+     "slug": "why-vinyl-plank-flooring-is-perfect-for-seattle-homes",
+     "item_id": "65f32565e111adbbb806d34e",
+     "name": "Why Vinyl Plank Flooring Is Perfect for Seattle Homes: A Rainy-Week Reality Check"
+    }
+   ]
+  },
+  {
+   "slug": "gymnasium-floor-refinishing-seattle",
+   "name": "Gymnasium Floor Refinishing in Seattle: Process and Scheduling",
+   "publish_date": "2026-09-14",
+   "item_id": "6a923388e36224e46e75ecf6",
+   "donors": [
+    {
+     "slug": "commercial-flooring-sanding-and-installation-in-seattle-wa-area-by-oc-flooring",
+     "item_id": "65f32565e111adbbb806d364",
+     "name": "Commercial Floor Sanding & Installation in Seattle: A Practical Guide for Businesses"
+    },
+    {
+     "slug": "hardwood-floor-refinishing-near-me-seattle-wa",
+     "item_id": "6a17b3394efab36881a3c92f",
+     "name": "Booking Hardwood Floor Refinishing in Seattle: Timing & Logistics"
+    },
+    {
+     "slug": "renew-your-home-with-wood-floor-refinishing-service-from-oc-flooring-company-in-seattle-wa",
+     "item_id": "65f32565e111adbbb806cf96",
+     "name": "Wood Floor Refinishing in Seattle: What It Fixes and How We Work"
+    },
+    {
+     "slug": "the-benefits-of-waterproof-flooring-in-seattle-wa",
+     "item_id": "65f32565e111adbbb806d17d",
+     "name": "The Benefits of Waterproof Flooring in Seattle \u2014 Room by Room"
+    }
+   ]
+  },
+  {
+   "slug": "stair-refinishing-cost-per-step",
+   "name": "How Stair Refinishing Is Priced in Bellevue, and Why It's Per-Step",
+   "publish_date": "2026-09-16",
+   "item_id": "6a922e231584be1e5d8d01ca",
+   "donors": [
+    {
+     "slug": "how-much-should-i-pay-for-engineered-wood-flooring-in-bellevue-wa",
+     "item_id": "65f32565e111adbbb806cf1c",
+     "name": "How Much Should I Pay for Engineered Wood Flooring in Bellevue, WA? (2026)"
+    },
+    {
+     "slug": "how-much-does-it-cost-to-refinish-hardwood-floors",
+     "item_id": "65f32565e111adbbb806d366",
+     "name": "Hardwood Floor Refinishing Cost & Prices: 2026 WA Guide"
+    },
+    {
+     "slug": "hardwood-flooring-installation-cost-what-you-need-to-know",
+     "item_id": "65f32565e111adbbb806cfab",
+     "name": "Hardwood Flooring Installation Cost: What You Need to Know (2026)"
+    },
+    {
+     "slug": "laminate-flooring-installation-cost-seattle-wa",
+     "item_id": "6a17bf3971561e488b935064",
+     "name": "Laminate Flooring Installation Cost in Seattle, WA (2026 Guide)"
+    }
+   ]
+  },
+  {
+   "slug": "matte-satin-semi-gloss-hardwood-floor-sheen",
+   "name": "Matte, Satin, or Semi-Gloss: Choosing a Hardwood Floor Sheen",
+   "publish_date": "2026-09-18",
+   "item_id": "6a922f4fa54c8f443f904746",
+   "donors": [
+    {
+     "slug": "10-most-popular-questions-about-wood-floor-refinishing",
+     "item_id": "65f32565e111adbbb806d378",
+     "name": "The Wood Floor Refinishing Questions Everyone Asks \u2014 Answered Honestly"
+    },
+    {
+     "slug": "oc-flooring-wood-floor-refinishing-company",
+     "item_id": "65f32565e111adbbb806d359",
+     "name": "How OC Flooring Refinishes Wood Floors: Our Process from Estimate to Walkthrough"
+    },
+    {
+     "slug": "why-wood-floor-refinishing-is-not-a-diy-project",
+     "item_id": "65f32565e111adbbb806d351",
+     "name": "Why Wood Floor Refinishing Is Not a DIY Project"
+    },
+    {
+     "slug": "carpet-solution-in-bellevue-wa-your-ultimate-guide-to-impeccable-flooring",
+     "item_id": "65f32565e111adbbb806d374",
+     "name": "Choosing Carpet in Bellevue: An Honest Guide From a Hard-Surface Company"
+    }
+   ]
+  },
+  {
+   "slug": "refinishing-floors-1920s-seattle-bungalow",
+   "name": "Refinishing Floors in a 1920s Seattle Bungalow",
+   "publish_date": "2026-09-21",
+   "item_id": "6a92304119d5c595374a9ce9",
+   "donors": [
+    {
+     "slug": "choosing-the-best-floors-for-seattles-climate",
+     "item_id": "65f32565e111adbbb806d0bd",
+     "name": "Choosing the Best Floors for Seattle's Climate, House by House"
+    },
+    {
+     "slug": "why-spring-is-the-best-time-to-get-new-flooring-in-seattle-wa",
+     "item_id": "65f32565e111adbbb806d381",
+     "name": "Best Time to Buy New Flooring in Seattle: Why Spring Wins"
+    },
+    {
+     "slug": "pet-friendly-allergy-friendly-flooring-seattle",
+     "item_id": "6a20ec44eda8ac22f6ca40fb",
+     "name": "Pet-Friendly, Allergy-Friendly Flooring for Seattle Homes"
+    },
+    {
+     "slug": "hardwood-vs-tile-in-the-kitchen",
+     "item_id": "65f32565e111adbbb806cff3",
+     "name": "Hardwood vs. Tile in the Kitchen: Which Should You Choose?"
+    }
+   ]
+  },
+  {
+   "slug": "refinishing-quote-2-vs-6-per-sqft",
+   "name": "What Makes One Lynnwood Refinishing Quote $2/sqft and Another $6",
+   "publish_date": "2026-09-23",
+   "item_id": "6a9231314b4041c69325c80c",
+   "donors": [
+    {
+     "slug": "5-carpet-options-for-carpet-installation-in-lynnwood-wa",
+     "item_id": "65f32565e111adbbb806d009",
+     "name": "5 Carpet Options for Lynnwood Homes: An Honest 2026 Guide"
+    },
+    {
+     "slug": "transform-your-home-with-expert-hardwood-flooring-installation-in-lynnwood-wa",
+     "item_id": "65f32565e111adbbb806d379",
+     "name": "Hardwood Flooring Installation in Lynnwood, WA: What to Expect, Step by Step"
+    },
+    {
+     "slug": "5-ways-to-protect-hardwood-flooring",
+     "item_id": "65f32565e111adbbb806d1cb",
+     "name": "5 Ways to Protect Hardwood Flooring That Actually Work"
+    },
+    {
+     "slug": "what-is-a-good-price-to-pay-for-carpet-in-seattle-wa",
+     "item_id": "65f32565e111adbbb806d26c",
+     "name": "Carpet Installation Cost in Seattle: A Fair-Price Guide"
+    }
+   ]
+  },
+  {
+   "slug": "hardwood-refinishing-vs-floor-cleaning-services",
+   "name": "Hardwood Refinishing vs Wood Floor Cleaning Services in Everett",
+   "publish_date": "2026-09-25",
+   "item_id": "6a92322163e0c17b5d90fc30",
+   "donors": [
+    {
+     "slug": "when-can-wood-floors-not-be-refinished",
+     "item_id": "65f32565e111adbbb806d36c",
+     "name": "When Can Wood Floors Not Be Refinished? 7 Honest Signs"
+    },
+    {
+     "slug": "how-much-does-it-cost-to-install-laminate-floor-in-everett-wa-with-oc-flooring-company",
+     "item_id": "65f32565e111adbbb806d36b",
+     "name": "Laminate Wood Flooring Installation Cost in Everett (2026)"
+    },
+    {
+     "slug": "what-is-better-laminate-or-engineered-hardwood",
+     "item_id": "65f32565e111adbbb806d103",
+     "name": "Laminate or Engineered Hardwood: Which Is Better for Your Home?"
+    },
+    {
+     "slug": "can-you-steam-clean-hardwood-floors",
+     "item_id": "66ca465c4d9df16f0cc16c16",
+     "name": "Steam Cleaning Hardwood Floors: Why the Answer Is No"
+    }
+   ]
+  },
+  {
+   "slug": "condo-hardwood-refinishing-bellevue-hoa",
+   "name": "Condo Refinishing in Bellevue: HOA Rules and Noise Windows",
+   "publish_date": "2026-09-28",
+   "item_id": "6a92330fe17eff730b4009eb",
+   "donors": [
+    {
+     "slug": "carpet-solution-in-bellevue-wa-your-ultimate-guide-to-impeccable-flooring",
+     "item_id": "65f32565e111adbbb806d374",
+     "name": "Choosing Carpet in Bellevue: An Honest Guide From a Hard-Surface Company"
+    },
+    {
+     "slug": "choosing-the-right-hardwood-flooring-for-your-bellevue-wa-home",
+     "item_id": "65f32565e111adbbb806d34d",
+     "name": "Choosing the Right Hardwood Flooring for Your Bellevue Home"
+    },
+    {
+     "slug": "who-sells-mohawk-carpet-find-top-retailers-near-you",
+     "item_id": "66cd02ba7854b1cdd4d6c054",
+     "name": "Who Sells Mohawk Carpet? Where to Buy It \u2014 and When to Skip It"
+    },
+    {
+     "slug": "the-10-best-carpet-brands-reviews-2023-guide",
+     "item_id": "65f32565e111adbbb806d368",
+     "name": "Carpet vs. Hard Flooring in 2026: An Honest Local Guide"
+    }
+   ]
+  },
+  {
+   "slug": "douglas-fir-vs-oak-craftsman-home",
+   "name": "Douglas Fir vs Oak in an Older Seattle Craftsman Home",
+   "publish_date": "2026-09-30",
+   "item_id": "6a9234020e74f6e4e6fe7964",
+   "donors": [
+    {
+     "slug": "red-oak-vs-white-oak-flooring",
+     "item_id": "65f32565e111adbbb806d367",
+     "name": "Red Oak vs White Oak Flooring: Which Is Right for Your Home?"
+    },
+    {
+     "slug": "benefits-of-vinyl-plank-flooring-for-seattle-wa-homes-a-guide-from-oc-flooring",
+     "item_id": "65f32565e111adbbb806d35e",
+     "name": "How to Choose Vinyl Plank for a Seattle Home: A Buyer's Spec Guide"
+    },
+    {
+     "slug": "where-to-buy-hardwood-flooring-near-me",
+     "item_id": "66cbcf1aeab179734860bea4",
+     "name": "Where to Buy Hardwood Flooring Near Me: An Honest Buying Guide"
+    },
+    {
+     "slug": "why-vinyl-plank-flooring-is-a-great-choice-for-your-home",
+     "item_id": "65f32565e111adbbb806d07f",
+     "name": "Why Vinyl Plank Is a Great Choice for Your Home \u2014 If You Buy the Right Plank"
+    }
+   ]
+  },
+  {
+   "slug": "deep-vs-surface-scratches-hardwood-refinish",
+   "name": "Deep vs Surface Scratches: Which Need a Full Refinish",
+   "publish_date": "2026-10-02",
+   "item_id": "6a9230040e74f6e4e6fcf0c5",
+   "donors": [
+    {
+     "slug": "5-questions-to-ask-before-refinishing-hardwood-floors",
+     "item_id": "65f32565e111adbbb806d022",
+     "name": "5 Questions to Ask Before Refinishing Hardwood Floors (and the Answers You Should Hear)"
+    },
+    {
+     "slug": "thinking-of-staining-your-hardwood-floors-a-dark-color",
+     "item_id": "65f32565e111adbbb806d2fd",
+     "name": "Thinking of Staining Your Hardwood Floors a Dark Color? Read This First"
+    },
+    {
+     "slug": "10-most-popular-questions-about-wood-floor-refinishing",
+     "item_id": "65f32565e111adbbb806d378",
+     "name": "The Wood Floor Refinishing Questions Everyone Asks \u2014 Answered Honestly"
+    },
+    {
+     "slug": "hardwood-flooring-installation-cost-what-you-need-to-know",
+     "item_id": "65f32565e111adbbb806cfab",
+     "name": "Hardwood Flooring Installation Cost: What You Need to Know (2026)"
+    }
+   ]
+  },
+  {
+   "slug": "refinish-floors-before-listing-home",
+   "name": "Should You Refinish Floors Before Listing Your Kirkland Home",
+   "publish_date": "2026-10-05",
+   "item_id": "6a9230b919d5c595374aea6b",
+   "donors": [
+    {
+     "slug": "does-refinishing-wood-floors-increase-home-value-in-kirkland-wa",
+     "item_id": "65f32565e111adbbb806d0d9",
+     "name": "Does Refinishing Wood Floors Increase Home Value in Kirkland, WA?"
+    },
+    {
+     "slug": "what-to-do-with-your-floor-before-putting-your-house-on-the-market-in-woodinville-wa",
+     "item_id": "65f32565e111adbbb806d377",
+     "name": "What to Do With Your Floors Before Listing Your Woodinville Home"
+    },
+    {
+     "slug": "choosing-the-right-hardwood-flooring-for-your-bellevue-wa-home",
+     "item_id": "65f32565e111adbbb806d34d",
+     "name": "Choosing the Right Hardwood Flooring for Your Bellevue Home"
+    },
+    {
+     "slug": "whats-the-best-carpeting-for-stairs-in-kenmore-wa",
+     "item_id": "65f32565e111adbbb806d382",
+     "name": "What's the Best Carpeting for Stairs? An Honest Kenmore, WA Guide"
+    }
+   ]
+  },
+  {
+   "slug": "best-time-of-year-refinish-floors-western-washington",
+   "name": "Best Time of Year to Refinish Floors in Everett and Western Washington",
+   "publish_date": "2026-10-07",
+   "item_id": "6a92316c9f9b7f8b2cb9f64c",
+   "donors": [
+    {
+     "slug": "durable-hardwood-floors-for-dog-owners",
+     "item_id": "65f32565e111adbbb806d363",
+     "name": "Durable Hardwood Floors for Dog Owners: How to Keep Real Wood (and the Dog)"
+    },
+    {
+     "slug": "transform-your-home-with-oc-floorings-vinyl-plank-flooring-installation",
+     "item_id": "65f32565e111adbbb806d362",
+     "name": "Vinyl Plank Flooring Installation in Everett, WA: The Full What-to-Expect Guide"
+    },
+    {
+     "slug": "benefits-of-vinyl-flooring",
+     "item_id": "65f32565e111adbbb806d2c3",
+     "name": "Benefits of Vinyl Flooring: Sheet vs. Plank vs. Tile, Explained"
+    },
+    {
+     "slug": "what-to-do-with-your-floor-before-putting-your-house-on-the-market-in-woodinville-wa",
+     "item_id": "65f32565e111adbbb806d377",
+     "name": "What to Do With Your Floors Before Listing Your Woodinville Home"
+    }
+   ]
+  },
+  {
+   "slug": "pet-scratches-hardwood-repair-recoat-refinish",
+   "name": "Pet Scratches on Hardwood in Renton: Repair, Recoat, or Refinish",
+   "publish_date": "2026-10-09",
+   "item_id": "6a92325de17eff730b3fcabb",
+   "donors": [
+    {
+     "slug": "sand-and-refinish-vs-screen-and-recoat-which-is-right-for-your-hardwood-floors",
+     "item_id": "65f32565e111adbbb806d369",
+     "name": "Sand & Refinish vs Screen & Recoat: The Complete Decision Guide"
+    },
+    {
+     "slug": "why-oc-flooring-hardwood-refinishing-is-worth-the-investment-for-your-home-in-seattle-wa-area",
+     "item_id": "65f32565e111adbbb806d197",
+     "name": "What a Quality Hardwood Refinish Includes \u2014 and Why It\u2019s Worth the Investment"
+    },
+    {
+     "slug": "5-questions-to-ask-before-refinishing-hardwood-floors",
+     "item_id": "65f32565e111adbbb806d022",
+     "name": "5 Questions to Ask Before Refinishing Hardwood Floors (and the Answers You Should Hear)"
+    },
+    {
+     "slug": "6-reasons-to-replace-carpet-flooring",
+     "item_id": "65f32565e111adbbb806d1ff",
+     "name": "6 Signs Your Carpet Is Done \u2014 and What to Replace It With"
+    }
+   ]
+  },
+  {
+   "slug": "fix-and-flip-flooring-king-county",
+   "name": "Flooring Decisions for Fix-and-Flip Investors in Renton and King County",
+   "publish_date": "2026-10-12",
+   "item_id": "6a9233104b4041c69326c62d",
+   "donors": [
+    {
+     "slug": "alternatives-to-tile-flooring-in-snohomish-wa",
+     "item_id": "65f32565e111adbbb806d2dd",
+     "name": "Alternatives to Tile Flooring in Snohomish, WA: What to Use Instead"
+    },
+    {
+     "slug": "flooring-guide-mill-creek-wa",
+     "item_id": "65f32565e111adbbb806d373",
+     "name": "Flooring in Mill Creek, WA: An Honest Room-by-Room Local Guide"
+    },
+    {
+     "slug": "flooring-services-tailored-for-real-estate-success",
+     "item_id": "66072915e47b67010e855f75",
+     "name": "Flooring for Real Estate Success: A Playbook for Agents, Flippers & Landlords"
+    },
+    {
+     "slug": "who-sells-mohawk-carpet-find-top-retailers-near-you",
+     "item_id": "66cd02ba7854b1cdd4d6c054",
+     "name": "Who Sells Mohawk Carpet? Where to Buy It \u2014 and When to Skip It"
+    }
+   ]
+  },
+  {
+   "slug": "buff-and-coat-vs-full-sand-refinishing",
+   "name": "Buff and Coat vs Full Sand in Sammamish: An Honest Comparison",
+   "publish_date": "2026-10-14",
+   "item_id": "6a9233c5e36224e46e761135",
+   "donors": [
+    {
+     "slug": "top-hardwood-flooring-options-for-lakeside-homes-in-sammamish-wa-by-oc-flooring",
+     "item_id": "65f32565e111adbbb806d22e",
+     "name": "Top Hardwood Flooring Options for Lakeside Homes in Sammamish"
+    },
+    {
+     "slug": "hardwood-floor-refinishing-cost-seattle-wa",
+     "item_id": "6a17c08c8c3a0d8f469273a9",
+     "name": "Hardwood Floor Refinishing Cost in Seattle: Craftsman Fir, Condos & City Logistics (2026)"
+    },
+    {
+     "slug": "sand-and-refinish-vs-screen-and-recoat-which-is-right-for-your-hardwood-floors",
+     "item_id": "65f32565e111adbbb806d369",
+     "name": "Sand & Refinish vs Screen & Recoat: The Complete Decision Guide"
+    },
+    {
+     "slug": "upkeep-for-carpet-vs-hardwood-flooring",
+     "item_id": "65f32565e111adbbb806d36a",
+     "name": "Carpet vs. Hardwood Upkeep: The Honest 10-Year Comparison"
+    }
+   ]
+  },
+  {
+   "slug": "refinishing-occupied-home-room-by-room",
+   "name": "Refinishing an Occupied Redmond Home: Room-by-Room Scheduling",
+   "publish_date": "2026-10-16",
+   "item_id": "6a92343e5e364eb0d63060fc",
+   "donors": [
+    {
+     "slug": "5-things-you-need-to-know-about-brazilian-cherry-floor-in-bellevue-wa",
+     "item_id": "65f32565e111adbbb806d216",
+     "name": "Own a Brazilian Cherry Floor in Bellevue? 5 Things to Know"
+    },
+    {
+     "slug": "does-refinishing-wood-floors-increase-home-value-in-kirkland-wa",
+     "item_id": "65f32565e111adbbb806d0d9",
+     "name": "Does Refinishing Wood Floors Increase Home Value in Kirkland, WA?"
+    },
+    {
+     "slug": "can-i-refinish-pre-finished-hardwood-floors",
+     "item_id": "65f32565e111adbbb806d35f",
+     "name": "Can You Refinish Prefinished Hardwood Floors? Yes \u2014 Here's the Catch"
+    },
+    {
+     "slug": "what-to-know-about-home-flooring-installation",
+     "item_id": "65f32565e111adbbb806d356",
+     "name": "Home Flooring Installation: The Homeowner's Prep & Timeline Handbook"
+    }
+   ]
+  },
+  {
+   "slug": "natural-no-stain-hardwood-finish-seattle",
+   "name": "Why Natural (No Stain) Is the Most Popular Finish in Seattle Homes",
+   "publish_date": "2026-10-19",
+   "item_id": "6a922de8fd507e2a5197eac0",
+   "donors": [
+    {
+     "slug": "hardwood-floor-refinishing-near-me-seattle-wa",
+     "item_id": "6a17b3394efab36881a3c92f",
+     "name": "Booking Hardwood Floor Refinishing in Seattle: Timing & Logistics"
+    },
+    {
+     "slug": "floor-refinishing-near-me-seattle-wa",
+     "item_id": "6a17bf3971561e488b935062",
+     "name": "How to Choose a Floor Refinishing Contractor Near You (Seattle & Bellevue Checklist)"
+    },
+    {
+     "slug": "is-it-worth-refinishing-old-hardwood-floors",
+     "item_id": "65f32565e111adbbb806d361",
+     "name": "Is It Worth Refinishing Old Hardwood Floors? (Usually \u2014 Here\u2019s the Math)"
+    },
+    {
+     "slug": "what-to-do-when-you-experience-water-damage-in-your-seattle-home-or-business",
+     "item_id": "65f32565e111adbbb806d2e0",
+     "name": "Water Damage on Your Floors: The First 24 Hours (Seattle-Area Guide)"
+    }
+   ]
+  },
+  {
+   "slug": "cupped-hardwood-floors-causes-refinishing",
+   "name": "Cupped Hardwood Floors in Everett: Causes, and Whether Refinishing Fixes It",
+   "publish_date": "2026-10-21",
+   "item_id": "6a922f142e47a1e9fef005cb",
+   "donors": [
+    {
+     "slug": "when-can-wood-floors-not-be-refinished",
+     "item_id": "65f32565e111adbbb806d36c",
+     "name": "When Can Wood Floors Not Be Refinished? 7 Honest Signs"
+    },
+    {
+     "slug": "what-is-the-best-waterproof-floor-in-everett-wa",
+     "item_id": "65f32565e111adbbb806d33d",
+     "name": "What Is the Best Waterproof Flooring in Everett, WA?"
+    },
+    {
+     "slug": "durable-hardwood-floors-for-dog-owners",
+     "item_id": "65f32565e111adbbb806d363",
+     "name": "Durable Hardwood Floors for Dog Owners: How to Keep Real Wood (and the Dog)"
+    },
+    {
+     "slug": "all-about-subfloors-what-you-need-to-know",
+     "item_id": "65f32565e111adbbb806d37d",
+     "name": "Subfloors Explained: What's Under Your Floor Decides Everything Above It"
+    }
+   ]
+  },
+  {
+   "slug": "refinish-vs-replace-800-sqft-oak",
+   "name": "Refinish vs Replace: Running the Numbers on 800 sqft of Bellevue Oak",
+   "publish_date": "2026-10-23",
+   "item_id": "6a9230040e74f6e4e6fcf0d9",
+   "donors": [
+    {
+     "slug": "is-it-cheaper-to-refinish-or-replace-wood-floors",
+     "item_id": "65f32565e111adbbb806d117",
+     "name": "Is It Cheaper to Refinish or Replace Wood Floors? The Honest Math (2026)"
+    },
+    {
+     "slug": "how-much-should-i-pay-for-engineered-wood-flooring-in-bellevue-wa",
+     "item_id": "65f32565e111adbbb806cf1c",
+     "name": "How Much Should I Pay for Engineered Wood Flooring in Bellevue, WA? (2026)"
+    },
+    {
+     "slug": "what-is-a-good-price-to-pay-for-carpet-in-seattle-wa",
+     "item_id": "65f32565e111adbbb806d26c",
+     "name": "Carpet Installation Cost in Seattle: A Fair-Price Guide"
+    },
+    {
+     "slug": "carpet-installation-cost-bothell-wa",
+     "item_id": "65f32565e111adbbb806d042",
+     "name": "How Much Does Carpet Installation Cost in Bothell, WA? 2026 Market Rates"
+    }
+   ]
+  },
+  {
+   "slug": "refinishing-hickory-floors-grain",
+   "name": "Refinishing Hickory in Sammamish: Why the Grain Fights You",
+   "publish_date": "2026-10-26",
+   "item_id": "6a9230f42e47a1e9fef0d1a1",
+   "donors": [
+    {
+     "slug": "top-hardwood-flooring-options-for-lakeside-homes-in-sammamish-wa-by-oc-flooring",
+     "item_id": "65f32565e111adbbb806d22e",
+     "name": "Top Hardwood Flooring Options for Lakeside Homes in Sammamish"
+    },
+    {
+     "slug": "hardwood-floor-refinishing-cost-seattle-wa",
+     "item_id": "6a17c08c8c3a0d8f469273a9",
+     "name": "Hardwood Floor Refinishing Cost in Seattle: Craftsman Fir, Condos & City Logistics (2026)"
+    },
+    {
+     "slug": "maple-hardwood-flooring-a-durable-and-attractive-option-for-your-home",
+     "item_id": "65f32565e111adbbb806d34f",
+     "name": "Maple Hardwood Flooring: Bright, Tough, and Tricky to Stain"
+    },
+    {
+     "slug": "what-color-should-i-stain-my-wood-floors",
+     "item_id": "65f32565e111adbbb806d163",
+     "name": "What Color Should I Stain My Wood Floors? A Refinisher's Guide"
+    }
+   ]
+  },
+  {
+   "slug": "refinishing-smell-how-long-it-lasts",
+   "name": "What the Smell During Refinishing Is, and How Long It Lasts",
+   "publish_date": "2026-10-28",
+   "item_id": "6a9231e59f9b7f8b2cba382f",
+   "donors": [
+    {
+     "slug": "hardwood-floor-refinishing-how-to-store-furniture-during-the-process",
+     "item_id": "65f32565e111adbbb806d2e1",
+     "name": "How to Store Furniture During Hardwood Floor Refinishing"
+    },
+    {
+     "slug": "hardwood-floor-refinishing-process-timeline",
+     "item_id": "6a20ec44eda8ac22f6ca40fd",
+     "name": "What to Expect During Hardwood Floor Refinishing: The Day-by-Day Timeline"
+    },
+    {
+     "slug": "hardwood-floor-refinishing",
+     "item_id": "6650f5d824b2a257c7a1433e",
+     "name": "Hardwood Floor Refinishing: The Complete Homeowner's Guide"
+    },
+    {
+     "slug": "what-to-do-in-your-house-during-remodeling",
+     "item_id": "65f32565e111adbbb806d2a3",
+     "name": "What to Do in Your House During Remodeling: The Live-Through-It Playbook"
+    }
+   ]
+  },
+  {
+   "slug": "cheapest-floor-upgrade-buyer-inspection",
+   "name": "Cheapest Floor Upgrade That Still Passes a Kirkland Buyer Inspection",
+   "publish_date": "2026-10-30",
+   "item_id": "6a9232d6e36224e46e7574b6",
+   "donors": [
+    {
+     "slug": "5-flooring-installation-options-in-kirkland-wa",
+     "item_id": "65f32565e111adbbb806cfc4",
+     "name": "5 Flooring Installation Options for Kirkland, WA Homes"
+    },
+    {
+     "slug": "pros-and-cons-of-luxury-vinyl-flooring",
+     "item_id": "65f32565e111adbbb806d353",
+     "name": "The Honest Pros and Cons of Luxury Vinyl Flooring"
+    },
+    {
+     "slug": "alternatives-to-tile-flooring-in-snohomish-wa",
+     "item_id": "65f32565e111adbbb806d2dd",
+     "name": "Alternatives to Tile Flooring in Snohomish, WA: What to Use Instead"
+    },
+    {
+     "slug": "best-flooring-for-pacific-northwest-climate",
+     "item_id": "6a20e3aebcd4c83e44acccea",
+     "name": "Best Flooring for the Pacific Northwest Climate: What Actually Survives Here"
+    }
+   ]
+  },
+  {
+   "slug": "buckled-hardwood-after-leak-repair-replace",
+   "name": "Buckled Hardwood After a Leak in Renton: Repair or Replace",
+   "publish_date": "2026-11-02",
+   "item_id": "6a9233c61f3e07bff469362b",
+   "donors": [
+    {
+     "slug": "should-i-refinish-or-replace-my-floor-a-comprehensive-guide",
+     "item_id": "65f32565e111adbbb806d09d",
+     "name": "Should I Refinish or Replace My Hardwood Floor? A Damage-by-Damage Guide"
+    },
+    {
+     "slug": "why-wood-floor-refinishing-is-not-a-diy-project",
+     "item_id": "65f32565e111adbbb806d351",
+     "name": "Why Wood Floor Refinishing Is Not a DIY Project"
+    },
+    {
+     "slug": "hardwood-floor-refinishing-how-to-store-furniture-during-the-process",
+     "item_id": "65f32565e111adbbb806d2e1",
+     "name": "How to Store Furniture During Hardwood Floor Refinishing"
+    },
+    {
+     "slug": "can-you-replace-just-one-piece-of-vinyl-plank-flooring",
+     "item_id": "65f32565e111adbbb806d380",
+     "name": "Can You Replace Just One Piece of Vinyl Plank Flooring?"
+    }
+   ]
+  },
+  {
+   "slug": "clean-refinished-hardwood-without-voiding-warranty",
+   "name": "How to Clean Refinished Hardwood in Redmond Without Voiding the Warranty",
+   "publish_date": "2026-11-04",
+   "item_id": "6a923041e17eff730b3ee4c7",
+   "donors": [
+    {
+     "slug": "how-to-clean-and-maintain-hardwood-floors",
+     "item_id": "65f32565e111adbbb806d1e3",
+     "name": "How to Clean and Maintain Hardwood Floors: A Craftsman's Routine"
+    },
+    {
+     "slug": "how-often-should-i-replace-my-flooring",
+     "item_id": "65f32565e111adbbb806cfdb",
+     "name": "How Often Should You Replace Your Flooring?"
+    },
+    {
+     "slug": "do-you-have-to-move-furniture-to-stretch-carpet",
+     "item_id": "65f32565e111adbbb806d36d",
+     "name": "Do You Have to Move Furniture to Stretch Carpet? Mostly, Yes"
+    },
+    {
+     "slug": "is-it-worth-it-to-restretch-your-carpet",
+     "item_id": "65f32565e111adbbb806d36f",
+     "name": "Is It Worth It to Restretch Your Carpet? The Honest Math"
+    }
+   ]
+  },
+  {
+   "slug": "wide-plank-hardwood-refinishing-considerations",
+   "name": "Wide Plank Hardwood in Mercer Island Homes: Special Considerations",
+   "publish_date": "2026-11-06",
+   "item_id": "6a9231300e74f6e4e6fd8399",
+   "donors": [
+    {
+     "slug": "can-you-add-hardwood-to-existing-hardwood-floors",
+     "item_id": "65f32565e111adbbb806d0ee",
+     "name": "Can You Add New Hardwood to Existing Hardwood Floors?"
+    },
+    {
+     "slug": "maple-hardwood-flooring-a-durable-and-attractive-option-for-your-home",
+     "item_id": "65f32565e111adbbb806d34f",
+     "name": "Maple Hardwood Flooring: Bright, Tough, and Tricky to Stain"
+    },
+    {
+     "slug": "solid-vs-engineered-hardwood-which-is-right-for-your-home",
+     "item_id": "65f32565e111adbbb806d243",
+     "name": "Solid vs Engineered Hardwood: Construction, Wear Layers, and the 50-Year Math"
+    },
+    {
+     "slug": "everything-you-need-to-know-about-choosing-the-right-wood-for-your-home",
+     "item_id": "6650fb9ef815422cce65d277",
+     "name": "What Type of Wood Is Best for Your Home? A Species Guide"
+    }
+   ]
+  },
+  {
+   "slug": "hidden-costs-refinishing-quotes",
+   "name": "Hidden Costs in Lynnwood Refinishing Quotes to Watch For",
+   "publish_date": "2026-11-09",
+   "item_id": "6a9231e5c9e0b85494b2576d",
+   "donors": [
+    {
+     "slug": "transform-your-home-with-expert-hardwood-flooring-installation-in-lynnwood-wa",
+     "item_id": "65f32565e111adbbb806d379",
+     "name": "Hardwood Flooring Installation in Lynnwood, WA: What to Expect, Step by Step"
+    },
+    {
+     "slug": "5-carpet-options-for-carpet-installation-in-lynnwood-wa",
+     "item_id": "65f32565e111adbbb806d009",
+     "name": "5 Carpet Options for Lynnwood Homes: An Honest 2026 Guide"
+    },
+    {
+     "slug": "is-it-cheaper-to-refinish-or-replace-wood-floors",
+     "item_id": "65f32565e111adbbb806d117",
+     "name": "Is It Cheaper to Refinish or Replace Wood Floors? The Honest Math (2026)"
+    },
+    {
+     "slug": "cost-to-refinish-hardwood-floors",
+     "item_id": "65f32565e111adbbb806d2df",
+     "name": "Hardwood Refinishing Budgets: 5 Real Projects, Line by Line (2026)"
+    }
+   ]
+  },
+  {
+   "slug": "do-you-need-to-leave-house-during-refinishing",
+   "name": "Do You Need to Leave Your House During Refinishing?",
+   "publish_date": "2026-11-11",
+   "item_id": "6a92329a4b4041c693268efd",
+   "donors": [
+    {
+     "slug": "hardwood-floor-refinishing-process-timeline",
+     "item_id": "6a20ec44eda8ac22f6ca40fd",
+     "name": "What to Expect During Hardwood Floor Refinishing: The Day-by-Day Timeline"
+    },
+    {
+     "slug": "hardwood-floor-refinishing-how-to-store-furniture-during-the-process",
+     "item_id": "65f32565e111adbbb806d2e1",
+     "name": "How to Store Furniture During Hardwood Floor Refinishing"
+    },
+    {
+     "slug": "what-to-do-in-your-house-during-remodeling",
+     "item_id": "65f32565e111adbbb806d2a3",
+     "name": "What to Do in Your House During Remodeling: The Live-Through-It Playbook"
+    },
+    {
+     "slug": "solid-v-s-engineered-wood-floors-whats-right-for-your-home",
+     "item_id": "65f32565e111adbbb806d372",
+     "name": "Wood Floors on Slabs, Basements & Radiant Heat: What Your House Allows"
+    }
+   ]
+  },
+  {
+   "slug": "black-stains-hardwood-can-they-be-sanded-out",
+   "name": "Black Stains on Hardwood in Edmonds: What They Are, Can They Be Sanded Out",
+   "publish_date": "2026-11-13",
+   "item_id": "6a92334ddb6598626294d2e2",
+   "donors": [
+    {
+     "slug": "can-i-install-hardwood-flooring-in-a-basement-or-other-moisture-prone-areas",
+     "item_id": "65f32565e111adbbb806d131",
+     "name": "Can You Install Hardwood in a Basement? The Honest Moisture Answer"
+    },
+    {
+     "slug": "how-to-choose-laundry-room-flooring",
+     "item_id": "65f32565e111adbbb806d354",
+     "name": "How to Choose Laundry Room Flooring That Survives the Job"
+    },
+    {
+     "slug": "refinishing-hardwood-floors-with-urine-stains-a-comprehensive-guide",
+     "item_id": "65f32565e111adbbb806d360",
+     "name": "Refinishing Hardwood Floors With Pet Urine Stains: What Actually Works"
+    },
+    {
+     "slug": "beautiful-hardwood-floor-heating-vents",
+     "item_id": "65f32565e111adbbb806d35a",
+     "name": "Hardwood Floor Heating Vents: Flush-Mount vs. Drop-In, and When to Add Them"
+    }
+   ]
+  },
+  {
+   "slug": "what-home-inspectors-flag-hardwood-floors",
+   "name": "What Home Inspectors Flag on Hardwood Floors in Seattle",
+   "publish_date": "2026-11-16",
+   "item_id": "6a9234403e6167cebbd5c021",
+   "donors": [
+    {
+     "slug": "why-spring-is-the-best-time-to-get-new-flooring-in-seattle-wa",
+     "item_id": "65f32565e111adbbb806d381",
+     "name": "Best Time to Buy New Flooring in Seattle: Why Spring Wins"
+    },
+    {
+     "slug": "choosing-the-best-floors-for-seattles-climate",
+     "item_id": "65f32565e111adbbb806d0bd",
+     "name": "Choosing the Best Floors for Seattle's Climate, House by House"
+    },
+    {
+     "slug": "benefits-of-vinyl-plank-flooring-for-seattle-wa-homes-a-guide-from-oc-flooring",
+     "item_id": "65f32565e111adbbb806d35e",
+     "name": "How to Choose Vinyl Plank for a Seattle Home: A Buyer's Spec Guide"
+    },
+    {
+     "slug": "flooring-services-tailored-for-real-estate-success",
+     "item_id": "66072915e47b67010e855f75",
+     "name": "Flooring for Real Estate Success: A Playbook for Agents, Flippers & Landlords"
+    }
+   ]
+  },
+  {
+   "slug": "drum-belt-orbital-sander-comparison",
+   "name": "Drum vs Belt vs Orbital Sander: What Your Everett Contractor Uses",
+   "publish_date": "2026-11-18",
+   "item_id": "6a92352f7534ddc277149761",
+   "donors": [
+    {
+     "slug": "when-can-wood-floors-not-be-refinished",
+     "item_id": "65f32565e111adbbb806d36c",
+     "name": "When Can Wood Floors Not Be Refinished? 7 Honest Signs"
+    },
+    {
+     "slug": "how-much-does-it-cost-to-install-laminate-floor-in-everett-wa-with-oc-flooring-company",
+     "item_id": "65f32565e111adbbb806d36b",
+     "name": "Laminate Wood Flooring Installation Cost in Everett (2026)"
+    },
+    {
+     "slug": "what-is-better-laminate-or-engineered-hardwood",
+     "item_id": "65f32565e111adbbb806d103",
+     "name": "Laminate or Engineered Hardwood: Which Is Better for Your Home?"
+    },
+    {
+     "slug": "do-you-have-to-move-out-to-replace-flooring",
+     "item_id": "65f32565e111adbbb806d31d",
+     "name": "Do You Have to Move Out to Replace or Refinish Your Floors?"
+    }
+   ]
+  },
+  {
+   "slug": "how-many-times-can-hardwood-floor-be-refinished",
+   "name": "How Many Times Can a Bellevue Hardwood Floor Be Refinished",
+   "publish_date": "2026-11-20",
+   "item_id": "6a9239e30e74f6e4e6007e2e",
+   "donors": [
+    {
+     "slug": "how-many-times-can-a-wood-floor-be-sanded-and-refinished-in-the-seattle-wa-area",
+     "item_id": "65f32565e111adbbb806d2e2",
+     "name": "How Many Times Can a Wood Floor Be Sanded and Refinished?"
+    },
+    {
+     "slug": "trio-sanding-machine-for-flat-floors",
+     "item_id": "65f32565e111adbbb806d37c",
+     "name": "The TRIO Sanding Machine: Why Our Refinished Floors Come Out Flat"
+    },
+    {
+     "slug": "oc-flooring-provides-hardwood-floor-refinishing-in-woodinville-wa",
+     "item_id": "65f32565e111adbbb806d350",
+     "name": "Hardwood Floor Refinishing in Woodinville, WA: A Local's Guide"
+    },
+    {
+     "slug": "flooring-installers-near-me-seattle-bellevue-wa",
+     "item_id": "6a17b3394efab36881a3c92d",
+     "name": "Flooring Installers Near Me: How to Hire Well in Seattle & Bellevue"
+    }
+   ]
+  },
+  {
+   "slug": "best-and-worst-cleaners-hardwood-floors",
+   "name": "Best and Worst Cleaners for Hardwood Floors",
+   "publish_date": "2026-11-23",
+   "item_id": "6a923a970e74f6e4e600c103",
+   "donors": [
+    {
+     "slug": "5-ways-to-protect-hardwood-flooring",
+     "item_id": "65f32565e111adbbb806d1cb",
+     "name": "5 Ways to Protect Hardwood Flooring That Actually Work"
+    },
+    {
+     "slug": "is-it-worth-it-to-restretch-your-carpet",
+     "item_id": "65f32565e111adbbb806d36f",
+     "name": "Is It Worth It to Restretch Your Carpet? The Honest Math"
+    },
+    {
+     "slug": "how-to-clean-and-maintain-hardwood-floors",
+     "item_id": "65f32565e111adbbb806d1e3",
+     "name": "How to Clean and Maintain Hardwood Floors: A Craftsman's Routine"
+    },
+    {
+     "slug": "do-you-have-to-move-furniture-to-stretch-carpet",
+     "item_id": "65f32565e111adbbb806d36d",
+     "name": "Do You Have to Move Furniture to Stretch Carpet? Mostly, Yes"
+    }
+   ]
+  },
+  {
+   "slug": "ash-hardwood-floors-refinishing-staining",
+   "name": "Ash Hardwood Floors in Kirkland: Refinishing and Staining Notes",
+   "publish_date": "2026-11-25",
+   "item_id": "6a923b0fcd1cab6335f63fab",
+   "donors": [
+    {
+     "slug": "pre-finished-vs-site-finished-hardwood-floors",
+     "item_id": "65f32565e111adbbb806cf58",
+     "name": "Pre-Finished vs Site-Finished Hardwood Floors: Which Should You Choose?"
+    },
+    {
+     "slug": "pros-and-cons-of-luxury-vinyl-flooring",
+     "item_id": "65f32565e111adbbb806d353",
+     "name": "The Honest Pros and Cons of Luxury Vinyl Flooring"
+    },
+    {
+     "slug": "what-color-should-i-stain-my-wood-floors",
+     "item_id": "65f32565e111adbbb806d163",
+     "name": "What Color Should I Stain My Wood Floors? A Refinisher's Guide"
+    },
+    {
+     "slug": "can-you-add-hardwood-to-existing-hardwood-floors",
+     "item_id": "65f32565e111adbbb806d0ee",
+     "name": "Can You Add New Hardwood to Existing Hardwood Floors?"
+    }
+   ]
+  },
+  {
+   "slug": "is-recoating-worth-it-or-delaying-cost",
+   "name": "Is Recoating Worth It in Renton, or Just Delaying the Real Cost",
+   "publish_date": "2026-11-27",
+   "item_id": "6a923b8819d5c595374ee3a4",
+   "donors": [
+    {
+     "slug": "carpet-installation-cost-bothell-wa",
+     "item_id": "65f32565e111adbbb806d042",
+     "name": "How Much Does Carpet Installation Cost in Bothell, WA? 2026 Market Rates"
+    },
+    {
+     "slug": "laminate-flooring-installation-cost-seattle-wa",
+     "item_id": "6a17bf3971561e488b935064",
+     "name": "Laminate Flooring Installation Cost in Seattle, WA (2026 Guide)"
+    },
+    {
+     "slug": "cost-to-refinish-hardwood-floors",
+     "item_id": "65f32565e111adbbb806d2df",
+     "name": "Hardwood Refinishing Budgets: 5 Real Projects, Line by Line (2026)"
+    },
+    {
+     "slug": "how-much-does-it-cost-to-refinish-hardwood-floors",
+     "item_id": "65f32565e111adbbb806d366",
+     "name": "Hardwood Floor Refinishing Cost & Prices: 2026 WA Guide"
+    }
+   ]
+  },
+  {
+   "slug": "what-happens-to-baseboards-during-refinish",
+   "name": "What Happens to Your Baseboards During a Sammamish Refinish",
+   "publish_date": "2026-11-30",
+   "item_id": "6a923c0169291914887ee687",
+   "donors": [
+    {
+     "slug": "top-hardwood-flooring-options-for-lakeside-homes-in-sammamish-wa-by-oc-flooring",
+     "item_id": "65f32565e111adbbb806d22e",
+     "name": "Top Hardwood Flooring Options for Lakeside Homes in Sammamish"
+    },
+    {
+     "slug": "sun-damaged-hardwood-floors",
+     "item_id": "65f32565e111adbbb806d37b",
+     "name": "Sun-Damaged Hardwood Floors: Why It Happens and How to Fix It"
+    },
+    {
+     "slug": "hardwood-floor-refinishing-how-to-store-furniture-during-the-process",
+     "item_id": "65f32565e111adbbb806d2e1",
+     "name": "How to Store Furniture During Hardwood Floor Refinishing"
+    },
+    {
+     "slug": "what-to-do-in-your-house-during-remodeling",
+     "item_id": "65f32565e111adbbb806d2a3",
+     "name": "What to Do in Your House During Remodeling: The Live-Through-It Playbook"
+    }
+   ]
+  },
+  {
+   "slug": "squeaky-hardwood-floors-refinishing-wont-fix",
+   "name": "Squeaky Hardwood Floors in Redmond: Why Refinishing Won't Fix It",
+   "publish_date": "2026-12-02",
+   "item_id": "6a923c7b878de395f1f3ea03",
+   "donors": [
+    {
+     "slug": "5-things-you-need-to-know-about-brazilian-cherry-floor-in-bellevue-wa",
+     "item_id": "65f32565e111adbbb806d216",
+     "name": "Own a Brazilian Cherry Floor in Bellevue? 5 Things to Know"
+    },
+    {
+     "slug": "10-most-popular-questions-about-wood-floor-refinishing",
+     "item_id": "65f32565e111adbbb806d378",
+     "name": "The Wood Floor Refinishing Questions Everyone Asks \u2014 Answered Honestly"
+    },
+    {
+     "slug": "oc-flooring-wood-floor-refinishing-company",
+     "item_id": "65f32565e111adbbb806d359",
+     "name": "How OC Flooring Refinishes Wood Floors: Our Process from Estimate to Walkthrough"
+    },
+    {
+     "slug": "hardwood-floor-installations",
+     "item_id": "65f32565e111adbbb806cf78",
+     "name": "Hardwood Floor Installations: Nail-Down vs Glue-Down vs Floating"
+    }
+   ]
+  },
+  {
+   "slug": "refinishing-during-seattle-rainy-season",
+   "name": "Refinishing During Seattle's Rainy Season",
+   "publish_date": "2026-12-04",
+   "item_id": "6a923ceec4c3270826ad1fac",
+   "donors": [
+    {
+     "slug": "choosing-the-best-floors-for-seattles-climate",
+     "item_id": "65f32565e111adbbb806d0bd",
+     "name": "Choosing the Best Floors for Seattle's Climate, House by House"
+    },
+    {
+     "slug": "why-spring-is-the-best-time-to-get-new-flooring-in-seattle-wa",
+     "item_id": "65f32565e111adbbb806d381",
+     "name": "Best Time to Buy New Flooring in Seattle: Why Spring Wins"
+    },
+    {
+     "slug": "hardwood-vs-tile-in-the-kitchen",
+     "item_id": "65f32565e111adbbb806cff3",
+     "name": "Hardwood vs. Tile in the Kitchen: Which Should You Choose?"
+    },
+    {
+     "slug": "the-10-best-carpet-brands-reviews-2023-guide",
+     "item_id": "65f32565e111adbbb806d368",
+     "name": "Carpet vs. Hard Flooring in 2026: An Honest Local Guide"
+    }
+   ]
+  },
+  {
+   "slug": "refinishing-vs-installing-new-prefinished-hardwood",
+   "name": "Refinishing vs Installing New Prefinished Hardwood in Everett",
+   "publish_date": "2026-12-07",
+   "item_id": "6a9239e3cd1cab6335f583aa",
+   "donors": [
+    {
+     "slug": "how-much-does-it-cost-to-install-laminate-floor-in-everett-wa-with-oc-flooring-company",
+     "item_id": "65f32565e111adbbb806d36b",
+     "name": "Laminate Wood Flooring Installation Cost in Everett (2026)"
+    },
+    {
+     "slug": "transform-your-home-with-oc-floorings-vinyl-plank-flooring-installation",
+     "item_id": "65f32565e111adbbb806d362",
+     "name": "Vinyl Plank Flooring Installation in Everett, WA: The Full What-to-Expect Guide"
+    },
+    {
+     "slug": "can-i-refinish-pre-finished-hardwood-floors",
+     "item_id": "65f32565e111adbbb806d35f",
+     "name": "Can You Refinish Prefinished Hardwood Floors? Yes \u2014 Here's the Catch"
+    },
+    {
+     "slug": "how-humidity-can-affect-hardwood-and-laminate-flooring",
+     "item_id": "65f32565e111adbbb806d35b",
+     "name": "How Humidity Moves Hardwood and Laminate Floors \u2014 and How to Stop It"
+    }
+   ]
+  },
+  {
+   "slug": "rugs-and-rug-pads-that-dont-damage-finish",
+   "name": "Rugs and Rug Pads That Don't Damage Your Finish",
+   "publish_date": "2026-12-09",
+   "item_id": "6a923a977534ddc2771694c3",
+   "donors": [
+    {
+     "slug": "can-you-steam-clean-hardwood-floors",
+     "item_id": "66ca465c4d9df16f0cc16c16",
+     "name": "Steam Cleaning Hardwood Floors: Why the Answer Is No"
+    },
+    {
+     "slug": "why-does-my-hardwood-floor-have-gaps",
+     "item_id": "65f32565e111adbbb806d376",
+     "name": "Why Are My Hardwood Floors Separating? Winter Gap Facts"
+    },
+    {
+     "slug": "is-it-worth-it-to-restretch-your-carpet",
+     "item_id": "65f32565e111adbbb806d36f",
+     "name": "Is It Worth It to Restretch Your Carpet? The Honest Math"
+    },
+    {
+     "slug": "how-often-should-i-replace-my-flooring",
+     "item_id": "65f32565e111adbbb806cfdb",
+     "name": "How Often Should You Replace Your Flooring?"
+    }
+   ]
+  },
+  {
+   "slug": "refinishing-parquet-floors-whats-possible",
+   "name": "Refinishing Parquet Floors in Bellevue: What's Possible and What Isn't",
+   "publish_date": "2026-12-11",
+   "item_id": "6a923b4ba2f46752fde8082b",
+   "donors": [
+    {
+     "slug": "5-things-you-need-to-know-about-brazilian-cherry-floor-in-bellevue-wa",
+     "item_id": "65f32565e111adbbb806d216",
+     "name": "Own a Brazilian Cherry Floor in Bellevue? 5 Things to Know"
+    },
+    {
+     "slug": "solid-vs-engineered-hardwood-which-is-right-for-your-home",
+     "item_id": "65f32565e111adbbb806d243",
+     "name": "Solid vs Engineered Hardwood: Construction, Wear Layers, and the 50-Year Math"
+    },
+    {
+     "slug": "can-you-add-hardwood-to-existing-hardwood-floors",
+     "item_id": "65f32565e111adbbb806d0ee",
+     "name": "Can You Add New Hardwood to Existing Hardwood Floors?"
+    },
+    {
+     "slug": "maple-hardwood-flooring-a-durable-and-attractive-option-for-your-home",
+     "item_id": "65f32565e111adbbb806d34f",
+     "name": "Maple Hardwood Flooring: Bright, Tough, and Tricky to Stain"
+    }
+   ]
+  },
+  {
+   "slug": "minimum-job-sizes-small-refinishing-jobs",
+   "name": "Minimum Job Sizes in Lynnwood: Why Small Jobs Cost More Per Foot",
+   "publish_date": "2026-12-14",
+   "item_id": "6a923bc6bf29df41da020483",
+   "donors": [
+    {
+     "slug": "5-carpet-options-for-carpet-installation-in-lynnwood-wa",
+     "item_id": "65f32565e111adbbb806d009",
+     "name": "5 Carpet Options for Lynnwood Homes: An Honest 2026 Guide"
+    },
+    {
+     "slug": "transform-your-home-with-expert-hardwood-flooring-installation-in-lynnwood-wa",
+     "item_id": "65f32565e111adbbb806d379",
+     "name": "Hardwood Flooring Installation in Lynnwood, WA: What to Expect, Step by Step"
+    },
+    {
+     "slug": "carpet-installation-cost-bothell-wa",
+     "item_id": "65f32565e111adbbb806d042",
+     "name": "How Much Does Carpet Installation Cost in Bothell, WA? 2026 Market Rates"
+    },
+    {
+     "slug": "laminate-flooring-installation-cost-seattle-wa",
+     "item_id": "6a17bf3971561e488b935064",
+     "name": "Laminate Flooring Installation Cost in Seattle, WA (2026 Guide)"
+    }
+   ]
+  },
+  {
+   "slug": "hvac-dust-control-during-refinishing",
+   "name": "What Contractors Do About HVAC and Dust Control in Mercer Island Homes",
+   "publish_date": "2026-12-16",
+   "item_id": "6a923c44c4c3270826ace076",
+   "donors": [
+    {
+     "slug": "what-is-dust-free-hardwood-floor-refinishing-oc-flooring",
+     "item_id": "65f32565e111adbbb806d2de",
+     "name": "What Is Dust-Free Hardwood Floor Refinishing Actually Like to Live Through?"
+    },
+    {
+     "slug": "5-questions-to-ask-before-refinishing-hardwood-floors",
+     "item_id": "65f32565e111adbbb806d022",
+     "name": "5 Questions to Ask Before Refinishing Hardwood Floors (and the Answers You Should Hear)"
+    },
+    {
+     "slug": "should-i-refinish-or-replace-my-floor-a-comprehensive-guide",
+     "item_id": "65f32565e111adbbb806d09d",
+     "name": "Should I Refinish or Replace My Hardwood Floor? A Damage-by-Damage Guide"
+    },
+    {
+     "slug": "how-to-remove-old-carpet",
+     "item_id": "65f32565e111adbbb806d259",
+     "name": "How to Remove Old Carpet Yourself: Tools, Steps & Local Disposal"
+    }
+   ]
+  },
+  {
+   "slug": "white-cloudy-spots-hardwood-floors",
+   "name": "White Cloudy Spots on Hardwood Floors in Edmonds Homes",
+   "publish_date": "2026-12-18",
+   "item_id": "6a923cc6a54c8f443f93e072",
+   "donors": [
+    {
+     "slug": "how-to-choose-laundry-room-flooring",
+     "item_id": "65f32565e111adbbb806d354",
+     "name": "How to Choose Laundry Room Flooring That Survives the Job"
+    },
+    {
+     "slug": "american-cherry-hardwood-vs-brazilian-cherry-hardwood",
+     "item_id": "65f32565e111adbbb806d149",
+     "name": "American Cherry vs Brazilian Cherry Flooring: Two Very Different Woods"
+    },
+    {
+     "slug": "sun-damaged-hardwood-floors",
+     "item_id": "65f32565e111adbbb806d37b",
+     "name": "Sun-Damaged Hardwood Floors: Why It Happens and How to Fix It"
+    },
+    {
+     "slug": "how-to-take-care-of-vinyl-flooring",
+     "item_id": "65f32565e111adbbb806d370",
+     "name": "How to Take Care of Vinyl Flooring (and What Quietly Ruins It)"
+    }
+   ]
+  },
+  {
+   "slug": "refinishing-rental-hardwood-between-tenants",
+   "name": "Refinishing Rental Hardwood Between Tenants in Renton",
+   "publish_date": "2026-12-21",
+   "item_id": "6a923d4fe17eff730b42a4e9",
+   "donors": [
+    {
+     "slug": "best-flooring-for-pacific-northwest-climate",
+     "item_id": "6a20e3aebcd4c83e44acccea",
+     "name": "Best Flooring for the Pacific Northwest Climate: What Actually Survives Here"
+    },
+    {
+     "slug": "flooring-services-tailored-for-real-estate-success",
+     "item_id": "66072915e47b67010e855f75",
+     "name": "Flooring for Real Estate Success: A Playbook for Agents, Flippers & Landlords"
+    },
+    {
+     "slug": "flooring-guide-mill-creek-wa",
+     "item_id": "65f32565e111adbbb806d373",
+     "name": "Flooring in Mill Creek, WA: An Honest Room-by-Room Local Guide"
+    },
+    {
+     "slug": "alternatives-to-tile-flooring-in-snohomish-wa",
+     "item_id": "65f32565e111adbbb806d2dd",
+     "name": "Alternatives to Tile Flooring in Snohomish, WA: What to Use Instead"
+    }
+   ]
+  },
+  {
+   "slug": "screen-recoat-vs-chemical-abrasion",
+   "name": "Screen and Recoat vs Chemical Abrasion Systems",
+   "publish_date": "2026-12-23",
+   "item_id": "6a923a1f6c2fbffe9c14366d",
+   "donors": [
+    {
+     "slug": "sand-and-refinish-vs-screen-and-recoat-which-is-right-for-your-hardwood-floors",
+     "item_id": "65f32565e111adbbb806d369",
+     "name": "Sand & Refinish vs Screen & Recoat: The Complete Decision Guide"
+    },
+    {
+     "slug": "can-i-refinish-pre-finished-hardwood-floors",
+     "item_id": "65f32565e111adbbb806d35f",
+     "name": "Can You Refinish Prefinished Hardwood Floors? Yes \u2014 Here's the Catch"
+    },
+    {
+     "slug": "thinking-of-staining-your-hardwood-floors-a-dark-color",
+     "item_id": "65f32565e111adbbb806d2fd",
+     "name": "Thinking of Staining Your Hardwood Floors a Dark Color? Read This First"
+    },
+    {
+     "slug": "is-vinyl-plank-better-than-laminate-a-comparison-by-oc-flooring-company",
+     "item_id": "65f32565e111adbbb806d37e",
+     "name": "Is Vinyl Plank Better Than Laminate? The 10-Round Head-to-Head"
+    }
+   ]
+  },
+  {
+   "slug": "pine-floors-century-homes-refinishing",
+   "name": "Pine Floors in Century Homes: Refinishing Softwood in Seattle",
+   "publish_date": "2026-12-25",
+   "item_id": "6a923ad39f9b7f8b2cbb8128",
+   "donors": [
+    {
+     "slug": "where-to-buy-hardwood-flooring-near-me",
+     "item_id": "66cbcf1aeab179734860bea4",
+     "name": "Where to Buy Hardwood Flooring Near Me: An Honest Buying Guide"
+    },
+    {
+     "slug": "why-vinyl-plank-flooring-is-perfect-for-seattle-homes",
+     "item_id": "65f32565e111adbbb806d34e",
+     "name": "Why Vinyl Plank Flooring Is Perfect for Seattle Homes: A Rainy-Week Reality Check"
+    },
+    {
+     "slug": "red-oak-vs-white-oak-flooring",
+     "item_id": "65f32565e111adbbb806d367",
+     "name": "Red Oak vs White Oak Flooring: Which Is Right for Your Home?"
+    },
+    {
+     "slug": "benefits-of-vinyl-plank-flooring-for-seattle-wa-homes-a-guide-from-oc-flooring",
+     "item_id": "65f32565e111adbbb806d35e",
+     "name": "How to Choose Vinyl Plank for a Seattle Home: A Buyer's Spec Guide"
+    }
+   ]
+  },
+  {
+   "slug": "refinishing-deposit-what-it-should-cover",
+   "name": "What a Kirkland Refinishing Deposit Should and Shouldn't Cover",
+   "publish_date": "2026-12-28",
+   "item_id": "6a923b50a2f46752fde8090b",
+   "donors": [
+    {
+     "slug": "5-flooring-installation-options-in-kirkland-wa",
+     "item_id": "65f32565e111adbbb806cfc4",
+     "name": "5 Flooring Installation Options for Kirkland, WA Homes"
+    },
+    {
+     "slug": "pre-finished-vs-site-finished-hardwood-floors",
+     "item_id": "65f32565e111adbbb806cf58",
+     "name": "Pre-Finished vs Site-Finished Hardwood Floors: Which Should You Choose?"
+    },
+    {
+     "slug": "hardwood-flooring-installation-cost-what-you-need-to-know",
+     "item_id": "65f32565e111adbbb806cfab",
+     "name": "Hardwood Flooring Installation Cost: What You Need to Know (2026)"
+    },
+    {
+     "slug": "how-much-should-i-pay-for-engineered-wood-flooring-in-bellevue-wa",
+     "item_id": "65f32565e111adbbb806cf1c",
+     "name": "How Much Should I Pay for Engineered Wood Flooring in Bellevue, WA? (2026)"
+    }
+   ]
+  },
+  {
+   "slug": "flooring-transitions-between-rooms",
+   "name": "Handling Transitions Between Rooms and Flooring Types in Redmond",
+   "publish_date": "2026-12-30",
+   "item_id": "6a923bcd16f788fda8c6c885",
+   "donors": [
+    {
+     "slug": "bona-hd-the-ultimate-floor-finish-for-your-home",
+     "item_id": "65f32565e111adbbb806d05f",
+     "name": "Bona HD Floor Finish: What It Is and When It's Worth It"
+    },
+    {
+     "slug": "dustless-vs-traditional-hardwood-floor-sanding",
+     "item_id": "6a20e3aebcd4c83e44acccec",
+     "name": "Dustless vs. Traditional Hardwood Floor Sanding: What's Really Different?"
+    },
+    {
+     "slug": "why-oc-flooring-hardwood-refinishing-is-worth-the-investment-for-your-home-in-seattle-wa-area",
+     "item_id": "65f32565e111adbbb806d197",
+     "name": "What a Quality Hardwood Refinish Includes \u2014 and Why It\u2019s Worth the Investment"
+    },
+    {
+     "slug": "our-stair-installation-services",
+     "item_id": "65f32565e111adbbb806d352",
+     "name": "Stair Installation & Remodeling: A Homeowner's Guide to Getting It Right"
+    }
+   ]
+  },
+  {
+   "slug": "sticky-hardwood-floors-after-cleaning",
+   "name": "Sticky Hardwood Floors After Cleaning in Everett: What Went Wrong",
+   "publish_date": "2027-01-01",
+   "item_id": "6a923c4ba2f46752fde843bd",
+   "donors": [
+    {
+     "slug": "transform-your-home-with-oc-floorings-vinyl-plank-flooring-installation",
+     "item_id": "65f32565e111adbbb806d362",
+     "name": "Vinyl Plank Flooring Installation in Everett, WA: The Full What-to-Expect Guide"
+    },
+    {
+     "slug": "what-is-the-best-waterproof-floor-in-everett-wa",
+     "item_id": "65f32565e111adbbb806d33d",
+     "name": "What Is the Best Waterproof Flooring in Everett, WA?"
+    },
+    {
+     "slug": "can-you-steam-clean-hardwood-floors",
+     "item_id": "66ca465c4d9df16f0cc16c16",
+     "name": "Steam Cleaning Hardwood Floors: Why the Answer Is No"
+    },
+    {
+     "slug": "how-to-clean-and-maintain-hardwood-floors",
+     "item_id": "65f32565e111adbbb806d1e3",
+     "name": "How to Clean and Maintain Hardwood Floors: A Craftsman's Routine"
+    }
+   ]
+  },
+  {
+   "slug": "staging-on-newly-refinished-floors",
+   "name": "Staging on Newly Refinished Floors in Bellevue: What Not to Do",
+   "publish_date": "2027-01-04",
+   "item_id": "6a923cca878de395f1f4190a",
+   "donors": [
+    {
+     "slug": "carpet-solution-in-bellevue-wa-your-ultimate-guide-to-impeccable-flooring",
+     "item_id": "65f32565e111adbbb806d374",
+     "name": "Choosing Carpet in Bellevue: An Honest Guide From a Hard-Surface Company"
+    },
+    {
+     "slug": "choosing-the-right-hardwood-flooring-for-your-bellevue-wa-home",
+     "item_id": "65f32565e111adbbb806d34d",
+     "name": "Choosing the Right Hardwood Flooring for Your Bellevue Home"
+    },
+    {
+     "slug": "the-10-best-carpet-brands-reviews-2023-guide",
+     "item_id": "65f32565e111adbbb806d368",
+     "name": "Carpet vs. Hard Flooring in 2026: An Honest Local Guide"
+    },
+    {
+     "slug": "flooring-guide-mill-creek-wa",
+     "item_id": "65f32565e111adbbb806d373",
+     "name": "Flooring in Mill Creek, WA: An Honest Room-by-Room Local Guide"
+    }
+   ]
+  },
+  {
+   "slug": "bamboo-floor-refinishing-when-it-works",
+   "name": "Bamboo Floor Refinishing in Sammamish: When It Works and When It Doesn't",
+   "publish_date": "2027-01-06",
+   "item_id": "6a923d4fc5553634ac82fc1d",
+   "donors": [
+    {
+     "slug": "hardwood-floor-refinishing-cost-seattle-wa",
+     "item_id": "6a17c08c8c3a0d8f469273a9",
+     "name": "Hardwood Floor Refinishing Cost in Seattle: Craftsman Fir, Condos & City Logistics (2026)"
+    },
+    {
+     "slug": "solid-v-s-engineered-wood-floors-whats-right-for-your-home",
+     "item_id": "65f32565e111adbbb806d372",
+     "name": "Wood Floors on Slabs, Basements & Radiant Heat: What Your House Allows"
+    },
+    {
+     "slug": "everything-you-need-to-know-about-choosing-the-right-wood-for-your-home",
+     "item_id": "6650fb9ef815422cce65d277",
+     "name": "What Type of Wood Is Best for Your Home? A Species Guide"
+    },
+    {
+     "slug": "what-color-should-i-stain-my-wood-floors",
+     "item_id": "65f32565e111adbbb806d163",
+     "name": "What Color Should I Stain My Wood Floors? A Refinisher's Guide"
+    }
+   ]
+  },
+  {
+   "slug": "10-year-maintenance-plan-refinished-floors",
+   "name": "A 10-Year Maintenance Plan for Newly Refinished Floors",
+   "publish_date": "2027-01-08",
+   "item_id": "6a92378951d97c29d28b204c",
+   "donors": [
+    {
+     "slug": "upkeep-for-carpet-vs-hardwood-flooring",
+     "item_id": "65f32565e111adbbb806d36a",
+     "name": "Carpet vs. Hardwood Upkeep: The Honest 10-Year Comparison"
+    },
+    {
+     "slug": "can-you-steam-clean-hardwood-floors",
+     "item_id": "66ca465c4d9df16f0cc16c16",
+     "name": "Steam Cleaning Hardwood Floors: Why the Answer Is No"
+    },
+    {
+     "slug": "why-does-my-hardwood-floor-have-gaps",
+     "item_id": "65f32565e111adbbb806d376",
+     "name": "Why Are My Hardwood Floors Separating? Winter Gap Facts"
+    },
+    {
+     "slug": "do-you-have-to-move-furniture-to-stretch-carpet",
+     "item_id": "65f32565e111adbbb806d36d",
+     "name": "Do You Have to Move Furniture to Stretch Carpet? Mostly, Yes"
+    }
+   ]
+  },
+  {
+   "slug": "refinish-hardwood-under-kitchen-cabinets",
+   "name": "Can You Refinish Hardwood Under Kitchen Cabinets in Lynnwood Homes",
+   "publish_date": "2027-01-11",
+   "item_id": "6a92387969291914887e9893",
+   "donors": [
+    {
+     "slug": "5-carpet-options-for-carpet-installation-in-lynnwood-wa",
+     "item_id": "65f32565e111adbbb806d009",
+     "name": "5 Carpet Options for Lynnwood Homes: An Honest 2026 Guide"
+    },
+    {
+     "slug": "5-ways-to-protect-hardwood-flooring",
+     "item_id": "65f32565e111adbbb806d1cb",
+     "name": "5 Ways to Protect Hardwood Flooring That Actually Work"
+    },
+    {
+     "slug": "why-wood-floor-refinishing-is-not-a-diy-project",
+     "item_id": "65f32565e111adbbb806d351",
+     "name": "Why Wood Floor Refinishing Is Not a DIY Project"
+    },
+    {
+     "slug": "all-about-subfloors-what-you-need-to-know",
+     "item_id": "65f32565e111adbbb806d37d",
+     "name": "Subfloors Explained: What's Under Your Floor Decides Everything Above It"
+    }
+   ]
+  },
+  {
+   "slug": "peeling-flaking-floor-finish-why",
+   "name": "Peeling or Flaking Floor Finish in Seattle: Why It Happens",
+   "publish_date": "2027-01-13",
+   "item_id": "6a92396a72ed6949dcab1012",
+   "donors": [
+    {
+     "slug": "renew-your-home-with-wood-floor-refinishing-service-from-oc-flooring-company-in-seattle-wa",
+     "item_id": "65f32565e111adbbb806cf96",
+     "name": "Wood Floor Refinishing in Seattle: What It Fixes and How We Work"
+    },
+    {
+     "slug": "hardwood-floor-refinishing-near-me-seattle-wa",
+     "item_id": "6a17b3394efab36881a3c92f",
+     "name": "Booking Hardwood Floor Refinishing in Seattle: Timing & Logistics"
+    },
+    {
+     "slug": "hardwood-floor-refinishing-process-timeline",
+     "item_id": "6a20ec44eda8ac22f6ca40fd",
+     "name": "What to Expect During Hardwood Floor Refinishing: The Day-by-Day Timeline"
+    },
+    {
+     "slug": "the-benefits-of-waterproof-flooring-in-seattle-wa",
+     "item_id": "65f32565e111adbbb806d17d",
+     "name": "The Benefits of Waterproof Flooring in Seattle \u2014 Room by Room"
+    }
+   ]
+  },
+  {
+   "slug": "homeowners-insurance-hardwood-floor-damage",
+   "name": "Does Homeowners Insurance Cover Hardwood Floor Damage in Everett",
+   "publish_date": "2027-01-15",
+   "item_id": "6a923a5a19d5c595374ec0f7",
+   "donors": [
+    {
+     "slug": "how-much-does-it-cost-to-install-laminate-floor-in-everett-wa-with-oc-flooring-company",
+     "item_id": "65f32565e111adbbb806d36b",
+     "name": "Laminate Wood Flooring Installation Cost in Everett (2026)"
+    },
+    {
+     "slug": "benefits-of-vinyl-flooring",
+     "item_id": "65f32565e111adbbb806d2c3",
+     "name": "Benefits of Vinyl Flooring: Sheet vs. Plank vs. Tile, Explained"
+    },
+    {
+     "slug": "what-you-need-to-know-about-baseboards",
+     "item_id": "65f32565e111adbbb806d27f",
+     "name": "What You Need to Know About Baseboards (Before New Floors Go In)"
+    },
+    {
+     "slug": "is-it-cheaper-to-refinish-or-replace-wood-floors",
+     "item_id": "65f32565e111adbbb806d117",
+     "name": "Is It Cheaper to Refinish or Replace Wood Floors? The Honest Math (2026)"
+    }
+   ]
+  },
+  {
+   "slug": "herringbone-chevron-sanding-patterned-floors",
+   "name": "Herringbone and Chevron in Mercer Island Homes: Sanding Patterned Floors",
+   "publish_date": "2027-01-18",
+   "item_id": "6a923b4b63e0c17b5d931834",
+   "donors": [
+    {
+     "slug": "everything-you-need-to-know-about-choosing-the-right-wood-for-your-home",
+     "item_id": "6650fb9ef815422cce65d277",
+     "name": "What Type of Wood Is Best for Your Home? A Species Guide"
+    },
+    {
+     "slug": "can-you-add-hardwood-to-existing-hardwood-floors",
+     "item_id": "65f32565e111adbbb806d0ee",
+     "name": "Can You Add New Hardwood to Existing Hardwood Floors?"
+    },
+    {
+     "slug": "maple-hardwood-flooring-a-durable-and-attractive-option-for-your-home",
+     "item_id": "65f32565e111adbbb806d34f",
+     "name": "Maple Hardwood Flooring: Bright, Tough, and Tricky to Stain"
+    },
+    {
+     "slug": "top-benefits-of-professional-flooring-installation-for-homeowners-in-bothell-wa",
+     "item_id": "65f32565e111adbbb806cf3c",
+     "name": "Professional Flooring Installation vs DIY: An Honest Cost-of-Mistakes Analysis"
+    }
+   ]
+  },
+  {
+   "slug": "refinishing-around-radiators-vents-built-ins",
+   "name": "Refinishing Around Radiators, Vents, and Built-Ins in Edmonds Homes",
+   "publish_date": "2027-01-20",
+   "item_id": "6a923c1abf29df41da022b88",
+   "donors": [
+    {
+     "slug": "american-cherry-hardwood-vs-brazilian-cherry-hardwood",
+     "item_id": "65f32565e111adbbb806d149",
+     "name": "American Cherry vs Brazilian Cherry Flooring: Two Very Different Woods"
+    },
+    {
+     "slug": "can-i-install-hardwood-flooring-in-a-basement-or-other-moisture-prone-areas",
+     "item_id": "65f32565e111adbbb806d131",
+     "name": "Can You Install Hardwood in a Basement? The Honest Moisture Answer"
+    },
+    {
+     "slug": "how-to-choose-laundry-room-flooring",
+     "item_id": "65f32565e111adbbb806d354",
+     "name": "How to Choose Laundry Room Flooring That Survives the Job"
+    },
+    {
+     "slug": "beautiful-hardwood-floor-heating-vents",
+     "item_id": "65f32565e111adbbb806d35a",
+     "name": "Hardwood Floor Heating Vents: Flush-Mount vs. Drop-In, and When to Add Them"
+    }
+   ]
+  },
+  {
+   "slug": "refinishing-timeline-under-contract",
+   "name": "Refinishing Timeline When You're Under Contract on a Kirkland Sale",
+   "publish_date": "2027-01-22",
+   "item_id": "6a923cec69291914887f2556",
+   "donors": [
+    {
+     "slug": "5-flooring-installation-options-in-kirkland-wa",
+     "item_id": "65f32565e111adbbb806cfc4",
+     "name": "5 Flooring Installation Options for Kirkland, WA Homes"
+    },
+    {
+     "slug": "pros-and-cons-of-luxury-vinyl-flooring",
+     "item_id": "65f32565e111adbbb806d353",
+     "name": "The Honest Pros and Cons of Luxury Vinyl Flooring"
+    },
+    {
+     "slug": "what-is-the-best-flooring-for-kids-pets",
+     "item_id": "65f32565e111adbbb806d375",
+     "name": "What Is the Best Flooring for Kids & Pets? A Room-by-Room Ranking"
+    },
+    {
+     "slug": "hardwood-vs-tile-in-the-kitchen",
+     "item_id": "65f32565e111adbbb806cff3",
+     "name": "Hardwood vs. Tile in the Kitchen: Which Should You Choose?"
+    }
+   ]
+  },
+  {
+   "slug": "water-rings-heat-marks-hardwood",
+   "name": "Water Rings and Heat Marks on Hardwood",
+   "publish_date": "2027-01-25",
+   "item_id": "6a923a5a9d3b9ef4d89c839d",
+   "donors": [
+    {
+     "slug": "do-you-have-to-move-furniture-to-stretch-carpet",
+     "item_id": "65f32565e111adbbb806d36d",
+     "name": "Do You Have to Move Furniture to Stretch Carpet? Mostly, Yes"
+    },
+    {
+     "slug": "how-often-should-i-replace-my-flooring",
+     "item_id": "65f32565e111adbbb806cfdb",
+     "name": "How Often Should You Replace Your Flooring?"
+    },
+    {
+     "slug": "upkeep-for-carpet-vs-hardwood-flooring",
+     "item_id": "65f32565e111adbbb806d36a",
+     "name": "Carpet vs. Hardwood Upkeep: The Honest 10-Year Comparison"
+    },
+    {
+     "slug": "why-does-my-hardwood-floor-have-gaps",
+     "item_id": "65f32565e111adbbb806d376",
+     "name": "Why Are My Hardwood Floors Separating? Winter Gap Facts"
+    }
+   ]
+  },
+  {
+   "slug": "site-finished-vs-factory-finished-long-term",
+   "name": "Site-Finished vs Factory-Finished in Renton: The Long-Term Reality",
+   "publish_date": "2027-01-27",
+   "item_id": "6a923b0fa49553afbad8fbcc",
+   "donors": [
+    {
+     "slug": "can-i-refinish-pre-finished-hardwood-floors",
+     "item_id": "65f32565e111adbbb806d35f",
+     "name": "Can You Refinish Prefinished Hardwood Floors? Yes \u2014 Here's the Catch"
+    },
+    {
+     "slug": "hardwood-floor-refinishing",
+     "item_id": "6650f5d824b2a257c7a1433e",
+     "name": "Hardwood Floor Refinishing: The Complete Homeowner's Guide"
+    },
+    {
+     "slug": "10-most-popular-questions-about-wood-floor-refinishing",
+     "item_id": "65f32565e111adbbb806d378",
+     "name": "The Wood Floor Refinishing Questions Everyone Asks \u2014 Answered Honestly"
+    },
+    {
+     "slug": "what-is-a-floating-floor",
+     "item_id": "65f32565e111adbbb806d37a",
+     "name": "What Is a Floating Floor? Construction, Pros and Fit"
+    }
+   ]
+  },
+  {
+   "slug": "when-cheap-refinishing-quote-costs-more",
+   "name": "When a Cheap Redmond Refinishing Quote Costs You More Later",
+   "publish_date": "2027-01-29",
+   "item_id": "6a923bc4c4c3270826ac9ce1",
+   "donors": [
+    {
+     "slug": "cost-to-refinish-hardwood-floors",
+     "item_id": "65f32565e111adbbb806d2df",
+     "name": "Hardwood Refinishing Budgets: 5 Real Projects, Line by Line (2026)"
+    },
+    {
+     "slug": "carpet-installation-cost-bothell-wa",
+     "item_id": "65f32565e111adbbb806d042",
+     "name": "How Much Does Carpet Installation Cost in Bothell, WA? 2026 Market Rates"
+    },
+    {
+     "slug": "how-much-does-it-cost-to-refinish-hardwood-floors",
+     "item_id": "65f32565e111adbbb806d366",
+     "name": "Hardwood Floor Refinishing Cost & Prices: 2026 WA Guide"
+    },
+    {
+     "slug": "what-is-a-good-price-to-pay-for-carpet-in-seattle-wa",
+     "item_id": "65f32565e111adbbb806d26c",
+     "name": "Carpet Installation Cost in Seattle: A Fair-Price Guide"
+    }
+   ]
+  },
+  {
+   "slug": "old-growth-fir-ballard-queen-anne",
+   "name": "Old-Growth Fir in Ballard and Queen Anne Homes",
+   "publish_date": "2027-02-01",
+   "item_id": "6a923c45bf29df41da024c0a",
+   "donors": [
+    {
+     "slug": "pet-friendly-allergy-friendly-flooring-seattle",
+     "item_id": "6a20ec44eda8ac22f6ca40fb",
+     "name": "Pet-Friendly, Allergy-Friendly Flooring for Seattle Homes"
+    },
+    {
+     "slug": "hardwood-vs-tile-in-the-kitchen",
+     "item_id": "65f32565e111adbbb806cff3",
+     "name": "Hardwood vs. Tile in the Kitchen: Which Should You Choose?"
+    },
+    {
+     "slug": "whats-the-best-carpeting-for-stairs-in-kenmore-wa",
+     "item_id": "65f32565e111adbbb806d382",
+     "name": "What's the Best Carpeting for Stairs? An Honest Kenmore, WA Guide"
+    },
+    {
+     "slug": "what-is-the-best-flooring-for-kids-pets",
+     "item_id": "65f32565e111adbbb806d375",
+     "name": "What Is the Best Flooring for Kids & Pets? A Room-by-Room Ranking"
+    }
+   ]
+  },
+  {
+   "slug": "refinished-floor-looks-different-room-to-room",
+   "name": "Why Your Refinished Floor Looks Different Room to Room in Bellevue",
+   "publish_date": "2027-02-03",
+   "item_id": "6a923cc6693fca262e0995db",
+   "donors": [
+    {
+     "slug": "dustless-vs-traditional-hardwood-floor-sanding",
+     "item_id": "6a20e3aebcd4c83e44acccec",
+     "name": "Dustless vs. Traditional Hardwood Floor Sanding: What's Really Different?"
+    },
+    {
+     "slug": "how-many-times-can-a-wood-floor-be-sanded-and-refinished-in-the-seattle-wa-area",
+     "item_id": "65f32565e111adbbb806d2e2",
+     "name": "How Many Times Can a Wood Floor Be Sanded and Refinished?"
+    },
+    {
+     "slug": "trio-sanding-machine-for-flat-floors",
+     "item_id": "65f32565e111adbbb806d37c",
+     "name": "The TRIO Sanding Machine: Why Our Refinished Floors Come Out Flat"
+    },
+    {
+     "slug": "flooring-installers-near-me-seattle-bellevue-wa",
+     "item_id": "6a17b3394efab36881a3c92d",
+     "name": "Flooring Installers Near Me: How to Hire Well in Seattle & Bellevue"
+    }
+   ]
+  },
+  {
+   "slug": "worn-traffic-paths-hardwood-spot-fix",
+   "name": "Worn Traffic Paths in Everett Hardwood: Can You Fix Just That Area",
+   "publish_date": "2027-02-05",
+   "item_id": "6a923d4b9d3b9ef4d89d2ec2",
+   "donors": [
+    {
+     "slug": "what-is-the-best-waterproof-floor-in-everett-wa",
+     "item_id": "65f32565e111adbbb806d33d",
+     "name": "What Is the Best Waterproof Flooring in Everett, WA?"
+    },
+    {
+     "slug": "what-you-need-to-know-about-baseboards",
+     "item_id": "65f32565e111adbbb806d27f",
+     "name": "What You Need to Know About Baseboards (Before New Floors Go In)"
+    },
+    {
+     "slug": "5-questions-to-ask-before-refinishing-hardwood-floors",
+     "item_id": "65f32565e111adbbb806d022",
+     "name": "5 Questions to Ask Before Refinishing Hardwood Floors (and the Answers You Should Hear)"
+    },
+    {
+     "slug": "wood-flooring-installation-in-snohomish-area",
+     "item_id": "65f32565e111adbbb806d35c",
+     "name": "Wood Flooring Installation in the Snohomish Area: Farmhouses to New Builds"
+    }
+   ]
+  },
+  {
+   "slug": "restaurant-bar-hardwood-refinishing",
+   "name": "Restaurant and Bar Hardwood in Seattle: Refinishing Around Service Hours",
+   "publish_date": "2027-02-08",
+   "item_id": "6a923f49348f7b8ed0d9b15b",
+   "donors": [
+    {
+     "slug": "commercial-flooring-sanding-and-installation-in-seattle-wa-area-by-oc-flooring",
+     "item_id": "65f32565e111adbbb806d364",
+     "name": "Commercial Floor Sanding & Installation in Seattle: A Practical Guide for Businesses"
+    },
+    {
+     "slug": "renew-your-home-with-wood-floor-refinishing-service-from-oc-flooring-company-in-seattle-wa",
+     "item_id": "65f32565e111adbbb806cf96",
+     "name": "Wood Floor Refinishing in Seattle: What It Fixes and How We Work"
+    },
+    {
+     "slug": "hardwood-floor-refinishing-near-me-seattle-wa",
+     "item_id": "6a17b3394efab36881a3c92f",
+     "name": "Booking Hardwood Floor Refinishing in Seattle: Timing & Logistics"
+    },
+    {
+     "slug": "what-to-do-when-you-experience-water-damage-in-your-seattle-home-or-business",
+     "item_id": "65f32565e111adbbb806d2e0",
+     "name": "Water Damage on Your Floors: The First 24 Hours (Seattle-Area Guide)"
+    }
+   ]
+  },
+  {
+   "slug": "penetrating-oil-finish-pros-cons-maintenance",
+   "name": "Penetrating Oil Finishes in Sammamish: Pros, Cons, and Maintenance Reality",
+   "publish_date": "2027-02-10",
+   "item_id": "6a923fc01f3e07bff46b5b02",
+   "donors": [
+    {
+     "slug": "pallmann-finish-the-ultimate-solution-for-your-hardwood-floors",
+     "item_id": "65f32565e111adbbb806d355",
+     "name": "Pallmann Floor Finishes Explained: Film Finish vs Hardwax Oil"
+    },
+    {
+     "slug": "is-it-worth-refinishing-old-hardwood-floors",
+     "item_id": "65f32565e111adbbb806d361",
+     "name": "Is It Worth Refinishing Old Hardwood Floors? (Usually \u2014 Here\u2019s the Math)"
+    },
+    {
+     "slug": "dustless-vs-traditional-hardwood-floor-sanding",
+     "item_id": "6a20e3aebcd4c83e44acccec",
+     "name": "Dustless vs. Traditional Hardwood Floor Sanding: What's Really Different?"
+    },
+    {
+     "slug": "what-is-a-floating-floor",
+     "item_id": "65f32565e111adbbb806d37a",
+     "name": "What Is a Floating Floor? Construction, Pros and Fit"
+    }
+   ]
+  },
+  {
+   "slug": "uneven-color-previous-refinish-corrected",
+   "name": "Uneven Color From a Previous Refinish in Lynnwood: Can It Be Corrected",
+   "publish_date": "2027-02-12",
+   "item_id": "6a9240edadcfac63b91be59a",
+   "donors": [
+    {
+     "slug": "transform-your-home-with-expert-hardwood-flooring-installation-in-lynnwood-wa",
+     "item_id": "65f32565e111adbbb806d379",
+     "name": "Hardwood Flooring Installation in Lynnwood, WA: What to Expect, Step by Step"
+    },
+    {
+     "slug": "thinking-of-staining-your-hardwood-floors-a-dark-color",
+     "item_id": "65f32565e111adbbb806d2fd",
+     "name": "Thinking of Staining Your Hardwood Floors a Dark Color? Read This First"
+    },
+    {
+     "slug": "hardwood-floor-refinishing",
+     "item_id": "6650f5d824b2a257c7a1433e",
+     "name": "Hardwood Floor Refinishing: The Complete Homeowner's Guide"
+    },
+    {
+     "slug": "what-is-spc-flooring-is-it-good",
+     "item_id": "65f32565e111adbbb806d371",
+     "name": "What Is SPC Plank Flooring \u2014 and Is It Any Good?"
+    }
+   ]
+  },
+  {
+   "slug": "refinishing-for-landlords-durability",
+   "name": "Refinishing for Landlords in Everett: Durability Over Beauty",
+   "publish_date": "2027-02-15",
+   "item_id": "6a9242191584be1e5d9067ae",
+   "donors": [
+    {
+     "slug": "durable-hardwood-floors-for-dog-owners",
+     "item_id": "65f32565e111adbbb806d363",
+     "name": "Durable Hardwood Floors for Dog Owners: How to Keep Real Wood (and the Dog)"
+    },
+    {
+     "slug": "benefits-of-vinyl-flooring",
+     "item_id": "65f32565e111adbbb806d2c3",
+     "name": "Benefits of Vinyl Flooring: Sheet vs. Plank vs. Tile, Explained"
+    },
+    {
+     "slug": "flooring-services-tailored-for-real-estate-success",
+     "item_id": "66072915e47b67010e855f75",
+     "name": "Flooring for Real Estate Success: A Playbook for Agents, Flippers & Landlords"
+    },
+    {
+     "slug": "whats-the-best-carpeting-for-stairs-in-kenmore-wa",
+     "item_id": "65f32565e111adbbb806d382",
+     "name": "What's the Best Carpeting for Stairs? An Honest Kenmore, WA Guide"
+    }
+   ]
+  },
+  {
+   "slug": "how-many-coats-of-finish-hardwood-floor",
+   "name": "How Many Coats of Finish Does a Hardwood Floor Actually Need",
+   "publish_date": "2027-02-17",
+   "item_id": "6a92434716f788fda8c777be",
+   "donors": [
+    {
+     "slug": "bona-hd-the-ultimate-floor-finish-for-your-home",
+     "item_id": "65f32565e111adbbb806d05f",
+     "name": "Bona HD Floor Finish: What It Is and When It's Worth It"
+    },
+    {
+     "slug": "what-is-dust-free-hardwood-floor-refinishing-oc-flooring",
+     "item_id": "65f32565e111adbbb806d2de",
+     "name": "What Is Dust-Free Hardwood Floor Refinishing Actually Like to Live Through?"
+    },
+    {
+     "slug": "refinishing-hardwood-floors-with-urine-stains-a-comprehensive-guide",
+     "item_id": "65f32565e111adbbb806d360",
+     "name": "Refinishing Hardwood Floors With Pet Urine Stains: What Actually Works"
+    },
+    {
+     "slug": "water-resistant-flooring-a-durable-and-practical-option-for-your-home",
+     "item_id": "65f32565e111adbbb806d358",
+     "name": "Water-Resistant Flooring: What the Label Actually Promises"
+    }
+   ]
+  },
+  {
+   "slug": "can-cork-floors-be-refinished",
+   "name": "Can Cork Floors Be Refinished? A Kirkland Homeowner's Guide",
+   "publish_date": "2027-02-19",
+   "item_id": "6a92447363e0c17b5d974a84",
+   "donors": [
+    {
+     "slug": "pre-finished-vs-site-finished-hardwood-floors",
+     "item_id": "65f32565e111adbbb806cf58",
+     "name": "Pre-Finished vs Site-Finished Hardwood Floors: Which Should You Choose?"
+    },
+    {
+     "slug": "pros-and-cons-of-luxury-vinyl-flooring",
+     "item_id": "65f32565e111adbbb806d353",
+     "name": "The Honest Pros and Cons of Luxury Vinyl Flooring"
+    },
+    {
+     "slug": "solid-vs-engineered-hardwood-which-is-right-for-your-home",
+     "item_id": "65f32565e111adbbb806d243",
+     "name": "Solid vs Engineered Hardwood: Construction, Wear Layers, and the 50-Year Math"
+    },
+    {
+     "slug": "our-stair-installation-services",
+     "item_id": "65f32565e111adbbb806d352",
+     "name": "Stair Installation & Remodeling: A Homeowner's Guide to Getting It Right"
+    }
+   ]
+  },
+  {
+   "slug": "puget-sound-humidity-refinishing-schedule",
+   "name": "Why Puget Sound Humidity Changes Your Everett Refinishing Schedule",
+   "publish_date": "2027-02-22",
+   "item_id": "6a9245a063e0c17b5d97e153",
+   "donors": [
+    {
+     "slug": "durable-hardwood-floors-for-dog-owners",
+     "item_id": "65f32565e111adbbb806d363",
+     "name": "Durable Hardwood Floors for Dog Owners: How to Keep Real Wood (and the Dog)"
+    },
+    {
+     "slug": "what-is-better-laminate-or-engineered-hardwood",
+     "item_id": "65f32565e111adbbb806d103",
+     "name": "Laminate or Engineered Hardwood: Which Is Better for Your Home?"
+    },
+    {
+     "slug": "who-sells-mohawk-carpet-find-top-retailers-near-you",
+     "item_id": "66cd02ba7854b1cdd4d6c054",
+     "name": "Who Sells Mohawk Carpet? Where to Buy It \u2014 and When to Skip It"
+    },
+    {
+     "slug": "what-to-do-with-your-floor-before-putting-your-house-on-the-market-in-woodinville-wa",
+     "item_id": "65f32565e111adbbb806d377",
+     "name": "What to Do With Your Floors Before Listing Your Woodinville Home"
+    }
+   ]
+  },
+  {
+   "slug": "nail-holes-gouges-filler-what-sanding-cant-hide",
+   "name": "Nail Holes, Gouges, and Filler in Renton Floors: What Sanding Can't Hide",
+   "publish_date": "2027-02-24",
+   "item_id": "6a9246cc32517fc4024b84b4",
+   "donors": [
+    {
+     "slug": "trio-sanding-machine-for-flat-floors",
+     "item_id": "65f32565e111adbbb806d37c",
+     "name": "The TRIO Sanding Machine: Why Our Refinished Floors Come Out Flat"
+    },
+    {
+     "slug": "dustless-vs-traditional-hardwood-floor-sanding",
+     "item_id": "6a20e3aebcd4c83e44acccec",
+     "name": "Dustless vs. Traditional Hardwood Floor Sanding: What's Really Different?"
+    },
+    {
+     "slug": "is-it-worth-refinishing-old-hardwood-floors",
+     "item_id": "65f32565e111adbbb806d361",
+     "name": "Is It Worth Refinishing Old Hardwood Floors? (Usually \u2014 Here\u2019s the Math)"
+    },
+    {
+     "slug": "hardwood-floor-installations",
+     "item_id": "65f32565e111adbbb806cf78",
+     "name": "Hardwood Floor Installations: Nail-Down vs Glue-Down vs Floating"
+    }
+   ]
+  },
+  {
+   "slug": "office-retail-hardwood-refinishing-seattle",
+   "name": "Office and Retail Hardwood Refinishing in Seattle",
+   "publish_date": "2027-02-26",
+   "item_id": "6a92407563e0c17b5d963120",
+   "donors": [
+    {
+     "slug": "floor-refinishing-near-me-seattle-wa",
+     "item_id": "6a17bf3971561e488b935062",
+     "name": "How to Choose a Floor Refinishing Contractor Near You (Seattle & Bellevue Checklist)"
+    },
+    {
+     "slug": "commercial-flooring-sanding-and-installation-in-seattle-wa-area-by-oc-flooring",
+     "item_id": "65f32565e111adbbb806d364",
+     "name": "Commercial Floor Sanding & Installation in Seattle: A Practical Guide for Businesses"
+    },
+    {
+     "slug": "why-oc-flooring-hardwood-refinishing-is-worth-the-investment-for-your-home-in-seattle-wa-area",
+     "item_id": "65f32565e111adbbb806d197",
+     "name": "What a Quality Hardwood Refinish Includes \u2014 and Why It\u2019s Worth the Investment"
+    },
+    {
+     "slug": "benefits-of-vinyl-plank-flooring-for-seattle-wa-homes-a-guide-from-oc-flooring",
+     "item_id": "65f32565e111adbbb806d35e",
+     "name": "How to Choose Vinyl Plank for a Seattle Home: A Buyer's Spec Guide"
+    }
+   ]
+  },
+  {
+   "slug": "hardwood-sealer-vs-finish-difference",
+   "name": "Hardwood Sealer vs Finish: What's the Difference",
+   "publish_date": "2027-03-01",
+   "item_id": "6a9241a351d97c29d28df5b7",
+   "donors": [
+    {
+     "slug": "pallmann-finish-the-ultimate-solution-for-your-hardwood-floors",
+     "item_id": "65f32565e111adbbb806d355",
+     "name": "Pallmann Floor Finishes Explained: Film Finish vs Hardwax Oil"
+    },
+    {
+     "slug": "bona-hd-the-ultimate-floor-finish-for-your-home",
+     "item_id": "65f32565e111adbbb806d05f",
+     "name": "Bona HD Floor Finish: What It Is and When It's Worth It"
+    },
+    {
+     "slug": "oc-flooring-provides-hardwood-floor-refinishing-in-woodinville-wa",
+     "item_id": "65f32565e111adbbb806d350",
+     "name": "Hardwood Floor Refinishing in Woodinville, WA: A Local's Guide"
+    },
+    {
+     "slug": "6-reasons-to-replace-carpet-flooring",
+     "item_id": "65f32565e111adbbb806d1ff",
+     "name": "6 Signs Your Carpet Is Done \u2014 and What to Replace It With"
+    }
+   ]
+  },
+  {
+   "slug": "refinishing-walnut-without-losing-color",
+   "name": "Refinishing Walnut in Mercer Island Homes Without Losing the Color",
+   "publish_date": "2027-03-03",
+   "item_id": "6a9242ce2e47a1e9fef651a8",
+   "donors": [
+    {
+     "slug": "what-color-should-i-stain-my-wood-floors",
+     "item_id": "65f32565e111adbbb806d163",
+     "name": "What Color Should I Stain My Wood Floors? A Refinisher's Guide"
+    },
+    {
+     "slug": "everything-you-need-to-know-about-choosing-the-right-wood-for-your-home",
+     "item_id": "6650fb9ef815422cce65d277",
+     "name": "What Type of Wood Is Best for Your Home? A Species Guide"
+    },
+    {
+     "slug": "solid-v-s-engineered-wood-floors-whats-right-for-your-home",
+     "item_id": "65f32565e111adbbb806d372",
+     "name": "Wood Floors on Slabs, Basements & Radiant Heat: What Your House Allows"
+    },
+    {
+     "slug": "can-you-replace-just-one-piece-of-vinyl-plank-flooring",
+     "item_id": "65f32565e111adbbb806d380",
+     "name": "Can You Replace Just One Piece of Vinyl Plank Flooring?"
+    }
+   ]
+  },
+  {
+   "slug": "refinishing-cost-by-room",
+   "name": "Refinishing Cost by Room in Bellevue: Kitchen, Stairs, Hallway, Bedroom",
+   "publish_date": "2027-03-05",
+   "item_id": "6a9243fb693fca262e0ae464",
+   "donors": [
+    {
+     "slug": "hardwood-flooring-installation-cost-what-you-need-to-know",
+     "item_id": "65f32565e111adbbb806cfab",
+     "name": "Hardwood Flooring Installation Cost: What You Need to Know (2026)"
+    },
+    {
+     "slug": "how-much-does-it-cost-to-refinish-hardwood-floors",
+     "item_id": "65f32565e111adbbb806d366",
+     "name": "Hardwood Floor Refinishing Cost & Prices: 2026 WA Guide"
+    },
+    {
+     "slug": "how-much-should-i-pay-for-engineered-wood-flooring-in-bellevue-wa",
+     "item_id": "65f32565e111adbbb806cf1c",
+     "name": "How Much Should I Pay for Engineered Wood Flooring in Bellevue, WA? (2026)"
+    },
+    {
+     "slug": "top-benefits-of-professional-flooring-installation-for-homeowners-in-bothell-wa",
+     "item_id": "65f32565e111adbbb806cf3c",
+     "name": "Professional Flooring Installation vs DIY: An Honest Cost-of-Mistakes Analysis"
+    }
+   ]
+  },
+  {
+   "slug": "refinish-before-or-after-painting",
+   "name": "Should You Refinish Before or After Painting in Redmond",
+   "publish_date": "2027-03-08",
+   "item_id": "6a92452863e0c17b5d97aac4",
+   "donors": [
+    {
+     "slug": "hardwood-floor-refinishing",
+     "item_id": "6650f5d824b2a257c7a1433e",
+     "name": "Hardwood Floor Refinishing: The Complete Homeowner's Guide"
+    },
+    {
+     "slug": "oc-flooring-provides-hardwood-floor-refinishing-in-woodinville-wa",
+     "item_id": "65f32565e111adbbb806d350",
+     "name": "Hardwood Floor Refinishing in Woodinville, WA: A Local's Guide"
+    },
+    {
+     "slug": "oc-flooring-wood-floor-refinishing-company",
+     "item_id": "65f32565e111adbbb806d359",
+     "name": "How OC Flooring Refinishes Wood Floors: Our Process from Estimate to Walkthrough"
+    },
+    {
+     "slug": "do-you-have-to-move-out-to-replace-flooring",
+     "item_id": "65f32565e111adbbb806d31d",
+     "name": "Do You Have to Move Out to Replace or Refinish Your Floors?"
+    }
+   ]
+  },
+  {
+   "slug": "eastside-vs-seattle-homes-different-floors",
+   "name": "Eastside vs Seattle Homes: Different Floors, Different Problems",
+   "publish_date": "2027-03-10",
+   "item_id": "6a9246541f3e07bff46c5c6c",
+   "donors": [
+    {
+     "slug": "pet-friendly-allergy-friendly-flooring-seattle",
+     "item_id": "6a20ec44eda8ac22f6ca40fb",
+     "name": "Pet-Friendly, Allergy-Friendly Flooring for Seattle Homes"
+    },
+    {
+     "slug": "choosing-the-best-floors-for-seattles-climate",
+     "item_id": "65f32565e111adbbb806d0bd",
+     "name": "Choosing the Best Floors for Seattle's Climate, House by House"
+    },
+    {
+     "slug": "why-spring-is-the-best-time-to-get-new-flooring-in-seattle-wa",
+     "item_id": "65f32565e111adbbb806d381",
+     "name": "Best Time to Buy New Flooring in Seattle: Why Spring Wins"
+    },
+    {
+     "slug": "who-sells-mohawk-carpet-find-top-retailers-near-you",
+     "item_id": "66cd02ba7854b1cdd4d6c054",
+     "name": "Who Sells Mohawk Carpet? Where to Buy It \u2014 and When to Skip It"
+    }
+   ]
+  },
+  {
+   "slug": "mold-under-hardwood-floors-signs",
+   "name": "Mold Under Hardwood Floors in Edmonds: Signs and Next Steps",
+   "publish_date": "2027-03-12",
+   "item_id": "6a92478116f788fda8c9c840",
+   "donors": [
+    {
+     "slug": "can-i-install-hardwood-flooring-in-a-basement-or-other-moisture-prone-areas",
+     "item_id": "65f32565e111adbbb806d131",
+     "name": "Can You Install Hardwood in a Basement? The Honest Moisture Answer"
+    },
+    {
+     "slug": "how-to-choose-laundry-room-flooring",
+     "item_id": "65f32565e111adbbb806d354",
+     "name": "How to Choose Laundry Room Flooring That Survives the Job"
+    },
+    {
+     "slug": "american-cherry-hardwood-vs-brazilian-cherry-hardwood",
+     "item_id": "65f32565e111adbbb806d149",
+     "name": "American Cherry vs Brazilian Cherry Flooring: Two Very Different Woods"
+    },
+    {
+     "slug": "how-to-remove-old-carpet",
+     "item_id": "65f32565e111adbbb806d259",
+     "name": "How to Remove Old Carpet Yourself: Tools, Steps & Local Disposal"
+    }
+   ]
+  },
+  {
+   "slug": "church-community-hall-floor-restoration",
+   "name": "Church and Community Hall Floor Restoration in Everett",
+   "publish_date": "2027-03-15",
+   "item_id": "6a924039348f7b8ed0da7ff7",
+   "donors": [
+    {
+     "slug": "transform-your-home-with-oc-floorings-vinyl-plank-flooring-installation",
+     "item_id": "65f32565e111adbbb806d362",
+     "name": "Vinyl Plank Flooring Installation in Everett, WA: The Full What-to-Expect Guide"
+    },
+    {
+     "slug": "what-you-need-to-know-about-baseboards",
+     "item_id": "65f32565e111adbbb806d27f",
+     "name": "What You Need to Know About Baseboards (Before New Floors Go In)"
+    },
+    {
+     "slug": "sand-and-refinish-vs-screen-and-recoat-which-is-right-for-your-hardwood-floors",
+     "item_id": "65f32565e111adbbb806d369",
+     "name": "Sand & Refinish vs Screen & Recoat: The Complete Decision Guide"
+    },
+    {
+     "slug": "how-humidity-can-affect-hardwood-and-laminate-flooring",
+     "item_id": "65f32565e111adbbb806d35b",
+     "name": "How Humidity Moves Hardwood and Laminate Floors \u2014 and How to Stop It"
+    }
+   ]
+  },
+  {
+   "slug": "how-long-does-hardwood-floor-finish-last",
+   "name": "How Long Does a Hardwood Floor Finish Actually Last",
+   "publish_date": "2027-03-17",
+   "item_id": "6a9241654b4041c6932ba028",
+   "donors": [
+    {
+     "slug": "refinishing-hardwood-floors-with-urine-stains-a-comprehensive-guide",
+     "item_id": "65f32565e111adbbb806d360",
+     "name": "Refinishing Hardwood Floors With Pet Urine Stains: What Actually Works"
+    },
+    {
+     "slug": "what-is-dust-free-hardwood-floor-refinishing-oc-flooring",
+     "item_id": "65f32565e111adbbb806d2de",
+     "name": "What Is Dust-Free Hardwood Floor Refinishing Actually Like to Live Through?"
+    },
+    {
+     "slug": "should-i-refinish-or-replace-my-floor-a-comprehensive-guide",
+     "item_id": "65f32565e111adbbb806d09d",
+     "name": "Should I Refinish or Replace My Hardwood Floor? A Damage-by-Damage Guide"
+    },
+    {
+     "slug": "water-resistant-flooring-a-durable-and-practical-option-for-your-home",
+     "item_id": "65f32565e111adbbb806d358",
+     "name": "Water-Resistant Flooring: What the Label Actually Promises"
+    }
+   ]
+  },
+  {
+   "slug": "reclaimed-wood-floors-refinishing-character",
+   "name": "Reclaimed Wood Floors in Seattle: Refinishing Without Killing the Character",
+   "publish_date": "2027-03-19",
+   "item_id": "6a9242928ddc138f4df5a77b",
+   "donors": [
+    {
+     "slug": "red-oak-vs-white-oak-flooring",
+     "item_id": "65f32565e111adbbb806d367",
+     "name": "Red Oak vs White Oak Flooring: Which Is Right for Your Home?"
+    },
+    {
+     "slug": "where-to-buy-hardwood-flooring-near-me",
+     "item_id": "66cbcf1aeab179734860bea4",
+     "name": "Where to Buy Hardwood Flooring Near Me: An Honest Buying Guide"
+    },
+    {
+     "slug": "flooring-installers-near-me-seattle-bellevue-wa",
+     "item_id": "6a17b3394efab36881a3c92d",
+     "name": "Flooring Installers Near Me: How to Hire Well in Seattle & Bellevue"
+    },
+    {
+     "slug": "the-benefits-of-waterproof-flooring-in-seattle-wa",
+     "item_id": "65f32565e111adbbb806d17d",
+     "name": "The Benefits of Waterproof Flooring in Seattle \u2014 Room by Room"
+    }
+   ]
+  },
+  {
+   "slug": "line-item-refinishing-estimate-explained",
+   "name": "What You're Actually Paying For in a Lynnwood Line-Item Estimate",
+   "publish_date": "2027-03-22",
+   "item_id": "6a9243beadcfac63b91ced7d",
+   "donors": [
+    {
+     "slug": "5-ways-to-protect-hardwood-flooring",
+     "item_id": "65f32565e111adbbb806d1cb",
+     "name": "5 Ways to Protect Hardwood Flooring That Actually Work"
+    },
+    {
+     "slug": "cost-to-refinish-hardwood-floors",
+     "item_id": "65f32565e111adbbb806d2df",
+     "name": "Hardwood Refinishing Budgets: 5 Real Projects, Line by Line (2026)"
+    },
+    {
+     "slug": "is-it-cheaper-to-refinish-or-replace-wood-floors",
+     "item_id": "65f32565e111adbbb806d117",
+     "name": "Is It Cheaper to Refinish or Replace Wood Floors? The Honest Math (2026)"
+    },
+    {
+     "slug": "water-resistant-flooring-a-durable-and-practical-option-for-your-home",
+     "item_id": "65f32565e111adbbb806d358",
+     "name": "Water-Resistant Flooring: What the Label Actually Promises"
+    }
+   ]
+  },
+  {
+   "slug": "daylight-basement-floors-pacific-northwest",
+   "name": "Daylight Basement Floors in Renton and the Pacific Northwest",
+   "publish_date": "2027-03-24",
+   "item_id": "6a9244ed9d3b9ef4d8a0ee9f",
+   "donors": [
+    {
+     "slug": "best-flooring-for-pacific-northwest-climate",
+     "item_id": "6a20e3aebcd4c83e44acccea",
+     "name": "Best Flooring for the Pacific Northwest Climate: What Actually Survives Here"
+    },
+    {
+     "slug": "the-10-best-carpet-brands-reviews-2023-guide",
+     "item_id": "65f32565e111adbbb806d368",
+     "name": "Carpet vs. Hard Flooring in 2026: An Honest Local Guide"
+    },
+    {
+     "slug": "alternatives-to-tile-flooring-in-snohomish-wa",
+     "item_id": "65f32565e111adbbb806d2dd",
+     "name": "Alternatives to Tile Flooring in Snohomish, WA: What to Use Instead"
+    },
+    {
+     "slug": "how-to-take-care-of-vinyl-flooring",
+     "item_id": "65f32565e111adbbb806d370",
+     "name": "How to Take Care of Vinyl Flooring (and What Quietly Ruins It)"
+    }
+   ]
+  },
+  {
+   "slug": "buyers-natural-vs-stained-floors",
+   "name": "Do Kirkland Buyers Pay More for Natural vs Stained Floors",
+   "publish_date": "2027-03-26",
+   "item_id": "6a9246181f3e07bff46c4789",
+   "donors": [
+    {
+     "slug": "does-refinishing-wood-floors-increase-home-value-in-kirkland-wa",
+     "item_id": "65f32565e111adbbb806d0d9",
+     "name": "Does Refinishing Wood Floors Increase Home Value in Kirkland, WA?"
+    },
+    {
+     "slug": "pre-finished-vs-site-finished-hardwood-floors",
+     "item_id": "65f32565e111adbbb806cf58",
+     "name": "Pre-Finished vs Site-Finished Hardwood Floors: Which Should You Choose?"
+    },
+    {
+     "slug": "best-flooring-for-pacific-northwest-climate",
+     "item_id": "6a20e3aebcd4c83e44acccea",
+     "name": "Best Flooring for the Pacific Northwest Climate: What Actually Survives Here"
+    },
+    {
+     "slug": "is-vinyl-plank-better-than-laminate-a-comparison-by-oc-flooring-company",
+     "item_id": "65f32565e111adbbb806d37e",
+     "name": "Is Vinyl Plank Better Than Laminate? The 10-Round Head-to-Head"
+    }
+   ]
+  },
+  {
+   "slug": "square-footage-alone-doesnt-set-price",
+   "name": "Why Square Footage Alone Doesn't Set Your Seattle Refinishing Price",
+   "publish_date": "2027-03-29",
+   "item_id": "6a9247096522c3fa481d92ce",
+   "donors": [
+    {
+     "slug": "what-is-a-good-price-to-pay-for-carpet-in-seattle-wa",
+     "item_id": "65f32565e111adbbb806d26c",
+     "name": "Carpet Installation Cost in Seattle: A Fair-Price Guide"
+    },
+    {
+     "slug": "laminate-flooring-installation-cost-seattle-wa",
+     "item_id": "6a17bf3971561e488b935064",
+     "name": "Laminate Flooring Installation Cost in Seattle, WA (2026 Guide)"
+    },
+    {
+     "slug": "the-benefits-of-waterproof-flooring-in-seattle-wa",
+     "item_id": "65f32565e111adbbb806d17d",
+     "name": "The Benefits of Waterproof Flooring in Seattle \u2014 Room by Room"
+    },
+    {
+     "slug": "what-to-do-when-you-experience-water-damage-in-your-seattle-home-or-business",
+     "item_id": "65f32565e111adbbb806d2e0",
+     "name": "Water Damage on Your Floors: The First 24 Hours (Seattle-Area Guide)"
+    }
+   ]
+  },
+  {
+   "slug": "refinishing-vs-resurfacing-vs-restoration-terms",
+   "name": "Refinishing vs Resurfacing vs Restoration: Terms Explained",
+   "publish_date": "2027-03-31",
+   "item_id": "6a923fc0c4c3270826aeeaed",
+   "donors": [
+    {
+     "slug": "pallmann-finish-the-ultimate-solution-for-your-hardwood-floors",
+     "item_id": "65f32565e111adbbb806d355",
+     "name": "Pallmann Floor Finishes Explained: Film Finish vs Hardwax Oil"
+    },
+    {
+     "slug": "oc-flooring-wood-floor-refinishing-company",
+     "item_id": "65f32565e111adbbb806d359",
+     "name": "How OC Flooring Refinishes Wood Floors: Our Process from Estimate to Walkthrough"
+    },
+    {
+     "slug": "sun-damaged-hardwood-floors",
+     "item_id": "65f32565e111adbbb806d37b",
+     "name": "Sun-Damaged Hardwood Floors: Why It Happens and How to Fix It"
+    },
+    {
+     "slug": "all-about-subfloors-what-you-need-to-know",
+     "item_id": "65f32565e111adbbb806d37d",
+     "name": "Subfloors Explained: What's Under Your Floor Decides Everything Above It"
+    }
+   ]
+  },
+  {
+   "slug": "whitewashed-bleached-hardwood-floors",
+   "name": "Whitewashed and Bleached Hardwood Floors: How They're Done",
+   "publish_date": "2027-04-02",
+   "item_id": "6a924164460f61f772abfbf7",
+   "donors": [
+    {
+     "slug": "is-it-worth-refinishing-old-hardwood-floors",
+     "item_id": "65f32565e111adbbb806d361",
+     "name": "Is It Worth Refinishing Old Hardwood Floors? (Usually \u2014 Here\u2019s the Math)"
+    },
+    {
+     "slug": "should-i-refinish-or-replace-my-floor-a-comprehensive-guide",
+     "item_id": "65f32565e111adbbb806d09d",
+     "name": "Should I Refinish or Replace My Hardwood Floor? A Damage-by-Damage Guide"
+    },
+    {
+     "slug": "thinking-of-staining-your-hardwood-floors-a-dark-color",
+     "item_id": "65f32565e111adbbb806d2fd",
+     "name": "Thinking of Staining Your Hardwood Floors a Dark Color? Read This First"
+    },
+    {
+     "slug": "6-reasons-to-replace-carpet-flooring",
+     "item_id": "65f32565e111adbbb806d1ff",
+     "name": "6 Signs Your Carpet Is Done \u2014 and What to Replace It With"
+    }
+   ]
+  },
+  {
+   "slug": "radiant-heat-hardwood-refinishing",
+   "name": "Radiant Heat Under Hardwood in Redmond: Refinishing Considerations",
+   "publish_date": "2027-04-05",
+   "item_id": "6a9243472e47a1e9fef69e35",
+   "donors": [
+    {
+     "slug": "oc-flooring-provides-hardwood-floor-refinishing-in-woodinville-wa",
+     "item_id": "65f32565e111adbbb806d350",
+     "name": "Hardwood Floor Refinishing in Woodinville, WA: A Local's Guide"
+    },
+    {
+     "slug": "solid-v-s-engineered-wood-floors-whats-right-for-your-home",
+     "item_id": "65f32565e111adbbb806d372",
+     "name": "Wood Floors on Slabs, Basements & Radiant Heat: What Your House Allows"
+    },
+    {
+     "slug": "why-wood-floor-refinishing-is-not-a-diy-project",
+     "item_id": "65f32565e111adbbb806d351",
+     "name": "Why Wood Floor Refinishing Is Not a DIY Project"
+    },
+    {
+     "slug": "all-about-subfloors-what-you-need-to-know",
+     "item_id": "65f32565e111adbbb806d37d",
+     "name": "Subfloors Explained: What's Under Your Floor Decides Everything Above It"
+    }
+   ]
+  },
+  {
+   "slug": "what-refinished-floors-add-to-appraisal",
+   "name": "What Refinished Floors Add to a Sammamish Appraisal",
+   "publish_date": "2027-04-07",
+   "item_id": "6a9244af3e6167cebbd9c184",
+   "donors": [
+    {
+     "slug": "hardwood-floor-refinishing-cost-seattle-wa",
+     "item_id": "6a17c08c8c3a0d8f469273a9",
+     "name": "Hardwood Floor Refinishing Cost in Seattle: Craftsman Fir, Condos & City Logistics (2026)"
+    },
+    {
+     "slug": "what-is-the-best-flooring-for-kids-pets",
+     "item_id": "65f32565e111adbbb806d375",
+     "name": "What Is the Best Flooring for Kids & Pets? A Room-by-Room Ranking"
+    },
+    {
+     "slug": "carpet-solution-in-bellevue-wa-your-ultimate-guide-to-impeccable-flooring",
+     "item_id": "65f32565e111adbbb806d374",
+     "name": "Choosing Carpet in Bellevue: An Honest Guide From a Hard-Surface Company"
+    },
+    {
+     "slug": "what-is-spc-flooring-is-it-good",
+     "item_id": "65f32565e111adbbb806d371",
+     "name": "What Is SPC Plank Flooring \u2014 and Is It Any Good?"
+    }
+   ]
+  },
+  {
+   "slug": "commercial-refinishing-contracts-facility-managers",
+   "name": "Commercial Refinishing Contracts in Bellevue: What Facility Managers Should Ask",
+   "publish_date": "2027-04-09",
+   "item_id": "6a9246540e74f6e4e6023926",
+   "donors": [
+    {
+     "slug": "commercial-flooring-sanding-and-installation-in-seattle-wa-area-by-oc-flooring",
+     "item_id": "65f32565e111adbbb806d364",
+     "name": "Commercial Floor Sanding & Installation in Seattle: A Practical Guide for Businesses"
+    },
+    {
+     "slug": "floor-refinishing-near-me-seattle-wa",
+     "item_id": "6a17bf3971561e488b935062",
+     "name": "How to Choose a Floor Refinishing Contractor Near You (Seattle & Bellevue Checklist)"
+    },
+    {
+     "slug": "flooring-installers-near-me-seattle-bellevue-wa",
+     "item_id": "6a17b3394efab36881a3c92d",
+     "name": "Flooring Installers Near Me: How to Hire Well in Seattle & Bellevue"
+    },
+    {
+     "slug": "why-vinyl-plank-flooring-is-a-great-choice-for-your-home",
+     "item_id": "65f32565e111adbbb806d07f",
+     "name": "Why Vinyl Plank Is a Great Choice for Your Home \u2014 If You Buy the Right Plank"
+    }
+   ]
+  },
+  {
+   "slug": "pro-refinishing-vs-rental-sander",
+   "name": "Pro Refinishing vs Rental Sander in Everett: What Actually Goes Wrong",
+   "publish_date": "2027-04-12",
+   "item_id": "6a9247f8db6598626297d359",
+   "donors": [
+    {
+     "slug": "what-is-the-best-waterproof-floor-in-everett-wa",
+     "item_id": "65f32565e111adbbb806d33d",
+     "name": "What Is the Best Waterproof Flooring in Everett, WA?"
+    },
+    {
+     "slug": "benefits-of-vinyl-flooring",
+     "item_id": "65f32565e111adbbb806d2c3",
+     "name": "Benefits of Vinyl Flooring: Sheet vs. Plank vs. Tile, Explained"
+    },
+    {
+     "slug": "water-resistant-flooring-a-durable-and-practical-option-for-your-home",
+     "item_id": "65f32565e111adbbb806d358",
+     "name": "Water-Resistant Flooring: What the Label Actually Promises"
+    },
+    {
+     "slug": "wood-flooring-installation-in-snohomish-area",
+     "item_id": "65f32565e111adbbb806d35c",
+     "name": "Wood Flooring Installation in the Snohomish Area: Farmhouses to New Builds"
+    }
+   ]
+  }
+ ]
+}

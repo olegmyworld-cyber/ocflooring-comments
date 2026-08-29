@@ -62,6 +62,21 @@ Webflow CMS → Blogs, working down the queue in date order.
    2–3 sentences for the grid.
 7. **Workflow:** create items as **drafts** → Oleg adds Main Image + Thumbnail →
    publish. Keep slugs stable once other posts link to them.
+8. **Inbound links from indexed pages (Oleg's rule, 2026-08-29):** a new post has to be
+   *reachable* from pages Google already has, or it sits uncrawled. So every target page
+   carries **≥4 inbound links from already-indexed pages**:
+   - **City service pages** — all 28 `hardwood-floor-refinishing-in-<city>-wa` pages now
+     have ≥4 inbound links from the 109 indexed posts; the 9 GSC-priority cities have ≥6.
+     Balance lives in each post's `city-links` field. Re-check after any bulk edit.
+   - **New blog posts** — `blogs/plan/INBOUND-PLAN.json` assigns each of the 100 new posts
+     4 relevance-matched donor posts drawn from the 109 indexed ones (each donor gives
+     out at most 4 links). The publish routine adds those links **at publish time only**
+     via `blogs/plan/add_inbound.py` — linking to a draft would serve a 404. The links go
+     into the donor's `city-links` field under a "More floor-care guides" list marked
+     `data-oc-guides="1"`; donor bodies are never touched and no existing link is removed.
+   Verified city-page URL paths are in `blogs/plan/URL-MAP.json` → `CITY_PATH_ALL`.
+   Three do **not** follow the `city-of-<slug>/` pattern: Seattle (`/seattle/…`),
+   Newcastle (`/city-of-new-castle/…`) and Bothell (`/hardwood-floor-refinishing/…`).
 
 ## Published / in progress
 
