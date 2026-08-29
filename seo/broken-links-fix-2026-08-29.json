@@ -1,0 +1,974 @@
+{
+ "date": "2026-08-29",
+ "site": "nwocflooring.com",
+ "webflow_site_id": "6377e8e6a53936b48ef1cad0",
+ "source_audit": "Semrush internal broken links export, crawled 2026-08-28 20:03 UTC (308 rows)",
+ "url_mapping": {
+  "/services/<slug>": "/flooring-services-near-me/<slug>",
+  "/services-near-me/<slug>": "/flooring-services-near-me/<slug>",
+  "/city-of-{edmonds,everett,lynnwood,mukilteo,snohomish}/laminate-flooring-installation-in-<city>-wa": "/flooring-services-near-me/laminate-flooring-installation",
+  "/city-of-bellevue/hardwood-floor-refinishing-in-bellevue-wa": "/"
+ },
+ "blog": {
+  "items_fixed": 107,
+  "link_replacements": 265,
+  "items": [
+   {
+    "slug": "hardwood-floor-refinishing-process-timeline",
+    "replacements": 2
+   },
+   {
+    "slug": "pet-friendly-allergy-friendly-flooring-seattle",
+    "replacements": 4
+   },
+   {
+    "slug": "dustless-vs-traditional-hardwood-floor-sanding",
+    "replacements": 2
+   },
+   {
+    "slug": "best-flooring-for-pacific-northwest-climate",
+    "replacements": 3
+   },
+   {
+    "slug": "hardwood-floor-refinishing-cost-seattle-wa",
+    "replacements": 4
+   },
+   {
+    "slug": "laminate-flooring-installation-cost-seattle-wa",
+    "replacements": 2
+   },
+   {
+    "slug": "floor-refinishing-near-me-seattle-wa",
+    "replacements": 1
+   },
+   {
+    "slug": "hardwood-floor-refinishing-near-me-seattle-wa",
+    "replacements": 2
+   },
+   {
+    "slug": "flooring-installers-near-me-seattle-bellevue-wa",
+    "replacements": 2
+   },
+   {
+    "slug": "who-sells-mohawk-carpet-find-top-retailers-near-you",
+    "replacements": 3
+   },
+   {
+    "slug": "where-to-buy-hardwood-flooring-near-me",
+    "replacements": 4
+   },
+   {
+    "slug": "can-you-steam-clean-hardwood-floors",
+    "replacements": 4
+   },
+   {
+    "slug": "everything-you-need-to-know-about-choosing-the-right-wood-for-your-home",
+    "replacements": 1
+   },
+   {
+    "slug": "hardwood-floor-refinishing",
+    "replacements": 1
+   },
+   {
+    "slug": "flooring-services-tailored-for-real-estate-success",
+    "replacements": 3
+   },
+   {
+    "slug": "whats-the-best-carpeting-for-stairs-in-kenmore-wa",
+    "replacements": 3
+   },
+   {
+    "slug": "why-spring-is-the-best-time-to-get-new-flooring-in-seattle-wa",
+    "replacements": 2
+   },
+   {
+    "slug": "what-is-the-best-waterproof-floor-in-everett-wa",
+    "replacements": 3
+   },
+   {
+    "slug": "what-is-a-good-price-to-pay-for-carpet-in-seattle-wa",
+    "replacements": 2
+   },
+   {
+    "slug": "can-you-replace-just-one-piece-of-vinyl-plank-flooring",
+    "replacements": 5
+   },
+   {
+    "slug": "what-is-dust-free-hardwood-floor-refinishing-oc-flooring",
+    "replacements": 2
+   },
+   {
+    "slug": "can-you-add-hardwood-to-existing-hardwood-floors",
+    "replacements": 2
+   },
+   {
+    "slug": "refinishing-hardwood-floors-with-urine-stains-a-comprehensive-guide",
+    "replacements": 3
+   },
+   {
+    "slug": "alternatives-to-tile-flooring-in-snohomish-wa",
+    "replacements": 3
+   },
+   {
+    "slug": "commercial-flooring-sanding-and-installation-in-seattle-wa-area-by-oc-flooring",
+    "replacements": 6
+   },
+   {
+    "slug": "oc-flooring-provides-hardwood-floor-refinishing-in-woodinville-wa",
+    "replacements": 4
+   },
+   {
+    "slug": "choosing-the-best-floors-for-seattles-climate",
+    "replacements": 2
+   },
+   {
+    "slug": "how-much-should-i-pay-for-engineered-wood-flooring-in-bellevue-wa",
+    "replacements": 1
+   },
+   {
+    "slug": "what-is-better-laminate-or-engineered-hardwood",
+    "replacements": 3
+   },
+   {
+    "slug": "carpet-installation-cost-bothell-wa",
+    "replacements": 1
+   },
+   {
+    "slug": "how-much-does-it-cost-to-install-laminate-floor-in-everett-wa-with-oc-flooring-company",
+    "replacements": 4
+   },
+   {
+    "slug": "do-you-have-to-move-out-to-replace-flooring",
+    "replacements": 2
+   },
+   {
+    "slug": "5-things-you-need-to-know-about-brazilian-cherry-floor-in-bellevue-wa",
+    "replacements": 4
+   },
+   {
+    "slug": "what-to-do-with-your-floor-before-putting-your-house-on-the-market-in-woodinville-wa",
+    "replacements": 4
+   },
+   {
+    "slug": "does-refinishing-wood-floors-increase-home-value-in-kirkland-wa",
+    "replacements": 2
+   },
+   {
+    "slug": "how-many-times-can-a-wood-floor-be-sanded-and-refinished-in-the-seattle-wa-area",
+    "replacements": 2
+   },
+   {
+    "slug": "is-it-cheaper-to-refinish-or-replace-wood-floors",
+    "replacements": 3
+   },
+   {
+    "slug": "why-wood-floor-refinishing-is-not-a-diy-project",
+    "replacements": 2
+   },
+   {
+    "slug": "when-can-wood-floors-not-be-refinished",
+    "replacements": 2
+   },
+   {
+    "slug": "is-it-worth-refinishing-old-hardwood-floors",
+    "replacements": 2
+   },
+   {
+    "slug": "do-you-have-to-move-furniture-to-stretch-carpet",
+    "replacements": 4
+   },
+   {
+    "slug": "is-it-worth-it-to-restretch-your-carpet",
+    "replacements": 3
+   },
+   {
+    "slug": "flooring-guide-mill-creek-wa",
+    "replacements": 2
+   },
+   {
+    "slug": "why-oc-flooring-hardwood-refinishing-is-worth-the-investment-for-your-home-in-seattle-wa-area",
+    "replacements": 1
+   },
+   {
+    "slug": "5-carpet-options-for-carpet-installation-in-lynnwood-wa",
+    "replacements": 2
+   },
+   {
+    "slug": "top-hardwood-flooring-options-for-lakeside-homes-in-sammamish-wa-by-oc-flooring",
+    "replacements": 3
+   },
+   {
+    "slug": "5-flooring-installation-options-in-kirkland-wa",
+    "replacements": 2
+   },
+   {
+    "slug": "carpet-solution-in-bellevue-wa-your-ultimate-guide-to-impeccable-flooring",
+    "replacements": 2
+   },
+   {
+    "slug": "choosing-the-right-hardwood-flooring-for-your-bellevue-wa-home",
+    "replacements": 3
+   },
+   {
+    "slug": "10-most-popular-questions-about-wood-floor-refinishing",
+    "replacements": 1
+   },
+   {
+    "slug": "why-vinyl-plank-flooring-is-perfect-for-seattle-homes",
+    "replacements": 2
+   },
+   {
+    "slug": "hardwood-flooring-installation-cost-what-you-need-to-know",
+    "replacements": 2
+   },
+   {
+    "slug": "what-is-a-floating-floor",
+    "replacements": 2
+   },
+   {
+    "slug": "sun-damaged-hardwood-floors",
+    "replacements": 2
+   },
+   {
+    "slug": "water-resistant-flooring-a-durable-and-practical-option-for-your-home",
+    "replacements": 2
+   },
+   {
+    "slug": "solid-v-s-engineered-wood-floors-whats-right-for-your-home",
+    "replacements": 2
+   },
+   {
+    "slug": "american-cherry-hardwood-vs-brazilian-cherry-hardwood",
+    "replacements": 1
+   },
+   {
+    "slug": "maple-hardwood-flooring-a-durable-and-attractive-option-for-your-home",
+    "replacements": 3
+   },
+   {
+    "slug": "sand-and-refinish-vs-screen-and-recoat-which-is-right-for-your-hardwood-floors",
+    "replacements": 3
+   },
+   {
+    "slug": "hardwood-vs-tile-in-the-kitchen",
+    "replacements": 3
+   },
+   {
+    "slug": "red-oak-vs-white-oak-flooring",
+    "replacements": 2
+   },
+   {
+    "slug": "what-is-spc-flooring-is-it-good",
+    "replacements": 2
+   },
+   {
+    "slug": "the-10-best-carpet-brands-reviews-2023-guide",
+    "replacements": 3
+   },
+   {
+    "slug": "what-to-know-about-home-flooring-installation",
+    "replacements": 1
+   },
+   {
+    "slug": "how-to-take-care-of-vinyl-flooring",
+    "replacements": 4
+   },
+   {
+    "slug": "benefits-of-vinyl-flooring",
+    "replacements": 2
+   },
+   {
+    "slug": "durable-hardwood-floors-for-dog-owners",
+    "replacements": 2
+   },
+   {
+    "slug": "upkeep-for-carpet-vs-hardwood-flooring",
+    "replacements": 3
+   },
+   {
+    "slug": "6-reasons-to-replace-carpet-flooring",
+    "replacements": 4
+   },
+   {
+    "slug": "pros-and-cons-of-luxury-vinyl-flooring",
+    "replacements": 2
+   },
+   {
+    "slug": "5-ways-to-protect-hardwood-flooring",
+    "replacements": 3
+   },
+   {
+    "slug": "how-to-choose-laundry-room-flooring",
+    "replacements": 4
+   },
+   {
+    "slug": "what-to-do-in-your-house-during-remodeling",
+    "replacements": 2
+   },
+   {
+    "slug": "what-is-the-best-flooring-for-kids-pets",
+    "replacements": 3
+   },
+   {
+    "slug": "how-humidity-can-affect-hardwood-and-laminate-flooring",
+    "replacements": 2
+   },
+   {
+    "slug": "trio-sanding-machine-for-flat-floors",
+    "replacements": 2
+   },
+   {
+    "slug": "how-to-remove-old-carpet",
+    "replacements": 3
+   },
+   {
+    "slug": "thinking-of-staining-your-hardwood-floors-a-dark-color",
+    "replacements": 1
+   },
+   {
+    "slug": "beautiful-hardwood-floor-heating-vents",
+    "replacements": 5
+   },
+   {
+    "slug": "pre-finished-vs-site-finished-hardwood-floors",
+    "replacements": 3
+   },
+   {
+    "slug": "hardwood-floor-installations",
+    "replacements": 2
+   },
+   {
+    "slug": "why-does-my-hardwood-floor-have-gaps",
+    "replacements": 5
+   },
+   {
+    "slug": "cost-to-refinish-hardwood-floors",
+    "replacements": 2
+   },
+   {
+    "slug": "our-stair-installation-services",
+    "replacements": 2
+   },
+   {
+    "slug": "oc-flooring-wood-floor-refinishing-company",
+    "replacements": 1
+   },
+   {
+    "slug": "wood-flooring-installation-in-snohomish-area",
+    "replacements": 2
+   },
+   {
+    "slug": "should-i-refinish-or-replace-my-floor-a-comprehensive-guide",
+    "replacements": 3
+   },
+   {
+    "slug": "what-you-need-to-know-about-baseboards",
+    "replacements": 3
+   },
+   {
+    "slug": "all-about-subfloors-what-you-need-to-know",
+    "replacements": 1
+   },
+   {
+    "slug": "transform-your-home-with-expert-hardwood-flooring-installation-in-lynnwood-wa",
+    "replacements": 1
+   },
+   {
+    "slug": "is-vinyl-plank-better-than-laminate-a-comparison-by-oc-flooring-company",
+    "replacements": 1
+   },
+   {
+    "slug": "transform-your-home-with-oc-floorings-vinyl-plank-flooring-installation",
+    "replacements": 2
+   },
+   {
+    "slug": "benefits-of-vinyl-plank-flooring-for-seattle-wa-homes-a-guide-from-oc-flooring",
+    "replacements": 2
+   },
+   {
+    "slug": "how-to-clean-and-maintain-hardwood-floors",
+    "replacements": 5
+   },
+   {
+    "slug": "how-often-should-i-replace-my-flooring",
+    "replacements": 7
+   },
+   {
+    "slug": "can-i-install-hardwood-flooring-in-a-basement-or-other-moisture-prone-areas",
+    "replacements": 2
+   },
+   {
+    "slug": "pallmann-finish-the-ultimate-solution-for-your-hardwood-floors",
+    "replacements": 1
+   },
+   {
+    "slug": "bona-hd-the-ultimate-floor-finish-for-your-home",
+    "replacements": 1
+   },
+   {
+    "slug": "solid-vs-engineered-hardwood-which-is-right-for-your-home",
+    "replacements": 1
+   },
+   {
+    "slug": "what-to-do-when-you-experience-water-damage-in-your-seattle-home-or-business",
+    "replacements": 4
+   },
+   {
+    "slug": "top-benefits-of-professional-flooring-installation-for-homeowners-in-bothell-wa",
+    "replacements": 1
+   },
+   {
+    "slug": "renew-your-home-with-wood-floor-refinishing-service-from-oc-flooring-company-in-seattle-wa",
+    "replacements": 1
+   },
+   {
+    "slug": "the-benefits-of-waterproof-flooring-in-seattle-wa",
+    "replacements": 2
+   },
+   {
+    "slug": "why-vinyl-plank-flooring-is-a-great-choice-for-your-home",
+    "replacements": 2
+   },
+   {
+    "slug": "what-color-should-i-stain-my-wood-floors",
+    "replacements": 1
+   },
+   {
+    "slug": "can-i-refinish-pre-finished-hardwood-floors",
+    "replacements": 1
+   },
+   {
+    "slug": "how-much-does-it-cost-to-refinish-hardwood-floors",
+    "replacements": 4
+   }
+  ]
+ },
+ "static_pages": [
+  {
+   "path": "/arlington/carpet-installation",
+   "links_fixed": 2,
+   "embed_blocks_fixed": 0,
+   "already_clean": false
+  },
+  {
+   "path": "/city-of-duvall/carpet-installation-in-duvall-wa",
+   "links_fixed": 2,
+   "embed_blocks_fixed": 0,
+   "already_clean": false
+  },
+  {
+   "path": "/city-of-everett/hardwood-floor-repair-in-everett-wa",
+   "links_fixed": 0,
+   "embed_blocks_fixed": 0,
+   "already_clean": true
+  },
+  {
+   "path": "/city-of-kirkland/carpet-installation-in-kirkland-wa",
+   "links_fixed": 2,
+   "embed_blocks_fixed": 0,
+   "already_clean": false
+  },
+  {
+   "path": "/city-of-lynnwood/tile-installation-in-lynnwood-wa",
+   "links_fixed": 4,
+   "embed_blocks_fixed": 0,
+   "already_clean": false
+  },
+  {
+   "path": "/city-of-mercer-island/tile-installation-in-mercer-island-wa",
+   "links_fixed": 4,
+   "embed_blocks_fixed": 0,
+   "already_clean": false
+  },
+  {
+   "path": "/city-of-mukilteo/hardwood-floor-repair-in-mukilteo-wa",
+   "links_fixed": 0,
+   "embed_blocks_fixed": 0,
+   "already_clean": true
+  },
+  {
+   "path": "/city-of-oak-harbor/carpet-installation-in-oak-harbor-wa",
+   "links_fixed": 2,
+   "embed_blocks_fixed": 0,
+   "already_clean": false
+  },
+  {
+   "path": "/city-of-sammamish/carpet-installation-in-sammamish-wa",
+   "links_fixed": 2,
+   "embed_blocks_fixed": 0,
+   "already_clean": false
+  },
+  {
+   "path": "/city-of-snohomish/tile-installation-in-snohomish-wa",
+   "links_fixed": 4,
+   "embed_blocks_fixed": 0,
+   "already_clean": false
+  },
+  {
+   "path": "/city-of-woodinville/tile-installation-in-woodinville-wa",
+   "links_fixed": 4,
+   "embed_blocks_fixed": 0,
+   "already_clean": false
+  },
+  {
+   "path": "/flooring-services-near-me/flooring-repair",
+   "links_fixed": 0,
+   "embed_blocks_fixed": 1,
+   "already_clean": false
+  },
+  {
+   "path": "/flooring-services-near-me/stair-installation-and-remodeling",
+   "links_fixed": 0,
+   "embed_blocks_fixed": 0,
+   "already_clean": true
+  },
+  {
+   "path": "/seattle/carpet-installation-in-seattle-wa",
+   "links_fixed": 2,
+   "embed_blocks_fixed": 0,
+   "already_clean": false
+  },
+  {
+   "path": "/arlington/tile-installation",
+   "links_fixed": 4,
+   "embed_blocks_fixed": 0,
+   "already_clean": false
+  },
+  {
+   "path": "/city-of-duvall/tile-installation-in-duvall-wa",
+   "links_fixed": 4,
+   "embed_blocks_fixed": 0,
+   "already_clean": false
+  },
+  {
+   "path": "/city-of-everett/tile-installation-in-everett-wa",
+   "links_fixed": 4,
+   "embed_blocks_fixed": 0,
+   "already_clean": false
+  },
+  {
+   "path": "/city-of-kirkland/tile-installation-in-kirkland-wa",
+   "links_fixed": 4,
+   "embed_blocks_fixed": 0,
+   "already_clean": false
+  },
+  {
+   "path": "/city-of-marysville/carpet-installation-in-marysville-wa",
+   "links_fixed": 2,
+   "embed_blocks_fixed": 0,
+   "already_clean": false
+  },
+  {
+   "path": "/city-of-mill-creek/carpet-installation-in-mill-creek-wa",
+   "links_fixed": 2,
+   "embed_blocks_fixed": 0,
+   "already_clean": false
+  },
+  {
+   "path": "/city-of-mukilteo/tile-installation-in-mukilteo-wa",
+   "links_fixed": 4,
+   "embed_blocks_fixed": 0,
+   "already_clean": false
+  },
+  {
+   "path": "/city-of-oak-harbor/tile-installation-in-oak-harbor-wa",
+   "links_fixed": 4,
+   "embed_blocks_fixed": 0,
+   "already_clean": false
+  },
+  {
+   "path": "/city-of-sammamish/tile-installation-in-sammamish-wa",
+   "links_fixed": 4,
+   "embed_blocks_fixed": 0,
+   "already_clean": false
+  },
+  {
+   "path": "/city-of-snoqualmie/carpet-installation-in-snoqualmie-wa",
+   "links_fixed": 2,
+   "embed_blocks_fixed": 0,
+   "already_clean": false
+  },
+  {
+   "path": "/flooring-services-near-me/buff-and-recoat-hardwood-floors",
+   "links_fixed": 0,
+   "embed_blocks_fixed": 0,
+   "already_clean": true
+  },
+  {
+   "path": "/flooring-services-near-me/hardwood-floor-installation",
+   "links_fixed": 0,
+   "embed_blocks_fixed": 0,
+   "already_clean": true
+  },
+  {
+   "path": "/flooring-services-near-me/unfinished-hardwood-floors",
+   "links_fixed": 0,
+   "embed_blocks_fixed": 0,
+   "already_clean": true
+  },
+  {
+   "path": "/seattle/hardwood-floor-repair-in-seattle-wa",
+   "links_fixed": 0,
+   "embed_blocks_fixed": 4,
+   "already_clean": false
+  },
+  {
+   "path": "/flooring-services-near-me/flooring-store",
+   "links_fixed": 0,
+   "embed_blocks_fixed": 0,
+   "already_clean": true
+  },
+  {
+   "path": "/city-of-bellevue/carpet-installation-in-bellevue-wa",
+   "links_fixed": 2,
+   "embed_blocks_fixed": 0,
+   "already_clean": false
+  },
+  {
+   "path": "/city-of-edmonds/carpet-installation-in-edmonds-wa",
+   "links_fixed": 2,
+   "embed_blocks_fixed": 0,
+   "already_clean": false
+  },
+  {
+   "path": "/city-of-issaquah/carpet-installation-in-issaquah-wa",
+   "links_fixed": 2,
+   "embed_blocks_fixed": 0,
+   "already_clean": false
+  },
+  {
+   "path": "/city-of-lake-stevens/carpet-installation-in-lake-stevens-wa",
+   "links_fixed": 2,
+   "embed_blocks_fixed": 0,
+   "already_clean": false
+  },
+  {
+   "path": "/city-of-marysville/tile-installation-in-marysville-wa",
+   "links_fixed": 4,
+   "embed_blocks_fixed": 0,
+   "already_clean": false
+  },
+  {
+   "path": "/city-of-mill-creek/tile-installation-in-mill-creek-wa",
+   "links_fixed": 4,
+   "embed_blocks_fixed": 0,
+   "already_clean": false
+  },
+  {
+   "path": "/city-of-new-castle/carpet-installation-in-newcastle-wa",
+   "links_fixed": 2,
+   "embed_blocks_fixed": 0,
+   "already_clean": false
+  },
+  {
+   "path": "/city-of-redmond/carpet-installation-in-redmond-wa",
+   "links_fixed": 2,
+   "embed_blocks_fixed": 0,
+   "already_clean": false
+  },
+  {
+   "path": "/city-of-shoreline/carpet-installation-in-shoreline-wa",
+   "links_fixed": 2,
+   "embed_blocks_fixed": 0,
+   "already_clean": false
+  },
+  {
+   "path": "/city-of-snoqualmie/tile-installation-in-snoqualmie-wa",
+   "links_fixed": 4,
+   "embed_blocks_fixed": 0,
+   "already_clean": false
+  },
+  {
+   "path": "/flooring-services-near-me/dustless-floor-sanding",
+   "links_fixed": 0,
+   "embed_blocks_fixed": 0,
+   "already_clean": true
+  },
+  {
+   "path": "/flooring-services-near-me/hardwood-floor-staining",
+   "links_fixed": 0,
+   "embed_blocks_fixed": 0,
+   "already_clean": true
+  },
+  {
+   "path": "/flooring-services-near-me/vinyl-plank-flooring-and-laminate-flooring",
+   "links_fixed": 0,
+   "embed_blocks_fixed": 0,
+   "already_clean": true
+  },
+  {
+   "path": "/seattle/tile-installation-in-seattle-wa",
+   "links_fixed": 4,
+   "embed_blocks_fixed": 0,
+   "already_clean": false
+  },
+  {
+   "path": "/city-of-bellevue/tile-installation-in-bellevue-wa",
+   "links_fixed": 4,
+   "embed_blocks_fixed": 0,
+   "already_clean": false
+  },
+  {
+   "path": "/city-of-edmonds/hardwood-floor-repair-in-edmonds-wa",
+   "links_fixed": 0,
+   "embed_blocks_fixed": 0,
+   "already_clean": true
+  },
+  {
+   "path": "/city-of-issaquah/tile-installation-in-issaquah-wa",
+   "links_fixed": 4,
+   "embed_blocks_fixed": 0,
+   "already_clean": false
+  },
+  {
+   "path": "/city-of-lake-stevens/tile-installation-in-lake-stevens-wa",
+   "links_fixed": 4,
+   "embed_blocks_fixed": 0,
+   "already_clean": false
+  },
+  {
+   "path": "/city-of-medina/carpet-installation-in-medina-wa",
+   "links_fixed": 2,
+   "embed_blocks_fixed": 0,
+   "already_clean": false
+  },
+  {
+   "path": "/city-of-monroe/carpet-installation-in-monroe-wa",
+   "links_fixed": 2,
+   "embed_blocks_fixed": 0,
+   "already_clean": false
+  },
+  {
+   "path": "/city-of-new-castle/tile-installation-in-newcastle-wa",
+   "links_fixed": 4,
+   "embed_blocks_fixed": 0,
+   "already_clean": false
+  },
+  {
+   "path": "/city-of-redmond/tile-installation-in-redmond-wa",
+   "links_fixed": 4,
+   "embed_blocks_fixed": 0,
+   "already_clean": false
+  },
+  {
+   "path": "/city-of-shoreline/tile-installation-in-shoreline-wa",
+   "links_fixed": 4,
+   "embed_blocks_fixed": 0,
+   "already_clean": false
+  },
+  {
+   "path": "/city-of-whidbey-island/carpet-installation-in-whidbey-island-wa",
+   "links_fixed": 2,
+   "embed_blocks_fixed": 0,
+   "already_clean": false
+  },
+  {
+   "path": "/flooring-services-near-me/eco-friendly-floor-refinishing",
+   "links_fixed": 0,
+   "embed_blocks_fixed": 0,
+   "already_clean": true
+  },
+  {
+   "path": "/flooring-services-near-me/laminate-flooring-installation",
+   "links_fixed": 0,
+   "embed_blocks_fixed": 0,
+   "already_clean": true
+  },
+  {
+   "path": "/flooring-services-near-me/wood-wall-panels",
+   "links_fixed": 0,
+   "embed_blocks_fixed": 0,
+   "already_clean": true
+  },
+  {
+   "path": "/tile-gallery",
+   "links_fixed": 1,
+   "embed_blocks_fixed": 0,
+   "already_clean": false
+  },
+  {
+   "path": "/city-of-cottage-lake/carpet-installation-in-cottage-lake-wa",
+   "links_fixed": 2,
+   "embed_blocks_fixed": 0,
+   "already_clean": false
+  },
+  {
+   "path": "/city-of-edmonds/tile-installation-in-edmonds-wa",
+   "links_fixed": 4,
+   "embed_blocks_fixed": 0,
+   "already_clean": false
+  },
+  {
+   "path": "/city-of-kenmore/carpet-installation-in-kenmore-wa",
+   "links_fixed": 2,
+   "embed_blocks_fixed": 0,
+   "already_clean": false
+  },
+  {
+   "path": "/city-of-lynnwood/carpet-installation-in-lynnwood-wa",
+   "links_fixed": 2,
+   "embed_blocks_fixed": 0,
+   "already_clean": false
+  },
+  {
+   "path": "/city-of-medina/tile-installation-in-medina-wa",
+   "links_fixed": 4,
+   "embed_blocks_fixed": 0,
+   "already_clean": false
+  },
+  {
+   "path": "/city-of-monroe/tile-installation-in-monroe-wa",
+   "links_fixed": 4,
+   "embed_blocks_fixed": 0,
+   "already_clean": false
+  },
+  {
+   "path": "/city-of-north-bend/carpet-installation-in-north-bend-wa",
+   "links_fixed": 2,
+   "embed_blocks_fixed": 0,
+   "already_clean": false
+  },
+  {
+   "path": "/city-of-renton/carpet-installation-in-renton-wa",
+   "links_fixed": 2,
+   "embed_blocks_fixed": 0,
+   "already_clean": false
+  },
+  {
+   "path": "/city-of-snohomish/carpet-installation-in-snohomish-wa",
+   "links_fixed": 2,
+   "embed_blocks_fixed": 0,
+   "already_clean": false
+  },
+  {
+   "path": "/city-of-whidbey-island/tile-installation-in-whidbey-island-wa",
+   "links_fixed": 4,
+   "embed_blocks_fixed": 0,
+   "already_clean": false
+  },
+  {
+   "path": "/flooring-services-near-me/engineered-hardwood-flooring",
+   "links_fixed": 0,
+   "embed_blocks_fixed": 0,
+   "already_clean": true
+  },
+  {
+   "path": "/flooring-services-near-me/our-products",
+   "links_fixed": 0,
+   "embed_blocks_fixed": 0,
+   "already_clean": true
+  },
+  {
+   "path": "/hardwood-floor-refinishing/carpet-installation-in-bothell-wa",
+   "links_fixed": 2,
+   "embed_blocks_fixed": 0,
+   "already_clean": false
+  },
+  {
+   "path": "/flooring-services-near-me/insurance-restoration-services",
+   "links_fixed": 0,
+   "embed_blocks_fixed": 0,
+   "already_clean": true
+  },
+  {
+   "path": "/city-of-cottage-lake/tile-installation-in-cottage-lake-wa",
+   "links_fixed": 4,
+   "embed_blocks_fixed": 0,
+   "already_clean": false
+  },
+  {
+   "path": "/city-of-everett/carpet-installation-in-everett-wa",
+   "links_fixed": 2,
+   "embed_blocks_fixed": 0,
+   "already_clean": false
+  },
+  {
+   "path": "/city-of-kenmore/tile-installation-in-kenmore-wa",
+   "links_fixed": 4,
+   "embed_blocks_fixed": 0,
+   "already_clean": false
+  },
+  {
+   "path": "/city-of-lynnwood/hardwood-floor-repair-in-lynnwood-wa",
+   "links_fixed": 0,
+   "embed_blocks_fixed": 0,
+   "already_clean": true
+  },
+  {
+   "path": "/city-of-mercer-island/carpet-installation-in-mercer-island-wa",
+   "links_fixed": 2,
+   "embed_blocks_fixed": 0,
+   "already_clean": false
+  },
+  {
+   "path": "/city-of-mukilteo/carpet-installation-in-mukilteo-wa",
+   "links_fixed": 2,
+   "embed_blocks_fixed": 0,
+   "already_clean": false
+  },
+  {
+   "path": "/city-of-north-bend/tile-installation-in-north-bend-wa",
+   "links_fixed": 4,
+   "embed_blocks_fixed": 0,
+   "already_clean": false
+  },
+  {
+   "path": "/city-of-renton/tile-installation-in-renton-wa",
+   "links_fixed": 4,
+   "embed_blocks_fixed": 0,
+   "already_clean": false
+  },
+  {
+   "path": "/city-of-snohomish/hardwood-floor-repair-in-snohomish-wa",
+   "links_fixed": 0,
+   "embed_blocks_fixed": 0,
+   "already_clean": true
+  },
+  {
+   "path": "/city-of-woodinville/carpet-installation-in-woodinville-wa",
+   "links_fixed": 2,
+   "embed_blocks_fixed": 0,
+   "already_clean": false
+  },
+  {
+   "path": "/flooring-services-near-me/floor-refinishing",
+   "links_fixed": 0,
+   "embed_blocks_fixed": 0,
+   "already_clean": true
+  },
+  {
+   "path": "/flooring-services-near-me/solid-hardwood-flooring",
+   "links_fixed": 0,
+   "embed_blocks_fixed": 0,
+   "already_clean": true
+  },
+  {
+   "path": "/hardwood-floor-refinishing/tile-installation-in-bothell-wa",
+   "links_fixed": 4,
+   "embed_blocks_fixed": 0,
+   "already_clean": false
+  }
+ ],
+ "audit_sweep_fixes": [
+  {
+   "path": "/reviews",
+   "old": "/services/floor-refinishing",
+   "new": "/flooring-services-near-me/floor-refinishing"
+  },
+  {
+   "path": "/reviews",
+   "old": "/services/flooring-repair",
+   "new": "/flooring-services-near-me/flooring-repair"
+  },
+  {
+   "path": "/reviews",
+   "old": "/services/vinyl-plank-flooring-and-laminate-flooring",
+   "new": "/flooring-services-near-me/vinyl-plank-flooring-and-laminate-flooring"
+  },
+  {
+   "path": "/reviews",
+   "old": "/services/hardwood-floor-installation",
+   "new": "/flooring-services-near-me/hardwood-floor-installation"
+  }
+ ]
+}
