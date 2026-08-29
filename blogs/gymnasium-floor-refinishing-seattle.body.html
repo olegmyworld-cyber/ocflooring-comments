@@ -35,29 +35,37 @@ html body .post-body .ocb-fact p, .ocb-fact p{margin:0!important;font-size:14.7p
 html.ocb-anim-ready .ocb-rv{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
 html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 @media (prefers-reduced-motion:reduce){html.ocb-anim-ready .ocb-rv{opacity:1!important;transform:none!important;transition:none!important}.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:none}}
+
+/* Chip icons. Webflow's rich-text sanitizer strips inline <svg> whenever a post is
+   re-saved in the Editor, so the icons are drawn from CSS on a <span> instead. */
+.ocb-ic{display:inline-block;width:15px;height:15px;flex:0 0 auto;vertical-align:-2px;background-repeat:no-repeat;background-position:center;background-size:contain}
+.ocb-ic-pin{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z'/><circle cx='12' cy='10' r='3'/></svg>')}
+.ocb-ic-home{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z'/><polyline points='9 22 9 12 15 12 15 22'/></svg>')}
+.ocb-ic-phone{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z'/></svg>')}
+.ocb-cta .ocb-ic{filter:brightness(0) saturate(100%) invert(9%) sepia(64%) saturate(4000%) hue-rotate(348deg)}
 </style></div>
 
-<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 -6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">September 14, 2026</span></div></div>
+<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">September 14, 2026</span></div></div>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
+<div data-rt-embed-type='true'><div class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
   <span class="ocb-eyebrow">Quick answer</span>
   <p style="margin:0;font-size:17.9px;line-height:1.65"><strong>Gym floor refinishing comes in two sizes: an annual screen-and-recoat that closes the court for a few days, and a full resand — new game lines and all — that takes one to two weeks including line painting and cure.</strong> The craft is real, but scheduling is the actual project: matching the work to school breaks, league calendars, and building use. Here’s how we run gymnasium floors for Seattle schools, churches, and community centers — process, order of operations, and honest timelines.</p>
   <div class="ocb-chips">
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg> King &amp; Snohomish County</span>
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg> Seattle schools &amp; facilities</span>
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-pin"></span> King &amp; Snohomish County</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-home"></span> Seattle schools &amp; facilities</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-phone"></span> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
   </div>
-</section></div>
+</div></div>
 
 <p>Gymnasiums are the professional league of floor finishing. The wood is almost always hard maple, the square footage is measured in thousands, the flatness expectations are set by a bouncing ball, and the floor takes more traffic in a season than a living room sees in a generation. It’s also, frankly, where the products we use every day earned their reputations — the commercial two-component waterbornes we put in Seattle houses are gym-floor finishes that moved into residential work, not the other way around. Our <a href="/blog/bona-hd-the-ultimate-floor-finish-for-your-home">Bona Traffic HD writeup</a> tells that story.</p>
 
 <p>What makes gym work genuinely different isn’t the sander — it’s the calendar. A school gym has roughly one honest maintenance window a year, a church gym has six days a week if you plan around the seventh, and every facility manager we work with is juggling leagues, rentals, assemblies, and a building that can’t simply close. So this guide covers both halves: what happens to the floor, and how it fits into a building that’s still alive around it.</p>
 
-<div data-rt-embed-type='true'><section class="ocb"><div class="ocb-facts">
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-facts">
   <div class="ocb-fact"><span class="n">1450</span><p>Janka hardness of the hard maple under nearly every gym floor — one of the toughest domestic species there is, chosen a century ago for exactly this job and still the standard.</p></div>
   <div class="ocb-fact"><span class="n">2–3</span><p>coats of commercial two-component waterborne finish in a full system — the same grade of product specified for gym floors is what we run on residential jobs every week.</p></div>
   <div class="ocb-fact"><span class="n">~7 days</span><p>to full cure before league play resumes at full intensity. Finish that feels dry on day two is still hardening all week — and a gym floor’s first week sets up its next decade.</p></div>
-</div></section></div>
+</div></div></div>
 
 <h2>Why Gym Floors Are Their Own Discipline</h2>
 
@@ -67,7 +75,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 
 <p>Healthy gym floors live on a cycle: recoat often, resand rarely. The annual (or every-other-year) screen and recoat abrades the existing finish and lays fresh wear coats — no wood removed, court closed for days, not weeks. It’s the same honest logic as the residential version in our <a href="/blog/sand-and-refinish-vs-screen-and-recoat-which-is-right-for-your-hardwood-floors">screen-and-recoat guide</a>, scaled up: you spend the sacrificial layer, not the maple. The full resand — down to bare wood, new lines, new finish system — happens roughly once a decade, or when the coating stack has grown heavy and uneven, when boards need repair, or when the lines themselves need to change for new league requirements. Skipping recoats to save budget is the classic false economy: it converts several cheap closures into one long, expensive one, plus the millimeter of maple a premature resand spends.</p>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-card">
+<div data-rt-embed-type='true'><div class="ocb ocb-card">
   <h3 style="margin:0 0 10px;font-size:18.5px;font-weight:900;color:#5c0000">Recoat vs full resand, side by side</h3>
   <div style="overflow-x:auto"><table class="ocb-table">
     <tr><th></th><th>Annual screen &amp; recoat</th><th>Full resand &amp; refinish</th></tr>
@@ -79,7 +87,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     <tr><td><strong>Full-intensity play</strong></td><td>After about a week</td><td>After about a week from final coat</td></tr>
     <tr><td><strong>Budget scale</strong></td><td>A fraction of a resand</td><td>The big one — plan a season ahead</td></tr>
   </table></div>
-</section></div>
+</div></div>
 
 <h2>Game Lines, Logos, and the Order of Operations</h2>
 
@@ -97,7 +105,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 
 <p>Gym work is quoted per project, not per square foot off a rate card — the honest reason being that two gyms of identical size can differ by days of labor depending on line complexity, coating history, floor system, and how hard the schedule constraints squeeze the work. What we can tell you before the walkthrough: a recoat year costs a fraction of a resand year, budgeting for the cycle beats budgeting for the emergency, and the walkthrough itself is free. We’ll measure, inspect the coating stack and the maple, talk through your calendar, and put a fixed number and a day-by-day schedule in writing — the same way we’ve run flooring projects since 2013, licensed and insured, with the workmanship warranty in the contract.</p>
 
-<div data-rt-embed-type='true'><section class="ocb"><div class="ocb-2col">
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-2col">
   <div class="ocb-card" style="margin:0">
     <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#5c0000">It’s a recoat year when…</h3>
     <ul class="ocb-check">
@@ -118,10 +126,10 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
       <li>Recoats have been skipped so long there’s nothing left to recoat</li>
     </ul>
   </div>
-</div></section></div>
+</div></div></div>
 
 <div data-rt-embed-type='true'><!-- FAQ accordion + JSON-LD -->
-<section class="faq-wrap ocb" aria-labelledby="faq-title">
+<div class="faq-wrap ocb" aria-labelledby="faq-title">
   <h2 id="faq-title" class="faq-title">Gym Floor Refinishing: What Seattle Facility Managers Ask</h2>
   <div class="faq-items" role="list">
     <details class="faq-item" role="listitem"><summary class="faq-q">How often should a gym floor be recoated?</summary><div class="faq-a">Every one to two years for a floor in regular league and PE use — annually for the busiest courts. The recoat spends a sacrificial finish layer instead of the maple, and keeping that rhythm is what pushes the expensive full resand out to roughly once a decade.</div></details>
@@ -133,7 +141,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     <details class="faq-item" role="listitem"><summary class="faq-q">Do you handle school summer schedules?</summary><div class="faq-a">Yes — summer is gym season for us, and school work books months ahead. If you're eyeing a full resand for next summer, the walkthrough and quote should happen during the school year so the window is locked before it fills.</div></details>
     <details class="faq-item" role="listitem"><summary class="faq-q">What does gym floor refinishing cost?</summary><div class="faq-a">It's quoted per project after a free walkthrough — line complexity, coating history, and schedule constraints move the number too much for an honest flat rate. What holds universally: recoat years cost a fraction of resand years, and a maintained cycle is far cheaper per year than rescue work.</div></details>
   </div>
-</section>
+</div>
 
 <style>
   .faq-wrap{--line:#e5e7eb;margin:28px auto;padding:20px;border:1px solid var(--line);border-radius:16px;background:#fff;box-shadow:0 8px 30px rgba(2,6,23,.06)}
@@ -150,7 +158,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How often should a gym floor be recoated?", "acceptedAnswer": {"@type": "Answer", "text": "Every one to two years for a floor in regular league and PE use — annually for the busiest courts. The recoat spends a sacrificial finish layer instead of the maple, and keeping that rhythm is what pushes the expensive full resand out to roughly once a decade."}}, {"@type": "Question", "name": "How long is the court out of commission?", "acceptedAnswer": {"@type": "Answer", "text": "A screen and recoat: a few days of work plus early cure — plan on about a week before full-intensity play. A full resand with new game lines: one to two weeks including line painting and cure. We build the schedule backward from your reopening date and put it in writing."}}, {"@type": "Question", "name": "Can the rest of the building stay open during the work?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. The commercial waterborne finishes we use are low-VOC, so classrooms, offices, and halls adjacent to the gym remain occupied throughout. Sanding days are loud — we schedule those against your calendar — but nobody needs to relocate a school for a floor project."}}, {"@type": "Question", "name": "What happens to our game lines and center logo?", "acceptedAnswer": {"@type": "Answer", "text": "In a recoat they're preserved under the new coats. In a full resand they're removed with the old finish and repainted fresh on the sealed floor before the finish coats go over them — which is the moment to update layouts, add courts, or change a logo at minimal extra cost."}}, {"@type": "Question", "name": "How soon after finishing can we host a tournament?", "acceptedAnswer": {"@type": "Answer", "text": "Give the final coat about a week before full-intensity play. The finish is walkable in hours and equipment-ready in days, but it reaches final hardness over the first week, and hard cuts on day-three finish shorten its life. We schedule so cure week ends before your first whistle."}}, {"@type": "Question", "name": "Our gym floor is from the 1960s. Is it worth refinishing?", "acceptedAnswer": {"@type": "Answer", "text": "Usually more than worth it — mid-century maple is excellent stock, and unless it's been resanded many times or water-damaged, it likely has decades left. Old floors buried under heavy coating stacks are exactly what a full resand is for. We'll assess thickness honestly at the walkthrough."}}, {"@type": "Question", "name": "Do you handle school summer schedules?", "acceptedAnswer": {"@type": "Answer", "text": "Yes — summer is gym season for us, and school work books months ahead. If you're eyeing a full resand for next summer, the walkthrough and quote should happen during the school year so the window is locked before it fills."}}, {"@type": "Question", "name": "What does gym floor refinishing cost?", "acceptedAnswer": {"@type": "Answer", "text": "It's quoted per project after a free walkthrough — line complexity, coating history, and schedule constraints move the number too much for an honest flat rate. What holds universally: recoat years cost a fraction of resand years, and a maintained cycle is far cheaper per year than rescue work."}}]}
 </script></div>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-cta" style="margin:30px 0">
+<div data-rt-embed-type='true'><div class="ocb ocb-cta" style="margin:30px 0">
   <style>
     html body .post-body .ocb-cta h2, .ocb-cta h2{color:#fff!important}
     html body .post-body .ocb-cta .ocb-cta-sub, .ocb-cta .ocb-cta-sub{color:rgba(255,255,255,.88)!important}
@@ -160,18 +168,18 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     html body .post-body .ocb-cta a.ocb-cta-phone, .ocb-cta a.ocb-cta-phone{color:#5c0000!important;text-decoration:none!important}
   </style>
   <div style="background:linear-gradient(135deg,#8B0000,#5c0000);border-radius:20px;padding:28px 24px;color:#fff;text-align:center;box-shadow:0 14px 34px rgba(92,0,0,.3)">
-    <h2 style="margin:0 0 6px;color:#fff;font-size:24px;font-weight:900">Planning Next Season’s Floor Work?</h2>
-    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.85);font-size:16.3px">Book a free walkthrough — we’ll inspect the maple and the coating stack, map the work to your school, league, or service calendar, and put a fixed price and day-by-day schedule in writing.</p>
+    <h2 style="margin:0 0 6px;color:#fff!important;font-size:24px;font-weight:900">Planning Next Season’s Floor Work?</h2>
+    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.92)!important;font-size:16.3px">Book a free walkthrough — we’ll inspect the maple and the coating stack, map the work to your school, league, or service calendar, and put a fixed price and day-by-day schedule in writing.</p>
     <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
-      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff;color:#5c0000;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> (425) 595-1079</a>
-      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.4);color:#fff;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none">Book My Free Consultation</a>
+      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff!important;color:#5c0000!important;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none!important"><span class="ocb-ic ocb-ic-phone"></span> (425) 595-1079</a>
+      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.16)!important;border:1px solid rgba(255,255,255,.55);color:#fff!important;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none!important">Book My Free Consultation</a>
     </div>
-    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.9)">
+    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.95)!important">
       <span>✓ Since 2013</span><span>✓ 1,000+ floors</span><span>✓ 1-yr workmanship warranty</span><span>✓ Licensed &amp; insured</span><span>✓ Financing available</span>
     </div>
-    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
+    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04!important;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
   </div>
-</section></div>
+</div></div>
 
 <p><strong>Related reading:</strong> <a href="/blog/commercial-flooring-sanding-and-installation-in-seattle-wa-area-by-oc-flooring">Our commercial sanding work in Seattle</a> · <a href="/blog/bona-hd-the-ultimate-floor-finish-for-your-home">The gym-grade finish we use</a> · <a href="/blog/trio-sanding-machine-for-flat-floors">Why flatness needs the Lägler TRIO</a> · <a href="/seattle/hardwood-floor-refinishing-in-seattle-wa">Hardwood floor refinishing in Seattle</a> · <a href="/contact">Book a free estimate</a></p>
 

@@ -35,29 +35,37 @@ html body .post-body .ocb-fact p, .ocb-fact p{margin:0!important;font-size:14.7p
 html.ocb-anim-ready .ocb-rv{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
 html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 @media (prefers-reduced-motion:reduce){html.ocb-anim-ready .ocb-rv{opacity:1!important;transform:none!important;transition:none!important}.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:none}}
+
+/* Chip icons. Webflow's rich-text sanitizer strips inline <svg> whenever a post is
+   re-saved in the Editor, so the icons are drawn from CSS on a <span> instead. */
+.ocb-ic{display:inline-block;width:15px;height:15px;flex:0 0 auto;vertical-align:-2px;background-repeat:no-repeat;background-position:center;background-size:contain}
+.ocb-ic-pin{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z'/><circle cx='12' cy='10' r='3'/></svg>')}
+.ocb-ic-home{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z'/><polyline points='9 22 9 12 15 12 15 22'/></svg>')}
+.ocb-ic-phone{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z'/></svg>')}
+.ocb-cta .ocb-ic{filter:brightness(0) saturate(100%) invert(9%) sepia(64%) saturate(4000%) hue-rotate(348deg)}
 </style></div>
 
-<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 -6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">February 10, 2027</span></div></div>
+<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">February 10, 2027</span></div></div>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
+<div data-rt-embed-type='true'><div class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
   <span class="ocb-eyebrow">Quick answer</span>
   <p style="margin:0;font-size:17.9px;line-height:1.65"><strong>A penetrating oil finish — hardwax oil, the Rubio Monocoat and Osmo and Pallmann Magic Oil family — soaks into the wood and cures inside the fiber instead of forming a plastic film on top, which buys you an unmistakably natural matte floor and scratch repairs you can blend by hand without sanding a whole room. What it costs you is a maintenance schedule that never ends: a re-oil in the traffic lanes every couple of years, a specific soap you can’t swap for the bottle at the grocery store, and less tolerance for standing water than a two-component waterborne.</strong> In Sammamish plateau homes with dogs, kids, and a kitchen that opens into everything, we still recommend waterborne most of the time — but there’s one real case where oil is the smarter floor, and it involves thin engineered wear layers.</p>
   <div class="ocb-chips">
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg> King &amp; Snohomish County</span>
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg> Sammamish plateau homes</span>
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-pin"></span> King &amp; Snohomish County</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-home"></span> Sammamish plateau homes</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-phone"></span> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
   </div>
-</section></div>
+</div></div>
 
 <p>We promised a while back, in our <a href="/blog/water-based-vs-oil-based-floor-finish">water-based versus oil-based comparison</a>, that penetrating oils were a different animal and deserved their own article. This is it. The confusion is worth clearing up first, because “oil finish” at a flooring showroom can mean two completely unrelated products: oil-<em>modified</em> polyurethane, which is a solvent-borne film that ambers and takes a month to cure, and penetrating hardwax oil, which is barely a coating at all. This article is only about the second one.</p>
 
 <p>Our bias, stated up front the way we always do: we finish the large majority of the floors we refinish with waterborne systems, and we’ll explain exactly why below. But hardwax oil is not a gimmick. It’s the standard finish across most of Europe, it makes wood look better than anything else we’ve put on a floor, and on a couple of Sammamish projects a year it’s genuinely the right call. The honest problem isn’t the finish — it’s that almost nobody tells homeowners what owning one is like in year three.</p>
 
-<div data-rt-embed-type='true'><section class="ocb"><div class="ocb-facts">
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-facts">
   <div class="ocb-fact"><span class="n">1–2 coats</span><p>is the whole application. Hardwax oil goes on, penetrates for a few minutes, and the excess is buffed back off — there is no film build, so there are no lap lines, no witness marks, and nothing that can ever peel or delaminate.</p></div>
   <div class="ocb-fact"><span class="n">2–5 years</span><p>between maintenance re-oils in the traffic lanes of a busy family home — kitchen, hallway, the path from the garage door. Low-traffic bedrooms can go far longer. A film finish asks nothing of you until it needs a full recoat.</p></div>
   <div class="ocb-fact"><span class="n">$3.99/sq ft</span><p>our full sand and natural refinish with a waterborne system — the number to compare against. A hardwax oil finish uses the same sanding work underneath and gets quoted per project, because the material and the application both differ.</p></div>
-</div></section></div>
+</div></div></div>
 
 <h2>What “Penetrating Oil” Actually Is</h2>
 
@@ -89,7 +97,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 
 <h2>The Scorecard</h2>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-card">
+<div data-rt-embed-type='true'><div class="ocb ocb-card">
   <h3 style="margin:0 0 10px;font-size:18.5px;font-weight:900;color:#5c0000">Hardwax Oil vs Two-Component Waterborne, Line by Line</h3>
   <div style="overflow-x:auto"><table class="ocb-table">
     <tr><th></th><th>Penetrating hardwax oil</th><th>Waterborne film (Bona / Pallmann)</th></tr>
@@ -103,13 +111,13 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     <tr><td><strong>Back in the room</strong></td><td>Socks in about a day; a week or two of care before washing</td><td>Socks the same evening, furniture 48–72 hrs, rugs at 7 days</td></tr>
     <tr><td><strong>Changing your mind later</strong></td><td>Requires a full sand to bare wood</td><td>Recoat or refinish freely</td></tr>
   </table></div>
-</section></div>
+</div></div>
 
 <h2>Who Should Actually Choose Oil</h2>
 
 <p>We’d rather draw this line clearly than hedge. The households that love their oiled floors five years later are the ones who wanted a maintenance relationship with the floor in the first place — people who are pleased, not annoyed, to spend a Saturday touching one up. The households that regret it are the ones who were sold on “repairable” and heard “low maintenance.” Those are opposite things.</p>
 
-<div data-rt-embed-type='true'><section class="ocb"><div class="ocb-2col">
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-2col">
   <div class="ocb-card" style="margin:0">
     <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#5c0000">Hardwax oil earns it when…</h3>
     <ul class="ocb-check">
@@ -130,7 +138,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
       <li>You may want to change color or sheen in five years without a full sand</li>
     </ul>
   </div>
-</div></section></div>
+</div></div></div>
 
 <h2>Sammamish Plateau Homes: Where Oil Fits and Where It Doesn’t</h2>
 
@@ -147,7 +155,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 <p>Then the oil goes down in a working window measured in minutes. Spread, let it penetrate, buff the excess off before it starts to set. Leave too much on and it cures sticky and shiny in blotches, which is the single most common DIY failure with these products and an unpleasant thing to fix. Leave too little in a spot and it reads dry. The whole floor is typically done in a day, light sock traffic returns in roughly a day, furniture goes back in a few days, and you leave the floor unwashed for a week or two while the oil finishes curing. Manufacturers differ on the exact numbers and we follow whichever system we’re spraying — the point is that oil isn’t faster than our waterborne schedule, it’s just differently shaped.</p>
 
 <div data-rt-embed-type='true'><!-- FAQ accordion + JSON-LD -->
-<section class="faq-wrap ocb" aria-labelledby="faq-title">
+<div class="faq-wrap ocb" aria-labelledby="faq-title">
   <h2 id="faq-title" class="faq-title">Penetrating Oil Finishes: What Sammamish Homeowners Ask Us</h2>
   <div class="faq-items" role="list">
     <details class="faq-item" role="listitem"><summary class="faq-q">Is a penetrating oil finish more durable than polyurethane?</summary><div class="faq-a">Not in the way the word usually means. A two-component waterborne like Bona Traffic HD resists abrasion and liquids better than any hardwax oil. What oil offers instead is renewability: it wears gradually and evenly rather than failing in patches, and you can restore a worn area yourself. Durability and repairability are different virtues, and oil trades one for the other.</div></details>
@@ -159,7 +167,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     <details class="faq-item" role="listitem"><summary class="faq-q">Does hardwax oil cost more than your standard refinish?</summary><div class="faq-a">Usually somewhat more, and we quote it per project rather than off the price list — our published $3.99 per square foot covers a full sand with our natural waterborne system. The sanding work underneath is identical; what changes is material cost and application. Ask at the estimate and we'll price both side by side so you're comparing real numbers, not brochures.</div></details>
     <details class="faq-item" role="listitem"><summary class="faq-q">Can I really fix a scratch myself?</summary><div class="faq-a">Yes, and it's the best argument for the finish. Abrade the scratch with a maroon pad, work a little oil into the area, wipe the excess off, and let it cure — because there's no film edge, the repair blends into the surrounding floor instead of showing as a patch. Deep gouges that removed wood still need real repair, but ordinary scratches genuinely disappear.</div></details>
   </div>
-</section>
+</div>
 
 <style>
   .faq-wrap{--line:#e5e7eb;margin:28px auto;padding:20px;border:1px solid var(--line);border-radius:16px;background:#fff;box-shadow:0 8px 30px rgba(2,6,23,.06)}
@@ -176,7 +184,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Is a penetrating oil finish more durable than polyurethane?", "acceptedAnswer": {"@type": "Answer", "text": "Not in the way the word usually means. A two-component waterborne like Bona Traffic HD resists abrasion and liquids better than any hardwax oil. What oil offers instead is renewability: it wears gradually and evenly rather than failing in patches, and you can restore a worn area yourself. Durability and repairability are different virtues, and oil trades one for the other."}}, {"@type": "Question", "name": "How often does an oiled floor need re-oiling?", "acceptedAnswer": {"@type": "Answer", "text": "In the traffic lanes of a busy home, roughly every two to five years. Bedrooms and formal rooms can go a decade. It's not a full refinish — it's a clean, a thin maintenance oil, and a buff, and plenty of homeowners do it themselves over a weekend. The floor tells you when: those areas start looking dry and flat compared to the rest."}}, {"@type": "Question", "name": "Can I put polyurethane over an oiled floor later?", "acceptedAnswer": {"@type": "Answer", "text": "Only after sanding back to clean bare wood, and even then there's some adhesion risk from oil left deeper in the fiber. Treat the choice as a long commitment rather than a coat you can swap. Going the other direction — oil over a previously polyurethaned floor — also requires a full sand, since the oil has to reach wood to do anything."}}, {"@type": "Question", "name": "Is hardwax oil a good idea with dogs?", "acceptedAnswer": {"@type": "Answer", "text": "It's good with dog scratches and mediocre with dog accidents. Nail marks buff out and re-oil invisibly, which is a real quality-of-life improvement over a film finish. Urine and a water bowl that seeps are the problem: liquid left sitting will darken the wood underneath. If your dog is tidy, oil is great; if not, we'd steer you to a waterborne film."}}, {"@type": "Question", "name": "What do I clean an oiled floor with?", "acceptedAnswer": {"@type": "Answer", "text": "The soap made for oiled floors by the manufacturer of your finish — WOCA, Osmo, and Rubio all sell one, and they leave a trace of oil behind as they clean. Skip regular hardwood cleaners, vinegar, steam mops, and anything sold as a polish or restorer. Buy a large bottle and make sure your housekeeper knows which one it is."}}, {"@type": "Question", "name": "Does an oil finish change the color of the wood?", "acceptedAnswer": {"@type": "Answer", "text": "It deepens it, the way water on raw wood does — grain and figure get richer, and the floor reads slightly warmer than bare sanded wood. It doesn't amber over the years the way oil-modified polyurethane does. Colored hardwax oils are also available, which lay the color and the finish down in one step instead of staining first."}}, {"@type": "Question", "name": "Does hardwax oil cost more than your standard refinish?", "acceptedAnswer": {"@type": "Answer", "text": "Usually somewhat more, and we quote it per project rather than off the price list — our published $3.99 per square foot covers a full sand with our natural waterborne system. The sanding work underneath is identical; what changes is material cost and application. Ask at the estimate and we'll price both side by side so you're comparing real numbers, not brochures."}}, {"@type": "Question", "name": "Can I really fix a scratch myself?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, and it's the best argument for the finish. Abrade the scratch with a maroon pad, work a little oil into the area, wipe the excess off, and let it cure — because there's no film edge, the repair blends into the surrounding floor instead of showing as a patch. Deep gouges that removed wood still need real repair, but ordinary scratches genuinely disappear."}}]}
 </script></div>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-cta" style="margin:30px 0">
+<div data-rt-embed-type='true'><div class="ocb ocb-cta" style="margin:30px 0">
   <style>
     html body .post-body .ocb-cta h2, .ocb-cta h2{color:#fff!important}
     html body .post-body .ocb-cta .ocb-cta-sub, .ocb-cta .ocb-cta-sub{color:rgba(255,255,255,.88)!important}
@@ -186,18 +194,18 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     html body .post-body .ocb-cta a.ocb-cta-phone, .ocb-cta a.ocb-cta-phone{color:#5c0000!important;text-decoration:none!important}
   </style>
   <div style="background:linear-gradient(135deg,#8B0000,#5c0000);border-radius:20px;padding:28px 24px;color:#fff;text-align:center;box-shadow:0 14px 34px rgba(92,0,0,.3)">
-    <h2 style="margin:0 0 6px;color:#fff;font-size:24px;font-weight:900">Not Sure Which Finish Your Floor Wants?</h2>
-    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.85);font-size:16.3px">We’ll look at the wood, the wear layer, and how your household actually lives, then price hardwax oil and waterborne side by side — in writing, with no push either way. Free in-home estimates across Sammamish, the Eastside, and King &amp; Snohomish County.</p>
+    <h2 style="margin:0 0 6px;color:#fff!important;font-size:24px;font-weight:900">Not Sure Which Finish Your Floor Wants?</h2>
+    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.92)!important;font-size:16.3px">We’ll look at the wood, the wear layer, and how your household actually lives, then price hardwax oil and waterborne side by side — in writing, with no push either way. Free in-home estimates across Sammamish, the Eastside, and King &amp; Snohomish County.</p>
     <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
-      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff;color:#5c0000;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> (425) 595-1079</a>
-      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.4);color:#fff;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none">Book My Free Consultation</a>
+      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff!important;color:#5c0000!important;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none!important"><span class="ocb-ic ocb-ic-phone"></span> (425) 595-1079</a>
+      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.16)!important;border:1px solid rgba(255,255,255,.55);color:#fff!important;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none!important">Book My Free Consultation</a>
     </div>
-    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.9)">
+    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.95)!important">
       <span>✓ Since 2013</span><span>✓ 1,000+ floors</span><span>✓ 1-yr workmanship warranty</span><span>✓ Licensed &amp; insured</span><span>✓ Financing available</span>
     </div>
-    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
+    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04!important;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
   </div>
-</section></div>
+</div></div>
 
 <p><strong>Related reading:</strong> <a href="/blog/water-based-vs-oil-based-floor-finish">Water-based vs oil-based finish</a> · <a href="/blog/matte-satin-semi-gloss-hardwood-floor-sheen">Matte, satin, or semi-gloss?</a> · <a href="/blog/can-engineered-hardwood-be-refinished-wear-layer">Can engineered hardwood be refinished?</a> · <a href="/city-of-sammamish/hardwood-floor-refinishing-in-sammamish-wa">Hardwood floor refinishing in Sammamish</a> · <a href="/contact">Book a free estimate</a></p>
 

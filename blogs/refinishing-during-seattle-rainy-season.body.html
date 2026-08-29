@@ -35,29 +35,37 @@ html body .post-body .ocb-fact p, .ocb-fact p{margin:0!important;font-size:14.7p
 html.ocb-anim-ready .ocb-rv{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
 html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 @media (prefers-reduced-motion:reduce){html.ocb-anim-ready .ocb-rv{opacity:1!important;transform:none!important;transition:none!important}.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:none}}
+
+/* Chip icons. Webflow's rich-text sanitizer strips inline <svg> whenever a post is
+   re-saved in the Editor, so the icons are drawn from CSS on a <span> instead. */
+.ocb-ic{display:inline-block;width:15px;height:15px;flex:0 0 auto;vertical-align:-2px;background-repeat:no-repeat;background-position:center;background-size:contain}
+.ocb-ic-pin{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z'/><circle cx='12' cy='10' r='3'/></svg>')}
+.ocb-ic-home{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z'/><polyline points='9 22 9 12 15 12 15 22'/></svg>')}
+.ocb-ic-phone{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z'/></svg>')}
+.ocb-cta .ocb-ic{filter:brightness(0) saturate(100%) invert(9%) sepia(64%) saturate(4000%) hue-rotate(348deg)}
 </style></div>
 
-<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 -6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">December 4, 2026</span></div></div>
+<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">December 4, 2026</span></div></div>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
+<div data-rt-embed-type='true'><div class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
   <span class="ocb-eyebrow">Quick answer</span>
   <p style="margin:0;font-size:17.9px;line-height:1.65"><strong>Yes — hardwood floors can be refinished right through Seattle’s rainy season, and we do it every week from October to May, because a modern waterborne finish cures off your furnace’s conditions, not the sky’s.</strong> The old “wait for summer” rule dates from the oil-modified poly era, when solvent finishes genuinely crawled in cool, damp air. What the rainy months actually change is procedure, not possibility: moisture readings before sanding, heat running through the job, and a little discipline about wet coats and open windows. Here’s the whole rainy-season playbook, honestly.</p>
   <div class="ocb-chips">
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg> King &amp; Snohomish County</span>
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg> Seattle homes</span>
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-pin"></span> King &amp; Snohomish County</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-home"></span> Seattle homes</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-phone"></span> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
   </div>
-</section></div>
+</div></div>
 
 <p>Somewhere around the first November estimate every year, a homeowner apologizes for the timing: “I know it’s probably the wrong season for this…” It’s a fair instinct — refinishing involves liquid finish, drying, and moisture-sensitive wood, and outside it has been raining since the second week of October. But the instinct is calibrated to a version of this trade that mostly retired years ago. The floors we refinish in January come out exactly like the floors we refinish in July, because the environment that matters is the one inside your walls, and Seattle houses are heated.</p>
 
 <p>That said, “the season doesn’t stop the work” is not the same as “the season changes nothing.” Rainy-month refinishing done well involves real adjustments, and rainy-month refinishing done carelessly is where the horror stories come from. This article is the difference between the two — what we measure, what we run, what we skip, and the one finish chemistry that genuinely should wait for drier air.</p>
 
-<div data-rt-embed-type='true'><section class="ocb"><div class="ocb-facts">
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-facts">
   <div class="ocb-fact"><span class="n">2–3 hrs</span><p>between coats for the waterborne systems we run — the same in November as in July, because your heating system sets the drying conditions, not the weather.</p></div>
   <div class="ocb-fact"><span class="n">3–5 days</span><p>a typical full refinish, unchanged by the season. The finish schedule that stretches in damp air is oil-modified poly’s — one reason we rarely spec it here.</p></div>
   <div class="ocb-fact"><span class="n">7 days</span><p>to full cure indoors with normal heat — rugs back, life back. Rain outside the windows the entire week changes none of it.</p></div>
-</div></section></div>
+</div></div></div>
 
 <h2>What Rain Actually Threatens — and What It Doesn’t</h2>
 
@@ -83,7 +91,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 
 <p>Heat is the other old-house question: a home with radiators or a retrofit furnace can absolutely host a winter refinish, as long as it can hold ordinary living temperature through finish days — something we confirm at the estimate rather than discover mid-job. This is routine work for our crews doing <a href="/seattle/hardwood-floor-refinishing-in-seattle-wa">hardwood floor refinishing in Seattle</a>: the rainy season is roughly half the year here, and a flooring company that couldn’t deliver from October to May would be a seasonal hobby, not a business. Since 2013, a large share of our 1,000+ floors have gone down to the sound of rain on the roof.</p>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-card">
+<div data-rt-embed-type='true'><div class="ocb ocb-card">
   <h3 style="margin:0 0 10px;font-size:18.5px;font-weight:900;color:#5c0000">Rainy-season worries vs what actually happens</h3>
   <div style="overflow-x:auto"><table class="ocb-table">
     <tr><th>The worry</th><th>The reality</th><th>What we do about it</th></tr>
@@ -93,10 +101,10 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     <tr><td>“The job takes longer in winter”</td><td>True for oil-modified poly; not for waterborne</td><td>3–5 days, same as summer — we spec the chemistry that keeps the schedule</td></tr>
     <tr><td>“Summer results are better”</td><td>No difference in the finished floor</td><td>Same prep, same coats, same warranty, easier booking</td></tr>
   </table></div>
-</section></div>
+</div></div>
 
 <div data-rt-embed-type='true'><!-- FAQ accordion + JSON-LD -->
-<section class="faq-wrap ocb" aria-labelledby="faq-title">
+<div class="faq-wrap ocb" aria-labelledby="faq-title">
   <h2 id="faq-title" class="faq-title">Rainy-Season Refinishing: What Seattle Homeowners Ask</h2>
   <div class="faq-items" role="list">
     <details class="faq-item" role="listitem"><summary class="faq-q">Can hardwood floors really be refinished in winter in Seattle?</summary><div class="faq-a">Yes, routinely. A heated home provides stable, mildly dry indoor conditions year-round, and waterborne finishes cure off those conditions, not the weather. Our winter jobs run the same 3-to-5-day schedule and produce the same results as summer ones — the season changes procedure slightly, not outcome.</div></details>
@@ -108,7 +116,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     <details class="faq-item" role="listitem"><summary class="faq-q">Is there any part of refinishing that should wait for summer?</summary><div class="faq-a">Two honest cases: projects that specifically require oil-modified polyurethane, which dries much faster in warm, dry weather; and floors with an active moisture problem, which need the source fixed and the wood dried before sanding — repairs that are sometimes easier in the dry months. Everything else is season-proof.</div></details>
     <details class="faq-item" role="listitem"><summary class="faq-q">When should I book if I want floors done before the holidays?</summary><div class="faq-a">Work backward from the calendar: 3 to 5 days of work, walkable that evening, furniture at 48 to 72 hours, rugs at 7 days. A refinish finishing by mid-December has you fully set up for hosting. October and November dates make it comfortable — and those weeks are exactly when the schedule is most open.</div></details>
   </div>
-</section>
+</div>
 
 <style>
   .faq-wrap{--line:#e5e7eb;margin:28px auto;padding:20px;border:1px solid var(--line);border-radius:16px;background:#fff;box-shadow:0 8px 30px rgba(2,6,23,.06)}
@@ -125,7 +133,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Can hardwood floors really be refinished in winter in Seattle?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, routinely. A heated home provides stable, mildly dry indoor conditions year-round, and waterborne finishes cure off those conditions, not the weather. Our winter jobs run the same 3-to-5-day schedule and produce the same results as summer ones — the season changes procedure slightly, not outcome."}}, {"@type": "Question", "name": "Doesn't the finish need dry weather to cure?", "acceptedAnswer": {"@type": "Answer", "text": "It needs a dry-enough room, which a furnace supplies regardless of the forecast. Heated winter air indoors is actually low in relative humidity. The finish that genuinely struggles in cool, damp conditions is oil-modified polyurethane, which is one of several reasons we run waterborne systems on nearly every floor."}}, {"@type": "Question", "name": "Will you need to open windows while it's raining?", "acceptedAnswer": {"@type": "Answer", "text": "No. Low-VOC waterborne finishes don't require open-window ventilation to dry — air exchange is managed around the coating schedule, indoors. This is very different from the solvent-finish era, when airing the house out was part of the job and weather genuinely interfered."}}, {"@type": "Question", "name": "Is my wood too damp to sand in the rainy season?", "acceptedAnswer": {"@type": "Answer", "text": "Almost certainly not, if the house is heated and dry — but we verify rather than assume. A moisture meter reads the boards before sanding. Normal readings proceed; elevated readings mean something specific — a leak, a wet crawlspace, a basement issue — that's worth finding in any season, before finish seals it in."}}, {"@type": "Question", "name": "Does refinishing cost more or less in the off-season?", "acceptedAnswer": {"@type": "Answer", "text": "Our pricing is the same year-round — $1.99/sq ft for a screen and recoat, $3.99 for a full natural refinish. What the off-season offers is calendar flexibility: winter books far more easily than the summer crush, so you pick dates instead of taking what's left."}}, {"@type": "Question", "name": "Should I run a dehumidifier during or after the work?", "acceptedAnswer": {"@type": "Answer", "text": "During, no — normal heating does the conditioning. Afterward, a dehumidifier only earns its keep in spaces with a real moisture load, like some basements. What matters more is simply keeping the house at ordinary living temperature through the finish days and the first cure week."}}, {"@type": "Question", "name": "Is there any part of refinishing that should wait for summer?", "acceptedAnswer": {"@type": "Answer", "text": "Two honest cases: projects that specifically require oil-modified polyurethane, which dries much faster in warm, dry weather; and floors with an active moisture problem, which need the source fixed and the wood dried before sanding — repairs that are sometimes easier in the dry months. Everything else is season-proof."}}, {"@type": "Question", "name": "When should I book if I want floors done before the holidays?", "acceptedAnswer": {"@type": "Answer", "text": "Work backward from the calendar: 3 to 5 days of work, walkable that evening, furniture at 48 to 72 hours, rugs at 7 days. A refinish finishing by mid-December has you fully set up for hosting. October and November dates make it comfortable — and those weeks are exactly when the schedule is most open."}}]}
 </script></div>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-cta" style="margin:30px 0">
+<div data-rt-embed-type='true'><div class="ocb ocb-cta" style="margin:30px 0">
   <style>
     html body .post-body .ocb-cta h2, .ocb-cta h2{color:#fff!important}
     html body .post-body .ocb-cta .ocb-cta-sub, .ocb-cta .ocb-cta-sub{color:rgba(255,255,255,.88)!important}
@@ -135,18 +143,18 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     html body .post-body .ocb-cta a.ocb-cta-phone, .ocb-cta a.ocb-cta-phone{color:#5c0000!important;text-decoration:none!important}
   </style>
   <div style="background:linear-gradient(135deg,#8B0000,#5c0000);border-radius:20px;padding:28px 24px;color:#fff;text-align:center;box-shadow:0 14px 34px rgba(92,0,0,.3)">
-    <h2 style="margin:0 0 6px;color:#fff;font-size:24px;font-weight:900">Don’t Wait for July</h2>
-    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.85);font-size:16.3px">The rainy season is when our calendar breathes — get the same floor, on your dates, with the holidays or the spring market on your side. Free in-home estimates across Seattle and King &amp; Snohomish County.</p>
+    <h2 style="margin:0 0 6px;color:#fff!important;font-size:24px;font-weight:900">Don’t Wait for July</h2>
+    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.92)!important;font-size:16.3px">The rainy season is when our calendar breathes — get the same floor, on your dates, with the holidays or the spring market on your side. Free in-home estimates across Seattle and King &amp; Snohomish County.</p>
     <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
-      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff;color:#5c0000;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> (425) 595-1079</a>
-      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.4);color:#fff;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none">Book My Free Consultation</a>
+      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff!important;color:#5c0000!important;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none!important"><span class="ocb-ic ocb-ic-phone"></span> (425) 595-1079</a>
+      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.16)!important;border:1px solid rgba(255,255,255,.55);color:#fff!important;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none!important">Book My Free Consultation</a>
     </div>
-    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.9)">
+    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.95)!important">
       <span>✓ Since 2013</span><span>✓ 1,000+ floors</span><span>✓ 1-yr workmanship warranty</span><span>✓ Licensed &amp; insured</span><span>✓ Financing available</span>
     </div>
-    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
+    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04!important;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
   </div>
-</section></div>
+</div></div>
 
 <p><strong>Related reading:</strong> <a href="/blog/best-time-of-year-refinish-floors-western-washington">Best time of year to refinish here</a> · <a href="/blog/water-based-vs-oil-based-floor-finish">Water-based vs oil-based finish</a> · <a href="/blog/how-humidity-can-affect-hardwood-and-laminate-flooring">Humidity and hardwood</a> · <a href="/blog/refinishing-fir-floors-old-seattle-homes">Refinishing old Seattle fir</a> · <a href="/contact">Book a free estimate</a></p>
 

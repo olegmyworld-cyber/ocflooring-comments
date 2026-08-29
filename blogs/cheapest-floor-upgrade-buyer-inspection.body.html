@@ -35,27 +35,35 @@ html body .post-body .ocb-fact p, .ocb-fact p{margin:0!important;font-size:14.7p
 html.ocb-anim-ready .ocb-rv{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
 html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 @media (prefers-reduced-motion:reduce){html.ocb-anim-ready .ocb-rv{opacity:1!important;transform:none!important;transition:none!important}.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:none}}
+
+/* Chip icons. Webflow's rich-text sanitizer strips inline <svg> whenever a post is
+   re-saved in the Editor, so the icons are drawn from CSS on a <span> instead. */
+.ocb-ic{display:inline-block;width:15px;height:15px;flex:0 0 auto;vertical-align:-2px;background-repeat:no-repeat;background-position:center;background-size:contain}
+.ocb-ic-pin{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z'/><circle cx='12' cy='10' r='3'/></svg>')}
+.ocb-ic-home{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z'/><polyline points='9 22 9 12 15 12 15 22'/></svg>')}
+.ocb-ic-phone{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z'/></svg>')}
+.ocb-cta .ocb-ic{filter:brightness(0) saturate(100%) invert(9%) sepia(64%) saturate(4000%) hue-rotate(348deg)}
 </style></div>
 
-<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 -6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">October 30, 2026</span></div></div>
+<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">October 30, 2026</span></div></div>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
+<div data-rt-embed-type='true'><div class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
   <span class="ocb-eyebrow">Quick answer</span>
   <p style="margin:0;font-size:17.9px;line-height:1.65"><strong>For most Kirkland sellers, the cheapest floor move that still survives buyer scrutiny is a screen and recoat at $1.99/sq ft — one day of work that strips the scratched, dull top layer of finish and lays down a fresh one, making a structurally sound hardwood floor photograph and show like new.</strong> Inspectors don’t grade floors on shine; they flag damage — water staining, rot, loose boards. Buyers grade on look. A recoat fixes the look; a full refinish at $3.99/sq ft is the honest fallback when wear has gone through the finish into gray wood; and replacement before a sale is almost never money you get back. Here’s the whole decision, priced.</p>
   <div class="ocb-chips">
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg> King &amp; Snohomish County</span>
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg> Kirkland home sellers</span>
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-pin"></span> King &amp; Snohomish County</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-home"></span> Kirkland home sellers</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-phone"></span> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
   </div>
-</section></div>
+</div></div>
 
 <p>Every spring we get the same call from Kirkland sellers: “We list in three weeks. The floors look tired. What’s the least we can spend without a buyer’s inspector torching us for it?” It’s a good question with a genuinely cheap answer most of the time — but the answer depends on reading the difference between a floor that <em>looks</em> worn and a floor that <em>is</em> worn, because those two problems cost different money to fix. This post walks the ladder from cheapest to priciest, tells you which rung your floor is on, and flags the pre-sale spending that never pays back.</p>
 
-<div data-rt-embed-type='true'><section class="ocb"><div class="ocb-facts">
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-facts">
   <div class="ocb-fact"><span class="n">$1.99</span><p>per sq ft for a screen and recoat — abrade the old finish, lay a fresh coat, done in one day. On a typical 1,000 sq ft Kirkland rambler main floor, that’s about $1,990 for floors that show like new.</p></div>
   <div class="ocb-fact"><span class="n">1 day</span><p>how long a recoat takes, walkable in socks that evening — against 3–5 days for a full refinish. When a listing date is bearing down, that difference is the whole ballgame.</p></div>
   <div class="ocb-fact"><span class="n">$3.99</span><p>per sq ft for the full sand and natural refinish — the fallback when wear has gone through the finish and the wood itself is gray, stained, or deeply scratched. Still far cheaper than any replacement.</p></div>
-</div></section></div>
+</div></div></div>
 
 <h2>What Inspections Actually Flag (It’s Not Dullness)</h2>
 
@@ -65,7 +73,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 
 <p>Floor money before a sale comes in four sizes. <strong>Deep clean</strong> — nearly free, and worth doing regardless, but it can’t fix finish wear; a scratched dull floor is scratched and dull after mopping. <strong>Screen and recoat, $1.99/sq ft</strong> — the sweet spot: we abrade the existing finish and apply a fresh commercial waterborne coat, erasing dullness and the shallow scratch haze that makes floors look old. <strong>Full refinish, $3.99/sq ft natural</strong> — sand to bare wood, 2–3 coats, 3–5 days; this is the rung for wear that went through the finish. <strong>Replacement</strong> — many times the cost, weeks of disruption, and before a sale it almost never returns its price; the buyer would rather have your solid old-growth oak refinished than builder-grade new material anyway. The trap to avoid is paying for a higher rung than your floor needs — or trying to save with a lower rung that can’t actually fix your symptom, which is where the next section comes in.</p>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-card">
+<div data-rt-embed-type='true'><div class="ocb ocb-card">
   <h3 style="margin:0 0 10px;font-size:18.5px;font-weight:900;color:#5c0000">Which rung does your floor need?</h3>
   <div style="overflow-x:auto"><table class="ocb-table">
     <tr><th>What you see</th><th>What it means</th><th>The right spend</th></tr>
@@ -75,7 +83,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     <tr><td>Dark pet stains, water rings, sun-fade patterns</td><td>Damage in the wood itself</td><td>Full refinish; worst boards may need replacement</td></tr>
     <tr><td>Cupping, buckling, soft or springy spots</td><td>Moisture problem — this is what inspectors flag</td><td>Find the source and repair first; cosmetics second</td></tr>
   </table></div>
-</section></div>
+</div></div>
 
 <h2>Why the $1.99 Recoat Is the Seller’s Best Friend</h2>
 
@@ -90,7 +98,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 <p>Three pre-sale floor spends we routinely talk people out of. <strong>Replacement:</strong> tearing out sound hardwood to install new flooring before a sale is the classic negative-return renovation — you pay full price, the buyer discounts it to taste. <strong>Big stain projects:</strong> a trendy color choice is a coin flip on the buyer’s taste; natural finish is the neutral answer and costs $2.51/sq ft less. <strong>Covering hardwood with carpet or laminate:</strong> Eastside buyers rip that out mentally (then literally) and mark the house down for the mystery underneath — if anything, sellers make money going the other direction, pulling old carpet off intact oak. The unifying principle: before a sale, your floor spend is marketing, not renovation. Marketing wants clean, light, neutral, and cheap — which is a one-day recoat far more often than it’s anything else.</p>
 
 <div data-rt-embed-type='true'><!-- FAQ accordion + JSON-LD -->
-<section class="faq-wrap ocb" aria-labelledby="faq-title">
+<div class="faq-wrap ocb" aria-labelledby="faq-title">
   <h2 id="faq-title" class="faq-title">Pre-Listing Floor Questions Kirkland Sellers Ask Us</h2>
   <div class="faq-items" role="list">
     <details class="faq-item" role="listitem"><summary class="faq-q">Will a home inspector fail worn hardwood floors?</summary><div class="faq-a">No — worn finish isn't a defect, and inspection reports don't grade cosmetics. Inspectors flag damage: water staining, rot, cupping, buckling, loose or soft boards. If your floor has any of those, fix the cause and the damage first. If it's just dull and scratched, the inspection isn't the problem — the buyer's first impression is.</div></details>
@@ -102,7 +110,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     <details class="faq-item" role="listitem"><summary class="faq-q">What about pet stains — will buyers notice?</summary><div class="faq-a">Yes, and so will their inspector if the stains suggest moisture. Dark pet stains are in the wood, not the finish, so they need a full refinish, and the deepest ones may need board replacement before sanding. We weave in matching boards and sand everything together so the repair disappears into the new surface.</div></details>
     <details class="faq-item" role="listitem"><summary class="faq-q">Do you work around our moving and staging schedule?</summary><div class="faq-a">Constantly — pre-listing jobs are half our fall calendar. The cleanest sequence is: house empty or mostly empty, floors done, then stagers in after the 48–72 hour furniture window. Tell us your photo date at the estimate and we'll build the schedule backward from it.</div></details>
   </div>
-</section>
+</div>
 
 <style>
   .faq-wrap{--line:#e5e7eb;margin:28px auto;padding:20px;border:1px solid var(--line);border-radius:16px;background:#fff;box-shadow:0 8px 30px rgba(2,6,23,.06)}
@@ -119,7 +127,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Will a home inspector fail worn hardwood floors?", "acceptedAnswer": {"@type": "Answer", "text": "No — worn finish isn't a defect, and inspection reports don't grade cosmetics. Inspectors flag damage: water staining, rot, cupping, buckling, loose or soft boards. If your floor has any of those, fix the cause and the damage first. If it's just dull and scratched, the inspection isn't the problem — the buyer's first impression is."}}, {"@type": "Question", "name": "Is a screen and recoat really enough before listing?", "acceptedAnswer": {"@type": "Answer", "text": "If the wear is still in the finish layer, yes — and that describes most floors we look at. One day, $1.99 per square foot, and the floor photographs like new. If wear has gone through to gray wood, a recoat can't fix it and we'll say so at the estimate rather than take your money for the wrong service."}}, {"@type": "Question", "name": "How do we tell if the wear is through the finish?", "acceptedAnswer": {"@type": "Answer", "text": "Look at the traffic lanes in raking light: if the worn areas are grayish or whitish and feel like raw wood, the finish is gone there. Drip a little water on the worst spot — if it soaks in and darkens the wood instead of beading, you're through the finish and into full-refinish territory."}}, {"@type": "Question", "name": "How fast can this happen before our photo date?", "acceptedAnswer": {"@type": "Answer", "text": "A recoat: one day of work, walkable that evening, photo-ready in about two days. A full refinish: 3 to 5 working days, then 48 to 72 hours before furniture and staging go back on. Booked reasonably ahead, either fits a normal listing-prep window — the recoat fits even a panicked one."}}, {"@type": "Question", "name": "Does refinishing floors before selling actually pay back?", "acceptedAnswer": {"@type": "Answer", "text": "In this market, generally yes — refinished original hardwood is a feature Eastside listings advertise in the first line, and worn floors become a negotiating chip that costs sellers more than the work would have. The strongest returns come from the cheapest appropriate fix: a $1,990 recoat that removes a $10,000 mental discount is the best trade in home prep."}}, {"@type": "Question", "name": "Should we replace the floors instead if they're really bad?", "acceptedAnswer": {"@type": "Answer", "text": "Almost never before a sale. Even a badly worn solid hardwood floor is usually a $3.99/sq ft refinish away from excellent, at a fraction of replacement cost. Replacement only makes pre-sale sense when the floor is structurally gone — major water damage, rot — and at that point it's a repair conversation, not a cosmetic one."}}, {"@type": "Question", "name": "What about pet stains — will buyers notice?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, and so will their inspector if the stains suggest moisture. Dark pet stains are in the wood, not the finish, so they need a full refinish, and the deepest ones may need board replacement before sanding. We weave in matching boards and sand everything together so the repair disappears into the new surface."}}, {"@type": "Question", "name": "Do you work around our moving and staging schedule?", "acceptedAnswer": {"@type": "Answer", "text": "Constantly — pre-listing jobs are half our fall calendar. The cleanest sequence is: house empty or mostly empty, floors done, then stagers in after the 48–72 hour furniture window. Tell us your photo date at the estimate and we'll build the schedule backward from it."}}]}
 </script></div>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-cta" style="margin:30px 0">
+<div data-rt-embed-type='true'><div class="ocb ocb-cta" style="margin:30px 0">
   <style>
     html body .post-body .ocb-cta h2, .ocb-cta h2{color:#fff!important}
     html body .post-body .ocb-cta .ocb-cta-sub, .ocb-cta .ocb-cta-sub{color:rgba(255,255,255,.88)!important}
@@ -129,18 +137,18 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     html body .post-body .ocb-cta a.ocb-cta-phone, .ocb-cta a.ocb-cta-phone{color:#5c0000!important;text-decoration:none!important}
   </style>
   <div style="background:linear-gradient(135deg,#8B0000,#5c0000);border-radius:20px;padding:28px 24px;color:#fff;text-align:center;box-shadow:0 14px 34px rgba(92,0,0,.3)">
-    <h2 style="margin:0 0 6px;color:#fff;font-size:24px;font-weight:900">Listing Soon? Get the One-Day Answer</h2>
-    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.85);font-size:16.3px">Send us your square footage and photo date — we’ll tell you honestly whether your floor needs the $1.99 recoat or the $3.99 refinish, in writing, with the schedule to match. Free estimates across Kirkland and all of King &amp; Snohomish County.</p>
+    <h2 style="margin:0 0 6px;color:#fff!important;font-size:24px;font-weight:900">Listing Soon? Get the One-Day Answer</h2>
+    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.92)!important;font-size:16.3px">Send us your square footage and photo date — we’ll tell you honestly whether your floor needs the $1.99 recoat or the $3.99 refinish, in writing, with the schedule to match. Free estimates across Kirkland and all of King &amp; Snohomish County.</p>
     <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
-      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff;color:#5c0000;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> (425) 595-1079</a>
-      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.4);color:#fff;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none">Book My Free Consultation</a>
+      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff!important;color:#5c0000!important;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none!important"><span class="ocb-ic ocb-ic-phone"></span> (425) 595-1079</a>
+      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.16)!important;border:1px solid rgba(255,255,255,.55);color:#fff!important;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none!important">Book My Free Consultation</a>
     </div>
-    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.9)">
+    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.95)!important">
       <span>✓ Since 2013</span><span>✓ 1,000+ floors</span><span>✓ 1-yr workmanship warranty</span><span>✓ Licensed &amp; insured</span><span>✓ Financing available</span>
     </div>
-    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
+    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04!important;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
   </div>
-</section></div>
+</div></div>
 
 <p><strong>Related reading:</strong> <a href="/blog/does-refinishing-wood-floors-increase-home-value-in-kirkland-wa">Does refinishing raise Kirkland home value?</a> · <a href="/blog/sand-and-refinish-vs-screen-and-recoat-which-is-right-for-your-hardwood-floors">Refinish vs screen and recoat</a> · <a href="/blog/refinish-floors-before-listing-home">Refinishing before you list</a> · <a href="/city-of-kirkland/hardwood-floor-refinishing-in-kirkland-wa">Hardwood floor refinishing in Kirkland</a> · <a href="/contact">Book a free estimate</a></p>
 

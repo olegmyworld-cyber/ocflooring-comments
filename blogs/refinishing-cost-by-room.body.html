@@ -35,29 +35,37 @@ html body .post-body .ocb-fact p, .ocb-fact p{margin:0!important;font-size:14.7p
 html.ocb-anim-ready .ocb-rv{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
 html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 @media (prefers-reduced-motion:reduce){html.ocb-anim-ready .ocb-rv{opacity:1!important;transform:none!important;transition:none!important}.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:none}}
+
+/* Chip icons. Webflow's rich-text sanitizer strips inline <svg> whenever a post is
+   re-saved in the Editor, so the icons are drawn from CSS on a <span> instead. */
+.ocb-ic{display:inline-block;width:15px;height:15px;flex:0 0 auto;vertical-align:-2px;background-repeat:no-repeat;background-position:center;background-size:contain}
+.ocb-ic-pin{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z'/><circle cx='12' cy='10' r='3'/></svg>')}
+.ocb-ic-home{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z'/><polyline points='9 22 9 12 15 12 15 22'/></svg>')}
+.ocb-ic-phone{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z'/></svg>')}
+.ocb-cta .ocb-ic{filter:brightness(0) saturate(100%) invert(9%) sepia(64%) saturate(4000%) hue-rotate(348deg)}
 </style></div>
 
-<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 -6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">March 5, 2027</span></div></div>
+<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">March 5, 2027</span></div></div>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
+<div data-rt-embed-type='true'><div class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
   <span class="ocb-eyebrow">Quick answer</span>
   <p style="margin:0;font-size:17.9px;line-height:1.65"><strong>Refinishing is priced by the square foot — $1.99 for a screen and recoat, $3.99 for a full sand with natural finish, $6.50 with stain — but rooms don’t cost the same per foot, because rooms aren’t equally full of edges, appliances, and stairs.</strong> A 300 sq ft Bellevue bedroom is nearly all open field and prices exactly as the math says. A kitchen adds $80 per appliance we pull. A hallway is mostly perimeter. And a staircase isn’t priced by area at all: it’s $55–$75 per tread, which makes fourteen steps cost about as much as a bedroom.</p>
   <div class="ocb-chips">
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg> King &amp; Snohomish County</span>
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg> Bellevue cost breakdown</span>
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-pin"></span> King &amp; Snohomish County</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-home"></span> Bellevue cost breakdown</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-phone"></span> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
   </div>
-</section></div>
+</div></div>
 
 <p>Almost every estimate we write gets the same follow-up question: “which part of that is the kitchen?” It’s a fair question and the honest answer is a little unsatisfying — we price the job, not the rooms, because the crew, the machines, the containment, and the finish system show up once regardless of how you slice the house. But the rooms genuinely do have different economics, and you deserve to understand where your money goes before you decide which floors get done this year.</p>
 
 <p>So here is the room-by-room version, with the real numbers we quote in Bellevue and across the Eastside. What actually drives cost in each space, what adds line items, where you get the best value per dollar, and a worked example at the end using a house shape we see constantly on this side of the lake.</p>
 
-<div data-rt-embed-type='true'><section class="ocb"><div class="ocb-facts">
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-facts">
   <div class="ocb-fact"><span class="n">$3.99/sq ft</span><p>full sand and natural waterborne finish, the number that covers most of a house. Stain pushes it to $6.50/sq ft; a screen and recoat drops it to $1.99/sq ft where the finish is still intact.</p></div>
   <div class="ocb-fact"><span class="n">$55–$75</span><p>per tread for stairs — priced per step because stairs are handwork, not machine work. A typical 13- to 14-step Bellevue staircase lands in the same range as a mid-sized bedroom.</p></div>
   <div class="ocb-fact"><span class="n">500 sq ft</span><p>our job minimum. It’s the reason a single hallway or one small bedroom usually needs to be bundled with adjacent rooms rather than quoted on its own.</p></div>
-</div></section></div>
+</div></div></div>
 
 <h2>Why Square Footage Alone Doesn’t Price a Floor</h2>
 
@@ -83,7 +91,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 
 <p>One practical note about sequencing: stairs are usually the last thing coated, because they’re also the only way to the second floor. On an occupied home we plan the schedule so nobody is stranded upstairs, which sometimes means doing the staircase in two halves on alternating days. That’s part of the room-by-room scheduling logic we lay out in <a href="/blog/refinishing-occupied-home-room-by-room">refinishing an occupied home room by room</a>.</p>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-card">
+<div data-rt-embed-type='true'><div class="ocb ocb-card">
   <h3 style="margin:0 0 10px;font-size:18.5px;font-weight:900;color:#5c0000">What each room actually costs, and why</h3>
   <div style="overflow-x:auto"><table class="ocb-table">
     <tr><th>Room</th><th>Typical Bellevue size</th><th>Rate</th><th>What drives it up</th></tr>
@@ -96,7 +104,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     <tr><td><strong>Laundry</strong></td><td>40–80 sq ft</td><td>$3.99/sq ft + $160</td><td>Washer/dryer pair, tight edges, floor drain</td></tr>
     <tr><td><strong>Whole-house extras</strong></td><td>—</td><td>+$250</td><td>Dust containment when the job calls for it</td></tr>
   </table></div>
-</section></div>
+</div></div>
 
 <h2>Hallways, Landings, and the 500 sq ft Minimum</h2>
 
@@ -120,7 +128,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 
 <h2>What Moves the Number, and What Doesn’t</h2>
 
-<div data-rt-embed-type='true'><section class="ocb"><div class="ocb-2col">
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-2col">
   <div class="ocb-card" style="margin:0">
     <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#5c0000">These change your number</h3>
     <ul class="ocb-check">
@@ -141,10 +149,10 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
       <li>The estimate itself — walkthroughs are free, in writing, no deposit</li>
     </ul>
   </div>
-</div></section></div>
+</div></div></div>
 
 <div data-rt-embed-type='true'><!-- FAQ accordion + JSON-LD -->
-<section class="faq-wrap ocb" aria-labelledby="faq-title">
+<div class="faq-wrap ocb" aria-labelledby="faq-title">
   <h2 id="faq-title" class="faq-title">Refinishing Cost by Room: Bellevue Questions</h2>
   <div class="faq-items" role="list">
     <details class="faq-item" role="listitem"><summary class="faq-q">Can you just refinish one room?</summary><div class="faq-a">Only if it clears our 500 sq ft minimum, or if it can be bundled with adjacent areas. Below that, the fixed costs of a professional job — mobilization, machines, containment, a full finish system — don't fit inside the price. We'll usually suggest either expanding the scope or recoating a larger area at $1.99/sq ft instead.</div></details>
@@ -156,7 +164,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     <details class="faq-item" role="listitem"><summary class="faq-q">Does a stain cost more in some rooms than others?</summary><div class="faq-a">No — staining moves the rate to $6.50/sq ft everywhere it's applied. What it does change is the schedule: stain adds a day for the color to dry before sealing, and it makes matching between rooms harder if you ever refinish in phases. Natural finish is both cheaper and easier to match later.</div></details>
     <details class="faq-item" role="listitem"><summary class="faq-q">Do I have to move all the furniture out?</summary><div class="faq-a">Everything has to be off the floors we're coating. Most clients handle the small items and we quote labor for the heavy pieces if they'd rather we did it. Whichever way you go, it should be written into the estimate — an unclear furniture plan is the most common cause of a lost day on a residential schedule.</div></details>
   </div>
-</section>
+</div>
 
 <style>
   .faq-wrap{--line:#e5e7eb;margin:28px auto;padding:20px;border:1px solid var(--line);border-radius:16px;background:#fff;box-shadow:0 8px 30px rgba(2,6,23,.06)}
@@ -173,7 +181,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Can you just refinish one room?", "acceptedAnswer": {"@type": "Answer", "text": "Only if it clears our 500 sq ft minimum, or if it can be bundled with adjacent areas. Below that, the fixed costs of a professional job — mobilization, machines, containment, a full finish system — don't fit inside the price. We'll usually suggest either expanding the scope or recoating a larger area at $1.99/sq ft instead."}}, {"@type": "Question", "name": "Why do stairs cost so much compared to the floor?", "acceptedAnswer": {"@type": "Answer", "text": "Because there's no machine for stairs. Every tread, riser, and nosing is hand-sanded and hand-coated, worked around balusters one at a time. Fourteen steps is roughly 40 square feet of wood and a full day or more of skilled labor, which is why it's priced at $55 to $75 per tread rather than by area."}}, {"@type": "Question", "name": "Do you move the refrigerator and other appliances?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, and we charge $80 per appliance, or $160 for a washer-and-dryer pair, because it's real work: disconnecting, moving carefully across a floor mid-project, and reconnecting water and gas properly. You can move them yourself to save the line item, but we'd rather do the water connections than fix them later."}}, {"@type": "Question", "name": "Is the kitchen more expensive per square foot than a bedroom?", "acceptedAnswer": {"@type": "Answer", "text": "The rate is the same — $3.99/sq ft for a full sand with natural finish — but kitchens carry extras that bedrooms don't: appliances at $80 each, more transitions, and a higher chance of water-damaged boards needing replacement. Bedrooms are usually the cheapest rooms in a house to refinish."}}, {"@type": "Question", "name": "Should I refinish the whole floor or just the worn rooms?", "acceptedAnswer": {"@type": "Answer", "text": "Whole floor, almost always, if the rooms connect. A newly refinished room next to an old one never matches — different wear, different oxidation, different sheen — and the boundary is more noticeable than the wear you were fixing. Where rooms are genuinely separate, doing them in phases is reasonable."}}, {"@type": "Question", "name": "What does refinishing a whole Bellevue main floor typically cost?", "acceptedAnswer": {"@type": "Answer", "text": "For a common two-story with roughly 1,260 sq ft of wood downstairs plus fourteen stairs: about $5,000 for the field at $3.99/sq ft, around $900 for the staircase, $240 for kitchen appliances, and $250 if dust containment is needed — call it $6,400. A screen and recoat on the same floor would be closer to $2,500."}}, {"@type": "Question", "name": "Does a stain cost more in some rooms than others?", "acceptedAnswer": {"@type": "Answer", "text": "No — staining moves the rate to $6.50/sq ft everywhere it's applied. What it does change is the schedule: stain adds a day for the color to dry before sealing, and it makes matching between rooms harder if you ever refinish in phases. Natural finish is both cheaper and easier to match later."}}, {"@type": "Question", "name": "Do I have to move all the furniture out?", "acceptedAnswer": {"@type": "Answer", "text": "Everything has to be off the floors we're coating. Most clients handle the small items and we quote labor for the heavy pieces if they'd rather we did it. Whichever way you go, it should be written into the estimate — an unclear furniture plan is the most common cause of a lost day on a residential schedule."}}]}
 </script></div>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-cta" style="margin:30px 0">
+<div data-rt-embed-type='true'><div class="ocb ocb-cta" style="margin:30px 0">
   <style>
     html body .post-body .ocb-cta h2, .ocb-cta h2{color:#fff!important}
     html body .post-body .ocb-cta .ocb-cta-sub, .ocb-cta .ocb-cta-sub{color:rgba(255,255,255,.88)!important}
@@ -183,18 +191,18 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     html body .post-body .ocb-cta a.ocb-cta-phone, .ocb-cta a.ocb-cta-phone{color:#5c0000!important;text-decoration:none!important}
   </style>
   <div style="background:linear-gradient(135deg,#8B0000,#5c0000);border-radius:20px;padding:28px 24px;color:#fff;text-align:center;box-shadow:0 14px 34px rgba(92,0,0,.3)">
-    <h2 style="margin:0 0 6px;color:#fff;font-size:24px;font-weight:900">Get Your Rooms Priced, Not Guessed</h2>
-    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.85);font-size:16.3px">We’ll walk your Bellevue home, measure every room, count the treads and the appliances, and hand you an itemized number in writing. Free estimates across King &amp; Snohomish County.</p>
+    <h2 style="margin:0 0 6px;color:#fff!important;font-size:24px;font-weight:900">Get Your Rooms Priced, Not Guessed</h2>
+    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.92)!important;font-size:16.3px">We’ll walk your Bellevue home, measure every room, count the treads and the appliances, and hand you an itemized number in writing. Free estimates across King &amp; Snohomish County.</p>
     <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
-      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff;color:#5c0000;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> (425) 595-1079</a>
-      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.4);color:#fff;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none">Book My Free Consultation</a>
+      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff!important;color:#5c0000!important;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none!important"><span class="ocb-ic ocb-ic-phone"></span> (425) 595-1079</a>
+      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.16)!important;border:1px solid rgba(255,255,255,.55);color:#fff!important;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none!important">Book My Free Consultation</a>
     </div>
-    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.9)">
+    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.95)!important">
       <span>✓ Since 2013</span><span>✓ 1,000+ floors</span><span>✓ 1-yr workmanship warranty</span><span>✓ Licensed &amp; insured</span><span>✓ Financing available</span>
     </div>
-    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
+    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04!important;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
   </div>
-</section></div>
+</div></div>
 
 <p><strong>Related reading:</strong> <a href="/blog/stair-refinishing-cost-per-step">Stair refinishing cost per step</a> · <a href="/blog/hidden-costs-refinishing-quotes">The hidden costs in refinishing quotes</a> · <a href="/blog/refinish-hardwood-under-kitchen-cabinets">Refinishing under kitchen cabinets</a> · <a href="/city-of-kirkland/hardwood-floor-refinishing-in-kirkland-wa">Hardwood floor refinishing in Kirkland</a> · <a href="/contact">Book a free estimate</a></p>
 

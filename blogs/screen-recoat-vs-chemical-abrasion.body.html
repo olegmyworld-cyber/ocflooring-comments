@@ -35,29 +35,37 @@ html body .post-body .ocb-fact p, .ocb-fact p{margin:0!important;font-size:14.7p
 html.ocb-anim-ready .ocb-rv{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
 html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 @media (prefers-reduced-motion:reduce){html.ocb-anim-ready .ocb-rv{opacity:1!important;transform:none!important;transition:none!important}.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:none}}
+
+/* Chip icons. Webflow's rich-text sanitizer strips inline <svg> whenever a post is
+   re-saved in the Editor, so the icons are drawn from CSS on a <span> instead. */
+.ocb-ic{display:inline-block;width:15px;height:15px;flex:0 0 auto;vertical-align:-2px;background-repeat:no-repeat;background-position:center;background-size:contain}
+.ocb-ic-pin{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z'/><circle cx='12' cy='10' r='3'/></svg>')}
+.ocb-ic-home{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z'/><polyline points='9 22 9 12 15 12 15 22'/></svg>')}
+.ocb-ic-phone{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z'/></svg>')}
+.ocb-cta .ocb-ic{filter:brightness(0) saturate(100%) invert(9%) sepia(64%) saturate(4000%) hue-rotate(348deg)}
 </style></div>
 
-<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 -6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">December 23, 2026</span></div></div>
+<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">December 23, 2026</span></div></div>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
+<div data-rt-embed-type='true'><div class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
   <span class="ocb-eyebrow">Quick answer</span>
   <p style="margin:0;font-size:17.9px;line-height:1.65"><strong>A screen and recoat preps your old finish mechanically — a buffer and abrasive screen scuff the surface so a fresh coat bonds — while chemical abrasion systems do the same job with a deep clean and a bonding agent instead of scratches.</strong> For most site-finished floors, screening is simpler, cheaper, and proven; chemical systems earn their keep on factory-finished floors whose aluminum-oxide coatings are too hard for a screen to bite. Both refresh the finish only — neither fixes scratches through the color, gray wood, or dents. Here’s how we decide between them.</p>
   <div class="ocb-chips">
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg> King &amp; Snohomish County</span>
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg> Recoat prep methods</span>
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-pin"></span> King &amp; Snohomish County</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-home"></span> Recoat prep methods</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-phone"></span> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
   </div>
-</section></div>
+</div></div>
 
 <p>Every recoat — no matter whose truck is in the driveway — has to solve one problem: fresh polyurethane will not stick to old, cured polyurethane on its own. Cured finish is slick by design; that’s the point of it. So before the new coat goes down, the old surface has to be made grippy, and there are exactly two ways to do that. You can rough it up physically, which is the classic <a href="/blog/sand-and-refinish-vs-screen-and-recoat-which-is-right-for-your-hardwood-floors">screen and recoat</a>. Or you can treat it chemically with a cleaner-and-bonding-agent system — Basic Coatings’ TyKote is the best-known name — that lets the new coat grab on without abrasion.</p>
 
 <p>Our bias, stated up front: we’re a sanding company. We run buffers and Lägler machines every week, screening is our default prep, and it’s what our $1.99/sq ft recoat price is built on. But chemical systems exist because screens genuinely fail on certain floors, and pretending otherwise would be the kind of salesmanship we try not to do. Below is where each method wins, where both fail the same way, and the one test that matters more than either.</p>
 
-<div data-rt-embed-type='true'><section class="ocb"><div class="ocb-facts">
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-facts">
   <div class="ocb-fact"><span class="n">$1.99</span><p>per square foot for our screen and recoat — the maintenance move that keeps a floor from ever needing the $3.99/sq ft full resand. Either prep method lands in maintenance territory, not renovation territory.</p></div>
   <div class="ocb-fact"><span class="n">1 day</span><p>on site for a typical recoat, whichever prep is used. Compare that to 3–5 days for a full refinish — the whole appeal of recoating is that your week survives it.</p></div>
   <div class="ocb-fact"><span class="n">2–3 hrs</span><p>before a waterborne coat dries to the touch. Socks the same evening, furniture back at 48–72 hours, rugs after 7 days — the recoat rules don’t change with the prep method.</p></div>
-</div></section></div>
+</div></div></div>
 
 <h2>What Screening Actually Does</h2>
 
@@ -71,7 +79,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 
 <p>The honest appeal: no screening dust, no risk of a screen cutting through thin finish on edges, and — the big one — it works on coatings a screen can’t scratch. The honest cost: you’re trusting chemistry you can’t see. A screened floor shows you its prep; a chemically prepped floor looks shiny and clean right up until the topcoat either bonds or doesn’t. The systems work when the instructions are followed exactly — the cleaning step especially — and fail memorably when they aren’t.</p>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-card">
+<div data-rt-embed-type='true'><div class="ocb ocb-card">
   <h3 style="margin:0 0 10px;font-size:18.5px;font-weight:900;color:#5c0000">Screen and recoat vs chemical adhesion, side by side</h3>
   <div style="overflow-x:auto"><table class="ocb-table">
     <tr><th></th><th>Screen &amp; recoat</th><th>Chemical adhesion system</th></tr>
@@ -85,7 +93,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     <tr><td><strong>Time on site</strong></td><td>About 1 day</td><td>About 1 day, more of it spent cleaning</td></tr>
     <tr><td><strong>What it fixes</strong></td><td>Dullness and surface-level wear only</td><td>Dullness and surface-level wear only</td></tr>
   </table></div>
-</section></div>
+</div></div>
 
 <h2>Where Chemical Systems Genuinely Earn Their Keep</h2>
 
@@ -107,7 +115,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 
 <h2>The Decision, Compressed</h2>
 
-<div data-rt-embed-type='true'><section class="ocb"><div class="ocb-2col">
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-2col">
   <div class="ocb-card" style="margin:0">
     <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#5c0000">We screen when…</h3>
     <ul class="ocb-check">
@@ -128,7 +136,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
       <li>The system’s full cleaning protocol will actually be followed — no shortcuts</li>
     </ul>
   </div>
-</div></section></div>
+</div></div></div>
 
 <h2>Cost, Schedule, and What We Actually Do</h2>
 
@@ -137,7 +145,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 <p>Around Puget Sound this choice tracks housing stock almost perfectly. Older site-finished floors — the oak and fir we work on for <a href="/seattle/hardwood-floor-refinishing-in-seattle-wa">hardwood floor refinishing in Seattle</a> — are screen candidates nearly every time. The prefinished floors that came in with 2000s construction and remodels, common in newer builds we see around <a href="/city-of-sammamish/hardwood-floor-refinishing-in-sammamish-wa">Sammamish</a> and the Eastside, are where the chemical-system conversation starts. Either way the sequence is the same: we look at the floor, ask what’s been used on it, run the test patch, and then tell you which prep — or whether the honest answer is a resand.</p>
 
 <div data-rt-embed-type='true'><!-- FAQ accordion + JSON-LD -->
-<section class="faq-wrap ocb" aria-labelledby="faq-title">
+<div class="faq-wrap ocb" aria-labelledby="faq-title">
   <h2 id="faq-title" class="faq-title">Screen and Recoat vs Chemical Systems: What Homeowners Ask</h2>
   <div class="faq-items" role="list">
     <details class="faq-item" role="listitem"><summary class="faq-q">What is a screen and recoat, in plain terms?</summary><div class="faq-a">A buffer fitted with an abrasive screen scuffs the top of your existing finish with thousands of fine scratches, the dust gets vacuumed and tacked off, and a fresh coat of finish goes over it. The scratches are what the new coat bonds to. It takes about a day and costs $1.99 per square foot with our waterborne systems.</div></details>
@@ -150,7 +158,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     <details class="faq-item" role="listitem"><summary class="faq-q">How often should a floor be recoated?</summary><div class="faq-a">When the finish looks dull in traffic lanes but no wear spots have broken through to wood — for busy households that’s roughly every 3 to 7 years. Recoat on that schedule and the floor may never need a full resand; wait until wood shows and the recoat window has closed.</div></details>
     <details class="faq-item" role="listitem"><summary class="faq-q">Do you use chemical systems yourselves?</summary><div class="faq-a">When the floor calls for it, yes. Our default is mechanical screening because most floors we recoat were finished on site, but for sound factory-finished floors a properly executed chemical adhesion system is the right tool, and we’d rather use it than screen a floor we know the screen can’t prep.</div></details>
   </div>
-</section>
+</div>
 
 <style>
   .faq-wrap{--line:#e5e7eb;margin:28px auto;padding:20px;border:1px solid var(--line);border-radius:16px;background:#fff;box-shadow:0 8px 30px rgba(2,6,23,.06)}
@@ -167,7 +175,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What is a screen and recoat, in plain terms?", "acceptedAnswer": {"@type": "Answer", "text": "A buffer fitted with an abrasive screen scuffs the top of your existing finish with thousands of fine scratches, the dust gets vacuumed and tacked off, and a fresh coat of finish goes over it. The scratches are what the new coat bonds to. It takes about a day and costs $1.99 per square foot with our waterborne systems."}}, {"@type": "Question", "name": "What is a chemical abrasion or chemical adhesion system?", "acceptedAnswer": {"@type": "Answer", "text": "It’s a two-part product — an aggressive prep cleaner followed by a bonding agent — that lets new finish stick to old finish without any sanding or screening. Basic Coatings’ TyKote is the best-known example. Despite the name, nothing is abraded; it works like a primer between the old coat and the new one."}}, {"@type": "Question", "name": "Which one is better?", "acceptedAnswer": {"@type": "Answer", "text": "For site-finished floors, screening: it’s cheaper, the prep is visible, and it lightly cuts away surface wear at the same time. For factory-finished floors with aluminum-oxide coatings and beveled edges, chemical systems are genuinely better, because a screen can’t scratch the coating evenly or reach into the bevels."}}, {"@type": "Question", "name": "Why can’t you just screen a prefinished floor?", "acceptedAnswer": {"@type": "Answer", "text": "Two reasons. Aluminum-oxide factory coatings are hard enough that a screen slides over them without cutting a proper scratch pattern, so the new coat has little to grip. And the beveled grooves between boards sit below the flat screen, so they get no prep at all — every groove becomes a future peel line."}}, {"@type": "Question", "name": "Will either method remove scratches from my floor?", "acceptedAnswer": {"@type": "Answer", "text": "Only marks that live in the finish itself. Scratches that reach the wood, dents, gray oxidized boards, and sun fading all remain — a recoat seals them under new finish rather than removing them. Damage with depth or color change needs a full sand and refinish."}}, {"@type": "Question", "name": "What makes a recoat fail and peel?", "acceptedAnswer": {"@type": "Answer", "text": "Contamination, overwhelmingly. Polish, wax, oil soaps, and silicone furniture sprays leave films that neither screens nor bonding agents reliably overcome, and the new coat peels wherever the film blocked the bond. This is why we do a small adhesion test patch before committing to any recoat, whatever the prep method."}}, {"@type": "Question", "name": "How long does a recoat take, and when is the floor usable?", "acceptedAnswer": {"@type": "Answer", "text": "One day on site for most homes. With the waterborne finishes we use you can walk in socks the same evening, put furniture back at 48 to 72 hours, and lay rugs after about 7 days when the finish reaches full cure."}}, {"@type": "Question", "name": "How often should a floor be recoated?", "acceptedAnswer": {"@type": "Answer", "text": "When the finish looks dull in traffic lanes but no wear spots have broken through to wood — for busy households that’s roughly every 3 to 7 years. Recoat on that schedule and the floor may never need a full resand; wait until wood shows and the recoat window has closed."}}, {"@type": "Question", "name": "Do you use chemical systems yourselves?", "acceptedAnswer": {"@type": "Answer", "text": "When the floor calls for it, yes. Our default is mechanical screening because most floors we recoat were finished on site, but for sound factory-finished floors a properly executed chemical adhesion system is the right tool, and we’d rather use it than screen a floor we know the screen can’t prep."}}]}
 </script></div>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-cta" style="margin:30px 0">
+<div data-rt-embed-type='true'><div class="ocb ocb-cta" style="margin:30px 0">
   <style>
     html body .post-body .ocb-cta h2, .ocb-cta h2{color:#fff!important}
     html body .post-body .ocb-cta .ocb-cta-sub, .ocb-cta .ocb-cta-sub{color:rgba(255,255,255,.88)!important}
@@ -177,18 +185,18 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     html body .post-body .ocb-cta a.ocb-cta-phone, .ocb-cta a.ocb-cta-phone{color:#5c0000!important;text-decoration:none!important}
   </style>
   <div style="background:linear-gradient(135deg,#8B0000,#5c0000);border-radius:20px;padding:28px 24px;color:#fff;text-align:center;box-shadow:0 14px 34px rgba(92,0,0,.3)">
-    <h2 style="margin:0 0 6px;color:#fff;font-size:24px;font-weight:900">Not Sure Which Prep Your Floor Needs?</h2>
-    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.85);font-size:16.3px">We’ll look at the finish, ask about its cleaning history, and run a real adhesion test before anyone quotes anything. Free estimates across King &amp; Snohomish County — and if the honest answer is a full refinish, we’ll say so.</p>
+    <h2 style="margin:0 0 6px;color:#fff!important;font-size:24px;font-weight:900">Not Sure Which Prep Your Floor Needs?</h2>
+    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.92)!important;font-size:16.3px">We’ll look at the finish, ask about its cleaning history, and run a real adhesion test before anyone quotes anything. Free estimates across King &amp; Snohomish County — and if the honest answer is a full refinish, we’ll say so.</p>
     <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
-      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff;color:#5c0000;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> (425) 595-1079</a>
-      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.4);color:#fff;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none">Book My Free Consultation</a>
+      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff!important;color:#5c0000!important;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none!important"><span class="ocb-ic ocb-ic-phone"></span> (425) 595-1079</a>
+      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.16)!important;border:1px solid rgba(255,255,255,.55);color:#fff!important;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none!important">Book My Free Consultation</a>
     </div>
-    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.9)">
+    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.95)!important">
       <span>✓ Since 2013</span><span>✓ 1,000+ floors</span><span>✓ 1-yr workmanship warranty</span><span>✓ Licensed &amp; insured</span><span>✓ Financing available</span>
     </div>
-    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
+    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04!important;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
   </div>
-</section></div>
+</div></div>
 
 <p><strong>Related reading:</strong> <a href="/blog/sand-and-refinish-vs-screen-and-recoat-which-is-right-for-your-hardwood-floors">Sand and refinish vs screen and recoat</a> · <a href="/blog/buff-and-coat-vs-full-sand-refinishing">Buff and coat vs full sand</a> · <a href="/blog/can-i-refinish-pre-finished-hardwood-floors">Refinishing prefinished hardwood</a> · <a href="/seattle/hardwood-floor-refinishing-in-seattle-wa">Hardwood floor refinishing in Seattle</a> · <a href="/contact">Book a free estimate</a></p>
 

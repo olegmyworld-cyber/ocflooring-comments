@@ -35,29 +35,37 @@ html body .post-body .ocb-fact p, .ocb-fact p{margin:0!important;font-size:14.7p
 html.ocb-anim-ready .ocb-rv{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
 html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 @media (prefers-reduced-motion:reduce){html.ocb-anim-ready .ocb-rv{opacity:1!important;transform:none!important;transition:none!important}.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:none}}
+
+/* Chip icons. Webflow's rich-text sanitizer strips inline <svg> whenever a post is
+   re-saved in the Editor, so the icons are drawn from CSS on a <span> instead. */
+.ocb-ic{display:inline-block;width:15px;height:15px;flex:0 0 auto;vertical-align:-2px;background-repeat:no-repeat;background-position:center;background-size:contain}
+.ocb-ic-pin{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z'/><circle cx='12' cy='10' r='3'/></svg>')}
+.ocb-ic-home{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z'/><polyline points='9 22 9 12 15 12 15 22'/></svg>')}
+.ocb-ic-phone{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z'/></svg>')}
+.ocb-cta .ocb-ic{filter:brightness(0) saturate(100%) invert(9%) sepia(64%) saturate(4000%) hue-rotate(348deg)}
 </style></div>
 
-<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 -6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">April 12, 2027</span></div></div>
+<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">April 12, 2027</span></div></div>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
+<div data-rt-embed-type='true'><div class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
   <span class="ocb-eyebrow">Quick answer</span>
   <p style="margin:0;font-size:17.9px;line-height:1.65"><strong>A rental drum sander can absolutely refinish a floor — the problem is that it can also ruin one in about ten seconds, and the damage is permanent because the only fix is removing more wood. The three failures we get called to correct, in order: gouges and chatter from the drum, a visible halo where the edger met the field, and a finish that dried faster than the person applying it could keep a wet edge.</strong> On an 800 sq ft floor in Everett, our full sand and natural finish is $3,192 at $3.99/sq ft. DIY saves real money on a floor you get right, and costs more than the original quote on a floor you don’t.</p>
   <div class="ocb-chips">
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg> King &amp; Snohomish County</span>
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg> Everett DIY vs pro</span>
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-pin"></span> King &amp; Snohomish County</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-home"></span> Everett DIY vs pro</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-phone"></span> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
   </div>
-</section></div>
+</div></div>
 
 <p>Let’s put the bias on the table first: we sell the professional version of this job, so of course we think you should hire someone. That’s exactly why this post isn’t going to tell you refinishing is impossible for a competent person with a weekend. It isn’t. People do it, some do it well, and we’ve walked into houses where the owner’s DIY floor looked genuinely good and we said so.</p>
 
 <p>What we can offer that’s actually useful is the failure catalogue — the specific things that go wrong, why they go wrong mechanically, and what each one costs to fix. Because the asymmetry here is the whole story: the upside of DIY is saving a couple thousand dollars, and the downside is a floor that now needs more wood removed than it would have, by someone who charges to do it. Knowing which side of that line your project sits on is the decision.</p>
 
-<div data-rt-embed-type='true'><section class="ocb"><div class="ocb-facts">
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-facts">
   <div class="ocb-fact"><span class="n">$3,192</span><p>our full sand and natural waterborne finish on 800 sq ft at $3.99/sq ft. That’s the number DIY is competing with — and a screen &amp; recoat on the same floor is $1,592 at $1.99, which is often the honest alternative nobody considered.</p></div>
   <div class="ocb-fact"><span class="n">~1 mm</span><p>roughly what a full professional sand removes. A drum sander parked in one spot for a few seconds can take several times that in a single divot, and no finish hides a low spot.</p></div>
   <div class="ocb-fact"><span class="n">2–3 coats</span><p>of a commercial waterborne system with abrasion between them, 2–3 hours apart. Consumer-grade poly at $40–60 a gallon behaves differently from premium waterborne at $100+, and the application windows are unforgiving either way.</p></div>
-</div></section></div>
+</div></div></div>
 
 <h2>Where DIY Genuinely Works</h2>
 
@@ -75,7 +83,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 
 <p>The third one is <strong>grit sequence</strong>. Jumping from a coarse grit straight to a fine one leaves the coarse scratch pattern in the wood; the floor feels smooth and looks fine bare, then the finish — and especially any stain — reveals every one of those scratches like a photograph developing. There’s no fixing that except starting over.</p>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-card">
+<div data-rt-embed-type='true'><div class="ocb ocb-card">
   <h3 style="margin:0 0 10px;font-size:18.5px;font-weight:900;color:#5c0000">What goes wrong, why, and what it costs</h3>
   <div style="overflow-x:auto"><table class="ocb-table">
     <tr><th>The problem</th><th>What causes it</th><th>What it takes to fix</th></tr>
@@ -88,7 +96,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     <tr><td><strong>Peeling between coats</strong></td><td>Recoat window missed with no abrasion</td><td>Sand off the failed coats and start the finish over</td></tr>
     <tr><td><strong>Blotchy stain</strong></td><td>Uneven sanding depth or no water popping</td><td>Full re-sand; stain can’t be corrected on the surface</td></tr>
   </table></div>
-</section></div>
+</div></div>
 
 <h2>The Edge Problem Nobody Warns You About</h2>
 
@@ -118,7 +126,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 
 <p>Also worth knowing: on top of dust, an oil-based finish puts 450–550 g/L of solvent into your house for days. Waterborne at around 65 g/L is what makes staying home during the work reasonable — and it’s another place where the pro spec and the rental-counter spec diverge.</p>
 
-<div data-rt-embed-type='true'><section class="ocb"><div class="ocb-2col">
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-2col">
   <div class="ocb-card" style="margin:0">
     <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#5c0000">DIY is reasonable when…</h3>
     <ul class="ocb-check">
@@ -139,7 +147,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
       <li>Somebody in the house has asthma, or the house can’t be emptied</li>
     </ul>
   </div>
-</div></section></div>
+</div></div></div>
 
 <h2>Everett Floors and the Rental-Sander Call</h2>
 
@@ -150,7 +158,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 <p>Where a DIY job has already gone sideways, the honest news is that most floors are recoverable — it just costs more than the original quote would have, because we have to sand to the depth of the worst damage rather than to the depth the floor needed. That’s the actual downside risk of the rental sander, and it’s the number worth putting next to the savings before the weekend starts. We’ll look at it either way: <a href="/city-of-everett/hardwood-floor-refinishing-in-everett-wa">hardwood floor refinishing in Everett</a> is a big part of what we do, and we’ll tell you honestly if we think your back bedroom is a fine place to learn.</p>
 
 <div data-rt-embed-type='true'><!-- FAQ accordion + JSON-LD -->
-<section class="faq-wrap ocb" aria-labelledby="faq-title">
+<div class="faq-wrap ocb" aria-labelledby="faq-title">
   <h2 id="faq-title" class="faq-title">Rental Sander vs Pro Refinishing: What Everett Homeowners Ask</h2>
   <div class="faq-items" role="list">
     <details class="faq-item" role="listitem"><summary class="faq-q">Can I really refinish my own floors?</summary><div class="faq-a">Yes, in the right situation — a small isolated room, a rental floor, a natural finish with no stain, and ideally some prior experience on a machine. The difficulty isn't that any single step is impossible; it's that several steps are unforgiving and the mistakes are permanent, because correcting them means removing more wood.</div></details>
@@ -162,7 +170,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     <details class="faq-item" role="listitem"><summary class="faq-q">Is there a real safety risk?</summary><div class="faq-a">One that matters: rags soaked in oil-based stain or oil-modified finish can self-ignite as they oxidize, and piles of them in a can have started house fires. Spread them flat outdoors to dry fully, or submerge them in water in a sealed metal container. Oil-based products also put 450 to 550 g/L of solvent into the house for days.</div></details>
     <details class="faq-item" role="listitem"><summary class="faq-q">Can you fix a floor a DIY job went wrong on?</summary><div class="faq-a">Almost always, yes. The catch is that we have to sand to the depth of the worst damage rather than the depth the floor actually needed, so it costs more than the original job would have and spends more of the floor's remaining thickness. We'll measure and tell you what's left before quoting anything.</div></details>
   </div>
-</section>
+</div>
 
 <style>
   .faq-wrap{--line:#e5e7eb;margin:28px auto;padding:20px;border:1px solid var(--line);border-radius:16px;background:#fff;box-shadow:0 8px 30px rgba(2,6,23,.06)}
@@ -179,7 +187,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Can I really refinish my own floors?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, in the right situation — a small isolated room, a rental floor, a natural finish with no stain, and ideally some prior experience on a machine. The difficulty isn't that any single step is impossible; it's that several steps are unforgiving and the mistakes are permanent, because correcting them means removing more wood."}}, {"@type": "Question", "name": "How much does DIY actually save?", "acceptedAnswer": {"@type": "Answer", "text": "Less than people expect once abrasives, finish, applicators, plastic, tape, and machine rental are counted, and the labor is a long weekend of genuinely hard work. On an 800 square foot floor our full sand and natural finish is $3,192 at $3.99 per square foot, so the realistic saving is a couple of thousand dollars against a permanent risk to the floor."}}, {"@type": "Question", "name": "What's the single most common DIY mistake?", "acceptedAnswer": {"@type": "Answer", "text": "Stopping the drum sander while the drum is down. The machine cuts hardest when stationary, so a few seconds in one place leaves a shallow bowl. The only correction is sanding the entire floor to the depth of the deepest divot, which costs wood the floor may not have to spare."}}, {"@type": "Question", "name": "Why do DIY floors have a visible band around the edges?", "acceptedAnswer": {"@type": "Answer", "text": "Because the drum sander cuts in straight lines and the edger cuts in circles, leaving two different scratch patterns that reflect light differently. Blending that transition — by hand, or with a multi-disc machine like the Lägler TRIO — is a separate step that's easy to skip at the end of a long day."}}, {"@type": "Question", "name": "Is staining harder than a natural finish?", "acceptedAnswer": {"@type": "Answer", "text": "Considerably, because stain reveals every inconsistency in the sanding. A scratch pattern or a soft spot that's invisible on bare wood shows as a dark streak once color goes on, and there's no surface correction — the floor has to be sanded again. If you're set on DIY, natural is the forgiving choice."}}, {"@type": "Question", "name": "What about the dust?", "acceptedAnswer": {"@type": "Answer", "text": "Rental machines use dust bags; professional setups run continuous vacuum extraction to a large-capacity unit, which is a different order of containment. Plan for fine dust on every surface in the house, seal doorways, cover HVAC returns, and expect to clean more than once."}}, {"@type": "Question", "name": "Is there a real safety risk?", "acceptedAnswer": {"@type": "Answer", "text": "One that matters: rags soaked in oil-based stain or oil-modified finish can self-ignite as they oxidize, and piles of them in a can have started house fires. Spread them flat outdoors to dry fully, or submerge them in water in a sealed metal container. Oil-based products also put 450 to 550 g/L of solvent into the house for days."}}, {"@type": "Question", "name": "Can you fix a floor a DIY job went wrong on?", "acceptedAnswer": {"@type": "Answer", "text": "Almost always, yes. The catch is that we have to sand to the depth of the worst damage rather than the depth the floor actually needed, so it costs more than the original job would have and spends more of the floor's remaining thickness. We'll measure and tell you what's left before quoting anything."}}]}
 </script></div>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-cta" style="margin:30px 0">
+<div data-rt-embed-type='true'><div class="ocb ocb-cta" style="margin:30px 0">
   <style>
     html body .post-body .ocb-cta h2, .ocb-cta h2{color:#fff!important}
     html body .post-body .ocb-cta .ocb-cta-sub, .ocb-cta .ocb-cta-sub{color:rgba(255,255,255,.88)!important}
@@ -189,18 +197,18 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     html body .post-body .ocb-cta a.ocb-cta-phone, .ocb-cta a.ocb-cta-phone{color:#5c0000!important;text-decoration:none!important}
   </style>
   <div style="background:linear-gradient(135deg,#8B0000,#5c0000);border-radius:20px;padding:28px 24px;color:#fff;text-align:center;box-shadow:0 14px 34px rgba(92,0,0,.3)">
-    <h2 style="margin:0 0 6px;color:#fff;font-size:24px;font-weight:900">Weekend Job, or a Job for Us?</h2>
-    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.85);font-size:16.3px">We’ll look at the floor, tell you honestly how much thickness is left, and price both the full sand and the cheaper recoat. Free in-home estimates across Everett and all of King &amp; Snohomish County.</p>
+    <h2 style="margin:0 0 6px;color:#fff!important;font-size:24px;font-weight:900">Weekend Job, or a Job for Us?</h2>
+    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.92)!important;font-size:16.3px">We’ll look at the floor, tell you honestly how much thickness is left, and price both the full sand and the cheaper recoat. Free in-home estimates across Everett and all of King &amp; Snohomish County.</p>
     <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
-      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff;color:#5c0000;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> (425) 595-1079</a>
-      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.4);color:#fff;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none">Book My Free Consultation</a>
+      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff!important;color:#5c0000!important;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none!important"><span class="ocb-ic ocb-ic-phone"></span> (425) 595-1079</a>
+      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.16)!important;border:1px solid rgba(255,255,255,.55);color:#fff!important;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none!important">Book My Free Consultation</a>
     </div>
-    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.9)">
+    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.95)!important">
       <span>✓ Since 2013</span><span>✓ 1,000+ floors</span><span>✓ 1-yr workmanship warranty</span><span>✓ Licensed &amp; insured</span><span>✓ Financing available</span>
     </div>
-    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
+    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04!important;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
   </div>
-</section></div>
+</div></div>
 
 <p><strong>Related reading:</strong> <a href="/blog/why-wood-floor-refinishing-is-not-a-diy-project">Why refinishing isn’t a DIY project</a> · <a href="/blog/drum-belt-orbital-sander-comparison">Drum vs belt vs orbital sanders</a> · <a href="/blog/buff-and-coat-vs-full-sand-refinishing">Buff and coat vs full sand</a> · <a href="/city-of-everett/hardwood-floor-refinishing-in-everett-wa">Hardwood floor refinishing in Everett</a> · <a href="/contact">Book a free estimate</a></p>
 

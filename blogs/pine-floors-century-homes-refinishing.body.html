@@ -35,29 +35,37 @@ html body .post-body .ocb-fact p, .ocb-fact p{margin:0!important;font-size:14.7p
 html.ocb-anim-ready .ocb-rv{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
 html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 @media (prefers-reduced-motion:reduce){html.ocb-anim-ready .ocb-rv{opacity:1!important;transform:none!important;transition:none!important}.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:none}}
+
+/* Chip icons. Webflow's rich-text sanitizer strips inline <svg> whenever a post is
+   re-saved in the Editor, so the icons are drawn from CSS on a <span> instead. */
+.ocb-ic{display:inline-block;width:15px;height:15px;flex:0 0 auto;vertical-align:-2px;background-repeat:no-repeat;background-position:center;background-size:contain}
+.ocb-ic-pin{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z'/><circle cx='12' cy='10' r='3'/></svg>')}
+.ocb-ic-home{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z'/><polyline points='9 22 9 12 15 12 15 22'/></svg>')}
+.ocb-ic-phone{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z'/></svg>')}
+.ocb-cta .ocb-ic{filter:brightness(0) saturate(100%) invert(9%) sepia(64%) saturate(4000%) hue-rotate(348deg)}
 </style></div>
 
-<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 -6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">December 25, 2026</span></div></div>
+<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">December 25, 2026</span></div></div>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
+<div data-rt-embed-type='true'><div class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
   <span class="ocb-eyebrow">Quick answer</span>
   <p style="margin:0;font-size:17.9px;line-height:1.65"><strong>Yes — the pine floors in Seattle’s century-old homes can absolutely be refinished, but softwood plays by different rules than oak: it sands fast, dents easily, drinks stain unevenly, and rewards a light touch over an aggressive one.</strong> Done right, a refinished pine or fir floor is one of the best-looking surfaces in the city — warm, wide-boarded, and full of a hundred years of character no new floor can fake. Done like oak, it gets chewed up. Here’s what refinishing softwood actually involves.</p>
   <div class="ocb-chips">
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg> King &amp; Snohomish County</span>
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg> Seattle century homes</span>
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-pin"></span> King &amp; Snohomish County</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-home"></span> Seattle century homes</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-phone"></span> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
   </div>
-</section></div>
+</div></div>
 
 <p>Walk into a Seattle house built before 1930 and pull back the carpet, and the odds are good you won’t find oak. You’ll find softwood — Douglas fir most often, true pine in plenty of bedrooms and upper floors — laid when those trees came out of forests a streetcar ride away. These floors were never meant to be precious. They were the working surface of the house, and a century later they’re often still there, scarred, painted around the edges, and completely restorable.</p>
 
 <p>We refinish softwood floors across Seattle every year, and the honest first thing to say is that they are not oak, and treating them like oak is how they get ruined. A softwood refinish is a different job with different machines settings, different finish choices, and — this matters most — different expectations. This guide covers all three, plus how to tell what species you’re actually standing on.</p>
 
-<div data-rt-embed-type='true'><section class="ocb"><div class="ocb-facts">
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-facts">
   <div class="ocb-fact"><span class="n">660</span><p>Janka hardness of Douglas fir, against 1290 for red oak. Most true pines score softer still. That gap is why softwood sands in a fraction of the passes — and why a dropped pan leaves a mark oak would shrug off.</p></div>
   <div class="ocb-fact"><span class="n">$3.99</span><p>per square foot for a full sand and natural finish — the finish route we recommend for nearly every softwood floor, because stain and softwood are a famously blotchy combination.</p></div>
   <div class="ocb-fact"><span class="n">3–5 days</span><p>for a typical century-home refinish, including repairs. Old softwood floors usually need patching, nail-setting, and gap work before the first sanding pass, so they sit at the longer end.</p></div>
-</div></section></div>
+</div></div></div>
 
 <h2>Is It Pine, or Is It Fir? (And Does It Matter?)</h2>
 
@@ -77,7 +85,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 
 <p>What you get in exchange is character that hardwood can’t match: boards wider than anything modern, color that glows instead of sitting flat, and a patina argument in your favor — on a softwood floor, the dents read as history rather than damage, and they accumulate into a surface that looks better at year ten than year one. Most of our century-home clients sand out the worst damage, keep the deepest marks, and choose finish that lets the wood look its age. The homes wear it well.</p>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-card">
+<div data-rt-embed-type='true'><div class="ocb ocb-card">
   <h3 style="margin:0 0 10px;font-size:18.5px;font-weight:900;color:#5c0000">Softwood vs oak: what changes at refinishing time</h3>
   <div style="overflow-x:auto"><table class="ocb-table">
     <tr><th></th><th>Pine / fir (century homes)</th><th>Red oak (postwar homes)</th></tr>
@@ -89,7 +97,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     <tr><td><strong>Typical prep work</strong></td><td>Nail setting, patches, gap decisions</td><td>Light</td></tr>
     <tr><td><strong>Character ceiling</strong></td><td>Old-growth grain, wide boards, glow</td><td>Clean, uniform, classic</td></tr>
   </table></div>
-</section></div>
+</div></div>
 
 <h2>Stain, Color, and the Finish Choice</h2>
 
@@ -110,7 +118,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 <p>We’ve been doing <a href="/seattle/hardwood-floor-refinishing-in-seattle-wa">hardwood floor refinishing in Seattle</a> since 2013 — over 1,000 floors across King and Snohomish County — and century softwood is a steady share of that work. If your house is in that pre-war stock, assume the floor under your carpet is worth a look before you assume it’s worth replacing.</p>
 
 <div data-rt-embed-type='true'><!-- FAQ accordion + JSON-LD -->
-<section class="faq-wrap ocb" aria-labelledby="faq-title">
+<div class="faq-wrap ocb" aria-labelledby="faq-title">
   <h2 id="faq-title" class="faq-title">Refinishing Pine and Softwood Floors: What Seattle Homeowners Ask</h2>
   <div class="faq-items" role="list">
     <details class="faq-item" role="listitem"><summary class="faq-q">Can hundred-year-old pine floors really be refinished?</summary><div class="faq-a">Usually, yes. The limiting factor is remaining wood thickness after past sandings, which we check at vents and closets before quoting. Most century softwood floors have at least one more full refinish in them, and floors too thin for sanding can often still be recoated.</div></details>
@@ -123,7 +131,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     <details class="faq-item" role="listitem"><summary class="faq-q">What does it cost?</summary><div class="faq-a">Our full sand with natural finish runs $3.99 per square foot, with a 500 sq ft job minimum. Century homes sometimes add repair time for patches and nail work, which is why we quote softwood floors in person rather than over the phone.</div></details>
     <details class="faq-item" role="listitem"><summary class="faq-q">The boards have gaps — is that a problem?</summary><div class="faq-a">Seasonal gaps are normal in old softwood and mostly a cosmetic call. Filling wide gaps in a floor that still moves with the seasons tends to fail, so we usually leave honest gaps alone and fill only where boards are stable. We’ll walk you through the trade-offs on site.</div></details>
   </div>
-</section>
+</div>
 
 <style>
   .faq-wrap{--line:#e5e7eb;margin:28px auto;padding:20px;border:1px solid var(--line);border-radius:16px;background:#fff;box-shadow:0 8px 30px rgba(2,6,23,.06)}
@@ -140,7 +148,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Can hundred-year-old pine floors really be refinished?", "acceptedAnswer": {"@type": "Answer", "text": "Usually, yes. The limiting factor is remaining wood thickness after past sandings, which we check at vents and closets before quoting. Most century softwood floors have at least one more full refinish in them, and floors too thin for sanding can often still be recoated."}}, {"@type": "Question", "name": "How do I know if my floor is pine or Douglas fir?", "acceptedAnswer": {"@type": "Answer", "text": "Fir shows tight, straight, closely spaced grain lines in amber and orange tones; pine has broader, swirlier grain, round knots, and a yellower color. In Seattle’s pre-war homes fir is the more common answer. Refinishing technique is nearly identical either way."}}, {"@type": "Question", "name": "Will refinishing get all the dents and marks out?", "acceptedAnswer": {"@type": "Answer", "text": "Not all, and on a century floor you may not want it to. Sanding removes surface damage, but chasing every deep dent means removing extra irreplaceable wood. Most clients sand out the worst, keep the deepest character marks, and end up glad they did."}}, {"@type": "Question", "name": "Can you stain pine or fir a darker color?", "acceptedAnswer": {"@type": "Answer", "text": "It’s possible but risky — softwood absorbs stain unevenly and tends to blotch, even with conditioners. We recommend a natural finish on nearly every softwood floor. If you want a dramatically darker floor, it’s worth reading about stain behavior before committing."}}, {"@type": "Question", "name": "What finish is best on softwood?", "acceptedAnswer": {"@type": "Answer", "text": "A clear commercial waterborne — we use Bona and Pallmann systems, two to three coats. Waterborne keeps softwood’s warm color from tipping into orange, which is what ambering oil-based polyurethane does to fir and pine within a few years."}}, {"@type": "Question", "name": "Will the new finish stop the floor from denting?", "acceptedAnswer": {"@type": "Answer", "text": "No. Finish protects against abrasion and moisture, not compression — dents come from the wood itself, and fir at 660 Janka will always dent more easily than oak at 1290. Felt pads, rugs in work zones, and realistic expectations are the actual protection plan."}}, {"@type": "Question", "name": "How long does a century-home softwood refinish take?", "acceptedAnswer": {"@type": "Answer", "text": "Typically 3 to 5 days: a day of prep and repairs — setting old face nails, patching boards, addressing gaps — then sanding, then two to three coats of finish. You can walk on waterborne finish in socks the same evening it goes down, with furniture back at 48 to 72 hours."}}, {"@type": "Question", "name": "What does it cost?", "acceptedAnswer": {"@type": "Answer", "text": "Our full sand with natural finish runs $3.99 per square foot, with a 500 sq ft job minimum. Century homes sometimes add repair time for patches and nail work, which is why we quote softwood floors in person rather than over the phone."}}, {"@type": "Question", "name": "The boards have gaps — is that a problem?", "acceptedAnswer": {"@type": "Answer", "text": "Seasonal gaps are normal in old softwood and mostly a cosmetic call. Filling wide gaps in a floor that still moves with the seasons tends to fail, so we usually leave honest gaps alone and fill only where boards are stable. We’ll walk you through the trade-offs on site."}}]}
 </script></div>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-cta" style="margin:30px 0">
+<div data-rt-embed-type='true'><div class="ocb ocb-cta" style="margin:30px 0">
   <style>
     html body .post-body .ocb-cta h2, .ocb-cta h2{color:#fff!important}
     html body .post-body .ocb-cta .ocb-cta-sub, .ocb-cta .ocb-cta-sub{color:rgba(255,255,255,.88)!important}
@@ -150,18 +158,18 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     html body .post-body .ocb-cta a.ocb-cta-phone, .ocb-cta a.ocb-cta-phone{color:#5c0000!important;text-decoration:none!important}
   </style>
   <div style="background:linear-gradient(135deg,#8B0000,#5c0000);border-radius:20px;padding:28px 24px;color:#fff;text-align:center;box-shadow:0 14px 34px rgba(92,0,0,.3)">
-    <h2 style="margin:0 0 6px;color:#fff;font-size:24px;font-weight:900">Century Floor Under That Carpet?</h2>
-    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.85);font-size:16.3px">Send us a photo or book a free in-home look. We’ll tell you the species, check the remaining thickness, and give you a straight answer on whether it’s worth refinishing — with pricing in writing.</p>
+    <h2 style="margin:0 0 6px;color:#fff!important;font-size:24px;font-weight:900">Century Floor Under That Carpet?</h2>
+    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.92)!important;font-size:16.3px">Send us a photo or book a free in-home look. We’ll tell you the species, check the remaining thickness, and give you a straight answer on whether it’s worth refinishing — with pricing in writing.</p>
     <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
-      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff;color:#5c0000;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> (425) 595-1079</a>
-      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.4);color:#fff;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none">Book My Free Consultation</a>
+      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff!important;color:#5c0000!important;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none!important"><span class="ocb-ic ocb-ic-phone"></span> (425) 595-1079</a>
+      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.16)!important;border:1px solid rgba(255,255,255,.55);color:#fff!important;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none!important">Book My Free Consultation</a>
     </div>
-    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.9)">
+    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.95)!important">
       <span>✓ Since 2013</span><span>✓ 1,000+ floors</span><span>✓ 1-yr workmanship warranty</span><span>✓ Licensed &amp; insured</span><span>✓ Financing available</span>
     </div>
-    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
+    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04!important;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
   </div>
-</section></div>
+</div></div>
 
 <p><strong>Related reading:</strong> <a href="/blog/refinishing-fir-floors-old-seattle-homes">Refinishing old Seattle fir floors</a> · <a href="/blog/refinishing-floors-1920s-seattle-bungalow">Refinishing a 1920s Seattle bungalow</a> · <a href="/blog/douglas-fir-vs-oak-craftsman-home">Douglas fir vs oak in a Craftsman</a> · <a href="/seattle/hardwood-floor-refinishing-in-seattle-wa">Hardwood floor refinishing in Seattle</a> · <a href="/contact">Book a free estimate</a></p>
 

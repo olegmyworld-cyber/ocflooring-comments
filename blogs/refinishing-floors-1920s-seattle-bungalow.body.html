@@ -35,29 +35,37 @@ html body .post-body .ocb-fact p, .ocb-fact p{margin:0!important;font-size:14.7p
 html.ocb-anim-ready .ocb-rv{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
 html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 @media (prefers-reduced-motion:reduce){html.ocb-anim-ready .ocb-rv{opacity:1!important;transform:none!important;transition:none!important}.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:none}}
+
+/* Chip icons. Webflow's rich-text sanitizer strips inline <svg> whenever a post is
+   re-saved in the Editor, so the icons are drawn from CSS on a <span> instead. */
+.ocb-ic{display:inline-block;width:15px;height:15px;flex:0 0 auto;vertical-align:-2px;background-repeat:no-repeat;background-position:center;background-size:contain}
+.ocb-ic-pin{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z'/><circle cx='12' cy='10' r='3'/></svg>')}
+.ocb-ic-home{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z'/><polyline points='9 22 9 12 15 12 15 22'/></svg>')}
+.ocb-ic-phone{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z'/></svg>')}
+.ocb-cta .ocb-ic{filter:brightness(0) saturate(100%) invert(9%) sepia(64%) saturate(4000%) hue-rotate(348deg)}
 </style></div>
 
-<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 -6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">September 21, 2026</span></div></div>
+<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">September 21, 2026</span></div></div>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
+<div data-rt-embed-type='true'><div class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
   <span class="ocb-eyebrow">Quick answer</span>
   <p style="margin:0;font-size:17.9px;line-height:1.65"><strong>Yes — the floors in most 1920s Seattle bungalows can be refinished, and they’re usually worth saving: tight-grained old-growth fir and oak that no lumberyard sells anymore.</strong> The real questions are thickness (a century of sandings may have used up some of the wood), what’s hiding under the carpet or paint, and choosing a finish that doesn’t turn hundred-year-old fir orange. Here’s how we approach these houses, from Wallingford to Columbia City.</p>
   <div class="ocb-chips">
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg> King &amp; Snohomish County</span>
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg> Seattle bungalows</span>
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-pin"></span> King &amp; Snohomish County</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-home"></span> Seattle bungalows</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-phone"></span> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
   </div>
-</section></div>
+</div></div>
 
 <p>Seattle built thousands of Craftsman bungalows in the 1910s and ’20s — Wallingford, Ballard, Ravenna, Phinney Ridge, West Seattle, Columbia City — and a remarkable number still have their original floors. Some are hiding under 1970s carpet. Some are on their fourth coat of somebody’s weekend polyurethane. Some are proudly worn bare in the traffic paths. We’ve refinished floors in these houses for over a decade, and they’re our favorite calls: more problems per square foot than any new build, and a better floor waiting at the end of it.</p>
 
 <p>This is the honest walkthrough of what’s under your feet in a 1920s bungalow, what a century does to a floor, and what refinishing one actually involves — including the one measurement that decides everything.</p>
 
-<div data-rt-embed-type='true'><section class="ocb"><div class="ocb-facts">
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-facts">
   <div class="ocb-fact"><span class="n">100+</span><p>years old. Bungalow-era floors were milled from old-growth timber — growth rings packed far tighter than anything you can buy today, which is exactly why they’re worth saving.</p></div>
   <div class="ocb-fact"><span class="n">660</span><p>Janka hardness of Douglas fir, the workhorse wood of Seattle bungalows — soft enough that a century of heels and chair legs leaves an honest record. Oak front rooms run 1290–1360.</p></div>
   <div class="ocb-fact"><span class="n">3–5</span><p>days for a typical refinish, even in a century home. The extra work in old houses is repairs and hand-detailing, not extra weeks.</p></div>
-</div></section></div>
+</div></div></div>
 
 <h2>What’s Actually Under Your Feet</h2>
 
@@ -77,7 +85,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 
 <p>Two honest expectations. First, gaps: we fill what filler can hold, but a century-old floor moves seasonally, and filler in wide gaps eventually cracks out — some gap is part of the house’s character, and pretending otherwise leads to disappointment. Second, stains: deep black staining goes through the wood, not just the finish, so the fix is board replacement, and matching hundred-year-old fir means salvaged material, not the lumberyard. We keep expectations and options clear at the estimate rather than discovering them together on day two.</p>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-card">
+<div data-rt-embed-type='true'><div class="ocb ocb-card">
   <h3 style="margin:0 0 10px;font-size:18.5px;font-weight:900;color:#5c0000">The Usual Suspects in a Bungalow Floor</h3>
   <div style="overflow-x:auto"><table class="ocb-table">
     <tr><th>What we find</th><th>What it means</th><th>The fix</th></tr>
@@ -88,7 +96,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     <tr><td>Paint at the room edges</td><td>Painters who trusted the carpet</td><td>Comes off in the sanding, with hand work at edges</td></tr>
     <tr><td>Wavy, cupped boards</td><td>A hundred years of humidity swings</td><td>Lägler TRIO final pass to bring it flat</td></tr>
   </table></div>
-</section></div>
+</div></div>
 
 <h2>Bungalow Country: Where These Floors Live</h2>
 
@@ -104,7 +112,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 
 <h2>Is Your Floor a Candidate?</h2>
 
-<div data-rt-embed-type='true'><section class="ocb"><div class="ocb-2col">
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-2col">
   <div class="ocb-card" style="margin:0">
     <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#5c0000">Great refinish candidates…</h3>
     <ul class="ocb-check">
@@ -125,10 +133,10 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
       <li>You want a perfectly uniform, new-build look — old floors won’t fake it</li>
     </ul>
   </div>
-</div></section></div>
+</div></div></div>
 
 <div data-rt-embed-type='true'><!-- FAQ accordion + JSON-LD -->
-<section class="faq-wrap ocb" aria-labelledby="faq-title">
+<div class="faq-wrap ocb" aria-labelledby="faq-title">
   <h2 id="faq-title" class="faq-title">Refinishing Century-Home Floors: What Seattle Owners Ask</h2>
   <div class="faq-items" role="list">
     <details class="faq-item" role="listitem"><summary class="faq-q">Can 100-year-old floors really be refinished?</summary><div class="faq-a">Usually, yes — age itself isn't the problem. What matters is thickness: how much wood remains above the tongue after previous sandings. We check that in a vent or closet before quoting. Old-growth fir and oak that pass the check sand and finish beautifully, often better than modern flooring.</div></details>
@@ -140,7 +148,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     <details class="faq-item" role="listitem"><summary class="faq-q">How long does the work take, and can we stay in the house?</summary><div class="faq-a">Typically 3 to 5 days for a bungalow main floor — sanding and repairs first, then 2 to 3 coats of waterborne finish. With the low-VOC systems we use, most families stay in the house, walking on the floors in socks the same evening a coat goes down and moving furniture back at 48 to 72 hours.</div></details>
     <details class="faq-item" role="listitem"><summary class="faq-q">Is it worth refinishing instead of replacing with new hardwood?</summary><div class="faq-a">In a bungalow, almost always. The old-growth wood in these houses is tighter-grained and more stable than modern stock, it matches the house's trim and era, and refinishing at $3.99/sq ft costs a fraction of installing new. Replacement makes sense only when the wood is genuinely used up — and we'll tell you if it is.</div></details>
   </div>
-</section>
+</div>
 
 <style>
   .faq-wrap{--line:#e5e7eb;margin:28px auto;padding:20px;border:1px solid var(--line);border-radius:16px;background:#fff;box-shadow:0 8px 30px rgba(2,6,23,.06)}
@@ -157,7 +165,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Can 100-year-old floors really be refinished?", "acceptedAnswer": {"@type": "Answer", "text": "Usually, yes — age itself isn't the problem. What matters is thickness: how much wood remains above the tongue after previous sandings. We check that in a vent or closet before quoting. Old-growth fir and oak that pass the check sand and finish beautifully, often better than modern flooring."}}, {"@type": "Question", "name": "How do I know if my bungalow floors are fir or oak?", "acceptedAnswer": {"@type": "Answer", "text": "Look at the grain. Oak shows visible pores and flecks, often with a cathedral pattern; Douglas fir has smooth, straight, tightly spaced parallel grain lines. Bungalows commonly have oak in the living and dining rooms and fir everywhere else, so you may well have both — and they get treated differently."}}, {"@type": "Question", "name": "What does it cost to refinish floors in a 1920s Seattle home?", "acceptedAnswer": {"@type": "Answer", "text": "The same per-square-foot rates as any refinish: $3.99/sq ft for a full sand with natural finish, $6.50/sq ft with stain. Board repairs and replacements are itemized separately at the estimate, since every century home carries different damage. Most bungalow main floors land between 600 and 1,000 sq ft."}}, {"@type": "Question", "name": "Can you get the black stains out?", "acceptedAnswer": {"@type": "Answer", "text": "Shallow ones, often — they sand out or lighten substantially. Deep black staining from water or pets penetrates the wood itself, and the honest fix is replacing those boards, ideally with salvaged period material so the grain matches. We'll tell you which kind you have before work starts, not after."}}, {"@type": "Question", "name": "Should we fill the gaps between boards?", "acceptedAnswer": {"@type": "Answer", "text": "Selectively. We fill stable gaps during finishing, but a century-old floor moves with the seasons, and filler in wide, active gaps cracks out within a few winters. Some seasonal gapping is simply how a 1920s floor lives. We'd rather set that expectation honestly than sell you a perfection the house can't hold."}}, {"@type": "Question", "name": "Can fir floors be stained darker like oak?", "acceptedAnswer": {"@type": "Answer", "text": "We usually advise against it. Fir absorbs stain unevenly and tends to blotch, and its tight vertical grain is the best thing about it. If you want a darker floor, the oak rooms can take stain well; on the fir, a clear waterborne finish that keeps its natural honey tone is almost always the better-looking, better-aging choice."}}, {"@type": "Question", "name": "How long does the work take, and can we stay in the house?", "acceptedAnswer": {"@type": "Answer", "text": "Typically 3 to 5 days for a bungalow main floor — sanding and repairs first, then 2 to 3 coats of waterborne finish. With the low-VOC systems we use, most families stay in the house, walking on the floors in socks the same evening a coat goes down and moving furniture back at 48 to 72 hours."}}, {"@type": "Question", "name": "Is it worth refinishing instead of replacing with new hardwood?", "acceptedAnswer": {"@type": "Answer", "text": "In a bungalow, almost always. The old-growth wood in these houses is tighter-grained and more stable than modern stock, it matches the house's trim and era, and refinishing at $3.99/sq ft costs a fraction of installing new. Replacement makes sense only when the wood is genuinely used up — and we'll tell you if it is."}}]}
 </script></div>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-cta" style="margin:30px 0">
+<div data-rt-embed-type='true'><div class="ocb ocb-cta" style="margin:30px 0">
   <style>
     html body .post-body .ocb-cta h2, .ocb-cta h2{color:#fff!important}
     html body .post-body .ocb-cta .ocb-cta-sub, .ocb-cta .ocb-cta-sub{color:rgba(255,255,255,.88)!important}
@@ -167,18 +175,18 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     html body .post-body .ocb-cta a.ocb-cta-phone, .ocb-cta a.ocb-cta-phone{color:#5c0000!important;text-decoration:none!important}
   </style>
   <div style="background:linear-gradient(135deg,#8B0000,#5c0000);border-radius:20px;padding:28px 24px;color:#fff;text-align:center;box-shadow:0 14px 34px rgba(92,0,0,.3)">
-    <h2 style="margin:0 0 6px;color:#fff;font-size:24px;font-weight:900">Have a Bungalow? We Speak Its Language</h2>
-    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.85);font-size:16.3px">We’ll check your floor’s thickness, identify the woods, and give you a written price that separates the refinish from the repairs. Free in-home estimates across Seattle, King &amp; Snohomish County.</p>
+    <h2 style="margin:0 0 6px;color:#fff!important;font-size:24px;font-weight:900">Have a Bungalow? We Speak Its Language</h2>
+    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.92)!important;font-size:16.3px">We’ll check your floor’s thickness, identify the woods, and give you a written price that separates the refinish from the repairs. Free in-home estimates across Seattle, King &amp; Snohomish County.</p>
     <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
-      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff;color:#5c0000;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> (425) 595-1079</a>
-      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.4);color:#fff;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none">Book My Free Consultation</a>
+      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff!important;color:#5c0000!important;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none!important"><span class="ocb-ic ocb-ic-phone"></span> (425) 595-1079</a>
+      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.16)!important;border:1px solid rgba(255,255,255,.55);color:#fff!important;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none!important">Book My Free Consultation</a>
     </div>
-    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.9)">
+    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.95)!important">
       <span>✓ Since 2013</span><span>✓ 1,000+ floors</span><span>✓ 1-yr workmanship warranty</span><span>✓ Licensed &amp; insured</span><span>✓ Financing available</span>
     </div>
-    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
+    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04!important;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
   </div>
-</section></div>
+</div></div>
 
 <p><strong>Related reading:</strong> <a href="/blog/refinishing-fir-floors-old-seattle-homes">Refinishing fir floors in old Seattle homes</a> · <a href="/blog/how-many-times-can-a-wood-floor-be-sanded-and-refinished-in-the-seattle-wa-area">How many times can a floor be sanded</a> · <a href="/blog/water-based-vs-oil-based-floor-finish">Water-based vs oil-based finish</a> · <a href="/seattle/hardwood-floor-refinishing-in-seattle-wa">Hardwood floor refinishing in Seattle</a> · <a href="/contact">Book a free estimate</a></p>
 

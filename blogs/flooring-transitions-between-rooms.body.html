@@ -35,29 +35,37 @@ html body .post-body .ocb-fact p, .ocb-fact p{margin:0!important;font-size:14.7p
 html.ocb-anim-ready .ocb-rv{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
 html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 @media (prefers-reduced-motion:reduce){html.ocb-anim-ready .ocb-rv{opacity:1!important;transform:none!important;transition:none!important}.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:none}}
+
+/* Chip icons. Webflow's rich-text sanitizer strips inline <svg> whenever a post is
+   re-saved in the Editor, so the icons are drawn from CSS on a <span> instead. */
+.ocb-ic{display:inline-block;width:15px;height:15px;flex:0 0 auto;vertical-align:-2px;background-repeat:no-repeat;background-position:center;background-size:contain}
+.ocb-ic-pin{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z'/><circle cx='12' cy='10' r='3'/></svg>')}
+.ocb-ic-home{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z'/><polyline points='9 22 9 12 15 12 15 22'/></svg>')}
+.ocb-ic-phone{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z'/></svg>')}
+.ocb-cta .ocb-ic{filter:brightness(0) saturate(100%) invert(9%) sepia(64%) saturate(4000%) hue-rotate(348deg)}
 </style></div>
 
-<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 -6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">December 30, 2026</span></div></div>
+<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">December 30, 2026</span></div></div>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
+<div data-rt-embed-type='true'><div class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
   <span class="ocb-eyebrow">Quick answer</span>
   <p style="margin:0;font-size:17.9px;line-height:1.65"><strong>The clean places to end a refinish are under a closed door, against a different flooring material, or at a defined threshold — and in a typical Redmond home that means refinishing all connected hardwood in one job, then managing the meetings with tile, carpet, and doorways deliberately.</strong> Stop a refinish mid-hallway and you buy a visible line you’ll stare at for years; handle the transitions right and the whole main floor reads as one surface. Here’s how we plan the edges of a refinishing job — because the edges are where jobs succeed or get regretted.</p>
   <div class="ocb-chips">
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg> King &amp; Snohomish County</span>
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg> Redmond homes</span>
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-pin"></span> King &amp; Snohomish County</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-home"></span> Redmond homes</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-phone"></span> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
   </div>
-</section></div>
+</div></div>
 
 <p>Every refinishing estimate eventually arrives at the same question, usually asked in a doorway: “Can you just do this room?” And the honest answer depends entirely on what that doorway connects. Hardwood to carpet — easy, we can stop there cleanly. Hardwood to tile — also fine. Hardwood flowing into more of the same hardwood, through a cased opening into the hall and on toward the kitchen — now stopping means drawing a line across a continuous wood surface, and that line will be visible in color, in sheen, and in wear for the life of both sides.</p>
 
 <p>Transitions are the least glamorous part of a flooring project and one of the most consequential. They decide where a job can economically start and stop, whether your rooms read as one floor or a patchwork, and whether your toe catches a metal strip every time you carry laundry down the hall. This is the transition playbook we use on Redmond homes — where a refinish can end, where it shouldn’t, and what belongs at each seam.</p>
 
-<div data-rt-embed-type='true'><section class="ocb"><div class="ocb-facts">
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-facts">
   <div class="ocb-fact"><span class="n">500 sq ft</span><p>our job minimum — and a practical argument for refinishing connected rooms together. A single 12×12 bedroom rarely makes sense alone; the main floor as one job nearly always does.</p></div>
   <div class="ocb-fact"><span class="n">$3.99</span><p>per square foot for a full sand and natural finish, whichever side of a doorway the boards are on. Doing continuous hardwood in one pass costs the same per foot and buys a floor with no lines in it.</p></div>
   <div class="ocb-fact"><span class="n">48–72 hrs</span><p>before furniture returns to freshly finished waterborne. Transition planning is schedule planning too — which rooms shut down, in what order, and where the household lives meanwhile.</p></div>
-</div></section></div>
+</div></div></div>
 
 <h2>Where a Refinish Can Stop — and Where It Can’t</h2>
 
@@ -83,7 +91,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 
 <p>The strategic question is whether the carpet stays. A lot of Redmond refinishing projects start as “do the main floor” and grow when owners pull a corner of bedroom carpet and find the same oak underneath. If there’s hardwood under your carpet, refinishing it in the same job as the main floor costs the same per foot, gets one consistent color through the doorways, and removes the transition entirely. If the carpet stays, we simply respect the line — but check before we sand, because doing that bedroom two years later means a second mobilization and a floor that will never quite match the first pass.</p>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-card">
+<div data-rt-embed-type='true'><div class="ocb ocb-card">
   <h3 style="margin:0 0 10px;font-size:18.5px;font-weight:900;color:#5c0000">Transition hardware: what goes where</h3>
   <div style="overflow-x:auto"><table class="ocb-table">
     <tr><th>Piece</th><th>What it does</th><th>Where it belongs</th></tr>
@@ -94,7 +102,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     <tr><td><strong>Carpet tuck / Z-bar</strong></td><td>Folds carpet edge over the joint</td><td>Wood meeting carpet at bedroom doors</td></tr>
     <tr><td><strong>Stair nosing</strong></td><td>Wraps the step edge where floors change level</td><td>Top and bottom steps where hardwood meets stairs</td></tr>
   </table></div>
-</section></div>
+</div></div>
 
 <h2>Heights, Toe-Catchers, and the Details That Age Well</h2>
 
@@ -109,7 +117,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 <p>Newer townhomes and the odd 1970s–80s rambler east of downtown add their own wrinkles — floating LVP additions that need T-moldings against real wood, and older homes where decades of remodels left three flooring generations meeting in one kitchen doorway. We see all of it doing <a href="/city-of-redmond/hardwood-floor-refinishing-in-redmond-wa">hardwood floor refinishing in Redmond</a>, and the estimate walk always includes the same lap of the house: every doorway, every seam, every height change, written into the scope before machines arrive. Transitions handled on paper cost nothing; transitions improvised on day three cost mornings.</p>
 
 <div data-rt-embed-type='true'><!-- FAQ accordion + JSON-LD -->
-<section class="faq-wrap ocb" aria-labelledby="faq-title">
+<div class="faq-wrap ocb" aria-labelledby="faq-title">
   <h2 id="faq-title" class="faq-title">Flooring Transitions: What Redmond Homeowners Ask</h2>
   <div class="faq-items" role="list">
     <details class="faq-item" role="listitem"><summary class="faq-q">Can you refinish just one room of hardwood?</summary><div class="faq-a">If that room ends at doors, carpet, or tile — yes, cleanly. If its floor flows continuously into other hardwood, stopping mid-field leaves a permanent visible line in color and sheen, and we’ll usually recommend doing the connected area as one job. Our 500 sq ft minimum also makes single small rooms uneconomical on their own.</div></details>
@@ -122,7 +130,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     <details class="faq-item" role="listitem"><summary class="faq-q">Do transitions cost extra in a refinishing quote?</summary><div class="faq-a">Standard doorway lines, carpet edges, and tile joints are part of the job at our regular rates — $3.99/sq ft for a natural-finish refinish. New thresholds, lacing in boards, or stair nosings are line items we price in the written scope, so you see them before work starts.</div></details>
     <details class="faq-item" role="listitem"><summary class="faq-q">How long will the job take, and can we live here during it?</summary><div class="faq-a">A typical refinish runs 3–5 days, and most families stay, living on the carpeted and tiled side of the transitions while the wood field is done. Waterborne finish takes sock traffic the same evening and furniture at 48–72 hours, so rooms come back online in sequence.</div></details>
   </div>
-</section>
+</div>
 
 <style>
   .faq-wrap{--line:#e5e7eb;margin:28px auto;padding:20px;border:1px solid var(--line);border-radius:16px;background:#fff;box-shadow:0 8px 30px rgba(2,6,23,.06)}
@@ -139,7 +147,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Can you refinish just one room of hardwood?", "acceptedAnswer": {"@type": "Answer", "text": "If that room ends at doors, carpet, or tile — yes, cleanly. If its floor flows continuously into other hardwood, stopping mid-field leaves a permanent visible line in color and sheen, and we’ll usually recommend doing the connected area as one job. Our 500 sq ft minimum also makes single small rooms uneconomical on their own."}}, {"@type": "Question", "name": "Where exactly does a refinish stop at a doorway?", "acceptedAnswer": {"@type": "Answer", "text": "Under the closed door’s edge. With the door shut, each room sees only its own floor, so a color or sheen difference between rooms never shows. Doorways without doors — cased openings and archways — don’t offer that hiding place, which is why they make poor stopping points."}}, {"@type": "Question", "name": "Will refinished hardwood match the hardwood in the next room if we skip that room?", "acceptedAnswer": {"@type": "Answer", "text": "No. Sanding removes oxidation and old amber, so a freshly refinished floor is cleaner and lighter than an unrefinished one of the same wood — even under identical finish. Through an open doorway the difference is obvious. Refinishing connected rooms together is how floors match."}}, {"@type": "Question", "name": "What do you do where hardwood meets tile?", "acceptedAnswer": {"@type": "Answer", "text": "Protect the tile edge during sanding, then finish to a crisp line at the joint. If there’s a height difference, a reducer ramps it; if the surfaces are flush, the joint can be nearly invisible. We don’t sand wood thinner to chase tile height — that spends wear layer you’ll want later."}}, {"@type": "Question", "name": "What about where hardwood meets carpet?", "acceptedAnswer": {"@type": "Answer", "text": "That’s the forgiving one. We sand up to the tack strip line, mask the carpet against dust and finish, and the tucked carpet edge hides the joint. If you suspect hardwood under the carpet, check before we sand — refinishing it in the same job costs the same per foot and matches perfectly."}}, {"@type": "Question", "name": "Can you get rid of the metal strips between my rooms?", "acceptedAnswer": {"@type": "Answer", "text": "Often, yes. If both sides are solid hardwood at the same height, the strip can usually be replaced with a flush wood threshold — or eliminated entirely if the floors can be sanded and finished as one field. Strips have to stay where a floating floor needs room to move."}}, {"@type": "Question", "name": "We added new hardwood next to old — will refinishing blend them?", "acceptedAnswer": {"@type": "Answer", "text": "That’s exactly what a full refinish is for. If the new boards were laced into the old field, sanding and finishing everything together makes the seam effectively disappear. If the two fields just butt together with a transition strip, refinishing improves color match but the joint itself remains."}}, {"@type": "Question", "name": "Do transitions cost extra in a refinishing quote?", "acceptedAnswer": {"@type": "Answer", "text": "Standard doorway lines, carpet edges, and tile joints are part of the job at our regular rates — $3.99/sq ft for a natural-finish refinish. New thresholds, lacing in boards, or stair nosings are line items we price in the written scope, so you see them before work starts."}}, {"@type": "Question", "name": "How long will the job take, and can we live here during it?", "acceptedAnswer": {"@type": "Answer", "text": "A typical refinish runs 3–5 days, and most families stay, living on the carpeted and tiled side of the transitions while the wood field is done. Waterborne finish takes sock traffic the same evening and furniture at 48–72 hours, so rooms come back online in sequence."}}]}
 </script></div>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-cta" style="margin:30px 0">
+<div data-rt-embed-type='true'><div class="ocb ocb-cta" style="margin:30px 0">
   <style>
     html body .post-body .ocb-cta h2, .ocb-cta h2{color:#fff!important}
     html body .post-body .ocb-cta .ocb-cta-sub, .ocb-cta .ocb-cta-sub{color:rgba(255,255,255,.88)!important}
@@ -149,18 +157,18 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     html body .post-body .ocb-cta a.ocb-cta-phone, .ocb-cta a.ocb-cta-phone{color:#5c0000!important;text-decoration:none!important}
   </style>
   <div style="background:linear-gradient(135deg,#8B0000,#5c0000);border-radius:20px;padding:28px 24px;color:#fff;text-align:center;box-shadow:0 14px 34px rgba(92,0,0,.3)">
-    <h2 style="margin:0 0 6px;color:#fff;font-size:24px;font-weight:900">Walk the Doorways With Us</h2>
-    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.85);font-size:16.3px">A free estimate at your place takes about half an hour — every seam, height change, and stopping point written into a per-square-foot scope. Serving Redmond and all of King &amp; Snohomish County.</p>
+    <h2 style="margin:0 0 6px;color:#fff!important;font-size:24px;font-weight:900">Walk the Doorways With Us</h2>
+    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.92)!important;font-size:16.3px">A free estimate at your place takes about half an hour — every seam, height change, and stopping point written into a per-square-foot scope. Serving Redmond and all of King &amp; Snohomish County.</p>
     <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
-      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff;color:#5c0000;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> (425) 595-1079</a>
-      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.4);color:#fff;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none">Book My Free Consultation</a>
+      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff!important;color:#5c0000!important;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none!important"><span class="ocb-ic ocb-ic-phone"></span> (425) 595-1079</a>
+      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.16)!important;border:1px solid rgba(255,255,255,.55);color:#fff!important;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none!important">Book My Free Consultation</a>
     </div>
-    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.9)">
+    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.95)!important">
       <span>✓ Since 2013</span><span>✓ 1,000+ floors</span><span>✓ 1-yr workmanship warranty</span><span>✓ Licensed &amp; insured</span><span>✓ Financing available</span>
     </div>
-    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
+    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04!important;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
   </div>
-</section></div>
+</div></div>
 
 <p><strong>Related reading:</strong> <a href="/blog/refinishing-occupied-home-room-by-room">Room-by-room refinishing in an occupied home</a> · <a href="/blog/can-you-add-hardwood-to-existing-hardwood-floors">Adding hardwood to existing hardwood</a> · <a href="/blog/what-happens-to-baseboards-during-refinish">Baseboards during a refinish</a> · <a href="/city-of-redmond/hardwood-floor-refinishing-in-redmond-wa">Hardwood floor refinishing in Redmond</a> · <a href="/contact">Book a free estimate</a></p>
 

@@ -35,29 +35,37 @@ html body .post-body .ocb-fact p, .ocb-fact p{margin:0!important;font-size:14.7p
 html.ocb-anim-ready .ocb-rv{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
 html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 @media (prefers-reduced-motion:reduce){html.ocb-anim-ready .ocb-rv{opacity:1!important;transform:none!important;transition:none!important}.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:none}}
+
+/* Chip icons. Webflow's rich-text sanitizer strips inline <svg> whenever a post is
+   re-saved in the Editor, so the icons are drawn from CSS on a <span> instead. */
+.ocb-ic{display:inline-block;width:15px;height:15px;flex:0 0 auto;vertical-align:-2px;background-repeat:no-repeat;background-position:center;background-size:contain}
+.ocb-ic-pin{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z'/><circle cx='12' cy='10' r='3'/></svg>')}
+.ocb-ic-home{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z'/><polyline points='9 22 9 12 15 12 15 22'/></svg>')}
+.ocb-ic-phone{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z'/></svg>')}
+.ocb-cta .ocb-ic{filter:brightness(0) saturate(100%) invert(9%) sepia(64%) saturate(4000%) hue-rotate(348deg)}
 </style></div>
 
-<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 -6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">March 17, 2027</span></div></div>
+<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">March 17, 2027</span></div></div>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
+<div data-rt-embed-type='true'><div class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
   <span class="ocb-eyebrow">Quick answer</span>
   <p style="margin:0;font-size:17.9px;line-height:1.65"><strong>In an ordinary family home, a two-component waterborne finish gives you roughly seven to ten years in the hallway and kitchen lanes, and fifteen to twenty-plus in bedrooms and formal rooms — but the useful number isn’t when the finish fails, it’s when it thins.</strong> Recoat at $1.99/sq ft while the film is still continuous and you reset the clock without touching the wood. Wait until bare wood shows and the only option left is a full sand at $3.99/sq ft, which spends a slice of a floor that has only three to five sands in it. The finish is the wear layer. The wood underneath is the asset.</p>
   <div class="ocb-chips">
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg> King &amp; Snohomish County</span>
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg> Finish life &amp; recoat timing</span>
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-pin"></span> King &amp; Snohomish County</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-home"></span> Finish life &amp; recoat timing</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-phone"></span> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
   </div>
-</section></div>
+</div></div>
 
 <p>“How long will this last?” is the question we get most often at the end of an estimate, and the honest answer is a range wide enough to be unsatisfying: somewhere between four years and thirty, depending on the room, the household, the product, and whether anyone puts a mat by the back door. That’s not a dodge — it’s the actual shape of the answer, and the useful version comes from breaking the range apart.</p>
 
 <p>What follows is what we tell people, including the parts that aren’t flattering to our own industry. Chief among them: a finish reaching the end of its life is not a failure and doesn’t mean you were sold something cheap. Finish is a consumable. It is supposed to wear out, the way brake pads are supposed to wear out, and the whole design of a well-maintained wood floor is that the film gets replaced periodically so the boards never have to be.</p>
 
-<div data-rt-embed-type='true'><section class="ocb"><div class="ocb-facts">
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-facts">
   <div class="ocb-fact"><span class="n">7–10 yrs</span><p>typical service life of a commercial two-component waterborne in the main traffic lanes of a family home before it wants a recoat. Bedrooms and formal rooms routinely go twice that. Entries and kitchen paths sometimes half.</p></div>
   <div class="ocb-fact"><span class="n">$1.99 vs $3.99</span><p>per sq ft — a screen and recoat against a full sand and natural refinish. The recoat renews the film; the sand renews the film and removes wood. Only one of those is repeatable indefinitely.</p></div>
   <div class="ocb-fact"><span class="n">3–5</span><p>full sands in the life of a typical ¾-inch solid floor, spread across a century if the owners recoat in between. Every recoat you take instead of a sand is a sand you bank for later.</p></div>
-</div></section></div>
+</div></div></div>
 
 <h2>What Actually Lasts: The Film, Not the Floor</h2>
 
@@ -71,7 +79,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 
 <p>A single number for a whole house is fiction, because the entry does not live the same life as the guest bedroom. What we actually see across the floors we maintain is a spread of roughly four-to-one between the hardest-working square foot in a house and the easiest, and the recoat schedule should follow the traffic rather than the calendar. Below is the pattern we plan around — treat it as a starting map, not a warranty.</p>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-card">
+<div data-rt-embed-type='true'><div class="ocb ocb-card">
   <h3 style="margin:0 0 10px;font-size:18.5px;font-weight:900;color:#5c0000">Where the years actually go</h3>
   <div style="overflow-x:auto"><table class="ocb-table">
     <tr><th>Area</th><th>Traffic reality</th><th>Typical years to first recoat</th><th>What tells you it’s due</th></tr>
@@ -83,7 +91,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     <tr><td><strong>Bedrooms</strong></td><td>Socks, low grit, light use</td><td>15–20+</td><td>Often outlives two recoats elsewhere</td></tr>
     <tr><td><strong>Formal dining / guest room</strong></td><td>Occasional</td><td>20+</td><td>Usually gets recoated only to match</td></tr>
   </table></div>
-</section></div>
+</div></div>
 
 <h2>What Burns Through a Finish Early</h2>
 
@@ -93,7 +101,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 
 <p>Then there is the one nobody plans for: a slow leak. A dishwasher weeping at the door gasket or a fridge line dripping behind the cabinet doesn’t just kill the finish, it stains the wood black and can cup the boards, at which point you are past finish maintenance entirely.</p>
 
-<div data-rt-embed-type='true'><section class="ocb"><div class="ocb-2col">
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-2col">
   <div class="ocb-card" style="margin:0">
     <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#5c0000">Still in recoat territory when…</h3>
     <ul class="ocb-check">
@@ -114,7 +122,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
       <li>You want a different color, which no recoat can deliver</li>
     </ul>
   </div>
-</div></section></div>
+</div></div></div>
 
 <h2>What the Finish Choice Buys You</h2>
 
@@ -133,7 +141,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 <p>One regional footnote, since most of the floors we maintain are here. Puget Sound is hard on entries — nine months of wet shoes and grit — and easy on everything else, since we don’t get the extreme indoor humidity swings that torture floors in other climates. In practice that means the front six feet of the house often needs attention years before the rest, and the fix is usually a mat and a recoat rather than a project. We plan schedules around that pattern on every <a href="/seattle/hardwood-floor-refinishing-in-seattle-wa">Seattle refinishing</a> job and across the north end from <a href="/city-of-everett/hardwood-floor-refinishing-in-everett-wa">Everett</a> down through the Eastside. And if you’re wondering whether waiting one more year is a real risk or just a contractor’s nudge, we ran the actual numbers in <a href="/blog/is-recoating-worth-it-or-delaying-cost">what delaying a recoat costs</a>.</p>
 
 <div data-rt-embed-type='true'><!-- FAQ accordion + JSON-LD -->
-<section class="faq-wrap ocb" aria-labelledby="faq-title">
+<div class="faq-wrap ocb" aria-labelledby="faq-title">
   <h2 id="faq-title" class="faq-title">How Long a Floor Finish Lasts: The Questions We Get</h2>
   <div class="faq-items" role="list">
     <details class="faq-item" role="listitem"><summary class="faq-q">How long does a hardwood floor finish last, in one number?</summary><div class="faq-a">If you need one number for a family home, call it eight years in the busy parts of the house. Bedrooms and formal rooms will go far longer, entries and kitchen paths noticeably shorter, and habits move the number more than the product does. The right way to use that number is as a reminder to look at the floor around year six, not as an expiration date.</div></details>
@@ -145,7 +153,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     <details class="faq-item" role="listitem"><summary class="faq-q">What about engineered floors — same answer?</summary><div class="faq-a">Same finish life, different limits underneath. The film wears at the same rate, so the recoat cadence is identical, but an engineered floor has only its wear layer to sand and thin ones may have no full sand available at all. That makes staying ahead of the recoat clock more important on engineered floors, not less.</div></details>
     <details class="faq-item" role="listitem"><summary class="faq-q">We're about to refinish. What can we do to make it last?</summary><div class="faq-a">Mats at every exterior door and shoes off inside; trim the dog's nails; sweep or dry-mop the grit weekly; clean with a pH-neutral hardwood cleaner and nothing else; felt pads under every furniture leg, replaced when they load up with grit; blinds or film on the sunniest exposure; and a recoat booked at the first sign of a lane rather than at the first sign of bare wood.</div></details>
   </div>
-</section>
+</div>
 
 <style>
   .faq-wrap{--line:#e5e7eb;margin:28px auto;padding:20px;border:1px solid var(--line);border-radius:16px;background:#fff;box-shadow:0 8px 30px rgba(2,6,23,.06)}
@@ -162,7 +170,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How long does a hardwood floor finish last, in one number?", "acceptedAnswer": {"@type": "Answer", "text": "If you need one number for a family home, call it eight years in the busy parts of the house. Bedrooms and formal rooms will go far longer, entries and kitchen paths noticeably shorter, and habits move the number more than the product does. The right way to use that number is as a reminder to look at the floor around year six, not as an expiration date."}}, {"@type": "Question", "name": "Is a dull floor the same as a worn-out floor?", "acceptedAnswer": {"@type": "Answer", "text": "No, and confusing the two costs people money in both directions. Dullness is usually the top of the film scuffed by grit, which a recoat fully reverses. Worn-out means the film is gone and the wood is exposed, which only sanding fixes. Test with water: if it beads, you are dull, not worn."}}, {"@type": "Question", "name": "Does a more expensive finish actually last longer?", "acceptedAnswer": {"@type": "Answer", "text": "Between a bargain single-component waterborne and a commercial two-component like Bona Traffic HD, yes — meaningfully, in the traffic lanes where it matters. Between two premium products, the difference is smaller than the difference between two households. Grit control, pet nails, and cleaner choice all outrank the label on the can."}}, {"@type": "Question", "name": "Can I just recoat one room instead of the whole floor?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, if the room ends at a doorway or another natural boundary. Recoat lines in the middle of open floor are visible in raking light forever, so we won't put one there. In open-plan houses that often means the practical unit is the whole main floor, which is worth knowing before you budget by the room."}}, {"@type": "Question", "name": "How do I know a recoat will bond to what's already there?", "acceptedAnswer": {"@type": "Answer", "text": "We test before we quote. A small area gets screened and coated, and we check adhesion the next day. Wax, oil soap residue, silicone polishes, and some prefinished coatings all cause failures, and finding that out on a test patch costs nothing while finding it out on a whole floor costs a full sand."}}, {"@type": "Question", "name": "Does refinishing shorten the life of my floor?", "acceptedAnswer": {"@type": "Answer", "text": "A full sand does, slightly and permanently — it removes wood, and a typical solid floor has three to five sands in it total. A recoat does not: it only touches the finish. That's the entire argument for staying on a recoat cycle, and it's why we'd rather sell you a $1.99 service than a $3.99 one when the floor still qualifies."}}, {"@type": "Question", "name": "What about engineered floors — same answer?", "acceptedAnswer": {"@type": "Answer", "text": "Same finish life, different limits underneath. The film wears at the same rate, so the recoat cadence is identical, but an engineered floor has only its wear layer to sand and thin ones may have no full sand available at all. That makes staying ahead of the recoat clock more important on engineered floors, not less."}}, {"@type": "Question", "name": "We're about to refinish. What can we do to make it last?", "acceptedAnswer": {"@type": "Answer", "text": "Mats at every exterior door and shoes off inside; trim the dog's nails; sweep or dry-mop the grit weekly; clean with a pH-neutral hardwood cleaner and nothing else; felt pads under every furniture leg, replaced when they load up with grit; blinds or film on the sunniest exposure; and a recoat booked at the first sign of a lane rather than at the first sign of bare wood."}}]}
 </script></div>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-cta" style="margin:30px 0">
+<div data-rt-embed-type='true'><div class="ocb ocb-cta" style="margin:30px 0">
   <style>
     html body .post-body .ocb-cta h2, .ocb-cta h2{color:#fff!important}
     html body .post-body .ocb-cta .ocb-cta-sub, .ocb-cta .ocb-cta-sub{color:rgba(255,255,255,.88)!important}
@@ -172,18 +180,18 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     html body .post-body .ocb-cta a.ocb-cta-phone, .ocb-cta a.ocb-cta-phone{color:#5c0000!important;text-decoration:none!important}
   </style>
   <div style="background:linear-gradient(135deg,#8B0000,#5c0000);border-radius:20px;padding:28px 24px;color:#fff;text-align:center;box-shadow:0 14px 34px rgba(92,0,0,.3)">
-    <h2 style="margin:0 0 6px;color:#fff;font-size:24px;font-weight:900">Not Sure Where Your Floor Is on the Clock?</h2>
-    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.85);font-size:16.3px">We’ll look at the traffic lanes, test whether a recoat will still bond, and tell you honestly whether you’re a one-day $1.99/sq ft job or genuinely due for a sand. Free in-home estimates across King &amp; Snohomish County.</p>
+    <h2 style="margin:0 0 6px;color:#fff!important;font-size:24px;font-weight:900">Not Sure Where Your Floor Is on the Clock?</h2>
+    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.92)!important;font-size:16.3px">We’ll look at the traffic lanes, test whether a recoat will still bond, and tell you honestly whether you’re a one-day $1.99/sq ft job or genuinely due for a sand. Free in-home estimates across King &amp; Snohomish County.</p>
     <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
-      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff;color:#5c0000;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> (425) 595-1079</a>
-      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.4);color:#fff;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none">Book My Free Consultation</a>
+      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff!important;color:#5c0000!important;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none!important"><span class="ocb-ic ocb-ic-phone"></span> (425) 595-1079</a>
+      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.16)!important;border:1px solid rgba(255,255,255,.55);color:#fff!important;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none!important">Book My Free Consultation</a>
     </div>
-    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.9)">
+    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.95)!important">
       <span>✓ Since 2013</span><span>✓ 1,000+ floors</span><span>✓ 1-yr workmanship warranty</span><span>✓ Licensed &amp; insured</span><span>✓ Financing available</span>
     </div>
-    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
+    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04!important;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
   </div>
-</section></div>
+</div></div>
 
 <p><strong>Related reading:</strong> <a href="/blog/is-recoating-worth-it-or-delaying-cost">What delaying a recoat costs</a> · <a href="/blog/10-year-maintenance-plan-refinished-floors">A 10-year maintenance plan</a> · <a href="/blog/best-and-worst-cleaners-hardwood-floors">Best and worst floor cleaners</a> · <a href="/seattle/hardwood-floor-refinishing-in-seattle-wa">Hardwood floor refinishing in Seattle</a> · <a href="/contact">Book a free estimate</a></p>
 

@@ -35,29 +35,37 @@ html body .post-body .ocb-fact p, .ocb-fact p{margin:0!important;font-size:14.7p
 html.ocb-anim-ready .ocb-rv{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
 html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 @media (prefers-reduced-motion:reduce){html.ocb-anim-ready .ocb-rv{opacity:1!important;transform:none!important;transition:none!important}.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:none}}
+
+/* Chip icons. Webflow's rich-text sanitizer strips inline <svg> whenever a post is
+   re-saved in the Editor, so the icons are drawn from CSS on a <span> instead. */
+.ocb-ic{display:inline-block;width:15px;height:15px;flex:0 0 auto;vertical-align:-2px;background-repeat:no-repeat;background-position:center;background-size:contain}
+.ocb-ic-pin{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z'/><circle cx='12' cy='10' r='3'/></svg>')}
+.ocb-ic-home{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z'/><polyline points='9 22 9 12 15 12 15 22'/></svg>')}
+.ocb-ic-phone{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z'/></svg>')}
+.ocb-cta .ocb-ic{filter:brightness(0) saturate(100%) invert(9%) sepia(64%) saturate(4000%) hue-rotate(348deg)}
 </style></div>
 
-<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 -6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">September 23, 2026</span></div></div>
+<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">September 23, 2026</span></div></div>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
+<div data-rt-embed-type='true'><div class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
   <span class="ocb-eyebrow">Quick answer</span>
   <p style="margin:0;font-size:17.9px;line-height:1.65"><strong>A $2/sq ft quote and a $6/sq ft quote are almost never prices for the same job — the $2 number is usually a screen and recoat (a maintenance coat over your existing finish; ours is $1.99), while $6 buys a full sand to bare wood with stain (ours is $6.50).</strong> When two quotes for the same full refinish still land dollars apart, the gap hides in the finish grade, the coat count, and the line items one contractor printed and the other left for later. Here’s how to read them.</p>
   <div class="ocb-chips">
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg> King &amp; Snohomish County</span>
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg> Lynnwood quotes</span>
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-pin"></span> King &amp; Snohomish County</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-home"></span> Lynnwood quotes</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-phone"></span> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
   </div>
-</section></div>
+</div></div>
 
 <p>This post exists because of a phone call we get from Lynnwood homeowners a few times a month: “I have one quote at two dollars a foot and one at six — is the six guy ripping me off?” Fair question. The honest answer is that in most cases neither number is dishonest; they’re just prices for two different jobs that both get called “refinishing.” And in the remaining cases, the low number is honest about the rate and quiet about everything the rate doesn’t include.</p>
 
 <p>Since we publish our own prices — $1.99, $3.99, and $6.50 per square foot, depending on the job — we have no dog in the mystery-pricing fight. So let’s take the mystery apart.</p>
 
-<div data-rt-embed-type='true'><section class="ocb"><div class="ocb-facts">
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-facts">
   <div class="ocb-fact"><span class="n">$1.99</span><p>per sq ft — screen &amp; recoat. Buff the existing finish, lay one fresh coat. One day. This is what most $2-a-foot quotes actually are.</p></div>
   <div class="ocb-fact"><span class="n">$3.99</span><p>per sq ft — full sand to bare wood, 2–3 coats of waterborne finish, natural (no stain). The real apples-to-apples middle.</p></div>
   <div class="ocb-fact"><span class="n">$6.50</span><p>per sq ft — full sand plus stain: an extra day of hand-applied color and the added coats to protect it. This is the honest version of the $6 quote.</p></div>
-</div></section></div>
+</div></div></div>
 
 <h2>Three Different Jobs Wear the Same Name</h2>
 
@@ -65,7 +73,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 
 <p>So before comparing any two quotes, answer one question: is each contractor sanding to bare wood, or not? If one is recoating and the other is sanding, you’re not comparing prices — you’re comparing services. (And be careful with a fourth service that advertises hard on low prices: so-called sandless refinishing, which we took apart in our <a href="/blog/sandless-hardwood-floor-refinishing-does-it-work">Renton reality check</a>. It’s a chemical-etch recoat with better marketing.)</p>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-card">
+<div data-rt-embed-type='true'><div class="ocb ocb-card">
   <h3 style="margin:0 0 10px;font-size:18.5px;font-weight:900;color:#5c0000">Where the Dollars Hide: Same 800 sq ft Floor, Two Quotes</h3>
   <div style="overflow-x:auto"><table class="ocb-table">
     <tr><th>Line item</th><th>The $2-ish quote</th><th>A complete quote</th></tr>
@@ -78,7 +86,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     <tr><td>Repairs</td><td>Discovered mid-job</td><td>Itemized after inspection</td></tr>
     <tr><td>Warranty</td><td>Verbal</td><td>1-yr workmanship, written</td></tr>
   </table></div>
-</section></div>
+</div></div>
 
 <h2>What the Low Quote Often Leaves Off the Page</h2>
 
@@ -100,7 +108,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 
 <h2>Reading a Quote in 60 Seconds</h2>
 
-<div data-rt-embed-type='true'><section class="ocb"><div class="ocb-2col">
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-2col">
   <div class="ocb-card" style="margin:0">
     <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#5c0000">A quote you can trust shows…</h3>
     <ul class="ocb-check">
@@ -121,10 +129,10 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
       <li>A total that undercuts everyone by 40% with no explanation</li>
     </ul>
   </div>
-</div></section></div>
+</div></div></div>
 
 <div data-rt-embed-type='true'><!-- FAQ accordion + JSON-LD -->
-<section class="faq-wrap ocb" aria-labelledby="faq-title">
+<div class="faq-wrap ocb" aria-labelledby="faq-title">
   <h2 id="faq-title" class="faq-title">Refinishing Quotes: What Lynnwood Homeowners Ask</h2>
   <div class="faq-items" role="list">
     <details class="faq-item" role="listitem"><summary class="faq-q">Why is one refinishing quote $2/sq ft and another $6?</summary><div class="faq-a">Usually because they're different services. Around $2 is screen-and-recoat territory — a fresh coat over existing finish, like our $1.99 rate. Around $6 is a full sand with stain, like our $6.50. Ask each contractor one question: are you taking the floor to bare wood? That sorts most quote gaps instantly.</div></details>
@@ -136,7 +144,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     <details class="faq-item" role="listitem"><summary class="faq-q">Should I just take the middle quote?</summary><div class="faq-a">No — take the most transparent one. The middle number can be the vaguest of the three. Make every bidder name the service, the finish, the coat count, and the extras, then compare totals for the same scope. When quotes describe identical jobs, the honest ones land surprisingly close together.</div></details>
     <details class="faq-item" role="listitem"><summary class="faq-q">How do I know if my floor even needs the expensive version?</summary><div class="faq-a">Have someone look at it honestly. If the finish is dull but intact — water still beads on it — a $1.99 recoat may buy you years, and we'll say so at the estimate, because it's the right call even though it's our cheapest service. Gray boards, bare traffic paths, or a color change put you in full-sand territory.</div></details>
   </div>
-</section>
+</div>
 
 <style>
   .faq-wrap{--line:#e5e7eb;margin:28px auto;padding:20px;border:1px solid var(--line);border-radius:16px;background:#fff;box-shadow:0 8px 30px rgba(2,6,23,.06)}
@@ -153,7 +161,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Why is one refinishing quote $2/sq ft and another $6?", "acceptedAnswer": {"@type": "Answer", "text": "Usually because they're different services. Around $2 is screen-and-recoat territory — a fresh coat over existing finish, like our $1.99 rate. Around $6 is a full sand with stain, like our $6.50. Ask each contractor one question: are you taking the floor to bare wood? That sorts most quote gaps instantly."}}, {"@type": "Question", "name": "Is a $2/sq ft full refinish possible?", "acceptedAnswer": {"@type": "Answer", "text": "Not credibly, in this market. Sanding to bare wood takes days of labor, machine wear, abrasives, and gallons of finish — a legitimate full sand with a quality finish system costs more to deliver than $2 a foot collects. A full-sand quote at that price is either a recoat in disguise or a job that will be repriced midway."}}, {"@type": "Question", "name": "What should a complete refinishing quote include?", "acceptedAnswer": {"@type": "Answer", "text": "The service named (recoat, full sand, sand plus stain), the finish brand and number of coats, itemized extras — dust containment, appliance moves, stair treads, repairs — the timeline, and the warranty terms. Our quotes list each of those as its own line so the signed number is the invoiced number."}}, {"@type": "Question", "name": "Does the finish brand really matter that much?", "acceptedAnswer": {"@type": "Answer", "text": "It's one of the biggest hidden differences between quotes. Commercial two-component waterbornes cost several times what builder-grade finish costs per gallon, and the difference shows up in years of wear, not on day one. A quote that says just \"polyurethane\" is leaving its biggest variable unnamed."}}, {"@type": "Question", "name": "What do the common add-ons actually cost?", "acceptedAnswer": {"@type": "Answer", "text": "With us, in writing: full dust containment adds $250, moving a washer and dryer pair is $160, other appliances are $80 each, and stairs run $55 to $75 per tread. Board repairs are itemized after we inspect. If a quote doesn't mention these, they usually arrive later as day-of surprises."}}, {"@type": "Question", "name": "Why do you have a 500 sq ft minimum?", "acceptedAnswer": {"@type": "Answer", "text": "Because mobilization is real: machines, crew, setup, and finish products cost nearly the same to bring to a 300 sq ft job as an 800 sq ft one. The minimum keeps our per-foot prices honest instead of padding small jobs quietly. Most Lynnwood main floors clear it comfortably."}}, {"@type": "Question", "name": "Should I just take the middle quote?", "acceptedAnswer": {"@type": "Answer", "text": "No — take the most transparent one. The middle number can be the vaguest of the three. Make every bidder name the service, the finish, the coat count, and the extras, then compare totals for the same scope. When quotes describe identical jobs, the honest ones land surprisingly close together."}}, {"@type": "Question", "name": "How do I know if my floor even needs the expensive version?", "acceptedAnswer": {"@type": "Answer", "text": "Have someone look at it honestly. If the finish is dull but intact — water still beads on it — a $1.99 recoat may buy you years, and we'll say so at the estimate, because it's the right call even though it's our cheapest service. Gray boards, bare traffic paths, or a color change put you in full-sand territory."}}]}
 </script></div>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-cta" style="margin:30px 0">
+<div data-rt-embed-type='true'><div class="ocb ocb-cta" style="margin:30px 0">
   <style>
     html body .post-body .ocb-cta h2, .ocb-cta h2{color:#fff!important}
     html body .post-body .ocb-cta .ocb-cta-sub, .ocb-cta .ocb-cta-sub{color:rgba(255,255,255,.88)!important}
@@ -163,18 +171,18 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     html body .post-body .ocb-cta a.ocb-cta-phone, .ocb-cta a.ocb-cta-phone{color:#5c0000!important;text-decoration:none!important}
   </style>
   <div style="background:linear-gradient(135deg,#8B0000,#5c0000);border-radius:20px;padding:28px 24px;color:#fff;text-align:center;box-shadow:0 14px 34px rgba(92,0,0,.3)">
-    <h2 style="margin:0 0 6px;color:#fff;font-size:24px;font-weight:900">Get the Quote That Itemizes Everything</h2>
-    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.85);font-size:16.3px">Published rates, written line items, and a floor inspection before the number — free in-home estimates across Lynnwood, King &amp; Snohomish County.</p>
+    <h2 style="margin:0 0 6px;color:#fff!important;font-size:24px;font-weight:900">Get the Quote That Itemizes Everything</h2>
+    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.92)!important;font-size:16.3px">Published rates, written line items, and a floor inspection before the number — free in-home estimates across Lynnwood, King &amp; Snohomish County.</p>
     <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
-      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff;color:#5c0000;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> (425) 595-1079</a>
-      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.4);color:#fff;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none">Book My Free Consultation</a>
+      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff!important;color:#5c0000!important;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none!important"><span class="ocb-ic ocb-ic-phone"></span> (425) 595-1079</a>
+      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.16)!important;border:1px solid rgba(255,255,255,.55);color:#fff!important;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none!important">Book My Free Consultation</a>
     </div>
-    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.9)">
+    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.95)!important">
       <span>✓ Since 2013</span><span>✓ 1,000+ floors</span><span>✓ 1-yr workmanship warranty</span><span>✓ Licensed &amp; insured</span><span>✓ Financing available</span>
     </div>
-    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
+    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04!important;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
   </div>
-</section></div>
+</div></div>
 
 <p><strong>Related reading:</strong> <a href="/blog/how-much-does-it-cost-to-refinish-hardwood-floors">2026 refinishing cost guide</a> · <a href="/blog/sand-and-refinish-vs-screen-and-recoat-which-is-right-for-your-hardwood-floors">Full refinish vs screen &amp; recoat</a> · <a href="/blog/sandless-hardwood-floor-refinishing-does-it-work">Does sandless refinishing work?</a> · <a href="/city-of-lynnwood/hardwood-floor-refinishing-in-lynnwood-wa">Hardwood floor refinishing in Lynnwood</a> · <a href="/contact">Book a free estimate</a></p>
 

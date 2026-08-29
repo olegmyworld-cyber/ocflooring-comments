@@ -35,29 +35,37 @@ html body .post-body .ocb-fact p, .ocb-fact p{margin:0!important;font-size:14.7p
 html.ocb-anim-ready .ocb-rv{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
 html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 @media (prefers-reduced-motion:reduce){html.ocb-anim-ready .ocb-rv{opacity:1!important;transform:none!important;transition:none!important}.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:none}}
+
+/* Chip icons. Webflow's rich-text sanitizer strips inline <svg> whenever a post is
+   re-saved in the Editor, so the icons are drawn from CSS on a <span> instead. */
+.ocb-ic{display:inline-block;width:15px;height:15px;flex:0 0 auto;vertical-align:-2px;background-repeat:no-repeat;background-position:center;background-size:contain}
+.ocb-ic-pin{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z'/><circle cx='12' cy='10' r='3'/></svg>')}
+.ocb-ic-home{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z'/><polyline points='9 22 9 12 15 12 15 22'/></svg>')}
+.ocb-ic-phone{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z'/></svg>')}
+.ocb-cta .ocb-ic{filter:brightness(0) saturate(100%) invert(9%) sepia(64%) saturate(4000%) hue-rotate(348deg)}
 </style></div>
 
-<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 -6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">October 16, 2026</span></div></div>
+<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">October 16, 2026</span></div></div>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
+<div data-rt-embed-type='true'><div class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
   <span class="ocb-eyebrow">Quick answer</span>
   <p style="margin:0;font-size:17.9px;line-height:1.65"><strong>Yes, you can live in your home during a refinish — most of our Redmond clients do — and the way it works is phasing: we split the house into zones, refinish one while you live in the other, then swap.</strong> Waterborne finishes make it possible (socks the same evening, ~65 g/L VOCs instead of oil&rsquo;s 450–550), and the price per square foot doesn&rsquo;t change. What phasing costs you is calendar — two shorter disruptions instead of one — and it has honest limits we&rsquo;ll spell out, including the one floor plan where we&rsquo;ll recommend a hotel anyway.</p>
   <div class="ocb-chips">
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg> King &amp; Snohomish County</span>
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg> Redmond occupied homes</span>
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-pin"></span> King &amp; Snohomish County</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-home"></span> Redmond occupied homes</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-phone"></span> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
   </div>
-</section></div>
+</div></div>
 
 <p>The question behind the question, when someone asks about living through a refinish, is usually &ldquo;do we have to move out, board the dog, and eat takeout on the porch for a week?&rdquo; Twenty years ago the honest answer was close to yes — oil-modified finishes made occupied refinishing miserable. With the waterborne systems we run now, the honest answer is that occupancy is a scheduling problem, not a chemistry problem, and scheduling problems have solutions.</p>
 
 <p>This post is the solution we use most: room-by-room phasing. It&rsquo;s how a family of four keeps sleeping in their own beds while every floor in the house gets done. It works. It also has real trade-offs — a longer total calendar, some furniture Tetris, and a couple of floor plans where it&rsquo;s genuinely the wrong call — and you deserve those up front, not at the kitchen-table estimate.</p>
 
-<div data-rt-embed-type='true'><section class="ocb"><div class="ocb-facts">
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-facts">
   <div class="ocb-fact"><span class="n">~65 g/L</span><p>VOC content of the Bona Traffic HD system we use — GREENGUARD Gold certified, low-odor enough that families routinely sleep home the night a coat goes down. Oil-modified poly runs 450–550 g/L; phasing an occupied home around that is not something we&rsquo;d sell you.</p></div>
   <div class="ocb-fact"><span class="n">48–72 hrs</span><p>before furniture returns to a finished zone — the number the whole phasing schedule is built around. Sock traffic is fine the same evening.</p></div>
   <div class="ocb-fact"><span class="n">2 zones</span><p>is the typical split for a phased refinish: bedrooms-and-hall as one, living areas as the other. Each zone takes 2–4 days of work; the swap happens when zone one is furniture-ready.</p></div>
-</div></section></div>
+</div></div></div>
 
 <h2>Why Living Through a Refinish Became Reasonable</h2>
 
@@ -71,7 +79,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 
 <p>Then the swap. Zone one takes sock traffic the evening of its final coat and furniture at 48–72 hours — so beds go back, the family moves in, and zone two empties for its own 2–4 days. Rugs stay off everything for 7 days per zone while the finish cures, and the <a href="/blog/how-long-before-you-can-walk-on-refinished-floors">walk-on timeline</a> governs each zone independently. Total calendar: usually 7–10 days for what would be a 3–5 day empty-house job. That&rsquo;s the price of sleeping in your own bed, and most families consider it a bargain.</p>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-card">
+<div data-rt-embed-type='true'><div class="ocb ocb-card">
   <h3 style="margin:0 0 10px;font-size:18.5px;font-weight:900;color:#5c0000">A typical phased week (1,600 sq ft, two zones)</h3>
   <div style="overflow-x:auto"><table class="ocb-table">
     <tr><th>Day</th><th>Zone 1: bedrooms &amp; hall</th><th>Zone 2: kitchen &amp; living</th><th>You</th></tr>
@@ -83,7 +91,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     <tr><td>8</td><td>—</td><td>Final coat</td><td>Kitchen back in socks that evening</td></tr>
     <tr><td>9–10</td><td>Rugs at day 10</td><td>Curing; furniture at 48–72h</td><td>House fully yours; rugs wait 7 days per zone</td></tr>
   </table></div>
-</section></div>
+</div></div>
 
 <h2>The Honest Trade-Offs</h2>
 
@@ -106,7 +114,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 <p>Every phased job starts with a walkthrough where we map the zones, the bathroom logistics, and the seam lines on your actual floor plan — details for the area on our <a href="/city-of-redmond/hardwood-floor-refinishing-in-redmond-wa">Redmond refinishing page</a>.</p>
 
 <div data-rt-embed-type='true'><!-- FAQ accordion + JSON-LD -->
-<section class="faq-wrap ocb" aria-labelledby="faq-title">
+<div class="faq-wrap ocb" aria-labelledby="faq-title">
   <h2 id="faq-title" class="faq-title">Living Through a Refinish: What Redmond Homeowners Ask</h2>
   <div class="faq-items" role="list">
     <details class="faq-item" role="listitem"><summary class="faq-q">Can we really stay in the house the whole time?</summary><div class="faq-a">Most of our occupied-home clients do. With low-VOC waterborne finishes, sleeping in the house the night a coat goes down is routine — the phased schedule exists precisely so there's always a furnished, finished zone to live in. The genuinely rough patches are the sanding days in each phase, which are loud during work hours.</div></details>
@@ -118,7 +126,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     <details class="faq-item" role="listitem"><summary class="faq-q">How much dust should we actually expect?</summary><div class="faq-a">Modern vacuum-assisted sanding captures the large majority at the source, so the days of dust on every horizontal surface are gone. For occupied homes we recommend full dust containment — sealed doorways and protected HVAC returns — at a flat $250, which keeps the living zone genuinely livable rather than technically livable.</div></details>
     <details class="faq-item" role="listitem"><summary class="faq-q">Is it better to just move out for a few days?</summary><div class="faq-a">Sometimes, honestly, yes. A single-phase job in an empty house is faster (3–5 days total), slightly cheaper in disruption if not in dollars, and mandatory-adjacent for whole-house dark stain work or fully open floor plans. If you have somewhere easy to stay, we'll tell you when that's the smarter play at the estimate.</div></details>
   </div>
-</section>
+</div>
 
 <style>
   .faq-wrap{--line:#e5e7eb;margin:28px auto;padding:20px;border:1px solid var(--line);border-radius:16px;background:#fff;box-shadow:0 8px 30px rgba(2,6,23,.06)}
@@ -135,7 +143,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Can we really stay in the house the whole time?", "acceptedAnswer": {"@type": "Answer", "text": "Most of our occupied-home clients do. With low-VOC waterborne finishes, sleeping in the house the night a coat goes down is routine — the phased schedule exists precisely so there's always a furnished, finished zone to live in. The genuinely rough patches are the sanding days in each phase, which are loud during work hours."}}, {"@type": "Question", "name": "Does refinishing room by room cost more?", "acceptedAnswer": {"@type": "Answer", "text": "The per-square-foot rates are the same — $3.99 for a full natural refinish, $1.99 for a buff and coat. What phasing costs is time: a 3–5 day empty-house job becomes 7–10 days in two phases. Our 500 sq ft project minimum applies as usual, and very small phases aren't practical to schedule."}}, {"@type": "Question", "name": "Will we see a line where one phase ended and the next began?", "acceptedAnswer": {"@type": "Answer", "text": "Not if the seam falls at a doorway or natural threshold, which is how we design the zones. Sanding and finishing stop and restart at that break, and on a natural-finish floor the transition disappears. Mid-room seams are a different story — which is why open-concept spaces get refinished as a single phase."}}, {"@type": "Question", "name": "How long is each room out of service?", "acceptedAnswer": {"@type": "Answer", "text": "Count 2–4 working days per zone, then sock traffic the same evening as the final coat, shoes and furniture at 48–72 hours, and rugs after 7 days. A bedroom is typically back in full service — bed, dresser, everything but the rug — about three days after its final coat."}}, {"@type": "Question", "name": "What about the kitchen? We have to eat somewhere.", "acceptedAnswer": {"@type": "Answer", "text": "The kitchen anchors the phasing plan. We schedule it in whichever phase leaves it available longest, and when its turn comes, the 48–72 hour furniture window is when you lean on takeout or the grill. Fridges and ranges sitting on hardwood get moved and reset by us — $80 per appliance."}}, {"@type": "Question", "name": "Can the kids and the dog stay during the work?", "acceptedAnswer": {"@type": "Answer", "text": "Generally yes, with zone discipline: closed doors or gates between the household and the day's work area, and everyone including the dog off new finish until it's ready for traffic. The low-VOC finishes we use are the reason this is reasonable; with oil-based products we'd tell you honestly to relocate the household instead."}}, {"@type": "Question", "name": "How much dust should we actually expect?", "acceptedAnswer": {"@type": "Answer", "text": "Modern vacuum-assisted sanding captures the large majority at the source, so the days of dust on every horizontal surface are gone. For occupied homes we recommend full dust containment — sealed doorways and protected HVAC returns — at a flat $250, which keeps the living zone genuinely livable rather than technically livable."}}, {"@type": "Question", "name": "Is it better to just move out for a few days?", "acceptedAnswer": {"@type": "Answer", "text": "Sometimes, honestly, yes. A single-phase job in an empty house is faster (3–5 days total), slightly cheaper in disruption if not in dollars, and mandatory-adjacent for whole-house dark stain work or fully open floor plans. If you have somewhere easy to stay, we'll tell you when that's the smarter play at the estimate."}}]}
 </script></div>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-cta" style="margin:30px 0">
+<div data-rt-embed-type='true'><div class="ocb ocb-cta" style="margin:30px 0">
   <style>
     html body .post-body .ocb-cta h2, .ocb-cta h2{color:#fff!important}
     html body .post-body .ocb-cta .ocb-cta-sub, .ocb-cta .ocb-cta-sub{color:rgba(255,255,255,.88)!important}
@@ -145,18 +153,18 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     html body .post-body .ocb-cta a.ocb-cta-phone, .ocb-cta a.ocb-cta-phone{color:#5c0000!important;text-decoration:none!important}
   </style>
   <div style="background:linear-gradient(135deg,#8B0000,#5c0000);border-radius:20px;padding:28px 24px;color:#fff;text-align:center;box-shadow:0 14px 34px rgba(92,0,0,.3)">
-    <h2 style="margin:0 0 6px;color:#fff;font-size:24px;font-weight:900">Want the Floors Done Without Moving Out?</h2>
-    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.85);font-size:16.3px">Bring us your floor plan and your calendar — we&rsquo;ll map the zones, the seams, and the schedule so the house keeps working while the floors get new. Free estimates across King &amp; Snohomish County.</p>
+    <h2 style="margin:0 0 6px;color:#fff!important;font-size:24px;font-weight:900">Want the Floors Done Without Moving Out?</h2>
+    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.92)!important;font-size:16.3px">Bring us your floor plan and your calendar — we&rsquo;ll map the zones, the seams, and the schedule so the house keeps working while the floors get new. Free estimates across King &amp; Snohomish County.</p>
     <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
-      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff;color:#5c0000;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> (425) 595-1079</a>
-      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.4);color:#fff;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none">Book My Free Consultation</a>
+      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff!important;color:#5c0000!important;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none!important"><span class="ocb-ic ocb-ic-phone"></span> (425) 595-1079</a>
+      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.16)!important;border:1px solid rgba(255,255,255,.55);color:#fff!important;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none!important">Book My Free Consultation</a>
     </div>
-    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.9)">
+    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.95)!important">
       <span>✓ Since 2013</span><span>✓ 1,000+ floors</span><span>✓ 1-yr workmanship warranty</span><span>✓ Licensed &amp; insured</span><span>✓ Financing available</span>
     </div>
-    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
+    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04!important;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
   </div>
-</section></div>
+</div></div>
 
 <p><strong>Related reading:</strong> <a href="/blog/low-voc-hardwood-floor-finishes-kids-pets">Low-VOC refinishing with kids and pets</a> · <a href="/blog/hardwood-floor-refinishing-how-to-store-furniture-during-the-process">Where the furniture goes</a> · <a href="/blog/how-long-before-you-can-walk-on-refinished-floors">When you can walk on new floors</a> · <a href="/city-of-redmond/hardwood-floor-refinishing-in-redmond-wa">Hardwood floor refinishing in Redmond</a> · <a href="/contact">Book a free estimate</a></p>
 

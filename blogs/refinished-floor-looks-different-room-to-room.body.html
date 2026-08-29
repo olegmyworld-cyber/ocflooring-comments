@@ -35,29 +35,37 @@ html body .post-body .ocb-fact p, .ocb-fact p{margin:0!important;font-size:14.7p
 html.ocb-anim-ready .ocb-rv{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
 html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 @media (prefers-reduced-motion:reduce){html.ocb-anim-ready .ocb-rv{opacity:1!important;transform:none!important;transition:none!important}.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:none}}
+
+/* Chip icons. Webflow's rich-text sanitizer strips inline <svg> whenever a post is
+   re-saved in the Editor, so the icons are drawn from CSS on a <span> instead. */
+.ocb-ic{display:inline-block;width:15px;height:15px;flex:0 0 auto;vertical-align:-2px;background-repeat:no-repeat;background-position:center;background-size:contain}
+.ocb-ic-pin{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z'/><circle cx='12' cy='10' r='3'/></svg>')}
+.ocb-ic-home{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z'/><polyline points='9 22 9 12 15 12 15 22'/></svg>')}
+.ocb-ic-phone{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z'/></svg>')}
+.ocb-cta .ocb-ic{filter:brightness(0) saturate(100%) invert(9%) sepia(64%) saturate(4000%) hue-rotate(348deg)}
 </style></div>
 
-<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 -6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">February 3, 2027</span></div></div>
+<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">February 3, 2027</span></div></div>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
+<div data-rt-embed-type='true'><div class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
   <span class="ocb-eyebrow">Quick answer</span>
   <p style="margin:0;font-size:17.9px;line-height:1.65"><strong>A refinished floor that looks different room to room usually isn’t a finishing mistake — it’s light, wood, or history: each room lights the same surface differently, Bellevue’s remodel-heavy houses often contain two or three separate generations of oak wearing one finish, and stain amplifies every one of those differences.</strong> Some of it is physics you learn to love; some of it is diagnosable and fixable; a small, specific list of it is legitimate workmanship failure. Here’s how to tell which one you’re looking at.</p>
   <div class="ocb-chips">
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg> King &amp; Snohomish County</span>
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg> Bellevue &amp; Eastside homes</span>
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-pin"></span> King &amp; Snohomish County</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-home"></span> Bellevue &amp; Eastside homes</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-phone"></span> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
   </div>
-</section></div>
+</div></div>
 
 <p>This call usually comes about a week after a refinish — sometimes ours, often someone else’s: “The living room looks amazing, but the hallway reads darker, and the kitchen almost looks like a different stain. Did something go wrong?” It’s a fair question, and the honest answer requires splitting a real observation into its causes, because three or four different things produce “looks different room to room,” and they have completely different fixes — ranging from <em>nothing, that’s light</em> to <em>the crew stopped a stain field at a doorway and that’s a re-do</em>.</p>
 
 <p>Bellevue is where we have this conversation most, and not by coincidence. The city’s housing stock — 1980s through 2000s builds, nearly all of it floored in red oak — has been remodeled, expanded, and re-floored more aggressively than anywhere else we work, which means an unusual share of Bellevue floors are actually two or three floors from different decades wearing a single coat of finish. Sand everything flat and coat it identically, and the differences that were hiding under twenty years of grime suddenly get a clean stage to perform on.</p>
 
-<div data-rt-embed-type='true'><section class="ocb"><div class="ocb-facts">
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-facts">
   <div class="ocb-fact"><span class="n">1290 / ~1360</span><p>the Janka hardness of red oak and white oak — near-twins on paper that take stain and light differently in person. Mixed-oak floors from successive remodels are the top cause of true room-to-room color shifts we diagnose.</p></div>
   <div class="ocb-fact"><span class="n">$6.50/sq ft</span><p>our stain refinish rate, versus $3.99 for natural. Stain amplifies every difference in wood density, species, and grain — the darker and cooler the color, the more rooms can diverge.</p></div>
   <div class="ocb-fact"><span class="n">2–3 coats</span><p>of commercial waterborne in every system we apply, mixed and laid the same in every room. When rooms still read differently under identical finish, the cause is almost always light or wood — which is good news, because both are diagnosable.</p></div>
-</div></section></div>
+</div></div></div>
 
 <h2>Cause #1: The Same Floor Is Never in the Same Room Twice</h2>
 
@@ -81,7 +89,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 
 <h2>What’s Normal — and What’s Worth a Callback</h2>
 
-<div data-rt-embed-type='true'><section class="ocb"><div class="ocb-2col">
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-2col">
   <div class="ocb-card" style="margin:0">
     <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#5c0000">Normal, not a defect…</h3>
     <ul class="ocb-check">
@@ -102,7 +110,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
       <li>Sanding marks (edger swirls, stop marks) appearing in some rooms only</li>
     </ul>
   </div>
-</div></section></div>
+</div></div></div>
 
 <h2>The Bellevue Specifics</h2>
 
@@ -111,7 +119,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 <p>One practical note: Bellevue doesn’t have its own refinishing service page on our site yet — our closest coverage pages are <a href="/seattle/hardwood-floor-refinishing-in-seattle-wa">hardwood floor refinishing in Seattle</a> and <a href="/city-of-kirkland/hardwood-floor-refinishing-in-kirkland-wa">Kirkland</a>, and we work Bellevue from both sides of the lake weekly. The estimate process is the same: we walk every room, flag the wood transitions and light conditions that will matter, and tell you before sanding starts what will match, what will harmonize, and what will honestly stay a little different.</p>
 
 <div data-rt-embed-type='true'><!-- FAQ accordion + JSON-LD -->
-<section class="faq-wrap ocb" aria-labelledby="faq-title">
+<div class="faq-wrap ocb" aria-labelledby="faq-title">
   <h2 id="faq-title" class="faq-title">Room-to-Room Differences: What Bellevue Homeowners Ask Us</h2>
   <div class="faq-items" role="list">
     <details class="faq-item" role="listitem"><summary class="faq-q">Why does my hallway look darker than the living room after refinishing?</summary><div class="faq-a">Nine times out of ten: light. Hallways get little daylight and depend on bulbs, and warm bulbs deepen wood tones noticeably. Test by carrying a uniform object — a sample board is ideal — between the two spaces; if it shifts too, the floor is consistent. If it doesn’t shift and the floor does, look at wood differences next.</div></details>
@@ -123,7 +131,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     <details class="faq-item" role="listitem"><summary class="faq-q">Why does the floor look different at night than during the day?</summary><div class="faq-a">Color temperature. Daylight is cool and blue-shifted; most household bulbs are warm and orange-shifted; the floor reflects what falls on it. If the evening version bothers you, changing bulbs (try 3000K) is a fifty-dollar experiment worth running before any thousand-dollar conversation about the floor itself.</div></details>
     <details class="faq-item" role="listitem"><summary class="faq-q">Should we just pick a different stain for each room to compensate?</summary><div class="faq-a">We advise against it in connected spaces — chasing uniformity with per-room custom mixes creates a maintenance problem forever after, since every future repair or refinish has to reproduce multiple recipes. One color, one field, chosen to flatter the majority of the wood, ages better and refinishes simpler.</div></details>
   </div>
-</section>
+</div>
 
 <style>
   .faq-wrap{--line:#e5e7eb;margin:28px auto;padding:20px;border:1px solid var(--line);border-radius:16px;background:#fff;box-shadow:0 8px 30px rgba(2,6,23,.06)}
@@ -140,7 +148,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Why does my hallway look darker than the living room after refinishing?", "acceptedAnswer": {"@type": "Answer", "text": "Nine times out of ten: light. Hallways get little daylight and depend on bulbs, and warm bulbs deepen wood tones noticeably. Test by carrying a uniform object — a sample board is ideal — between the two spaces; if it shifts too, the floor is consistent. If it doesn’t shift and the floor does, look at wood differences next."}}, {"@type": "Question", "name": "Will the rooms even out over time?", "acceptedAnswer": {"@type": "Answer", "text": "Partially, and sometimes fully. Freshly sanded wood does most of its light-driven color change in the first year, and rooms with more sun move faster — which can either close a gap or open one, depending on which room started darker. Wood-based differences (two species, two eras) don’t disappear with time, though they often soften as everything mellows."}}, {"@type": "Question", "name": "Can you make a remodel-era addition match the original floor exactly?", "acceptedAnswer": {"@type": "Answer", "text": "Exactly is the wrong promise — different-age wood takes color differently forever. What we can do: sand everything as one field so height and texture are identical, choose stains that narrow the species gap, or re-lace transition zones with matched wood before sanding. Done well, the result reads as one floor with minor character variation rather than two floors."}}, {"@type": "Question", "name": "Same stain, two rooms, visibly different color — how?", "acceptedAnswer": {"@type": "Answer", "text": "Different absorption. Wood density, species, grade, and end-of-board grain all change how much pigment stays in the wood. This is exactly why stain work costs more than natural ($6.50 vs $3.99 per square foot with us): uniform stain results depend on extra sanding and conditioning steps. A big visible difference under identical light usually means a wood transition — or prep that varied between rooms."}}, {"@type": "Question", "name": "Could it be different finish batches?", "acceptedAnswer": {"@type": "Answer", "text": "Rarely with professional products — commercial waterborne finishes are factory-consistent, and we mix containers on multi-bucket jobs as insurance. Sheen mismatches (a satin room next to a matte-looking one) are more often application issues: missed inter-coat abrasion or a thin final coat. That’s on the workmanship list, not the physics list — worth a callback."}}, {"@type": "Question", "name": "Do you sand and finish room by room, or everything at once?", "acceptedAnswer": {"@type": "Answer", "text": "Connected areas get treated as one continuous field — sanded with the same grit sequence, stained the same day from the same mix, coated in the same sessions. Stopping a stain field at a doorway and resuming later is exactly how visible lines happen. Room-by-room scheduling has its place in occupied homes, but the breaks must land at natural transitions, planned in advance."}}, {"@type": "Question", "name": "Why does the floor look different at night than during the day?", "acceptedAnswer": {"@type": "Answer", "text": "Color temperature. Daylight is cool and blue-shifted; most household bulbs are warm and orange-shifted; the floor reflects what falls on it. If the evening version bothers you, changing bulbs (try 3000K) is a fifty-dollar experiment worth running before any thousand-dollar conversation about the floor itself."}}, {"@type": "Question", "name": "Should we just pick a different stain for each room to compensate?", "acceptedAnswer": {"@type": "Answer", "text": "We advise against it in connected spaces — chasing uniformity with per-room custom mixes creates a maintenance problem forever after, since every future repair or refinish has to reproduce multiple recipes. One color, one field, chosen to flatter the majority of the wood, ages better and refinishes simpler."}}]}
 </script></div>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-cta" style="margin:30px 0">
+<div data-rt-embed-type='true'><div class="ocb ocb-cta" style="margin:30px 0">
   <style>
     html body .post-body .ocb-cta h2, .ocb-cta h2{color:#fff!important}
     html body .post-body .ocb-cta .ocb-cta-sub, .ocb-cta .ocb-cta-sub{color:rgba(255,255,255,.88)!important}
@@ -150,18 +158,18 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     html body .post-body .ocb-cta a.ocb-cta-phone, .ocb-cta a.ocb-cta-phone{color:#5c0000!important;text-decoration:none!important}
   </style>
   <div style="background:linear-gradient(135deg,#8B0000,#5c0000);border-radius:20px;padding:28px 24px;color:#fff;text-align:center;box-shadow:0 14px 34px rgba(92,0,0,.3)">
-    <h2 style="margin:0 0 6px;color:#fff;font-size:24px;font-weight:900">Want to Know Which Kind of Different You Have?</h2>
-    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.85);font-size:16.3px">We’ll walk every room, find the wood transitions, and tell you before sanding what will match and what won’t — in writing. Free in-home estimates in Bellevue and across King &amp; Snohomish County.</p>
+    <h2 style="margin:0 0 6px;color:#fff!important;font-size:24px;font-weight:900">Want to Know Which Kind of Different You Have?</h2>
+    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.92)!important;font-size:16.3px">We’ll walk every room, find the wood transitions, and tell you before sanding what will match and what won’t — in writing. Free in-home estimates in Bellevue and across King &amp; Snohomish County.</p>
     <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
-      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff;color:#5c0000;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> (425) 595-1079</a>
-      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.4);color:#fff;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none">Book My Free Consultation</a>
+      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff!important;color:#5c0000!important;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none!important"><span class="ocb-ic ocb-ic-phone"></span> (425) 595-1079</a>
+      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.16)!important;border:1px solid rgba(255,255,255,.55);color:#fff!important;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none!important">Book My Free Consultation</a>
     </div>
-    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.9)">
+    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.95)!important">
       <span>✓ Since 2013</span><span>✓ 1,000+ floors</span><span>✓ 1-yr workmanship warranty</span><span>✓ Licensed &amp; insured</span><span>✓ Financing available</span>
     </div>
-    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
+    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04!important;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
   </div>
-</section></div>
+</div></div>
 
 <p><strong>Related reading:</strong> <a href="/blog/red-oak-vs-white-oak-flooring">Red oak vs white oak</a> · <a href="/blog/what-color-should-i-stain-my-wood-floors">Choosing a stain color</a> · <a href="/blog/matte-satin-semi-gloss-hardwood-floor-sheen">Matte, satin, or semi-gloss</a> · <a href="/blog/can-you-add-hardwood-to-existing-hardwood-floors">Adding hardwood to existing hardwood</a> · <a href="/contact">Book a free estimate</a></p>
 

@@ -35,29 +35,37 @@ html body .post-body .ocb-fact p, .ocb-fact p{margin:0!important;font-size:14.7p
 html.ocb-anim-ready .ocb-rv{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
 html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 @media (prefers-reduced-motion:reduce){html.ocb-anim-ready .ocb-rv{opacity:1!important;transform:none!important;transition:none!important}.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:none}}
+
+/* Chip icons. Webflow's rich-text sanitizer strips inline <svg> whenever a post is
+   re-saved in the Editor, so the icons are drawn from CSS on a <span> instead. */
+.ocb-ic{display:inline-block;width:15px;height:15px;flex:0 0 auto;vertical-align:-2px;background-repeat:no-repeat;background-position:center;background-size:contain}
+.ocb-ic-pin{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z'/><circle cx='12' cy='10' r='3'/></svg>')}
+.ocb-ic-home{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z'/><polyline points='9 22 9 12 15 12 15 22'/></svg>')}
+.ocb-ic-phone{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z'/></svg>')}
+.ocb-cta .ocb-ic{filter:brightness(0) saturate(100%) invert(9%) sepia(64%) saturate(4000%) hue-rotate(348deg)}
 </style></div>
 
-<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 -6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">October 21, 2026</span></div></div>
+<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">October 21, 2026</span></div></div>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
+<div data-rt-embed-type='true'><div class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
   <span class="ocb-eyebrow">Quick answer</span>
   <p style="margin:0;font-size:17.9px;line-height:1.65"><strong>Cupping — boards sitting higher at their edges than their centers, so the floor feels like a washboard — is a moisture problem, not a finish problem: the bottom of each board is wetter than the top, almost always from below.</strong> Refinishing can absolutely erase cupping, but only in the right order: find the moisture source, fix it, let the floor dry back to flat or nearly flat, verify with a moisture meter, and <em>then</em> sand. Sand a still-wet cupped floor and you trade cupping for crowning — a worse problem you paid for. Here’s how we handle it in Everett homes, where crawlspaces and marine air keep this at the top of our call log.</p>
   <div class="ocb-chips">
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg> King &amp; Snohomish County</span>
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg> Everett homes</span>
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-pin"></span> King &amp; Snohomish County</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-home"></span> Everett homes</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-phone"></span> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
   </div>
-</section></div>
+</div></div>
 
 <p>Cupping calls have a pattern. The homeowner noticed the floor felt ridged underfoot sometime in the fall, watched it get worse through winter, and is calling in spring with one question: can you sand this flat? The honest answer is “yes, but not yet, and maybe not sand at all” — because cupping is a symptom, and sanding a symptom while the disease is active is how floors get ruined twice. This post walks through what cupping actually is, what causes it in Everett specifically, and the order of operations that fixes it for good.</p>
 
 <p>One reassurance up front: cupped floors are usually saveable. Wood cups because it’s doing exactly what wood does — swelling where it’s wet, staying put where it’s dry. Remove the moisture and much of that movement reverses. The floors we can’t save are almost always the ones where somebody skipped a step: sanded too early, or refinished over a leak that was never found.</p>
 
-<div data-rt-embed-type='true'><section class="ocb"><div class="ocb-facts">
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-facts">
   <div class="ocb-fact"><span class="n">2 faces</span><p>every board has — and cupping means the bottom face is wetter than the top. That gradient is the entire diagnosis; find where the bottom-side moisture comes from and you’ve found the cause.</p></div>
   <div class="ocb-fact"><span class="n">Weeks–months</span><p>how long a seriously wet floor can take to dry back down before it’s safe to sand. The refinish itself is the fast part — typically 3–5 days once the wood is genuinely dry.</p></div>
   <div class="ocb-fact"><span class="n">$3.99</span><p>per sq ft for the full sand and natural finish that erases dried-out cupping. A $1.99 screen and recoat can’t help here — it follows the waves instead of flattening them.</p></div>
-</div></section></div>
+</div></div></div>
 
 <h2>What Cupping Is, Mechanically</h2>
 
@@ -69,7 +77,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 
 <p>In our service area, cupping traces back to a short list. <strong>Crawlspace moisture</strong> is the big one: bare or poorly covered earth under the house breathing water vapor into the subfloor all winter. <strong>Plumbing and appliance leaks</strong> — dishwashers, fridge lines, washing machines — soak the subfloor quietly and cup the boards above; if that’s your situation, our guide on <a href="/blog/what-to-do-when-you-experience-water-damage-in-your-seattle-home-or-business">what to do after water damage</a> covers the first 48 hours. <strong>Seasonal humidity swings</strong> cup floors gently every winter and release them every summer — the same mechanism that opens <a href="/blog/why-does-my-hardwood-floor-have-gaps">gaps between boards</a> in the dry season, running in reverse. And <strong>concrete slabs without a working vapor barrier</strong> feed moisture upward year-round. The severity ranges from “texture you only feel in socks” to “boards lifting off the subfloor” — and the response should range accordingly.</p>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-card">
+<div data-rt-embed-type='true'><div class="ocb ocb-card">
   <h3 style="margin:0 0 10px;font-size:18.5px;font-weight:900;color:#5c0000">Cupping severity: what we actually do at each level</h3>
   <div style="overflow-x:auto"><table class="ocb-table">
     <tr><th>What you see</th><th>What it usually means</th><th>The move</th></tr>
@@ -78,7 +86,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     <tr><td>Pronounced cupping near one appliance or wall</td><td>Localized leak, active or recent</td><td>Stop the leak, dry aggressively, re-evaluate — often refinish, sometimes board replacement first.</td></tr>
     <tr><td>Boards lifting, gapping wildly, or audibly crunching</td><td>Buckling — the floor has left the subfloor</td><td>Beyond refinishing alone; repair or replacement territory.</td></tr>
   </table></div>
-</section></div>
+</div></div>
 
 <h2>Why We Won’t Sand It Right Away (Even If You Ask Nicely)</h2>
 
@@ -95,7 +103,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 <p>Once the floor is verified dry, a cupping correction is a standard full refinish with extra attention on the first cuts: aggressive grit to level the residual ridges, a <a href="/blog/trio-sanding-machine-for-flat-floors">Lägler TRIO final pass</a> to get the surface truly flat rather than approximately flat, then 2–3 coats of Bona or Pallmann waterborne. Natural finish runs $3.99/sq ft, stain $6.50, and the work takes the usual 3–5 days. Two honest caveats. First: if boards were badly compressed at their edges during the wet phase (the trade calls it compression set), a floor can hold a slight permanent cup that even a careful sanding only mostly hides. Second: fix the humidity story or the cup returns — on crawlspace houses that means the ground cover stays intact, and inside, some effort to keep winter humidity from cratering; our piece on <a href="/blog/how-humidity-can-affect-hardwood-and-laminate-flooring">how humidity moves hardwood</a> covers the ranges worth targeting.</p>
 
 <div data-rt-embed-type='true'><!-- FAQ accordion + JSON-LD -->
-<section class="faq-wrap ocb" aria-labelledby="faq-title">
+<div class="faq-wrap ocb" aria-labelledby="faq-title">
   <h2 id="faq-title" class="faq-title">Cupped Floor Questions Everett Homeowners Ask Us</h2>
   <div class="faq-items" role="list">
     <details class="faq-item" role="listitem"><summary class="faq-q">Can refinishing fix cupped hardwood floors?</summary><div class="faq-a">Yes, if the order is right: fix the moisture source, let the floor dry, confirm with moisture meter readings, then sand. A full refinish flattens the residual ridges and refinishes the wood. What refinishing cannot do is fix cupping while the moisture source is still active — the cup simply comes back through the new finish.</div></details>
@@ -107,7 +115,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     <details class="faq-item" role="listitem"><summary class="faq-q">What's the difference between cupping and buckling?</summary><div class="faq-a">Degree, and it matters a lot. Cupping is boards changing shape while staying attached — recoverable. Buckling is boards lifting off the subfloor entirely, usually after major water. Buckled sections generally need board replacement before any refinishing, and sometimes full replacement. If you can slide anything under a board edge, you're past cupping.</div></details>
     <details class="faq-item" role="listitem"><summary class="faq-q">Does homeowners insurance cover a cupped floor?</summary><div class="faq-a">Sometimes — typically when the cupping came from a sudden covered event like a burst pipe or appliance failure, and typically not for long-term crawlspace moisture or maintenance issues. Document everything early with photos and dates, and get the moisture readings in writing. We're happy to provide repair and refinish estimates for claims.</div></details>
   </div>
-</section>
+</div>
 
 <style>
   .faq-wrap{--line:#e5e7eb;margin:28px auto;padding:20px;border:1px solid var(--line);border-radius:16px;background:#fff;box-shadow:0 8px 30px rgba(2,6,23,.06)}
@@ -124,7 +132,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Can refinishing fix cupped hardwood floors?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, if the order is right: fix the moisture source, let the floor dry, confirm with moisture meter readings, then sand. A full refinish flattens the residual ridges and refinishes the wood. What refinishing cannot do is fix cupping while the moisture source is still active — the cup simply comes back through the new finish."}}, {"@type": "Question", "name": "Will my cupped floor flatten on its own?", "acceptedAnswer": {"@type": "Answer", "text": "Often, substantially. If the cause was a one-time event or a fixed leak, boards release much of their cup as the moisture gradient equalizes — over weeks to months, not days. Mild seasonal cupping that appears in winter and vanishes in summer needs no repair at all. Whatever washboard remains once the floor is stable is what sanding is for."}}, {"@type": "Question", "name": "Why can't you just sand it flat now?", "acceptedAnswer": {"@type": "Answer", "text": "Because sanding a wet, cupped floor cuts down the swollen edges, and when the boards later dry and shrink back, those cut edges drop and every board crowns — centers high. That crowning is permanent until another full refinish, and you've spent wood from the floor's limited sanding budget to create it. Drying first isn't caution; it's the difference between fixing the floor once and fixing it twice."}}, {"@type": "Question", "name": "How long does the floor need to dry before sanding?", "acceptedAnswer": {"@type": "Answer", "text": "It varies too much for one number — weeks after a modest leak, months after serious soaking, especially through a Western Washington winter. We go by measurement, not the calendar: when the top and bottom of the boards read within a couple points of each other on a moisture meter and hold steady, the floor is ready."}}, {"@type": "Question", "name": "What causes cupping in Everett homes specifically?", "acceptedAnswer": {"@type": "Answer", "text": "Crawlspace moisture is the leading cause — most older Everett homes sit on vented crawlspaces, and marine air off Port Gardner keeps them damp most of the year, especially where the ground vapor barrier is missing or torn. Plumbing and appliance leaks are next, followed by winter indoor humidity swings and slab moisture in basement-level rooms."}}, {"@type": "Question", "name": "Would a screen and recoat help a cupped floor?", "acceptedAnswer": {"@type": "Answer", "text": "No. A screen and recoat ($1.99/sq ft) abrades and recoats the existing surface, following whatever shape it has — it adds fresh finish to a washboard. Flattening requires the full sand. Recoating is the right tool for dull or lightly scratched flat floors, not for shape problems."}}, {"@type": "Question", "name": "What's the difference between cupping and buckling?", "acceptedAnswer": {"@type": "Answer", "text": "Degree, and it matters a lot. Cupping is boards changing shape while staying attached — recoverable. Buckling is boards lifting off the subfloor entirely, usually after major water. Buckled sections generally need board replacement before any refinishing, and sometimes full replacement. If you can slide anything under a board edge, you're past cupping."}}, {"@type": "Question", "name": "Does homeowners insurance cover a cupped floor?", "acceptedAnswer": {"@type": "Answer", "text": "Sometimes — typically when the cupping came from a sudden covered event like a burst pipe or appliance failure, and typically not for long-term crawlspace moisture or maintenance issues. Document everything early with photos and dates, and get the moisture readings in writing. We're happy to provide repair and refinish estimates for claims."}}]}
 </script></div>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-cta" style="margin:30px 0">
+<div data-rt-embed-type='true'><div class="ocb ocb-cta" style="margin:30px 0">
   <style>
     html body .post-body .ocb-cta h2, .ocb-cta h2{color:#fff!important}
     html body .post-body .ocb-cta .ocb-cta-sub, .ocb-cta .ocb-cta-sub{color:rgba(255,255,255,.88)!important}
@@ -134,18 +142,18 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     html body .post-body .ocb-cta a.ocb-cta-phone, .ocb-cta a.ocb-cta-phone{color:#5c0000!important;text-decoration:none!important}
   </style>
   <div style="background:linear-gradient(135deg,#8B0000,#5c0000);border-radius:20px;padding:28px 24px;color:#fff;text-align:center;box-shadow:0 14px 34px rgba(92,0,0,.3)">
-    <h2 style="margin:0 0 6px;color:#fff;font-size:24px;font-weight:900">Got a Washboard Where Your Floor Used to Be?</h2>
-    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.85);font-size:16.3px">We’ll find out why before we talk about sanding — moisture readings, a look below if there’s access, and a written plan with real numbers. Free estimates across Everett, King &amp; Snohomish County.</p>
+    <h2 style="margin:0 0 6px;color:#fff!important;font-size:24px;font-weight:900">Got a Washboard Where Your Floor Used to Be?</h2>
+    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.92)!important;font-size:16.3px">We’ll find out why before we talk about sanding — moisture readings, a look below if there’s access, and a written plan with real numbers. Free estimates across Everett, King &amp; Snohomish County.</p>
     <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
-      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff;color:#5c0000;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> (425) 595-1079</a>
-      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.4);color:#fff;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none">Book My Free Consultation</a>
+      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff!important;color:#5c0000!important;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none!important"><span class="ocb-ic ocb-ic-phone"></span> (425) 595-1079</a>
+      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.16)!important;border:1px solid rgba(255,255,255,.55);color:#fff!important;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none!important">Book My Free Consultation</a>
     </div>
-    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.9)">
+    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.95)!important">
       <span>✓ Since 2013</span><span>✓ 1,000+ floors</span><span>✓ 1-yr workmanship warranty</span><span>✓ Licensed &amp; insured</span><span>✓ Financing available</span>
     </div>
-    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
+    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04!important;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
   </div>
-</section></div>
+</div></div>
 
 <p><strong>Related reading:</strong> <a href="/blog/what-to-do-when-you-experience-water-damage-in-your-seattle-home-or-business">First steps after water damage</a> · <a href="/blog/how-humidity-can-affect-hardwood-and-laminate-flooring">How humidity moves hardwood</a> · <a href="/blog/best-time-of-year-refinish-floors-western-washington">Best time of year to refinish here</a> · <a href="/city-of-everett/hardwood-floor-refinishing-in-everett-wa">Hardwood floor refinishing in Everett</a> · <a href="/contact">Book a free estimate</a></p>
 

@@ -35,29 +35,37 @@ html body .post-body .ocb-fact p, .ocb-fact p{margin:0!important;font-size:14.7p
 html.ocb-anim-ready .ocb-rv{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
 html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 @media (prefers-reduced-motion:reduce){html.ocb-anim-ready .ocb-rv{opacity:1!important;transform:none!important;transition:none!important}.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:none}}
+
+/* Chip icons. Webflow's rich-text sanitizer strips inline <svg> whenever a post is
+   re-saved in the Editor, so the icons are drawn from CSS on a <span> instead. */
+.ocb-ic{display:inline-block;width:15px;height:15px;flex:0 0 auto;vertical-align:-2px;background-repeat:no-repeat;background-position:center;background-size:contain}
+.ocb-ic-pin{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z'/><circle cx='12' cy='10' r='3'/></svg>')}
+.ocb-ic-home{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z'/><polyline points='9 22 9 12 15 12 15 22'/></svg>')}
+.ocb-ic-phone{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z'/></svg>')}
+.ocb-cta .ocb-ic{filter:brightness(0) saturate(100%) invert(9%) sepia(64%) saturate(4000%) hue-rotate(348deg)}
 </style></div>
 
-<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 -6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">September 7, 2026</span></div></div>
+<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">September 7, 2026</span></div></div>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
+<div data-rt-embed-type='true'><div class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
   <span class="ocb-eyebrow">Quick answer</span>
   <p style="margin:0;font-size:17.9px;line-height:1.65"><strong>Refinishing a Mercer Island waterfront home comes down to three things the rest of our service area mostly doesn’t deal with: intense UV bouncing off the lake, walls of glass that show every flaw in a floor, and households that are staying put while we work.</strong> The playbook: a non-yellowing commercial waterborne finish, a sheen chosen for glare, dust containment, and a schedule built around your family rather than ours. Here’s how we run these projects, and what they cost.</p>
   <div class="ocb-chips">
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg> King &amp; Snohomish County</span>
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg> Mercer Island waterfront</span>
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-pin"></span> King &amp; Snohomish County</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-home"></span> Mercer Island waterfront</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-phone"></span> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
   </div>
-</section></div>
+</div></div>
 
 <p>Mercer Island floors have a particular biography. The midcentury ramblers that filled the island in the 50s and 60s were built with good oak at a time when that was simply what you did; the waterfront customs and down-to-the-studs remodels along East and West Mercer Way added wide white oak, walls of glass, and — this is the part that matters to us — some of the most punishing natural light we work under anywhere. Sunlight that has already bounced off Lake Washington arrives at your floor twice, and it shows: the sharpest rug-shaped fade lines we see anywhere in King County are on island waterfront floors.</p>
 
 <p>So a waterfront refinish isn’t a different service — it’s the same sanding, the same finishing — but the decisions around it tilt. Finish chemistry matters more because of the sun. Sheen matters more because of the glass and the view. And logistics matter more because these are occupied family homes, not flips. Below is the whole picture, honestly priced.</p>
 
-<div data-rt-embed-type='true'><section class="ocb"><div class="ocb-facts">
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-facts">
   <div class="ocb-fact"><span class="n">2×</span><p>the light exposure, roughly speaking — waterfront floors take direct sun plus reflection off the water. UV is the main reason island floors fade and amber faster than the same oak two miles inland.</p></div>
   <div class="ocb-fact"><span class="n">+$250</span><p>flat fee for full dust containment — plastic barriers and sealed work zones on top of our standard at-the-machine dust capture. On occupied island homes, most clients consider it the best $250 of the project.</p></div>
   <div class="ocb-fact"><span class="n">48–72 hrs</span><p>until furniture goes back on the waterborne systems we use. Socks the same evening as the final coat, rugs after a week — you’re inconvenienced, not displaced.</p></div>
-</div></section></div>
+</div></div></div>
 
 <h2>What Waterfront Light Actually Does to a Floor</h2>
 
@@ -81,7 +89,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 
 <p>Island pricing is our regular pricing — the lake view doesn’t change the rate. A full sand and natural refinish is $3.99 per square foot; staining brings it to $6.50; stairs run $55–$75 per tread, and we carry a 500 square foot minimum. A typical main-level refinish takes 3–5 days from first sanding pass to final coat. Where waterfront projects do tend to spend more is scope, not rate: bigger footprints, staircases, and the dust-containment and appliance line items above. The complete breakdown — with every add-on we charge and the ones we don’t — is in our <a href="/blog/how-much-does-it-cost-to-refinish-hardwood-floors">refinishing cost guide</a>.</p>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-card">
+<div data-rt-embed-type='true'><div class="ocb ocb-card">
   <h3 style="margin:0 0 10px;font-size:18.5px;font-weight:900;color:#5c0000">The waterfront playbook, on one card</h3>
   <div style="overflow-x:auto"><table class="ocb-table">
     <tr><th>Waterfront reality</th><th>What we do about it</th></tr>
@@ -93,10 +101,10 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     <tr><td>Art, built-ins, allergies</td><td>Full dust containment, +$250 flat</td></tr>
     <tr><td>Appliance and furniture moves</td><td>$160 washer/dryer pair, $80 other appliances — in writing</td></tr>
   </table></div>
-</section></div>
+</div></div>
 
 <div data-rt-embed-type='true'><!-- FAQ accordion + JSON-LD -->
-<section class="faq-wrap ocb" aria-labelledby="faq-title">
+<div class="faq-wrap ocb" aria-labelledby="faq-title">
   <h2 id="faq-title" class="faq-title">Waterfront Refinishing: What Mercer Island Homeowners Ask</h2>
   <div class="faq-items" role="list">
     <details class="faq-item" role="listitem"><summary class="faq-q">Does a waterfront location really change how a floor should be finished?</summary><div class="faq-a">Yes, mainly through light. Sun plus reflection off the water accelerates fading and ambering, so a non-yellowing waterborne finish matters more here than almost anywhere else. Sheen choice matters too — satin and matte control the glare that gloss amplifies next to big glazing.</div></details>
@@ -108,7 +116,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     <details class="faq-item" role="listitem"><summary class="faq-q">What sheen do most island homeowners choose?</summary><div class="faq-a">Satin, by a wide margin — it flatters wide-plank white oak, controls glare off the water, and hides daily life better than gloss. True matte is the second choice, especially in modern remodels. Gloss next to a window wall is a decision people tend to revisit.</div></details>
     <details class="faq-item" role="listitem"><summary class="faq-q">Our 1960s floor has been under carpet for decades. Is it salvageable?</summary><div class="faq-a">Almost certainly better than salvageable — carpet is a preservation program for hardwood. Midcentury island oak usually emerges with decades of refinishing life left, and transforming it costs a fraction of new flooring. We'll confirm thickness and condition at a free estimate.</div></details>
   </div>
-</section>
+</div>
 
 <style>
   .faq-wrap{--line:#e5e7eb;margin:28px auto;padding:20px;border:1px solid var(--line);border-radius:16px;background:#fff;box-shadow:0 8px 30px rgba(2,6,23,.06)}
@@ -125,7 +133,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Does a waterfront location really change how a floor should be finished?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, mainly through light. Sun plus reflection off the water accelerates fading and ambering, so a non-yellowing waterborne finish matters more here than almost anywhere else. Sheen choice matters too — satin and matte control the glare that gloss amplifies next to big glazing."}}, {"@type": "Question", "name": "Can you fix the fade lines where our rugs used to be?", "acceptedAnswer": {"@type": "Answer", "text": "A full sand removes the faded and unfaded surface alike, taking the floor back to even, raw wood — so yes, refinishing erases fade lines. A recoat cannot, since the color difference lives in the wood. Keeping them from returning is about UV-stable finish and moving rugs occasionally."}}, {"@type": "Question", "name": "Do we need to move out during the refinish?", "acceptedAnswer": {"@type": "Answer", "text": "Almost none of our island clients do. The waterborne finishes we use are low-VOC — around 65 g/L — and walkable in socks the same evening. We sequence rooms so part of the house stays livable, and furniture returns at 48 to 72 hours."}}, {"@type": "Question", "name": "What does refinishing cost on Mercer Island?", "acceptedAnswer": {"@type": "Answer", "text": "Our standard rates: $3.99 per square foot for a natural refinish, $6.50 with stain, stairs at $55 to $75 per tread, 500 square foot minimum. Optional line items are dust containment at a flat $250 and appliance moves at $160 for a washer/dryer pair or $80 each otherwise."}}, {"@type": "Question", "name": "How long will the project take?", "acceptedAnswer": {"@type": "Answer", "text": "A typical refinish runs 3 to 5 days: sanding, then a 2 to 3 coat waterborne system with hours between coats rather than days. Furniture back at 48 to 72 hours, rugs down after about a week, full cure in roughly 7 days."}}, {"@type": "Question", "name": "Is dust containment worth the extra $250?", "acceptedAnswer": {"@type": "Answer", "text": "In a furnished waterfront home, we think so, and most clients agree. Our machines capture the great majority of dust at the source, but containment adds sealed doorways and protection for built-ins and art — cheap insurance relative to what's in these houses."}}, {"@type": "Question", "name": "What sheen do most island homeowners choose?", "acceptedAnswer": {"@type": "Answer", "text": "Satin, by a wide margin — it flatters wide-plank white oak, controls glare off the water, and hides daily life better than gloss. True matte is the second choice, especially in modern remodels. Gloss next to a window wall is a decision people tend to revisit."}}, {"@type": "Question", "name": "Our 1960s floor has been under carpet for decades. Is it salvageable?", "acceptedAnswer": {"@type": "Answer", "text": "Almost certainly better than salvageable — carpet is a preservation program for hardwood. Midcentury island oak usually emerges with decades of refinishing life left, and transforming it costs a fraction of new flooring. We'll confirm thickness and condition at a free estimate."}}]}
 </script></div>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-cta" style="margin:30px 0">
+<div data-rt-embed-type='true'><div class="ocb ocb-cta" style="margin:30px 0">
   <style>
     html body .post-body .ocb-cta h2, .ocb-cta h2{color:#fff!important}
     html body .post-body .ocb-cta .ocb-cta-sub, .ocb-cta .ocb-cta-sub{color:rgba(255,255,255,.88)!important}
@@ -135,18 +143,18 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     html body .post-body .ocb-cta a.ocb-cta-phone, .ocb-cta a.ocb-cta-phone{color:#5c0000!important;text-decoration:none!important}
   </style>
   <div style="background:linear-gradient(135deg,#8B0000,#5c0000);border-radius:20px;padding:28px 24px;color:#fff;text-align:center;box-shadow:0 14px 34px rgba(92,0,0,.3)">
-    <h2 style="margin:0 0 6px;color:#fff;font-size:24px;font-weight:900">Ready to See What’s Under Fifty Years of Sun and Carpet?</h2>
-    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.85);font-size:16.3px">We’ll walk your floors, measure what’s there, and give you a written plan — finish, sheen, schedule, and price — built for a home on the water. Free in-home estimates on Mercer Island and across King &amp; Snohomish County.</p>
+    <h2 style="margin:0 0 6px;color:#fff!important;font-size:24px;font-weight:900">Ready to See What’s Under Fifty Years of Sun and Carpet?</h2>
+    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.92)!important;font-size:16.3px">We’ll walk your floors, measure what’s there, and give you a written plan — finish, sheen, schedule, and price — built for a home on the water. Free in-home estimates on Mercer Island and across King &amp; Snohomish County.</p>
     <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
-      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff;color:#5c0000;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> (425) 595-1079</a>
-      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.4);color:#fff;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none">Book My Free Consultation</a>
+      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff!important;color:#5c0000!important;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none!important"><span class="ocb-ic ocb-ic-phone"></span> (425) 595-1079</a>
+      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.16)!important;border:1px solid rgba(255,255,255,.55);color:#fff!important;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none!important">Book My Free Consultation</a>
     </div>
-    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.9)">
+    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.95)!important">
       <span>✓ Since 2013</span><span>✓ 1,000+ floors</span><span>✓ 1-yr workmanship warranty</span><span>✓ Licensed &amp; insured</span><span>✓ Financing available</span>
     </div>
-    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
+    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04!important;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
   </div>
-</section></div>
+</div></div>
 
 <p><strong>Related reading:</strong> <a href="/blog/sun-damaged-hardwood-floors">How sun damages hardwood floors</a> · <a href="/blog/water-based-vs-oil-based-floor-finish">Water-based vs oil-based finish</a> · <a href="/blog/bona-traffic-hd-vs-pallmann-pall-x">Bona Traffic HD vs Pallmann</a> · <a href="/city-of-mercer-island/hardwood-floor-refinishing-in-mercer-island-wa">Hardwood floor refinishing in Mercer Island</a> · <a href="/contact">Book a free estimate</a></p>
 

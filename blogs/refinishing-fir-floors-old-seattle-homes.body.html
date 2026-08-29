@@ -35,27 +35,35 @@ html body .post-body .ocb-fact p, .ocb-fact p{margin:0!important;font-size:14.7p
 html.ocb-anim-ready .ocb-rv{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
 html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 @media (prefers-reduced-motion:reduce){html.ocb-anim-ready .ocb-rv{opacity:1!important;transform:none!important;transition:none!important}.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:none}}
+
+/* Chip icons. Webflow's rich-text sanitizer strips inline <svg> whenever a post is
+   re-saved in the Editor, so the icons are drawn from CSS on a <span> instead. */
+.ocb-ic{display:inline-block;width:15px;height:15px;flex:0 0 auto;vertical-align:-2px;background-repeat:no-repeat;background-position:center;background-size:contain}
+.ocb-ic-pin{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z'/><circle cx='12' cy='10' r='3'/></svg>')}
+.ocb-ic-home{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z'/><polyline points='9 22 9 12 15 12 15 22'/></svg>')}
+.ocb-ic-phone{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z'/></svg>')}
+.ocb-cta .ocb-ic{filter:brightness(0) saturate(100%) invert(9%) sepia(64%) saturate(4000%) hue-rotate(348deg)}
 </style></div>
 
-<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 -6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">August 28, 2026</span></div></div>
+<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">August 28, 2026</span></div></div>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
+<div data-rt-embed-type='true'><div class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
   <span class="ocb-eyebrow">Quick answer</span>
   <p style="margin:0;font-size:17.9px;line-height:1.65"><strong>Yes, the fir floors in your old Seattle house can almost certainly be refinished — and done right, old-growth Douglas fir refinishes into one of the most beautiful floors in the Northwest. The catches: fir is soft (about half as hard as oak), so it punishes aggressive sanding; it blotches under stain, so a natural finish is nearly always the right call; and a clear waterborne keeps its honey color from going orange.</strong> Here’s what a century of fir asks of the crew you hire — and of your expectations.</p>
   <div class="ocb-chips">
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg> King &amp; Snohomish County</span>
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg> Craftsman &amp; bungalow floors, 1900–1945</span>
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-pin"></span> King &amp; Snohomish County</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-home"></span> Craftsman &amp; bungalow floors, 1900–1945</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-phone"></span> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
   </div>
-</section></div>
+</div></div>
 
 <p>Walk into a 1915 Ballard bungalow or a Wallingford Craftsman and pull back the wall-to-wall carpet, and odds are you’ll find tight, straight-grained Douglas fir — milled from old-growth timber that came off the hills around Puget Sound when this city was building itself. That wood doesn’t exist commercially anymore: today’s fir is fast-grown, wide-ringed, and noticeably softer. Which means the floor under that carpet is irreplaceable in the most literal sense, and the decision you make about who sands it is a one-way door. We’ve refinished a lot of these floors — they’re some of our favorite work — and this is the honest briefing we give their owners.</p>
 
-<div data-rt-embed-type='true'><section class="ocb"><div class="ocb-facts">
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-facts">
   <div class="ocb-fact"><span class="n">660</span><p>Douglas fir’s Janka hardness rating, versus 1,290 for red oak. Translation: fir dents, and always has — the crew’s sanding technique matters twice as much on a floor half as hard.</p></div>
   <div class="ocb-fact"><span class="n">100+ yrs</span><p>the age of the fir in most Seattle Craftsman homes. Old-growth boards this tight-grained can’t be bought new; every sixteenth of an inch a sander removes is gone for good.</p></div>
   <div class="ocb-fact"><span class="n">$3.99</span><p>per sq ft for a full sand and natural finish — which is the finish fir nearly always wants. Stain upcharges rarely make sense here, and we’ll tell you why before you pay for one.</p></div>
-</div></section></div>
+</div></div></div>
 
 <h2>How to Tell It’s Fir (and Why the Distinction Matters)</h2>
 
@@ -75,7 +83,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 
 <h2>Expectations, Honestly Set</h2>
 
-<div data-rt-embed-type='true'><section class="ocb"><div class="ocb-2col">
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-2col">
   <div class="ocb-card" style="margin:0">
     <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#5c0000">What refinished fir gives you</h3>
     <ul class="ocb-check">
@@ -96,14 +104,14 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
       <li>Survival under a careless crew — this is the wrong project for the cheapest bid</li>
     </ul>
   </div>
-</div></section></div>
+</div></div></div>
 
 <h2>A Seattle Floor, Specifically</h2>
 
 <p>These floors cluster exactly where the streetcar suburbs grew: Ballard, Wallingford, Queen Anne, Fremont, West Seattle, Beacon Hill — and the same era of housing runs north through <a href="/city-of-edmonds/hardwood-floor-refinishing-in-edmonds-wa">Edmonds</a> and the mill-town blocks of <a href="/city-of-everett/hardwood-floor-refinishing-in-everett-wa">Everett</a>. We refinish fir across all of it; if you’re in one of these houses, our <a href="/seattle/hardwood-floor-refinishing-in-seattle-wa">Seattle hardwood floor refinishing</a> page covers how we work and what it costs. One planning note that surprises owners: because fir wants a natural finish and no stain day, the schedule is usually a day shorter than an oak-with-stain project — sanding, then coats, socks that evening. And if part of your fir is sun-faded where rugs and windows drew their lines, that’s normal and it sands out — more in our <a href="/blog/sun-damaged-hardwood-floors">sun-damaged floors guide</a>.</p>
 
 <div data-rt-embed-type='true'><!-- FAQ accordion + JSON-LD -->
-<section class="faq-wrap ocb" aria-labelledby="faq-title">
+<div class="faq-wrap ocb" aria-labelledby="faq-title">
   <h2 id="faq-title" class="faq-title">Old Fir Floors: What Owners Ask Us</h2>
   <div class="faq-items" role="list">
     <details class="faq-item" role="listitem"><summary class="faq-q">Can 100-year-old fir floors really be refinished?</summary><div class="faq-a">Almost always, yes. The wood in pre-war Seattle homes is old-growth Douglas fir — dense, tight-grained, and typically thick enough for another refinish even after previous sandings. The real question is how much wear layer remains above the tongue, which we check board-level during the estimate before promising anything.</div></details>
@@ -115,7 +123,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     <details class="faq-item" role="listitem"><summary class="faq-q">Can you match and repair damaged boards in old fir?</summary><div class="faq-a">Yes, and it's some of the most satisfying work we do. New lumberyard fir doesn't match old-growth grain, so for visible areas we use reclaimed old fir and lace boards into the existing field rather than patching in a rectangle. After sanding and finish, a well-matched repair takes guests a while to find.</div></details>
     <details class="faq-item" role="listitem"><summary class="faq-q">Is it better to just replace old fir with new hardwood?</summary><div class="faq-a">If you want oak's hardness or a stained designer color, replacement is the honest path — but you'd be removing wood that cannot be bought again to install wood that can. For most owners of these homes, refinishing costs less, keeps the house's character, and produces a floor no new material matches. We'll price both paths if you're torn.</div></details>
   </div>
-</section>
+</div>
 
 <style>
   .faq-wrap{--line:#e5e7eb;margin:28px auto;padding:20px;border:1px solid var(--line);border-radius:16px;background:#fff;box-shadow:0 8px 30px rgba(2,6,23,.06)}
@@ -132,7 +140,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Can 100-year-old fir floors really be refinished?", "acceptedAnswer": {"@type": "Answer", "text": "Almost always, yes. The wood in pre-war Seattle homes is old-growth Douglas fir — dense, tight-grained, and typically thick enough for another refinish even after previous sandings. The real question is how much wear layer remains above the tongue, which we check board-level during the estimate before promising anything."}}, {"@type": "Question", "name": "Are fir floors too soft to be worth refinishing?", "acceptedAnswer": {"@type": "Answer", "text": "Fir is soft — about 660 on the Janka scale against red oak's 1,290 — but soft and fragile aren't the same thing. These floors have carried a century of life already. Refinished with proper technique and a tough waterborne topcoat, they'll carry decades more; they'll just collect dents as part of the deal, the way they always have."}}, {"@type": "Question", "name": "Can you stain fir floors a dark color?", "acceptedAnswer": {"@type": "Answer", "text": "We advise against penetrating stain on fir: the grain absorbs unevenly and blotches, and no technique fully prevents it. If you want a darker floor, toned finishes — color carried in the coating layers rather than soaked into the wood — get you there evenly. But most owners who see fir sanded raw choose natural on the spot."}}, {"@type": "Question", "name": "What finish is best on old Douglas fir?", "acceptedAnswer": {"@type": "Answer", "text": "A clear commercial waterborne, two to three coats, usually in satin or matte. It keeps fir's honey color true instead of ambering it toward orange, it's low-odor for the occupied homes these usually are, and modern two-component grades add serious wear resistance to a soft floor that can use the help."}}, {"@type": "Question", "name": "What does refinishing fir floors cost in Seattle?", "acceptedAnswer": {"@type": "Answer", "text": "The same as our standard rates: $3.99/sq ft for a full sand with natural finish — which is the right service for nearly every fir floor — with a 500 sq ft project minimum, stairs at $55–$75 per tread, and board repairs itemized after an on-site look. Skipping stain means fir usually lands at the budget-friendly end of refinishing."}}, {"@type": "Question", "name": "Should the gaps between boards be filled?", "acceptedAnswer": {"@type": "Answer", "text": "Mostly no. A century of seasonal movement built those gaps, and rigid filler troweled across a whole fir floor cracks out within a few winters as the boards keep moving. We fill defects — knots, splits, nail holes — and leave honest seasonal gaps alone. A floor that moves is a floor that's alive; fighting it makes a mess."}}, {"@type": "Question", "name": "Can you match and repair damaged boards in old fir?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, and it's some of the most satisfying work we do. New lumberyard fir doesn't match old-growth grain, so for visible areas we use reclaimed old fir and lace boards into the existing field rather than patching in a rectangle. After sanding and finish, a well-matched repair takes guests a while to find."}}, {"@type": "Question", "name": "Is it better to just replace old fir with new hardwood?", "acceptedAnswer": {"@type": "Answer", "text": "If you want oak's hardness or a stained designer color, replacement is the honest path — but you'd be removing wood that cannot be bought again to install wood that can. For most owners of these homes, refinishing costs less, keeps the house's character, and produces a floor no new material matches. We'll price both paths if you're torn."}}]}
 </script></div>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-cta" style="margin:30px 0">
+<div data-rt-embed-type='true'><div class="ocb ocb-cta" style="margin:30px 0">
   <style>
     html body .post-body .ocb-cta h2, .ocb-cta h2{color:#fff!important}
     html body .post-body .ocb-cta .ocb-cta-sub, .ocb-cta .ocb-cta-sub{color:rgba(255,255,255,.88)!important}
@@ -142,18 +150,18 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     html body .post-body .ocb-cta a.ocb-cta-phone, .ocb-cta a.ocb-cta-phone{color:#5c0000!important;text-decoration:none!important}
   </style>
   <div style="background:linear-gradient(135deg,#8B0000,#5c0000);border-radius:20px;padding:28px 24px;color:#fff;text-align:center;box-shadow:0 14px 34px rgba(92,0,0,.3)">
-    <h2 style="margin:0 0 6px;color:#fff;font-size:24px;font-weight:900">Your Fir Deserves a Crew That’s Met It Before</h2>
-    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.85);font-size:16.3px">We’ve been refinishing pre-war fir across Seattle and Snohomish County since 2013 — gentle sanding, matched reclaimed repairs, and clear finishes that keep the honey where it belongs. Free in-home estimates, board-level honesty.</p>
+    <h2 style="margin:0 0 6px;color:#fff!important;font-size:24px;font-weight:900">Your Fir Deserves a Crew That’s Met It Before</h2>
+    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.92)!important;font-size:16.3px">We’ve been refinishing pre-war fir across Seattle and Snohomish County since 2013 — gentle sanding, matched reclaimed repairs, and clear finishes that keep the honey where it belongs. Free in-home estimates, board-level honesty.</p>
     <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
-      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff;color:#5c0000;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> (425) 595-1079</a>
-      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.4);color:#fff;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none">Book My Free Consultation</a>
+      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff!important;color:#5c0000!important;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none!important"><span class="ocb-ic ocb-ic-phone"></span> (425) 595-1079</a>
+      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.16)!important;border:1px solid rgba(255,255,255,.55);color:#fff!important;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none!important">Book My Free Consultation</a>
     </div>
-    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.9)">
+    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.95)!important">
       <span>✓ Since 2013</span><span>✓ 1,000+ floors</span><span>✓ 1-yr workmanship warranty</span><span>✓ Licensed &amp; insured</span><span>✓ Financing available</span>
     </div>
-    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
+    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04!important;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
   </div>
-</section></div>
+</div></div>
 
 <p><strong>Related reading:</strong> <a href="/blog/hardwood-floor-refinishing-cost-seattle-wa">Seattle refinishing costs, 2026</a> · <a href="/blog/how-many-times-can-a-wood-floor-be-sanded-and-refinished-in-the-seattle-wa-area">How many sandings does a floor have left</a> · <a href="/blog/water-based-vs-oil-based-floor-finish">Water-based vs oil-based finishes</a> · <a href="/seattle/hardwood-floor-refinishing-in-seattle-wa">Hardwood floor refinishing in Seattle</a> · <a href="/contact">Book a free estimate</a></p>
 

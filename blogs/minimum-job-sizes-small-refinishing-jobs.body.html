@@ -35,27 +35,35 @@ html body .post-body .ocb-fact p, .ocb-fact p{margin:0!important;font-size:14.7p
 html.ocb-anim-ready .ocb-rv{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
 html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 @media (prefers-reduced-motion:reduce){html.ocb-anim-ready .ocb-rv{opacity:1!important;transform:none!important;transition:none!important}.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:none}}
+
+/* Chip icons. Webflow's rich-text sanitizer strips inline <svg> whenever a post is
+   re-saved in the Editor, so the icons are drawn from CSS on a <span> instead. */
+.ocb-ic{display:inline-block;width:15px;height:15px;flex:0 0 auto;vertical-align:-2px;background-repeat:no-repeat;background-position:center;background-size:contain}
+.ocb-ic-pin{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z'/><circle cx='12' cy='10' r='3'/></svg>')}
+.ocb-ic-home{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z'/><polyline points='9 22 9 12 15 12 15 22'/></svg>')}
+.ocb-ic-phone{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z'/></svg>')}
+.ocb-cta .ocb-ic{filter:brightness(0) saturate(100%) invert(9%) sepia(64%) saturate(4000%) hue-rotate(348deg)}
 </style></div>
 
-<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 -6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">December 14, 2026</span></div></div>
+<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">December 14, 2026</span></div></div>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
+<div data-rt-embed-type='true'><div class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
   <span class="ocb-eyebrow">Quick answer</span>
   <p style="margin:0;font-size:17.9px;line-height:1.65"><strong>We carry a 500 sq ft minimum on refinishing — a 350 sq ft job in Lynnwood bills as 500 — because most of what a refinish costs has nothing to do with square footage: loading and setting up industrial sanders, masking and prep, and return trips across 3–5 days for each coat are the same whether we sand 300 feet or 1,300.</strong> That’s not a penalty on small jobs; it’s what they actually cost. The good news is that the minimum is easy to use rather than eat — add the hallway you were going to do “someday,” add the stairs — and this post shows the math for doing exactly that.</p>
   <div class="ocb-chips">
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg> King &amp; Snohomish County</span>
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg> Lynnwood homes</span>
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-pin"></span> King &amp; Snohomish County</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-home"></span> Lynnwood homes</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-phone"></span> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
   </div>
-</section></div>
+</div></div>
 
 <p>Nobody loves hearing “we have a minimum.” It sounds like a brush-off, or a number invented to pad small invoices. So this post does something contractors mostly don’t: it opens the books on why small refinishing jobs cost more per foot everywhere — not just with us — and what a smart homeowner in a Lynnwood split-level does about it. If you’ve got one worn room and a quote that feels high for the footage, this is the explanation you weren’t given.</p>
 
-<div data-rt-embed-type='true'><section class="ocb"><div class="ocb-facts">
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-facts">
   <div class="ocb-fact"><span class="n">500 sq ft</span><p>our refinishing job minimum. Below it, the job bills as 500 — because the fixed costs of mobilizing a refinishing crew don’t shrink with the room.</p></div>
   <div class="ocb-fact"><span class="n">3–5 days</span><p>what a full refinish takes regardless of size. Sanding scales with footage; the return trips for each coat of finish mostly don’t.</p></div>
   <div class="ocb-fact"><span class="n">$55–$75</span><p>per stair tread — the per-unit exception to square-foot pricing, and the easiest honest way to put a small job’s minimum to work.</p></div>
-</div></section></div>
+</div></div></div>
 
 <h2>What a Refinish Costs Before We Sand a Single Foot</h2>
 
@@ -67,7 +75,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 
 <p>Here’s how it works with real figures. Our full sand and natural refinish is $3.99/sq ft with a 500 sq ft minimum. If your project is 350 sq ft — say, a living room and hall — it bills as 500 sq ft: about $1,995. Effectively you’re paying $5.70 per actual foot, and that premium is the honest cost of mobilizing a multi-day refinish for a small area. At 500 sq ft and above, the sticker rate and the effective rate are the same thing. The table below runs the scenarios.</p>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-card">
+<div data-rt-embed-type='true'><div class="ocb ocb-card">
   <h3 style="margin:0 0 10px;font-size:18.5px;font-weight:900;color:#5c0000">What the minimum does at different job sizes ($3.99/sq ft natural refinish)</h3>
   <div style="overflow-x:auto"><table class="ocb-table">
     <tr><th>Your actual footage</th><th>Bills as</th><th>Job total</th><th>Effective per actual sq ft</th></tr>
@@ -77,7 +85,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     <tr><td>800 sq ft (typical upper level)</td><td>800 sq ft</td><td>$3,192</td><td>$3.99</td></tr>
     <tr><td>1,200 sq ft (full main floor)</td><td>1,200 sq ft</td><td>$4,788</td><td>$3.99</td></tr>
   </table></div>
-</section></div>
+</div></div>
 
 <h2>Don’t Eat the Minimum — Use It</h2>
 
@@ -85,7 +93,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 
 <p>Stairs are the other lever. Treads price per step at $55–$75 rather than by area, so a small-footage main level plus a flight of stairs becomes a properly sized project with no wasted minimum — and stairs are usually the most worn wood in the house anyway. We broke down that pricing in <a href="/blog/stair-refinishing-cost-per-step">how stair refinishing is priced</a>. And if the rest of your floor is dull but not damaged, pairing the full sand in the worn area with a $1.99/sq ft screen &amp; recoat elsewhere can bring the whole floor to one even sheen for less than sanding everything — the difference between those two services is in our <a href="/blog/sand-and-refinish-vs-screen-and-recoat-which-is-right-for-your-hardwood-floors">sand-and-refinish vs screen-and-recoat guide</a>.</p>
 
-<div data-rt-embed-type='true'><section class="ocb"><div class="ocb-2col">
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-2col">
   <div class="ocb-card" style="margin:0">
     <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#5c0000">Smart ways to fill a small job</h3>
     <ul class="ocb-check">
@@ -106,7 +114,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
       <li>Assuming a low per-foot teaser price has no minimum or add-ons underneath — ask</li>
     </ul>
   </div>
-</div></section></div>
+</div></div></div>
 
 <h2>Reading Other Companies’ Quotes With This Lens</h2>
 
@@ -117,7 +125,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 <p>Lynnwood’s housing stock makes it the minimum-job capital of our service area. The city built out in the 60s–80s split-level and tri-level boom, and those floor plans put hardwood in a specific place: the upper level’s living room, dining area, and hall — usually 400 to 600 sq ft — with bedrooms carpeted and the lower level slab or vinyl. That puts half of Lynnwood’s refinishing projects right at the 500 sq ft line: sometimes just under, sometimes just over. The under-the-line homeowners are exactly who this post is for — and usually one carpeted bedroom (frequently hiding matching oak underneath, worth checking a corner) or one flight of stairs away from a project that uses every paid foot. We see the same pattern from Alderwood to Meadowdale, and it’s a five-minute conversation at a free estimate to find your version of it — details on our <a href="/city-of-lynnwood/hardwood-floor-refinishing-in-lynnwood-wa">hardwood floor refinishing in Lynnwood</a> page, and the full pricing picture in the <a href="/blog/how-much-does-it-cost-to-refinish-hardwood-floors">refinishing cost guide</a>.</p>
 
 <div data-rt-embed-type='true'><!-- FAQ accordion + JSON-LD -->
-<section class="faq-wrap ocb" aria-labelledby="faq-title">
+<div class="faq-wrap ocb" aria-labelledby="faq-title">
   <h2 id="faq-title" class="faq-title">Job Minimums and Small Projects: What Lynnwood Homeowners Ask</h2>
   <div class="faq-items" role="list">
     <details class="faq-item" role="listitem"><summary class="faq-q">What is your minimum job size for refinishing?</summary><div class="faq-a">500 square feet. A project below that bills as 500 square feet at the standard rate — $3.99 per square foot for a full sand with natural finish, so about $1,995. Stair work is separate, priced per tread at $55 to $75, and doesn't need to meet the square-footage minimum on its own.</div></details>
@@ -129,7 +137,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     <details class="faq-item" role="listitem"><summary class="faq-q">My hallway is only 200 sq ft but it's the only worn part. What should I do?</summary><div class="faq-a">Two honest options. If the surrounding floor is the same wood and roughly the same color, sand the hall and screen-and-recoat the rest for uniformity. If the rest of the floor is genuinely fine, consider waiting until more of the floor is due and doing it as one properly sized project — one mobilization instead of two.</div></details>
     <details class="faq-item" role="listitem"><summary class="faq-q">Do all flooring companies have minimums?</summary><div class="faq-a">Nearly all handle small jobs somehow: a stated minimum, a trip or mobilization fee, or a higher rate below a threshold. A company that claims no minimum and a bargain rate is recovering fixed costs invisibly — usually from the job itself. We'd rather state the number out loud.</div></details>
   </div>
-</section>
+</div>
 
 <style>
   .faq-wrap{--line:#e5e7eb;margin:28px auto;padding:20px;border:1px solid var(--line);border-radius:16px;background:#fff;box-shadow:0 8px 30px rgba(2,6,23,.06)}
@@ -146,7 +154,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What is your minimum job size for refinishing?", "acceptedAnswer": {"@type": "Answer", "text": "500 square feet. A project below that bills as 500 square feet at the standard rate — $3.99 per square foot for a full sand with natural finish, so about $1,995. Stair work is separate, priced per tread at $55 to $75, and doesn't need to meet the square-footage minimum on its own."}}, {"@type": "Question", "name": "Why do small refinishing jobs cost more per square foot?", "acceptedAnswer": {"@type": "Answer", "text": "Because most refinishing costs are fixed: loading and transporting industrial equipment, setup and masking, return visits across 3 to 5 days for each coat of finish, teardown, and disposal. Those are identical for 300 or 1,300 square feet, so on a small job they're spread over fewer feet."}}, {"@type": "Question", "name": "Is a minimum charge just profit padding?", "acceptedAnswer": {"@type": "Answer", "text": "No — it's what keeps a small job from being done badly. A crew that mobilizes a multi-day process for a few hundred dollars has to recover costs somewhere, and it usually comes out of coats, materials, or prep you can't see. The minimum funds the same process on a small job as a large one."}}, {"@type": "Question", "name": "Can I refinish just one room?", "acceptedAnswer": {"@type": "Answer", "text": "Yes — it simply bills at the 500 square foot minimum if the room is smaller. Most clients use the gap instead of eating it: adding an adjacent hall or bedroom, or the stairs. Any footage between your room and 500 square feet is effectively free to include."}}, {"@type": "Question", "name": "Do stairs count toward the 500 sq ft minimum?", "acceptedAnswer": {"@type": "Answer", "text": "Stairs are priced per tread at $55 to $75 rather than by area, so they're a separate line item — but practically, adding a staircase turns a too-small floor project into a right-sized visit, which is the outcome the minimum exists to protect."}}, {"@type": "Question", "name": "Does the minimum apply to screen and recoat too?", "acceptedAnswer": {"@type": "Answer", "text": "The same mobilization logic applies, though screen and recoat is a one-day service at $1.99 per square foot, so its economics are gentler. It also pairs well with a small full-sand area: sand the damaged room, recoat the rest, one visit, one even floor."}}, {"@type": "Question", "name": "My hallway is only 200 sq ft but it's the only worn part. What should I do?", "acceptedAnswer": {"@type": "Answer", "text": "Two honest options. If the surrounding floor is the same wood and roughly the same color, sand the hall and screen-and-recoat the rest for uniformity. If the rest of the floor is genuinely fine, consider waiting until more of the floor is due and doing it as one properly sized project — one mobilization instead of two."}}, {"@type": "Question", "name": "Do all flooring companies have minimums?", "acceptedAnswer": {"@type": "Answer", "text": "Nearly all handle small jobs somehow: a stated minimum, a trip or mobilization fee, or a higher rate below a threshold. A company that claims no minimum and a bargain rate is recovering fixed costs invisibly — usually from the job itself. We'd rather state the number out loud."}}]}
 </script></div>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-cta" style="margin:30px 0">
+<div data-rt-embed-type='true'><div class="ocb ocb-cta" style="margin:30px 0">
   <style>
     html body .post-body .ocb-cta h2, .ocb-cta h2{color:#fff!important}
     html body .post-body .ocb-cta .ocb-cta-sub, .ocb-cta .ocb-cta-sub{color:rgba(255,255,255,.88)!important}
@@ -156,18 +164,18 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     html body .post-body .ocb-cta a.ocb-cta-phone, .ocb-cta a.ocb-cta-phone{color:#5c0000!important;text-decoration:none!important}
   </style>
   <div style="background:linear-gradient(135deg,#8B0000,#5c0000);border-radius:20px;padding:28px 24px;color:#fff;text-align:center;box-shadow:0 14px 34px rgba(92,0,0,.3)">
-    <h2 style="margin:0 0 6px;color:#fff;font-size:24px;font-weight:900">Got a Small Job? Let’s Size It Right</h2>
-    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.85);font-size:16.3px">Bring us the room — we’ll measure, show you what fits inside the minimum for free, and price the options in writing. Free estimates across Lynnwood and all of King &amp; Snohomish County.</p>
+    <h2 style="margin:0 0 6px;color:#fff!important;font-size:24px;font-weight:900">Got a Small Job? Let’s Size It Right</h2>
+    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.92)!important;font-size:16.3px">Bring us the room — we’ll measure, show you what fits inside the minimum for free, and price the options in writing. Free estimates across Lynnwood and all of King &amp; Snohomish County.</p>
     <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
-      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff;color:#5c0000;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> (425) 595-1079</a>
-      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.4);color:#fff;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none">Book My Free Consultation</a>
+      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff!important;color:#5c0000!important;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none!important"><span class="ocb-ic ocb-ic-phone"></span> (425) 595-1079</a>
+      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.16)!important;border:1px solid rgba(255,255,255,.55);color:#fff!important;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none!important">Book My Free Consultation</a>
     </div>
-    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.9)">
+    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.95)!important">
       <span>✓ Since 2013</span><span>✓ 1,000+ floors</span><span>✓ 1-yr workmanship warranty</span><span>✓ Licensed &amp; insured</span><span>✓ Financing available</span>
     </div>
-    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
+    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04!important;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
   </div>
-</section></div>
+</div></div>
 
 <p><strong>Related reading:</strong> <a href="/blog/how-much-does-it-cost-to-refinish-hardwood-floors">2026 refinishing cost guide</a> · <a href="/blog/refinishing-quote-2-vs-6-per-sqft">Why quotes range from $2 to $6/sq ft</a> · <a href="/blog/hidden-costs-refinishing-quotes">Hidden costs in refinishing quotes</a> · <a href="/blog/stair-refinishing-cost-per-step">How stair refinishing is priced</a> · <a href="/city-of-lynnwood/hardwood-floor-refinishing-in-lynnwood-wa">Hardwood floor refinishing in Lynnwood</a> · <a href="/contact">Book a free estimate</a></p>
 

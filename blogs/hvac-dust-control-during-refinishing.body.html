@@ -35,29 +35,37 @@ html body .post-body .ocb-fact p, .ocb-fact p{margin:0!important;font-size:14.7p
 html.ocb-anim-ready .ocb-rv{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
 html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 @media (prefers-reduced-motion:reduce){html.ocb-anim-ready .ocb-rv{opacity:1!important;transform:none!important;transition:none!important}.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:none}}
+
+/* Chip icons. Webflow's rich-text sanitizer strips inline <svg> whenever a post is
+   re-saved in the Editor, so the icons are drawn from CSS on a <span> instead. */
+.ocb-ic{display:inline-block;width:15px;height:15px;flex:0 0 auto;vertical-align:-2px;background-repeat:no-repeat;background-position:center;background-size:contain}
+.ocb-ic-pin{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z'/><circle cx='12' cy='10' r='3'/></svg>')}
+.ocb-ic-home{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z'/><polyline points='9 22 9 12 15 12 15 22'/></svg>')}
+.ocb-ic-phone{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z'/></svg>')}
+.ocb-cta .ocb-ic{filter:brightness(0) saturate(100%) invert(9%) sepia(64%) saturate(4000%) hue-rotate(348deg)}
 </style></div>
 
-<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 -6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">December 16, 2026</span></div></div>
+<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">December 16, 2026</span></div></div>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
+<div data-rt-embed-type='true'><div class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
   <span class="ocb-eyebrow">Quick answer</span>
   <p style="margin:0;font-size:17.9px;line-height:1.65"><strong>A careful crew does four things in a Mercer Island home: shuts the HVAC system down while sanders run, seals every supply and return vent in and near the work area, captures dust at the source with vacuum-assisted machines, and — when the project calls for it — builds full plastic containment with zippered doorways for $250.</strong> The last step is yours: replace the furnace filter when we leave. And one honest sentence up front — “dustless” sanding means dust-controlled, not dust-free. Here’s what each layer actually does.</p>
   <div class="ocb-chips">
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg> King &amp; Snohomish County</span>
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg> Mercer Island homes</span>
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-pin"></span> King &amp; Snohomish County</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-home"></span> Mercer Island homes</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-phone"></span> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
   </div>
-</section></div>
+</div></div>
 
 <p>Ask homeowners what they dread about refinishing and the answer is rarely the noise or the schedule — it’s the dust. Everyone knows someone who sanded floors in the 90s and found white powder on the upstairs bookshelves for a year. That horror story was real, and its villain was usually invisible: the home’s own HVAC system, cheerfully inhaling sanding dust through the return ducts and delivering it to every room in the house.</p>
 
 <p>Modern equipment and a disciplined process have changed the picture almost completely, but not every crew runs the process — and on Mercer Island, where we’re usually working around a family in residence and furnishings worth protecting, the difference between “we have a dust bag” and an actual dust-control protocol matters. This is our protocol, layer by layer, including the honest parts.</p>
 
-<div data-rt-embed-type='true'><section class="ocb"><div class="ocb-facts">
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-facts">
   <div class="ocb-fact"><span class="n">+$250</span><p>for full dust containment: plastic barrier walls with zippered doorways isolating the work zone from the rest of the house. Optional, and worth it more often than not in occupied homes.</p></div>
   <div class="ocb-fact"><span class="n">1,000+</span><p>floors refinished since 2013, the large majority in occupied homes — which is why dust control is baked into our process rather than sold as an upgrade.</p></div>
   <div class="ocb-fact"><span class="n">3–5 days</span><p>typical refinish timeline. Sanding — the dusty part — is concentrated in the first day or two; the finish days that follow are clean work.</p></div>
-</div></section></div>
+</div></div></div>
 
 <h2>Why the HVAC System Is the First Thing We Deal With</h2>
 
@@ -77,7 +85,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 
 <p>Where it earns its money: open floor plans where the work area flows into the kitchen or a two-story great room with no door to close; households with asthma or serious allergies; homes with open shelving, electronics, instruments, or art near the work zone; and any project where the family is living in the house through sanding days — which on Mercer Island is most of them. Where it’s honestly skippable: a self-contained room with a door we can seal, an empty house, or a project the owners are away for. Containment is also quietly a comfort feature — the psychological difference between “there’s construction in the house” and “there’s a sealed room being worked on” is bigger than homeowners expect.</p>
 
-<div data-rt-embed-type='true'><section class="ocb"><div class="ocb-2col">
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-2col">
   <div class="ocb-card" style="margin:0">
     <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#5c0000">On every refinish, included</h3>
     <ul class="ocb-check">
@@ -98,7 +106,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
       <li>The ability to live comfortably in the house on sanding days</li>
     </ul>
   </div>
-</div></section></div>
+</div></div></div>
 
 <h2>The Honest Section: What “Dustless” Doesn’t Mean</h2>
 
@@ -111,7 +119,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 <p>Mercer Island homes raise the stakes on dust control in a few specific ways. The island’s midcentury stock — low-slung 50s–70s houses, many with original oak — tends toward open plans and prominent stairwells connecting split levels, which are exactly the layouts where dust travels and containment earns its fee. The waterfront homes add furnishings, art, and built-ins that make “a light film of dust” an expensive sentence, plus the practical reality that families rarely move out for a floor project — we work around households in residence far more often than around empty houses; our notes on <a href="/blog/refinishing-mercer-island-waterfront-home">refinishing a Mercer Island waterfront home</a> cover that side of the logistics. And nearly all of these homes run forced-air heat, which in a winter refinish makes the HVAC protocol — off during sanding, sealed vents, fresh filter after — the backbone of the whole dust plan. It’s all standard practice on our <a href="/city-of-mercer-island/hardwood-floor-refinishing-in-mercer-island-wa">hardwood floor refinishing in Mercer Island</a> jobs, not an exotic request you have to know to ask for.</p>
 
 <div data-rt-embed-type='true'><!-- FAQ accordion + JSON-LD -->
-<section class="faq-wrap ocb" aria-labelledby="faq-title">
+<div class="faq-wrap ocb" aria-labelledby="faq-title">
   <h2 id="faq-title" class="faq-title">Dust, Ducts, and Refinishing: What Mercer Island Homeowners Ask</h2>
   <div class="faq-items" role="list">
     <details class="faq-item" role="listitem"><summary class="faq-q">Should the HVAC system really be off during floor sanding?</summary><div class="faq-a">While the sanders are running, yes. A running forced-air system pulls fine dust into the return ducts and distributes it through the whole house, and some of it settles in the ductwork and sheds for weeks afterward. We shut the system down during sanding hours, seal the vents, and run heat around the work windows — the house stays comfortable and the ducts stay clean.</div></details>
@@ -124,7 +132,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     <details class="faq-item" role="listitem"><summary class="faq-q">Do you cover the floor vents even if the heat is staying off?</summary><div class="faq-a">Yes. An open floor vent in a sanding area is a funnel into the duct boot — debris that lands there blows back out for months. Every floor register in the work area gets sealed regardless of what the system is doing.</div></details>
     <details class="faq-item" role="listitem"><summary class="faq-q">Does containment change the project timeline?</summary><div class="faq-a">Barely — setup and teardown happen inside the normal 3-to-5-day window. The plastic goes up before the first cut and comes down after the final coat is dry enough, and the finish schedule runs exactly as it would without it.</div></details>
   </div>
-</section>
+</div>
 
 <style>
   .faq-wrap{--line:#e5e7eb;margin:28px auto;padding:20px;border:1px solid var(--line);border-radius:16px;background:#fff;box-shadow:0 8px 30px rgba(2,6,23,.06)}
@@ -141,7 +149,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Should the HVAC system really be off during floor sanding?", "acceptedAnswer": {"@type": "Answer", "text": "While the sanders are running, yes. A running forced-air system pulls fine dust into the return ducts and distributes it through the whole house, and some of it settles in the ductwork and sheds for weeks afterward. We shut the system down during sanding hours, seal the vents, and run heat around the work windows — the house stays comfortable and the ducts stay clean."}}, {"@type": "Question", "name": "What does the $250 dust containment option include?", "acceptedAnswer": {"@type": "Answer", "text": "Floor-to-ceiling plastic barrier walls sealing the work zone off from the rest of the house — across open doorways, stair openings, and pass-throughs — with zippered doors for crew access. Combined with sealed vents and vacuum-assisted machines, it keeps the living side of the house essentially untouched."}}, {"@type": "Question", "name": "Is dustless sanding actually dust-free?", "acceptedAnswer": {"@type": "Answer", "text": "No, and we'd rather say so than surprise you. Vacuum-assisted equipment captures the large majority of dust at the source, but no sanding process is literally dust-free — expect a light, fine film near the work area, cleaned up in normal post-job wiping. The horror-story version, dust through the whole house, is what the HVAC protocol and containment prevent."}}, {"@type": "Question", "name": "Do I need to replace my furnace filter after refinishing?", "acceptedAnswer": {"@type": "Answer", "text": "Yes — it's the single best follow-up you can do. The filter catches whatever fine dust reached the return side during the project, and a loaded filter keeps shedding into the airstream. Swap it when the job wraps, run the fan for an afternoon, and the air is done clearing."}}, {"@type": "Question", "name": "Can we live in the house during sanding?", "acceptedAnswer": {"@type": "Answer", "text": "Most of our clients do. Sanding is concentrated in the first day or two, and with vents sealed, containment up where the layout calls for it, and low-VOC waterborne finishes on the coating days, the house stays livable throughout. Households with significant asthma or allergies sometimes choose to be out for sanding day specifically — that's the cautious version, not the required one."}}, {"@type": "Question", "name": "Which part of refinishing makes the most dust?", "acceptedAnswer": {"@type": "Answer", "text": "Edge and corner work with the edger, followed by the coarse first cuts with the big machine. Both run with vacuum extraction, but it's why the crew vacuums progressively rather than once at the end, and why the fine final sanding is done with the enclosed multi-disc TRIO."}}, {"@type": "Question", "name": "Will dust in the air ruin the finish itself?", "acceptedAnswer": {"@type": "Answer", "text": "It can — dust settling into wet finish leaves visible nibs, which is a redo. That's why the floor is vacuumed and tack-wiped before every coat and why containment helps the finish quality, not just your bookshelves. Our incentive to control dust is the same as yours."}}, {"@type": "Question", "name": "Do you cover the floor vents even if the heat is staying off?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. An open floor vent in a sanding area is a funnel into the duct boot — debris that lands there blows back out for months. Every floor register in the work area gets sealed regardless of what the system is doing."}}, {"@type": "Question", "name": "Does containment change the project timeline?", "acceptedAnswer": {"@type": "Answer", "text": "Barely — setup and teardown happen inside the normal 3-to-5-day window. The plastic goes up before the first cut and comes down after the final coat is dry enough, and the finish schedule runs exactly as it would without it."}}]}
 </script></div>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-cta" style="margin:30px 0">
+<div data-rt-embed-type='true'><div class="ocb ocb-cta" style="margin:30px 0">
   <style>
     html body .post-body .ocb-cta h2, .ocb-cta h2{color:#fff!important}
     html body .post-body .ocb-cta .ocb-cta-sub, .ocb-cta .ocb-cta-sub{color:rgba(255,255,255,.88)!important}
@@ -151,18 +159,18 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     html body .post-body .ocb-cta a.ocb-cta-phone, .ocb-cta a.ocb-cta-phone{color:#5c0000!important;text-decoration:none!important}
   </style>
   <div style="background:linear-gradient(135deg,#8B0000,#5c0000);border-radius:20px;padding:28px 24px;color:#fff;text-align:center;box-shadow:0 14px 34px rgba(92,0,0,.3)">
-    <h2 style="margin:0 0 6px;color:#fff;font-size:24px;font-weight:900">Want the Refinish Without the Dust Story?</h2>
-    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.85);font-size:16.3px">Tell us about your layout and who’s living in the house — we’ll spec the right containment level and put it in writing with the quote. Free estimates on Mercer Island and across King &amp; Snohomish County.</p>
+    <h2 style="margin:0 0 6px;color:#fff!important;font-size:24px;font-weight:900">Want the Refinish Without the Dust Story?</h2>
+    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.92)!important;font-size:16.3px">Tell us about your layout and who’s living in the house — we’ll spec the right containment level and put it in writing with the quote. Free estimates on Mercer Island and across King &amp; Snohomish County.</p>
     <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
-      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff;color:#5c0000;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> (425) 595-1079</a>
-      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.4);color:#fff;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none">Book My Free Consultation</a>
+      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff!important;color:#5c0000!important;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none!important"><span class="ocb-ic ocb-ic-phone"></span> (425) 595-1079</a>
+      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.16)!important;border:1px solid rgba(255,255,255,.55);color:#fff!important;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none!important">Book My Free Consultation</a>
     </div>
-    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.9)">
+    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.95)!important">
       <span>✓ Since 2013</span><span>✓ 1,000+ floors</span><span>✓ 1-yr workmanship warranty</span><span>✓ Licensed &amp; insured</span><span>✓ Financing available</span>
     </div>
-    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
+    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04!important;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
   </div>
-</section></div>
+</div></div>
 
 <p><strong>Related reading:</strong> <a href="/blog/what-is-dust-free-hardwood-floor-refinishing-oc-flooring">What dust-free refinishing really involves</a> · <a href="/blog/dustless-vs-traditional-hardwood-floor-sanding">Dustless vs traditional sanding</a> · <a href="/blog/refinishing-mercer-island-waterfront-home">Refinishing a Mercer Island waterfront home</a> · <a href="/city-of-mercer-island/hardwood-floor-refinishing-in-mercer-island-wa">Hardwood floor refinishing in Mercer Island</a> · <a href="/contact">Book a free estimate</a></p>
 

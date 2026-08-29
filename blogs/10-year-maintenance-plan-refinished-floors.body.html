@@ -35,29 +35,37 @@ html body .post-body .ocb-fact p, .ocb-fact p{margin:0!important;font-size:14.7p
 html.ocb-anim-ready .ocb-rv{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
 html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 @media (prefers-reduced-motion:reduce){html.ocb-anim-ready .ocb-rv{opacity:1!important;transform:none!important;transition:none!important}.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:none}}
+
+/* Chip icons. Webflow's rich-text sanitizer strips inline <svg> whenever a post is
+   re-saved in the Editor, so the icons are drawn from CSS on a <span> instead. */
+.ocb-ic{display:inline-block;width:15px;height:15px;flex:0 0 auto;vertical-align:-2px;background-repeat:no-repeat;background-position:center;background-size:contain}
+.ocb-ic-pin{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z'/><circle cx='12' cy='10' r='3'/></svg>')}
+.ocb-ic-home{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z'/><polyline points='9 22 9 12 15 12 15 22'/></svg>')}
+.ocb-ic-phone{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z'/></svg>')}
+.ocb-cta .ocb-ic{filter:brightness(0) saturate(100%) invert(9%) sepia(64%) saturate(4000%) hue-rotate(348deg)}
 </style></div>
 
-<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 -6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">January 8, 2027</span></div></div>
+<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">January 8, 2027</span></div></div>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
+<div data-rt-embed-type='true'><div class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
   <span class="ocb-eyebrow">Quick answer</span>
   <p style="margin:0;font-size:17.9px;line-height:1.65"><strong>A newly refinished hardwood floor should give you a solid decade before it needs sanding again — if you treat the first week as sacred, clean it with almost nothing, and buy it a $1.99/sq ft screen &amp; recoat around year five to seven instead of waiting for bare wood.</strong> That last part is the whole plan. Most floors we resand at $3.99/sq ft didn’t wear out; they were simply never recoated, and the finish was allowed to wear through to wood. Here’s the year-by-year version we’d follow in our own houses.</p>
   <div class="ocb-chips">
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg> King &amp; Snohomish County</span>
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg> Floor care, year by year</span>
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-pin"></span> King &amp; Snohomish County</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-home"></span> Floor care, year by year</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-phone"></span> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
   </div>
-</section></div>
+</div></div>
 
 <p>We’ve refinished more than a thousand floors around King and Snohomish County since 2013, and we can usually tell within thirty seconds of walking into a house how the last refinish was treated. Not because we’re psychic — because finish wear follows habits, and habits leave a signature: the gray path from the garage door to the kitchen, the halo of scratches under the barstools, the dull rectangle where a rubber-backed rug sat for six years. None of it is inevitable. A waterborne finish like the Bona and Pallmann systems we apply is genuinely tough; what it can’t survive is a decade of being treated like tile.</p>
 
 <p>So here is the maintenance plan we wish came stapled to every invoice — ours included. It costs very little, most of it is about what <em>not</em> to do, and it’s organized the way finish actually ages: a critical first week, a few boring years, one important decision in the middle, and an honest assessment at the end.</p>
 
-<div data-rt-embed-type='true'><section class="ocb"><div class="ocb-facts">
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-facts">
   <div class="ocb-fact"><span class="n">7 days</span><p>before rugs go back down on a fresh waterborne finish. Socks the same evening, furniture at 48–72 hours — but the finish keeps hardening for about a week, and rugs trap the moisture it’s trying to release.</p></div>
   <div class="ocb-fact"><span class="n">$1.99/sq ft</span><p>for a screen &amp; recoat — the maintenance move at year 5–7 that adds a fresh wear layer in a single day. Skip it long enough and the same floor becomes a $3.99/sq ft full resand.</p></div>
   <div class="ocb-fact"><span class="n">1,000+</span><p>floors refinished since 2013, which is a long look at how finishes age. The pattern: floors fail from cleaning products and missing rug pads far more often than from foot traffic.</p></div>
-</div></section></div>
+</div></div></div>
 
 <h2>Year 0: The First Week Decides More Than the First Five Years</h2>
 
@@ -91,7 +99,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 
 <p>Almost every ten-year plan we see fail is killed by one of the same six things, so here they are in one place: steam mops (vapor under the finish — the damage is cumulative and invisible until boards cup); acrylic “polish” products (a soft layer that blocks future recoats); rolling office chairs without a chair mat (concentrated wear that cuts through finish years early); missing felt pads, especially on barstools and dining chairs that move fifty times a day; dogs’ nails left long on big dogs — the finish can handle a lot, but a seventy-pound dog cornering on hardwood is a load no coating is rated for; and standing water from plants, pet bowls, and window condensation, which finds every seam. None of these require heroics to avoid — a chair mat, a trimmer, a tray under the pot, and a $15 pack of felt pads cover the list.</p>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-card">
+<div data-rt-embed-type='true'><div class="ocb ocb-card">
   <h3 style="margin:0 0 10px;font-size:18.5px;font-weight:900;color:#5c0000">The plan on one page</h3>
   <div style="overflow-x:auto"><table class="ocb-table">
     <tr><th>When</th><th>What to do</th><th>What it costs</th></tr>
@@ -102,9 +110,9 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     <tr><td>Year 8–10</td><td>Second recoat if high traffic — or honest assessment</td><td>$1.99/sq ft</td></tr>
     <tr><td>Only if the window was missed</td><td>Full sand &amp; refinish</td><td>$3.99/sq ft natural · $6.50 stained, 3–5 days</td></tr>
   </table></div>
-</section></div>
+</div></div>
 
-<div data-rt-embed-type='true'><section class="ocb"><div class="ocb-2col">
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-2col">
   <div class="ocb-card" style="margin:0">
     <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#5c0000">Habits that stretch a finish…</h3>
     <ul class="ocb-check">
@@ -125,10 +133,10 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
       <li>Waiting for bare wood before calling anyone</li>
     </ul>
   </div>
-</div></section></div>
+</div></div></div>
 
 <div data-rt-embed-type='true'><!-- FAQ accordion + JSON-LD -->
-<section class="faq-wrap ocb" aria-labelledby="faq-title">
+<div class="faq-wrap ocb" aria-labelledby="faq-title">
   <h2 id="faq-title" class="faq-title">Refinished-Floor Maintenance: What Homeowners Ask Us</h2>
   <div class="faq-items" role="list">
     <details class="faq-item" role="listitem"><summary class="faq-q">How soon after refinishing can we put rugs back down?</summary><div class="faq-a">Seven days on the waterborne finishes we use. The finish is walkable in hours but keeps curing for about a week, and a rug laid early traps moisture and can leave a permanent difference in sheen. Furniture can come back at 48 to 72 hours on felt pads.</div></details>
@@ -140,7 +148,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     <details class="faq-item" role="listitem"><summary class="faq-q">Does the plan change for stained floors?</summary><div class="faq-a">The cleaning routine is identical, but the stakes on the recoat window are higher. A worn natural floor resands at $3.99 per square foot; a stained floor is $6.50 because the color has to be rebuilt evenly. Recoating on schedule protects the stain layer you already paid for.</div></details>
     <details class="faq-item" role="listitem"><summary class="faq-q">Can you recoat a floor OC Flooring didn’t originally refinish?</summary><div class="faq-a">Usually, yes. We test a spot first to confirm the existing finish will bond — floors with polish, wax, or oil-soap history sometimes fail that test and need more than a recoat. If it bonds, the $1.99 screen and recoat works the same regardless of who did the original work.</div></details>
   </div>
-</section>
+</div>
 
 <style>
   .faq-wrap{--line:#e5e7eb;margin:28px auto;padding:20px;border:1px solid var(--line);border-radius:16px;background:#fff;box-shadow:0 8px 30px rgba(2,6,23,.06)}
@@ -157,7 +165,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How soon after refinishing can we put rugs back down?", "acceptedAnswer": {"@type": "Answer", "text": "Seven days on the waterborne finishes we use. The finish is walkable in hours but keeps curing for about a week, and a rug laid early traps moisture and can leave a permanent difference in sheen. Furniture can come back at 48 to 72 hours on felt pads."}}, {"@type": "Question", "name": "What should we clean a refinished floor with?", "acceptedAnswer": {"@type": "Answer", "text": "A dry dust mop or vacuum for the routine, and a cleaner specifically labeled for polyurethane-finished hardwood — Bona and Pallmann both make one — applied with a barely damp mop when needed. No steam, no vinegar, no oil soap, no polish. Water and shine products cause more finish problems than foot traffic does."}}, {"@type": "Question", "name": "Do floor polish products actually damage the finish?", "acceptedAnswer": {"@type": "Answer", "text": "They damage its future. Polishes are soft acrylic layers that dull and smear over time, and new finish will not bond through them — so a floor with polish buildup often cannot be simply recoated and needs stripping or a full resand instead. The product that promises to renew your floor is frequently the reason the cheap renewal option is off the table."}}, {"@type": "Question", "name": "What is a screen and recoat, and when should we do it?", "acceptedAnswer": {"@type": "Answer", "text": "We abrade the existing finish and apply a fresh coat of commercial waterborne over it — one day of work at $1.99 per square foot, and the floor restarts its wear life. The right time is when traffic lanes look dull but no wood is showing through, typically year five to seven in a busy house. Once wear reaches bare wood, a recoat can no longer fix it."}}, {"@type": "Question", "name": "How do we know if we have missed the recoat window?", "acceptedAnswer": {"@type": "Answer", "text": "Look at the traffic lanes in strong light. Dull, scratched, but still uniform in color means finish wear — recoat territory. Gray or darkening patches where the wood itself looks exposed mean the finish has worn through, and the floor needs a full sand and refinish. Photos are usually enough for us to tell you which side of the line you are on."}}, {"@type": "Question", "name": "Are dogs compatible with a ten-year plan?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, with two adjustments: keep nails trimmed, and put rugs on the sprint paths — hallways and the run to the back door. Big dogs concentrate a lot of force on a few claw points when they corner. A satin or matte sheen also hides the fine scratching that comes with any dog far better than a glossier finish."}}, {"@type": "Question", "name": "Does the plan change for stained floors?", "acceptedAnswer": {"@type": "Answer", "text": "The cleaning routine is identical, but the stakes on the recoat window are higher. A worn natural floor resands at $3.99 per square foot; a stained floor is $6.50 because the color has to be rebuilt evenly. Recoating on schedule protects the stain layer you already paid for."}}, {"@type": "Question", "name": "Can you recoat a floor OC Flooring didn’t originally refinish?", "acceptedAnswer": {"@type": "Answer", "text": "Usually, yes. We test a spot first to confirm the existing finish will bond — floors with polish, wax, or oil-soap history sometimes fail that test and need more than a recoat. If it bonds, the $1.99 screen and recoat works the same regardless of who did the original work."}}]}
 </script></div>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-cta" style="margin:30px 0">
+<div data-rt-embed-type='true'><div class="ocb ocb-cta" style="margin:30px 0">
   <style>
     html body .post-body .ocb-cta h2, .ocb-cta h2{color:#fff!important}
     html body .post-body .ocb-cta .ocb-cta-sub, .ocb-cta .ocb-cta-sub{color:rgba(255,255,255,.88)!important}
@@ -167,18 +175,18 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     html body .post-body .ocb-cta a.ocb-cta-phone, .ocb-cta a.ocb-cta-phone{color:#5c0000!important;text-decoration:none!important}
   </style>
   <div style="background:linear-gradient(135deg,#8B0000,#5c0000);border-radius:20px;padding:28px 24px;color:#fff;text-align:center;box-shadow:0 14px 34px rgba(92,0,0,.3)">
-    <h2 style="margin:0 0 6px;color:#fff;font-size:24px;font-weight:900">Put the Recoat on a Calendar, Not a Wish List</h2>
-    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.85);font-size:16.3px">Send us a couple of photos of your traffic lanes and we’ll tell you honestly whether you’re in $1.99 territory or $3.99 territory — and how long you can safely wait. Free estimates across King &amp; Snohomish County.</p>
+    <h2 style="margin:0 0 6px;color:#fff!important;font-size:24px;font-weight:900">Put the Recoat on a Calendar, Not a Wish List</h2>
+    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.92)!important;font-size:16.3px">Send us a couple of photos of your traffic lanes and we’ll tell you honestly whether you’re in $1.99 territory or $3.99 territory — and how long you can safely wait. Free estimates across King &amp; Snohomish County.</p>
     <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
-      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff;color:#5c0000;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> (425) 595-1079</a>
-      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.4);color:#fff;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none">Book My Free Consultation</a>
+      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff!important;color:#5c0000!important;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none!important"><span class="ocb-ic ocb-ic-phone"></span> (425) 595-1079</a>
+      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.16)!important;border:1px solid rgba(255,255,255,.55);color:#fff!important;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none!important">Book My Free Consultation</a>
     </div>
-    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.9)">
+    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.95)!important">
       <span>✓ Since 2013</span><span>✓ 1,000+ floors</span><span>✓ 1-yr workmanship warranty</span><span>✓ Licensed &amp; insured</span><span>✓ Financing available</span>
     </div>
-    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
+    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04!important;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
   </div>
-</section></div>
+</div></div>
 
 <p><strong>Related reading:</strong> <a href="/blog/is-recoating-worth-it-or-delaying-cost">Is recoating worth it — or is delaying cheaper?</a> · <a href="/blog/best-and-worst-cleaners-hardwood-floors">Best and worst cleaners for hardwood</a> · <a href="/blog/rugs-and-rug-pads-that-dont-damage-finish">Rugs and pads that don’t damage finish</a> · <a href="/seattle/hardwood-floor-refinishing-in-seattle-wa">Hardwood floor refinishing in Seattle</a> · <a href="/contact">Book a free estimate</a></p>
 

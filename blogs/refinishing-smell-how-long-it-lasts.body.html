@@ -35,33 +35,41 @@ html body .post-body .ocb-fact p, .ocb-fact p{margin:0!important;font-size:14.7p
 html.ocb-anim-ready .ocb-rv{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
 html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 @media (prefers-reduced-motion:reduce){html.ocb-anim-ready .ocb-rv{opacity:1!important;transform:none!important;transition:none!important}.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:none}}
+
+/* Chip icons. Webflow's rich-text sanitizer strips inline <svg> whenever a post is
+   re-saved in the Editor, so the icons are drawn from CSS on a <span> instead. */
+.ocb-ic{display:inline-block;width:15px;height:15px;flex:0 0 auto;vertical-align:-2px;background-repeat:no-repeat;background-position:center;background-size:contain}
+.ocb-ic-pin{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z'/><circle cx='12' cy='10' r='3'/></svg>')}
+.ocb-ic-home{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z'/><polyline points='9 22 9 12 15 12 15 22'/></svg>')}
+.ocb-ic-phone{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z'/></svg>')}
+.ocb-cta .ocb-ic{filter:brightness(0) saturate(100%) invert(9%) sepia(64%) saturate(4000%) hue-rotate(348deg)}
 </style></div>
 
-<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 -6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">October 28, 2026</span></div></div>
+<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">October 28, 2026</span></div></div>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
+<div data-rt-embed-type='true'><div class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
   <span class="ocb-eyebrow">Quick answer</span>
   <p style="margin:0;font-size:17.9px;line-height:1.65"><strong>With the waterborne finishes we use, the refinishing smell is mild — a faint, slightly sweet “wet paint” note after each coat that fades within hours to a day with normal ventilation — because products like Bona Traffic HD carry only about 65 g/L of VOCs.</strong> The legendary knock-you-over “polyurethane smell” comes from a different product entirely: oil-modified poly at roughly 450–550 g/L, which fills a house for days and keeps off-gassing through a month-long cure. Which finish your contractor sprays decides which experience you get — so ask before you book, not after you smell it.</p>
   <div class="ocb-chips">
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg> King &amp; Snohomish County</span>
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg> Refinishing smell, explained</span>
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-pin"></span> King &amp; Snohomish County</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-home"></span> Refinishing smell, explained</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-phone"></span> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
   </div>
-</section></div>
+</div></div>
 
 <p>“How bad is the smell?” is a top-five estimate question, and it deserves a real answer instead of a wave of the hand — because the honest answer is “somewhere between barely-there and book-a-hotel, depending entirely on the products.” People who refinished floors in the 1990s, or last year with a bargain contractor, remember a solvent cloud that chased them out of the house. People whose floors we coated last week usually describe the smell as less than a room being painted. Both memories are accurate; they’re just memories of different chemistry. Here’s the full tour of what your nose meets during a refinish, stage by stage, and how long each part actually lingers.</p>
 
-<div data-rt-embed-type='true'><section class="ocb"><div class="ocb-facts">
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-facts">
   <div class="ocb-fact"><span class="n">~65 g/L</span><p>VOC content of Bona Traffic HD, the GREENGUARD Gold–certified waterborne we coat most floors with. Oil-modified poly runs roughly 450–550 g/L — about seven times more solvent going into your air.</p></div>
   <div class="ocb-fact"><span class="n">Hours–1 day</span><p>how long the mild smell of a waterborne coat typically hangs around with windows cracked and air moving. Most of our clients sleep home, in the house, the same night.</p></div>
   <div class="ocb-fact"><span class="n">~30 days</span><p>how long oil-modified poly keeps curing — and quietly off-gassing — after the crew leaves. Waterborne finishes reach full cure in about 7 days, and their smell is gone long before that.</p></div>
-</div></section></div>
+</div></div></div>
 
 <h2>Where the Smell Comes From, Stage by Stage</h2>
 
 <p>A refinish has three smell sources, and they’re not equally guilty. <strong>Sanding</strong> produces almost no odor — fresh-cut wood dust smells like a lumberyard, which most people mildly enjoy, and with the vacuum-assisted equipment we run (the details are in our <a href="/blog/dustless-vs-traditional-hardwood-floor-sanding">dustless vs traditional sanding</a> post) very little of it stays airborne anyway. <strong>Stain</strong>, if you’ve chosen color, is the strongest single day of a modern job: most pigmented stains are still solvent-carried, and the day the floor is stained your house smells unmistakably like a woodshop. It’s a one-day event that tapers as the stain dries. <strong>Finish coats</strong> are where the chemistries part ways completely — a waterborne coat smells faintly sweet and slightly ammonia-ish for a few hours; an oil-modified coat smells like a paint store with the doors locked, for days, times three coats. The table below lays the whole schedule out.</p>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-card">
+<div data-rt-embed-type='true'><div class="ocb ocb-card">
   <h3 style="margin:0 0 10px;font-size:18.5px;font-weight:900;color:#5c0000">The smell timeline, both chemistries</h3>
   <div style="overflow-x:auto"><table class="ocb-table">
     <tr><th>Stage</th><th>What you smell</th><th>How long it lingers</th></tr>
@@ -72,7 +80,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     <tr><td>Oil-poly coats (if used)</td><td>Heavy solvent fumes through the whole house</td><td>Days per coat — and it’s one coat per day</td></tr>
     <tr><td>Oil-poly cure</td><td>Diminishing solvent smell that resurfaces in warm rooms</td><td>Off-gasses for weeks across a ~30-day cure</td></tr>
   </table></div>
-</section></div>
+</div></div>
 
 <h2>The Numbers Behind Your Nose</h2>
 
@@ -87,7 +95,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 <p>Three things genuinely help. <strong>Air exchange:</strong> once a coat has set up enough that dust isn’t a threat — we’ll tell you when — cracked windows and a fan moving air out of the room beat any other trick. <strong>Warmth:</strong> finishes cure faster in a comfortably heated house than a cold one, and faster curing means a shorter smell tail; don’t shut the heat off to “save it for later.” <strong>Time with the HVAC fan on:</strong> circulating air through the system’s filter turns the whole house into a slow air scrubber. What doesn’t work: candles and sprays (they add smells, remove nothing), bowls of vinegar or onion (folk chemistry), and ozone generators (genuinely hazardous around people, pets, and fresh finish — hard no). And a scheduling note for our climate: in a Puget Sound winter, “open the windows” is a less charming instruction than in July, which is one of several reasons the smell conversation is also a season conversation. Wherever you are in our service area — our <a href="/seattle/hardwood-floor-refinishing-in-seattle-wa">Seattle refinishing</a> crews field this question daily — the answer scales with ventilation, not with worry.</p>
 
 <div data-rt-embed-type='true'><!-- FAQ accordion + JSON-LD -->
-<section class="faq-wrap ocb" aria-labelledby="faq-title">
+<div class="faq-wrap ocb" aria-labelledby="faq-title">
   <h2 id="faq-title" class="faq-title">Smell Questions Homeowners Ask Us Before Refinishing</h2>
   <div class="faq-items" role="list">
     <details class="faq-item" role="listitem"><summary class="faq-q">Is the smell during floor refinishing dangerous?</summary><div class="faq-a">With the low-VOC waterborne products we use — around 65 g/L, GREENGUARD Gold certified — the smell is mild and short-lived, and most families stay in the house through the whole project. High-VOC oil-modified poly at 450–550 g/L is a different story: prolonged exposure to those fumes causes headaches and irritation, and we recommend sensitive households stay elsewhere during oil coating days.</div></details>
@@ -99,7 +107,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     <details class="faq-item" role="listitem"><summary class="faq-q">Does GREENGUARD Gold mean the finish is odorless?</summary><div class="faq-a">No — it means the product passed strict third-party limits on chemical emissions, the standard used for schools and healthcare settings. There's still a mild smell while a coat dries. Low-VOC means dramatically less of the harmful stuff, not the total absence of any odor.</div></details>
     <details class="faq-item" role="listitem"><summary class="faq-q">What can we do to air the house out fastest?</summary><div class="faq-a">Once each coat has set up — we'll tell you when it's safe — crack windows and move air out with a fan, keep the house comfortably warm so the finish cures on schedule, and run your HVAC fan to pull air through its filter. Skip candles, sprays, and ozone machines: the first two just add competing smells, and ozone is genuinely hazardous to people, pets, and fresh finish.</div></details>
   </div>
-</section>
+</div>
 
 <style>
   .faq-wrap{--line:#e5e7eb;margin:28px auto;padding:20px;border:1px solid var(--line);border-radius:16px;background:#fff;box-shadow:0 8px 30px rgba(2,6,23,.06)}
@@ -116,7 +124,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Is the smell during floor refinishing dangerous?", "acceptedAnswer": {"@type": "Answer", "text": "With the low-VOC waterborne products we use — around 65 g/L, GREENGUARD Gold certified — the smell is mild and short-lived, and most families stay in the house through the whole project. High-VOC oil-modified poly at 450–550 g/L is a different story: prolonged exposure to those fumes causes headaches and irritation, and we recommend sensitive households stay elsewhere during oil coating days."}}, {"@type": "Question", "name": "Can we sleep in the house the night a coat goes down?", "acceptedAnswer": {"@type": "Answer", "text": "With our waterborne systems, yes — that's the norm, not the exception. The smell from a coat fades within hours, and the floor takes sock traffic the same evening. With oil-based polyurethane we recommend sleeping elsewhere at least on coating days, and longer for households with babies, asthma, or birds."}}, {"@type": "Question", "name": "How long until the smell is completely gone?", "acceptedAnswer": {"@type": "Answer", "text": "Waterborne: noticeably gone the next morning after each coat, entirely gone well before the finish reaches full cure at about 7 days. Oil-modified poly: the strong smell lasts days, and a faint solvent note can resurface — especially in warm, sunny rooms — on and off through its roughly 30-day cure."}}, {"@type": "Question", "name": "What exactly is that smell?", "acceptedAnswer": {"@type": "Answer", "text": "Evaporating solvents — VOCs — leaving the finish as it dries. Waterborne finishes carry their solids mostly in water with a small solvent package, hence the faint sweet smell. Oil-modified poly carries its solids in mineral spirits, hence the paint-store effect. The smell is the carrier leaving, not the finish itself."}}, {"@type": "Question", "name": "Does the sanding part smell?", "acceptedAnswer": {"@type": "Answer", "text": "Barely — fresh-sanded wood smells like a lumberyard, and most people don't mind it. If color is part of your project, stain day is the strongest-smelling day of a waterborne job, since most stains are still solvent-based. It's a one-day event that tapers quickly as the stain dries before finishing."}}, {"@type": "Question", "name": "Do pets need to leave the house?", "acceptedAnswer": {"@type": "Answer", "text": "Dogs and cats: keep them out of the work area and off fresh finish, but with waterborne products they can generally stay in the home. Birds are the exception — their respiratory systems are extremely sensitive to airborne chemistry of every kind, and we recommend boarding them away from the house until all smell is gone, whatever finish is used."}}, {"@type": "Question", "name": "Does GREENGUARD Gold mean the finish is odorless?", "acceptedAnswer": {"@type": "Answer", "text": "No — it means the product passed strict third-party limits on chemical emissions, the standard used for schools and healthcare settings. There's still a mild smell while a coat dries. Low-VOC means dramatically less of the harmful stuff, not the total absence of any odor."}}, {"@type": "Question", "name": "What can we do to air the house out fastest?", "acceptedAnswer": {"@type": "Answer", "text": "Once each coat has set up — we'll tell you when it's safe — crack windows and move air out with a fan, keep the house comfortably warm so the finish cures on schedule, and run your HVAC fan to pull air through its filter. Skip candles, sprays, and ozone machines: the first two just add competing smells, and ozone is genuinely hazardous to people, pets, and fresh finish."}}]}
 </script></div>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-cta" style="margin:30px 0">
+<div data-rt-embed-type='true'><div class="ocb ocb-cta" style="margin:30px 0">
   <style>
     html body .post-body .ocb-cta h2, .ocb-cta h2{color:#fff!important}
     html body .post-body .ocb-cta .ocb-cta-sub, .ocb-cta .ocb-cta-sub{color:rgba(255,255,255,.88)!important}
@@ -126,18 +134,18 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     html body .post-body .ocb-cta a.ocb-cta-phone, .ocb-cta a.ocb-cta-phone{color:#5c0000!important;text-decoration:none!important}
   </style>
   <div style="background:linear-gradient(135deg,#8B0000,#5c0000);border-radius:20px;padding:28px 24px;color:#fff;text-align:center;box-shadow:0 14px 34px rgba(92,0,0,.3)">
-    <h2 style="margin:0 0 6px;color:#fff;font-size:24px;font-weight:900">Want the Low-Odor Version of This Project?</h2>
-    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.85);font-size:16.3px">Tell us about your household — kids, lungs, pets, birds and all — and we’ll spec the finish system and schedule around it, with every number in writing. Free estimates across King &amp; Snohomish County.</p>
+    <h2 style="margin:0 0 6px;color:#fff!important;font-size:24px;font-weight:900">Want the Low-Odor Version of This Project?</h2>
+    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.92)!important;font-size:16.3px">Tell us about your household — kids, lungs, pets, birds and all — and we’ll spec the finish system and schedule around it, with every number in writing. Free estimates across King &amp; Snohomish County.</p>
     <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
-      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff;color:#5c0000;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> (425) 595-1079</a>
-      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.4);color:#fff;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none">Book My Free Consultation</a>
+      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff!important;color:#5c0000!important;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none!important"><span class="ocb-ic ocb-ic-phone"></span> (425) 595-1079</a>
+      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.16)!important;border:1px solid rgba(255,255,255,.55);color:#fff!important;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none!important">Book My Free Consultation</a>
     </div>
-    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.9)">
+    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.95)!important">
       <span>✓ Since 2013</span><span>✓ 1,000+ floors</span><span>✓ 1-yr workmanship warranty</span><span>✓ Licensed &amp; insured</span><span>✓ Financing available</span>
     </div>
-    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
+    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04!important;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
   </div>
-</section></div>
+</div></div>
 
 <p><strong>Related reading:</strong> <a href="/blog/low-voc-hardwood-floor-finishes-kids-pets">Low-VOC refinishing with kids and pets</a> · <a href="/blog/water-based-vs-oil-based-floor-finish">Water-based vs oil-based finish</a> · <a href="/blog/how-long-before-you-can-walk-on-refinished-floors">When you can walk on refinished floors</a> · <a href="/seattle/hardwood-floor-refinishing-in-seattle-wa">Hardwood floor refinishing in Seattle</a> · <a href="/contact">Book a free estimate</a></p>
 

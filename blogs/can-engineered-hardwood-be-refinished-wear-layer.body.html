@@ -35,29 +35,37 @@ html body .post-body .ocb-fact p, .ocb-fact p{margin:0!important;font-size:14.7p
 html.ocb-anim-ready .ocb-rv{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
 html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 @media (prefers-reduced-motion:reduce){html.ocb-anim-ready .ocb-rv{opacity:1!important;transform:none!important;transition:none!important}.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:none}}
+
+/* Chip icons. Webflow's rich-text sanitizer strips inline <svg> whenever a post is
+   re-saved in the Editor, so the icons are drawn from CSS on a <span> instead. */
+.ocb-ic{display:inline-block;width:15px;height:15px;flex:0 0 auto;vertical-align:-2px;background-repeat:no-repeat;background-position:center;background-size:contain}
+.ocb-ic-pin{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z'/><circle cx='12' cy='10' r='3'/></svg>')}
+.ocb-ic-home{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z'/><polyline points='9 22 9 12 15 12 15 22'/></svg>')}
+.ocb-ic-phone{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z'/></svg>')}
+.ocb-cta .ocb-ic{filter:brightness(0) saturate(100%) invert(9%) sepia(64%) saturate(4000%) hue-rotate(348deg)}
 </style></div>
 
-<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 -6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">September 4, 2026</span></div></div>
+<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">September 4, 2026</span></div></div>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
+<div data-rt-embed-type='true'><div class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
   <span class="ocb-eyebrow">Quick answer</span>
   <p style="margin:0;font-size:17.9px;line-height:1.65"><strong>Yes — most engineered hardwood can be refinished at least once, provided the wear layer (the real-wood veneer on top) is about 2 mm or thicker.</strong> A full professional sanding removes roughly 1 mm of wood, so a 3–4 mm wear layer can take two refinishes and a premium 4–6 mm layer behaves almost like solid hardwood. Under 2 mm, sanding risks exposing the plywood core — those floors get recoated, not refinished. Here’s how to check what’s under your feet in a Sammamish home before anyone starts a sander.</p>
   <div class="ocb-chips">
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg> King &amp; Snohomish County</span>
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg> Sammamish plateau homes</span>
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-pin"></span> King &amp; Snohomish County</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-home"></span> Sammamish plateau homes</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-phone"></span> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
   </div>
-</section></div>
+</div></div>
 
 <p>“Can you refinish engineered hardwood?” is a question we get almost daily from the Sammamish plateau, usually asked in a tone that expects the answer to be no. The internet deserves some blame here — half the articles out there say engineered floors can’t be sanded, and the other half say they always can. Both halves are wrong, because the honest answer lives in a number nobody quotes: the thickness of your wear layer. That single measurement decides whether your floor has one refinish in it, two, or none at all.</p>
 
 <p>This matters more on the plateau than almost anywhere else we work, because the 1990s and 2000s subdivisions that built Sammamish were early, enthusiastic adopters of engineered flooring. Some builders installed premium product with a wear layer thick enough to outlive the mortgage; others installed the thin stuff, and the difference is invisible from above. Below: what a wear layer is, how to measure yours without tearing up a board, and what the math says about your options.</p>
 
-<div data-rt-embed-type='true'><section class="ocb"><div class="ocb-facts">
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-facts">
   <div class="ocb-fact"><span class="n">~1 mm</span><p>of wood removed by a full professional sanding. That’s the yardstick every wear-layer decision gets measured against — and why a couple of millimeters of veneer decides your floor’s future.</p></div>
   <div class="ocb-fact"><span class="n">2 mm</span><p>the rough dividing line. At or above it, a careful full refinish is on the table. Below it, sanding risks striping through to plywood, and the safe play is a recoat instead.</p></div>
   <div class="ocb-fact"><span class="n">$3.99</span><p>per square foot for a natural refinish — same price for engineered as for solid hardwood. The machine doesn’t care what’s under the wear layer; the person running it very much does.</p></div>
-</div></section></div>
+</div></div></div>
 
 <h2>What a Wear Layer Actually Is</h2>
 
@@ -75,7 +83,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 
 <p>Here’s the table we sketch at Sammamish kitchen counters. It assumes a full sand takes about a millimeter, that the floor is reasonably flat, and that the person running the machine has done this before — an engineered refinish is an experienced-hands job, not a rental-sander weekend.</p>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-card">
+<div data-rt-embed-type='true'><div class="ocb ocb-card">
   <div style="overflow-x:auto"><table class="ocb-table">
     <tr><th>Wear layer</th><th>What it usually means</th><th>Refinishing verdict</th></tr>
     <tr><td><strong>0.6–1 mm</strong></td><td>Bargain and builder-grade product</td><td>Never sand — recoat only</td></tr>
@@ -85,7 +93,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     <tr><td><strong>4–6 mm</strong></td><td>Premium lines</td><td>Two to three — treat it like solid wood</td></tr>
     <tr><td><strong>Unknown</strong></td><td>No vent, no spare plank, no spec</td><td>Measure first; we don’t guess with your floor</td></tr>
   </table></div>
-</section></div>
+</div></div>
 
 <h2>When Not to Sand — and What to Do Instead</h2>
 
@@ -99,7 +107,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 
 <h2>The Short Version</h2>
 
-<div data-rt-embed-type='true'><section class="ocb"><div class="ocb-2col">
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-2col">
   <div class="ocb-card" style="margin:0">
     <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#5c0000">Good refinish candidate when…</h3>
     <ul class="ocb-check">
@@ -120,10 +128,10 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
       <li>A contractor wants to sand without measuring first</li>
     </ul>
   </div>
-</div></section></div>
+</div></div></div>
 
 <div data-rt-embed-type='true'><!-- FAQ accordion + JSON-LD -->
-<section class="faq-wrap ocb" aria-labelledby="faq-title">
+<div class="faq-wrap ocb" aria-labelledby="faq-title">
   <h2 id="faq-title" class="faq-title">Refinishing Engineered Hardwood: What Sammamish Homeowners Ask</h2>
   <div class="faq-items" role="list">
     <details class="faq-item" role="listitem"><summary class="faq-q">Can engineered hardwood floors be refinished at all?</summary><div class="faq-a">Most of them, yes — once or twice, depending on wear-layer thickness. About 2 mm of real-wood veneer is the working minimum for a full sand; 3 mm or more usually means two refinishes over the floor's life. Below 2 mm, we recoat rather than sand.</div></details>
@@ -135,7 +143,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     <details class="faq-item" role="listitem"><summary class="faq-q">Is it worth refinishing engineered hardwood instead of replacing it?</summary><div class="faq-a">If the wear layer supports it, almost always — a refinish runs a fraction of the cost of new flooring plus installation, and a refinished 3 mm wear layer under a modern waterborne finish has years of life ahead. When the veneer is too thin, replacement becomes the honest recommendation, and we'll say so.</div></details>
     <details class="faq-item" role="listitem"><summary class="faq-q">How long does an engineered refinish take?</summary><div class="faq-a">Same as solid: typically 3 to 5 days for sanding and a 2 to 3 coat waterborne finish system — socks the same evening as the final coat, furniture back at 48 to 72 hours, rugs after a week.</div></details>
   </div>
-</section>
+</div>
 
 <style>
   .faq-wrap{--line:#e5e7eb;margin:28px auto;padding:20px;border:1px solid var(--line);border-radius:16px;background:#fff;box-shadow:0 8px 30px rgba(2,6,23,.06)}
@@ -152,7 +160,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Can engineered hardwood floors be refinished at all?", "acceptedAnswer": {"@type": "Answer", "text": "Most of them, yes — once or twice, depending on wear-layer thickness. About 2 mm of real-wood veneer is the working minimum for a full sand; 3 mm or more usually means two refinishes over the floor's life. Below 2 mm, we recoat rather than sand."}}, {"@type": "Question", "name": "How do I find out my wear layer thickness?", "acceptedAnswer": {"@type": "Answer", "text": "Lift a floor vent and measure the top hardwood layer on the cut edge of the boards, check the exposed edge under a transition strip, or find a spare plank — builders often leave a partial box in the garage. If you know the manufacturer and product line, the spec sheet lists it."}}, {"@type": "Question", "name": "What happens if someone sands through the wear layer?", "acceptedAnswer": {"@type": "Answer", "text": "Plywood shows through, and there is no finish, stain, or trick that hides it. The fix is replacing the affected boards — if matching stock exists — or replacing the floor. This is why measuring before sanding is non-negotiable for us."}}, {"@type": "Question", "name": "Does refinishing engineered hardwood cost more than solid?", "acceptedAnswer": {"@type": "Answer", "text": "No — our pricing is the same: $3.99 per square foot for a natural refinish, $6.50 with stain, with a 500 square foot minimum. What changes is the margin for error, which is why engineered work goes to our most experienced crews."}}, {"@type": "Question", "name": "Can floating engineered floors be refinished?", "acceptedAnswer": {"@type": "Answer", "text": "Sometimes, but with more caveats. A floating floor flexes underfoot, which makes aggressive sanding trickier, and click-lock joints put their own limit on how much material can come off. Wear layer 2 mm and up, flat and tight, it's doable; we assess these case by case."}}, {"@type": "Question", "name": "My engineered floor is prefinished with beveled edges. Does that change things?", "acceptedAnswer": {"@type": "Answer", "text": "It can. Sanding flat means removing wood down to the bottom of the bevels, and deep V-grooves can consume a large share of a thin wear layer by themselves. Shallow micro-bevels are usually a non-issue. It's one of the first things we look at during an estimate."}}, {"@type": "Question", "name": "Is it worth refinishing engineered hardwood instead of replacing it?", "acceptedAnswer": {"@type": "Answer", "text": "If the wear layer supports it, almost always — a refinish runs a fraction of the cost of new flooring plus installation, and a refinished 3 mm wear layer under a modern waterborne finish has years of life ahead. When the veneer is too thin, replacement becomes the honest recommendation, and we'll say so."}}, {"@type": "Question", "name": "How long does an engineered refinish take?", "acceptedAnswer": {"@type": "Answer", "text": "Same as solid: typically 3 to 5 days for sanding and a 2 to 3 coat waterborne finish system — socks the same evening as the final coat, furniture back at 48 to 72 hours, rugs after a week."}}]}
 </script></div>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-cta" style="margin:30px 0">
+<div data-rt-embed-type='true'><div class="ocb ocb-cta" style="margin:30px 0">
   <style>
     html body .post-body .ocb-cta h2, .ocb-cta h2{color:#fff!important}
     html body .post-body .ocb-cta .ocb-cta-sub, .ocb-cta .ocb-cta-sub{color:rgba(255,255,255,.88)!important}
@@ -162,18 +170,18 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     html body .post-body .ocb-cta a.ocb-cta-phone, .ocb-cta a.ocb-cta-phone{color:#5c0000!important;text-decoration:none!important}
   </style>
   <div style="background:linear-gradient(135deg,#8B0000,#5c0000);border-radius:20px;padding:28px 24px;color:#fff;text-align:center;box-shadow:0 14px 34px rgba(92,0,0,.3)">
-    <h2 style="margin:0 0 6px;color:#fff;font-size:24px;font-weight:900">Not Sure What’s Under Your Feet?</h2>
-    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.85);font-size:16.3px">Send us a photo of a vent-edge or book a free estimate — we’ll measure your wear layer, tell you honestly whether your Sammamish floor should be sanded, recoated, or left alone, and put the numbers in writing.</p>
+    <h2 style="margin:0 0 6px;color:#fff!important;font-size:24px;font-weight:900">Not Sure What’s Under Your Feet?</h2>
+    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.92)!important;font-size:16.3px">Send us a photo of a vent-edge or book a free estimate — we’ll measure your wear layer, tell you honestly whether your Sammamish floor should be sanded, recoated, or left alone, and put the numbers in writing.</p>
     <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
-      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff;color:#5c0000;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> (425) 595-1079</a>
-      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.4);color:#fff;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none">Book My Free Consultation</a>
+      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff!important;color:#5c0000!important;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none!important"><span class="ocb-ic ocb-ic-phone"></span> (425) 595-1079</a>
+      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.16)!important;border:1px solid rgba(255,255,255,.55);color:#fff!important;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none!important">Book My Free Consultation</a>
     </div>
-    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.9)">
+    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.95)!important">
       <span>✓ Since 2013</span><span>✓ 1,000+ floors</span><span>✓ 1-yr workmanship warranty</span><span>✓ Licensed &amp; insured</span><span>✓ Financing available</span>
     </div>
-    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
+    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04!important;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
   </div>
-</section></div>
+</div></div>
 
 <p><strong>Related reading:</strong> <a href="/blog/solid-vs-engineered-hardwood-which-is-right-for-your-home">Solid vs engineered hardwood</a> · <a href="/blog/can-i-refinish-pre-finished-hardwood-floors">Refinishing prefinished floors</a> · <a href="/blog/how-many-times-can-a-wood-floor-be-sanded-and-refinished-in-the-seattle-wa-area">How many times can a floor be sanded?</a> · <a href="/city-of-sammamish/hardwood-floor-refinishing-in-sammamish-wa">Hardwood floor refinishing in Sammamish</a> · <a href="/contact">Book a free estimate</a></p>
 

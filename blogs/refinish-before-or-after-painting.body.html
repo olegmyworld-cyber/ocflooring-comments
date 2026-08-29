@@ -35,29 +35,37 @@ html body .post-body .ocb-fact p, .ocb-fact p{margin:0!important;font-size:14.7p
 html.ocb-anim-ready .ocb-rv{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
 html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 @media (prefers-reduced-motion:reduce){html.ocb-anim-ready .ocb-rv{opacity:1!important;transform:none!important;transition:none!important}.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:none}}
+
+/* Chip icons. Webflow's rich-text sanitizer strips inline <svg> whenever a post is
+   re-saved in the Editor, so the icons are drawn from CSS on a <span> instead. */
+.ocb-ic{display:inline-block;width:15px;height:15px;flex:0 0 auto;vertical-align:-2px;background-repeat:no-repeat;background-position:center;background-size:contain}
+.ocb-ic-pin{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z'/><circle cx='12' cy='10' r='3'/></svg>')}
+.ocb-ic-home{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z'/><polyline points='9 22 9 12 15 12 15 22'/></svg>')}
+.ocb-ic-phone{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z'/></svg>')}
+.ocb-cta .ocb-ic{filter:brightness(0) saturate(100%) invert(9%) sepia(64%) saturate(4000%) hue-rotate(348deg)}
 </style></div>
 
-<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 -6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">March 8, 2027</span></div></div>
+<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">March 8, 2027</span></div></div>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
+<div data-rt-embed-type='true'><div class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
   <span class="ocb-eyebrow">Quick answer</span>
   <p style="margin:0;font-size:17.9px;line-height:1.65"><strong>Paint first, refinish the floors second, and bring the painter back for one short touch-up on the baseboards afterward.</strong> That order exists because sanding dust ruins wet paint, and because a painter working over a fresh floor finish means ladders, drop cloths, tape, and drips on a film that hasn’t cured. The exception is baseboards: if they’re being replaced or removed, that happens before we sand. Everything else — ceilings, walls, trim, doors — should be done and dry before our machines arrive at your Redmond house.</p>
   <div class="ocb-chips">
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg> King &amp; Snohomish County</span>
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg> Redmond project sequencing</span>
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-pin"></span> King &amp; Snohomish County</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-home"></span> Redmond project sequencing</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-phone"></span> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
   </div>
-</section></div>
+</div></div>
 
 <p>This is the most common scheduling question in any whole-house refresh, and it comes with a real cost attached: get the order wrong and you pay twice for one of the two trades. We get asked it constantly in Redmond, usually by people who just closed on a house, have three weeks before the furniture arrives, and are trying to fit painters, floor crews, and a countertop installer into the same window without anyone ruining anyone else’s work.</p>
 
 <p>The good news is that the sequence is not really debatable among people who do this for a living. The interesting part is <em>why</em>, and where the genuine exceptions are — because there are two, and one of them (baseboards) is the reason the question feels more complicated than it is.</p>
 
-<div data-rt-embed-type='true'><section class="ocb"><div class="ocb-facts">
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-facts">
   <div class="ocb-fact"><span class="n">3–5 days</span><p>a typical full refinish, start to final coat. A whole-house repaint usually runs longer, which is one reason painters go first: their schedule is the harder one to compress.</p></div>
   <div class="ocb-fact"><span class="n">48–72 hrs</span><p>before furniture — and before a painter should be working over the new floor. Full cure is about 7 days, and painter’s tape has no business on a finish younger than that.</p></div>
   <div class="ocb-fact"><span class="n">+$250</span><p>dust containment, when the job calls for it. Worth every dollar if fresh paint is anywhere in the building, because sanding dust in wet paint is not something anyone can buff out.</p></div>
-</div></section></div>
+</div></div></div>
 
 <h2>The Short Answer, and What It’s Based On</h2>
 
@@ -87,7 +95,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 
 <p>Two related notes. Shoe molding and quarter round, if present, generally come off before sanding and go back after — that’s often where the touch-up burden actually lands. And if you’re changing baseboard height, do it in this same window; adding taller base after the floor is refinished is easy, while doing it before means painting around a floor you’re about to sand.</p>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-card">
+<div data-rt-embed-type='true'><div class="ocb ocb-card">
   <h3 style="margin:0 0 10px;font-size:18.5px;font-weight:900;color:#5c0000">The order that works, start to finish</h3>
   <div style="overflow-x:auto"><table class="ocb-table">
     <tr><th>Stage</th><th>What happens</th><th>Why here</th></tr>
@@ -98,11 +106,11 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     <tr><td><strong>5. New trim, if any</strong></td><td>New baseboards installed onto the finished floor, then painted</td><td>Cleanest line possible between trim and floor</td></tr>
     <tr><td><strong>6. Paint touch-up</strong></td><td>Bottom of baseboards and any nicks — a short return visit</td><td>Fixes everything the floor work touched, in one trip</td></tr>
   </table></div>
-</section></div>
+</div></div>
 
 <h2>When the Rule Bends</h2>
 
-<div data-rt-embed-type='true'><section class="ocb"><div class="ocb-2col">
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-2col">
   <div class="ocb-card" style="margin:0">
     <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#5c0000">Paint first — nearly always</h3>
     <ul class="ocb-check">
@@ -123,7 +131,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
       <li>You accept the 7-day wait and a no-tape rule for the painter</li>
     </ul>
   </div>
-</div></section></div>
+</div></div></div>
 
 <h2>Redmond Timing: The Window Between Closing and Furniture</h2>
 
@@ -140,7 +148,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 <p>Get the closet interiors painted in the first pass, since we’ll be sanding closet floors too and nobody wants to be brushing inside a closet over a fresh finish. And be clear in both contracts about who protects what — our containment covers the floor work; the painter’s drop cloths cover theirs; the gap between the two is where damage arguments live. Neither trade minds being asked; both mind being surprised. If there’s a smell question hanging over the sequencing, waterborne finish at around 65 g/L is far milder than most people expect and clears fast, which we cover in <a href="/blog/refinishing-smell-how-long-it-lasts">how long the refinishing smell lasts</a>.</p>
 
 <div data-rt-embed-type='true'><!-- FAQ accordion + JSON-LD -->
-<section class="faq-wrap ocb" aria-labelledby="faq-title">
+<div class="faq-wrap ocb" aria-labelledby="faq-title">
   <h2 id="faq-title" class="faq-title">Painting and Refinishing: Sequencing Questions</h2>
   <div class="faq-items" role="list">
     <details class="faq-item" role="listitem"><summary class="faq-q">Should I paint before or after refinishing floors?</summary><div class="faq-a">Before, in nearly every case. Paint the ceilings, walls, doors, and first coats on the baseboards, let it dry, then refinish. The only work that belongs after the floor is a short baseboard touch-up and any new trim being installed onto the finished floor.</div></details>
@@ -152,7 +160,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     <details class="faq-item" role="listitem"><summary class="faq-q">We're moving in three weeks. Can both fit?</summary><div class="faq-a">Usually. A whole-house repaint typically needs a week to ten days, a full refinish 3 to 5 days, then a couple of days before furniture. That's the standard sequence we run in Redmond between a closing and a move-in. Book the painter first — their schedule is the harder one to move.</div></details>
     <details class="faq-item" role="listitem"><summary class="faq-q">Does a recoat change the sequencing?</summary><div class="faq-a">It shortens it dramatically. A screen and recoat is one day at $1.99/sq ft with no bare wood exposed and far less dust than a full sand. It still belongs after painting, but it fits into a much smaller gap — sometimes a single weekday between other trades.</div></details>
   </div>
-</section>
+</div>
 
 <style>
   .faq-wrap{--line:#e5e7eb;margin:28px auto;padding:20px;border:1px solid var(--line);border-radius:16px;background:#fff;box-shadow:0 8px 30px rgba(2,6,23,.06)}
@@ -169,7 +177,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Should I paint before or after refinishing floors?", "acceptedAnswer": {"@type": "Answer", "text": "Before, in nearly every case. Paint the ceilings, walls, doors, and first coats on the baseboards, let it dry, then refinish. The only work that belongs after the floor is a short baseboard touch-up and any new trim being installed onto the finished floor."}}, {"@type": "Question", "name": "Will sanding dust get on my freshly painted walls?", "acceptedAnswer": {"@type": "Answer", "text": "Some fine dust reaches every surface in a room being sanded, even with containment. On cured paint it wipes off. On wet or recently applied paint it embeds permanently and the wall has to be sanded and recoated. That difference is the entire reason paint goes first."}}, {"@type": "Question", "name": "Can the painter work while you're refinishing?", "acceptedAnswer": {"@type": "Answer", "text": "No — the two trades can't share a space. Sanding dust ruins wet paint, and painters need to put ladders, tape, and drop cloths on floors that are curing. We sequence around each other rather than overlap, which usually costs a day or two total and saves far more."}}, {"@type": "Question", "name": "How long after refinishing before a painter can come back?", "acceptedAnswer": {"@type": "Answer", "text": "Foot traffic in socks is fine the same evening, but for someone working in the room with ladders and equipment, wait at least 48 to 72 hours and preferably the full week to reach cure. And no painter's tape on the floor finish — adhesive on a young film can lift it."}}, {"@type": "Question", "name": "What about the baseboards — do you paint them before or after?", "acceptedAnswer": {"@type": "Answer", "text": "First coats before, final touch-up after. Our edger works right up to the base and can scuff the bottom edge, so the last inch is best painted once the floor is done. If the baseboards are being replaced entirely, they come off before sanding and go on after."}}, {"@type": "Question", "name": "Do you remove quarter round and shoe molding?", "acceptedAnswer": {"@type": "Answer", "text": "Usually yes, if it's present — it comes off before sanding and goes back after the finish. That produces a cleaner result at the wall line, and it also means the reinstalled molding often wants a touch-up, which is another reason to keep the painter's return visit in the plan."}}, {"@type": "Question", "name": "We're moving in three weeks. Can both fit?", "acceptedAnswer": {"@type": "Answer", "text": "Usually. A whole-house repaint typically needs a week to ten days, a full refinish 3 to 5 days, then a couple of days before furniture. That's the standard sequence we run in Redmond between a closing and a move-in. Book the painter first — their schedule is the harder one to move."}}, {"@type": "Question", "name": "Does a recoat change the sequencing?", "acceptedAnswer": {"@type": "Answer", "text": "It shortens it dramatically. A screen and recoat is one day at $1.99/sq ft with no bare wood exposed and far less dust than a full sand. It still belongs after painting, but it fits into a much smaller gap — sometimes a single weekday between other trades."}}]}
 </script></div>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-cta" style="margin:30px 0">
+<div data-rt-embed-type='true'><div class="ocb ocb-cta" style="margin:30px 0">
   <style>
     html body .post-body .ocb-cta h2, .ocb-cta h2{color:#fff!important}
     html body .post-body .ocb-cta .ocb-cta-sub, .ocb-cta .ocb-cta-sub{color:rgba(255,255,255,.88)!important}
@@ -179,18 +187,18 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     html body .post-body .ocb-cta a.ocb-cta-phone, .ocb-cta a.ocb-cta-phone{color:#5c0000!important;text-decoration:none!important}
   </style>
   <div style="background:linear-gradient(135deg,#8B0000,#5c0000);border-radius:20px;padding:28px 24px;color:#fff;text-align:center;box-shadow:0 14px 34px rgba(92,0,0,.3)">
-    <h2 style="margin:0 0 6px;color:#fff;font-size:24px;font-weight:900">Planning a Whole-House Refresh in Redmond?</h2>
-    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.85);font-size:16.3px">Tell us your paint dates and we’ll build the floor schedule around them — including the touch-up window — before you commit to anything. Free in-home estimates across King &amp; Snohomish County.</p>
+    <h2 style="margin:0 0 6px;color:#fff!important;font-size:24px;font-weight:900">Planning a Whole-House Refresh in Redmond?</h2>
+    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.92)!important;font-size:16.3px">Tell us your paint dates and we’ll build the floor schedule around them — including the touch-up window — before you commit to anything. Free in-home estimates across King &amp; Snohomish County.</p>
     <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
-      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff;color:#5c0000;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> (425) 595-1079</a>
-      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.4);color:#fff;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none">Book My Free Consultation</a>
+      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff!important;color:#5c0000!important;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none!important"><span class="ocb-ic ocb-ic-phone"></span> (425) 595-1079</a>
+      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.16)!important;border:1px solid rgba(255,255,255,.55);color:#fff!important;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none!important">Book My Free Consultation</a>
     </div>
-    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.9)">
+    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.95)!important">
       <span>✓ Since 2013</span><span>✓ 1,000+ floors</span><span>✓ 1-yr workmanship warranty</span><span>✓ Licensed &amp; insured</span><span>✓ Financing available</span>
     </div>
-    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
+    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04!important;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
   </div>
-</section></div>
+</div></div>
 
 <p><strong>Related reading:</strong> <a href="/blog/what-happens-to-baseboards-during-refinish">What happens to baseboards during a refinish</a> · <a href="/blog/how-long-before-you-can-walk-on-refinished-floors">How long before you can walk on the floors</a> · <a href="/blog/hvac-dust-control-during-refinishing">HVAC and dust control during refinishing</a> · <a href="/city-of-redmond/hardwood-floor-refinishing-in-redmond-wa">Hardwood floor refinishing in Redmond</a> · <a href="/contact">Book a free estimate</a></p>
 

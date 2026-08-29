@@ -35,29 +35,37 @@ html body .post-body .ocb-fact p, .ocb-fact p{margin:0!important;font-size:14.7p
 html.ocb-anim-ready .ocb-rv{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
 html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 @media (prefers-reduced-motion:reduce){html.ocb-anim-ready .ocb-rv{opacity:1!important;transform:none!important;transition:none!important}.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:none}}
+
+/* Chip icons. Webflow's rich-text sanitizer strips inline <svg> whenever a post is
+   re-saved in the Editor, so the icons are drawn from CSS on a <span> instead. */
+.ocb-ic{display:inline-block;width:15px;height:15px;flex:0 0 auto;vertical-align:-2px;background-repeat:no-repeat;background-position:center;background-size:contain}
+.ocb-ic-pin{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z'/><circle cx='12' cy='10' r='3'/></svg>')}
+.ocb-ic-home{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z'/><polyline points='9 22 9 12 15 12 15 22'/></svg>')}
+.ocb-ic-phone{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z'/></svg>')}
+.ocb-cta .ocb-ic{filter:brightness(0) saturate(100%) invert(9%) sepia(64%) saturate(4000%) hue-rotate(348deg)}
 </style></div>
 
-<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 -6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">December 11, 2026</span></div></div>
+<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">December 11, 2026</span></div></div>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
+<div data-rt-embed-type='true'><div class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
   <span class="ocb-eyebrow">Quick answer</span>
   <p style="margin:0;font-size:17.9px;line-height:1.65"><strong>Most solid parquet floors in Bellevue refinish beautifully — the catch is that parquet’s grain runs in alternating directions, so it can’t be sanded like a strip floor, and the job belongs to multi-directional equipment like the Lägler TRIO rather than a drum sander driven one way.</strong> The genuine dead ends are thin-veneer engineered parquet, blocks that have come unglued in bulk, and — a taste warning more than a technical one — dark stain, which tends to go checkerboard across alternating grain. Here’s what’s possible, what isn’t, and how to tell which floor you have.</p>
   <div class="ocb-chips">
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg> King &amp; Snohomish County</span>
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg> Bellevue parquet floors</span>
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-pin"></span> King &amp; Snohomish County</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-home"></span> Bellevue parquet floors</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-phone"></span> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
   </div>
-</section></div>
+</div></div>
 
 <p>Parquet gets treated unfairly. Homeowners see the little oak squares in a 1970s Bellevue rambler and assume the floor is dated, cheap, or unsaveable — usually right before asking what it would cost to rip it out. But most of that parquet is solid oak, thick enough for several refinishes, laid in a pattern that reads as genuinely handsome once it’s flat, clean, and under fresh finish. We’ve refinished plenty of parquet that homeowners had been quoted for demolition, and the before-and-after difference is bigger than on almost any strip floor.</p>
 
 <p>What <em>is</em> true: parquet punishes sloppy sanding more than any other floor. The wrong machine, run the wrong way, leaves cross-grain scratches in half the blocks that only show up after the stain or finish goes down — permanent, visible, and the reason parquet has a bad reputation in the first place. So this post is half encouragement, half warning label.</p>
 
-<div data-rt-embed-type='true'><section class="ocb"><div class="ocb-facts">
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-facts">
   <div class="ocb-fact"><span class="n">1290</span><p>Janka hardness of red oak — the species in most 60s–80s parquet around Bellevue. This is real hardwood, not a laminate-era compromise, and it sands like it.</p></div>
   <div class="ocb-fact"><span class="n">$3.99</span><p>per sq ft for a full sand and natural refinish. Solid parquet prices the same as strip flooring — the pattern changes our technique, not the rate.</p></div>
   <div class="ocb-fact"><span class="n">3–5 days</span><p>typical refinish timeline for a parquet floor, sanding through final coat, same as any comparable square footage.</p></div>
-</div></section></div>
+</div></div></div>
 
 <h2>What Parquet Is, and Where Bellevue Hides It</h2>
 
@@ -85,7 +93,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 
 <h2>What’s Possible and What Isn’t, at a Glance</h2>
 
-<div data-rt-embed-type='true'><section class="ocb"><div class="ocb-2col">
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-2col">
   <div class="ocb-card" style="margin:0">
     <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#5c0000">Refinishable: the green lights</h3>
     <ul class="ocb-check">
@@ -106,7 +114,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
       <li>Asbestos-era adhesive exposed and friable — needs abatement first, not sanding</li>
     </ul>
   </div>
-</div></section></div>
+</div></div></div>
 
 <h2>Parquet in Bellevue Specifically</h2>
 
@@ -115,7 +123,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 <p>We refinish parquet across the whole Eastside and beyond — the same crews and equipment behind our <a href="/city-of-kirkland/hardwood-floor-refinishing-in-kirkland-wa">hardwood floor refinishing in Kirkland</a> and <a href="/seattle/hardwood-floor-refinishing-in-seattle-wa">Seattle</a> service handle Bellevue daily. Pricing is the same as strip flooring: $3.99/sq ft for a full sand and natural finish, with the 500 sq ft job minimum, and the full cost picture in our <a href="/blog/how-much-does-it-cost-to-refinish-hardwood-floors">refinishing cost guide</a>.</p>
 
 <div data-rt-embed-type='true'><!-- FAQ accordion + JSON-LD -->
-<section class="faq-wrap ocb" aria-labelledby="faq-title">
+<div class="faq-wrap ocb" aria-labelledby="faq-title">
   <h2 id="faq-title" class="faq-title">Parquet Refinishing: What Bellevue Homeowners Ask</h2>
   <div class="faq-items" role="list">
     <details class="faq-item" role="listitem"><summary class="faq-q">Can old parquet floors really be refinished, or is replacement smarter?</summary><div class="faq-a">Most solid parquet refinishes very well — the blocks are real oak with enough thickness for multiple sandings. Refinishing runs $3.99 per square foot for a natural finish, a fraction of tearing out a glued-down floor and installing new material. Replacement only wins when the parquet is thin-veneer engineered, extensively debonded, or water-damaged.</div></details>
@@ -127,7 +135,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     <details class="faq-item" role="listitem"><summary class="faq-q">How long does refinishing a parquet floor take?</summary><div class="faq-a">The same 3 to 5 days as comparable strip flooring, with repairs and re-gluing adding time up front on floors that need it. With the waterborne finishes we use, you're walking on it in socks the evening of the final coat, furniture returns at 48 to 72 hours, and rugs wait a week.</div></details>
     <details class="faq-item" role="listitem"><summary class="faq-q">Does refinished parquet look dated?</summary><div class="faq-a">Not finished naturally. Ambered 1970s finish is most of what reads as dated; sanded flat and coated with a clear matte or satin waterborne, oak parquet reads closer to the European pattern floors that are back in style. It has become a feature in Eastside listings more than once.</div></details>
   </div>
-</section>
+</div>
 
 <style>
   .faq-wrap{--line:#e5e7eb;margin:28px auto;padding:20px;border:1px solid var(--line);border-radius:16px;background:#fff;box-shadow:0 8px 30px rgba(2,6,23,.06)}
@@ -144,7 +152,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Can old parquet floors really be refinished, or is replacement smarter?", "acceptedAnswer": {"@type": "Answer", "text": "Most solid parquet refinishes very well — the blocks are real oak with enough thickness for multiple sandings. Refinishing runs $3.99 per square foot for a natural finish, a fraction of tearing out a glued-down floor and installing new material. Replacement only wins when the parquet is thin-veneer engineered, extensively debonded, or water-damaged."}}, {"@type": "Question", "name": "How is sanding parquet different from sanding regular hardwood?", "acceptedAnswer": {"@type": "Answer", "text": "Parquet blocks alternate grain direction, so any straight-line machine is sanding half the floor across the grain, which leaves permanent scratches. The correct method uses diagonal passes at finer grits and a multi-disc machine like the Lägler TRIO for the final cut, which sands without a directional pattern."}}, {"@type": "Question", "name": "Can parquet be stained a dark color?", "acceptedAnswer": {"@type": "Answer", "text": "It can, but we usually advise against it. Alternating grain absorbs stain unevenly, so adjacent squares take the color differently and the floor reads checkerboard. If you want dark parquet, insist on a sample on your actual floor first. Natural or lightly toned finishes are where parquet looks best."}}, {"@type": "Question", "name": "Some blocks feel loose or sound hollow. Is that a dealbreaker?", "acceptedAnswer": {"@type": "Answer", "text": "No — scattered loose blocks are normal on 40- to 60-year-old parquet and get re-glued before sanding starts. The concern is large continuous hollow areas, especially over concrete, which may need sections re-set before the floor can be sanded safely."}}, {"@type": "Question", "name": "Can you replace missing or broken pieces of parquet?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Individual fingers and whole squares can be patched with matching oak slat stock, and after sanding and finishing the repairs blend far better than most homeowners expect. Salvaging spare material from a closet in the same house gives the best match of all."}}, {"@type": "Question", "name": "Is my parquet solid wood or veneer, and how can I tell?", "acceptedAnswer": {"@type": "Answer", "text": "Check a heat register opening, a removed threshold, or a closet corner where you can see edge thickness. Solid parquet shows the same wood through its thickness, typically 5/16 inch or more above the glue. A veneer product shows a thin face layer over plywood or composite. If you can't tell, we check it as part of a free estimate."}}, {"@type": "Question", "name": "How long does refinishing a parquet floor take?", "acceptedAnswer": {"@type": "Answer", "text": "The same 3 to 5 days as comparable strip flooring, with repairs and re-gluing adding time up front on floors that need it. With the waterborne finishes we use, you're walking on it in socks the evening of the final coat, furniture returns at 48 to 72 hours, and rugs wait a week."}}, {"@type": "Question", "name": "Does refinished parquet look dated?", "acceptedAnswer": {"@type": "Answer", "text": "Not finished naturally. Ambered 1970s finish is most of what reads as dated; sanded flat and coated with a clear matte or satin waterborne, oak parquet reads closer to the European pattern floors that are back in style. It has become a feature in Eastside listings more than once."}}]}
 </script></div>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-cta" style="margin:30px 0">
+<div data-rt-embed-type='true'><div class="ocb ocb-cta" style="margin:30px 0">
   <style>
     html body .post-body .ocb-cta h2, .ocb-cta h2{color:#fff!important}
     html body .post-body .ocb-cta .ocb-cta-sub, .ocb-cta .ocb-cta-sub{color:rgba(255,255,255,.88)!important}
@@ -154,18 +162,18 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     html body .post-body .ocb-cta a.ocb-cta-phone, .ocb-cta a.ocb-cta-phone{color:#5c0000!important;text-decoration:none!important}
   </style>
   <div style="background:linear-gradient(135deg,#8B0000,#5c0000);border-radius:20px;padding:28px 24px;color:#fff;text-align:center;box-shadow:0 14px 34px rgba(92,0,0,.3)">
-    <h2 style="margin:0 0 6px;color:#fff;font-size:24px;font-weight:900">Have a Parquet Floor Worth a Second Opinion?</h2>
-    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.85);font-size:16.3px">Before you price demolition, let us look. Free estimates on parquet refinishing across Bellevue, the Eastside, and all of King &amp; Snohomish County — honest yes or no included.</p>
+    <h2 style="margin:0 0 6px;color:#fff!important;font-size:24px;font-weight:900">Have a Parquet Floor Worth a Second Opinion?</h2>
+    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.92)!important;font-size:16.3px">Before you price demolition, let us look. Free estimates on parquet refinishing across Bellevue, the Eastside, and all of King &amp; Snohomish County — honest yes or no included.</p>
     <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
-      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff;color:#5c0000;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> (425) 595-1079</a>
-      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.4);color:#fff;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none">Book My Free Consultation</a>
+      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff!important;color:#5c0000!important;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none!important"><span class="ocb-ic ocb-ic-phone"></span> (425) 595-1079</a>
+      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.16)!important;border:1px solid rgba(255,255,255,.55);color:#fff!important;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none!important">Book My Free Consultation</a>
     </div>
-    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.9)">
+    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.95)!important">
       <span>✓ Since 2013</span><span>✓ 1,000+ floors</span><span>✓ 1-yr workmanship warranty</span><span>✓ Licensed &amp; insured</span><span>✓ Financing available</span>
     </div>
-    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
+    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04!important;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
   </div>
-</section></div>
+</div></div>
 
 <p><strong>Related reading:</strong> <a href="/blog/trio-sanding-machine-for-flat-floors">The Lägler TRIO and why flat floors matter</a> · <a href="/blog/can-engineered-hardwood-be-refinished-wear-layer">Engineered floors: check the wear layer</a> · <a href="/blog/condo-hardwood-refinishing-bellevue-hoa">Condo refinishing in Bellevue: HOA and noise</a> · <a href="/city-of-kirkland/hardwood-floor-refinishing-in-kirkland-wa">Hardwood floor refinishing in Kirkland</a> · <a href="/contact">Book a free estimate</a></p>
 

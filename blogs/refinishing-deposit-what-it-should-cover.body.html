@@ -35,29 +35,37 @@ html body .post-body .ocb-fact p, .ocb-fact p{margin:0!important;font-size:14.7p
 html.ocb-anim-ready .ocb-rv{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
 html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 @media (prefers-reduced-motion:reduce){html.ocb-anim-ready .ocb-rv{opacity:1!important;transform:none!important;transition:none!important}.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:none}}
+
+/* Chip icons. Webflow's rich-text sanitizer strips inline <svg> whenever a post is
+   re-saved in the Editor, so the icons are drawn from CSS on a <span> instead. */
+.ocb-ic{display:inline-block;width:15px;height:15px;flex:0 0 auto;vertical-align:-2px;background-repeat:no-repeat;background-position:center;background-size:contain}
+.ocb-ic-pin{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z'/><circle cx='12' cy='10' r='3'/></svg>')}
+.ocb-ic-home{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z'/><polyline points='9 22 9 12 15 12 15 22'/></svg>')}
+.ocb-ic-phone{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z'/></svg>')}
+.ocb-cta .ocb-ic{filter:brightness(0) saturate(100%) invert(9%) sepia(64%) saturate(4000%) hue-rotate(348deg)}
 </style></div>
 
-<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 -6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">December 28, 2026</span></div></div>
+<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">December 28, 2026</span></div></div>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
+<div data-rt-embed-type='true'><div class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
   <span class="ocb-eyebrow">Quick answer</span>
   <p style="margin:0;font-size:17.9px;line-height:1.65"><strong>A refinishing deposit should do two things and only two things: reserve your spot on the contractor’s calendar and cover any materials ordered specifically for your job — and around Kirkland that translates to roughly 10–30% of the quoted price, against a written, per-square-foot quote.</strong> It should never be half the job, never be cash-only, and never be requested before you have a scope of work on paper. The balance you hold until the final walk-through is your single best quality-control tool. Here’s how to read a deposit request like a contractor would.</p>
   <div class="ocb-chips">
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg> King &amp; Snohomish County</span>
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg> Kirkland homeowners</span>
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-pin"></span> King &amp; Snohomish County</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-home"></span> Kirkland homeowners</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-phone"></span> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
   </div>
-</section></div>
+</div></div>
 
 <p>Nobody calls us to talk about deposits. They call about dull floors, pet scratches, a listing date — and then, three quotes later, the deposit question is suddenly the whole conversation, because one contractor wants nothing down, another wants 20%, and a third wants half the job in cash before a machine is unloaded. Same floor, three payment structures, and no obvious way for a homeowner to know which one is normal.</p>
 
 <p>So here’s the inside view. We’ve been refinishing floors across King and Snohomish County since 2013 — more than 1,000 of them — and we’ve seen what payment structures look like when a company is healthy, and what they look like when it isn’t. A deposit request is one of the most honest signals in the whole quoting process, if you know how to read it. This guide is the decoder, written for Kirkland homeowners but true anywhere.</p>
 
-<div data-rt-embed-type='true'><section class="ocb"><div class="ocb-facts">
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-facts">
   <div class="ocb-fact"><span class="n">10–30%</span><p>the range a reasonable refinishing deposit falls into around here. Enough to make canceling on the contractor cost you something real — nowhere near enough to fund the job before it starts.</p></div>
   <div class="ocb-fact"><span class="n">$3.99</span><p>our per-square-foot rate for a full sand and natural finish ($1.99 screen &amp; recoat, $6.50 with stain). A published per-foot price turns any deposit into checkable math instead of a number pulled from the air.</p></div>
   <div class="ocb-fact"><span class="n">1 yr</span><p>our workmanship warranty. The balance you hold until the final walk-through protects the job while it’s happening; the warranty is what protects it afterward. You need both — a deposit structure replaces neither.</p></div>
-</div></section></div>
+</div></div></div>
 
 <h2>Why Refinishing Deposits Exist at All</h2>
 
@@ -71,7 +79,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 
 <p>Scale matters too. A one-day $1.99/sq ft screen and recoat has almost no pre-job costs — no stain to mix, minimal calendar risk — so a token deposit or none at all is common and reasonable. A three-week whole-house project with custom-stained stairs sits at the other end. If the deposit percentage doesn’t track the contractor’s actual up-front exposure, ask why. And whatever the number, it should be a line against a written quote with per-square-foot rates — the kind of quote transparency we’ve argued for in our <a href="/blog/refinishing-quote-2-vs-6-per-sqft">breakdown of $2 vs $6 per square foot quotes</a> and our list of <a href="/blog/hidden-costs-refinishing-quotes">hidden costs to watch for</a>.</p>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-card">
+<div data-rt-embed-type='true'><div class="ocb ocb-card">
   <h3 style="margin:0 0 10px;font-size:18.5px;font-weight:900;color:#5c0000">A healthy payment structure, by job type</h3>
   <div style="overflow-x:auto"><table class="ocb-table">
     <tr><th>Job</th><th>Typical deposit</th><th>Balance due</th></tr>
@@ -81,7 +89,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     <tr><td>Stairs ($55–$75/tread) or multi-phase projects</td><td>~20–30%, sometimes staged by phase</td><td>Per phase or at completion</td></tr>
     <tr><td>Any job, any size</td><td>Never 50%+, never cash-only, never before a written scope</td><td>Never fully prepaid</td></tr>
   </table></div>
-</section></div>
+</div></div>
 
 <h2>What a Deposit Should Never Cover — the Red Flags</h2>
 
@@ -91,7 +99,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 
 <h2>The Sniff Test, Compressed</h2>
 
-<div data-rt-embed-type='true'><section class="ocb"><div class="ocb-2col">
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-2col">
   <div class="ocb-card" style="margin:0">
     <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#5c0000">A deposit is reasonable when…</h3>
     <ul class="ocb-check">
@@ -112,7 +120,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
       <li>Today-only pricing pressure is attached to the deposit</li>
     </ul>
   </div>
-</div></section></div>
+</div></div></div>
 
 <h2>The Paperwork That Makes Any Deposit Safe</h2>
 
@@ -127,7 +135,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 <p>It’s also worth saying that financing changes the deposit conversation entirely — we offer it, and for sellers it can shift the whole cost to the far side of closing, which beats negotiating an oversized deposit in the first place. Pricing, scheduling, and payment structure for <a href="/city-of-kirkland/hardwood-floor-refinishing-in-kirkland-wa">hardwood floor refinishing in Kirkland</a> all go in writing before we ask for anything — which is, frankly, the standard you should hold every bidder to, including us. If a floor only needs the cheap fix to pass a buyer’s eye, we’ll say that too; our guide to the <a href="/blog/cheapest-floor-upgrade-buyer-inspection">cheapest floor upgrade that passes a buyer inspection</a> exists for a reason.</p>
 
 <div data-rt-embed-type='true'><!-- FAQ accordion + JSON-LD -->
-<section class="faq-wrap ocb" aria-labelledby="faq-title">
+<div class="faq-wrap ocb" aria-labelledby="faq-title">
   <h2 id="faq-title" class="faq-title">Refinishing Deposits: What Kirkland Homeowners Ask</h2>
   <div class="faq-items" role="list">
     <details class="faq-item" role="listitem"><summary class="faq-q">How much should a hardwood refinishing deposit be?</summary><div class="faq-a">Around 10 to 30 percent of a written quote is the reasonable range in the Kirkland area. Small one-day jobs like a screen and recoat often need no deposit at all; jobs with custom stain or stair materials sit at the higher end. Anything at or above 50 percent is a red flag regardless of the story attached.</div></details>
@@ -140,7 +148,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     <details class="faq-item" role="listitem"><summary class="faq-q">Does OC Flooring require a deposit?</summary><div class="faq-a">It depends on the job — size, materials, and schedule — and whatever we propose goes in writing alongside our published rates ($1.99/sq ft screen and recoat, $3.99 natural refinish, $6.50 with stain) before we ask for anything. We also offer financing, which for many projects replaces the deposit conversation entirely.</div></details>
     <details class="faq-item" role="listitem"><summary class="faq-q">I’m refinishing to sell my house — does that change anything?</summary><div class="faq-a">It raises the stakes on scheduling. Get your dates written into the same document as the deposit, so the money you put down is buying a committed timeline, not just a place in line. And ask about financing — moving the cost past closing often beats stretching for a deposit mid-sale.</div></details>
   </div>
-</section>
+</div>
 
 <style>
   .faq-wrap{--line:#e5e7eb;margin:28px auto;padding:20px;border:1px solid var(--line);border-radius:16px;background:#fff;box-shadow:0 8px 30px rgba(2,6,23,.06)}
@@ -157,7 +165,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How much should a hardwood refinishing deposit be?", "acceptedAnswer": {"@type": "Answer", "text": "Around 10 to 30 percent of a written quote is the reasonable range in the Kirkland area. Small one-day jobs like a screen and recoat often need no deposit at all; jobs with custom stain or stair materials sit at the higher end. Anything at or above 50 percent is a red flag regardless of the story attached."}}, {"@type": "Question", "name": "Is it normal for a contractor to ask for half up front?", "acceptedAnswer": {"@type": "Answer", "text": "It happens, but it isn’t healthy. Refinishing has modest true up-front costs — a stable company doesn’t need half your money to start. Oversized deposits usually signal cash-flow problems, and in the worst cases they precede a contractor who never returns."}}, {"@type": "Question", "name": "Should I ever pay for a refinishing job entirely in advance?", "acceptedAnswer": {"@type": "Answer", "text": "No. Full prepayment removes the contractor’s financial incentive to finish and pass your walk-through, and it removes your leverage if the work falls short. No discount is worth that trade."}}, {"@type": "Question", "name": "What should the deposit actually pay for?", "acceptedAnswer": {"@type": "Answer", "text": "Two things: holding your dates on the contractor’s calendar, and materials ordered specifically for your job — custom-mixed stain, stair treads, special-order supplies. General overhead, standard finish stock, and labor belong in the balance, paid when the work is done."}}, {"@type": "Question", "name": "When should the final payment be due?", "acceptedAnswer": {"@type": "Answer", "text": "After the final walk-through — you and the contractor looking at the finished floor in good light, with anything questionable addressed or scheduled. A payment structure that makes the balance due automatically on the last coat skips your best quality-control step."}}, {"@type": "Question", "name": "Is a cash discount a red flag?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Cash-only or cash-discounted pricing erases the paper trail that protects you if anything goes wrong, and it often signals a business run informally in other ways too — insurance and registration included. Pay in a way that leaves a record."}}, {"@type": "Question", "name": "How do I check a contractor before handing over a deposit?", "acceptedAnswer": {"@type": "Answer", "text": "Verify their Washington contractor registration and insurance through the state Labor &amp; Industries lookup, read recent reviews, and insist on a written scope with per-square-foot rates. Those three steps take fifteen minutes and screen out the majority of deposit horror stories."}}, {"@type": "Question", "name": "Does OC Flooring require a deposit?", "acceptedAnswer": {"@type": "Answer", "text": "It depends on the job — size, materials, and schedule — and whatever we propose goes in writing alongside our published rates ($1.99/sq ft screen and recoat, $3.99 natural refinish, $6.50 with stain) before we ask for anything. We also offer financing, which for many projects replaces the deposit conversation entirely."}}, {"@type": "Question", "name": "I’m refinishing to sell my house — does that change anything?", "acceptedAnswer": {"@type": "Answer", "text": "It raises the stakes on scheduling. Get your dates written into the same document as the deposit, so the money you put down is buying a committed timeline, not just a place in line. And ask about financing — moving the cost past closing often beats stretching for a deposit mid-sale."}}]}
 </script></div>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-cta" style="margin:30px 0">
+<div data-rt-embed-type='true'><div class="ocb ocb-cta" style="margin:30px 0">
   <style>
     html body .post-body .ocb-cta h2, .ocb-cta h2{color:#fff!important}
     html body .post-body .ocb-cta .ocb-cta-sub, .ocb-cta .ocb-cta-sub{color:rgba(255,255,255,.88)!important}
@@ -167,18 +175,18 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     html body .post-body .ocb-cta a.ocb-cta-phone, .ocb-cta a.ocb-cta-phone{color:#5c0000!important;text-decoration:none!important}
   </style>
   <div style="background:linear-gradient(135deg,#8B0000,#5c0000);border-radius:20px;padding:28px 24px;color:#fff;text-align:center;box-shadow:0 14px 34px rgba(92,0,0,.3)">
-    <h2 style="margin:0 0 6px;color:#fff;font-size:24px;font-weight:900">Want a Quote You Can Actually Check?</h2>
-    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.85);font-size:16.3px">Written scope, per-square-foot rates, schedule, and payment terms — all on paper before any deposit talk. Free in-home estimates across Kirkland and all of King &amp; Snohomish County.</p>
+    <h2 style="margin:0 0 6px;color:#fff!important;font-size:24px;font-weight:900">Want a Quote You Can Actually Check?</h2>
+    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.92)!important;font-size:16.3px">Written scope, per-square-foot rates, schedule, and payment terms — all on paper before any deposit talk. Free in-home estimates across Kirkland and all of King &amp; Snohomish County.</p>
     <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
-      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff;color:#5c0000;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> (425) 595-1079</a>
-      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.4);color:#fff;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none">Book My Free Consultation</a>
+      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff!important;color:#5c0000!important;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none!important"><span class="ocb-ic ocb-ic-phone"></span> (425) 595-1079</a>
+      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.16)!important;border:1px solid rgba(255,255,255,.55);color:#fff!important;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none!important">Book My Free Consultation</a>
     </div>
-    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.9)">
+    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.95)!important">
       <span>✓ Since 2013</span><span>✓ 1,000+ floors</span><span>✓ 1-yr workmanship warranty</span><span>✓ Licensed &amp; insured</span><span>✓ Financing available</span>
     </div>
-    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
+    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04!important;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
   </div>
-</section></div>
+</div></div>
 
 <p><strong>Related reading:</strong> <a href="/blog/refinishing-quote-2-vs-6-per-sqft">Why quotes range from $2 to $6/sq ft</a> · <a href="/blog/hidden-costs-refinishing-quotes">Hidden costs in refinishing quotes</a> · <a href="/blog/5-questions-to-ask-before-refinishing-hardwood-floors">5 questions to ask before refinishing</a> · <a href="/city-of-kirkland/hardwood-floor-refinishing-in-kirkland-wa">Hardwood floor refinishing in Kirkland</a> · <a href="/contact">Book a free estimate</a></p>
 

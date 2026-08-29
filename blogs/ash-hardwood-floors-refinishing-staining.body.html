@@ -35,29 +35,37 @@ html body .post-body .ocb-fact p, .ocb-fact p{margin:0!important;font-size:14.7p
 html.ocb-anim-ready .ocb-rv{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
 html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 @media (prefers-reduced-motion:reduce){html.ocb-anim-ready .ocb-rv{opacity:1!important;transform:none!important;transition:none!important}.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:none}}
+
+/* Chip icons. Webflow's rich-text sanitizer strips inline <svg> whenever a post is
+   re-saved in the Editor, so the icons are drawn from CSS on a <span> instead. */
+.ocb-ic{display:inline-block;width:15px;height:15px;flex:0 0 auto;vertical-align:-2px;background-repeat:no-repeat;background-position:center;background-size:contain}
+.ocb-ic-pin{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z'/><circle cx='12' cy='10' r='3'/></svg>')}
+.ocb-ic-home{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z'/><polyline points='9 22 9 12 15 12 15 22'/></svg>')}
+.ocb-ic-phone{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z'/></svg>')}
+.ocb-cta .ocb-ic{filter:brightness(0) saturate(100%) invert(9%) sepia(64%) saturate(4000%) hue-rotate(348deg)}
 </style></div>
 
-<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 -6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">November 25, 2026</span></div></div>
+<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">November 25, 2026</span></div></div>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
+<div data-rt-embed-type='true'><div class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
   <span class="ocb-eyebrow">Quick answer</span>
   <p style="margin:0;font-size:17.9px;line-height:1.65"><strong>Ash refinishes beautifully — it’s as hard as the oaks (sitting right between red oak’s 1290 and white oak’s ~1360 on the Janka scale), sands predictably, and takes stain more evenly than most species.</strong> The one rule that decides everything: ash’s naturally pale, almost creamy color is the whole reason people love it, and only a non-yellowing waterborne finish keeps it. Put oil-modified poly on an ash floor and the blonde goes brassy within a few years. Here’s how we handle ash in Kirkland homes — sanding, finish, and the stain colors that work with the grain instead of against it.</p>
   <div class="ocb-chips">
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg> King &amp; Snohomish County</span>
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg> Kirkland homes</span>
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-pin"></span> King &amp; Snohomish County</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-home"></span> Kirkland homes</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-phone"></span> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
   </div>
-</section></div>
+</div></div>
 
 <p>Ash is the species homeowners most often can’t name. The call usually goes: “we have oak floors, but they’re… lighter than oak? And the grain is bigger?” — and half the time, that’s ash. It was a popular alternative to oak in midcentury builds and had a second run in the 1990s and 2000s, prized for the same reason it makes baseball bats: strong, elastic, and handsome. As a refinishing subject, it’s one of our favorite species — cooperative under the sander, striking under clear finish, and forgiving under stain. It just has opinions about finish chemistry, and this article is mostly about respecting them.</p>
 
 <p>If you’re not sure whether your floor is ash or oak, don’t feel bad — flooring pros double-check too. Both are ring-porous, meaning the grain shows as bold, open lines. The tells: ash runs paler, with a creamy white-to-light-tan tone and no pink; its grain lines are a touch straighter and broader; and it lacks the small shimmering rays you can catch in oak at an angle. It matters less than you’d think for pricing — sanding is the same $3.99/sq ft natural refinish either way — but it matters a lot for stain and finish decisions, which is where the rest of this article lives.</p>
 
-<div data-rt-embed-type='true'><section class="ocb"><div class="ocb-facts">
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-facts">
   <div class="ocb-fact"><span class="n">1290–1360</span><p>the Janka hardness window ash shares with the oaks — red oak sits at 1290 and white oak around 1360, and ash lands between them. Everyday-life durable.</p></div>
   <div class="ocb-fact"><span class="n">$3.99/sq ft</span><p>our full sand and natural refinish — the treatment most ash floors should get, because ash’s own color is the look people pay for.</p></div>
   <div class="ocb-fact"><span class="n">2–3 coats</span><p>of Bona or Pallmann waterborne finish on every ash floor we do — clear, non-yellowing, and the only chemistry that keeps ash blonde for the long run.</p></div>
-</div></section></div>
+</div></div></div>
 
 <h2>How Ash Behaves Under the Sander</h2>
 
@@ -87,7 +95,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 
 <p>Because ash is so often mistaken for oak — and priced, sanded, and scheduled the same — the differences that actually matter are the cosmetic and chemical ones. The table below is the version of the <a href="/blog/red-oak-vs-white-oak-flooring">red oak vs white oak comparison</a> we run in our heads when the floor turns out to be ash instead.</p>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-card">
+<div data-rt-embed-type='true'><div class="ocb ocb-card">
   <div style="overflow-x:auto"><table class="ocb-table">
     <tr><th></th><th>Ash</th><th>Red oak</th><th>White oak</th></tr>
     <tr><td><strong>Janka hardness</strong></td><td>Between the oaks</td><td>1290</td><td>~1360</td></tr>
@@ -98,10 +106,10 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     <tr><td><strong>Black-stain (iron/pet) risk</strong></td><td>Lower — low tannin</td><td>Higher — tannin-rich</td><td>Higher — tannin-rich</td></tr>
     <tr><td><strong>Finish rule</strong></td><td>Waterborne only — protect the blonde</td><td>Waterborne or oil (taste call)</td><td>Waterborne strongly preferred</td></tr>
   </table></div>
-</section></div>
+</div></div>
 
 <div data-rt-embed-type='true'><!-- FAQ accordion + JSON-LD -->
-<section class="faq-wrap ocb" aria-labelledby="faq-title">
+<div class="faq-wrap ocb" aria-labelledby="faq-title">
   <h2 id="faq-title" class="faq-title">Ash Floors: What Kirkland Homeowners Ask Us</h2>
   <div class="faq-items" role="list">
     <details class="faq-item" role="listitem"><summary class="faq-q">How do I know if my floor is ash or oak?</summary><div class="faq-a">Look for color and grain together: ash is paler — cream to light tan with no pink — and its bold grain runs a little straighter and broader than oak's. Oak often shows small shimmering rays at an angle; ash doesn't. Under an old ambered finish the difference hides, so we confirm species during the estimate, usually at a vent cutout or a closet edge.</div></details>
@@ -113,7 +121,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     <details class="faq-item" role="listitem"><summary class="faq-q">Why does my ash floor look yellow-orange now?</summary><div class="faq-a">Almost certainly the old finish, not the wood. Decades of oil-modified polyurethane amber into a brassy orange that completely masks ash's pale color. Sanding to bare wood removes every trace of it, and a clear waterborne finish keeps the reset color permanently — the most dramatic transformation we do on this species.</div></details>
     <details class="faq-item" role="listitem"><summary class="faq-q">How long does refinishing an ash floor take?</summary><div class="faq-a">The same as oak: typically 3 to 5 days for a full refinish depending on square footage and whether stain is involved, and you can walk on the final coat in socks the same evening it goes down. A screen and recoat, when the finish is worn but the wood is fine, is one day.</div></details>
   </div>
-</section>
+</div>
 
 <style>
   .faq-wrap{--line:#e5e7eb;margin:28px auto;padding:20px;border:1px solid var(--line);border-radius:16px;background:#fff;box-shadow:0 8px 30px rgba(2,6,23,.06)}
@@ -130,7 +138,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How do I know if my floor is ash or oak?", "acceptedAnswer": {"@type": "Answer", "text": "Look for color and grain together: ash is paler — cream to light tan with no pink — and its bold grain runs a little straighter and broader than oak's. Oak often shows small shimmering rays at an angle; ash doesn't. Under an old ambered finish the difference hides, so we confirm species during the estimate, usually at a vent cutout or a closet edge."}}, {"@type": "Question", "name": "Is ash durable enough for kids and dogs?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Ash sits between red oak and white oak in Janka hardness — the same range as the majority of American hardwood floors — and its elasticity is why it's the wood of baseball bats and tool handles. With a commercial waterborne finish on top, it handles family life as well as any oak floor."}}, {"@type": "Question", "name": "Can ash floors be refinished the same way as oak?", "acceptedAnswer": {"@type": "Answer", "text": "The process and the price are identical — full sand, 2 to 3 coats of waterborne finish, $3.99 per square foot for a natural refinish. Ash actually sands a bit more forgivingly than very hard or very soft species. The difference is in decisions, not labor: finish chemistry and stain color matter more on ash because its pale color is the point."}}, {"@type": "Question", "name": "What finish should go on an ash floor?", "acceptedAnswer": {"@type": "Answer", "text": "A clear, non-yellowing waterborne — we use Bona and Pallmann systems. Oil-modified polyurethane ambers continuously and turns pale ash brassy-yellow within a few years, which defeats the reason to own the species. This is one of the few species where we consider the finish question settled rather than a preference."}}, {"@type": "Question", "name": "Does ash take stain well?", "acceptedAnswer": {"@type": "Answer", "text": "Unusually well — it absorbs evenly without the blotching that affects maple or birch, and its low red undertone lets grays and cool browns read true. The caution is dark stains: ash's open grain lines absorb far more pigment than the wood between them, so espresso tones produce bold striping. We always do samples on your floor first."}}, {"@type": "Question", "name": "Can you make ash look like white oak?", "acceptedAnswer": {"@type": "Answer", "text": "Close, yes — a light natural or softly warm stain under satin waterborne lands in very similar territory, and most guests would never call the difference. What ash can't fully replicate is white oak's deep, even dark look; if that's the target, we'll tell you honestly at the sample stage."}}, {"@type": "Question", "name": "Why does my ash floor look yellow-orange now?", "acceptedAnswer": {"@type": "Answer", "text": "Almost certainly the old finish, not the wood. Decades of oil-modified polyurethane amber into a brassy orange that completely masks ash's pale color. Sanding to bare wood removes every trace of it, and a clear waterborne finish keeps the reset color permanently — the most dramatic transformation we do on this species."}}, {"@type": "Question", "name": "How long does refinishing an ash floor take?", "acceptedAnswer": {"@type": "Answer", "text": "The same as oak: typically 3 to 5 days for a full refinish depending on square footage and whether stain is involved, and you can walk on the final coat in socks the same evening it goes down. A screen and recoat, when the finish is worn but the wood is fine, is one day."}}]}
 </script></div>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-cta" style="margin:30px 0">
+<div data-rt-embed-type='true'><div class="ocb ocb-cta" style="margin:30px 0">
   <style>
     html body .post-body .ocb-cta h2, .ocb-cta h2{color:#fff!important}
     html body .post-body .ocb-cta .ocb-cta-sub, .ocb-cta .ocb-cta-sub{color:rgba(255,255,255,.88)!important}
@@ -140,18 +148,18 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     html body .post-body .ocb-cta a.ocb-cta-phone, .ocb-cta a.ocb-cta-phone{color:#5c0000!important;text-decoration:none!important}
   </style>
   <div style="background:linear-gradient(135deg,#8B0000,#5c0000);border-radius:20px;padding:28px 24px;color:#fff;text-align:center;box-shadow:0 14px 34px rgba(92,0,0,.3)">
-    <h2 style="margin:0 0 6px;color:#fff;font-size:24px;font-weight:900">Think You Might Have Ash? Let’s Find Out</h2>
-    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.85);font-size:16.3px">We’ll identify the species, show you what it can look like clean and clear-coated, and put a firm price on it — free in-home estimates in Kirkland and across King &amp; Snohomish County.</p>
+    <h2 style="margin:0 0 6px;color:#fff!important;font-size:24px;font-weight:900">Think You Might Have Ash? Let’s Find Out</h2>
+    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.92)!important;font-size:16.3px">We’ll identify the species, show you what it can look like clean and clear-coated, and put a firm price on it — free in-home estimates in Kirkland and across King &amp; Snohomish County.</p>
     <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
-      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff;color:#5c0000;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> (425) 595-1079</a>
-      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.4);color:#fff;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none">Book My Free Consultation</a>
+      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff!important;color:#5c0000!important;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none!important"><span class="ocb-ic ocb-ic-phone"></span> (425) 595-1079</a>
+      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.16)!important;border:1px solid rgba(255,255,255,.55);color:#fff!important;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none!important">Book My Free Consultation</a>
     </div>
-    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.9)">
+    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.95)!important">
       <span>✓ Since 2013</span><span>✓ 1,000+ floors</span><span>✓ 1-yr workmanship warranty</span><span>✓ Licensed &amp; insured</span><span>✓ Financing available</span>
     </div>
-    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
+    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04!important;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
   </div>
-</section></div>
+</div></div>
 
 <p><strong>Related reading:</strong> <a href="/blog/red-oak-vs-white-oak-flooring">Red oak vs white oak</a> · <a href="/blog/water-based-vs-oil-based-floor-finish">Water-based vs oil-based finish</a> · <a href="/blog/what-color-should-i-stain-my-wood-floors">Choosing a stain color</a> · <a href="/blog/natural-no-stain-hardwood-finish-seattle">Why natural finish wins in Seattle</a> · <a href="/contact">Book a free estimate</a></p>
 

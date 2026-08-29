@@ -35,29 +35,37 @@ html body .post-body .ocb-fact p, .ocb-fact p{margin:0!important;font-size:14.7p
 html.ocb-anim-ready .ocb-rv{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
 html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 @media (prefers-reduced-motion:reduce){html.ocb-anim-ready .ocb-rv{opacity:1!important;transform:none!important;transition:none!important}.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:none}}
+
+/* Chip icons. Webflow's rich-text sanitizer strips inline <svg> whenever a post is
+   re-saved in the Editor, so the icons are drawn from CSS on a <span> instead. */
+.ocb-ic{display:inline-block;width:15px;height:15px;flex:0 0 auto;vertical-align:-2px;background-repeat:no-repeat;background-position:center;background-size:contain}
+.ocb-ic-pin{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z'/><circle cx='12' cy='10' r='3'/></svg>')}
+.ocb-ic-home{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z'/><polyline points='9 22 9 12 15 12 15 22'/></svg>')}
+.ocb-ic-phone{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z'/></svg>')}
+.ocb-cta .ocb-ic{filter:brightness(0) saturate(100%) invert(9%) sepia(64%) saturate(4000%) hue-rotate(348deg)}
 </style></div>
 
-<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 -6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">January 29, 2027</span></div></div>
+<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">January 29, 2027</span></div></div>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
+<div data-rt-embed-type='true'><div class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
   <span class="ocb-eyebrow">Quick answer</span>
   <p style="margin:0;font-size:17.9px;line-height:1.65"><strong>A refinishing quote that comes in far below market isn’t a discount — it’s a different job wearing the same name, and the difference surfaces one to three years later as finish worn through in the traffic paths, sanding marks you only see after the stain goes down, or a topcoat peeling off in sheets.</strong> Each of those failures costs a full re-do to fix, which is how a $2.50/sq ft bargain becomes the most expensive floor in Redmond. Here’s where the missing dollars actually come from, what each shortcut looks like when it fails, and how to vet a low number in five questions.</p>
   <div class="ocb-chips">
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg> King &amp; Snohomish County</span>
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg> Redmond &amp; Eastside homes</span>
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-pin"></span> King &amp; Snohomish County</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-home"></span> Redmond &amp; Eastside homes</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-phone"></span> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
   </div>
-</section></div>
+</div></div>
 
 <p>Nobody calls us to say their cheap refinish worked out great. They call two or three years in, when the hallway has gone gray again, or the light from the slider is raking across drum-sander stop marks, or the second coat is releasing from the first in little dime-sized flakes. By then the original contractor’s number rings to nothing, and the fix isn’t a touch-up — finish failures and sanding failures are both corrected the same way, by sanding the floor again and starting over.</p>
 
 <p>We should be upfront: we are not the cheapest quote in Redmond, so we have an interest in this argument. But we’re also the company that gets hired to re-do these floors, which means we’ve seen exactly where the money goes when a quote is too low. This post is the failure-mode catalog. If you want the anatomy of why quotes vary in the first place — equipment, finish grade, insurance, crew — that’s covered in <a href="/blog/refinishing-quote-2-vs-6-per-sqft">what makes one quote $2/sq ft and another $6</a>; and if your low bid is growing line items after signing, that’s a different disease, covered in <a href="/blog/hidden-costs-refinishing-quotes">hidden costs in refinishing quotes</a>. This one is about the quotes that stay cheap — and cost you later.</p>
 
-<div data-rt-embed-type='true'><section class="ocb"><div class="ocb-facts">
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-facts">
   <div class="ocb-fact"><span class="n">$3.99/sq ft</span><p>our full sand and natural refinish — 2–3 coats of commercial waterborne (Bona or Pallmann), Lägler TRIO final sanding pass, 1-year workmanship warranty in writing. When a quote is dramatically under market, part of this scope is quietly missing.</p></div>
   <div class="ocb-fact"><span class="n">$40–60</span><p>per gallon for the bargain single-component finishes behind most too-cheap quotes, versus $100+ for the two-component commercial waterborne we spec. The gallon is the cheapest place to hide a discount and the most expensive place to receive one.</p></div>
   <div class="ocb-fact"><span class="n">1 year</span><p>our workmanship warranty — and the thing the lowest bids almost never include. No license, no insurance, no warranty is a fine cost structure right up until something goes wrong on your floor.</p></div>
-</div></section></div>
+</div></div></div>
 
 <h2>Where the Missing Dollars Come From</h2>
 
@@ -83,7 +91,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 
 <p>This failure mode is also where the missing overhead in a cheap quote stops being abstract. When a floor fails under warranty, we re-do it — that’s what the warranty is, and it’s priced into our rate. When a floor fails with no warranty behind it, the re-do is a brand-new job at full price, paid by you, and the original “savings” fund the first half of it.</p>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-card">
+<div data-rt-embed-type='true'><div class="ocb ocb-card">
   <h3 style="margin:0 0 10px;font-size:18.5px;font-weight:900;color:#5c0000">The shortcut, the symptom, the bill</h3>
   <div style="overflow-x:auto"><table class="ocb-table">
     <tr><th>Shortcut in the cheap quote</th><th>What you see, and when</th><th>What fixing it costs</th></tr>
@@ -94,7 +102,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     <tr><td>Recoat scope sold as “refinish”</td><td>Scratches and gray wear still there on day one</td><td>The refinish you thought you bought</td></tr>
     <tr><td>No license, insurance, warranty</td><td>Nothing — until something goes wrong</td><td>Whatever went wrong, at your expense</td></tr>
   </table></div>
-</section></div>
+</div></div>
 
 <h2>The Redmond Version of This Story</h2>
 
@@ -104,7 +112,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 
 <h2>How to Vet a Low Quote</h2>
 
-<div data-rt-embed-type='true'><section class="ocb"><div class="ocb-2col">
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-2col">
   <div class="ocb-card" style="margin:0">
     <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#5c0000">A low quote can be legitimate when…</h3>
     <ul class="ocb-check">
@@ -125,10 +133,10 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
       <li>The price only makes sense if something on this page is missing</li>
     </ul>
   </div>
-</div></section></div>
+</div></div></div>
 
 <div data-rt-embed-type='true'><!-- FAQ accordion + JSON-LD -->
-<section class="faq-wrap ocb" aria-labelledby="faq-title">
+<div class="faq-wrap ocb" aria-labelledby="faq-title">
   <h2 id="faq-title" class="faq-title">Cheap Refinishing Quotes: What Redmond Homeowners Ask Us</h2>
   <div class="faq-items" role="list">
     <details class="faq-item" role="listitem"><summary class="faq-q">How far below market does a quote have to be before I should worry?</summary><div class="faq-a">Quotes vary legitimately by 20–30 percent with overhead, scheduling, and scope. When a bid is 40–50 percent under the cluster of other quotes, the difference is no longer efficiency — it’s coats, finish grade, insurance, or warranty. Ask the bidder to name which one, in writing.</div></details>
@@ -140,7 +148,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     <details class="faq-item" role="listitem"><summary class="faq-q">Why does dust containment show up as a separate line?</summary><div class="faq-a">Because it’s real equipment and setup time — we charge a flat +$250 for full containment rather than burying it in the rate for everyone. A cheap quote that never mentions dust at all usually means bag-on-machine sanding and a house you’ll be wiping down for weeks. Ask what happens to the dust; the answer is informative.</div></details>
     <details class="faq-item" role="listitem"><summary class="faq-q">Are expensive quotes automatically safe, then?</summary><div class="faq-a">No — a high number can carry the same hollow scope with better margins. Price is a signal, not a guarantee, which is why the five written commitments matter more than the total: products, coats, license and insurance, warranty, and scope. Judge every quote, cheap or dear, on whether those hold up.</div></details>
   </div>
-</section>
+</div>
 
 <style>
   .faq-wrap{--line:#e5e7eb;margin:28px auto;padding:20px;border:1px solid var(--line);border-radius:16px;background:#fff;box-shadow:0 8px 30px rgba(2,6,23,.06)}
@@ -157,7 +165,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How far below market does a quote have to be before I should worry?", "acceptedAnswer": {"@type": "Answer", "text": "Quotes vary legitimately by 20–30 percent with overhead, scheduling, and scope. When a bid is 40–50 percent under the cluster of other quotes, the difference is no longer efficiency — it’s coats, finish grade, insurance, or warranty. Ask the bidder to name which one, in writing."}}, {"@type": "Question", "name": "What questions expose a hollow quote fastest?", "acceptedAnswer": {"@type": "Answer", "text": "Five: Which finish brand and line, exactly? How many coats, and is there abrasion between them? Are you licensed and insured? What does your workmanship warranty cover and for how long? Is this a full sand or a screen and recoat? A solid contractor answers all five without flinching."}}, {"@type": "Question", "name": "Is a $2/sq ft refinish ever real?", "acceptedAnswer": {"@type": "Answer", "text": "As a full sand with a commercial finish system, essentially never — the materials and machine time don’t fit under that number. As a screen and recoat, absolutely: our recoat rate is $1.99/sq ft, and for a floor with intact finish and surface-level wear, it’s the right service. The problem is only when recoat pricing is attached to refinish promises."}}, {"@type": "Question", "name": "How long should a properly done refinish actually last?", "acceptedAnswer": {"@type": "Answer", "text": "With a commercial two-component waterborne and normal family life, expect ten-plus years before a full refinish is on the table, with an optional recoat around year five to seven extending it further. If a refinish visibly wore out in two or three years, the finish grade or coat count was wrong — that pace of failure isn’t normal wear."}}, {"@type": "Question", "name": "The cheap job already happened. Do we have to sand again, or can you recoat over it?", "acceptedAnswer": {"@type": "Answer", "text": "It depends on what failed. Worn-but-adhered finish can sometimes be recoated if wear hasn’t reached wood. Peeling floors can’t — new finish over a releasing layer fails with it. Sanding marks can’t be recoated away either, since they’re in the wood. We check adhesion and wear depth on site before recommending, because recoating over the wrong failure just adds a layer to remove later."}}, {"@type": "Question", "name": "Does a re-do really shorten my floor’s life?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Every full sanding removes wood, and a floor — especially one sanded several times over the decades — has a finite number left. A refinish that has to be repeated in three years spends two sandings for one result. On older floors with limited wood above the tongue, that’s not an abstract cost."}}, {"@type": "Question", "name": "Why does dust containment show up as a separate line?", "acceptedAnswer": {"@type": "Answer", "text": "Because it’s real equipment and setup time — we charge a flat +$250 for full containment rather than burying it in the rate for everyone. A cheap quote that never mentions dust at all usually means bag-on-machine sanding and a house you’ll be wiping down for weeks. Ask what happens to the dust; the answer is informative."}}, {"@type": "Question", "name": "Are expensive quotes automatically safe, then?", "acceptedAnswer": {"@type": "Answer", "text": "No — a high number can carry the same hollow scope with better margins. Price is a signal, not a guarantee, which is why the five written commitments matter more than the total: products, coats, license and insurance, warranty, and scope. Judge every quote, cheap or dear, on whether those hold up."}}]}
 </script></div>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-cta" style="margin:30px 0">
+<div data-rt-embed-type='true'><div class="ocb ocb-cta" style="margin:30px 0">
   <style>
     html body .post-body .ocb-cta h2, .ocb-cta h2{color:#fff!important}
     html body .post-body .ocb-cta .ocb-cta-sub, .ocb-cta .ocb-cta-sub{color:rgba(255,255,255,.88)!important}
@@ -167,18 +175,18 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     html body .post-body .ocb-cta a.ocb-cta-phone, .ocb-cta a.ocb-cta-phone{color:#5c0000!important;text-decoration:none!important}
   </style>
   <div style="background:linear-gradient(135deg,#8B0000,#5c0000);border-radius:20px;padding:28px 24px;color:#fff;text-align:center;box-shadow:0 14px 34px rgba(92,0,0,.3)">
-    <h2 style="margin:0 0 6px;color:#fff;font-size:24px;font-weight:900">Get a Number That Will Still Look Good in Year Five</h2>
-    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.85);font-size:16.3px">We’ll walk your floor, put products, coats, and warranty in writing, and give you a price built to be paid once. Free in-home estimates in Redmond and across King &amp; Snohomish County.</p>
+    <h2 style="margin:0 0 6px;color:#fff!important;font-size:24px;font-weight:900">Get a Number That Will Still Look Good in Year Five</h2>
+    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.92)!important;font-size:16.3px">We’ll walk your floor, put products, coats, and warranty in writing, and give you a price built to be paid once. Free in-home estimates in Redmond and across King &amp; Snohomish County.</p>
     <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
-      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff;color:#5c0000;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> (425) 595-1079</a>
-      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.4);color:#fff;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none">Book My Free Consultation</a>
+      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff!important;color:#5c0000!important;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none!important"><span class="ocb-ic ocb-ic-phone"></span> (425) 595-1079</a>
+      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.16)!important;border:1px solid rgba(255,255,255,.55);color:#fff!important;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none!important">Book My Free Consultation</a>
     </div>
-    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.9)">
+    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.95)!important">
       <span>✓ Since 2013</span><span>✓ 1,000+ floors</span><span>✓ 1-yr workmanship warranty</span><span>✓ Licensed &amp; insured</span><span>✓ Financing available</span>
     </div>
-    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
+    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04!important;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
   </div>
-</section></div>
+</div></div>
 
 <p><strong>Related reading:</strong> <a href="/blog/refinishing-quote-2-vs-6-per-sqft">Why one quote is $2/sq ft and another $6</a> · <a href="/blog/hidden-costs-refinishing-quotes">Hidden costs in refinishing quotes</a> · <a href="/blog/peeling-flaking-floor-finish-why">Why floor finish peels and flakes</a> · <a href="/city-of-redmond/hardwood-floor-refinishing-in-redmond-wa">Hardwood floor refinishing in Redmond</a> · <a href="/contact">Book a free estimate</a></p>
 

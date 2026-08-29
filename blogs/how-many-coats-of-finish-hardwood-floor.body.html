@@ -35,29 +35,37 @@ html body .post-body .ocb-fact p, .ocb-fact p{margin:0!important;font-size:14.7p
 html.ocb-anim-ready .ocb-rv{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
 html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 @media (prefers-reduced-motion:reduce){html.ocb-anim-ready .ocb-rv{opacity:1!important;transform:none!important;transition:none!important}.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:none}}
+
+/* Chip icons. Webflow's rich-text sanitizer strips inline <svg> whenever a post is
+   re-saved in the Editor, so the icons are drawn from CSS on a <span> instead. */
+.ocb-ic{display:inline-block;width:15px;height:15px;flex:0 0 auto;vertical-align:-2px;background-repeat:no-repeat;background-position:center;background-size:contain}
+.ocb-ic-pin{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z'/><circle cx='12' cy='10' r='3'/></svg>')}
+.ocb-ic-home{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z'/><polyline points='9 22 9 12 15 12 15 22'/></svg>')}
+.ocb-ic-phone{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z'/></svg>')}
+.ocb-cta .ocb-ic{filter:brightness(0) saturate(100%) invert(9%) sepia(64%) saturate(4000%) hue-rotate(348deg)}
 </style></div>
 
-<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 -6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">February 17, 2027</span></div></div>
+<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">February 17, 2027</span></div></div>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
+<div data-rt-embed-type='true'><div class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
   <span class="ocb-eyebrow">Quick answer</span>
   <p style="margin:0;font-size:17.9px;line-height:1.65"><strong>Three coats of a quality waterborne finish — a sealer coat plus two topcoats — is the right answer for almost every residential floor, and it’s what we put down as standard. Two is defensible in a low-traffic bedroom; four is worth paying for in a commercial space or a hallway that takes the whole house’s traffic; more than four is money spent on nothing.</strong> The number itself matters less than three things nobody puts in a quote: what product those coats are, whether the floor was abraded between them, and how much finish actually landed per square foot. Four coats of bargain finish is a worse floor than two coats of Bona Traffic HD.</p>
   <div class="ocb-chips">
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg> King &amp; Snohomish County</span>
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg> Coats, film build &amp; wear</span>
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-pin"></span> King &amp; Snohomish County</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-home"></span> Coats, film build &amp; wear</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-phone"></span> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
   </div>
-</section></div>
+</div></div>
 
 <p>“How many coats do you do?” is one of the most common questions we get at estimates, and it’s a good instinct — more coats sounds like more protection, and homeowners have learned to use it to compare bids. The trouble is that it’s the easiest number in the trade to inflate. Coats aren’t standardized, product grades vary enormously, and a thin, badly applied coat counts on paper exactly the same as a proper one.</p>
 
 <p>So here’s the honest version: what a coat is, what each one is doing, where three is right and where it isn’t, and how to read a quote that promises four. We’ll also tell you when we recommend fewer coats than a competitor and why that’s not us cutting corners.</p>
 
-<div data-rt-embed-type='true'><section class="ocb"><div class="ocb-facts">
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-facts">
   <div class="ocb-fact"><span class="n">2–3 coats</span><p>our standard waterborne system on a residential refinish — a sealer plus one or two topcoats of Bona or Pallmann, abraded between coats. It’s what’s included in the $3.99/sq ft natural refinish price, not an upsell.</p></div>
   <div class="ocb-fact"><span class="n">2–3 hrs</span><p>between waterborne coats, which is why a full system goes down in a day. Oil-modified polyurethane manages one coat per day, so a three-coat oil job stretches most of a week.</p></div>
   <div class="ocb-fact"><span class="n">$1.99/sq ft</span><p>a screen and recoat — effectively adding one more coat years later, on a floor that never wore through. This is how a good finish system gets extended rather than replaced.</p></div>
-</div></section></div>
+</div></div></div>
 
 <h2>What a “Coat” Actually Is</h2>
 
@@ -77,7 +85,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 
 <h2>The Spec Table</h2>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-card">
+<div data-rt-embed-type='true'><div class="ocb ocb-card">
   <h3 style="margin:0 0 10px;font-size:18.5px;font-weight:900;color:#5c0000">How Many Coats We Spec, by Situation</h3>
   <div style="overflow-x:auto"><table class="ocb-table">
     <tr><th>Floor</th><th>Coats</th><th>Why</th></tr>
@@ -90,7 +98,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     <tr><td><strong>Screen and recoat</strong></td><td>1</td><td>Adds film to an intact finish; no bare wood involved</td></tr>
     <tr><td><strong>Oil-modified polyurethane</strong></td><td>3, one per day</td><td>Same count, four times the calendar</td></tr>
   </table></div>
-</section></div>
+</div></div>
 
 <h2>Why the Product Matters More Than the Count</h2>
 
@@ -100,7 +108,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 
 <h2>How to Tell If Your Floor Got Enough</h2>
 
-<div data-rt-embed-type='true'><section class="ocb"><div class="ocb-2col">
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-2col">
   <div class="ocb-card" style="margin:0">
     <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#5c0000">Signs the floor got enough finish</h3>
     <ul class="ocb-check">
@@ -121,7 +129,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
       <li>A quote that lists a coat count but names no product</li>
     </ul>
   </div>
-</div></section></div>
+</div></div></div>
 
 <h2>When More Coats Actively Hurt</h2>
 
@@ -144,7 +152,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 <p>After the last coat, the waiting is about cure, not coats: socks the same evening, furniture at 48–72 hours, area rugs at seven days, full cure around a week with our waterborne systems. Adding a fourth coat adds a few hours to the job, not days — the reason we don’t do it by default is film-build limits and cost, not schedule. If you want the detailed version of when you can do what, <a href="/blog/how-long-before-you-can-walk-on-refinished-floors">how long before you can walk on refinished floors</a> covers it hour by hour.</p>
 
 <div data-rt-embed-type='true'><!-- FAQ accordion + JSON-LD -->
-<section class="faq-wrap ocb" aria-labelledby="faq-title">
+<div class="faq-wrap ocb" aria-labelledby="faq-title">
   <h2 id="faq-title" class="faq-title">Coats of Finish: What Homeowners Ask Us</h2>
   <div class="faq-items" role="list">
     <details class="faq-item" role="listitem"><summary class="faq-q">How many coats of polyurethane does a hardwood floor need?</summary><div class="faq-a">Three is the residential standard: a sealer coat plus two topcoats. Two is acceptable in genuinely low-traffic rooms, and four is worth it in commercial spaces or an entry-and-hall run that takes the whole household's traffic. Beyond four you're past the manufacturer's recommended film build and buying nothing.</div></details>
@@ -156,7 +164,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     <details class="faq-item" role="listitem"><summary class="faq-q">Can I add another coat later?</summary><div class="faq-a">Yes, and that's exactly what a screen and recoat is: we abrade the existing finish and lay one fresh coat, for $1.99 per square foot. It only works while the old finish is intact — once the traffic lanes have worn through to bare wood, there's nothing to bond to and you're into a full sand. Timing is the whole game.</div></details>
     <details class="faq-item" role="listitem"><summary class="faq-q">What do you actually put on a typical house?</summary><div class="faq-a">Two to three coats of a Bona or Pallmann waterborne system, abraded between, with the product named on the estimate. On a high-traffic entry or a commercial space we'll spec more; in a quiet bedroom we'll tell you two is enough rather than sell you a third. The choice is on the estimate in writing either way.</div></details>
   </div>
-</section>
+</div>
 
 <style>
   .faq-wrap{--line:#e5e7eb;margin:28px auto;padding:20px;border:1px solid var(--line);border-radius:16px;background:#fff;box-shadow:0 8px 30px rgba(2,6,23,.06)}
@@ -173,7 +181,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How many coats of polyurethane does a hardwood floor need?", "acceptedAnswer": {"@type": "Answer", "text": "Three is the residential standard: a sealer coat plus two topcoats. Two is acceptable in genuinely low-traffic rooms, and four is worth it in commercial spaces or an entry-and-hall run that takes the whole household's traffic. Beyond four you're past the manufacturer's recommended film build and buying nothing."}}, {"@type": "Question", "name": "Is four coats better than three?", "acceptedAnswer": {"@type": "Answer", "text": "Only in high-traffic situations, and only if each coat is applied properly with abrasion in between. Past a certain film thickness the extra finish doesn't add durability, can trap moisture and cure soft, and makes the floor look glassier than the sheen you picked. Product quality is a much bigger lever than the fourth coat."}}, {"@type": "Question", "name": "Does the first coat count as a coat?", "acceptedAnswer": {"@type": "Answer", "text": "It counts, but it does a different job. The sealer soaks into the wood, evens out absorbency between boards, and gives the topcoats something consistent to bond to. Some contractors count it, some don't, which is exactly why comparing coat counts between quotes is unreliable unless you also ask what product and what sequence."}}, {"@type": "Question", "name": "How long between coats?", "acceptedAnswer": {"@type": "Answer", "text": "Two to three hours with a waterborne finish, which is why a full system can go down in a single day. Oil-modified polyurethane needs 8 to 24 hours between coats, so the same three-coat job takes most of a week and the floor is unusable throughout. Cool, damp weather stretches both, oil far more than waterborne."}}, {"@type": "Question", "name": "Do you sand between coats?", "acceptedAnswer": {"@type": "Answer", "text": "We abrade — a light screening, not a sanding — between coats, and it matters more than most homeowners realize. Waterborne finishes bond to the layer below mechanically as well as chemically, and skipping the abrasion is a leading cause of finish peeling years later. Ask any contractor whether they do it; the answer is informative."}}, {"@type": "Question", "name": "Does a stained floor need more coats?", "acceptedAnswer": {"@type": "Answer", "text": "It needs the same number of protective coats, because stain adds color and essentially no film. That's why a stain refinish is $6.50 per square foot against $3.99 natural — the stain step is additional work and an extra day, not a substitute for a coat. It also demands a compatible sealer and a gentler abrasion between coats."}}, {"@type": "Question", "name": "Can I add another coat later?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, and that's exactly what a screen and recoat is: we abrade the existing finish and lay one fresh coat, for $1.99 per square foot. It only works while the old finish is intact — once the traffic lanes have worn through to bare wood, there's nothing to bond to and you're into a full sand. Timing is the whole game."}}, {"@type": "Question", "name": "What do you actually put on a typical house?", "acceptedAnswer": {"@type": "Answer", "text": "Two to three coats of a Bona or Pallmann waterborne system, abraded between, with the product named on the estimate. On a high-traffic entry or a commercial space we'll spec more; in a quiet bedroom we'll tell you two is enough rather than sell you a third. The choice is on the estimate in writing either way."}}]}
 </script></div>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-cta" style="margin:30px 0">
+<div data-rt-embed-type='true'><div class="ocb ocb-cta" style="margin:30px 0">
   <style>
     html body .post-body .ocb-cta h2, .ocb-cta h2{color:#fff!important}
     html body .post-body .ocb-cta .ocb-cta-sub, .ocb-cta .ocb-cta-sub{color:rgba(255,255,255,.88)!important}
@@ -183,18 +191,18 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     html body .post-body .ocb-cta a.ocb-cta-phone, .ocb-cta a.ocb-cta-phone{color:#5c0000!important;text-decoration:none!important}
   </style>
   <div style="background:linear-gradient(135deg,#8B0000,#5c0000);border-radius:20px;padding:28px 24px;color:#fff;text-align:center;box-shadow:0 14px 34px rgba(92,0,0,.3)">
-    <h2 style="margin:0 0 6px;color:#fff;font-size:24px;font-weight:900">Ask Us What’s Going On Your Floor</h2>
-    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.85);font-size:16.3px">We’ll name the product, the number of coats, and the abrasion steps in writing before you sign anything — plus what your floor actually needs rather than what sounds impressive. Free in-home estimates across King &amp; Snohomish County.</p>
+    <h2 style="margin:0 0 6px;color:#fff!important;font-size:24px;font-weight:900">Ask Us What’s Going On Your Floor</h2>
+    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.92)!important;font-size:16.3px">We’ll name the product, the number of coats, and the abrasion steps in writing before you sign anything — plus what your floor actually needs rather than what sounds impressive. Free in-home estimates across King &amp; Snohomish County.</p>
     <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
-      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff;color:#5c0000;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> (425) 595-1079</a>
-      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.4);color:#fff;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none">Book My Free Consultation</a>
+      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff!important;color:#5c0000!important;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none!important"><span class="ocb-ic ocb-ic-phone"></span> (425) 595-1079</a>
+      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.16)!important;border:1px solid rgba(255,255,255,.55);color:#fff!important;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none!important">Book My Free Consultation</a>
     </div>
-    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.9)">
+    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.95)!important">
       <span>✓ Since 2013</span><span>✓ 1,000+ floors</span><span>✓ 1-yr workmanship warranty</span><span>✓ Licensed &amp; insured</span><span>✓ Financing available</span>
     </div>
-    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
+    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04!important;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
   </div>
-</section></div>
+</div></div>
 
 <p><strong>Related reading:</strong> <a href="/blog/bona-hd-the-ultimate-floor-finish-for-your-home">Why we run Bona Traffic HD</a> · <a href="/blog/water-based-vs-oil-based-floor-finish">Water-based vs oil-based finish</a> · <a href="/blog/hardwood-floor-refinishing-process-timeline">The refinishing timeline</a> · <a href="/seattle/hardwood-floor-refinishing-in-seattle-wa">Hardwood floor refinishing in Seattle</a> · <a href="/contact">Book a free estimate</a></p>
 

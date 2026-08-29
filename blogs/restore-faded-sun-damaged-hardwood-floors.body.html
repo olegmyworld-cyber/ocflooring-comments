@@ -35,29 +35,37 @@ html body .post-body .ocb-fact p, .ocb-fact p{margin:0!important;font-size:14.7p
 html.ocb-anim-ready .ocb-rv{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
 html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 @media (prefers-reduced-motion:reduce){html.ocb-anim-ready .ocb-rv{opacity:1!important;transform:none!important;transition:none!important}.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:none}}
+
+/* Chip icons. Webflow's rich-text sanitizer strips inline <svg> whenever a post is
+   re-saved in the Editor, so the icons are drawn from CSS on a <span> instead. */
+.ocb-ic{display:inline-block;width:15px;height:15px;flex:0 0 auto;vertical-align:-2px;background-repeat:no-repeat;background-position:center;background-size:contain}
+.ocb-ic-pin{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z'/><circle cx='12' cy='10' r='3'/></svg>')}
+.ocb-ic-home{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z'/><polyline points='9 22 9 12 15 12 15 22'/></svg>')}
+.ocb-ic-phone{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z'/></svg>')}
+.ocb-cta .ocb-ic{filter:brightness(0) saturate(100%) invert(9%) sepia(64%) saturate(4000%) hue-rotate(348deg)}
 </style></div>
 
-<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 -6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">September 11, 2026</span></div></div>
+<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">September 11, 2026</span></div></div>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
+<div data-rt-embed-type='true'><div class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
   <span class="ocb-eyebrow">Quick answer</span>
   <p style="margin:0;font-size:17.9px;line-height:1.65"><strong>A full sand and refinish is the only genuine fix for faded, sun-damaged hardwood — the color change lives in the wood itself, so no cleaner, polish, or fresh topcoat can reach it.</strong> The encouraging part: most UV damage is shallow, and the roughly 1 mm a professional sanding removes takes the floor back to even, original-color wood. In Edmonds homes — where west light off the Sound does the damage — that means fade lines, rug ghosts, and yellowed floors are almost always fully restorable. Here’s how to tell what you have and what actually fixes it.</p>
   <div class="ocb-chips">
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg> King &amp; Snohomish County</span>
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg> Edmonds homes</span>
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-pin"></span> King &amp; Snohomish County</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-home"></span> Edmonds homes</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-phone"></span> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
   </div>
-</section></div>
+</div></div>
 
 <p>We already wrote about how sunlight wrecks hardwood — the mechanism, the prevention, the physics are in our <a href="/blog/sun-damaged-hardwood-floors">sun-damaged floors guide</a>. This post is the other half of that conversation, the one homeowners actually call about: the damage is done, there’s a rug-shaped rectangle burned into the living room, and the question is what — if anything — gets the floor back. The short answer is that restoration is not only possible but routine, and it works because of a lucky accident of physics: UV is shallow. It changes the top fraction of a millimeter of wood, and we own machines that remove a full millimeter.</p>
 
 <p>The longer answer involves a diagnosis step most people skip, because “faded” turns out to mean three different problems with three different fixes — and one of them doesn’t need a full refinish at all.</p>
 
-<div data-rt-embed-type='true'><section class="ocb"><div class="ocb-facts">
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-facts">
   <div class="ocb-fact"><span class="n">~1 mm</span><p>of wood removed by a full professional sanding — deeper than most UV color change penetrates. This is the entire reason sun damage is fixable rather than permanent.</p></div>
   <div class="ocb-fact"><span class="n">0</span><p>bottled products that reverse fade. Polishes and “restorers” add gloss over the discoloration; a recoat seals it in. Anything that promises otherwise is selling shine, not color.</p></div>
   <div class="ocb-fact"><span class="n">$3.99</span><p>per square foot for the actual fix — a full sand and natural refinish with a non-yellowing waterborne finish, so the restored color is the color you keep.</p></div>
-</div></section></div>
+</div></div></div>
 
 <h2>First, Diagnose: Which “Faded” Do You Have?</h2>
 
@@ -87,7 +95,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 
 <p>Restoration without prevention is a subscription. You can’t stop UV — anyone who says their finish blocks it entirely is rounding up — but you can slow it to a crawl: a non-yellowing waterborne finish removes the finish’s own contribution to color change; rotating rugs a couple of times a year turns sharp ghost lines into imperceptible gradients; and window film or decent shades on the worst west glass cuts the dose dramatically without costing you the view at the hours you care about. Do those three things and the difference between year one and year ten becomes something you need photographs to detect.</p>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-card">
+<div data-rt-embed-type='true'><div class="ocb ocb-card">
   <h3 style="margin:0 0 10px;font-size:18.5px;font-weight:900;color:#5c0000">Symptom → diagnosis → fix</h3>
   <div style="overflow-x:auto"><table class="ocb-table">
     <tr><th>What you see</th><th>What it is</th><th>What fixes it</th></tr>
@@ -97,10 +105,10 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     <tr><td>Fade plus a wanted color change</td><td>Restoration + update</td><td>Sand &amp; stain refinish — $6.50/sq ft</td></tr>
     <tr><td>Very deep, decades-old exposure</td><td>Rare severe case</td><td>Sand, assess honestly, sometimes stain to blend</td></tr>
   </table></div>
-</section></div>
+</div></div>
 
 <div data-rt-embed-type='true'><!-- FAQ accordion + JSON-LD -->
-<section class="faq-wrap ocb" aria-labelledby="faq-title">
+<div class="faq-wrap ocb" aria-labelledby="faq-title">
   <h2 id="faq-title" class="faq-title">Restoring Sun-Faded Floors: What Edmonds Homeowners Ask</h2>
   <div class="faq-items" role="list">
     <details class="faq-item" role="listitem"><summary class="faq-q">Can sun-faded hardwood floors be restored without sanding?</summary><div class="faq-a">Honestly, no — the color change is in the wood, and everything short of sanding sits on top of it. Polishes add shine over the fade, and a recoat seals it in permanently. If the color is wrong, sanding is the fix; if only the sheen is tired, a recoat is the right, cheaper call.</div></details>
@@ -112,7 +120,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     <details class="faq-item" role="listitem"><summary class="faq-q">What does restoring a sun-damaged floor cost?</summary><div class="faq-a">The same as the refinish it is: $3.99 per square foot natural, $6.50 with stain, 500 square foot minimum, typically 3 to 5 days. There's no separate 'restoration' premium — the sander doesn't charge extra for fade.</div></details>
     <details class="faq-item" role="listitem"><summary class="faq-q">Our Edmonds house has old fir floors. Does any of this change?</summary><div class="faq-a">The logic holds but the execution tightens: fir is soft, sands unforgivingly, and old fir often darkens rather than bleaches in the sun. It restores beautifully in experienced hands — it's genuinely one of our favorite floors to bring back — but it's not the project for guesswork or rental equipment.</div></details>
   </div>
-</section>
+</div>
 
 <style>
   .faq-wrap{--line:#e5e7eb;margin:28px auto;padding:20px;border:1px solid var(--line);border-radius:16px;background:#fff;box-shadow:0 8px 30px rgba(2,6,23,.06)}
@@ -129,7 +137,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Can sun-faded hardwood floors be restored without sanding?", "acceptedAnswer": {"@type": "Answer", "text": "Honestly, no — the color change is in the wood, and everything short of sanding sits on top of it. Polishes add shine over the fade, and a recoat seals it in permanently. If the color is wrong, sanding is the fix; if only the sheen is tired, a recoat is the right, cheaper call."}}, {"@type": "Question", "name": "Will refinishing completely remove rug fade lines?", "acceptedAnswer": {"@type": "Answer", "text": "Almost always, yes. A full sand removes about a millimeter of wood — deeper than typical UV color change — and it removes it evenly across faded and protected areas alike, so the contrast disappears with the damage. Severe multi-decade exposure is the rare exception, and we'll flag it at the estimate."}}, {"@type": "Question", "name": "My floor turned orange rather than pale. Is that sun damage?", "acceptedAnswer": {"@type": "Answer", "text": "Partly. That's an old oil-based polyurethane ambering with age — sunlight accelerates it, but the yellowing is the finish, not the wood. Sanding removes the orange film, and finishing with a non-yellowing waterborne keeps the restored color from drifting again."}}, {"@type": "Question", "name": "How deep does sun damage actually go?", "acceptedAnswer": {"@type": "Answer", "text": "Usually a small fraction of a millimeter — UV works on the surface it can reach. That's why one refinish erases most fade completely. Decades of intense, uncovered south or west exposure can push it deeper, which is rare and still usually improves dramatically with a full sand."}}, {"@type": "Question", "name": "Can you refinish just the one faded room?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, though color match at doorways is the honest caveat: a freshly sanded room will look newer than its neighbors by exactly the amount your neighbors have aged. Where floors flow together, refinishing the connected area — or using a threshold as the boundary — gives the cleanest result. We'll show you the options in your actual hallway."}}, {"@type": "Question", "name": "Which finish protects best against future fading?", "acceptedAnswer": {"@type": "Answer", "text": "A commercial non-yellowing waterborne — Bona or Pallmann in our case — removes the finish's own color drift from the equation and slows the wood's. No finish stops UV entirely; rug rotation and film or shades on the worst west-facing glass do the rest."}}, {"@type": "Question", "name": "What does restoring a sun-damaged floor cost?", "acceptedAnswer": {"@type": "Answer", "text": "The same as the refinish it is: $3.99 per square foot natural, $6.50 with stain, 500 square foot minimum, typically 3 to 5 days. There's no separate 'restoration' premium — the sander doesn't charge extra for fade."}}, {"@type": "Question", "name": "Our Edmonds house has old fir floors. Does any of this change?", "acceptedAnswer": {"@type": "Answer", "text": "The logic holds but the execution tightens: fir is soft, sands unforgivingly, and old fir often darkens rather than bleaches in the sun. It restores beautifully in experienced hands — it's genuinely one of our favorite floors to bring back — but it's not the project for guesswork or rental equipment."}}]}
 </script></div>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-cta" style="margin:30px 0">
+<div data-rt-embed-type='true'><div class="ocb ocb-cta" style="margin:30px 0">
   <style>
     html body .post-body .ocb-cta h2, .ocb-cta h2{color:#fff!important}
     html body .post-body .ocb-cta .ocb-cta-sub, .ocb-cta .ocb-cta-sub{color:rgba(255,255,255,.88)!important}
@@ -139,18 +147,18 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     html body .post-body .ocb-cta a.ocb-cta-phone, .ocb-cta a.ocb-cta-phone{color:#5c0000!important;text-decoration:none!important}
   </style>
   <div style="background:linear-gradient(135deg,#8B0000,#5c0000);border-radius:20px;padding:28px 24px;color:#fff;text-align:center;box-shadow:0 14px 34px rgba(92,0,0,.3)">
-    <h2 style="margin:0 0 6px;color:#fff;font-size:24px;font-weight:900">Show Us Your Rug Lines</h2>
-    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.85);font-size:16.3px">Text us a photo of the worst spot or book a free estimate — we’ll tell you which kind of fade you have, whether it’s a $1.99 recoat or a full restoration, and put the plan in writing. Serving Edmonds and all of King &amp; Snohomish County.</p>
+    <h2 style="margin:0 0 6px;color:#fff!important;font-size:24px;font-weight:900">Show Us Your Rug Lines</h2>
+    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.92)!important;font-size:16.3px">Text us a photo of the worst spot or book a free estimate — we’ll tell you which kind of fade you have, whether it’s a $1.99 recoat or a full restoration, and put the plan in writing. Serving Edmonds and all of King &amp; Snohomish County.</p>
     <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
-      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff;color:#5c0000;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> (425) 595-1079</a>
-      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.4);color:#fff;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none">Book My Free Consultation</a>
+      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff!important;color:#5c0000!important;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none!important"><span class="ocb-ic ocb-ic-phone"></span> (425) 595-1079</a>
+      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.16)!important;border:1px solid rgba(255,255,255,.55);color:#fff!important;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none!important">Book My Free Consultation</a>
     </div>
-    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.9)">
+    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.95)!important">
       <span>✓ Since 2013</span><span>✓ 1,000+ floors</span><span>✓ 1-yr workmanship warranty</span><span>✓ Licensed &amp; insured</span><span>✓ Financing available</span>
     </div>
-    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
+    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04!important;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
   </div>
-</section></div>
+</div></div>
 
 <p><strong>Related reading:</strong> <a href="/blog/sun-damaged-hardwood-floors">How sun damages hardwood floors</a> · <a href="/blog/water-based-vs-oil-based-floor-finish">Water-based vs oil-based finish</a> · <a href="/blog/what-color-should-i-stain-my-wood-floors">Choosing a stain color</a> · <a href="/city-of-edmonds/hardwood-floor-refinishing-in-edmonds-wa">Hardwood floor refinishing in Edmonds</a> · <a href="/contact">Book a free estimate</a></p>
 

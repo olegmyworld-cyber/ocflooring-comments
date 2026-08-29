@@ -35,29 +35,37 @@ html body .post-body .ocb-fact p, .ocb-fact p{margin:0!important;font-size:14.7p
 html.ocb-anim-ready .ocb-rv{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
 html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 @media (prefers-reduced-motion:reduce){html.ocb-anim-ready .ocb-rv{opacity:1!important;transform:none!important;transition:none!important}.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:none}}
+
+/* Chip icons. Webflow's rich-text sanitizer strips inline <svg> whenever a post is
+   re-saved in the Editor, so the icons are drawn from CSS on a <span> instead. */
+.ocb-ic{display:inline-block;width:15px;height:15px;flex:0 0 auto;vertical-align:-2px;background-repeat:no-repeat;background-position:center;background-size:contain}
+.ocb-ic-pin{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z'/><circle cx='12' cy='10' r='3'/></svg>')}
+.ocb-ic-home{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z'/><polyline points='9 22 9 12 15 12 15 22'/></svg>')}
+.ocb-ic-phone{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z'/></svg>')}
+.ocb-cta .ocb-ic{filter:brightness(0) saturate(100%) invert(9%) sepia(64%) saturate(4000%) hue-rotate(348deg)}
 </style></div>
 
-<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 -6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">October 9, 2026</span></div></div>
+<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">October 9, 2026</span></div></div>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
+<div data-rt-embed-type='true'><div class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
   <span class="ocb-eyebrow">Quick answer</span>
   <p style="margin:0;font-size:17.9px;line-height:1.65"><strong>Most pet scratches live in the finish, not the wood — which means a $1.99/sq ft screen &amp; recoat erases them in a day, and a full refinish is only necessary when claws have cut through to raw wood or urine has stained boards dark.</strong> The triage is simple: scratches your fingernail glides over will recoat away; grooves that catch your nail, gray patches, and black spots need the $3.99/sq ft sand — or, for black urine stains, board replacement. For Renton households planning to keep both the dog and the hardwood, the real answer is a maintenance rhythm, and we&rsquo;ll lay that out too.</p>
   <div class="ocb-chips">
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg> King &amp; Snohomish County</span>
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg> Renton pet households</span>
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-pin"></span> King &amp; Snohomish County</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-home"></span> Renton pet households</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-phone"></span> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
   </div>
-</section></div>
+</div></div>
 
 <p>We like dogs. We also refinish what dogs do to floors, week in and week out, so this is a subject where we can skip the theory. The good news first: in the hundreds of pet-scratched floors we&rsquo;ve looked at across Renton and the rest of King County, the large majority needed far less work than their owners feared. Claws are hard on finish and surprisingly gentle on wood — most of the damage that looks like &ldquo;ruined floors&rdquo; is a scratched-up topcoat doing exactly what a topcoat is for.</p>
 
 <p>The bad news is concentrated in one category — urine — and we&rsquo;ll be straight about it, because it&rsquo;s the difference between a one-day fix and replacing boards. Here&rsquo;s the full picture: which damage gets which repair, what it costs, and how households that keep hardwood and pets for decades actually manage it.</p>
 
-<div data-rt-embed-type='true'><section class="ocb"><div class="ocb-facts">
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-facts">
   <div class="ocb-fact"><span class="n">$1.99/sq ft</span><p>screen &amp; recoat — erases claw scratching that lives in the finish, which is most of it. One day of work, and the dog is back on the floor that evening.</p></div>
   <div class="ocb-fact"><span class="n">$3.99/sq ft</span><p>full sand and refinish when scratches reach the wood — 3–5 days, and it also removes shallow urine marks that haven&rsquo;t gone black.</p></div>
   <div class="ocb-fact"><span class="n">1,290 vs 660</span><p>Janka hardness of red oak vs Douglas fir. Renton&rsquo;s postwar oak takes a dog&rsquo;s claws far better than the region&rsquo;s older fir floors — species decides how fast damage accumulates.</p></div>
-</div></section></div>
+</div></div></div>
 
 <h2>First, Sort the Damage: Finish, Wood, or Stain</h2>
 
@@ -83,7 +91,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 
 <p>Finish choices move the visibility needle almost as much as species moves the damage needle. Lower sheens hide scratching dramatically — the light scatter that makes a scratch flash white on a semi-gloss floor disappears into a <a href="/blog/matte-satin-semi-gloss-hardwood-floor-sheen">matte or satin surface</a> — and clear waterborne over natural wood hides wear better than any dark stain, which shows every pale scratch line like chalk on a blackboard. If you&rsquo;re choosing a floor for a dog household from scratch, our rundown of <a href="/blog/durable-hardwood-floors-for-dog-owners">durable hardwood for dog owners</a> ranks the options; the two-word summary is &ldquo;hard, matte.&rdquo;</p>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-card">
+<div data-rt-embed-type='true'><div class="ocb ocb-card">
   <h3 style="margin:0 0 10px;font-size:18.5px;font-weight:900;color:#5c0000">Pet damage, matched to its repair</h3>
   <div style="overflow-x:auto"><table class="ocb-table">
     <tr><th>What you&rsquo;re seeing</th><th>What it is</th><th>The fix</th><th>Cost</th></tr>
@@ -93,7 +101,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     <tr><td>Yellowed or lightly darkened spots</td><td>Early urine marks</td><td>Full sand &amp; refinish, soon</td><td>$3.99/sq ft, 3–5 days</td></tr>
     <tr><td>Gray-black boards</td><td>Deep urine reaction</td><td>Board replacement + refinish</td><td>Refinish + per-board repair</td></tr>
   </table></div>
-</section></div>
+</div></div>
 
 <h2>Renton Floors, Renton Dogs</h2>
 
@@ -102,7 +110,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 <p>The exceptions run older and newer. Renton&rsquo;s early-1900s homes near downtown can carry fir, with the soft-species caveats above. And the newer townhouse stock toward the Landing often has engineered floors, where the question becomes <a href="/blog/can-engineered-hardwood-be-refinished-wear-layer">wear-layer thickness</a> rather than species. All three cases start the same way — with an honest look at what the damage actually is. Details for the area are on our <a href="/city-of-renton/hardwood-floor-refinishing-in-renton-wa">Renton refinishing page</a>.</p>
 
 <div data-rt-embed-type='true'><!-- FAQ accordion + JSON-LD -->
-<section class="faq-wrap ocb" aria-labelledby="faq-title">
+<div class="faq-wrap ocb" aria-labelledby="faq-title">
   <h2 id="faq-title" class="faq-title">Pet Scratches on Hardwood: What Owners Ask Us</h2>
   <div class="faq-items" role="list">
     <details class="faq-item" role="listitem"><summary class="faq-q">Can dog scratches be buffed out of hardwood floors?</summary><div class="faq-a">Usually, yes. Most claw scratching sits in the finish layer, and a screen and recoat — abrading off the scratched topcoat and applying a fresh one — removes it completely in a day at $1.99 per square foot. Scratches that catch your fingernail have reached the wood and need sanding instead.</div></details>
@@ -114,7 +122,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     <details class="faq-item" role="listitem"><summary class="faq-q">How often should a pet household recoat their floors?</summary><div class="faq-a">Every 2–4 years, ahead of visible wear-through, versus 3–5 for households without pets. The recoat renews the sacrificial finish layer before claws reach wood, which is what lets a floor survive decades of dogs without ever needing a full sand. Waiting until bare spots appear forfeits the cheap option.</div></details>
     <details class="faq-item" role="listitem"><summary class="faq-q">Are trimmed nails really enough to protect the floor?</summary><div class="faq-a">Trimming helps more than any product you can buy — blunt claws scratch finish far more slowly than sharp ones — but it reduces, not eliminates. Runner rugs on the main dog highways and a mat at the water bowl cover most of the rest. The floors we see age best combine trimmed nails, low sheen, and a recoat rhythm.</div></details>
   </div>
-</section>
+</div>
 
 <style>
   .faq-wrap{--line:#e5e7eb;margin:28px auto;padding:20px;border:1px solid var(--line);border-radius:16px;background:#fff;box-shadow:0 8px 30px rgba(2,6,23,.06)}
@@ -131,7 +139,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Can dog scratches be buffed out of hardwood floors?", "acceptedAnswer": {"@type": "Answer", "text": "Usually, yes. Most claw scratching sits in the finish layer, and a screen and recoat — abrading off the scratched topcoat and applying a fresh one — removes it completely in a day at $1.99 per square foot. Scratches that catch your fingernail have reached the wood and need sanding instead."}}, {"@type": "Question", "name": "Do we need to refinish the whole floor for pet scratches?", "acceptedAnswer": {"@type": "Answer", "text": "Only if scratches have cut through the finish into wood across the floor, or urine has stained boards. Finish-level scratching — the common case — needs a recoat, not a refinish. Spot-sanding individual scratches doesn't blend invisibly, so the choice is generally recoat everything or sand everything in the affected rooms."}}, {"@type": "Question", "name": "Can pet urine stains be sanded out?", "acceptedAnswer": {"@type": "Answer", "text": "Light, recent marks often sand out with a full refinish. Black or gray-black stains usually can't — the discoloration is a chemical reaction that runs deeper than sanding can reach, and those boards get replaced with matching stock during the refinish. The darker the stain, the worse the odds, which is why speed of cleanup matters more than any product."}}, {"@type": "Question", "name": "What's the most scratch-resistant finish for dogs?", "acceptedAnswer": {"@type": "Answer", "text": "A commercial two-component waterborne like the Bona and Pallmann systems we use — the same grade specified for gyms and restaurants — in a matte or satin sheen. The hard finish resists claw wear, and the low sheen hides the scratching that happens anyway. No residential finish is scratch-proof under an 80-pound dog; the goal is slow accumulation plus easy renewal."}}, {"@type": "Question", "name": "Will a recoat get rid of the pet smell?", "acceptedAnswer": {"@type": "Answer", "text": "No. Odor lives in urine that has penetrated wood and subfloor, and sealing over it doesn't neutralize it. If a floor smells, the source boards need to be found and replaced — sometimes with subfloor treatment below them — before finishing. A recoat is a surface renewal, not a remediation."}}, {"@type": "Question", "name": "Does the dog have to leave the house during the work?", "acceptedAnswer": {"@type": "Answer", "text": "During sanding and coating days, pets should be out of the work area — a day or two for a recoat, and with the low-VOC waterborne finishes we use, the household including pets can typically sleep home the same night. Keep paws off new finish until it's ready for foot traffic, and remember dogs don't wear socks: plan on closed doors or a gate for the first evening."}}, {"@type": "Question", "name": "How often should a pet household recoat their floors?", "acceptedAnswer": {"@type": "Answer", "text": "Every 2–4 years, ahead of visible wear-through, versus 3–5 for households without pets. The recoat renews the sacrificial finish layer before claws reach wood, which is what lets a floor survive decades of dogs without ever needing a full sand. Waiting until bare spots appear forfeits the cheap option."}}, {"@type": "Question", "name": "Are trimmed nails really enough to protect the floor?", "acceptedAnswer": {"@type": "Answer", "text": "Trimming helps more than any product you can buy — blunt claws scratch finish far more slowly than sharp ones — but it reduces, not eliminates. Runner rugs on the main dog highways and a mat at the water bowl cover most of the rest. The floors we see age best combine trimmed nails, low sheen, and a recoat rhythm."}}]}
 </script></div>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-cta" style="margin:30px 0">
+<div data-rt-embed-type='true'><div class="ocb ocb-cta" style="margin:30px 0">
   <style>
     html body .post-body .ocb-cta h2, .ocb-cta h2{color:#fff!important}
     html body .post-body .ocb-cta .ocb-cta-sub, .ocb-cta .ocb-cta-sub{color:rgba(255,255,255,.88)!important}
@@ -141,18 +149,18 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     html body .post-body .ocb-cta a.ocb-cta-phone, .ocb-cta a.ocb-cta-phone{color:#5c0000!important;text-decoration:none!important}
   </style>
   <div style="background:linear-gradient(135deg,#8B0000,#5c0000);border-radius:20px;padding:28px 24px;color:#fff;text-align:center;box-shadow:0 14px 34px rgba(92,0,0,.3)">
-    <h2 style="margin:0 0 6px;color:#fff;font-size:24px;font-weight:900">Dog 1, Floor 0? Let&rsquo;s Get a Rematch</h2>
-    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.85);font-size:16.3px">Send photos of the damage or book a walkthrough — we&rsquo;ll tell you honestly what&rsquo;s a recoat, what needs sanding, and which boards are past saving. Free estimates across King &amp; Snohomish County.</p>
+    <h2 style="margin:0 0 6px;color:#fff!important;font-size:24px;font-weight:900">Dog 1, Floor 0? Let&rsquo;s Get a Rematch</h2>
+    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.92)!important;font-size:16.3px">Send photos of the damage or book a walkthrough — we&rsquo;ll tell you honestly what&rsquo;s a recoat, what needs sanding, and which boards are past saving. Free estimates across King &amp; Snohomish County.</p>
     <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
-      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff;color:#5c0000;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> (425) 595-1079</a>
-      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.4);color:#fff;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none">Book My Free Consultation</a>
+      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff!important;color:#5c0000!important;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none!important"><span class="ocb-ic ocb-ic-phone"></span> (425) 595-1079</a>
+      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.16)!important;border:1px solid rgba(255,255,255,.55);color:#fff!important;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none!important">Book My Free Consultation</a>
     </div>
-    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.9)">
+    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.95)!important">
       <span>✓ Since 2013</span><span>✓ 1,000+ floors</span><span>✓ 1-yr workmanship warranty</span><span>✓ Licensed &amp; insured</span><span>✓ Financing available</span>
     </div>
-    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
+    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04!important;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
   </div>
-</section></div>
+</div></div>
 
 <p><strong>Related reading:</strong> <a href="/blog/durable-hardwood-floors-for-dog-owners">Durable hardwood for dog owners</a> · <a href="/blog/refinishing-hardwood-floors-with-urine-stains-a-comprehensive-guide">Refinishing floors with urine stains</a> · <a href="/blog/deep-vs-surface-scratches-hardwood-refinish">Deep vs surface scratches</a> · <a href="/city-of-renton/hardwood-floor-refinishing-in-renton-wa">Hardwood floor refinishing in Renton</a> · <a href="/contact">Book a free estimate</a></p>
 

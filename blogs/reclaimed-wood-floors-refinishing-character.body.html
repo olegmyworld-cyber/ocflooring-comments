@@ -35,29 +35,37 @@ html body .post-body .ocb-fact p, .ocb-fact p{margin:0!important;font-size:14.7p
 html.ocb-anim-ready .ocb-rv{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
 html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 @media (prefers-reduced-motion:reduce){html.ocb-anim-ready .ocb-rv{opacity:1!important;transform:none!important;transition:none!important}.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:none}}
+
+/* Chip icons. Webflow's rich-text sanitizer strips inline <svg> whenever a post is
+   re-saved in the Editor, so the icons are drawn from CSS on a <span> instead. */
+.ocb-ic{display:inline-block;width:15px;height:15px;flex:0 0 auto;vertical-align:-2px;background-repeat:no-repeat;background-position:center;background-size:contain}
+.ocb-ic-pin{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z'/><circle cx='12' cy='10' r='3'/></svg>')}
+.ocb-ic-home{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z'/><polyline points='9 22 9 12 15 12 15 22'/></svg>')}
+.ocb-ic-phone{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z'/></svg>')}
+.ocb-cta .ocb-ic{filter:brightness(0) saturate(100%) invert(9%) sepia(64%) saturate(4000%) hue-rotate(348deg)}
 </style></div>
 
-<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 -6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">March 19, 2027</span></div></div>
+<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">March 19, 2027</span></div></div>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
+<div data-rt-embed-type='true'><div class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
   <span class="ocb-eyebrow">Quick answer</span>
   <p style="margin:0;font-size:17.9px;line-height:1.65"><strong>The real risk when you refinish a reclaimed floor is that a standard job erases exactly what you paid for — the saw marks, nail holes, checks and century-old patina that made the wood worth salvaging in the first place.</strong> A full flatten at $3.99/sq ft turns a 1910 mill floor into a very expensive new floor. On most reclaimed installations in Seattle homes, the right move is the lightest one that solves the actual problem: a screen and recoat at $1.99/sq ft that renews the finish and touches nothing else, or a hand-controlled skip sand that takes the high spots and leaves the story.</p>
   <div class="ocb-chips">
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg> King &amp; Snohomish County</span>
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg> Seattle reclaimed &amp; salvaged floors</span>
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-pin"></span> King &amp; Snohomish County</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-home"></span> Seattle reclaimed &amp; salvaged floors</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-phone"></span> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
   </div>
-</section></div>
+</div></div>
 
 <p>Reclaimed floors are the only category where we routinely talk clients <em>out</em> of the more expensive service. Everywhere else, a full sand is the thorough answer — it fixes the scratches, evens the color, and hands back a floor that looks new. On reclaimed wood, “looks new” is the failure mode. We have watched a homeowner’s face fall in a hallway of freshly flattened barn fir, because the thing they’d paid a premium for was three millimeters up in a dust bag.</p>
 
 <p>So this article is mostly about restraint: what character actually consists of, what each level of sanding does to it, what genuinely has to be dealt with before a machine touches salvaged lumber, and how to choose a finish that flatters texture instead of fighting it. We install and refinish these floors around Seattle regularly enough to have opinions, and the strongest one is this: on a reclaimed floor, decide what you are keeping before you decide what you are fixing.</p>
 
-<div data-rt-embed-type='true'><section class="ocb"><div class="ocb-facts">
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-facts">
   <div class="ocb-fact"><span class="n">$1.99/sq ft</span><p>for a screen and recoat — on reclaimed wood this is usually both the cheaper service and the better-looking outcome, because it renews the film and removes none of the surface. A full sand and natural refinish is $3.99.</p></div>
   <div class="ocb-fact"><span class="n">Zero</span><p>fasteners we’ll leave in a reclaimed floor before a belt touches it. Salvaged stock hides cut nails, screws, and staples; every one gets found and set or pulled, because a single missed head shreds abrasive and can throw a gouge the length of a room.</p></div>
   <div class="ocb-fact"><span class="n">660</span><p>Janka hardness of Douglas fir, the species under most Seattle salvage — against 1290 for red oak and 2350 for jatoba. Old-growth fir is denser than modern fir, but it still dents, and on a character floor that’s a feature, not a defect.</p></div>
-</div></section></div>
+</div></div></div>
 
 <h2>What You’re Actually Buying With Reclaimed</h2>
 
@@ -69,7 +77,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 
 <p>The table below is the conversation we have on our knees in the room, board by board. Three levels: a <strong>screen and recoat</strong>, which abrades only the finish film; a <strong>skip sand</strong> (sometimes called a kiss or hit-and-miss pass), where we take the proud spots and deliberately leave the low ones untouched; and a <strong>full flatten</strong>, which levels the whole surface to one plane, usually finished with a <a href="/blog/trio-sanding-machine-for-flat-floors">Lägler TRIO</a> pass.</p>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-card">
+<div data-rt-embed-type='true'><div class="ocb ocb-card">
   <h3 style="margin:0 0 10px;font-size:18.5px;font-weight:900;color:#5c0000">What each level of sanding does to reclaimed character</h3>
   <div style="overflow-x:auto"><table class="ocb-table">
     <tr><th>Feature</th><th>Screen &amp; recoat</th><th>Skip sand</th><th>Full flatten</th></tr>
@@ -83,7 +91,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     <tr><td><strong>Cupping, lippage, trip edges</strong></td><td>Unchanged</td><td>Reduced</td><td>Fixed</td></tr>
     <tr><td><strong>Deep new scratches, pet damage</strong></td><td>Still visible</td><td>Partly removed</td><td>Removed</td></tr>
   </table></div>
-</section></div>
+</div></div>
 
 <h2>Metal, Grit, and the Things That Live in Salvaged Lumber</h2>
 
@@ -93,7 +101,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 
 <p>None of this is exotic; it’s just why a reclaimed quote isn’t a per-square-foot number off a rate card. We want to walk the floor, run a magnet and a moisture meter, and look at the underside of a board if there’s any way to get at one.</p>
 
-<div data-rt-embed-type='true'><section class="ocb"><div class="ocb-2col">
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-2col">
   <div class="ocb-card" style="margin:0">
     <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#5c0000">Reclaimed floors we take on confidently</h3>
     <ul class="ocb-check">
@@ -114,7 +122,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
       <li>An expectation of a smooth, uniform, modern-looking floor — that isn’t what this wood does</li>
     </ul>
   </div>
-</div></section></div>
+</div></div></div>
 
 <h2>Choosing a Finish That Flatters Texture</h2>
 
@@ -133,7 +141,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 <p>Where these floors end up is fairly predictable: Capitol Hill and Central District remodels, converted Georgetown and Fremont live-work spaces, and new builds in Ballard and Phinney where a reclaimed floor is doing the work of making a 2020s house feel rooted. Whichever it is, we quote it after seeing it — the details are on our <a href="/seattle/hardwood-floor-refinishing-in-seattle-wa">Seattle hardwood floor refinishing</a> page, and the same crews handle it across the Eastside and north into Snohomish County. Softwood salvage, incidentally, shares most of its behavior with old <a href="/blog/pine-floors-century-homes-refinishing">pine in century homes</a>, which is worth reading if your reclaimed stock is pine rather than fir.</p>
 
 <div data-rt-embed-type='true'><!-- FAQ accordion + JSON-LD -->
-<section class="faq-wrap ocb" aria-labelledby="faq-title">
+<div class="faq-wrap ocb" aria-labelledby="faq-title">
   <h2 id="faq-title" class="faq-title">Reclaimed Floors: What Owners Ask Before We Start</h2>
   <div class="faq-items" role="list">
     <details class="faq-item" role="listitem"><summary class="faq-q">Can you refinish a reclaimed floor without losing the patina?</summary><div class="faq-a">Only with a screen and recoat, which abrades the finish film and never reaches the wood. Any sanding, however light, exposes fresh wood at whatever it touches, and the oxidized color is only a few tenths of a millimeter deep. That's why we always ask what problem you're solving before we pick a service.</div></details>
@@ -145,7 +153,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     <details class="faq-item" role="listitem"><summary class="faq-q">Can reclaimed engineered plank be refinished?</summary><div class="faq-a">Only if the reclaimed face layer is thick enough, and many are not. The wear layer above the tongue is all you have, and on some reclaimed-face products it's thin enough that a single sand would go through. We measure before promising anything, and if it's marginal the honest answer is recoat only.</div></details>
     <details class="faq-item" role="listitem"><summary class="faq-q">Do you install reclaimed flooring as well as refinish it?</summary><div class="faq-a">Yes. New-install labor runs $3–$4.25 per square foot on top of materials, and reclaimed material itself ranges widely — often well above the $4–$10+ per square foot band that covers most new hardwood. Reclaimed also needs longer acclimation and more careful racking, since board thickness and width vary more than milled stock.</div></details>
   </div>
-</section>
+</div>
 
 <style>
   .faq-wrap{--line:#e5e7eb;margin:28px auto;padding:20px;border:1px solid var(--line);border-radius:16px;background:#fff;box-shadow:0 8px 30px rgba(2,6,23,.06)}
@@ -162,7 +170,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Can you refinish a reclaimed floor without losing the patina?", "acceptedAnswer": {"@type": "Answer", "text": "Only with a screen and recoat, which abrades the finish film and never reaches the wood. Any sanding, however light, exposes fresh wood at whatever it touches, and the oxidized color is only a few tenths of a millimeter deep. That's why we always ask what problem you're solving before we pick a service."}}, {"@type": "Question", "name": "Our reclaimed floor is uneven and people trip. What now?", "acceptedAnswer": {"@type": "Answer", "text": "That's the one case where flattening is genuinely the right answer, and it means accepting the loss of patina at the high points. A skip sand is a middle path: we take the proud edges and leave the low areas untouched, which fixes the trip hazard while keeping much of the texture. It looks intentional because it is."}}, {"@type": "Question", "name": "Does reclaimed wood cost more to refinish than regular hardwood?", "acceptedAnswer": {"@type": "Answer", "text": "Often, yes — not because of the rate but because of the hours. Embedded grit eats abrasive, fasteners have to be found and set, and much more of the work is done by hand rather than by machine. We quote reclaimed after seeing it in person rather than off a square-footage number."}}, {"@type": "Question", "name": "Will you fill the nail holes and cracks?", "acceptedAnswer": {"@type": "Answer", "text": "That's your call, and we ask it before we start rather than deciding for you. Filling gives a smoother, more sanitary surface and a floor that's easier to clean; leaving them open keeps the honesty of the material. A common compromise is filling only what's deep enough to catch a heel or a vacuum and leaving the rest."}}, {"@type": "Question", "name": "What finish looks best on textured reclaimed wood?", "acceptedAnswer": {"@type": "Answer", "text": "Matte or satin, and either a waterborne film or a penetrating hardwax oil. Gloss fights texture by reflecting in a continuous sheet. Hardwax oil is the purist's choice because it leaves the surface completely unmasked and repairs in patches; a waterborne film is the practical choice for busy households because it resists water and cleans easily."}}, {"@type": "Question", "name": "Is reclaimed fir too soft for a kitchen or a house with dogs?", "acceptedAnswer": {"@type": "Answer", "text": "It dents, and it will keep denting. Douglas fir sits at 660 on the Janka scale against 1290 for red oak. Plenty of our clients put it in kitchens anyway and love it, because dents on a character floor read as more character. If a pristine surface matters to you, reclaimed fir is the wrong material and we'd rather say so early."}}, {"@type": "Question", "name": "Can reclaimed engineered plank be refinished?", "acceptedAnswer": {"@type": "Answer", "text": "Only if the reclaimed face layer is thick enough, and many are not. The wear layer above the tongue is all you have, and on some reclaimed-face products it's thin enough that a single sand would go through. We measure before promising anything, and if it's marginal the honest answer is recoat only."}}, {"@type": "Question", "name": "Do you install reclaimed flooring as well as refinish it?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. New-install labor runs $3–$4.25 per square foot on top of materials, and reclaimed material itself ranges widely — often well above the $4–$10+ per square foot band that covers most new hardwood. Reclaimed also needs longer acclimation and more careful racking, since board thickness and width vary more than milled stock."}}]}
 </script></div>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-cta" style="margin:30px 0">
+<div data-rt-embed-type='true'><div class="ocb ocb-cta" style="margin:30px 0">
   <style>
     html body .post-body .ocb-cta h2, .ocb-cta h2{color:#fff!important}
     html body .post-body .ocb-cta .ocb-cta-sub, .ocb-cta .ocb-cta-sub{color:rgba(255,255,255,.88)!important}
@@ -172,18 +180,18 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     html body .post-body .ocb-cta a.ocb-cta-phone, .ocb-cta a.ocb-cta-phone{color:#5c0000!important;text-decoration:none!important}
   </style>
   <div style="background:linear-gradient(135deg,#8B0000,#5c0000);border-radius:20px;padding:28px 24px;color:#fff;text-align:center;box-shadow:0 14px 34px rgba(92,0,0,.3)">
-    <h2 style="margin:0 0 6px;color:#fff;font-size:24px;font-weight:900">Bring Us the Floor Before Anyone Sands It</h2>
-    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.85);font-size:16.3px">We’ll walk it with a magnet and a moisture meter, tell you what’s recoverable with a recoat, what a skip sand would cost you in character, and what we’d do if it were ours. Free in-home estimates across King &amp; Snohomish County.</p>
+    <h2 style="margin:0 0 6px;color:#fff!important;font-size:24px;font-weight:900">Bring Us the Floor Before Anyone Sands It</h2>
+    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.92)!important;font-size:16.3px">We’ll walk it with a magnet and a moisture meter, tell you what’s recoverable with a recoat, what a skip sand would cost you in character, and what we’d do if it were ours. Free in-home estimates across King &amp; Snohomish County.</p>
     <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
-      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff;color:#5c0000;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> (425) 595-1079</a>
-      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.4);color:#fff;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none">Book My Free Consultation</a>
+      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff!important;color:#5c0000!important;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none!important"><span class="ocb-ic ocb-ic-phone"></span> (425) 595-1079</a>
+      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.16)!important;border:1px solid rgba(255,255,255,.55);color:#fff!important;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none!important">Book My Free Consultation</a>
     </div>
-    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.9)">
+    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.95)!important">
       <span>✓ Since 2013</span><span>✓ 1,000+ floors</span><span>✓ 1-yr workmanship warranty</span><span>✓ Licensed &amp; insured</span><span>✓ Financing available</span>
     </div>
-    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
+    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04!important;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
   </div>
-</section></div>
+</div></div>
 
 <p><strong>Related reading:</strong> <a href="/blog/old-growth-fir-ballard-queen-anne">Old-growth fir in Ballard and Queen Anne</a> · <a href="/blog/wide-plank-hardwood-refinishing-considerations">Refinishing wide-plank floors</a> · <a href="/blog/penetrating-oil-finish-pros-cons-maintenance">Penetrating oil finishes, honestly</a> · <a href="/seattle/hardwood-floor-refinishing-in-seattle-wa">Hardwood floor refinishing in Seattle</a> · <a href="/contact">Book a free estimate</a></p>
 

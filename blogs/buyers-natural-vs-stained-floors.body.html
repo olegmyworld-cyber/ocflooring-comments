@@ -35,29 +35,37 @@ html body .post-body .ocb-fact p, .ocb-fact p{margin:0!important;font-size:14.7p
 html.ocb-anim-ready .ocb-rv{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
 html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 @media (prefers-reduced-motion:reduce){html.ocb-anim-ready .ocb-rv{opacity:1!important;transform:none!important;transition:none!important}.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:none}}
+
+/* Chip icons. Webflow's rich-text sanitizer strips inline <svg> whenever a post is
+   re-saved in the Editor, so the icons are drawn from CSS on a <span> instead. */
+.ocb-ic{display:inline-block;width:15px;height:15px;flex:0 0 auto;vertical-align:-2px;background-repeat:no-repeat;background-position:center;background-size:contain}
+.ocb-ic-pin{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z'/><circle cx='12' cy='10' r='3'/></svg>')}
+.ocb-ic-home{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z'/><polyline points='9 22 9 12 15 12 15 22'/></svg>')}
+.ocb-ic-phone{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z'/></svg>')}
+.ocb-cta .ocb-ic{filter:brightness(0) saturate(100%) invert(9%) sepia(64%) saturate(4000%) hue-rotate(348deg)}
 </style></div>
 
-<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 -6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">March 26, 2027</span></div></div>
+<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">March 26, 2027</span></div></div>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
+<div data-rt-embed-type='true'><div class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
   <span class="ocb-eyebrow">Quick answer</span>
   <p style="margin:0;font-size:17.9px;line-height:1.65"><strong>No — in our experience Kirkland buyers don’t pay a premium for a stain color, but they absolutely discount for the wrong one, and that asymmetry is the entire argument for finishing natural before a sale.</strong> A natural refinish runs $3.99/sq ft against $6.50 for a stain refinish, so on a 1,200 sq ft main floor you keep $3,012 and take a day off the schedule. What buyers actually respond to is a floor that reads even, clean and continuous from room to room. Spend the money on making it uniform, not on making it a color.</p>
   <div class="ocb-chips">
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg> King &amp; Snohomish County</span>
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg> Kirkland listings &amp; resale</span>
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-pin"></span> King &amp; Snohomish County</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-home"></span> Kirkland listings &amp; resale</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-phone"></span> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
   </div>
-</section></div>
+</div></div>
 
 <p>This question comes to us from two directions. Homeowners ask it hoping the answer is “yes, dark floors add value” so a design decision they already like can be justified as an investment. Agents ask it hoping the answer is “no, keep it simple” so they can talk a seller out of a three-week color project two weeks before listing. Our honest read, after a lot of listing-prep work around Kirkland and the rest of the Eastside, sides with the agents.</p>
 
 <p>The reason isn’t that color doesn’t matter. It’s that color works asymmetrically at resale. A floor in a color a buyer loves gets a nod; a floor in a color they dislike gets mentally priced as a project. Since you can’t know which buyer walks in, the rational move is the finish with the smallest downside — and that also happens to be the cheaper and faster one. Here’s the full reasoning, including where stain genuinely does earn its money.</p>
 
-<div data-rt-embed-type='true'><section class="ocb"><div class="ocb-facts">
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-facts">
   <div class="ocb-fact"><span class="n">$2.51/sq ft</span><p>the gap between a natural refinish at $3.99 and a stain refinish at $6.50. On a 1,200 sq ft main floor that’s $3,012 — money that does more for a listing in paint, landscaping, or the asking price.</p></div>
   <div class="ocb-fact"><span class="n">+1 day</span><p>what staining adds to the schedule: water-popping the grain, applying and wiping the color, then a full dry before the first coat goes on. That pushes a listing refinish toward the long end of the 3–5 day window.</p></div>
   <div class="ocb-fact"><span class="n">7 days</span><p>to full cure on the waterborne systems we use — socks the same evening, furniture at 48–72 hours, rugs at seven days. On a listing calendar the cure schedule, not the sanding, is what dictates your photo date.</p></div>
-</div></section></div>
+</div></div></div>
 
 <h2>The Honest Answer: Buyers Don’t Reward Color, They Punish It</h2>
 
@@ -71,7 +79,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 
 <p><strong>Odor</strong> is third and it is brutal. A floor that smells even faintly of pet urine ends an offer conversation faster than any color ever will, and it is one of the few problems sanding alone doesn’t always solve. <strong>Continuity between rooms</strong> is fourth — mismatched species or an awkward threshold in a sightline is a visible cost. And <strong>light</strong> is fifth: in a Pacific Northwest winter showing, a lighter floor makes a room read larger and brighter, which is the one place a color decision genuinely helps you. If you want the pre-listing priorities ranked by return, we did that in <a href="/blog/cheapest-floor-upgrade-buyer-inspection">the cheapest floor upgrade before a buyer’s inspection</a> and in <a href="/blog/refinish-floors-before-listing-home">whether to refinish before listing</a>.</p>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-card">
+<div data-rt-embed-type='true'><div class="ocb ocb-card">
   <h3 style="margin:0 0 10px;font-size:18.5px;font-weight:900;color:#5c0000">Natural vs stain, decided on resale terms</h3>
   <div style="overflow-x:auto"><table class="ocb-table">
     <tr><th></th><th>Natural (clear waterborne)</th><th>Stain refinish</th></tr>
@@ -85,7 +93,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     <tr><td><strong>Repairs blend later</strong></td><td>Easier</td><td>Harder; the color has to be matched too</td></tr>
     <tr><td><strong>Best use at resale</strong></td><td>The default for almost every listing</td><td>Matching existing floors, or taming red oak’s pink</td></tr>
   </table></div>
-</section></div>
+</div></div>
 
 <h2>When Stain Genuinely Earns Its Money</h2>
 
@@ -95,7 +103,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 
 <p>The third is a floor that <strong>can’t go light</strong>. Deep stains, previous dark color that has penetrated, or fire and smoke damage sometimes can’t be sanded back to a clean natural surface without taking more wood than the floor has left. In that case stain isn’t a preference, it’s the way to get a uniform result. What we steer people away from is the fashion version of the decision — the case for and against dark color is in <a href="/blog/thinking-of-staining-your-hardwood-floors-a-dark-color">thinking of staining your floors a dark color</a>, and the full color conversation is in <a href="/blog/what-color-should-i-stain-my-wood-floors">what color should I stain my wood floors</a>.</p>
 
-<div data-rt-embed-type='true'><section class="ocb"><div class="ocb-2col">
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-2col">
   <div class="ocb-card" style="margin:0">
     <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#5c0000">Go natural when…</h3>
     <ul class="ocb-check">
@@ -116,7 +124,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
       <li>You’re staying in the house for years and it’s your taste, not a buyer’s</li>
     </ul>
   </div>
-</div></section></div>
+</div></div></div>
 
 <h2>The Timeline Trap Before a Listing</h2>
 
@@ -133,7 +141,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 <p>The last consideration is timing. Kirkland’s market is busiest in spring, which means the refinishers everyone calls are busiest then too. If you’re listing in April, book the floor in February and let the schedule work for you rather than against you. Our local page for <a href="/city-of-kirkland/hardwood-floor-refinishing-in-kirkland-wa">hardwood floor refinishing in Kirkland</a> has current lead times, and the value question specifically — whether refinishing pays off here at all — we answered separately in <a href="/blog/does-refinishing-wood-floors-increase-home-value-in-kirkland-wa">does refinishing wood floors increase home value in Kirkland</a>.</p>
 
 <div data-rt-embed-type='true'><!-- FAQ accordion + JSON-LD -->
-<section class="faq-wrap ocb" aria-labelledby="faq-title">
+<div class="faq-wrap ocb" aria-labelledby="faq-title">
   <h2 id="faq-title" class="faq-title">Natural vs Stained Floors Before a Sale: Common Questions</h2>
   <div class="faq-items" role="list">
     <details class="faq-item" role="listitem"><summary class="faq-q">Do stained floors increase a home's sale price?</summary><div class="faq-a">Not in a way we've ever seen isolated from condition. What increases price is a floor that reads clean, even and undamaged. A stain color that a buyer happens to like gets approval but rarely a number; a color they dislike becomes a project in their head with a price attached. That risk asymmetry is why we default to natural for listings.</div></details>
@@ -145,7 +153,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     <details class="faq-item" role="listitem"><summary class="faq-q">Can you just recoat instead of refinishing before we list?</summary><div class="faq-a">Often, and it's the best value in listing prep when it works. A screen and recoat at $1.99 per square foot takes one day and renews the finish, and buyers can't tell a recoated floor from a refinished one if the wood underneath is sound. It only works when the finish is still continuous — no bare or gray patches.</div></details>
     <details class="faq-item" role="listitem"><summary class="faq-q">Does sheen matter to buyers?</summary><div class="faq-a">Less than color, but it isn't nothing. Satin is the safe choice for a listing: it photographs well, hides the foot traffic that accumulates between showings, and doesn't spotlight every scratch the way semi-gloss does. Matte looks excellent in person but can read flat in listing photos.</div></details>
   </div>
-</section>
+</div>
 
 <style>
   .faq-wrap{--line:#e5e7eb;margin:28px auto;padding:20px;border:1px solid var(--line);border-radius:16px;background:#fff;box-shadow:0 8px 30px rgba(2,6,23,.06)}
@@ -162,7 +170,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Do stained floors increase a home's sale price?", "acceptedAnswer": {"@type": "Answer", "text": "Not in a way we've ever seen isolated from condition. What increases price is a floor that reads clean, even and undamaged. A stain color that a buyer happens to like gets approval but rarely a number; a color they dislike becomes a project in their head with a price attached. That risk asymmetry is why we default to natural for listings."}}, {"@type": "Question", "name": "Is natural finish really cheaper?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, by $2.51 per square foot — $3.99 against $6.50 — plus a day of schedule. On a 1,200 square foot main floor that's $3,012 you keep. It's cheaper because staining adds water-popping, application, wiping and a full dry cycle before any finish coat goes on."}}, {"@type": "Question", "name": "Our floors are red oak and look pink when sanded clean. What do we do?", "acceptedAnswer": {"@type": "Answer", "text": "That's the one color problem we recommend spending money on. A light neutral toner takes the pink out without making a color statement, landing the floor somewhere buyers read as white oak. It's a correction rather than a fashion choice, and it's a legitimate reason to move from $3.99 to $6.50."}}, {"@type": "Question", "name": "Should we match the new refinish to the floors in the bedrooms?", "acceptedAnswer": {"@type": "Answer", "text": "If the bedrooms are staying as they are, yes — mismatched adjacent floors cost more at resale than the stain does. Buyers notice a color change through a doorway immediately and read it as unfinished work. Either match, or refinish everything together so the whole level is one surface."}}, {"@type": "Question", "name": "How long before we can stage and photograph?", "acceptedAnswer": {"@type": "Answer", "text": "Plan on about a week from the last coat before a house is safely stageable: socks the same evening, furniture at 48 to 72 hours, rugs at seven days. Staining adds a day at the front end. Staging early is how a brand-new floor picks up marks before the first open house."}}, {"@type": "Question", "name": "Are gray floors still a bad idea?", "acceptedAnswer": {"@type": "Answer", "text": "For resale, we'd avoid them. Gray reads as a specific window of years the way espresso reads as the late 2000s, and buyers date a house by its finishes. Gray is also unforgiving to maintain and hard to repair invisibly. If you love it and you're staying, that's a different conversation."}}, {"@type": "Question", "name": "Can you just recoat instead of refinishing before we list?", "acceptedAnswer": {"@type": "Answer", "text": "Often, and it's the best value in listing prep when it works. A screen and recoat at $1.99 per square foot takes one day and renews the finish, and buyers can't tell a recoated floor from a refinished one if the wood underneath is sound. It only works when the finish is still continuous — no bare or gray patches."}}, {"@type": "Question", "name": "Does sheen matter to buyers?", "acceptedAnswer": {"@type": "Answer", "text": "Less than color, but it isn't nothing. Satin is the safe choice for a listing: it photographs well, hides the foot traffic that accumulates between showings, and doesn't spotlight every scratch the way semi-gloss does. Matte looks excellent in person but can read flat in listing photos."}}]}
 </script></div>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-cta" style="margin:30px 0">
+<div data-rt-embed-type='true'><div class="ocb ocb-cta" style="margin:30px 0">
   <style>
     html body .post-body .ocb-cta h2, .ocb-cta h2{color:#fff!important}
     html body .post-body .ocb-cta .ocb-cta-sub, .ocb-cta .ocb-cta-sub{color:rgba(255,255,255,.88)!important}
@@ -172,18 +180,18 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     html body .post-body .ocb-cta a.ocb-cta-phone, .ocb-cta a.ocb-cta-phone{color:#5c0000!important;text-decoration:none!important}
   </style>
   <div style="background:linear-gradient(135deg,#8B0000,#5c0000);border-radius:20px;padding:28px 24px;color:#fff;text-align:center;box-shadow:0 14px 34px rgba(92,0,0,.3)">
-    <h2 style="margin:0 0 6px;color:#fff;font-size:24px;font-weight:900">Selling? Let’s Look at the Floor Before You Pick a Color</h2>
-    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.85);font-size:16.3px">We’ll tell you whether a $1.99/sq ft recoat gets you there, whether natural or a light toner suits your species, and exactly how the cure schedule fits your listing date. Free in-home estimates in Kirkland and across King &amp; Snohomish County.</p>
+    <h2 style="margin:0 0 6px;color:#fff!important;font-size:24px;font-weight:900">Selling? Let’s Look at the Floor Before You Pick a Color</h2>
+    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.92)!important;font-size:16.3px">We’ll tell you whether a $1.99/sq ft recoat gets you there, whether natural or a light toner suits your species, and exactly how the cure schedule fits your listing date. Free in-home estimates in Kirkland and across King &amp; Snohomish County.</p>
     <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
-      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff;color:#5c0000;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> (425) 595-1079</a>
-      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.4);color:#fff;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none">Book My Free Consultation</a>
+      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff!important;color:#5c0000!important;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none!important"><span class="ocb-ic ocb-ic-phone"></span> (425) 595-1079</a>
+      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.16)!important;border:1px solid rgba(255,255,255,.55);color:#fff!important;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none!important">Book My Free Consultation</a>
     </div>
-    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.9)">
+    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.95)!important">
       <span>✓ Since 2013</span><span>✓ 1,000+ floors</span><span>✓ 1-yr workmanship warranty</span><span>✓ Licensed &amp; insured</span><span>✓ Financing available</span>
     </div>
-    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
+    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04!important;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
   </div>
-</section></div>
+</div></div>
 
 <p><strong>Related reading:</strong> <a href="/blog/refinish-floors-before-listing-home">Refinishing before you list</a> · <a href="/blog/natural-no-stain-hardwood-finish-seattle">The case for a natural finish</a> · <a href="/blog/staging-on-newly-refinished-floors">Staging on new floors</a> · <a href="/city-of-kirkland/hardwood-floor-refinishing-in-kirkland-wa">Hardwood floor refinishing in Kirkland</a> · <a href="/contact">Book a free estimate</a></p>
 

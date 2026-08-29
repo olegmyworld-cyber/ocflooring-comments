@@ -35,27 +35,35 @@ html body .post-body .ocb-fact p, .ocb-fact p{margin:0!important;font-size:14.7p
 html.ocb-anim-ready .ocb-rv{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
 html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 @media (prefers-reduced-motion:reduce){html.ocb-anim-ready .ocb-rv{opacity:1!important;transform:none!important;transition:none!important}.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:none}}
+
+/* Chip icons. Webflow's rich-text sanitizer strips inline <svg> whenever a post is
+   re-saved in the Editor, so the icons are drawn from CSS on a <span> instead. */
+.ocb-ic{display:inline-block;width:15px;height:15px;flex:0 0 auto;vertical-align:-2px;background-repeat:no-repeat;background-position:center;background-size:contain}
+.ocb-ic-pin{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z'/><circle cx='12' cy='10' r='3'/></svg>')}
+.ocb-ic-home{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z'/><polyline points='9 22 9 12 15 12 15 22'/></svg>')}
+.ocb-ic-phone{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z'/></svg>')}
+.ocb-cta .ocb-ic{filter:brightness(0) saturate(100%) invert(9%) sepia(64%) saturate(4000%) hue-rotate(348deg)}
 </style></div>
 
-<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 -6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">November 2, 2026</span></div></div>
+<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">November 2, 2026</span></div></div>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
+<div data-rt-embed-type='true'><div class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
   <span class="ocb-eyebrow">Quick answer</span>
   <p style="margin:0;font-size:17.9px;line-height:1.65"><strong>Buckling — boards lifting clean off the subfloor after a leak — is the one grade of water damage that refinishing alone can’t fix: the buckled boards are done, and the real question is how many neighbors they take with them.</strong> The usual answer in Renton homes is repair, not full replacement: stop the water, dry the floor completely, replace the buckled boards with matching stock, then sand and refinish the whole room at $3.99/sq ft natural so the patch disappears into one continuous surface. Full replacement earns its much larger price only when the damage is widespread, the subfloor is compromised, or mold has moved in. Here’s how we sort one from the other.</p>
   <div class="ocb-chips">
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg> King &amp; Snohomish County</span>
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg> Renton homes</span>
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-pin"></span> King &amp; Snohomish County</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-home"></span> Renton homes</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-phone"></span> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
   </div>
-</section></div>
+</div></div>
 
 <p>A buckled floor announces itself. Cupping you notice in raking light; buckling you trip over — boards tented an inch off the subfloor, gaps you can lose a pencil in, sometimes a popping sound as fasteners let go. It happens fast (a burst supply line can buckle a kitchen overnight) and it looks catastrophic, which is why the first phone call we get is usually some version of “I assume the whole floor is garbage?” Often, it isn’t. Buckling is dramatic, but it’s also usually local — the flood’s ground zero — and solid hardwood is far more repairable than it looks mid-crisis. What actually decides repair versus replace is a short list of facts, most of which get settled in the first two weeks. Let’s walk through it.</p>
 
-<div data-rt-embed-type='true'><section class="ocb"><div class="ocb-facts">
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-facts">
   <div class="ocb-fact"><span class="n">48 hours</span><p>the window that matters most after a leak — water stopped, standing moisture extracted, drying started. Floors rescued inside that window need dramatically less surgery than floors that soaked for a week.</p></div>
   <div class="ocb-fact"><span class="n">$3.99</span><p>per sq ft for the natural refinish that finishes every buckling repair — new boards woven in, then the whole room sanded and coated as one so the patch is invisible.</p></div>
   <div class="ocb-fact"><span class="n">500 sq ft</span><p>our project minimum — which usually isn’t a problem here, because the right fix for a patched room is refinishing the whole room (and often the connected rooms) anyway, so everything matches.</p></div>
-</div></section></div>
+</div></div></div>
 
 <h2>Buckling Is the Top of the Water-Damage Ladder</h2>
 
@@ -65,7 +73,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 
 <p>Before anyone argues repair versus replace, someone has to stop the water and dry the house — and speed here is worth thousands. Find and kill the source, extract standing water, get air moving, and get drying equipment on the area; a restoration company is worth the call for anything bigger than a puddle, and our <a href="/blog/what-to-do-when-you-experience-water-damage-in-your-seattle-home-or-business">water-damage first-steps guide</a> walks the sequence. Photograph everything with dates before and during — your insurer will want it. Then comes the part nobody enjoys: waiting. A soaked floor and subfloor can take weeks to months to dry to safe levels, and we verify with moisture meter readings rather than the calendar, because repairing on top of wet subfloor just schedules the next failure. The one mercy: the waiting is when the repair-or-replace answer clarifies itself, as the floor either settles down to a defined damage zone or reveals that the water traveled further than it looked.</p>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-card">
+<div data-rt-embed-type='true'><div class="ocb ocb-card">
   <h3 style="margin:0 0 10px;font-size:18.5px;font-weight:900;color:#5c0000">What we find after drying, and what it means</h3>
   <div style="overflow-x:auto"><table class="ocb-table">
     <tr><th>Post-drying picture</th><th>The call</th><th>What the work looks like</th></tr>
@@ -75,7 +83,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     <tr><td>Subfloor soft, delaminated, or moldy under the lifted boards</td><td><strong>Replace the zone down to structure</strong></td><td>Open the floor, remediate and rebuild the subfloor, then re-lay hardwood</td></tr>
     <tr><td>Repeated leaks in the same spot (dishwasher, fridge line)</td><td><strong>Fix the appliance story first</strong></td><td>We’ll repair the floor once the plumbing stops re-flooding it — otherwise we’re selling you the same repair twice</td></tr>
   </table></div>
-</section></div>
+</div></div>
 
 <h2>The Repair Path: Weave, Sand, Disappear</h2>
 
@@ -90,7 +98,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 <p>Renton gives us this call more than most cities, and the housing stock explains why. The Boeing-era ramblers in the Highlands, the postwar blocks near downtown, the 60s–70s spread through Benson Hill — thousands of houses with excellent original oak strip riding on their original plumbing, water heaters, and appliance lines, all now decades past their design life. A galvanized supply line lets go, a 25-year-old water heater rusts through, a dishwasher hose splits — and good oak meets bad water. The encouraging pattern from our side: that era’s solid ¾-inch oak is about the most repairable flooring ever installed, with deep wear layer, standard dimensions, and matching stock still milled today. Most of these floors come back with a weave-in repair and a whole-room refinish, and afterward nobody — including the eventual home inspector — can find where the damage was. Details and scheduling are on our <a href="/city-of-renton/hardwood-floor-refinishing-in-renton-wa">hardwood floor refinishing in Renton</a> page.</p>
 
 <div data-rt-embed-type='true'><!-- FAQ accordion + JSON-LD -->
-<section class="faq-wrap ocb" aria-labelledby="faq-title">
+<div class="faq-wrap ocb" aria-labelledby="faq-title">
   <h2 id="faq-title" class="faq-title">Buckled Floor Questions Renton Homeowners Ask Us</h2>
   <div class="faq-items" role="list">
     <details class="faq-item" role="listitem"><summary class="faq-q">Can a buckled hardwood floor be fixed without replacing the whole floor?</summary><div class="faq-a">Usually, yes. Buckling is typically concentrated where the water was, and the standard fix is surgical: replace the buckled boards, verify the subfloor is sound, weave in matching stock, and refinish the whole room so the repair disappears. Whole-floor replacement is for widespread buckling, damaged subfloor, or mold — not for every leak.</div></details>
@@ -102,7 +110,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     <details class="faq-item" role="listitem"><summary class="faq-q">What does a typical repair cost compared to replacement?</summary><div class="faq-a">A weave-in repair is priced per job — board replacement labor and material plus the refinish at $3.99/sq ft natural over the affected rooms. It almost always lands far below replacement, which stacks tear-out, disposal, $3–$4.25/sq ft install labor, and $4–$10+/sq ft new material. We'll show both numbers side by side if the damage puts you near the line.</div></details>
     <details class="faq-item" role="listitem"><summary class="faq-q">How do we keep this from happening again?</summary><div class="faq-a">Fix the water story, not just the floor: replace aging supply lines and appliance hoses (braided steel over rubber), don't run the dishwasher when leaving the house, and check under sinks and around the water heater a few times a year. Wood floors handle life fine; what they can't handle is the same leak twice.</div></details>
   </div>
-</section>
+</div>
 
 <style>
   .faq-wrap{--line:#e5e7eb;margin:28px auto;padding:20px;border:1px solid var(--line);border-radius:16px;background:#fff;box-shadow:0 8px 30px rgba(2,6,23,.06)}
@@ -119,7 +127,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Can a buckled hardwood floor be fixed without replacing the whole floor?", "acceptedAnswer": {"@type": "Answer", "text": "Usually, yes. Buckling is typically concentrated where the water was, and the standard fix is surgical: replace the buckled boards, verify the subfloor is sound, weave in matching stock, and refinish the whole room so the repair disappears. Whole-floor replacement is for widespread buckling, damaged subfloor, or mold — not for every leak."}}, {"@type": "Question", "name": "Will buckled boards flatten back down as they dry?", "acceptedAnswer": {"@type": "Answer", "text": "Mostly no. Boards that are barely lifted occasionally settle back as the floor dries, which is one reason we don't make final repair decisions in the first week. But a board that has torn off its fasteners or crushed its joints won't reattach itself no matter how dry it gets — that board is getting replaced."}}, {"@type": "Question", "name": "How long after the leak before repairs can start?", "acceptedAnswer": {"@type": "Answer", "text": "When the wood and subfloor read dry and stable on a moisture meter — typically weeks after a modest leak, longer after serious flooding. Repairing over damp subfloor is how the same floor fails twice, so we measure rather than guess. The drying phase is also when the true damage boundary reveals itself."}}, {"@type": "Question", "name": "Will the repaired area match the rest of the floor?", "acceptedAnswer": {"@type": "Answer", "text": "Yes — because we don't just patch it. New boards are woven into the old floor with staggered joints, then the entire room is sanded to bare wood and refinished as one surface. Sanded and coated together, old and new boards take finish identically. A patch that's merely spot-finished will always show; that's why we don't do it that way."}}, {"@type": "Question", "name": "What if the subfloor got wet too?", "acceptedAnswer": {"@type": "Answer", "text": "It usually did — the question is whether it dried sound. We inspect it wherever boards come out: solid, dry subfloor gets re-fastened and built on; soft, delaminated, or moldy subfloor gets opened up and rebuilt before any hardwood goes down. Skipping that check is the classic corner cut in cheap water-damage repairs."}}, {"@type": "Question", "name": "Does homeowners insurance cover a buckled floor?", "acceptedAnswer": {"@type": "Answer", "text": "Often, when the cause was sudden and accidental — a burst pipe, a failed appliance line. Slow leaks that went unaddressed are a harder conversation with your adjuster. Photograph everything early, keep the plumber's diagnosis, and get repair scope in writing; we regularly provide itemized estimates for claims covering board replacement plus the full refinish."}}, {"@type": "Question", "name": "What does a typical repair cost compared to replacement?", "acceptedAnswer": {"@type": "Answer", "text": "A weave-in repair is priced per job — board replacement labor and material plus the refinish at $3.99/sq ft natural over the affected rooms. It almost always lands far below replacement, which stacks tear-out, disposal, $3–$4.25/sq ft install labor, and $4–$10+/sq ft new material. We'll show both numbers side by side if the damage puts you near the line."}}, {"@type": "Question", "name": "How do we keep this from happening again?", "acceptedAnswer": {"@type": "Answer", "text": "Fix the water story, not just the floor: replace aging supply lines and appliance hoses (braided steel over rubber), don't run the dishwasher when leaving the house, and check under sinks and around the water heater a few times a year. Wood floors handle life fine; what they can't handle is the same leak twice."}}]}
 </script></div>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-cta" style="margin:30px 0">
+<div data-rt-embed-type='true'><div class="ocb ocb-cta" style="margin:30px 0">
   <style>
     html body .post-body .ocb-cta h2, .ocb-cta h2{color:#fff!important}
     html body .post-body .ocb-cta .ocb-cta-sub, .ocb-cta .ocb-cta-sub{color:rgba(255,255,255,.88)!important}
@@ -129,18 +137,18 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     html body .post-body .ocb-cta a.ocb-cta-phone, .ocb-cta a.ocb-cta-phone{color:#5c0000!important;text-decoration:none!important}
   </style>
   <div style="background:linear-gradient(135deg,#8B0000,#5c0000);border-radius:20px;padding:28px 24px;color:#fff;text-align:center;box-shadow:0 14px 34px rgba(92,0,0,.3)">
-    <h2 style="margin:0 0 6px;color:#fff;font-size:24px;font-weight:900">Staring at a Buckled Floor Right Now?</h2>
-    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.85);font-size:16.3px">Stop the water first — then call us. We’ll assess what’s saveable, check the subfloor, and put the repair-vs-replace numbers in writing, including working with your insurance adjuster. Free estimates across Renton and all of King &amp; Snohomish County.</p>
+    <h2 style="margin:0 0 6px;color:#fff!important;font-size:24px;font-weight:900">Staring at a Buckled Floor Right Now?</h2>
+    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.92)!important;font-size:16.3px">Stop the water first — then call us. We’ll assess what’s saveable, check the subfloor, and put the repair-vs-replace numbers in writing, including working with your insurance adjuster. Free estimates across Renton and all of King &amp; Snohomish County.</p>
     <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
-      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff;color:#5c0000;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> (425) 595-1079</a>
-      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.4);color:#fff;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none">Book My Free Consultation</a>
+      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff!important;color:#5c0000!important;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none!important"><span class="ocb-ic ocb-ic-phone"></span> (425) 595-1079</a>
+      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.16)!important;border:1px solid rgba(255,255,255,.55);color:#fff!important;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none!important">Book My Free Consultation</a>
     </div>
-    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.9)">
+    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.95)!important">
       <span>✓ Since 2013</span><span>✓ 1,000+ floors</span><span>✓ 1-yr workmanship warranty</span><span>✓ Licensed &amp; insured</span><span>✓ Financing available</span>
     </div>
-    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
+    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04!important;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
   </div>
-</section></div>
+</div></div>
 
 <p><strong>Related reading:</strong> <a href="/blog/what-to-do-when-you-experience-water-damage-in-your-seattle-home-or-business">First steps after water damage</a> · <a href="/blog/cupped-hardwood-floors-causes-refinishing">Cupped floors: the recoverable cousin</a> · <a href="/blog/is-it-cheaper-to-refinish-or-replace-wood-floors">Refinish or replace: the economics</a> · <a href="/city-of-renton/hardwood-floor-refinishing-in-renton-wa">Hardwood floor refinishing in Renton</a> · <a href="/contact">Book a free estimate</a></p>
 

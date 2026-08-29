@@ -35,29 +35,37 @@ html body .post-body .ocb-fact p, .ocb-fact p{margin:0!important;font-size:14.7p
 html.ocb-anim-ready .ocb-rv{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
 html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 @media (prefers-reduced-motion:reduce){html.ocb-anim-ready .ocb-rv{opacity:1!important;transform:none!important;transition:none!important}.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:none}}
+
+/* Chip icons. Webflow's rich-text sanitizer strips inline <svg> whenever a post is
+   re-saved in the Editor, so the icons are drawn from CSS on a <span> instead. */
+.ocb-ic{display:inline-block;width:15px;height:15px;flex:0 0 auto;vertical-align:-2px;background-repeat:no-repeat;background-position:center;background-size:contain}
+.ocb-ic-pin{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z'/><circle cx='12' cy='10' r='3'/></svg>')}
+.ocb-ic-home{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z'/><polyline points='9 22 9 12 15 12 15 22'/></svg>')}
+.ocb-ic-phone{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z'/></svg>')}
+.ocb-cta .ocb-ic{filter:brightness(0) saturate(100%) invert(9%) sepia(64%) saturate(4000%) hue-rotate(348deg)}
 </style></div>
 
-<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 -6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">September 16, 2026</span></div></div>
+<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">September 16, 2026</span></div></div>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
+<div data-rt-embed-type='true'><div class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
   <span class="ocb-eyebrow">Quick answer</span>
   <p style="margin:0;font-size:17.9px;line-height:1.65"><strong>Stair refinishing in Bellevue is priced per tread — $55 to $75 each — because a staircase is the one part of your house where none of our floor machines fit, so every step is hand work.</strong> A typical 13-tread Bellevue staircase lands between $715 and $975 depending on condition and whether we’re staining. Below: exactly what the per-tread number covers, what pushes it to the top of the range, and the math on real staircases.</p>
   <div class="ocb-chips">
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg> King &amp; Snohomish County</span>
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg> Bellevue staircases</span>
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-pin"></span> King &amp; Snohomish County</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-home"></span> Bellevue staircases</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-phone"></span> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
   </div>
-</section></div>
+</div></div>
 
 <p>Every week someone calls and asks for our stair price per square foot, and every week we give an answer that sounds like a dodge: stairs aren’t priced by the foot. Nobody in this trade prices them that way, and once you’ve watched a tread get refinished you understand why. On an open floor, a belt sander and our <a href="/blog/trio-sanding-machine-for-flat-floors">Lägler TRIO</a> chew through square footage fast enough that $3.99/sq ft covers a full sand and finish. A stair tread is maybe four square feet — and it can take as long to do properly as a hundred square feet of open floor.</p>
 
 <p>So this post does what most stair pricing pages won’t: it shows the arithmetic. What $55–$75 a tread actually buys, which staircases land at $55 and which at $75, what happens when the carpet comes off, and how stairs fit into a whole-home refinish in a two-story Bellevue house.</p>
 
-<div data-rt-embed-type='true'><section class="ocb"><div class="ocb-facts">
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-facts">
   <div class="ocb-fact"><span class="n">$55–$75</span><p>per tread, sanded to bare wood and finished with the same waterborne system we put on floors. That’s the whole stair price model — count your treads and multiply.</p></div>
   <div class="ocb-fact"><span class="n">13</span><p>treads in a typical Bellevue two-story staircase, which puts most single flights between $715 and $975.</p></div>
   <div class="ocb-fact"><span class="n">0</span><p>of our floor machines fit on a stair tread. Every step is edger, orbital, scraper, and hand-sanding work — done kneeling.</p></div>
-</div></section></div>
+</div></div></div>
 
 <h2>Why Stairs Can’t Be Priced Like Floors</h2>
 
@@ -71,7 +79,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 
 <p>One boundary worth stating plainly: the per-tread price is for the tread — the part you walk on. Risers and stringers in most Bellevue homes are painted white, and they stay painted; we mask and protect them. If your risers are natural wood and you want them sanded and refinished too, that’s additional hand work we price separately at the estimate, not something quietly folded into the tread number.</p>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-card">
+<div data-rt-embed-type='true'><div class="ocb ocb-card">
   <h3 style="margin:0 0 10px;font-size:18.5px;font-weight:900;color:#5c0000">The Math on Real Staircases</h3>
   <div style="overflow-x:auto"><table class="ocb-table">
     <tr><th>Staircase</th><th>Arithmetic</th><th>Total</th></tr>
@@ -80,7 +88,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     <tr><td>Two flights (main + upper), 26 treads</td><td>26 × $55–$75</td><td>$1,430–$1,950</td></tr>
     <tr><td>Landing between flights</td><td>Priced as floor area, not a tread</td><td>Part of the per-sq-ft job</td></tr>
   </table></div>
-</section></div>
+</div></div>
 
 <h2>The Carpet Question</h2>
 
@@ -102,7 +110,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 
 <h2>Refinish or Replace the Treads?</h2>
 
-<div data-rt-embed-type='true'><section class="ocb"><div class="ocb-2col">
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-2col">
   <div class="ocb-card" style="margin:0">
     <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#5c0000">Refinish the existing treads when…</h3>
     <ul class="ocb-check">
@@ -123,10 +131,10 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
       <li>A previous refinish already sanded the treads thin</li>
     </ul>
   </div>
-</div></section></div>
+</div></div></div>
 
 <div data-rt-embed-type='true'><!-- FAQ accordion + JSON-LD -->
-<section class="faq-wrap ocb" aria-labelledby="faq-title">
+<div class="faq-wrap ocb" aria-labelledby="faq-title">
   <h2 id="faq-title" class="faq-title">Stair Refinishing Costs: What Bellevue Homeowners Ask</h2>
   <div class="faq-items" role="list">
     <details class="faq-item" role="listitem"><summary class="faq-q">How much does it cost to refinish a typical staircase?</summary><div class="faq-a">Count your treads and multiply by $55 to $75. A standard 13-tread Bellevue staircase runs $715 to $975 — the low end for clean treads with a natural finish, the high end for stairs coming out from under carpet or being stained to match floors. Landings are priced as floor area on top of that.</div></details>
@@ -138,7 +146,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     <details class="faq-item" role="listitem"><summary class="faq-q">When can we put a carpet runner back on the stairs?</summary><div class="faq-a">Seven days after the final coat — the same waiting period as rugs on floors. The finish is walkable in hours but needs about a week to fully cure, and a runner laid early traps solvents and can imprint the finish. Cure first, then dress the stairs however you like.</div></details>
     <details class="faq-item" role="listitem"><summary class="faq-q">What if the wood under our stair carpet turns out to be bad?</summary><div class="faq-a">It happens — some builders capped stairs with material that was never meant to show. We'll tell you at the estimate or the moment the carpet comes up, and the honest fix is new treads rather than refinishing wood that can't look good. That's an installation conversation, and we do that work too.</div></details>
   </div>
-</section>
+</div>
 
 <style>
   .faq-wrap{--line:#e5e7eb;margin:28px auto;padding:20px;border:1px solid var(--line);border-radius:16px;background:#fff;box-shadow:0 8px 30px rgba(2,6,23,.06)}
@@ -155,7 +163,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How much does it cost to refinish a typical staircase?", "acceptedAnswer": {"@type": "Answer", "text": "Count your treads and multiply by $55 to $75. A standard 13-tread Bellevue staircase runs $715 to $975 — the low end for clean treads with a natural finish, the high end for stairs coming out from under carpet or being stained to match floors. Landings are priced as floor area on top of that."}}, {"@type": "Question", "name": "Why are stairs priced per tread instead of per square foot?", "acceptedAnswer": {"@type": "Answer", "text": "Because none of the machines that make floor work efficient fit on a stair. Each tread is sanded with an edger, an orbital, and hand tools, working around nosings, stringers, and balusters. A four-square-foot tread can take as long as a hundred square feet of open floor, so per-square-foot pricing would misprice one job or the other."}}, {"@type": "Question", "name": "Do risers and stringers count as treads?", "acceptedAnswer": {"@type": "Answer", "text": "No. The per-tread price covers the tread and its nosing — the horizontal parts you walk on. Painted risers and stringers stay painted and get masked and protected. If you have natural-wood risers you want refinished, that is extra hand work we quote separately at the estimate."}}, {"@type": "Question", "name": "Can you refinish just the stairs without doing any floors?", "acceptedAnswer": {"@type": "Answer", "text": "Usually not on their own — our minimum job size is 500 sq ft, and a staircase alone doesn't reach it, so nearly all our stair work rides along with a floor refinish. If stairs are genuinely all you need, call us anyway and we'll tell you honestly whether it pencils out."}}, {"@type": "Question", "name": "Can we still get upstairs during the work?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, with planning. Waterborne finish takes sock traffic within hours, so morning coats are walkable by evening. When the schedule is tight we can coat alternating treads in two passes so a path upstairs always exists. The days to plan around are the sanding days, when the staircase is genuinely a workspace."}}, {"@type": "Question", "name": "Will refinished stairs match our refinished floors?", "acceptedAnswer": {"@type": "Answer", "text": "That's exactly why we do them in the same job: same sanding, same stain batch, same finish, same sheen, applied the same week. Done together, the match is as close as wood allows. Stairs refinished months apart from the floors can read slightly different, because finish ambers and wears from day one."}}, {"@type": "Question", "name": "When can we put a carpet runner back on the stairs?", "acceptedAnswer": {"@type": "Answer", "text": "Seven days after the final coat — the same waiting period as rugs on floors. The finish is walkable in hours but needs about a week to fully cure, and a runner laid early traps solvents and can imprint the finish. Cure first, then dress the stairs however you like."}}, {"@type": "Question", "name": "What if the wood under our stair carpet turns out to be bad?", "acceptedAnswer": {"@type": "Answer", "text": "It happens — some builders capped stairs with material that was never meant to show. We'll tell you at the estimate or the moment the carpet comes up, and the honest fix is new treads rather than refinishing wood that can't look good. That's an installation conversation, and we do that work too."}}]}
 </script></div>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-cta" style="margin:30px 0">
+<div data-rt-embed-type='true'><div class="ocb ocb-cta" style="margin:30px 0">
   <style>
     html body .post-body .ocb-cta h2, .ocb-cta h2{color:#fff!important}
     html body .post-body .ocb-cta .ocb-cta-sub, .ocb-cta .ocb-cta-sub{color:rgba(255,255,255,.88)!important}
@@ -165,18 +173,18 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     html body .post-body .ocb-cta a.ocb-cta-phone, .ocb-cta a.ocb-cta-phone{color:#5c0000!important;text-decoration:none!important}
   </style>
   <div style="background:linear-gradient(135deg,#8B0000,#5c0000);border-radius:20px;padding:28px 24px;color:#fff;text-align:center;box-shadow:0 14px 34px rgba(92,0,0,.3)">
-    <h2 style="margin:0 0 6px;color:#fff;font-size:24px;font-weight:900">Get a Per-Tread Number in Writing</h2>
-    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.85);font-size:16.3px">Count your treads, or just let us do it — free in-home estimates across Bellevue, King &amp; Snohomish County, with stair, floor, and stain pricing itemized so you can see exactly what each part costs.</p>
+    <h2 style="margin:0 0 6px;color:#fff!important;font-size:24px;font-weight:900">Get a Per-Tread Number in Writing</h2>
+    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.92)!important;font-size:16.3px">Count your treads, or just let us do it — free in-home estimates across Bellevue, King &amp; Snohomish County, with stair, floor, and stain pricing itemized so you can see exactly what each part costs.</p>
     <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
-      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff;color:#5c0000;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> (425) 595-1079</a>
-      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.4);color:#fff;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none">Book My Free Consultation</a>
+      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff!important;color:#5c0000!important;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none!important"><span class="ocb-ic ocb-ic-phone"></span> (425) 595-1079</a>
+      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.16)!important;border:1px solid rgba(255,255,255,.55);color:#fff!important;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none!important">Book My Free Consultation</a>
     </div>
-    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.9)">
+    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.95)!important">
       <span>✓ Since 2013</span><span>✓ 1,000+ floors</span><span>✓ 1-yr workmanship warranty</span><span>✓ Licensed &amp; insured</span><span>✓ Financing available</span>
     </div>
-    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
+    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04!important;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
   </div>
-</section></div>
+</div></div>
 
 <p><strong>Related reading:</strong> <a href="/blog/how-much-does-it-cost-to-refinish-hardwood-floors">2026 refinishing cost guide</a> · <a href="/blog/our-stair-installation-services">Our stair installation services</a> · <a href="/blog/how-long-before-you-can-walk-on-refinished-floors">When you can walk on refinished floors</a> · <a href="/city-of-kirkland/hardwood-floor-refinishing-in-kirkland-wa">Hardwood floor refinishing in Kirkland</a> · <a href="/contact">Book a free estimate</a></p>
 

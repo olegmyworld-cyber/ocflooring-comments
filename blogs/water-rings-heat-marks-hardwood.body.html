@@ -35,29 +35,37 @@ html body .post-body .ocb-fact p, .ocb-fact p{margin:0!important;font-size:14.7p
 html.ocb-anim-ready .ocb-rv{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
 html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 @media (prefers-reduced-motion:reduce){html.ocb-anim-ready .ocb-rv{opacity:1!important;transform:none!important;transition:none!important}.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:none}}
+
+/* Chip icons. Webflow's rich-text sanitizer strips inline <svg> whenever a post is
+   re-saved in the Editor, so the icons are drawn from CSS on a <span> instead. */
+.ocb-ic{display:inline-block;width:15px;height:15px;flex:0 0 auto;vertical-align:-2px;background-repeat:no-repeat;background-position:center;background-size:contain}
+.ocb-ic-pin{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z'/><circle cx='12' cy='10' r='3'/></svg>')}
+.ocb-ic-home{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z'/><polyline points='9 22 9 12 15 12 15 22'/></svg>')}
+.ocb-ic-phone{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z'/></svg>')}
+.ocb-cta .ocb-ic{filter:brightness(0) saturate(100%) invert(9%) sepia(64%) saturate(4000%) hue-rotate(348deg)}
 </style></div>
 
-<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 -6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">January 25, 2027</span></div></div>
+<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">January 25, 2027</span></div></div>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
+<div data-rt-embed-type='true'><div class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
   <span class="ocb-eyebrow">Quick answer</span>
   <p style="margin:0;font-size:17.9px;line-height:1.65"><strong>Read the color first: a white ring or haze means moisture stopped inside the finish and can usually be fixed in place — sometimes with nothing more than time, gentle heat, or a light buff. A dark ring means water got through the finish and stained the wood itself, and no kitchen-cupboard remedy will pull it back out — that spot needs sanding.</strong> The mark’s color tells you the fix and the rough cost before anyone visits your house. Below: how to tell the marks apart, which home remedies actually work, and where the honest line between DIY and a refinish sits.</p>
   <div class="ocb-chips">
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg> King &amp; Snohomish County</span>
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg> Spot repairs &amp; floor care</span>
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-pin"></span> King &amp; Snohomish County</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-home"></span> Spot repairs &amp; floor care</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-phone"></span> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
   </div>
-</section></div>
+</div></div>
 
 <p>January is water-ring season at our shop. The Christmas tree stand comes off the floor and leaves a pale halo. The boot tray by the door turns out to have been leaking since Thanksgiving. Somebody’s new steam mop — a well-meaning gift — has left a cloudy stripe down the hallway. We get a steady run of photos every winter with the same question attached: is this permanent?</p>
 
 <p>Usually, no. But the answer depends entirely on which kind of mark you have, and this is one of the few floor problems you can diagnose accurately from your own kitchen. Water and heat damage hardwood in two distinct layers — the finish, and the wood underneath — and the mark’s color tells you which layer took the hit. Get that one observation right and everything else follows: the fix, the cost, and whether you need us at all.</p>
 
-<div data-rt-embed-type='true'><section class="ocb"><div class="ocb-facts">
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-facts">
   <div class="ocb-fact"><span class="n">2 colors</span><p>of water mark, meaning opposite things. White or cloudy = moisture trapped in the finish film, usually fixable in place. Dark brown or black = water reached the wood fibers, which means sanding.</p></div>
   <div class="ocb-fact"><span class="n">$1.99/sq ft</span><p>our screen-and-recoat rate — the one-day fix when damage is confined to the finish layer and the affected area is too big or too visible to spot-treat cleanly.</p></div>
   <div class="ocb-fact"><span class="n">$3.99/sq ft</span><p>a full sand and natural refinish — the fix when dark marks have penetrated the wood and patch-sanding one spot would leave a repair more visible than the stain was.</p></div>
-</div></section></div>
+</div></div></div>
 
 <h2>First, Read the Mark: White or Dark?</h2>
 
@@ -85,7 +93,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 
 <p>That sheen-spot problem is the trap in all spot treatments, and it’s worth understanding before you scrub: a floor’s finish reads as uniform because it was applied as one continuous film at one sheen. Any spot repair — abrasion, touch-up finish from a can, wax sticks — creates a small area that reflects light differently. In a dim corner, fine. In the middle of a kitchen, the repair often ends up more noticeable than the ring was. This is why our advice scales with visibility: hide a small mark under patience and a hair dryer, but fix a visible one at the level of the whole board run or the whole room.</p>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-card">
+<div data-rt-embed-type='true'><div class="ocb ocb-card">
   <h3 style="margin:0 0 10px;font-size:18.5px;font-weight:900;color:#5c0000">Read the mark, pick the fix</h3>
   <div style="overflow-x:auto"><table class="ocb-table">
     <tr><th>The mark</th><th>What happened</th><th>Realistic fix</th><th>Typical cost</th></tr>
@@ -95,7 +103,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     <tr><td><strong>Dark brown ring</strong></td><td>Water penetrated to the wood and stained the fibers</td><td>Sand and refinish the affected floor</td><td>$3.99/sq ft, natural finish</td></tr>
     <tr><td><strong>Black stain, deep or spreading</strong></td><td>Years of moisture, often with an iron reaction in oak</td><td>Sanding if shallow; board replacement if deep</td><td>Assessed in person — depth decides</td></tr>
   </table></div>
-</section></div>
+</div></div>
 
 <h2>When It’s Bigger Than a Ring: Recoat or Refinish</h2>
 
@@ -104,7 +112,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 <p>We run this diagnosis constantly across King and Snohomish County — the pre-war floors near the water in Edmonds and Ballard ring the easiest, since many still wear wax or original varnish, while the 1990s poly floors on the Eastside mostly shrug water off until a slow leak finds a seam. If your floor is at the point where the marks have company — graying traffic paths, finish wearing through — start with our guide to <a href="/seattle/hardwood-floor-refinishing-in-seattle-wa">hardwood floor refinishing in Seattle</a> or the equivalent for your city, and have the whole surface looked at once instead of chasing rings one at a time. And once the floor’s fixed, the boring prevention list really is the whole game: saucers under plants, a tray under the pet bowl, coasters on the wood you care about, and a mop that’s damp instead of steaming — our rundown of <a href="/blog/best-and-worst-cleaners-hardwood-floors">the best and worst cleaners for hardwood</a> covers the rest.</p>
 
 <div data-rt-embed-type='true'><!-- FAQ accordion + JSON-LD -->
-<section class="faq-wrap ocb" aria-labelledby="faq-title">
+<div class="faq-wrap ocb" aria-labelledby="faq-title">
   <h2 id="faq-title" class="faq-title">Water Rings and Heat Marks: What Homeowners Ask Us</h2>
   <div class="faq-items" role="list">
     <details class="faq-item" role="listitem"><summary class="faq-q">Will a white water ring go away on its own?</summary><div class="faq-a">Often, yes — if it’s fresh. The trapped moisture that causes the white cloud can migrate back out of the finish over several days, especially in a heated house in winter. Give a new mark one to two weeks before escalating. If it’s still there after that, it needs gentle heat, light abrasion, or a recoat.</div></details>
@@ -116,7 +124,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     <details class="faq-item" role="listitem"><summary class="faq-q">How do I stop plant pots and pet bowls from leaving rings?</summary><div class="faq-a">Get air under them. A saucer alone isn’t enough — condensation forms beneath saucers too. Use pot feet or a riser so the base can dry, put pet bowls on a waterproof tray with a lip, and move both a few inches every month or two so no one patch stays covered. Trapped dampness, not spills, causes almost every dark ring we sand out.</div></details>
     <details class="faq-item" role="listitem"><summary class="faq-q">Does the type of finish change how vulnerable my floor is?</summary><div class="faq-a">Substantially. Modern two-component waterborne finishes resist white ringing and surface moisture very well. Older oil-modified poly marks more easily, and wax or shellac — common under furniture-polish sheen in pre-war homes — will white-ring from a single sweating glass. If your floor marks at the slightest moisture, the finish is telling you it’s due for renewal.</div></details>
   </div>
-</section>
+</div>
 
 <style>
   .faq-wrap{--line:#e5e7eb;margin:28px auto;padding:20px;border:1px solid var(--line);border-radius:16px;background:#fff;box-shadow:0 8px 30px rgba(2,6,23,.06)}
@@ -133,7 +141,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Will a white water ring go away on its own?", "acceptedAnswer": {"@type": "Answer", "text": "Often, yes — if it’s fresh. The trapped moisture that causes the white cloud can migrate back out of the finish over several days, especially in a heated house in winter. Give a new mark one to two weeks before escalating. If it’s still there after that, it needs gentle heat, light abrasion, or a recoat."}}, {"@type": "Question", "name": "Does the mayonnaise trick actually work?", "acceptedAnswer": {"@type": "Answer", "text": "Sometimes, on the right finish. The oil can displace trapped moisture in older oil-based and waxed finishes, which is why the trick has survived since your grandmother’s furniture. On modern polyurethane floors it rarely does much beyond leaving you a floor to degrease. It never works on dark marks."}}, {"@type": "Question", "name": "Why did my steam mop leave cloudy marks on the floor?", "acceptedAnswer": {"@type": "Answer", "text": "Steam forces hot moisture vapor directly into the finish film and its seams — exactly the mechanism that causes white rings, applied deliberately across the whole floor. The cloudiness is moisture damage inside the finish, and repeated steaming eventually whitens and peels it. We recommend never using a steam mop on hardwood, regardless of what the mop’s box says."}}, {"@type": "Question", "name": "Can dark water stains be sanded out?", "acceptedAnswer": {"@type": "Answer", "text": "Shallow ones, yes — completely. A full refinish removes the finish plus roughly a millimeter of wood, which erases most dark rings from planters and pet bowls. Stains that have soaked deep — usually spots that stayed wet for years — can outrun the sander, and those boards get replaced instead. Depth is the whole question, and it’s hard to judge until sanding starts."}}, {"@type": "Question", "name": "Can you fix just the one stained board?", "acceptedAnswer": {"@type": "Answer", "text": "Mechanically, yes — we can replace individual boards or sand a small area. Visually, it’s harder: new finish on one patch reflects light differently from the aged finish around it, and a fresh board sits next to sun-faded neighbors. Small repairs make sense in closets and corners; in the middle of a room, refinishing to a natural break like a doorway blends far better."}}, {"@type": "Question", "name": "Will a screen and recoat remove water rings?", "acceptedAnswer": {"@type": "Answer", "text": "It removes white marks that live in the topcoat — which is most of them — because it abrades that layer and replaces it. It will not remove dark marks, which sit in the wood below; a recoat just seals those in place. That’s why we check mark color before recommending the $1.99/sq ft recoat over the $3.99/sq ft full refinish."}}, {"@type": "Question", "name": "How do I stop plant pots and pet bowls from leaving rings?", "acceptedAnswer": {"@type": "Answer", "text": "Get air under them. A saucer alone isn’t enough — condensation forms beneath saucers too. Use pot feet or a riser so the base can dry, put pet bowls on a waterproof tray with a lip, and move both a few inches every month or two so no one patch stays covered. Trapped dampness, not spills, causes almost every dark ring we sand out."}}, {"@type": "Question", "name": "Does the type of finish change how vulnerable my floor is?", "acceptedAnswer": {"@type": "Answer", "text": "Substantially. Modern two-component waterborne finishes resist white ringing and surface moisture very well. Older oil-modified poly marks more easily, and wax or shellac — common under furniture-polish sheen in pre-war homes — will white-ring from a single sweating glass. If your floor marks at the slightest moisture, the finish is telling you it’s due for renewal."}}]}
 </script></div>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-cta" style="margin:30px 0">
+<div data-rt-embed-type='true'><div class="ocb ocb-cta" style="margin:30px 0">
   <style>
     html body .post-body .ocb-cta h2, .ocb-cta h2{color:#fff!important}
     html body .post-body .ocb-cta .ocb-cta-sub, .ocb-cta .ocb-cta-sub{color:rgba(255,255,255,.88)!important}
@@ -143,18 +151,18 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     html body .post-body .ocb-cta a.ocb-cta-phone, .ocb-cta a.ocb-cta-phone{color:#5c0000!important;text-decoration:none!important}
   </style>
   <div style="background:linear-gradient(135deg,#8B0000,#5c0000);border-radius:20px;padding:28px 24px;color:#fff;text-align:center;box-shadow:0 14px 34px rgba(92,0,0,.3)">
-    <h2 style="margin:0 0 6px;color:#fff;font-size:24px;font-weight:900">Not Sure Which Mark You’ve Got?</h2>
-    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.85);font-size:16.3px">Send us a photo or book a free in-home assessment — we’ll tell you honestly whether it’s a wait-a-week, a one-day recoat, or a sanding job, with the price in writing either way. King &amp; Snohomish County.</p>
+    <h2 style="margin:0 0 6px;color:#fff!important;font-size:24px;font-weight:900">Not Sure Which Mark You’ve Got?</h2>
+    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.92)!important;font-size:16.3px">Send us a photo or book a free in-home assessment — we’ll tell you honestly whether it’s a wait-a-week, a one-day recoat, or a sanding job, with the price in writing either way. King &amp; Snohomish County.</p>
     <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
-      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff;color:#5c0000;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> (425) 595-1079</a>
-      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.4);color:#fff;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none">Book My Free Consultation</a>
+      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff!important;color:#5c0000!important;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none!important"><span class="ocb-ic ocb-ic-phone"></span> (425) 595-1079</a>
+      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.16)!important;border:1px solid rgba(255,255,255,.55);color:#fff!important;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none!important">Book My Free Consultation</a>
     </div>
-    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.9)">
+    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.95)!important">
       <span>✓ Since 2013</span><span>✓ 1,000+ floors</span><span>✓ 1-yr workmanship warranty</span><span>✓ Licensed &amp; insured</span><span>✓ Financing available</span>
     </div>
-    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
+    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04!important;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
   </div>
-</section></div>
+</div></div>
 
 <p><strong>Related reading:</strong> <a href="/blog/black-stains-hardwood-can-they-be-sanded-out">Black stains: can they be sanded out?</a> · <a href="/blog/white-cloudy-spots-hardwood-floors">White cloudy spots on hardwood</a> · <a href="/blog/sand-and-refinish-vs-screen-and-recoat-which-is-right-for-your-hardwood-floors">Sand & refinish vs screen & recoat</a> · <a href="/blog/best-and-worst-cleaners-hardwood-floors">Best and worst hardwood cleaners</a> · <a href="/contact">Book a free estimate</a></p>
 

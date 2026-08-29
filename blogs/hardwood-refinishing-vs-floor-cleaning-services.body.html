@@ -35,29 +35,37 @@ html body .post-body .ocb-fact p, .ocb-fact p{margin:0!important;font-size:14.7p
 html.ocb-anim-ready .ocb-rv{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
 html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 @media (prefers-reduced-motion:reduce){html.ocb-anim-ready .ocb-rv{opacity:1!important;transform:none!important;transition:none!important}.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:none}}
+
+/* Chip icons. Webflow's rich-text sanitizer strips inline <svg> whenever a post is
+   re-saved in the Editor, so the icons are drawn from CSS on a <span> instead. */
+.ocb-ic{display:inline-block;width:15px;height:15px;flex:0 0 auto;vertical-align:-2px;background-repeat:no-repeat;background-position:center;background-size:contain}
+.ocb-ic-pin{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z'/><circle cx='12' cy='10' r='3'/></svg>')}
+.ocb-ic-home{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z'/><polyline points='9 22 9 12 15 12 15 22'/></svg>')}
+.ocb-ic-phone{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z'/></svg>')}
+.ocb-cta .ocb-ic{filter:brightness(0) saturate(100%) invert(9%) sepia(64%) saturate(4000%) hue-rotate(348deg)}
 </style></div>
 
-<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 -6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">September 25, 2026</span></div></div>
+<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">September 25, 2026</span></div></div>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
+<div data-rt-embed-type='true'><div class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
   <span class="ocb-eyebrow">Quick answer</span>
   <p style="margin:0;font-size:17.9px;line-height:1.65"><strong>A floor cleaning service washes your finish; refinishing replaces it — and which one your Everett floor needs depends on whether the finish is dirty or gone.</strong> If the floor is grimy but water still beads on it, a professional cleaning helps and costs the least. If wear has gone through the finish — gray boards, bare traffic paths, scratches that catch a fingernail — no amount of cleaning brings it back, because the problem isn’t dirt. Between the two sits the option most homeowners don’t know exists: a $1.99/sq ft screen and recoat.</p>
   <div class="ocb-chips">
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg> King &amp; Snohomish County</span>
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg> Everett homes</span>
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-pin"></span> King &amp; Snohomish County</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-home"></span> Everett homes</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-phone"></span> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
   </div>
-</section></div>
+</div></div>
 
 <p>Here’s a conversation we have weekly, usually with Everett homeowners who’ve just gotten a floor-cleaning quote: “They said they can make our hardwood look new for a few hundred dollars. Can they?” Sometimes, honestly, yes — if what’s wrong with the floor is dirt. Often, no — because what’s wrong with the floor is the finish, and a cleaning crew doesn’t carry finish.</p>
 
 <p>We’re a refinishing company, so you’d expect us to talk you out of cleaning. We won’t. When cleaning is all a floor needs, we say so at the estimate and you spend a few hundred dollars instead of a few thousand — that honesty is cheaper than any ad we could buy. What we will do is draw the line clearly, because the industry blurs it on purpose, and homeowners routinely pay for the wrong service in both directions.</p>
 
-<div data-rt-embed-type='true'><section class="ocb"><div class="ocb-facts">
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-facts">
   <div class="ocb-fact"><span class="n">3</span><p>rungs on the intervention ladder: professional cleaning (cheapest), $1.99/sq ft screen &amp; recoat, $3.99/sq ft full refinish. Most floors need one rung lower than their owners fear.</p></div>
   <div class="ocb-fact"><span class="n">0</span><p>coats of protection a cleaning adds. Washing removes grime from the finish — it puts nothing back. Some “polish” products actively cause problems later.</p></div>
   <div class="ocb-fact"><span class="n">1 day</span><p>for a screen &amp; recoat — the middle option that adds a real coat of finish. Walk on it in socks the same evening.</p></div>
-</div></section></div>
+</div></div></div>
 
 <h2>What a Floor Cleaning Service Actually Does</h2>
 
@@ -77,7 +85,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 
 <p>We see the aftermath regularly: a floor “maintained” with polish for five years costs more to restore than a floor that was simply ignored. If a cleaning quote includes a polish step, ask exactly what product goes down — and if the answer is acrylic, decline it. A well-cleaned floor with intact finish doesn’t need fake shine on top.</p>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-card">
+<div data-rt-embed-type='true'><div class="ocb ocb-card">
   <h3 style="margin:0 0 10px;font-size:18.5px;font-weight:900;color:#5c0000">Symptom → Service: The Honest Decision Table</h3>
   <div style="overflow-x:auto"><table class="ocb-table">
     <tr><th>What the floor looks like</th><th>What it needs</th><th>Ballpark</th></tr>
@@ -87,7 +95,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     <tr><td>Deep stains, sun fade, or a color change wanted</td><td>Full sand + stain</td><td>$6.50/sq ft, 3–5 days</td></tr>
     <tr><td>Polish/acrylic buildup, sticky or cloudy</td><td>Strip or full sand — the buildup blocks recoating</td><td>Case by case, at the estimate</td></tr>
   </table></div>
-</section></div>
+</div></div>
 
 <h2>The Middle Rung Nobody Sells You: Screen and Recoat</h2>
 
@@ -103,7 +111,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 
 <h2>The Line, Drawn Plainly</h2>
 
-<div data-rt-embed-type='true'><section class="ocb"><div class="ocb-2col">
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-2col">
   <div class="ocb-card" style="margin:0">
     <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#5c0000">Cleaning is enough when…</h3>
     <ul class="ocb-check">
@@ -124,10 +132,10 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
       <li>You want the color or sheen changed — that’s finish work by definition</li>
     </ul>
   </div>
-</div></section></div>
+</div></div></div>
 
 <div data-rt-embed-type='true'><!-- FAQ accordion + JSON-LD -->
-<section class="faq-wrap ocb" aria-labelledby="faq-title">
+<div class="faq-wrap ocb" aria-labelledby="faq-title">
   <h2 id="faq-title" class="faq-title">Refinishing vs Cleaning: What Everett Homeowners Ask</h2>
   <div class="faq-items" role="list">
     <details class="faq-item" role="listitem"><summary class="faq-q">Can a cleaning service make my hardwood look new again?</summary><div class="faq-a">Only if the finish underneath the dirt is intact. Cleaning removes grime from the wear layer; it can't repair, thicken, or replace that layer. Run the water drop test: if water beads on your worst traffic path, cleaning can help. If it soaks in and darkens the wood, the finish is gone and cleaning is washing bare wood.</div></details>
@@ -139,7 +147,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     <details class="faq-item" role="listitem"><summary class="faq-q">Do you offer floor cleaning?</summary><div class="faq-a">No — we're a refinishing company: recoats, full sands, stains, and repairs. Which is partly why our diagnosis is useful: when a floor just needs cleaning, we have nothing to sell you, and we'll say so at the free estimate. When it needs more, we'll show you why on the floor itself.</div></details>
     <details class="faq-item" role="listitem"><summary class="faq-q">How often should hardwood be professionally cleaned or recoated?</summary><div class="faq-a">Routine cleaning at home — dry dusting plus an occasional damp mop with hardwood cleaner — is most of the battle. A deep clean makes sense when film builds up despite good habits. The recoat rhythm matters more: a fresh coat every three to seven years, depending on traffic, keeps the wear layer ahead of the wear and can postpone full sanding almost indefinitely.</div></details>
   </div>
-</section>
+</div>
 
 <style>
   .faq-wrap{--line:#e5e7eb;margin:28px auto;padding:20px;border:1px solid var(--line);border-radius:16px;background:#fff;box-shadow:0 8px 30px rgba(2,6,23,.06)}
@@ -156,7 +164,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Can a cleaning service make my hardwood look new again?", "acceptedAnswer": {"@type": "Answer", "text": "Only if the finish underneath the dirt is intact. Cleaning removes grime from the wear layer; it can't repair, thicken, or replace that layer. Run the water drop test: if water beads on your worst traffic path, cleaning can help. If it soaks in and darkens the wood, the finish is gone and cleaning is washing bare wood."}}, {"@type": "Question", "name": "What's the difference between buffing, recoating, and refinishing?", "acceptedAnswer": {"@type": "Answer", "text": "Buffing or polishing shines what's there. A screen and recoat abrades the existing finish and adds one new coat of real polyurethane — $1.99/sq ft with us, one day. Refinishing sands to bare wood and rebuilds the entire finish system — $3.99/sq ft natural, $6.50 with stain, three to five days. Each rung fixes what the one below can't."}}, {"@type": "Question", "name": "Is professional floor cleaning worth the money?", "acceptedAnswer": {"@type": "Answer", "text": "On the right floor, yes — machine scrubbing removes bonded grime that home mopping never gets, and an intact-finish floor can look dramatically better. On the wrong floor it's wasted: no cleaning fixes gray boards, bare paths, or deep scratches. The water drop test tells you which floor you have before you spend."}}, {"@type": "Question", "name": "Should I let a cleaning service apply polish or restorer?", "acceptedAnswer": {"@type": "Answer", "text": "We'd decline it. Those products are acrylic coatings that build up cloudy, streaky, and sometimes sticky — and they block adhesion, so a future recoat won't bond until the buildup is stripped or sanded off. They routinely turn a would-be $1.99/sq ft recoat into a full refinish. Clean finish doesn't need artificial shine."}}, {"@type": "Question", "name": "My floor is sticky after a cleaning. What happened?", "acceptedAnswer": {"@type": "Answer", "text": "Usually residue — from too much cleaning product, the wrong product, or a polish applied on top. Try a proper rinse-mop with a hardwood-specific cleaner first. If stickiness persists, there's likely acrylic buildup involved, and we can assess whether it strips off or needs abrasion at an estimate."}}, {"@type": "Question", "name": "How much cheaper is cleaning than refinishing?", "acceptedAnswer": {"@type": "Answer", "text": "Meaningfully: professional cleaning typically runs a few hundred dollars, a screen and recoat at $1.99/sq ft lands around $1,600 on an 800 sq ft floor, and a full natural refinish at $3.99 about $3,200. Which is exactly why paying for cleaning when the floor needs refinishing is the worst outcome — you pay the small bill and still owe the big one."}}, {"@type": "Question", "name": "Do you offer floor cleaning?", "acceptedAnswer": {"@type": "Answer", "text": "No — we're a refinishing company: recoats, full sands, stains, and repairs. Which is partly why our diagnosis is useful: when a floor just needs cleaning, we have nothing to sell you, and we'll say so at the free estimate. When it needs more, we'll show you why on the floor itself."}}, {"@type": "Question", "name": "How often should hardwood be professionally cleaned or recoated?", "acceptedAnswer": {"@type": "Answer", "text": "Routine cleaning at home — dry dusting plus an occasional damp mop with hardwood cleaner — is most of the battle. A deep clean makes sense when film builds up despite good habits. The recoat rhythm matters more: a fresh coat every three to seven years, depending on traffic, keeps the wear layer ahead of the wear and can postpone full sanding almost indefinitely."}}]}
 </script></div>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-cta" style="margin:30px 0">
+<div data-rt-embed-type='true'><div class="ocb ocb-cta" style="margin:30px 0">
   <style>
     html body .post-body .ocb-cta h2, .ocb-cta h2{color:#fff!important}
     html body .post-body .ocb-cta .ocb-cta-sub, .ocb-cta .ocb-cta-sub{color:rgba(255,255,255,.88)!important}
@@ -166,18 +174,18 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     html body .post-body .ocb-cta a.ocb-cta-phone, .ocb-cta a.ocb-cta-phone{color:#5c0000!important;text-decoration:none!important}
   </style>
   <div style="background:linear-gradient(135deg,#8B0000,#5c0000);border-radius:20px;padding:28px 24px;color:#fff;text-align:center;box-shadow:0 14px 34px rgba(92,0,0,.3)">
-    <h2 style="margin:0 0 6px;color:#fff;font-size:24px;font-weight:900">Not Sure Which Rung Your Floor Is On?</h2>
-    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.85);font-size:16.3px">Bring us out — the water test takes a minute, and we’ll tell you honestly if cleaning, a $1.99 recoat, or a refinish is the right money. Free estimates across Everett, King &amp; Snohomish County.</p>
+    <h2 style="margin:0 0 6px;color:#fff!important;font-size:24px;font-weight:900">Not Sure Which Rung Your Floor Is On?</h2>
+    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.92)!important;font-size:16.3px">Bring us out — the water test takes a minute, and we’ll tell you honestly if cleaning, a $1.99 recoat, or a refinish is the right money. Free estimates across Everett, King &amp; Snohomish County.</p>
     <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
-      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff;color:#5c0000;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> (425) 595-1079</a>
-      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.4);color:#fff;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none">Book My Free Consultation</a>
+      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff!important;color:#5c0000!important;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none!important"><span class="ocb-ic ocb-ic-phone"></span> (425) 595-1079</a>
+      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.16)!important;border:1px solid rgba(255,255,255,.55);color:#fff!important;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none!important">Book My Free Consultation</a>
     </div>
-    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.9)">
+    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.95)!important">
       <span>✓ Since 2013</span><span>✓ 1,000+ floors</span><span>✓ 1-yr workmanship warranty</span><span>✓ Licensed &amp; insured</span><span>✓ Financing available</span>
     </div>
-    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
+    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04!important;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
   </div>
-</section></div>
+</div></div>
 
 <p><strong>Related reading:</strong> <a href="/blog/sand-and-refinish-vs-screen-and-recoat-which-is-right-for-your-hardwood-floors">Screen &amp; recoat vs full refinish</a> · <a href="/blog/how-to-clean-and-maintain-hardwood-floors">How to clean &amp; maintain hardwood</a> · <a href="/blog/can-you-steam-clean-hardwood-floors">Can you steam clean hardwood?</a> · <a href="/city-of-everett/hardwood-floor-refinishing-in-everett-wa">Hardwood floor refinishing in Everett</a> · <a href="/contact">Book a free estimate</a></p>
 

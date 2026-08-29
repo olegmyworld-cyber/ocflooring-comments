@@ -35,29 +35,37 @@ html body .post-body .ocb-fact p, .ocb-fact p{margin:0!important;font-size:14.7p
 html.ocb-anim-ready .ocb-rv{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
 html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 @media (prefers-reduced-motion:reduce){html.ocb-anim-ready .ocb-rv{opacity:1!important;transform:none!important;transition:none!important}.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:none}}
+
+/* Chip icons. Webflow's rich-text sanitizer strips inline <svg> whenever a post is
+   re-saved in the Editor, so the icons are drawn from CSS on a <span> instead. */
+.ocb-ic{display:inline-block;width:15px;height:15px;flex:0 0 auto;vertical-align:-2px;background-repeat:no-repeat;background-position:center;background-size:contain}
+.ocb-ic-pin{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z'/><circle cx='12' cy='10' r='3'/></svg>')}
+.ocb-ic-home{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z'/><polyline points='9 22 9 12 15 12 15 22'/></svg>')}
+.ocb-ic-phone{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z'/></svg>')}
+.ocb-cta .ocb-ic{filter:brightness(0) saturate(100%) invert(9%) sepia(64%) saturate(4000%) hue-rotate(348deg)}
 </style></div>
 
-<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 -6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">November 30, 2026</span></div></div>
+<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">November 30, 2026</span></div></div>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
+<div data-rt-embed-type='true'><div class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
   <span class="ocb-eyebrow">Quick answer</span>
   <p style="margin:0;font-size:17.9px;line-height:1.65"><strong>In a normal refinish, your baseboards stay on the wall — we sand up to them with an edger, finish coats stop cleanly at their face, and nothing gets pried off.</strong> The two honest asterisks: quarter-round (base shoe), where it exists, sometimes comes off and goes back on or gets replaced; and because sanding lowers the floor by about 1/32 of an inch, a hairline of previously hidden baseboard can appear at the very bottom — a paint-touch-up item, not damage. Here’s exactly what to expect at the wall line in a Sammamish refinish, including the few cases where trim really should come off.</p>
   <div class="ocb-chips">
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg> King &amp; Snohomish County</span>
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg> Sammamish homes</span>
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-pin"></span> King &amp; Snohomish County</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-home"></span> Sammamish homes</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-phone"></span> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
   </div>
-</section></div>
+</div></div>
 
 <p>Baseboards are the question homeowners ask third — after price and dust — and it usually arrives with a worried backstory: a friend’s remodel where every stick of trim came off, took drywall paint with it, and turned into a painting project nobody had budgeted. So let’s settle the main fear immediately: refinishing is not that remodel. Sanding a floor does not require removing the trim around it, and on the overwhelming majority of our jobs, the baseboards never move. The machines are built for exactly this — cutting flat, tight to a vertical surface — and a good operator leaves the wall line looking like nobody was there.</p>
 
 <p>What follows is the honest, complete version: what the equipment does at the wall, what happens to quarter-round, the cosmetic fine print we’d rather you hear from us than discover afterward, and the short list of situations where taking trim off actually is the right call.</p>
 
-<div data-rt-embed-type='true'><section class="ocb"><div class="ocb-facts">
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-facts">
   <div class="ocb-fact"><span class="n">0</span><p>baseboards removed on a typical refinish. Edgers and hand-scraping handle the last inch; prying off trim is reserved for the few cases that genuinely need it.</p></div>
   <div class="ocb-fact"><span class="n">1/32 in</span><p>roughly how much height a full sanding takes off the floor — the reason a hairline of unpainted baseboard can appear at the bottom edge afterward.</p></div>
   <div class="ocb-fact"><span class="n">+$250</span><p>our dust-containment option, which matters most exactly where baseboards live: the corners and wall lines where sanding dust likes to settle.</p></div>
-</div></section></div>
+</div></div></div>
 
 <h2>Why Baseboards Stay On — and How We Sand That Close</h2>
 
@@ -89,7 +97,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 
 <p>The plateau’s open-plan great rooms add one more wall-line consideration: with kitchen, dining, and living flowing together, the baseboard run is long, continuous, and visible from everywhere, so consistency matters — one scuffed or mismatched section stands out in a way it wouldn’t in a chopped-up 1950s floor plan. It’s the kind of detail we plan around on every <a href="/city-of-sammamish/hardwood-floor-refinishing-in-sammamish-wa">hardwood floor refinishing job in Sammamish</a>: long sightlines reward careful edging, and the estimate is where we’ll walk your specific wall line with you.</p>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-card">
+<div data-rt-embed-type='true'><div class="ocb ocb-card">
   <h3 style="margin:0 0 10px;font-size:18.5px;font-weight:900;color:#5c0000">Trim situations and what we actually do</h3>
   <div style="overflow-x:auto"><table class="ocb-table">
     <tr><th>Your wall line</th><th>What happens during the refinish</th><th>Afterward</th></tr>
@@ -100,10 +108,10 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     <tr><td>Carpet converting to refinished hardwood</td><td>Tack strips out; base usually stays</td><td>Trim assessed after strip removal</td></tr>
     <tr><td>New floor installation (not a refinish)</td><td>Baseboards typically removed</td><td>Reinstalled or upgraded at the new height</td></tr>
   </table></div>
-</section></div>
+</div></div>
 
 <div data-rt-embed-type='true'><!-- FAQ accordion + JSON-LD -->
-<section class="faq-wrap ocb" aria-labelledby="faq-title">
+<div class="faq-wrap ocb" aria-labelledby="faq-title">
   <h2 id="faq-title" class="faq-title">Baseboards and Refinishing: What Sammamish Homeowners Ask</h2>
   <div class="faq-items" role="list">
     <details class="faq-item" role="listitem"><summary class="faq-q">Do baseboards have to be removed to refinish hardwood floors?</summary><div class="faq-a">No. The edger — a disc sander built to cut flat against vertical surfaces — sands right up to the baseboard's face, and corners are finished by hand. Trim removal is reserved for special cases like water damage, new installations, or a planned repaint, not standard refinishing.</div></details>
@@ -115,7 +123,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     <details class="faq-item" role="listitem"><summary class="faq-q">We're replacing our baseboards anyway. What order should things happen?</summary><div class="faq-a">Remove the old trim, refinish the floors, then install and paint the new baseboards over the finished floor. That order gives the sander a completely open edge, the new trim a flat finished surface to land on, and the painter the last word. It's the cleanest sequence and we coordinate it with trim carpenters regularly.</div></details>
     <details class="faq-item" role="listitem"><summary class="faq-q">Is dust behind the baseboards a problem during sanding?</summary><div class="faq-a">Dust doesn't get behind properly installed baseboards, but it does settle along wall lines and trim ledges — the corners are where any sanding job shows its housekeeping. Our equipment runs with vacuum capture, and our +$250 dust-containment option adds sealed barriers for occupied or furniture-heavy homes.</div></details>
   </div>
-</section>
+</div>
 
 <style>
   .faq-wrap{--line:#e5e7eb;margin:28px auto;padding:20px;border:1px solid var(--line);border-radius:16px;background:#fff;box-shadow:0 8px 30px rgba(2,6,23,.06)}
@@ -132,7 +140,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Do baseboards have to be removed to refinish hardwood floors?", "acceptedAnswer": {"@type": "Answer", "text": "No. The edger — a disc sander built to cut flat against vertical surfaces — sands right up to the baseboard's face, and corners are finished by hand. Trim removal is reserved for special cases like water damage, new installations, or a planned repaint, not standard refinishing."}}, {"@type": "Question", "name": "Will the sander damage my baseboards?", "acceptedAnswer": {"@type": "Answer", "text": "Careful edging leaves trim essentially untouched, but the honest expectation over a whole house is a few minor scuffs at the bottom edge — touch-up paint territory, not repair territory. We protect trim as part of the job and point out anything that needs a painter's minute at the walkthrough."}}, {"@type": "Question", "name": "What is quarter-round, and does mine need to come off?", "acceptedAnswer": {"@type": "Answer", "text": "Quarter-round, or base shoe, is the small rounded molding where some baseboards meet the floor. Since it sits on the floor itself, we usually remove it so the sander reaches everything, then reinstall it — or replace it with new primed shoe, because old shoe is often too brittle to survive removal. Homes without shoe skip this entirely."}}, {"@type": "Question", "name": "Why is there a thin unpainted line at the bottom of my baseboard after refinishing?", "acceptedAnswer": {"@type": "Answer", "text": "Sanding lowered the floor by about 1/32 of an inch, exposing the sliver of baseboard that sat below the old surface and was never painted. It's cosmetic and normal. A caulk bead or paint touch-up erases it — and if you're planning any painting, schedule it after the floors."}}, {"@type": "Question", "name": "Should I paint baseboards before or after floor refinishing?", "acceptedAnswer": {"@type": "Answer", "text": "After, ideally. The floor work happens first, then the painter caulks and touches up the wall line over the finished, cured floor with drop cloths down. Painting first means paying to touch up twice. If the paint is already fresh, tell us — we adjust how we work the edges."}}, {"@type": "Question", "name": "Does finish get on the baseboards when you coat the floor?", "acceptedAnswer": {"@type": "Answer", "text": "No — finish is cut in carefully at the wall line, the same way a painter cuts in a ceiling. The coats stop at the baseboard's face. What you see afterward is a clean line where floor meets trim, not a lapped or splashed edge."}}, {"@type": "Question", "name": "We're replacing our baseboards anyway. What order should things happen?", "acceptedAnswer": {"@type": "Answer", "text": "Remove the old trim, refinish the floors, then install and paint the new baseboards over the finished floor. That order gives the sander a completely open edge, the new trim a flat finished surface to land on, and the painter the last word. It's the cleanest sequence and we coordinate it with trim carpenters regularly."}}, {"@type": "Question", "name": "Is dust behind the baseboards a problem during sanding?", "acceptedAnswer": {"@type": "Answer", "text": "Dust doesn't get behind properly installed baseboards, but it does settle along wall lines and trim ledges — the corners are where any sanding job shows its housekeeping. Our equipment runs with vacuum capture, and our +$250 dust-containment option adds sealed barriers for occupied or furniture-heavy homes."}}]}
 </script></div>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-cta" style="margin:30px 0">
+<div data-rt-embed-type='true'><div class="ocb ocb-cta" style="margin:30px 0">
   <style>
     html body .post-body .ocb-cta h2, .ocb-cta h2{color:#fff!important}
     html body .post-body .ocb-cta .ocb-cta-sub, .ocb-cta .ocb-cta-sub{color:rgba(255,255,255,.88)!important}
@@ -142,18 +150,18 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     html body .post-body .ocb-cta a.ocb-cta-phone, .ocb-cta a.ocb-cta-phone{color:#5c0000!important;text-decoration:none!important}
   </style>
   <div style="background:linear-gradient(135deg,#8B0000,#5c0000);border-radius:20px;padding:28px 24px;color:#fff;text-align:center;box-shadow:0 14px 34px rgba(92,0,0,.3)">
-    <h2 style="margin:0 0 6px;color:#fff;font-size:24px;font-weight:900">Want to Know What Your Wall Line Needs?</h2>
-    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.85);font-size:16.3px">We’ll look at your baseboards, your shoe molding, and your floors in one free visit — and quote a refinish that leaves the trim where it belongs. Sammamish and all of King &amp; Snohomish County.</p>
+    <h2 style="margin:0 0 6px;color:#fff!important;font-size:24px;font-weight:900">Want to Know What Your Wall Line Needs?</h2>
+    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.92)!important;font-size:16.3px">We’ll look at your baseboards, your shoe molding, and your floors in one free visit — and quote a refinish that leaves the trim where it belongs. Sammamish and all of King &amp; Snohomish County.</p>
     <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
-      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff;color:#5c0000;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> (425) 595-1079</a>
-      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.4);color:#fff;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none">Book My Free Consultation</a>
+      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff!important;color:#5c0000!important;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none!important"><span class="ocb-ic ocb-ic-phone"></span> (425) 595-1079</a>
+      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.16)!important;border:1px solid rgba(255,255,255,.55);color:#fff!important;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none!important">Book My Free Consultation</a>
     </div>
-    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.9)">
+    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.95)!important">
       <span>✓ Since 2013</span><span>✓ 1,000+ floors</span><span>✓ 1-yr workmanship warranty</span><span>✓ Licensed &amp; insured</span><span>✓ Financing available</span>
     </div>
-    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
+    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04!important;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
   </div>
-</section></div>
+</div></div>
 
 <p><strong>Related reading:</strong> <a href="/blog/what-you-need-to-know-about-baseboards">Baseboards, explained</a> · <a href="/blog/drum-belt-orbital-sander-comparison">Drum, belt, and orbital sanders</a> · <a href="/blog/refinishing-occupied-home-room-by-room">Refinishing an occupied home</a> · <a href="/blog/dustless-vs-traditional-hardwood-floor-sanding">Dustless vs traditional sanding</a> · <a href="/contact">Book a free estimate</a></p>
 

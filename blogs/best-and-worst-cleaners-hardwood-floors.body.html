@@ -35,29 +35,37 @@ html body .post-body .ocb-fact p, .ocb-fact p{margin:0!important;font-size:14.7p
 html.ocb-anim-ready .ocb-rv{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
 html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 @media (prefers-reduced-motion:reduce){html.ocb-anim-ready .ocb-rv{opacity:1!important;transform:none!important;transition:none!important}.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:none}}
+
+/* Chip icons. Webflow's rich-text sanitizer strips inline <svg> whenever a post is
+   re-saved in the Editor, so the icons are drawn from CSS on a <span> instead. */
+.ocb-ic{display:inline-block;width:15px;height:15px;flex:0 0 auto;vertical-align:-2px;background-repeat:no-repeat;background-position:center;background-size:contain}
+.ocb-ic-pin{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z'/><circle cx='12' cy='10' r='3'/></svg>')}
+.ocb-ic-home{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z'/><polyline points='9 22 9 12 15 12 15 22'/></svg>')}
+.ocb-ic-phone{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z'/></svg>')}
+.ocb-cta .ocb-ic{filter:brightness(0) saturate(100%) invert(9%) sepia(64%) saturate(4000%) hue-rotate(348deg)}
 </style></div>
 
-<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 -6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">November 23, 2026</span></div></div>
+<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">November 23, 2026</span></div></div>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
+<div data-rt-embed-type='true'><div class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
   <span class="ocb-eyebrow">Quick answer</span>
   <p style="margin:0;font-size:17.9px;line-height:1.65"><strong>The best cleaner for a finished hardwood floor is a pH-neutral spray made specifically for hardwood — Bona’s and Pallmann’s house-brand cleaners are what we use and recommend — applied with a barely-damp microfiber pad.</strong> The worst are steam mops, vinegar, oil soaps, and anything with “polish,” “restore,” or “shine” on the label. That second list doesn’t just fail to clean; it either attacks the finish directly or leaves residue that can turn a $1.99/sq ft recoat into a $3.99/sq ft full sand down the road. Here’s the whole roster, with the chemistry behind each verdict.</p>
   <div class="ocb-chips">
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg> King &amp; Snohomish County</span>
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg> Floor care that protects the finish</span>
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-pin"></span> King &amp; Snohomish County</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-home"></span> Floor care that protects the finish</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-phone"></span> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
   </div>
-</section></div>
+</div></div>
 
 <p>Here’s the mental shift that makes every cleaning decision easy: you are never cleaning wood. On a finished floor, you’re cleaning a thin plastic film — polyurethane — that happens to have wood under it. Once you see it that way, the cleaner aisle sorts itself out. Anything that would damage or coat a plastic surface is wrong for your floor, no matter what the label says about hardwood, and no matter that your grandmother swore by it.</p>
 
 <p>We have a stake in this being understood, and we’ll admit it: a meaningful share of the refinishing work we do exists because of cleaning products. Floors dulled by years of vinegar, floors gummed with oil soap, floors wearing so many coats of acrylic “restorer” that new finish physically cannot stick to them. All preventable, all common. So this is the product guide we wish came stapled to every refinished floor.</p>
 
-<div data-rt-embed-type='true'><section class="ocb"><div class="ocb-facts">
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-facts">
   <div class="ocb-fact"><span class="n">pH ~7</span><p>the neutral chemistry your finish wants. Vinegar sits around pH 2–3 and ammonia near 11 — both ends of the scale slowly dull and etch polyurethane.</p></div>
   <div class="ocb-fact"><span class="n">$1.99/sq ft</span><p>a screen &amp; recoat — the cheap fix for a dulled finish. It only works on a residue-free floor, which is exactly what the wrong cleaners take away.</p></div>
   <div class="ocb-fact"><span class="n">7 days</span><p>full cure time for a fresh waterborne finish. During that window the rules tighten to a dry dust mop only — no liquids of any kind.</p></div>
-</div></section></div>
+</div></div></div>
 
 <h2>The Best: A Short List on Purpose</h2>
 
@@ -85,7 +93,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 
 <p>Grocery-store cleaners labeled “for hardwood” vary from decent pH-neutral formulas to glorified polish in disguise. The label test we teach: if it promises shine, restoration, or a protective layer, it’s depositing something and belongs on the no list. If it just promises to clean and lists no oils or waxes, it’s probably fine. When in doubt, the boring answer — the finish manufacturer’s own cleaner — is never wrong. It’s also what keeps our workmanship warranty intact on floors we’ve refinished, a detail covered in <a href="/blog/clean-refinished-hardwood-without-voiding-warranty">how to clean refinished hardwood without voiding the warranty</a>.</p>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-card">
+<div data-rt-embed-type='true'><div class="ocb ocb-card">
   <h3 style="margin:0 0 10px;font-size:18.5px;font-weight:900;color:#5c0000">The cleaner roster, graded</h3>
   <div style="overflow-x:auto"><table class="ocb-table">
     <tr><th>Product</th><th>Verdict</th><th>What it actually does</th></tr>
@@ -98,7 +106,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     <tr><td>Polish / restorer / shine products</td><td><strong>Never</strong></td><td>Acrylic build-up that blocks recoating — turns a $1.99 fix into a $3.99 one</td></tr>
     <tr><td>Steam mop</td><td><strong>Never</strong></td><td>Forces vapor through the finish; clouding, swelling, delamination</td></tr>
   </table></div>
-</section></div>
+</div></div>
 
 <h2>Been Using the Wrong One for Years? Here’s the Damage Report</h2>
 
@@ -107,7 +115,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 <p>The encouraging part: every one of these floors is fixable, and none of them is a reason for shame — the misinformation is genuinely everywhere, including on the product labels. It’s also worth knowing what professional “wood floor cleaning” services can and can’t do here: a deep-clean service removes grime, but it cannot un-etch a vinegar haze or bond new finish over polish, which is why we wrote an honest comparison of <a href="/blog/hardwood-refinishing-vs-floor-cleaning-services">refinishing versus floor cleaning services</a>. If your floor’s problem is in the finish rather than on it, cleaning of any kind is the wrong aisle — our crews handle that reset every week on <a href="/seattle/hardwood-floor-refinishing-in-seattle-wa">hardwood floor refinishing jobs across Seattle</a> and the Eastside.</p>
 
 <div data-rt-embed-type='true'><!-- FAQ accordion + JSON-LD -->
-<section class="faq-wrap ocb" aria-labelledby="faq-title">
+<div class="faq-wrap ocb" aria-labelledby="faq-title">
   <h2 id="faq-title" class="faq-title">Hardwood Cleaners: What Homeowners Ask Us</h2>
   <div class="faq-items" role="list">
     <details class="faq-item" role="listitem"><summary class="faq-q">What cleaner do you actually use on your own floors?</summary><div class="faq-a">Bona Hardwood Floor Cleaner on a microfiber pad, with regular vacuuming in between. We finish floors with Bona and Pallmann systems, and their cleaners are formulated to evaporate without leaving residue on those finishes. It is genuinely that boring, and that is the point.</div></details>
@@ -119,7 +127,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     <details class="faq-item" role="listitem"><summary class="faq-q">What should I clean with right after a refinish?</summary><div class="faq-a">For the first week: a dry dust mop only, nothing wet, while the finish cures. After the first week, ease into the normal routine with a pH-neutral hardwood cleaner. Rugs stay off for 7 days too — the finish under them needs the same air the rest of the floor gets.</div></details>
     <details class="faq-item" role="listitem"><summary class="faq-q">Can polish or wax build-up be removed without sanding?</summary><div class="faq-a">Sometimes. Light acrylic build-up can be stripped with dedicated removers and hard work, and we test a corner before quoting. Heavy or old build-up, and anything involving silicone, usually can't be removed reliably enough to trust a recoat over it — that's when a full sand becomes the honest recommendation.</div></details>
   </div>
-</section>
+</div>
 
 <style>
   .faq-wrap{--line:#e5e7eb;margin:28px auto;padding:20px;border:1px solid var(--line);border-radius:16px;background:#fff;box-shadow:0 8px 30px rgba(2,6,23,.06)}
@@ -136,7 +144,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What cleaner do you actually use on your own floors?", "acceptedAnswer": {"@type": "Answer", "text": "Bona Hardwood Floor Cleaner on a microfiber pad, with regular vacuuming in between. We finish floors with Bona and Pallmann systems, and their cleaners are formulated to evaporate without leaving residue on those finishes. It is genuinely that boring, and that is the point."}}, {"@type": "Question", "name": "Is vinegar really that bad? My family has always used it.", "acceptedAnswer": {"@type": "Answer", "text": "It's bad slowly, which is why the myth survives. Vinegar is acetic acid at roughly pH 2 to 3, and every mopping micro-etches the polyurethane a little. No single cleaning shows damage; three years of weekly cleanings leave a permanent haze that only recoating fixes. It also doesn't clean any better than a neutral product."}}, {"@type": "Question", "name": "Can I ever use a steam mop on sealed hardwood?", "acceptedAnswer": {"@type": "Answer", "text": "No. Sealed is not waterproof — finish has microscopic pores, and pressurized hot vapor gets through them into the wood. Finish manufacturers void warranties over steam mops, and so do we. The damage shows up as clouding, edge swelling, and eventually peeling finish, and the only fix is a full sand."}}, {"@type": "Question", "name": "What about Murphy's Oil Soap? The bottle says it's for wood.", "acceptedAnswer": {"@type": "Answer", "text": "It was designed for waxed wood floors, which mostly disappeared decades ago. On a polyurethane finish the oil can't penetrate, so it builds a soft film that streaks, grabs dirt, and interferes with any future recoat. If you've used it for years, mention it when you get a refinishing estimate — it changes the prep."}}, {"@type": "Question", "name": "My floor looks dull. Should I use a polish to bring back the shine?", "acceptedAnswer": {"@type": "Answer", "text": "No — dullness means the finish is worn or etched, and polish only buries the problem under soft acrylic that soon looks worse. The right fix is a screen and recoat at $1.99 per square foot, which puts down real finish. Polish build-up actually blocks that option and forces a $3.99 full sand instead."}}, {"@type": "Question", "name": "How often should I damp-mop?", "acceptedAnswer": {"@type": "Answer", "text": "Weekly for kitchens and busy households, every two weeks elsewhere — always after dust-mopping or vacuuming first, and always barely damp. Between moppings, a dry microfiber pass whenever you see grit. Cleaning more often than that with the right products does no harm; doing it with the wrong ones does."}}, {"@type": "Question", "name": "What should I clean with right after a refinish?", "acceptedAnswer": {"@type": "Answer", "text": "For the first week: a dry dust mop only, nothing wet, while the finish cures. After the first week, ease into the normal routine with a pH-neutral hardwood cleaner. Rugs stay off for 7 days too — the finish under them needs the same air the rest of the floor gets."}}, {"@type": "Question", "name": "Can polish or wax build-up be removed without sanding?", "acceptedAnswer": {"@type": "Answer", "text": "Sometimes. Light acrylic build-up can be stripped with dedicated removers and hard work, and we test a corner before quoting. Heavy or old build-up, and anything involving silicone, usually can't be removed reliably enough to trust a recoat over it — that's when a full sand becomes the honest recommendation."}}]}
 </script></div>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-cta" style="margin:30px 0">
+<div data-rt-embed-type='true'><div class="ocb ocb-cta" style="margin:30px 0">
   <style>
     html body .post-body .ocb-cta h2, .ocb-cta h2{color:#fff!important}
     html body .post-body .ocb-cta .ocb-cta-sub, .ocb-cta .ocb-cta-sub{color:rgba(255,255,255,.88)!important}
@@ -146,18 +154,18 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     html body .post-body .ocb-cta a.ocb-cta-phone, .ocb-cta a.ocb-cta-phone{color:#5c0000!important;text-decoration:none!important}
   </style>
   <div style="background:linear-gradient(135deg,#8B0000,#5c0000);border-radius:20px;padding:28px 24px;color:#fff;text-align:center;box-shadow:0 14px 34px rgba(92,0,0,.3)">
-    <h2 style="margin:0 0 6px;color:#fff;font-size:24px;font-weight:900">Dull Floor? Find Out If It’s the Cleaner or the Finish</h2>
-    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.85);font-size:16.3px">Bring us a photo or book a free assessment — we’ll tell you whether your floor needs a $1.99 recoat, a full refinish, or just a better bottle. Honest answers across King &amp; Snohomish County.</p>
+    <h2 style="margin:0 0 6px;color:#fff!important;font-size:24px;font-weight:900">Dull Floor? Find Out If It’s the Cleaner or the Finish</h2>
+    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.92)!important;font-size:16.3px">Bring us a photo or book a free assessment — we’ll tell you whether your floor needs a $1.99 recoat, a full refinish, or just a better bottle. Honest answers across King &amp; Snohomish County.</p>
     <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
-      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff;color:#5c0000;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> (425) 595-1079</a>
-      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.4);color:#fff;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none">Book My Free Consultation</a>
+      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff!important;color:#5c0000!important;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none!important"><span class="ocb-ic ocb-ic-phone"></span> (425) 595-1079</a>
+      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.16)!important;border:1px solid rgba(255,255,255,.55);color:#fff!important;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none!important">Book My Free Consultation</a>
     </div>
-    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.9)">
+    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.95)!important">
       <span>✓ Since 2013</span><span>✓ 1,000+ floors</span><span>✓ 1-yr workmanship warranty</span><span>✓ Licensed &amp; insured</span><span>✓ Financing available</span>
     </div>
-    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
+    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04!important;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
   </div>
-</section></div>
+</div></div>
 
 <p><strong>Related reading:</strong> <a href="/blog/clean-refinished-hardwood-without-voiding-warranty">Cleaning without voiding the warranty</a> · <a href="/blog/can-you-steam-clean-hardwood-floors">Why steam mops wreck finishes</a> · <a href="/blog/buff-and-coat-vs-full-sand-refinishing">Buff and coat vs full sand</a> · <a href="/blog/hardwood-refinishing-vs-floor-cleaning-services">Refinishing vs cleaning services</a> · <a href="/contact">Book a free estimate</a></p>
 

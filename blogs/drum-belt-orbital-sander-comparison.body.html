@@ -35,35 +35,43 @@ html body .post-body .ocb-fact p, .ocb-fact p{margin:0!important;font-size:14.7p
 html.ocb-anim-ready .ocb-rv{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
 html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 @media (prefers-reduced-motion:reduce){html.ocb-anim-ready .ocb-rv{opacity:1!important;transform:none!important;transition:none!important}.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:none}}
+
+/* Chip icons. Webflow's rich-text sanitizer strips inline <svg> whenever a post is
+   re-saved in the Editor, so the icons are drawn from CSS on a <span> instead. */
+.ocb-ic{display:inline-block;width:15px;height:15px;flex:0 0 auto;vertical-align:-2px;background-repeat:no-repeat;background-position:center;background-size:contain}
+.ocb-ic-pin{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z'/><circle cx='12' cy='10' r='3'/></svg>')}
+.ocb-ic-home{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z'/><polyline points='9 22 9 12 15 12 15 22'/></svg>')}
+.ocb-ic-phone{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z'/></svg>')}
+.ocb-cta .ocb-ic{filter:brightness(0) saturate(100%) invert(9%) sepia(64%) saturate(4000%) hue-rotate(348deg)}
 </style></div>
 
-<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 -6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">November 18, 2026</span></div></div>
+<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">November 18, 2026</span></div></div>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
+<div data-rt-embed-type='true'><div class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
   <span class="ocb-eyebrow">Quick answer</span>
   <p style="margin:0;font-size:17.9px;line-height:1.65"><strong>On a typical refinish we run three machines: a belt sander for the main cut, an edger for the perimeter, and a Lägler TRIO planetary sander for the final flattening pass — and the drum sander, the machine most people picture, is the one we don’t use, because it’s the machine that gouges floors.</strong> Drum, belt, and orbital aren’t three brands of the same thing; they’re three different cutting actions with different failure modes, and which ones your Everett contractor owns tells you a lot about the floor you’ll get. Here’s the honest tour of the equipment.</p>
   <div class="ocb-chips">
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg> King &amp; Snohomish County</span>
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg> Everett homes</span>
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-pin"></span> King &amp; Snohomish County</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-home"></span> Everett homes</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-phone"></span> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
   </div>
-</section></div>
+</div></div>
 
 <p>Nobody hires a flooring contractor because of their sander — until they’ve seen what the wrong sander does. Chatter marks that appear only in afternoon light, a dished stripe where a machine sat spinning, edger swirls haloing every wall: nearly all of the “can you fix what happened to my floor” calls we take trace back to equipment, or to technique the equipment demanded and didn’t get. So this is the article we wish homeowners could read before comparing bids: what each type of floor sander actually does, why the differences show up in your finish months later, and what we run on our own jobs.</p>
 
 <p>A note on words, because the industry is sloppy with them: people say “drum sander” for any big walk-behind machine. Strictly, a drum sander wraps a sheet of abrasive around a solid rotating drum; a belt sander runs a continuous abrasive loop over a roller system. They look similar from six feet away, and they cut very differently. That distinction is roughly half this article.</p>
 
-<div data-rt-embed-type='true'><section class="ocb"><div class="ocb-facts">
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-facts">
   <div class="ocb-fact"><span class="n">3 machines</span><p>on a typical refinish: a belt sander for the field, an edger for the perimeter, and the Lägler TRIO for the final flattening pass. No single machine does all three jobs well.</p></div>
   <div class="ocb-fact"><span class="n">36→100</span><p>a typical grit progression, coarse to fine, across multiple passes. Each grit erases the scratches of the one before — skipping grits is how finishes end up hazy.</p></div>
   <div class="ocb-fact"><span class="n">660</span><p>Janka hardness of the old-growth Douglas fir in Everett’s mill-era homes — soft enough that an aggressive drum machine can do a decade of damage in one pass.</p></div>
-</div></section></div>
+</div></div></div>
 
 <h2>The Three Machines, in Plain English</h2>
 
 <p><strong>Drum sanders</strong> are the blunt instrument: abrasive wrapped on a rigid, fast-spinning drum, cutting hard exactly where the drum touches. Enormous material removal, zero forgiveness — hesitate for one second and the drum digs a hollow you’ll see forever; a wave in your walking rhythm becomes a wave in the floor, called chatter. This is the machine rental shops carry. <strong>Belt sanders</strong> are the professional standard for the main cut: a continuous abrasive belt over a drive system, usually with better drive control and dust pickup. The action is smoother and more even than a drum’s, tracking is self-correcting, and stop marks are far harder to make. It still removes wood fast — it’s just governable. <strong>Orbital and planetary sanders</strong> cut with rotating pads instead of a spinning cylinder: slow removal, almost impossible to gouge. A rental orbital can’t realistically strip a worn floor — people run out of patience two hours into the first room — but as a <em>finishing</em> action, multi-head planetary machines are superb, which brings us to the TRIO.</p>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-card">
+<div data-rt-embed-type='true'><div class="ocb ocb-card">
   <h3 style="margin:0 0 10px;font-size:18.5px;font-weight:900;color:#5c0000">Drum vs belt vs orbital, side by side</h3>
   <div style="overflow-x:auto"><table class="ocb-table">
     <tr><th></th><th>Drum sander</th><th>Belt sander</th><th>Orbital / planetary</th></tr>
@@ -74,7 +82,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     <tr><td><strong>Best role</strong></td><td>Legacy tool; what rental shops stock</td><td>The main cut on a professional job</td><td>Final flattening and blending passes</td></tr>
     <tr><td><strong>Who runs one</strong></td><td>DIY renters, mostly</td><td>Professional crews</td><td>Professionals (TRIO) and cautious DIYers</td></tr>
   </table></div>
-</section></div>
+</div></div>
 
 <h2>Why Rental Drum Sanders Wreck Floors</h2>
 
@@ -92,7 +100,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 
 <p>Everett’s older housing — the mill-era stock near downtown and Riverside, and plenty of homes out toward Silver Lake — sits on some of the softest flooring we work: old-growth Douglas fir, Janka 660, roughly half the hardness of red oak’s 1290. On wood that soft, every equipment sin doubles. A drum machine that would leave faint chatter in oak leaves washboard in fir; an edger run a grit too coarse swirls it visibly; even a belt sander needs a lighter touch and a smarter grit ladder than oak demands. This is why we’re emphatic about machine choice in Everett specifically — the same crew, same machines, same habits that handle Bellevue oak can genuinely damage a Delta Neighborhood fir floor if nobody adjusts. Our guide to <a href="/blog/refinishing-fir-floors-old-seattle-homes">refinishing old fir floors</a> covers the species side, and our <a href="/city-of-everett/hardwood-floor-refinishing-in-everett-wa">hardwood floor refinishing in Everett</a> page has local pricing — $3.99/sq ft natural, same as everywhere we work.</p>
 
-<div data-rt-embed-type='true'><section class="ocb"><div class="ocb-2col">
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-2col">
   <div class="ocb-card" style="margin:0">
     <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#5c0000">Signs the equipment — and the crew — are right</h3>
     <ul class="ocb-check">
@@ -113,10 +121,10 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
       <li>Fresh gouge repairs described as “normal sanding marks”</li>
     </ul>
   </div>
-</div></section></div>
+</div></div></div>
 
 <div data-rt-embed-type='true'><!-- FAQ accordion + JSON-LD -->
-<section class="faq-wrap ocb" aria-labelledby="faq-title">
+<div class="faq-wrap ocb" aria-labelledby="faq-title">
   <h2 id="faq-title" class="faq-title">Floor Sanders: What Everett Homeowners Ask Us</h2>
   <div class="faq-items" role="list">
     <details class="faq-item" role="listitem"><summary class="faq-q">What's the actual difference between a drum sander and a belt sander?</summary><div class="faq-a">The abrasive mounting, which changes everything. A drum sander wraps a sheet of sandpaper around a rigid spinning drum — huge cutting force, zero forgiveness. A belt sander runs a continuous abrasive loop over rollers, which cuts more evenly, tracks straighter, and is far harder to gouge a floor with. Pros run belts; rental shops stock drums.</div></details>
@@ -128,7 +136,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     <details class="faq-item" role="listitem"><summary class="faq-q">Is sanding fir different from sanding oak?</summary><div class="faq-a">Meaningfully, yes. Old-growth fir runs about 660 on the Janka scale versus red oak's 1290 — roughly half the hardness — so every abrasive bites deeper and every equipment flaw shows larger. Fir wants sharper paper, finer entry grits, and a lighter machine touch. Crews that treat it like oak leave marks that crews that respect it don't.</div></details>
     <details class="faq-item" role="listitem"><summary class="faq-q">How much dust does professional sanding actually make?</summary><div class="faq-a">Far less than the horror stories — modern machines capture the overwhelming share of dust at the cut through vacuum systems. There's still fine dust in the work areas, which is why we offer full plastic containment with sealed doorways and protected HVAC returns at a flat $250. Between capture and containment, the rest of the house stays livable.</div></details>
   </div>
-</section>
+</div>
 
 <style>
   .faq-wrap{--line:#e5e7eb;margin:28px auto;padding:20px;border:1px solid var(--line);border-radius:16px;background:#fff;box-shadow:0 8px 30px rgba(2,6,23,.06)}
@@ -145,7 +153,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What's the actual difference between a drum sander and a belt sander?", "acceptedAnswer": {"@type": "Answer", "text": "The abrasive mounting, which changes everything. A drum sander wraps a sheet of sandpaper around a rigid spinning drum — huge cutting force, zero forgiveness. A belt sander runs a continuous abrasive loop over rollers, which cuts more evenly, tracks straighter, and is far harder to gouge a floor with. Pros run belts; rental shops stock drums."}}, {"@type": "Question", "name": "Can I refinish my own floor with a rented orbital sander?", "acceptedAnswer": {"@type": "Answer", "text": "You're unlikely to gouge anything — orbitals are nearly foolproof — but you're also unlikely to finish. Orbital removal is so slow that stripping a genuinely worn floor takes many times longer than renters expect, and old finish clogs pad after pad. They're fine for light scuff-sanding; as a full-refinish tool they mostly produce abandoned projects."}}, {"@type": "Question", "name": "What is a Lägler TRIO and why do you keep mentioning it?", "acceptedAnswer": {"@type": "Answer", "text": "It's a German planetary sander — three counter-rotating discs under a heavy machine — that we run as the final pass on our refinishes. It erases the directional scratch patterns the belt sander and edger leave and blends them into one flat, uniform surface. It's slow and undramatic, and it's a large part of why a finished floor looks even in hard light."}}, {"@type": "Question", "name": "What are chatter marks and can they be fixed?", "acceptedAnswer": {"@type": "Answer", "text": "Chatter is a repeating wave pattern cut into the floor by a machine vibrating or moving unevenly — drum sanders are the classic source. You often can't see it on raw wood; it appears once finish and low-angle light arrive. It's fixable by sanding past it, ideally with a planetary machine, but that spends wear thickness — prevention is much cheaper."}}, {"@type": "Question", "name": "Why does the grit sequence matter so much?", "acceptedAnswer": {"@type": "Answer", "text": "Because each grit's only job is to erase the scratches of the grit before it. Jump from 36 to 80 and the 36-grit scratches never get erased — they get polished, and finish magnifies them into permanent haze. A proper ladder takes more passes and more hours, which is exactly why it's one of the first corners a too-cheap bid cuts."}}, {"@type": "Question", "name": "Do you sand the edges with the same machine?", "acceptedAnswer": {"@type": "Answer", "text": "No — the big machines can't reach the last few inches at walls, so a separate edger handles the perimeter, run through matching grits. Blending edger work into the field is genuine craft; the halo of swirls around the room's edge on some floors is what it looks like when that blending got skipped. The TRIO pass helps unify the two zones."}}, {"@type": "Question", "name": "Is sanding fir different from sanding oak?", "acceptedAnswer": {"@type": "Answer", "text": "Meaningfully, yes. Old-growth fir runs about 660 on the Janka scale versus red oak's 1290 — roughly half the hardness — so every abrasive bites deeper and every equipment flaw shows larger. Fir wants sharper paper, finer entry grits, and a lighter machine touch. Crews that treat it like oak leave marks that crews that respect it don't."}}, {"@type": "Question", "name": "How much dust does professional sanding actually make?", "acceptedAnswer": {"@type": "Answer", "text": "Far less than the horror stories — modern machines capture the overwhelming share of dust at the cut through vacuum systems. There's still fine dust in the work areas, which is why we offer full plastic containment with sealed doorways and protected HVAC returns at a flat $250. Between capture and containment, the rest of the house stays livable."}}]}
 </script></div>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-cta" style="margin:30px 0">
+<div data-rt-embed-type='true'><div class="ocb ocb-cta" style="margin:30px 0">
   <style>
     html body .post-body .ocb-cta h2, .ocb-cta h2{color:#fff!important}
     html body .post-body .ocb-cta .ocb-cta-sub, .ocb-cta .ocb-cta-sub{color:rgba(255,255,255,.88)!important}
@@ -155,18 +163,18 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     html body .post-body .ocb-cta a.ocb-cta-phone, .ocb-cta a.ocb-cta-phone{color:#5c0000!important;text-decoration:none!important}
   </style>
   <div style="background:linear-gradient(135deg,#8B0000,#5c0000);border-radius:20px;padding:28px 24px;color:#fff;text-align:center;box-shadow:0 14px 34px rgba(92,0,0,.3)">
-    <h2 style="margin:0 0 6px;color:#fff;font-size:24px;font-weight:900">Want the Flat-Floor Version of Your Floor?</h2>
-    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.85);font-size:16.3px">Belt machine, matched edger work, and a TRIO finishing pass on every refinish — $3.99/sq ft natural, quoted free and in writing. Serving Everett and all of King &amp; Snohomish County.</p>
+    <h2 style="margin:0 0 6px;color:#fff!important;font-size:24px;font-weight:900">Want the Flat-Floor Version of Your Floor?</h2>
+    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.92)!important;font-size:16.3px">Belt machine, matched edger work, and a TRIO finishing pass on every refinish — $3.99/sq ft natural, quoted free and in writing. Serving Everett and all of King &amp; Snohomish County.</p>
     <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
-      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff;color:#5c0000;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> (425) 595-1079</a>
-      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.4);color:#fff;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none">Book My Free Consultation</a>
+      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff!important;color:#5c0000!important;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none!important"><span class="ocb-ic ocb-ic-phone"></span> (425) 595-1079</a>
+      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.16)!important;border:1px solid rgba(255,255,255,.55);color:#fff!important;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none!important">Book My Free Consultation</a>
     </div>
-    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.9)">
+    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.95)!important">
       <span>✓ Since 2013</span><span>✓ 1,000+ floors</span><span>✓ 1-yr workmanship warranty</span><span>✓ Licensed &amp; insured</span><span>✓ Financing available</span>
     </div>
-    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
+    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04!important;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
   </div>
-</section></div>
+</div></div>
 
 <p><strong>Related reading:</strong> <a href="/blog/trio-sanding-machine-for-flat-floors">The Lägler TRIO and why flat floors matter</a> · <a href="/blog/why-wood-floor-refinishing-is-not-a-diy-project">Why refinishing isn’t a DIY project</a> · <a href="/blog/dustless-vs-traditional-hardwood-floor-sanding">Dustless vs traditional sanding</a> · <a href="/city-of-everett/hardwood-floor-refinishing-in-everett-wa">Hardwood floor refinishing in Everett</a> · <a href="/contact">Book a free estimate</a></p>
 

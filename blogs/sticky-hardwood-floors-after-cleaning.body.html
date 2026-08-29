@@ -35,29 +35,37 @@ html body .post-body .ocb-fact p, .ocb-fact p{margin:0!important;font-size:14.7p
 html.ocb-anim-ready .ocb-rv{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
 html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 @media (prefers-reduced-motion:reduce){html.ocb-anim-ready .ocb-rv{opacity:1!important;transform:none!important;transition:none!important}.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:none}}
+
+/* Chip icons. Webflow's rich-text sanitizer strips inline <svg> whenever a post is
+   re-saved in the Editor, so the icons are drawn from CSS on a <span> instead. */
+.ocb-ic{display:inline-block;width:15px;height:15px;flex:0 0 auto;vertical-align:-2px;background-repeat:no-repeat;background-position:center;background-size:contain}
+.ocb-ic-pin{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z'/><circle cx='12' cy='10' r='3'/></svg>')}
+.ocb-ic-home{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z'/><polyline points='9 22 9 12 15 12 15 22'/></svg>')}
+.ocb-ic-phone{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z'/></svg>')}
+.ocb-cta .ocb-ic{filter:brightness(0) saturate(100%) invert(9%) sepia(64%) saturate(4000%) hue-rotate(348deg)}
 </style></div>
 
-<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 -6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">January 1, 2027</span></div></div>
+<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">January 1, 2027</span></div></div>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
+<div data-rt-embed-type='true'><div class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
   <span class="ocb-eyebrow">Quick answer</span>
   <p style="margin:0;font-size:17.9px;line-height:1.65"><strong>A hardwood floor that feels sticky after cleaning almost always has product residue sitting on top of the finish — usually a grocery-store polish or “restorer,” an oil soap, or cleaner used too strong — not dirt, and not a failing floor.</strong> The fix runs in order: strip the residue with the right cleaner, and if years of buildup won’t release, a $1.99/sq ft screen and recoat replaces the gummy layer with fresh finish. The one thing not to do is add more product — sticky floors are almost never under-cleaned. They’re over-treated.</p>
   <div class="ocb-chips">
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg> King &amp; Snohomish County</span>
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg> Everett homeowners</span>
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-pin"></span> King &amp; Snohomish County</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-home"></span> Everett homeowners</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-phone"></span> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
   </div>
-</section></div>
+</div></div>
 
 <p>The call usually starts the same way: “I just mopped, and the floor is <em>worse</em> — it grabs your socks, there are streaks everywhere, and the dog’s paw prints show up an hour after cleaning.” Then the homeowner cleans it again, with a little more product this time, and the floor gets stickier still. By the time we’re asked to look, there’s often a visible haze in the light from the window and a texture like a lightly used lint roller.</p>
 
 <p>Here’s the reassuring part: in almost every case, nothing is wrong with the floor. Polyurethane finish — what’s actually on top of nearly every refinished hardwood floor — dries hard and slick and does not get sticky on its own. What gets sticky is what’s been put on it. This post is the diagnosis flowchart we run in Everett living rooms: what causes the stick, how to tell which cause is yours, and the fix ladder from a proper cleaning all the way up to a recoat.</p>
 
-<div data-rt-embed-type='true'><section class="ocb"><div class="ocb-facts">
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-facts">
   <div class="ocb-fact"><span class="n">0</span><p>the number of polishes, restorers, oil soaps, or waxes a modern waterborne finish needs — ever. Nearly every sticky floor we visit got that way from a product it never needed in the first place.</p></div>
   <div class="ocb-fact"><span class="n">$1.99</span><p>per square foot for a screen and recoat — the definitive fix when buildup is too thick or too old to strip, replacing the gummy layer with fresh commercial finish in a single day.</p></div>
   <div class="ocb-fact"><span class="n">7 days</span><p>full cure time for the waterborne finishes we use. A freshly recoated floor needs nothing but dry dusting and an occasionally damp — not wet — mop with a hardwood cleaner. That’s the whole routine, forever.</p></div>
-</div></section></div>
+</div></div></div>
 
 <h2>Suspect #1: Polish and “Restorer” Buildup</h2>
 
@@ -71,7 +79,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 
 <p>Then there’s ordinary cleaner used extraordinarily: concentrate mixed strong because the floor “needed it,” no-rinse products applied so heavily they leave their own surfactant film, or dirty mop water pushed around until the floor is a thin mud of dissolved soil and soap. Each pass leaves a little more residue, and residue is sticky. Steam mops deserve their own line: heat and pressure drive moisture and dissolved residue into finish seams, dull the sheen, and void most finish warranties — we’ve covered <a href="/blog/can-you-steam-clean-hardwood-floors">why steam and hardwood don’t mix</a> at length. If your cleaning routine involves any of the above, the good news is the fix may be as simple as changing the routine.</p>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-card">
+<div data-rt-embed-type='true'><div class="ocb ocb-card">
   <h3 style="margin:0 0 10px;font-size:18.5px;font-weight:900;color:#5c0000">Sticky floor diagnosis: symptom → cause → fix</h3>
   <div style="overflow-x:auto"><table class="ocb-table">
     <tr><th>What you notice</th><th>Most likely cause</th><th>The fix</th></tr>
@@ -82,7 +90,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     <tr><td>Tacky years after a refinish, finish soft</td><td>Finish failure or contamination at application</td><td>Professional assessment — often re-sand</td></tr>
     <tr><td>Gummy near kitchen only</td><td>Airborne cooking grease settling</td><td>Degrease with hardwood-safe cleaner; add vent use</td></tr>
   </table></div>
-</section></div>
+</div></div>
 
 <h2>How to Tell What’s on Your Floor</h2>
 
@@ -107,7 +115,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 <p>Rentals deserve a special mention, because Everett has plenty: every tenant brings their own cleaning products, so between-tenant turnovers are where buildup gets discovered. A test-clean corner takes ten minutes and tells you whether you’re shopping for a cleaner or a contractor. When it’s the contractor, <a href="/city-of-everett/hardwood-floor-refinishing-in-everett-wa">hardwood floor refinishing in Everett</a> is a large share of what we do — and we’re happy to look at a sticky floor and tell you it just needs a better mop. It happens weekly.</p>
 
 <div data-rt-embed-type='true'><!-- FAQ accordion + JSON-LD -->
-<section class="faq-wrap ocb" aria-labelledby="faq-title">
+<div class="faq-wrap ocb" aria-labelledby="faq-title">
   <h2 id="faq-title" class="faq-title">Sticky Hardwood Floors: What Everett Homeowners Ask</h2>
   <div class="faq-items" role="list">
     <details class="faq-item" role="listitem"><summary class="faq-q">Why is my hardwood floor sticky after I mop it?</summary><div class="faq-a">Because something is being left behind — most often acrylic floor polish or restorer buildup, oil soap film on a polyurethane finish, or cleaner mixed too strong. Polyurethane itself doesn’t get sticky; residue on top of it does. The fix starts with changing products, not scrubbing harder.</div></details>
@@ -120,7 +128,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     <details class="faq-item" role="listitem"><summary class="faq-q">The floor is sticky and dull in the traffic lanes — is that still residue?</summary><div class="faq-a">Partly, but dull traffic lanes usually mean the finish itself is wearing. That combination is the classic screen-and-recoat signal: one day, $1.99/sq ft, and both problems — the residue and the worn surface — leave together. Wait until bare wood shows and you’re into full-refinish territory instead.</div></details>
     <details class="faq-item" role="listitem"><summary class="faq-q">My floor was just refinished and it feels tacky — is that normal?</summary><div class="faq-a">For the first days, mild tack is part of curing — waterborne finishes take sock traffic the same evening but need about 7 days to fully cure. Tackiness that persists for weeks isn’t normal; it suggests thick application or contamination, and it’s a call back to your contractor, not a cleaning problem.</div></details>
   </div>
-</section>
+</div>
 
 <style>
   .faq-wrap{--line:#e5e7eb;margin:28px auto;padding:20px;border:1px solid var(--line);border-radius:16px;background:#fff;box-shadow:0 8px 30px rgba(2,6,23,.06)}
@@ -137,7 +145,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Why is my hardwood floor sticky after I mop it?", "acceptedAnswer": {"@type": "Answer", "text": "Because something is being left behind — most often acrylic floor polish or restorer buildup, oil soap film on a polyurethane finish, or cleaner mixed too strong. Polyurethane itself doesn’t get sticky; residue on top of it does. The fix starts with changing products, not scrubbing harder."}}, {"@type": "Question", "name": "Is the stickiness damaging my floor?", "acceptedAnswer": {"@type": "Answer", "text": "Not directly — the residue sits on the finish, not the wood. But buildup hides the finish’s true condition, makes floors streaky and slippery, and will block any future recoat from bonding until it’s removed. It’s worth dealing with before it gets thick."}}, {"@type": "Question", "name": "How do I know if it’s polish buildup?", "acceptedAnswer": {"@type": "Answer", "text": "Try a fingernail or plastic scraper in a hidden spot: acrylic buildup flakes or peels as a soft whitish layer. A drop of water left for a minute that dries cloudy points the same direction. Real polyurethane finish resists a fingernail and wipes clear."}}, {"@type": "Question", "name": "How do I remove polish or restorer buildup?", "acceptedAnswer": {"@type": "Answer", "text": "With a dedicated polish and wax remover, worked in small sections with microfiber, sometimes in several passes. It dissolves the acrylic without harming the polyurethane beneath. For heavy, years-deep buildup, a screen and recoat is often faster and gives you a brand-new wear surface for $1.99/sq ft."}}, {"@type": "Question", "name": "Can I just mop the stickiness away with vinegar?", "acceptedAnswer": {"@type": "Answer", "text": "Vinegar cuts some soap film but won’t touch acrylic polish, and routine vinegar mopping dulls finish over time. A proper hardwood cleaner at the right dilution, with fresh pads and clean water, is both safer and more effective. Save vinegar for the windows."}}, {"@type": "Question", "name": "Are steam mops okay for getting residue off?", "acceptedAnswer": {"@type": "Answer", "text": "No. Steam drives heat and moisture into finish seams and the wood below, dulls sheen, and voids most finish warranties. It can temporarily smear residue into looking cleaner while making the underlying situation worse."}}, {"@type": "Question", "name": "What should my normal cleaning routine be?", "acceptedAnswer": {"@type": "Answer", "text": "Dry dusting or vacuuming for grit, plus an occasionally damp — never wet — microfiber mop with a hardwood-specific cleaner at label dilution. No polish, no oil soap, no wax, no restorer. A properly finished floor needs nothing else for years."}}, {"@type": "Question", "name": "The floor is sticky and dull in the traffic lanes — is that still residue?", "acceptedAnswer": {"@type": "Answer", "text": "Partly, but dull traffic lanes usually mean the finish itself is wearing. That combination is the classic screen-and-recoat signal: one day, $1.99/sq ft, and both problems — the residue and the worn surface — leave together. Wait until bare wood shows and you’re into full-refinish territory instead."}}, {"@type": "Question", "name": "My floor was just refinished and it feels tacky — is that normal?", "acceptedAnswer": {"@type": "Answer", "text": "For the first days, mild tack is part of curing — waterborne finishes take sock traffic the same evening but need about 7 days to fully cure. Tackiness that persists for weeks isn’t normal; it suggests thick application or contamination, and it’s a call back to your contractor, not a cleaning problem."}}]}
 </script></div>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-cta" style="margin:30px 0">
+<div data-rt-embed-type='true'><div class="ocb ocb-cta" style="margin:30px 0">
   <style>
     html body .post-body .ocb-cta h2, .ocb-cta h2{color:#fff!important}
     html body .post-body .ocb-cta .ocb-cta-sub, .ocb-cta .ocb-cta-sub{color:rgba(255,255,255,.88)!important}
@@ -147,18 +155,18 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     html body .post-body .ocb-cta a.ocb-cta-phone, .ocb-cta a.ocb-cta-phone{color:#5c0000!important;text-decoration:none!important}
   </style>
   <div style="background:linear-gradient(135deg,#8B0000,#5c0000);border-radius:20px;padding:28px 24px;color:#fff;text-align:center;box-shadow:0 14px 34px rgba(92,0,0,.3)">
-    <h2 style="margin:0 0 6px;color:#fff;font-size:24px;font-weight:900">Sticky Floor? Get a Straight Diagnosis</h2>
-    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.85);font-size:16.3px">Send photos or book a free look. If it’s a cleaning problem, we’ll tell you the products to use and leave. If it’s a recoat or refinish, you’ll get the price per square foot in writing. Everett and all of King &amp; Snohomish County.</p>
+    <h2 style="margin:0 0 6px;color:#fff!important;font-size:24px;font-weight:900">Sticky Floor? Get a Straight Diagnosis</h2>
+    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.92)!important;font-size:16.3px">Send photos or book a free look. If it’s a cleaning problem, we’ll tell you the products to use and leave. If it’s a recoat or refinish, you’ll get the price per square foot in writing. Everett and all of King &amp; Snohomish County.</p>
     <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
-      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff;color:#5c0000;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> (425) 595-1079</a>
-      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.4);color:#fff;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none">Book My Free Consultation</a>
+      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff!important;color:#5c0000!important;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none!important"><span class="ocb-ic ocb-ic-phone"></span> (425) 595-1079</a>
+      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.16)!important;border:1px solid rgba(255,255,255,.55);color:#fff!important;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none!important">Book My Free Consultation</a>
     </div>
-    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.9)">
+    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.95)!important">
       <span>✓ Since 2013</span><span>✓ 1,000+ floors</span><span>✓ 1-yr workmanship warranty</span><span>✓ Licensed &amp; insured</span><span>✓ Financing available</span>
     </div>
-    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
+    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04!important;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
   </div>
-</section></div>
+</div></div>
 
 <p><strong>Related reading:</strong> <a href="/blog/best-and-worst-cleaners-hardwood-floors">Best and worst hardwood floor cleaners</a> · <a href="/blog/clean-refinished-hardwood-without-voiding-warranty">Cleaning without voiding your warranty</a> · <a href="/blog/hardwood-refinishing-vs-floor-cleaning-services">Refinishing vs floor cleaning services</a> · <a href="/city-of-everett/hardwood-floor-refinishing-in-everett-wa">Hardwood floor refinishing in Everett</a> · <a href="/contact">Book a free estimate</a></p>
 

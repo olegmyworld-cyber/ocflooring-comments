@@ -35,29 +35,37 @@ html body .post-body .ocb-fact p, .ocb-fact p{margin:0!important;font-size:14.7p
 html.ocb-anim-ready .ocb-rv{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
 html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 @media (prefers-reduced-motion:reduce){html.ocb-anim-ready .ocb-rv{opacity:1!important;transform:none!important;transition:none!important}.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:none}}
+
+/* Chip icons. Webflow's rich-text sanitizer strips inline <svg> whenever a post is
+   re-saved in the Editor, so the icons are drawn from CSS on a <span> instead. */
+.ocb-ic{display:inline-block;width:15px;height:15px;flex:0 0 auto;vertical-align:-2px;background-repeat:no-repeat;background-position:center;background-size:contain}
+.ocb-ic-pin{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z'/><circle cx='12' cy='10' r='3'/></svg>')}
+.ocb-ic-home{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z'/><polyline points='9 22 9 12 15 12 15 22'/></svg>')}
+.ocb-ic-phone{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z'/></svg>')}
+.ocb-cta .ocb-ic{filter:brightness(0) saturate(100%) invert(9%) sepia(64%) saturate(4000%) hue-rotate(348deg)}
 </style></div>
 
-<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 -6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">January 22, 2027</span></div></div>
+<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">January 22, 2027</span></div></div>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
+<div data-rt-embed-type='true'><div class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
   <span class="ocb-eyebrow">Quick answer</span>
   <p style="margin:0;font-size:17.9px;line-height:1.65"><strong>Yes, a floor refinish fits inside a typical Kirkland escrow — a full sand and finish takes 3–5 working days plus 48–72 hours before furniture, and a screen &amp; recoat takes one day — but only if it’s scheduled the week the contract is signed, not the week before closing.</strong> The three timelines that work: seller does the floors during the inspection-response window (house still occupied — hard, but doable room by room), the work happens after the seller moves out and before closing (clean and low-stress), or the buyer does it between closing and move-in — the golden window, and the one we recommend whenever the choice exists. What doesn’t work is “can you start Thursday, we close Monday.” Sometimes we can. Don’t plan on it.</p>
   <div class="ocb-chips">
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg> King &amp; Snohomish County</span>
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg> Kirkland sale deadlines</span>
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-pin"></span> King &amp; Snohomish County</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-home"></span> Kirkland sale deadlines</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-phone"></span> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
   </div>
-</section></div>
+</div></div>
 
 <p>Real-estate deadlines are the least forgiving deadlines we work with. A kitchen remodel that slips a week annoys a family; a floor refinish that isn’t cured when the moving truck arrives, or isn’t done when the appraiser walks through, costs actual money and sometimes actual deals. And in Kirkland — where houses still go pending in days and escrows run lean — we regularly get the call that starts, “so we’re under contract, and…”</p>
 
 <p>Good news: we’ve choreographed this dance many times, from both sides of the transaction. Here’s the honest math on what fits where, the three scheduling patterns that work, and the mistakes that turn a routine refinish into a closing-week emergency. If you’re still deciding whether to refinish before listing at all, that’s a different question with its own economics — we covered it in <a href="/blog/refinish-floors-before-listing-home">refinishing before you list</a>. This post assumes the deal is already in motion.</p>
 
-<div data-rt-embed-type='true'><section class="ocb"><div class="ocb-facts">
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-facts">
   <div class="ocb-fact"><span class="n">3–5 days</span><p>of work for a full sand and refinish, plus 48–72 hours before furniture goes back. Add a weekend of margin and the honest planning number is about a week and a half.</p></div>
   <div class="ocb-fact"><span class="n">1 day</span><p>for a screen &amp; recoat at $1.99/sq ft — the escrow-friendly option when floors are dull but not damaged. Walkable in socks that evening.</p></div>
   <div class="ocb-fact"><span class="n">7 days</span><p>before rugs go down on a fresh waterborne finish. If the stagers or the movers arrive before day seven, the rugs wait — that rule doesn’t negotiate.</p></div>
-</div></section></div>
+</div></div></div>
 
 <h2>The Real Timeline, Working Backward From a Date</h2>
 
@@ -85,7 +93,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 
 <p>Kirkland transactions have a particular shape: competitive offers, short contingency windows, and buyers who’ve toured enough remodeled homes near the waterfront to know exactly what refinished white oak should look like. The housing stock plays along — the Juanita and Norkirk ramblers and the older lake cottages carry original oak and fir that transforms dramatically for the money, which is why floors show up in so many inspection responses here. Two local notes worth planning around. First, access and parking around downtown Kirkland and the lake streets can constrain equipment days; we scout that at the estimate so it never surprises the schedule. Second, the market’s pace cuts both ways: it created your deadline, but it also rewards the work — refinished floors photograph beautifully against Kirkland list prices, a return we quantified in <a href="/blog/does-refinishing-wood-floors-increase-home-value-in-kirkland-wa">whether refinishing increases home value in Kirkland</a>. When the contract clock is ticking, tell us the closing date on the first call to <a href="/city-of-kirkland/hardwood-floor-refinishing-in-kirkland-wa">our Kirkland refinishing team</a> — we build the schedule backward from your deadline and tell you plainly whether it fits.</p>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-card">
+<div data-rt-embed-type='true'><div class="ocb ocb-card">
   <h3 style="margin:0 0 10px;font-size:18.5px;font-weight:900;color:#5c0000">What fits in your window</h3>
   <div style="overflow-x:auto"><table class="ocb-table">
     <tr><th>Days you have (before the immovable date)</th><th>What fits honestly</th><th>Notes</th></tr>
@@ -95,10 +103,10 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     <tr><td>14+ days</td><td>Refinish + repairs, stairs ($55–$75/tread), room-by-room occupied work</td><td>Everything is calm at two weeks</td></tr>
     <tr><td>Rugs & staging</td><td>Day 7 after final coat, not sooner</td><td>Furniture on felt pads at 48–72h</td></tr>
   </table></div>
-</section></div>
+</div></div>
 
 <div data-rt-embed-type='true'><!-- FAQ accordion + JSON-LD -->
-<section class="faq-wrap ocb" aria-labelledby="faq-title">
+<div class="faq-wrap ocb" aria-labelledby="faq-title">
   <h2 id="faq-title" class="faq-title">Refinishing on a Sale Deadline: What Clients Ask Us</h2>
   <div class="faq-items" role="list">
     <details class="faq-item" role="listitem"><summary class="faq-q">Can you refinish floors while we're under contract on the sale?</summary><div class="faq-a">Yes — it's one of the most common jobs we do. A full refinish needs 3 to 5 working days plus 48 to 72 hours before furniture; a screen and recoat needs one day. The requirement is calling early: we're typically booked one to three weeks out, so the schedule works when it's built the week the contract is signed.</div></details>
@@ -111,7 +119,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     <details class="faq-item" role="listitem"><summary class="faq-q">Will the house smell like finish at the final walkthrough?</summary><div class="faq-a">Barely, with the systems we use — our waterborne finishes run around 65 g/L VOC versus 450-plus for traditional oil poly, and the light odor fades within a day or two. We still recommend finishing the coating at least two or three days before a walkthrough, because 'faint and explainable' is worse than 'nothing at all.'</div></details>
     <details class="faq-item" role="listitem"><summary class="faq-q">Can you coordinate directly with our agent?</summary><div class="faq-a">Yes, and it usually helps — agents think in the same backward-from-closing logic we do. We'll confirm scope and dates in writing so the inspection-response paperwork can reference a real schedule from a licensed, insured contractor, and we've been keeping those dates since 2013.</div></details>
   </div>
-</section>
+</div>
 
 <style>
   .faq-wrap{--line:#e5e7eb;margin:28px auto;padding:20px;border:1px solid var(--line);border-radius:16px;background:#fff;box-shadow:0 8px 30px rgba(2,6,23,.06)}
@@ -128,7 +136,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Can you refinish floors while we're under contract on the sale?", "acceptedAnswer": {"@type": "Answer", "text": "Yes — it's one of the most common jobs we do. A full refinish needs 3 to 5 working days plus 48 to 72 hours before furniture; a screen and recoat needs one day. The requirement is calling early: we're typically booked one to three weeks out, so the schedule works when it's built the week the contract is signed."}}, {"@type": "Question", "name": "How close to closing can the work realistically happen?", "acceptedAnswer": {"@type": "Answer", "text": "The final coat should be down at least three days before anyone important walks through — appraiser, photographer, or buyer's final walkthrough. Counting backward, a full refinish should start no later than eight to ten days before closing. A one-day recoat can run later, but even that deserves a buffer day."}}, {"@type": "Question", "name": "We're buyers. Should we refinish before or after moving in?", "acceptedAnswer": {"@type": "Answer", "text": "Before, without question, in the window between closing and move-in. The house is empty, the finish cures undisturbed, there are no furniture moves to pay for, and the job runs its fastest. Push the moving truck back one week and the whole project fits inside it."}}, {"@type": "Question", "name": "The inspection response gives us three weeks. Is that enough?", "acceptedAnswer": {"@type": "Answer", "text": "Usually, yes — if scheduling starts now. Three weeks accommodates our booking lead time plus a full refinish with margin, even in an occupied house done room by room. What three weeks does not accommodate is two weeks of deciding followed by one week of hoping."}}, {"@type": "Question", "name": "Is a screen and recoat enough to satisfy a buyer or inspector?", "acceptedAnswer": {"@type": "Answer", "text": "If the floors are dull and finish-worn rather than damaged to bare wood, yes — a recoat restores uniform sheen and erases light scratching, which is what photographs and walkthroughs actually show. If there are gray traffic lanes, water marks, or exposed wood, only a full sand fixes it, and an inspector can tell the difference."}}, {"@type": "Question", "name": "What happens if closing slips after we've scheduled the refinish?", "acceptedAnswer": {"@type": "Answer", "text": "In an empty house, usually nothing dramatic — we adjust the start date. This is one more argument for doing the work in the vacant window rather than wedging it against the move: an empty-house job reschedules gracefully; a job coordinated with movers and stagers does not."}}, {"@type": "Question", "name": "When can stagers put rugs down on the new finish?", "acceptedAnswer": {"@type": "Answer", "text": "Seven days after the final coat — the waterborne finish needs that week to cure, and rugs laid early can leave permanent sheen differences. Furniture on felt pads can come back at 48 to 72 hours. Build the staging date from the final-coat date, not the start date."}}, {"@type": "Question", "name": "Will the house smell like finish at the final walkthrough?", "acceptedAnswer": {"@type": "Answer", "text": "Barely, with the systems we use — our waterborne finishes run around 65 g/L VOC versus 450-plus for traditional oil poly, and the light odor fades within a day or two. We still recommend finishing the coating at least two or three days before a walkthrough, because 'faint and explainable' is worse than 'nothing at all.'"}}, {"@type": "Question", "name": "Can you coordinate directly with our agent?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, and it usually helps — agents think in the same backward-from-closing logic we do. We'll confirm scope and dates in writing so the inspection-response paperwork can reference a real schedule from a licensed, insured contractor, and we've been keeping those dates since 2013."}}]}
 </script></div>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-cta" style="margin:30px 0">
+<div data-rt-embed-type='true'><div class="ocb ocb-cta" style="margin:30px 0">
   <style>
     html body .post-body .ocb-cta h2, .ocb-cta h2{color:#fff!important}
     html body .post-body .ocb-cta .ocb-cta-sub, .ocb-cta .ocb-cta-sub{color:rgba(255,255,255,.88)!important}
@@ -138,18 +146,18 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     html body .post-body .ocb-cta a.ocb-cta-phone, .ocb-cta a.ocb-cta-phone{color:#5c0000!important;text-decoration:none!important}
   </style>
   <div style="background:linear-gradient(135deg,#8B0000,#5c0000);border-radius:20px;padding:28px 24px;color:#fff;text-align:center;box-shadow:0 14px 34px rgba(92,0,0,.3)">
-    <h2 style="margin:0 0 6px;color:#fff;font-size:24px;font-weight:900">Under Contract and the Clock Is Running?</h2>
-    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.85);font-size:16.3px">Tell us the closing date and we’ll build the floor schedule backward from it — and tell you honestly whether it fits. Fast, written estimates across Kirkland and all of King &amp; Snohomish County.</p>
+    <h2 style="margin:0 0 6px;color:#fff!important;font-size:24px;font-weight:900">Under Contract and the Clock Is Running?</h2>
+    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.92)!important;font-size:16.3px">Tell us the closing date and we’ll build the floor schedule backward from it — and tell you honestly whether it fits. Fast, written estimates across Kirkland and all of King &amp; Snohomish County.</p>
     <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
-      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff;color:#5c0000;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> (425) 595-1079</a>
-      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.4);color:#fff;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none">Book My Free Consultation</a>
+      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff!important;color:#5c0000!important;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none!important"><span class="ocb-ic ocb-ic-phone"></span> (425) 595-1079</a>
+      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.16)!important;border:1px solid rgba(255,255,255,.55);color:#fff!important;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none!important">Book My Free Consultation</a>
     </div>
-    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.9)">
+    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.95)!important">
       <span>✓ Since 2013</span><span>✓ 1,000+ floors</span><span>✓ 1-yr workmanship warranty</span><span>✓ Licensed &amp; insured</span><span>✓ Financing available</span>
     </div>
-    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
+    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04!important;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
   </div>
-</section></div>
+</div></div>
 
 <p><strong>Related reading:</strong> <a href="/blog/refinish-floors-before-listing-home">Refinishing before you list</a> · <a href="/blog/cheapest-floor-upgrade-buyer-inspection">The cheapest floor upgrade before an inspection</a> · <a href="/blog/staging-on-newly-refinished-floors">Staging on newly refinished floors</a> · <a href="/city-of-kirkland/hardwood-floor-refinishing-in-kirkland-wa">Hardwood floor refinishing in Kirkland</a> · <a href="/contact">Book a free estimate</a></p>
 

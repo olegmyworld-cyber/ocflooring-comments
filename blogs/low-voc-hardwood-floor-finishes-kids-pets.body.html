@@ -35,27 +35,35 @@ html body .post-body .ocb-fact p, .ocb-fact p{margin:0!important;font-size:14.7p
 html.ocb-anim-ready .ocb-rv{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
 html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 @media (prefers-reduced-motion:reduce){html.ocb-anim-ready .ocb-rv{opacity:1!important;transform:none!important;transition:none!important}.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:none}}
+
+/* Chip icons. Webflow's rich-text sanitizer strips inline <svg> whenever a post is
+   re-saved in the Editor, so the icons are drawn from CSS on a <span> instead. */
+.ocb-ic{display:inline-block;width:15px;height:15px;flex:0 0 auto;vertical-align:-2px;background-repeat:no-repeat;background-position:center;background-size:contain}
+.ocb-ic-pin{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z'/><circle cx='12' cy='10' r='3'/></svg>')}
+.ocb-ic-home{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z'/><polyline points='9 22 9 12 15 12 15 22'/></svg>')}
+.ocb-ic-phone{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z'/></svg>')}
+.ocb-cta .ocb-ic{filter:brightness(0) saturate(100%) invert(9%) sepia(64%) saturate(4000%) hue-rotate(348deg)}
 </style></div>
 
-<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 -6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">August 28, 2026</span></div></div>
+<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">August 28, 2026</span></div></div>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
+<div data-rt-embed-type='true'><div class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
   <span class="ocb-eyebrow">Quick answer</span>
   <p style="margin:0;font-size:17.9px;line-height:1.65"><strong>Yes, you can refinish hardwood floors with kids and pets in the house — Everett families do it with us every month — if the contractor uses a low-VOC waterborne system. The finishes we run carry roughly 65–150 g/L of volatile compounds versus ~500 for old-school oil poly, the strong smell is gone in hours instead of weeks, and most families sleep at home the same night a coat goes down.</strong> The exceptions worth planning around: crawling babies, anyone with reactive asthma, and pet birds — give those 24–48 hours away from the freshly coated rooms. Here’s how the whole thing actually works.</p>
   <div class="ocb-chips">
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg> King &amp; Snohomish County</span>
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg> Everett &amp; Snohomish County families</span>
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-pin"></span> King &amp; Snohomish County</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-home"></span> Everett &amp; Snohomish County families</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-phone"></span> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
   </div>
-</section></div>
+</div></div>
 
 <p>The question behind this question is usually asked while holding a toddler: “is this going to be safe for them?” Fair question — refinishing has a reputation built in the oil-poly decades, when a refinish meant a week of paint-store fumes and grandma’s guest room. That reputation is out of date, but not equally out of date across all contractors: what’s in the bucket still ranges from genuinely kid-benign to genuinely evacuate-the-house. This guide explains what the VOC numbers mean, which finishes to ask for by name, who in the household needs extra caution, and the honest timeline for getting your floor — and your living room — back.</p>
 
-<div data-rt-embed-type='true'><section class="ocb"><div class="ocb-facts">
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-facts">
   <div class="ocb-fact"><span class="n">~65 g/L</span><p>VOC content of Bona Traffic HD, the finish on most floors we coat — versus roughly 450–550 g/L in solvent-borne oil-modified polyurethane. Lower number, dramatically less to off-gas into your air.</p></div>
   <div class="ocb-fact"><span class="n">24 hrs</span><p>our rule for crawlers, asthmatics, and pet birds: out of the freshly coated rooms for a day, then back to normal life. Everyone else is usually home the same evening, in socks.</p></div>
   <div class="ocb-fact"><span class="n">$250</span><p>adds full dust containment — sealed barriers and negative air. For allergy households, dust control matters as much as finish chemistry, and it’s a line item, not a mystery.</p></div>
-</div></section></div>
+</div></div></div>
 
 <h2>What “Low-VOC” Actually Means on the Bucket</h2>
 
@@ -67,7 +75,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 
 <p>This is the schedule we actually give families on waterborne systems. Hours count from the final coat going down.</p>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-card">
+<div data-rt-embed-type='true'><div class="ocb ocb-card">
   <div style="overflow-x:auto"><table class="ocb-table">
     <tr><th>Household member</th><th>Back in the coated rooms</th><th>Notes</th></tr>
     <tr><td><strong>Adults &amp; older kids</strong></td><td>Same evening, socks only</td><td>Shoes and furniture at 48–72 hours</td></tr>
@@ -77,7 +85,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     <tr><td><strong>Pet birds</strong></td><td>48 hours minimum, farthest room or off-site</td><td>Birds have famously delicate respiratory systems — treat them like the canaries they are</td></tr>
     <tr><td><strong>Rugs, pet beds &amp; toy bins</strong></td><td>7 days</td><td>The finish needs open air to finish curing</td></tr>
   </table></div>
-</section></div>
+</div></div>
 
 <h2>The Pet Part Nobody Warns You About: Claws, Not Fumes</h2>
 
@@ -93,7 +101,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 
 <h2>The Estimate-Day Checklist</h2>
 
-<div data-rt-embed-type='true'><section class="ocb"><div class="ocb-2col">
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-2col">
   <div class="ocb-card" style="margin:0">
     <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#5c0000">Ask your contractor for…</h3>
     <ul class="ocb-check">
@@ -114,14 +122,14 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
       <li>Solvent-borne finish proposed with a baby in the house, without ever mentioning an alternative</li>
     </ul>
   </div>
-</div></section></div>
+</div></div></div>
 
 <h2>An Everett Note on Timing</h2>
 
 <p>Waterborne systems cure best with a bit of airflow and normal indoor heat, both easy to provide year-round here — we refinish occupied family homes straight through the school year across <a href="/city-of-everett/hardwood-floor-refinishing-in-everett-wa">Everett</a>, <a href="/city-of-lynnwood/hardwood-floor-refinishing-in-lynnwood-wa">Lynnwood</a>, <a href="/city-of-mill-creek/hardwood-floor-refinishing-in-mill-creek-wa">Mill Creek</a>, and the rest of Snohomish and King County. Everett’s housing mix is actually the perfect case study: the same low-VOC system works in a 1910s mill-era house near Riverside, a postwar rambler off Evergreen Way, and a newer Silver Lake two-story — the finish doesn’t care, and neither does the school calendar. Cost doesn’t change for the low-VOC choice, either: it’s the same $3.99/sq ft natural refinish in the <a href="/blog/how-much-does-it-cost-to-refinish-hardwood-floors">2026 cost guide</a> — the safer chemistry is simply what our standard system is.</p>
 
 <div data-rt-embed-type='true'><!-- FAQ accordion + JSON-LD -->
-<section class="faq-wrap ocb" aria-labelledby="faq-title">
+<div class="faq-wrap ocb" aria-labelledby="faq-title">
   <h2 id="faq-title" class="faq-title">Refinishing With a Full House: What Parents and Pet Owners Ask</h2>
   <div class="faq-items" role="list">
     <details class="faq-item" role="listitem"><summary class="faq-q">Is it safe to stay home during hardwood floor refinishing?</summary><div class="faq-a">With a low-VOC waterborne system, yes for most households — families routinely sleep at home the same night a coat goes down, keeping the coated rooms closed off. The groups that should wait 24 to 48 hours before re-entering coated rooms: crawling babies, people with reactive asthma or strong chemical sensitivity, and pet birds.</div></details>
@@ -133,7 +141,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     <details class="faq-item" role="listitem"><summary class="faq-q">Does dust containment matter if the sanders have vacuums?</summary><div class="faq-a">Vacuum extraction at the machine captures the overwhelming majority of dust and is our standard on every job. Full containment — sealed barriers, negative air, taped HVAC vents — is the belt-and-suspenders upgrade for allergy households, nurseries on the work floor, or anyone who wants the work zone isolated from the rest of the house. It's a flat $250.</div></details>
     <details class="faq-item" role="listitem"><summary class="faq-q">Can we refinish one part of the house at a time?</summary><div class="faq-a">Often yes — occupied homes are frequently phased by floor or wing so bedrooms stay livable, and we schedule around naps, school runs, and work-from-home days. Phasing works best above our 500 sq ft project minimum per visit; we'll lay out the options at the estimate.</div></details>
   </div>
-</section>
+</div>
 
 <style>
   .faq-wrap{--line:#e5e7eb;margin:28px auto;padding:20px;border:1px solid var(--line);border-radius:16px;background:#fff;box-shadow:0 8px 30px rgba(2,6,23,.06)}
@@ -150,7 +158,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Is it safe to stay home during hardwood floor refinishing?", "acceptedAnswer": {"@type": "Answer", "text": "With a low-VOC waterborne system, yes for most households — families routinely sleep at home the same night a coat goes down, keeping the coated rooms closed off. The groups that should wait 24 to 48 hours before re-entering coated rooms: crawling babies, people with reactive asthma or strong chemical sensitivity, and pet birds."}}, {"@type": "Question", "name": "How long do finish fumes last with a water-based system?", "acceptedAnswer": {"@type": "Answer", "text": "The noticeable odor — similar to latex paint — typically fades within hours of each coat, and is largely gone by the next day with normal ventilation. Trace off-gassing continues at low levels while the finish cures over about a week. Oil-based polyurethane, by contrast, can smell strongly for one to several weeks."}}, {"@type": "Question", "name": "What finish should I ask for if I have kids and pets?", "acceptedAnswer": {"@type": "Answer", "text": "A commercial two-component waterborne with a published low VOC number and GREENGUARD Gold certification — Bona Traffic HD is the one we use most. Beyond the certification, these are also the most durable finishes available, which matters in exactly the households asking this question."}}, {"@type": "Question", "name": "When can my dog walk on refinished floors?", "acceptedAnswer": {"@type": "Answer", "text": "Twenty-four hours after the final coat, and try to keep the zoomies to a minimum for the first week while the finish reaches full hardness. The early risk to the floor is claws on soft finish; the risk to the dog is essentially nil with a low-VOC system once the surface is dry."}}, {"@type": "Question", "name": "Why are birds a special case?", "acceptedAnswer": {"@type": "Answer", "text": "Avian respiratory systems are extraordinarily efficient and correspondingly vulnerable to airborne chemicals — fumes a human barely notices can be dangerous to a parrot. Keep birds out of coated areas for at least 48 hours, in the farthest room with separate airflow, or ideally out of the house during coating days."}}, {"@type": "Question", "name": "Do low-VOC finishes hold up as well as regular ones?", "acceptedAnswer": {"@type": "Answer", "text": "The ones we use hold up better. Bona Traffic HD and its peers are commercial-grade products built for restaurants and retail floors; their low VOC content is a formulation feature, not a durability trade-off. The finishes to be wary of are bargain-grade — in any chemistry."}}, {"@type": "Question", "name": "Does dust containment matter if the sanders have vacuums?", "acceptedAnswer": {"@type": "Answer", "text": "Vacuum extraction at the machine captures the overwhelming majority of dust and is our standard on every job. Full containment — sealed barriers, negative air, taped HVAC vents — is the belt-and-suspenders upgrade for allergy households, nurseries on the work floor, or anyone who wants the work zone isolated from the rest of the house. It's a flat $250."}}, {"@type": "Question", "name": "Can we refinish one part of the house at a time?", "acceptedAnswer": {"@type": "Answer", "text": "Often yes — occupied homes are frequently phased by floor or wing so bedrooms stay livable, and we schedule around naps, school runs, and work-from-home days. Phasing works best above our 500 sq ft project minimum per visit; we'll lay out the options at the estimate."}}]}
 </script></div>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-cta" style="margin:30px 0">
+<div data-rt-embed-type='true'><div class="ocb ocb-cta" style="margin:30px 0">
   <style>
     html body .post-body .ocb-cta h2, .ocb-cta h2{color:#fff!important}
     html body .post-body .ocb-cta .ocb-cta-sub, .ocb-cta .ocb-cta-sub{color:rgba(255,255,255,.88)!important}
@@ -160,18 +168,18 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     html body .post-body .ocb-cta a.ocb-cta-phone, .ocb-cta a.ocb-cta-phone{color:#5c0000!important;text-decoration:none!important}
   </style>
   <div style="background:linear-gradient(135deg,#8B0000,#5c0000);border-radius:20px;padding:28px 24px;color:#fff;text-align:center;box-shadow:0 14px 34px rgba(92,0,0,.3)">
-    <h2 style="margin:0 0 6px;color:#fff;font-size:24px;font-weight:900">Refinish the Floors. Keep the Household Running.</h2>
-    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.85);font-size:16.3px">Named low-VOC systems, dust extraction on every machine, and a written re-entry schedule for every member of the family — fur and feathers included. Free in-home estimates across King &amp; Snohomish County.</p>
+    <h2 style="margin:0 0 6px;color:#fff!important;font-size:24px;font-weight:900">Refinish the Floors. Keep the Household Running.</h2>
+    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.92)!important;font-size:16.3px">Named low-VOC systems, dust extraction on every machine, and a written re-entry schedule for every member of the family — fur and feathers included. Free in-home estimates across King &amp; Snohomish County.</p>
     <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
-      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff;color:#5c0000;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> (425) 595-1079</a>
-      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.4);color:#fff;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none">Book My Free Consultation</a>
+      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff!important;color:#5c0000!important;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none!important"><span class="ocb-ic ocb-ic-phone"></span> (425) 595-1079</a>
+      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.16)!important;border:1px solid rgba(255,255,255,.55);color:#fff!important;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none!important">Book My Free Consultation</a>
     </div>
-    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.9)">
+    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.95)!important">
       <span>✓ Since 2013</span><span>✓ 1,000+ floors</span><span>✓ 1-yr workmanship warranty</span><span>✓ Licensed &amp; insured</span><span>✓ Financing available</span>
     </div>
-    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
+    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04!important;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
   </div>
-</section></div>
+</div></div>
 
 <p><strong>Related reading:</strong> <a href="/blog/water-based-vs-oil-based-floor-finish">Water-based vs oil-based, line by line</a> · <a href="/blog/what-is-dust-free-hardwood-floor-refinishing-oc-flooring">Living through a dust-free refinish</a> · <a href="/blog/durable-hardwood-floors-for-dog-owners">Hardwood floors for dog owners</a> · <a href="/city-of-everett/hardwood-floor-refinishing-in-everett-wa">Hardwood floor refinishing in Everett</a> · <a href="/contact">Book a free estimate</a></p>
 

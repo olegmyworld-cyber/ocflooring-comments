@@ -35,33 +35,41 @@ html body .post-body .ocb-fact p, .ocb-fact p{margin:0!important;font-size:14.7p
 html.ocb-anim-ready .ocb-rv{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
 html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 @media (prefers-reduced-motion:reduce){html.ocb-anim-ready .ocb-rv{opacity:1!important;transform:none!important;transition:none!important}.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:none}}
+
+/* Chip icons. Webflow's rich-text sanitizer strips inline <svg> whenever a post is
+   re-saved in the Editor, so the icons are drawn from CSS on a <span> instead. */
+.ocb-ic{display:inline-block;width:15px;height:15px;flex:0 0 auto;vertical-align:-2px;background-repeat:no-repeat;background-position:center;background-size:contain}
+.ocb-ic-pin{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z'/><circle cx='12' cy='10' r='3'/></svg>')}
+.ocb-ic-home{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z'/><polyline points='9 22 9 12 15 12 15 22'/></svg>')}
+.ocb-ic-phone{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z'/></svg>')}
+.ocb-cta .ocb-ic{filter:brightness(0) saturate(100%) invert(9%) sepia(64%) saturate(4000%) hue-rotate(348deg)}
 </style></div>
 
-<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 -6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">August 28, 2026</span></div></div>
+<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">August 28, 2026</span></div></div>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
+<div data-rt-embed-type='true'><div class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
   <span class="ocb-eyebrow">Quick answer</span>
   <p style="margin:0;font-size:17.9px;line-height:1.65"><strong>For most homes we refinish in Bellevue and across King and Snohomish County, water-based wins: it dries in hours instead of days, keeps the wood’s true color instead of turning amber, carries a fraction of the fumes, and — with a commercial two-component product like Bona Traffic HD — now outlasts oil-based poly in wear tests.</strong> Oil-based still earns its place when you want a warm amber tone on red oak and nobody’s living in the house during the work. Below: the honest trade-offs, line by line.</p>
   <div class="ocb-chips">
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg> King &amp; Snohomish County</span>
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg> Bellevue &amp; Eastside homes</span>
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-pin"></span> King &amp; Snohomish County</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-home"></span> Bellevue &amp; Eastside homes</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-phone"></span> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
   </div>
-</section></div>
+</div></div>
 
 <p>Ask three flooring contractors whether water-based or oil-based finish is better and you’ll get three confident, contradictory answers — usually matching whatever that contractor happens to spray. So let’s put the bias on the table first: we run waterborne systems (Bona and Pallmann) on nearly every floor we refinish, and we’ll explain exactly why. But we’ve also put down plenty of oil-modified polyurethane over the years, and there are floors — and homeowners — that oil genuinely suits better. This is the comparison we walk through at kitchen tables during estimates, minus the kitchen table.</p>
 
 <p>One vocabulary note before the scorecard: “oil-based finish” in this article means oil-modified polyurethane, the amber-colored film finish sold in every hardware store — not penetrating hardwax oils like Rubio or WOCA, which are a different animal we’ll cover another week. Both waterborne and oil-modified poly build a protective plastic film on top of the wood; the argument is about what that film costs you in time, smell, and color.</p>
 
-<div data-rt-embed-type='true'><section class="ocb"><div class="ocb-facts">
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-facts">
   <div class="ocb-fact"><span class="n">2–3 hrs</span><p>between coats with a waterborne finish — a full system goes down in one day. Oil-modified poly needs 8–24 hours per coat, so the same job stretches across three or four days.</p></div>
   <div class="ocb-fact"><span class="n">~65 g/L</span><p>VOC content of Bona Traffic HD, versus roughly 450–550 g/L for solvent-borne oil poly. That gap is the difference between sleeping at home during a refinish and booking a hotel.</p></div>
   <div class="ocb-fact"><span class="n">7 days</span><p>to full cure for a commercial waterborne — rugs and normal life resume in about a week. Oil-based keeps curing (and off-gassing) for 30 days.</p></div>
-</div></section></div>
+</div></div></div>
 
 <h2>The Scorecard: Water-Based vs Oil-Based, Line by Line</h2>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-card">
+<div data-rt-embed-type='true'><div class="ocb ocb-card">
   <div style="overflow-x:auto"><table class="ocb-table">
     <tr><th></th><th>Water-based (waterborne)</th><th>Oil-modified poly</th></tr>
     <tr><td><strong>Dry / recoat</strong></td><td>2–3 hours; walk in socks same evening</td><td>8–24 hours per coat; days of drying</td></tr>
@@ -74,7 +82,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     <tr><td><strong>Material cost</strong></td><td>Higher per gallon (premium grades $100+)</td><td>Cheaper per gallon ($40–60)</td></tr>
     <tr><td><strong>Best on</strong></td><td>White oak, maple, fir, gray/neutral stains, natural looks</td><td>Red oak, traditional amber looks, unoccupied projects</td></tr>
   </table></div>
-</section></div>
+</div></div>
 
 <h2>What Water-Based Finish Actually Is (and Isn’t)</h2>
 
@@ -98,7 +106,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 
 <h2>The Decision, Compressed</h2>
 
-<div data-rt-embed-type='true'><section class="ocb"><div class="ocb-2col">
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-2col">
   <div class="ocb-card" style="margin:0">
     <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#5c0000">Choose water-based when…</h3>
     <ul class="ocb-check">
@@ -119,14 +127,14 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
       <li>Budget favors material cost over downtime (and you’ve priced the hotel nights honestly)</li>
     </ul>
   </div>
-</div></section></div>
+</div></div></div>
 
 <h2>The Pacific Northwest Footnote That Isn’t a Footnote</h2>
 
 <p>Finish chemistry cares about weather, and ours is famously damp. Oil-modified poly dries by solvent evaporation plus oxidation, and both slow to a crawl in cool, humid air — an oil job that turns around in three days in Phoenix can drag past a week here between October and May. Waterborne cures more predictably indoors year-round with normal heat, which is a big part of why it’s become the default for <a href="/seattle/hardwood-floor-refinishing-in-seattle-wa">hardwood floor refinishing in Seattle</a> and across the Eastside — we see the same pattern on projects from Bellevue and <a href="/city-of-kirkland/hardwood-floor-refinishing-in-kirkland-wa">Kirkland</a> to <a href="/city-of-everett/hardwood-floor-refinishing-in-everett-wa">Everett</a>. Nowhere is the choice more one-sided than in Bellevue’s 1980s–2000s red oak homes: Eastside buyers expect the lighter, non-yellowed look, and a clear waterborne is how a floor keeps it. Our pricing doesn’t change with the finish debate, either: a full sand with natural finish runs $3.99/sq ft with our waterborne system — the complete numbers are in the <a href="/blog/how-much-does-it-cost-to-refinish-hardwood-floors">2026 refinishing cost guide</a>.</p>
 
 <div data-rt-embed-type='true'><!-- FAQ accordion + JSON-LD -->
-<section class="faq-wrap ocb" aria-labelledby="faq-title">
+<div class="faq-wrap ocb" aria-labelledby="faq-title">
   <h2 id="faq-title" class="faq-title">Water-Based vs Oil-Based: What Homeowners Ask Us</h2>
   <div class="faq-items" role="list">
     <details class="faq-item" role="listitem"><summary class="faq-q">Is water-based floor finish as durable as oil-based?</summary><div class="faq-a">Modern commercial waterborne finishes are — and the two-component products like Bona Traffic HD now beat oil-modified polyurethane in abrasion testing. The old durability gap was real twenty years ago and closed since. What matters more than the base is the grade: a premium two-component waterborne outperforms both bargain waterborne and standard oil poly.</div></details>
@@ -138,7 +146,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     <details class="faq-item" role="listitem"><summary class="faq-q">What do you actually use on most floors?</summary><div class="faq-a">Bona and Pallmann waterborne systems, two to three coats with abrasion between them, chosen by traffic level and sheen. We'll happily spec oil-modified poly when a project genuinely calls for it — typically an unoccupied home with red oak and a traditional amber target — and we'll tell you at the estimate which one your floor is.</div></details>
     <details class="faq-item" role="listitem"><summary class="faq-q">Does the sheen choice change any of this?</summary><div class="faq-a">No — matte, satin, and semi-gloss exist in both chemistries. Sheen is a separate decision from base, though it's worth knowing waterborne holds a true matte better over time because it doesn't amber. Satin remains the most popular choice on the floors we refinish.</div></details>
   </div>
-</section>
+</div>
 
 <style>
   .faq-wrap{--line:#e5e7eb;margin:28px auto;padding:20px;border:1px solid var(--line);border-radius:16px;background:#fff;box-shadow:0 8px 30px rgba(2,6,23,.06)}
@@ -155,7 +163,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Is water-based floor finish as durable as oil-based?", "acceptedAnswer": {"@type": "Answer", "text": "Modern commercial waterborne finishes are — and the two-component products like Bona Traffic HD now beat oil-modified polyurethane in abrasion testing. The old durability gap was real twenty years ago and closed since. What matters more than the base is the grade: a premium two-component waterborne outperforms both bargain waterborne and standard oil poly."}}, {"@type": "Question", "name": "How long before we can walk on each finish?", "acceptedAnswer": {"@type": "Answer", "text": "Waterborne: socks the same evening, shoes and furniture at 48 to 72 hours, rugs after about a week. Oil-based: 24 hours minimum before careful sock traffic on the final coat, several days for furniture, and a full month before rugs go down while it cures."}}, {"@type": "Question", "name": "Does water-based finish change the color of the wood?", "acceptedAnswer": {"@type": "Answer", "text": "Barely — it dries clear and stays clear, so the floor keeps the color of raw wood, just slightly deepened. Oil-based adds an amber tone immediately and keeps yellowing for years. On white oak, maple, and fir that ambering usually reads as unwanted yellow; on red oak some homeowners like the traditional warmth."}}, {"@type": "Question", "name": "Can we stay in the house during refinishing?", "acceptedAnswer": {"@type": "Answer", "text": "With the low-VOC waterborne systems we use, yes — most of our clients do, sleeping in the house the same night a coat goes down. With oil-based polyurethane we recommend staying elsewhere for at least the coating days, and longer for households with babies, asthma, or birds, which are especially sensitive to fumes."}}, {"@type": "Question", "name": "Why is oil-based finish cheaper?", "acceptedAnswer": {"@type": "Answer", "text": "The material is: $40 to $60 per gallon against $100-plus for premium waterborne. But labor runs longer because oil needs a day between coats, and you pay the difference in displacement — hotel nights, a week without the house working normally, a month of curing. Quoted professionally, the totals land closer than the per-gallon prices suggest."}}, {"@type": "Question", "name": "Which finish is better for refinishing over a stain color?", "acceptedAnswer": {"@type": "Answer", "text": "A non-yellowing waterborne. Any stain you chose from a sample — especially grays, whites, and cool browns — only stays that color under a clear finish. Ambering oil poly shifts every stain warmer within a few years, which is how gray floors turn green-ish and white floors turn cream."}}, {"@type": "Question", "name": "What do you actually use on most floors?", "acceptedAnswer": {"@type": "Answer", "text": "Bona and Pallmann waterborne systems, two to three coats with abrasion between them, chosen by traffic level and sheen. We'll happily spec oil-modified poly when a project genuinely calls for it — typically an unoccupied home with red oak and a traditional amber target — and we'll tell you at the estimate which one your floor is."}}, {"@type": "Question", "name": "Does the sheen choice change any of this?", "acceptedAnswer": {"@type": "Answer", "text": "No — matte, satin, and semi-gloss exist in both chemistries. Sheen is a separate decision from base, though it's worth knowing waterborne holds a true matte better over time because it doesn't amber. Satin remains the most popular choice on the floors we refinish."}}]}
 </script></div>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-cta" style="margin:30px 0">
+<div data-rt-embed-type='true'><div class="ocb ocb-cta" style="margin:30px 0">
   <style>
     html body .post-body .ocb-cta h2, .ocb-cta h2{color:#fff!important}
     html body .post-body .ocb-cta .ocb-cta-sub, .ocb-cta .ocb-cta-sub{color:rgba(255,255,255,.88)!important}
@@ -165,18 +173,18 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     html body .post-body .ocb-cta a.ocb-cta-phone, .ocb-cta a.ocb-cta-phone{color:#5c0000!important;text-decoration:none!important}
   </style>
   <div style="background:linear-gradient(135deg,#8B0000,#5c0000);border-radius:20px;padding:28px 24px;color:#fff;text-align:center;box-shadow:0 14px 34px rgba(92,0,0,.3)">
-    <h2 style="margin:0 0 6px;color:#fff;font-size:24px;font-weight:900">Still Torn? Bring Us the Question</h2>
-    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.85);font-size:16.3px">We’ll look at your species, your stain plans, and your household, and tell you which finish we’d put in our own house — with the schedule and price in writing. Free in-home estimates across King &amp; Snohomish County.</p>
+    <h2 style="margin:0 0 6px;color:#fff!important;font-size:24px;font-weight:900">Still Torn? Bring Us the Question</h2>
+    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.92)!important;font-size:16.3px">We’ll look at your species, your stain plans, and your household, and tell you which finish we’d put in our own house — with the schedule and price in writing. Free in-home estimates across King &amp; Snohomish County.</p>
     <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
-      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff;color:#5c0000;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> (425) 595-1079</a>
-      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.4);color:#fff;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none">Book My Free Consultation</a>
+      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff!important;color:#5c0000!important;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none!important"><span class="ocb-ic ocb-ic-phone"></span> (425) 595-1079</a>
+      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.16)!important;border:1px solid rgba(255,255,255,.55);color:#fff!important;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none!important">Book My Free Consultation</a>
     </div>
-    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.9)">
+    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.95)!important">
       <span>✓ Since 2013</span><span>✓ 1,000+ floors</span><span>✓ 1-yr workmanship warranty</span><span>✓ Licensed &amp; insured</span><span>✓ Financing available</span>
     </div>
-    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
+    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04!important;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
   </div>
-</section></div>
+</div></div>
 
 <p><strong>Related reading:</strong> <a href="/blog/bona-hd-the-ultimate-floor-finish-for-your-home">Why we run Bona Traffic HD</a> · <a href="/blog/low-voc-hardwood-floor-finishes-kids-pets">Low-VOC refinishing with kids and pets</a> · <a href="/blog/how-much-does-it-cost-to-refinish-hardwood-floors">2026 refinishing cost guide</a> · <a href="/seattle/hardwood-floor-refinishing-in-seattle-wa">Hardwood floor refinishing in Seattle</a> · <a href="/contact">Book a free estimate</a></p>
 

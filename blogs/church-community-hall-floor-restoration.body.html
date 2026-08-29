@@ -35,29 +35,37 @@ html body .post-body .ocb-fact p, .ocb-fact p{margin:0!important;font-size:14.7p
 html.ocb-anim-ready .ocb-rv{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
 html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 @media (prefers-reduced-motion:reduce){html.ocb-anim-ready .ocb-rv{opacity:1!important;transform:none!important;transition:none!important}.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:none}}
+
+/* Chip icons. Webflow's rich-text sanitizer strips inline <svg> whenever a post is
+   re-saved in the Editor, so the icons are drawn from CSS on a <span> instead. */
+.ocb-ic{display:inline-block;width:15px;height:15px;flex:0 0 auto;vertical-align:-2px;background-repeat:no-repeat;background-position:center;background-size:contain}
+.ocb-ic-pin{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z'/><circle cx='12' cy='10' r='3'/></svg>')}
+.ocb-ic-home{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z'/><polyline points='9 22 9 12 15 12 15 22'/></svg>')}
+.ocb-ic-phone{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z'/></svg>')}
+.ocb-cta .ocb-ic{filter:brightness(0) saturate(100%) invert(9%) sepia(64%) saturate(4000%) hue-rotate(348deg)}
 </style></div>
 
-<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 -6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">March 15, 2027</span></div></div>
+<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">March 15, 2027</span></div></div>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
+<div data-rt-embed-type='true'><div class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
   <span class="ocb-eyebrow">Quick answer</span>
   <p style="margin:0;font-size:17.9px;line-height:1.65"><strong>Most church and community hall floors in Everett don’t need a full sand — they need a screen and recoat at $1.99/sq ft, done in a single weekday so the room is back in service by Sunday.</strong> A full sand and natural refinish at $3.99/sq ft is the right call only when the finish has actually worn through to bare wood in the aisles, or when decades of folding-chair scars have gone past the film into the boards. The difference on a 3,000 sq ft fellowship hall is roughly $6,000 — which is why we measure the wear before we quote the job.</p>
   <div class="ocb-chips">
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg> King &amp; Snohomish County</span>
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg> Everett &amp; Snohomish County halls</span>
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-pin"></span> King &amp; Snohomish County</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-home"></span> Everett &amp; Snohomish County halls</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-phone"></span> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
   </div>
-</section></div>
+</div></div>
 
 <p>Assembly buildings are the most under-maintained wood floors we work on, and it isn’t neglect — it’s arithmetic. A trustee board looking at a $12,000 sanctuary refinish will find a reason to wait another year, then another, and the floor that could have been recoated for a fifth of that price quietly wears through in the center aisle. By the time the wear is visible from the back pew, the cheap option is gone. We’ve had this conversation with enough building committees in Everett and around Snohomish County that we now open estimates by telling people which of the two services they still qualify for, before we talk about money at all.</p>
 
 <p>This is a guide to that decision for churches, parish halls, granges, lodge rooms, community centers, and any other building where a wood floor takes a hundred pairs of shoes on Sunday and a hundred folding chairs on Wednesday. The chemistry and the pricing are the same as a house. The scheduling, the wear pattern, and the way the decision gets made are not.</p>
 
-<div data-rt-embed-type='true'><section class="ocb"><div class="ocb-facts">
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-facts">
   <div class="ocb-fact"><span class="n">$1.99</span><p>per sq ft for a screen and recoat — one day of work, back in service that evening. A full sand with a natural finish is $3.99/sq ft; a stain refinish is $6.50. On a 3,000 sq ft hall those are $5,970, $11,970 and $19,500.</p></div>
   <div class="ocb-fact"><span class="n">1 day</span><p>for a recoat on a single open room. A full sand runs 3–5 days for a typical space, which for most congregations means starting Monday and being off the floor before the Saturday setup crew arrives.</p></div>
   <div class="ocb-fact"><span class="n">~65 g/L</span><p>VOC content of Bona Traffic HD, the two-component waterborne we run in commercial rooms — GREENGUARD Gold certified, against roughly 450–550 g/L for oil-modified polyurethane. That is what makes a Thursday coat safe for a Sunday nursery.</p></div>
-</div></section></div>
+</div></div></div>
 
 <h2>Why Assembly Floors Wear Differently Than House Floors</h2>
 
@@ -73,7 +81,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 
 <p>The test is simple enough that a trustee can do it before we arrive. Kneel in the worst traffic lane with a flashlight held low. If the light skids across a continuous, if dull, film — you’re a recoat. If you see wood fiber that has gone gray, fuzzy, or noticeably lighter than the boards on either side, the finish is gone there and a recoat will not stick to it properly; you need a sand. Splash a tablespoon of water on that lane, too: if it beads for a minute, the film is intact; if it darkens the wood within seconds, it isn’t. We go deeper on the difference between abrading and chemical prep in our comparison of <a href="/blog/screen-recoat-vs-chemical-abrasion">screening versus chemical abrasion systems</a>.</p>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-card">
+<div data-rt-embed-type='true'><div class="ocb ocb-card">
   <h3 style="margin:0 0 10px;font-size:18.5px;font-weight:900;color:#5c0000">Room by room, what usually gets specified</h3>
   <div style="overflow-x:auto"><table class="ocb-table">
     <tr><th>Space</th><th>Typical floor</th><th>What it usually needs</th><th>Time off the floor</th></tr>
@@ -85,9 +93,9 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     <tr><td><strong>Classroom &amp; nursery wing</strong></td><td>Oak strip or engineered</td><td>Recoat; keep it on the waterborne system for occupancy</td><td>1 day per zone</td></tr>
     <tr><td><strong>Kitchen threshold</strong></td><td>Wood meeting tile or vinyl</td><td>Transition and edge repair, not a full sand</td><td>Same visit</td></tr>
   </table></div>
-</section></div>
+</div></div>
 
-<div data-rt-embed-type='true'><section class="ocb"><div class="ocb-2col">
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-2col">
   <div class="ocb-card" style="margin:0">
     <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#5c0000">A screen and recoat will hold you when…</h3>
     <ul class="ocb-check">
@@ -108,7 +116,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
       <li>The floor has been waxed at any point — wax and waterborne do not coexist</li>
     </ul>
   </div>
-</div></section></div>
+</div></div></div>
 
 <h2>Pews, Stages, and the Things Bolted to Your Floor</h2>
 
@@ -141,7 +149,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 <p>Practical notes on procurement: we put everything in writing line by line so it can go to a board without translation, we carry license and insurance and can furnish certificates for a facilities file, and we offer financing when a project needs to cross a fiscal year. If your building is on a phased plan, ask us to quote all the phases now even if only one is funded — the numbers hold better in a budget conversation than in a memory, and it lets you sequence the worst room first. And if the volunteer instinct is to rent a sander and do it in-house: we understand the impulse, and we’d still rather you called. There is a reason we tell homeowners that <a href="/blog/why-wood-floor-refinishing-is-not-a-diy-project">refinishing isn’t a DIY project</a>, and a 3,000 sq ft room under a rented drum sander is that reason with the volume turned up.</p>
 
 <div data-rt-embed-type='true'><!-- FAQ accordion + JSON-LD -->
-<section class="faq-wrap ocb" aria-labelledby="faq-title">
+<div class="faq-wrap ocb" aria-labelledby="faq-title">
   <h2 id="faq-title" class="faq-title">Church &amp; Community Hall Floors: What Building Committees Ask Us</h2>
   <div class="faq-items" role="list">
     <details class="faq-item" role="listitem"><summary class="faq-q">Can you do the work between Sunday services?</summary><div class="faq-a">For a screen and recoat, yes — that is the normal pattern. We come in Monday through Thursday, finish the coat by afternoon, and the room takes sock traffic the same evening and chairs by Saturday. A full sand needs 3 to 5 days on the floor, so it takes one full week out of the building calendar, but it still lands you back in service the following Sunday.</div></details>
@@ -154,7 +162,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     <details class="faq-item" role="listitem"><summary class="faq-q">How often should a hall floor be recoated?</summary><div class="faq-a">For a room seeing weekly assembly use, plan on every three to five years, and put it in the maintenance budget the way you would a roof inspection. Recoating on that cycle costs a fraction of a full sand, keeps the wood itself out of the sander, and means the floor never reaches the state where the cheap option is off the table.</div></details>
     <details class="faq-item" role="listitem"><summary class="faq-q">What if our floor has been waxed?</summary><div class="faq-a">Tell us before we quote, because it changes everything. Waterborne finish will not bond over wax residue, and a recoat over a waxed floor peels. Waxed floors have to be sanded to bare wood, which moves the project straight to the full-refinish price. A quick solvent test on an inconspicuous spot tells us in a minute, and we'd rather find out at the estimate than on coating day.</div></details>
   </div>
-</section>
+</div>
 
 <style>
   .faq-wrap{--line:#e5e7eb;margin:28px auto;padding:20px;border:1px solid var(--line);border-radius:16px;background:#fff;box-shadow:0 8px 30px rgba(2,6,23,.06)}
@@ -171,7 +179,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Can you do the work between Sunday services?", "acceptedAnswer": {"@type": "Answer", "text": "For a screen and recoat, yes — that is the normal pattern. We come in Monday through Thursday, finish the coat by afternoon, and the room takes sock traffic the same evening and chairs by Saturday. A full sand needs 3 to 5 days on the floor, so it takes one full week out of the building calendar, but it still lands you back in service the following Sunday."}}, {"@type": "Question", "name": "Will the building smell during and after the work?", "acceptedAnswer": {"@type": "Answer", "text": "There is a mild odor during application that clears within hours. The waterborne systems we use run around 65 g/L VOC and Bona Traffic HD is GREENGUARD Gold certified, which is why we can coat a room on Thursday and hand it to a nursery on Sunday. Oil-modified polyurethane, at roughly 450 to 550 g/L, would still be off-gassing weeks later, so we don't propose it for occupied assembly buildings."}}, {"@type": "Question", "name": "What happens to the floor under the pews?", "acceptedAnswer": {"@type": "Answer", "text": "Unless the pews are removed, that flooring stays as it is. We sand and finish the aisles, chancel and perimeter, and the covered strips keep their old finish. Nobody sees under a pew and the difference is invisible in service. If your building is converting to flexible seating anyway, removing the pews first gets you a uniform floor and the best price per square foot we can offer."}}, {"@type": "Question", "name": "Our hall floor has folding-chair scars everywhere. Is a recoat pointless?", "acceptedAnswer": {"@type": "Answer", "text": "It depends whether the scars broke the finish or the wood. Run a fingernail across one: if it catches, the scratch is into the board and only sanding removes it. If it doesn't catch, a recoat will fill and hide most of it. Many halls we look at have a mix, and the practical answer is a recoat now with a sand budgeted for a later year."}}, {"@type": "Question", "name": "Is there a minimum job size?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, 500 square feet per job. Most sanctuaries and fellowship halls clear that several times over, but a small classroom, a choir loft, or an entry alone may not. If you are phasing work across budget years, we can group small rooms into one visit so each phase clears the minimum instead of paying a small-job premium."}}, {"@type": "Question", "name": "Can you match a new floor to an existing hall floor?", "acceptedAnswer": {"@type": "Answer", "text": "Sometimes closely, rarely perfectly. Species, age, prior finish and sun exposure all move the color, and old fir in particular has ambered for decades in a way new lumber has not. What we can do reliably is sand and finish both together so they share the same finish and sheen, which reads as intentional even when the tone differs slightly between the old and the new boards."}}, {"@type": "Question", "name": "Do you carry insurance and can you provide documentation?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. We're licensed and insured and can furnish certificates for a facilities or trustee file before work starts, along with a line-item written scope so a board can review it without needing anything translated. We've been doing this since 2013 and have finished more than 1,000 floors."}}, {"@type": "Question", "name": "How often should a hall floor be recoated?", "acceptedAnswer": {"@type": "Answer", "text": "For a room seeing weekly assembly use, plan on every three to five years, and put it in the maintenance budget the way you would a roof inspection. Recoating on that cycle costs a fraction of a full sand, keeps the wood itself out of the sander, and means the floor never reaches the state where the cheap option is off the table."}}, {"@type": "Question", "name": "What if our floor has been waxed?", "acceptedAnswer": {"@type": "Answer", "text": "Tell us before we quote, because it changes everything. Waterborne finish will not bond over wax residue, and a recoat over a waxed floor peels. Waxed floors have to be sanded to bare wood, which moves the project straight to the full-refinish price. A quick solvent test on an inconspicuous spot tells us in a minute, and we'd rather find out at the estimate than on coating day."}}]}
 </script></div>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-cta" style="margin:30px 0">
+<div data-rt-embed-type='true'><div class="ocb ocb-cta" style="margin:30px 0">
   <style>
     html body .post-body .ocb-cta h2, .ocb-cta h2{color:#fff!important}
     html body .post-body .ocb-cta .ocb-cta-sub, .ocb-cta .ocb-cta-sub{color:rgba(255,255,255,.88)!important}
@@ -181,18 +189,18 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     html body .post-body .ocb-cta a.ocb-cta-phone, .ocb-cta a.ocb-cta-phone{color:#5c0000!important;text-decoration:none!important}
   </style>
   <div style="background:linear-gradient(135deg,#8B0000,#5c0000);border-radius:20px;padding:28px 24px;color:#fff;text-align:center;box-shadow:0 14px 34px rgba(92,0,0,.3)">
-    <h2 style="margin:0 0 6px;color:#fff;font-size:24px;font-weight:900">Have Us Look at the Floor Before the Board Meets</h2>
-    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.85);font-size:16.3px">We’ll measure the room, test the film, tell you whether you still qualify for a $1.99/sq ft recoat, and put every phase in writing so it can go straight into a budget. Free estimates for churches, halls and community buildings across King &amp; Snohomish County.</p>
+    <h2 style="margin:0 0 6px;color:#fff!important;font-size:24px;font-weight:900">Have Us Look at the Floor Before the Board Meets</h2>
+    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.92)!important;font-size:16.3px">We’ll measure the room, test the film, tell you whether you still qualify for a $1.99/sq ft recoat, and put every phase in writing so it can go straight into a budget. Free estimates for churches, halls and community buildings across King &amp; Snohomish County.</p>
     <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
-      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff;color:#5c0000;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> (425) 595-1079</a>
-      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.4);color:#fff;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none">Book My Free Consultation</a>
+      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff!important;color:#5c0000!important;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none!important"><span class="ocb-ic ocb-ic-phone"></span> (425) 595-1079</a>
+      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.16)!important;border:1px solid rgba(255,255,255,.55);color:#fff!important;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none!important">Book My Free Consultation</a>
     </div>
-    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.9)">
+    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.95)!important">
       <span>✓ Since 2013</span><span>✓ 1,000+ floors</span><span>✓ 1-yr workmanship warranty</span><span>✓ Licensed &amp; insured</span><span>✓ Financing available</span>
     </div>
-    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
+    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04!important;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
   </div>
-</section></div>
+</div></div>
 
 <p><strong>Related reading:</strong> <a href="/blog/gymnasium-floor-refinishing-seattle">Gym floor refinishing, start to finish</a> · <a href="/blog/screen-recoat-vs-chemical-abrasion">Screen and recoat vs chemical abrasion</a> · <a href="/blog/minimum-job-sizes-small-refinishing-jobs">Minimums and small-job pricing</a> · <a href="/city-of-everett/hardwood-floor-refinishing-in-everett-wa">Hardwood floor refinishing in Everett</a> · <a href="/contact">Book a free estimate</a></p>
 

@@ -35,29 +35,37 @@ html body .post-body .ocb-fact p, .ocb-fact p{margin:0!important;font-size:14.7p
 html.ocb-anim-ready .ocb-rv{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
 html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 @media (prefers-reduced-motion:reduce){html.ocb-anim-ready .ocb-rv{opacity:1!important;transform:none!important;transition:none!important}.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:none}}
+
+/* Chip icons. Webflow's rich-text sanitizer strips inline <svg> whenever a post is
+   re-saved in the Editor, so the icons are drawn from CSS on a <span> instead. */
+.ocb-ic{display:inline-block;width:15px;height:15px;flex:0 0 auto;vertical-align:-2px;background-repeat:no-repeat;background-position:center;background-size:contain}
+.ocb-ic-pin{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z'/><circle cx='12' cy='10' r='3'/></svg>')}
+.ocb-ic-home{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z'/><polyline points='9 22 9 12 15 12 15 22'/></svg>')}
+.ocb-ic-phone{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z'/></svg>')}
+.ocb-cta .ocb-ic{filter:brightness(0) saturate(100%) invert(9%) sepia(64%) saturate(4000%) hue-rotate(348deg)}
 </style></div>
 
-<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 -6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">October 12, 2026</span></div></div>
+<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">October 12, 2026</span></div></div>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
+<div data-rt-embed-type='true'><div class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
   <span class="ocb-eyebrow">Quick answer</span>
   <p style="margin:0;font-size:17.9px;line-height:1.65"><strong>If there&rsquo;s hardwood under the carpet — and in Renton&rsquo;s Boeing-era ramblers there usually is — refinishing it at $3.99/sq ft beats installing anything new on cost, speed, and buyer reaction, and it&rsquo;s the first thing a flip budget should check.</strong> New hardwood runs $3–$4.25/sq ft in labor plus $4–$10+ in materials; refinishing existing oak is one line item and 3–5 days in an empty house. Where hardwood doesn&rsquo;t exist or can&rsquo;t be saved, match the product to the price point instead of defaulting to the cheapest LVP on the shelf. Here&rsquo;s the decision tree we walk with investors.</p>
   <div class="ocb-chips">
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg> King &amp; Snohomish County</span>
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg> Renton &amp; King County flips</span>
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-pin"></span> King &amp; Snohomish County</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-home"></span> Renton &amp; King County flips</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-phone"></span> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
   </div>
-</section></div>
+</div></div>
 
 <p>Flip flooring is a different conversation from homeowner flooring, and we&rsquo;d rather have it honestly than pretend the goals are the same. An investor doesn&rsquo;t need a floor they&rsquo;ll love for twenty years; they need the floor that maximizes sale price minus cost, installed inside an unforgiving schedule, in a house nobody lives in. That last part matters more than people think — an empty house is the ideal refinishing environment, no furniture moves, no phased scheduling, no finish-choice compromises for a family sleeping upstairs.</p>
 
 <p>We&rsquo;ve worked enough King County flips since 2013 to know where the money hides. It&rsquo;s usually under the carpet.</p>
 
-<div data-rt-embed-type='true'><section class="ocb"><div class="ocb-facts">
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-facts">
   <div class="ocb-fact"><span class="n">$3.99/sq ft</span><p>to refinish existing hardwood, natural finish — all-in for sanding, 2–3 coats of commercial waterborne, done in 3–5 days. The cheapest &ldquo;new floor&rdquo; in any flip that has old oak.</p></div>
   <div class="ocb-fact"><span class="n">$3–$4.25/sq ft</span><p>labor to install new hardwood, before materials at $4–$10+/sq ft. Same square footage, roughly three times the budget line of refinishing.</p></div>
   <div class="ocb-fact"><span class="n">1 day</span><p>for a $1.99/sq ft screen &amp; recoat when the flip&rsquo;s floors are structurally fine and just tired — the fastest cosmetic win in the building.</p></div>
-</div></section></div>
+</div></div></div>
 
 <h2>Step One: Look Under the Carpet Before You Budget</h2>
 
@@ -71,7 +79,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 
 <p>The speed comparison is just as lopsided in refinishing&rsquo;s favor, with one caveat. The sand-and-finish itself fits inside any renovation schedule, but it must come nearly last — after paint, after cabinets, after every other trade has carried tools across the floor. Finish cures for 7 days before rugs and staging; plan the sequence so floor day is the second-to-last thing that happens before photos. Investors who slot us in mid-renovation pay for it in touch-ups.</p>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-card">
+<div data-rt-embed-type='true'><div class="ocb ocb-card">
   <h3 style="margin:0 0 10px;font-size:18.5px;font-weight:900;color:#5c0000">Flip flooring options on a 1,400 sq ft rambler</h3>
   <div style="overflow-x:auto"><table class="ocb-table">
     <tr><th>Option</th><th>Ballpark cost</th><th>Timeline</th><th>How buyers read it</th></tr>
@@ -81,7 +89,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     <tr><td>Quality LVP</td><td>Mid-range</td><td>2–4 days</td><td>Fine at entry price points; &ldquo;flip grade&rdquo; above them</td></tr>
     <tr><td>New carpet over good oak</td><td>Low</td><td>1 day</td><td>Actively destroys value that&rsquo;s already paid for</td></tr>
   </table></div>
-</section></div>
+</div></div>
 
 <h2>Where Refinishing Isn&rsquo;t the Answer</h2>
 
@@ -102,7 +110,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 <p>Two local wrinkles. Renton&rsquo;s oldest downtown-adjacent stock can carry fir rather than oak — softer, refinishes beautifully, but set buyer expectations about dents honestly. And the newer south-end townhome inventory tends toward engineered floors, where refinishing depends on <a href="/blog/can-engineered-hardwood-be-refinished-wear-layer">wear-layer thickness</a>, not enthusiasm. We&rsquo;ll tell you which case you&rsquo;ve bought at the walkthrough — details on our <a href="/city-of-renton/hardwood-floor-refinishing-in-renton-wa">Renton refinishing page</a>.</p>
 
 <div data-rt-embed-type='true'><!-- FAQ accordion + JSON-LD -->
-<section class="faq-wrap ocb" aria-labelledby="faq-title">
+<div class="faq-wrap ocb" aria-labelledby="faq-title">
   <h2 id="faq-title" class="faq-title">Flip Flooring: What Investors Ask Us</h2>
   <div class="faq-items" role="list">
     <details class="faq-item" role="listitem"><summary class="faq-q">Is it cheaper to refinish or replace hardwood in a flip?</summary><div class="faq-a">Refinishing, by a wide margin, whenever the existing floor is sound. A natural refinish is $3.99 per square foot all-in; new hardwood runs $3–$4.25 in labor plus $4–$10 or more in materials, before demo and disposal. On a typical 1,400 sq ft rambler that's roughly $5,600 versus $10,000–$20,000.</div></details>
@@ -115,7 +123,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     <details class="faq-item" role="listitem"><summary class="faq-q">What's the minimum job size you take on?</summary><div class="faq-a">500 square feet. Below that, per-foot pricing stops reflecting our fixed costs and we'd rather say so upfront. Most whole-house flip scopes clear the minimum several times over; a single small room might not, which is worth knowing when scoping partial work.</div></details>
     <details class="faq-item" role="listitem"><summary class="faq-q">Does refinished hardwood actually appraise better than LVP?</summary><div class="faq-a">Appraisers list hardwood as hardwood and vinyl as vinyl, and comps in most King County neighborhoods reward the former. More decisively, buyers do: refinished original oak is a headline feature in listing copy, and vinyl plank never is. The appraisal gap is real but the buyer-reaction gap is the one that moves your sale price.</div></details>
   </div>
-</section>
+</div>
 
 <style>
   .faq-wrap{--line:#e5e7eb;margin:28px auto;padding:20px;border:1px solid var(--line);border-radius:16px;background:#fff;box-shadow:0 8px 30px rgba(2,6,23,.06)}
@@ -132,7 +140,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Is it cheaper to refinish or replace hardwood in a flip?", "acceptedAnswer": {"@type": "Answer", "text": "Refinishing, by a wide margin, whenever the existing floor is sound. A natural refinish is $3.99 per square foot all-in; new hardwood runs $3–$4.25 in labor plus $4–$10 or more in materials, before demo and disposal. On a typical 1,400 sq ft rambler that's roughly $5,600 versus $10,000–$20,000."}}, {"@type": "Question", "name": "How do I know if there's hardwood under the carpet?", "acceptedAnswer": {"@type": "Answer", "text": "Pull back a corner in a closet, lift a floor vent register, or check the stair nosing — five minutes tells you. In King County homes built from the 1940s through the early 1970s, oak strip under carpet is the norm rather than the exception, especially in Renton's Boeing-era neighborhoods."}}, {"@type": "Question", "name": "How long does refinishing add to a flip schedule?", "acceptedAnswer": {"@type": "Answer", "text": "The work itself is 3–5 days for a full refinish, or one day for a screen and recoat. The scheduling constraint is sequence: floors come after paint and cabinets, and the finish wants about 7 days of cure before staging furniture and rugs. Slot it second-to-last before photos and it costs you nothing extra."}}, {"@type": "Question", "name": "Should we refinish or just install LVP everywhere?", "acceptedAnswer": {"@type": "Answer", "text": "If real hardwood exists, refinish it — 'original hardwoods' outperforms vinyl plank in listing response at almost every price point, and it's usually cheaper than a quality LVP install anyway. LVP earns its place where there's no hardwood to save, in basements, and in wet rooms. Covering sound oak with vinyl is paying to remove value."}}, {"@type": "Question", "name": "What finish should a flip use — stain or natural?", "acceptedAnswer": {"@type": "Answer", "text": "Natural, satin or matte, with a clear commercial waterborne. It photographs light and current, offends no buyer, and skips the extra $2.51 per square foot and added day that staining costs. Stain makes sense only when matching existing floors or chasing a specific high-end comp look."}}, {"@type": "Question", "name": "Can you fix pet stains and damaged boards during a flip refinish?", "acceptedAnswer": {"@type": "Answer", "text": "Yes — individual board replacement is routine and quoted per repair. Light stains often sand out; black urine-stained boards get cut out and replaced with matching stock before finishing. Budget a contingency for a few boards on any carpeted floor you haven't seen yet, since some damage only shows once carpet and pad come up."}}, {"@type": "Question", "name": "Do empty houses refinish faster or better?", "acceptedAnswer": {"@type": "Answer", "text": "Both. No furniture moves, no phasing around occupants, no compromises on scheduling coats — the crew works the whole footprint straight through. An empty flip is the ideal refinishing site, which is one reason the numbers favor investors more than almost any other client type."}}, {"@type": "Question", "name": "What's the minimum job size you take on?", "acceptedAnswer": {"@type": "Answer", "text": "500 square feet. Below that, per-foot pricing stops reflecting our fixed costs and we'd rather say so upfront. Most whole-house flip scopes clear the minimum several times over; a single small room might not, which is worth knowing when scoping partial work."}}, {"@type": "Question", "name": "Does refinished hardwood actually appraise better than LVP?", "acceptedAnswer": {"@type": "Answer", "text": "Appraisers list hardwood as hardwood and vinyl as vinyl, and comps in most King County neighborhoods reward the former. More decisively, buyers do: refinished original oak is a headline feature in listing copy, and vinyl plank never is. The appraisal gap is real but the buyer-reaction gap is the one that moves your sale price."}}]}
 </script></div>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-cta" style="margin:30px 0">
+<div data-rt-embed-type='true'><div class="ocb ocb-cta" style="margin:30px 0">
   <style>
     html body .post-body .ocb-cta h2, .ocb-cta h2{color:#fff!important}
     html body .post-body .ocb-cta .ocb-cta-sub, .ocb-cta .ocb-cta-sub{color:rgba(255,255,255,.88)!important}
@@ -142,18 +150,18 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     html body .post-body .ocb-cta a.ocb-cta-phone, .ocb-cta a.ocb-cta-phone{color:#5c0000!important;text-decoration:none!important}
   </style>
   <div style="background:linear-gradient(135deg,#8B0000,#5c0000);border-radius:20px;padding:28px 24px;color:#fff;text-align:center;box-shadow:0 14px 34px rgba(92,0,0,.3)">
-    <h2 style="margin:0 0 6px;color:#fff;font-size:24px;font-weight:900">Scoping a Flip? Get the Floor Number First</h2>
-    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.85);font-size:16.3px">Walk us through the property — or send the listing and photos — and we&rsquo;ll tell you what&rsquo;s refinishable, what needs replacing, and the number for each, in writing. Free estimates across King &amp; Snohomish County.</p>
+    <h2 style="margin:0 0 6px;color:#fff!important;font-size:24px;font-weight:900">Scoping a Flip? Get the Floor Number First</h2>
+    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.92)!important;font-size:16.3px">Walk us through the property — or send the listing and photos — and we&rsquo;ll tell you what&rsquo;s refinishable, what needs replacing, and the number for each, in writing. Free estimates across King &amp; Snohomish County.</p>
     <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
-      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff;color:#5c0000;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> (425) 595-1079</a>
-      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.4);color:#fff;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none">Book My Free Consultation</a>
+      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff!important;color:#5c0000!important;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none!important"><span class="ocb-ic ocb-ic-phone"></span> (425) 595-1079</a>
+      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.16)!important;border:1px solid rgba(255,255,255,.55);color:#fff!important;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none!important">Book My Free Consultation</a>
     </div>
-    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.9)">
+    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.95)!important">
       <span>✓ Since 2013</span><span>✓ 1,000+ floors</span><span>✓ 1-yr workmanship warranty</span><span>✓ Licensed &amp; insured</span><span>✓ Financing available</span>
     </div>
-    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
+    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04!important;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
   </div>
-</section></div>
+</div></div>
 
 <p><strong>Related reading:</strong> <a href="/blog/is-it-cheaper-to-refinish-or-replace-wood-floors">Refinish or replace: the math</a> · <a href="/blog/refinish-floors-before-listing-home">Refinishing before you list</a> · <a href="/blog/flooring-services-tailored-for-real-estate-success">Flooring for real estate success</a> · <a href="/city-of-renton/hardwood-floor-refinishing-in-renton-wa">Hardwood floor refinishing in Renton</a> · <a href="/contact">Book a free estimate</a></p>
 

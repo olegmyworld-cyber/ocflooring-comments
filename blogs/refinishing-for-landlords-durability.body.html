@@ -35,29 +35,37 @@ html body .post-body .ocb-fact p, .ocb-fact p{margin:0!important;font-size:14.7p
 html.ocb-anim-ready .ocb-rv{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
 html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 @media (prefers-reduced-motion:reduce){html.ocb-anim-ready .ocb-rv{opacity:1!important;transform:none!important;transition:none!important}.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:none}}
+
+/* Chip icons. Webflow's rich-text sanitizer strips inline <svg> whenever a post is
+   re-saved in the Editor, so the icons are drawn from CSS on a <span> instead. */
+.ocb-ic{display:inline-block;width:15px;height:15px;flex:0 0 auto;vertical-align:-2px;background-repeat:no-repeat;background-position:center;background-size:contain}
+.ocb-ic-pin{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z'/><circle cx='12' cy='10' r='3'/></svg>')}
+.ocb-ic-home{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z'/><polyline points='9 22 9 12 15 12 15 22'/></svg>')}
+.ocb-ic-phone{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z'/></svg>')}
+.ocb-cta .ocb-ic{filter:brightness(0) saturate(100%) invert(9%) sepia(64%) saturate(4000%) hue-rotate(348deg)}
 </style></div>
 
-<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 -6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">February 15, 2027</span></div></div>
+<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">February 15, 2027</span></div></div>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
+<div data-rt-embed-type='true'><div class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
   <span class="ocb-eyebrow">Quick answer</span>
   <p style="margin:0;font-size:17.9px;line-height:1.65"><strong>For an Everett rental, spec the floor the opposite way you’d spec your own: a two-component waterborne finish in satin, no stain, and a plan to screen and recoat at $1.99/sq ft every few tenant turns instead of full-sanding at $3.99/sq ft every time it looks tired.</strong> That combination survives dogs and furniture drags, hides scuffs instead of showcasing them, touches up without a color match, and — this is the actual money — keeps the floor from ever wearing through to bare wood, which is the point where a cheap maintenance job turns into an expensive one. Beauty is what sells a house. Durability is what pays a rental.</p>
   <div class="ocb-chips">
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg> King &amp; Snohomish County</span>
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg> Everett rentals &amp; duplexes</span>
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-pin"></span> King &amp; Snohomish County</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-home"></span> Everett rentals &amp; duplexes</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-phone"></span> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
   </div>
-</section></div>
+</div></div>
 
 <p>Owner-occupants and landlords ask us the same question and mean completely different things by it. An owner asks what will look best; the honest answer involves species, light, and what they’ll be happy looking at for fifteen years. A landlord asks what will look best and means: what will still look acceptable after four tenants, two dogs, and a couch dragged across it on move-out day, without me paying for a sand every time.</p>
 
 <p>Those are different problems and they have different answers. This is the version of our refinishing advice written for the second one — what we actually spec on rental floors, what we tell owners to skip, and how the recoat cycle turns a floor from a recurring capital expense into a maintenance line item. We do a fair amount of this work in Everett, so the local section is specific rather than generic.</p>
 
-<div data-rt-embed-type='true'><section class="ocb"><div class="ocb-facts">
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-facts">
   <div class="ocb-fact"><span class="n">$1.99/sq ft</span><p>screen and recoat — one day of work, no color decisions, no dust event. This is the move that should happen between tenants long before anyone considers a full sand.</p></div>
   <div class="ocb-fact"><span class="n">$3.99/sq ft</span><p>full sand with a natural waterborne finish. Doing this every turnover is how landlords burn through both money and the floor’s remaining thickness; doing it once a decade is a good plan.</p></div>
   <div class="ocb-fact"><span class="n">1 day</span><p>a screen and recoat unit turn versus 3–5 days for a full refinish. On a vacant rental, days are the second currency, and the one people forget to price.</p></div>
-</div></section></div>
+</div></div></div>
 
 <h2>The Landlord’s Version of a Good Floor</h2>
 
@@ -69,7 +77,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 
 <h2>The Rental Spec Sheet</h2>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-card">
+<div data-rt-embed-type='true'><div class="ocb ocb-card">
   <h3 style="margin:0 0 10px;font-size:18.5px;font-weight:900;color:#5c0000">What We Spec on Rental Floors, and Why</h3>
   <div style="overflow-x:auto"><table class="ocb-table">
     <tr><th>Decision</th><th>What we spec for rentals</th><th>Why</th></tr>
@@ -82,7 +90,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     <tr><td><strong>Stairs</strong></td><td>Refinish with the floor, $55–$75 per tread</td><td>Stairs take the worst traffic in any rental and fail first</td></tr>
     <tr><td><strong>Kitchens and baths</strong></td><td>Consider not extending hardwood into wet zones</td><td>Tenant water damage is the #1 way a rental floor dies young</td></tr>
   </table></div>
-</section></div>
+</div></div>
 
 <h2>The Recoat Cycle Is the Whole Strategy</h2>
 
@@ -96,7 +104,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 
 <h2>Where to Spend and Where to Stop</h2>
 
-<div data-rt-embed-type='true'><section class="ocb"><div class="ocb-2col">
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-2col">
   <div class="ocb-card" style="margin:0">
     <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#5c0000">Worth paying for in a rental</h3>
     <ul class="ocb-check">
@@ -117,7 +125,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
       <li>Waiting to see whether the next tenant is hard on floors</li>
     </ul>
   </div>
-</div></section></div>
+</div></div></div>
 
 <h2>Everett Rentals: What the Housing Stock Actually Gives You</h2>
 
@@ -142,7 +150,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 <p>One last thing worth putting in the lease conversation rather than the scope: pet policy. Nail scratches from an enthusiastic dog are the most common rental floor damage we see, and they’re recoatable right up until the finish wears through. Our guide on <a href="/blog/pet-scratches-hardwood-repair-recoat-refinish">pet scratches — repair, recoat, or refinish</a> is a reasonable thing to forward to a tenant who asks what they’re responsible for.</p>
 
 <div data-rt-embed-type='true'><!-- FAQ accordion + JSON-LD -->
-<section class="faq-wrap ocb" aria-labelledby="faq-title">
+<div class="faq-wrap ocb" aria-labelledby="faq-title">
   <h2 id="faq-title" class="faq-title">Rental Floor Refinishing: What Everett Landlords Ask Us</h2>
   <div class="faq-items" role="list">
     <details class="faq-item" role="listitem"><summary class="faq-q">What finish holds up best in a rental?</summary><div class="faq-a">A two-component commercial waterborne — Bona Traffic HD or the Pallmann equivalent — in satin. It's the hardest-wearing film available for residential floors, it's low-odor so a unit can be re-occupied fast, and it recoats cleanly years later. The finish is the cheapest place in the whole job to buy durability, and skimping there is what turns a five-year floor into a three-year floor.</div></details>
@@ -154,7 +162,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     <details class="faq-item" role="listitem"><summary class="faq-q">How fast can a tenant move in after refinishing?</summary><div class="faq-a">With our waterborne systems: socks the same evening, furniture at 48 to 72 hours, area rugs at seven days. A full refinish takes 3 to 5 days of work, so a realistic turn is under a week from start to move-in. Oil-modified polyurethane would need a day between coats and a 30-day cure, which is why we don't recommend it for rentals.</div></details>
     <details class="faq-item" role="listitem"><summary class="faq-q">Do you work with owners who have several units?</summary><div class="faq-a">Yes, and there's real efficiency in it — scheduling two units in the same building back to back, or timing recoats across a portfolio so we're not remobilizing for 500 square feet at a time. Our minimum job is 500 square feet, which is easier to meet when work is grouped. Tell us the portfolio at the estimate and we'll sequence it.</div></details>
   </div>
-</section>
+</div>
 
 <style>
   .faq-wrap{--line:#e5e7eb;margin:28px auto;padding:20px;border:1px solid var(--line);border-radius:16px;background:#fff;box-shadow:0 8px 30px rgba(2,6,23,.06)}
@@ -171,7 +179,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What finish holds up best in a rental?", "acceptedAnswer": {"@type": "Answer", "text": "A two-component commercial waterborne — Bona Traffic HD or the Pallmann equivalent — in satin. It's the hardest-wearing film available for residential floors, it's low-odor so a unit can be re-occupied fast, and it recoats cleanly years later. The finish is the cheapest place in the whole job to buy durability, and skimping there is what turns a five-year floor into a three-year floor."}}, {"@type": "Question", "name": "Should I stain rental floors dark?", "acceptedAnswer": {"@type": "Answer", "text": "We'd advise against it. Dark stain costs $6.50 per square foot instead of $3.99, adds a day to the schedule, shows dust and pet hair constantly, and makes every scratch glow lighter where it cuts through to the wood below. It also has to be color-matched on any future repair. Natural wood costs less, hides more, and never goes out of style in a listing photo."}}, {"@type": "Question", "name": "How often should a rental floor be recoated?", "acceptedAnswer": {"@type": "Answer", "text": "Treat it as a turnover item and inspect it every time the unit is empty. If the finish looks dull and scratched but hasn't worn through anywhere, that's a $1.99 per square foot screen and recoat and it should happen now. If you can see bare or gray wood in the traffic lanes, the recoat window has closed and you're into a full sand."}}, {"@type": "Question", "name": "Can I recoat with a tenant still living there?", "acceptedAnswer": {"@type": "Answer", "text": "Usually yes, with waterborne finish — it's one day, low odor, and the floor takes sock traffic that evening. The practical problem is furniture: everything has to come off the floor, which is a lot to ask mid-lease. Most owners find it easier to schedule it into a turnover, when the unit is empty anyway."}}, {"@type": "Question", "name": "How many times can I sand a rental floor before it's done?", "acceptedAnswer": {"@type": "Answer", "text": "It depends on thickness and how much wood previous sandings took, but a solid ¾-inch floor typically has several sandings in its life and old Everett floors have often used one or two already. That's the argument for the recoat cycle: recoats don't consume wood at all, so every recoat you do is a sanding you don't have to do."}}, {"@type": "Question", "name": "Is vinyl plank a better choice for a rental than hardwood?", "acceptedAnswer": {"@type": "Answer", "text": "It's the better choice when the wood is finished — worn through, water damaged, or a thin engineered product. It's the worse choice when there's solid wood with life in it, because refinishing at $3.99 per square foot beats installation labor of $3 to $4.25 plus $4 to $10 or more in material. Existing hardwood is also a genuine listing advantage in most Everett neighborhoods."}}, {"@type": "Question", "name": "How fast can a tenant move in after refinishing?", "acceptedAnswer": {"@type": "Answer", "text": "With our waterborne systems: socks the same evening, furniture at 48 to 72 hours, area rugs at seven days. A full refinish takes 3 to 5 days of work, so a realistic turn is under a week from start to move-in. Oil-modified polyurethane would need a day between coats and a 30-day cure, which is why we don't recommend it for rentals."}}, {"@type": "Question", "name": "Do you work with owners who have several units?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, and there's real efficiency in it — scheduling two units in the same building back to back, or timing recoats across a portfolio so we're not remobilizing for 500 square feet at a time. Our minimum job is 500 square feet, which is easier to meet when work is grouped. Tell us the portfolio at the estimate and we'll sequence it."}}]}
 </script></div>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-cta" style="margin:30px 0">
+<div data-rt-embed-type='true'><div class="ocb ocb-cta" style="margin:30px 0">
   <style>
     html body .post-body .ocb-cta h2, .ocb-cta h2{color:#fff!important}
     html body .post-body .ocb-cta .ocb-cta-sub, .ocb-cta .ocb-cta-sub{color:rgba(255,255,255,.88)!important}
@@ -181,18 +189,18 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     html body .post-body .ocb-cta a.ocb-cta-phone, .ocb-cta a.ocb-cta-phone{color:#5c0000!important;text-decoration:none!important}
   </style>
   <div style="background:linear-gradient(135deg,#8B0000,#5c0000);border-radius:20px;padding:28px 24px;color:#fff;text-align:center;box-shadow:0 14px 34px rgba(92,0,0,.3)">
-    <h2 style="margin:0 0 6px;color:#fff;font-size:24px;font-weight:900">Get a Rental-Grade Number, Not a Showroom One</h2>
-    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.85);font-size:16.3px">We’ll walk the unit, tell you whether it’s a $1.99 recoat or a $3.99 sand, and give you a schedule that fits a turnover. Free estimates for owners and property managers across Everett and King &amp; Snohomish County.</p>
+    <h2 style="margin:0 0 6px;color:#fff!important;font-size:24px;font-weight:900">Get a Rental-Grade Number, Not a Showroom One</h2>
+    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.92)!important;font-size:16.3px">We’ll walk the unit, tell you whether it’s a $1.99 recoat or a $3.99 sand, and give you a schedule that fits a turnover. Free estimates for owners and property managers across Everett and King &amp; Snohomish County.</p>
     <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
-      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff;color:#5c0000;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> (425) 595-1079</a>
-      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.4);color:#fff;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none">Book My Free Consultation</a>
+      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff!important;color:#5c0000!important;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none!important"><span class="ocb-ic ocb-ic-phone"></span> (425) 595-1079</a>
+      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.16)!important;border:1px solid rgba(255,255,255,.55);color:#fff!important;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none!important">Book My Free Consultation</a>
     </div>
-    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.9)">
+    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.95)!important">
       <span>✓ Since 2013</span><span>✓ 1,000+ floors</span><span>✓ 1-yr workmanship warranty</span><span>✓ Licensed &amp; insured</span><span>✓ Financing available</span>
     </div>
-    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
+    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04!important;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
   </div>
-</section></div>
+</div></div>
 
 <p><strong>Related reading:</strong> <a href="/blog/refinishing-rental-hardwood-between-tenants">Refinishing rentals between tenants</a> · <a href="/blog/is-recoating-worth-it-or-delaying-cost">Is recoating worth it?</a> · <a href="/blog/is-it-cheaper-to-refinish-or-replace-wood-floors">Refinish or replace?</a> · <a href="/city-of-everett/hardwood-floor-refinishing-in-everett-wa">Hardwood floor refinishing in Everett</a> · <a href="/contact">Book a free estimate</a></p>
 

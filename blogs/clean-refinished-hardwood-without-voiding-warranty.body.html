@@ -35,29 +35,37 @@ html body .post-body .ocb-fact p, .ocb-fact p{margin:0!important;font-size:14.7p
 html.ocb-anim-ready .ocb-rv{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
 html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 @media (prefers-reduced-motion:reduce){html.ocb-anim-ready .ocb-rv{opacity:1!important;transform:none!important;transition:none!important}.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:none}}
+
+/* Chip icons. Webflow's rich-text sanitizer strips inline <svg> whenever a post is
+   re-saved in the Editor, so the icons are drawn from CSS on a <span> instead. */
+.ocb-ic{display:inline-block;width:15px;height:15px;flex:0 0 auto;vertical-align:-2px;background-repeat:no-repeat;background-position:center;background-size:contain}
+.ocb-ic-pin{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z'/><circle cx='12' cy='10' r='3'/></svg>')}
+.ocb-ic-home{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z'/><polyline points='9 22 9 12 15 12 15 22'/></svg>')}
+.ocb-ic-phone{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z'/></svg>')}
+.ocb-cta .ocb-ic{filter:brightness(0) saturate(100%) invert(9%) sepia(64%) saturate(4000%) hue-rotate(348deg)}
 </style></div>
 
-<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 -6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">November 4, 2026</span></div></div>
+<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">November 4, 2026</span></div></div>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
+<div data-rt-embed-type='true'><div class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
   <span class="ocb-eyebrow">Quick answer</span>
   <p style="margin:0;font-size:17.9px;line-height:1.65"><strong>Clean a refinished hardwood floor with a dry microfiber dust mop and a pH-neutral hardwood cleaner — and nothing else. No steam mop, no vinegar, no oil soap, no “rejuvenating” polish.</strong> Those four products cause most of the damaged-finish calls we get from Redmond homes, and none of that damage is covered by a workmanship warranty — ours or anyone else’s. The good news: the safe routine is also the cheapest one, and it takes about ten minutes a week. Here’s the full rulebook, starting with the first-week schedule that matters most.</p>
   <div class="ocb-chips">
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg> King &amp; Snohomish County</span>
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg> Redmond homes</span>
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-pin"></span> King &amp; Snohomish County</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-home"></span> Redmond homes</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-phone"></span> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
   </div>
-</section></div>
+</div></div>
 
 <p>We give every client the same short speech on the last day of a refinish, usually while the final coat is still curing behind us. It boils down to this: the floor you just paid for will look this good for a decade with almost no effort — and it can be dulled, clouded, or contaminated in one enthusiastic afternoon with the wrong bottle from the cleaning aisle. The products that do the damage are all marketed <em>for</em> hardwood floors, which is exactly why people trust them.</p>
 
 <p>There’s a warranty angle here too, and we’d rather draw the line clearly now than argue about it at your kitchen table later. Our one-year workmanship warranty covers our work: adhesion, coverage, sanding quality. It cannot cover what a steam mop or an acrylic polish does to a finish — and neither can any finish manufacturer’s warranty. This article is the honest version of what’s covered, what isn’t, and the routine that keeps the question from ever coming up.</p>
 
-<div data-rt-embed-type='true'><section class="ocb"><div class="ocb-facts">
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-facts">
   <div class="ocb-fact"><span class="n">7 days</span><p>for a waterborne finish to fully cure. Socks the same evening, furniture at 48–72 hours — but rugs, damp mopping, and cleaning products all wait the full week.</p></div>
   <div class="ocb-fact"><span class="n">1 year</span><p>our workmanship warranty on every refinish. It covers how we sanded and coated your floor. It can’t cover steam, wax, or oil-soap damage — which is why this article exists.</p></div>
   <div class="ocb-fact"><span class="n">$1.99/sq ft</span><p>what a screen and recoat costs when a finish gets dulled — a real bill that a $10 bottle of the right cleaner avoids entirely.</p></div>
-</div></section></div>
+</div></div></div>
 
 <h2>What the Warranty Actually Covers — and What It Can’t</h2>
 
@@ -71,7 +79,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 
 <p>After the cure, maintenance is genuinely simple. A dry microfiber mop through the traffic areas every day or two picks up the grit that does the actual damage — dirt underfoot works like sandpaper, and it scratches finish faster than any dog. Once a week or so, a pH-neutral hardwood cleaner: mist it onto the mop pad, not onto the floor, and the floor should be dry within a minute of the pad passing. That’s the entire program. Add felt pads under furniture legs, walk-off mats at exterior doors, and trimmed pet claws, and you’ve done everything our <a href="/blog/5-ways-to-protect-hardwood-flooring">floor-protection checklist</a> asks of anyone. Our longer <a href="/blog/how-to-clean-and-maintain-hardwood-floors">cleaning and maintenance guide</a> covers the edge cases, but the honest summary is: the less product you use, the better your floor does.</p>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-card">
+<div data-rt-embed-type='true'><div class="ocb ocb-card">
   <h3 style="margin:0 0 10px;font-size:18.5px;font-weight:900;color:#5c0000">The maintenance calendar we give clients</h3>
   <div style="overflow-x:auto"><table class="ocb-table">
     <tr><th>How often</th><th>What</th><th>Why</th></tr>
@@ -81,7 +89,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     <tr><td>Every 3–5 years</td><td>Screen and recoat — $1.99/sq ft</td><td>A fresh wear coat before the old one wears through</td></tr>
     <tr><td>Every 15–25 years</td><td>Full sand and refinish</td><td>Only when wear has reached the wood itself</td></tr>
   </table></div>
-</section></div>
+</div></div>
 
 <h2>The Blacklist, and What Each Product Actually Does</h2>
 
@@ -95,7 +103,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 
 <p>Redmond is where we most often see great floors under heavy use: 1990s–2000s tech-era homes around Education Hill and Grass Lawn with open great rooms, which concentrate every footstep, dog lap, and rolling office chair onto one continuous stretch of hardwood. Add a retriever who does Marymoor twice a week and kids in cleats, and a Redmond floor can see more traffic in a year than a formal-living-room floor sees in ten. That’s not an argument for exotic products — it’s an argument for the boring routine done consistently, plus a recoat every few years before wear reaches wood. It’s also why we coat with commercial-grade waterborne like <a href="/blog/bona-hd-the-ultimate-floor-finish-for-your-home">Bona Traffic HD</a> in the first place. If your floor is past the point where cleaning helps, our <a href="/city-of-redmond/hardwood-floor-refinishing-in-redmond-wa">hardwood floor refinishing in Redmond</a> page covers what a reset costs.</p>
 
-<div data-rt-embed-type='true'><section class="ocb"><div class="ocb-2col">
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-2col">
   <div class="ocb-card" style="margin:0">
     <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#5c0000">Safe for a waterborne finish</h3>
     <ul class="ocb-check">
@@ -116,10 +124,10 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
       <li>Wet mopping — standing water finds every seam</li>
     </ul>
   </div>
-</div></section></div>
+</div></div></div>
 
 <div data-rt-embed-type='true'><!-- FAQ accordion + JSON-LD -->
-<section class="faq-wrap ocb" aria-labelledby="faq-title">
+<div class="faq-wrap ocb" aria-labelledby="faq-title">
   <h2 id="faq-title" class="faq-title">Cleaning Refinished Floors: What Redmond Homeowners Ask Us</h2>
   <div class="faq-items" role="list">
     <details class="faq-item" role="listitem"><summary class="faq-q">Will using a steam mop actually void my warranty?</summary><div class="faq-a">It voids coverage for the damage it causes, yes. Steam damage — clouded finish, swollen seams — is distinct from a workmanship defect, and neither we nor the finish manufacturers cover it. One or two careful passes probably won't destroy a floor, but there is no safe version of pressurized moisture on wood, so we ask clients not to use one at all.</div></details>
@@ -131,7 +139,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     <details class="faq-item" role="listitem"><summary class="faq-q">My floor went dull and sticky after years of an oil soap. Can it be fixed?</summary><div class="faq-a">Usually, but it takes a professional assessment. If a deep clean strips the residue completely, a $1.99/sq ft screen and recoat restores the wear layer. If the contamination has soaked in too deep for new finish to bond, the honest fix is a full resand at $3.99/sq ft. We test a small area before quoting either way.</div></details>
     <details class="faq-item" role="listitem"><summary class="faq-q">Do rugs need special pads on a refinished floor?</summary><div class="faq-a">Yes — breathable felt or natural rubber pads, not the cheap PVC waffle pads, which can react with finish and imprint a grid pattern into it. And after a refinish, no rugs at all for the first seven days while the finish cures. After that, lift and rotate rugs occasionally so the floor ages evenly.</div></details>
   </div>
-</section>
+</div>
 
 <style>
   .faq-wrap{--line:#e5e7eb;margin:28px auto;padding:20px;border:1px solid var(--line);border-radius:16px;background:#fff;box-shadow:0 8px 30px rgba(2,6,23,.06)}
@@ -148,7 +156,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Will using a steam mop actually void my warranty?", "acceptedAnswer": {"@type": "Answer", "text": "It voids coverage for the damage it causes, yes. Steam damage — clouded finish, swollen seams — is distinct from a workmanship defect, and neither we nor the finish manufacturers cover it. One or two careful passes probably won't destroy a floor, but there is no safe version of pressurized moisture on wood, so we ask clients not to use one at all."}}, {"@type": "Question", "name": "What cleaner do you actually recommend?", "acceptedAnswer": {"@type": "Answer", "text": "A pH-neutral cleaner made specifically for polyurethane-finished hardwood — Bona's spray cleaner is the one we hand out, and Pallmann makes an equivalent. They cost about $10 a bottle and a bottle lasts months. The brand matters less than the chemistry: neutral pH, no oils, no wax, no acrylics."}}, {"@type": "Question", "name": "Can I use a vinegar-and-water mix like my parents did?", "acceptedAnswer": {"@type": "Answer", "text": "We'd rather you didn't. Vinegar is a mild acid, and mopped weekly it slowly etches the sheen off a waterborne finish — the floor reads dull and worn years before it should. The advice dates from the wax-finish era, when floors were maintained completely differently. A pH-neutral cleaner costs almost nothing and doesn't fight your finish."}}, {"@type": "Question", "name": "How soon after refinishing can I mop?", "acceptedAnswer": {"@type": "Answer", "text": "First liquid cleaning at about a week, once the finish is fully cured. Before that, dry dust mopping only. After the first week, damp is fine — the rule is that the floor should be dry within about a minute of the mop passing. Standing water is never okay on hardwood, cured or not."}}, {"@type": "Question", "name": "Are wet Swiffer-style pads safe?", "acceptedAnswer": {"@type": "Answer", "text": "The dry sweeping pads are great. The pre-moistened wet pads are a mixed bag — some formulas leave a residue that builds up and dulls the floor over time. If you like the format, use a dry pad misted with a pH-neutral hardwood cleaner instead. You get the convenience without gambling on the solution."}}, {"@type": "Question", "name": "How do I get scuff marks off without damaging the finish?", "acceptedAnswer": {"@type": "Answer", "text": "Most scuffs are rubber transfer sitting on top of the finish, not damage in it. A microfiber cloth with a little hardwood cleaner takes them off; a clean tennis ball rubbed over the mark works surprisingly well on stubborn ones. If a mark won't budge with either, stop — aggressive scrubbing or magic erasers will dull the spot worse than the scuff."}}, {"@type": "Question", "name": "My floor went dull and sticky after years of an oil soap. Can it be fixed?", "acceptedAnswer": {"@type": "Answer", "text": "Usually, but it takes a professional assessment. If a deep clean strips the residue completely, a $1.99/sq ft screen and recoat restores the wear layer. If the contamination has soaked in too deep for new finish to bond, the honest fix is a full resand at $3.99/sq ft. We test a small area before quoting either way."}}, {"@type": "Question", "name": "Do rugs need special pads on a refinished floor?", "acceptedAnswer": {"@type": "Answer", "text": "Yes — breathable felt or natural rubber pads, not the cheap PVC waffle pads, which can react with finish and imprint a grid pattern into it. And after a refinish, no rugs at all for the first seven days while the finish cures. After that, lift and rotate rugs occasionally so the floor ages evenly."}}]}
 </script></div>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-cta" style="margin:30px 0">
+<div data-rt-embed-type='true'><div class="ocb ocb-cta" style="margin:30px 0">
   <style>
     html body .post-body .ocb-cta h2, .ocb-cta h2{color:#fff!important}
     html body .post-body .ocb-cta .ocb-cta-sub, .ocb-cta .ocb-cta-sub{color:rgba(255,255,255,.88)!important}
@@ -158,18 +166,18 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     html body .post-body .ocb-cta a.ocb-cta-phone, .ocb-cta a.ocb-cta-phone{color:#5c0000!important;text-decoration:none!important}
   </style>
   <div style="background:linear-gradient(135deg,#8B0000,#5c0000);border-radius:20px;padding:28px 24px;color:#fff;text-align:center;box-shadow:0 14px 34px rgba(92,0,0,.3)">
-    <h2 style="margin:0 0 6px;color:#fff;font-size:24px;font-weight:900">Floor Past the Point Where Cleaning Helps?</h2>
-    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.85);font-size:16.3px">A screen and recoat at $1.99/sq ft resets the wear layer in a day — and we’ll tell you honestly if that’s all you need. Free in-home estimates across King &amp; Snohomish County.</p>
+    <h2 style="margin:0 0 6px;color:#fff!important;font-size:24px;font-weight:900">Floor Past the Point Where Cleaning Helps?</h2>
+    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.92)!important;font-size:16.3px">A screen and recoat at $1.99/sq ft resets the wear layer in a day — and we’ll tell you honestly if that’s all you need. Free in-home estimates across King &amp; Snohomish County.</p>
     <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
-      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff;color:#5c0000;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> (425) 595-1079</a>
-      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.4);color:#fff;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none">Book My Free Consultation</a>
+      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff!important;color:#5c0000!important;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none!important"><span class="ocb-ic ocb-ic-phone"></span> (425) 595-1079</a>
+      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.16)!important;border:1px solid rgba(255,255,255,.55);color:#fff!important;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none!important">Book My Free Consultation</a>
     </div>
-    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.9)">
+    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.95)!important">
       <span>✓ Since 2013</span><span>✓ 1,000+ floors</span><span>✓ 1-yr workmanship warranty</span><span>✓ Licensed &amp; insured</span><span>✓ Financing available</span>
     </div>
-    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
+    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04!important;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
   </div>
-</section></div>
+</div></div>
 
 <p><strong>Related reading:</strong> <a href="/blog/can-you-steam-clean-hardwood-floors">Can you steam clean hardwood floors?</a> · <a href="/blog/how-to-clean-and-maintain-hardwood-floors">Cleaning and maintaining hardwood floors</a> · <a href="/blog/how-long-before-you-can-walk-on-refinished-floors">When you can walk on refinished floors</a> · <a href="/city-of-redmond/hardwood-floor-refinishing-in-redmond-wa">Hardwood floor refinishing in Redmond</a> · <a href="/contact">Book a free estimate</a></p>
 

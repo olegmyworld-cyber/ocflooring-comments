@@ -35,29 +35,37 @@ html body .post-body .ocb-fact p, .ocb-fact p{margin:0!important;font-size:14.7p
 html.ocb-anim-ready .ocb-rv{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
 html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 @media (prefers-reduced-motion:reduce){html.ocb-anim-ready .ocb-rv{opacity:1!important;transform:none!important;transition:none!important}.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:none}}
+
+/* Chip icons. Webflow's rich-text sanitizer strips inline <svg> whenever a post is
+   re-saved in the Editor, so the icons are drawn from CSS on a <span> instead. */
+.ocb-ic{display:inline-block;width:15px;height:15px;flex:0 0 auto;vertical-align:-2px;background-repeat:no-repeat;background-position:center;background-size:contain}
+.ocb-ic-pin{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z'/><circle cx='12' cy='10' r='3'/></svg>')}
+.ocb-ic-home{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z'/><polyline points='9 22 9 12 15 12 15 22'/></svg>')}
+.ocb-ic-phone{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z'/></svg>')}
+.ocb-cta .ocb-ic{filter:brightness(0) saturate(100%) invert(9%) sepia(64%) saturate(4000%) hue-rotate(348deg)}
 </style></div>
 
-<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 -6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">November 6, 2026</span></div></div>
+<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">November 6, 2026</span></div></div>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
+<div data-rt-embed-type='true'><div class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
   <span class="ocb-eyebrow">Quick answer</span>
   <p style="margin:0;font-size:17.9px;line-height:1.65"><strong>Wide plank hardwood — anything 5 inches and up — refinishes beautifully, but it plays by different rules than standard strip flooring: the boards move more with the seasons, every flaw in flatness shows across the wider face, and gap-filling strategies that work on 2¼-inch strip fail on 7-inch planks.</strong> In Mercer Island homes, where wide plank white oak has become the default remodel floor, the difference between a stunning refinish and a disappointing one is mostly about respecting that movement. Here’s what actually changes when the boards get wide.</p>
   <div class="ocb-chips">
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg> King &amp; Snohomish County</span>
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg> Mercer Island homes</span>
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-pin"></span> King &amp; Snohomish County</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-home"></span> Mercer Island homes</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-phone"></span> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
   </div>
-</section></div>
+</div></div>
 
 <p>Wide plank is the floor people fall in love with in photos — long 7-inch white oak boards running the length of a great room, three planks wide where a strip floor would need ten. We install and refinish a lot of it, and we like it too. But width isn’t just a look; it’s a physical property, and wood physics scale with it. A wide board gains and loses more moisture across its face, moves more against its neighbors, and shows more of whatever the sander did to it. None of this is a reason to avoid wide plank. All of it is a reason to refinish it a little differently than the strip oak in a 1960s rambler.</p>
 
 <p>This piece covers the honest version: why wide boards gap and cup more, what that means for sanding and filling, where engineered wide plank changes the answer, and the Mercer Island specifics — because between the waterfront humidity and the wall-of-glass midcentury remodels, this island might be the most demanding wide-plank environment we work in.</p>
 
-<div data-rt-embed-type='true'><section class="ocb"><div class="ocb-facts">
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-facts">
   <div class="ocb-fact"><span class="n">5 in+</span><p>is where “wide plank” starts today — 7- and 9-inch boards are common in newer Mercer Island remodels, against the 2¼-inch strip in most older Puget Sound homes.</p></div>
   <div class="ocb-fact"><span class="n">4×</span><p>the seasonal movement of a 9-inch plank compared to a 2¼-inch strip. Wood moves in proportion to its width, so wide boards open wider winter gaps — by simple math.</p></div>
   <div class="ocb-fact"><span class="n">~1360</span><p>Janka hardness of white oak, the species behind most wide plank we see. Hard enough to wear well, stable enough to behave at width — one reason it became the default.</p></div>
-</div></section></div>
+</div></div></div>
 
 <h2>Why Width Changes the Physics</h2>
 
@@ -83,7 +91,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 
 <p>Mercer Island wide plank lives in a specific environment: midcentury homes remodeled with open plans and big glass, waterfront rooms that run brighter and more humid than the regional average, and radiant heat in more than a few of the nicer remodels — all of which amplify wood movement. A west-facing wall of glass over Lake Washington means real solar load on the floor in summer and cold-surface humidity swings in winter; wide boards register both. Our advice to island clients is unglamorous and effective: run the furnace fan for air circulation, keep winter indoor humidity from cratering, use breathable rug pads under the big pieces, and give the floor a recoat before wear reaches wood. We wrote more about the setting in our <a href="/blog/refinishing-mercer-island-waterfront-home">Mercer Island waterfront refinishing guide</a>, and the pricing and process details are on our <a href="/city-of-mercer-island/hardwood-floor-refinishing-in-mercer-island-wa">hardwood floor refinishing in Mercer Island</a> page.</p>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-card">
+<div data-rt-embed-type='true'><div class="ocb ocb-card">
   <h3 style="margin:0 0 10px;font-size:18.5px;font-weight:900;color:#5c0000">Strip vs wide plank: what changes at width</h3>
   <div style="overflow-x:auto"><table class="ocb-table">
     <tr><th></th><th>2¼-inch strip</th><th>5–9-inch wide plank</th></tr>
@@ -95,10 +103,10 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     <tr><td><strong>Refinish budget</strong></td><td>Many sandings over its life</td><td>Solid: several. Engineered: usually one careful sand</td></tr>
     <tr><td><strong>Finish that flatters it</strong></td><td>Anything — strip is versatile</td><td>Natural, matte, non-ambering waterborne</td></tr>
   </table></div>
-</section></div>
+</div></div>
 
 <div data-rt-embed-type='true'><!-- FAQ accordion + JSON-LD -->
-<section class="faq-wrap ocb" aria-labelledby="faq-title">
+<div class="faq-wrap ocb" aria-labelledby="faq-title">
   <h2 id="faq-title" class="faq-title">Wide Plank Refinishing: What Mercer Island Homeowners Ask Us</h2>
   <div class="faq-items" role="list">
     <details class="faq-item" role="listitem"><summary class="faq-q">Can wide plank floors be sanded and refinished like normal hardwood?</summary><div class="faq-a">Yes — solid wide plank sands the same way strip does, and engineered wide plank can usually take one careful sand if the wear layer is 2mm or more. The difference isn't whether it can be done but how much precision it demands: flatness errors that vanish on strip flooring are obvious on wide boards, so machine choice and technique matter more.</div></details>
@@ -110,7 +118,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     <details class="faq-item" role="listitem"><summary class="faq-q">Does radiant heat under wide plank change the refinishing process?</summary><div class="faq-a">It changes the operating advice more than the sanding. The refinish itself proceeds normally, but radiant heat dries boards from below, which amplifies seasonal movement in wide planks. We ask radiant-heat clients to ramp temperatures gradually in fall rather than jumping the slab warm, and to watch winter humidity — the floor will thank you in narrower gaps.</div></details>
     <details class="faq-item" role="listitem"><summary class="faq-q">How much does refinishing wide plank cost compared to regular flooring?</summary><div class="faq-a">The rates are the same — $3.99/sq ft for a natural refinish, $6.50/sq ft with stain, $1.99/sq ft for a screen and recoat — with a 500 sq ft minimum. Wide plank doesn't carry a surcharge; it carries a precision requirement. The place the numbers can differ is repairs, since replacement wide boards cost more per piece and sometimes need sourcing.</div></details>
   </div>
-</section>
+</div>
 
 <style>
   .faq-wrap{--line:#e5e7eb;margin:28px auto;padding:20px;border:1px solid var(--line);border-radius:16px;background:#fff;box-shadow:0 8px 30px rgba(2,6,23,.06)}
@@ -127,7 +135,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Can wide plank floors be sanded and refinished like normal hardwood?", "acceptedAnswer": {"@type": "Answer", "text": "Yes — solid wide plank sands the same way strip does, and engineered wide plank can usually take one careful sand if the wear layer is 2mm or more. The difference isn't whether it can be done but how much precision it demands: flatness errors that vanish on strip flooring are obvious on wide boards, so machine choice and technique matter more."}}, {"@type": "Question", "name": "Why does my wide plank floor have gaps every winter?", "acceptedAnswer": {"@type": "Answer", "text": "Because wood shrinks across its width as indoor air dries out, and wide boards have more width to shrink. A 7- or 9-inch plank opens a visibly wider winter gap than a narrow strip would — that's geometry, not a defect. If the gaps close each summer, the floor is behaving normally. Gaps that grow year over year regardless of season are worth a professional look."}}, {"@type": "Question", "name": "Should the gaps be filled during refinishing?", "acceptedAnswer": {"@type": "Answer", "text": "Usually not. Filler in wide plank gaps cracks and pops out within a season or two because the boards move more than the filler can tolerate. We fill true defects — knots, checks, chips — and leave seasonal gaps to close on their own. Managing winter humidity does more for wide plank gaps than any filler ever will."}}, {"@type": "Question", "name": "Is engineered wide plank better than solid?", "acceptedAnswer": {"@type": "Answer", "text": "At widths of 7 inches and up, engineered is genuinely more stable — the plywood core resists the cross-grain movement that makes wide solid boards gap and cup. The trade-off is refinishing life: solid can be sanded several times, engineered usually once. Which matters more depends on how long you plan to own the floor."}}, {"@type": "Question", "name": "Will refinishing fix the cupping in my wide plank floor?", "acceptedAnswer": {"@type": "Answer", "text": "Only if the moisture cause is fixed first and the boards have mostly relaxed. Sanding a cupped floor flat while it's still wet locks in the wrong shape — when the boards dry and flatten, the sanded profile turns into crowning. We measure moisture content before sanding any cupped floor and will tell you if it needs a season to settle first."}}, {"@type": "Question", "name": "What finish do you recommend on white oak wide plank?", "acceptedAnswer": {"@type": "Answer", "text": "A natural, matte or satin, waterborne finish — two to three coats of Bona or Pallmann at $3.99/sq ft. It keeps white oak's pale, neutral color instead of yellowing it the way oil-modified poly would, and it holds up to real traffic. Most wide plank is bought for its natural look; the finish's job is to protect that look, not change it."}}, {"@type": "Question", "name": "Does radiant heat under wide plank change the refinishing process?", "acceptedAnswer": {"@type": "Answer", "text": "It changes the operating advice more than the sanding. The refinish itself proceeds normally, but radiant heat dries boards from below, which amplifies seasonal movement in wide planks. We ask radiant-heat clients to ramp temperatures gradually in fall rather than jumping the slab warm, and to watch winter humidity — the floor will thank you in narrower gaps."}}, {"@type": "Question", "name": "How much does refinishing wide plank cost compared to regular flooring?", "acceptedAnswer": {"@type": "Answer", "text": "The rates are the same — $3.99/sq ft for a natural refinish, $6.50/sq ft with stain, $1.99/sq ft for a screen and recoat — with a 500 sq ft minimum. Wide plank doesn't carry a surcharge; it carries a precision requirement. The place the numbers can differ is repairs, since replacement wide boards cost more per piece and sometimes need sourcing."}}]}
 </script></div>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-cta" style="margin:30px 0">
+<div data-rt-embed-type='true'><div class="ocb ocb-cta" style="margin:30px 0">
   <style>
     html body .post-body .ocb-cta h2, .ocb-cta h2{color:#fff!important}
     html body .post-body .ocb-cta .ocb-cta-sub, .ocb-cta .ocb-cta-sub{color:rgba(255,255,255,.88)!important}
@@ -137,18 +145,18 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     html body .post-body .ocb-cta a.ocb-cta-phone, .ocb-cta a.ocb-cta-phone{color:#5c0000!important;text-decoration:none!important}
   </style>
   <div style="background:linear-gradient(135deg,#8B0000,#5c0000);border-radius:20px;padding:28px 24px;color:#fff;text-align:center;box-shadow:0 14px 34px rgba(92,0,0,.3)">
-    <h2 style="margin:0 0 6px;color:#fff;font-size:24px;font-weight:900">Wide Plank Worth Doing Right</h2>
-    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.85);font-size:16.3px">We’ll measure the wear layer, check the moisture, and tell you exactly what your wide plank floor can take — in writing, for free. Serving Mercer Island and all of King &amp; Snohomish County.</p>
+    <h2 style="margin:0 0 6px;color:#fff!important;font-size:24px;font-weight:900">Wide Plank Worth Doing Right</h2>
+    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.92)!important;font-size:16.3px">We’ll measure the wear layer, check the moisture, and tell you exactly what your wide plank floor can take — in writing, for free. Serving Mercer Island and all of King &amp; Snohomish County.</p>
     <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
-      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff;color:#5c0000;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> (425) 595-1079</a>
-      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.4);color:#fff;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none">Book My Free Consultation</a>
+      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff!important;color:#5c0000!important;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none!important"><span class="ocb-ic ocb-ic-phone"></span> (425) 595-1079</a>
+      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.16)!important;border:1px solid rgba(255,255,255,.55);color:#fff!important;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none!important">Book My Free Consultation</a>
     </div>
-    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.9)">
+    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.95)!important">
       <span>✓ Since 2013</span><span>✓ 1,000+ floors</span><span>✓ 1-yr workmanship warranty</span><span>✓ Licensed &amp; insured</span><span>✓ Financing available</span>
     </div>
-    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
+    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04!important;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
   </div>
-</section></div>
+</div></div>
 
 <p><strong>Related reading:</strong> <a href="/blog/refinishing-mercer-island-waterfront-home">Refinishing a Mercer Island waterfront home</a> · <a href="/blog/can-engineered-hardwood-be-refinished-wear-layer">Can engineered hardwood be refinished?</a> · <a href="/blog/cupped-hardwood-floors-causes-refinishing">Cupped floors: causes and fixes</a> · <a href="/city-of-mercer-island/hardwood-floor-refinishing-in-mercer-island-wa">Hardwood floor refinishing in Mercer Island</a> · <a href="/contact">Book a free estimate</a></p>
 

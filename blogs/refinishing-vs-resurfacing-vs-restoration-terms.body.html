@@ -35,29 +35,37 @@ html body .post-body .ocb-fact p, .ocb-fact p{margin:0!important;font-size:14.7p
 html.ocb-anim-ready .ocb-rv{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
 html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 @media (prefers-reduced-motion:reduce){html.ocb-anim-ready .ocb-rv{opacity:1!important;transform:none!important;transition:none!important}.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:none}}
+
+/* Chip icons. Webflow's rich-text sanitizer strips inline <svg> whenever a post is
+   re-saved in the Editor, so the icons are drawn from CSS on a <span> instead. */
+.ocb-ic{display:inline-block;width:15px;height:15px;flex:0 0 auto;vertical-align:-2px;background-repeat:no-repeat;background-position:center;background-size:contain}
+.ocb-ic-pin{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z'/><circle cx='12' cy='10' r='3'/></svg>')}
+.ocb-ic-home{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z'/><polyline points='9 22 9 12 15 12 15 22'/></svg>')}
+.ocb-ic-phone{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z'/></svg>')}
+.ocb-cta .ocb-ic{filter:brightness(0) saturate(100%) invert(9%) sepia(64%) saturate(4000%) hue-rotate(348deg)}
 </style></div>
 
-<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 -6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">March 31, 2027</span></div></div>
+<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">March 31, 2027</span></div></div>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
+<div data-rt-embed-type='true'><div class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
   <span class="ocb-eyebrow">Quick answer</span>
   <p style="margin:0;font-size:17.9px;line-height:1.65"><strong>Refinishing means sanding the floor down to bare wood and building a new finish on it. Resurfacing is a marketing word with no fixed definition — most often it means a screen &amp; recoat or a chemical-bond system that never touches bare wood. Restoration means repair work first — boards, filler, water damage, patched additions — and then refinishing.</strong> The confusion costs real money, because a $1.99/sq ft recoat and a $3.99/sq ft full sand are both advertised as “resurfacing” in this market. One question clears the fog: does the sander go down to bare wood?</p>
   <div class="ocb-chips">
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg> King &amp; Snohomish County</span>
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg> Decoding a quote</span>
-    <span class="ocb-chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-pin"></span> King &amp; Snohomish County</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-home"></span> Decoding a quote</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-phone"></span> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
   </div>
-</section></div>
+</div></div>
 
 <p>A fair number of our calls start with “I’d like to get my floors resurfaced,” and we always answer with a question rather than a price — because that sentence could describe three different jobs separated by a factor of three in cost and by everything in outcome. It isn’t that contractors are lying, mostly. It’s that only one of these three words has a technical meaning, the other two drifted, and a couple of national franchises minted their own vocabulary on top. The homeowner collecting three quotes ends up comparing three different jobs and assuming the cheapest company is simply the cheapest.</p>
 
 <p>So here is the vocabulary as our trade actually uses it, what each job physically does to your floor, what each costs on our price list, and the four questions that turn an ambiguous quote into a comparable one. We’ll also admit where we’re loose with the words ourselves — we say “restoration” for jobs where sanding is the smallest part, and that’s a judgment call, not a standard.</p>
 
-<div data-rt-embed-type='true'><section class="ocb"><div class="ocb-facts">
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-facts">
   <div class="ocb-fact"><span class="n">$1.99/sq ft</span><p>screen &amp; recoat — abrade the existing finish, lay one fresh coat, done in a day. A large share of the “resurfacing” advertised around Puget Sound is exactly this job under a different name.</p></div>
   <div class="ocb-fact"><span class="n">$3.99/sq ft</span><p>full sand to bare wood with a natural waterborne finish, 3–5 days start to finish. This is refinishing — the only one of the three words that means a specific process.</p></div>
   <div class="ocb-fact"><span class="n">$6.50/sq ft</span><p>sand, stain, and finish. Same machines, one more day, and a color decision you can’t undo without sanding the floor again.</p></div>
-</div></section></div>
+</div></div></div>
 
 <h2>Refinishing: The One Word That Means Something Specific</h2>
 
@@ -77,7 +85,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 
 <p>Restoration doesn’t price cleanly per square foot, because the repair hours drive the number and they vary by an order of magnitude between floors. We quote it as repair labor plus materials plus the refinishing rate, itemized, so you can see which dollars bought new wood and which bought finish. The related reading here is <a href="/blog/nail-holes-gouges-filler-what-sanding-cant-hide">what sanding can’t hide</a> and <a href="/blog/buckled-hardwood-after-leak-repair-replace">buckled hardwood after a leak</a>. And the honest warning: “restoration” is also the word some contractors reach for to justify a premium on an ordinary refinish. If a quote says restoration, the estimate should name the boards, the square footage of repair, and the reason — not just carry a bigger number.</p>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-card">
+<div data-rt-embed-type='true'><div class="ocb ocb-card">
   <h3 style="margin:0 0 10px;font-size:18.5px;font-weight:900;color:#5c0000">The three words, side by side</h3>
   <div style="overflow-x:auto"><table class="ocb-table">
     <tr><th></th><th>Refinishing</th><th>Resurfacing</th><th>Restoration</th></tr>
@@ -90,7 +98,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     <tr><td><strong>Time on site</strong></td><td>3–5 days</td><td>1 day</td><td>A week and up, depending on repairs</td></tr>
     <tr><td><strong>Right when…</strong></td><td>Wear is in the wood, or you want a new color</td><td>Finish is dull but intact, no bare spots</td><td>Boards are damaged, missing, or mismatched</td></tr>
   </table></div>
-</section></div>
+</div></div>
 
 <h2>How to Read a Quote That Uses the Wrong Word</h2>
 
@@ -98,7 +106,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 
 <p>None of this requires knowing flooring. It requires making all three quotes answer the same questions, at which point the cheap one is either genuinely cheaper for the same work — it happens — or selling a different job. Our breakdowns of <a href="/blog/hidden-costs-refinishing-quotes">the costs that hide in refinishing quotes</a> and <a href="/blog/line-item-refinishing-estimate-explained">what each line of an estimate is actually paying for</a> go item by item.</p>
 
-<div data-rt-embed-type='true'><section class="ocb"><div class="ocb-2col">
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-2col">
   <div class="ocb-card" style="margin:0">
     <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#5c0000">Ask these and any quote becomes comparable</h3>
     <ul class="ocb-check">
@@ -119,7 +127,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
       <li>A per-square-foot price with no minimum, no stair line, and no appliance note</li>
     </ul>
   </div>
-</div></section></div>
+</div></div></div>
 
 <h2>How the Three Words Land Around King and Snohomish County</h2>
 
@@ -128,7 +136,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 <p>We’ve been doing this since 2013, past a thousand floors, and the pattern holds: the right word is a description of your floor’s condition, not a product tier. That’s also why we won’t sell a full sand to somebody whose floor needs a recoat — it spends sanding life that floor will want in fifteen years. If you want the numbers behind all three routes before anyone visits, the full <a href="/blog/how-much-does-it-cost-to-refinish-hardwood-floors">cost guide to refinishing hardwood floors</a> lays them out.</p>
 
 <div data-rt-embed-type='true'><!-- FAQ accordion + JSON-LD -->
-<section class="faq-wrap ocb" aria-labelledby="faq-title">
+<div class="faq-wrap ocb" aria-labelledby="faq-title">
   <h2 id="faq-title" class="faq-title">Refinishing, Resurfacing, Restoration: What Homeowners Ask</h2>
   <div class="faq-items" role="list">
     <details class="faq-item" role="listitem"><summary class="faq-q">Is resurfacing the same thing as refinishing?</summary><div class="faq-a">Not reliably. Refinishing has a fixed meaning — sanding to bare wood and applying new finish. Resurfacing is a marketing term that different companies use for refinishing, for a screen and recoat, or for a chemical-bond sandless system. Always ask whether the process reaches bare wood before comparing prices.</div></details>
@@ -140,7 +148,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     <details class="faq-item" role="listitem"><summary class="faq-q">How long does each option take?</summary><div class="faq-a">A screen and recoat is one day, walkable in socks that evening. A full refinish is 3 to 5 days on site with furniture back at 48 to 72 hours and rugs at about a week. Restoration adds repair days on the front end, so plan on a week or more depending on scope.</div></details>
     <details class="faq-item" role="listitem"><summary class="faq-q">What do you call the job when you write our estimate?</summary><div class="faq-a">We describe the physical work rather than the category: sanding sequence, finish product and coats, repair scope, stairs per tread, and the extras. The heading matters much less than the line items, and you should be able to hand our estimate and a competitor's to a neighbor who could tell they're the same job or not.</div></details>
   </div>
-</section>
+</div>
 
 <style>
   .faq-wrap{--line:#e5e7eb;margin:28px auto;padding:20px;border:1px solid var(--line);border-radius:16px;background:#fff;box-shadow:0 8px 30px rgba(2,6,23,.06)}
@@ -157,7 +165,7 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
 {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Is resurfacing the same thing as refinishing?", "acceptedAnswer": {"@type": "Answer", "text": "Not reliably. Refinishing has a fixed meaning — sanding to bare wood and applying new finish. Resurfacing is a marketing term that different companies use for refinishing, for a screen and recoat, or for a chemical-bond sandless system. Always ask whether the process reaches bare wood before comparing prices."}}, {"@type": "Question", "name": "Which one do I need if my floors have deep scratches?", "acceptedAnswer": {"@type": "Answer", "text": "Refinishing. Scratches you can catch with a fingernail are in the wood, not in the finish, so any process that coats over the existing surface will leave them visible under a shinier film. Sanding is the only way to remove them, within the floor's remaining thickness."}}, {"@type": "Question", "name": "Which one do I need if my floors are just dull?", "acceptedAnswer": {"@type": "Answer", "text": "A screen and recoat, at $1.99 per square foot and one day of work. If the finish is worn but unbroken and there are no gray or bare patches, abrading and recoating restores the sheen and adds years of protection for half the price of a full sand."}}, {"@type": "Question", "name": "Can you resurface a floor that has bare or gray spots?", "acceptedAnswer": {"@type": "Answer", "text": "No. Once wear has gone through the finish into the wood, a new coat over the top seals in the discoloration and the boundary between worn and unworn areas stays visible. Bare spots mean full sanding, or spot repair followed by full sanding."}}, {"@type": "Question", "name": "Why do restoration quotes vary so much?", "acceptedAnswer": {"@type": "Answer", "text": "Because repair hours vary enormously and finishing hours don't. Two 900-square-foot floors can need the same three days of sanding and finishing but differ by a week in board replacement, lacing, and flattening work. That's why we itemize repair separately instead of burying it in a square-foot rate."}}, {"@type": "Question", "name": "Does refinishing wear out the floor?", "acceptedAnswer": {"@type": "Answer", "text": "Every full sand removes a small amount of wood, so a solid hardwood floor has a finite number of them — typically several over its lifetime, depending on original thickness and how much has already been taken off. That's the real argument for recoating when a recoat will do, and for hiring someone who takes off the minimum needed."}}, {"@type": "Question", "name": "How long does each option take?", "acceptedAnswer": {"@type": "Answer", "text": "A screen and recoat is one day, walkable in socks that evening. A full refinish is 3 to 5 days on site with furniture back at 48 to 72 hours and rugs at about a week. Restoration adds repair days on the front end, so plan on a week or more depending on scope."}}, {"@type": "Question", "name": "What do you call the job when you write our estimate?", "acceptedAnswer": {"@type": "Answer", "text": "We describe the physical work rather than the category: sanding sequence, finish product and coats, repair scope, stairs per tread, and the extras. The heading matters much less than the line items, and you should be able to hand our estimate and a competitor's to a neighbor who could tell they're the same job or not."}}]}
 </script></div>
 
-<div data-rt-embed-type='true'><section class="ocb ocb-cta" style="margin:30px 0">
+<div data-rt-embed-type='true'><div class="ocb ocb-cta" style="margin:30px 0">
   <style>
     html body .post-body .ocb-cta h2, .ocb-cta h2{color:#fff!important}
     html body .post-body .ocb-cta .ocb-cta-sub, .ocb-cta .ocb-cta-sub{color:rgba(255,255,255,.88)!important}
@@ -167,18 +175,18 @@ html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
     html body .post-body .ocb-cta a.ocb-cta-phone, .ocb-cta a.ocb-cta-phone{color:#5c0000!important;text-decoration:none!important}
   </style>
   <div style="background:linear-gradient(135deg,#8B0000,#5c0000);border-radius:20px;padding:28px 24px;color:#fff;text-align:center;box-shadow:0 14px 34px rgba(92,0,0,.3)">
-    <h2 style="margin:0 0 6px;color:#fff;font-size:24px;font-weight:900">Not Sure Which One Your Floor Needs?</h2>
-    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.85);font-size:16.3px">We’ll tell you honestly — including when the $1.99 recoat is the right call instead of a full sand. Free in-home estimates across King &amp; Snohomish County, with everything itemized in writing.</p>
+    <h2 style="margin:0 0 6px;color:#fff!important;font-size:24px;font-weight:900">Not Sure Which One Your Floor Needs?</h2>
+    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.92)!important;font-size:16.3px">We’ll tell you honestly — including when the $1.99 recoat is the right call instead of a full sand. Free in-home estimates across King &amp; Snohomish County, with everything itemized in writing.</p>
     <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
-      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff;color:#5c0000;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;flex:0 0 auto"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> (425) 595-1079</a>
-      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.4);color:#fff;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none">Book My Free Consultation</a>
+      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff!important;color:#5c0000!important;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none!important"><span class="ocb-ic ocb-ic-phone"></span> (425) 595-1079</a>
+      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.16)!important;border:1px solid rgba(255,255,255,.55);color:#fff!important;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none!important">Book My Free Consultation</a>
     </div>
-    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.9)">
+    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.95)!important">
       <span>✓ Since 2013</span><span>✓ 1,000+ floors</span><span>✓ 1-yr workmanship warranty</span><span>✓ Licensed &amp; insured</span><span>✓ Financing available</span>
     </div>
-    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
+    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04!important;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
   </div>
-</section></div>
+</div></div>
 
 <p><strong>Related reading:</strong> <a href="/blog/sand-and-refinish-vs-screen-and-recoat-which-is-right-for-your-hardwood-floors">Sand &amp; refinish vs screen &amp; recoat</a> · <a href="/blog/sandless-hardwood-floor-refinishing-does-it-work">Does sandless refinishing actually work?</a> · <a href="/blog/buff-and-coat-vs-full-sand-refinishing">Buff and coat vs full sand</a> · <a href="/seattle/hardwood-floor-refinishing-in-seattle-wa">Hardwood floor refinishing in Seattle</a> · <a href="/contact">Book a free estimate</a></p>
 
