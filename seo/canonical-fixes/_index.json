@@ -1,0 +1,173 @@
+[
+ {
+  "path": "/flooring-services-near-me/our-products",
+  "page_id": "6680daf2b6817ed383577f76",
+  "replacements": 6,
+  "canonical_after": "https://www.nwocflooring.com/flooring-services-near-me/our-products",
+  "canonical_correct": true,
+  "has_script_tag": true,
+  "file": "our-products.head.html"
+ },
+ {
+  "path": "/flooring-services-near-me/insurance-restoration-services",
+  "page_id": "6603268764980588f86fdfb1",
+  "replacements": 6,
+  "canonical_after": "https://www.nwocflooring.com/flooring-services-near-me/insurance-restoration-services",
+  "canonical_correct": true,
+  "has_script_tag": true,
+  "file": "insurance-restoration-services.head.html"
+ },
+ {
+  "path": "/flooring-services-near-me/commercial-flooring-installation",
+  "page_id": "65fe052046fc9443c5a8ec54",
+  "replacements": 7,
+  "canonical_after": "https://www.nwocflooring.com/flooring-services-near-me/commercial-flooring-installation",
+  "canonical_correct": true,
+  "has_script_tag": true,
+  "file": "commercial-flooring-installation.head.html"
+ },
+ {
+  "path": "/flooring-services-near-me/unfinished-hardwood-floors",
+  "page_id": "65f32565e111adbbb806d0b7",
+  "replacements": 7,
+  "canonical_after": "https://www.nwocflooring.com/flooring-services-near-me/unfinished-hardwood-floors",
+  "canonical_correct": true,
+  "has_script_tag": true,
+  "file": "unfinished-hardwood-floors.head.html"
+ },
+ {
+  "path": "/flooring-services-near-me/engineered-hardwood-flooring",
+  "page_id": "65f32565e111adbbb806cf34",
+  "replacements": 7,
+  "canonical_after": "https://www.nwocflooring.com/flooring-services-near-me/engineered-hardwood-flooring",
+  "canonical_correct": true,
+  "has_script_tag": true,
+  "file": "engineered-hardwood-flooring.head.html"
+ },
+ {
+  "path": "/flooring-services-near-me/solid-hardwood-flooring",
+  "page_id": "65f32565e111adbbb806d07b",
+  "replacements": 7,
+  "canonical_after": "https://www.nwocflooring.com/flooring-services-near-me/solid-hardwood-flooring",
+  "canonical_correct": true,
+  "has_script_tag": true,
+  "file": "solid-hardwood-flooring.head.html"
+ },
+ {
+  "path": "/flooring-services-near-me/hardwood-floor-maintenance",
+  "page_id": "65f32565e111adbbb806cf6e",
+  "replacements": 6,
+  "canonical_after": "https://www.nwocflooring.com/flooring-services-near-me/hardwood-floor-maintenance",
+  "canonical_correct": true,
+  "has_script_tag": true,
+  "file": "hardwood-floor-maintenance.head.html"
+ },
+ {
+  "path": "/flooring-services-near-me/buff-and-recoat-hardwood-floors",
+  "page_id": "65f32565e111adbbb806cf31",
+  "replacements": 7,
+  "canonical_after": "https://www.nwocflooring.com/flooring-services-near-me/buff-and-recoat-hardwood-floors",
+  "canonical_correct": true,
+  "has_script_tag": true,
+  "file": "buff-and-recoat-hardwood-floors.head.html"
+ },
+ {
+  "path": "/flooring-services-near-me/eco-friendly-floor-refinishing",
+  "page_id": "65f32565e111adbbb806cf32",
+  "replacements": 6,
+  "canonical_after": "https://www.nwocflooring.com/flooring-services-near-me/eco-friendly-floor-refinishing",
+  "canonical_correct": true,
+  "has_script_tag": true,
+  "file": "eco-friendly-floor-refinishing.head.html"
+ },
+ {
+  "path": "/flooring-services-near-me/dustless-floor-sanding",
+  "page_id": "65f32565e111adbbb806cf30",
+  "replacements": 6,
+  "canonical_after": "https://www.nwocflooring.com/flooring-services-near-me/dustless-floor-sanding",
+  "canonical_correct": true,
+  "has_script_tag": true,
+  "file": "dustless-floor-sanding.head.html"
+ },
+ {
+  "path": "/flooring-services-near-me/wood-wall-panels",
+  "page_id": "65f32565e111adbbb806d07e",
+  "replacements": 7,
+  "canonical_after": "https://www.nwocflooring.com/flooring-services-near-me/wood-wall-panels",
+  "canonical_correct": true,
+  "has_script_tag": true,
+  "file": "wood-wall-panels.head.html"
+ },
+ {
+  "path": "/flooring-services-near-me/flooring-store",
+  "page_id": "65f32565e111adbbb806cf3b",
+  "replacements": 6,
+  "canonical_after": "https://www.nwocflooring.com/flooring-services-near-me/flooring-store",
+  "canonical_correct": true,
+  "has_script_tag": true,
+  "file": "flooring-store.head.html"
+ },
+ {
+  "path": "/flooring-services-near-me/hardwood-floor-staining",
+  "page_id": "65f32565e111adbbb806cfc0",
+  "replacements": 7,
+  "canonical_after": "https://www.nwocflooring.com/flooring-services-near-me/hardwood-floor-staining",
+  "canonical_correct": true,
+  "has_script_tag": true,
+  "file": "hardwood-floor-staining.head.html"
+ },
+ {
+  "path": "/flooring-services-near-me/laminate-flooring-installation",
+  "page_id": "65f32565e111adbbb806d076",
+  "replacements": 6,
+  "canonical_after": "https://www.nwocflooring.com/flooring-services-near-me/laminate-flooring-installation",
+  "canonical_correct": true,
+  "has_script_tag": true,
+  "file": "laminate-flooring-installation.head.html"
+ },
+ {
+  "path": "/flooring-services-near-me/hardwood-floor-installation",
+  "page_id": "65f32565e111adbbb806cf50",
+  "replacements": 3,
+  "canonical_after": null,
+  "canonical_correct": false,
+  "has_script_tag": false,
+  "file": "hardwood-floor-installation.head.html"
+ },
+ {
+  "path": "/flooring-services-near-me/stair-installation-and-remodeling",
+  "page_id": "65f32565e111adbbb806d096",
+  "replacements": 6,
+  "canonical_after": "https://www.nwocflooring.com/flooring-services-near-me/stair-installation-and-remodeling",
+  "canonical_correct": true,
+  "has_script_tag": true,
+  "file": "stair-installation-and-remodeling.head.html"
+ },
+ {
+  "path": "/flooring-services-near-me/floor-refinishing",
+  "page_id": "65f32565e111adbbb806cf36",
+  "replacements": 7,
+  "canonical_after": "https://www.nwocflooring.com/flooring-services-near-me/floor-refinishing",
+  "canonical_correct": true,
+  "has_script_tag": true,
+  "file": "floor-refinishing.head.html"
+ },
+ {
+  "path": "/flooring-services-near-me/flooring-repair",
+  "page_id": "65f32565e111adbbb806cf4f",
+  "replacements": 1,
+  "canonical_after": null,
+  "canonical_correct": false,
+  "has_script_tag": false,
+  "file": "flooring-repair.head.html"
+ },
+ {
+  "path": "/flooring-services-near-me/vinyl-plank-flooring-and-laminate-flooring",
+  "page_id": "65f32565e111adbbb806d0d7",
+  "replacements": 0,
+  "canonical_after": "https://www.nwocflooring.com/flooring-services-near-me/vinyl-plank-flooring-and-laminate-flooring",
+  "canonical_correct": true,
+  "has_script_tag": true,
+  "file": null
+ }
+]
