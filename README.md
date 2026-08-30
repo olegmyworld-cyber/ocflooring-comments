@@ -48,6 +48,31 @@ deliberately left untouched):
 Published to `nwocflooring.com`, `www.nwocflooring.com` and the Webflow
 subdomain on 2026-08-30 (owner-approved publish via the Data API).
 
+### Tile + Carpet service hub pages (2026-08-30, same branch)
+
+Neither service had a main hub page (a key reason the tile/carpet city pages
+were invisible in search). Created via the Data API:
+
+- `/flooring-services-near-me/tile-installation` (page `6a9453a9cc7f108e72cc420d`)
+- `/flooring-services-near-me/carpet-installation` (page `6a9453aa5038df1a06154847`)
+
+Both were created with `duplicateOf` the changelog page (to inherit the
+Navbar/Footer components and Page Hero), then the H1 was retitled and the
+changelog content section removed via the element API. The full hub content —
+price/trust chips, service cards, how-it-works, FAQ, the 30-city links grid,
+and CTA — is server-rendered page-footer custom code
+([`hub-tile.html`](webflow-scripts/city-links/hub-tile.html),
+[`hub-carpet.html`](webflow-scripts/city-links/hub-carpet.html)), in the same
+oc2/ocsvc-pack design language used on the hardwood-install hub.
+The existing city-links blocks on `/tile-gallery` and
+`/flooring-services-near-me/our-products` were updated with a one-line link to
+the new hubs (`links-tile.html` / `links-carpet.html` updated in place).
+
+Also set up outside the repo: a weekly Monday self-check Routine (Semrush
+audit score, GSC clicks + tile/carpet city-page impressions, GA4 sessions and
+generate_lead conversions, latest form submission, new Calendly bookings) that
+alerts Oleg only when something needs attention.
+
 Not changed on purpose: the flooring-calculator page (owner's request — kept
 as is, including its sitemap exclusion and page-level custom code), live URL
 slugs (Arlington/Bothell inconsistencies — renaming indexed URLs would drop
