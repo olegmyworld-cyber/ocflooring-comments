@@ -1,5 +1,5 @@
 {
- "note": "Each new post receives 4 inbound links from already-indexed live posts. Donor links are added ONLY when the target post goes live (linking to a draft would 404). Appended to the donor post city-links field under a \"More floor-care guides\" list.",
+ "note": "Each new post receives 4 inbound links from already-indexed live posts. Donor links are added ONLY when the target post goes live (linking to a draft would 404). Appended to the donor post city-links field under a \"More floor-care guides\" list. Tile/carpet targets (Tue/Thu) share the same queue; their donors mix indexed posts (max 3 extra links each) with earlier tile/carpet posts (>=28 days earlier).",
  "donor_cap": 4,
  "targets": [
   {
@@ -115,6 +115,31 @@
    ]
   },
   {
+   "slug": "bathroom-tile-installation-cost-seattle",
+   "name": "What Bathroom Tile Installation Really Costs in Seattle",
+   "publish_date": "2026-09-01",
+   "item_id": "6a94831eaff009655de6b0dd",
+   "service": "tile",
+   "donors": [
+    {
+     "slug": "hardwood-floor-refinishing-cost-seattle-wa",
+     "name": "Hardwood Floor Refinishing Cost in Seattle: Craftsman Fir, Condos & City Logistics (2026)"
+    },
+    {
+     "slug": "laminate-flooring-installation-cost-seattle-wa",
+     "name": "Laminate Flooring Installation Cost in Seattle, WA (2026 Guide)"
+    },
+    {
+     "slug": "what-is-a-good-price-to-pay-for-carpet-in-seattle-wa",
+     "name": "Carpet Installation Cost in Seattle: A Fair-Price Guide"
+    },
+    {
+     "slug": "benefits-of-vinyl-plank-flooring-for-seattle-wa-homes-a-guide-from-oc-flooring",
+     "name": "How to Choose Vinyl Plank for a Seattle Home: A Buyer's Spec Guide"
+    }
+   ]
+  },
+  {
    "slug": "sandless-hardwood-floor-refinishing-does-it-work",
    "name": "Sandless Refinishing: Does It Actually Work? A Renton Reality Check",
    "publish_date": "2026-09-02",
@@ -139,6 +164,31 @@
      "slug": "why-vinyl-plank-flooring-is-perfect-for-seattle-homes",
      "item_id": "65f32565e111adbbb806d34e",
      "name": "Why Vinyl Plank Flooring Is Perfect for Seattle Homes: A Rainy-Week Reality Check"
+    }
+   ]
+  },
+  {
+   "slug": "carpet-installation-cost-seattle",
+   "name": "What Carpet Installation Costs in Seattle",
+   "publish_date": "2026-09-03",
+   "item_id": "6a94862e8220e16623235cd6",
+   "service": "carpet",
+   "donors": [
+    {
+     "slug": "what-is-a-good-price-to-pay-for-carpet-in-seattle-wa",
+     "name": "Carpet Installation Cost in Seattle: A Fair-Price Guide"
+    },
+    {
+     "slug": "hardwood-floor-refinishing-cost-seattle-wa",
+     "name": "Hardwood Floor Refinishing Cost in Seattle: Craftsman Fir, Condos & City Logistics (2026)"
+    },
+    {
+     "slug": "laminate-flooring-installation-cost-seattle-wa",
+     "name": "Laminate Flooring Installation Cost in Seattle, WA (2026 Guide)"
+    },
+    {
+     "slug": "carpet-installation-cost-bothell-wa",
+     "name": "How Much Does Carpet Installation Cost in Bothell, WA? 2026 Market Rates"
     }
    ]
   },
@@ -199,6 +249,31 @@
    ]
   },
   {
+   "slug": "tile-installation-cost-per-square-foot",
+   "name": "Tile Installation Cost Per Square Foot: A Bellevue Price Breakdown",
+   "publish_date": "2026-09-08",
+   "item_id": "6a948ad35038df1a0621f54f",
+   "service": "tile",
+   "donors": [
+    {
+     "slug": "5-things-you-need-to-know-about-brazilian-cherry-floor-in-bellevue-wa",
+     "name": "Own a Brazilian Cherry Floor in Bellevue? 5 Things to Know"
+    },
+    {
+     "slug": "carpet-solution-in-bellevue-wa-your-ultimate-guide-to-impeccable-flooring",
+     "name": "Choosing Carpet in Bellevue: An Honest Guide From a Hard-Surface Company"
+    },
+    {
+     "slug": "choosing-the-right-hardwood-flooring-for-your-bellevue-wa-home",
+     "name": "Choosing the Right Hardwood Flooring for Your Bellevue Home"
+    },
+    {
+     "slug": "flooring-installers-near-me-seattle-bellevue-wa",
+     "name": "Flooring Installers Near Me: How to Hire Well in Seattle & Bellevue"
+    }
+   ]
+  },
+  {
    "slug": "how-long-before-you-can-walk-on-refinished-floors",
    "name": "How Long Before You Can Walk on Refinished Floors? A Redmond Timeline",
    "publish_date": "2026-09-09",
@@ -223,6 +298,31 @@
      "slug": "what-to-know-about-home-flooring-installation",
      "item_id": "65f32565e111adbbb806d356",
      "name": "Home Flooring Installation: The Homeowner's Prep & Timeline Handbook"
+    }
+   ]
+  },
+  {
+   "slug": "best-carpet-for-pets",
+   "name": "The Best Carpet for Homes With Pets",
+   "publish_date": "2026-09-10",
+   "item_id": "6a948ad35038df1a0621f551",
+   "service": "carpet",
+   "donors": [
+    {
+     "slug": "carpet-solution-in-bellevue-wa-your-ultimate-guide-to-impeccable-flooring",
+     "name": "Choosing Carpet in Bellevue: An Honest Guide From a Hard-Surface Company"
+    },
+    {
+     "slug": "5-carpet-options-for-carpet-installation-in-lynnwood-wa",
+     "name": "5 Carpet Options for Lynnwood Homes: An Honest 2026 Guide"
+    },
+    {
+     "slug": "6-reasons-to-replace-carpet-flooring",
+     "name": "6 Signs Your Carpet Is Done \u2014 and What to Replace It With"
+    },
+    {
+     "slug": "do-you-have-to-move-furniture-to-stretch-carpet",
+     "name": "Do You Have to Move Furniture to Stretch Carpet? Mostly, Yes"
     }
    ]
   },
@@ -283,6 +383,31 @@
    ]
   },
   {
+   "slug": "can-you-tile-over-existing-tile",
+   "name": "Can You Tile Over Existing Tile? When It Works and When It Fails",
+   "publish_date": "2026-09-15",
+   "item_id": null,
+   "service": "tile",
+   "donors": [
+    {
+     "slug": "alternatives-to-tile-flooring-in-snohomish-wa",
+     "name": "Alternatives to Tile Flooring in Snohomish, WA: What to Use Instead"
+    },
+    {
+     "slug": "benefits-of-vinyl-flooring",
+     "name": "Benefits of Vinyl Flooring: Sheet vs. Plank vs. Tile, Explained"
+    },
+    {
+     "slug": "hardwood-vs-tile-in-the-kitchen",
+     "name": "Hardwood vs. Tile in the Kitchen: Which Should You Choose?"
+    },
+    {
+     "slug": "can-you-add-hardwood-to-existing-hardwood-floors",
+     "name": "Can You Add New Hardwood to Existing Hardwood Floors?"
+    }
+   ]
+  },
+  {
    "slug": "stair-refinishing-cost-per-step",
    "name": "How Stair Refinishing Is Priced in Bellevue, and Why It's Per-Step",
    "publish_date": "2026-09-16",
@@ -307,6 +432,31 @@
      "slug": "laminate-flooring-installation-cost-seattle-wa",
      "item_id": "6a17bf3971561e488b935064",
      "name": "Laminate Flooring Installation Cost in Seattle, WA (2026 Guide)"
+    }
+   ]
+  },
+  {
+   "slug": "best-carpet-for-stairs",
+   "name": "The Best Carpet for Stairs in an Everett Home",
+   "publish_date": "2026-09-17",
+   "item_id": null,
+   "service": "carpet",
+   "donors": [
+    {
+     "slug": "transform-your-home-with-oc-floorings-vinyl-plank-flooring-installation",
+     "name": "Vinyl Plank Flooring Installation in Everett, WA: The Full What-to-Expect Guide"
+    },
+    {
+     "slug": "how-much-does-it-cost-to-install-laminate-floor-in-everett-wa-with-oc-flooring-company",
+     "name": "Laminate Wood Flooring Installation Cost in Everett (2026)"
+    },
+    {
+     "slug": "what-is-the-best-waterproof-floor-in-everett-wa",
+     "name": "What Is the Best Waterproof Flooring in Everett, WA?"
+    },
+    {
+     "slug": "how-to-remove-old-carpet",
+     "name": "How to Remove Old Carpet Yourself: Tools, Steps & Local Disposal"
     }
    ]
   },
@@ -367,6 +517,31 @@
    ]
   },
   {
+   "slug": "shower-niche-placement-size-waterproofing",
+   "name": "Shower Niches Done Right: Placement, Size, and Waterproofing",
+   "publish_date": "2026-09-22",
+   "item_id": null,
+   "service": "tile",
+   "donors": [
+    {
+     "slug": "how-much-does-it-cost-to-install-laminate-floor-in-everett-wa-with-oc-flooring-company",
+     "name": "Laminate Wood Flooring Installation Cost in Everett (2026)"
+    },
+    {
+     "slug": "transform-your-home-with-oc-floorings-vinyl-plank-flooring-installation",
+     "name": "Vinyl Plank Flooring Installation in Everett, WA: The Full What-to-Expect Guide"
+    },
+    {
+     "slug": "what-is-the-best-waterproof-floor-in-everett-wa",
+     "name": "What Is the Best Waterproof Flooring in Everett, WA?"
+    },
+    {
+     "slug": "alternatives-to-tile-flooring-in-snohomish-wa",
+     "name": "Alternatives to Tile Flooring in Snohomish, WA: What to Use Instead"
+    }
+   ]
+  },
+  {
    "slug": "refinishing-quote-2-vs-6-per-sqft",
    "name": "What Makes One Lynnwood Refinishing Quote $2/sqft and Another $6",
    "publish_date": "2026-09-23",
@@ -391,6 +566,31 @@
      "slug": "what-is-a-good-price-to-pay-for-carpet-in-seattle-wa",
      "item_id": "65f32565e111adbbb806d26c",
      "name": "Carpet Installation Cost in Seattle: A Fair-Price Guide"
+    }
+   ]
+  },
+  {
+   "slug": "how-long-does-carpet-last",
+   "name": "How Long Should Carpet Last? An Honest Answer",
+   "publish_date": "2026-09-24",
+   "item_id": null,
+   "service": "carpet",
+   "donors": [
+    {
+     "slug": "is-it-worth-it-to-restretch-your-carpet",
+     "name": "Is It Worth It to Restretch Your Carpet? The Honest Math"
+    },
+    {
+     "slug": "the-10-best-carpet-brands-reviews-2023-guide",
+     "name": "Carpet vs. Hard Flooring in 2026: An Honest Local Guide"
+    },
+    {
+     "slug": "upkeep-for-carpet-vs-hardwood-flooring",
+     "name": "Carpet vs. Hardwood Upkeep: The Honest 10-Year Comparison"
+    },
+    {
+     "slug": "5-carpet-options-for-carpet-installation-in-lynnwood-wa",
+     "name": "5 Carpet Options for Lynnwood Homes: An Honest 2026 Guide"
     }
    ]
   },
@@ -451,6 +651,31 @@
    ]
   },
   {
+   "slug": "tile-underlayment-explained",
+   "name": "Tile Underlayment Explained: Ditra, Cement Board, and What Goes Where",
+   "publish_date": "2026-09-29",
+   "item_id": null,
+   "service": "tile",
+   "donors": [
+    {
+     "slug": "benefits-of-vinyl-flooring",
+     "name": "Benefits of Vinyl Flooring: Sheet vs. Plank vs. Tile, Explained"
+    },
+    {
+     "slug": "bathroom-tile-installation-cost-seattle",
+     "name": "What Bathroom Tile Installation Really Costs in Seattle"
+    },
+    {
+     "slug": "hardwood-vs-tile-in-the-kitchen",
+     "name": "Hardwood vs. Tile in the Kitchen: Which Should You Choose?"
+    },
+    {
+     "slug": "alternatives-to-tile-flooring-in-snohomish-wa",
+     "name": "Alternatives to Tile Flooring in Snohomish, WA: What to Use Instead"
+    }
+   ]
+  },
+  {
    "slug": "douglas-fir-vs-oak-craftsman-home",
    "name": "Douglas Fir vs Oak in an Older Seattle Craftsman Home",
    "publish_date": "2026-09-30",
@@ -475,6 +700,31 @@
      "slug": "why-vinyl-plank-flooring-is-a-great-choice-for-your-home",
      "item_id": "65f32565e111adbbb806d07f",
      "name": "Why Vinyl Plank Is a Great Choice for Your Home \u2014 If You Buy the Right Plank"
+    }
+   ]
+  },
+  {
+   "slug": "carpet-removal-cost",
+   "name": "What Carpet Removal Costs \u2014 and When It's Included",
+   "publish_date": "2026-10-01",
+   "item_id": null,
+   "service": "carpet",
+   "donors": [
+    {
+     "slug": "carpet-installation-cost-seattle",
+     "name": "What Carpet Installation Costs in Seattle"
+    },
+    {
+     "slug": "carpet-installation-cost-bothell-wa",
+     "name": "How Much Does Carpet Installation Cost in Bothell, WA? 2026 Market Rates"
+    },
+    {
+     "slug": "what-is-a-good-price-to-pay-for-carpet-in-seattle-wa",
+     "name": "Carpet Installation Cost in Seattle: A Fair-Price Guide"
+    },
+    {
+     "slug": "5-flooring-installation-options-in-kirkland-wa",
+     "name": "5 Flooring Installation Options for Kirkland, WA Homes"
     }
    ]
   },
@@ -535,6 +785,31 @@
    ]
   },
   {
+   "slug": "curbless-shower-build-mercer-island",
+   "name": "Curbless Showers in Mercer Island Homes: What the Build Actually Takes",
+   "publish_date": "2026-10-06",
+   "item_id": null,
+   "service": "tile",
+   "donors": [
+    {
+     "slug": "tile-installation-cost-per-square-foot",
+     "name": "Tile Installation Cost Per Square Foot: A Bellevue Price Breakdown"
+    },
+    {
+     "slug": "bathroom-tile-installation-cost-seattle",
+     "name": "What Bathroom Tile Installation Really Costs in Seattle"
+    },
+    {
+     "slug": "benefits-of-vinyl-flooring",
+     "name": "Benefits of Vinyl Flooring: Sheet vs. Plank vs. Tile, Explained"
+    },
+    {
+     "slug": "hardwood-vs-tile-in-the-kitchen",
+     "name": "Hardwood vs. Tile in the Kitchen: Which Should You Choose?"
+    }
+   ]
+  },
+  {
    "slug": "best-time-of-year-refinish-floors-western-washington",
    "name": "Best Time of Year to Refinish Floors in Everett and Western Washington",
    "publish_date": "2026-10-07",
@@ -559,6 +834,31 @@
      "slug": "what-to-do-with-your-floor-before-putting-your-house-on-the-market-in-woodinville-wa",
      "item_id": "65f32565e111adbbb806d377",
      "name": "What to Do With Your Floors Before Listing Your Woodinville Home"
+    }
+   ]
+  },
+  {
+   "slug": "carpet-for-basement",
+   "name": "Carpet in a Basement: When It Works in the Pacific Northwest",
+   "publish_date": "2026-10-08",
+   "item_id": null,
+   "service": "carpet",
+   "donors": [
+    {
+     "slug": "best-carpet-for-pets",
+     "name": "The Best Carpet for Homes With Pets"
+    },
+    {
+     "slug": "who-sells-mohawk-carpet-find-top-retailers-near-you",
+     "name": "Who Sells Mohawk Carpet? Where to Buy It \u2014 and When to Skip It"
+    },
+    {
+     "slug": "carpet-installation-cost-seattle",
+     "name": "What Carpet Installation Costs in Seattle"
+    },
+    {
+     "slug": "6-reasons-to-replace-carpet-flooring",
+     "name": "6 Signs Your Carpet Is Done \u2014 and What to Replace It With"
     }
    ]
   },
@@ -619,6 +919,31 @@
    ]
   },
   {
+   "slug": "porcelain-vs-ceramic-tile",
+   "name": "Porcelain vs Ceramic Tile: Which Belongs in a Renton Home",
+   "publish_date": "2026-10-13",
+   "item_id": null,
+   "service": "tile",
+   "donors": [
+    {
+     "slug": "can-you-tile-over-existing-tile",
+     "name": "Can You Tile Over Existing Tile? When It Works and When It Fails"
+    },
+    {
+     "slug": "tile-installation-cost-per-square-foot",
+     "name": "Tile Installation Cost Per Square Foot: A Bellevue Price Breakdown"
+    },
+    {
+     "slug": "bathroom-tile-installation-cost-seattle",
+     "name": "What Bathroom Tile Installation Really Costs in Seattle"
+    },
+    {
+     "slug": "bona-hd-the-ultimate-floor-finish-for-your-home",
+     "name": "Bona HD Floor Finish: What It Is and When It's Worth It"
+    }
+   ]
+  },
+  {
    "slug": "buff-and-coat-vs-full-sand-refinishing",
    "name": "Buff and Coat vs Full Sand in Sammamish: An Honest Comparison",
    "publish_date": "2026-10-14",
@@ -643,6 +968,31 @@
      "slug": "upkeep-for-carpet-vs-hardwood-flooring",
      "item_id": "65f32565e111adbbb806d36a",
      "name": "Carpet vs. Hardwood Upkeep: The Honest 10-Year Comparison"
+    }
+   ]
+  },
+  {
+   "slug": "carpet-stretching-cost",
+   "name": "Carpet Stretching: Fixing Ripples Without Replacing the Floor",
+   "publish_date": "2026-10-15",
+   "item_id": null,
+   "service": "carpet",
+   "donors": [
+    {
+     "slug": "carpet-installation-cost-seattle",
+     "name": "What Carpet Installation Costs in Seattle"
+    },
+    {
+     "slug": "carpet-installation-cost-bothell-wa",
+     "name": "How Much Does Carpet Installation Cost in Bothell, WA? 2026 Market Rates"
+    },
+    {
+     "slug": "best-carpet-for-stairs",
+     "name": "The Best Carpet for Stairs in an Everett Home"
+    },
+    {
+     "slug": "best-carpet-for-pets",
+     "name": "The Best Carpet for Homes With Pets"
     }
    ]
   },
@@ -703,6 +1053,31 @@
    ]
   },
   {
+   "slug": "bathroom-floor-tile-that-lasts",
+   "name": "Bathroom Floor Tile That Still Looks Right in Ten Years",
+   "publish_date": "2026-10-20",
+   "item_id": null,
+   "service": "tile",
+   "donors": [
+    {
+     "slug": "bathroom-tile-installation-cost-seattle",
+     "name": "What Bathroom Tile Installation Really Costs in Seattle"
+    },
+    {
+     "slug": "does-refinishing-wood-floors-increase-home-value-in-kirkland-wa",
+     "name": "Does Refinishing Wood Floors Increase Home Value in Kirkland, WA?"
+    },
+    {
+     "slug": "can-you-tile-over-existing-tile",
+     "name": "Can You Tile Over Existing Tile? When It Works and When It Fails"
+    },
+    {
+     "slug": "5-flooring-installation-options-in-kirkland-wa",
+     "name": "5 Flooring Installation Options for Kirkland, WA Homes"
+    }
+   ]
+  },
+  {
    "slug": "cupped-hardwood-floors-causes-refinishing",
    "name": "Cupped Hardwood Floors in Everett: Causes, and Whether Refinishing Fixes It",
    "publish_date": "2026-10-21",
@@ -727,6 +1102,31 @@
      "slug": "all-about-subfloors-what-you-need-to-know",
      "item_id": "65f32565e111adbbb806d37d",
      "name": "Subfloors Explained: What's Under Your Floor Decides Everything Above It"
+    }
+   ]
+  },
+  {
+   "slug": "how-to-measure-for-carpet",
+   "name": "How to Measure a Room for Carpet (and Why Estimates Differ)",
+   "publish_date": "2026-10-22",
+   "item_id": null,
+   "service": "carpet",
+   "donors": [
+    {
+     "slug": "how-long-does-carpet-last",
+     "name": "How Long Should Carpet Last? An Honest Answer"
+    },
+    {
+     "slug": "best-carpet-for-stairs",
+     "name": "The Best Carpet for Stairs in an Everett Home"
+    },
+    {
+     "slug": "do-you-have-to-move-furniture-to-stretch-carpet",
+     "name": "Do You Have to Move Furniture to Stretch Carpet? Mostly, Yes"
+    },
+    {
+     "slug": "how-to-remove-old-carpet",
+     "name": "How to Remove Old Carpet Yourself: Tools, Steps & Local Disposal"
     }
    ]
   },
@@ -787,6 +1187,31 @@
    ]
   },
   {
+   "slug": "tile-shower-waterproofing",
+   "name": "Shower Waterproofing: The Layer That Decides Whether Your Tile Lasts",
+   "publish_date": "2026-10-27",
+   "item_id": null,
+   "service": "tile",
+   "donors": [
+    {
+     "slug": "tile-underlayment-explained",
+     "name": "Tile Underlayment Explained: Ditra, Cement Board, and What Goes Where"
+    },
+    {
+     "slug": "tile-installation-cost-per-square-foot",
+     "name": "Tile Installation Cost Per Square Foot: A Bellevue Price Breakdown"
+    },
+    {
+     "slug": "can-you-tile-over-existing-tile",
+     "name": "Can You Tile Over Existing Tile? When It Works and When It Fails"
+    },
+    {
+     "slug": "shower-niche-placement-size-waterproofing",
+     "name": "Shower Niches Done Right: Placement, Size, and Waterproofing"
+    }
+   ]
+  },
+  {
    "slug": "refinishing-smell-how-long-it-lasts",
    "name": "What the Smell During Refinishing Is, and How Long It Lasts",
    "publish_date": "2026-10-28",
@@ -811,6 +1236,31 @@
      "slug": "what-to-do-in-your-house-during-remodeling",
      "item_id": "65f32565e111adbbb806d2a3",
      "name": "What to Do in Your House During Remodeling: The Live-Through-It Playbook"
+    }
+   ]
+  },
+  {
+   "slug": "cost-to-carpet-a-room",
+   "name": "What It Costs to Carpet One Room in Sammamish",
+   "publish_date": "2026-10-29",
+   "item_id": null,
+   "service": "carpet",
+   "donors": [
+    {
+     "slug": "carpet-removal-cost",
+     "name": "What Carpet Removal Costs \u2014 and When It's Included"
+    },
+    {
+     "slug": "carpet-installation-cost-seattle",
+     "name": "What Carpet Installation Costs in Seattle"
+    },
+    {
+     "slug": "top-hardwood-flooring-options-for-lakeside-homes-in-sammamish-wa-by-oc-flooring",
+     "name": "Top Hardwood Flooring Options for Lakeside Homes in Sammamish"
+    },
+    {
+     "slug": "how-long-does-carpet-last",
+     "name": "How Long Should Carpet Last? An Honest Answer"
     }
    ]
   },
@@ -871,6 +1321,31 @@
    ]
   },
   {
+   "slug": "heated-bathroom-floor-cost",
+   "name": "Heated Bathroom Floors in Marysville: Cost, Payback, and Install Reality",
+   "publish_date": "2026-11-03",
+   "item_id": null,
+   "service": "tile",
+   "donors": [
+    {
+     "slug": "tile-installation-cost-per-square-foot",
+     "name": "Tile Installation Cost Per Square Foot: A Bellevue Price Breakdown"
+    },
+    {
+     "slug": "tile-underlayment-explained",
+     "name": "Tile Underlayment Explained: Ditra, Cement Board, and What Goes Where"
+    },
+    {
+     "slug": "can-you-tile-over-existing-tile",
+     "name": "Can You Tile Over Existing Tile? When It Works and When It Fails"
+    },
+    {
+     "slug": "cost-to-refinish-hardwood-floors",
+     "name": "Hardwood Refinishing Budgets: 5 Real Projects, Line by Line (2026)"
+    }
+   ]
+  },
+  {
    "slug": "clean-refinished-hardwood-without-voiding-warranty",
    "name": "How to Clean Refinished Hardwood in Redmond Without Voiding the Warranty",
    "publish_date": "2026-11-04",
@@ -895,6 +1370,31 @@
      "slug": "is-it-worth-it-to-restretch-your-carpet",
      "item_id": "65f32565e111adbbb806d36f",
      "name": "Is It Worth It to Restretch Your Carpet? The Honest Math"
+    }
+   ]
+  },
+  {
+   "slug": "low-pile-vs-high-pile-carpet",
+   "name": "Low Pile vs High Pile: Which Carpet Suits Your Rooms",
+   "publish_date": "2026-11-05",
+   "item_id": null,
+   "service": "carpet",
+   "donors": [
+    {
+     "slug": "carpet-for-basement",
+     "name": "Carpet in a Basement: When It Works in the Pacific Northwest"
+    },
+    {
+     "slug": "carpet-removal-cost",
+     "name": "What Carpet Removal Costs \u2014 and When It's Included"
+    },
+    {
+     "slug": "is-it-worth-it-to-restretch-your-carpet",
+     "name": "Is It Worth It to Restretch Your Carpet? The Honest Math"
+    },
+    {
+     "slug": "the-10-best-carpet-brands-reviews-2023-guide",
+     "name": "Carpet vs. Hard Flooring in 2026: An Honest Local Guide"
     }
    ]
   },
@@ -955,6 +1455,31 @@
    ]
   },
   {
+   "slug": "epoxy-vs-cement-grout",
+   "name": "Epoxy vs Cement Grout: Where Each One Earns Its Price",
+   "publish_date": "2026-11-10",
+   "item_id": null,
+   "service": "tile",
+   "donors": [
+    {
+     "slug": "tile-underlayment-explained",
+     "name": "Tile Underlayment Explained: Ditra, Cement Board, and What Goes Where"
+    },
+    {
+     "slug": "porcelain-vs-ceramic-tile",
+     "name": "Porcelain vs Ceramic Tile: Which Belongs in a Renton Home"
+    },
+    {
+     "slug": "curbless-shower-build-mercer-island",
+     "name": "Curbless Showers in Mercer Island Homes: What the Build Actually Takes"
+    },
+    {
+     "slug": "10-most-popular-questions-about-wood-floor-refinishing",
+     "name": "The Wood Floor Refinishing Questions Everyone Asks \u2014 Answered Honestly"
+    }
+   ]
+  },
+  {
    "slug": "do-you-need-to-leave-house-during-refinishing",
    "name": "Do You Need to Leave Your House During Refinishing?",
    "publish_date": "2026-11-11",
@@ -979,6 +1504,31 @@
      "slug": "solid-v-s-engineered-wood-floors-whats-right-for-your-home",
      "item_id": "65f32565e111adbbb806d372",
      "name": "Wood Floors on Slabs, Basements & Radiant Heat: What Your House Allows"
+    }
+   ]
+  },
+  {
+   "slug": "stain-resistant-carpet",
+   "name": "Stain-Resistant Carpet: What the Warranties Actually Cover",
+   "publish_date": "2026-11-12",
+   "item_id": null,
+   "service": "carpet",
+   "donors": [
+    {
+     "slug": "carpet-stretching-cost",
+     "name": "Carpet Stretching: Fixing Ripples Without Replacing the Floor"
+    },
+    {
+     "slug": "carpet-for-basement",
+     "name": "Carpet in a Basement: When It Works in the Pacific Northwest"
+    },
+    {
+     "slug": "upkeep-for-carpet-vs-hardwood-flooring",
+     "name": "Carpet vs. Hardwood Upkeep: The Honest 10-Year Comparison"
+    },
+    {
+     "slug": "who-sells-mohawk-carpet-find-top-retailers-near-you",
+     "name": "Who Sells Mohawk Carpet? Where to Buy It \u2014 and When to Skip It"
     }
    ]
   },
@@ -1039,6 +1589,31 @@
    ]
   },
   {
+   "slug": "cost-to-tile-a-shower",
+   "name": "What It Costs to Tile a Shower in Sammamish",
+   "publish_date": "2026-11-17",
+   "item_id": null,
+   "service": "tile",
+   "donors": [
+    {
+     "slug": "top-hardwood-flooring-options-for-lakeside-homes-in-sammamish-wa-by-oc-flooring",
+     "name": "Top Hardwood Flooring Options for Lakeside Homes in Sammamish"
+    },
+    {
+     "slug": "bathroom-floor-tile-that-lasts",
+     "name": "Bathroom Floor Tile That Still Looks Right in Ten Years"
+    },
+    {
+     "slug": "how-much-does-it-cost-to-refinish-hardwood-floors",
+     "name": "Hardwood Floor Refinishing Cost & Prices: 2026 WA Guide"
+    },
+    {
+     "slug": "porcelain-vs-ceramic-tile",
+     "name": "Porcelain vs Ceramic Tile: Which Belongs in a Renton Home"
+    }
+   ]
+  },
+  {
    "slug": "drum-belt-orbital-sander-comparison",
    "name": "Drum vs Belt vs Orbital Sander: What Your Everett Contractor Uses",
    "publish_date": "2026-11-18",
@@ -1063,6 +1638,31 @@
      "slug": "do-you-have-to-move-out-to-replace-flooring",
      "item_id": "65f32565e111adbbb806d31d",
      "name": "Do You Have to Move Out to Replace or Refinish Your Floors?"
+    }
+   ]
+  },
+  {
+   "slug": "carpet-padding-thickness",
+   "name": "Carpet Padding: The Half of the Job Nobody Shops For",
+   "publish_date": "2026-11-19",
+   "item_id": null,
+   "service": "carpet",
+   "donors": [
+    {
+     "slug": "how-to-measure-for-carpet",
+     "name": "How to Measure a Room for Carpet (and Why Estimates Differ)"
+    },
+    {
+     "slug": "top-benefits-of-professional-flooring-installation-for-homeowners-in-bothell-wa",
+     "name": "Professional Flooring Installation vs DIY: An Honest Cost-of-Mistakes Analysis"
+    },
+    {
+     "slug": "carpet-stretching-cost",
+     "name": "Carpet Stretching: Fixing Ripples Without Replacing the Floor"
+    },
+    {
+     "slug": "best-carpet-for-pets",
+     "name": "The Best Carpet for Homes With Pets"
     }
    ]
   },
@@ -1123,6 +1723,31 @@
    ]
   },
   {
+   "slug": "large-format-tile-installation",
+   "name": "Large-Format Tile: Why Flat Subfloors Decide the Whole Job",
+   "publish_date": "2026-11-24",
+   "item_id": null,
+   "service": "tile",
+   "donors": [
+    {
+     "slug": "tile-shower-waterproofing",
+     "name": "Shower Waterproofing: The Layer That Decides Whether Your Tile Lasts"
+    },
+    {
+     "slug": "bathroom-floor-tile-that-lasts",
+     "name": "Bathroom Floor Tile That Still Looks Right in Ten Years"
+    },
+    {
+     "slug": "porcelain-vs-ceramic-tile",
+     "name": "Porcelain vs Ceramic Tile: Which Belongs in a Renton Home"
+    },
+    {
+     "slug": "tile-underlayment-explained",
+     "name": "Tile Underlayment Explained: Ditra, Cement Board, and What Goes Where"
+    }
+   ]
+  },
+  {
    "slug": "ash-hardwood-floors-refinishing-staining",
    "name": "Ash Hardwood Floors in Kirkland: Refinishing and Staining Notes",
    "publish_date": "2026-11-25",
@@ -1147,6 +1772,31 @@
      "slug": "can-you-add-hardwood-to-existing-hardwood-floors",
      "item_id": "65f32565e111adbbb806d0ee",
      "name": "Can You Add New Hardwood to Existing Hardwood Floors?"
+    }
+   ]
+  },
+  {
+   "slug": "do-carpet-installers-move-furniture",
+   "name": "Do Carpet Installers Move Your Furniture? What to Expect",
+   "publish_date": "2026-11-26",
+   "item_id": null,
+   "service": "carpet",
+   "donors": [
+    {
+     "slug": "do-you-have-to-move-furniture-to-stretch-carpet",
+     "name": "Do You Have to Move Furniture to Stretch Carpet? Mostly, Yes"
+    },
+    {
+     "slug": "cost-to-carpet-a-room",
+     "name": "What It Costs to Carpet One Room in Sammamish"
+    },
+    {
+     "slug": "how-to-measure-for-carpet",
+     "name": "How to Measure a Room for Carpet (and Why Estimates Differ)"
+    },
+    {
+     "slug": "best-carpet-for-stairs",
+     "name": "The Best Carpet for Stairs in an Everett Home"
     }
    ]
   },
@@ -1207,6 +1857,31 @@
    ]
   },
   {
+   "slug": "laundry-room-tile",
+   "name": "Laundry Room Tile: The Floor That Has to Survive a Leak",
+   "publish_date": "2026-12-01",
+   "item_id": null,
+   "service": "tile",
+   "donors": [
+    {
+     "slug": "tile-shower-waterproofing",
+     "name": "Shower Waterproofing: The Layer That Decides Whether Your Tile Lasts"
+    },
+    {
+     "slug": "top-benefits-of-professional-flooring-installation-for-homeowners-in-bothell-wa",
+     "name": "Professional Flooring Installation vs DIY: An Honest Cost-of-Mistakes Analysis"
+    },
+    {
+     "slug": "bathroom-floor-tile-that-lasts",
+     "name": "Bathroom Floor Tile That Still Looks Right in Ten Years"
+    },
+    {
+     "slug": "porcelain-vs-ceramic-tile",
+     "name": "Porcelain vs Ceramic Tile: Which Belongs in a Renton Home"
+    }
+   ]
+  },
+  {
    "slug": "squeaky-hardwood-floors-refinishing-wont-fix",
    "name": "Squeaky Hardwood Floors in Redmond: Why Refinishing Won't Fix It",
    "publish_date": "2026-12-02",
@@ -1231,6 +1906,31 @@
      "slug": "hardwood-floor-installations",
      "item_id": "65f32565e111adbbb806cf78",
      "name": "Hardwood Floor Installations: Nail-Down vs Glue-Down vs Floating"
+    }
+   ]
+  },
+  {
+   "slug": "carpet-vs-hardwood-room-by-room",
+   "name": "Carpet or Hardwood? Room-by-Room in an Issaquah Home",
+   "publish_date": "2026-12-03",
+   "item_id": null,
+   "service": "carpet",
+   "donors": [
+    {
+     "slug": "cost-to-carpet-a-room",
+     "name": "What It Costs to Carpet One Room in Sammamish"
+    },
+    {
+     "slug": "how-to-measure-for-carpet",
+     "name": "How to Measure a Room for Carpet (and Why Estimates Differ)"
+    },
+    {
+     "slug": "best-carpet-for-stairs",
+     "name": "The Best Carpet for Stairs in an Everett Home"
+    },
+    {
+     "slug": "low-pile-vs-high-pile-carpet",
+     "name": "Low Pile vs High Pile: Which Carpet Suits Your Rooms"
     }
    ]
   },
@@ -1291,6 +1991,31 @@
    ]
   },
   {
+   "slug": "entryway-tile-pacific-northwest",
+   "name": "Entryway Tile for Pacific Northwest Winters",
+   "publish_date": "2026-12-08",
+   "item_id": null,
+   "service": "tile",
+   "donors": [
+    {
+     "slug": "tile-shower-waterproofing",
+     "name": "Shower Waterproofing: The Layer That Decides Whether Your Tile Lasts"
+    },
+    {
+     "slug": "bathroom-floor-tile-that-lasts",
+     "name": "Bathroom Floor Tile That Still Looks Right in Ten Years"
+    },
+    {
+     "slug": "best-flooring-for-pacific-northwest-climate",
+     "name": "Best Flooring for the Pacific Northwest Climate: What Actually Survives Here"
+    },
+    {
+     "slug": "carpet-for-basement",
+     "name": "Carpet in a Basement: When It Works in the Pacific Northwest"
+    }
+   ]
+  },
+  {
    "slug": "rugs-and-rug-pads-that-dont-damage-finish",
    "name": "Rugs and Rug Pads That Don't Damage Your Finish",
    "publish_date": "2026-12-09",
@@ -1315,6 +2040,31 @@
      "slug": "how-often-should-i-replace-my-flooring",
      "item_id": "65f32565e111adbbb806cfdb",
      "name": "How Often Should You Replace Your Flooring?"
+    }
+   ]
+  },
+  {
+   "slug": "carpet-and-allergies",
+   "name": "Carpet and Allergies: What Helps and What's a Myth",
+   "publish_date": "2026-12-10",
+   "item_id": null,
+   "service": "carpet",
+   "donors": [
+    {
+     "slug": "5-carpet-options-for-carpet-installation-in-lynnwood-wa",
+     "name": "5 Carpet Options for Lynnwood Homes: An Honest 2026 Guide"
+    },
+    {
+     "slug": "stain-resistant-carpet",
+     "name": "Stain-Resistant Carpet: What the Warranties Actually Cover"
+    },
+    {
+     "slug": "transform-your-home-with-expert-hardwood-flooring-installation-in-lynnwood-wa",
+     "name": "Hardwood Flooring Installation in Lynnwood, WA: What to Expect, Step by Step"
+    },
+    {
+     "slug": "low-pile-vs-high-pile-carpet",
+     "name": "Low Pile vs High Pile: Which Carpet Suits Your Rooms"
     }
    ]
   },
@@ -1375,6 +2125,31 @@
    ]
   },
   {
+   "slug": "mudroom-tile",
+   "name": "Mudroom Tile That Handles Boots, Dogs, and Rain",
+   "publish_date": "2026-12-15",
+   "item_id": null,
+   "service": "tile",
+   "donors": [
+    {
+     "slug": "cost-to-tile-a-shower",
+     "name": "What It Costs to Tile a Shower in Sammamish"
+    },
+    {
+     "slug": "tile-shower-waterproofing",
+     "name": "Shower Waterproofing: The Layer That Decides Whether Your Tile Lasts"
+    },
+    {
+     "slug": "heated-bathroom-floor-cost",
+     "name": "Heated Bathroom Floors in Marysville: Cost, Payback, and Install Reality"
+    },
+    {
+     "slug": "epoxy-vs-cement-grout",
+     "name": "Epoxy vs Cement Grout: Where Each One Earns Its Price"
+    }
+   ]
+  },
+  {
    "slug": "hvac-dust-control-during-refinishing",
    "name": "What Contractors Do About HVAC and Dust Control in Mercer Island Homes",
    "publish_date": "2026-12-16",
@@ -1399,6 +2174,31 @@
      "slug": "how-to-remove-old-carpet",
      "item_id": "65f32565e111adbbb806d259",
      "name": "How to Remove Old Carpet Yourself: Tools, Steps & Local Disposal"
+    }
+   ]
+  },
+  {
+   "slug": "carpet-in-bedrooms",
+   "name": "Why Bedrooms Are Still the Best Room for Carpet",
+   "publish_date": "2026-12-17",
+   "item_id": null,
+   "service": "carpet",
+   "donors": [
+    {
+     "slug": "cost-to-carpet-a-room",
+     "name": "What It Costs to Carpet One Room in Sammamish"
+    },
+    {
+     "slug": "how-to-measure-for-carpet",
+     "name": "How to Measure a Room for Carpet (and Why Estimates Differ)"
+    },
+    {
+     "slug": "carpet-padding-thickness",
+     "name": "Carpet Padding: The Half of the Job Nobody Shops For"
+    },
+    {
+     "slug": "stain-resistant-carpet",
+     "name": "Stain-Resistant Carpet: What the Warranties Actually Cover"
     }
    ]
   },
@@ -1459,6 +2259,31 @@
    ]
   },
   {
+   "slug": "choosing-grout-color",
+   "name": "Choosing Grout Color: The Decision People Regret Most",
+   "publish_date": "2026-12-22",
+   "item_id": null,
+   "service": "tile",
+   "donors": [
+    {
+     "slug": "large-format-tile-installation",
+     "name": "Large-Format Tile: Why Flat Subfloors Decide the Whole Job"
+    },
+    {
+     "slug": "cost-to-tile-a-shower",
+     "name": "What It Costs to Tile a Shower in Sammamish"
+    },
+    {
+     "slug": "transform-your-home-with-expert-hardwood-flooring-installation-in-lynnwood-wa",
+     "name": "Hardwood Flooring Installation in Lynnwood, WA: What to Expect, Step by Step"
+    },
+    {
+     "slug": "choosing-the-best-floors-for-seattles-climate",
+     "name": "Choosing the Best Floors for Seattle's Climate, House by House"
+    }
+   ]
+  },
+  {
    "slug": "screen-recoat-vs-chemical-abrasion",
    "name": "Screen and Recoat vs Chemical Abrasion Systems",
    "publish_date": "2026-12-23",
@@ -1483,6 +2308,31 @@
      "slug": "is-vinyl-plank-better-than-laminate-a-comparison-by-oc-flooring-company",
      "item_id": "65f32565e111adbbb806d37e",
      "name": "Is Vinyl Plank Better Than Laminate? The 10-Round Head-to-Head"
+    }
+   ]
+  },
+  {
+   "slug": "when-to-replace-carpet",
+   "name": "Five Signs It's Time to Replace Your Carpet",
+   "publish_date": "2026-12-24",
+   "item_id": null,
+   "service": "carpet",
+   "donors": [
+    {
+     "slug": "6-reasons-to-replace-carpet-flooring",
+     "name": "6 Signs Your Carpet Is Done \u2014 and What to Replace It With"
+    },
+    {
+     "slug": "do-carpet-installers-move-furniture",
+     "name": "Do Carpet Installers Move Your Furniture? What to Expect"
+    },
+    {
+     "slug": "curbless-shower-build-mercer-island",
+     "name": "Curbless Showers in Mercer Island Homes: What the Build Actually Takes"
+    },
+    {
+     "slug": "carpet-padding-thickness",
+     "name": "Carpet Padding: The Half of the Job Nobody Shops For"
     }
    ]
   },
@@ -1543,6 +2393,31 @@
    ]
   },
   {
+   "slug": "regrouting-vs-retiling-a-shower",
+   "name": "Regrouting vs Retiling a Shower: How to Tell Which You Need",
+   "publish_date": "2026-12-29",
+   "item_id": null,
+   "service": "tile",
+   "donors": [
+    {
+     "slug": "cost-to-tile-a-shower",
+     "name": "What It Costs to Tile a Shower in Sammamish"
+    },
+    {
+     "slug": "laundry-room-tile",
+     "name": "Laundry Room Tile: The Floor That Has to Survive a Leak"
+    },
+    {
+     "slug": "large-format-tile-installation",
+     "name": "Large-Format Tile: Why Flat Subfloors Decide the Whole Job"
+    },
+    {
+     "slug": "all-about-subfloors-what-you-need-to-know",
+     "name": "Subfloors Explained: What's Under Your Floor Decides Everything Above It"
+    }
+   ]
+  },
+  {
    "slug": "flooring-transitions-between-rooms",
    "name": "Handling Transitions Between Rooms and Flooring Types in Redmond",
    "publish_date": "2026-12-30",
@@ -1567,6 +2442,31 @@
      "slug": "our-stair-installation-services",
      "item_id": "65f32565e111adbbb806d352",
      "name": "Stair Installation & Remodeling: A Homeowner's Guide to Getting It Right"
+    }
+   ]
+  },
+  {
+   "slug": "hiring-a-carpet-installer-seattle",
+   "name": "Hiring a Carpet Installer in Seattle: Questions That Matter",
+   "publish_date": "2026-12-31",
+   "item_id": null,
+   "service": "carpet",
+   "donors": [
+    {
+     "slug": "commercial-flooring-sanding-and-installation-in-seattle-wa-area-by-oc-flooring",
+     "name": "Commercial Floor Sanding & Installation in Seattle: A Practical Guide for Businesses"
+    },
+    {
+     "slug": "floor-refinishing-near-me-seattle-wa",
+     "name": "How to Choose a Floor Refinishing Contractor Near You (Seattle & Bellevue Checklist)"
+    },
+    {
+     "slug": "hardwood-floor-refinishing-near-me-seattle-wa",
+     "name": "Booking Hardwood Floor Refinishing in Seattle: Timing & Logistics"
+    },
+    {
+     "slug": "how-many-times-can-a-wood-floor-be-sanded-and-refinished-in-the-seattle-wa-area",
+     "name": "How Many Times Can a Wood Floor Be Sanded and Refinished?"
     }
    ]
   },
@@ -1627,6 +2527,31 @@
    ]
   },
   {
+   "slug": "subway-tile-patterns",
+   "name": "Subway Tile Patterns Beyond the Running Bond",
+   "publish_date": "2027-01-05",
+   "item_id": null,
+   "service": "tile",
+   "donors": [
+    {
+     "slug": "entryway-tile-pacific-northwest",
+     "name": "Entryway Tile for Pacific Northwest Winters"
+    },
+    {
+     "slug": "laundry-room-tile",
+     "name": "Laundry Room Tile: The Floor That Has to Survive a Leak"
+    },
+    {
+     "slug": "large-format-tile-installation",
+     "name": "Large-Format Tile: Why Flat Subfloors Decide the Whole Job"
+    },
+    {
+     "slug": "cost-to-tile-a-shower",
+     "name": "What It Costs to Tile a Shower in Sammamish"
+    }
+   ]
+  },
+  {
    "slug": "bamboo-floor-refinishing-when-it-works",
    "name": "Bamboo Floor Refinishing in Sammamish: When It Works and When It Doesn't",
    "publish_date": "2027-01-06",
@@ -1651,6 +2576,31 @@
      "slug": "what-color-should-i-stain-my-wood-floors",
      "item_id": "65f32565e111adbbb806d163",
      "name": "What Color Should I Stain My Wood Floors? A Refinisher's Guide"
+    }
+   ]
+  },
+  {
+   "slug": "wall-to-wall-carpet-cost",
+   "name": "Wall-to-Wall Carpet Cost in Kenmore, Room by Room",
+   "publish_date": "2027-01-07",
+   "item_id": null,
+   "service": "carpet",
+   "donors": [
+    {
+     "slug": "whats-the-best-carpeting-for-stairs-in-kenmore-wa",
+     "name": "What's the Best Carpeting for Stairs? An Honest Kenmore, WA Guide"
+    },
+    {
+     "slug": "cost-to-carpet-a-room",
+     "name": "What It Costs to Carpet One Room in Sammamish"
+    },
+    {
+     "slug": "carpet-vs-hardwood-room-by-room",
+     "name": "Carpet or Hardwood? Room-by-Room in an Issaquah Home"
+    },
+    {
+     "slug": "carpet-removal-cost",
+     "name": "What Carpet Removal Costs \u2014 and When It's Included"
     }
    ]
   },
@@ -1711,6 +2661,31 @@
    ]
   },
   {
+   "slug": "ditra-vs-cement-board",
+   "name": "Ditra vs Cement Board: A Tile Setter's Honest Comparison",
+   "publish_date": "2027-01-12",
+   "item_id": null,
+   "service": "tile",
+   "donors": [
+    {
+     "slug": "mudroom-tile",
+     "name": "Mudroom Tile That Handles Boots, Dogs, and Rain"
+    },
+    {
+     "slug": "entryway-tile-pacific-northwest",
+     "name": "Entryway Tile for Pacific Northwest Winters"
+    },
+    {
+     "slug": "laundry-room-tile",
+     "name": "Laundry Room Tile: The Floor That Has to Survive a Leak"
+    },
+    {
+     "slug": "large-format-tile-installation",
+     "name": "Large-Format Tile: Why Flat Subfloors Decide the Whole Job"
+    }
+   ]
+  },
+  {
    "slug": "peeling-flaking-floor-finish-why",
    "name": "Peeling or Flaking Floor Finish in Seattle: Why It Happens",
    "publish_date": "2027-01-13",
@@ -1735,6 +2710,31 @@
      "slug": "the-benefits-of-waterproof-flooring-in-seattle-wa",
      "item_id": "65f32565e111adbbb806d17d",
      "name": "The Benefits of Waterproof Flooring in Seattle \u2014 Room by Room"
+    }
+   ]
+  },
+  {
+   "slug": "carpet-fiber-types",
+   "name": "Nylon, Polyester, or Wool? Carpet Fibers Compared",
+   "publish_date": "2027-01-14",
+   "item_id": null,
+   "service": "carpet",
+   "donors": [
+    {
+     "slug": "carpet-and-allergies",
+     "name": "Carpet and Allergies: What Helps and What's a Myth"
+    },
+    {
+     "slug": "carpet-in-bedrooms",
+     "name": "Why Bedrooms Are Still the Best Room for Carpet"
+    },
+    {
+     "slug": "do-carpet-installers-move-furniture",
+     "name": "Do Carpet Installers Move Your Furniture? What to Expect"
+    },
+    {
+     "slug": "carpet-vs-hardwood-room-by-room",
+     "name": "Carpet or Hardwood? Room-by-Room in an Issaquah Home"
     }
    ]
   },
@@ -1795,6 +2795,31 @@
    ]
   },
   {
+   "slug": "kitchen-backsplash-installation-cost",
+   "name": "What a Kitchen Backsplash Costs Installed in Kenmore",
+   "publish_date": "2027-01-19",
+   "item_id": null,
+   "service": "tile",
+   "donors": [
+    {
+     "slug": "whats-the-best-carpeting-for-stairs-in-kenmore-wa",
+     "name": "What's the Best Carpeting for Stairs? An Honest Kenmore, WA Guide"
+    },
+    {
+     "slug": "choosing-grout-color",
+     "name": "Choosing Grout Color: The Decision People Regret Most"
+    },
+    {
+     "slug": "mudroom-tile",
+     "name": "Mudroom Tile That Handles Boots, Dogs, and Rain"
+    },
+    {
+     "slug": "entryway-tile-pacific-northwest",
+     "name": "Entryway Tile for Pacific Northwest Winters"
+    }
+   ]
+  },
+  {
    "slug": "refinishing-around-radiators-vents-built-ins",
    "name": "Refinishing Around Radiators, Vents, and Built-Ins in Edmonds Homes",
    "publish_date": "2027-01-20",
@@ -1819,6 +2844,31 @@
      "slug": "beautiful-hardwood-floor-heating-vents",
      "item_id": "65f32565e111adbbb806d35a",
      "name": "Hardwood Floor Heating Vents: Flush-Mount vs. Drop-In, and When to Add Them"
+    }
+   ]
+  },
+  {
+   "slug": "berber-vs-plush-carpet",
+   "name": "Berber vs Plush: Which Carpet Wears Better",
+   "publish_date": "2027-01-21",
+   "item_id": null,
+   "service": "carpet",
+   "donors": [
+    {
+     "slug": "when-to-replace-carpet",
+     "name": "Five Signs It's Time to Replace Your Carpet"
+    },
+    {
+     "slug": "carpet-and-allergies",
+     "name": "Carpet and Allergies: What Helps and What's a Myth"
+    },
+    {
+     "slug": "carpet-in-bedrooms",
+     "name": "Why Bedrooms Are Still the Best Room for Carpet"
+    },
+    {
+     "slug": "how-long-does-carpet-last",
+     "name": "How Long Should Carpet Last? An Honest Answer"
     }
    ]
   },
@@ -1879,6 +2929,31 @@
    ]
   },
   {
+   "slug": "why-tile-floors-crack",
+   "name": "Why Tile Floors Crack \u2014 and What It Says About the Subfloor",
+   "publish_date": "2027-01-26",
+   "item_id": null,
+   "service": "tile",
+   "donors": [
+    {
+     "slug": "choosing-grout-color",
+     "name": "Choosing Grout Color: The Decision People Regret Most"
+    },
+    {
+     "slug": "mudroom-tile",
+     "name": "Mudroom Tile That Handles Boots, Dogs, and Rain"
+    },
+    {
+     "slug": "laundry-room-tile",
+     "name": "Laundry Room Tile: The Floor That Has to Survive a Leak"
+    },
+    {
+     "slug": "entryway-tile-pacific-northwest",
+     "name": "Entryway Tile for Pacific Northwest Winters"
+    }
+   ]
+  },
+  {
    "slug": "site-finished-vs-factory-finished-long-term",
    "name": "Site-Finished vs Factory-Finished in Renton: The Long-Term Reality",
    "publish_date": "2027-01-27",
@@ -1903,6 +2978,31 @@
      "slug": "what-is-a-floating-floor",
      "item_id": "65f32565e111adbbb806d37a",
      "name": "What Is a Floating Floor? Construction, Pros and Fit"
+    }
+   ]
+  },
+  {
+   "slug": "carpet-warranty-explained",
+   "name": "Reading a Carpet Warranty Before You Buy",
+   "publish_date": "2027-01-28",
+   "item_id": null,
+   "service": "carpet",
+   "donors": [
+    {
+     "slug": "hiring-a-carpet-installer-seattle",
+     "name": "Hiring a Carpet Installer in Seattle: Questions That Matter"
+    },
+    {
+     "slug": "flooring-guide-mill-creek-wa",
+     "name": "Flooring in Mill Creek, WA: An Honest Room-by-Room Local Guide"
+    },
+    {
+     "slug": "when-to-replace-carpet",
+     "name": "Five Signs It's Time to Replace Your Carpet"
+    },
+    {
+     "slug": "carpet-stretching-cost",
+     "name": "Carpet Stretching: Fixing Ripples Without Replacing the Floor"
     }
    ]
   },
@@ -1963,6 +3063,31 @@
    ]
   },
   {
+   "slug": "how-long-to-tile-a-bathroom",
+   "name": "How Long Does It Take to Tile a Bathroom? A Real Timeline",
+   "publish_date": "2027-02-02",
+   "item_id": null,
+   "service": "tile",
+   "donors": [
+    {
+     "slug": "subway-tile-patterns",
+     "name": "Subway Tile Patterns Beyond the Running Bond"
+    },
+    {
+     "slug": "flooring-guide-mill-creek-wa",
+     "name": "Flooring in Mill Creek, WA: An Honest Room-by-Room Local Guide"
+    },
+    {
+     "slug": "choosing-grout-color",
+     "name": "Choosing Grout Color: The Decision People Regret Most"
+    },
+    {
+     "slug": "mudroom-tile",
+     "name": "Mudroom Tile That Handles Boots, Dogs, and Rain"
+    }
+   ]
+  },
+  {
    "slug": "refinished-floor-looks-different-room-to-room",
    "name": "Why Your Refinished Floor Looks Different Room to Room in Bellevue",
    "publish_date": "2027-02-03",
@@ -1987,6 +3112,31 @@
      "slug": "flooring-installers-near-me-seattle-bellevue-wa",
      "item_id": "6a17b3394efab36881a3c92d",
      "name": "Flooring Installers Near Me: How to Hire Well in Seattle & Bellevue"
+    }
+   ]
+  },
+  {
+   "slug": "stair-runner-cost",
+   "name": "Stair Runners: Cost, Installation, and Whether They Last",
+   "publish_date": "2027-02-04",
+   "item_id": null,
+   "service": "carpet",
+   "donors": [
+    {
+     "slug": "wall-to-wall-carpet-cost",
+     "name": "Wall-to-Wall Carpet Cost in Kenmore, Room by Room"
+    },
+    {
+     "slug": "how-long-does-carpet-last",
+     "name": "How Long Should Carpet Last? An Honest Answer"
+    },
+    {
+     "slug": "carpet-removal-cost",
+     "name": "What Carpet Removal Costs \u2014 and When It's Included"
+    },
+    {
+     "slug": "carpet-stretching-cost",
+     "name": "Carpet Stretching: Fixing Ripples Without Replacing the Floor"
     }
    ]
   },
@@ -2047,6 +3197,31 @@
    ]
   },
   {
+   "slug": "tile-share-bathroom-remodel-budget-seattle",
+   "name": "Tile's Share of a Seattle Bathroom Remodel Budget",
+   "publish_date": "2027-02-09",
+   "item_id": null,
+   "service": "tile",
+   "donors": [
+    {
+     "slug": "hardwood-floor-refinishing-cost-seattle-wa",
+     "name": "Hardwood Floor Refinishing Cost in Seattle: Craftsman Fir, Condos & City Logistics (2026)"
+    },
+    {
+     "slug": "laminate-flooring-installation-cost-seattle-wa",
+     "name": "Laminate Flooring Installation Cost in Seattle, WA (2026 Guide)"
+    },
+    {
+     "slug": "pet-friendly-allergy-friendly-flooring-seattle",
+     "name": "Pet-Friendly, Allergy-Friendly Flooring for Seattle Homes"
+    },
+    {
+     "slug": "renew-your-home-with-wood-floor-refinishing-service-from-oc-flooring-company-in-seattle-wa",
+     "name": "Wood Floor Refinishing in Seattle: What It Fixes and How We Work"
+    }
+   ]
+  },
+  {
    "slug": "penetrating-oil-finish-pros-cons-maintenance",
    "name": "Penetrating Oil Finishes in Sammamish: Pros, Cons, and Maintenance Reality",
    "publish_date": "2027-02-10",
@@ -2071,6 +3246,31 @@
      "slug": "what-is-a-floating-floor",
      "item_id": "65f32565e111adbbb806d37a",
      "name": "What Is a Floating Floor? Construction, Pros and Fit"
+    }
+   ]
+  },
+  {
+   "slug": "carpet-color-trends",
+   "name": "Carpet Colors That Won't Date Your House",
+   "publish_date": "2027-02-11",
+   "item_id": null,
+   "service": "carpet",
+   "donors": [
+    {
+     "slug": "carpet-fiber-types",
+     "name": "Nylon, Polyester, or Wool? Carpet Fibers Compared"
+    },
+    {
+     "slug": "hiring-a-carpet-installer-seattle",
+     "name": "Hiring a Carpet Installer in Seattle: Questions That Matter"
+    },
+    {
+     "slug": "wall-to-wall-carpet-cost",
+     "name": "Wall-to-Wall Carpet Cost in Kenmore, Room by Room"
+    },
+    {
+     "slug": "low-pile-vs-high-pile-carpet",
+     "name": "Low Pile vs High Pile: Which Carpet Suits Your Rooms"
     }
    ]
   },
@@ -2131,6 +3331,31 @@
    ]
   },
   {
+   "slug": "hiring-a-tile-installer-seattle",
+   "name": "Hiring a Tile Installer in Seattle: What to Ask Before You Sign",
+   "publish_date": "2027-02-16",
+   "item_id": null,
+   "service": "tile",
+   "donors": [
+    {
+     "slug": "hiring-a-carpet-installer-seattle",
+     "name": "Hiring a Carpet Installer in Seattle: Questions That Matter"
+    },
+    {
+     "slug": "the-benefits-of-waterproof-flooring-in-seattle-wa",
+     "name": "The Benefits of Waterproof Flooring in Seattle \u2014 Room by Room"
+    },
+    {
+     "slug": "what-to-do-when-you-experience-water-damage-in-your-seattle-home-or-business",
+     "name": "Water Damage on Your Floors: The First 24 Hours (Seattle-Area Guide)"
+    },
+    {
+     "slug": "why-oc-flooring-hardwood-refinishing-is-worth-the-investment-for-your-home-in-seattle-wa-area",
+     "name": "What a Quality Hardwood Refinish Includes \u2014 and Why It\u2019s Worth the Investment"
+    }
+   ]
+  },
+  {
    "slug": "how-many-coats-of-finish-hardwood-floor",
    "name": "How Many Coats of Finish Does a Hardwood Floor Actually Need",
    "publish_date": "2027-02-17",
@@ -2155,6 +3380,31 @@
      "slug": "water-resistant-flooring-a-durable-and-practical-option-for-your-home",
      "item_id": "65f32565e111adbbb806d358",
      "name": "Water-Resistant Flooring: What the Label Actually Promises"
+    }
+   ]
+  },
+  {
+   "slug": "rental-property-carpet",
+   "name": "Carpet for Rentals: What Landlords Should Actually Buy",
+   "publish_date": "2027-02-18",
+   "item_id": null,
+   "service": "carpet",
+   "donors": [
+    {
+     "slug": "stain-resistant-carpet",
+     "name": "Stain-Resistant Carpet: What the Warranties Actually Cover"
+    },
+    {
+     "slug": "berber-vs-plush-carpet",
+     "name": "Berber vs Plush: Which Carpet Wears Better"
+    },
+    {
+     "slug": "oc-flooring-provides-hardwood-floor-refinishing-in-woodinville-wa",
+     "name": "Hardwood Floor Refinishing in Woodinville, WA: A Local's Guide"
+    },
+    {
+     "slug": "what-to-do-with-your-floor-before-putting-your-house-on-the-market-in-woodinville-wa",
+     "name": "What to Do With Your Floors Before Listing Your Woodinville Home"
     }
    ]
   },
@@ -2215,6 +3465,31 @@
    ]
   },
   {
+   "slug": "schluter-kerdi-vs-liquid-membrane",
+   "name": "Schluter Kerdi vs Liquid Membrane: Two Ways to Keep Water Out",
+   "publish_date": "2027-02-23",
+   "item_id": null,
+   "service": "tile",
+   "donors": [
+    {
+     "slug": "ditra-vs-cement-board",
+     "name": "Ditra vs Cement Board: A Tile Setter's Honest Comparison"
+    },
+    {
+     "slug": "why-tile-floors-crack",
+     "name": "Why Tile Floors Crack \u2014 and What It Says About the Subfloor"
+    },
+    {
+     "slug": "subway-tile-patterns",
+     "name": "Subway Tile Patterns Beyond the Running Bond"
+    },
+    {
+     "slug": "choosing-grout-color",
+     "name": "Choosing Grout Color: The Decision People Regret Most"
+    }
+   ]
+  },
+  {
    "slug": "nail-holes-gouges-filler-what-sanding-cant-hide",
    "name": "Nail Holes, Gouges, and Filler in Renton Floors: What Sanding Can't Hide",
    "publish_date": "2027-02-24",
@@ -2239,6 +3514,31 @@
      "slug": "hardwood-floor-installations",
      "item_id": "65f32565e111adbbb806cf78",
      "name": "Hardwood Floor Installations: Nail-Down vs Glue-Down vs Floating"
+    }
+   ]
+  },
+  {
+   "slug": "carpet-condo-sound-rules-seattle",
+   "name": "Carpet for Condo Sound Rules in Seattle Buildings",
+   "publish_date": "2027-02-25",
+   "item_id": null,
+   "service": "carpet",
+   "donors": [
+    {
+     "slug": "hiring-a-carpet-installer-seattle",
+     "name": "Hiring a Carpet Installer in Seattle: Questions That Matter"
+    },
+    {
+     "slug": "why-spring-is-the-best-time-to-get-new-flooring-in-seattle-wa",
+     "name": "Best Time to Buy New Flooring in Seattle: Why Spring Wins"
+    },
+    {
+     "slug": "why-vinyl-plank-flooring-is-perfect-for-seattle-homes",
+     "name": "Why Vinyl Plank Flooring Is Perfect for Seattle Homes: A Rainy-Week Reality Check"
+    },
+    {
+     "slug": "benefits-of-vinyl-plank-flooring-for-seattle-wa-homes-a-guide-from-oc-flooring",
+     "name": "How to Choose Vinyl Plank for a Seattle Home: A Buyer's Spec Guide"
     }
    ]
   },
@@ -2299,6 +3599,31 @@
    ]
   },
   {
+   "slug": "tile-vs-luxury-vinyl-bathroom",
+   "name": "Tile or Luxury Vinyl in a Monroe Bathroom?",
+   "publish_date": "2027-03-02",
+   "item_id": null,
+   "service": "tile",
+   "donors": [
+    {
+     "slug": "how-long-to-tile-a-bathroom",
+     "name": "How Long Does It Take to Tile a Bathroom? A Real Timeline"
+    },
+    {
+     "slug": "ditra-vs-cement-board",
+     "name": "Ditra vs Cement Board: A Tile Setter's Honest Comparison"
+    },
+    {
+     "slug": "why-tile-floors-crack",
+     "name": "Why Tile Floors Crack \u2014 and What It Says About the Subfloor"
+    },
+    {
+     "slug": "subway-tile-patterns",
+     "name": "Subway Tile Patterns Beyond the Running Bond"
+    }
+   ]
+  },
+  {
    "slug": "refinishing-walnut-without-losing-color",
    "name": "Refinishing Walnut in Mercer Island Homes Without Losing the Color",
    "publish_date": "2027-03-03",
@@ -2323,6 +3648,31 @@
      "slug": "can-you-replace-just-one-piece-of-vinyl-plank-flooring",
      "item_id": "65f32565e111adbbb806d380",
      "name": "Can You Replace Just One Piece of Vinyl Plank Flooring?"
+    }
+   ]
+  },
+  {
+   "slug": "why-carpet-seams-show",
+   "name": "Why Carpet Seams Show \u2014 and How Good Installers Hide Them",
+   "publish_date": "2027-03-04",
+   "item_id": null,
+   "service": "carpet",
+   "donors": [
+    {
+     "slug": "do-carpet-installers-move-furniture",
+     "name": "Do Carpet Installers Move Your Furniture? What to Expect"
+    },
+    {
+     "slug": "carpet-warranty-explained",
+     "name": "Reading a Carpet Warranty Before You Buy"
+    },
+    {
+     "slug": "carpet-fiber-types",
+     "name": "Nylon, Polyester, or Wool? Carpet Fibers Compared"
+    },
+    {
+     "slug": "berber-vs-plush-carpet",
+     "name": "Berber vs Plush: Which Carpet Wears Better"
     }
    ]
   },
@@ -2383,6 +3733,31 @@
    ]
   },
   {
+   "slug": "heated-floor-mat-vs-cable",
+   "name": "Heated Floor Mats vs Loose Cable: Which Suits Your Room",
+   "publish_date": "2027-03-09",
+   "item_id": null,
+   "service": "tile",
+   "donors": [
+    {
+     "slug": "tile-share-bathroom-remodel-budget-seattle",
+     "name": "Tile's Share of a Seattle Bathroom Remodel Budget"
+    },
+    {
+     "slug": "how-long-to-tile-a-bathroom",
+     "name": "How Long Does It Take to Tile a Bathroom? A Real Timeline"
+    },
+    {
+     "slug": "ditra-vs-cement-board",
+     "name": "Ditra vs Cement Board: A Tile Setter's Honest Comparison"
+    },
+    {
+     "slug": "why-tile-floors-crack",
+     "name": "Why Tile Floors Crack \u2014 and What It Says About the Subfloor"
+    }
+   ]
+  },
+  {
    "slug": "eastside-vs-seattle-homes-different-floors",
    "name": "Eastside vs Seattle Homes: Different Floors, Different Problems",
    "publish_date": "2027-03-10",
@@ -2407,6 +3782,31 @@
      "slug": "who-sells-mohawk-carpet-find-top-retailers-near-you",
      "item_id": "66cd02ba7854b1cdd4d6c054",
      "name": "Who Sells Mohawk Carpet? Where to Buy It \u2014 and When to Skip It"
+    }
+   ]
+  },
+  {
+   "slug": "carpet-tiles-vs-broadloom",
+   "name": "Carpet Tiles vs Broadloom for Basements and Offices",
+   "publish_date": "2027-03-11",
+   "item_id": null,
+   "service": "carpet",
+   "donors": [
+    {
+     "slug": "carpet-color-trends",
+     "name": "Carpet Colors That Won't Date Your House"
+    },
+    {
+     "slug": "wood-flooring-installation-in-snohomish-area",
+     "name": "Wood Flooring Installation in the Snohomish Area: Farmhouses to New Builds"
+    },
+    {
+     "slug": "carpet-warranty-explained",
+     "name": "Reading a Carpet Warranty Before You Buy"
+    },
+    {
+     "slug": "carpet-padding-thickness",
+     "name": "Carpet Padding: The Half of the Job Nobody Shops For"
     }
    ]
   },
@@ -2467,6 +3867,31 @@
    ]
   },
   {
+   "slug": "small-bathroom-tile-ideas",
+   "name": "Making a Small Bathroom Feel Bigger With Tile",
+   "publish_date": "2027-03-16",
+   "item_id": null,
+   "service": "tile",
+   "donors": [
+    {
+     "slug": "tile-share-bathroom-remodel-budget-seattle",
+     "name": "Tile's Share of a Seattle Bathroom Remodel Budget"
+    },
+    {
+     "slug": "how-long-to-tile-a-bathroom",
+     "name": "How Long Does It Take to Tile a Bathroom? A Real Timeline"
+    },
+    {
+     "slug": "hiring-a-tile-installer-seattle",
+     "name": "Hiring a Tile Installer in Seattle: What to Ask Before You Sign"
+    },
+    {
+     "slug": "oc-flooring-provides-hardwood-floor-refinishing-in-woodinville-wa",
+     "name": "Hardwood Floor Refinishing in Woodinville, WA: A Local's Guide"
+    }
+   ]
+  },
+  {
    "slug": "how-long-does-hardwood-floor-finish-last",
    "name": "How Long Does a Hardwood Floor Finish Actually Last",
    "publish_date": "2027-03-17",
@@ -2491,6 +3916,31 @@
      "slug": "water-resistant-flooring-a-durable-and-practical-option-for-your-home",
      "item_id": "65f32565e111adbbb806d358",
      "name": "Water-Resistant Flooring: What the Label Actually Promises"
+    }
+   ]
+  },
+  {
+   "slug": "clean-or-replace-carpet",
+   "name": "Clean It or Replace It? Judging Carpet Honestly",
+   "publish_date": "2027-03-18",
+   "item_id": null,
+   "service": "carpet",
+   "donors": [
+    {
+     "slug": "when-to-replace-carpet",
+     "name": "Five Signs It's Time to Replace Your Carpet"
+    },
+    {
+     "slug": "rental-property-carpet",
+     "name": "Carpet for Rentals: What Landlords Should Actually Buy"
+    },
+    {
+     "slug": "carpet-color-trends",
+     "name": "Carpet Colors That Won't Date Your House"
+    },
+    {
+     "slug": "carpet-vs-hardwood-room-by-room",
+     "name": "Carpet or Hardwood? Room-by-Room in an Issaquah Home"
     }
    ]
   },
@@ -2551,6 +4001,31 @@
    ]
   },
   {
+   "slug": "slip-resistant-tile",
+   "name": "Slip-Resistant Tile for Homes With Dogs and Older Adults",
+   "publish_date": "2027-03-23",
+   "item_id": null,
+   "service": "tile",
+   "donors": [
+    {
+     "slug": "hiring-a-tile-installer-seattle",
+     "name": "Hiring a Tile Installer in Seattle: What to Ask Before You Sign"
+    },
+    {
+     "slug": "tile-share-bathroom-remodel-budget-seattle",
+     "name": "Tile's Share of a Seattle Bathroom Remodel Budget"
+    },
+    {
+     "slug": "subway-tile-patterns",
+     "name": "Subway Tile Patterns Beyond the Running Bond"
+    },
+    {
+     "slug": "ditra-vs-cement-board",
+     "name": "Ditra vs Cement Board: A Tile Setter's Honest Comparison"
+    }
+   ]
+  },
+  {
    "slug": "daylight-basement-floors-pacific-northwest",
    "name": "Daylight Basement Floors in Renton and the Pacific Northwest",
    "publish_date": "2027-03-24",
@@ -2575,6 +4050,31 @@
      "slug": "how-to-take-care-of-vinyl-flooring",
      "item_id": "65f32565e111adbbb806d370",
      "name": "How to Take Care of Vinyl Flooring (and What Quietly Ruins It)"
+    }
+   ]
+  },
+  {
+   "slug": "carpet-subfloor-prep",
+   "name": "What Happens Under Carpet: Subfloor Prep and Tack Strip",
+   "publish_date": "2027-03-25",
+   "item_id": null,
+   "service": "carpet",
+   "donors": [
+    {
+     "slug": "carpet-condo-sound-rules-seattle",
+     "name": "Carpet for Condo Sound Rules in Seattle Buildings"
+    },
+    {
+     "slug": "rental-property-carpet",
+     "name": "Carpet for Rentals: What Landlords Should Actually Buy"
+    },
+    {
+     "slug": "carpet-and-allergies",
+     "name": "Carpet and Allergies: What Helps and What's a Myth"
+    },
+    {
+     "slug": "carpet-in-bedrooms",
+     "name": "Why Bedrooms Are Still the Best Room for Carpet"
     }
    ]
   },
@@ -2635,6 +4135,31 @@
    ]
   },
   {
+   "slug": "tiling-over-concrete-basement-slab",
+   "name": "Tiling Over a Concrete Basement Slab in Snohomish",
+   "publish_date": "2027-03-30",
+   "item_id": null,
+   "service": "tile",
+   "donors": [
+    {
+     "slug": "wood-flooring-installation-in-snohomish-area",
+     "name": "Wood Flooring Installation in the Snohomish Area: Farmhouses to New Builds"
+    },
+    {
+     "slug": "tile-vs-luxury-vinyl-bathroom",
+     "name": "Tile or Luxury Vinyl in a Monroe Bathroom?"
+    },
+    {
+     "slug": "hiring-a-tile-installer-seattle",
+     "name": "Hiring a Tile Installer in Seattle: What to Ask Before You Sign"
+    },
+    {
+     "slug": "why-tile-floors-crack",
+     "name": "Why Tile Floors Crack \u2014 and What It Says About the Subfloor"
+    }
+   ]
+  },
+  {
    "slug": "refinishing-vs-resurfacing-vs-restoration-terms",
    "name": "Refinishing vs Resurfacing vs Restoration: Terms Explained",
    "publish_date": "2027-03-31",
@@ -2659,6 +4184,31 @@
      "slug": "all-about-subfloors-what-you-need-to-know",
      "item_id": "65f32565e111adbbb806d37d",
      "name": "Subfloors Explained: What's Under Your Floor Decides Everything Above It"
+    }
+   ]
+  },
+  {
+   "slug": "carpet-stairs-fall-safety",
+   "name": "Carpet on Stairs and Fall Safety in Older Homes",
+   "publish_date": "2027-04-01",
+   "item_id": null,
+   "service": "carpet",
+   "donors": [
+    {
+     "slug": "best-carpet-for-pets",
+     "name": "The Best Carpet for Homes With Pets"
+    },
+    {
+     "slug": "why-carpet-seams-show",
+     "name": "Why Carpet Seams Show \u2014 and How Good Installers Hide Them"
+    },
+    {
+     "slug": "carpet-condo-sound-rules-seattle",
+     "name": "Carpet for Condo Sound Rules in Seattle Buildings"
+    },
+    {
+     "slug": "wall-to-wall-carpet-cost",
+     "name": "Wall-to-Wall Carpet Cost in Kenmore, Room by Room"
     }
    ]
   },
@@ -2719,6 +4269,31 @@
    ]
   },
   {
+   "slug": "sealing-and-maintaining-tile",
+   "name": "Sealing and Maintaining Tile: What Actually Needs Doing",
+   "publish_date": "2027-04-06",
+   "item_id": null,
+   "service": "tile",
+   "donors": [
+    {
+     "slug": "tile-vs-luxury-vinyl-bathroom",
+     "name": "Tile or Luxury Vinyl in a Monroe Bathroom?"
+    },
+    {
+     "slug": "how-long-to-tile-a-bathroom",
+     "name": "How Long Does It Take to Tile a Bathroom? A Real Timeline"
+    },
+    {
+     "slug": "tile-share-bathroom-remodel-budget-seattle",
+     "name": "Tile's Share of a Seattle Bathroom Remodel Budget"
+    },
+    {
+     "slug": "hiring-a-tile-installer-seattle",
+     "name": "Hiring a Tile Installer in Seattle: What to Ask Before You Sign"
+    }
+   ]
+  },
+  {
    "slug": "what-refinished-floors-add-to-appraisal",
    "name": "What Refinished Floors Add to a Sammamish Appraisal",
    "publish_date": "2027-04-07",
@@ -2743,6 +4318,31 @@
      "slug": "what-is-spc-flooring-is-it-good",
      "item_id": "65f32565e111adbbb806d371",
      "name": "What Is SPC Plank Flooring \u2014 and Is It Any Good?"
+    }
+   ]
+  },
+  {
+   "slug": "high-end-carpet-worth-it",
+   "name": "When Premium Carpet Is Worth It \u2014 and When It Isn't",
+   "publish_date": "2027-04-08",
+   "item_id": null,
+   "service": "carpet",
+   "donors": [
+    {
+     "slug": "is-it-worth-it-to-restretch-your-carpet",
+     "name": "Is It Worth It to Restretch Your Carpet? The Honest Math"
+    },
+    {
+     "slug": "low-pile-vs-high-pile-carpet",
+     "name": "Low Pile vs High Pile: Which Carpet Suits Your Rooms"
+    },
+    {
+     "slug": "carpet-tiles-vs-broadloom",
+     "name": "Carpet Tiles vs Broadloom for Basements and Offices"
+    },
+    {
+     "slug": "why-carpet-seams-show",
+     "name": "Why Carpet Seams Show \u2014 and How Good Installers Hide Them"
     }
    ]
   },

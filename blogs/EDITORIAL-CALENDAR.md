@@ -89,6 +89,19 @@ Webflow CMS → Blogs, working down the queue in date order.
    Three do **not** follow the `city-of-<slug>/` pattern: Seattle (`/seattle/…`),
    Newcastle (`/city-of-new-castle/…`) and Bothell (`/hardwood-floor-refinishing/…`).
 
+## Tile & carpet series (added 2026-08-30)
+
+One post per weekday now: **Mon/Wed/Fri refinishing · Tue tile · Thu carpet**,
+all at 7 AM Pacific through 2027-04-12. 32 tile + 32 carpet posts, Semrush-anchored
+keywords, cities weighted by population (86% city-accented). Plan of record:
+`blogs/plan/TILE-CARPET-PLAN.json`; facts sheet `blogs/plan/TILE-CARPET-FACTS.md`;
+validator `blogs/plan/tc_validate.py`; writer spec `blogs/plan/TC-AGENT-BRIEF.md`.
+Categories: Tile & Backsplash (`6a948233e243f74e3fbca239`), Carpet & Stairs
+(`6a948233e243f74e3fbca23b`) — each category page is an indexable hub listing its posts.
+The publish routine (cron `0 14 * * 1-5`) reads the unified 164-post queue in
+`blogs/plan/INBOUND-PLAN.json`, publishes the earliest due post, syncs the body from
+the repo, and adds 4 inbound links from the assigned donors at publish time.
+
 ## Published / in progress
 
 | Date | Topic (# from master list) | City | Slug | Webflow item | Status |
