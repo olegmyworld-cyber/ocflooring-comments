@@ -32,3 +32,25 @@
 <p>In-home estimates across King &amp; Snohomish County. Licensed &amp; insured · Since 2013 · 1,000+ floors · 1-yr workmanship warranty · Financing available.</p>
 <a class="b1" href="tel:+14255951079">📞 (425) 595-1079</a><a class="b2" href="/contact">Book My Free Estimate</a></section>
 </div>
+
+<!-- oc-gallery-install-only: keep only installation project photos in the Our Gallery slider
+     (#auto-height-swiper). The gallery component's CMS filter prop cannot currently be set via
+     the API; proper long-term fix is Designer > gallery section > Floor Type = Hardwood Floor
+     Installation, after which this script can be deleted. Captions of installation items all
+     contain "installation"; refinishing/vinyl items do not (or contain vinyl/LVP/refinishing). -->
+<script id="oc-gallery-install-only">
+(function(){
+  function f(){
+    var sw=document.getElementById('auto-height-swiper'); if(!sw) return;
+    var removed=0;
+    Array.prototype.slice.call(sw.querySelectorAll('.swiper-slide')).forEach(function(s){
+      var t=(s.textContent||'').toLowerCase();
+      var keep=t.indexOf('installation')>-1 && t.indexOf('vinyl')<0 && t.indexOf('lvp')<0 && t.indexOf('refinish')<0;
+      if(!keep && s.parentNode){s.parentNode.removeChild(s);removed++;}
+    });
+    if(removed && sw.swiper && sw.swiper.update) sw.swiper.update();
+  }
+  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',f,{once:true});else f();
+  window.addEventListener('load',f);
+})();
+</script>
