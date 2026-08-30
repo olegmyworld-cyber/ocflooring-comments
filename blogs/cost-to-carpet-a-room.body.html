@@ -1,0 +1,191 @@
+<div data-rt-embed-type='true'><style>
+.ocb{--ink:#0f172a;--muted:#64748b;--line:#e5e7eb;--soft:#f8fafc;--brand:#8B0000;--brand2:#5c0000;--gold:#fbbc04;font-family:'Mulish',Inter,system-ui,sans-serif;color:var(--ink)}
+.ocb *{box-sizing:border-box}
+.ocb-card{border:1px solid var(--line);border-radius:18px;background:#fff;box-shadow:0 10px 30px rgba(2,6,23,.06);padding:22px;margin:26px 0}
+.ocb-eyebrow{display:inline-block;background:rgba(139,0,0,.08);color:var(--brand2);border:1px solid rgba(139,0,0,.2);border-radius:999px;padding:5px 12px;font-size:12.5px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;margin-bottom:10px}
+.ocb-chips{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0 0}
+.ocb-chip{background:var(--soft);border:1px solid var(--line);border-radius:999px;padding:6px 12px;font-size:13.6px;font-weight:700}
+.ocb-table{width:100%;border-collapse:collapse;font-size:15.2px}
+.ocb-table th,.ocb-table td{padding:11px 10px;text-align:left;border-bottom:1px solid var(--line)}
+.ocb-table th{background:var(--soft);font-weight:800;font-size:13.6px;letter-spacing:.02em}
+.ocb-table tr:last-child td{border-bottom:0}
+.ocb-table td strong{color:var(--brand2)}
+.ocb-2col{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media(max-width:680px){.ocb-2col{grid-template-columns:1fr}}
+.ocb-check{list-style:none;padding:0;margin:10px 0 0}
+.ocb-check li{padding-left:26px;position:relative;margin:7px 0;line-height:1.55}
+.ocb-check li:before{content:"✓";position:absolute;left:0;color:var(--brand);font-weight:900}
+.ocb-x li:before{content:"✕";color:#94a3b8}
+html body .post-body .ocb-facts, .ocb-facts{display:grid!important;grid-template-columns:repeat(3,1fr)!important;gap:12px!important;margin:8px 0!important}
+@media(max-width:680px){html body .post-body .ocb-facts, .ocb-facts{grid-template-columns:1fr!important}}
+.ocb-fact{background:linear-gradient(180deg,#fff,#f8fafc);border:1px solid var(--line);border-radius:16px;padding:16px}
+.ocb-fact .n{font-size:24px;font-weight:900;color:var(--brand2);display:block;margin-bottom:4px}
+html body .post-body .ocb-fact p, .ocb-fact p{margin:0!important;font-size:14.7px!important;color:#334155!important;line-height:1.5!important}
+
+.ocb-card,.ocb-fact,.ocb-tri{transition:transform .28s ease,box-shadow .28s ease}
+.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:translateY(-4px);box-shadow:0 16px 40px rgba(2,6,23,.12)}
+.faq-item{transition:border-color .25s,box-shadow .25s}
+.faq-item:hover{border-color:rgba(139,0,0,.35);box-shadow:0 6px 18px rgba(2,6,23,.07)}
+.ocb-chip{display:inline-flex;align-items:center;gap:6px;transition:transform .2s,border-color .2s}
+.ocb-chip:hover{transform:translateY(-2px);border-color:rgba(139,0,0,.35)}
+.ocb-chip svg{color:#8B0000}
+.ocb-cta a{transition:transform .22s,box-shadow .22s}
+.ocb-cta a:hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(0,0,0,.25)}
+.ocb-fact .n{position:relative}
+html.ocb-anim-ready .ocb-rv{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
+html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){html.ocb-anim-ready .ocb-rv{opacity:1!important;transform:none!important;transition:none!important}.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:none}}
+
+/* Chip icons. Webflow's rich-text sanitizer strips inline <svg> whenever a post is
+   re-saved in the Editor, so the icons are drawn from CSS on a <span> instead. */
+.ocb-ic{display:inline-block;width:15px;height:15px;flex:0 0 auto;vertical-align:-2px;background-repeat:no-repeat;background-position:center;background-size:contain}
+.ocb-ic-pin{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z'/><circle cx='12' cy='10' r='3'/></svg>")}
+.ocb-ic-home{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z'/><polyline points='9 22 9 12 15 12 15 22'/></svg>")}
+.ocb-ic-phone{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z'/></svg>")}
+.ocb-cta .ocb-ic{filter:brightness(0) saturate(100%) invert(9%) sepia(64%) saturate(4000%) hue-rotate(348deg)}
+</style></div>
+
+<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">October 29, 2026</span></div></div>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
+  <span class="ocb-eyebrow">Quick answer</span>
+  <p style="margin:0;font-size:17.9px;line-height:1.65"><strong>Carpeting a single room in Sammamish starts with simple arithmetic &mdash; installed carpet from $1.49 per square foot against a typical bedroom's 140&ndash;200 square feet &mdash; but the honest quote carries fixed costs the arithmetic misses:</strong> tear-out and disposal, transitions at every doorway, furniture moving, and a crew's trip that costs the same whether they lay one room or five. That is why one room never costs a fifth of five rooms, and why sometimes the smart move is doing the hallway while the crew is already there. We measure free and put the whole thing in writing the same visit.</p>
+  <div class="ocb-chips">
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-pin"></span> King &amp; Snohomish County</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-home"></span> Sammamish &amp; the Plateau</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-phone"></span> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
+  </div>
+</div></div>
+
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-facts">
+  <div class="ocb-fact"><span class="n">From $1.49/sq ft</span><p>where installed carpet starts with us &mdash; material, pad and labor together. A single-room job still gets the same pad choices and the same power-stretched installation as a whole house.</p></div>
+  <div class="ocb-fact"><span class="n">~170 sq ft</span><p>what a typical 12&times;12 bedroom actually consumes once roll width and waste are counted &mdash; the floor is 144 square feet, but carpet comes off a 12-foot roll and closets count too.</p></div>
+  <div class="ocb-fact"><span class="n">Same visit</span><p>when you get our written price. We measure the room, the closet and the doorways in person, bring the samples to your light, and the number we leave is the number you pay.</p></div>
+</div></div></div>
+
+<h2>The One-Room Math, Honestly</h2>
+
+<p>Start with the part you can do on a napkin. A 12-by-12 bedroom is 144 square feet of floor. Add the closet &mdash; almost every Sammamish bedroom has a real one, and walk-ins are common on the Plateau &mdash; and measure through the doorway to the middle of the door, and you are near 160. Carpet comes off a 12-foot roll, so add waste for the cuts, and the material the job consumes lands around 170 square feet. Against an installed price that starts at $1.49 per square foot, the napkin says a few hundred dollars, and the napkin is not wrong about the carpet.</p>
+
+<p>What the napkin misses is everything that is not carpet. The old floor has to come out, get carried downstairs, and be hauled somewhere that charges by the load. Every doorway needs a proper transition to the floor it meets &mdash; hardwood, tile or the hallway's older carpet. The furniture has to move twice. And the crew, the van, the tools and the trip cost the same for one bedroom as for a whole upstairs. None of those line items care how small the room is, which is exactly why they deserve to be named in the quote instead of discovered after. Our <a href="/blog/how-to-measure-for-carpet">guide to measuring for carpet</a> covers the roll-width math; here is the rest of the bill.</p>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-card">
+  <h3 style="margin:0 0 10px;font-size:18.5px;font-weight:900;color:#5c0000">A One-Room Carpet Quote, Line by Line</h3>
+  <div style="overflow-x:auto"><table class="ocb-table">
+    <tr><th>Line item</th><th>Scales with room size?</th><th>What to know</th></tr>
+    <tr><td><strong>Carpet</strong></td><td>Yes</td><td>Priced on the carpet the job consumes &mdash; roll width and waste included &mdash; not the bare floor area</td></tr>
+    <tr><td><strong>Pad</strong></td><td>Yes</td><td>Small rooms are the cheapest place to upgrade pad; the difference on 170 square feet is lunch money and you feel it for a decade</td></tr>
+    <tr><td><strong>Labor</strong></td><td>Partly</td><td>Tack strip, seaming and power-stretching scale with size, but setup and the trip do not &mdash; the fixed half looms large in a small job</td></tr>
+    <tr><td><strong>Tear-out &amp; disposal</strong></td><td>Partly</td><td>One room still means a disposal run; ask whether it is included or an &ldquo;extra&rdquo; waiting to surface</td></tr>
+    <tr><td><strong>Transitions</strong></td><td>No &mdash; per doorway</td><td>Each doorway needs the right trim piece for the floor it meets; a bedroom usually has one or two</td></tr>
+    <tr><td><strong>Furniture</strong></td><td>No</td><td>We move normal bedroom furniture and put it back; emptying the dresser first makes the day faster</td></tr>
+    <tr><td><strong>Subfloor surprises</strong></td><td>Only if found</td><td>Squeaks and soft spots get fixed while the floor is open &mdash; cheap now, annoying forever if skipped</td></tr>
+  </table></div>
+</div></div>
+
+<h2>Why One Room Costs More Per Foot Than a Whole Floor</h2>
+
+<p>Spread those fixed lines over one bedroom and they are a real share of the bill; spread them over an entire upstairs and they nearly vanish into the per-foot price. That is the whole mystery of one-room pricing, and it is not unique to carpet &mdash; it is why a plumber's first hour costs more than his third. It also produces the industry's least-loved surprise: the homeowner who collects a whole-house quote, divides by five, and expects one room for that number. The honest answer is that the fifth room was always the cheapest one.</p>
+
+<p>The useful move is to flip the logic. If the hallway outside the bedroom is the same vintage and one shade sadder, adding it while the crew is already set up is the cheapest that hallway will ever be. Same for the bonus room across the landing. We will price the single room straight, and we will also tell you what the adjacent spaces would add &mdash; not as a push, but because the fixed costs are already paid and you deserve to see the arithmetic. What a fair number looks like across a bigger job is covered in <a href="/blog/carpet-installation-cost-seattle">what carpet installation costs</a> and <a href="/blog/what-is-a-good-price-to-pay-for-carpet-in-seattle-wa">what a good carpet price looks like</a>.</p>
+
+<h2>When One Room Is Exactly the Right Call</h2>
+
+<p>Plenty of the single-room jobs we do in Sammamish are the correct scope, no upsell required. A nursery on the way &mdash; new, soft, clean carpet in one room, on a deadline. A teenager's bedroom that has absorbed years of concentrated abuse the rest of the house was spared. A home office that became a home office in 2020 and earned it. Pet damage confined to one room &mdash; if the pad or subfloor took the hit, replacement beats cleaning, and <a href="/blog/best-carpet-for-pets">the right pet spec</a> stops the rerun. A leak or spill that ruined one floor. In all of these, the room has a clear boundary &mdash; a doorway where new carpet can meet the old floor with a clean transition &mdash; and nobody will ever notice the seam in your carpet history.</p>
+
+<p>One honest caveat: if the room's carpet is continuous with the hallway's &mdash; no doorway break, one uninterrupted piece &mdash; a one-room replacement means cutting a seam where none existed and marrying new carpet to old at it. New meets old the way new jeans meet old jeans: same size, different life. We will tell you at the measure whether your boundary is clean or whether the hallway wants to come along for the ride.</p>
+
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-2col">
+  <div class="ocb-card" style="margin:0">
+    <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#5c0000">Signs one room is enough</h3>
+    <ul class="ocb-check">
+      <li>The damage or wear is confined to that room &mdash; the rest of the floor is honestly fine</li>
+      <li>A doorway gives the new carpet a clean place to stop</li>
+      <li>The room has a deadline the rest of the house does not &mdash; nursery, listing photos, a move-in</li>
+      <li>You are matching function, not color &mdash; an office, a gym, a guest room</li>
+      <li>The adjacent carpet is a different age or style anyway, so nothing was ever going to match</li>
+    </ul>
+  </div>
+  <div class="ocb-card" style="margin:0">
+    <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#334155">Signs the whole floor makes more sense</h3>
+    <ul class="ocb-check ocb-x">
+      <li>The hallway and landing share the room&rsquo;s carpet with no break to hide the change</li>
+      <li>Every room up there is the same age and showing it &mdash; you would be back within two years</li>
+      <li>Stairs are involved and worn; they wear first and match nothing &mdash; see our stairs guide</li>
+      <li>You are selling &mdash; buyers read one new room and four tired ones as four line items</li>
+      <li>The fixed costs bother you &mdash; they are paid once either way, and the per-foot price falls fast</li>
+    </ul>
+  </div>
+</div></div></div>
+
+<h2>Sammamish Rooms, Specifically</h2>
+
+<p>The Plateau's housing stock shapes the jobs. Most of Sammamish went up from the 1990s onward, which means big primary bedrooms with walk-in closets &mdash; measure the closet, it is a real room &mdash; and <strong>bonus rooms over garages</strong>, the classic single-room job: cold floor below, kids' traffic above, and a doorway that gives new carpet a clean boundary. It also means <strong>daylight basements</strong> on the sloped lots, where the right answer depends on moisture before it depends on color &mdash; our <a href="/blog/carpet-for-basement">basement carpet guide</a> covers that conversation honestly. And it means two-story layouts where the stairs take the traffic of the whole house; if yours are showing it, <a href="/blog/best-carpet-for-stairs">carpet for stairs</a> explains why they are priced per tread and worth the most resilient fiber in the budget.</p>
+
+<p>We bring the mobile showroom to all of it &mdash; twenty-plus full-size samples and all three pad grades, laid out in the actual room, because Plateau light through second-growth firs is its own color grader. The measure is free, the written price arrives the same visit, and most single rooms are installed in a morning. The full local details live on our <a href="/city-of-sammamish/carpet-installation-in-sammamish-wa">Sammamish carpet installation page</a>.</p>
+
+<div data-rt-embed-type='true'><!-- FAQ accordion + JSON-LD -->
+<div class="faq-wrap ocb" aria-labelledby="faq-title">
+  <h2 id="faq-title" class="faq-title">Carpeting One Room in Sammamish: What Homeowners Ask Us</h2>
+  <div class="faq-items" role="list">
+    <details class="faq-item" role="listitem"><summary class="faq-q">How much does it cost to carpet one room?</summary><div class="faq-a">Installed carpet starts at $1.49 per square foot with us, and a typical 12-by-12 bedroom consumes about 170 square feet once the closet, doorway and roll-width waste are counted. On top of the carpet math sit the fixed parts of any job — tear-out and disposal, transitions, furniture moving and the trip itself — which is why we measure in person and give you one written number that includes all of it.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Why does one room cost more per square foot than a whole house?</summary><div class="faq-a">Because the fixed costs — the crew’s trip, setup, tear-out run, disposal — are spread over 170 square feet instead of 1,700. The carpet itself costs the same per foot either way. This is also why adding an adjacent hallway or bonus room while the crew is already there is the cheapest those spaces will ever be.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Can you match my existing carpet in the rest of the house?</summary><div class="faq-a">Honestly, rarely. Even the identical style and color from the same mill comes from a different dye lot, and your existing carpet has years of light and traffic on it. The clean solution is a doorway transition, where the eye accepts a change. If the old carpet runs unbroken into the hall, we will tell you at the measure whether a seam there will show.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Is it worth doing the hallway or stairs at the same time?</summary><div class="faq-a">Often, yes. The fixed costs are already paid, so adjacent spaces add at close to the bare per-foot rate. Stairs are the strongest case — they wear faster than any room, they are priced per tread regardless of when you do them, and a fresh bedroom next to a worn staircase just moves the eyesore six feet.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">How long does carpeting one room take?</summary><div class="faq-a">Usually a morning once the carpet has arrived — tear-out, subfloor check, pad, power-stretched installation and furniture back in place. Ordering the carpet is the longer part of the timeline, since it is cut from a roll at the mill. We will give you both timelines at the measure.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Do you handle small jobs like a single bedroom, or is there a minimum?</summary><div class="faq-a">We do single rooms all the time — nurseries, offices, teenage-bedroom recoveries. The quote carries the job’s real fixed costs, so a small room costs more per foot than a big house, but the work gets the same spec: proper tack strip, the pad grade you chose, and a power-stretched installation, not a knee-kicked one.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">What if there is pet damage or a stain — replace or clean?</summary><div class="faq-a">Depends on how deep it went. Surface stains on sound carpet clean out. Urine that reached the pad or subfloor will outlast any cleaning, and one room of replacement with a moisture-barrier pad is the fix that actually ends it. If the carpet is merely rippled, restretching costs a fraction of replacement — we will tell you which situation you have.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Does new carpet in one room help or hurt when selling?</summary><div class="faq-a">One fresh room next to visibly tired ones reads as a to-do list to buyers, so for a listing the better spend is usually the whole visible run — hall, stairs, main rooms — in one consistent, neutral carpet. For a single problem room with a clean doorway boundary, one room is fine. We will give you straight numbers for both scopes and let you decide.</div></details>
+  </div>
+</div>
+
+<style>
+  .faq-wrap{--line:#e5e7eb;margin:28px auto;padding:20px;border:1px solid var(--line);border-radius:16px;background:#fff;box-shadow:0 8px 30px rgba(2,6,23,.06)}
+  .faq-title{margin:0 0 14px;font-size:24px;font-weight:900;text-align:center;color:#5c0000}
+  .faq-items{display:grid;gap:10px}
+  .faq-item{border:1px solid var(--line);border-radius:14px;background:#f9fafb;overflow:hidden}
+  .faq-q{cursor:pointer;display:block;padding:14px 16px;font-weight:800;color:#0f172a}
+  .faq-q::-webkit-details-marker{display:none}
+  .faq-item[open] .faq-q{background:linear-gradient(180deg, rgba(139,0,0,.08), rgba(139,0,0,.02))}
+  .faq-a{padding:0 16px 14px;color:#1f2937;line-height:1.6}
+</style>
+
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How much does it cost to carpet one room?", "acceptedAnswer": {"@type": "Answer", "text": "Installed carpet starts at $1.49 per square foot with us, and a typical 12-by-12 bedroom consumes about 170 square feet once the closet, doorway and roll-width waste are counted. On top of the carpet math sit the fixed parts of any job — tear-out and disposal, transitions, furniture moving and the trip itself — which is why we measure in person and give you one written number that includes all of it."}}, {"@type": "Question", "name": "Why does one room cost more per square foot than a whole house?", "acceptedAnswer": {"@type": "Answer", "text": "Because the fixed costs — the crew’s trip, setup, tear-out run, disposal — are spread over 170 square feet instead of 1,700. The carpet itself costs the same per foot either way. This is also why adding an adjacent hallway or bonus room while the crew is already there is the cheapest those spaces will ever be."}}, {"@type": "Question", "name": "Can you match my existing carpet in the rest of the house?", "acceptedAnswer": {"@type": "Answer", "text": "Honestly, rarely. Even the identical style and color from the same mill comes from a different dye lot, and your existing carpet has years of light and traffic on it. The clean solution is a doorway transition, where the eye accepts a change. If the old carpet runs unbroken into the hall, we will tell you at the measure whether a seam there will show."}}, {"@type": "Question", "name": "Is it worth doing the hallway or stairs at the same time?", "acceptedAnswer": {"@type": "Answer", "text": "Often, yes. The fixed costs are already paid, so adjacent spaces add at close to the bare per-foot rate. Stairs are the strongest case — they wear faster than any room, they are priced per tread regardless of when you do them, and a fresh bedroom next to a worn staircase just moves the eyesore six feet."}}, {"@type": "Question", "name": "How long does carpeting one room take?", "acceptedAnswer": {"@type": "Answer", "text": "Usually a morning once the carpet has arrived — tear-out, subfloor check, pad, power-stretched installation and furniture back in place. Ordering the carpet is the longer part of the timeline, since it is cut from a roll at the mill. We will give you both timelines at the measure."}}, {"@type": "Question", "name": "Do you handle small jobs like a single bedroom, or is there a minimum?", "acceptedAnswer": {"@type": "Answer", "text": "We do single rooms all the time — nurseries, offices, teenage-bedroom recoveries. The quote carries the job’s real fixed costs, so a small room costs more per foot than a big house, but the work gets the same spec: proper tack strip, the pad grade you chose, and a power-stretched installation, not a knee-kicked one."}}, {"@type": "Question", "name": "What if there is pet damage or a stain — replace or clean?", "acceptedAnswer": {"@type": "Answer", "text": "Depends on how deep it went. Surface stains on sound carpet clean out. Urine that reached the pad or subfloor will outlast any cleaning, and one room of replacement with a moisture-barrier pad is the fix that actually ends it. If the carpet is merely rippled, restretching costs a fraction of replacement — we will tell you which situation you have."}}, {"@type": "Question", "name": "Does new carpet in one room help or hurt when selling?", "acceptedAnswer": {"@type": "Answer", "text": "One fresh room next to visibly tired ones reads as a to-do list to buyers, so for a listing the better spend is usually the whole visible run — hall, stairs, main rooms — in one consistent, neutral carpet. For a single problem room with a clean doorway boundary, one room is fine. We will give you straight numbers for both scopes and let you decide."}}]}
+</script></div>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-cta" style="margin:30px 0">
+  <style>
+    html body .post-body .ocb-cta h2, .ocb-cta h2{color:#fff!important}
+    html body .post-body .ocb-cta .ocb-cta-sub, .ocb-cta .ocb-cta-sub{color:rgba(255,255,255,.88)!important}
+    html body .post-body .ocb-cta .ocb-cta-chips span, .ocb-cta .ocb-cta-chips span{color:rgba(255,255,255,.94)!important}
+    html body .post-body .ocb-cta a.ocb-cta-ghost, .ocb-cta a.ocb-cta-ghost{color:#fff!important;text-decoration:none!important}
+    html body .post-body .ocb-cta a.ocb-cta-gold, .ocb-cta a.ocb-cta-gold{color:#fbbc04!important}
+    html body .post-body .ocb-cta a.ocb-cta-phone, .ocb-cta a.ocb-cta-phone{color:#5c0000!important;text-decoration:none!important}
+  </style>
+  <div style="background:linear-gradient(135deg,#8B0000,#5c0000);border-radius:20px;padding:28px 24px;color:#fff;text-align:center;box-shadow:0 14px 34px rgba(92,0,0,.3)">
+    <h2 style="margin:0 0 6px;color:#fff!important;font-size:24px;font-weight:900">Price One Room Without the Guesswork</h2>
+    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.92)!important;font-size:16.3px">We measure the room, closet and doorways, bring twenty-plus samples and all three pad grades to your light, and leave a written price the same visit &mdash; one room or the whole floor, your call. Free in-home estimates across Sammamish and all of King &amp; Snohomish County.</p>
+    <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
+      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff!important;color:#5c0000!important;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none!important"><span class="ocb-ic ocb-ic-phone"></span> (425) 595-1079</a>
+      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.16)!important;border:1px solid rgba(255,255,255,.55);color:#fff!important;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none!important">Book My Free Consultation</a>
+    </div>
+    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.95)!important">
+      <span>✓ Since 2013</span><span>✓ 1,000+ floors</span><span>✓ 1-yr workmanship warranty</span><span>✓ Licensed &amp; insured</span><span>✓ Financing available</span>
+    </div>
+    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04!important;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
+  </div>
+</div></div>
+
+<p><strong>Related reading:</strong> <a href="/blog/how-to-measure-for-carpet">How to measure a room for carpet</a> · <a href="/blog/carpet-installation-cost-seattle">What carpet installation costs in Seattle</a> · <a href="/blog/best-carpet-for-stairs">The best carpet for stairs</a> · <a href="/blog/carpet-for-basement">Carpet in basements, honestly</a> · <a href="/city-of-sammamish/carpet-installation-in-sammamish-wa">Carpet installation in Sammamish</a> · <a href="/contact">Book a free measure</a></p>
+
+<div data-rt-embed-type='true'><script>
+(function(){try{
+var els=document.querySelectorAll('.ocb-card,.ocb-fact,.ocb-tri,.faq-item');
+if(!('IntersectionObserver' in window)||!els.length)return;
+document.documentElement.classList.add('ocb-anim-ready');
+els.forEach(function(e,i){e.classList.add('ocb-rv');e.style.transitionDelay=Math.min((i%6)*70,350)+'ms'});
+var io=new IntersectionObserver(function(en){en.forEach(function(x){if(x.isIntersecting){x.target.classList.add('ocb-in');io.unobserve(x.target)}})},{threshold:.12,rootMargin:'0px 0px -8% 0px'});
+els.forEach(function(e){io.observe(e)});
+}catch(e){}})();
+</script></div>

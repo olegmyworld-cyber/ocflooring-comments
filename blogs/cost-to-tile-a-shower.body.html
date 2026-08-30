@@ -1,0 +1,196 @@
+<div data-rt-embed-type='true'><style>
+.ocb{--ink:#0f172a;--muted:#64748b;--line:#e5e7eb;--soft:#f8fafc;--brand:#8B0000;--brand2:#5c0000;--gold:#fbbc04;font-family:'Mulish',Inter,system-ui,sans-serif;color:var(--ink)}
+.ocb *{box-sizing:border-box}
+.ocb-card{border:1px solid var(--line);border-radius:18px;background:#fff;box-shadow:0 10px 30px rgba(2,6,23,.06);padding:22px;margin:26px 0}
+.ocb-eyebrow{display:inline-block;background:rgba(139,0,0,.08);color:var(--brand2);border:1px solid rgba(139,0,0,.2);border-radius:999px;padding:5px 12px;font-size:12.5px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;margin-bottom:10px}
+.ocb-chips{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0 0}
+.ocb-chip{background:var(--soft);border:1px solid var(--line);border-radius:999px;padding:6px 12px;font-size:13.6px;font-weight:700}
+.ocb-table{width:100%;border-collapse:collapse;font-size:15.2px}
+.ocb-table th,.ocb-table td{padding:11px 10px;text-align:left;border-bottom:1px solid var(--line)}
+.ocb-table th{background:var(--soft);font-weight:800;font-size:13.6px;letter-spacing:.02em}
+.ocb-table tr:last-child td{border-bottom:0}
+.ocb-table td strong{color:var(--brand2)}
+.ocb-2col{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media(max-width:680px){.ocb-2col{grid-template-columns:1fr}}
+.ocb-check{list-style:none;padding:0;margin:10px 0 0}
+.ocb-check li{padding-left:26px;position:relative;margin:7px 0;line-height:1.55}
+.ocb-check li:before{content:"✓";position:absolute;left:0;color:var(--brand);font-weight:900}
+.ocb-x li:before{content:"✕";color:#94a3b8}
+html body .post-body .ocb-facts, .ocb-facts{display:grid!important;grid-template-columns:repeat(3,1fr)!important;gap:12px!important;margin:8px 0!important}
+@media(max-width:680px){html body .post-body .ocb-facts, .ocb-facts{grid-template-columns:1fr!important}}
+.ocb-fact{background:linear-gradient(180deg,#fff,#f8fafc);border:1px solid var(--line);border-radius:16px;padding:16px}
+.ocb-fact .n{font-size:24px;font-weight:900;color:var(--brand2);display:block;margin-bottom:4px}
+html body .post-body .ocb-fact p, .ocb-fact p{margin:0!important;font-size:14.7px!important;color:#334155!important;line-height:1.5!important}
+
+.ocb-card,.ocb-fact,.ocb-tri{transition:transform .28s ease,box-shadow .28s ease}
+.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:translateY(-4px);box-shadow:0 16px 40px rgba(2,6,23,.12)}
+.faq-item{transition:border-color .25s,box-shadow .25s}
+.faq-item:hover{border-color:rgba(139,0,0,.35);box-shadow:0 6px 18px rgba(2,6,23,.07)}
+.ocb-chip{display:inline-flex;align-items:center;gap:6px;transition:transform .2s,border-color .2s}
+.ocb-chip:hover{transform:translateY(-2px);border-color:rgba(139,0,0,.35)}
+.ocb-chip svg{color:#8B0000}
+.ocb-cta a{transition:transform .22s,box-shadow .22s}
+.ocb-cta a:hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(0,0,0,.25)}
+.ocb-fact .n{position:relative}
+html.ocb-anim-ready .ocb-rv{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
+html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){html.ocb-anim-ready .ocb-rv{opacity:1!important;transform:none!important;transition:none!important}.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:none}}
+
+/* Chip icons. Webflow's rich-text sanitizer strips inline <svg> whenever a post is
+   re-saved in the Editor, so the icons are drawn from CSS on a <span> instead. */
+.ocb-ic{display:inline-block;width:15px;height:15px;flex:0 0 auto;vertical-align:-2px;background-repeat:no-repeat;background-position:center;background-size:contain}
+.ocb-ic-pin{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z'/><circle cx='12' cy='10' r='3'/></svg>")}
+.ocb-ic-home{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z'/><polyline points='9 22 9 12 15 12 15 22'/></svg>")}
+.ocb-ic-phone{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z'/></svg>")}
+.ocb-cta .ocb-ic{filter:brightness(0) saturate(100%) invert(9%) sepia(64%) saturate(4000%) hue-rotate(348deg)}
+</style></div>
+
+<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">November 17, 2026</span></div></div>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
+  <span class="ocb-eyebrow">Quick answer</span>
+  <p style="margin:0;font-size:17.9px;line-height:1.65"><strong>Tiling a shower runs $14&ndash;$26 per square foot installed with us, labor from $11/sq ft &mdash; but a shower is priced by its assembly, not its area.</strong> A standard tub surround is roughly 60 square feet of wall; a walk-in shower adds a pan, a curb or curbless slope, and more wall &mdash; and on every one of them, the biggest share of the money goes to what you will never see: demolition, substrate corrections, and the waterproofing system behind the tile. This is the quote explained line by line, including the project half of Sammamish seems to be doing right now: the garden-tub-to-walk-in-shower conversion.</p>
+  <div class="ocb-chips">
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-pin"></span> King &amp; Snohomish County</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-home"></span> Sammamish homes &amp; remodels</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-phone"></span> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
+  </div>
+</div></div>
+
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-facts">
+  <div class="ocb-fact"><span class="n">$11/sq ft</span><p>where our tile labor starts. Installed &mdash; labor, setting materials and prep &mdash; showers run $14 to $26 per square foot depending on tile, layout, and what the walls hide.</p></div>
+  <div class="ocb-fact"><span class="n">24 hours</span><p>how long every pan we build sits full of water before tile goes on. The flood test is photographed and kept on record &mdash; a leak found after tile is a demolition.</p></div>
+  <div class="ocb-fact"><span class="n">2 years</span><p>our warranty on tile work, double the trade&rsquo;s usual one year. We can offer it because of what goes in behind the tile, not what shows in front of it.</p></div>
+</div></div></div>
+
+<h2>The Quote, Line by Line</h2>
+
+<p>When three shower bids land on your kitchen table and disagree by thousands, the disagreement is almost never about tile. It is about which of these lines each bidder actually included. Here is every line an honest shower quote carries, and what pushes each one up or down.</p>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-card">
+  <h3 style="margin:0 0 10px;font-size:18.5px;font-weight:900;color:#5c0000">What a Shower Tile Quote Is Made Of</h3>
+  <div style="overflow-x:auto"><table class="ocb-table">
+    <tr><th>Line item</th><th>What it covers</th><th>What moves the number</th></tr>
+    <tr><td><strong>Demolition &amp; disposal</strong></td><td>Old surround or tile out, down to studs in a rebuild</td><td>One layer of 90s tile is quick; a mortar bed or hidden rot is not</td></tr>
+    <tr><td><strong>Substrate &amp; framing</strong></td><td>Backer board, flattening, fixing what demolition reveals</td><td>The great unknown &mdash; this is why good quotes carry a contingency line</td></tr>
+    <tr><td><strong>Waterproofing assembly</strong></td><td>Pre-slope, bonded membrane, sealed corners, curb, drain</td><td>The biggest labor share on the whole quote &mdash; and the least visible</td></tr>
+    <tr><td><strong>Flood test</strong></td><td>The pan filled for 24 hours and photographed, before tile</td><td>A day of schedule; the cheapest insurance in the project</td></tr>
+    <tr><td><strong>Tile &amp; setting materials</strong></td><td>Your tile, thinset, leveling systems, trim profiles</td><td>Tile choice is yours; large format and stone add setting labor</td></tr>
+    <tr><td><strong>Setting &amp; grout labor</strong></td><td>Layout, cutting, setting, grout, silicone at every plane change</td><td>Niches, benches, patterns and small mosaics all add hours</td></tr>
+    <tr><td><strong>Upgrades</strong></td><td>Epoxy grout, heated floor outside the curb, custom niches</td><td>Optional &mdash; priced as visible line items, not buried</td></tr>
+    <tr><td><strong>Other trades</strong></td><td>Plumbing changes, glass door, electrical</td><td>Real costs that belong in your budget even when they are not on our line</td></tr>
+  </table></div>
+</div></div>
+
+<p>Two of those lines deserve a sentence more. The <strong>waterproofing assembly</strong> is most of what separates a shower from a floor of the same size &mdash; the full stack is explained in <a href="/blog/tile-shower-waterproofing">our shower waterproofing guide</a>, and it is the line where cheap bids quietly save their money. And <strong>the contingency</strong>: Sammamish showers from the 1990s builds hide their surprises behind intact-looking walls, so a bid with no allowance for discovery is not cheaper &mdash; it is just planning to renegotiate mid-job, when you have no leverage.</p>
+
+<h2>Three Sammamish Showers, Priced in Shape</h2>
+
+<p>Real rooms explain ranges better than percentages. <strong>A tub surround refresh</strong> &mdash; keep the tub, retile the three walls above it &mdash; is about 60 square feet of wall and the friendliest version of the project: less demolition, no pan to build, waterproofing on the walls only. <strong>A full walk-in rebuild</strong> in the same footprint adds the pan assembly, the curb, more wall area and usually a niche or bench, which is why it costs meaningfully more than the surround even before the glass. <strong>A large curbless walk-in</strong> in a primary suite is the top of the market: the floor gets opened so the pan can recess and slope without a curb, which is structural work before it is tile work &mdash; the build we describe in <a href="/blog/curbless-shower-build-mercer-island">our curbless shower guide</a>.</p>
+
+<p>The per-square-foot math behaves the way small rooms always do: fixed costs &mdash; mobilization, waterproofing sequence, the flood-test day &mdash; divide across few square feet, so a shower is expensive per foot and moderate in total. The full arithmetic of that effect is in our <a href="/blog/tile-installation-cost-per-square-foot">per-square-foot price breakdown</a>.</p>
+
+<h2>The Tub-to-Shower Conversion, Honestly</h2>
+
+<p>The signature project on the plateau: a mid-90s primary bath in Klahanie or Trossachs with a garden tub nobody has filled since the second Clinton administration, converted into a walk-in shower people use twice a day. It is usually worth doing and it is never a surround-sized job, for three reasons. <strong>The drain moves.</strong> A tub drain sits at one end; a shower drain wants the center or the low line of a sloped pan, and that is plumbing work under the floor. <strong>The pan is built from nothing</strong> &mdash; pre-slope, membrane, flood test &mdash; where the tub used to handle all of that by being a tub. <strong>The walls go taller and often wider</strong>, because a shower wants tile to the ceiling and the old tub deck footprint rarely matches the new layout.</p>
+
+<p>Two honest notes we give every conversion client. Keep at least one tub somewhere in the house &mdash; buyers with small children will look for it. And since the floor is open and the room is a construction zone anyway, this is the cheapest moment you will ever get for the two add-ons people ask about later: a heated bathroom floor outside the curb &mdash; the math is in <a href="/blog/heated-bathroom-floor-cost">our heated floor cost guide</a> &mdash; and a properly built niche instead of a wire basket hanging off the shower head, which we cover in <a href="/blog/shower-niche-placement-size-waterproofing">the shower niche guide</a>.</p>
+
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-2col">
+  <div class="ocb-card" style="margin:0">
+    <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#5c0000">On every complete shower quote</h3>
+    <ul class="ocb-check">
+      <li>Demolition, disposal, and a named allowance for surprises</li>
+      <li>Substrate work listed as its own line, not folded into &ldquo;tile&rdquo;</li>
+      <li>A named waterproofing system &mdash; sheet or liquid, by brand</li>
+      <li>Pre-slope and pan build, with a photographed 24-hour flood test</li>
+      <li>Niche, bench and curb waterproofing called out individually</li>
+      <li>Grout spec by name &mdash; and silicone at every change of plane</li>
+    </ul>
+  </div>
+  <div class="ocb-card" style="margin:0">
+    <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#334155">Missing from the suspiciously cheap one</h3>
+    <ul class="ocb-check ocb-x">
+      <li>Any mention of what happens if the walls hide rot</li>
+      <li>The membrane &mdash; cement board alone is doing the waterproofing</li>
+      <li>The flood test, because it costs a day of schedule</li>
+      <li>Plumbing scope on a conversion &mdash; &ldquo;handled&rdquo; is not a scope</li>
+      <li>Tile trim profiles and edge finishing &mdash; the details you see daily</li>
+      <li>A warranty that survives longer than the final invoice</li>
+    </ul>
+  </div>
+</div></div></div>
+
+<h2>Where the Spread Between Bids Comes From</h2>
+
+<p>Take the same Sammamish shower to three contractors and the numbers can spread by half. Now you can read the spread: one bid skipped the membrane system, one assumed nothing is wrong behind the walls, and one priced the job as it will actually be built. Tile choice adds honest variance on top &mdash; large-format porcelain and natural stone take more setting labor, patterns add cuts &mdash; and upgrades belong in daylight: epoxy grout is a legitimate line in a shower, for reasons we lay out in <a href="/blog/epoxy-vs-cement-grout">epoxy vs cement grout</a>, not a mystery adder. If a bid cannot tell you which of these it includes, the number on it is not really a price. It is an opening position.</p>
+
+<h2>Getting a Number You Can Hold</h2>
+
+<p>Three questions sort shower bids faster than anything else. <strong>What membrane, by name, and where does it go?</strong> <strong>What is the plan and the rate if you open the wall and find damage?</strong> <strong>Will you flood-test the pan and show me?</strong> A contractor with good answers to those three will also have the rest right. The broader bathroom version of this exercise &mdash; floors, surrounds, whole rooms &mdash; is in our <a href="/blog/bathroom-tile-installation-cost-seattle">bathroom tile cost guide</a>, and our full local scope is on the <a href="/city-of-sammamish/tile-installation-in-sammamish-wa">Sammamish tile installation page</a>. We put every line above in writing, contingency included, so the number you sign is the number you pay unless the wall genuinely surprises us both &mdash; and then you get photographs and a unit price, not a shrug.</p>
+
+<div data-rt-embed-type='true'><!-- FAQ accordion + JSON-LD -->
+<div class="faq-wrap ocb" aria-labelledby="faq-title">
+  <h2 id="faq-title" class="faq-title">Shower Tile Cost in Sammamish: What Homeowners Ask Us</h2>
+  <div class="faq-items" role="list">
+    <details class="faq-item" role="listitem"><summary class="faq-q">How much does it cost to tile a shower?</summary><div class="faq-a">Our tile work runs $14 to $26 per square foot installed, with labor from $11 per square foot. A standard tub surround is roughly 60 square feet of wall; a walk-in shower adds pan, curb and more wall area, so it lands higher in total even at the same rate. The spread inside the range is decided by demolition findings, substrate work, waterproofing scope, and tile choice.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Why does a shower cost more per square foot than a bathroom floor?</summary><div class="faq-a">Because the square footage is doing more jobs. A shower carries a sloped pan built from scratch, a bonded membrane over every surface, sealed corners, a curb or curbless slope, a flood test, and far more cutting and detail per foot than an open floor. Most of that work is invisible when the job is done, which is exactly why cheap bids skip parts of it.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">What does a tub-to-shower conversion cost compared with retiling a surround?</summary><div class="faq-a">Meaningfully more, and for concrete reasons: the drain has to move, a sloped pan gets built where the tub used to be, and the wall tile area grows. A surround refresh keeps the tub doing the waterproofing work at floor level; a conversion rebuilds all of that from the framing up. It is also the version of the project that transforms how the room lives day to day.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">How long does it take to tile a shower?</summary><div class="faq-a">A tub surround typically runs four to six days; a full walk-in or a conversion runs longer, because the pan build, membrane cure times, the 24-hour flood test, and grout and silicone each need their own window. Rushing any of those stages is how showers fail in year two, so we schedule them honestly up front.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Is a tiled shower worth it over a prefab surround?</summary><div class="faq-a">A prefab unit is cheaper and faster, and for a rental or a rarely used bath it can be the rational choice - we will say so. A tiled shower costs more and outlasts it by decades, looks like the house instead of a catalog, and is fully repairable. For a primary bath you use daily and plan to keep, tile is usually the better long-term money.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Should I redo the bathroom floor at the same time as the shower?</summary><div class="faq-a">It is worth pricing, because the expensive parts of a small tile job - mobilization, prep, disposal - are already on site for the shower. Doing both in one project costs noticeably less than doing them a year apart, and it lets the floor and shower be designed together instead of matched afterward.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Does the shower glass come from the tile contractor?</summary><div class="faq-a">Usually not - frameless glass is measured and installed by a glass company after the tile is done and cured, and it is a real line in your total budget. We plan the tile layout with the glass in mind, including where the door swings and how the curb is capped, and we can coordinate the measure so the sequence does not stall.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">What if you open the wall and find rot or mold?</summary><div class="faq-a">It happens often enough in 1990s construction that we plan for it: the quote carries a contingency allowance and a unit rate for repairs, and anything we find gets photographed and priced before we proceed. That is the difference between a surprise and a change order - you decide with evidence in hand, not under pressure mid-demolition.</div></details>
+  </div>
+</div>
+
+<style>
+  .faq-wrap{--line:#e5e7eb;margin:28px auto;padding:20px;border:1px solid var(--line);border-radius:16px;background:#fff;box-shadow:0 8px 30px rgba(2,6,23,.06)}
+  .faq-title{margin:0 0 14px;font-size:24px;font-weight:900;text-align:center;color:#5c0000}
+  .faq-items{display:grid;gap:10px}
+  .faq-item{border:1px solid var(--line);border-radius:14px;background:#f9fafb;overflow:hidden}
+  .faq-q{cursor:pointer;display:block;padding:14px 16px;font-weight:800;color:#0f172a}
+  .faq-q::-webkit-details-marker{display:none}
+  .faq-item[open] .faq-q{background:linear-gradient(180deg, rgba(139,0,0,.08), rgba(139,0,0,.02))}
+  .faq-a{padding:0 16px 14px;color:#1f2937;line-height:1.6}
+</style>
+
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How much does it cost to tile a shower?", "acceptedAnswer": {"@type": "Answer", "text": "Our tile work runs $14 to $26 per square foot installed, with labor from $11 per square foot. A standard tub surround is roughly 60 square feet of wall; a walk-in shower adds pan, curb and more wall area, so it lands higher in total even at the same rate. The spread inside the range is decided by demolition findings, substrate work, waterproofing scope, and tile choice."}}, {"@type": "Question", "name": "Why does a shower cost more per square foot than a bathroom floor?", "acceptedAnswer": {"@type": "Answer", "text": "Because the square footage is doing more jobs. A shower carries a sloped pan built from scratch, a bonded membrane over every surface, sealed corners, a curb or curbless slope, a flood test, and far more cutting and detail per foot than an open floor. Most of that work is invisible when the job is done, which is exactly why cheap bids skip parts of it."}}, {"@type": "Question", "name": "What does a tub-to-shower conversion cost compared with retiling a surround?", "acceptedAnswer": {"@type": "Answer", "text": "Meaningfully more, and for concrete reasons: the drain has to move, a sloped pan gets built where the tub used to be, and the wall tile area grows. A surround refresh keeps the tub doing the waterproofing work at floor level; a conversion rebuilds all of that from the framing up. It is also the version of the project that transforms how the room lives day to day."}}, {"@type": "Question", "name": "How long does it take to tile a shower?", "acceptedAnswer": {"@type": "Answer", "text": "A tub surround typically runs four to six days; a full walk-in or a conversion runs longer, because the pan build, membrane cure times, the 24-hour flood test, and grout and silicone each need their own window. Rushing any of those stages is how showers fail in year two, so we schedule them honestly up front."}}, {"@type": "Question", "name": "Is a tiled shower worth it over a prefab surround?", "acceptedAnswer": {"@type": "Answer", "text": "A prefab unit is cheaper and faster, and for a rental or a rarely used bath it can be the rational choice - we will say so. A tiled shower costs more and outlasts it by decades, looks like the house instead of a catalog, and is fully repairable. For a primary bath you use daily and plan to keep, tile is usually the better long-term money."}}, {"@type": "Question", "name": "Should I redo the bathroom floor at the same time as the shower?", "acceptedAnswer": {"@type": "Answer", "text": "It is worth pricing, because the expensive parts of a small tile job - mobilization, prep, disposal - are already on site for the shower. Doing both in one project costs noticeably less than doing them a year apart, and it lets the floor and shower be designed together instead of matched afterward."}}, {"@type": "Question", "name": "Does the shower glass come from the tile contractor?", "acceptedAnswer": {"@type": "Answer", "text": "Usually not - frameless glass is measured and installed by a glass company after the tile is done and cured, and it is a real line in your total budget. We plan the tile layout with the glass in mind, including where the door swings and how the curb is capped, and we can coordinate the measure so the sequence does not stall."}}, {"@type": "Question", "name": "What if you open the wall and find rot or mold?", "acceptedAnswer": {"@type": "Answer", "text": "It happens often enough in 1990s construction that we plan for it: the quote carries a contingency allowance and a unit rate for repairs, and anything we find gets photographed and priced before we proceed. That is the difference between a surprise and a change order - you decide with evidence in hand, not under pressure mid-demolition."}}]}
+</script></div>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-cta" style="margin:30px 0">
+  <style>
+    html body .post-body .ocb-cta h2, .ocb-cta h2{color:#fff!important}
+    html body .post-body .ocb-cta .ocb-cta-sub, .ocb-cta .ocb-cta-sub{color:rgba(255,255,255,.88)!important}
+    html body .post-body .ocb-cta .ocb-cta-chips span, .ocb-cta .ocb-cta-chips span{color:rgba(255,255,255,.94)!important}
+    html body .post-body .ocb-cta a.ocb-cta-ghost, .ocb-cta a.ocb-cta-ghost{color:#fff!important;text-decoration:none!important}
+    html body .post-body .ocb-cta a.ocb-cta-gold, .ocb-cta a.ocb-cta-gold{color:#fbbc04!important}
+    html body .post-body .ocb-cta a.ocb-cta-phone, .ocb-cta a.ocb-cta-phone{color:#5c0000!important;text-decoration:none!important}
+  </style>
+  <div style="background:linear-gradient(135deg,#8B0000,#5c0000);border-radius:20px;padding:28px 24px;color:#fff;text-align:center;box-shadow:0 14px 34px rgba(92,0,0,.3)">
+    <h2 style="margin:0 0 6px;color:#fff!important;font-size:24px;font-weight:900">Get Your Shower Priced Line by Line</h2>
+    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.92)!important;font-size:16.3px">Demolition, substrate, waterproofing, flood test, tile, grout &mdash; every line in writing, with a contingency instead of a mid-job surprise. Free in-home estimates across King &amp; Snohomish County, Sammamish plateau included.</p>
+    <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
+      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff!important;color:#5c0000!important;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none!important"><span class="ocb-ic ocb-ic-phone"></span> (425) 595-1079</a>
+      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.16)!important;border:1px solid rgba(255,255,255,.55);color:#fff!important;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none!important">Book My Free Consultation</a>
+    </div>
+    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.95)!important">
+      <span>✓ Since 2013</span><span>✓ 1,000+ floors</span><span>✓ 1-yr workmanship warranty</span><span>✓ Licensed &amp; insured</span><span>✓ Financing available</span>
+    </div>
+    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04!important;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
+  </div>
+</div></div>
+
+<p><strong>Related reading:</strong> <a href="/blog/tile-shower-waterproofing">Shower waterproofing, layer by layer</a> · <a href="/blog/epoxy-vs-cement-grout">Epoxy vs cement grout</a> · <a href="/blog/shower-niche-placement-size-waterproofing">Shower niches done right</a> · <a href="/blog/bathroom-tile-installation-cost-seattle">Bathroom tile cost, itemized</a> · <a href="/city-of-sammamish/tile-installation-in-sammamish-wa">Tile installation in Sammamish</a> · <a href="/contact">Book a free estimate</a></p>
+
+<div data-rt-embed-type='true'><script>
+(function(){try{
+var els=document.querySelectorAll('.ocb-card,.ocb-fact,.ocb-tri,.faq-item');
+if(!('IntersectionObserver' in window)||!els.length)return;
+document.documentElement.classList.add('ocb-anim-ready');
+els.forEach(function(e,i){e.classList.add('ocb-rv');e.style.transitionDelay=Math.min((i%6)*70,350)+'ms'});
+var io=new IntersectionObserver(function(en){en.forEach(function(x){if(x.isIntersecting){x.target.classList.add('ocb-in');io.unobserve(x.target)}})},{threshold:.12,rootMargin:'0px 0px -8% 0px'});
+els.forEach(function(e){io.observe(e)});
+}catch(e){}})();
+</script></div>

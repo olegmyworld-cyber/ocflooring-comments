@@ -1,0 +1,194 @@
+<div data-rt-embed-type='true'><style>
+.ocb{--ink:#0f172a;--muted:#64748b;--line:#e5e7eb;--soft:#f8fafc;--brand:#8B0000;--brand2:#5c0000;--gold:#fbbc04;font-family:'Mulish',Inter,system-ui,sans-serif;color:var(--ink)}
+.ocb *{box-sizing:border-box}
+.ocb-card{border:1px solid var(--line);border-radius:18px;background:#fff;box-shadow:0 10px 30px rgba(2,6,23,.06);padding:22px;margin:26px 0}
+.ocb-eyebrow{display:inline-block;background:rgba(139,0,0,.08);color:var(--brand2);border:1px solid rgba(139,0,0,.2);border-radius:999px;padding:5px 12px;font-size:12.5px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;margin-bottom:10px}
+.ocb-chips{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0 0}
+.ocb-chip{background:var(--soft);border:1px solid var(--line);border-radius:999px;padding:6px 12px;font-size:13.6px;font-weight:700}
+.ocb-table{width:100%;border-collapse:collapse;font-size:15.2px}
+.ocb-table th,.ocb-table td{padding:11px 10px;text-align:left;border-bottom:1px solid var(--line)}
+.ocb-table th{background:var(--soft);font-weight:800;font-size:13.6px;letter-spacing:.02em}
+.ocb-table tr:last-child td{border-bottom:0}
+.ocb-table td strong{color:var(--brand2)}
+.ocb-2col{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media(max-width:680px){.ocb-2col{grid-template-columns:1fr}}
+.ocb-check{list-style:none;padding:0;margin:10px 0 0}
+.ocb-check li{padding-left:26px;position:relative;margin:7px 0;line-height:1.55}
+.ocb-check li:before{content:"✓";position:absolute;left:0;color:var(--brand);font-weight:900}
+.ocb-x li:before{content:"✕";color:#94a3b8}
+html body .post-body .ocb-facts, .ocb-facts{display:grid!important;grid-template-columns:repeat(3,1fr)!important;gap:12px!important;margin:8px 0!important}
+@media(max-width:680px){html body .post-body .ocb-facts, .ocb-facts{grid-template-columns:1fr!important}}
+.ocb-fact{background:linear-gradient(180deg,#fff,#f8fafc);border:1px solid var(--line);border-radius:16px;padding:16px}
+.ocb-fact .n{font-size:24px;font-weight:900;color:var(--brand2);display:block;margin-bottom:4px}
+html body .post-body .ocb-fact p, .ocb-fact p{margin:0!important;font-size:14.7px!important;color:#334155!important;line-height:1.5!important}
+
+.ocb-card,.ocb-fact,.ocb-tri{transition:transform .28s ease,box-shadow .28s ease}
+.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:translateY(-4px);box-shadow:0 16px 40px rgba(2,6,23,.12)}
+.faq-item{transition:border-color .25s,box-shadow .25s}
+.faq-item:hover{border-color:rgba(139,0,0,.35);box-shadow:0 6px 18px rgba(2,6,23,.07)}
+.ocb-chip{display:inline-flex;align-items:center;gap:6px;transition:transform .2s,border-color .2s}
+.ocb-chip:hover{transform:translateY(-2px);border-color:rgba(139,0,0,.35)}
+.ocb-chip svg{color:#8B0000}
+.ocb-cta a{transition:transform .22s,box-shadow .22s}
+.ocb-cta a:hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(0,0,0,.25)}
+.ocb-fact .n{position:relative}
+html.ocb-anim-ready .ocb-rv{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
+html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){html.ocb-anim-ready .ocb-rv{opacity:1!important;transform:none!important;transition:none!important}.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:none}}
+
+/* Chip icons. Webflow's rich-text sanitizer strips inline <svg> whenever a post is
+   re-saved in the Editor, so the icons are drawn from CSS on a <span> instead. */
+.ocb-ic{display:inline-block;width:15px;height:15px;flex:0 0 auto;vertical-align:-2px;background-repeat:no-repeat;background-position:center;background-size:contain}
+.ocb-ic-pin{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z'/><circle cx='12' cy='10' r='3'/></svg>")}
+.ocb-ic-home{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z'/><polyline points='9 22 9 12 15 12 15 22'/></svg>")}
+.ocb-ic-phone{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z'/></svg>")}
+.ocb-cta .ocb-ic{filter:brightness(0) saturate(100%) invert(9%) sepia(64%) saturate(4000%) hue-rotate(348deg)}
+</style></div>
+
+<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">October 13, 2026</span></div></div>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
+  <span class="ocb-eyebrow">Quick answer</span>
+  <p style="margin:0;font-size:17.9px;line-height:1.65"><strong>Porcelain is ceramic &mdash; a denser grade of it, made from finer clay and fired hotter until it absorbs almost no water.</strong> That density is why porcelain belongs on floors, in showers, at entryways and anywhere outdoors, and why ordinary ceramic remains the smart, cheaper answer on walls and backsplashes where nothing hits it and nothing soaks it. But here is the part the showroom will not tell you: the gap between porcelain and ceramic is smaller than the gap between a careful installer and a careless one. Mid-grade tile set right outlasts premium tile set wrong, every time.</p>
+  <div class="ocb-chips">
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-pin"></span> King &amp; Snohomish County</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-home"></span> Renton &amp; South King County</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-phone"></span> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
+  </div>
+</div></div>
+
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-facts">
+  <div class="ocb-fact"><span class="n">0.5%</span><p>the maximum water a tile can absorb and still be called porcelain &mdash; the industry line in the sand. Standard ceramic drinks several times that, which is the root of every practical difference between the two.</p></div>
+  <div class="ocb-fact"><span class="n">$14&ndash;$26/sq ft</span><p>installed tile with us, labor from $11/sq ft &mdash; porcelain or ceramic. The material moves your total less than people expect; the prep, the cutting and the waterproofing move it more.</p></div>
+  <div class="ocb-fact"><span class="n">2 years</span><p>our warranty on tile work in either material &mdash; because what fails in a tile job is almost never the tile. It is the assembly underneath, which is the part we build like we have to stand behind it. We do.</p></div>
+</div></div></div>
+
+<h2>One Material, Two Grades: What Actually Differs</h2>
+
+<p>Walk a tile aisle and the signage suggests two different species. Chemically, porcelain and ceramic are the same family: clay, shaped and kiln-fired. Porcelain is what happens when the recipe is tightened &mdash; finer, denser clays pressed harder and fired hotter, until the body vitrifies into something close to glass. The practical definition is the absorption test: a tile that takes on 0.5&#37; or less of its weight in water qualifies as porcelain; standard ceramic absorbs several times that. Everything else people say about the two &mdash; durability, frost resistance, price, weight, how they behave under a wet saw &mdash; flows downstream from that one number.</p>
+
+<p>Density buys three real things. <strong>Strength</strong>: porcelain resists cracking and chipping under impact better, and its hard surface shrugs off the grit that slowly sands softer glazes dull in entryways. <strong>Water indifference</strong>: a body that cannot soak up water cannot be damaged by it &mdash; or by the freeze-thaw cycles that split water-logged ceramic on a Pacific Northwest porch. <strong>Consistency through the body</strong>: many porcelains are colored through their thickness or glazed over a matching body, so a chip &mdash; when it eventually happens &mdash; shows a similar color underneath instead of a white scar. Ceramic&rsquo;s softer body is not a defect; it is a different point on the same dial, and in the right rooms it is the better buy.</p>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-card">
+  <h3 style="margin:0 0 10px;font-size:18.5px;font-weight:900;color:#5c0000">Porcelain or Ceramic, Room by Room in a Renton Home</h3>
+  <div style="overflow-x:auto"><table class="ocb-table">
+    <tr><th>Where</th><th>Our pick</th><th>Why</th></tr>
+    <tr><td><strong>Bathroom floor</strong></td><td>Porcelain</td><td>Wet, barefoot, high-traffic &mdash; density and low absorption both earn their keep</td></tr>
+    <tr><td><strong>Shower walls</strong></td><td>Porcelain preferred, ceramic workable</td><td>The membrane behind does the waterproofing; porcelain adds margin where water lives</td></tr>
+    <tr><td><strong>Kitchen floor</strong></td><td>Porcelain</td><td>Dropped pans and rolling chairs &mdash; impact resistance is the whole story</td></tr>
+    <tr><td><strong>Kitchen backsplash</strong></td><td>Ceramic, happily</td><td>No feet, no impacts, no standing water &mdash; save the money and enjoy the bigger design range</td></tr>
+    <tr><td><strong>Entry / mudroom / laundry</strong></td><td>Porcelain</td><td>Grit, boots and the occasional leak &mdash; the hardest-working floor in a wet climate</td></tr>
+    <tr><td><strong>Fireplace surround, accent walls</strong></td><td>Ceramic</td><td>Decorative service &mdash; the cheaper, easier-cutting tile is the rational choice</td></tr>
+    <tr><td><strong>Outdoor steps, porch, patio</strong></td><td>Porcelain only</td><td>Freeze-thaw splits absorbent tile; this one is not a preference, it is physics</td></tr>
+    <tr><td><strong>Wood-look planks, large format</strong></td><td>Porcelain by default</td><td>These formats are essentially only manufactured in porcelain &mdash; the market already decided</td></tr>
+  </table></div>
+</div></div>
+
+<h2>Where Ceramic Is the Smart Money</h2>
+
+<p>Ceramic&rsquo;s case is simple: on a wall, nearly everything porcelain is better <em>at</em> never happens. Nobody walks on a backsplash. Nothing freezes in a powder room. A tub surround&rsquo;s waterproofing lives in the membrane behind the tile, not in the tile body &mdash; the same layer logic we lay out in <a href="/blog/tile-underlayment-explained">our underlayment guide</a>. In those locations, ceramic&rsquo;s lower price is pure savings, its lighter weight is friendlier to vertical installation, and its softer body cuts faster and cleaner &mdash; which shows up as less labor time on fussy, cut-heavy work like outlets and edges. Many of the most charming handmade and hand-glazed looks &mdash; zellige, artisan subway &mdash; are only made as ceramic anyway. Spending porcelain money on a backsplash is not wrong; it is just buying capability the wall will never use.</p>
+
+<h2>Where Porcelain Earns Its Premium</h2>
+
+<p>Floors, first and always. A floor takes point loads, grit abrasion, water, and the occasional cast-iron pan from counter height, and porcelain&rsquo;s density is the difference between a floor that shrugs and a glaze that slowly records every insult. Wet rooms, second: the tile is not your waterproofing, but a body that ignores water is welcome margin in a room full of it. Entries and mudrooms, third &mdash; in our climate they are honorary wet rooms from October to May. And anything outdoors is porcelain by rule, not preference: absorbent tile plus a Renton freeze is a split tile by spring. Add the market reality that wood-look planks and big-format slabs &mdash; the looks driving most of today&rsquo;s remodels &mdash; are made almost exclusively in porcelain, and the premium usually buys itself. What it costs to put either on a floor, honestly itemized, is in our <a href="/blog/bathroom-tile-installation-cost-seattle">bathroom tile cost guide</a> and the <a href="/blog/tile-installation-cost-per-square-foot">per-square-foot breakdown</a>.</p>
+
+<h2>The Installer Matters More Than the Material</h2>
+
+<p>Now the paragraph this article exists for. In the failed tile jobs we get called to fix, the tile itself is almost never the culprit. Cracked floors trace to substrates that flexed or were never flattened. Leaking showers trace to membranes that were skipped or botched &mdash; the reason we flood-test every pan for 24 hours and photograph it. Popped tiles trace to mortar coverage a tap test would have caught in one visit, the same test we run before deciding <a href="/blog/can-you-tile-over-existing-tile">whether an old floor can even be tiled over</a>. Premium porcelain set on a bad assembly fails exactly as fast as bargain ceramic, only more expensively.</p>
+
+<p>The material choice does change the installation, though, and this is the honest reason porcelain costs more to install: its hardness cuts both ways. It is miserable to cut without proper saws and diamond blades, unforgiving of a substrate that is not flat &mdash; especially in the large formats &mdash; and it demands the right mortar and real back-buttering technique. A bargain installer with porcelain is a worse outcome than a careful one with ceramic. If the budget forces a choice, choose the installer, then let the room&rsquo;s demands choose the tile &mdash; that ordering is the whole secret, and it is free.</p>
+
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-2col">
+  <div class="ocb-card" style="margin:0">
+    <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#5c0000">Questions that actually predict a good job</h3>
+    <ul class="ocb-check">
+      <li>What goes under the tile on my subfloor, by product name?</li>
+      <li>How will you flatten the floor, and to what tolerance?</li>
+      <li>What membrane goes in the wet areas &mdash; and is the pan flood-tested?</li>
+      <li>What mortar and coverage for this tile format?</li>
+      <li>Who does the cutting, with what saw &mdash; porcelain punishes improvising</li>
+      <li>What does the warranty cover, and for how long?</li>
+    </ul>
+  </div>
+  <div class="ocb-card" style="margin:0">
+    <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#334155">Showroom talk that predicts nothing</h3>
+    <ul class="ocb-check ocb-x">
+      <li>"Porcelain is waterproof, so the shower is safe" &mdash; the membrane does that</li>
+      <li>"This tile is rated commercial" &mdash; on a floor that needed flatness, not ratings</li>
+      <li>"Ceramic is outdated" &mdash; tell that to every beautiful backsplash in town</li>
+      <li>"The tile carries a 25-year warranty" &mdash; the tile was never the thing that fails</li>
+      <li>"Bigger tile means fewer grout lines to worry about" &mdash; and far less forgiveness underneath</li>
+      <li>"It&rsquo;s all in the PEI number" &mdash; useful, but it grades the glaze, not the job</li>
+    </ul>
+  </div>
+</div></div></div>
+
+<h2>What It Costs in a Renton Home</h2>
+
+<p>At the material level, the porcelain premium over comparable ceramic is modest &mdash; a dollar or few per square foot in the ranges most homeowners shop, and the spread inside each category is wider than the spread between them. Installed, tile work runs $14&ndash;$26 per square foot with labor from $11, and where your project lands has more to do with prep and waterproofing than with which body the tile has. Renton&rsquo;s housing helps decide the prep line: the Boeing-era ramblers in President Park and the Highlands bring wood subfloors that want flattening and an uncoupling membrane, while newer construction toward Fairwood and the Landing usually hands us flat, tile-ready floors. Either way you will get the same spec from us: the room&rsquo;s demands pick the material, the substrate picks the assembly, and both are named in writing before anyone commits. The full scope &mdash; floors, showers, backsplashes, heated floors, large format &mdash; is on our <a href="/city-of-renton/tile-installation-in-renton-wa">Renton tile installation page</a>.</p>
+
+<div data-rt-embed-type='true'><!-- FAQ accordion + JSON-LD -->
+<div class="faq-wrap ocb" aria-labelledby="faq-title">
+  <h2 id="faq-title" class="faq-title">Porcelain vs Ceramic: What Homeowners Ask Us</h2>
+  <div class="faq-items" role="list">
+    <details class="faq-item" role="listitem"><summary class="faq-q">What is the actual difference between porcelain and ceramic tile?</summary><div class="faq-a">Porcelain is a denser grade of ceramic — finer clay, pressed harder, fired hotter — defined by absorbing 0.5% or less of its weight in water, where standard ceramic absorbs several times that. The density makes porcelain stronger, effectively waterproof as a body, and frost-safe. Every practical difference between the two flows from that one absorption number.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Is porcelain tile worth the extra money?</summary><div class="faq-a">On floors, in wet rooms, at entries, and anywhere outdoors — yes, and the premium is smaller than most people expect at the material level. On walls and backsplashes, usually not: nothing there tests the qualities porcelain charges for, and ceramic delivers the same decades of service for less. The honest rule is to let the room’s demands decide, not the showroom hierarchy.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Can you use ceramic tile in a shower?</summary><div class="faq-a">On the walls, yes — the waterproofing in a properly built shower lives in the membrane behind the tile, not in the tile body, so glazed ceramic walls over a real membrane are a legitimate assembly. We still prefer porcelain where water is constant, for the extra margin. On the shower floor, porcelain: it takes the traffic, and pans are where you want zero compromises.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Do porcelain tiles crack more easily than ceramic?</summary><div class="faq-a">The opposite — porcelain is the stronger, denser body and resists cracking and chipping better. When porcelain floors do crack, the cause is almost always underneath: a subfloor that flexes, a hump that was never flattened, or missing mortar coverage under a corner. Tile of either kind is only as strong as the assembly below it, which is why the installer matters more than the material.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">What does a PEI rating mean when I am comparing tiles?</summary><div class="faq-a">PEI grades the glaze’s wear resistance, from 1 (walls only) to 5 (heavy commercial traffic). For a home floor, PEI 3 or higher is the practical bar, and most floor-rated porcelain clears it easily. It is a useful check and a poor obsession — it says nothing about the substrate, the membrane, or the mortar coverage, which are what actually decide how a floor ages.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Is wood-look tile porcelain or ceramic?</summary><div class="faq-a">Essentially always porcelain. The long plank format needs porcelain’s strength to survive manufacturing, shipping and floors, so that is how the industry makes it. The same goes for today’s large-format slabs. If your heart is set on either look, the porcelain-vs-ceramic debate is already settled — what remains is finding an installer who can flatten a floor to what those formats demand.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Which is better for a kitchen backsplash?</summary><div class="faq-a">Ceramic, in most kitchens. A backsplash carries no foot traffic, no impacts, and no standing water, so porcelain’s advantages sit unused while its harder cutting slows the fussiest, most cut-dense part of the job. Ceramic costs less, cuts cleaner around outlets and windows, and includes some of the best-looking handmade and glazed options on the market.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Can porcelain tile go outside in Western Washington?</summary><div class="faq-a">Yes — and it is the only tile that should. Our winters deliver enough freeze-thaw cycles that absorbent ceramic will eventually take on water, freeze, and split or spall. Porcelain’s sub-0.5% absorption makes it frost-proof in practice, which is why porch steps, patios, and outdoor kitchens around here are porcelain by rule. Pair it with an exterior-rated setting system, and slope every surface to drain.</div></details>
+  </div>
+</div>
+
+<style>
+  .faq-wrap{--line:#e5e7eb;margin:28px auto;padding:20px;border:1px solid var(--line);border-radius:16px;background:#fff;box-shadow:0 8px 30px rgba(2,6,23,.06)}
+  .faq-title{margin:0 0 14px;font-size:24px;font-weight:900;text-align:center;color:#5c0000}
+  .faq-items{display:grid;gap:10px}
+  .faq-item{border:1px solid var(--line);border-radius:14px;background:#f9fafb;overflow:hidden}
+  .faq-q{cursor:pointer;display:block;padding:14px 16px;font-weight:800;color:#0f172a}
+  .faq-q::-webkit-details-marker{display:none}
+  .faq-item[open] .faq-q{background:linear-gradient(180deg, rgba(139,0,0,.08), rgba(139,0,0,.02))}
+  .faq-a{padding:0 16px 14px;color:#1f2937;line-height:1.6}
+</style>
+
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What is the actual difference between porcelain and ceramic tile?", "acceptedAnswer": {"@type": "Answer", "text": "Porcelain is a denser grade of ceramic — finer clay, pressed harder, fired hotter — defined by absorbing 0.5% or less of its weight in water, where standard ceramic absorbs several times that. The density makes porcelain stronger, effectively waterproof as a body, and frost-safe. Every practical difference between the two flows from that one absorption number."}}, {"@type": "Question", "name": "Is porcelain tile worth the extra money?", "acceptedAnswer": {"@type": "Answer", "text": "On floors, in wet rooms, at entries, and anywhere outdoors — yes, and the premium is smaller than most people expect at the material level. On walls and backsplashes, usually not: nothing there tests the qualities porcelain charges for, and ceramic delivers the same decades of service for less. The honest rule is to let the room’s demands decide, not the showroom hierarchy."}}, {"@type": "Question", "name": "Can you use ceramic tile in a shower?", "acceptedAnswer": {"@type": "Answer", "text": "On the walls, yes — the waterproofing in a properly built shower lives in the membrane behind the tile, not in the tile body, so glazed ceramic walls over a real membrane are a legitimate assembly. We still prefer porcelain where water is constant, for the extra margin. On the shower floor, porcelain: it takes the traffic, and pans are where you want zero compromises."}}, {"@type": "Question", "name": "Do porcelain tiles crack more easily than ceramic?", "acceptedAnswer": {"@type": "Answer", "text": "The opposite — porcelain is the stronger, denser body and resists cracking and chipping better. When porcelain floors do crack, the cause is almost always underneath: a subfloor that flexes, a hump that was never flattened, or missing mortar coverage under a corner. Tile of either kind is only as strong as the assembly below it, which is why the installer matters more than the material."}}, {"@type": "Question", "name": "What does a PEI rating mean when I am comparing tiles?", "acceptedAnswer": {"@type": "Answer", "text": "PEI grades the glaze’s wear resistance, from 1 (walls only) to 5 (heavy commercial traffic). For a home floor, PEI 3 or higher is the practical bar, and most floor-rated porcelain clears it easily. It is a useful check and a poor obsession — it says nothing about the substrate, the membrane, or the mortar coverage, which are what actually decide how a floor ages."}}, {"@type": "Question", "name": "Is wood-look tile porcelain or ceramic?", "acceptedAnswer": {"@type": "Answer", "text": "Essentially always porcelain. The long plank format needs porcelain’s strength to survive manufacturing, shipping and floors, so that is how the industry makes it. The same goes for today’s large-format slabs. If your heart is set on either look, the porcelain-vs-ceramic debate is already settled — what remains is finding an installer who can flatten a floor to what those formats demand."}}, {"@type": "Question", "name": "Which is better for a kitchen backsplash?", "acceptedAnswer": {"@type": "Answer", "text": "Ceramic, in most kitchens. A backsplash carries no foot traffic, no impacts, and no standing water, so porcelain’s advantages sit unused while its harder cutting slows the fussiest, most cut-dense part of the job. Ceramic costs less, cuts cleaner around outlets and windows, and includes some of the best-looking handmade and glazed options on the market."}}, {"@type": "Question", "name": "Can porcelain tile go outside in Western Washington?", "acceptedAnswer": {"@type": "Answer", "text": "Yes — and it is the only tile that should. Our winters deliver enough freeze-thaw cycles that absorbent ceramic will eventually take on water, freeze, and split or spall. Porcelain’s sub-0.5% absorption makes it frost-proof in practice, which is why porch steps, patios, and outdoor kitchens around here are porcelain by rule. Pair it with an exterior-rated setting system, and slope every surface to drain."}}]}
+</script></div>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-cta" style="margin:30px 0">
+  <style>
+    html body .post-body .ocb-cta h2, .ocb-cta h2{color:#fff!important}
+    html body .post-body .ocb-cta .ocb-cta-sub, .ocb-cta .ocb-cta-sub{color:rgba(255,255,255,.88)!important}
+    html body .post-body .ocb-cta .ocb-cta-chips span, .ocb-cta .ocb-cta-chips span{color:rgba(255,255,255,.94)!important}
+    html body .post-body .ocb-cta a.ocb-cta-ghost, .ocb-cta a.ocb-cta-ghost{color:#fff!important;text-decoration:none!important}
+    html body .post-body .ocb-cta a.ocb-cta-gold, .ocb-cta a.ocb-cta-gold{color:#fbbc04!important}
+    html body .post-body .ocb-cta a.ocb-cta-phone, .ocb-cta a.ocb-cta-phone{color:#5c0000!important;text-decoration:none!important}
+  </style>
+  <div style="background:linear-gradient(135deg,#8B0000,#5c0000);border-radius:20px;padding:28px 24px;color:#fff;text-align:center;box-shadow:0 14px 34px rgba(92,0,0,.3)">
+    <h2 style="margin:0 0 6px;color:#fff!important;font-size:24px;font-weight:900">Picking Tile for a Renton Project?</h2>
+    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.92)!important;font-size:16.3px">Bring us the rooms and the looks you love &mdash; we will tell you where porcelain earns its premium, where ceramic is the smart money, and what the whole job costs in writing. Free in-home estimates across King &amp; Snohomish County.</p>
+    <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
+      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff!important;color:#5c0000!important;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none!important"><span class="ocb-ic ocb-ic-phone"></span> (425) 595-1079</a>
+      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.16)!important;border:1px solid rgba(255,255,255,.55);color:#fff!important;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none!important">Book My Free Consultation</a>
+    </div>
+    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.95)!important">
+      <span>✓ Since 2013</span><span>✓ 1,000+ floors</span><span>✓ 1-yr workmanship warranty</span><span>✓ Licensed &amp; insured</span><span>✓ Financing available</span>
+    </div>
+    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04!important;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
+  </div>
+</div></div>
+
+<p><strong>Related reading:</strong> <a href="/blog/can-you-tile-over-existing-tile">Can you tile over existing tile?</a> · <a href="/blog/tile-underlayment-explained">Tile underlayment explained</a> · <a href="/blog/curbless-shower-build-mercer-island">What a curbless shower build takes</a> · <a href="/blog/hardwood-vs-tile-in-the-kitchen">Hardwood vs tile in the kitchen</a> · <a href="/city-of-renton/tile-installation-in-renton-wa">Tile installation in Renton</a> · <a href="/contact">Book a free estimate</a></p>
+
+<div data-rt-embed-type='true'><script>
+(function(){try{
+var els=document.querySelectorAll('.ocb-card,.ocb-fact,.ocb-tri,.faq-item');
+if(!('IntersectionObserver' in window)||!els.length)return;
+document.documentElement.classList.add('ocb-anim-ready');
+els.forEach(function(e,i){e.classList.add('ocb-rv');e.style.transitionDelay=Math.min((i%6)*70,350)+'ms'});
+var io=new IntersectionObserver(function(en){en.forEach(function(x){if(x.isIntersecting){x.target.classList.add('ocb-in');io.unobserve(x.target)}})},{threshold:.12,rootMargin:'0px 0px -8% 0px'});
+els.forEach(function(e){io.observe(e)});
+}catch(e){}})();
+</script></div>

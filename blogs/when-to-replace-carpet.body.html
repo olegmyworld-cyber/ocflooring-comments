@@ -1,0 +1,191 @@
+<div data-rt-embed-type='true'><style>
+.ocb{--ink:#0f172a;--muted:#64748b;--line:#e5e7eb;--soft:#f8fafc;--brand:#8B0000;--brand2:#5c0000;--gold:#fbbc04;font-family:'Mulish',Inter,system-ui,sans-serif;color:var(--ink)}
+.ocb *{box-sizing:border-box}
+.ocb-card{border:1px solid var(--line);border-radius:18px;background:#fff;box-shadow:0 10px 30px rgba(2,6,23,.06);padding:22px;margin:26px 0}
+.ocb-eyebrow{display:inline-block;background:rgba(139,0,0,.08);color:var(--brand2);border:1px solid rgba(139,0,0,.2);border-radius:999px;padding:5px 12px;font-size:12.5px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;margin-bottom:10px}
+.ocb-chips{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0 0}
+.ocb-chip{background:var(--soft);border:1px solid var(--line);border-radius:999px;padding:6px 12px;font-size:13.6px;font-weight:700}
+.ocb-table{width:100%;border-collapse:collapse;font-size:15.2px}
+.ocb-table th,.ocb-table td{padding:11px 10px;text-align:left;border-bottom:1px solid var(--line)}
+.ocb-table th{background:var(--soft);font-weight:800;font-size:13.6px;letter-spacing:.02em}
+.ocb-table tr:last-child td{border-bottom:0}
+.ocb-table td strong{color:var(--brand2)}
+.ocb-2col{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media(max-width:680px){.ocb-2col{grid-template-columns:1fr}}
+.ocb-check{list-style:none;padding:0;margin:10px 0 0}
+.ocb-check li{padding-left:26px;position:relative;margin:7px 0;line-height:1.55}
+.ocb-check li:before{content:"✓";position:absolute;left:0;color:var(--brand);font-weight:900}
+.ocb-x li:before{content:"✕";color:#94a3b8}
+html body .post-body .ocb-facts, .ocb-facts{display:grid!important;grid-template-columns:repeat(3,1fr)!important;gap:12px!important;margin:8px 0!important}
+@media(max-width:680px){html body .post-body .ocb-facts, .ocb-facts{grid-template-columns:1fr!important}}
+.ocb-fact{background:linear-gradient(180deg,#fff,#f8fafc);border:1px solid var(--line);border-radius:16px;padding:16px}
+.ocb-fact .n{font-size:24px;font-weight:900;color:var(--brand2);display:block;margin-bottom:4px}
+html body .post-body .ocb-fact p, .ocb-fact p{margin:0!important;font-size:14.7px!important;color:#334155!important;line-height:1.5!important}
+
+.ocb-card,.ocb-fact,.ocb-tri{transition:transform .28s ease,box-shadow .28s ease}
+.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:translateY(-4px);box-shadow:0 16px 40px rgba(2,6,23,.12)}
+.faq-item{transition:border-color .25s,box-shadow .25s}
+.faq-item:hover{border-color:rgba(139,0,0,.35);box-shadow:0 6px 18px rgba(2,6,23,.07)}
+.ocb-chip{display:inline-flex;align-items:center;gap:6px;transition:transform .2s,border-color .2s}
+.ocb-chip:hover{transform:translateY(-2px);border-color:rgba(139,0,0,.35)}
+.ocb-chip svg{color:#8B0000}
+.ocb-cta a{transition:transform .22s,box-shadow .22s}
+.ocb-cta a:hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(0,0,0,.25)}
+.ocb-fact .n{position:relative}
+html.ocb-anim-ready .ocb-rv{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
+html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){html.ocb-anim-ready .ocb-rv{opacity:1!important;transform:none!important;transition:none!important}.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:none}}
+
+/* Chip icons. Webflow's rich-text sanitizer strips inline <svg> whenever a post is
+   re-saved in the Editor, so the icons are drawn from CSS on a <span> instead. */
+.ocb-ic{display:inline-block;width:15px;height:15px;flex:0 0 auto;vertical-align:-2px;background-repeat:no-repeat;background-position:center;background-size:contain}
+.ocb-ic-pin{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z'/><circle cx='12' cy='10' r='3'/></svg>")}
+.ocb-ic-home{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z'/><polyline points='9 22 9 12 15 12 15 22'/></svg>")}
+.ocb-ic-phone{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z'/></svg>")}
+.ocb-cta .ocb-ic{filter:brightness(0) saturate(100%) invert(9%) sepia(64%) saturate(4000%) hue-rotate(348deg)}
+</style></div>
+
+<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">December 24, 2026</span></div></div>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
+  <span class="ocb-eyebrow">Quick answer</span>
+  <p style="margin:0;font-size:17.9px;line-height:1.65"><strong>Replace carpet when the fibers are matted flat and will not recover, when odor survives professional cleaning, when you can see backing or seams, when the pad has quit underfoot, or when age has put it past what any deep clean can reset.</strong> Those are the five honest signs. Just as important is what is <em>not</em> on the list: ripples and waves mean a restretch, not a new floor, and dirty-looking traffic lanes are often just dirty. We make money either way, so you will get the real answer &mdash; here is how to tell which one you are looking at.</p>
+  <div class="ocb-chips">
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-pin"></span> King &amp; Snohomish County</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-home"></span> Mercer Island homes</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-phone"></span> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
+  </div>
+</div></div>
+
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-facts">
+  <div class="ocb-fact"><span class="n">5 signs</span><p>that genuinely mean replacement: unrecoverable matting, odor below the carpet, visible backing or failed seams, a dead pad, and old age no cleaning can undo. Everything else on the internet&rsquo;s lists is usually fixable for less.</p></div>
+  <div class="ocb-fact"><span class="n">Restretch first</span><p>if the complaint is ripples, waves or a wrinkle by the doorway. That is an installation failure, not a worn-out carpet, and fixing it costs a fraction of replacing &mdash; we will say so at the estimate.</p></div>
+  <div class="ocb-fact"><span class="n">From $1.49/sq ft</span><p>installed when it truly is time &mdash; carpet, pad and labor, tear-out and haul-away handled, most homes done in a day. The mobile showroom brings twenty-plus samples and all three pad grades to your door.</p></div>
+</div></div></div>
+
+<h2>The Five Signs, and Why These Five</h2>
+
+<p>Carpet rarely fails all at once; it fades out of usefulness while everyone in the house slowly stops noticing. The five signs below are the ones that mean the carpet itself is finished &mdash; as opposed to dirty, loose or unlucky, which are cheaper problems wearing a convincing costume. We wrote an earlier, broader list in <a href="/blog/6-reasons-to-replace-carpet-flooring">six reasons to replace carpet</a>; this is the field-tested short version, with the tests we actually use on living-room floors at estimates.</p>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-card">
+  <h3 style="margin:0 0 10px;font-size:18.5px;font-weight:900;color:#5c0000">The Five Honest Signs</h3>
+  <div style="overflow-x:auto"><table class="ocb-table">
+    <tr><th>Sign</th><th>What you notice</th><th>Why it means replacement</th></tr>
+    <tr><td><strong>1. Matting that won&rsquo;t recover</strong></td><td>Traffic lanes stay flat and shiny even after a deep clean</td><td>The fiber&rsquo;s twist is dead. No cleaning re-twists a crushed fiber &mdash; this is the true end of a carpet&rsquo;s life</td></tr>
+    <tr><td><strong>2. Odor that survives cleaning</strong></td><td>Smell returns days after a professional clean, worse on humid days</td><td>The source is in the pad or subfloor, where no surface cleaning reaches. The floor has to open up</td></tr>
+    <tr><td><strong>3. Visible backing, seams or bald spots</strong></td><td>White grid peeking through, seams lifting, runs and frays</td><td>Structural failure. The backing is delaminating and it only accelerates from here</td></tr>
+    <tr><td><strong>4. The pad has quit</strong></td><td>Crunchy or flat spots underfoot, unevenness, wrinkles that return after restretching</td><td>A collapsed pad takes the carpet with it &mdash; and a new pad under old carpet is money badly spent</td></tr>
+    <tr><td><strong>5. Age past cleaning&rsquo;s reach</strong></td><td>A 15-plus-year carpet that looks dingy a week after every clean, allergies that track the room</td><td>Accumulation eventually exceeds what extraction can remove. Old pad is half the problem</td></tr>
+  </table></div>
+</div></div>
+
+<h2>Matting vs Dirt: The Test That Saves Floors</h2>
+
+<p>The most common carpet misdiagnosis is calling a dirty carpet dead. Traffic lanes collect ground-in soil that dulls the color and flattens the look, and a carpet with years of it can appear utterly finished while being halfway through its life. So before you price replacement, run the two tests we run. First, the <strong>fluff test</strong>: rub a matted patch briskly with your fingers or drag a coin across it against the pile. If the fibers stand back up and hold, the twist is alive &mdash; that is dirt, and a professional hot-water extraction will shock you with how much floor comes back. If the fibers stay flat, or stand up and slump within the hour, the twist is gone and no cleaning will resurrect it. Second, the <strong>closet comparison</strong>: look at the same carpet inside a closet, where feet never go. If the closet carpet looks great and the lanes look terrible, the gap between them tells you whether the problem is wear or washing. A deep clean costs a small fraction of a new floor &mdash; when it can work, it should always go first, and we say so even though we sell the floor.</p>
+
+<h2>When the Smell Is Not in the Carpet</h2>
+
+<p>Odor is the sign people fight the longest, because it responds to cleaning &mdash; briefly. A carpet that smells fine for a week after extraction and then blooms again on the first humid day is telling you the source is underneath: urine, spills or moisture that soaked through years ago and lives in the pad, sometimes in the subfloor itself. Surface cleaning cannot reach it, ozone treatments and enzyme sprays only negotiate with it, and the honest fix is mechanical: old carpet and pad out, the subfloor inspected and sealed where it needs it, new pad and carpet in. This is also the moment to fix the cause &mdash; a pet-accident zone gets a moisture-barrier pad this time, and a musty room gets its moisture question answered before any new carpet goes down. If we find a damp slab or an active leak at the estimate, the carpet conversation pauses until the water conversation is done. New carpet over an unsolved problem is a purchase with an expiration date.</p>
+
+<h2>The Restretch-First Cases</h2>
+
+<p>Now the good news list. <strong>Ripples, waves and wrinkles are not a worn-out carpet</strong> &mdash; they are a loose one. Carpet that was knee-kicked instead of power-stretched at installation, or that has relaxed over years of sun and traffic, lifts into waves that look alarming and fix completely. A restretch pulls the carpet taut, trims and re-secures it, and the floor is flat again by lunch &mdash; at a fraction of the cost of replacement, which is why <a href="/blog/is-it-worth-it-to-restretch-your-carpet">is restretching worth it</a> is usually a short read with a happy answer, and <a href="/blog/carpet-stretching-cost">what stretching costs</a> puts numbers on it. The qualifier from the table above: a restretch only holds if the pad underneath is still doing its job. If wrinkles return months after a proper restretch, the pad has collapsed, and that is sign four wearing sign-of-nothing's clothing. One honest test at your kitchen table sorts it &mdash; and if a restretch is the answer, that is the estimate we will hand you.</p>
+
+<h2>The Math of Limping Along</h2>
+
+<p>Somewhere around year fifteen, most carpet enters its expensive-to-keep phase: professional cleans that used to reset it now buy a month of looking acceptable, the pad has gone flat in the traffic lanes, and if allergies live in the house, the carpet is now part of that story too &mdash; <a href="/blog/carpet-and-allergies">carpet and allergies</a> explains why an old carpet and its original pad are the real culprits behind the material's bad reputation. <a href="/blog/how-long-does-carpet-last">How long carpet lasts</a> will help you date yours honestly. When the cleaning bills are recurring and the result is not, replacement stops being the expensive option: installed carpet starts at $1.49 per square foot with us, tear-out and haul-away are part of the job &mdash; <a href="/blog/carpet-removal-cost">carpet removal cost</a> covers that piece if you are curious &mdash; and most homes are finished in a day, furniture moving included. The full quote anatomy is in <a href="/blog/carpet-installation-cost-seattle">our carpet cost guide</a>.</p>
+
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-2col">
+  <div class="ocb-card" style="margin:0">
+    <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#5c0000">Replace it when</h3>
+    <ul class="ocb-check">
+      <li>Traffic lanes fail the fluff test &mdash; flat, shiny, done</li>
+      <li>Odor comes back after professional cleaning</li>
+      <li>Backing shows, seams lift, or bald spots spread</li>
+      <li>The pad crunches, bottoms out, or wrinkles keep returning</li>
+      <li>The carpet is 15-plus years old and cleans no longer hold</li>
+      <li>Water damage soaked the pad &mdash; that carpet is not coming back</li>
+    </ul>
+  </div>
+  <div class="ocb-card" style="margin:0">
+    <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#334155">Save it when</h3>
+    <ul class="ocb-check ocb-x">
+      <li>The lanes fluff back up &mdash; that is dirt; book an extraction</li>
+      <li>The only complaint is ripples or waves &mdash; restretch it</li>
+      <li>One spot is damaged and you kept offcuts &mdash; patch it</li>
+      <li>A seam has lifted but the carpet is healthy &mdash; repair it</li>
+      <li>It is merely out of fashion &mdash; a real reason, but not an urgent one</li>
+      <li>The smell traces to one accident zone &mdash; a partial fix may do</li>
+    </ul>
+  </div>
+</div></div></div>
+
+<h2>Replacing Carpet on Mercer Island</h2>
+
+<p>Mercer Island carpet skews older than the eastside average &mdash; a lot of the island's mid-century and 1980s houses still carry carpet from a remodel two owners ago, and the question we get in those living rooms is rarely whether it is time but how it did not come up sooner. The island pattern: bedrooms and rec rooms getting honest family wear, daylight basements with the moisture question that every below-grade room on the lake has to answer, and a steady stream of pre-listing refreshes where new carpet in the bedrooms is the cheapest line item in the whole staging budget. The mobile showroom handles all of it in one visit &mdash; twenty-plus full-size samples and all three pad grades in your own light, every room and stair measured, tear-out and haul-away in the written price you get before we leave. Details on the <a href="/city-of-mercer-island/carpet-installation-in-mercer-island-wa">Mercer Island carpet installation page</a>.</p>
+
+<div data-rt-embed-type='true'><!-- FAQ accordion + JSON-LD -->
+<div class="faq-wrap ocb" aria-labelledby="faq-title">
+  <h2 id="faq-title" class="faq-title">Replacing Carpet: What Homeowners Ask Us</h2>
+  <div class="faq-items" role="list">
+    <details class="faq-item" role="listitem"><summary class="faq-q">How do I know when carpet needs to be replaced?</summary><div class="faq-a">Five signs: matting that will not fluff back up after cleaning, odor that returns after professional extraction, visible backing or failing seams, a pad that has gone crunchy or flat underfoot, and age — around fifteen-plus years — where deep cleans no longer hold. If your complaint is not on that list, there is a decent chance the fix is cheaper than a new floor.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">How long does carpet usually last?</summary><div class="faq-a">Quality carpet over a good pad runs ten to fifteen years in normal family use; builder-grade over cheap pad can be visibly done in five to seven. The room matters as much as the product — bedroom carpet lives far longer than family-room carpet — and the pad quietly decides more of the lifespan than the carpet label does.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">My carpet looks flat and dirty in the traffic lanes. Is it worn out?</summary><div class="faq-a">Run the fluff test: rub the matted area briskly against the pile. Fibers that stand back up and stay up are dirty, not dead — book a hot-water extraction and be pleasantly surprised. Fibers that stay flat or slump back within the hour have lost their twist, and no cleaning brings that back. That is the difference between a cleaning bill and a new floor.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Why does my carpet still smell after professional cleaning?</summary><div class="faq-a">Because the smell is not in the carpet. Odor that survives extraction lives in the pad or subfloor, where surface cleaning cannot reach — classic with old pet accidents and moisture. The fix is replacement: old carpet and pad out, subfloor inspected and sealed if needed, and a moisture-barrier pad under the new carpet so the story does not repeat.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Should I restretch my carpet or replace it?</summary><div class="faq-a">If the problem is ripples, waves or a wrinkle at the doorway and the carpet itself is healthy, restretch — it costs a fraction of replacement and the floor is flat by lunch. Replace when the fibers are matted flat, the backing shows, or wrinkles return after a proper restretch, which means the pad underneath has collapsed. We quote whichever one your floor actually needs.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Is it worth replacing carpet before selling a house?</summary><div class="faq-a">Usually, yes — old carpet photographs badly and invites lowball mental math from every buyer who walks in, while fresh neutral carpet in bedrooms is one of the cheapest per-dollar upgrades in a listing. From $1.49 per square foot installed and done in a day, it routinely returns more than it costs in offer strength. Your agent will say the same thing.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Do you handle tearing out and disposing of the old carpet?</summary><div class="faq-a">Yes — tear-out of the old carpet, pad, staples and tack strip, plus haul-away and disposal, is part of the job and part of the written price. You do not need to rent a truck or fight a carpet roll down the stairs. If you want to pull it yourself to save a line item, we will tell you honestly what that saves and how to do it safely.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Can you check whether my carpet is worth saving before I commit to anything?</summary><div class="faq-a">That is what the estimate is for. We run the fluff test, check the pad, look for the restretch-versus-replace tells, and tell you plainly if a cleaning or a stretch is the better move — it costs us a sale now and earns us the next three referrals. If it is time, the samples and pad grades are already in the van, and the written price arrives the same visit.</div></details>
+  </div>
+</div>
+
+<style>
+  .faq-wrap{--line:#e5e7eb;margin:28px auto;padding:20px;border:1px solid var(--line);border-radius:16px;background:#fff;box-shadow:0 8px 30px rgba(2,6,23,.06)}
+  .faq-title{margin:0 0 14px;font-size:24px;font-weight:900;text-align:center;color:#5c0000}
+  .faq-items{display:grid;gap:10px}
+  .faq-item{border:1px solid var(--line);border-radius:14px;background:#f9fafb;overflow:hidden}
+  .faq-q{cursor:pointer;display:block;padding:14px 16px;font-weight:800;color:#0f172a}
+  .faq-q::-webkit-details-marker{display:none}
+  .faq-item[open] .faq-q{background:linear-gradient(180deg, rgba(139,0,0,.08), rgba(139,0,0,.02))}
+  .faq-a{padding:0 16px 14px;color:#1f2937;line-height:1.6}
+</style>
+
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How do I know when carpet needs to be replaced?", "acceptedAnswer": {"@type": "Answer", "text": "Five signs: matting that will not fluff back up after cleaning, odor that returns after professional extraction, visible backing or failing seams, a pad that has gone crunchy or flat underfoot, and age — around fifteen-plus years — where deep cleans no longer hold. If your complaint is not on that list, there is a decent chance the fix is cheaper than a new floor."}}, {"@type": "Question", "name": "How long does carpet usually last?", "acceptedAnswer": {"@type": "Answer", "text": "Quality carpet over a good pad runs ten to fifteen years in normal family use; builder-grade over cheap pad can be visibly done in five to seven. The room matters as much as the product — bedroom carpet lives far longer than family-room carpet — and the pad quietly decides more of the lifespan than the carpet label does."}}, {"@type": "Question", "name": "My carpet looks flat and dirty in the traffic lanes. Is it worn out?", "acceptedAnswer": {"@type": "Answer", "text": "Run the fluff test: rub the matted area briskly against the pile. Fibers that stand back up and stay up are dirty, not dead — book a hot-water extraction and be pleasantly surprised. Fibers that stay flat or slump back within the hour have lost their twist, and no cleaning brings that back. That is the difference between a cleaning bill and a new floor."}}, {"@type": "Question", "name": "Why does my carpet still smell after professional cleaning?", "acceptedAnswer": {"@type": "Answer", "text": "Because the smell is not in the carpet. Odor that survives extraction lives in the pad or subfloor, where surface cleaning cannot reach — classic with old pet accidents and moisture. The fix is replacement: old carpet and pad out, subfloor inspected and sealed if needed, and a moisture-barrier pad under the new carpet so the story does not repeat."}}, {"@type": "Question", "name": "Should I restretch my carpet or replace it?", "acceptedAnswer": {"@type": "Answer", "text": "If the problem is ripples, waves or a wrinkle at the doorway and the carpet itself is healthy, restretch — it costs a fraction of replacement and the floor is flat by lunch. Replace when the fibers are matted flat, the backing shows, or wrinkles return after a proper restretch, which means the pad underneath has collapsed. We quote whichever one your floor actually needs."}}, {"@type": "Question", "name": "Is it worth replacing carpet before selling a house?", "acceptedAnswer": {"@type": "Answer", "text": "Usually, yes — old carpet photographs badly and invites lowball mental math from every buyer who walks in, while fresh neutral carpet in bedrooms is one of the cheapest per-dollar upgrades in a listing. From $1.49 per square foot installed and done in a day, it routinely returns more than it costs in offer strength. Your agent will say the same thing."}}, {"@type": "Question", "name": "Do you handle tearing out and disposing of the old carpet?", "acceptedAnswer": {"@type": "Answer", "text": "Yes — tear-out of the old carpet, pad, staples and tack strip, plus haul-away and disposal, is part of the job and part of the written price. You do not need to rent a truck or fight a carpet roll down the stairs. If you want to pull it yourself to save a line item, we will tell you honestly what that saves and how to do it safely."}}, {"@type": "Question", "name": "Can you check whether my carpet is worth saving before I commit to anything?", "acceptedAnswer": {"@type": "Answer", "text": "That is what the estimate is for. We run the fluff test, check the pad, look for the restretch-versus-replace tells, and tell you plainly if a cleaning or a stretch is the better move — it costs us a sale now and earns us the next three referrals. If it is time, the samples and pad grades are already in the van, and the written price arrives the same visit."}}]}
+</script></div>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-cta" style="margin:30px 0">
+  <style>
+    html body .post-body .ocb-cta h2, .ocb-cta h2{color:#fff!important}
+    html body .post-body .ocb-cta .ocb-cta-sub, .ocb-cta .ocb-cta-sub{color:rgba(255,255,255,.88)!important}
+    html body .post-body .ocb-cta .ocb-cta-chips span, .ocb-cta .ocb-cta-chips span{color:rgba(255,255,255,.94)!important}
+    html body .post-body .ocb-cta a.ocb-cta-ghost, .ocb-cta a.ocb-cta-ghost{color:#fff!important;text-decoration:none!important}
+    html body .post-body .ocb-cta a.ocb-cta-gold, .ocb-cta a.ocb-cta-gold{color:#fbbc04!important}
+    html body .post-body .ocb-cta a.ocb-cta-phone, .ocb-cta a.ocb-cta-phone{color:#5c0000!important;text-decoration:none!important}
+  </style>
+  <div style="background:linear-gradient(135deg,#8B0000,#5c0000);border-radius:20px;padding:28px 24px;color:#fff;text-align:center;box-shadow:0 14px 34px rgba(92,0,0,.3)">
+    <h2 style="margin:0 0 6px;color:#fff!important;font-size:24px;font-weight:900">Get an Honest Verdict Before You Spend Anything</h2>
+    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.92)!important;font-size:16.3px">We will tell you if a restretch or a deep clean saves your floor &mdash; and when it is truly time, the mobile showroom brings twenty-plus samples and all three pad grades to your Mercer Island home, with tear-out, haul-away and a written price the same visit. Free estimates across King &amp; Snohomish County.</p>
+    <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
+      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff!important;color:#5c0000!important;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none!important"><span class="ocb-ic ocb-ic-phone"></span> (425) 595-1079</a>
+      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.16)!important;border:1px solid rgba(255,255,255,.55);color:#fff!important;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none!important">Book My Free Consultation</a>
+    </div>
+    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.95)!important">
+      <span>✓ Since 2013</span><span>✓ 1,000+ floors</span><span>✓ 1-yr workmanship warranty</span><span>✓ Licensed &amp; insured</span><span>✓ Financing available</span>
+    </div>
+    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04!important;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
+  </div>
+</div></div>
+
+<p><strong>Related reading:</strong> <a href="/blog/6-reasons-to-replace-carpet-flooring">Six reasons to replace carpet</a> · <a href="/blog/is-it-worth-it-to-restretch-your-carpet">Restretch or replace?</a> · <a href="/blog/how-long-does-carpet-last">How long carpet lasts</a> · <a href="/blog/carpet-removal-cost">What carpet removal costs</a> · <a href="/city-of-mercer-island/carpet-installation-in-mercer-island-wa">Carpet installation on Mercer Island</a> · <a href="/contact">Book a free estimate</a></p>
+
+<div data-rt-embed-type='true'><script>
+(function(){try{
+var els=document.querySelectorAll('.ocb-card,.ocb-fact,.ocb-tri,.faq-item');
+if(!('IntersectionObserver' in window)||!els.length)return;
+document.documentElement.classList.add('ocb-anim-ready');
+els.forEach(function(e,i){e.classList.add('ocb-rv');e.style.transitionDelay=Math.min((i%6)*70,350)+'ms'});
+var io=new IntersectionObserver(function(en){en.forEach(function(x){if(x.isIntersecting){x.target.classList.add('ocb-in');io.unobserve(x.target)}})},{threshold:.12,rootMargin:'0px 0px -8% 0px'});
+els.forEach(function(e){io.observe(e)});
+}catch(e){}})();
+</script></div>

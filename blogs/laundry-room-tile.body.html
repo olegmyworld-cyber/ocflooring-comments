@@ -1,0 +1,199 @@
+<div data-rt-embed-type='true'><style>
+.ocb{--ink:#0f172a;--muted:#64748b;--line:#e5e7eb;--soft:#f8fafc;--brand:#8B0000;--brand2:#5c0000;--gold:#fbbc04;font-family:'Mulish',Inter,system-ui,sans-serif;color:var(--ink)}
+.ocb *{box-sizing:border-box}
+.ocb-card{border:1px solid var(--line);border-radius:18px;background:#fff;box-shadow:0 10px 30px rgba(2,6,23,.06);padding:22px;margin:26px 0}
+.ocb-eyebrow{display:inline-block;background:rgba(139,0,0,.08);color:var(--brand2);border:1px solid rgba(139,0,0,.2);border-radius:999px;padding:5px 12px;font-size:12.5px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;margin-bottom:10px}
+.ocb-chips{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0 0}
+.ocb-chip{background:var(--soft);border:1px solid var(--line);border-radius:999px;padding:6px 12px;font-size:13.6px;font-weight:700}
+.ocb-table{width:100%;border-collapse:collapse;font-size:15.2px}
+.ocb-table th,.ocb-table td{padding:11px 10px;text-align:left;border-bottom:1px solid var(--line)}
+.ocb-table th{background:var(--soft);font-weight:800;font-size:13.6px;letter-spacing:.02em}
+.ocb-table tr:last-child td{border-bottom:0}
+.ocb-table td strong{color:var(--brand2)}
+.ocb-2col{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media(max-width:680px){.ocb-2col{grid-template-columns:1fr}}
+.ocb-check{list-style:none;padding:0;margin:10px 0 0}
+.ocb-check li{padding-left:26px;position:relative;margin:7px 0;line-height:1.55}
+.ocb-check li:before{content:"✓";position:absolute;left:0;color:var(--brand);font-weight:900}
+.ocb-x li:before{content:"✕";color:#94a3b8}
+html body .post-body .ocb-facts, .ocb-facts{display:grid!important;grid-template-columns:repeat(3,1fr)!important;gap:12px!important;margin:8px 0!important}
+@media(max-width:680px){html body .post-body .ocb-facts, .ocb-facts{grid-template-columns:1fr!important}}
+.ocb-fact{background:linear-gradient(180deg,#fff,#f8fafc);border:1px solid var(--line);border-radius:16px;padding:16px}
+.ocb-fact .n{font-size:24px;font-weight:900;color:var(--brand2);display:block;margin-bottom:4px}
+html body .post-body .ocb-fact p, .ocb-fact p{margin:0!important;font-size:14.7px!important;color:#334155!important;line-height:1.5!important}
+
+.ocb-card,.ocb-fact,.ocb-tri{transition:transform .28s ease,box-shadow .28s ease}
+.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:translateY(-4px);box-shadow:0 16px 40px rgba(2,6,23,.12)}
+.faq-item{transition:border-color .25s,box-shadow .25s}
+.faq-item:hover{border-color:rgba(139,0,0,.35);box-shadow:0 6px 18px rgba(2,6,23,.07)}
+.ocb-chip{display:inline-flex;align-items:center;gap:6px;transition:transform .2s,border-color .2s}
+.ocb-chip:hover{transform:translateY(-2px);border-color:rgba(139,0,0,.35)}
+.ocb-chip svg{color:#8B0000}
+.ocb-cta a{transition:transform .22s,box-shadow .22s}
+.ocb-cta a:hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(0,0,0,.25)}
+.ocb-fact .n{position:relative}
+html.ocb-anim-ready .ocb-rv{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
+html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){html.ocb-anim-ready .ocb-rv{opacity:1!important;transform:none!important;transition:none!important}.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:none}}
+
+/* Chip icons. Webflow's rich-text sanitizer strips inline <svg> whenever a post is
+   re-saved in the Editor, so the icons are drawn from CSS on a <span> instead. */
+.ocb-ic{display:inline-block;width:15px;height:15px;flex:0 0 auto;vertical-align:-2px;background-repeat:no-repeat;background-position:center;background-size:contain}
+.ocb-ic-pin{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z'/><circle cx='12' cy='10' r='3'/></svg>")}
+.ocb-ic-home{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z'/><polyline points='9 22 9 12 15 12 15 22'/></svg>")}
+.ocb-ic-phone{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z'/></svg>")}
+.ocb-cta .ocb-ic{filter:brightness(0) saturate(100%) invert(9%) sepia(64%) saturate(4000%) hue-rotate(348deg)}
+</style></div>
+
+<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">December 1, 2026</span></div></div>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
+  <span class="ocb-eyebrow">Quick answer</span>
+  <p style="margin:0;font-size:17.9px;line-height:1.65"><strong>The laundry room is the one floor in the house you should choose on the assumption that it will someday be underwater.</strong> Washing machine supply hoses fail, drains back up, and a load of water arrives with nobody home to see it. Tile is the right surface for that room &mdash; but tile alone is not waterproof, because grout never is. What makes a laundry floor survive a leak is the assembly underneath: a bonded membrane that turns the floor into a shallow pan, silicone where the floor meets the wall, and &mdash; where the framing allows it &mdash; a floor drain that gives the water somewhere to go. Installed tile runs $14&ndash;$26 per square foot with labor from $11/sq ft, and in a small room the leak protection is most of the value.</p>
+  <div class="ocb-chips">
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-pin"></span> King &amp; Snohomish County</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-home"></span> Bothell homes</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-phone"></span> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
+  </div>
+</div></div>
+
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-facts">
+  <div class="ocb-fact"><span class="n">$14&ndash;$26</span><p>per square foot installed, labor from $11/sq ft. A laundry room is small, so the whole floor &mdash; done right, membrane and all &mdash; usually costs less than the deductible on the flood it is built to shrug off.</p></div>
+  <div class="ocb-fact"><span class="n">24 hours</span><p>how long we flood-test every shower pan we build, photographed and kept on file. A laundry floor gets the same leak-first thinking: assume the water, then build the floor that does not care.</p></div>
+  <div class="ocb-fact"><span class="n">2 years</span><p>our warranty on tile work &mdash; double the one-year most of the trade offers. We can afford that on laundry floors because the membrane under the tile does the real work.</p></div>
+</div></div></div>
+
+<h2>The Laundry Room Is a Wet Room in Denial</h2>
+
+<p>Bathrooms get waterproofing because everyone can picture the shower. The laundry room gets vinyl and hope, even though it holds the two most likely flood sources in the house: a washing machine fed by two pressurized hoses that are under mains pressure around the clock, and a drain standpipe that takes a full-throttle pump-out every cycle. A rubber supply hose is a wear item with a service life measured in single-digit years, and when one lets go it does not drip &mdash; it pours, at somewhere around house pressure, until someone notices. If the machine is running its own drain can also overflow quietly, one cycle at a time, soaking the same corner for months.</p>
+
+<p>So the design question for a laundry floor is not <em>which surface looks nice with the cabinets</em>. It is <em>what happens in this room during the bad hour</em> &mdash; and in the months of slow seep you have not discovered yet. Sheet vinyl actually sheds water reasonably well until its seams and edges let go; laminate is done the day it gets wet; hardwood in a laundry room is a buckling story waiting for its date. Tile is the surface that does not care. The catch is that tile <em>alone</em> only protects the spot it covers, and water is patient about finding the edges. We compare the whole field of options in <a href="/blog/how-to-choose-laundry-room-flooring">choosing laundry room flooring</a> &mdash; this post is about doing the tile version properly.</p>
+
+<h2>Why Tile Alone Is Not Enough</h2>
+
+<p>Here is the part most homeowners have never been told: grout is not waterproof and never was. Cement grout absorbs water; even sealed, it slows water down rather than stopping it. A tiled floor with nothing underneath is a colander with excellent style. During a real leak, water passes through the grout lines, hits the plywood or OSB below, and does what water does to wood-based subfloors &mdash; swells it, delaminates it, and feeds the framing below for days after the surface looks dry.</p>
+
+<p>What makes tile a flood-proof floor is the waterproofing layer bonded under it &mdash; the same sheet or liquid-applied membranes we build showers with, run across the floor and a few inches up the wall behind the baseboard, corners treated, seams lapped. Now the floor is a shallow pan: water that gets through the grout stops at the membrane and sits there until it evaporates or drains, instead of raining through the ceiling of the room below. The membrane also uncouples the tile from seasonal movement in the subfloor, which is the difference between grout lines that last and grout lines that crack &mdash; the layer-by-layer logic we lay out in <a href="/blog/tile-underlayment-explained">tile underlayment explained</a>.</p>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-card">
+  <h3 style="margin:0 0 10px;font-size:18.5px;font-weight:900;color:#5c0000">Three Levels of Laundry-Floor Protection</h3>
+  <div style="overflow-x:auto"><table class="ocb-table">
+    <tr><th>Level</th><th>What it is</th><th>What it buys you</th></tr>
+    <tr><td><strong>1. Tile over membrane</strong></td><td>Bonded waterproofing membrane under the tile, turned up the wall behind the base, silicone at every edge</td><td>The floor itself survives anything; a modest leak stays in the room long enough to be found</td></tr>
+    <tr><td><strong>2. Membrane + drain pan</strong></td><td>A shallow pan under the washer that catches drips and hose failures, plumbed or alarmed</td><td>Catches the most likely failure at its source; cheap insurance under any washer, any floor</td></tr>
+    <tr><td><strong>3. Membrane + floor drain</strong></td><td>The floor sloped gently to a real drain, membrane tied into it &mdash; a shower pan with a washer standing in it</td><td>The bad hour becomes a non-event: water arrives, water leaves. The gold standard where framing and plumbing allow</td></tr>
+  </table></div>
+</div></div>
+
+<p>Level three is the one worth explaining, because it is the one nobody offers unless asked. If the laundry room sits over a crawlspace or basement where a drain line can be run, the floor can be built exactly like a giant shower pan: pre-sloped toward a drain, membrane bonded over the slope and clamped into the drain flange, tile on top. A quarter inch per foot of fall is invisible underfoot in a room this size, and it changes the failure math completely &mdash; a burst hose becomes a mop-up, not an insurance claim. On a slab or over a finished ceiling it is harder and sometimes not worth the surgery; that is an honest conversation to have at the estimate, with the framing open to argument. The mechanics are the same ones we describe in <a href="/blog/tile-shower-waterproofing">shower waterproofing</a>, because it is the same build.</p>
+
+<h2>The Details That Decide Whether It Works</h2>
+
+<p><strong>The perimeter is the weak point.</strong> Water that cannot get through the field of the floor will find the joint where floor meets wall. The membrane has to turn up the wall a few inches &mdash; behind the baseboard, where nobody sees it &mdash; and the joint gets silicone, not grout, because that corner moves and grout in a moving corner cracks. The same goes for the joint around the standpipe and any supply penetrations.</p>
+
+<p><strong>The doorway is the spillway.</strong> In a flood, the door is where water escapes into the hallway with the nice floors. A marble or stone threshold set a fraction higher than the tile, siliconed at both edges, buys you real containment volume &mdash; a room-sized pan holds a surprising amount of water behind a half-inch dam. It is a $60 detail that protects thousands of dollars of adjacent flooring.</p>
+
+<p><strong>Slip resistance matters more here than in the bathroom.</strong> This is a floor that gets walked in socks while carrying a basket that blocks your view of the ground, in a room where standing water is a design assumption. We spec a matte or textured porcelain in laundry rooms &mdash; the glassy polished looks belong somewhere drier. Smaller formats with more grout lines also grip better underfoot; a laundry room is one of the places where a 12&times;12 or a mosaic-scale tile is the engineering answer, not the budget one &mdash; the opposite end of the spectrum from the <a href="/blog/large-format-tile-installation">large-format floors</a> we flatten substrates for elsewhere in the house.</p>
+
+<h2>Laundry Floors in Bothell Homes</h2>
+
+<p>Bothell's housing stock splits into two laundry-room stories. The split-levels and ramblers of the 70s and 80s usually keep the laundry downstairs &mdash; on a slab or over a crawlspace, which is the good news, because a slab-level laundry room is the easy case: the flood damage is contained, and a floor drain is often plumbable. The newer townhomes and two-story houses filling in around Canyon Park and North Creek put the laundry upstairs, next to the bedrooms, directly over the living room. That is convenient for socks and brutal for failure modes: every leak is a ceiling event, and the drywall, insulation, and hardwood below join the claim.</p>
+
+<p>Upstairs laundries are where we argue hardest for the full assembly &mdash; membrane turned up at the walls, raised threshold, pan under the washer, braided stainless hoses while we are at it. The cost difference between tile-with-membrane and tile-with-hope is a few hundred dollars in a room this size. The cost difference between a contained leak and a ceiling-and-hardwood claim is not close. Scope and scheduling for the area are on our <a href="/hardwood-floor-refinishing/tile-installation-in-bothell-wa">Bothell tile installation page</a>.</p>
+
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-2col">
+  <div class="ocb-card" style="margin:0">
+    <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#5c0000">What a leak-ready laundry floor includes</h3>
+    <ul class="ocb-check">
+      <li>Matte, slip-rated porcelain &mdash; not a polished surface</li>
+      <li>Bonded waterproof membrane across the floor, turned up the walls</li>
+      <li>Silicone, not grout, at the perimeter and every penetration</li>
+      <li>A raised, siliconed threshold at the door &mdash; the dam</li>
+      <li>Drain pan under the washer; floor drain where framing allows</li>
+      <li>Braided stainless supply hoses before the washer goes back</li>
+    </ul>
+  </div>
+  <div class="ocb-card" style="margin:0">
+    <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#334155">What the usual laundry floor gets</h3>
+    <ul class="ocb-check ocb-x">
+      <li>Whatever tile was left over from the bathroom</li>
+      <li>Cement board or bare plywood &mdash; no membrane anywhere</li>
+      <li>Grout run straight into the corners, cracking by year two</li>
+      <li>A flat transition that hands the flood to the hallway</li>
+      <li>The washer set back on rubber hoses from the 2000s</li>
+      <li>A conversation with an insurance adjuster, eventually</li>
+    </ul>
+  </div>
+</div></div></div>
+
+<h2>What It Costs, and What It Is Worth</h2>
+
+<p>A laundry room is one of the smallest tile jobs we do &mdash; most are 30 to 60 square feet &mdash; which means the economics follow the small-room rule: high cost per square foot, low total. The $14&ndash;$26 installed range applies, and small rooms land toward the top of it because mobilization, membrane work, and the appliance dance (disconnect, move, level, reconnect) cost the same whether the room is tiny or twice the size. Expect the whole floor, done properly, to land in the four figures &mdash; usually the low four figures. The per-square-foot arithmetic and where rooms land in the range is the same story we tell in <a href="/blog/tile-installation-cost-per-square-foot">tile cost per square foot</a>.</p>
+
+<p>Against that number, weigh what the floor is protecting. Water damage from washing machine failures is one of the most common homeowner insurance claims in the country, and the average claim runs well into five figures once a ceiling or a hardwood floor downstream is involved. A membrane, a threshold, and a pan do not show up in photographs, and they are the best money in the whole project. If a heated floor is on your wish list &mdash; and a tile laundry room in a Pacific Northwest winter is a fair place to want one &mdash; the mat adds modestly to the build and shares the same logic we priced out in <a href="/blog/heated-bathroom-floor-cost">heated bathroom floors</a>.</p>
+
+<div data-rt-embed-type='true'><!-- FAQ accordion + JSON-LD -->
+<div class="faq-wrap ocb" aria-labelledby="faq-title">
+  <h2 id="faq-title" class="faq-title">Laundry Room Tile: What Homeowners Ask Us</h2>
+  <div class="faq-items" role="list">
+    <details class="faq-item" role="listitem"><summary class="faq-q">What is the best flooring for a laundry room?</summary><div class="faq-a">Tile over a bonded waterproof membrane, with silicone at the perimeter and a slip-resistant matte porcelain on top. Tile is the only common floor that is genuinely indifferent to standing water, but the membrane underneath is what makes the room leak-proof — grout is not waterproof, and tile without a membrane only protects the spots it covers.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Is tile alone waterproof?</summary><div class="faq-a">No. The tile body itself may be nearly impervious, but grout absorbs and passes water, and the perimeter joints move and open over time. A tiled floor with no membrane underneath will pass a real leak through to the subfloor. Waterproof is a property of the assembly — membrane, treated corners, siliconed perimeter — not of the tile.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Can you put a floor drain in a laundry room?</summary><div class="faq-a">Often, yes — it depends on what is under the room. Over a crawlspace or unfinished basement, running a drain line is usually straightforward, and the floor can be built like a shallow shower pan with a gentle slope to the drain. On a concrete slab or over a finished ceiling it means real surgery, and a drain pan under the washer plus a raised threshold may be the smarter spend. We answer it house by house at the estimate.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">What does it cost to tile a laundry room?</summary><div class="faq-a">The installed range is $14 to $26 per square foot with labor from $11, and small rooms land toward the top of the range because setup, membrane work, and moving the appliances cost the same regardless of size. Most laundry rooms total in the low four figures done properly, including the waterproofing that makes the project worth doing.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Should the tile go under the washer and dryer?</summary><div class="faq-a">Yes, always. Tiling only the visible apron leaves the most likely leak zone — directly under the machines — on bare subfloor, and it creates a height step that makes the machines rock and walk. The appliances come out, the whole floor gets tiled and membraned wall to wall, and the machines go back on a leveled, protected surface.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">What tile is safest underfoot in a laundry room?</summary><div class="faq-a">A matte or textured porcelain with a real slip rating, in a small or medium format. More grout lines mean more grip, and a honed surface sheds soap and water without turning into a skating rink. Polished porcelain and glassy glazes are the wrong finish for a room where standing water is part of the job description.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Is a heated floor worth it in a laundry room?</summary><div class="faq-a">It is the same calculus as a bathroom: the mat and thermostat add a modest amount during the build and cannot be added later without redoing the floor. In a room where you fold clothes barefoot on tile all winter, most people who add it are glad they did. If the budget is tight, spend on the membrane and threshold first — comfort second, containment first.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">What else should change while the floor is open?</summary><div class="faq-a">Two cheap upgrades while the machines are out: braided stainless supply hoses in place of rubber ones, and a drain pan under the washer — plumbed to the drain if possible, or fitted with a leak alarm if not. Hose failure is the most common laundry flood, and both upgrades together cost less than one visit from a drywall contractor.</div></details>
+  </div>
+</div>
+
+<style>
+  .faq-wrap{--line:#e5e7eb;margin:28px auto;padding:20px;border:1px solid var(--line);border-radius:16px;background:#fff;box-shadow:0 8px 30px rgba(2,6,23,.06)}
+  .faq-title{margin:0 0 14px;font-size:24px;font-weight:900;text-align:center;color:#5c0000}
+  .faq-items{display:grid;gap:10px}
+  .faq-item{border:1px solid var(--line);border-radius:14px;background:#f9fafb;overflow:hidden}
+  .faq-q{cursor:pointer;display:block;padding:14px 16px;font-weight:800;color:#0f172a}
+  .faq-q::-webkit-details-marker{display:none}
+  .faq-item[open] .faq-q{background:linear-gradient(180deg, rgba(139,0,0,.08), rgba(139,0,0,.02))}
+  .faq-a{padding:0 16px 14px;color:#1f2937;line-height:1.6}
+</style>
+
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What is the best flooring for a laundry room?", "acceptedAnswer": {"@type": "Answer", "text": "Tile over a bonded waterproof membrane, with silicone at the perimeter and a slip-resistant matte porcelain on top. Tile is the only common floor that is genuinely indifferent to standing water, but the membrane underneath is what makes the room leak-proof — grout is not waterproof, and tile without a membrane only protects the spots it covers."}}, {"@type": "Question", "name": "Is tile alone waterproof?", "acceptedAnswer": {"@type": "Answer", "text": "No. The tile body itself may be nearly impervious, but grout absorbs and passes water, and the perimeter joints move and open over time. A tiled floor with no membrane underneath will pass a real leak through to the subfloor. Waterproof is a property of the assembly — membrane, treated corners, siliconed perimeter — not of the tile."}}, {"@type": "Question", "name": "Can you put a floor drain in a laundry room?", "acceptedAnswer": {"@type": "Answer", "text": "Often, yes — it depends on what is under the room. Over a crawlspace or unfinished basement, running a drain line is usually straightforward, and the floor can be built like a shallow shower pan with a gentle slope to the drain. On a concrete slab or over a finished ceiling it means real surgery, and a drain pan under the washer plus a raised threshold may be the smarter spend. We answer it house by house at the estimate."}}, {"@type": "Question", "name": "What does it cost to tile a laundry room?", "acceptedAnswer": {"@type": "Answer", "text": "The installed range is $14 to $26 per square foot with labor from $11, and small rooms land toward the top of the range because setup, membrane work, and moving the appliances cost the same regardless of size. Most laundry rooms total in the low four figures done properly, including the waterproofing that makes the project worth doing."}}, {"@type": "Question", "name": "Should the tile go under the washer and dryer?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, always. Tiling only the visible apron leaves the most likely leak zone — directly under the machines — on bare subfloor, and it creates a height step that makes the machines rock and walk. The appliances come out, the whole floor gets tiled and membraned wall to wall, and the machines go back on a leveled, protected surface."}}, {"@type": "Question", "name": "What tile is safest underfoot in a laundry room?", "acceptedAnswer": {"@type": "Answer", "text": "A matte or textured porcelain with a real slip rating, in a small or medium format. More grout lines mean more grip, and a honed surface sheds soap and water without turning into a skating rink. Polished porcelain and glassy glazes are the wrong finish for a room where standing water is part of the job description."}}, {"@type": "Question", "name": "Is a heated floor worth it in a laundry room?", "acceptedAnswer": {"@type": "Answer", "text": "It is the same calculus as a bathroom: the mat and thermostat add a modest amount during the build and cannot be added later without redoing the floor. In a room where you fold clothes barefoot on tile all winter, most people who add it are glad they did. If the budget is tight, spend on the membrane and threshold first — comfort second, containment first."}}, {"@type": "Question", "name": "What else should change while the floor is open?", "acceptedAnswer": {"@type": "Answer", "text": "Two cheap upgrades while the machines are out: braided stainless supply hoses in place of rubber ones, and a drain pan under the washer — plumbed to the drain if possible, or fitted with a leak alarm if not. Hose failure is the most common laundry flood, and both upgrades together cost less than one visit from a drywall contractor."}}]}
+</script></div>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-cta" style="margin:30px 0">
+  <style>
+    html body .post-body .ocb-cta h2, .ocb-cta h2{color:#fff!important}
+    html body .post-body .ocb-cta .ocb-cta-sub, .ocb-cta .ocb-cta-sub{color:rgba(255,255,255,.88)!important}
+    html body .post-body .ocb-cta .ocb-cta-chips span, .ocb-cta .ocb-cta-chips span{color:rgba(255,255,255,.94)!important}
+    html body .post-body .ocb-cta a.ocb-cta-ghost, .ocb-cta a.ocb-cta-ghost{color:#fff!important;text-decoration:none!important}
+    html body .post-body .ocb-cta a.ocb-cta-gold, .ocb-cta a.ocb-cta-gold{color:#fbbc04!important}
+    html body .post-body .ocb-cta a.ocb-cta-phone, .ocb-cta a.ocb-cta-phone{color:#5c0000!important;text-decoration:none!important}
+  </style>
+  <div style="background:linear-gradient(135deg,#8B0000,#5c0000);border-radius:20px;padding:28px 24px;color:#fff;text-align:center;box-shadow:0 14px 34px rgba(92,0,0,.3)">
+    <h2 style="margin:0 0 6px;color:#fff!important;font-size:24px;font-weight:900">Build a Laundry Floor That Does Not Care</h2>
+    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.92)!important;font-size:16.3px">We will look at what is under your laundry room, tell you whether a floor drain is realistic, and price the membrane, threshold, and tile in writing &mdash; the whole leak-ready assembly, not just the pretty part. Free in-home estimates across King &amp; Snohomish County.</p>
+    <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
+      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff!important;color:#5c0000!important;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none!important"><span class="ocb-ic ocb-ic-phone"></span> (425) 595-1079</a>
+      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.16)!important;border:1px solid rgba(255,255,255,.55);color:#fff!important;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none!important">Book My Free Consultation</a>
+    </div>
+    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.95)!important">
+      <span>✓ Since 2013</span><span>✓ 1,000+ floors</span><span>✓ 1-yr workmanship warranty</span><span>✓ Licensed &amp; insured</span><span>✓ Financing available</span>
+    </div>
+    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04!important;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
+  </div>
+</div></div>
+
+<p><strong>Related reading:</strong> <a href="/blog/how-to-choose-laundry-room-flooring">Choosing laundry room flooring</a> · <a href="/blog/tile-underlayment-explained">Tile underlayment explained</a> · <a href="/blog/tile-shower-waterproofing">Shower waterproofing</a> · <a href="/blog/tile-installation-cost-per-square-foot">Tile cost per square foot</a> · <a href="/blog/large-format-tile-installation">Large-format tile installation</a> · <a href="/hardwood-floor-refinishing/tile-installation-in-bothell-wa">Tile installation in Bothell</a> · <a href="/contact">Book a free estimate</a></p>
+
+<div data-rt-embed-type='true'><script>
+(function(){try{
+var els=document.querySelectorAll('.ocb-card,.ocb-fact,.ocb-tri,.faq-item');
+if(!('IntersectionObserver' in window)||!els.length)return;
+document.documentElement.classList.add('ocb-anim-ready');
+els.forEach(function(e,i){e.classList.add('ocb-rv');e.style.transitionDelay=Math.min((i%6)*70,350)+'ms'});
+var io=new IntersectionObserver(function(en){en.forEach(function(x){if(x.isIntersecting){x.target.classList.add('ocb-in');io.unobserve(x.target)}})},{threshold:.12,rootMargin:'0px 0px -8% 0px'});
+els.forEach(function(e){io.observe(e)});
+}catch(e){}})();
+</script></div>

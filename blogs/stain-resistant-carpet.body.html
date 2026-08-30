@@ -1,0 +1,195 @@
+<div data-rt-embed-type='true'><style>
+.ocb{--ink:#0f172a;--muted:#64748b;--line:#e5e7eb;--soft:#f8fafc;--brand:#8B0000;--brand2:#5c0000;--gold:#fbbc04;font-family:'Mulish',Inter,system-ui,sans-serif;color:var(--ink)}
+.ocb *{box-sizing:border-box}
+.ocb-card{border:1px solid var(--line);border-radius:18px;background:#fff;box-shadow:0 10px 30px rgba(2,6,23,.06);padding:22px;margin:26px 0}
+.ocb-eyebrow{display:inline-block;background:rgba(139,0,0,.08);color:var(--brand2);border:1px solid rgba(139,0,0,.2);border-radius:999px;padding:5px 12px;font-size:12.5px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;margin-bottom:10px}
+.ocb-chips{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0 0}
+.ocb-chip{background:var(--soft);border:1px solid var(--line);border-radius:999px;padding:6px 12px;font-size:13.6px;font-weight:700}
+.ocb-table{width:100%;border-collapse:collapse;font-size:15.2px}
+.ocb-table th,.ocb-table td{padding:11px 10px;text-align:left;border-bottom:1px solid var(--line)}
+.ocb-table th{background:var(--soft);font-weight:800;font-size:13.6px;letter-spacing:.02em}
+.ocb-table tr:last-child td{border-bottom:0}
+.ocb-table td strong{color:var(--brand2)}
+.ocb-2col{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media(max-width:680px){.ocb-2col{grid-template-columns:1fr}}
+.ocb-check{list-style:none;padding:0;margin:10px 0 0}
+.ocb-check li{padding-left:26px;position:relative;margin:7px 0;line-height:1.55}
+.ocb-check li:before{content:"✓";position:absolute;left:0;color:var(--brand);font-weight:900}
+.ocb-x li:before{content:"✕";color:#94a3b8}
+html body .post-body .ocb-facts, .ocb-facts{display:grid!important;grid-template-columns:repeat(3,1fr)!important;gap:12px!important;margin:8px 0!important}
+@media(max-width:680px){html body .post-body .ocb-facts, .ocb-facts{grid-template-columns:1fr!important}}
+.ocb-fact{background:linear-gradient(180deg,#fff,#f8fafc);border:1px solid var(--line);border-radius:16px;padding:16px}
+.ocb-fact .n{font-size:24px;font-weight:900;color:var(--brand2);display:block;margin-bottom:4px}
+html body .post-body .ocb-fact p, .ocb-fact p{margin:0!important;font-size:14.7px!important;color:#334155!important;line-height:1.5!important}
+
+.ocb-card,.ocb-fact,.ocb-tri{transition:transform .28s ease,box-shadow .28s ease}
+.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:translateY(-4px);box-shadow:0 16px 40px rgba(2,6,23,.12)}
+.faq-item{transition:border-color .25s,box-shadow .25s}
+.faq-item:hover{border-color:rgba(139,0,0,.35);box-shadow:0 6px 18px rgba(2,6,23,.07)}
+.ocb-chip{display:inline-flex;align-items:center;gap:6px;transition:transform .2s,border-color .2s}
+.ocb-chip:hover{transform:translateY(-2px);border-color:rgba(139,0,0,.35)}
+.ocb-chip svg{color:#8B0000}
+.ocb-cta a{transition:transform .22s,box-shadow .22s}
+.ocb-cta a:hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(0,0,0,.25)}
+.ocb-fact .n{position:relative}
+html.ocb-anim-ready .ocb-rv{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
+html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){html.ocb-anim-ready .ocb-rv{opacity:1!important;transform:none!important;transition:none!important}.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:none}}
+
+/* Chip icons. Webflow's rich-text sanitizer strips inline <svg> whenever a post is
+   re-saved in the Editor, so the icons are drawn from CSS on a <span> instead. */
+.ocb-ic{display:inline-block;width:15px;height:15px;flex:0 0 auto;vertical-align:-2px;background-repeat:no-repeat;background-position:center;background-size:contain}
+.ocb-ic-pin{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z'/><circle cx='12' cy='10' r='3'/></svg>")}
+.ocb-ic-home{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z'/><polyline points='9 22 9 12 15 12 15 22'/></svg>")}
+.ocb-ic-phone{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z'/></svg>")}
+.ocb-cta .ocb-ic{filter:brightness(0) saturate(100%) invert(9%) sepia(64%) saturate(4000%) hue-rotate(348deg)}
+</style></div>
+
+<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">November 12, 2026</span></div></div>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
+  <span class="ocb-eyebrow">Quick answer</span>
+  <p style="margin:0;font-size:17.9px;line-height:1.65"><strong>&ldquo;Stain-resistant&rdquo; covers two very different technologies: a topical treatment sprayed onto ordinary fiber at the mill, which fades with cleaning and traffic, and solution-dyed fiber, where color and stain resistance are built into the plastic itself and cannot wash off.</strong> The warranty behind the label is a list, not a promise &mdash; it names the substances it covers, quietly excludes oils, dyes and anything classed as wear, and requires cleaning records you have to keep. Buy the fiber, read the list, and put a moisture-barrier pad underneath &mdash; that is the order of operations that actually protects a Shoreline family's floor.</p>
+  <div class="ocb-chips">
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-pin"></span> King &amp; Snohomish County</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-home"></span> Shoreline family homes</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-phone"></span> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
+  </div>
+</div></div>
+
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-facts">
+  <div class="ocb-fact"><span class="n">2 technologies</span><p>hide behind one label. Topical stain treatments ride on the fiber&rsquo;s surface and thin out with every hot-water extraction; solution-dyed fiber is stain-resistant to its core, for the life of the carpet.</p></div>
+  <div class="ocb-fact"><span class="n">12&ndash;18 months</span><p>the professional cleaning interval most stain warranties quietly require &mdash; with receipts. Skip it, or clean with the wrong machine, and a valid claim can die on paperwork.</p></div>
+  <div class="ocb-fact"><span class="n">From $1.49/sq ft</span><p>where installed carpet starts with us. The stain-resistant lines cost more per foot, and in the rooms where life actually happens, they are usually the cheapest insurance in the house.</p></div>
+</div></div></div>
+
+<h2>&ldquo;Stain-Resistant&rdquo; Means Two Different Things</h2>
+
+<p>Walk any carpet aisle and nearly everything claims stain resistance, which should make you suspicious, and rightly so. The label describes two technologies that age in opposite directions. The first is <strong>topical</strong>: ordinary dyed fiber gets a stain-blocking treatment applied at the mill. It works on day one. It also lives on the surface of the fiber, which means foot traffic grinds it away in the lanes and every deep cleaning rinses a little more of it out &mdash; so it is weakest exactly where and when you need it most, in the busy zones of a carpet's middle age.</p>
+
+<p>The second is <strong>inherent</strong>: the resistance is a property of the polymer itself. Polyester and triexta do not absorb water-based spills the way nylon does, and <strong>solution-dyed</strong> versions of any fiber take it further &mdash; more on that next. Inherent resistance cannot wear off, because it is not a coating; it is what the fiber is made of. When a salesperson says &ldquo;stain-resistant,&rdquo; the question that sorts the aisle is: <em>is that a treatment or the polymer?</em> The price difference between the two answers is real, and so is the difference in year six.</p>
+
+<h2>Solution-Dyed, Explained Properly</h2>
+
+<p>Conventional carpet is dyed the way fabric usually is: the fiber is made first, white, and the color is applied afterward, soaking into the outer layer. Solution-dyed fiber is colored before it exists &mdash; pigment is mixed into the molten polymer, and the fiber is extruded already colored, the way a batter baked with cocoa is chocolate all the way through rather than frosted. Cut a solution-dyed strand anywhere and the cross-section is the same color.</p>
+
+<p>That construction buys you two things. First, <strong>nothing can un-dye it</strong> &mdash; sunlight through a south window, repeated enzyme cleanings, even a careful dab of diluted bleach on the worst spill leave the color intact, because there is no surface layer of dye to strip. Second, <strong>there is nowhere for a stain to bond</strong> that the pigment does not already occupy; spills sit on the fiber waiting to be blotted instead of moving in. It is the same reason outdoor carpet and marine upholstery are solution-dyed. For households mid-toddler or mid-dog, it is the difference between a carpet that survives cleaning and a carpet that fades in the exact spots you clean &mdash; the pale ghost patches every parent recognizes. Our <a href="/blog/best-carpet-for-pets">pet carpet guide</a> leans on the same technology for the same reason, and <a href="/blog/the-10-best-carpet-brands-reviews-2023-guide">the brand guide</a> covers who builds the serious solution-dyed lines.</p>
+
+<h2>What the Warranties Actually Cover</h2>
+
+<p>A stain warranty is not a force field; it is a list of substances with conditions attached. Read one &mdash; actually read it &mdash; and the shape is always the same. Covered: <em>most food and beverage stains</em>, the coffee-juice-wine family, usually soda and chocolate. Pet lines add <em>pet urine</em>, sometimes feces and vomit. That is genuinely useful coverage, and on a good line the manufacturer does stand behind it: a stain from a listed substance that will not come out with the prescribed cleaning process can get a section of carpet repaired or replaced.</p>
+
+<p>Now the boundaries, because this is where homeowners get surprised. Nearly every stain warranty excludes <strong>oil-based and greasy substances</strong> &mdash; cooking oil, butter, salad dressing, lipstick, shoe polish. It excludes <strong>substances that dye</strong>: hair color, mustard, turmeric, children's paints, plant food. It excludes <strong>bleach and caustics</strong> as damage rather than staining (though solution-dyed fiber shrugs off what would ghost a conventional carpet). And the big one: it excludes <strong>anything classed as wear</strong>. The matted, darkened traffic lane that looks like a stain in year five is crushed, abraded fiber &mdash; a wear problem, covered by a different clause with its own exclusions, if at all. That distinction decides more claims than any other sentence in the document, and it is why fiber choice protects you where the warranty will not &mdash; a theme we develop in <a href="/blog/how-long-does-carpet-last">how long carpet lasts</a>.</p>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-card">
+  <h3 style="margin:0 0 10px;font-size:18.5px;font-weight:900;color:#5c0000">The Spill List, Honestly</h3>
+  <div style="overflow-x:auto"><table class="ocb-table">
+    <tr><th>Substance</th><th>Typical warranty verdict</th><th>The reality on good fiber</th></tr>
+    <tr><td><strong>Coffee, wine, juice</strong></td><td>Covered</td><td>The headline coverage &mdash; blot fast, clean as prescribed, and solution-dyed fiber releases these well</td></tr>
+    <tr><td><strong>Pet urine</strong></td><td>Covered on pet lines</td><td>The stain cleans; the odor is a pad-and-subfloor problem no carpet warranty touches &mdash; barrier pad or bust</td></tr>
+    <tr><td><strong>Cooking oil, grease, makeup</strong></td><td>Excluded</td><td>Oil bonds to synthetic fiber; treat fast with a solvent-type spotter and temper expectations</td></tr>
+    <tr><td><strong>Mustard, turmeric, hair dye</strong></td><td>Excluded</td><td>These are dyes &mdash; they do to carpet what the mill does, minus the quality control</td></tr>
+    <tr><td><strong>Bleach</strong></td><td>Excluded as damage</td><td>Ghosts conventional carpet permanently; solution-dyed fiber is the one construction that largely shrugs it off</td></tr>
+    <tr><td><strong>Mud, everyday dirt</strong></td><td>Not a stain &mdash; maintenance</td><td>Vacuuming and scheduled cleaning; dirt held at the pile base is a wear accelerant, not a claim</td></tr>
+    <tr><td><strong>Traffic-lane darkening</strong></td><td>Excluded as wear</td><td>Crushed, abraded fiber reads as &ldquo;stained&rdquo; but no stain clause covers it &mdash; density and pile choice prevent it</td></tr>
+  </table></div>
+</div></div>
+
+<h2>The Fine Print That Kills Claims</h2>
+
+<p>Assume every claim will be audited, because the successful ones effectively are. The recurring requirements: <strong>prompt treatment</strong> (some warranties specify how quickly a spill must be addressed), <strong>approved methods and products</strong> (the wrong spotter can void coverage on the spot it touched), <strong>professional hot-water extraction on a schedule</strong> &mdash; typically every 12 to 18 months &mdash; and <strong>receipts for all of it</strong>, plus your original proof of purchase. A folder in a kitchen drawer with the invoice and each cleaning receipt is unglamorous and it is exactly what a paid claim looks like. Also worth knowing: warranties follow the original purchaser and the original installation &mdash; coverage on carpet you inherited with the house is usually gone before you unpack.</p>
+
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-2col">
+  <div class="ocb-card" style="margin:0">
+    <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#5c0000">What a stain warranty is genuinely good for</h3>
+    <ul class="ocb-check">
+      <li>Everyday food-and-beverage life with kids &mdash; the accidents that actually happen weekly</li>
+      <li>Pet urine stains, on the lines that name them &mdash; a real, tested benefit</li>
+      <li>Backing you up when a listed stain defeats the prescribed cleaning</li>
+      <li>Signaling fiber quality &mdash; long stain terms ride on better polymer</li>
+      <li>Keeping you honest about professional cleaning, which the carpet needed anyway</li>
+    </ul>
+  </div>
+  <div class="ocb-card" style="margin:0">
+    <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#334155">What it will never protect you from</h3>
+    <ul class="ocb-check ocb-x">
+      <li>Oil, grease, dyes and bleach &mdash; the exclusions list is longer than the coverage list</li>
+      <li>Traffic-lane matting and darkening &mdash; wear wearing a stain costume</li>
+      <li>Odor in the pad and subfloor &mdash; that battle is won by the pad, before the first accident</li>
+      <li>Skipped cleanings and missing receipts &mdash; paperwork loses more claims than chemistry</li>
+      <li>The wrong carpet in the wrong room &mdash; no clause fixes plush in a mudroom hallway</li>
+    </ul>
+  </div>
+</div></div></div>
+
+<h2>Our Honest Spec, and Where Shoreline Comes In</h2>
+
+<p>Here is how we translate all of this at the kitchen table. In bedrooms and low-traffic rooms, inherent stain resistance is nice but not worth chasing &mdash; spills are rare there, and a comfortable <a href="/blog/low-pile-vs-high-pile-carpet">plusher pile</a> serves the room better. In family rooms, halls and anywhere under a dining chair or a dog, we spec <strong>solution-dyed fiber, a denser low-to-medium pile, and a moisture-barrier pad</strong> &mdash; the pad because urine and big spills go through carpet in seconds, and permanent odor lives in what is underneath. The warranty is the third line of defense, not the first; we treat it as a quality signal and keep the folder anyway.</p>
+
+<p>Shoreline's housing stock argues the same way. Most of the city is 1950s and 60s ranches and split-levels &mdash; carpeted stairs between half-flights, family rooms a few steps down, hardworking halls &mdash; and those concentrated lanes are where topical treatments quit early and solution-dyed fiber earns its premium. The mobile showroom brings the serious stain-resistant lines and all three pad grades to your house, with a written price the same visit; the arithmetic behind that number is in <a href="/blog/how-to-measure-for-carpet">how carpet is measured</a> and <a href="/blog/cost-to-carpet-a-room">what one room costs</a>, and the local details are on our <a href="/city-of-shoreline/carpet-installation-in-shoreline-wa">Shoreline carpet installation page</a>.</p>
+
+<div data-rt-embed-type='true'><!-- FAQ accordion + JSON-LD -->
+<div class="faq-wrap ocb" aria-labelledby="faq-title">
+  <h2 id="faq-title" class="faq-title">Stain-Resistant Carpet: What Homeowners Ask Us</h2>
+  <div class="faq-items" role="list">
+    <details class="faq-item" role="listitem"><summary class="faq-q">Is stain-resistant carpet actually worth it?</summary><div class="faq-a">In the rooms where spills happen — family rooms, halls, dining areas, anywhere with kids or pets — yes, and specifically the solution-dyed kind, where resistance is built into the fiber and cannot wear off. In a guest bedroom, it is a nice-to-have. We would rather put the premium where the accidents are and spend the savings on a better pad.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">What is the difference between stain-resistant treatment and solution-dyed carpet?</summary><div class="faq-a">A treatment is applied to the surface of ordinary dyed fiber at the mill; it works when new, then thins with traffic and washes out a little with every deep cleaning. Solution-dyed fiber has pigment mixed into the molten polymer before the fiber is made — color and stain resistance run all the way through and last the life of the carpet.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">What do carpet stain warranties actually cover?</summary><div class="faq-a">A named list of substances — typically food and beverage stains, plus pet urine on pet-specific lines — under conditions: prompt treatment, approved cleaning products, professional hot-water extraction on schedule, and receipts for everything. If a listed stain defeats the prescribed cleaning, the manufacturer repairs or replaces the affected area.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">What voids a carpet stain warranty?</summary><div class="faq-a">The usual claim-killers are paperwork and process: no proof of purchase, no professional cleaning receipts on the required 12-to-18-month schedule, or the wrong cleaning product on the spot. The exclusions do the rest — oil-based substances, dyes like mustard and hair color, bleach damage, and anything the inspector classes as wear rather than stain.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Does stain-resistant carpet work against pet urine?</summary><div class="faq-a">The stain side, yes — on solution-dyed and pet-line fibers, urine stains clean out well. But the smell is a different war: liquid passes through carpet in seconds and soaks the pad and subfloor, where no fiber technology and no warranty reaches. That is what a moisture-barrier pad is for, and why we treat it as non-negotiable in pet households.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Can I use bleach or OxiClean on stain-resistant carpet?</summary><div class="faq-a">Check the warranty before anything touches the floor — unapproved chemistry can void coverage on that spot. Solution-dyed fiber is the one construction that tolerates diluted bleach without ghosting, which is why it is the material of last resort for the truly cursed spill. Enzyme cleaners for anything organic, and blot, never scrub.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Why does my stain-resistant carpet look stained in the hallway anyway?</summary><div class="faq-a">Because that is probably not a stain. Darkened, matted traffic lanes are crushed and abraded fiber — wear — plus ground-in grit that vacuuming no longer reaches. No stain clause covers it, and cleaning improves it only briefly. Prevention is fiber density and pile choice up front, which matters more than any label on the sample.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">What does stain-resistant carpet cost installed?</summary><div class="faq-a">Our installed carpet starts at $1.49 per square foot, and the solution-dyed, stain-focused lines sit above that entry point — modestly, against what they save. We bring twenty-plus full-size samples and all three pad grades to your Shoreline home, measure every room and stair, and leave a written price the same visit.</div></details>
+  </div>
+</div>
+
+<style>
+  .faq-wrap{--line:#e5e7eb;margin:28px auto;padding:20px;border:1px solid var(--line);border-radius:16px;background:#fff;box-shadow:0 8px 30px rgba(2,6,23,.06)}
+  .faq-title{margin:0 0 14px;font-size:24px;font-weight:900;text-align:center;color:#5c0000}
+  .faq-items{display:grid;gap:10px}
+  .faq-item{border:1px solid var(--line);border-radius:14px;background:#f9fafb;overflow:hidden}
+  .faq-q{cursor:pointer;display:block;padding:14px 16px;font-weight:800;color:#0f172a}
+  .faq-q::-webkit-details-marker{display:none}
+  .faq-item[open] .faq-q{background:linear-gradient(180deg, rgba(139,0,0,.08), rgba(139,0,0,.02))}
+  .faq-a{padding:0 16px 14px;color:#1f2937;line-height:1.6}
+</style>
+
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Is stain-resistant carpet actually worth it?", "acceptedAnswer": {"@type": "Answer", "text": "In the rooms where spills happen — family rooms, halls, dining areas, anywhere with kids or pets — yes, and specifically the solution-dyed kind, where resistance is built into the fiber and cannot wear off. In a guest bedroom, it is a nice-to-have. We would rather put the premium where the accidents are and spend the savings on a better pad."}}, {"@type": "Question", "name": "What is the difference between stain-resistant treatment and solution-dyed carpet?", "acceptedAnswer": {"@type": "Answer", "text": "A treatment is applied to the surface of ordinary dyed fiber at the mill; it works when new, then thins with traffic and washes out a little with every deep cleaning. Solution-dyed fiber has pigment mixed into the molten polymer before the fiber is made — color and stain resistance run all the way through and last the life of the carpet."}}, {"@type": "Question", "name": "What do carpet stain warranties actually cover?", "acceptedAnswer": {"@type": "Answer", "text": "A named list of substances — typically food and beverage stains, plus pet urine on pet-specific lines — under conditions: prompt treatment, approved cleaning products, professional hot-water extraction on schedule, and receipts for everything. If a listed stain defeats the prescribed cleaning, the manufacturer repairs or replaces the affected area."}}, {"@type": "Question", "name": "What voids a carpet stain warranty?", "acceptedAnswer": {"@type": "Answer", "text": "The usual claim-killers are paperwork and process: no proof of purchase, no professional cleaning receipts on the required 12-to-18-month schedule, or the wrong cleaning product on the spot. The exclusions do the rest — oil-based substances, dyes like mustard and hair color, bleach damage, and anything the inspector classes as wear rather than stain."}}, {"@type": "Question", "name": "Does stain-resistant carpet work against pet urine?", "acceptedAnswer": {"@type": "Answer", "text": "The stain side, yes — on solution-dyed and pet-line fibers, urine stains clean out well. But the smell is a different war: liquid passes through carpet in seconds and soaks the pad and subfloor, where no fiber technology and no warranty reaches. That is what a moisture-barrier pad is for, and why we treat it as non-negotiable in pet households."}}, {"@type": "Question", "name": "Can I use bleach or OxiClean on stain-resistant carpet?", "acceptedAnswer": {"@type": "Answer", "text": "Check the warranty before anything touches the floor — unapproved chemistry can void coverage on that spot. Solution-dyed fiber is the one construction that tolerates diluted bleach without ghosting, which is why it is the material of last resort for the truly cursed spill. Enzyme cleaners for anything organic, and blot, never scrub."}}, {"@type": "Question", "name": "Why does my stain-resistant carpet look stained in the hallway anyway?", "acceptedAnswer": {"@type": "Answer", "text": "Because that is probably not a stain. Darkened, matted traffic lanes are crushed and abraded fiber — wear — plus ground-in grit that vacuuming no longer reaches. No stain clause covers it, and cleaning improves it only briefly. Prevention is fiber density and pile choice up front, which matters more than any label on the sample."}}, {"@type": "Question", "name": "What does stain-resistant carpet cost installed?", "acceptedAnswer": {"@type": "Answer", "text": "Our installed carpet starts at $1.49 per square foot, and the solution-dyed, stain-focused lines sit above that entry point — modestly, against what they save. We bring twenty-plus full-size samples and all three pad grades to your Shoreline home, measure every room and stair, and leave a written price the same visit."}}]}
+</script></div>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-cta" style="margin:30px 0">
+  <style>
+    html body .post-body .ocb-cta h2, .ocb-cta h2{color:#fff!important}
+    html body .post-body .ocb-cta .ocb-cta-sub, .ocb-cta .ocb-cta-sub{color:rgba(255,255,255,.88)!important}
+    html body .post-body .ocb-cta .ocb-cta-chips span, .ocb-cta .ocb-cta-chips span{color:rgba(255,255,255,.94)!important}
+    html body .post-body .ocb-cta a.ocb-cta-ghost, .ocb-cta a.ocb-cta-ghost{color:#fff!important;text-decoration:none!important}
+    html body .post-body .ocb-cta a.ocb-cta-gold, .ocb-cta a.ocb-cta-gold{color:#fbbc04!important}
+    html body .post-body .ocb-cta a.ocb-cta-phone, .ocb-cta a.ocb-cta-phone{color:#5c0000!important;text-decoration:none!important}
+  </style>
+  <div style="background:linear-gradient(135deg,#8B0000,#5c0000);border-radius:20px;padding:28px 24px;color:#fff;text-align:center;box-shadow:0 14px 34px rgba(92,0,0,.3)">
+    <h2 style="margin:0 0 6px;color:#fff!important;font-size:24px;font-weight:900">Read the Warranty Together, Before You Buy</h2>
+    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.92)!important;font-size:16.3px">We bring the serious stain-resistant lines to your house, show you which claims are fiber and which are marketing, and put the whole job &mdash; pad grade named &mdash; in writing the same visit. Free in-home estimates across Shoreline and all of King &amp; Snohomish County.</p>
+    <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
+      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff!important;color:#5c0000!important;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none!important"><span class="ocb-ic ocb-ic-phone"></span> (425) 595-1079</a>
+      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.16)!important;border:1px solid rgba(255,255,255,.55);color:#fff!important;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none!important">Book My Free Consultation</a>
+    </div>
+    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.95)!important">
+      <span>✓ Since 2013</span><span>✓ 1,000+ floors</span><span>✓ 1-yr workmanship warranty</span><span>✓ Licensed &amp; insured</span><span>✓ Financing available</span>
+    </div>
+    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04!important;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
+  </div>
+</div></div>
+
+<p><strong>Related reading:</strong> <a href="/blog/best-carpet-for-pets">The best carpet for pet households</a> · <a href="/blog/how-long-does-carpet-last">How long carpet really lasts</a> · <a href="/blog/low-pile-vs-high-pile-carpet">Low pile vs high pile, room by room</a> · <a href="/blog/the-10-best-carpet-brands-reviews-2023-guide">The best carpet brands</a> · <a href="/city-of-shoreline/carpet-installation-in-shoreline-wa">Carpet installation in Shoreline</a> · <a href="/contact">Book a free estimate</a></p>
+
+<div data-rt-embed-type='true'><script>
+(function(){try{
+var els=document.querySelectorAll('.ocb-card,.ocb-fact,.ocb-tri,.faq-item');
+if(!('IntersectionObserver' in window)||!els.length)return;
+document.documentElement.classList.add('ocb-anim-ready');
+els.forEach(function(e,i){e.classList.add('ocb-rv');e.style.transitionDelay=Math.min((i%6)*70,350)+'ms'});
+var io=new IntersectionObserver(function(en){en.forEach(function(x){if(x.isIntersecting){x.target.classList.add('ocb-in');io.unobserve(x.target)}})},{threshold:.12,rootMargin:'0px 0px -8% 0px'});
+els.forEach(function(e){io.observe(e)});
+}catch(e){}})();
+</script></div>

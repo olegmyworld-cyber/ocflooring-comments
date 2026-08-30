@@ -1,0 +1,199 @@
+<div data-rt-embed-type='true'><style>
+.ocb{--ink:#0f172a;--muted:#64748b;--line:#e5e7eb;--soft:#f8fafc;--brand:#8B0000;--brand2:#5c0000;--gold:#fbbc04;font-family:'Mulish',Inter,system-ui,sans-serif;color:var(--ink)}
+.ocb *{box-sizing:border-box}
+.ocb-card{border:1px solid var(--line);border-radius:18px;background:#fff;box-shadow:0 10px 30px rgba(2,6,23,.06);padding:22px;margin:26px 0}
+.ocb-eyebrow{display:inline-block;background:rgba(139,0,0,.08);color:var(--brand2);border:1px solid rgba(139,0,0,.2);border-radius:999px;padding:5px 12px;font-size:12.5px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;margin-bottom:10px}
+.ocb-chips{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0 0}
+.ocb-chip{background:var(--soft);border:1px solid var(--line);border-radius:999px;padding:6px 12px;font-size:13.6px;font-weight:700}
+.ocb-table{width:100%;border-collapse:collapse;font-size:15.2px}
+.ocb-table th,.ocb-table td{padding:11px 10px;text-align:left;border-bottom:1px solid var(--line)}
+.ocb-table th{background:var(--soft);font-weight:800;font-size:13.6px;letter-spacing:.02em}
+.ocb-table tr:last-child td{border-bottom:0}
+.ocb-table td strong{color:var(--brand2)}
+.ocb-2col{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media(max-width:680px){.ocb-2col{grid-template-columns:1fr}}
+.ocb-check{list-style:none;padding:0;margin:10px 0 0}
+.ocb-check li{padding-left:26px;position:relative;margin:7px 0;line-height:1.55}
+.ocb-check li:before{content:"✓";position:absolute;left:0;color:var(--brand);font-weight:900}
+.ocb-x li:before{content:"✕";color:#94a3b8}
+html body .post-body .ocb-facts, .ocb-facts{display:grid!important;grid-template-columns:repeat(3,1fr)!important;gap:12px!important;margin:8px 0!important}
+@media(max-width:680px){html body .post-body .ocb-facts, .ocb-facts{grid-template-columns:1fr!important}}
+.ocb-fact{background:linear-gradient(180deg,#fff,#f8fafc);border:1px solid var(--line);border-radius:16px;padding:16px}
+.ocb-fact .n{font-size:24px;font-weight:900;color:var(--brand2);display:block;margin-bottom:4px}
+html body .post-body .ocb-fact p, .ocb-fact p{margin:0!important;font-size:14.7px!important;color:#334155!important;line-height:1.5!important}
+
+.ocb-card,.ocb-fact,.ocb-tri{transition:transform .28s ease,box-shadow .28s ease}
+.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:translateY(-4px);box-shadow:0 16px 40px rgba(2,6,23,.12)}
+.faq-item{transition:border-color .25s,box-shadow .25s}
+.faq-item:hover{border-color:rgba(139,0,0,.35);box-shadow:0 6px 18px rgba(2,6,23,.07)}
+.ocb-chip{display:inline-flex;align-items:center;gap:6px;transition:transform .2s,border-color .2s}
+.ocb-chip:hover{transform:translateY(-2px);border-color:rgba(139,0,0,.35)}
+.ocb-chip svg{color:#8B0000}
+.ocb-cta a{transition:transform .22s,box-shadow .22s}
+.ocb-cta a:hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(0,0,0,.25)}
+.ocb-fact .n{position:relative}
+html.ocb-anim-ready .ocb-rv{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
+html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){html.ocb-anim-ready .ocb-rv{opacity:1!important;transform:none!important;transition:none!important}.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:none}}
+
+/* Chip icons. Webflow's rich-text sanitizer strips inline <svg> whenever a post is
+   re-saved in the Editor, so the icons are drawn from CSS on a <span> instead. */
+.ocb-ic{display:inline-block;width:15px;height:15px;flex:0 0 auto;vertical-align:-2px;background-repeat:no-repeat;background-position:center;background-size:contain}
+.ocb-ic-pin{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z'/><circle cx='12' cy='10' r='3'/></svg>")}
+.ocb-ic-home{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z'/><polyline points='9 22 9 12 15 12 15 22'/></svg>")}
+.ocb-ic-phone{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z'/></svg>")}
+.ocb-cta .ocb-ic{filter:brightness(0) saturate(100%) invert(9%) sepia(64%) saturate(4000%) hue-rotate(348deg)}
+</style></div>
+
+<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">October 22, 2026</span></div></div>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
+  <span class="ocb-eyebrow">Quick answer</span>
+  <p style="margin:0;font-size:17.9px;line-height:1.65"><strong>Measure each room wall to wall at the widest points, include every closet, round up to the next foot, and add roughly ten percent for waste &mdash; that gets you close enough to budget.</strong> What it will not get you is a number that matches a professional estimate, because carpet does not come by the square foot. It comes off a 12-foot roll, and the real question is how that roll has to be cut and seamed to cover your rooms. That is why two estimates on the same house can differ by hundreds of dollars while both being honest &mdash; and why our measure is free and comes with a written price the same visit.</p>
+  <div class="ocb-chips">
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-pin"></span> King &amp; Snohomish County</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-home"></span> King &amp; Snohomish homes</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-phone"></span> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
+  </div>
+</div></div>
+
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-facts">
+  <div class="ocb-fact"><span class="n">12 feet</span><p>the standard carpet roll width. Your room is not 12 feet wide, which is why the square footage on a quote is always more than the square footage of the floor &mdash; the difference is cuts, seams and waste, not padding of the bill.</p></div>
+  <div class="ocb-fact"><span class="n">Per tread</span><p>how stairs are honestly priced. A staircase is slow, precise work &mdash; each step wrapped individually &mdash; so a quote that buries stairs inside a square-foot total is hiding the hardest part of the job.</p></div>
+  <div class="ocb-fact"><span class="n">Same visit</span><p>when you get our written price. We measure every room, closet and stair in person, walk you through where the seams will go, and leave a number that will not move on install day.</p></div>
+</div></div></div>
+
+<h2>Why Two Honest Estimates Still Come Out Different</h2>
+
+<p>Here is the situation that generates most of the calls we get about measuring: a homeowner tapes off their rooms, multiplies length by width, adds it up, and gets, say, 800 square feet. Then two estimates arrive &mdash; one quoting 880 square feet, one quoting 960 &mdash; and the natural conclusion is that somebody is inflating the number. Usually nobody is. The two companies made different decisions about roll direction, seam placement and waste, and every one of those decisions changes how much carpet has to be ordered to cover the same floor.</p>
+
+<p>Carpet is not tile. You cannot buy exactly the amount your floor needs, because the mill cuts it from a roll of fixed width and the pile has to run the same direction everywhere &mdash; carpet laid with the nap reversed reads as two different colors in the same room. So the estimator is not measuring your floor so much as solving a small puzzle: how do fixed-width strips, all facing the same way, cover these particular rooms with seams landing where nobody walks? Different solutions to that puzzle consume different amounts of carpet. The honest way to compare quotes is not the square footage &mdash; it is asking each estimator to show you their cut plan and their seam placement, then comparing the bottom line for what is actually included. Our guide to <a href="/blog/what-is-a-good-price-to-pay-for-carpet-in-seattle-wa">what a good carpet price looks like</a> goes deeper on that comparison.</p>
+
+<h2>The Wall-to-Wall Rules</h2>
+
+<p>If you want a budgeting number of your own before anyone visits &mdash; a genuinely good idea &mdash; measure like this. Take each room at its <strong>longest and widest points</strong>, wall to wall, not baseboard to baseboard. If the room is out of square, and in most houses more than a decade old it is, use the bigger measurement; carpet gets trimmed to fit, and coming up short is the one mistake that cannot be fixed. Round each measurement up to the next foot.</p>
+
+<p><strong>Measure into every doorway to the point where the new carpet will meet the next floor</strong> &mdash; usually the middle of the door when it is closed, not the edge of the room. <strong>Include every closet</strong>, measured to its back wall; a bedroom with a walk-in can carry 30 extra square feet that a quick length-times-width misses entirely. Multiply, add the rooms up, then add about ten percent for waste and seams. For a hallway with lots of doorways or an oddly shaped room, lean toward more. That total is your budgeting number, and multiplied against a real installed price &mdash; ours <a href="/blog/carpet-installation-cost-seattle">starts at $1.49 per square foot installed</a> &mdash; it will put you in the right neighborhood.</p>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-card">
+  <h3 style="margin:0 0 10px;font-size:18.5px;font-weight:900;color:#5c0000">Measuring a Room: Where DIY Numbers Go Wrong</h3>
+  <div style="overflow-x:auto"><table class="ocb-table">
+    <tr><th>Step</th><th>The common mistake</th><th>The right way</th></tr>
+    <tr><td><strong>Room dimensions</strong></td><td>Measuring the open floor between furniture</td><td>Wall to wall at the longest and widest points, rounded up to the next foot</td></tr>
+    <tr><td><strong>Doorways</strong></td><td>Stopping at the edge of the room</td><td>Measure to the middle of the doorway, where the transition to the next floor lands</td></tr>
+    <tr><td><strong>Closets</strong></td><td>Forgotten entirely &mdash; the single most common miss</td><td>Every closet to its back wall; walk-ins measured as their own small room</td></tr>
+    <tr><td><strong>Out-of-square rooms</strong></td><td>Averaging the two wall lengths</td><td>Use the larger measurement &mdash; carpet trims down, it does not stretch up</td></tr>
+    <tr><td><strong>Waste allowance</strong></td><td>Skipping it, or guessing low</td><td>Add roughly 10%; more for odd shapes, many doorways, or patterned carpet that must match at seams</td></tr>
+    <tr><td><strong>Stairs</strong></td><td>Counted as square feet in the total</td><td>Counted per tread, priced per tread &mdash; they are labor, not area</td></tr>
+    <tr><td><strong>Roll direction</strong></td><td>Not considered at all</td><td>Pile must run one direction; sometimes the &ldquo;wasteful&rdquo; layout is the one that looks right</td></tr>
+  </table></div>
+</div></div>
+
+<h2>The 12-Foot Roll Problem</h2>
+
+<p>This is the part that makes carpet estimating genuinely unintuitive, so it is worth one concrete example. Say your living room is 13 feet wide and 16 feet long &mdash; 208 square feet on paper. The roll is 12 feet wide. One width of carpet covers 12 of your 13 feet, and that last foot has to come from a second strip, seamed in along the length of the room. But that strip cannot be a one-foot sliver cut from anywhere: it has to run the same direction as the main piece, so it gets cut from another full-width length of the roll. Depending on the layout, that 208-square-foot room can consume 250 or more square feet of carpet, and the leftover pieces are too small and too directional to cover another room.</p>
+
+<p>A good estimator plays this puzzle across the whole job at once &mdash; sometimes the offcut from the bedroom does fill the hall, if the nap direction cooperates and the seam lands somewhere feet rarely go. That is also why <strong>seam placement is a quality question, not just a cost question</strong>. Seams that land in a doorway or across a main walking lane will wear faster and show sooner. When we measure, we tell you where every seam will fall before you sign anything, because a cheap layout with a seam down the middle of the family room is not actually cheap &mdash; it is a <a href="/blog/how-long-does-carpet-last">shorter-lived floor</a> wearing a discount.</p>
+
+<h2>Closets, Halls and Stairs: Where Estimates Quietly Diverge</h2>
+
+<p>When two quotes on the same house are far apart, the gap usually lives in the small spaces. <strong>Closets</strong> are either measured or guessed, and a house full of guessed closets can be off by a whole room's worth of carpet. <strong>Hallways</strong> are narrow, doorway-riddled and directional &mdash; high waste relative to their area, and a common place for one estimator to plan a seam where another plans a full strip. And <strong>stairs</strong> are the biggest one: an honest quote prices them per tread, because wrapping each step &mdash; tucked, stretched and secured individually &mdash; is some of the slowest work in the trade. A staircase's worth of labor hidden inside a square-foot total is the classic way a low quote grows on install day. We wrote more about what makes stairs their own job in <a href="/blog/best-carpet-for-stairs">our guide to carpet for stairs</a>.</p>
+
+<p>The other quiet divergence is what happens to the old floor. Tear-out, hauling and disposal of a house's worth of carpet and pad is real work that some quotes include and some list as an extra discovered later &mdash; <a href="/blog/carpet-removal-cost">carpet removal costs</a> covers what that line should look like. None of these differences mean anyone is dishonest. They mean the only comparable number between two quotes is the final one, with every line named.</p>
+
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-2col">
+  <div class="ocb-card" style="margin:0">
+    <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#5c0000">Measure yourself &mdash; good enough to budget</h3>
+    <ul class="ocb-check">
+      <li>Longest and widest point of each room, wall to wall, rounded up</li>
+      <li>Through doorways to the middle of the door</li>
+      <li>Every closet, to the back wall</li>
+      <li>Count stair treads separately &mdash; do not fold them into square feet</li>
+      <li>Add about 10% for waste; more for odd shapes or patterned carpet</li>
+      <li>Multiply by an installed price per square foot to get a realistic range</li>
+    </ul>
+  </div>
+  <div class="ocb-card" style="margin:0">
+    <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#334155">What only an in-person measure settles</h3>
+    <ul class="ocb-check ocb-x">
+      <li>Roll direction and the cut plan &mdash; the real quantity of carpet needed</li>
+      <li>Where every seam lands, and whether that placement will wear well</li>
+      <li>Whether the subfloor has soft spots, squeaks or damage to price now, not later</li>
+      <li>Which transitions and trim pieces each doorway actually needs</li>
+      <li>How stairs are built &mdash; box stairs, capped ends and rails change the labor</li>
+      <li>A written price that includes tear-out, disposal and furniture moving</li>
+    </ul>
+  </div>
+</div></div></div>
+
+<h2>Why We Measure for Free</h2>
+
+<p>Not as a favor &mdash; because it is the only way to give you a number we can stand behind. A price generated from your square footage over the phone is a guess about the cut plan, a guess about the seams, a guess about the closets and a guess about the stairs, and every one of those guesses gets settled later, usually in the direction you will not enjoy. Measuring in person costs us an hour and removes every guess at once. Since 2013 and more than a thousand floors, the same-visit written price has been the difference between our invoices and our estimates being the same document.</p>
+
+<p>The visit does double duty: our mobile showroom comes along, with twenty-plus full-size samples and all three pad grades, so you can see colors in your own light while we measure &mdash; showroom lighting flatters carpet in ways a north-facing room in a Northwest November does not. You get the measurement, the seam plan, the samples and the price in one visit, on your <a href="/seattle/carpet-installation-in-seattle-wa">carpet installation</a> schedule rather than a salesman's. And if the honest answer is that you do not need new carpet at all &mdash; ripples that a <a href="/blog/is-it-worth-it-to-restretch-your-carpet">restretch</a> would fix for a fraction of the cost &mdash; we will say that instead.</p>
+
+<div data-rt-embed-type='true'><!-- FAQ accordion + JSON-LD -->
+<div class="faq-wrap ocb" aria-labelledby="faq-title">
+  <h2 id="faq-title" class="faq-title">Measuring for Carpet: What Homeowners Ask Us</h2>
+  <div class="faq-items" role="list">
+    <details class="faq-item" role="listitem"><summary class="faq-q">How do I measure a room for carpet?</summary><div class="faq-a">Measure wall to wall at the longest and widest points, round up to the next foot, and measure through doorways to the middle of the door. Include every closet to its back wall. Multiply length by width for each space, add them up, then add about ten percent for waste and seams. That gives you a solid budgeting number — the exact quantity depends on how the 12-foot roll gets cut and seamed, which is what a professional measure settles.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">How much extra carpet should I add for waste?</summary><div class="faq-a">Around ten percent is the standard starting point. Add more for rooms wider than 12 feet, hallways with many doorways, oddly shaped rooms, and patterned carpet, which has to match at every seam. The waste is not padding on the bill — it is the geometry of cutting fixed-width, one-direction material to fit rooms that were not designed around a carpet roll.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Why does my carpet quote show more square footage than my rooms measure?</summary><div class="faq-a">Because carpet comes off a 12-foot-wide roll and the pile must run the same direction everywhere. A 13-foot-wide room needs a second full-length strip for its last foot, and the offcuts are often too small or wrong-direction to reuse. The quote reflects the carpet that must be ordered, not the bare floor area. Ask to see the cut plan — a good estimator will happily walk you through it.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Do closets count when measuring for carpet?</summary><div class="faq-a">Yes, every one of them, measured to the back wall. Forgotten closets are the single most common reason a homeowner’s own estimate comes in low. A bedroom with a walk-in closet can carry 30 or more square feet beyond its length-times-width, and a whole house of guessed closets can be off by a room’s worth of carpet.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">How are stairs measured for carpet?</summary><div class="faq-a">Per tread, not by square footage. Each step is measured for its tread depth, riser height and width, and priced as a unit of labor, because every stair is wrapped, stretched and secured individually. A quote that folds a staircase into the square-foot total is hiding the slowest part of the job, and that is where surprise charges tend to come from.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Why are two carpet estimates for the same house so different?</summary><div class="faq-a">Usually roll math, not dishonesty. Two estimators can choose different roll directions and seam placements and arrive at genuinely different quantities of carpet for the same floor. The rest of the gap is inclusions — pad grade, tear-out, disposal, furniture moving, stairs priced per tread or buried. Compare the final number with every line named, not the square footage.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Can I estimate from my home’s listed square footage?</summary><div class="faq-a">Only very roughly. Listing square footage includes spaces you will not carpet — kitchens, baths, garages in some counts — and excludes the waste that roll width imposes. It also says nothing about stairs, which are priced separately. It is fine for a first sanity check, but measure the actual rooms before you compare quotes or order anything.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">What happens at your free measure?</summary><div class="faq-a">We measure every room, closet and stair, plan the cuts and show you where seams will land, check the subfloor for issues worth pricing now rather than on install day, and bring the mobile showroom — twenty-plus full-size samples and all three pad grades — so you choose in your own light. You get a written price the same visit, and it is the price.</div></details>
+  </div>
+</div>
+
+<style>
+  .faq-wrap{--line:#e5e7eb;margin:28px auto;padding:20px;border:1px solid var(--line);border-radius:16px;background:#fff;box-shadow:0 8px 30px rgba(2,6,23,.06)}
+  .faq-title{margin:0 0 14px;font-size:24px;font-weight:900;text-align:center;color:#5c0000}
+  .faq-items{display:grid;gap:10px}
+  .faq-item{border:1px solid var(--line);border-radius:14px;background:#f9fafb;overflow:hidden}
+  .faq-q{cursor:pointer;display:block;padding:14px 16px;font-weight:800;color:#0f172a}
+  .faq-q::-webkit-details-marker{display:none}
+  .faq-item[open] .faq-q{background:linear-gradient(180deg, rgba(139,0,0,.08), rgba(139,0,0,.02))}
+  .faq-a{padding:0 16px 14px;color:#1f2937;line-height:1.6}
+</style>
+
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How do I measure a room for carpet?", "acceptedAnswer": {"@type": "Answer", "text": "Measure wall to wall at the longest and widest points, round up to the next foot, and measure through doorways to the middle of the door. Include every closet to its back wall. Multiply length by width for each space, add them up, then add about ten percent for waste and seams. That gives you a solid budgeting number — the exact quantity depends on how the 12-foot roll gets cut and seamed, which is what a professional measure settles."}}, {"@type": "Question", "name": "How much extra carpet should I add for waste?", "acceptedAnswer": {"@type": "Answer", "text": "Around ten percent is the standard starting point. Add more for rooms wider than 12 feet, hallways with many doorways, oddly shaped rooms, and patterned carpet, which has to match at every seam. The waste is not padding on the bill — it is the geometry of cutting fixed-width, one-direction material to fit rooms that were not designed around a carpet roll."}}, {"@type": "Question", "name": "Why does my carpet quote show more square footage than my rooms measure?", "acceptedAnswer": {"@type": "Answer", "text": "Because carpet comes off a 12-foot-wide roll and the pile must run the same direction everywhere. A 13-foot-wide room needs a second full-length strip for its last foot, and the offcuts are often too small or wrong-direction to reuse. The quote reflects the carpet that must be ordered, not the bare floor area. Ask to see the cut plan — a good estimator will happily walk you through it."}}, {"@type": "Question", "name": "Do closets count when measuring for carpet?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, every one of them, measured to the back wall. Forgotten closets are the single most common reason a homeowner’s own estimate comes in low. A bedroom with a walk-in closet can carry 30 or more square feet beyond its length-times-width, and a whole house of guessed closets can be off by a room’s worth of carpet."}}, {"@type": "Question", "name": "How are stairs measured for carpet?", "acceptedAnswer": {"@type": "Answer", "text": "Per tread, not by square footage. Each step is measured for its tread depth, riser height and width, and priced as a unit of labor, because every stair is wrapped, stretched and secured individually. A quote that folds a staircase into the square-foot total is hiding the slowest part of the job, and that is where surprise charges tend to come from."}}, {"@type": "Question", "name": "Why are two carpet estimates for the same house so different?", "acceptedAnswer": {"@type": "Answer", "text": "Usually roll math, not dishonesty. Two estimators can choose different roll directions and seam placements and arrive at genuinely different quantities of carpet for the same floor. The rest of the gap is inclusions — pad grade, tear-out, disposal, furniture moving, stairs priced per tread or buried. Compare the final number with every line named, not the square footage."}}, {"@type": "Question", "name": "Can I estimate from my home’s listed square footage?", "acceptedAnswer": {"@type": "Answer", "text": "Only very roughly. Listing square footage includes spaces you will not carpet — kitchens, baths, garages in some counts — and excludes the waste that roll width imposes. It also says nothing about stairs, which are priced separately. It is fine for a first sanity check, but measure the actual rooms before you compare quotes or order anything."}}, {"@type": "Question", "name": "What happens at your free measure?", "acceptedAnswer": {"@type": "Answer", "text": "We measure every room, closet and stair, plan the cuts and show you where seams will land, check the subfloor for issues worth pricing now rather than on install day, and bring the mobile showroom — twenty-plus full-size samples and all three pad grades — so you choose in your own light. You get a written price the same visit, and it is the price."}}]}
+</script></div>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-cta" style="margin:30px 0">
+  <style>
+    html body .post-body .ocb-cta h2, .ocb-cta h2{color:#fff!important}
+    html body .post-body .ocb-cta .ocb-cta-sub, .ocb-cta .ocb-cta-sub{color:rgba(255,255,255,.88)!important}
+    html body .post-body .ocb-cta .ocb-cta-chips span, .ocb-cta .ocb-cta-chips span{color:rgba(255,255,255,.94)!important}
+    html body .post-body .ocb-cta a.ocb-cta-ghost, .ocb-cta a.ocb-cta-ghost{color:#fff!important;text-decoration:none!important}
+    html body .post-body .ocb-cta a.ocb-cta-gold, .ocb-cta a.ocb-cta-gold{color:#fbbc04!important}
+    html body .post-body .ocb-cta a.ocb-cta-phone, .ocb-cta a.ocb-cta-phone{color:#5c0000!important;text-decoration:none!important}
+  </style>
+  <div style="background:linear-gradient(135deg,#8B0000,#5c0000);border-radius:20px;padding:28px 24px;color:#fff;text-align:center;box-shadow:0 14px 34px rgba(92,0,0,.3)">
+    <h2 style="margin:0 0 6px;color:#fff!important;font-size:24px;font-weight:900">Skip the Tape Measure If You Want</h2>
+    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.92)!important;font-size:16.3px">We measure every room, closet and stair, plan the seams in front of you, and leave a written price the same visit &mdash; with twenty-plus samples and all three pad grades along for the ride. Free in-home estimates across King &amp; Snohomish County.</p>
+    <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
+      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff!important;color:#5c0000!important;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none!important"><span class="ocb-ic ocb-ic-phone"></span> (425) 595-1079</a>
+      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.16)!important;border:1px solid rgba(255,255,255,.55);color:#fff!important;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none!important">Book My Free Consultation</a>
+    </div>
+    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.95)!important">
+      <span>✓ Since 2013</span><span>✓ 1,000+ floors</span><span>✓ 1-yr workmanship warranty</span><span>✓ Licensed &amp; insured</span><span>✓ Financing available</span>
+    </div>
+    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04!important;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
+  </div>
+</div></div>
+
+<p><strong>Related reading:</strong> <a href="/blog/carpet-installation-cost-seattle">What carpet installation costs in Seattle</a> · <a href="/blog/what-is-a-good-price-to-pay-for-carpet-in-seattle-wa">What a good carpet price looks like</a> · <a href="/blog/best-carpet-for-stairs">The best carpet for stairs</a> · <a href="/blog/carpet-removal-cost">What carpet removal costs</a> · <a href="/seattle/carpet-installation-in-seattle-wa">Carpet installation in Seattle</a> · <a href="/contact">Book a free measure</a></p>
+
+<div data-rt-embed-type='true'><script>
+(function(){try{
+var els=document.querySelectorAll('.ocb-card,.ocb-fact,.ocb-tri,.faq-item');
+if(!('IntersectionObserver' in window)||!els.length)return;
+document.documentElement.classList.add('ocb-anim-ready');
+els.forEach(function(e,i){e.classList.add('ocb-rv');e.style.transitionDelay=Math.min((i%6)*70,350)+'ms'});
+var io=new IntersectionObserver(function(en){en.forEach(function(x){if(x.isIntersecting){x.target.classList.add('ocb-in');io.unobserve(x.target)}})},{threshold:.12,rootMargin:'0px 0px -8% 0px'});
+els.forEach(function(e){io.observe(e)});
+}catch(e){}})();
+</script></div>

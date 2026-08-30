@@ -1,0 +1,203 @@
+<div data-rt-embed-type='true'><style>
+.ocb{--ink:#0f172a;--muted:#64748b;--line:#e5e7eb;--soft:#f8fafc;--brand:#8B0000;--brand2:#5c0000;--gold:#fbbc04;font-family:'Mulish',Inter,system-ui,sans-serif;color:var(--ink)}
+.ocb *{box-sizing:border-box}
+.ocb-card{border:1px solid var(--line);border-radius:18px;background:#fff;box-shadow:0 10px 30px rgba(2,6,23,.06);padding:22px;margin:26px 0}
+.ocb-eyebrow{display:inline-block;background:rgba(139,0,0,.08);color:var(--brand2);border:1px solid rgba(139,0,0,.2);border-radius:999px;padding:5px 12px;font-size:12.5px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;margin-bottom:10px}
+.ocb-chips{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0 0}
+.ocb-chip{background:var(--soft);border:1px solid var(--line);border-radius:999px;padding:6px 12px;font-size:13.6px;font-weight:700}
+.ocb-table{width:100%;border-collapse:collapse;font-size:15.2px}
+.ocb-table th,.ocb-table td{padding:11px 10px;text-align:left;border-bottom:1px solid var(--line)}
+.ocb-table th{background:var(--soft);font-weight:800;font-size:13.6px;letter-spacing:.02em}
+.ocb-table tr:last-child td{border-bottom:0}
+.ocb-table td strong{color:var(--brand2)}
+.ocb-2col{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media(max-width:680px){.ocb-2col{grid-template-columns:1fr}}
+.ocb-check{list-style:none;padding:0;margin:10px 0 0}
+.ocb-check li{padding-left:26px;position:relative;margin:7px 0;line-height:1.55}
+.ocb-check li:before{content:"✓";position:absolute;left:0;color:var(--brand);font-weight:900}
+.ocb-x li:before{content:"✕";color:#94a3b8}
+html body .post-body .ocb-facts, .ocb-facts{display:grid!important;grid-template-columns:repeat(3,1fr)!important;gap:12px!important;margin:8px 0!important}
+@media(max-width:680px){html body .post-body .ocb-facts, .ocb-facts{grid-template-columns:1fr!important}}
+.ocb-fact{background:linear-gradient(180deg,#fff,#f8fafc);border:1px solid var(--line);border-radius:16px;padding:16px}
+.ocb-fact .n{font-size:24px;font-weight:900;color:var(--brand2);display:block;margin-bottom:4px}
+html body .post-body .ocb-fact p, .ocb-fact p{margin:0!important;font-size:14.7px!important;color:#334155!important;line-height:1.5!important}
+
+.ocb-card,.ocb-fact,.ocb-tri{transition:transform .28s ease,box-shadow .28s ease}
+.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:translateY(-4px);box-shadow:0 16px 40px rgba(2,6,23,.12)}
+.faq-item{transition:border-color .25s,box-shadow .25s}
+.faq-item:hover{border-color:rgba(139,0,0,.35);box-shadow:0 6px 18px rgba(2,6,23,.07)}
+.ocb-chip{display:inline-flex;align-items:center;gap:6px;transition:transform .2s,border-color .2s}
+.ocb-chip:hover{transform:translateY(-2px);border-color:rgba(139,0,0,.35)}
+.ocb-chip svg{color:#8B0000}
+.ocb-cta a{transition:transform .22s,box-shadow .22s}
+.ocb-cta a:hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(0,0,0,.25)}
+.ocb-fact .n{position:relative}
+html.ocb-anim-ready .ocb-rv{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
+html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){html.ocb-anim-ready .ocb-rv{opacity:1!important;transform:none!important;transition:none!important}.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:none}}
+
+/* Chip icons. Webflow's rich-text sanitizer strips inline <svg> whenever a post is
+   re-saved in the Editor, so the icons are drawn from CSS on a <span> instead. */
+.ocb-ic{display:inline-block;width:15px;height:15px;flex:0 0 auto;vertical-align:-2px;background-repeat:no-repeat;background-position:center;background-size:contain}
+.ocb-ic-pin{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z'/><circle cx='12' cy='10' r='3'/></svg>")}
+.ocb-ic-home{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z'/><polyline points='9 22 9 12 15 12 15 22'/></svg>")}
+.ocb-ic-phone{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z'/></svg>")}
+.ocb-cta .ocb-ic{filter:brightness(0) saturate(100%) invert(9%) sepia(64%) saturate(4000%) hue-rotate(348deg)}
+</style></div>
+
+<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">December 8, 2026</span></div></div>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
+  <span class="ocb-eyebrow">Quick answer</span>
+  <p style="margin:0;font-size:17.9px;line-height:1.65"><strong>An entryway floor in the Pacific Northwest has one real job: absorb eight months of wet shoes, grit, and dripping coats without passing the damage to the rest of the house.</strong> Tile is the material built for that job &mdash; specifically a textured, matte porcelain in a mid tone that hides the mud between cleanings, laid over a waterproofing membrane, sized as a genuine landing zone rather than a decorative doormat, and finished with a transition to the hardwood that sits flush instead of tripping you. Installed tile runs $14&ndash;$26 per square foot with labor from $11/sq ft, and an entry is small enough that doing it properly is one of the cheapest meaningful upgrades in the house.</p>
+  <div class="ocb-chips">
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-pin"></span> King &amp; Snohomish County</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-home"></span> Edmonds homes</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-phone"></span> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
+  </div>
+</div></div>
+
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-facts">
+  <div class="ocb-fact"><span class="n">4&ndash;6 ft</span><p>how deep a tiled landing zone needs to be to do its job. Two steps of stride, a place to stand while the door closes, room for the mat &mdash; a single strip of tile at the door catches almost nothing.</p></div>
+  <div class="ocb-fact"><span class="n">$14&ndash;$26</span><p>per square foot installed, labor from $11/sq ft. Entryways are small, so even the top of the range puts the whole zone &mdash; membrane, tile, threshold &mdash; in modest four-figure territory.</p></div>
+  <div class="ocb-fact"><span class="n">2 years</span><p>our warranty on tile work. Entry floors take the hardest seasonal abuse in the house, which is exactly why the substrate prep and the perimeter details are not the place to economize.</p></div>
+</div></div></div>
+
+<h2>What a Northwest Entry Floor Is Actually For</h2>
+
+<p>From roughly October to May, everyone who walks through your front door is a delivery system for water and grit. The water you can see. The grit is the part that does the damage: fine, hard mineral sand that rides in on wet soles and works like sandpaper under every following footstep. On hardwood, that grit is the number-one killer of finish &mdash; the dulled, scratched path from the front door into the living room is so common we wrote about it in <a href="/blog/deep-vs-surface-scratches-hardwood-refinish">deep vs surface scratches</a>. On carpet, the same grit cuts fiber at the base and grinds the traffic lane grey.</p>
+
+<p>So the entry floor is not decoration. It is sacrificial armor: a zone engineered to take the water and grit, hold it, and be easy to strip clean &mdash; so the floors beyond it, which cost far more to restore, never meet either one. Judged by that standard, most Northwest entries are underbuilt: a strip of something hard at the door, a rug that swims around on top of it, and hardwood taking the third footstep of every arrival all winter long.</p>
+
+<h2>Why Tile Wins at the Front Door</h2>
+
+<p>Tile is the only common floor that is indifferent to every part of the winter package. Standing water does not swell it, grit does not scratch a through-body porcelain in any way you will see, dropped umbrellas and dog claws and boot heels leave nothing behind, and when the floor is filthy you can be aggressive about cleaning it in ways no wood finish would forgive. Porcelain specifically &mdash; dense, nearly non-absorbent, colored through its body &mdash; is the right species of tile here, for the same reasons it wins wet rooms generally; the differences that matter are in <a href="/blog/porcelain-vs-ceramic-tile">porcelain vs ceramic</a>.</p>
+
+<p>Under the tile we put the same bonded membrane we use in a <a href="/blog/laundry-room-tile">laundry room</a>, for the same reason: grout is not waterproof, and an entry sees standing water every single day of the wet season. The membrane keeps the melt-off out of the subfloor and uncouples the tile from the seasonal movement that Northwest framing does every year when the humidity swings. That is what keeps the grout lines intact through winter after winter of thermal and moisture cycling at the most-used door in the house.</p>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-card">
+  <h3 style="margin:0 0 10px;font-size:18.5px;font-weight:900;color:#5c0000">Specifying Entry Tile for a Wet, Dark Climate</h3>
+  <div style="overflow-x:auto"><table class="ocb-table">
+    <tr><th>Decision</th><th>What we spec</th><th>Why</th></tr>
+    <tr><td><strong>Material</strong></td><td>Porcelain, through-body or glazed matte</td><td>Near-zero absorption; grit and salt do not mark it; survives aggressive cleaning</td></tr>
+    <tr><td><strong>Surface</strong></td><td>Textured or honed matte &mdash; never polished</td><td>Wet leather sole on polished porcelain is an accident; texture is traction</td></tr>
+    <tr><td><strong>Color</strong></td><td>Mid-tone with variation &mdash; grays, taupes, warm stone looks</td><td>White shows every paw print; near-black shows every dried drop; variation hides the week between moppings</td></tr>
+    <tr><td><strong>Format</strong></td><td>Small to medium, more grout lines</td><td>Grout adds grip underfoot; small formats handle the slope to a flush transition better</td></tr>
+    <tr><td><strong>Grout</strong></td><td>Mid-to-dark, sealed &mdash; or epoxy</td><td>Light grout at an entry is grey by February and never comes fully back</td></tr>
+    <tr><td><strong>Under it</strong></td><td>Bonded waterproofing membrane</td><td>Daily standing water; grout is not waterproof; movement uncoupling</td></tr>
+    <tr><td><strong>Edges</strong></td><td>Silicone at the perimeter, flush transition to wood</td><td>The joints that move are the joints that fail if grouted</td></tr>
+  </table></div>
+</div></div>
+
+<h2>How Far In Should the Tile Go?</h2>
+
+<p>The most common entry-tile mistake is making the zone too small. A 3&times;3 pad at the door is a doormat made of tile: the second footstep &mdash; the one still carrying most of the water and grit &mdash; lands on hardwood. A working landing zone is four to six feet deep: enough for two full strides, a closing door, a parked pair of boots, and an absorbent mat that lives entirely on tile. In a foyer with a coat closet, run the tile to the closet door &mdash; wet coats drip. In a house where the entry opens straight into the living room, we look for an architectural line to end on: the edge of a cased opening, a stair nosing, the line of a wall &mdash; so the material change reads as intentional, not as a patch.</p>
+
+<p>This is also where layout earns its keep. An entry is visible from the door, from the stairs, and usually from the room it feeds, so the tile lines have to reference something real &mdash; centered on the door, parallel to the sightline wall. And because an entry is small with a lot of edge, expect more cuts per square foot than a bathroom floor: part of why small rooms sit toward the top of the $14&ndash;$26 installed range, the arithmetic we unpack in <a href="/blog/tile-installation-cost-per-square-foot">tile cost per square foot</a>.</p>
+
+<h2>The Transition to Hardwood Is the Detail That Shows</h2>
+
+<p>The joint where entry tile meets hardwood is the most-seen four feet of flooring detail in the house, and it is where a good job announces itself. The goal is <strong>flush</strong> &mdash; tile and wood surfaces in the same plane, separated by a clean, straight seam with a color-matched silicone or a slim metal profile. Getting there is a buildup problem: the tile assembly (membrane plus thinset plus tile) has to land at exactly the height of the neighboring three-quarter-inch hardwood, which we control by choosing the underlayment stack at the estimate, not by improvising a ramp at the end. A beveled transition strip that stubs a toe every winter morning is the signature of a job priced without measuring.</p>
+
+<p>Where the floors cannot be made flush &mdash; a slab entry against a framed floor, say &mdash; an honest low-profile stone saddle is the fallback, sloped so it sheds water toward the tile side. What we do not do is let the tile edge hang unsupported over a height gap, because an unsupported porcelain edge at the busiest doorway in the house is a chip factory. If the hardwood side of that seam is already grey and scratched from years of unprotected winters, that path can usually be revived without redoing the room &mdash; that is a refinishing conversation, and the wet-season scheduling for it is covered in <a href="/blog/refinishing-during-seattle-rainy-season">refinishing during the rainy season</a>.</p>
+
+<h2>Mats: The Cheap Half of the System</h2>
+
+<p>Tile does the durable half of the job; mats do the absorbent half. The system that works is two-stage: a coarse scraper mat outside the door that takes the mud and the first pass of grit, and an absorbent walk-off mat inside, sitting fully on the tile, that drinks the water. The inside mat needs a non-slip backing or a thin rug pad &mdash; a wet mat on smooth porcelain is a sled. Wash the inside mat monthly through the wet season; a saturated mat stops absorbing and starts redistributing. None of this costs more than dinner out, and together with the tile zone it is the difference between a hallway that needs refinishing every five years and one that needs it every fifteen.</p>
+
+<h2>Entryways in Edmonds</h2>
+
+<p>Edmonds gives an entry floor everything the Northwest can throw at it. The walk to the ferry, the beach at Brackett's Landing, the off-leash park &mdash; sand is a year-round import here, not just a summer one, and sand is the sharpest grit a floor meets. The housing stock in the bowl runs old: Craftsman-era and mid-century homes with original fir and oak floors that deserve protection, and entry framing that has settled enough to make the flush-transition work genuinely custom. Up the hill, newer construction tends to have generous foyers where a properly sized landing zone fits without touching the floor plan.</p>
+
+<p>We tile entries across town &mdash; often as a small standalone job, sometimes as the front end of a larger floor project &mdash; and the estimate is the same either way: measure the zone, check what the transition has to meet, name the tile and the membrane, and put the number in writing. Scope and scheduling are on our <a href="/city-of-edmonds/tile-installation-in-edmonds-wa">Edmonds tile installation page</a>.</p>
+
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-2col">
+  <div class="ocb-card" style="margin:0">
+    <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#5c0000">An entry floor built for the wet season</h3>
+    <ul class="ocb-check">
+      <li>Textured matte porcelain in a mid tone with variation</li>
+      <li>Landing zone 4&ndash;6 ft deep, ending on an architectural line</li>
+      <li>Bonded waterproofing membrane under the whole zone</li>
+      <li>Flush transition to hardwood &mdash; planned at the estimate, not improvised</li>
+      <li>Mid-to-dark sealed grout, silicone at the perimeter</li>
+      <li>Scraper mat outside, absorbent mat inside, both on hard surface</li>
+    </ul>
+  </div>
+  <div class="ocb-card" style="margin:0">
+    <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#334155">The version that fails by February</h3>
+    <ul class="ocb-check ocb-x">
+      <li>Polished tile that turns lethal under wet soles</li>
+      <li>A doormat-sized pad with hardwood taking the second step</li>
+      <li>No membrane &mdash; melt-off soaking the subfloor all winter</li>
+      <li>A toe-stubbing beveled strip bridging a height gap</li>
+      <li>White grout at the most-trafficked door in the house</li>
+      <li>One thin rug, swimming on smooth porcelain</li>
+    </ul>
+  </div>
+</div></div></div>
+
+<div data-rt-embed-type='true'><!-- FAQ accordion + JSON-LD -->
+<div class="faq-wrap ocb" aria-labelledby="faq-title">
+  <h2 id="faq-title" class="faq-title">Entryway Tile: What Homeowners Ask Us</h2>
+  <div class="faq-items" role="list">
+    <details class="faq-item" role="listitem"><summary class="faq-q">What is the best tile for an entryway?</summary><div class="faq-a">A matte or textured porcelain in a mid tone with some visual variation. Porcelain because it is dense, nearly non-absorbent, and indifferent to grit and salt; matte or textured because wet shoes on polished tile are a genuine slip hazard; mid-tone and varied because solid white shows every print and near-black shows every dried water spot in a climate where the floor is wet eight months a year.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">How big should a tiled entry area be?</summary><div class="faq-a">Four to six feet deep is the working minimum — two full strides, space for the door to close, and room for an absorbent mat that sits entirely on the tile. A tile pad the size of a doormat protects almost nothing, because the second and third footsteps still carry most of the water and grit onto the wood. Where possible, end the tile on an architectural line so the change reads as designed.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Is tile at the entry slippery when wet?</summary><div class="faq-a">The wrong tile is. Polished porcelain and glassy glazes get dangerous under wet soles, which is why we spec a textured or honed matte surface with a real slip rating for entries, and lean toward smaller formats where the extra grout lines add grip. Combined with a proper walk-off mat, a textured matte entry is one of the safer wet floors in the house.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">How do you transition entry tile to hardwood?</summary><div class="faq-a">Flush is the goal: tile and wood in the same plane with a clean seam and color-matched silicone or a slim metal profile. That takes planning the buildup — membrane, thinset, and tile stacking to exactly the hardwood height — at the estimate stage. Where flush is impossible, a low sloped stone saddle is the honest fallback. A tall beveled strip is what a job looks like when nobody measured.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">What does a tiled entryway cost?</summary><div class="faq-a">Tile runs $14 to $26 per square foot installed with labor from $11, and entries sit toward the top of the range per foot because they are small, cut-heavy, and detail-dense. Most complete entry zones — membrane, tile, transition — land in modest four figures. Against the refinishing cycles it saves on the hardwood behind it, it is one of the best-value floors in the house.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Does an entry floor really need a waterproofing membrane?</summary><div class="faq-a">It is the same logic as a laundry room. Grout is not waterproof, and an entry sees standing water daily from October to May. A bonded membrane keeps that water out of the subfloor and decouples the tile from seasonal movement, which is what preserves the grout lines through years of wet-dry cycling. On a small zone the membrane adds little cost and removes the main long-term failure mode.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">What color grout should an entryway have?</summary><div class="faq-a">Mid-to-dark, sealed — or an epoxy grout if the budget allows. Light grout at a front door is grey by the end of the first wet season, and no amount of scrubbing brings it fully back. A grout one to two shades darker than the tile hides winter honestly and still reads clean.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Can you add a heated floor to an entryway?</summary><div class="faq-a">Yes, and it is a small enough zone that the cost is modest. An electric mat under entry tile dries the floor faster, takes the ice-box feel off the first step inside, and runs on a programmable thermostat for pennies during the hours the door actually gets used. The build logic and payback math are the same as for a bathroom.</div></details>
+  </div>
+</div>
+
+<style>
+  .faq-wrap{--line:#e5e7eb;margin:28px auto;padding:20px;border:1px solid var(--line);border-radius:16px;background:#fff;box-shadow:0 8px 30px rgba(2,6,23,.06)}
+  .faq-title{margin:0 0 14px;font-size:24px;font-weight:900;text-align:center;color:#5c0000}
+  .faq-items{display:grid;gap:10px}
+  .faq-item{border:1px solid var(--line);border-radius:14px;background:#f9fafb;overflow:hidden}
+  .faq-q{cursor:pointer;display:block;padding:14px 16px;font-weight:800;color:#0f172a}
+  .faq-q::-webkit-details-marker{display:none}
+  .faq-item[open] .faq-q{background:linear-gradient(180deg, rgba(139,0,0,.08), rgba(139,0,0,.02))}
+  .faq-a{padding:0 16px 14px;color:#1f2937;line-height:1.6}
+</style>
+
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What is the best tile for an entryway?", "acceptedAnswer": {"@type": "Answer", "text": "A matte or textured porcelain in a mid tone with some visual variation. Porcelain because it is dense, nearly non-absorbent, and indifferent to grit and salt; matte or textured because wet shoes on polished tile are a genuine slip hazard; mid-tone and varied because solid white shows every print and near-black shows every dried water spot in a climate where the floor is wet eight months a year."}}, {"@type": "Question", "name": "How big should a tiled entry area be?", "acceptedAnswer": {"@type": "Answer", "text": "Four to six feet deep is the working minimum — two full strides, space for the door to close, and room for an absorbent mat that sits entirely on the tile. A tile pad the size of a doormat protects almost nothing, because the second and third footsteps still carry most of the water and grit onto the wood. Where possible, end the tile on an architectural line so the change reads as designed."}}, {"@type": "Question", "name": "Is tile at the entry slippery when wet?", "acceptedAnswer": {"@type": "Answer", "text": "The wrong tile is. Polished porcelain and glassy glazes get dangerous under wet soles, which is why we spec a textured or honed matte surface with a real slip rating for entries, and lean toward smaller formats where the extra grout lines add grip. Combined with a proper walk-off mat, a textured matte entry is one of the safer wet floors in the house."}}, {"@type": "Question", "name": "How do you transition entry tile to hardwood?", "acceptedAnswer": {"@type": "Answer", "text": "Flush is the goal: tile and wood in the same plane with a clean seam and color-matched silicone or a slim metal profile. That takes planning the buildup — membrane, thinset, and tile stacking to exactly the hardwood height — at the estimate stage. Where flush is impossible, a low sloped stone saddle is the honest fallback. A tall beveled strip is what a job looks like when nobody measured."}}, {"@type": "Question", "name": "What does a tiled entryway cost?", "acceptedAnswer": {"@type": "Answer", "text": "Tile runs $14 to $26 per square foot installed with labor from $11, and entries sit toward the top of the range per foot because they are small, cut-heavy, and detail-dense. Most complete entry zones — membrane, tile, transition — land in modest four figures. Against the refinishing cycles it saves on the hardwood behind it, it is one of the best-value floors in the house."}}, {"@type": "Question", "name": "Does an entry floor really need a waterproofing membrane?", "acceptedAnswer": {"@type": "Answer", "text": "It is the same logic as a laundry room. Grout is not waterproof, and an entry sees standing water daily from October to May. A bonded membrane keeps that water out of the subfloor and decouples the tile from seasonal movement, which is what preserves the grout lines through years of wet-dry cycling. On a small zone the membrane adds little cost and removes the main long-term failure mode."}}, {"@type": "Question", "name": "What color grout should an entryway have?", "acceptedAnswer": {"@type": "Answer", "text": "Mid-to-dark, sealed — or an epoxy grout if the budget allows. Light grout at a front door is grey by the end of the first wet season, and no amount of scrubbing brings it fully back. A grout one to two shades darker than the tile hides winter honestly and still reads clean."}}, {"@type": "Question", "name": "Can you add a heated floor to an entryway?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, and it is a small enough zone that the cost is modest. An electric mat under entry tile dries the floor faster, takes the ice-box feel off the first step inside, and runs on a programmable thermostat for pennies during the hours the door actually gets used. The build logic and payback math are the same as for a bathroom."}}]}
+</script></div>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-cta" style="margin:30px 0">
+  <style>
+    html body .post-body .ocb-cta h2, .ocb-cta h2{color:#fff!important}
+    html body .post-body .ocb-cta .ocb-cta-sub, .ocb-cta .ocb-cta-sub{color:rgba(255,255,255,.88)!important}
+    html body .post-body .ocb-cta .ocb-cta-chips span, .ocb-cta .ocb-cta-chips span{color:rgba(255,255,255,.94)!important}
+    html body .post-body .ocb-cta a.ocb-cta-ghost, .ocb-cta a.ocb-cta-ghost{color:#fff!important;text-decoration:none!important}
+    html body .post-body .ocb-cta a.ocb-cta-gold, .ocb-cta a.ocb-cta-gold{color:#fbbc04!important}
+    html body .post-body .ocb-cta a.ocb-cta-phone, .ocb-cta a.ocb-cta-phone{color:#5c0000!important;text-decoration:none!important}
+  </style>
+  <div style="background:linear-gradient(135deg,#8B0000,#5c0000);border-radius:20px;padding:28px 24px;color:#fff;text-align:center;box-shadow:0 14px 34px rgba(92,0,0,.3)">
+    <h2 style="margin:0 0 6px;color:#fff!important;font-size:24px;font-weight:900">Give Winter a Floor That Can Take It</h2>
+    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.92)!important;font-size:16.3px">We will size the landing zone, plan the flush transition to your hardwood, and put the tile, membrane, and number in writing &mdash; a small job done properly. Free in-home estimates across King &amp; Snohomish County.</p>
+    <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
+      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff!important;color:#5c0000!important;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none!important"><span class="ocb-ic ocb-ic-phone"></span> (425) 595-1079</a>
+      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.16)!important;border:1px solid rgba(255,255,255,.55);color:#fff!important;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none!important">Book My Free Consultation</a>
+    </div>
+    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.95)!important">
+      <span>✓ Since 2013</span><span>✓ 1,000+ floors</span><span>✓ 1-yr workmanship warranty</span><span>✓ Licensed &amp; insured</span><span>✓ Financing available</span>
+    </div>
+    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04!important;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
+  </div>
+</div></div>
+
+<p><strong>Related reading:</strong> <a href="/blog/porcelain-vs-ceramic-tile">Porcelain vs ceramic tile</a> · <a href="/blog/laundry-room-tile">Laundry room tile</a> · <a href="/blog/deep-vs-surface-scratches-hardwood-refinish">Deep vs surface scratches in hardwood</a> · <a href="/blog/tile-installation-cost-per-square-foot">Tile cost per square foot</a> · <a href="/blog/refinishing-during-seattle-rainy-season">Refinishing in the rainy season</a> · <a href="/city-of-edmonds/tile-installation-in-edmonds-wa">Tile installation in Edmonds</a> · <a href="/contact">Book a free estimate</a></p>
+
+<div data-rt-embed-type='true'><script>
+(function(){try{
+var els=document.querySelectorAll('.ocb-card,.ocb-fact,.ocb-tri,.faq-item');
+if(!('IntersectionObserver' in window)||!els.length)return;
+document.documentElement.classList.add('ocb-anim-ready');
+els.forEach(function(e,i){e.classList.add('ocb-rv');e.style.transitionDelay=Math.min((i%6)*70,350)+'ms'});
+var io=new IntersectionObserver(function(en){en.forEach(function(x){if(x.isIntersecting){x.target.classList.add('ocb-in');io.unobserve(x.target)}})},{threshold:.12,rootMargin:'0px 0px -8% 0px'});
+els.forEach(function(e){io.observe(e)});
+}catch(e){}})();
+</script></div>

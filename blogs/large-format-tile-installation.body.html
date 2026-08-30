@@ -1,0 +1,207 @@
+<div data-rt-embed-type='true'><style>
+.ocb{--ink:#0f172a;--muted:#64748b;--line:#e5e7eb;--soft:#f8fafc;--brand:#8B0000;--brand2:#5c0000;--gold:#fbbc04;font-family:'Mulish',Inter,system-ui,sans-serif;color:var(--ink)}
+.ocb *{box-sizing:border-box}
+.ocb-card{border:1px solid var(--line);border-radius:18px;background:#fff;box-shadow:0 10px 30px rgba(2,6,23,.06);padding:22px;margin:26px 0}
+.ocb-eyebrow{display:inline-block;background:rgba(139,0,0,.08);color:var(--brand2);border:1px solid rgba(139,0,0,.2);border-radius:999px;padding:5px 12px;font-size:12.5px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;margin-bottom:10px}
+.ocb-chips{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0 0}
+.ocb-chip{background:var(--soft);border:1px solid var(--line);border-radius:999px;padding:6px 12px;font-size:13.6px;font-weight:700}
+.ocb-table{width:100%;border-collapse:collapse;font-size:15.2px}
+.ocb-table th,.ocb-table td{padding:11px 10px;text-align:left;border-bottom:1px solid var(--line)}
+.ocb-table th{background:var(--soft);font-weight:800;font-size:13.6px;letter-spacing:.02em}
+.ocb-table tr:last-child td{border-bottom:0}
+.ocb-table td strong{color:var(--brand2)}
+.ocb-2col{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media(max-width:680px){.ocb-2col{grid-template-columns:1fr}}
+.ocb-check{list-style:none;padding:0;margin:10px 0 0}
+.ocb-check li{padding-left:26px;position:relative;margin:7px 0;line-height:1.55}
+.ocb-check li:before{content:"✓";position:absolute;left:0;color:var(--brand);font-weight:900}
+.ocb-x li:before{content:"✕";color:#94a3b8}
+html body .post-body .ocb-facts, .ocb-facts{display:grid!important;grid-template-columns:repeat(3,1fr)!important;gap:12px!important;margin:8px 0!important}
+@media(max-width:680px){html body .post-body .ocb-facts, .ocb-facts{grid-template-columns:1fr!important}}
+.ocb-fact{background:linear-gradient(180deg,#fff,#f8fafc);border:1px solid var(--line);border-radius:16px;padding:16px}
+.ocb-fact .n{font-size:24px;font-weight:900;color:var(--brand2);display:block;margin-bottom:4px}
+html body .post-body .ocb-fact p, .ocb-fact p{margin:0!important;font-size:14.7px!important;color:#334155!important;line-height:1.5!important}
+
+.ocb-card,.ocb-fact,.ocb-tri{transition:transform .28s ease,box-shadow .28s ease}
+.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:translateY(-4px);box-shadow:0 16px 40px rgba(2,6,23,.12)}
+.faq-item{transition:border-color .25s,box-shadow .25s}
+.faq-item:hover{border-color:rgba(139,0,0,.35);box-shadow:0 6px 18px rgba(2,6,23,.07)}
+.ocb-chip{display:inline-flex;align-items:center;gap:6px;transition:transform .2s,border-color .2s}
+.ocb-chip:hover{transform:translateY(-2px);border-color:rgba(139,0,0,.35)}
+.ocb-chip svg{color:#8B0000}
+.ocb-cta a{transition:transform .22s,box-shadow .22s}
+.ocb-cta a:hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(0,0,0,.25)}
+.ocb-fact .n{position:relative}
+html.ocb-anim-ready .ocb-rv{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
+html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){html.ocb-anim-ready .ocb-rv{opacity:1!important;transform:none!important;transition:none!important}.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:none}}
+
+/* Chip icons. Webflow's rich-text sanitizer strips inline <svg> whenever a post is
+   re-saved in the Editor, so the icons are drawn from CSS on a <span> instead. */
+.ocb-ic{display:inline-block;width:15px;height:15px;flex:0 0 auto;vertical-align:-2px;background-repeat:no-repeat;background-position:center;background-size:contain}
+.ocb-ic-pin{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z'/><circle cx='12' cy='10' r='3'/></svg>")}
+.ocb-ic-home{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z'/><polyline points='9 22 9 12 15 12 15 22'/></svg>")}
+.ocb-ic-phone{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z'/></svg>")}
+.ocb-cta .ocb-ic{filter:brightness(0) saturate(100%) invert(9%) sepia(64%) saturate(4000%) hue-rotate(348deg)}
+</style></div>
+
+<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">November 24, 2026</span></div></div>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
+  <span class="ocb-eyebrow">Quick answer</span>
+  <p style="margin:0;font-size:17.9px;line-height:1.65"><strong>Large-format tile &mdash; anything with an edge 15 inches or longer &mdash; is decided before the first tile touches mortar, by how flat the substrate is.</strong> The industry standard tightens from 1/4 inch in 10 feet to 1/8 inch in 10 feet the moment a long edge is involved, because a long, rigid tile bridges every dip and rocks on every hump, and the resulting edge-to-edge height difference &mdash; lippage &mdash; is visible from the doorway and permanent. Installed cost sits in the same $14&ndash;$26 per square foot range as other tile, with labor from $11/sq ft, but more of the budget shifts into flattening and back-buttering. In Shoreline's mid-century remodels, that prep line is usually the whole story.</p>
+  <div class="ocb-chips">
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-pin"></span> King &amp; Snohomish County</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-home"></span> Shoreline remodels</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-phone"></span> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
+  </div>
+</div></div>
+
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-facts">
+  <div class="ocb-fact"><span class="n">15 inches</span><p>the edge length where tile officially becomes large format and the rules change &mdash; tighter flatness, modified mortar, back-buttering, and a maximum 33% offset instead of the classic brick pattern.</p></div>
+  <div class="ocb-fact"><span class="n">1/8" in 10 ft</span><p>the substrate flatness large-format tile demands. Most Shoreline subfloors we open up start at two to three times that, which is why flattening is a real line item and not padding.</p></div>
+  <div class="ocb-fact"><span class="n">2 years</span><p>our warranty on tile work. We can offer it on large format because we flatten first and check mortar coverage as we set &mdash; the two things that decide whether a big tile cracks or lasts.</p></div>
+</div></div></div>
+
+<h2>What Counts as Large Format &mdash; and Why the Rules Change</h2>
+
+<p>The tile industry draws the line at any edge 15 inches or longer. A 12&times;24 plank, a 24&times;24 square, a 24&times;48 slab look, the wood-look planks that run 8&times;48 &mdash; all of it is large-format tile, and all of it plays by a stricter rulebook than the 12&times;12s it replaced. The reason is stiffness. A small tile is short enough to follow gentle waves in a floor without anyone noticing. A 48-inch plank is a straightedge: it touches the high spots, bridges the low ones, and every gap under it becomes either a hollow void that cracks later or a rocked edge that sticks up next to its neighbor.</p>
+
+<p>Manufacturers know this, which is why big tile is not perfectly flat either. Porcelain bows slightly in firing &mdash; a crown down the middle of a long plank is normal and allowed within tolerance. Set two bowed planks in a 50% brick offset and the crown of one lands exactly at the low tip of the next. That is why the standard for long tile caps the offset at 33%: it is not a style opinion, it is geometry. A layout that ignores it produces lippage even on a perfectly flat floor, and no installer can fix it after the fact.</p>
+
+<h2>Flatness: The Spec That Decides the Whole Job</h2>
+
+<p>For tile with any edge over 15 inches, the substrate has to be flat to within 1/8 inch over 10 feet, and 1/16 inch over 2 feet. Read that again with a Shoreline rambler in mind. A 1950s or 60s plank-and-plywood subfloor that has carried sixty years of living is routinely out by 1/4 to 3/8 inch across a kitchen &mdash; crowned over beams, dipped between joists, stepped where an addition meets the original footprint. None of that matters under carpet. All of it matters under a 48-inch plank.</p>
+
+<p>So the honest large-format quote starts with a straightedge and a level, not a tile catalog. Getting a floor to spec means grinding the high spots, filling the dips with patch, or &mdash; most often on the floors we see &mdash; pouring self-leveling underlayment across the whole room and starting from a known-flat surface. That costs real money and usually a day of schedule, and it is the single most common line item that separates two bids on the same room. The cheap bid did not find a cheaper way to flatten the floor. It skipped the step, and the floor will say so within a year. What goes on top of the flattened substrate &mdash; membrane, board, and when each is right &mdash; is its own decision, and we walk through it in <a href="/blog/tile-underlayment-explained">tile underlayment explained</a>.</p>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-card">
+  <h3 style="margin:0 0 10px;font-size:18.5px;font-weight:900;color:#5c0000">Where Large-Format Jobs Are Won or Lost</h3>
+  <div style="overflow-x:auto"><table class="ocb-table">
+    <tr><th>Decision</th><th>The standard</th><th>What skipping it looks like</th></tr>
+    <tr><td><strong>Substrate flatness</strong></td><td>1/8" in 10 ft, 1/16" in 2 ft</td><td>Lippage at the edges, hollow spots underfoot, cracks over the dips within a couple of years</td></tr>
+    <tr><td><strong>Offset pattern</strong></td><td>Max 33% offset on long edges</td><td>Tile crown meets tile tip &mdash; ridges down the room that shadow badly under window light</td></tr>
+    <tr><td><strong>Mortar</strong></td><td>Large-and-heavy-tile mortar, deep notch</td><td>Ordinary thinset slumps under big tile; corners settle at different heights as it cures</td></tr>
+    <tr><td><strong>Back-buttering</strong></td><td>Skim coat on the tile back, every tile</td><td>Voids under the tile &mdash; hollow sound now, cracked corners when a fridge rolls over it</td></tr>
+    <tr><td><strong>Coverage checks</strong></td><td>Pull a tile and look, early and often</td><td>Nobody knows what the coverage is &mdash; until the floor reports back</td></tr>
+    <tr><td><strong>Grout joint</strong></td><td>No tighter than the tile can support</td><td>Credit-card joints on bowed planks turn warpage into lippage at every edge</td></tr>
+    <tr><td><strong>Leveling clips</strong></td><td>A finishing aid on a flat floor</td><td>Used as a substitute for flattening, they tension tiles over voids and pop corners loose</td></tr>
+  </table></div>
+</div></div>
+
+<h2>Lippage: The Problem You Can See From the Doorway</h2>
+
+<p>Lippage is the height difference between the edges of two adjacent tiles, and it is the signature failure of large-format work. The allowance in the standard is small &mdash; about the thickness of a credit card, plus whatever warpage the tile itself carries &mdash; because your eye is merciless about it. Low afternoon light raking across a floor turns a millimeter of lippage into a ridge with a shadow line behind it, and once you have seen it you cannot stop. In a Shoreline living room with west-facing glass and a Puget Sound sunset every clear evening, raking light is not an edge case. It is the daily condition the floor has to pass.</p>
+
+<p>Leveling systems &mdash; the clips and wedges that hold neighboring edges flush while the mortar cures &mdash; are genuinely useful, and we use them on most large-format floors. But they are a finishing tool, not a substitute for flat. A clip can hold two edges level over a dip only by tensioning one tile over a void, and a tile held in the air by a plastic clip while its mortar cures is a tile with nothing under its corner. The clip snaps off, the job looks great for a season, and then the unsupported corner cracks under the leg of a couch. Flat substrate first; clips to close the last fraction. That order cannot be reversed.</p>
+
+<h2>Back-Buttering and the Coverage Problem</h2>
+
+<p>Under a small tile, the ribbons of mortar from the trowel collapse and spread into something close to full contact. Under a 24&times;48, they do not &mdash; the tile is too stiff to help compress them, and its slight bow guarantees the middle or the edges hang over air unless somebody does something about it. The something is back-buttering: a skim coat of mortar troweled flat onto the back of every tile before it goes down, so the tile lands on wet-on-wet mortar and full contact is possible. Combined with a deep-notch trowel, directional troweling so air can escape, and a proper large-and-heavy-tile mortar that will not slump, that is how you get to the coverage the standard asks for &mdash; and the way you know you are getting it is to pull a freshly set tile every so often and look at its back.</p>
+
+<p>This is slow, unglamorous work that doubles the mortar handling on the job, and it is exactly the step that disappears when a bid is priced to win. The floor does not complain immediately. Voids announce themselves later, as a hollow drum note under a heel, a cracked corner where a chair leg landed, a grout line that opens over the spot where the mortar never touched. By then the fix is replacement, tile by tile &mdash; the same expensive arithmetic we walk through in <a href="/blog/tile-installation-cost-per-square-foot">what a tile square foot really costs</a>.</p>
+
+<h2>Large Format in Shoreline Remodels</h2>
+
+<p>Shoreline's housing stock is mid-century almost wall to wall &mdash; ramblers and split-levels from the 50s and 60s, many of them deep into their second or third remodel as the city densifies. Large format suits these houses: the long, low rooms and open plans that come out of a wall-removal remodel look right with fewer, bigger tiles and fewer grout lines. But the same remodels stack the deck against flatness. Original 1&times;6 plank subfloors have crowned and cupped for sixty years. Additions meet the original slab or crawlspace framing at a step that was never meant to be seen. Kitchens that lose a wall inherit two floors built in different decades at slightly different heights.</p>
+
+<p>None of this rules out large format &mdash; we set it across Shoreline every month. It means the flattening pass is not optional and should be priced, in writing, before anyone orders tile. When we quote a large-format floor from Richmond Beach to Ridgecrest, the straightedge comes out at the estimate, the self-leveler is a named line with a square footage on it, and the layout drawing shows the offset so there are no surprises about the pattern. The full scope is on our <a href="/city-of-shoreline/tile-installation-in-shoreline-wa">Shoreline tile installation page</a>.</p>
+
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-2col">
+  <div class="ocb-card" style="margin:0">
+    <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#5c0000">What our large-format process includes</h3>
+    <ul class="ocb-check">
+      <li>Straightedge survey of the substrate at the estimate, not on day one</li>
+      <li>Flattening to the 1/8"-in-10-ft standard &mdash; self-leveler or grinding, priced in writing</li>
+      <li>Large-and-heavy-tile mortar with a deep notch, troweled in one direction</li>
+      <li>Back-buttering on every tile, with periodic pull-checks for coverage</li>
+      <li>Offset capped at 33% on long edges, layout agreed before setting</li>
+      <li>Leveling clips to finish &mdash; after the floor is flat, not instead of it</li>
+    </ul>
+  </div>
+  <div class="ocb-card" style="margin:0">
+    <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#334155">What the suspiciously cheap bid skips</h3>
+    <ul class="ocb-check ocb-x">
+      <li>Any flatness measurement at all &mdash; the tile ships and the trowel decides</li>
+      <li>Self-leveler, because it costs a day and a few hundred dollars</li>
+      <li>Back-buttering, because it doubles the mortar handling</li>
+      <li>The offset rule, because 50% brick "looks classic"</li>
+      <li>Coverage checks &mdash; nobody pulls a tile they would have to reset</li>
+      <li>A warranty that outlives the first winter of raking light</li>
+    </ul>
+  </div>
+</div></div></div>
+
+<h2>When Large Format Is the Wrong Answer</h2>
+
+<p>We talk people out of large format regularly, and the reasons are practical. A small bathroom with a toilet flange, a vanity, and a door in eight feet of wall turns big tiles into a cutting exercise &mdash; you pay large-format labor to install mostly pieces. A shower floor needs slope to a drain, and a rigid 24-inch tile cannot bend into a pre-sloped pan; that is mosaic territory, and the waterproofing underneath matters far more than the tile on top &mdash; the assembly we describe in <a href="/blog/tile-shower-waterproofing">shower waterproofing</a> and flood-test for 24 hours on every pan we build. And a floor that genuinely cannot be flattened &mdash; a structural step, a budget that will not carry the leveling pass &mdash; is better served by a smaller tile that can follow the surface honestly than by a big tile fighting it. A 12&times;12 set well beats a 24&times;48 set badly, every time, for a decade longer. How the tile itself is made matters too &mdash; dense porcelain planks cut and wear differently than ceramic, a difference we unpack in <a href="/blog/porcelain-vs-ceramic-tile">porcelain vs ceramic</a>.</p>
+
+<h2>Reading a Large-Format Quote</h2>
+
+<p>Three questions sort the bids. <strong>What did you measure the floor with, and what did you find?</strong> If nobody put a straightedge on the substrate, the flatness problem is still in the job &mdash; it is just unpriced. <strong>Is flattening its own line item?</strong> A number for self-leveler or grinding, with a square footage, means the bidder intends to do it. "Prep included" in a bid that is $2,000 under the others means it is not. <strong>What offset are you planning?</strong> Anyone who answers 50% on a 48-inch plank has told you they have not read the tile manufacturer's own instructions. The rest &mdash; which plank, which grout color, which direction the boards run &mdash; is the fun part, and we will happily spend an hour on it once the floor underneath is settled.</p>
+
+<div data-rt-embed-type='true'><!-- FAQ accordion + JSON-LD -->
+<div class="faq-wrap ocb" aria-labelledby="faq-title">
+  <h2 id="faq-title" class="faq-title">Large-Format Tile: What Homeowners Ask Us</h2>
+  <div class="faq-items" role="list">
+    <details class="faq-item" role="listitem"><summary class="faq-q">What is considered large-format tile?</summary><div class="faq-a">Any tile with at least one edge 15 inches or longer. That covers 12x24 rectangles, 24x24 squares, wood-look planks at 8x48, and the big 24x48 slab looks. Once a tile crosses that line, the installation standards tighten: the substrate must be flat to 1/8 inch in 10 feet, the mortar changes, back-buttering becomes standard practice, and offsets on long edges are capped at 33%.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Does large-format tile cost more to install?</summary><div class="faq-a">The installed range is the same $14 to $26 per square foot we quote for tile generally, with labor from $11 per square foot, but large format tends to land higher inside the range. The tile itself is often no more expensive; the difference is flattening the substrate to the tighter standard and the slower setting process — back-buttering, coverage checks, leveling clips. On an out-of-flat floor, the prep can be a third of the job.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Why does my contractor want to pour self-leveler first?</summary><div class="faq-a">Because your floor is not flat to 1/8 inch in 10 feet, and almost no lived-in floor is. Self-leveling underlayment is usually the fastest, most reliable way to hit the standard across a whole room. It is a legitimate, necessary line item on most large-format jobs — the bid that skips it is not cheaper, it is incomplete.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">What is lippage and how much is acceptable?</summary><div class="faq-a">Lippage is the height difference between the edges of neighboring tiles. The standard allows roughly a credit card of difference plus whatever warpage the tile carries — beyond that you see ridges and shadow lines, especially in low, raking light. It comes from setting rigid tile on an unflat floor, from too-tight grout joints, or from a 50% offset that stacks tile crowns against tile tips.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Do tile leveling clips actually work?</summary><div class="faq-a">Yes, for what they are for: holding adjacent edges flush during cure to close the last fraction of a millimeter. What they cannot do is substitute for a flat substrate. A clip that levels two tiles over a dip is holding one tile above a void, and that unsupported corner is a crack waiting for a load. Flat floor first, clips second.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">What is back-buttering and is it really necessary?</summary><div class="faq-a">Back-buttering is troweling a thin skim coat of mortar onto the back of each tile before setting it, on top of the mortar combed onto the floor. On large format it is not optional — big, stiff, slightly bowed tiles cannot compress trowel ridges into full contact on their own. Skipping it leaves voids, and voids become hollow spots, cracked corners, and open grout lines.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Can I use a 50% brick offset with 12x24 or longer tile?</summary><div class="faq-a">You should not, and most tile manufacturers explicitly say so. Long porcelain tiles bow slightly in firing; at a 50% offset the highest point of one tile lands beside the lowest point of the next, creating lippage no installer can prevent. The standard caps the offset at 33% for long edges — a third-offset stagger looks very close to brick and lies flat.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Is large-format tile a good idea in a mid-century Shoreline house?</summary><div class="faq-a">Usually yes, with the flattening priced honestly. Mid-century ramblers suit the look, but their plank subfloors and remodel seams are routinely out of flat by two or three times the large-format standard. Expect a self-leveling pass in the quote. If a bid on a 1950s house has no flatness line at all, that is the bid to be suspicious of.</div></details>
+  </div>
+</div>
+
+<style>
+  .faq-wrap{--line:#e5e7eb;margin:28px auto;padding:20px;border:1px solid var(--line);border-radius:16px;background:#fff;box-shadow:0 8px 30px rgba(2,6,23,.06)}
+  .faq-title{margin:0 0 14px;font-size:24px;font-weight:900;text-align:center;color:#5c0000}
+  .faq-items{display:grid;gap:10px}
+  .faq-item{border:1px solid var(--line);border-radius:14px;background:#f9fafb;overflow:hidden}
+  .faq-q{cursor:pointer;display:block;padding:14px 16px;font-weight:800;color:#0f172a}
+  .faq-q::-webkit-details-marker{display:none}
+  .faq-item[open] .faq-q{background:linear-gradient(180deg, rgba(139,0,0,.08), rgba(139,0,0,.02))}
+  .faq-a{padding:0 16px 14px;color:#1f2937;line-height:1.6}
+</style>
+
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What is considered large-format tile?", "acceptedAnswer": {"@type": "Answer", "text": "Any tile with at least one edge 15 inches or longer. That covers 12x24 rectangles, 24x24 squares, wood-look planks at 8x48, and the big 24x48 slab looks. Once a tile crosses that line, the installation standards tighten: the substrate must be flat to 1/8 inch in 10 feet, the mortar changes, back-buttering becomes standard practice, and offsets on long edges are capped at 33%."}}, {"@type": "Question", "name": "Does large-format tile cost more to install?", "acceptedAnswer": {"@type": "Answer", "text": "The installed range is the same $14 to $26 per square foot we quote for tile generally, with labor from $11 per square foot, but large format tends to land higher inside the range. The tile itself is often no more expensive; the difference is flattening the substrate to the tighter standard and the slower setting process — back-buttering, coverage checks, leveling clips. On an out-of-flat floor, the prep can be a third of the job."}}, {"@type": "Question", "name": "Why does my contractor want to pour self-leveler first?", "acceptedAnswer": {"@type": "Answer", "text": "Because your floor is not flat to 1/8 inch in 10 feet, and almost no lived-in floor is. Self-leveling underlayment is usually the fastest, most reliable way to hit the standard across a whole room. It is a legitimate, necessary line item on most large-format jobs — the bid that skips it is not cheaper, it is incomplete."}}, {"@type": "Question", "name": "What is lippage and how much is acceptable?", "acceptedAnswer": {"@type": "Answer", "text": "Lippage is the height difference between the edges of neighboring tiles. The standard allows roughly a credit card of difference plus whatever warpage the tile carries — beyond that you see ridges and shadow lines, especially in low, raking light. It comes from setting rigid tile on an unflat floor, from too-tight grout joints, or from a 50% offset that stacks tile crowns against tile tips."}}, {"@type": "Question", "name": "Do tile leveling clips actually work?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, for what they are for: holding adjacent edges flush during cure to close the last fraction of a millimeter. What they cannot do is substitute for a flat substrate. A clip that levels two tiles over a dip is holding one tile above a void, and that unsupported corner is a crack waiting for a load. Flat floor first, clips second."}}, {"@type": "Question", "name": "What is back-buttering and is it really necessary?", "acceptedAnswer": {"@type": "Answer", "text": "Back-buttering is troweling a thin skim coat of mortar onto the back of each tile before setting it, on top of the mortar combed onto the floor. On large format it is not optional — big, stiff, slightly bowed tiles cannot compress trowel ridges into full contact on their own. Skipping it leaves voids, and voids become hollow spots, cracked corners, and open grout lines."}}, {"@type": "Question", "name": "Can I use a 50% brick offset with 12x24 or longer tile?", "acceptedAnswer": {"@type": "Answer", "text": "You should not, and most tile manufacturers explicitly say so. Long porcelain tiles bow slightly in firing; at a 50% offset the highest point of one tile lands beside the lowest point of the next, creating lippage no installer can prevent. The standard caps the offset at 33% for long edges — a third-offset stagger looks very close to brick and lies flat."}}, {"@type": "Question", "name": "Is large-format tile a good idea in a mid-century Shoreline house?", "acceptedAnswer": {"@type": "Answer", "text": "Usually yes, with the flattening priced honestly. Mid-century ramblers suit the look, but their plank subfloors and remodel seams are routinely out of flat by two or three times the large-format standard. Expect a self-leveling pass in the quote. If a bid on a 1950s house has no flatness line at all, that is the bid to be suspicious of."}}]}
+</script></div>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-cta" style="margin:30px 0">
+  <style>
+    html body .post-body .ocb-cta h2, .ocb-cta h2{color:#fff!important}
+    html body .post-body .ocb-cta .ocb-cta-sub, .ocb-cta .ocb-cta-sub{color:rgba(255,255,255,.88)!important}
+    html body .post-body .ocb-cta .ocb-cta-chips span, .ocb-cta .ocb-cta-chips span{color:rgba(255,255,255,.94)!important}
+    html body .post-body .ocb-cta a.ocb-cta-ghost, .ocb-cta a.ocb-cta-ghost{color:#fff!important;text-decoration:none!important}
+    html body .post-body .ocb-cta a.ocb-cta-gold, .ocb-cta a.ocb-cta-gold{color:#fbbc04!important}
+    html body .post-body .ocb-cta a.ocb-cta-phone, .ocb-cta a.ocb-cta-phone{color:#5c0000!important;text-decoration:none!important}
+  </style>
+  <div style="background:linear-gradient(135deg,#8B0000,#5c0000);border-radius:20px;padding:28px 24px;color:#fff;text-align:center;box-shadow:0 14px 34px rgba(92,0,0,.3)">
+    <h2 style="margin:0 0 6px;color:#fff!important;font-size:24px;font-weight:900">Thinking About Large-Format Tile?</h2>
+    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.92)!important;font-size:16.3px">We will put a straightedge on your floor at the estimate, tell you exactly what flat costs, and show you the layout before anything is ordered &mdash; in writing, with the prep priced. Free in-home estimates across King &amp; Snohomish County.</p>
+    <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
+      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff!important;color:#5c0000!important;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none!important"><span class="ocb-ic ocb-ic-phone"></span> (425) 595-1079</a>
+      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.16)!important;border:1px solid rgba(255,255,255,.55);color:#fff!important;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none!important">Book My Free Consultation</a>
+    </div>
+    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.95)!important">
+      <span>✓ Since 2013</span><span>✓ 1,000+ floors</span><span>✓ 1-yr workmanship warranty</span><span>✓ Licensed &amp; insured</span><span>✓ Financing available</span>
+    </div>
+    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04!important;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
+  </div>
+</div></div>
+
+<p><strong>Related reading:</strong> <a href="/blog/tile-underlayment-explained">Tile underlayment explained</a> · <a href="/blog/tile-installation-cost-per-square-foot">Tile cost per square foot</a> · <a href="/blog/porcelain-vs-ceramic-tile">Porcelain vs ceramic tile</a> · <a href="/blog/tile-shower-waterproofing">Shower waterproofing</a> · <a href="/city-of-shoreline/tile-installation-in-shoreline-wa">Tile installation in Shoreline</a> · <a href="/contact">Book a free estimate</a></p>
+
+<div data-rt-embed-type='true'><script>
+(function(){try{
+var els=document.querySelectorAll('.ocb-card,.ocb-fact,.ocb-tri,.faq-item');
+if(!('IntersectionObserver' in window)||!els.length)return;
+document.documentElement.classList.add('ocb-anim-ready');
+els.forEach(function(e,i){e.classList.add('ocb-rv');e.style.transitionDelay=Math.min((i%6)*70,350)+'ms'});
+var io=new IntersectionObserver(function(en){en.forEach(function(x){if(x.isIntersecting){x.target.classList.add('ocb-in');io.unobserve(x.target)}})},{threshold:.12,rootMargin:'0px 0px -8% 0px'});
+els.forEach(function(e){io.observe(e)});
+}catch(e){}})();
+</script></div>

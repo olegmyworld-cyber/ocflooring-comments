@@ -1,0 +1,199 @@
+<div data-rt-embed-type='true'><style>
+.ocb{--ink:#0f172a;--muted:#64748b;--line:#e5e7eb;--soft:#f8fafc;--brand:#8B0000;--brand2:#5c0000;--gold:#fbbc04;font-family:'Mulish',Inter,system-ui,sans-serif;color:var(--ink)}
+.ocb *{box-sizing:border-box}
+.ocb-card{border:1px solid var(--line);border-radius:18px;background:#fff;box-shadow:0 10px 30px rgba(2,6,23,.06);padding:22px;margin:26px 0}
+.ocb-eyebrow{display:inline-block;background:rgba(139,0,0,.08);color:var(--brand2);border:1px solid rgba(139,0,0,.2);border-radius:999px;padding:5px 12px;font-size:12.5px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;margin-bottom:10px}
+.ocb-chips{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0 0}
+.ocb-chip{background:var(--soft);border:1px solid var(--line);border-radius:999px;padding:6px 12px;font-size:13.6px;font-weight:700}
+.ocb-table{width:100%;border-collapse:collapse;font-size:15.2px}
+.ocb-table th,.ocb-table td{padding:11px 10px;text-align:left;border-bottom:1px solid var(--line)}
+.ocb-table th{background:var(--soft);font-weight:800;font-size:13.6px;letter-spacing:.02em}
+.ocb-table tr:last-child td{border-bottom:0}
+.ocb-table td strong{color:var(--brand2)}
+.ocb-2col{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media(max-width:680px){.ocb-2col{grid-template-columns:1fr}}
+.ocb-check{list-style:none;padding:0;margin:10px 0 0}
+.ocb-check li{padding-left:26px;position:relative;margin:7px 0;line-height:1.55}
+.ocb-check li:before{content:"✓";position:absolute;left:0;color:var(--brand);font-weight:900}
+.ocb-x li:before{content:"✕";color:#94a3b8}
+html body .post-body .ocb-facts, .ocb-facts{display:grid!important;grid-template-columns:repeat(3,1fr)!important;gap:12px!important;margin:8px 0!important}
+@media(max-width:680px){html body .post-body .ocb-facts, .ocb-facts{grid-template-columns:1fr!important}}
+.ocb-fact{background:linear-gradient(180deg,#fff,#f8fafc);border:1px solid var(--line);border-radius:16px;padding:16px}
+.ocb-fact .n{font-size:24px;font-weight:900;color:var(--brand2);display:block;margin-bottom:4px}
+html body .post-body .ocb-fact p, .ocb-fact p{margin:0!important;font-size:14.7px!important;color:#334155!important;line-height:1.5!important}
+
+.ocb-card,.ocb-fact,.ocb-tri{transition:transform .28s ease,box-shadow .28s ease}
+.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:translateY(-4px);box-shadow:0 16px 40px rgba(2,6,23,.12)}
+.faq-item{transition:border-color .25s,box-shadow .25s}
+.faq-item:hover{border-color:rgba(139,0,0,.35);box-shadow:0 6px 18px rgba(2,6,23,.07)}
+.ocb-chip{display:inline-flex;align-items:center;gap:6px;transition:transform .2s,border-color .2s}
+.ocb-chip:hover{transform:translateY(-2px);border-color:rgba(139,0,0,.35)}
+.ocb-chip svg{color:#8B0000}
+.ocb-cta a{transition:transform .22s,box-shadow .22s}
+.ocb-cta a:hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(0,0,0,.25)}
+.ocb-fact .n{position:relative}
+html.ocb-anim-ready .ocb-rv{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
+html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){html.ocb-anim-ready .ocb-rv{opacity:1!important;transform:none!important;transition:none!important}.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:none}}
+
+/* Chip icons. Webflow's rich-text sanitizer strips inline <svg> whenever a post is
+   re-saved in the Editor, so the icons are drawn from CSS on a <span> instead. */
+.ocb-ic{display:inline-block;width:15px;height:15px;flex:0 0 auto;vertical-align:-2px;background-repeat:no-repeat;background-position:center;background-size:contain}
+.ocb-ic-pin{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z'/><circle cx='12' cy='10' r='3'/></svg>")}
+.ocb-ic-home{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z'/><polyline points='9 22 9 12 15 12 15 22'/></svg>")}
+.ocb-ic-phone{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z'/></svg>")}
+.ocb-cta .ocb-ic{filter:brightness(0) saturate(100%) invert(9%) sepia(64%) saturate(4000%) hue-rotate(348deg)}
+</style></div>
+
+<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">November 26, 2026</span></div></div>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
+  <span class="ocb-eyebrow">Quick answer</span>
+  <p style="margin:0;font-size:17.9px;line-height:1.65"><strong>Yes &mdash; moving normal household furniture is part of a professional carpet installation, and with us it is in the quote, not an upsell.</strong> Beds, sofas, dressers, tables, desks &mdash; we move them, install the carpet, and put them back where they came from. The exceptions are the heavy specials: pianos, gun safes, full waterbeds, large aquariums and pool tables are not furniture, they are freight, and they need their own plan before install day. Here is exactly where the line sits and how to prep so your installation finishes in one day instead of two.</p>
+  <div class="ocb-chips">
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-pin"></span> King &amp; Snohomish County</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-home"></span> Edmonds homes &amp; condos</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-phone"></span> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
+  </div>
+</div></div>
+
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-facts">
+  <div class="ocb-fact"><span class="n">Included</span><p>moving normal household furniture is part of our carpet quote &mdash; and so is putting it all back at the end of the day. If another quote is vague about this, ask before you sign, not on install morning.</p></div>
+  <div class="ocb-fact"><span class="n">The freight list</span><p>pianos, gun safes, full waterbeds, large aquariums, slate pool tables. Installers everywhere draw the same line, for the same insurance and physics reasons. Each one has a workable plan &mdash; if it is made in advance.</p></div>
+  <div class="ocb-fact"><span class="n">One day</span><p>how long most homes take to install once the carpet arrives. Honest prep the night before is a quiet part of why. We measure every room and stair and leave a written price the same visit.</p></div>
+</div></div></div>
+
+<h2>What "We Move the Furniture" Actually Covers</h2>
+
+<p>Normal household furniture means the things a two-person crew can move safely without special equipment: bed frames and mattresses, sofas and recliners, dressers and nightstands, dining tables and chairs, desks, bookshelves once the books are off them, TV stands once the TV is off them. On install day the crew works room by room in a leapfrog &mdash; furniture from the first bedroom shifts into the hallway or the next room, the carpet goes in, and everything walks back before the crew moves on. Your sofa never sees the driveway, and nothing leaves the house.</p>
+
+<p>There is a reason this is standard rather than a favor. Carpet has to be fitted to an empty floor &mdash; tack strip runs along every wall, seams are planned across the whole room, and power-stretching needs a clear run from wall to wall. An installer who says they will "work around" your furniture is telling you the carpet will be kicked in tight where it is convenient and left loose where it is not, and loose carpet is exactly what ripples in year three. Furniture moving is not a courtesy attached to the job; it is a condition of doing the job right. It is also already priced in &mdash; our guide to <a href="/blog/carpet-installation-cost-seattle">what carpet installation costs</a> walks through the whole quote line by line.</p>
+
+<h2>The Heavy Exceptions: Pianos, Safes, Waterbeds</h2>
+
+<p>Every legitimate installer draws the same line, and it is worth understanding why rather than just where. A piano is not heavy the way a sofa is heavy &mdash; it is heavy in a way that ruins backs, staircases and the piano itself when it is moved by people without piano equipment. A gun safe concentrates several hundred pounds on four small feet and cannot be walked or tipped safely by a flooring crew. A waterbed holds an astonishing amount of water that must be drained before the frame can move at all. An aquarium is a glass box full of living things. A slate pool table has to be taken apart and re-leveled by someone who does that for a living, or it will never play true again.</p>
+
+<p>None of this means those rooms cannot be carpeted. It means the plan gets made at the estimate, not discovered on install day. Usually that is one of three routes: a specialty mover handles the item the day before, we carpet around the item and leave a clean seam for later, or the room gets split into phases. All three work. The only version that fails is the one where the crew arrives and finds a full waterbed nobody mentioned &mdash; that is how a one-day job becomes a rescheduled one.</p>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-card">
+  <h3 style="margin:0 0 10px;font-size:18.5px;font-weight:900;color:#5c0000">Who Moves What on Install Day</h3>
+  <div style="overflow-x:auto"><table class="ocb-table">
+    <tr><th>Item</th><th>Who handles it</th><th>The practical note</th></tr>
+    <tr><td><strong>Beds &amp; mattresses</strong></td><td>Our crew</td><td>Strip the bedding the night before; it keeps things clean and saves twenty minutes a room</td></tr>
+    <tr><td><strong>Sofas, recliners, tables</strong></td><td>Our crew</td><td>Clear anything on or under them &mdash; remotes, baskets, the drawer of mystery cables</td></tr>
+    <tr><td><strong>Dressers &amp; nightstands</strong></td><td>Our crew</td><td>Empty or lighten the drawers; a full dresser is a furniture-and-floor injury waiting to happen</td></tr>
+    <tr><td><strong>TVs &amp; electronics</strong></td><td>You</td><td>Unhook and label cables the night before &mdash; crews move furniture, not home-theater wiring</td></tr>
+    <tr><td><strong>Lamps, breakables, plants</strong></td><td>You</td><td>Anything that shatters travels by owner. Gather it all in a no-carpet zone like the kitchen</td></tr>
+    <tr><td><strong>Piano</strong></td><td>Specialty movers</td><td>Book them for the day before; plan on retuning after the move either way</td></tr>
+    <tr><td><strong>Gun safe</strong></td><td>Specialty movers, or we carpet around it</td><td>Carpeting around it is common and looks fine &mdash; decide at the estimate, not install day</td></tr>
+    <tr><td><strong>Waterbed</strong></td><td>You &mdash; drained in advance</td><td>Drain it the day before. A waterbed drains slowly, and install day cannot wait for it</td></tr>
+    <tr><td><strong>Aquarium</strong></td><td>You, or an aquarium service</td><td>Fish, water, then tank, in that order, well before the crew arrives</td></tr>
+  </table></div>
+</div></div>
+
+<h2>The Night-Before Checklist</h2>
+
+<p>The prep that actually matters takes one evening, and none of it involves lifting anything heavy. Clear every surface &mdash; dresser tops, nightstands, desks, windowsills low enough to catch an elbow. Empty closet floors in any room being carpeted, because closets are part of the measure and the crew needs to reach every inch of them; our post on <a href="/blog/how-to-measure-for-carpet">how carpet is measured</a> explains why closets count more than people think. Unhook electronics and take photos of the cable spaghetti before you pull it. Find the pets somewhere calm to be &mdash; an open front door, a power stretcher and a curious cat are a bad combination. And leave the driveway clear, because the carpet arrives on a roll that is longer than your car.</p>
+
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-2col">
+  <div class="ocb-card" style="margin:0">
+    <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#5c0000">What our crew handles</h3>
+    <ul class="ocb-check">
+      <li>Moving normal household furniture out and back, room by room</li>
+      <li>Tear-out of the old carpet, pad, staples and tack strip</li>
+      <li>Haul-away and disposal of everything that comes out</li>
+      <li>New tack strip, seaming and power-stretching to the walls</li>
+      <li>Vacuuming the new carpet before the furniture goes back</li>
+      <li>Doors that drag on the new pile &mdash; we will tell you which ones need a trim</li>
+    </ul>
+  </div>
+  <div class="ocb-card" style="margin:0">
+    <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#334155">What is best handled by you</h3>
+    <ul class="ocb-check ocb-x">
+      <li>Bedding, surface clutter and everything inside the dressers</li>
+      <li>TVs, computers, consoles and their cabling</li>
+      <li>Breakables, lamps, mirrors and houseplants</li>
+      <li>Draining a waterbed and relocating an aquarium in advance</li>
+      <li>Booking piano or safe movers for the day before</li>
+      <li>A plan for pets and small children while doors stand open</li>
+    </ul>
+  </div>
+</div></div></div>
+
+<h2>How Install Day Actually Runs</h2>
+
+<p>The crew arrives, walks the house against the measure, and starts in the room farthest from the door. Furniture shifts to the adjacent room, the old carpet comes up &mdash; pad, staples and tack strip with it &mdash; and goes straight out to the trailer. If you are curious what that tear-out involves or costs on its own, we cover it in <a href="/blog/carpet-removal-cost">carpet removal cost</a> and <a href="/blog/how-to-remove-old-carpet">how to remove old carpet</a>. New tack strip goes down, pad goes down, carpet is cut, seamed and power-stretched, and the furniture walks back in. Then the whole dance repeats in the next room. Most homes finish in a day; a big house with a lot of stairs can run into a second, and we will tell you which yours is at the estimate rather than at five in the evening.</p>
+
+<h2>Stretching Jobs Are a Different Conversation</h2>
+
+<p>If your carpet is staying and only needs to be re-stretched &mdash; ripples, waves, the wrinkle by the hallway door &mdash; the furniture question gets easier. A restretch usually needs the room mostly clear along the walls being pulled, but not empty; large pieces can often shift within the room rather than out of it. We wrote up the details in <a href="/blog/do-you-have-to-move-furniture-to-stretch-carpet">do you have to move furniture to stretch carpet</a>, and if you are weighing whether a restretch is even worth doing versus replacing, <a href="/blog/is-it-worth-it-to-restretch-your-carpet">that comparison is here</a> along with <a href="/blog/carpet-stretching-cost">what stretching costs</a>. Short version: if the carpet itself is healthy, restretching is the cheap right answer, and it disrupts your furniture for hours, not days.</p>
+
+<h2>Moving Furniture in Edmonds Homes, Specifically</h2>
+
+<p>Edmonds keeps our crews honest. The older homes down in the Bowl have the narrow hallways and tight stair turns of their era &mdash; a queen box spring and a 1940s stairwell are natural enemies, and we plan the furniture shuffle around it. The split-levels up the hill add half-flights in both directions, which changes the leapfrog order but not the outcome. And the waterfront condos bring elevator reservations and building work-hours into the plan, which we sort out with the building before install day, not during it. All of it is routine for us &mdash; the details are on our <a href="/city-of-edmonds/carpet-installation-in-edmonds-wa">Edmonds carpet installation page</a>, and the estimate itself happens at your kitchen table: twenty-plus full-size samples, all three pad grades, a measure of every room and stair, and a written price the same visit.</p>
+
+<div data-rt-embed-type='true'><!-- FAQ accordion + JSON-LD -->
+<div class="faq-wrap ocb" aria-labelledby="faq-title">
+  <h2 id="faq-title" class="faq-title">Furniture and Carpet Installation: What Homeowners Ask Us</h2>
+  <div class="faq-items" role="list">
+    <details class="faq-item" role="listitem"><summary class="faq-q">Do carpet installers move your furniture?</summary><div class="faq-a">Yes. Moving normal household furniture — beds, sofas, dressers, tables, desks — is part of a professional carpet installation, and with us it is included in the written quote. The crew works room by room, shifting furniture into the next room, installing, and moving everything back. The exceptions are pianos, gun safes, full waterbeds, large aquariums and pool tables, which need their own arrangements.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Is furniture moving included in the price or an extra charge?</summary><div class="faq-a">With us it is included, and any quote should say so in writing. Some companies price it as a line item or exclude it entirely, which is a legitimate way to quote — but you want to know which kind of quote you are holding before you compare numbers. If a bid is suspiciously low, furniture moving and haul-away are the two lines most often missing.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Do I need to empty dressers before carpet installation?</summary><div class="faq-a">Empty them or lighten them substantially. A full dresser flexes when it is lifted, drawers slide out mid-carry, and the weight is hard on both the crew and the new carpet being walked across. Clothes can stay in a dresser that is light; the sixty pounds of everything else should come out the night before.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">What happens with my piano when carpet is installed?</summary><div class="faq-a">Book a piano mover for the day before, or have us plan the room around it. Flooring crews do not move pianos — not because they are lazy but because pianos are moved with skids, boards and training, and an installer who says yes to a piano is telling you something worrying about their judgment. Plan on a tuning afterward; pianos notice being moved.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Can you install carpet around a gun safe or other immovable item?</summary><div class="faq-a">Yes, and it is common. We cut and finish the carpet cleanly around the safe, and if the safe ever moves, the spot can be patched with an offcut — keep a piece from the install for exactly that day. The alternative is a safe-moving company the day before. Both work; deciding at the estimate is what matters.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Do installers disconnect TVs, computers and other electronics?</summary><div class="faq-a">No — electronics and their cabling are yours. Unhook everything the night before, label the cables or photograph the connections, and set the equipment somewhere no carpet is being installed. The crew will happily move the empty TV stand; they will not troubleshoot your soundbar at four in the afternoon.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">How long does carpet installation take with furniture in the house?</summary><div class="faq-a">Most homes are still a single day. The furniture shuffle is built into how crews work — room by room, leapfrogging furniture ahead of the carpet. What stretches a job into a second day is not furniture, it is surprises: a full waterbed nobody drained, a room that was supposed to be cleared and was not, or a large house with many stairs. Honest prep keeps a one-day job a one-day job.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">What should I do with pets during installation?</summary><div class="faq-a">Somewhere calm, closed and away from the work — a bathroom that is not being carpeted, a crate, or a neighbor. Doors stand open all day, the crew is in and out constantly, and power stretchers and startled animals do not mix. Tell us at the estimate what animals live in the house and we will plan the door situation with you.</div></details>
+  </div>
+</div>
+
+<style>
+  .faq-wrap{--line:#e5e7eb;margin:28px auto;padding:20px;border:1px solid var(--line);border-radius:16px;background:#fff;box-shadow:0 8px 30px rgba(2,6,23,.06)}
+  .faq-title{margin:0 0 14px;font-size:24px;font-weight:900;text-align:center;color:#5c0000}
+  .faq-items{display:grid;gap:10px}
+  .faq-item{border:1px solid var(--line);border-radius:14px;background:#f9fafb;overflow:hidden}
+  .faq-q{cursor:pointer;display:block;padding:14px 16px;font-weight:800;color:#0f172a}
+  .faq-q::-webkit-details-marker{display:none}
+  .faq-item[open] .faq-q{background:linear-gradient(180deg, rgba(139,0,0,.08), rgba(139,0,0,.02))}
+  .faq-a{padding:0 16px 14px;color:#1f2937;line-height:1.6}
+</style>
+
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Do carpet installers move your furniture?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Moving normal household furniture — beds, sofas, dressers, tables, desks — is part of a professional carpet installation, and with us it is included in the written quote. The crew works room by room, shifting furniture into the next room, installing, and moving everything back. The exceptions are pianos, gun safes, full waterbeds, large aquariums and pool tables, which need their own arrangements."}}, {"@type": "Question", "name": "Is furniture moving included in the price or an extra charge?", "acceptedAnswer": {"@type": "Answer", "text": "With us it is included, and any quote should say so in writing. Some companies price it as a line item or exclude it entirely, which is a legitimate way to quote — but you want to know which kind of quote you are holding before you compare numbers. If a bid is suspiciously low, furniture moving and haul-away are the two lines most often missing."}}, {"@type": "Question", "name": "Do I need to empty dressers before carpet installation?", "acceptedAnswer": {"@type": "Answer", "text": "Empty them or lighten them substantially. A full dresser flexes when it is lifted, drawers slide out mid-carry, and the weight is hard on both the crew and the new carpet being walked across. Clothes can stay in a dresser that is light; the sixty pounds of everything else should come out the night before."}}, {"@type": "Question", "name": "What happens with my piano when carpet is installed?", "acceptedAnswer": {"@type": "Answer", "text": "Book a piano mover for the day before, or have us plan the room around it. Flooring crews do not move pianos — not because they are lazy but because pianos are moved with skids, boards and training, and an installer who says yes to a piano is telling you something worrying about their judgment. Plan on a tuning afterward; pianos notice being moved."}}, {"@type": "Question", "name": "Can you install carpet around a gun safe or other immovable item?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, and it is common. We cut and finish the carpet cleanly around the safe, and if the safe ever moves, the spot can be patched with an offcut — keep a piece from the install for exactly that day. The alternative is a safe-moving company the day before. Both work; deciding at the estimate is what matters."}}, {"@type": "Question", "name": "Do installers disconnect TVs, computers and other electronics?", "acceptedAnswer": {"@type": "Answer", "text": "No — electronics and their cabling are yours. Unhook everything the night before, label the cables or photograph the connections, and set the equipment somewhere no carpet is being installed. The crew will happily move the empty TV stand; they will not troubleshoot your soundbar at four in the afternoon."}}, {"@type": "Question", "name": "How long does carpet installation take with furniture in the house?", "acceptedAnswer": {"@type": "Answer", "text": "Most homes are still a single day. The furniture shuffle is built into how crews work — room by room, leapfrogging furniture ahead of the carpet. What stretches a job into a second day is not furniture, it is surprises: a full waterbed nobody drained, a room that was supposed to be cleared and was not, or a large house with many stairs. Honest prep keeps a one-day job a one-day job."}}, {"@type": "Question", "name": "What should I do with pets during installation?", "acceptedAnswer": {"@type": "Answer", "text": "Somewhere calm, closed and away from the work — a bathroom that is not being carpeted, a crate, or a neighbor. Doors stand open all day, the crew is in and out constantly, and power stretchers and startled animals do not mix. Tell us at the estimate what animals live in the house and we will plan the door situation with you."}}]}
+</script></div>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-cta" style="margin:30px 0">
+  <style>
+    html body .post-body .ocb-cta h2, .ocb-cta h2{color:#fff!important}
+    html body .post-body .ocb-cta .ocb-cta-sub, .ocb-cta .ocb-cta-sub{color:rgba(255,255,255,.88)!important}
+    html body .post-body .ocb-cta .ocb-cta-chips span, .ocb-cta .ocb-cta-chips span{color:rgba(255,255,255,.94)!important}
+    html body .post-body .ocb-cta a.ocb-cta-ghost, .ocb-cta a.ocb-cta-ghost{color:#fff!important;text-decoration:none!important}
+    html body .post-body .ocb-cta a.ocb-cta-gold, .ocb-cta a.ocb-cta-gold{color:#fbbc04!important}
+    html body .post-body .ocb-cta a.ocb-cta-phone, .ocb-cta a.ocb-cta-phone{color:#5c0000!important;text-decoration:none!important}
+  </style>
+  <div style="background:linear-gradient(135deg,#8B0000,#5c0000);border-radius:20px;padding:28px 24px;color:#fff;text-align:center;box-shadow:0 14px 34px rgba(92,0,0,.3)">
+    <h2 style="margin:0 0 6px;color:#fff!important;font-size:24px;font-weight:900">Get the Measure, the Samples and a Written Price in One Visit</h2>
+    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.92)!important;font-size:16.3px">We bring twenty-plus full-size carpet samples and all three pad grades to your Edmonds home, measure every room, closet and stair, and leave a written price the same visit &mdash; furniture moving and haul-away included, in writing. Free in-home estimates across King &amp; Snohomish County.</p>
+    <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
+      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff!important;color:#5c0000!important;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none!important"><span class="ocb-ic ocb-ic-phone"></span> (425) 595-1079</a>
+      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.16)!important;border:1px solid rgba(255,255,255,.55);color:#fff!important;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none!important">Book My Free Consultation</a>
+    </div>
+    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.95)!important">
+      <span>✓ Since 2013</span><span>✓ 1,000+ floors</span><span>✓ 1-yr workmanship warranty</span><span>✓ Licensed &amp; insured</span><span>✓ Financing available</span>
+    </div>
+    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04!important;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
+  </div>
+</div></div>
+
+<p><strong>Related reading:</strong> <a href="/blog/do-you-have-to-move-furniture-to-stretch-carpet">Moving furniture for a carpet restretch</a> · <a href="/blog/carpet-installation-cost-seattle">What carpet installation costs</a> · <a href="/blog/carpet-removal-cost">What carpet removal costs</a> · <a href="/blog/how-to-measure-for-carpet">How carpet is measured</a> · <a href="/city-of-edmonds/carpet-installation-in-edmonds-wa">Carpet installation in Edmonds</a> · <a href="/contact">Book a free estimate</a></p>
+
+<div data-rt-embed-type='true'><script>
+(function(){try{
+var els=document.querySelectorAll('.ocb-card,.ocb-fact,.ocb-tri,.faq-item');
+if(!('IntersectionObserver' in window)||!els.length)return;
+document.documentElement.classList.add('ocb-anim-ready');
+els.forEach(function(e,i){e.classList.add('ocb-rv');e.style.transitionDelay=Math.min((i%6)*70,350)+'ms'});
+var io=new IntersectionObserver(function(en){en.forEach(function(x){if(x.isIntersecting){x.target.classList.add('ocb-in');io.unobserve(x.target)}})},{threshold:.12,rootMargin:'0px 0px -8% 0px'});
+els.forEach(function(e){io.observe(e)});
+}catch(e){}})();
+</script></div>

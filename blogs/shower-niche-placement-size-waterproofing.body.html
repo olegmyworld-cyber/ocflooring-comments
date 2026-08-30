@@ -1,0 +1,206 @@
+<div data-rt-embed-type='true'><style>
+.ocb{--ink:#0f172a;--muted:#64748b;--line:#e5e7eb;--soft:#f8fafc;--brand:#8B0000;--brand2:#5c0000;--gold:#fbbc04;font-family:'Mulish',Inter,system-ui,sans-serif;color:var(--ink)}
+.ocb *{box-sizing:border-box}
+.ocb-card{border:1px solid var(--line);border-radius:18px;background:#fff;box-shadow:0 10px 30px rgba(2,6,23,.06);padding:22px;margin:26px 0}
+.ocb-eyebrow{display:inline-block;background:rgba(139,0,0,.08);color:var(--brand2);border:1px solid rgba(139,0,0,.2);border-radius:999px;padding:5px 12px;font-size:12.5px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;margin-bottom:10px}
+.ocb-chips{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0 0}
+.ocb-chip{background:var(--soft);border:1px solid var(--line);border-radius:999px;padding:6px 12px;font-size:13.6px;font-weight:700}
+.ocb-table{width:100%;border-collapse:collapse;font-size:15.2px}
+.ocb-table th,.ocb-table td{padding:11px 10px;text-align:left;border-bottom:1px solid var(--line)}
+.ocb-table th{background:var(--soft);font-weight:800;font-size:13.6px;letter-spacing:.02em}
+.ocb-table tr:last-child td{border-bottom:0}
+.ocb-table td strong{color:var(--brand2)}
+.ocb-2col{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media(max-width:680px){.ocb-2col{grid-template-columns:1fr}}
+.ocb-check{list-style:none;padding:0;margin:10px 0 0}
+.ocb-check li{padding-left:26px;position:relative;margin:7px 0;line-height:1.55}
+.ocb-check li:before{content:"✓";position:absolute;left:0;color:var(--brand);font-weight:900}
+.ocb-x li:before{content:"✕";color:#94a3b8}
+html body .post-body .ocb-facts, .ocb-facts{display:grid!important;grid-template-columns:repeat(3,1fr)!important;gap:12px!important;margin:8px 0!important}
+@media(max-width:680px){html body .post-body .ocb-facts, .ocb-facts{grid-template-columns:1fr!important}}
+.ocb-fact{background:linear-gradient(180deg,#fff,#f8fafc);border:1px solid var(--line);border-radius:16px;padding:16px}
+.ocb-fact .n{font-size:24px;font-weight:900;color:var(--brand2);display:block;margin-bottom:4px}
+html body .post-body .ocb-fact p, .ocb-fact p{margin:0!important;font-size:14.7px!important;color:#334155!important;line-height:1.5!important}
+
+.ocb-card,.ocb-fact,.ocb-tri{transition:transform .28s ease,box-shadow .28s ease}
+.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:translateY(-4px);box-shadow:0 16px 40px rgba(2,6,23,.12)}
+.faq-item{transition:border-color .25s,box-shadow .25s}
+.faq-item:hover{border-color:rgba(139,0,0,.35);box-shadow:0 6px 18px rgba(2,6,23,.07)}
+.ocb-chip{display:inline-flex;align-items:center;gap:6px;transition:transform .2s,border-color .2s}
+.ocb-chip:hover{transform:translateY(-2px);border-color:rgba(139,0,0,.35)}
+.ocb-chip svg{color:#8B0000}
+.ocb-cta a{transition:transform .22s,box-shadow .22s}
+.ocb-cta a:hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(0,0,0,.25)}
+.ocb-fact .n{position:relative}
+html.ocb-anim-ready .ocb-rv{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
+html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){html.ocb-anim-ready .ocb-rv{opacity:1!important;transform:none!important;transition:none!important}.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:none}}
+
+/* Chip icons. Webflow's rich-text sanitizer strips inline <svg> whenever a post is
+   re-saved in the Editor, so the icons are drawn from CSS on a <span> instead. */
+.ocb-ic{display:inline-block;width:15px;height:15px;flex:0 0 auto;vertical-align:-2px;background-repeat:no-repeat;background-position:center;background-size:contain}
+.ocb-ic-pin{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z'/><circle cx='12' cy='10' r='3'/></svg>")}
+.ocb-ic-home{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z'/><polyline points='9 22 9 12 15 12 15 22'/></svg>")}
+.ocb-ic-phone{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z'/></svg>")}
+.ocb-cta .ocb-ic{filter:brightness(0) saturate(100%) invert(9%) sepia(64%) saturate(4000%) hue-rotate(348deg)}
+</style></div>
+
+<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">September 22, 2026</span></div></div>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
+  <span class="ocb-eyebrow">Quick answer</span>
+  <p style="margin:0;font-size:17.9px;line-height:1.65"><strong>A shower niche done right is three decisions: put it where the person standing in the shower can actually reach it (shelf height roughly 48&ndash;60 inches for a standing niche), size it to the stud bay and the bottles it will really hold, and waterproof it like the small roofless room it is.</strong> The first two are taste and tape measure. The third is where DIY showers and cheap remodels start leaking &mdash; a niche punches six new corners and a shelf into the one wall assembly whose whole job was keeping water out.</p>
+  <div class="ocb-chips">
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-pin"></span> King &amp; Snohomish County</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-home"></span> Everett &amp; Snohomish County</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-phone"></span> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
+  </div>
+</div></div>
+
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-facts">
+  <div class="ocb-fact"><span class="n">48&ndash;60"</span><p>off the shower floor is where a standing niche&rsquo;s shelf lands for most adults &mdash; between wrist and shoulder, reachable without stooping or stretching, and out of the direct spray line when the layout allows.</p></div>
+  <div class="ocb-fact"><span class="n">24 hours</span><p>how long every shower pan we build sits full of water before tile goes on. The flood test is photographed and kept on record &mdash; and the niche walls get the same membrane standard as the pan below them.</p></div>
+  <div class="ocb-fact"><span class="n">2 years</span><p>our warranty on tile work, niches included. We can offer it because a niche we build is waterproofed as part of the shower&rsquo;s membrane system, not caulked into it as an afterthought.</p></div>
+</div></div></div>
+
+<h2>Why a Box in the Wall Is a Bigger Deal Than It Looks</h2>
+
+<p>A niche looks like the simplest feature in a shower &mdash; a rectangle, some tile, done. Mechanically it is the opposite. A shower wall is one continuous waterproof plane, and a niche cuts a hole in it, then asks the installer to waterproof six new surfaces, a dozen new corners, and one shelf that gravity will hold water on every single day. Corners and horizontal surfaces are exactly where membranes are hardest to get right, which is why the niche is the single most common place we find the leak when we open up a failed DIY or budget-remodel shower.</p>
+
+<p>None of this is a reason to skip the niche. Built into the membrane system properly, a niche is as durable as the rest of the shower and better than any alternative &mdash; wire baskets rust, corner shelves crowd the shower, and a teak stool is a puddle with legs. It is a reason to treat the niche as part of the waterproofing scope, priced and built by whoever is responsible for the whole assembly, rather than a decorative extra squeezed in after the important decisions are made.</p>
+
+<h2>Placement: Reach First, Spray Second, Studs Third</h2>
+
+<p><strong>Height.</strong> For a standing niche, put the shelf you use most between 48 and 60 inches off the shower floor &mdash; roughly between the wrist and shoulder of the people who shower there. Taller households push toward the top of that range. If the shower serves someone seated, or you are planning to age in place, a second niche or a lower shelf at 30&ndash;36 inches earns its keep every day. A tub-side niche for bathing kids sits lower still. The test is not a chart; it is standing in the space and reaching.</p>
+
+<p><strong>Which wall.</strong> The ideal spot is a wall the showerhead does not blast directly &mdash; usually the same wall as the plumbing or the wall opposite the spray, where bottles are not standing in the firehose line all day. We also try to keep the niche out of the sightline from the bathroom door when the layout allows; a niche full of shampoo bottles is functional, not decorative. And in a Pacific Northwest house we avoid exterior walls when there is any alternative: a niche in an exterior wall displaces insulation, and the recess becomes a cold spot that grows condensation on the coldest mornings of the year. When the exterior wall is the only candidate, the bay gets rebuilt with rigid insulation behind the niche &mdash; not just emptied out.</p>
+
+<p><strong>Studs.</strong> Standard framing runs 16 inches on center, which leaves about 14&frac12; inches of clear width in a bay &mdash; exactly why the classic prefab niche is 12 inches wide. Wider niches mean reframing: a header above, a sill below, sometimes a king stud. Entirely doable, priced as carpentry, and worth it for a double-wide niche in a primary shower &mdash; but it is framing work, and anyone who quotes a 24-inch-wide niche without mentioning framing has not thought about the wall they are cutting into. Plumbing and vents also live in walls; the niche goes where the wall is empty, which is a thing we verify, not assume.</p>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-card">
+  <h3 style="margin:0 0 10px;font-size:18.5px;font-weight:900;color:#5c0000">Common Niche Sizes and Where Each Belongs</h3>
+  <div style="overflow-x:auto"><table class="ocb-table">
+    <tr><th>Size &amp; orientation</th><th>Fits</th><th>Best use</th></tr>
+    <tr><td><strong>12&times;12</strong></td><td>One stud bay, no reframing</td><td>Compact showers; a soap-and-two-bottles household</td></tr>
+    <tr><td><strong>12&times;24 vertical</strong></td><td>One stud bay, no reframing</td><td>The workhorse &mdash; tall bottles on two shelves without touching framing</td></tr>
+    <tr><td><strong>24&times;12 horizontal</strong></td><td>Two bays &mdash; needs a header</td><td>Wide modern look; pairs well with large-format tile</td></tr>
+    <tr><td><strong>Full-width band niche</strong></td><td>Reframing across the wall</td><td>Statement feature in a primary shower; real carpentry plus real waterproofing</td></tr>
+    <tr><td><strong>Low tub-side niche</strong></td><td>One bay, set at 30&ndash;36"</td><td>Bathing kids, seated users, aging-in-place plans</td></tr>
+    <tr><td><strong>Foot-prop niche</strong></td><td>One bay, set at 12&ndash;18"</td><td>Shaving ledge &mdash; small, low, and out of the spray</td></tr>
+  </table></div>
+</div></div>
+
+<h2>Prefab Foam Niche vs Site-Built: The Honest Comparison</h2>
+
+<p><strong>Prefab foam niches</strong> &mdash; the Schluter, Wedi and similar waterproof foam units &mdash; are what we use most. The box arrives already waterproof; the craft is in tying its flange into the wall membrane so the box and the wall become one continuous system. They come in the standard sizes above, they are consistent, and they take framing surprises out of the schedule. The limit is the catalog: if your design calls for a size or shape the manufacturers do not make, you are building it.</p>
+
+<p><strong>Site-built niches</strong> &mdash; framed in wood, skinned in backer board, then waterproofed with a bonded sheet or liquid membrane &mdash; can be any size, any shape, with any shelf arrangement. They are also entirely dependent on the installer&rsquo;s membrane work in the hardest geometry a shower offers: inside corners, outside corners, and a horizontal shelf, all of it hand-detailed. Done well, indistinguishable in lifespan from prefab. Done by whoever caused the average DIY leak, it is the first thing to fail. Ask which approach your bid assumes &mdash; it tells you whether the niche was priced as waterproofing or as decoration.</p>
+
+<p>Two details separate a niche that lasts from one that does not, regardless of method. <strong>The shelf must slope</strong> &mdash; a few degrees toward the shower, so water drains off instead of ponding against the back wall. Dead-level shelves look right on day one and grow black grout lines by year two. And <strong>the finished edges matter</strong>: mitered tile or a metal profile at the niche&rsquo;s outside corners protects the most exposed edges in the whole shower. Bullnose that does not exist in your tile line is how niches end up with raw cut edges that read cheap forever.</p>
+
+<h2>Waterproofing: Where DIY Showers Actually Fail</h2>
+
+<p>Here is the uncomfortable truth behind the how-to videos: the niche is usually the hardest waterproofing in the shower, and it is handed to the least experienced person on the job. Cement board is not waterproof. Grout is not waterproof. A niche built from bare backer board and tiled over will pass water into the wall cavity from its first week in service &mdash; slowly, invisibly, into insulation and framing, until the drywall on the other side stains or the trim swells. By then the fix is demolition.</p>
+
+<p>What right looks like: the niche&rsquo;s six surfaces and every corner are covered by the same membrane system as the rest of the shower &mdash; bonded sheet with preformed corners and sealed seams, or a liquid membrane built up to the manufacturer&rsquo;s measured thickness, flood-tested as part of the whole assembly. On our showers that means the niche is membraned when the pan is membraned, checked when the pan is checked, and standing behind the same photographed 24-hour flood test and 2-year warranty. The niche is not an accessory to the waterproofing; it is the stress test of it. The same principle decides bigger questions too &mdash; it is why we will not <a href="/blog/can-you-tile-over-existing-tile">tile over existing tile in a wet area</a>, where the membrane underneath can never be inspected.</p>
+
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-2col">
+  <div class="ocb-card" style="margin:0">
+    <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#5c0000">A niche built to last</h3>
+    <ul class="ocb-check">
+      <li>Placed for reach: main shelf 48&ndash;60" for standing users</li>
+      <li>Kept off exterior walls, or insulated behind when unavoidable</li>
+      <li>Sized to the stud bay &mdash; or honestly reframed when wider</li>
+      <li>Membrane continuous through all six surfaces and every corner</li>
+      <li>Shelf sloped toward the shower so water leaves on its own</li>
+      <li>Edges finished with miters or metal profile, sealed changes of plane</li>
+    </ul>
+  </div>
+  <div class="ocb-card" style="margin:0">
+    <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#334155">The version that leaks by year three</h3>
+    <ul class="ocb-check ocb-x">
+      <li>Bare cement board tiled over &mdash; "the grout will seal it"</li>
+      <li>Dead-level shelf holding a permanent puddle at the back corner</li>
+      <li>Niche cut into an exterior wall with the insulation tossed</li>
+      <li>Membrane on the wall stopping at the niche opening</li>
+      <li>Caulked seams standing in for membrane corners</li>
+      <li>No flood test, because the niche "is above the pan anyway"</li>
+    </ul>
+  </div>
+</div></div></div>
+
+<h2>What a Niche Adds to the Job &mdash; and What It Is Worth</h2>
+
+<p>In an Everett bathroom remodel, a standard single-bay niche adds a modest line to the tile scope &mdash; the prefab unit or the framing, the membrane detailing, the extra cuts and edge finishing. It does not move the project&rsquo;s total the way people fear, because it rides along with waterproofing work that is already happening; tile work overall runs $14&ndash;$26 per square foot installed with labor from $11, and a shower sits at the top of that range with or without the niche. Where the price moves is custom work: double-wide or full-width niches carry real framing and real membrane time, and they are worth pricing deliberately rather than assuming. The honest comparison of where every dollar goes in a bathroom is in our <a href="/blog/bathroom-tile-installation-cost-seattle">bathroom tile cost guide</a> and the <a href="/blog/tile-installation-cost-per-square-foot">per-square-foot breakdown</a>.</p>
+
+<p>Worth it? In our experience, yes, almost always &mdash; it is the feature people use twenty times a week and the one renters and buyers read as &ldquo;real remodel&rdquo; rather than refresh. The only households we talk out of a niche are the ones about to spend custom-niche money in a shower that actually needs the budget spent behind the walls &mdash; on the pan, the membrane, or fixing what the last remodel hid. Bottles can live on a shelf; a shower cannot live without waterproofing.</p>
+
+<h2>Getting It Built Right in Everett</h2>
+
+<p>Everett&rsquo;s housing stock spans 1920s millworker houses to brand-new townhomes, and the niche conversation changes with the walls. Older houses bring balloon framing surprises, plumbing where you hoped it was not, and the occasional exterior-wall-only shower where the insulated rebuild matters; newer construction usually hands us clean 16-inch bays and a straightforward install. Either way the sequence is the same: we open the wall knowing what we are looking for, place the niche where your hands and your framing agree, and membrane it as one system with the rest of the shower &mdash; then flood test, photograph, and tile. If your shower is wrapped in a moisture-prone room or you are weighing tile against other floors for the rest of the bath, our <a href="/blog/what-is-the-best-waterproof-floor-in-everett-wa">Everett waterproof flooring guide</a> covers that ground. The full tile scope &mdash; showers, floors, backsplashes, heated floors &mdash; is on our <a href="/city-of-everett/tile-installation-in-everett-wa">Everett tile installation page</a>.</p>
+
+<div data-rt-embed-type='true'><!-- FAQ accordion + JSON-LD -->
+<div class="faq-wrap ocb" aria-labelledby="faq-title">
+  <h2 id="faq-title" class="faq-title">Shower Niches: What Homeowners Ask Us</h2>
+  <div class="faq-items" role="list">
+    <details class="faq-item" role="listitem"><summary class="faq-q">What height should a shower niche be?</summary><div class="faq-a">For a standing shower, put the main shelf between 48 and 60 inches off the shower floor — roughly wrist-to-shoulder height for the people using it, so bottles are reachable without stooping. A tub-side or seated-user niche belongs lower, around 30 to 36 inches, and a small foot-prop niche for shaving sits at 12 to 18 inches. Stand in the space and reach before anyone cuts a hole.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">What is the standard shower niche size?</summary><div class="faq-a">The workhorse sizes are 12×12 and 12×24 inches, because standard framing leaves about 14½ inches of clear space between studs — a 12-inch-wide niche drops into one bay without touching structure. Wider niches, like a 24-inch horizontal or a full-width band, are absolutely buildable but require reframing with a header, which should show up in the quote as carpentry.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Are prefab foam shower niches good?</summary><div class="faq-a">Yes — they are what we use most. Units from Schluter, Wedi and similar systems arrive already waterproof, and the craft is in tying their flanges into the wall membrane so the box and wall become one continuous system. Site-built niches make sense when you want a size or shape the catalogs do not offer; they just depend entirely on hand-detailed membrane work in the trickiest corners of the shower.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Why do shower niches leak?</summary><div class="faq-a">Because a niche adds six surfaces, a shelf, and a dozen corners to a wall whose job was staying continuous — and because DIY builds often tile over bare cement board on the theory that grout keeps water out. It does not; grout is porous. Water migrates into the wall cavity slowly and invisibly until something stains or swells. The fix at that point is demolition, which is why the membrane has to be continuous through the niche from day one.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Should the niche go on an exterior wall?</summary><div class="faq-a">Avoid it when you can. Recessing a niche into an exterior wall displaces insulation, creating a cold spot that condenses moisture in a Pacific Northwest winter. When the exterior wall is the only sensible location, the bay should be rebuilt with rigid insulation behind the niche rather than simply emptied — a detail worth asking your contractor about directly.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Does a shower niche need to be sloped?</summary><div class="faq-a">The shelf does, yes — a slight pitch toward the shower so water drains off instead of ponding against the back corner. A dead-level shelf holds a permanent shallow puddle, and that puddle is where the black grout line and the first membrane test happen. It is a small detail that separates installers who have opened up failed showers from those who have not.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">How much does adding a niche cost?</summary><div class="faq-a">A standard single-bay niche is a modest line item inside the tile scope — the prefab unit or framing, membrane detailing, and extra cutting and edge finishing. It rides along with waterproofing work already underway, inside tile work that runs $14–$26 per square foot installed. Custom double-wide and full-width niches cost meaningfully more because they add real framing and membrane time, and they should be priced explicitly.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Can a niche be added to an existing tiled shower?</summary><div class="faq-a">Not honestly, no. Cutting a niche into a finished shower means breaching the existing waterproofing and trying to tie a new membrane into an old one you cannot see or test — behind tile you would be destroying anyway. If the shower is due for a niche, it is due at rebuild time, when the membrane can be made continuous and flood-tested as one system.</div></details>
+  </div>
+</div>
+
+<style>
+  .faq-wrap{--line:#e5e7eb;margin:28px auto;padding:20px;border:1px solid var(--line);border-radius:16px;background:#fff;box-shadow:0 8px 30px rgba(2,6,23,.06)}
+  .faq-title{margin:0 0 14px;font-size:24px;font-weight:900;text-align:center;color:#5c0000}
+  .faq-items{display:grid;gap:10px}
+  .faq-item{border:1px solid var(--line);border-radius:14px;background:#f9fafb;overflow:hidden}
+  .faq-q{cursor:pointer;display:block;padding:14px 16px;font-weight:800;color:#0f172a}
+  .faq-q::-webkit-details-marker{display:none}
+  .faq-item[open] .faq-q{background:linear-gradient(180deg, rgba(139,0,0,.08), rgba(139,0,0,.02))}
+  .faq-a{padding:0 16px 14px;color:#1f2937;line-height:1.6}
+</style>
+
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What height should a shower niche be?", "acceptedAnswer": {"@type": "Answer", "text": "For a standing shower, put the main shelf between 48 and 60 inches off the shower floor — roughly wrist-to-shoulder height for the people using it, so bottles are reachable without stooping. A tub-side or seated-user niche belongs lower, around 30 to 36 inches, and a small foot-prop niche for shaving sits at 12 to 18 inches. Stand in the space and reach before anyone cuts a hole."}}, {"@type": "Question", "name": "What is the standard shower niche size?", "acceptedAnswer": {"@type": "Answer", "text": "The workhorse sizes are 12×12 and 12×24 inches, because standard framing leaves about 14½ inches of clear space between studs — a 12-inch-wide niche drops into one bay without touching structure. Wider niches, like a 24-inch horizontal or a full-width band, are absolutely buildable but require reframing with a header, which should show up in the quote as carpentry."}}, {"@type": "Question", "name": "Are prefab foam shower niches good?", "acceptedAnswer": {"@type": "Answer", "text": "Yes — they are what we use most. Units from Schluter, Wedi and similar systems arrive already waterproof, and the craft is in tying their flanges into the wall membrane so the box and wall become one continuous system. Site-built niches make sense when you want a size or shape the catalogs do not offer; they just depend entirely on hand-detailed membrane work in the trickiest corners of the shower."}}, {"@type": "Question", "name": "Why do shower niches leak?", "acceptedAnswer": {"@type": "Answer", "text": "Because a niche adds six surfaces, a shelf, and a dozen corners to a wall whose job was staying continuous — and because DIY builds often tile over bare cement board on the theory that grout keeps water out. It does not; grout is porous. Water migrates into the wall cavity slowly and invisibly until something stains or swells. The fix at that point is demolition, which is why the membrane has to be continuous through the niche from day one."}}, {"@type": "Question", "name": "Should the niche go on an exterior wall?", "acceptedAnswer": {"@type": "Answer", "text": "Avoid it when you can. Recessing a niche into an exterior wall displaces insulation, creating a cold spot that condenses moisture in a Pacific Northwest winter. When the exterior wall is the only sensible location, the bay should be rebuilt with rigid insulation behind the niche rather than simply emptied — a detail worth asking your contractor about directly."}}, {"@type": "Question", "name": "Does a shower niche need to be sloped?", "acceptedAnswer": {"@type": "Answer", "text": "The shelf does, yes — a slight pitch toward the shower so water drains off instead of ponding against the back corner. A dead-level shelf holds a permanent shallow puddle, and that puddle is where the black grout line and the first membrane test happen. It is a small detail that separates installers who have opened up failed showers from those who have not."}}, {"@type": "Question", "name": "How much does adding a niche cost?", "acceptedAnswer": {"@type": "Answer", "text": "A standard single-bay niche is a modest line item inside the tile scope — the prefab unit or framing, membrane detailing, and extra cutting and edge finishing. It rides along with waterproofing work already underway, inside tile work that runs $14–$26 per square foot installed. Custom double-wide and full-width niches cost meaningfully more because they add real framing and membrane time, and they should be priced explicitly."}}, {"@type": "Question", "name": "Can a niche be added to an existing tiled shower?", "acceptedAnswer": {"@type": "Answer", "text": "Not honestly, no. Cutting a niche into a finished shower means breaching the existing waterproofing and trying to tie a new membrane into an old one you cannot see or test — behind tile you would be destroying anyway. If the shower is due for a niche, it is due at rebuild time, when the membrane can be made continuous and flood-tested as one system."}}]}
+</script></div>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-cta" style="margin:30px 0">
+  <style>
+    html body .post-body .ocb-cta h2, .ocb-cta h2{color:#fff!important}
+    html body .post-body .ocb-cta .ocb-cta-sub, .ocb-cta .ocb-cta-sub{color:rgba(255,255,255,.88)!important}
+    html body .post-body .ocb-cta .ocb-cta-chips span, .ocb-cta .ocb-cta-chips span{color:rgba(255,255,255,.94)!important}
+    html body .post-body .ocb-cta a.ocb-cta-ghost, .ocb-cta a.ocb-cta-ghost{color:#fff!important;text-decoration:none!important}
+    html body .post-body .ocb-cta a.ocb-cta-gold, .ocb-cta a.ocb-cta-gold{color:#fbbc04!important}
+    html body .post-body .ocb-cta a.ocb-cta-phone, .ocb-cta a.ocb-cta-phone{color:#5c0000!important;text-decoration:none!important}
+  </style>
+  <div style="background:linear-gradient(135deg,#8B0000,#5c0000);border-radius:20px;padding:28px 24px;color:#fff;text-align:center;box-shadow:0 14px 34px rgba(92,0,0,.3)">
+    <h2 style="margin:0 0 6px;color:#fff!important;font-size:24px;font-weight:900">Planning a Shower That Will Not Leak?</h2>
+    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.92)!important;font-size:16.3px">We build the niche into the waterproofing, not onto it &mdash; membrane through every corner, a sloped shelf, and a photographed 24-hour flood test before tile. Free in-home estimates across Everett, King &amp; Snohomish County.</p>
+    <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
+      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff!important;color:#5c0000!important;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none!important"><span class="ocb-ic ocb-ic-phone"></span> (425) 595-1079</a>
+      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.16)!important;border:1px solid rgba(255,255,255,.55);color:#fff!important;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none!important">Book My Free Consultation</a>
+    </div>
+    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.95)!important">
+      <span>✓ Since 2013</span><span>✓ 1,000+ floors</span><span>✓ 1-yr workmanship warranty</span><span>✓ Licensed &amp; insured</span><span>✓ Financing available</span>
+    </div>
+    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04!important;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
+  </div>
+</div></div>
+
+<p><strong>Related reading:</strong> <a href="/blog/can-you-tile-over-existing-tile">Can you tile over existing tile?</a> · <a href="/blog/bathroom-tile-installation-cost-seattle">What bathroom tile really costs</a> · <a href="/blog/tile-installation-cost-per-square-foot">Tile cost per square foot, decoded</a> · <a href="/blog/what-is-the-best-waterproof-floor-in-everett-wa">The best waterproof floors for Everett</a> · <a href="/city-of-everett/tile-installation-in-everett-wa">Tile installation in Everett</a> · <a href="/contact">Book a free estimate</a></p>
+
+<div data-rt-embed-type='true'><script>
+(function(){try{
+var els=document.querySelectorAll('.ocb-card,.ocb-fact,.ocb-tri,.faq-item');
+if(!('IntersectionObserver' in window)||!els.length)return;
+document.documentElement.classList.add('ocb-anim-ready');
+els.forEach(function(e,i){e.classList.add('ocb-rv');e.style.transitionDelay=Math.min((i%6)*70,350)+'ms'});
+var io=new IntersectionObserver(function(en){en.forEach(function(x){if(x.isIntersecting){x.target.classList.add('ocb-in');io.unobserve(x.target)}})},{threshold:.12,rootMargin:'0px 0px -8% 0px'});
+els.forEach(function(e){io.observe(e)});
+}catch(e){}})();
+</script></div>

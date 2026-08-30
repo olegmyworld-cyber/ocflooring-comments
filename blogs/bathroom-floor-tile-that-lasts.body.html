@@ -1,0 +1,206 @@
+<div data-rt-embed-type='true'><style>
+.ocb{--ink:#0f172a;--muted:#64748b;--line:#e5e7eb;--soft:#f8fafc;--brand:#8B0000;--brand2:#5c0000;--gold:#fbbc04;font-family:'Mulish',Inter,system-ui,sans-serif;color:var(--ink)}
+.ocb *{box-sizing:border-box}
+.ocb-card{border:1px solid var(--line);border-radius:18px;background:#fff;box-shadow:0 10px 30px rgba(2,6,23,.06);padding:22px;margin:26px 0}
+.ocb-eyebrow{display:inline-block;background:rgba(139,0,0,.08);color:var(--brand2);border:1px solid rgba(139,0,0,.2);border-radius:999px;padding:5px 12px;font-size:12.5px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;margin-bottom:10px}
+.ocb-chips{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0 0}
+.ocb-chip{background:var(--soft);border:1px solid var(--line);border-radius:999px;padding:6px 12px;font-size:13.6px;font-weight:700}
+.ocb-table{width:100%;border-collapse:collapse;font-size:15.2px}
+.ocb-table th,.ocb-table td{padding:11px 10px;text-align:left;border-bottom:1px solid var(--line)}
+.ocb-table th{background:var(--soft);font-weight:800;font-size:13.6px;letter-spacing:.02em}
+.ocb-table tr:last-child td{border-bottom:0}
+.ocb-table td strong{color:var(--brand2)}
+.ocb-2col{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media(max-width:680px){.ocb-2col{grid-template-columns:1fr}}
+.ocb-check{list-style:none;padding:0;margin:10px 0 0}
+.ocb-check li{padding-left:26px;position:relative;margin:7px 0;line-height:1.55}
+.ocb-check li:before{content:"✓";position:absolute;left:0;color:var(--brand);font-weight:900}
+.ocb-x li:before{content:"✕";color:#94a3b8}
+html body .post-body .ocb-facts, .ocb-facts{display:grid!important;grid-template-columns:repeat(3,1fr)!important;gap:12px!important;margin:8px 0!important}
+@media(max-width:680px){html body .post-body .ocb-facts, .ocb-facts{grid-template-columns:1fr!important}}
+.ocb-fact{background:linear-gradient(180deg,#fff,#f8fafc);border:1px solid var(--line);border-radius:16px;padding:16px}
+.ocb-fact .n{font-size:24px;font-weight:900;color:var(--brand2);display:block;margin-bottom:4px}
+html body .post-body .ocb-fact p, .ocb-fact p{margin:0!important;font-size:14.7px!important;color:#334155!important;line-height:1.5!important}
+
+.ocb-card,.ocb-fact,.ocb-tri{transition:transform .28s ease,box-shadow .28s ease}
+.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:translateY(-4px);box-shadow:0 16px 40px rgba(2,6,23,.12)}
+.faq-item{transition:border-color .25s,box-shadow .25s}
+.faq-item:hover{border-color:rgba(139,0,0,.35);box-shadow:0 6px 18px rgba(2,6,23,.07)}
+.ocb-chip{display:inline-flex;align-items:center;gap:6px;transition:transform .2s,border-color .2s}
+.ocb-chip:hover{transform:translateY(-2px);border-color:rgba(139,0,0,.35)}
+.ocb-chip svg{color:#8B0000}
+.ocb-cta a{transition:transform .22s,box-shadow .22s}
+.ocb-cta a:hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(0,0,0,.25)}
+.ocb-fact .n{position:relative}
+html.ocb-anim-ready .ocb-rv{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
+html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){html.ocb-anim-ready .ocb-rv{opacity:1!important;transform:none!important;transition:none!important}.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:none}}
+
+/* Chip icons. Webflow's rich-text sanitizer strips inline <svg> whenever a post is
+   re-saved in the Editor, so the icons are drawn from CSS on a <span> instead. */
+.ocb-ic{display:inline-block;width:15px;height:15px;flex:0 0 auto;vertical-align:-2px;background-repeat:no-repeat;background-position:center;background-size:contain}
+.ocb-ic-pin{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z'/><circle cx='12' cy='10' r='3'/></svg>")}
+.ocb-ic-home{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z'/><polyline points='9 22 9 12 15 12 15 22'/></svg>")}
+.ocb-ic-phone{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z'/></svg>")}
+.ocb-cta .ocb-ic{filter:brightness(0) saturate(100%) invert(9%) sepia(64%) saturate(4000%) hue-rotate(348deg)}
+</style></div>
+
+<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">October 20, 2026</span></div></div>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
+  <span class="ocb-eyebrow">Quick answer</span>
+  <p style="margin:0;font-size:17.9px;line-height:1.65"><strong>The bathroom floor tile that still looks right in ten years is almost never the one trending this month &mdash; it is matte porcelain in a quiet, warm neutral, in a classic size and shape, laid in a simple pattern, with a mid-tone grout chosen to age gracefully instead of photograph well.</strong> Tile trends turn over roughly every half decade; a properly installed tile floor is a thirty-year surface. So the honest way to choose is to make the permanent layer conservative and let paint, towels, hardware and lighting carry the personality &mdash; those cost tens of dollars to change, and the floor costs thousands.</p>
+  <div class="ocb-chips">
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-pin"></span> King &amp; Snohomish County</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-home"></span> Kirkland homes &amp; remodels</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-phone"></span> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
+  </div>
+</div></div>
+
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-facts">
+  <div class="ocb-fact"><span class="n">$14&ndash;$26/sq ft</span><p>installed cost of tile with us &mdash; labor from $11/sq ft plus materials and prep. At that price, the floor should be a decision you make once, not once a decade.</p></div>
+  <div class="ocb-fact"><span class="n">2 years</span><p>our warranty on tile work &mdash; and the installation quality it stands behind is a bigger part of how a floor looks at year ten than the tile you pick.</p></div>
+  <div class="ocb-fact"><span class="n">1,000+</span><p>floors since 2013 across King &amp; Snohomish County &mdash; which means we have torn out enough once-trendy tile to know exactly what dates a bathroom.</p></div>
+</div></div></div>
+
+<h2>The Trend Cycle Is Shorter Than the Floor</h2>
+
+<p>Search &ldquo;bathroom floor tile ideas&rdquo; and you will get this year's answer: a shape, a color, a pattern that is everywhere right now. The problem is arithmetic. A tile fashion runs hot for five to seven years before the next one replaces it, and a tiled floor &mdash; set on a properly prepared substrate &mdash; will outlive three or four of those cycles without a single physical complaint. The tile does not wear out. It just starts announcing the year it was installed.</p>
+
+<p>We see the consequence weekly: a structurally perfect floor coming out of a Kirkland bathroom not because anything failed, but because the owner cannot stand looking at it anymore, or a buyer's agent called it &ldquo;dated&rdquo; in a walkthrough. That tear-out costs real money &mdash; demolition, disposal, prep, new tile, new grout &mdash; and every dollar of it was avoidable at the original selection. A can of paint fixes a tired wall for the price of lunch. Nothing cheap fixes a tired floor.</p>
+
+<p>So the useful question is not &ldquo;what looks good now?&rdquo; Almost everything looks good now; that is what showrooms are for. The question is which choices we are <em>still not tearing out</em> after ten years in other people's houses. That list is short, consistent, and a little boring &mdash; which is exactly the point.</p>
+
+<h2>What We Tear Out, and What We Never Do</h2>
+
+<p>A decade of demolition is a kind of education. The beige-on-beige tumbled-travertine look of the late 2000s comes out constantly. So do the glass-mosaic accent strips that ran through every 2010 remodel like a racing stripe. Espresso wood-look plank had its turn. Gray-on-gray-on-gray, the defining palette of the late 2010s, is already showing up on tear-out schedules &mdash; not because gray is wrong, but because <em>everything</em> gray, floor to ceiling, pins the room to a very specific five years.</p>
+
+<p>What we almost never remove for looks: white and soft-neutral matte porcelain. Hexagons. Penny round. Square tile in honest sizes. Basketweave in an older house. These are not retro choices; they are pre-trend choices &mdash; shapes that were on bathroom floors in 1926 and will be on them in 2066. A classic does not date because it never belonged to a year in the first place.</p>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-card">
+  <h3 style="margin:0 0 10px;font-size:18.5px;font-weight:900;color:#5c0000">Bathroom Floor Tile Ideas, Judged at Year Ten</h3>
+  <div style="overflow-x:auto"><table class="ocb-table">
+    <tr><th>Choice</th><th>Year-ten verdict</th><th>Why</th></tr>
+    <tr><td><strong>Matte porcelain, warm neutral, 12&times;24 or large square</strong></td><td>Still looks intentional</td><td>Reads as a calm background; lets the room evolve around it</td></tr>
+    <tr><td><strong>Classic mosaics &mdash; hex, penny round, basketweave</strong></td><td>Period-correct, not dated</td><td>A century of precedent; especially right in pre-1960 houses</td></tr>
+    <tr><td><strong>Wood-look plank tile</strong></td><td>Depends on the wood it imitates</td><td>Convincing oak tones age fine; gray driftwood is already a tell</td></tr>
+    <tr><td><strong>Marble-look porcelain, soft veining</strong></td><td>Holds up if the veining is quiet</td><td>Dramatic bookmatched veining is a 2020s signature and will read as one</td></tr>
+    <tr><td><strong>Encaustic / patterned cement-look</strong></td><td>A statement with an expiry date</td><td>Livable in a powder room; a commitment across a primary bath</td></tr>
+    <tr><td><strong>Glass accent strips and borders</strong></td><td>The fastest way to date a room</td><td>Instantly places the remodel within a three-year window</td></tr>
+    <tr><td><strong>Novelty shapes &mdash; arabesque, fish scale, picket</strong></td><td>Charming now, specific later</td><td>The more distinctive the shape, the shorter its neutral life</td></tr>
+    <tr><td><strong>High-gloss tile on a floor</strong></td><td>Wrong on day one</td><td>Slippery wet, shows every scratch and hard-water spot &mdash; a wall finish, not a floor finish</td></tr>
+  </table></div>
+</div></div>
+
+<h2>Matching the Tile to a Kirkland House</h2>
+
+<p>The second filter, after the trend test, is the house itself. Kirkland's housing stock is unusually mixed for the Eastside: Craftsman-era cottages in Norkirk and Market, 1960s&ndash;80s ramblers and split-levels across Finn Hill and Juanita, and newer townhomes and rebuilds stacked around Houghton and downtown. A floor that flatters one of these can look pasted into another. In the older cottages, small-format classics &mdash; hex, penny round, basketweave with a border &mdash; agree with the bones of the house and read as restoration rather than remodel. In the ramblers and newer construction, larger quiet porcelain suits the scale of the rooms and the simpler trim.</p>
+
+<p>One local note worth taking seriously: light. For most of the year, Kirkland bathrooms live under gray sky and low sun off the lake. Cool gray tile that looked sophisticated under showroom lighting goes cold and flat in a November bathroom. Warm neutrals &mdash; greige, bone, soft sand &mdash; keep a room livable through a Pacific Northwest winter. It is the single most common selection regret we hear, and the fix is free: take the sample home and look at it at 8 a.m. in the actual room before you commit. Our <a href="/city-of-kirkland/tile-installation-in-kirkland-wa">Kirkland tile installation page</a> covers the full scope we bring to these projects.</p>
+
+<h2>The Boring Decisions That Decide Year Ten</h2>
+
+<p>Here is the uncomfortable truth under all the idea boards: at year ten, the difference between a floor you love and a floor you resent is mostly not the tile. It is the things nobody photographs.</p>
+
+<p><strong>Grout color.</strong> Bright white grout on a floor is a promise you cannot keep &mdash; it is the first thing to discolor and the hardest to keep looking new. A mid-tone grout a shade or two off the tile hides a decade of real life and keeps the pattern reading calmly. High-contrast grout, the on-trend look, turns every joint into a grid and dates precisely with the trend.</p>
+
+<p><strong>What is under the tile.</strong> Cracked grout lines and lipped edges &mdash; the things that actually make a floor look old &mdash; are substrate problems, not tile problems. A flat subfloor and an uncoupling membrane are what keep a 2026 floor looking installed-yesterday in 2036; we walk through the whole stack in <a href="/blog/tile-underlayment-explained">our underlayment guide</a>. And the material matters underfoot: for floors we set porcelain over ceramic in almost every case, for reasons of density and wear we lay out in <a href="/blog/porcelain-vs-ceramic-tile">porcelain vs ceramic</a>.</p>
+
+<p><strong>Texture.</strong> A floor is walked on wet and barefoot. Matte, lightly textured surfaces stay safe and hide micro-scratches; polished surfaces do neither. If a tile makes you want to touch it in the showroom, ask how it behaves with soap on it.</p>
+
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-2col">
+  <div class="ocb-card" style="margin:0">
+    <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#5c0000">Choices that still look right in ten years</h3>
+    <ul class="ocb-check">
+      <li>Matte porcelain in warm neutrals &mdash; greige, bone, soft sand</li>
+      <li>Classic shapes: hex, penny round, square, honest rectangles</li>
+      <li>Simple layouts &mdash; straight lay, running bond, basketweave</li>
+      <li>Mid-tone grout that hides life instead of announcing joints</li>
+      <li>Texture chosen for wet bare feet, not for photographs</li>
+      <li>Personality carried by paint, towels and hardware &mdash; the cheap layers</li>
+    </ul>
+  </div>
+  <div class="ocb-card" style="margin:0">
+    <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#334155">Choices you will be explaining to a buyer</h3>
+    <ul class="ocb-check ocb-x">
+      <li>Glass accent strips, listello borders, and feature bands</li>
+      <li>High-contrast grout tracking this year&rsquo;s look</li>
+      <li>Dramatic bookmatched veining across a whole floor</li>
+      <li>This season&rsquo;s novelty shape wall to wall</li>
+      <li>Gloss floors that show every scratch and water spot</li>
+      <li>A palette copied from a mood board instead of chosen for the house</li>
+    </ul>
+  </div>
+</div></div></div>
+
+<h2>Where to Spend and Where to Save</h2>
+
+<p>If the tile itself should be conservative, where does the budget go? Into the parts you cannot change later. Substrate prep, layout, waterproofing where the floor meets a shower, and the quality of the setting work decide whether the floor is flat, quiet and crack-free at year ten &mdash; and none of it can be upgraded afterward without starting over. A modest tile installed perfectly beats a spectacular tile installed adequately, every time, on every timeline.</p>
+
+<p>The good news is that timeless is not expensive. Classic porcelain in standard sizes usually costs <em>less</em> than the trending alternative, and simple layouts cost less to set than feature patterns. What full jobs actually run is laid out in our <a href="/blog/bathroom-tile-installation-cost-seattle">Seattle bathroom tile cost guide</a> and the <a href="/blog/tile-installation-cost-per-square-foot">per-square-foot price breakdown</a>. If your current floor is sound and flat, there are even cases where new tile can go over it &mdash; we cover when that works in <a href="/blog/can-you-tile-over-existing-tile">tiling over existing tile</a>. And if the debate is whether the adjacent rooms should be tile at all, <a href="/blog/hardwood-vs-tile-in-the-kitchen">hardwood vs tile in the kitchen</a> makes that case honestly.</p>
+
+<div data-rt-embed-type='true'><!-- FAQ accordion + JSON-LD -->
+<div class="faq-wrap ocb" aria-labelledby="faq-title">
+  <h2 id="faq-title" class="faq-title">Timeless Bathroom Floor Tile: What Homeowners Ask Us</h2>
+  <div class="faq-items" role="list">
+    <details class="faq-item" role="listitem"><summary class="faq-q">What bathroom floor tile ideas actually stand the test of time?</summary><div class="faq-a">Matte porcelain in warm neutrals, and the classic shapes: hexagon, penny round, square, and simple rectangles in a straight or offset lay. These predate the trend cycle, so they never belonged to a specific year. Pair them with a mid-tone grout and put the personality into paint and accessories, which cost almost nothing to change when tastes move.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">What size tile is best for a bathroom floor?</summary><div class="faq-a">For most bathrooms, either a large-format tile (12x24 or a big square) for a calm, seamless look, or a small classic mosaic for grip and character. Large format needs a very flat substrate to avoid lippage, and small mosaics cost more labor per square foot to set. Both age well; the sizes in between are fine too, but they carry the least visual intent.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Is porcelain or ceramic better for a bathroom floor?</summary><div class="faq-a">Porcelain, in nearly every case. It is denser, absorbs less water, and wears better underfoot, which is why it is what we set on almost every bathroom floor. Ceramic remains a good wall and backsplash material where the demands are lower. The cost difference is smaller than most people expect.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Which tile trends will look dated the fastest?</summary><div class="faq-a">Glass accent strips and border bands date a bathroom faster than anything else we tear out. After that: high-contrast grout, dramatic bookmatched marble-look veining used across a whole room, and whatever novelty shape is currently everywhere. Any one of them is survivable in a small dose; together they timestamp the remodel to a three-year window.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">What grout color ages best on a bathroom floor?</summary><div class="faq-a">A mid-tone within a shade or two of the tile. It hides discoloration, keeps the pattern reading as a surface instead of a grid, and does not belong to any trend. Bright white floor grout is the most common regret we see, because it is the first thing in the room to stop looking new.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Can I use large-format tile in a small bathroom?</summary><div class="faq-a">Yes, and it often makes the room feel bigger, since fewer grout lines read as more floor. The real constraint is flatness: large tile telegraphs every hump and dip in the substrate, so the prep has to be right. In very small rooms with lots of cuts around fixtures, a classic mosaic can be the smarter and better-looking answer.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">What does bathroom floor tile cost installed in Kirkland?</summary><div class="faq-a">Our tile work runs $14 to $26 per square foot installed, with labor starting at $11 per square foot; where a job lands in that range is mostly substrate prep, tile size, and layout complexity. A timeless selection usually sits at the friendlier end, because classic tile in standard sizes and simple patterns costs less to buy and less to set.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Should the bathroom floor tile match the shower tile?</summary><div class="faq-a">They should agree, not match. A common, durable approach is a quiet floor with a related but simpler shower wall, or the same tile family in two sizes. Exact matching everywhere flattens the room, and two unrelated statements compete. Pick one hero surface, and let the other one support it.</div></details>
+  </div>
+</div>
+
+<style>
+  .faq-wrap{--line:#e5e7eb;margin:28px auto;padding:20px;border:1px solid var(--line);border-radius:16px;background:#fff;box-shadow:0 8px 30px rgba(2,6,23,.06)}
+  .faq-title{margin:0 0 14px;font-size:24px;font-weight:900;text-align:center;color:#5c0000}
+  .faq-items{display:grid;gap:10px}
+  .faq-item{border:1px solid var(--line);border-radius:14px;background:#f9fafb;overflow:hidden}
+  .faq-q{cursor:pointer;display:block;padding:14px 16px;font-weight:800;color:#0f172a}
+  .faq-q::-webkit-details-marker{display:none}
+  .faq-item[open] .faq-q{background:linear-gradient(180deg, rgba(139,0,0,.08), rgba(139,0,0,.02))}
+  .faq-a{padding:0 16px 14px;color:#1f2937;line-height:1.6}
+</style>
+
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What bathroom floor tile ideas actually stand the test of time?", "acceptedAnswer": {"@type": "Answer", "text": "Matte porcelain in warm neutrals, and the classic shapes: hexagon, penny round, square, and simple rectangles in a straight or offset lay. These predate the trend cycle, so they never belonged to a specific year. Pair them with a mid-tone grout and put the personality into paint and accessories, which cost almost nothing to change when tastes move."}}, {"@type": "Question", "name": "What size tile is best for a bathroom floor?", "acceptedAnswer": {"@type": "Answer", "text": "For most bathrooms, either a large-format tile (12x24 or a big square) for a calm, seamless look, or a small classic mosaic for grip and character. Large format needs a very flat substrate to avoid lippage, and small mosaics cost more labor per square foot to set. Both age well; the sizes in between are fine too, but they carry the least visual intent."}}, {"@type": "Question", "name": "Is porcelain or ceramic better for a bathroom floor?", "acceptedAnswer": {"@type": "Answer", "text": "Porcelain, in nearly every case. It is denser, absorbs less water, and wears better underfoot, which is why it is what we set on almost every bathroom floor. Ceramic remains a good wall and backsplash material where the demands are lower. The cost difference is smaller than most people expect."}}, {"@type": "Question", "name": "Which tile trends will look dated the fastest?", "acceptedAnswer": {"@type": "Answer", "text": "Glass accent strips and border bands date a bathroom faster than anything else we tear out. After that: high-contrast grout, dramatic bookmatched marble-look veining used across a whole room, and whatever novelty shape is currently everywhere. Any one of them is survivable in a small dose; together they timestamp the remodel to a three-year window."}}, {"@type": "Question", "name": "What grout color ages best on a bathroom floor?", "acceptedAnswer": {"@type": "Answer", "text": "A mid-tone within a shade or two of the tile. It hides discoloration, keeps the pattern reading as a surface instead of a grid, and does not belong to any trend. Bright white floor grout is the most common regret we see, because it is the first thing in the room to stop looking new."}}, {"@type": "Question", "name": "Can I use large-format tile in a small bathroom?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, and it often makes the room feel bigger, since fewer grout lines read as more floor. The real constraint is flatness: large tile telegraphs every hump and dip in the substrate, so the prep has to be right. In very small rooms with lots of cuts around fixtures, a classic mosaic can be the smarter and better-looking answer."}}, {"@type": "Question", "name": "What does bathroom floor tile cost installed in Kirkland?", "acceptedAnswer": {"@type": "Answer", "text": "Our tile work runs $14 to $26 per square foot installed, with labor starting at $11 per square foot; where a job lands in that range is mostly substrate prep, tile size, and layout complexity. A timeless selection usually sits at the friendlier end, because classic tile in standard sizes and simple patterns costs less to buy and less to set."}}, {"@type": "Question", "name": "Should the bathroom floor tile match the shower tile?", "acceptedAnswer": {"@type": "Answer", "text": "They should agree, not match. A common, durable approach is a quiet floor with a related but simpler shower wall, or the same tile family in two sizes. Exact matching everywhere flattens the room, and two unrelated statements compete. Pick one hero surface, and let the other one support it."}}]}
+</script></div>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-cta" style="margin:30px 0">
+  <style>
+    html body .post-body .ocb-cta h2, .ocb-cta h2{color:#fff!important}
+    html body .post-body .ocb-cta .ocb-cta-sub, .ocb-cta .ocb-cta-sub{color:rgba(255,255,255,.88)!important}
+    html body .post-body .ocb-cta .ocb-cta-chips span, .ocb-cta .ocb-cta-chips span{color:rgba(255,255,255,.94)!important}
+    html body .post-body .ocb-cta a.ocb-cta-ghost, .ocb-cta a.ocb-cta-ghost{color:#fff!important;text-decoration:none!important}
+    html body .post-body .ocb-cta a.ocb-cta-gold, .ocb-cta a.ocb-cta-gold{color:#fbbc04!important}
+    html body .post-body .ocb-cta a.ocb-cta-phone, .ocb-cta a.ocb-cta-phone{color:#5c0000!important;text-decoration:none!important}
+  </style>
+  <div style="background:linear-gradient(135deg,#8B0000,#5c0000);border-radius:20px;padding:28px 24px;color:#fff;text-align:center;box-shadow:0 14px 34px rgba(92,0,0,.3)">
+    <h2 style="margin:0 0 6px;color:#fff!important;font-size:24px;font-weight:900">Pick a Floor You Will Still Like in 2036</h2>
+    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.92)!important;font-size:16.3px">We will look at your bathroom, tell you which tile suits the house and which prep the floor actually needs, and put the whole scope in writing. Honest advice included &mdash; even when it is &ldquo;the simpler tile is the better one.&rdquo; Free in-home estimates across King &amp; Snohomish County.</p>
+    <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
+      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff!important;color:#5c0000!important;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none!important"><span class="ocb-ic ocb-ic-phone"></span> (425) 595-1079</a>
+      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.16)!important;border:1px solid rgba(255,255,255,.55);color:#fff!important;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none!important">Book My Free Consultation</a>
+    </div>
+    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.95)!important">
+      <span>✓ Since 2013</span><span>✓ 1,000+ floors</span><span>✓ 1-yr workmanship warranty</span><span>✓ Licensed &amp; insured</span><span>✓ Financing available</span>
+    </div>
+    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04!important;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
+  </div>
+</div></div>
+
+<p><strong>Related reading:</strong> <a href="/blog/porcelain-vs-ceramic-tile">Porcelain vs ceramic tile</a> · <a href="/blog/tile-underlayment-explained">Tile underlayment explained</a> · <a href="/blog/bathroom-tile-installation-cost-seattle">Bathroom tile cost in Seattle</a> · <a href="/blog/can-you-tile-over-existing-tile">Tiling over existing tile</a> · <a href="/city-of-kirkland/tile-installation-in-kirkland-wa">Tile installation in Kirkland</a> · <a href="/contact">Book a free estimate</a></p>
+
+<div data-rt-embed-type='true'><script>
+(function(){try{
+var els=document.querySelectorAll('.ocb-card,.ocb-fact,.ocb-tri,.faq-item');
+if(!('IntersectionObserver' in window)||!els.length)return;
+document.documentElement.classList.add('ocb-anim-ready');
+els.forEach(function(e,i){e.classList.add('ocb-rv');e.style.transitionDelay=Math.min((i%6)*70,350)+'ms'});
+var io=new IntersectionObserver(function(en){en.forEach(function(x){if(x.isIntersecting){x.target.classList.add('ocb-in');io.unobserve(x.target)}})},{threshold:.12,rootMargin:'0px 0px -8% 0px'});
+els.forEach(function(e){io.observe(e)});
+}catch(e){}})();
+</script></div>

@@ -1,0 +1,195 @@
+<div data-rt-embed-type='true'><style>
+.ocb{--ink:#0f172a;--muted:#64748b;--line:#e5e7eb;--soft:#f8fafc;--brand:#8B0000;--brand2:#5c0000;--gold:#fbbc04;font-family:'Mulish',Inter,system-ui,sans-serif;color:var(--ink)}
+.ocb *{box-sizing:border-box}
+.ocb-card{border:1px solid var(--line);border-radius:18px;background:#fff;box-shadow:0 10px 30px rgba(2,6,23,.06);padding:22px;margin:26px 0}
+.ocb-eyebrow{display:inline-block;background:rgba(139,0,0,.08);color:var(--brand2);border:1px solid rgba(139,0,0,.2);border-radius:999px;padding:5px 12px;font-size:12.5px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;margin-bottom:10px}
+.ocb-chips{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0 0}
+.ocb-chip{background:var(--soft);border:1px solid var(--line);border-radius:999px;padding:6px 12px;font-size:13.6px;font-weight:700}
+.ocb-table{width:100%;border-collapse:collapse;font-size:15.2px}
+.ocb-table th,.ocb-table td{padding:11px 10px;text-align:left;border-bottom:1px solid var(--line)}
+.ocb-table th{background:var(--soft);font-weight:800;font-size:13.6px;letter-spacing:.02em}
+.ocb-table tr:last-child td{border-bottom:0}
+.ocb-table td strong{color:var(--brand2)}
+.ocb-2col{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media(max-width:680px){.ocb-2col{grid-template-columns:1fr}}
+.ocb-check{list-style:none;padding:0;margin:10px 0 0}
+.ocb-check li{padding-left:26px;position:relative;margin:7px 0;line-height:1.55}
+.ocb-check li:before{content:"✓";position:absolute;left:0;color:var(--brand);font-weight:900}
+.ocb-x li:before{content:"✕";color:#94a3b8}
+html body .post-body .ocb-facts, .ocb-facts{display:grid!important;grid-template-columns:repeat(3,1fr)!important;gap:12px!important;margin:8px 0!important}
+@media(max-width:680px){html body .post-body .ocb-facts, .ocb-facts{grid-template-columns:1fr!important}}
+.ocb-fact{background:linear-gradient(180deg,#fff,#f8fafc);border:1px solid var(--line);border-radius:16px;padding:16px}
+.ocb-fact .n{font-size:24px;font-weight:900;color:var(--brand2);display:block;margin-bottom:4px}
+html body .post-body .ocb-fact p, .ocb-fact p{margin:0!important;font-size:14.7px!important;color:#334155!important;line-height:1.5!important}
+
+.ocb-card,.ocb-fact,.ocb-tri{transition:transform .28s ease,box-shadow .28s ease}
+.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:translateY(-4px);box-shadow:0 16px 40px rgba(2,6,23,.12)}
+.faq-item{transition:border-color .25s,box-shadow .25s}
+.faq-item:hover{border-color:rgba(139,0,0,.35);box-shadow:0 6px 18px rgba(2,6,23,.07)}
+.ocb-chip{display:inline-flex;align-items:center;gap:6px;transition:transform .2s,border-color .2s}
+.ocb-chip:hover{transform:translateY(-2px);border-color:rgba(139,0,0,.35)}
+.ocb-chip svg{color:#8B0000}
+.ocb-cta a{transition:transform .22s,box-shadow .22s}
+.ocb-cta a:hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(0,0,0,.25)}
+.ocb-fact .n{position:relative}
+html.ocb-anim-ready .ocb-rv{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
+html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){html.ocb-anim-ready .ocb-rv{opacity:1!important;transform:none!important;transition:none!important}.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:none}}
+
+/* Chip icons. Webflow's rich-text sanitizer strips inline <svg> whenever a post is
+   re-saved in the Editor, so the icons are drawn from CSS on a <span> instead. */
+.ocb-ic{display:inline-block;width:15px;height:15px;flex:0 0 auto;vertical-align:-2px;background-repeat:no-repeat;background-position:center;background-size:contain}
+.ocb-ic-pin{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z'/><circle cx='12' cy='10' r='3'/></svg>")}
+.ocb-ic-home{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z'/><polyline points='9 22 9 12 15 12 15 22'/></svg>")}
+.ocb-ic-phone{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z'/></svg>")}
+.ocb-cta .ocb-ic{filter:brightness(0) saturate(100%) invert(9%) sepia(64%) saturate(4000%) hue-rotate(348deg)}
+</style></div>
+
+<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">November 3, 2026</span></div></div>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
+  <span class="ocb-eyebrow">Quick answer</span>
+  <p style="margin:0;font-size:17.9px;line-height:1.65"><strong>A heated bathroom floor is an electric mat or cable set into the tile assembly, and in most Marysville bathrooms it adds a modest slice to the remodel: the heating materials, about a day of schedule, and an electrician's visit for the dedicated circuit and thermostat.</strong> The tile job itself &mdash; $14&ndash;$26 per square foot installed with us &mdash; is still most of the budget. The catch is timing: floor heat goes in <em>under</em> the tile, so the only affordable moment to add it is while the floor is already open. Skip it during the remodel and adding it later means doing the floor twice.</p>
+  <div class="ocb-chips">
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-pin"></span> King &amp; Snohomish County</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-home"></span> Marysville &amp; Snohomish County</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-phone"></span> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
+  </div>
+</div></div>
+
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-facts">
+  <div class="ocb-fact"><span class="n">$14&ndash;$26/sq ft</span><p>installed tile cost with us, labor from $11/sq ft. The heating layer rides inside that same assembly &mdash; one mobilization, one floor, done once.</p></div>
+  <div class="ocb-fact"><span class="n">1 extra day</span><p>roughly what floor heat adds to a bathroom tile schedule. The mat or cable goes down fast; the self-leveling pour and the electrician&rsquo;s hookup are the added time.</p></div>
+  <div class="ocb-fact"><span class="n">2 years</span><p>our warranty on tile work. We also meter the heating wire before, during, and after setting tile, so a damaged circuit is caught while it is still fixable.</p></div>
+</div></div></div>
+
+<h2>What You Are Actually Buying</h2>
+
+<p>Strip away the brochure language and a heated bathroom floor is simple: a resistive electric wire, spread evenly under the tile, driven by its own thermostat with a sensor in the floor. Tile is the perfect partner for it &mdash; the same density that makes tile feel cold in January makes it hold and radiate warmth beautifully once heated. There is no furnace involved, no ductwork, no maintenance schedule. The system either works quietly for decades or is damaged during installation and never works right &mdash; which is why who installs it matters more than which brand is on the box.</p>
+
+<p>One honest clarification before the details: this article is about <em>electric</em> radiant, the kind that makes sense in a single bathroom. Hydronic radiant &mdash; hot water tubing fed by a boiler or heat pump &mdash; is a whole-house heating strategy, wonderful in new construction and rarely economical to retrofit into one bathroom. If a quote for a hall bath includes a boiler, someone is solving a different problem than the one you have.</p>
+
+<h2>Mat vs Cable: The Real Difference</h2>
+
+<p>Every electric system is the same wire at heart; what you are choosing is how it gets spread across your floor. That choice moves labor, flexibility, and a little bit of cost.</p>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-card">
+  <h3 style="margin:0 0 10px;font-size:18.5px;font-weight:900;color:#5c0000">Electric Floor Heat: The Three Ways It Arrives</h3>
+  <div style="overflow-x:auto"><table class="ocb-table">
+    <tr><th>System</th><th>Best for</th><th>The honest trade-off</th></tr>
+    <tr><td><strong>Heating mat</strong></td><td>Simple, rectangular rooms</td><td>Wire pre-spaced on a mesh roll &mdash; fastest to install and hardest to get wrong; less flexible around tubs, toilets and angled walls</td></tr>
+    <tr><td><strong>Loose cable in an uncoupling membrane</strong></td><td>Bathrooms with real geometry</td><td>Cable snapped into a studded membrane, routed wherever you want heat; more layout labor, but heat exactly where feet go and none wasted under the vanity</td></tr>
+    <tr><td><strong>Hydronic (water) radiant</strong></td><td>Whole-house projects, new builds</td><td>Lovely warmth and cheap to run at scale, but boiler, manifold and tubing make it the wrong tool for a single bathroom retrofit</td></tr>
+  </table></div>
+</div></div>
+
+<p>Between the two electric options, our default is honest: <strong>a mat where the room is a rectangle, cable in a membrane where it is not.</strong> Marysville bathrooms in the 1990s and 2000s subdivisions off 88th and near Getchell tend to be straightforward rectangles &mdash; mat territory. The older houses downtown and out toward the Pilchuck with clipped corners, angled tub decks, or a floor plan that grew over the decades usually justify the cable. The membrane version has a second advantage: the same layer doubles as an uncoupling membrane, the crack-isolation workhorse we cover in <a href="/blog/tile-underlayment-explained">our underlayment guide</a>.</p>
+
+<h2>Where the Money Goes in the Quote</h2>
+
+<p>A heated-floor line on a tile quote is really four smaller lines, and it helps to see them separately. <strong>The heating materials</strong> &mdash; mat or cable, membrane if used, thermostat and floor sensor &mdash; are typically several hundred dollars for a normal bathroom, rising with square footage. <strong>The added tile labor</strong> is the careful hour of layout and metering plus, for cable systems, a self-leveling pour to encase the wire before tile goes on. <strong>The electrician</strong> runs a dedicated circuit with GFCI protection and wires the thermostat &mdash; a separate trade's visit, priced by your panel's location and capacity, not by us. And <strong>the tile job itself</strong> stays what it always was: $14&ndash;$26 per square foot installed, with the drivers we itemize in our <a href="/blog/bathroom-tile-installation-cost-seattle">bathroom tile cost guide</a> and the <a href="/blog/tile-installation-cost-per-square-foot">per-square-foot breakdown</a>.</p>
+
+<p>One discipline item separates a professional heated-floor install from a gamble: <strong>the ohm test</strong>. We meter the wire's resistance when the box is opened, after the mat is placed, and again after tile is set, and the readings go in the job file. A wire nicked by a trowel and caught before grout is a repairable moment; the same nick discovered when the thermostat reads an open circuit in November is a floor coming back up. The meter readings are cheap insurance, the same philosophy as the flood test in <a href="/blog/tile-shower-waterproofing">our shower waterproofing guide</a>: prove the hidden layer works before it is buried.</p>
+
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-2col">
+  <div class="ocb-card" style="margin:0">
+    <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#5c0000">When heated floors earn their money</h3>
+    <ul class="ocb-check">
+      <li>A primary bathroom used every morning, all winter</li>
+      <li>Tile over a cold crawlspace or concrete &mdash; most of Marysville</li>
+      <li>A remodel that already has the floor open</li>
+      <li>Cable routed only where bare feet actually go</li>
+      <li>A programmable thermostat that heats for the morning hour, not all day</li>
+      <li>Anyone who has met a Snohomish County January floor barefoot</li>
+    </ul>
+  </div>
+  <div class="ocb-card" style="margin:0">
+    <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#334155">When we tell people to skip it</h3>
+    <ul class="ocb-check ocb-x">
+      <li>A guest bath used a handful of mornings a year</li>
+      <li>A budget that would trade waterproofing or prep to afford it</li>
+      <li>Expecting the heat to pay for itself at resale &mdash; it will not</li>
+      <li>Planning it as the room&rsquo;s primary heat source</li>
+      <li>A floor with rot or structural work that should get the money first</li>
+      <li>Retrofitting under an existing tile floor you otherwise like</li>
+    </ul>
+  </div>
+</div></div></div>
+
+<h2>The Marysville Winter Payback Argument</h2>
+
+<p>Let us be straight about the finances: a heated bathroom floor does not pay you back in dollars. Its operating cost is real &mdash; modest, because a small bathroom's mat draws about what a hair dryer does and a programmable thermostat only runs it a few hours a day, but real. And appraisers do not add a line for it. What you are buying is the difference between how a tile floor feels at 6 a.m. in a Marysville January &mdash; where the outside air has been sitting in the low 40s and raining sideways since October &mdash; and how the same floor feels holding a gentle warmth it has had since before your alarm went off.</p>
+
+<p>Tile feels cold because it is conductive: it pulls heat out of your foot faster than carpet or wood do, even at the same room temperature. Floor heat does not just cancel that; it reverses it. In our experience the households that add it in one bathroom add it in the next remodel too, without being sold on it &mdash; which is the most honest endorsement a product gets. It also pairs naturally with the kind of quiet, warm-neutral porcelain that survives a decade of taste, the case we make in <a href="/blog/bathroom-floor-tile-that-lasts">bathroom floor tile that still looks right in ten years</a>.</p>
+
+<h2>Install Reality: How It Actually Goes In</h2>
+
+<p>The sequence matters, because the heat is a layer in the middle of the assembly, not an appliance added at the end. The substrate gets prepped and flattened first &mdash; heat does not fix a bad floor, and a cracked tile over a heating wire is a worse problem than a cracked tile alone. The electrician roughs in the circuit. The mat or membrane and cable go down, the floor sensor is placed, and everything is metered. Cable systems get a self-leveling pour; then tile is set and grouted exactly as it would be on any quality job, and the electrician returns to connect the thermostat once the assembly has cured. From your side it reads as one extra day inside a normal bathroom tile schedule.</p>
+
+<p>The one thing the sequence cannot do is run in reverse. There is no practical way to slide heat under a finished tile floor; adding it later means demolition, which is why the right time to decide is while your remodel is on paper. If a heated floor is on your maybe-list, have the conversation at the estimate &mdash; the full scope of what we install, heated floors included, is on the <a href="/city-of-marysville/tile-installation-in-marysville-wa">Marysville tile installation page</a>.</p>
+
+<div data-rt-embed-type='true'><!-- FAQ accordion + JSON-LD -->
+<div class="faq-wrap ocb" aria-labelledby="faq-title">
+  <h2 id="faq-title" class="faq-title">Heated Bathroom Floor Cost: What Homeowners Ask Us</h2>
+  <div class="faq-items" role="list">
+    <details class="faq-item" role="listitem"><summary class="faq-q">How much does a heated bathroom floor cost?</summary><div class="faq-a">Think of it as a modest add-on riding inside a tile job. The heating materials for a typical bathroom run in the hundreds of dollars, the added tile labor is roughly a day, and the electrician’s dedicated circuit and thermostat are a separate trade’s visit. The tile work itself is the bulk of the budget at $14 to $26 per square foot installed. The efficient move is bundling it into a remodel that already has the floor open.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Do heated floors need an electrician?</summary><div class="faq-a">Yes. Electric floor heat requires a dedicated, GFCI-protected circuit and a thermostat with a floor sensor, and that hookup is licensed electrical work. We coordinate the sequencing - rough-in before the mat goes down, final connection after tile cures - so the project reads as one job rather than two trades trading voicemails.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Which is better, a heating mat or loose cable?</summary><div class="faq-a">Neither is better everywhere. A mat is faster and nearly foolproof in a rectangular room; loose cable in an uncoupling membrane costs more layout time but routes heat exactly where feet go and handles odd-shaped rooms gracefully. We spec the mat for simple rooms and the cable-plus-membrane for everything else.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">How much does it cost to run a heated bathroom floor?</summary><div class="faq-a">Less than most people fear. A small bathroom system draws roughly what a hair dryer does while heating, and a programmable thermostat typically runs it a few hours a day rather than continuously. It is a noticeable comfort and a small line on the bill - but it is an operating cost, not an investment with a dollar return.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Can you add floor heat under existing tile?</summary><div class="faq-a">Not without removing the tile. The wire lives inside the assembly, under the tile and over the substrate, so retrofitting means demolition and a new floor. That is exactly why we raise the question during every bathroom remodel estimate: the marginal cost while the floor is open is small, and the cost later is a whole new floor.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Does floor heat work under any tile?</summary><div class="faq-a">Porcelain and ceramic are ideal - dense, conductive, and dimensionally stable over the gentle warmth these systems produce. Natural stone works well too with the right system settings. The floor must still be built properly underneath: flat substrate, correct thinset coverage, and for cable systems a self-leveling layer encasing the wire.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Will a heated floor keep the whole bathroom warm?</summary><div class="faq-a">It takes the edge off the room, but it is designed as floor comfort, not primary heat. Your bathroom still needs its regular heat source; the floor system makes the surface you stand on warm instead of punishing. Treating it as the room’s only heater leads to disappointment and high bills - we size and describe it honestly instead.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Is a heated bathroom floor worth it in Marysville?</summary><div class="faq-a">If it is your daily bathroom, we think so - this is a climate with seven months of cold, wet mornings, and tile over a crawlspace or slab here starts genuinely cold. The payback is comfort rather than resale value, so we recommend it for primary baths used every day and honestly steer people away from paying for it in rarely used guest baths.</div></details>
+  </div>
+</div>
+
+<style>
+  .faq-wrap{--line:#e5e7eb;margin:28px auto;padding:20px;border:1px solid var(--line);border-radius:16px;background:#fff;box-shadow:0 8px 30px rgba(2,6,23,.06)}
+  .faq-title{margin:0 0 14px;font-size:24px;font-weight:900;text-align:center;color:#5c0000}
+  .faq-items{display:grid;gap:10px}
+  .faq-item{border:1px solid var(--line);border-radius:14px;background:#f9fafb;overflow:hidden}
+  .faq-q{cursor:pointer;display:block;padding:14px 16px;font-weight:800;color:#0f172a}
+  .faq-q::-webkit-details-marker{display:none}
+  .faq-item[open] .faq-q{background:linear-gradient(180deg, rgba(139,0,0,.08), rgba(139,0,0,.02))}
+  .faq-a{padding:0 16px 14px;color:#1f2937;line-height:1.6}
+</style>
+
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How much does a heated bathroom floor cost?", "acceptedAnswer": {"@type": "Answer", "text": "Think of it as a modest add-on riding inside a tile job. The heating materials for a typical bathroom run in the hundreds of dollars, the added tile labor is roughly a day, and the electrician’s dedicated circuit and thermostat are a separate trade’s visit. The tile work itself is the bulk of the budget at $14 to $26 per square foot installed. The efficient move is bundling it into a remodel that already has the floor open."}}, {"@type": "Question", "name": "Do heated floors need an electrician?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Electric floor heat requires a dedicated, GFCI-protected circuit and a thermostat with a floor sensor, and that hookup is licensed electrical work. We coordinate the sequencing - rough-in before the mat goes down, final connection after tile cures - so the project reads as one job rather than two trades trading voicemails."}}, {"@type": "Question", "name": "Which is better, a heating mat or loose cable?", "acceptedAnswer": {"@type": "Answer", "text": "Neither is better everywhere. A mat is faster and nearly foolproof in a rectangular room; loose cable in an uncoupling membrane costs more layout time but routes heat exactly where feet go and handles odd-shaped rooms gracefully. We spec the mat for simple rooms and the cable-plus-membrane for everything else."}}, {"@type": "Question", "name": "How much does it cost to run a heated bathroom floor?", "acceptedAnswer": {"@type": "Answer", "text": "Less than most people fear. A small bathroom system draws roughly what a hair dryer does while heating, and a programmable thermostat typically runs it a few hours a day rather than continuously. It is a noticeable comfort and a small line on the bill - but it is an operating cost, not an investment with a dollar return."}}, {"@type": "Question", "name": "Can you add floor heat under existing tile?", "acceptedAnswer": {"@type": "Answer", "text": "Not without removing the tile. The wire lives inside the assembly, under the tile and over the substrate, so retrofitting means demolition and a new floor. That is exactly why we raise the question during every bathroom remodel estimate: the marginal cost while the floor is open is small, and the cost later is a whole new floor."}}, {"@type": "Question", "name": "Does floor heat work under any tile?", "acceptedAnswer": {"@type": "Answer", "text": "Porcelain and ceramic are ideal - dense, conductive, and dimensionally stable over the gentle warmth these systems produce. Natural stone works well too with the right system settings. The floor must still be built properly underneath: flat substrate, correct thinset coverage, and for cable systems a self-leveling layer encasing the wire."}}, {"@type": "Question", "name": "Will a heated floor keep the whole bathroom warm?", "acceptedAnswer": {"@type": "Answer", "text": "It takes the edge off the room, but it is designed as floor comfort, not primary heat. Your bathroom still needs its regular heat source; the floor system makes the surface you stand on warm instead of punishing. Treating it as the room’s only heater leads to disappointment and high bills - we size and describe it honestly instead."}}, {"@type": "Question", "name": "Is a heated bathroom floor worth it in Marysville?", "acceptedAnswer": {"@type": "Answer", "text": "If it is your daily bathroom, we think so - this is a climate with seven months of cold, wet mornings, and tile over a crawlspace or slab here starts genuinely cold. The payback is comfort rather than resale value, so we recommend it for primary baths used every day and honestly steer people away from paying for it in rarely used guest baths."}}]}
+</script></div>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-cta" style="margin:30px 0">
+  <style>
+    html body .post-body .ocb-cta h2, .ocb-cta h2{color:#fff!important}
+    html body .post-body .ocb-cta .ocb-cta-sub, .ocb-cta .ocb-cta-sub{color:rgba(255,255,255,.88)!important}
+    html body .post-body .ocb-cta .ocb-cta-chips span, .ocb-cta .ocb-cta-chips span{color:rgba(255,255,255,.94)!important}
+    html body .post-body .ocb-cta a.ocb-cta-ghost, .ocb-cta a.ocb-cta-ghost{color:#fff!important;text-decoration:none!important}
+    html body .post-body .ocb-cta a.ocb-cta-gold, .ocb-cta a.ocb-cta-gold{color:#fbbc04!important}
+    html body .post-body .ocb-cta a.ocb-cta-phone, .ocb-cta a.ocb-cta-phone{color:#5c0000!important;text-decoration:none!important}
+  </style>
+  <div style="background:linear-gradient(135deg,#8B0000,#5c0000);border-radius:20px;padding:28px 24px;color:#fff;text-align:center;box-shadow:0 14px 34px rgba(92,0,0,.3)">
+    <h2 style="margin:0 0 6px;color:#fff!important;font-size:24px;font-weight:900">Warm Floors Before the Cold Mornings Land</h2>
+    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.92)!important;font-size:16.3px">If a bathroom remodel is on your list, this is the moment to decide on heat &mdash; it costs little while the floor is open and a whole floor later. We will price it both ways, coordinate the electrician, and put the full scope in writing. Free in-home estimates across King &amp; Snohomish County.</p>
+    <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
+      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff!important;color:#5c0000!important;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none!important"><span class="ocb-ic ocb-ic-phone"></span> (425) 595-1079</a>
+      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.16)!important;border:1px solid rgba(255,255,255,.55);color:#fff!important;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none!important">Book My Free Consultation</a>
+    </div>
+    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.95)!important">
+      <span>✓ Since 2013</span><span>✓ 1,000+ floors</span><span>✓ 1-yr workmanship warranty</span><span>✓ Licensed &amp; insured</span><span>✓ Financing available</span>
+    </div>
+    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04!important;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
+  </div>
+</div></div>
+
+<p><strong>Related reading:</strong> <a href="/blog/bathroom-tile-installation-cost-seattle">Bathroom tile cost, itemized</a> · <a href="/blog/tile-underlayment-explained">Tile underlayment explained</a> · <a href="/blog/tile-shower-waterproofing">Shower waterproofing, layer by layer</a> · <a href="/blog/bathroom-floor-tile-that-lasts">Floor tile that ages well</a> · <a href="/city-of-marysville/tile-installation-in-marysville-wa">Tile installation in Marysville</a> · <a href="/contact">Book a free estimate</a></p>
+
+<div data-rt-embed-type='true'><script>
+(function(){try{
+var els=document.querySelectorAll('.ocb-card,.ocb-fact,.ocb-tri,.faq-item');
+if(!('IntersectionObserver' in window)||!els.length)return;
+document.documentElement.classList.add('ocb-anim-ready');
+els.forEach(function(e,i){e.classList.add('ocb-rv');e.style.transitionDelay=Math.min((i%6)*70,350)+'ms'});
+var io=new IntersectionObserver(function(en){en.forEach(function(x){if(x.isIntersecting){x.target.classList.add('ocb-in');io.unobserve(x.target)}})},{threshold:.12,rootMargin:'0px 0px -8% 0px'});
+els.forEach(function(e){io.observe(e)});
+}catch(e){}})();
+</script></div>

@@ -1,0 +1,197 @@
+<div data-rt-embed-type='true'><style>
+.ocb{--ink:#0f172a;--muted:#64748b;--line:#e5e7eb;--soft:#f8fafc;--brand:#8B0000;--brand2:#5c0000;--gold:#fbbc04;font-family:'Mulish',Inter,system-ui,sans-serif;color:var(--ink)}
+.ocb *{box-sizing:border-box}
+.ocb-card{border:1px solid var(--line);border-radius:18px;background:#fff;box-shadow:0 10px 30px rgba(2,6,23,.06);padding:22px;margin:26px 0}
+.ocb-eyebrow{display:inline-block;background:rgba(139,0,0,.08);color:var(--brand2);border:1px solid rgba(139,0,0,.2);border-radius:999px;padding:5px 12px;font-size:12.5px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;margin-bottom:10px}
+.ocb-chips{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0 0}
+.ocb-chip{background:var(--soft);border:1px solid var(--line);border-radius:999px;padding:6px 12px;font-size:13.6px;font-weight:700}
+.ocb-table{width:100%;border-collapse:collapse;font-size:15.2px}
+.ocb-table th,.ocb-table td{padding:11px 10px;text-align:left;border-bottom:1px solid var(--line)}
+.ocb-table th{background:var(--soft);font-weight:800;font-size:13.6px;letter-spacing:.02em}
+.ocb-table tr:last-child td{border-bottom:0}
+.ocb-table td strong{color:var(--brand2)}
+.ocb-2col{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media(max-width:680px){.ocb-2col{grid-template-columns:1fr}}
+.ocb-check{list-style:none;padding:0;margin:10px 0 0}
+.ocb-check li{padding-left:26px;position:relative;margin:7px 0;line-height:1.55}
+.ocb-check li:before{content:"✓";position:absolute;left:0;color:var(--brand);font-weight:900}
+.ocb-x li:before{content:"✕";color:#94a3b8}
+html body .post-body .ocb-facts, .ocb-facts{display:grid!important;grid-template-columns:repeat(3,1fr)!important;gap:12px!important;margin:8px 0!important}
+@media(max-width:680px){html body .post-body .ocb-facts, .ocb-facts{grid-template-columns:1fr!important}}
+.ocb-fact{background:linear-gradient(180deg,#fff,#f8fafc);border:1px solid var(--line);border-radius:16px;padding:16px}
+.ocb-fact .n{font-size:24px;font-weight:900;color:var(--brand2);display:block;margin-bottom:4px}
+html body .post-body .ocb-fact p, .ocb-fact p{margin:0!important;font-size:14.7px!important;color:#334155!important;line-height:1.5!important}
+
+.ocb-card,.ocb-fact,.ocb-tri{transition:transform .28s ease,box-shadow .28s ease}
+.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:translateY(-4px);box-shadow:0 16px 40px rgba(2,6,23,.12)}
+.faq-item{transition:border-color .25s,box-shadow .25s}
+.faq-item:hover{border-color:rgba(139,0,0,.35);box-shadow:0 6px 18px rgba(2,6,23,.07)}
+.ocb-chip{display:inline-flex;align-items:center;gap:6px;transition:transform .2s,border-color .2s}
+.ocb-chip:hover{transform:translateY(-2px);border-color:rgba(139,0,0,.35)}
+.ocb-chip svg{color:#8B0000}
+.ocb-cta a{transition:transform .22s,box-shadow .22s}
+.ocb-cta a:hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(0,0,0,.25)}
+.ocb-fact .n{position:relative}
+html.ocb-anim-ready .ocb-rv{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
+html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){html.ocb-anim-ready .ocb-rv{opacity:1!important;transform:none!important;transition:none!important}.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:none}}
+
+/* Chip icons. Webflow's rich-text sanitizer strips inline <svg> whenever a post is
+   re-saved in the Editor, so the icons are drawn from CSS on a <span> instead. */
+.ocb-ic{display:inline-block;width:15px;height:15px;flex:0 0 auto;vertical-align:-2px;background-repeat:no-repeat;background-position:center;background-size:contain}
+.ocb-ic-pin{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z'/><circle cx='12' cy='10' r='3'/></svg>")}
+.ocb-ic-home{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z'/><polyline points='9 22 9 12 15 12 15 22'/></svg>")}
+.ocb-ic-phone{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z'/></svg>")}
+.ocb-cta .ocb-ic{filter:brightness(0) saturate(100%) invert(9%) sepia(64%) saturate(4000%) hue-rotate(348deg)}
+</style></div>
+
+<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">December 10, 2026</span></div></div>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
+  <span class="ocb-eyebrow">Quick answer</span>
+  <p style="margin:0;font-size:17.9px;line-height:1.65"><strong>Carpet is not automatically the enemy of allergies &mdash; old, neglected carpet is.</strong> A dense, low-pile carpet that gets vacuumed with a sealed HEPA machine and professionally hot-water extracted on schedule holds dust down at floor level instead of letting every footstep launch it. That said, we install both carpet and hard flooring, so we will also tell you the honest other half: for severe dust-mite allergies and asthma, bare floors you can damp-mop still win. Here is what actually helps, what is marketing, and how to tell which household you are.</p>
+  <div class="ocb-chips">
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-pin"></span> King &amp; Snohomish County</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-home"></span> Lynnwood homes &amp; ramblers</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-phone"></span> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
+  </div>
+</div></div>
+
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-facts">
+  <div class="ocb-fact"><span class="n">Low &amp; dense</span><p>the allergy-friendly spec in two words. A short, tightly packed pile gives dust, dander and pollen less room to burrow, releases more of it to the vacuum, and dries fast after cleaning. Deep plush is the wrong tool for this job.</p></div>
+  <div class="ocb-fact"><span class="n">12&ndash;18 months</span><p>the professional hot-water extraction cadence we recommend &mdash; sooner in allergy households. It is the deep reset a vacuum cannot do, and most carpet warranties quietly require it anyway.</p></div>
+  <div class="ocb-fact"><span class="n">From $1.49/sq ft</span><p>installed carpet with us, pad and labor included. Replacing a fifteen-year-old carpet that no cleaning can save is often the single biggest air-quality upgrade in the house.</p></div>
+</div></div></div>
+
+<h2>Where the "Carpet Is Bad for Allergies" Idea Comes From</h2>
+
+<p>The core fact is true: carpet holds dust. Fibers catch dander, pollen, dust-mite debris and everything the door lets in, and a hard floor holds almost none of it. The leap people make from there &mdash; carpet must therefore be worse for the allergic &mdash; is where it gets messier, because held dust is not the same thing as breathed dust. On a hard floor, the same particles sit loose on the surface, and every footstep, air vent and closing door puts them back into the air at nose height. Carpet acts more like a filter: it grabs particles and keeps them at floor level until something removes them.</p>
+
+<p>The catch &mdash; and this is the honest hinge of the whole article &mdash; is that a filter only works if it gets emptied. Vacuumed regularly with a machine that actually contains what it collects, and deep-cleaned on schedule, carpet keeps allergens out of the breathing zone remarkably well. Neglected, it becomes exactly what the myth says: a reservoir that re-releases a little of its collection with every step. So the real question is not carpet versus no carpet. It is whether the carpet in question is the right construction, and whether it will actually be maintained.</p>
+
+<h2>The Spec That Helps: Short, Tight, Synthetic</h2>
+
+<p>If allergies are in the household, the carpet aisle sorts itself fast. You want a <strong>low pile</strong> &mdash; short fibers hold less, release more to the vacuum, and dry quickly after cleaning, which matters because damp carpet is what dust mites and mildew actually want. You want it <strong>dense</strong>, with fibers packed tightly enough that debris stays up near the surface where the vacuum can reach it instead of sifting to the backing. We walk through the trade-offs in <a href="/blog/low-pile-vs-high-pile-carpet">low pile versus high pile</a>, and allergy households are the clearest case that guide has: short wins. You want a <strong>solution-dyed synthetic</strong> fiber &mdash; nylon or triexta &mdash; that shrugs off the aggressive, frequent cleaning this plan requires. And the <strong>pad</strong> underneath should be a quality pad with a moisture barrier, fresh, never reused from the old floor; <a href="/blog/carpet-padding-thickness">the padding guide</a> explains why the old pad is non-negotiable to us: it holds fifteen years of exactly what you are trying to get out of the house.</p>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-card">
+  <h3 style="margin:0 0 10px;font-size:18.5px;font-weight:900;color:#5c0000">The Allergy-Conscious Carpet Spec</h3>
+  <div style="overflow-x:auto"><table class="ocb-table">
+    <tr><th>Decision</th><th>Choose</th><th>Why it matters</th></tr>
+    <tr><td><strong>Pile height</strong></td><td>Low</td><td>Less depth for allergens to hide in, better vacuum extraction, faster drying after cleaning</td></tr>
+    <tr><td><strong>Density</strong></td><td>High &mdash; tight and firm</td><td>Keeps debris near the surface where the vacuum reaches instead of down at the backing</td></tr>
+    <tr><td><strong>Fiber</strong></td><td>Solution-dyed nylon or triexta</td><td>Survives frequent hot-water extraction and strong cleaning without fading or matting</td></tr>
+    <tr><td><strong>Style</strong></td><td>Cut pile, textured</td><td>Simple surfaces clean predictably; avoid deep plush and shag categorically</td></tr>
+    <tr><td><strong>Pad</strong></td><td>Quality, moisture-barrier, always new</td><td>The old pad is a fifteen-year archive of dust and dander &mdash; it leaves with the old carpet</td></tr>
+    <tr><td><strong>Installation</strong></td><td>Power-stretched, sealed seams</td><td>Tight carpet wears evenly and vacuums cleanly; a proper install is part of the health story</td></tr>
+    <tr><td><strong>Rooms</strong></td><td>Bedrooms and living areas &mdash; not damp ones</td><td>Skip carpet in bathrooms, laundry and any basement with moisture history</td></tr>
+  </table></div>
+</div></div>
+
+<h2>The Vacuum Matters More Than the Carpet</h2>
+
+<p>Here is the part no carpet label will tell you: the machine matters as much as the floor. A cheap vacuum with leaky seals inhales dust at the floor and exhales the finest fraction of it at chest height &mdash; you can smell it working, which is exactly the problem. The allergy-household spec is a <strong>sealed-body vacuum with a HEPA filter</strong>, meaning the air that comes out actually went through the filter. Use it slowly &mdash; the beater bar needs time to lift pile and the airflow needs time to pull &mdash; twice a week in the rooms that get lived in, once a week everywhere else. Empty it outside. That is the whole regimen, and it does more for the air in the house than the choice between two decent carpets ever will.</p>
+
+<h2>Hot-Water Extraction: The Deep Reset</h2>
+
+<p>Vacuuming manages the surface; it cannot reach what settles into the base of the pile over months. That is what professional hot-water extraction is for &mdash; hot water and extraction pressure flush the pile down to the backing and pull the water, and the accumulated load, back out. Every 12&ndash;18 months is the standard cadence, yearly in an allergy household, and it is worth doing right: the machine matters here too, because water left behind is its own problem. A properly extracted carpet is dry to the touch the same day. Skip the rental-machine shampooers that soak the pad &mdash; a soaked pad in a Pacific Northwest winter takes days to dry, and damp is the one condition that makes carpet genuinely worse for allergies instead of better.</p>
+
+<h2>When Hard Floors Genuinely Win</h2>
+
+<p>We sell carpet, and this section stays in the article anyway. If someone in the house has <strong>severe dust-mite allergy or dust-driven asthma</strong> &mdash; the kind managed with medication and an allergist rather than a spring sneeze &mdash; most allergists will tell you to remove the carpet from at least the bedroom, and they are right. Mites live where skin flakes and warmth and humidity meet, and a mattress plus carpet is their whole habitat; a bare floor you can damp-mop, plus washable rugs, takes the floor half of that habitat away entirely. The same logic applies to <strong>damp rooms</strong> &mdash; below-grade basements with moisture history, bathrooms, laundry &mdash; where carpet holds humidity against the slab. And in heavy-shedding pet households where dander is the trigger, hard floors with washable rugs are simply easier to keep truly clean; we compare the options honestly in <a href="/blog/pet-friendly-allergy-friendly-flooring-seattle">allergy-friendly flooring for Seattle homes</a> and <a href="/blog/what-is-the-best-flooring-for-kids-pets">the best flooring for kids and pets</a>.</p>
+
+<p>For everyone else &mdash; the seasonal sneezers, the mild-to-moderate households, the families who want warm quiet bedrooms without a health debate &mdash; the evidence does not support ripping out carpet on principle. It supports choosing the right carpet, maintaining it like you mean it, and putting it in the right rooms. The <a href="/blog/carpet-vs-hardwood-room-by-room">room-by-room comparison</a> is how we usually frame that decision at the kitchen table.</p>
+
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-2col">
+  <div class="ocb-card" style="margin:0">
+    <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#5c0000">What actually moves the needle</h3>
+    <ul class="ocb-check">
+      <li>Dense, low-pile carpet in a solution-dyed synthetic fiber</li>
+      <li>A sealed HEPA vacuum, used slowly, twice a week</li>
+      <li>Professional hot-water extraction every 12&ndash;18 months</li>
+      <li>A new moisture-barrier pad &mdash; never reusing the old one</li>
+      <li>Shoes off at the door; entry mats that get washed</li>
+      <li>Replacing carpet that is past cleaning &mdash; age is the real enemy</li>
+    </ul>
+  </div>
+  <div class="ocb-card" style="margin:0">
+    <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#334155">What is mostly marketing or myth</h3>
+    <ul class="ocb-check ocb-x">
+      <li>"Hypoallergenic carpet" as a label &mdash; construction and upkeep do the work</li>
+      <li>"Carpet is always worse for allergies" &mdash; not what the research shows for maintained carpet</li>
+      <li>Anti-allergen sprays as a substitute for extraction</li>
+      <li>Rental shampooers that soak the pad and call it clean</li>
+      <li>Blaming fiber choice when the vacuum leaks dust at chest height</li>
+      <li>Keeping the old pad because "it still looks fine"</li>
+    </ul>
+  </div>
+</div></div></div>
+
+<h2>The Lynnwood Angle: Old Carpet Is the Real Culprit</h2>
+
+<p>A lot of what we replace in Lynnwood is original or near-original carpet in the 1960s and 70s ramblers and split-levels between Highway 99 and the interurban &mdash; carpet that has been collecting since a previous owner's dog, faithfully vacuumed but decades past what any cleaning can reset. When a household's allergies improve after we recarpet, it is rarely because the new fiber is magic; it is because twenty years of accumulation left the house in a trailer, old pad included. If your carpet is of that vintage, <a href="/blog/how-long-does-carpet-last">how long carpet lasts</a> will help you date it honestly. When it is time, the mobile showroom brings twenty-plus samples and all three pad grades to your door &mdash; dense low-pile options flagged, in your own light &mdash; with a measure and a written price the same visit. Details on the <a href="/city-of-lynnwood/carpet-installation-in-lynnwood-wa">Lynnwood carpet installation page</a>.</p>
+
+<div data-rt-embed-type='true'><!-- FAQ accordion + JSON-LD -->
+<div class="faq-wrap ocb" aria-labelledby="faq-title">
+  <h2 id="faq-title" class="faq-title">Carpet and Allergies: What Homeowners Ask Us</h2>
+  <div class="faq-items" role="list">
+    <details class="faq-item" role="listitem"><summary class="faq-q">Is carpet bad for allergies?</summary><div class="faq-a">Not automatically. Carpet holds dust rather than letting it recirculate — which is a benefit when the carpet is vacuumed with a sealed HEPA machine and deep-cleaned on schedule, and a liability when it is not. For mild and moderate allergies, a dense low-pile carpet that is actually maintained is a defensible, comfortable choice. For severe dust-mite allergy or asthma, bare floors win, and we say so.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">What kind of carpet is best for allergy sufferers?</summary><div class="faq-a">Dense, low-pile, cut-pile carpet in a solution-dyed synthetic like nylon or triexta, over a new moisture-barrier pad. Short tight pile holds less, releases more to the vacuum, and dries fast after cleaning; solution-dyed fiber tolerates the frequent aggressive cleaning an allergy household should be doing. Deep plush and shag are the wrong direction entirely.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Does old carpet make allergies worse?</summary><div class="faq-a">This is the strongest carpet-allergy link there is. A carpet near the end of its life has accumulated more than any cleaning can extract, and the original pad under it has been absorbing dust, dander and moisture the whole time. If symptoms track with a carpet that is fifteen-plus years old, replacement — carpet and pad together — does more than any cleaning regimen can.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Do I need a special vacuum for allergies?</summary><div class="faq-a">You need a sealed-body vacuum with a HEPA filter — the sealed part matters as much as the filter, because a leaky machine exhausts fine dust back into the room at chest height. Vacuum slowly, twice a week in busy rooms, and empty it outdoors. The vacuum is the most underrated variable in this whole subject.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">How often should carpet be professionally cleaned in an allergy household?</summary><div class="faq-a">Hot-water extraction every 12 to 18 months as a baseline, yearly if allergies are active. It flushes the base of the pile where vacuums cannot reach. Done properly the carpet is dry the same day — avoid methods that soak the pad, because lingering damp is the one condition that genuinely turns carpet against you.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Should allergy sufferers remove carpet from the bedroom?</summary><div class="faq-a">If the diagnosis is significant dust-mite allergy or dust-triggered asthma, yes — that is allergist-standard advice and we will not argue with it: a damp-moppable floor plus washable rugs removes the floor half of the mite habitat. For milder seasonal allergies, a low-pile carpet with the full maintenance regimen is usually fine, and the bedroom warmth and quiet are real benefits too.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Is "hypoallergenic carpet" a real thing?</summary><div class="faq-a">It is a label, not a standard. What actually reduces allergen load is construction — density, pile height, fiber — plus pad choice and maintenance. A well-specced ordinary carpet that gets vacuumed and extracted beats a "hypoallergenic" plush that does not. Buy the spec, not the sticker.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Does replacing carpet help with allergies?</summary><div class="faq-a">When the existing carpet is old, frequently — replacement removes the accumulated load a tired carpet holds, and the old pad with it. We install from $1.49 per square foot including a fresh pad, and the tear-out and haul-away take the whole archive out of the house in a day. If your carpet is only a few years old, invest in the vacuum and the extraction first.</div></details>
+  </div>
+</div>
+
+<style>
+  .faq-wrap{--line:#e5e7eb;margin:28px auto;padding:20px;border:1px solid var(--line);border-radius:16px;background:#fff;box-shadow:0 8px 30px rgba(2,6,23,.06)}
+  .faq-title{margin:0 0 14px;font-size:24px;font-weight:900;text-align:center;color:#5c0000}
+  .faq-items{display:grid;gap:10px}
+  .faq-item{border:1px solid var(--line);border-radius:14px;background:#f9fafb;overflow:hidden}
+  .faq-q{cursor:pointer;display:block;padding:14px 16px;font-weight:800;color:#0f172a}
+  .faq-q::-webkit-details-marker{display:none}
+  .faq-item[open] .faq-q{background:linear-gradient(180deg, rgba(139,0,0,.08), rgba(139,0,0,.02))}
+  .faq-a{padding:0 16px 14px;color:#1f2937;line-height:1.6}
+</style>
+
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Is carpet bad for allergies?", "acceptedAnswer": {"@type": "Answer", "text": "Not automatically. Carpet holds dust rather than letting it recirculate — which is a benefit when the carpet is vacuumed with a sealed HEPA machine and deep-cleaned on schedule, and a liability when it is not. For mild and moderate allergies, a dense low-pile carpet that is actually maintained is a defensible, comfortable choice. For severe dust-mite allergy or asthma, bare floors win, and we say so."}}, {"@type": "Question", "name": "What kind of carpet is best for allergy sufferers?", "acceptedAnswer": {"@type": "Answer", "text": "Dense, low-pile, cut-pile carpet in a solution-dyed synthetic like nylon or triexta, over a new moisture-barrier pad. Short tight pile holds less, releases more to the vacuum, and dries fast after cleaning; solution-dyed fiber tolerates the frequent aggressive cleaning an allergy household should be doing. Deep plush and shag are the wrong direction entirely."}}, {"@type": "Question", "name": "Does old carpet make allergies worse?", "acceptedAnswer": {"@type": "Answer", "text": "This is the strongest carpet-allergy link there is. A carpet near the end of its life has accumulated more than any cleaning can extract, and the original pad under it has been absorbing dust, dander and moisture the whole time. If symptoms track with a carpet that is fifteen-plus years old, replacement — carpet and pad together — does more than any cleaning regimen can."}}, {"@type": "Question", "name": "Do I need a special vacuum for allergies?", "acceptedAnswer": {"@type": "Answer", "text": "You need a sealed-body vacuum with a HEPA filter — the sealed part matters as much as the filter, because a leaky machine exhausts fine dust back into the room at chest height. Vacuum slowly, twice a week in busy rooms, and empty it outdoors. The vacuum is the most underrated variable in this whole subject."}}, {"@type": "Question", "name": "How often should carpet be professionally cleaned in an allergy household?", "acceptedAnswer": {"@type": "Answer", "text": "Hot-water extraction every 12 to 18 months as a baseline, yearly if allergies are active. It flushes the base of the pile where vacuums cannot reach. Done properly the carpet is dry the same day — avoid methods that soak the pad, because lingering damp is the one condition that genuinely turns carpet against you."}}, {"@type": "Question", "name": "Should allergy sufferers remove carpet from the bedroom?", "acceptedAnswer": {"@type": "Answer", "text": "If the diagnosis is significant dust-mite allergy or dust-triggered asthma, yes — that is allergist-standard advice and we will not argue with it: a damp-moppable floor plus washable rugs removes the floor half of the mite habitat. For milder seasonal allergies, a low-pile carpet with the full maintenance regimen is usually fine, and the bedroom warmth and quiet are real benefits too."}}, {"@type": "Question", "name": "Is \"hypoallergenic carpet\" a real thing?", "acceptedAnswer": {"@type": "Answer", "text": "It is a label, not a standard. What actually reduces allergen load is construction — density, pile height, fiber — plus pad choice and maintenance. A well-specced ordinary carpet that gets vacuumed and extracted beats a \"hypoallergenic\" plush that does not. Buy the spec, not the sticker."}}, {"@type": "Question", "name": "Does replacing carpet help with allergies?", "acceptedAnswer": {"@type": "Answer", "text": "When the existing carpet is old, frequently — replacement removes the accumulated load a tired carpet holds, and the old pad with it. We install from $1.49 per square foot including a fresh pad, and the tear-out and haul-away take the whole archive out of the house in a day. If your carpet is only a few years old, invest in the vacuum and the extraction first."}}]}
+</script></div>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-cta" style="margin:30px 0">
+  <style>
+    html body .post-body .ocb-cta h2, .ocb-cta h2{color:#fff!important}
+    html body .post-body .ocb-cta .ocb-cta-sub, .ocb-cta .ocb-cta-sub{color:rgba(255,255,255,.88)!important}
+    html body .post-body .ocb-cta .ocb-cta-chips span, .ocb-cta .ocb-cta-chips span{color:rgba(255,255,255,.94)!important}
+    html body .post-body .ocb-cta a.ocb-cta-ghost, .ocb-cta a.ocb-cta-ghost{color:#fff!important;text-decoration:none!important}
+    html body .post-body .ocb-cta a.ocb-cta-gold, .ocb-cta a.ocb-cta-gold{color:#fbbc04!important}
+    html body .post-body .ocb-cta a.ocb-cta-phone, .ocb-cta a.ocb-cta-phone{color:#5c0000!important;text-decoration:none!important}
+  </style>
+  <div style="background:linear-gradient(135deg,#8B0000,#5c0000);border-radius:20px;padding:28px 24px;color:#fff;text-align:center;box-shadow:0 14px 34px rgba(92,0,0,.3)">
+    <h2 style="margin:0 0 6px;color:#fff!important;font-size:24px;font-weight:900">Breathe Easier About the Decision, at Least</h2>
+    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.92)!important;font-size:16.3px">We install carpet and hard floors both, so you get a straight answer about which your household needs &mdash; including "keep the carpet, fix the vacuum." Twenty-plus samples and all three pad grades come to your Lynnwood home, with a measure and a written price the same visit. Free estimates across King &amp; Snohomish County.</p>
+    <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
+      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff!important;color:#5c0000!important;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none!important"><span class="ocb-ic ocb-ic-phone"></span> (425) 595-1079</a>
+      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.16)!important;border:1px solid rgba(255,255,255,.55);color:#fff!important;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none!important">Book My Free Consultation</a>
+    </div>
+    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.95)!important">
+      <span>✓ Since 2013</span><span>✓ 1,000+ floors</span><span>✓ 1-yr workmanship warranty</span><span>✓ Licensed &amp; insured</span><span>✓ Financing available</span>
+    </div>
+    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04!important;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
+  </div>
+</div></div>
+
+<p><strong>Related reading:</strong> <a href="/blog/pet-friendly-allergy-friendly-flooring-seattle">Allergy-friendly flooring options</a> · <a href="/blog/low-pile-vs-high-pile-carpet">Low pile vs high pile carpet</a> · <a href="/blog/carpet-padding-thickness">Carpet padding, explained</a> · <a href="/blog/carpet-vs-hardwood-room-by-room">Carpet or hardwood, room by room</a> · <a href="/city-of-lynnwood/carpet-installation-in-lynnwood-wa">Carpet installation in Lynnwood</a> · <a href="/contact">Book a free estimate</a></p>
+
+<div data-rt-embed-type='true'><script>
+(function(){try{
+var els=document.querySelectorAll('.ocb-card,.ocb-fact,.ocb-tri,.faq-item');
+if(!('IntersectionObserver' in window)||!els.length)return;
+document.documentElement.classList.add('ocb-anim-ready');
+els.forEach(function(e,i){e.classList.add('ocb-rv');e.style.transitionDelay=Math.min((i%6)*70,350)+'ms'});
+var io=new IntersectionObserver(function(en){en.forEach(function(x){if(x.isIntersecting){x.target.classList.add('ocb-in');io.unobserve(x.target)}})},{threshold:.12,rootMargin:'0px 0px -8% 0px'});
+els.forEach(function(e){io.observe(e)});
+}catch(e){}})();
+</script></div>

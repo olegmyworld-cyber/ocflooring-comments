@@ -1,0 +1,196 @@
+<div data-rt-embed-type='true'><style>
+.ocb{--ink:#0f172a;--muted:#64748b;--line:#e5e7eb;--soft:#f8fafc;--brand:#8B0000;--brand2:#5c0000;--gold:#fbbc04;font-family:'Mulish',Inter,system-ui,sans-serif;color:var(--ink)}
+.ocb *{box-sizing:border-box}
+.ocb-card{border:1px solid var(--line);border-radius:18px;background:#fff;box-shadow:0 10px 30px rgba(2,6,23,.06);padding:22px;margin:26px 0}
+.ocb-eyebrow{display:inline-block;background:rgba(139,0,0,.08);color:var(--brand2);border:1px solid rgba(139,0,0,.2);border-radius:999px;padding:5px 12px;font-size:12.5px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;margin-bottom:10px}
+.ocb-chips{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0 0}
+.ocb-chip{background:var(--soft);border:1px solid var(--line);border-radius:999px;padding:6px 12px;font-size:13.6px;font-weight:700}
+.ocb-table{width:100%;border-collapse:collapse;font-size:15.2px}
+.ocb-table th,.ocb-table td{padding:11px 10px;text-align:left;border-bottom:1px solid var(--line)}
+.ocb-table th{background:var(--soft);font-weight:800;font-size:13.6px;letter-spacing:.02em}
+.ocb-table tr:last-child td{border-bottom:0}
+.ocb-table td strong{color:var(--brand2)}
+.ocb-2col{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media(max-width:680px){.ocb-2col{grid-template-columns:1fr}}
+.ocb-check{list-style:none;padding:0;margin:10px 0 0}
+.ocb-check li{padding-left:26px;position:relative;margin:7px 0;line-height:1.55}
+.ocb-check li:before{content:"✓";position:absolute;left:0;color:var(--brand);font-weight:900}
+.ocb-x li:before{content:"✕";color:#94a3b8}
+html body .post-body .ocb-facts, .ocb-facts{display:grid!important;grid-template-columns:repeat(3,1fr)!important;gap:12px!important;margin:8px 0!important}
+@media(max-width:680px){html body .post-body .ocb-facts, .ocb-facts{grid-template-columns:1fr!important}}
+.ocb-fact{background:linear-gradient(180deg,#fff,#f8fafc);border:1px solid var(--line);border-radius:16px;padding:16px}
+.ocb-fact .n{font-size:24px;font-weight:900;color:var(--brand2);display:block;margin-bottom:4px}
+html body .post-body .ocb-fact p, .ocb-fact p{margin:0!important;font-size:14.7px!important;color:#334155!important;line-height:1.5!important}
+
+.ocb-card,.ocb-fact,.ocb-tri{transition:transform .28s ease,box-shadow .28s ease}
+.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:translateY(-4px);box-shadow:0 16px 40px rgba(2,6,23,.12)}
+.faq-item{transition:border-color .25s,box-shadow .25s}
+.faq-item:hover{border-color:rgba(139,0,0,.35);box-shadow:0 6px 18px rgba(2,6,23,.07)}
+.ocb-chip{display:inline-flex;align-items:center;gap:6px;transition:transform .2s,border-color .2s}
+.ocb-chip:hover{transform:translateY(-2px);border-color:rgba(139,0,0,.35)}
+.ocb-chip svg{color:#8B0000}
+.ocb-cta a{transition:transform .22s,box-shadow .22s}
+.ocb-cta a:hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(0,0,0,.25)}
+.ocb-fact .n{position:relative}
+html.ocb-anim-ready .ocb-rv{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
+html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){html.ocb-anim-ready .ocb-rv{opacity:1!important;transform:none!important;transition:none!important}.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:none}}
+
+/* Chip icons. Webflow's rich-text sanitizer strips inline <svg> whenever a post is
+   re-saved in the Editor, so the icons are drawn from CSS on a <span> instead. */
+.ocb-ic{display:inline-block;width:15px;height:15px;flex:0 0 auto;vertical-align:-2px;background-repeat:no-repeat;background-position:center;background-size:contain}
+.ocb-ic-pin{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z'/><circle cx='12' cy='10' r='3'/></svg>")}
+.ocb-ic-home{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z'/><polyline points='9 22 9 12 15 12 15 22'/></svg>")}
+.ocb-ic-phone{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z'/></svg>")}
+.ocb-cta .ocb-ic{filter:brightness(0) saturate(100%) invert(9%) sepia(64%) saturate(4000%) hue-rotate(348deg)}
+</style></div>
+
+<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">December 15, 2026</span></div></div>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
+  <span class="ocb-eyebrow">Quick answer</span>
+  <p style="margin:0;font-size:17.9px;line-height:1.65"><strong>A mudroom floor is the hardest-working surface in the house, and tile is the only material that takes the full job description without complaint: boots, wet dogs, dropped gear, standing water, and cleaning aggressive enough to actually remove trail mud.</strong> The right build is a textured porcelain with a real wet slip rating, in a mid-to-dark tone with enough variation to hide a week of paw prints, over a bonded waterproofing membrane, with dark sealed grout and silicone at the edges. Add an electric heating mat and the room also dries the boots. Installed tile runs $14&ndash;$26 per square foot with labor from $11/sq ft &mdash; and in a trailhead town, no floor earns its keep faster.</p>
+  <div class="ocb-chips">
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-pin"></span> King &amp; Snohomish County</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-home"></span> Issaquah homes</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-phone"></span> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
+  </div>
+</div></div>
+
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-facts">
+  <div class="ocb-fact"><span class="n">0.42</span><p>the minimum wet DCOF (dynamic coefficient of friction) the tile industry sets for level interior floors that get wet. For a mudroom we treat it as the floor of the spec, not the ceiling &mdash; texture is traction.</p></div>
+  <div class="ocb-fact"><span class="n">$14&ndash;$26</span><p>per square foot installed, labor from $11/sq ft. Mudrooms are small, so the full build &mdash; membrane, textured porcelain, dark grout, heat mat if you want it &mdash; stays a modest project.</p></div>
+  <div class="ocb-fact"><span class="n">2 years</span><p>our warranty on tile work. A mudroom is the abuse test of the house, which is why the substrate prep and edge details get the same treatment as a bathroom, not less.</p></div>
+</div></div></div>
+
+<h2>What a Mudroom Floor Actually Endures</h2>
+
+<p>Design magazines treat the mudroom as a styling exercise &mdash; cubbies, hooks, a cute bench. The floor sees it differently. It takes lug soles carrying pounds of wet grit, a dog shaking off a creek, cleats and ski boots that would gouge hardwood in an afternoon, and puddles that sit for hours because everyone walked away. Twice a year somebody hoses off something directly over it. The cleaning it needs is not a damp mop; it is a scrub brush and a bucket, monthly, all winter.</p>
+
+<p>That job description eliminates most floors immediately. Hardwood is out &mdash; water and grit are its two mortal enemies, and a mudroom supplies both daily. Laminate fails at the seams the first wet winter. Luxury vinyl is the one honest competitor: waterproof and comfortable, but its softer wear layer scratches under embedded grit, and a decade of lug soles and dog claws will show. Porcelain tile does not care &mdash; the surface is harder than the grit that rides in on the boots, which is the whole argument. How porcelain earns that hardness over ceramic is covered in <a href="/blog/porcelain-vs-ceramic-tile">porcelain vs ceramic</a>.</p>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-card">
+  <h3 style="margin:0 0 10px;font-size:18.5px;font-weight:900;color:#5c0000">Mudroom Floor Options, Honestly Compared</h3>
+  <div style="overflow-x:auto"><table class="ocb-table">
+    <tr><th>Floor</th><th>Verdict</th><th>The honest trade-off</th></tr>
+    <tr><td><strong>Textured porcelain tile</strong></td><td>The benchmark</td><td>Immune to water, grit, claws, and scrubbing; hard and cold underfoot &mdash; which a heat mat fixes</td></tr>
+    <tr><td><strong>Luxury vinyl plank</strong></td><td>The runner-up</td><td>Waterproof and warmer underfoot, but the wear layer scratches under grit and shows a hard decade</td></tr>
+    <tr><td><strong>Sealed concrete</strong></td><td>Fine in a garage-entry</td><td>Tough and cheap if the slab is already there; cold, unforgiving, and the sealer needs renewal</td></tr>
+    <tr><td><strong>Laminate</strong></td><td>No</td><td>Swells at the seams the first winter a puddle sits overnight</td></tr>
+    <tr><td><strong>Hardwood</strong></td><td>No</td><td>Water and grit are the two things that kill wood floors, and a mudroom supplies both daily</td></tr>
+    <tr><td><strong>Carpet</strong></td><td>No</td><td>A mudroom carpet is a mud filter you cannot wash</td></tr>
+  </table></div>
+</div></div>
+
+<h2>Slip Resistance: The Spec That Protects People and Dogs</h2>
+
+<p>The tile industry measures slip resistance as wet DCOF &mdash; dynamic coefficient of friction &mdash; and the standard for level interior floors that get wet is a minimum of 0.42. For a mudroom, treat that number as the entry requirement, not the goal. This is a room where someone crosses wet tile in socks carrying a laundry basket, where a kid comes through the door at a run, and where the water is not an accident but the normal operating condition from October to May.</p>
+
+<p>Three choices stack the odds in your favor. <strong>Surface:</strong> a textured or structured matte finish &mdash; the slightly sandy-feeling glazes made for wet areas &mdash; and never a polished surface. <strong>Format:</strong> smaller tiles mean more grout lines, and grout joints act like tread on a tire; a 12&times;12 or even mosaic-scale floor grips meaningfully better than a big slick plank. <strong>Grout joints themselves:</strong> keep them at full width rather than credit-card tight. Dogs feel this more than people &mdash; claws find nothing to hold on smooth tile, and a big dog cornering on polished porcelain is a cartoon; on textured tile with real grout lines, traction returns. The same reasoning applies wherever animals live on hard floors, which is why it shows up in <a href="/blog/what-is-the-best-flooring-for-kids-pets">the best flooring for kids and pets</a> too.</p>
+
+<h2>The Build: Same Discipline as a Wet Room</h2>
+
+<p>We build a mudroom floor the way we build a <a href="/blog/laundry-room-tile">laundry room</a>, because it faces the same water with more grit on top. A bonded waterproofing membrane goes under the whole floor &mdash; grout is not waterproof, and the subfloor under the boot bench should never find that out the hard way. The membrane turns up the wall behind the baseboard, the perimeter gets silicone instead of grout, and if the mudroom connects to the garage or the yard through a step-down, a raised threshold keeps the melt-water in the room that was built for it.</p>
+
+<p>Two upgrades are worth deciding while the floor is open, because neither can be added later. <strong>A tile wainscot or curb</strong> where the dog gets toweled off and the boots get stacked &mdash; eight to twelve inches of tile up the wall turns the splash zone into a surface you can wipe instead of repaint. And <strong>a floor drain</strong>, if the room sits over a crawlspace where a line can be run: a mudroom that can be hosed toward a drain is a different quality of life in a muddy town. Both are small money during the build and renovation-scale money after it.</p>
+
+<h2>The Heated-Floor Option Is Better Here Than Anywhere</h2>
+
+<p>An electric heating mat under mudroom tile does two jobs. The obvious one is comfort &mdash; the room stops being the cold airlock of the house. The better one is drying: a gently warm floor pulls the moisture out of boots overnight and dries the puddles and paw prints before they get tracked inward, which in practice means the room stays cleaner with zero extra effort. Mudrooms are small, so the mat, thermostat, and electrician visit stay modest &mdash; the same cost logic we priced out for <a href="/blog/heated-bathroom-floor-cost">heated bathroom floors</a>, applied to the room where wet stuff actually accumulates. On a programmable thermostat that runs mornings and evenings in the wet season, the operating cost is small; the luxury-per-dollar ratio is the best in the house.</p>
+
+<h2>Mudrooms in a Trailhead Town</h2>
+
+<p>Issaquah is where the mudroom stops being theoretical. This is a town that lives at the bottom of its trails &mdash; Tiger, Squak, and Cougar Mountain mud comes home on boots and paws twelve months a year, Poo Poo Point hikers track through by the thousand, and half the garages hold mountain bikes that get hosed off in the driveway. The newer construction in the Highlands mostly ships with a real mudroom off the garage &mdash; usually floored in builder-grade something that this article is quietly about replacing. The older homes in the valley and on the plateau edge often have a back-door landing begging to be converted into one.</p>
+
+<p>Either way, the project is the same: a small, tough, waterproofed tile room between the outside and the floors you care about. We build them across Issaquah &mdash; floor, wainscot, drain, heat mat, the whole airlock &mdash; and the entry-side version of the same thinking is in <a href="/blog/entryway-tile-pacific-northwest">entryway tile for Pacific Northwest winters</a>. Scope and scheduling are on our <a href="/city-of-issaquah/tile-installation-in-issaquah-wa">Issaquah tile installation page</a>.</p>
+
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-2col">
+  <div class="ocb-card" style="margin:0">
+    <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#5c0000">Our mudroom spec</h3>
+    <ul class="ocb-check">
+      <li>Textured matte porcelain, wet DCOF 0.42 or better</li>
+      <li>Small-to-medium format &mdash; grout lines are tread</li>
+      <li>Mid-to-dark tile with variation; dark sealed grout</li>
+      <li>Bonded waterproofing membrane, turned up the walls</li>
+      <li>Silicone at the perimeter; raised threshold at interior doors</li>
+      <li>Heat mat under the tile; floor drain where framing allows</li>
+    </ul>
+  </div>
+  <div class="ocb-card" style="margin:0">
+    <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#334155">What we talk people out of</h3>
+    <ul class="ocb-check ocb-x">
+      <li>Polished porcelain &mdash; a wet slide for people and dogs</li>
+      <li>Large slick planks with hairline grout joints</li>
+      <li>White grout in the muddiest room of the house</li>
+      <li>Skipping the membrane because "it is not a bathroom"</li>
+      <li>Grouting the floor-to-wall joint that will crack by spring</li>
+      <li>Hardwood or laminate, however good it looks in the catalog</li>
+    </ul>
+  </div>
+</div></div></div>
+
+<div data-rt-embed-type='true'><!-- FAQ accordion + JSON-LD -->
+<div class="faq-wrap ocb" aria-labelledby="faq-title">
+  <h2 id="faq-title" class="faq-title">Mudroom Tile: What Homeowners Ask Us</h2>
+  <div class="faq-items" role="list">
+    <details class="faq-item" role="listitem"><summary class="faq-q">What is the best tile for a mudroom?</summary><div class="faq-a">A textured matte porcelain with a wet DCOF rating of 0.42 or better, in a small-to-medium format and a mid-to-dark color with visual variation. Porcelain because its surface is harder than the grit that comes in on boots; textured and small-format because grip matters in a room that is wet by design; mid-to-dark and varied because the floor should hide a week of paw prints between scrubbings.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Is tile too slippery for a mudroom with dogs?</summary><div class="faq-a">Smooth tile is - claws get no purchase on a polished surface. The fix is specification, not avoidance: a structured matte glaze, smaller tiles with full-width grout joints that act like tread, and a walk-off mat at the door. Built that way, tile gives dogs better traction than most sealed hard floors, and it shrugs off the claws in return.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">What does it cost to tile a mudroom?</summary><div class="faq-a">The installed range is $14 to $26 per square foot with labor from $11, and mudrooms sit toward the top per foot because they are small, edge-heavy rooms with membrane and threshold details. Most complete mudroom floors land in the low four figures; a heat mat or wainscot adds modestly. Small room, big daily payoff.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Should a mudroom floor have a drain?</summary><div class="faq-a">If the room sits over a crawlspace or unfinished basement where a drain line can be run, it is one of the best upgrades available - a floor you can hose toward a drain changes how the room gets used. Over a slab or finished space it is usually not worth the surgery, and a membrane plus raised threshold does the containment work instead.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Is a heated floor worth it in a mudroom?</summary><div class="faq-a">It is arguably more useful here than in a bathroom. Warm tile dries boots overnight, evaporates puddles and paw prints before they travel, and takes the icebox feel off the back entry. The room is small, so the mat and thermostat stay affordable, and it cannot be added later without redoing the floor - decide during the build.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">What color grout should a mudroom have?</summary><div class="faq-a">Dark, and sealed - or epoxy if the budget allows. This is the muddiest room in the house; light grout is grey by Thanksgiving and never fully recovers. A grout close to the tile tone, one or two shades darker, hides the working week and still looks intentional.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Should the tile go up the wall in a mudroom?</summary><div class="faq-a">An eight-to-twelve-inch tile wainscot or cove base in the splash zones - behind the boot bench, where the dog gets dried, around any utility sink - turns cleanup from repainting into wiping. It costs little while the tile crew is already there and looks better with every year the room actually gets used.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Tile or luxury vinyl for a mudroom?</summary><div class="faq-a">Tile, if the room truly works for a living: LVP is waterproof but its wear layer scratches under embedded grit, and a decade of lug soles and claws will show. LVP is the reasonable budget answer for a light-duty mudroom, and we will say so when that is your situation. For a trailhead-town room with dogs, porcelain is the one that still looks right in year fifteen.</div></details>
+  </div>
+</div>
+
+<style>
+  .faq-wrap{--line:#e5e7eb;margin:28px auto;padding:20px;border:1px solid var(--line);border-radius:16px;background:#fff;box-shadow:0 8px 30px rgba(2,6,23,.06)}
+  .faq-title{margin:0 0 14px;font-size:24px;font-weight:900;text-align:center;color:#5c0000}
+  .faq-items{display:grid;gap:10px}
+  .faq-item{border:1px solid var(--line);border-radius:14px;background:#f9fafb;overflow:hidden}
+  .faq-q{cursor:pointer;display:block;padding:14px 16px;font-weight:800;color:#0f172a}
+  .faq-q::-webkit-details-marker{display:none}
+  .faq-item[open] .faq-q{background:linear-gradient(180deg, rgba(139,0,0,.08), rgba(139,0,0,.02))}
+  .faq-a{padding:0 16px 14px;color:#1f2937;line-height:1.6}
+</style>
+
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What is the best tile for a mudroom?", "acceptedAnswer": {"@type": "Answer", "text": "A textured matte porcelain with a wet DCOF rating of 0.42 or better, in a small-to-medium format and a mid-to-dark color with visual variation. Porcelain because its surface is harder than the grit that comes in on boots; textured and small-format because grip matters in a room that is wet by design; mid-to-dark and varied because the floor should hide a week of paw prints between scrubbings."}}, {"@type": "Question", "name": "Is tile too slippery for a mudroom with dogs?", "acceptedAnswer": {"@type": "Answer", "text": "Smooth tile is - claws get no purchase on a polished surface. The fix is specification, not avoidance: a structured matte glaze, smaller tiles with full-width grout joints that act like tread, and a walk-off mat at the door. Built that way, tile gives dogs better traction than most sealed hard floors, and it shrugs off the claws in return."}}, {"@type": "Question", "name": "What does it cost to tile a mudroom?", "acceptedAnswer": {"@type": "Answer", "text": "The installed range is $14 to $26 per square foot with labor from $11, and mudrooms sit toward the top per foot because they are small, edge-heavy rooms with membrane and threshold details. Most complete mudroom floors land in the low four figures; a heat mat or wainscot adds modestly. Small room, big daily payoff."}}, {"@type": "Question", "name": "Should a mudroom floor have a drain?", "acceptedAnswer": {"@type": "Answer", "text": "If the room sits over a crawlspace or unfinished basement where a drain line can be run, it is one of the best upgrades available - a floor you can hose toward a drain changes how the room gets used. Over a slab or finished space it is usually not worth the surgery, and a membrane plus raised threshold does the containment work instead."}}, {"@type": "Question", "name": "Is a heated floor worth it in a mudroom?", "acceptedAnswer": {"@type": "Answer", "text": "It is arguably more useful here than in a bathroom. Warm tile dries boots overnight, evaporates puddles and paw prints before they travel, and takes the icebox feel off the back entry. The room is small, so the mat and thermostat stay affordable, and it cannot be added later without redoing the floor - decide during the build."}}, {"@type": "Question", "name": "What color grout should a mudroom have?", "acceptedAnswer": {"@type": "Answer", "text": "Dark, and sealed - or epoxy if the budget allows. This is the muddiest room in the house; light grout is grey by Thanksgiving and never fully recovers. A grout close to the tile tone, one or two shades darker, hides the working week and still looks intentional."}}, {"@type": "Question", "name": "Should the tile go up the wall in a mudroom?", "acceptedAnswer": {"@type": "Answer", "text": "An eight-to-twelve-inch tile wainscot or cove base in the splash zones - behind the boot bench, where the dog gets dried, around any utility sink - turns cleanup from repainting into wiping. It costs little while the tile crew is already there and looks better with every year the room actually gets used."}}, {"@type": "Question", "name": "Tile or luxury vinyl for a mudroom?", "acceptedAnswer": {"@type": "Answer", "text": "Tile, if the room truly works for a living: LVP is waterproof but its wear layer scratches under embedded grit, and a decade of lug soles and claws will show. LVP is the reasonable budget answer for a light-duty mudroom, and we will say so when that is your situation. For a trailhead-town room with dogs, porcelain is the one that still looks right in year fifteen."}}]}
+</script></div>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-cta" style="margin:30px 0">
+  <style>
+    html body .post-body .ocb-cta h2, .ocb-cta h2{color:#fff!important}
+    html body .post-body .ocb-cta .ocb-cta-sub, .ocb-cta .ocb-cta-sub{color:rgba(255,255,255,.88)!important}
+    html body .post-body .ocb-cta .ocb-cta-chips span, .ocb-cta .ocb-cta-chips span{color:rgba(255,255,255,.94)!important}
+    html body .post-body .ocb-cta a.ocb-cta-ghost, .ocb-cta a.ocb-cta-ghost{color:#fff!important;text-decoration:none!important}
+    html body .post-body .ocb-cta a.ocb-cta-gold, .ocb-cta a.ocb-cta-gold{color:#fbbc04!important}
+    html body .post-body .ocb-cta a.ocb-cta-phone, .ocb-cta a.ocb-cta-phone{color:#5c0000!important;text-decoration:none!important}
+  </style>
+  <div style="background:linear-gradient(135deg,#8B0000,#5c0000);border-radius:20px;padding:28px 24px;color:#fff;text-align:center;box-shadow:0 14px 34px rgba(92,0,0,.3)">
+    <h2 style="margin:0 0 6px;color:#fff!important;font-size:24px;font-weight:900">Build the Airlock Your House Deserves</h2>
+    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.92)!important;font-size:16.3px">Boots, dogs, rain, and all &mdash; we will spec the tile, the membrane, the drain if your framing allows one, and the heat mat if you want warm boots, and put the whole number in writing. Free in-home estimates across King &amp; Snohomish County.</p>
+    <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
+      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff!important;color:#5c0000!important;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none!important"><span class="ocb-ic ocb-ic-phone"></span> (425) 595-1079</a>
+      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.16)!important;border:1px solid rgba(255,255,255,.55);color:#fff!important;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none!important">Book My Free Consultation</a>
+    </div>
+    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.95)!important">
+      <span>✓ Since 2013</span><span>✓ 1,000+ floors</span><span>✓ 1-yr workmanship warranty</span><span>✓ Licensed &amp; insured</span><span>✓ Financing available</span>
+    </div>
+    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04!important;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
+  </div>
+</div></div>
+
+<p><strong>Related reading:</strong> <a href="/blog/entryway-tile-pacific-northwest">Entryway tile for PNW winters</a> · <a href="/blog/laundry-room-tile">Laundry room tile</a> · <a href="/blog/porcelain-vs-ceramic-tile">Porcelain vs ceramic tile</a> · <a href="/blog/heated-bathroom-floor-cost">Heated floor cost and payback</a> · <a href="/blog/what-is-the-best-flooring-for-kids-pets">Best flooring for kids and pets</a> · <a href="/city-of-issaquah/tile-installation-in-issaquah-wa">Tile installation in Issaquah</a> · <a href="/contact">Book a free estimate</a></p>
+
+<div data-rt-embed-type='true'><script>
+(function(){try{
+var els=document.querySelectorAll('.ocb-card,.ocb-fact,.ocb-tri,.faq-item');
+if(!('IntersectionObserver' in window)||!els.length)return;
+document.documentElement.classList.add('ocb-anim-ready');
+els.forEach(function(e,i){e.classList.add('ocb-rv');e.style.transitionDelay=Math.min((i%6)*70,350)+'ms'});
+var io=new IntersectionObserver(function(en){en.forEach(function(x){if(x.isIntersecting){x.target.classList.add('ocb-in');io.unobserve(x.target)}})},{threshold:.12,rootMargin:'0px 0px -8% 0px'});
+els.forEach(function(e){io.observe(e)});
+}catch(e){}})();
+</script></div>
