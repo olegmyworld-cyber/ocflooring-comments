@@ -1,0 +1,196 @@
+<div data-rt-embed-type='true'><style>
+.ocb{--ink:#0f172a;--muted:#64748b;--line:#e5e7eb;--soft:#f8fafc;--brand:#8B0000;--brand2:#5c0000;--gold:#fbbc04;font-family:'Mulish',Inter,system-ui,sans-serif;color:var(--ink)}
+.ocb *{box-sizing:border-box}
+.ocb-card{border:1px solid var(--line);border-radius:18px;background:#fff;box-shadow:0 10px 30px rgba(2,6,23,.06);padding:22px;margin:26px 0}
+.ocb-eyebrow{display:inline-block;background:rgba(139,0,0,.08);color:var(--brand2);border:1px solid rgba(139,0,0,.2);border-radius:999px;padding:5px 12px;font-size:12.5px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;margin-bottom:10px}
+.ocb-chips{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0 0}
+.ocb-chip{background:var(--soft);border:1px solid var(--line);border-radius:999px;padding:6px 12px;font-size:13.6px;font-weight:700}
+.ocb-table{width:100%;border-collapse:collapse;font-size:15.2px}
+.ocb-table th,.ocb-table td{padding:11px 10px;text-align:left;border-bottom:1px solid var(--line)}
+.ocb-table th{background:var(--soft);font-weight:800;font-size:13.6px;letter-spacing:.02em}
+.ocb-table tr:last-child td{border-bottom:0}
+.ocb-table td strong{color:var(--brand2)}
+.ocb-2col{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media(max-width:680px){.ocb-2col{grid-template-columns:1fr}}
+.ocb-check{list-style:none;padding:0;margin:10px 0 0}
+.ocb-check li{padding-left:26px;position:relative;margin:7px 0;line-height:1.55}
+.ocb-check li:before{content:"✓";position:absolute;left:0;color:var(--brand);font-weight:900}
+.ocb-x li:before{content:"✕";color:#94a3b8}
+html body .post-body .ocb-facts, .ocb-facts{display:grid!important;grid-template-columns:repeat(3,1fr)!important;gap:12px!important;margin:8px 0!important}
+@media(max-width:680px){html body .post-body .ocb-facts, .ocb-facts{grid-template-columns:1fr!important}}
+.ocb-fact{background:linear-gradient(180deg,#fff,#f8fafc);border:1px solid var(--line);border-radius:16px;padding:16px}
+.ocb-fact .n{font-size:24px;font-weight:900;color:var(--brand2);display:block;margin-bottom:4px}
+html body .post-body .ocb-fact p, .ocb-fact p{margin:0!important;font-size:14.7px!important;color:#334155!important;line-height:1.5!important}
+
+.ocb-card,.ocb-fact,.ocb-tri{transition:transform .28s ease,box-shadow .28s ease}
+.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:translateY(-4px);box-shadow:0 16px 40px rgba(2,6,23,.12)}
+.faq-item{transition:border-color .25s,box-shadow .25s}
+.faq-item:hover{border-color:rgba(139,0,0,.35);box-shadow:0 6px 18px rgba(2,6,23,.07)}
+.ocb-chip{display:inline-flex;align-items:center;gap:6px;transition:transform .2s,border-color .2s}
+.ocb-chip:hover{transform:translateY(-2px);border-color:rgba(139,0,0,.35)}
+.ocb-chip svg{color:#8B0000}
+.ocb-cta a{transition:transform .22s,box-shadow .22s}
+.ocb-cta a:hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(0,0,0,.25)}
+.ocb-fact .n{position:relative}
+html.ocb-anim-ready .ocb-rv{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
+html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){html.ocb-anim-ready .ocb-rv{opacity:1!important;transform:none!important;transition:none!important}.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:none}}
+
+/* Chip icons. Webflow's rich-text sanitizer strips inline <svg> whenever a post is
+   re-saved in the Editor, so the icons are drawn from CSS on a <span> instead. */
+.ocb-ic{display:inline-block;width:15px;height:15px;flex:0 0 auto;vertical-align:-2px;background-repeat:no-repeat;background-position:center;background-size:contain}
+.ocb-ic-pin{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z'/><circle cx='12' cy='10' r='3'/></svg>")}
+.ocb-ic-home{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z'/><polyline points='9 22 9 12 15 12 15 22'/></svg>")}
+.ocb-ic-phone{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z'/></svg>")}
+.ocb-cta .ocb-ic{filter:brightness(0) saturate(100%) invert(9%) sepia(64%) saturate(4000%) hue-rotate(348deg)}
+</style></div>
+
+<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">September 8, 2026</span></div></div>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
+  <span class="ocb-eyebrow">Quick answer</span>
+  <p style="margin:0;font-size:17.9px;line-height:1.65"><strong>Tile installation runs $14&ndash;$26 per square foot installed in the Bellevue area, with labor from $11/sq ft &mdash; and the honest answer to "why such a wide range?" is that the square foot is the wrong unit.</strong> A flat laundry floor in easy porcelain sits at the bottom of the range; a shower wall with waterproofing, a niche, and a herringbone pattern sits at the top. This guide breaks the number apart so you can place your own project inside the range before anyone visits your house.</p>
+  <div class="ocb-chips">
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-pin"></span> King &amp; Snohomish County</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-home"></span> Bellevue &amp; Eastside homes</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-phone"></span> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
+  </div>
+</div></div>
+
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-facts">
+  <div class="ocb-fact"><span class="n">$11/sq ft</span><p>our starting labor rate for tile. Materials, setting products and prep bring the installed figure to $14&ndash;$26 depending on the surface, the tile, and the pattern.</p></div>
+  <div class="ocb-fact"><span class="n">3 layers</span><p>in every floor we set: a flattened, sound substrate, an uncoupling or waterproofing membrane, then the tile. Quotes that price one layer are the ones that crack.</p></div>
+  <div class="ocb-fact"><span class="n">2 years</span><p>our warranty on tile work, backed by a pre-slope, bonded membrane and a photographed 24-hour flood test on every shower we build.</p></div>
+</div></div></div>
+
+<h2>Why "Per Square Foot" Misleads Everyone</h2>
+
+<p>Two projects with identical square footage can honestly differ by a factor of two, and neither contractor is lying. The unit hides the three real cost drivers: what surface the tile is going onto, what has to happen to that surface first, and how much cutting the layout demands. A 100 sq ft bathroom floor in a 2005 Bellevue house with a flat plywood subfloor is a day and a half of work. The same 100 sq ft as a shower &mdash; walls, pan, curb, niche &mdash; is the better part of a week, because most of that week is spent on things you will never see once the tile is up.</p>
+
+<p>So before comparing bids, translate them out of square feet. Ask what is included per layer &mdash; demolition, flattening, membrane, waterproofing, setting, grout, silicone &mdash; and suddenly the $9/sq ft bid and the $22/sq ft bid describe two different jobs, and only one of them is the job you actually want done.</p>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-card">
+  <h3 style="margin:0 0 10px;font-size:18.5px;font-weight:900;color:#5c0000">Where Your Project Lands in the $14&ndash;$26 Range</h3>
+  <div style="overflow-x:auto"><table class="ocb-table">
+    <tr><th>Project type</th><th>Typical installed cost</th><th>What moves it</th></tr>
+    <tr><td><strong>Laundry / mudroom floor</strong></td><td>Low end</td><td>Small, square rooms; standard porcelain; minimal prep</td></tr>
+    <tr><td><strong>Kitchen floor</strong></td><td>Low&ndash;middle</td><td>Bigger area spreads fixed costs; appliances and toe-kicks add cuts</td></tr>
+    <tr><td><strong>Bathroom floor</strong></td><td>Middle</td><td>Toilet flange, vanity cuts, and a heated-mat option</td></tr>
+    <tr><td><strong>Tub surround</strong></td><td>Middle&ndash;high</td><td>Waterproofing on three walls; a niche adds cutting and sealing</td></tr>
+    <tr><td><strong>Walk-in shower</strong></td><td>High end</td><td>Pre-slope, pan, curb, drain, full membrane, flood test</td></tr>
+    <tr><td><strong>Backsplash</strong></td><td>High per sq ft, small total</td><td>Outlets, switches and a finished edge on a few square feet</td></tr>
+    <tr><td><strong>Herringbone / chevron anywhere</strong></td><td>+15&ndash;30% labor</td><td>Every other tile gets cut; layout time doubles</td></tr>
+    <tr><td><strong>Large format (24"+ tile)</strong></td><td>Adds prep cost</td><td>Substrate must be dead flat; back-buttering every tile</td></tr>
+  </table></div>
+</div></div>
+
+<h2>The Three Layers You Are Paying For</h2>
+
+<p><strong>Layer one: the substrate.</strong> Tile does not bend. The wood-framed floors in most Eastside houses do, a little, and the fix &mdash; flattening compound, an extra plywood layer, occasionally stiffening a joist &mdash; is priced before tile is even discussed. Skipping it does not save money; it defers the cost into cracked grout lines around year two.</p>
+
+<p><strong>Layer two: the membrane.</strong> On floors, an uncoupling membrane absorbs the seasonal movement between wood and porcelain. In wet areas, waterproofing &mdash; bonded sheet or liquid-applied &mdash; is the actual product you are buying; the tile is its decorative face. Grout is not waterproof and never was. Every shower we build gets a pre-slope, a bonded membrane, and a 24-hour flood test that we photograph before a single tile goes on.</p>
+
+<p><strong>Layer three: the tile itself.</strong> Ironically the cheapest layer to get right. Porcelain versus ceramic matters less than people think for cost &mdash; the labor difference is in the cutting, and that is folded into the pattern and format questions above.</p>
+
+<h2>What Bellevue and the Eastside Add to the Equation</h2>
+
+<p>Eastside housing is younger than Seattle's, which works in your favor: a 1990s Somerset two-story or a 2000s Bridle Trails build usually has a sane, flat subfloor, so the prep line stays small. Where budgets move here is scope and finish level. Bellevue bathrooms trend larger, walk-in showers are the default in every remodel, heated floors are requested more often than not, and large-format porcelain &mdash; the 24&times;48 look &mdash; is the prevailing style. None of that is a problem; all of it lives in the upper half of the range, and it is worth knowing that going in rather than discovering it across three confusing bids.</p>
+
+<p>Condos around downtown Bellevue add the usual building logistics &mdash; elevator bookings, protected corridors, quiet hours &mdash; which show up as a modest access premium, same as anywhere. And if you are weighing tile against other floors for a kitchen or great room, our <a href="/blog/hardwood-vs-tile-in-the-kitchen">hardwood vs tile comparison</a> and the <a href="/blog/bathroom-tile-installation-cost-seattle">Seattle bathroom tile cost guide</a> are the two companion reads.</p>
+
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-2col">
+  <div class="ocb-card" style="margin:0">
+    <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#5c0000">Signs a per-square-foot bid is complete</h3>
+    <ul class="ocb-check">
+      <li>Demolition and disposal are itemized</li>
+      <li>Prep and flattening have their own line, even if it is $0</li>
+      <li>The membrane is named &mdash; brand and type</li>
+      <li>Wet areas include waterproofing and a flood test</li>
+      <li>Pattern and tile format are reflected in the labor</li>
+      <li>Grout, sealing and silicone are in the number</li>
+    </ul>
+  </div>
+  <div class="ocb-card" style="margin:0">
+    <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#334155">Signs the low bid will grow later</h3>
+    <ul class="ocb-check ocb-x">
+      <li>"Includes materials" with no named products</li>
+      <li>No mention of what happens under the tile</li>
+      <li>Waterproofing absent from a shower scope</li>
+      <li>One number for any tile, any pattern, any room</li>
+      <li>No contingency language for what demolition reveals</li>
+      <li>A warranty measured in months</li>
+    </ul>
+  </div>
+</div></div></div>
+
+<h2>Reading a Quote Like a Contractor</h2>
+
+<p>Take any bid you receive and find three things. First, <strong>the membrane line</strong> &mdash; if it is missing from a wet-area quote, the bid is incomplete no matter how good the price looks. Second, <strong>the prep allowance</strong> &mdash; an honest bid either includes flattening or states the unit price if it turns out to be needed. Third, <strong>the pattern math</strong> &mdash; if you asked for herringbone and the bid matches your neighbor's straight-lay price, someone has not read the plan.</p>
+
+<p>When two complete bids still differ, the gap is usually schedule and crew &mdash; who shows up, whether they do tile daily or occasionally, and how the company stands behind the work afterward. That last part is where our 2-year warranty and the photographed flood test earn their keep: they are verifiable, not vibes. The full scope lives on our <a href="/city-of-bellevue/tile-installation-in-bellevue-wa">Bellevue tile installation page</a>.</p>
+
+<div data-rt-embed-type='true'><!-- FAQ accordion + JSON-LD -->
+<div class="faq-wrap ocb" aria-labelledby="faq-title">
+  <h2 id="faq-title" class="faq-title">Tile Cost Per Square Foot: What Eastside Homeowners Ask</h2>
+  <div class="faq-items" role="list">
+    <details class="faq-item" role="listitem"><summary class="faq-q">What does tile installation cost per square foot?</summary><div class="faq-a">In the Bellevue area, $14 to $26 per square foot installed, with labor starting at $11. Flat floors in standard porcelain sit at the bottom of the range; showers, patterns, and large-format tile sit at the top. The honest answer is that the square foot is a blunt unit — what the tile goes onto and what must happen first matter more than the area.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Why do tile quotes for the same room vary so much?</summary><div class="faq-a">Because they describe different jobs. One bid includes flattening, a named membrane, waterproofing and silicone; another prices tile stuck to whatever is there. Translate each bid into layers — demolition, prep, membrane, setting, finishing — and the spread usually explains itself immediately.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Is labor or material the bigger cost in tile work?</summary><div class="faq-a">Labor, almost always. Perfectly good porcelain costs a few dollars per square foot; the hours are in preparation, waterproofing, layout and cutting. That is why a pattern change or a shower conversion moves the price far more than upgrading the tile itself.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Does large-format tile cost more to install?</summary><div class="faq-a">Yes, mainly in prep. A 24-inch or larger tile shows every hollow and hump, so the substrate has to be brought dead flat first, and each tile is back-buttered for full support. The tile can cost the same as a smaller format; the floor under it has to be better.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">How much extra is a herringbone or chevron pattern?</summary><div class="faq-a">Plan on 15 to 30 percent more labor. Every other tile meets a cut, layout takes real planning so the pattern lands symmetrically, and waste goes up. On a small bathroom floor that premium is modest in dollars; across a kitchen it is a real line item.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">What part of a shower makes it so much more expensive than a floor?</summary><div class="faq-a">The parts you never see. A shower needs a sloped pan built under the surface, a bonded waterproofing membrane over every surface water can reach, a properly integrated drain, and — with us — a 24-hour flood test photographed before tile goes on. That assembly is most of the labor in the job.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Do you charge more for heated floors?</summary><div class="faq-a">The heating system adds material cost and about a day — the mat or cable, a thermostat, and an electrician for the connection. As a share of a bathroom remodel it is modest, and in our climate it is the upgrade people thank themselves for every winter morning.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Whats included in your tile quotes?</summary><div class="faq-a">Demolition and disposal, substrate prep with the price stated, a named membrane, full waterproofing with a flood test in wet areas, setting, grout, sealing, and silicone at every change of plane — plus a 2-year warranty. If we find something unexpected under the old floor, we photograph it and price it before continuing, not after.</div></details>
+  </div>
+</div>
+
+<style>
+  .faq-wrap{--line:#e5e7eb;margin:28px auto;padding:20px;border:1px solid var(--line);border-radius:16px;background:#fff;box-shadow:0 8px 30px rgba(2,6,23,.06)}
+  .faq-title{margin:0 0 14px;font-size:24px;font-weight:900;text-align:center;color:#5c0000}
+  .faq-items{display:grid;gap:10px}
+  .faq-item{border:1px solid var(--line);border-radius:14px;background:#f9fafb;overflow:hidden}
+  .faq-q{cursor:pointer;display:block;padding:14px 16px;font-weight:800;color:#0f172a}
+  .faq-q::-webkit-details-marker{display:none}
+  .faq-item[open] .faq-q{background:linear-gradient(180deg, rgba(139,0,0,.08), rgba(139,0,0,.02))}
+  .faq-a{padding:0 16px 14px;color:#1f2937;line-height:1.6}
+</style>
+
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does tile installation cost per square foot?", "acceptedAnswer": {"@type": "Answer", "text": "In the Bellevue area, $14 to $26 per square foot installed, with labor starting at $11. Flat floors in standard porcelain sit at the bottom of the range; showers, patterns, and large-format tile sit at the top. The honest answer is that the square foot is a blunt unit — what the tile goes onto and what must happen first matter more than the area."}}, {"@type": "Question", "name": "Why do tile quotes for the same room vary so much?", "acceptedAnswer": {"@type": "Answer", "text": "Because they describe different jobs. One bid includes flattening, a named membrane, waterproofing and silicone; another prices tile stuck to whatever is there. Translate each bid into layers — demolition, prep, membrane, setting, finishing — and the spread usually explains itself immediately."}}, {"@type": "Question", "name": "Is labor or material the bigger cost in tile work?", "acceptedAnswer": {"@type": "Answer", "text": "Labor, almost always. Perfectly good porcelain costs a few dollars per square foot; the hours are in preparation, waterproofing, layout and cutting. That is why a pattern change or a shower conversion moves the price far more than upgrading the tile itself."}}, {"@type": "Question", "name": "Does large-format tile cost more to install?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, mainly in prep. A 24-inch or larger tile shows every hollow and hump, so the substrate has to be brought dead flat first, and each tile is back-buttered for full support. The tile can cost the same as a smaller format; the floor under it has to be better."}}, {"@type": "Question", "name": "How much extra is a herringbone or chevron pattern?", "acceptedAnswer": {"@type": "Answer", "text": "Plan on 15 to 30 percent more labor. Every other tile meets a cut, layout takes real planning so the pattern lands symmetrically, and waste goes up. On a small bathroom floor that premium is modest in dollars; across a kitchen it is a real line item."}}, {"@type": "Question", "name": "What part of a shower makes it so much more expensive than a floor?", "acceptedAnswer": {"@type": "Answer", "text": "The parts you never see. A shower needs a sloped pan built under the surface, a bonded waterproofing membrane over every surface water can reach, a properly integrated drain, and — with us — a 24-hour flood test photographed before tile goes on. That assembly is most of the labor in the job."}}, {"@type": "Question", "name": "Do you charge more for heated floors?", "acceptedAnswer": {"@type": "Answer", "text": "The heating system adds material cost and about a day — the mat or cable, a thermostat, and an electrician for the connection. As a share of a bathroom remodel it is modest, and in our climate it is the upgrade people thank themselves for every winter morning."}}, {"@type": "Question", "name": "Whats included in your tile quotes?", "acceptedAnswer": {"@type": "Answer", "text": "Demolition and disposal, substrate prep with the price stated, a named membrane, full waterproofing with a flood test in wet areas, setting, grout, sealing, and silicone at every change of plane — plus a 2-year warranty. If we find something unexpected under the old floor, we photograph it and price it before continuing, not after."}}]}
+</script></div>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-cta" style="margin:30px 0">
+  <style>
+    html body .post-body .ocb-cta h2, .ocb-cta h2{color:#fff!important}
+    html body .post-body .ocb-cta .ocb-cta-sub, .ocb-cta .ocb-cta-sub{color:rgba(255,255,255,.88)!important}
+    html body .post-body .ocb-cta .ocb-cta-chips span, .ocb-cta .ocb-cta-chips span{color:rgba(255,255,255,.94)!important}
+    html body .post-body .ocb-cta a.ocb-cta-ghost, .ocb-cta a.ocb-cta-ghost{color:#fff!important;text-decoration:none!important}
+    html body .post-body .ocb-cta a.ocb-cta-gold, .ocb-cta a.ocb-cta-gold{color:#fbbc04!important}
+    html body .post-body .ocb-cta a.ocb-cta-phone, .ocb-cta a.ocb-cta-phone{color:#5c0000!important;text-decoration:none!important}
+  </style>
+  <div style="background:linear-gradient(135deg,#8B0000,#5c0000);border-radius:20px;padding:28px 24px;color:#fff;text-align:center;box-shadow:0 14px 34px rgba(92,0,0,.3)">
+    <h2 style="margin:0 0 6px;color:#fff!important;font-size:24px;font-weight:900">Get a Number Built From Your Actual Project</h2>
+    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.92)!important;font-size:16.3px">Send photos or book a visit &mdash; we will translate the per-square-foot mystery into layers, tell you where your project lands in the range and why, and put it all in writing. Free in-home estimates across King &amp; Snohomish County.</p>
+    <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
+      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff!important;color:#5c0000!important;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none!important"><span class="ocb-ic ocb-ic-phone"></span> (425) 595-1079</a>
+      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.16)!important;border:1px solid rgba(255,255,255,.55);color:#fff!important;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none!important">Book My Free Consultation</a>
+    </div>
+    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.95)!important">
+      <span>✓ Since 2013</span><span>✓ 1,000+ floors</span><span>✓ 1-yr workmanship warranty</span><span>✓ Licensed &amp; insured</span><span>✓ Financing available</span>
+    </div>
+    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04!important;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
+  </div>
+</div></div>
+
+<p><strong>Related reading:</strong> <a href="/blog/bathroom-tile-installation-cost-seattle">Bathroom tile costs in Seattle</a> · <a href="/blog/hardwood-vs-tile-in-the-kitchen">Hardwood vs tile in the kitchen</a> · <a href="/blog/the-benefits-of-waterproof-flooring-in-seattle-wa">Waterproof flooring benefits</a> · <a href="/blog/alternatives-to-tile-flooring-in-snohomish-wa">Alternatives to tile flooring</a> · <a href="/city-of-bellevue/tile-installation-in-bellevue-wa">Tile installation in Bellevue</a> · <a href="/contact">Book a free estimate</a></p>
+
+<div data-rt-embed-type='true'><script>
+(function(){try{
+var els=document.querySelectorAll('.ocb-card,.ocb-fact,.ocb-tri,.faq-item');
+if(!('IntersectionObserver' in window)||!els.length)return;
+document.documentElement.classList.add('ocb-anim-ready');
+els.forEach(function(e,i){e.classList.add('ocb-rv');e.style.transitionDelay=Math.min((i%6)*70,350)+'ms'});
+var io=new IntersectionObserver(function(en){en.forEach(function(x){if(x.isIntersecting){x.target.classList.add('ocb-in');io.unobserve(x.target)}})},{threshold:.12,rootMargin:'0px 0px -8% 0px'});
+els.forEach(function(e){io.observe(e)});
+}catch(e){}})();
+</script></div>
