@@ -1,0 +1,210 @@
+<div data-rt-embed-type='true'><style>
+.ocb{--ink:#0f172a;--muted:#64748b;--line:#e5e7eb;--soft:#f8fafc;--brand:#8B0000;--brand2:#5c0000;--gold:#fbbc04;font-family:'Mulish',Inter,system-ui,sans-serif;color:var(--ink)}
+.ocb *{box-sizing:border-box}
+.ocb-card{border:1px solid var(--line);border-radius:18px;background:#fff;box-shadow:0 10px 30px rgba(2,6,23,.06);padding:22px;margin:26px 0}
+.ocb-eyebrow{display:inline-block;background:rgba(139,0,0,.08);color:var(--brand2);border:1px solid rgba(139,0,0,.2);border-radius:999px;padding:5px 12px;font-size:12.5px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;margin-bottom:10px}
+.ocb-chips{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0 0}
+.ocb-chip{background:var(--soft);border:1px solid var(--line);border-radius:999px;padding:6px 12px;font-size:13.6px;font-weight:700}
+.ocb-table{width:100%;border-collapse:collapse;font-size:15.2px}
+.ocb-table th,.ocb-table td{padding:11px 10px;text-align:left;border-bottom:1px solid var(--line)}
+.ocb-table th{background:var(--soft);font-weight:800;font-size:13.6px;letter-spacing:.02em}
+.ocb-table tr:last-child td{border-bottom:0}
+.ocb-table td strong{color:var(--brand2)}
+.ocb-2col{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media(max-width:680px){.ocb-2col{grid-template-columns:1fr}}
+.ocb-check{list-style:none;padding:0;margin:10px 0 0}
+.ocb-check li{padding-left:26px;position:relative;margin:7px 0;line-height:1.55}
+.ocb-check li:before{content:"✓";position:absolute;left:0;color:var(--brand);font-weight:900}
+.ocb-x li:before{content:"✕";color:#94a3b8}
+html body .post-body .ocb-facts, .ocb-facts{display:grid!important;grid-template-columns:repeat(3,1fr)!important;gap:12px!important;margin:8px 0!important}
+@media(max-width:680px){html body .post-body .ocb-facts, .ocb-facts{grid-template-columns:1fr!important}}
+.ocb-fact{background:linear-gradient(180deg,#fff,#f8fafc);border:1px solid var(--line);border-radius:16px;padding:16px}
+.ocb-fact .n{font-size:24px;font-weight:900;color:var(--brand2);display:block;margin-bottom:4px}
+html body .post-body .ocb-fact p, .ocb-fact p{margin:0!important;font-size:14.7px!important;color:#334155!important;line-height:1.5!important}
+
+.ocb-card,.ocb-fact,.ocb-tri{transition:transform .28s ease,box-shadow .28s ease}
+.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:translateY(-4px);box-shadow:0 16px 40px rgba(2,6,23,.12)}
+.faq-item{transition:border-color .25s,box-shadow .25s}
+.faq-item:hover{border-color:rgba(139,0,0,.35);box-shadow:0 6px 18px rgba(2,6,23,.07)}
+.ocb-chip{display:inline-flex;align-items:center;gap:6px;transition:transform .2s,border-color .2s}
+.ocb-chip:hover{transform:translateY(-2px);border-color:rgba(139,0,0,.35)}
+.ocb-chip svg{color:#8B0000}
+.ocb-cta a{transition:transform .22s,box-shadow .22s}
+.ocb-cta a:hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(0,0,0,.25)}
+.ocb-fact .n{position:relative}
+html.ocb-anim-ready .ocb-rv{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
+html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){html.ocb-anim-ready .ocb-rv{opacity:1!important;transform:none!important;transition:none!important}.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:none}}
+
+/* Chip icons. Webflow's rich-text sanitizer strips inline <svg> whenever a post is
+   re-saved in the Editor, so the icons are drawn from CSS on a <span> instead. */
+.ocb-ic{display:inline-block;width:15px;height:15px;flex:0 0 auto;vertical-align:-2px;background-repeat:no-repeat;background-position:center;background-size:contain}
+.ocb-ic-pin{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z'/><circle cx='12' cy='10' r='3'/></svg>')}
+.ocb-ic-home{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z'/><polyline points='9 22 9 12 15 12 15 22'/></svg>')}
+.ocb-ic-phone{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z'/></svg>')}
+.ocb-cta .ocb-ic{filter:brightness(0) saturate(100%) invert(9%) sepia(64%) saturate(4000%) hue-rotate(348deg)}
+</style></div>
+
+<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">September 1, 2026</span></div></div>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
+  <span class="ocb-eyebrow">Quick answer</span>
+  <p style="margin:0;font-size:17.9px;line-height:1.65"><strong>A full bathroom tile job in Seattle runs $14&ndash;$26 per square foot installed, with labor starting at $11/sq ft &mdash; so a standard 40 sq ft bathroom floor lands around $560&ndash;$1,040, and a tiled shower surround usually costs more than the floor it drains into.</strong> The number moves on three things and almost nothing else: how much prep the substrate needs, whether there is a shower involved (waterproofing is where the real labor sits), and how hard your tile is to cut. Old Seattle houses tend to push all three the same direction.</p>
+  <div class="ocb-chips">
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-pin"></span> King &amp; Snohomish County</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-home"></span> Seattle homes &amp; condos</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-phone"></span> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
+  </div>
+</div></div>
+
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-facts">
+  <div class="ocb-fact"><span class="n">$11/sq ft</span><p>where our tile labor starts. Installed cost &mdash; labor plus materials, prep and setting products &mdash; runs $14 to $26 per square foot depending on the tile and what is underneath it.</p></div>
+  <div class="ocb-fact"><span class="n">24 hours</span><p>how long a finished shower pan sits full of water before we tile over it. We photograph the flood test and keep it on file, because a leak found after tile is a demolition, not a repair.</p></div>
+  <div class="ocb-fact"><span class="n">2 years</span><p>our warranty on tile work &mdash; longer than the one-year most of the trade offers, which is a bet we are willing to make because of what goes in behind the tile.</p></div>
+</div></div></div>
+
+<h2>Where the Money Actually Goes</h2>
+
+<p>Homeowners tend to budget for tile the way they budget for paint: price per square foot, times square feet, done. Tile does not work that way, and the gap between the cheap quote and the honest one is almost never the tile itself. It is the hours underneath.</p>
+
+<p>On a bathroom floor, roughly a third of the labor happens before a single tile is set &mdash; pulling the old floor, checking the subfloor for deflection, flattening it, and setting an uncoupling membrane so seasonal movement in a 1920s Wallingford joist bay does not telegraph into a cracked grout line three winters from now. On a shower, that share climbs past half. The waterproofing assembly is the product you are actually buying. The tile is the part you can see.</p>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-card">
+  <h3 style="margin:0 0 10px;font-size:18.5px;font-weight:900;color:#5c0000">What Drives a Seattle Tile Quote Up or Down</h3>
+  <div style="overflow-x:auto"><table class="ocb-table">
+    <tr><th>Factor</th><th>Effect on price</th><th>Why</th></tr>
+    <tr><td><strong>Shower vs floor only</strong></td><td>Shower costs more per sq ft</td><td>Pre-slope, membrane, curb, niche, and a flood test &mdash; far more labor per square foot than a flat floor</td></tr>
+    <tr><td><strong>Subfloor condition</strong></td><td>+$2&ndash;$6/sq ft</td><td>Old plank subfloors and bouncy joists need flattening or a new layer before tile is safe to set</td></tr>
+    <tr><td><strong>Tile size</strong></td><td>Large format costs more</td><td>Big tile needs a flatter substrate and back-buttering; small mosaic costs more in setting time per square foot</td></tr>
+    <tr><td><strong>Tile hardness</strong></td><td>Porcelain over ceramic</td><td>Porcelain is denser and slower to cut, especially around a drain or a niche</td></tr>
+    <tr><td><strong>Pattern</strong></td><td>Herringbone, chevron: +15&ndash;30% labor</td><td>More cuts, more waste, more layout time before anything gets set</td></tr>
+    <tr><td><strong>Heated floor</strong></td><td>Adds material and a day</td><td>Mat or cable, a thermostat, and an electrician for the circuit</td></tr>
+    <tr><td><strong>Demolition</strong></td><td>Varies widely</td><td>One layer of vinyl is quick; mortar bed over wire lath in a 1940s bathroom is not</td></tr>
+    <tr><td><strong>Access</strong></td><td>Condo &gt; house</td><td>Elevator reservations, protected common areas, and dumpster rules add hours nobody enjoys billing for</td></tr>
+  </table></div>
+</div></div>
+
+<h2>Three Real Seattle Bathrooms</h2>
+
+<p>Rather than a range, here is what the ranges look like as actual rooms. <strong>A 40 sq ft floor-only refresh</strong> in a Ballard bungalow &mdash; tear out sheet vinyl, flatten the plank subfloor, membrane, set 12&times;24 porcelain &mdash; sits at the lower end per square foot but carries fixed costs that a bigger room would spread out, so the total lands higher than 40 &times; $14 would suggest. <strong>A standard tub surround</strong>, about 60 sq ft of wall, is mostly waterproofing labor and lands in the middle of the range. <strong>A curbless walk-in shower</strong> in a Green Lake remodel is the top of the range and then some: the floor has to be opened and the joists modified so the pan can slope without a curb, which is structural work before it is tile work.</p>
+
+<p>The pattern worth internalizing is that <em>small bathrooms are expensive per square foot and cheap in total</em>. Mobilization, layout, and the waterproofing sequence cost about the same in a powder room as in a primary bath. If you are comparing a $1,400 quote on a tiny floor against $14/sq ft and feeling gouged, that is the arithmetic you are hitting.</p>
+
+<h2>Why Old Seattle Houses Cost More to Tile</h2>
+
+<p>The city's housing stock is the single biggest local variable. A large share of the bathrooms we tile inside city limits were built before 1950, and they bring three recurring costs.</p>
+
+<p><strong>Subfloor deflection.</strong> Craftsman-era joists were sized for linoleum, not for a stone-and-mortar assembly. Tile is unforgiving about movement &mdash; the industry standard is deflection no worse than L/360 for ceramic, and stiffer still for natural stone. Sometimes that means sistering joists or adding a layer. It is not upselling; it is the difference between a floor that lasts twenty years and one that cracks in two.</p>
+
+<p><strong>Nothing is square or level.</strong> A hundred years of settling means walls that lean and floors that fall an inch across eight feet. Every cut is custom, and layout &mdash; deciding where the inevitable tapered cut goes so it lands somewhere you will not stare at &mdash; takes real time before anything is set.</p>
+
+<p><strong>What is behind the old tile.</strong> Bathrooms remodeled in the 1980s and 90s frequently hide a failed pan or rotted framing under an intact-looking surface. We open it, photograph it, and price it before we go further, which is also why an honest tile quote in Seattle has a contingency line in it and a suspiciously cheap one does not. If the damage reaches the framing under an adjoining floor, that becomes a different conversation &mdash; the same one we have about <a href="/blog/can-i-install-hardwood-flooring-in-a-basement-or-other-moisture-prone-areas">wood in moisture-prone spaces</a>.</p>
+
+<h2>The Waterproofing Line Item Nobody Shops</h2>
+
+<p>If you compare three shower quotes, this is the line that explains the spread, and it is usually invisible on the page. There are two legitimate ways to waterproof a shower: a bonded sheet membrane (Schluter Kerdi and similar) or a liquid-applied membrane rolled on in coats to a measured thickness. Both work. Both cost real money and real hours.</p>
+
+<p>What does not work is tiling over green board, or over cement board with no membrane at all, on the theory that the tile and grout will keep water out. They will not &mdash; grout is not waterproof, and it was never supposed to be. Water passes through, and the membrane behind is what sends it back to the drain. That assembly is why we flood-test every pan for 24 hours and photograph it before tile goes on, and why the warranty is two years instead of one.</p>
+
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-2col">
+  <div class="ocb-card" style="margin:0">
+    <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#5c0000">What a complete quote includes</h3>
+    <ul class="ocb-check">
+      <li>Demolition and disposal of the existing surface</li>
+      <li>Substrate inspection, flattening, and an uncoupling membrane on floors</li>
+      <li>Pre-slope and bonded waterproofing on any shower pan</li>
+      <li>A documented 24-hour flood test before tile goes on</li>
+      <li>Setting, grouting, sealing, and silicone at every change of plane</li>
+      <li>A named tile, a named membrane, and a named grout &mdash; not "materials"</li>
+    </ul>
+  </div>
+  <div class="ocb-card" style="margin:0">
+    <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#334155">What a suspiciously cheap quote leaves out</h3>
+    <ul class="ocb-check ocb-x">
+      <li>Any allowance for what is found under the old floor</li>
+      <li>Membrane behind the shower &mdash; just cement board and hope</li>
+      <li>The flood test, because it costs a day of schedule</li>
+      <li>Flattening, so large tile lippage becomes your problem</li>
+      <li>Silicone at the corners, where grout will crack no matter what</li>
+      <li>A warranty longer than the drive home</li>
+    </ul>
+  </div>
+</div></div></div>
+
+<h2>Tile, Vinyl, or Something Else?</h2>
+
+<p>Tile is the right answer for a wet room and an expensive answer everywhere else. In a bathroom, it is genuinely the material that belongs: it does not care about standing water, it cleans up, and a well-built tiled shower outlives the house's next two owners. In a kitchen, the calculus is closer &mdash; we lay out that argument in <a href="/blog/hardwood-vs-tile-in-the-kitchen">hardwood vs tile in the kitchen</a>. In a laundry room or a basement, waterproof vinyl often wins on cost and comfort underfoot, which is the case we make in <a href="/blog/the-benefits-of-waterproof-flooring-in-seattle-wa">waterproof flooring for Seattle homes</a> and in the <a href="/blog/what-is-the-best-waterproof-floor-in-everett-wa">waterproof floor guide</a>.</p>
+
+<p>Where tile earns its price is the shower and the bathroom floor, and where it wastes your money is a room that will never see water and where a cracked grout line will annoy you every day. Anyone quoting you tile for a bedroom should explain themselves.</p>
+
+<h2>Getting a Number You Can Trust</h2>
+
+<p>Three questions separate a quote you can rely on from a number designed to win the job. <strong>What waterproofing product, by name?</strong> If the answer is vague, the assembly is probably vague too. <strong>What happens if you open the floor and find rot?</strong> A good contractor has already told you the hourly or unit rate for that discovery; a bad one discovers it mid-job and hands you a number when you have no leverage. <strong>Will you flood-test the pan, and can I see it?</strong> A yes costs a day and is the cheapest insurance in the whole project.</p>
+
+<p>Everything else &mdash; tile selection, pattern, grout color &mdash; is a preference conversation, and it is genuinely fun. The three questions above are the ones that decide whether you are still happy in ten years. Our full scope, neighborhood by neighborhood, is on the <a href="/seattle/tile-installation-in-seattle-wa">Seattle tile installation page</a>.</p>
+
+<div data-rt-embed-type='true'><!-- FAQ accordion + JSON-LD -->
+<div class="faq-wrap ocb" aria-labelledby="faq-title">
+  <h2 id="faq-title" class="faq-title">Bathroom Tile Cost in Seattle: What Homeowners Ask Us</h2>
+  <div class="faq-items" role="list">
+    <details class="faq-item" role="listitem"><summary class="faq-q">How much does it cost to tile a bathroom in Seattle?</summary><div class="faq-a">Installed cost runs $14 to $26 per square foot, with labor starting at $11 per square foot. A 40 square foot floor-only job typically lands between $560 and $1,040 in tile work, and a tiled shower costs more per square foot than a floor because the waterproofing assembly behind it is most of the labor. The spread inside that range is decided by substrate prep, tile size and hardness, and pattern.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Why is tiling a small bathroom so expensive per square foot?</summary><div class="faq-a">Because most of the cost is fixed. Mobilization, layout, the waterproofing sequence, and the flood test cost roughly the same in a powder room as in a large primary bath, so those hours divide across fewer square feet. Small rooms are expensive per square foot and still cheap in total compared with a big one.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">What makes tile quotes vary so much between contractors?</summary><div class="faq-a">Almost always the waterproofing and the prep, not the tile. A quote that assumes cement board with no membrane, skips flattening, and does not budget for what is under the old floor will always be cheaper on paper. Ask each bidder to name the membrane and say whether they flood-test the pan, and the spread usually explains itself.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Do you have to remove the old tile first?</summary><div class="faq-a">Usually yes in a bathroom, and always in a shower. Tiling over existing tile is possible on some floors when the substrate is sound and the height increase does not fight your doors and fixtures, but in a wet area you need to see and rebuild what is behind it. Old bathrooms in Seattle hide failed pans often enough that opening it up is the responsible default.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">What does waterproofing add to the cost of a shower?</summary><div class="faq-a">It is not a small line item, and it should not be. Between the pre-slope, the bonded membrane or liquid-applied coats, the corners and the drain assembly, plus a day of schedule for the flood test, waterproofing is a substantial share of a shower quote. It is also the entire reason the shower does not leak into the ceiling below.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">How long does a bathroom tile job take?</summary><div class="faq-a">A floor-only bathroom is usually two to three days including prep and grout. A tub surround or shower runs four to six days, because waterproofing has to cure, the flood test takes 24 hours, and grout and silicone need their own time. Older houses that need subfloor work add a day or two on top.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Is porcelain worth paying more for than ceramic?</summary><div class="faq-a">In a bathroom, generally yes. Porcelain is denser, absorbs less water, and holds up better on floors, which is why it is what we set in most wet areas. Ceramic is perfectly good on walls and backsplashes, where the demands are lower. The material difference is smaller than most people expect; the installation difference is that porcelain is harder to cut, which is in the labor.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Do you tile condos in downtown Seattle?</summary><div class="faq-a">Yes, and we plan around the building rather than fighting it. That means elevator reservations, protected common areas, work-hour rules, and hauling debris the way the HOA requires. Those constraints add hours, so we price them honestly up front rather than discovering them on day one.</div></details>
+  </div>
+</div>
+
+<style>
+  .faq-wrap{--line:#e5e7eb;margin:28px auto;padding:20px;border:1px solid var(--line);border-radius:16px;background:#fff;box-shadow:0 8px 30px rgba(2,6,23,.06)}
+  .faq-title{margin:0 0 14px;font-size:24px;font-weight:900;text-align:center;color:#5c0000}
+  .faq-items{display:grid;gap:10px}
+  .faq-item{border:1px solid var(--line);border-radius:14px;background:#f9fafb;overflow:hidden}
+  .faq-q{cursor:pointer;display:block;padding:14px 16px;font-weight:800;color:#0f172a}
+  .faq-q::-webkit-details-marker{display:none}
+  .faq-item[open] .faq-q{background:linear-gradient(180deg, rgba(139,0,0,.08), rgba(139,0,0,.02))}
+  .faq-a{padding:0 16px 14px;color:#1f2937;line-height:1.6}
+</style>
+
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How much does it cost to tile a bathroom in Seattle?", "acceptedAnswer": {"@type": "Answer", "text": "Installed cost runs $14 to $26 per square foot, with labor starting at $11 per square foot. A 40 square foot floor-only job typically lands between $560 and $1,040 in tile work, and a tiled shower costs more per square foot than a floor because the waterproofing assembly behind it is most of the labor. The spread inside that range is decided by substrate prep, tile size and hardness, and pattern."}}, {"@type": "Question", "name": "Why is tiling a small bathroom so expensive per square foot?", "acceptedAnswer": {"@type": "Answer", "text": "Because most of the cost is fixed. Mobilization, layout, the waterproofing sequence, and the flood test cost roughly the same in a powder room as in a large primary bath, so those hours divide across fewer square feet. Small rooms are expensive per square foot and still cheap in total compared with a big one."}}, {"@type": "Question", "name": "What makes tile quotes vary so much between contractors?", "acceptedAnswer": {"@type": "Answer", "text": "Almost always the waterproofing and the prep, not the tile. A quote that assumes cement board with no membrane, skips flattening, and does not budget for what is under the old floor will always be cheaper on paper. Ask each bidder to name the membrane and say whether they flood-test the pan, and the spread usually explains itself."}}, {"@type": "Question", "name": "Do you have to remove the old tile first?", "acceptedAnswer": {"@type": "Answer", "text": "Usually yes in a bathroom, and always in a shower. Tiling over existing tile is possible on some floors when the substrate is sound and the height increase does not fight your doors and fixtures, but in a wet area you need to see and rebuild what is behind it. Old bathrooms in Seattle hide failed pans often enough that opening it up is the responsible default."}}, {"@type": "Question", "name": "What does waterproofing add to the cost of a shower?", "acceptedAnswer": {"@type": "Answer", "text": "It is not a small line item, and it should not be. Between the pre-slope, the bonded membrane or liquid-applied coats, the corners and the drain assembly, plus a day of schedule for the flood test, waterproofing is a substantial share of a shower quote. It is also the entire reason the shower does not leak into the ceiling below."}}, {"@type": "Question", "name": "How long does a bathroom tile job take?", "acceptedAnswer": {"@type": "Answer", "text": "A floor-only bathroom is usually two to three days including prep and grout. A tub surround or shower runs four to six days, because waterproofing has to cure, the flood test takes 24 hours, and grout and silicone need their own time. Older houses that need subfloor work add a day or two on top."}}, {"@type": "Question", "name": "Is porcelain worth paying more for than ceramic?", "acceptedAnswer": {"@type": "Answer", "text": "In a bathroom, generally yes. Porcelain is denser, absorbs less water, and holds up better on floors, which is why it is what we set in most wet areas. Ceramic is perfectly good on walls and backsplashes, where the demands are lower. The material difference is smaller than most people expect; the installation difference is that porcelain is harder to cut, which is in the labor."}}, {"@type": "Question", "name": "Do you tile condos in downtown Seattle?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, and we plan around the building rather than fighting it. That means elevator reservations, protected common areas, work-hour rules, and hauling debris the way the HOA requires. Those constraints add hours, so we price them honestly up front rather than discovering them on day one."}}]}
+</script></div>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-cta" style="margin:30px 0">
+  <style>
+    html body .post-body .ocb-cta h2, .ocb-cta h2{color:#fff!important}
+    html body .post-body .ocb-cta .ocb-cta-sub, .ocb-cta .ocb-cta-sub{color:rgba(255,255,255,.88)!important}
+    html body .post-body .ocb-cta .ocb-cta-chips span, .ocb-cta .ocb-cta-chips span{color:rgba(255,255,255,.94)!important}
+    html body .post-body .ocb-cta a.ocb-cta-ghost, .ocb-cta a.ocb-cta-ghost{color:#fff!important;text-decoration:none!important}
+    html body .post-body .ocb-cta a.ocb-cta-gold, .ocb-cta a.ocb-cta-gold{color:#fbbc04!important}
+    html body .post-body .ocb-cta a.ocb-cta-phone, .ocb-cta a.ocb-cta-phone{color:#5c0000!important;text-decoration:none!important}
+  </style>
+  <div style="background:linear-gradient(135deg,#8B0000,#5c0000);border-radius:20px;padding:28px 24px;color:#fff;text-align:center;box-shadow:0 14px 34px rgba(92,0,0,.3)">
+    <h2 style="margin:0 0 6px;color:#fff!important;font-size:24px;font-weight:900">Want a Real Number for Your Bathroom?</h2>
+    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.92)!important;font-size:16.3px">We will look at the substrate, tell you what the shower needs behind the tile, and put the whole scope in writing &mdash; including what happens if we open the floor and find a surprise. Free in-home estimates across King &amp; Snohomish County.</p>
+    <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
+      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff!important;color:#5c0000!important;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none!important"><span class="ocb-ic ocb-ic-phone"></span> (425) 595-1079</a>
+      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.16)!important;border:1px solid rgba(255,255,255,.55);color:#fff!important;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none!important">Book My Free Consultation</a>
+    </div>
+    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.95)!important">
+      <span>✓ Since 2013</span><span>✓ 1,000+ floors</span><span>✓ 1-yr workmanship warranty</span><span>✓ Licensed &amp; insured</span><span>✓ Financing available</span>
+    </div>
+    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04!important;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
+  </div>
+</div></div>
+
+<p><strong>Related reading:</strong> <a href="/blog/hardwood-vs-tile-in-the-kitchen">Hardwood vs tile in the kitchen</a> · <a href="/blog/what-is-the-best-waterproof-floor-in-everett-wa">The best waterproof floors</a> · <a href="/blog/the-benefits-of-waterproof-flooring-in-seattle-wa">Waterproof flooring in Seattle</a> · <a href="/blog/can-i-install-hardwood-flooring-in-a-basement-or-other-moisture-prone-areas">Wood in moisture-prone rooms</a> · <a href="/seattle/tile-installation-in-seattle-wa">Tile installation in Seattle</a> · <a href="/contact">Book a free estimate</a></p>
+
+<div data-rt-embed-type='true'><script>
+(function(){try{
+var els=document.querySelectorAll('.ocb-card,.ocb-fact,.ocb-tri,.faq-item');
+if(!('IntersectionObserver' in window)||!els.length)return;
+document.documentElement.classList.add('ocb-anim-ready');
+els.forEach(function(e,i){e.classList.add('ocb-rv');e.style.transitionDelay=Math.min((i%6)*70,350)+'ms'});
+var io=new IntersectionObserver(function(en){en.forEach(function(x){if(x.isIntersecting){x.target.classList.add('ocb-in');io.unobserve(x.target)}})},{threshold:.12,rootMargin:'0px 0px -8% 0px'});
+els.forEach(function(e){io.observe(e)});
+}catch(e){}})();
+</script></div>
