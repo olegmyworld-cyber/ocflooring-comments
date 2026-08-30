@@ -39,11 +39,11 @@ deliberately left untouched):
    server-rendered links pack (`ocsvc2`); the same pattern was added as
    page-footer custom code (static HTML, no JS — crawlable) on:
    - `/flooring-services-near-me/floor-refinishing` → 29 refinishing city pages
-     (removed later the same day at the owner's request — the section didn't fit
-     the page; the refinishing city pages remain linked from the homepage's
-     service-areas section and each city's sibling pages)
    - `/flooring-services-near-me/vinyl-plank-flooring-and-laminate-flooring` → 30 LVP city pages
    - `/flooring-services-near-me/flooring-repair` → 30 repair city pages
+   (the three sections above were removed later the same day at the owner's
+   request — they didn't fit those pages; city pages stay linked via the
+   homepage service-areas section and the tile/carpet blocks below remain)
    - `/tile-gallery` → 30 tile city pages (no tile hub exists)
    - `/flooring-services-near-me/our-products` (mobile showroom) → 30 carpet
      city pages (no carpet hub exists)
