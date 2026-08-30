@@ -1,8 +1,9 @@
 # Shared assembly helpers for OC Flooring blog bodies (house style)
-import json
+import json, os
 
-CSS = open('shared_css.html').read()
-ANIM = open('shared_anim.html').read()
+_HERE = os.path.dirname(os.path.abspath(__file__))
+CSS = open(os.path.join(_HERE, 'shared_css.html')).read()
+ANIM = open(os.path.join(_HERE, 'shared_anim.html')).read()
 
 PHONE_SVG = '<span class="ocb-ic ocb-ic-phone"></span>'
 PIN_SVG = '<span class="ocb-ic ocb-ic-pin"></span>'
@@ -116,6 +117,8 @@ def related(links):
 
 def assemble(slug, parts):
     body = CSS + '\n\n' + '\n\n'.join(parts) + '\n\n' + ANIM
-    open(slug + '.body.html', 'w').write(body)
+    # generators run from blogs/src; bodies belong one level up in blogs/
+    out = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', slug + '.body.html')
+    open(os.path.normpath(out), 'w').write(body)
     print(slug, 'body chars:', len(body))
     return body

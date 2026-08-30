@@ -1,0 +1,208 @@
+<div data-rt-embed-type='true'><style>
+.ocb{--ink:#0f172a;--muted:#64748b;--line:#e5e7eb;--soft:#f8fafc;--brand:#8B0000;--brand2:#5c0000;--gold:#fbbc04;font-family:'Mulish',Inter,system-ui,sans-serif;color:var(--ink)}
+.ocb *{box-sizing:border-box}
+.ocb-card{border:1px solid var(--line);border-radius:18px;background:#fff;box-shadow:0 10px 30px rgba(2,6,23,.06);padding:22px;margin:26px 0}
+.ocb-eyebrow{display:inline-block;background:rgba(139,0,0,.08);color:var(--brand2);border:1px solid rgba(139,0,0,.2);border-radius:999px;padding:5px 12px;font-size:12.5px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;margin-bottom:10px}
+.ocb-chips{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0 0}
+.ocb-chip{background:var(--soft);border:1px solid var(--line);border-radius:999px;padding:6px 12px;font-size:13.6px;font-weight:700}
+.ocb-table{width:100%;border-collapse:collapse;font-size:15.2px}
+.ocb-table th,.ocb-table td{padding:11px 10px;text-align:left;border-bottom:1px solid var(--line)}
+.ocb-table th{background:var(--soft);font-weight:800;font-size:13.6px;letter-spacing:.02em}
+.ocb-table tr:last-child td{border-bottom:0}
+.ocb-table td strong{color:var(--brand2)}
+.ocb-2col{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media(max-width:680px){.ocb-2col{grid-template-columns:1fr}}
+.ocb-check{list-style:none;padding:0;margin:10px 0 0}
+.ocb-check li{padding-left:26px;position:relative;margin:7px 0;line-height:1.55}
+.ocb-check li:before{content:"✓";position:absolute;left:0;color:var(--brand);font-weight:900}
+.ocb-x li:before{content:"✕";color:#94a3b8}
+html body .post-body .ocb-facts, .ocb-facts{display:grid!important;grid-template-columns:repeat(3,1fr)!important;gap:12px!important;margin:8px 0!important}
+@media(max-width:680px){html body .post-body .ocb-facts, .ocb-facts{grid-template-columns:1fr!important}}
+.ocb-fact{background:linear-gradient(180deg,#fff,#f8fafc);border:1px solid var(--line);border-radius:16px;padding:16px}
+.ocb-fact .n{font-size:24px;font-weight:900;color:var(--brand2);display:block;margin-bottom:4px}
+html body .post-body .ocb-fact p, .ocb-fact p{margin:0!important;font-size:14.7px!important;color:#334155!important;line-height:1.5!important}
+
+.ocb-card,.ocb-fact,.ocb-tri{transition:transform .28s ease,box-shadow .28s ease}
+.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:translateY(-4px);box-shadow:0 16px 40px rgba(2,6,23,.12)}
+.faq-item{transition:border-color .25s,box-shadow .25s}
+.faq-item:hover{border-color:rgba(139,0,0,.35);box-shadow:0 6px 18px rgba(2,6,23,.07)}
+.ocb-chip{display:inline-flex;align-items:center;gap:6px;transition:transform .2s,border-color .2s}
+.ocb-chip:hover{transform:translateY(-2px);border-color:rgba(139,0,0,.35)}
+.ocb-chip svg{color:#8B0000}
+.ocb-cta a{transition:transform .22s,box-shadow .22s}
+.ocb-cta a:hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(0,0,0,.25)}
+.ocb-fact .n{position:relative}
+html.ocb-anim-ready .ocb-rv{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
+html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){html.ocb-anim-ready .ocb-rv{opacity:1!important;transform:none!important;transition:none!important}.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:none}}
+
+/* Chip icons. Webflow's rich-text sanitizer strips inline <svg> whenever a post is
+   re-saved in the Editor, so the icons are drawn from CSS on a <span> instead. */
+.ocb-ic{display:inline-block;width:15px;height:15px;flex:0 0 auto;vertical-align:-2px;background-repeat:no-repeat;background-position:center;background-size:contain}
+.ocb-ic-pin{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z'/><circle cx='12' cy='10' r='3'/></svg>')}
+.ocb-ic-home{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z'/><polyline points='9 22 9 12 15 12 15 22'/></svg>')}
+.ocb-ic-phone{background-image:url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z'/></svg>')}
+.ocb-cta .ocb-ic{filter:brightness(0) saturate(100%) invert(9%) sepia(64%) saturate(4000%) hue-rotate(348deg)}
+</style></div>
+
+<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">September 3, 2026</span></div></div>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
+  <span class="ocb-eyebrow">Quick answer</span>
+  <p style="margin:0;font-size:17.9px;line-height:1.65"><strong>Carpet installation in Seattle starts at $1.49 per square foot installed, and a typical three-bedroom job lands in the low four figures once you add pad, stairs, and hauling the old carpet away.</strong> The number that decides your quote is not the carpet you pick from a sample board &mdash; it is square footage measured honestly, the pad grade underneath, and how many stairs and closets are in the count. We bring the showroom to your house so you can see all of that in your own light before you commit.</p>
+  <div class="ocb-chips">
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-pin"></span> King &amp; Snohomish County</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-home"></span> Seattle homes &amp; condos</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-phone"></span> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
+  </div>
+</div></div>
+
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-facts">
+  <div class="ocb-fact"><span class="n">$1.49/sq ft</span><p>where installed carpet starts with us &mdash; material, pad and labor. Better fibers and thicker pad move it up from there, and we show you the difference on your own floor rather than under store lighting.</p></div>
+  <div class="ocb-fact"><span class="n">20+ samples</span><p>full-size pieces we bring to your door, along with all three pad grades. Carpet color in a showroom and carpet color in a north-facing Seattle living room in November are two different colors.</p></div>
+  <div class="ocb-fact"><span class="n">One day</span><p>how long most homes take to install once the carpet is in. We measure and give you a written price on the same visit, so nothing about the number arrives later as a surprise.</p></div>
+</div></div></div>
+
+<h2>What You Are Actually Paying For</h2>
+
+<p>A carpet quote has four parts, and only one of them is the thing you picked out. There is the carpet itself, priced per square foot or per square yard depending on who is quoting. There is the pad, which almost nobody shops for and which decides more about how the floor feels and how long it lasts than most people believe. There is labor &mdash; measuring, moving furniture, tearing out the old floor, laying tack strip, seaming, power-stretching. And there is disposal, because a house's worth of old carpet does not fit in a bin.</p>
+
+<p>When two quotes are hundreds of dollars apart on the same carpet, the gap is almost always in the last three. Somebody quoted a builder-grade pad. Somebody left out haul-away. Somebody measured the bedrooms and forgot the closets, or counted stairs as square feet instead of per-tread. None of that is visible on a sample board, which is exactly why we go through it line by line at the estimate.</p>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-card">
+  <h3 style="margin:0 0 10px;font-size:18.5px;font-weight:900;color:#5c0000">What Moves a Seattle Carpet Quote</h3>
+  <div style="overflow-x:auto"><table class="ocb-table">
+    <tr><th>Factor</th><th>Effect</th><th>Why it matters</th></tr>
+    <tr><td><strong>Square footage</strong></td><td>The base of everything</td><td>Measured wall to wall including closets, with an allowance for waste &mdash; carpet comes in fixed-width rolls, so an odd room shape costs more than its area suggests</td></tr>
+    <tr><td><strong>Pad grade</strong></td><td>Modest cost, large effect</td><td>The cheapest pad flattens in a few years and takes the carpet with it. Upgrading pad is the best value decision in the whole quote</td></tr>
+    <tr><td><strong>Fiber</strong></td><td>The biggest material swing</td><td>Polyester is soft and affordable, nylon holds its shape under traffic, wool is the premium option</td></tr>
+    <tr><td><strong>Stairs</strong></td><td>Priced per tread, not per sq ft</td><td>A staircase is slow, precise work &mdash; far more labor per square foot than an open bedroom</td></tr>
+    <tr><td><strong>Removal &amp; disposal</strong></td><td>Per square foot</td><td>Old carpet, pad, staples and tack strip all have to come out and go somewhere</td></tr>
+    <tr><td><strong>Furniture</strong></td><td>Usually included, ask anyway</td><td>We move normal household furniture; pianos, safes and full waterbeds are their own conversation</td></tr>
+    <tr><td><strong>Subfloor repairs</strong></td><td>Only if needed</td><td>Squeaks, soft spots and old pet damage get found when the carpet comes up &mdash; better to price it then than to carpet over it</td></tr>
+    <tr><td><strong>Access</strong></td><td>Condos cost more</td><td>Elevator reservations, protected common areas and building hours all add labor in a downtown high-rise</td></tr>
+  </table></div>
+</div></div>
+
+<h2>The Pad Is the Part Worth Arguing About</h2>
+
+<p>If you take one thing from this page: spend on the pad. It is the cheapest upgrade in the quote and it changes both how the carpet feels and how long it survives. Pad is what absorbs the impact of every footstep; without enough of it, the carpet backing takes that load directly and the fibers crush permanently in the traffic lanes. That is why a carpet can look ten years old after three &mdash; not because the carpet was cheap, but because the pad under it was.</p>
+
+<p>We carry three grades and bring all three to the estimate so you can stand on them. The differences are obvious underfoot in about four seconds, which is roughly four seconds longer than most people have ever spent thinking about pad. In a house with kids, pets, or a staircase that takes real traffic, the mid or upper grade pays for itself before the carpet is halfway through its life.</p>
+
+<h2>Fiber, in Plain Terms</h2>
+
+<p><strong>Polyester (PET)</strong> is soft, takes color beautifully, resists stains inherently, and costs less. It is the right answer for bedrooms and low-traffic rooms, and its weakness is matting &mdash; it does not spring back from heavy traffic the way nylon does. <strong>Nylon</strong> is the workhorse: more resilient, better in hallways, stairs and family rooms, and worth the premium anywhere feet actually go. <strong>Wool</strong> is the luxury option, naturally flame-resistant and beautiful, and priced accordingly. <strong>Triexta</strong> sits between polyester and nylon and does well with pets.</p>
+
+<p>Most Seattle houses we carpet end up mixed: nylon on the stairs and hallway, polyester in the bedrooms. Nobody sells it that way, but it puts the money where the wear is. If you want the longer comparison, our guide to <a href="/blog/the-10-best-carpet-brands-reviews-2023-guide">carpet brands</a> covers who makes what, and <a href="/blog/what-is-a-good-price-to-pay-for-carpet-in-seattle-wa">what a good price looks like in Seattle</a> goes deeper on the numbers.</p>
+
+<h2>Why We Bring the Showroom to You</h2>
+
+<p>Carpet is the one flooring material that is genuinely hard to choose in a store. Showroom lighting is bright, neutral and overhead; your living room is none of those things. Seattle makes that worse than most places &mdash; from October to April the light coming through a north window is flat and grey, and a beige that looked warm under store lights reads green on your floor. Undertones that were invisible on the rack become the thing you notice every day.</p>
+
+<p>So we drive twenty-plus full-size samples to your house, lay them on the floor of the actual room, and leave while you look at them at different times of day if you want. We measure every room, closet and stair while we are there, and we leave a written price the same visit. In practice that turns a decision people dread into an hour at their kitchen table.</p>
+
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-2col">
+  <div class="ocb-card" style="margin:0">
+    <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#5c0000">What our quote includes</h3>
+    <ul class="ocb-check">
+      <li>Measuring every room, closet and stair &mdash; not estimating from a floor plan</li>
+      <li>Moving normal household furniture and putting it back</li>
+      <li>Tear-out of the old carpet, pad, staples and tack strip</li>
+      <li>Haul-away and disposal of everything that comes out</li>
+      <li>New tack strip, seaming and power-stretching &mdash; not kicked in</li>
+      <li>A written price the same visit, with the pad grade named</li>
+    </ul>
+  </div>
+  <div class="ocb-card" style="margin:0">
+    <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#334155">What to check in any other quote</h3>
+    <ul class="ocb-check ocb-x">
+      <li>Whether stairs are priced per tread or hidden in the square footage</li>
+      <li>Which pad grade the number assumes &mdash; ask by name, not "standard"</li>
+      <li>Whether removal and disposal are in or extra</li>
+      <li>Whether the carpet is power-stretched or knee-kicked (it matters in year three)</li>
+      <li>Whether closets were counted</li>
+      <li>What happens if the subfloor turns out to need work</li>
+    </ul>
+  </div>
+</div></div></div>
+
+<h2>Seattle-Specific Things That Come Up</h2>
+
+<p><strong>Old houses are not square.</strong> A Ballard bungalow or a Beacon Hill four-square has walls that wander and floors that slope. Carpet hides that better than any hard surface, which is part of its appeal, but it means seam placement takes planning and the waste factor is higher than the room's raw area suggests. A quote generated from square footage alone will be wrong on those houses.</p>
+
+<p><strong>Condos have rules.</strong> Downtown and Belltown buildings typically have elevator reservations, protected-corridor requirements, work-hour windows, and their own disposal rules. Many also have acoustic requirements in the CC&amp;Rs &mdash; which, happily, carpet and a decent pad satisfy comfortably. We plan around the building rather than discovering it on install day.</p>
+
+<p><strong>Damp basements and daylight rooms.</strong> Carpet over a slab that wicks moisture is a mold problem waiting to happen. If the basement is dry, carpet is wonderful down there; if it is not, we will say so and point you at a waterproof option instead. Same conversation we have about <a href="/blog/upkeep-for-carpet-vs-hardwood-flooring">carpet against hard flooring</a> generally.</p>
+
+<h2>When Replacing Is the Wrong Call</h2>
+
+<p>Sometimes the honest answer is that you do not need new carpet. Ripples and buckling usually mean the carpet was never power-stretched properly &mdash; restretching costs a fraction of replacement and buys years, which we cover in <a href="/blog/is-it-worth-it-to-restretch-your-carpet">is restretching worth it</a>. Traffic lanes that look dirty may just be dirty; a professional clean is cheap next to a new floor. And if the carpet is sound but you hate the color, that is a real reason to replace it, just not an urgent one.</p>
+
+<p>Where replacement genuinely wins: matting that does not recover, pet damage that reached the pad or subfloor, allergy problems, or carpet old enough that the backing is delaminating. Our list of <a href="/blog/6-reasons-to-replace-carpet-flooring">reasons to replace carpet</a> is the longer version, and <a href="/blog/how-to-remove-old-carpet">removing old carpet</a> covers what is involved if you want to pull it yourself.</p>
+
+<div data-rt-embed-type='true'><!-- FAQ accordion + JSON-LD -->
+<div class="faq-wrap ocb" aria-labelledby="faq-title">
+  <h2 id="faq-title" class="faq-title">Carpet Installation Cost in Seattle: What Homeowners Ask Us</h2>
+  <div class="faq-items" role="list">
+    <details class="faq-item" role="listitem"><summary class="faq-q">How much does carpet installation cost in Seattle?</summary><div class="faq-a">Installed carpet starts at $1.49 per square foot with us, covering material, pad and labor. Where your number lands depends on fiber, pad grade, how many stairs are in the job, and whether the old carpet needs removing and hauling. We measure every room and stair and give you a written price on the same visit, so there is no gap between the estimate and the invoice.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Is the pad included in the price, and does it matter?</summary><div class="faq-a">It is included, and it matters more than almost anything else in the quote. Pad absorbs the impact of every footstep; too little of it and the carpet fibers crush permanently in the traffic lanes, which is why some carpet looks worn out in three years. We bring all three grades to the estimate so you can feel the difference underfoot before deciding.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">How are stairs priced?</summary><div class="faq-a">Per tread, not by square footage. Stairs are slow, precise work — every tread is wrapped or capped individually and the carpet has to be secured properly for safety — so they carry far more labor per square foot than an open bedroom. Any quote that buries stairs in a total square-foot number is worth asking about.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Do you move the furniture?</summary><div class="faq-a">Yes, normal household furniture is part of the job and we put it back when we are done. The exceptions are the heavy specials — pianos, gun safes, full waterbeds, aquariums — which need their own arrangements. Emptying dressers and closets before we arrive speeds the day up considerably.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">How long does carpet installation take?</summary><div class="faq-a">Most homes are a single day once the carpet has arrived. Ordering is usually the longer part of the timeline, since carpet is cut from a roll at the mill. Large houses or jobs with a lot of stairs can run into a second day, and we will tell you which yours is at the estimate rather than on the morning.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">What is the best carpet for a house with pets?</summary><div class="faq-a">A solution-dyed fiber with a moisture-barrier pad. Solution-dyed means the color goes all the way through the fiber, so it survives cleaning that would fade a printed carpet, and the barrier pad stops accidents from reaching the subfloor — which is what actually causes lingering odor. Triexta and nylon both do well here.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Should I replace my carpet or restretch it?</summary><div class="faq-a">If the problem is ripples, waves or buckling, restretch — that is a stretching failure, not a worn-out carpet, and it costs a fraction of replacement. Replace when the fibers are matted flat and no longer recover, when pet damage has reached the pad or subfloor, or when the backing is coming apart. We will tell you honestly which one you have.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Can you carpet a Seattle condo with building restrictions?</summary><div class="faq-a">Yes, and we plan around the building from the start — elevator reservations, protected common areas, permitted work hours and the building’s disposal rules. Many buildings also have acoustic requirements in their CC&Rs, which carpet over a good pad satisfies comfortably. Send us the rules with your estimate request and we will build the schedule around them.</div></details>
+  </div>
+</div>
+
+<style>
+  .faq-wrap{--line:#e5e7eb;margin:28px auto;padding:20px;border:1px solid var(--line);border-radius:16px;background:#fff;box-shadow:0 8px 30px rgba(2,6,23,.06)}
+  .faq-title{margin:0 0 14px;font-size:24px;font-weight:900;text-align:center;color:#5c0000}
+  .faq-items{display:grid;gap:10px}
+  .faq-item{border:1px solid var(--line);border-radius:14px;background:#f9fafb;overflow:hidden}
+  .faq-q{cursor:pointer;display:block;padding:14px 16px;font-weight:800;color:#0f172a}
+  .faq-q::-webkit-details-marker{display:none}
+  .faq-item[open] .faq-q{background:linear-gradient(180deg, rgba(139,0,0,.08), rgba(139,0,0,.02))}
+  .faq-a{padding:0 16px 14px;color:#1f2937;line-height:1.6}
+</style>
+
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How much does carpet installation cost in Seattle?", "acceptedAnswer": {"@type": "Answer", "text": "Installed carpet starts at $1.49 per square foot with us, covering material, pad and labor. Where your number lands depends on fiber, pad grade, how many stairs are in the job, and whether the old carpet needs removing and hauling. We measure every room and stair and give you a written price on the same visit, so there is no gap between the estimate and the invoice."}}, {"@type": "Question", "name": "Is the pad included in the price, and does it matter?", "acceptedAnswer": {"@type": "Answer", "text": "It is included, and it matters more than almost anything else in the quote. Pad absorbs the impact of every footstep; too little of it and the carpet fibers crush permanently in the traffic lanes, which is why some carpet looks worn out in three years. We bring all three grades to the estimate so you can feel the difference underfoot before deciding."}}, {"@type": "Question", "name": "How are stairs priced?", "acceptedAnswer": {"@type": "Answer", "text": "Per tread, not by square footage. Stairs are slow, precise work — every tread is wrapped or capped individually and the carpet has to be secured properly for safety — so they carry far more labor per square foot than an open bedroom. Any quote that buries stairs in a total square-foot number is worth asking about."}}, {"@type": "Question", "name": "Do you move the furniture?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, normal household furniture is part of the job and we put it back when we are done. The exceptions are the heavy specials — pianos, gun safes, full waterbeds, aquariums — which need their own arrangements. Emptying dressers and closets before we arrive speeds the day up considerably."}}, {"@type": "Question", "name": "How long does carpet installation take?", "acceptedAnswer": {"@type": "Answer", "text": "Most homes are a single day once the carpet has arrived. Ordering is usually the longer part of the timeline, since carpet is cut from a roll at the mill. Large houses or jobs with a lot of stairs can run into a second day, and we will tell you which yours is at the estimate rather than on the morning."}}, {"@type": "Question", "name": "What is the best carpet for a house with pets?", "acceptedAnswer": {"@type": "Answer", "text": "A solution-dyed fiber with a moisture-barrier pad. Solution-dyed means the color goes all the way through the fiber, so it survives cleaning that would fade a printed carpet, and the barrier pad stops accidents from reaching the subfloor — which is what actually causes lingering odor. Triexta and nylon both do well here."}}, {"@type": "Question", "name": "Should I replace my carpet or restretch it?", "acceptedAnswer": {"@type": "Answer", "text": "If the problem is ripples, waves or buckling, restretch — that is a stretching failure, not a worn-out carpet, and it costs a fraction of replacement. Replace when the fibers are matted flat and no longer recover, when pet damage has reached the pad or subfloor, or when the backing is coming apart. We will tell you honestly which one you have."}}, {"@type": "Question", "name": "Can you carpet a Seattle condo with building restrictions?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, and we plan around the building from the start — elevator reservations, protected common areas, permitted work hours and the building’s disposal rules. Many buildings also have acoustic requirements in their CC&Rs, which carpet over a good pad satisfies comfortably. Send us the rules with your estimate request and we will build the schedule around them."}}]}
+</script></div>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-cta" style="margin:30px 0">
+  <style>
+    html body .post-body .ocb-cta h2, .ocb-cta h2{color:#fff!important}
+    html body .post-body .ocb-cta .ocb-cta-sub, .ocb-cta .ocb-cta-sub{color:rgba(255,255,255,.88)!important}
+    html body .post-body .ocb-cta .ocb-cta-chips span, .ocb-cta .ocb-cta-chips span{color:rgba(255,255,255,.94)!important}
+    html body .post-body .ocb-cta a.ocb-cta-ghost, .ocb-cta a.ocb-cta-ghost{color:#fff!important;text-decoration:none!important}
+    html body .post-body .ocb-cta a.ocb-cta-gold, .ocb-cta a.ocb-cta-gold{color:#fbbc04!important}
+    html body .post-body .ocb-cta a.ocb-cta-phone, .ocb-cta a.ocb-cta-phone{color:#5c0000!important;text-decoration:none!important}
+  </style>
+  <div style="background:linear-gradient(135deg,#8B0000,#5c0000);border-radius:20px;padding:28px 24px;color:#fff;text-align:center;box-shadow:0 14px 34px rgba(92,0,0,.3)">
+    <h2 style="margin:0 0 6px;color:#fff!important;font-size:24px;font-weight:900">See the Samples in Your Own Living Room</h2>
+    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.92)!important;font-size:16.3px">We bring twenty-plus full-size carpet samples and all three pad grades to your door, measure every room and stair, and leave a written price the same visit. No showroom lighting, no pressure. Free in-home estimates across King &amp; Snohomish County.</p>
+    <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
+      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff!important;color:#5c0000!important;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none!important"><span class="ocb-ic ocb-ic-phone"></span> (425) 595-1079</a>
+      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.16)!important;border:1px solid rgba(255,255,255,.55);color:#fff!important;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none!important">Book My Free Consultation</a>
+    </div>
+    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.95)!important">
+      <span>✓ Since 2013</span><span>✓ 1,000+ floors</span><span>✓ 1-yr workmanship warranty</span><span>✓ Licensed &amp; insured</span><span>✓ Financing available</span>
+    </div>
+    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04!important;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
+  </div>
+</div></div>
+
+<p><strong>Related reading:</strong> <a href="/blog/what-is-a-good-price-to-pay-for-carpet-in-seattle-wa">What a good carpet price looks like in Seattle</a> · <a href="/blog/6-reasons-to-replace-carpet-flooring">Six reasons to replace carpet</a> · <a href="/blog/is-it-worth-it-to-restretch-your-carpet">Restretch or replace?</a> · <a href="/blog/the-10-best-carpet-brands-reviews-2023-guide">The best carpet brands</a> · <a href="/seattle/carpet-installation-in-seattle-wa">Carpet installation in Seattle</a> · <a href="/contact">Book a free estimate</a></p>
+
+<div data-rt-embed-type='true'><script>
+(function(){try{
+var els=document.querySelectorAll('.ocb-card,.ocb-fact,.ocb-tri,.faq-item');
+if(!('IntersectionObserver' in window)||!els.length)return;
+document.documentElement.classList.add('ocb-anim-ready');
+els.forEach(function(e,i){e.classList.add('ocb-rv');e.style.transitionDelay=Math.min((i%6)*70,350)+'ms'});
+var io=new IntersectionObserver(function(en){en.forEach(function(x){if(x.isIntersecting){x.target.classList.add('ocb-in');io.unobserve(x.target)}})},{threshold:.12,rootMargin:'0px 0px -8% 0px'});
+els.forEach(function(e){io.observe(e)});
+}catch(e){}})();
+</script></div>
