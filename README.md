@@ -79,17 +79,18 @@ slugs (Arlington/Bothell inconsistencies — renaming indexed URLs would drop
 rankings temporarily), and the 24/7 `openingHoursSpecification` in the schema
 (business decision).
 
-### Blog hero images restored (2026-08-30, same branch)
+### Blog hero images: restoration attempted, then reverted (2026-08-30, same branch)
 
 A bulk edit on ~Aug 24 had replaced the hero (`main-image`) and thumbnail on
-99 older blog posts with generated "-main.avif" stock images. Restored the
-original per-post images on **78 posts** by recovering each post's
-original-era image URL from its own `post-body` rich text (originals were
-still embedded in the articles), writing both `main-image` and
-`thumbnail-image` back via the CMS API (`cmsLocaleId` required) and
-publishing the items. 21 posts had no original image left anywhere and keep
-the batch image; 10 posts were never touched; the 100 posts created Aug 28-29
-(97 still drafts) never had earlier heroes.
+99 older blog posts with generated "-main.avif" images. At first request the
+pre-Aug-24 originals were restored on 78 posts (recovered from each post's own
+`post-body` rich text). The owner then preferred the newer images, so all 78
+posts were reverted to their Aug-24 "-main.avif" heroes from the saved
+pre-change snapshot and re-published — the blogs now look exactly as they did
+before today's edits. Mechanics for future reference: CMS image fields are
+updated via `update_collection_items` with `cmsLocaleId` (required) and
+re-published via `publish_collection_items`; URL-set images get re-ingested
+under a new asset-id prefix but keep the original file content/name.
 
 ## Changes on branch `claude/oc-flooring-webflow-fixes-amosur`
 
