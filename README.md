@@ -79,6 +79,18 @@ slugs (Arlington/Bothell inconsistencies — renaming indexed URLs would drop
 rankings temporarily), and the 24/7 `openingHoursSpecification` in the schema
 (business decision).
 
+### Blog hero images restored (2026-08-30, same branch)
+
+A bulk edit on ~Aug 24 had replaced the hero (`main-image`) and thumbnail on
+99 older blog posts with generated "-main.avif" stock images. Restored the
+original per-post images on **78 posts** by recovering each post's
+original-era image URL from its own `post-body` rich text (originals were
+still embedded in the articles), writing both `main-image` and
+`thumbnail-image` back via the CMS API (`cmsLocaleId` required) and
+publishing the items. 21 posts had no original image left anywhere and keep
+the batch image; 10 posts were never touched; the 100 posts created Aug 28-29
+(97 still drafts) never had earlier heroes.
+
 ## Changes on branch `claude/oc-flooring-webflow-fixes-amosur`
 
 ### Bona sealer widget — "CUSTOMER FAVORITE" badge overlap (2026-06-14)
@@ -97,15 +109,3 @@ phones. See [`webflow-scripts/bonamobilefix-1.0.0.js`](webflow-scripts/bonamobil
 
 Published live to `nwocflooring.com`, `www.nwocflooring.com`, and the Webflow
 subdomain.
-
-### Blog hero images restored (2026-08-30, same branch)
-
-A bulk edit on ~Aug 24 had replaced the hero (`main-image`) and thumbnail on
-99 older blog posts with generated "-main.avif" stock images. Restored the
-original per-post images on **78 posts** by recovering each post's
-original-era image URL from its own `post-body` rich text (originals were
-still embedded in the articles), writing both `main-image` and
-`thumbnail-image` back via the CMS API (`cmsLocaleId` required) and
-publishing the items. 21 posts had no original image left anywhere and keep
-the batch image; 10 posts were never touched; the 100 posts created Aug 28-29
-(97 still drafts) never had earlier heroes.
