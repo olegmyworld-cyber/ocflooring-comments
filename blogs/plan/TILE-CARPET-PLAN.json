@@ -1,0 +1,646 @@
+{
+ "tile": [
+  {
+   "seq": 1,
+   "publish_date": "2026-09-01",
+   "service": "tile",
+   "city": "Seattle",
+   "title": "What Bathroom Tile Installation Really Costs in Seattle",
+   "keyword": "bathroom tile installation cost",
+   "us_volume": 1600,
+   "kd": 21
+  },
+  {
+   "seq": 2,
+   "publish_date": "2026-09-08",
+   "service": "tile",
+   "city": "Bellevue",
+   "title": "Tile Installation Cost Per Square Foot: A Bellevue Price Breakdown",
+   "keyword": "tile installation cost per square foot",
+   "us_volume": 1600,
+   "kd": 14
+  },
+  {
+   "seq": 3,
+   "publish_date": "2026-09-15",
+   "service": "tile",
+   "city": null,
+   "title": "Can You Tile Over Existing Tile? When It Works and When It Fails",
+   "keyword": "can you tile over tile",
+   "us_volume": 1900,
+   "kd": 10
+  },
+  {
+   "seq": 4,
+   "publish_date": "2026-09-22",
+   "service": "tile",
+   "city": "Everett",
+   "title": "Shower Niches Done Right: Placement, Size, and Waterproofing",
+   "keyword": "shower niche",
+   "us_volume": 14800,
+   "kd": 21
+  },
+  {
+   "seq": 5,
+   "publish_date": "2026-09-29",
+   "service": "tile",
+   "city": null,
+   "title": "Tile Underlayment Explained: Ditra, Cement Board, and What Goes Where",
+   "keyword": "tile underlayment",
+   "us_volume": 2900,
+   "kd": 16
+  },
+  {
+   "seq": 6,
+   "publish_date": "2026-10-06",
+   "service": "tile",
+   "city": "Mercer Island",
+   "title": "Curbless Showers in Mercer Island Homes: What the Build Actually Takes",
+   "keyword": "curbless shower",
+   "us_volume": 6600,
+   "kd": 36
+  },
+  {
+   "seq": 7,
+   "publish_date": "2026-10-13",
+   "service": "tile",
+   "city": "Renton",
+   "title": "Porcelain vs Ceramic Tile: Which Belongs in a Renton Home",
+   "keyword": "porcelain vs ceramic tile",
+   "us_volume": 2400,
+   "kd": 26
+  },
+  {
+   "seq": 8,
+   "publish_date": "2026-10-20",
+   "service": "tile",
+   "city": "Kirkland",
+   "title": "Bathroom Floor Tile That Still Looks Right in Ten Years",
+   "keyword": "bathroom floor tile ideas",
+   "us_volume": 5400,
+   "kd": 31
+  },
+  {
+   "seq": 9,
+   "publish_date": "2026-10-27",
+   "service": "tile",
+   "city": "Redmond",
+   "title": "Shower Waterproofing: The Layer That Decides Whether Your Tile Lasts",
+   "keyword": "tile shower waterproofing",
+   "us_volume": 590,
+   "kd": 18
+  },
+  {
+   "seq": 10,
+   "publish_date": "2026-11-03",
+   "service": "tile",
+   "city": "Marysville",
+   "title": "Heated Bathroom Floors in Marysville: Cost, Payback, and Install Reality",
+   "keyword": "heated bathroom floor cost",
+   "us_volume": 390,
+   "kd": 21
+  },
+  {
+   "seq": 11,
+   "publish_date": "2026-11-10",
+   "service": "tile",
+   "city": null,
+   "title": "Epoxy vs Cement Grout: Where Each One Earns Its Price",
+   "keyword": "epoxy grout vs cement grout",
+   "us_volume": 480,
+   "kd": 22
+  },
+  {
+   "seq": 12,
+   "publish_date": "2026-11-17",
+   "service": "tile",
+   "city": "Sammamish",
+   "title": "What It Costs to Tile a Shower in Sammamish",
+   "keyword": "how much does it cost to tile a shower",
+   "us_volume": 480,
+   "kd": 19
+  },
+  {
+   "seq": 13,
+   "publish_date": "2026-11-24",
+   "service": "tile",
+   "city": "Shoreline",
+   "title": "Large-Format Tile: Why Flat Subfloors Decide the Whole Job",
+   "keyword": "large format tile installation",
+   "us_volume": 390,
+   "kd": 18
+  },
+  {
+   "seq": 14,
+   "publish_date": "2026-12-01",
+   "service": "tile",
+   "city": "Bothell",
+   "title": "Laundry Room Tile: The Floor That Has to Survive a Leak",
+   "keyword": "laundry room tile",
+   "us_volume": 1300,
+   "kd": 7
+  },
+  {
+   "seq": 15,
+   "publish_date": "2026-12-08",
+   "service": "tile",
+   "city": "Edmonds",
+   "title": "Entryway Tile for Pacific Northwest Winters",
+   "keyword": "entryway tile",
+   "us_volume": 880,
+   "kd": 10
+  },
+  {
+   "seq": 16,
+   "publish_date": "2026-12-15",
+   "service": "tile",
+   "city": "Issaquah",
+   "title": "Mudroom Tile That Handles Boots, Dogs, and Rain",
+   "keyword": "mudroom tile",
+   "us_volume": 480,
+   "kd": 11
+  },
+  {
+   "seq": 17,
+   "publish_date": "2026-12-22",
+   "service": "tile",
+   "city": "Lynnwood",
+   "title": "Choosing Grout Color: The Decision People Regret Most",
+   "keyword": "tile grout color",
+   "us_volume": 390,
+   "kd": 29
+  },
+  {
+   "seq": 18,
+   "publish_date": "2026-12-29",
+   "service": "tile",
+   "city": "Lake Stevens",
+   "title": "Regrouting vs Retiling a Shower: How to Tell Which You Need",
+   "keyword": "regrouting a shower",
+   "us_volume": 210,
+   "kd": 25
+  },
+  {
+   "seq": 19,
+   "publish_date": "2027-01-05",
+   "service": "tile",
+   "city": null,
+   "title": "Subway Tile Patterns Beyond the Running Bond",
+   "keyword": "subway tile pattern",
+   "us_volume": 260,
+   "kd": 15
+  },
+  {
+   "seq": 20,
+   "publish_date": "2027-01-12",
+   "service": "tile",
+   "city": null,
+   "title": "Ditra vs Cement Board: A Tile Setter's Honest Comparison",
+   "keyword": "ditra vs cement board",
+   "us_volume": 110,
+   "kd": 3
+  },
+  {
+   "seq": 21,
+   "publish_date": "2027-01-19",
+   "service": "tile",
+   "city": "Kenmore",
+   "title": "What a Kitchen Backsplash Costs Installed in Kenmore",
+   "keyword": "kitchen backsplash installation cost",
+   "us_volume": 70,
+   "kd": 23
+  },
+  {
+   "seq": 22,
+   "publish_date": "2027-01-26",
+   "service": "tile",
+   "city": "Mukilteo",
+   "title": "Why Tile Floors Crack \u2014 and What It Says About the Subfloor",
+   "keyword": "tile floor cracking",
+   "us_volume": 40,
+   "kd": 15
+  },
+  {
+   "seq": 23,
+   "publish_date": "2027-02-02",
+   "service": "tile",
+   "city": "Mill Creek",
+   "title": "How Long Does It Take to Tile a Bathroom? A Real Timeline",
+   "keyword": "how long does it take to tile a bathroom",
+   "us_volume": 90,
+   "kd": 0
+  },
+  {
+   "seq": 24,
+   "publish_date": "2027-02-09",
+   "service": "tile",
+   "city": "Seattle",
+   "title": "Tile's Share of a Seattle Bathroom Remodel Budget",
+   "keyword": "bathroom remodel cost seattle",
+   "us_volume": 50,
+   "kd": 14
+  },
+  {
+   "seq": 25,
+   "publish_date": "2027-02-16",
+   "service": "tile",
+   "city": "Seattle",
+   "title": "Hiring a Tile Installer in Seattle: What to Ask Before You Sign",
+   "keyword": "tile installation seattle",
+   "us_volume": 140,
+   "kd": 10
+  },
+  {
+   "seq": 26,
+   "publish_date": "2027-02-23",
+   "service": "tile",
+   "city": null,
+   "title": "Schluter Kerdi vs Liquid Membrane: Two Ways to Keep Water Out",
+   "keyword": "schluter kerdi",
+   "us_volume": 1900,
+   "kd": 48
+  },
+  {
+   "seq": 27,
+   "publish_date": "2027-03-02",
+   "service": "tile",
+   "city": "Monroe",
+   "title": "Tile or Luxury Vinyl in a Monroe Bathroom?",
+   "keyword": "luxury vinyl vs tile bathroom",
+   "us_volume": 0,
+   "kd": 0
+  },
+  {
+   "seq": 28,
+   "publish_date": "2027-03-09",
+   "service": "tile",
+   "city": "Snoqualmie",
+   "title": "Heated Floor Mats vs Loose Cable: Which Suits Your Room",
+   "keyword": "heated floor mat vs cable",
+   "us_volume": 0,
+   "kd": 0
+  },
+  {
+   "seq": 29,
+   "publish_date": "2027-03-16",
+   "service": "tile",
+   "city": "Woodinville",
+   "title": "Making a Small Bathroom Feel Bigger With Tile",
+   "keyword": "small bathroom tile",
+   "us_volume": 0,
+   "kd": 0
+  },
+  {
+   "seq": 30,
+   "publish_date": "2027-03-23",
+   "service": "tile",
+   "city": "Newcastle",
+   "title": "Slip-Resistant Tile for Homes With Dogs and Older Adults",
+   "keyword": "tile traction pets",
+   "us_volume": 0,
+   "kd": 0
+  },
+  {
+   "seq": 31,
+   "publish_date": "2027-03-30",
+   "service": "tile",
+   "city": "Snohomish",
+   "title": "Tiling Over a Concrete Basement Slab in Snohomish",
+   "keyword": "basement tile concrete",
+   "us_volume": 0,
+   "kd": 0
+  },
+  {
+   "seq": 32,
+   "publish_date": "2027-04-06",
+   "service": "tile",
+   "city": "Cottage Lake",
+   "title": "Sealing and Maintaining Tile: What Actually Needs Doing",
+   "keyword": "tile maintenance sealing",
+   "us_volume": 0,
+   "kd": 0
+  }
+ ],
+ "carpet": [
+  {
+   "seq": 1,
+   "publish_date": "2026-09-03",
+   "service": "carpet",
+   "city": "Seattle",
+   "title": "What Carpet Installation Costs in Seattle",
+   "keyword": "carpet installation cost",
+   "us_volume": 6600,
+   "kd": 36
+  },
+  {
+   "seq": 2,
+   "publish_date": "2026-09-10",
+   "service": "carpet",
+   "city": "Bellevue",
+   "title": "The Best Carpet for Homes With Pets",
+   "keyword": "best carpet for pets",
+   "us_volume": 1600,
+   "kd": 24
+  },
+  {
+   "seq": 3,
+   "publish_date": "2026-09-17",
+   "service": "carpet",
+   "city": "Everett",
+   "title": "The Best Carpet for Stairs in an Everett Home",
+   "keyword": "best carpet for stairs",
+   "us_volume": 1300,
+   "kd": 25
+  },
+  {
+   "seq": 4,
+   "publish_date": "2026-09-24",
+   "service": "carpet",
+   "city": "Renton",
+   "title": "How Long Should Carpet Last? An Honest Answer",
+   "keyword": "how long does carpet last",
+   "us_volume": 1300,
+   "kd": 10
+  },
+  {
+   "seq": 5,
+   "publish_date": "2026-10-01",
+   "service": "carpet",
+   "city": "Kirkland",
+   "title": "What Carpet Removal Costs \u2014 and When It's Included",
+   "keyword": "carpet removal cost",
+   "us_volume": 1300,
+   "kd": 35
+  },
+  {
+   "seq": 6,
+   "publish_date": "2026-10-08",
+   "service": "carpet",
+   "city": "Redmond",
+   "title": "Carpet in a Basement: When It Works in the Pacific Northwest",
+   "keyword": "carpet for basement",
+   "us_volume": 880,
+   "kd": 11
+  },
+  {
+   "seq": 7,
+   "publish_date": "2026-10-15",
+   "service": "carpet",
+   "city": "Marysville",
+   "title": "Carpet Stretching: Fixing Ripples Without Replacing the Floor",
+   "keyword": "carpet stretching cost",
+   "us_volume": 880,
+   "kd": 11
+  },
+  {
+   "seq": 8,
+   "publish_date": "2026-10-22",
+   "service": "carpet",
+   "city": null,
+   "title": "How to Measure a Room for Carpet (and Why Estimates Differ)",
+   "keyword": "how to measure for carpet",
+   "us_volume": 720,
+   "kd": 11
+  },
+  {
+   "seq": 9,
+   "publish_date": "2026-10-29",
+   "service": "carpet",
+   "city": "Sammamish",
+   "title": "What It Costs to Carpet One Room in Sammamish",
+   "keyword": "cost to carpet a room",
+   "us_volume": 590,
+   "kd": 36
+  },
+  {
+   "seq": 10,
+   "publish_date": "2026-11-05",
+   "service": "carpet",
+   "city": null,
+   "title": "Low Pile vs High Pile: Which Carpet Suits Your Rooms",
+   "keyword": "low pile vs high pile carpet",
+   "us_volume": 480,
+   "kd": 10
+  },
+  {
+   "seq": 11,
+   "publish_date": "2026-11-12",
+   "service": "carpet",
+   "city": "Shoreline",
+   "title": "Stain-Resistant Carpet: What the Warranties Actually Cover",
+   "keyword": "stain resistant carpet",
+   "us_volume": 1000,
+   "kd": 17
+  },
+  {
+   "seq": 12,
+   "publish_date": "2026-11-19",
+   "service": "carpet",
+   "city": "Bothell",
+   "title": "Carpet Padding: The Half of the Job Nobody Shops For",
+   "keyword": "carpet padding thickness",
+   "us_volume": 320,
+   "kd": 8
+  },
+  {
+   "seq": 13,
+   "publish_date": "2026-11-26",
+   "service": "carpet",
+   "city": "Edmonds",
+   "title": "Do Carpet Installers Move Your Furniture? What to Expect",
+   "keyword": "do carpet installers move furniture",
+   "us_volume": 320,
+   "kd": 16
+  },
+  {
+   "seq": 14,
+   "publish_date": "2026-12-03",
+   "service": "carpet",
+   "city": "Issaquah",
+   "title": "Carpet or Hardwood? Room-by-Room in an Issaquah Home",
+   "keyword": "carpet vs hardwood",
+   "us_volume": 320,
+   "kd": 19
+  },
+  {
+   "seq": 15,
+   "publish_date": "2026-12-10",
+   "service": "carpet",
+   "city": "Lynnwood",
+   "title": "Carpet and Allergies: What Helps and What's a Myth",
+   "keyword": "carpet allergies",
+   "us_volume": 260,
+   "kd": 37
+  },
+  {
+   "seq": 16,
+   "publish_date": "2026-12-17",
+   "service": "carpet",
+   "city": "Lake Stevens",
+   "title": "Why Bedrooms Are Still the Best Room for Carpet",
+   "keyword": "carpet in bedrooms",
+   "us_volume": 260,
+   "kd": 17
+  },
+  {
+   "seq": 17,
+   "publish_date": "2026-12-24",
+   "service": "carpet",
+   "city": "Mercer Island",
+   "title": "Five Signs It's Time to Replace Your Carpet",
+   "keyword": "when to replace carpet",
+   "us_volume": 170,
+   "kd": 10
+  },
+  {
+   "seq": 18,
+   "publish_date": "2026-12-31",
+   "service": "carpet",
+   "city": "Seattle",
+   "title": "Hiring a Carpet Installer in Seattle: Questions That Matter",
+   "keyword": "carpet installation seattle",
+   "us_volume": 170,
+   "kd": 16
+  },
+  {
+   "seq": 19,
+   "publish_date": "2027-01-07",
+   "service": "carpet",
+   "city": "Kenmore",
+   "title": "Wall-to-Wall Carpet Cost in Kenmore, Room by Room",
+   "keyword": "wall to wall carpet cost",
+   "us_volume": 140,
+   "kd": 39
+  },
+  {
+   "seq": 20,
+   "publish_date": "2027-01-14",
+   "service": "carpet",
+   "city": null,
+   "title": "Nylon, Polyester, or Wool? Carpet Fibers Compared",
+   "keyword": "carpet fiber types",
+   "us_volume": 110,
+   "kd": 17
+  },
+  {
+   "seq": 21,
+   "publish_date": "2027-01-21",
+   "service": "carpet",
+   "city": "Mukilteo",
+   "title": "Berber vs Plush: Which Carpet Wears Better",
+   "keyword": "berber vs plush carpet",
+   "us_volume": 90,
+   "kd": 0
+  },
+  {
+   "seq": 22,
+   "publish_date": "2027-01-28",
+   "service": "carpet",
+   "city": "Mill Creek",
+   "title": "Reading a Carpet Warranty Before You Buy",
+   "keyword": "carpet warranty",
+   "us_volume": 90,
+   "kd": 15
+  },
+  {
+   "seq": 23,
+   "publish_date": "2027-02-04",
+   "service": "carpet",
+   "city": "Monroe",
+   "title": "Stair Runners: Cost, Installation, and Whether They Last",
+   "keyword": "stair runner cost",
+   "us_volume": 70,
+   "kd": 14
+  },
+  {
+   "seq": 24,
+   "publish_date": "2027-02-11",
+   "service": "carpet",
+   "city": "Snoqualmie",
+   "title": "Carpet Colors That Won't Date Your House",
+   "keyword": "carpet color trends",
+   "us_volume": 50,
+   "kd": 8
+  },
+  {
+   "seq": 25,
+   "publish_date": "2027-02-18",
+   "service": "carpet",
+   "city": "Woodinville",
+   "title": "Carpet for Rentals: What Landlords Should Actually Buy",
+   "keyword": "rental property carpet",
+   "us_volume": 10,
+   "kd": 0
+  },
+  {
+   "seq": 26,
+   "publish_date": "2027-02-25",
+   "service": "carpet",
+   "city": "Seattle",
+   "title": "Carpet for Condo Sound Rules in Seattle Buildings",
+   "keyword": "soundproof carpet apartment",
+   "us_volume": 0,
+   "kd": 0
+  },
+  {
+   "seq": 27,
+   "publish_date": "2027-03-04",
+   "service": "carpet",
+   "city": "Newcastle",
+   "title": "Why Carpet Seams Show \u2014 and How Good Installers Hide Them",
+   "keyword": "carpet seam visible",
+   "us_volume": 10,
+   "kd": 0
+  },
+  {
+   "seq": 28,
+   "publish_date": "2027-03-11",
+   "service": "carpet",
+   "city": "Snohomish",
+   "title": "Carpet Tiles vs Broadloom for Basements and Offices",
+   "keyword": "carpet tiles vs broadloom",
+   "us_volume": 30,
+   "kd": 0
+  },
+  {
+   "seq": 29,
+   "publish_date": "2027-03-18",
+   "service": "carpet",
+   "city": "Cottage Lake",
+   "title": "Clean It or Replace It? Judging Carpet Honestly",
+   "keyword": "carpet cleaning vs replacing",
+   "us_volume": 0,
+   "kd": 0
+  },
+  {
+   "seq": 30,
+   "publish_date": "2027-03-25",
+   "service": "carpet",
+   "city": "Duvall",
+   "title": "What Happens Under Carpet: Subfloor Prep and Tack Strip",
+   "keyword": "carpet subfloor prep",
+   "us_volume": 0,
+   "kd": 0
+  },
+  {
+   "seq": 31,
+   "publish_date": "2027-04-01",
+   "service": "carpet",
+   "city": "North Bend",
+   "title": "Carpet on Stairs and Fall Safety in Older Homes",
+   "keyword": "carpet for stairs safety",
+   "us_volume": 0,
+   "kd": 0
+  },
+  {
+   "seq": 32,
+   "publish_date": "2027-04-08",
+   "service": "carpet",
+   "city": "Medina",
+   "title": "When Premium Carpet Is Worth It \u2014 and When It Isn't",
+   "keyword": "high end carpet",
+   "us_volume": 0,
+   "kd": 0
+  }
+ ]
+}
