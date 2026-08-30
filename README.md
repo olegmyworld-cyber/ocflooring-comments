@@ -45,8 +45,8 @@ deliberately left untouched):
    - `/flooring-services-near-me/our-products` (mobile showroom) → 30 carpet
      city pages (no carpet hub exists)
 
-All changes saved to the site via the Webflow Data API; they go live on
-`nwocflooring.com` / `www.nwocflooring.com` on the next site publish.
+Published to `nwocflooring.com`, `www.nwocflooring.com` and the Webflow
+subdomain on 2026-08-30 (owner-approved publish via the Data API).
 
 Not changed on purpose: the flooring-calculator page (owner's request — kept
 as is, including its sitemap exclusion and page-level custom code), live URL
