@@ -79,6 +79,20 @@ slugs (Arlington/Bothell inconsistencies — renaming indexed URLs would drop
 rankings temporarily), and the 24/7 `openingHoursSpecification` in the schema
 (business decision).
 
+### Blog post hero fix — template og:image removed (2026-08-30, same branch)
+
+Root cause of every blog post showing the same stock "couple on floor" hero:
+the blog template's footer has a hero-swap script that sets the post hero
+(`.hero-cover-img`) from the FIRST `og:image` meta on the page, which is
+normally the per-post `main-image` binding in the template's head custom
+code. This morning's audit fix set a page-settings `openGraph.imageUrl`
+(brand shutterstock photo) on `detail_blog` — Webflow emits that meta ahead
+of the custom-code one, so the swap script picked the shared stock photo on
+every post, and it also hijacked per-post social share images. Fix: cleared
+`openGraph.imageUrl` on the Blogs Template (og title/description copy flags
+kept) and republished. Post heroes and og:image are per-post again; the CMS
+`main-image`/`thumbnail-image` data was never the problem.
+
 ### Blog hero images: restoration attempted, then reverted (2026-08-30, same branch)
 
 A bulk edit on ~Aug 24 had replaced the hero (`main-image`) and thumbnail on
