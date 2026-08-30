@@ -1,0 +1,198 @@
+<div data-rt-embed-type='true'><style>
+.ocb{--ink:#0f172a;--muted:#64748b;--line:#e5e7eb;--soft:#f8fafc;--brand:#8B0000;--brand2:#5c0000;--gold:#fbbc04;font-family:'Mulish',Inter,system-ui,sans-serif;color:var(--ink)}
+.ocb *{box-sizing:border-box}
+.ocb-card{border:1px solid var(--line);border-radius:18px;background:#fff;box-shadow:0 10px 30px rgba(2,6,23,.06);padding:22px;margin:26px 0}
+.ocb-eyebrow{display:inline-block;background:rgba(139,0,0,.08);color:var(--brand2);border:1px solid rgba(139,0,0,.2);border-radius:999px;padding:5px 12px;font-size:12.5px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;margin-bottom:10px}
+.ocb-chips{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0 0}
+.ocb-chip{background:var(--soft);border:1px solid var(--line);border-radius:999px;padding:6px 12px;font-size:13.6px;font-weight:700}
+.ocb-table{width:100%;border-collapse:collapse;font-size:15.2px}
+.ocb-table th,.ocb-table td{padding:11px 10px;text-align:left;border-bottom:1px solid var(--line)}
+.ocb-table th{background:var(--soft);font-weight:800;font-size:13.6px;letter-spacing:.02em}
+.ocb-table tr:last-child td{border-bottom:0}
+.ocb-table td strong{color:var(--brand2)}
+.ocb-2col{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media(max-width:680px){.ocb-2col{grid-template-columns:1fr}}
+.ocb-check{list-style:none;padding:0;margin:10px 0 0}
+.ocb-check li{padding-left:26px;position:relative;margin:7px 0;line-height:1.55}
+.ocb-check li:before{content:"✓";position:absolute;left:0;color:var(--brand);font-weight:900}
+.ocb-x li:before{content:"✕";color:#94a3b8}
+html body .post-body .ocb-facts, .ocb-facts{display:grid!important;grid-template-columns:repeat(3,1fr)!important;gap:12px!important;margin:8px 0!important}
+@media(max-width:680px){html body .post-body .ocb-facts, .ocb-facts{grid-template-columns:1fr!important}}
+.ocb-fact{background:linear-gradient(180deg,#fff,#f8fafc);border:1px solid var(--line);border-radius:16px;padding:16px}
+.ocb-fact .n{font-size:24px;font-weight:900;color:var(--brand2);display:block;margin-bottom:4px}
+html body .post-body .ocb-fact p, .ocb-fact p{margin:0!important;font-size:14.7px!important;color:#334155!important;line-height:1.5!important}
+
+.ocb-card,.ocb-fact,.ocb-tri{transition:transform .28s ease,box-shadow .28s ease}
+.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:translateY(-4px);box-shadow:0 16px 40px rgba(2,6,23,.12)}
+.faq-item{transition:border-color .25s,box-shadow .25s}
+.faq-item:hover{border-color:rgba(139,0,0,.35);box-shadow:0 6px 18px rgba(2,6,23,.07)}
+.ocb-chip{display:inline-flex;align-items:center;gap:6px;transition:transform .2s,border-color .2s}
+.ocb-chip:hover{transform:translateY(-2px);border-color:rgba(139,0,0,.35)}
+.ocb-chip svg{color:#8B0000}
+.ocb-cta a{transition:transform .22s,box-shadow .22s}
+.ocb-cta a:hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(0,0,0,.25)}
+.ocb-fact .n{position:relative}
+html.ocb-anim-ready .ocb-rv{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
+html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){html.ocb-anim-ready .ocb-rv{opacity:1!important;transform:none!important;transition:none!important}.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:none}}
+
+/* Chip icons. Webflow's rich-text sanitizer strips inline <svg> whenever a post is
+   re-saved in the Editor, so the icons are drawn from CSS on a <span> instead. */
+.ocb-ic{display:inline-block;width:15px;height:15px;flex:0 0 auto;vertical-align:-2px;background-repeat:no-repeat;background-position:center;background-size:contain}
+.ocb-ic-pin{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z'/><circle cx='12' cy='10' r='3'/></svg>")}
+.ocb-ic-home{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z'/><polyline points='9 22 9 12 15 12 15 22'/></svg>")}
+.ocb-ic-phone{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z'/></svg>")}
+.ocb-cta .ocb-ic{filter:brightness(0) saturate(100%) invert(9%) sepia(64%) saturate(4000%) hue-rotate(348deg)}
+</style></div>
+
+<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">October 15, 2026</span></div></div>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
+  <span class="ocb-eyebrow">Quick answer</span>
+  <p style="margin:0;font-size:17.9px;line-height:1.65"><strong>Ripples in your carpet are not a sign the carpet is worn out &mdash; they are a sign it was never stretched properly, and a restretch fixes them in an afternoon for a fraction of what replacement costs.</strong> Nine times out of ten, wavy carpet traces back to an installer who used a knee kicker &mdash; a positioning tool &mdash; where a power stretcher belonged. The carpet itself usually has years of life left. Before anyone talks you into new carpet over some wrinkles, get the honest diagnosis: tension problem or fiber problem. Only one of them needs a new floor.</p>
+  <div class="ocb-chips">
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-pin"></span> King &amp; Snohomish County</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-home"></span> Marysville two-story homes</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-phone"></span> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
+  </div>
+</div></div>
+
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-facts">
+  <div class="ocb-fact"><span class="n">One afternoon</span><p>is what a typical restretch takes &mdash; detach, power-stretch wall to wall, trim, re-hook. The room is back in service the same day, furniture and all.</p></div>
+  <div class="ocb-fact"><span class="n">A fraction</span><p>of replacement cost &mdash; that is the honest math on restretching carpet with life left in it. Paying for new carpet because the old one went loose is the most avoidable expense in flooring.</p></div>
+  <div class="ocb-fact"><span class="n">From $1.49/sq ft</span><p>where installed carpet starts with us if the floor genuinely is done. We do both jobs, so the recommendation you get at the estimate is a diagnosis, not a sales pitch.</p></div>
+</div></div></div>
+
+<h2>Ripples Are an Install Failure, Not Old Age</h2>
+
+<p>Carpet is meant to be installed drum-tight &mdash; stretched across the room under real tension and hooked onto the tack strip at every wall. Installed that way, it stays flat for decades. The waves you are looking at mean the tension is gone, and in almost every case we inspect, it was never fully there: the carpet was kicked into place instead of power-stretched, held just tight enough to look right for a few years, and then it relaxed.</p>
+
+<p>Time and life speed that up. Seasonal humidity swings work the backing, hot summers relax the latex in it, dragging a loaded couch across the room can peel carpet off the tack strip by a fraction of an inch, and steam cleaning a marginally-tight carpet can be the final push. But those are accelerants, not causes. Flat carpet that was stretched properly shrugs all of that off. Loose carpet was always going to ripple &mdash; the only question was when.</p>
+
+<h2>Power Stretch vs Knee Kick: the Whole Story in Two Tools</h2>
+
+<p>A <strong>power stretcher</strong> is a pole that braces against the opposite wall, grips the carpet with a toothed head, and levers it toward the tack strip under more tension than any human leg can produce. Stretching a room with it is slower, because the tool has to be set up and worked wall by wall &mdash; and it is the only way carpet gets tight enough to stay tight.</p>
+
+<p>A <strong>knee kicker</strong> is the short tool the installer bumps with their knee. It exists to position carpet &mdash; nudging it onto tack strip in closets, aligning seams, finishing corners. It is a legitimate tool being asked, in too many installs, to do a job it physically cannot do. An installer who kicks in a whole living room is saving an hour and handing you this blog post's problem five years from now. It is the first question worth asking about any carpet quote &mdash; we put it on the checklist in our <a href="/blog/carpet-installation-cost-seattle">carpet cost guide</a>, right next to the pad grade.</p>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-card">
+  <h3 style="margin:0 0 10px;font-size:18.5px;font-weight:900;color:#5c0000">Reading Your Carpet&rsquo;s Symptoms</h3>
+  <div style="overflow-x:auto"><table class="ocb-table">
+    <tr><th>What you see</th><th>What it means</th><th>The fix</th></tr>
+    <tr><td><strong>Long waves down a hallway or room</strong></td><td>Lost tension &mdash; the classic failed stretch</td><td>Restretch. An afternoon of work, years of flat carpet back</td></tr>
+    <tr><td><strong>A wrinkle that moves when pushed</strong></td><td>Carpet has come off the tack strip locally</td><td>Restretch that wall &mdash; often the quickest version of the job</td></tr>
+    <tr><td><strong>A hump at a doorway or seam</strong></td><td>Tension unevenness, sometimes a seam issue</td><td>Restretch, with the seam re-secured if it is involved</td></tr>
+    <tr><td><strong>Loose, shifting carpet at stair noses</strong></td><td>Fastening failure &mdash; and a genuine fall hazard</td><td>Re-secure promptly; stairs do not forgive loose carpet</td></tr>
+    <tr><td><strong>Traffic lanes matted flat, pile crushed</strong></td><td>Actual wear &mdash; the fiber is done recovering</td><td>Restretching cannot fix crushed pile; this is a replacement conversation</td></tr>
+    <tr><td><strong>Ripples plus a musty smell after water</strong></td><td>The pad and backing took on water</td><td>Diagnosis first &mdash; stretching wet-damaged carpet just tightens a failing floor</td></tr>
+  </table></div>
+</div></div>
+
+<h2>What a Restretch Actually Involves</h2>
+
+<p>The job is straightforward and satisfying to watch. We detach the carpet at the walls that matter, set the power stretcher, and work the slack across the room and off the edge &mdash; the waves visibly march ahead of the tool and vanish. Then the excess gets trimmed, the edge gets hooked back onto the tack strip, and the seams and doorways get checked and re-secured where needed. If the tack strip itself turns up rusted or loose &mdash; it happens near entry doors and old plant-watering spots &mdash; replacing a run of it is a small add-on, priced before the work, not after.</p>
+
+<p>Furniture: most of it can stay. A restretch needs the walls being stretched toward clear and room for the tool to work, so big pieces get shifted within the room rather than moved out of the house &mdash; the full answer is in <a href="/blog/do-you-have-to-move-furniture-to-stretch-carpet">do you have to move furniture to stretch carpet</a>, and it is shorter than most people fear. The room is back in use the same afternoon, and there is no drying, curing or airing-out to wait through.</p>
+
+<h2>What It Costs, and When It Is Worth It</h2>
+
+<p>Stretching is priced by the room, with a service minimum that makes a one-room visit sensible for both sides &mdash; and the whole invoice lands at a fraction of what replacing that carpet would cost. The math is lopsided on purpose: if the carpet still has healthy pile, a restretch buys back years of its life for a small share of replacement money. We walk that decision honestly in <a href="/blog/is-it-worth-it-to-restretch-your-carpet">is it worth it to restretch your carpet</a>, and the short version is: if the only problem is ripples, yes, almost always.</p>
+
+<p>It stops being worth it when the ripples are the smallest of the carpet's problems. Matted lanes that stay flat after cleaning, backing showing at stair noses, delaminating backing that moves separately from the pile, pad-deep pet odor &mdash; stretching fixes tension, not fiber, and tightening a floor that is structurally done is money after bad. Our guides to <a href="/blog/how-long-does-carpet-last">how long carpet honestly lasts</a> and <a href="/blog/6-reasons-to-replace-carpet-flooring">the real reasons to replace carpet</a> draw that line in detail. Because we do both jobs, the estimate you get from us is whichever answer your floor actually earns.</p>
+
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-2col">
+  <div class="ocb-card" style="margin:0">
+    <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#5c0000">Worth a restretch</h3>
+    <ul class="ocb-check">
+      <li>Waves and wrinkles, but the pile still springs back underfoot</li>
+      <li>Carpet under roughly ten years old with honest cleaning behind it</li>
+      <li>A single problem room or hallway &mdash; the classic failed-kick pattern</li>
+      <li>Ripples that appeared after furniture was dragged or a steam clean</li>
+      <li>Loose carpet at a doorway or wall line that pushes into a movable wrinkle</li>
+      <li>You like the carpet &mdash; that counts for more than any spec sheet</li>
+    </ul>
+  </div>
+  <div class="ocb-card" style="margin:0">
+    <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#334155">Past saving &mdash; we will say so</h3>
+    <ul class="ocb-check ocb-x">
+      <li>Traffic lanes matted flat that no cleaning revives</li>
+      <li>Backing visible at stair noses or pivot points</li>
+      <li>Backing delaminating &mdash; the carpet slides over its own backing</li>
+      <li>Pet accidents that reached the pad; odor survives every cleaning</li>
+      <li>Water damage in the history &mdash; the backing and pad took it</li>
+      <li>Seams failing across the room, not at one fixable spot</li>
+    </ul>
+  </div>
+</div></div></div>
+
+<h2>Marysville, Specifically: the Year-Five Ripple</h2>
+
+<p>We see a particular pattern in the newer subdivisions &mdash; Sunnyside, Getchell Hill, the developments east of the freeway. Builder-grade carpet, installed fast during construction, starts waving in the main hallway and the biggest upstairs bedroom around year five. Homeowners assume the builder cheaped out on carpet; usually the carpet is fine and the install was kicked in on a schedule. That floor is a textbook restretch &mdash; and with the tension corrected, the same carpet routinely runs on for years, which beats re-carpeting a five-year-old house on any budget.</p>
+
+<p>When the day for new carpet does come, the same visit covers it: twenty-plus samples and all three pad grades brought to the house, every room and stair measured, a written price before we leave &mdash; and a power-stretched install, because we would rather never sell you this blog post's problem. Either way, it starts with an honest look at what you have. Marysville service details are on our <a href="/city-of-marysville/carpet-installation-in-marysville-wa">Marysville carpet installation page</a>.</p>
+
+<div data-rt-embed-type='true'><!-- FAQ accordion + JSON-LD -->
+<div class="faq-wrap ocb" aria-labelledby="faq-title">
+  <h2 id="faq-title" class="faq-title">Carpet Stretching: What Homeowners Ask Us</h2>
+  <div class="faq-items" role="list">
+    <details class="faq-item" role="listitem"><summary class="faq-q">How much does carpet stretching cost?</summary><div class="faq-a">It is priced by the room with a modest service minimum, and the total lands at a fraction of replacing the carpet — that ratio is the entire point. Where your number falls depends on room count, whether stairs or seams need re-securing, and whether any tack strip needs replacing. We put it in writing before the work starts.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Why is my carpet rippling if it is not old?</summary><div class="faq-a">Because ripples are an installation symptom, not an age symptom. Carpet that was positioned with a knee kicker instead of stretched with a power stretcher holds just enough tension to look right for a few years, then relaxes into waves. Humidity swings, dragged furniture and steam cleaning speed it up, but the missing stretch is the cause.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Can rippled carpet be fixed without replacing it?</summary><div class="faq-a">Almost always, yes. A restretch detaches the carpet at the wall, pulls the slack across the room under proper tension with a power stretcher, trims the excess and re-hooks the edge. The waves are gone the same afternoon. Replacement is only the answer when the carpet has separate problems — crushed pile, delamination, pad-deep damage.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">What is the difference between a power stretch and a knee kick?</summary><div class="faq-a">A power stretcher braces against the opposite wall and levers the carpet tight with far more force than a leg can produce — it is how carpet gets tight enough to stay tight. A knee kicker is a positioning tool for closets, corners and seam alignment. An installer who kicks in an entire room is why restretching is an industry.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Do I need to move my furniture for carpet stretching?</summary><div class="faq-a">Mostly no. The walls being stretched toward need to be clear and the tool needs a working lane, so large pieces get shifted within the room rather than moved out. Emptying fragile and small items helps the crew move quickly. The room is back together the same day.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">How long does carpet stretching take?</summary><div class="faq-a">A typical problem room or hallway is done in an afternoon, and there is no drying or curing time afterward — the room goes straight back into service. Multi-room jobs scale up from there, and we will tell you the day plan when we price it.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Will the ripples come back after stretching?</summary><div class="faq-a">Not if the restretch is done with a power stretcher and the tack strip is sound — properly tensioned carpet stays flat for the rest of its life under normal use. Ripples that return point to something else: failing tack strip, moisture from below, or backing that is breaking down, and we check for all three before stretching.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">When is stretching not worth it?</summary><div class="faq-a">When tension is not the real problem. Matted traffic lanes, backing showing at stair noses, delaminating backing, pet damage that reached the pad, or water history in the floor — stretching fixes none of those. In those cases we will say plainly that the money belongs in replacement, and show you the honest numbers for both paths.</div></details>
+  </div>
+</div>
+
+<style>
+  .faq-wrap{--line:#e5e7eb;margin:28px auto;padding:20px;border:1px solid var(--line);border-radius:16px;background:#fff;box-shadow:0 8px 30px rgba(2,6,23,.06)}
+  .faq-title{margin:0 0 14px;font-size:24px;font-weight:900;text-align:center;color:#5c0000}
+  .faq-items{display:grid;gap:10px}
+  .faq-item{border:1px solid var(--line);border-radius:14px;background:#f9fafb;overflow:hidden}
+  .faq-q{cursor:pointer;display:block;padding:14px 16px;font-weight:800;color:#0f172a}
+  .faq-q::-webkit-details-marker{display:none}
+  .faq-item[open] .faq-q{background:linear-gradient(180deg, rgba(139,0,0,.08), rgba(139,0,0,.02))}
+  .faq-a{padding:0 16px 14px;color:#1f2937;line-height:1.6}
+</style>
+
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How much does carpet stretching cost?", "acceptedAnswer": {"@type": "Answer", "text": "It is priced by the room with a modest service minimum, and the total lands at a fraction of replacing the carpet — that ratio is the entire point. Where your number falls depends on room count, whether stairs or seams need re-securing, and whether any tack strip needs replacing. We put it in writing before the work starts."}}, {"@type": "Question", "name": "Why is my carpet rippling if it is not old?", "acceptedAnswer": {"@type": "Answer", "text": "Because ripples are an installation symptom, not an age symptom. Carpet that was positioned with a knee kicker instead of stretched with a power stretcher holds just enough tension to look right for a few years, then relaxes into waves. Humidity swings, dragged furniture and steam cleaning speed it up, but the missing stretch is the cause."}}, {"@type": "Question", "name": "Can rippled carpet be fixed without replacing it?", "acceptedAnswer": {"@type": "Answer", "text": "Almost always, yes. A restretch detaches the carpet at the wall, pulls the slack across the room under proper tension with a power stretcher, trims the excess and re-hooks the edge. The waves are gone the same afternoon. Replacement is only the answer when the carpet has separate problems — crushed pile, delamination, pad-deep damage."}}, {"@type": "Question", "name": "What is the difference between a power stretch and a knee kick?", "acceptedAnswer": {"@type": "Answer", "text": "A power stretcher braces against the opposite wall and levers the carpet tight with far more force than a leg can produce — it is how carpet gets tight enough to stay tight. A knee kicker is a positioning tool for closets, corners and seam alignment. An installer who kicks in an entire room is why restretching is an industry."}}, {"@type": "Question", "name": "Do I need to move my furniture for carpet stretching?", "acceptedAnswer": {"@type": "Answer", "text": "Mostly no. The walls being stretched toward need to be clear and the tool needs a working lane, so large pieces get shifted within the room rather than moved out. Emptying fragile and small items helps the crew move quickly. The room is back together the same day."}}, {"@type": "Question", "name": "How long does carpet stretching take?", "acceptedAnswer": {"@type": "Answer", "text": "A typical problem room or hallway is done in an afternoon, and there is no drying or curing time afterward — the room goes straight back into service. Multi-room jobs scale up from there, and we will tell you the day plan when we price it."}}, {"@type": "Question", "name": "Will the ripples come back after stretching?", "acceptedAnswer": {"@type": "Answer", "text": "Not if the restretch is done with a power stretcher and the tack strip is sound — properly tensioned carpet stays flat for the rest of its life under normal use. Ripples that return point to something else: failing tack strip, moisture from below, or backing that is breaking down, and we check for all three before stretching."}}, {"@type": "Question", "name": "When is stretching not worth it?", "acceptedAnswer": {"@type": "Answer", "text": "When tension is not the real problem. Matted traffic lanes, backing showing at stair noses, delaminating backing, pet damage that reached the pad, or water history in the floor — stretching fixes none of those. In those cases we will say plainly that the money belongs in replacement, and show you the honest numbers for both paths."}}]}
+</script></div>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-cta" style="margin:30px 0">
+  <style>
+    html body .post-body .ocb-cta h2, .ocb-cta h2{color:#fff!important}
+    html body .post-body .ocb-cta .ocb-cta-sub, .ocb-cta .ocb-cta-sub{color:rgba(255,255,255,.88)!important}
+    html body .post-body .ocb-cta .ocb-cta-chips span, .ocb-cta .ocb-cta-chips span{color:rgba(255,255,255,.94)!important}
+    html body .post-body .ocb-cta a.ocb-cta-ghost, .ocb-cta a.ocb-cta-ghost{color:#fff!important;text-decoration:none!important}
+    html body .post-body .ocb-cta a.ocb-cta-gold, .ocb-cta a.ocb-cta-gold{color:#fbbc04!important}
+    html body .post-body .ocb-cta a.ocb-cta-phone, .ocb-cta a.ocb-cta-phone{color:#5c0000!important;text-decoration:none!important}
+  </style>
+  <div style="background:linear-gradient(135deg,#8B0000,#5c0000);border-radius:20px;padding:28px 24px;color:#fff;text-align:center;box-shadow:0 14px 34px rgba(92,0,0,.3)">
+    <h2 style="margin:0 0 6px;color:#fff!important;font-size:24px;font-weight:900">Get the Honest Diagnosis First</h2>
+    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.92)!important;font-size:16.3px">Ripples or worn out? We look at the actual floor and tell you which conversation you are in — a same-day restretch, or samples and a written replacement price brought to your door. Nobody here earns a commission for saying "replace." Free in-home estimates across King &amp; Snohomish County.</p>
+    <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
+      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff!important;color:#5c0000!important;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none!important"><span class="ocb-ic ocb-ic-phone"></span> (425) 595-1079</a>
+      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.16)!important;border:1px solid rgba(255,255,255,.55);color:#fff!important;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none!important">Book My Free Consultation</a>
+    </div>
+    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.95)!important">
+      <span>✓ Since 2013</span><span>✓ 1,000+ floors</span><span>✓ 1-yr workmanship warranty</span><span>✓ Licensed &amp; insured</span><span>✓ Financing available</span>
+    </div>
+    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04!important;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
+  </div>
+</div></div>
+
+<p><strong>Related reading:</strong> <a href="/blog/is-it-worth-it-to-restretch-your-carpet">Is restretching your carpet worth it?</a> · <a href="/blog/do-you-have-to-move-furniture-to-stretch-carpet">Furniture and carpet stretching</a> · <a href="/blog/how-long-does-carpet-last">How long carpet honestly lasts</a> · <a href="/blog/carpet-installation-cost-seattle">What carpet installation costs</a> · <a href="/city-of-marysville/carpet-installation-in-marysville-wa">Carpet installation in Marysville</a> · <a href="/contact">Book a free estimate</a></p>
+
+<div data-rt-embed-type='true'><script>
+(function(){try{
+var els=document.querySelectorAll('.ocb-card,.ocb-fact,.ocb-tri,.faq-item');
+if(!('IntersectionObserver' in window)||!els.length)return;
+document.documentElement.classList.add('ocb-anim-ready');
+els.forEach(function(e,i){e.classList.add('ocb-rv');e.style.transitionDelay=Math.min((i%6)*70,350)+'ms'});
+var io=new IntersectionObserver(function(en){en.forEach(function(x){if(x.isIntersecting){x.target.classList.add('ocb-in');io.unobserve(x.target)}})},{threshold:.12,rootMargin:'0px 0px -8% 0px'});
+els.forEach(function(e){io.observe(e)});
+}catch(e){}})();
+</script></div>

@@ -1,0 +1,201 @@
+<div data-rt-embed-type='true'><style>
+.ocb{--ink:#0f172a;--muted:#64748b;--line:#e5e7eb;--soft:#f8fafc;--brand:#8B0000;--brand2:#5c0000;--gold:#fbbc04;font-family:'Mulish',Inter,system-ui,sans-serif;color:var(--ink)}
+.ocb *{box-sizing:border-box}
+.ocb-card{border:1px solid var(--line);border-radius:18px;background:#fff;box-shadow:0 10px 30px rgba(2,6,23,.06);padding:22px;margin:26px 0}
+.ocb-eyebrow{display:inline-block;background:rgba(139,0,0,.08);color:var(--brand2);border:1px solid rgba(139,0,0,.2);border-radius:999px;padding:5px 12px;font-size:12.5px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;margin-bottom:10px}
+.ocb-chips{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0 0}
+.ocb-chip{background:var(--soft);border:1px solid var(--line);border-radius:999px;padding:6px 12px;font-size:13.6px;font-weight:700}
+.ocb-table{width:100%;border-collapse:collapse;font-size:15.2px}
+.ocb-table th,.ocb-table td{padding:11px 10px;text-align:left;border-bottom:1px solid var(--line)}
+.ocb-table th{background:var(--soft);font-weight:800;font-size:13.6px;letter-spacing:.02em}
+.ocb-table tr:last-child td{border-bottom:0}
+.ocb-table td strong{color:var(--brand2)}
+.ocb-2col{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media(max-width:680px){.ocb-2col{grid-template-columns:1fr}}
+.ocb-check{list-style:none;padding:0;margin:10px 0 0}
+.ocb-check li{padding-left:26px;position:relative;margin:7px 0;line-height:1.55}
+.ocb-check li:before{content:"✓";position:absolute;left:0;color:var(--brand);font-weight:900}
+.ocb-x li:before{content:"✕";color:#94a3b8}
+html body .post-body .ocb-facts, .ocb-facts{display:grid!important;grid-template-columns:repeat(3,1fr)!important;gap:12px!important;margin:8px 0!important}
+@media(max-width:680px){html body .post-body .ocb-facts, .ocb-facts{grid-template-columns:1fr!important}}
+.ocb-fact{background:linear-gradient(180deg,#fff,#f8fafc);border:1px solid var(--line);border-radius:16px;padding:16px}
+.ocb-fact .n{font-size:24px;font-weight:900;color:var(--brand2);display:block;margin-bottom:4px}
+html body .post-body .ocb-fact p, .ocb-fact p{margin:0!important;font-size:14.7px!important;color:#334155!important;line-height:1.5!important}
+
+.ocb-card,.ocb-fact,.ocb-tri{transition:transform .28s ease,box-shadow .28s ease}
+.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:translateY(-4px);box-shadow:0 16px 40px rgba(2,6,23,.12)}
+.faq-item{transition:border-color .25s,box-shadow .25s}
+.faq-item:hover{border-color:rgba(139,0,0,.35);box-shadow:0 6px 18px rgba(2,6,23,.07)}
+.ocb-chip{display:inline-flex;align-items:center;gap:6px;transition:transform .2s,border-color .2s}
+.ocb-chip:hover{transform:translateY(-2px);border-color:rgba(139,0,0,.35)}
+.ocb-chip svg{color:#8B0000}
+.ocb-cta a{transition:transform .22s,box-shadow .22s}
+.ocb-cta a:hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(0,0,0,.25)}
+.ocb-fact .n{position:relative}
+html.ocb-anim-ready .ocb-rv{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
+html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){html.ocb-anim-ready .ocb-rv{opacity:1!important;transform:none!important;transition:none!important}.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:none}}
+
+/* Chip icons. Webflow's rich-text sanitizer strips inline <svg> whenever a post is
+   re-saved in the Editor, so the icons are drawn from CSS on a <span> instead. */
+.ocb-ic{display:inline-block;width:15px;height:15px;flex:0 0 auto;vertical-align:-2px;background-repeat:no-repeat;background-position:center;background-size:contain}
+.ocb-ic-pin{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z'/><circle cx='12' cy='10' r='3'/></svg>")}
+.ocb-ic-home{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z'/><polyline points='9 22 9 12 15 12 15 22'/></svg>")}
+.ocb-ic-phone{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z'/></svg>")}
+.ocb-cta .ocb-ic{filter:brightness(0) saturate(100%) invert(9%) sepia(64%) saturate(4000%) hue-rotate(348deg)}
+</style></div>
+
+<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">September 24, 2026</span></div></div>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
+  <span class="ocb-eyebrow">Quick answer</span>
+  <p style="margin:0;font-size:17.9px;line-height:1.65"><strong>Realistically: five to fifteen years, and the spread is not about brand &mdash; it is about fiber, pad, and where the traffic lands.</strong> Builder-grade polyester over builder-grade pad in a busy family hallway is a five-to-seven-year floor. A dense nylon over a proper pad in the same hallway can double that. And here is the part nobody selling carpet says out loud: most carpet never actually wears out. It <em>uglies</em> out &mdash; matted lanes, visible seams, a color you are tired of &mdash; and a surprising share of what looks worn out is really just dirty, or was never stretched properly in the first place.</p>
+  <div class="ocb-chips">
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-pin"></span> King &amp; Snohomish County</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-home"></span> Renton family homes</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-phone"></span> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
+  </div>
+</div></div>
+
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-facts">
+  <div class="ocb-fact"><span class="n">5&ndash;15 years</span><p>the honest range for wall-to-wall carpet. Fiber and pad decide which end you get; traffic decides how fast you get there. Anyone quoting one number for every carpet is selling something.</p></div>
+  <div class="ocb-fact"><span class="n">3 pad grades</span><p>we bring to every estimate so you can stand on the difference. The pad absorbs the impact of every footstep &mdash; when it flattens, the carpet above it starts dying years early.</p></div>
+  <div class="ocb-fact"><span class="n">From $1.49/sq ft</span><p>where installed carpet starts with us, pad and labor included. When the honest answer is that your carpet has years left, we will say that instead &mdash; and tell you what it needs.</p></div>
+</div></div></div>
+
+<h2>The Honest Ranges, by Fiber</h2>
+
+<p>Carpet does not come with an expiration date, but after a decade of pulling old carpet out of houses across King and Snohomish County, the pattern is consistent enough to put in a table. These ranges assume normal family traffic and a decent pad &mdash; move to the short end for busy stairs and hallways, the long end for guest rooms that see a vacuum more often than a foot.</p>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-card">
+  <h3 style="margin:0 0 10px;font-size:18.5px;font-weight:900;color:#5c0000">How Long Carpet Lasts, by Fiber</h3>
+  <div style="overflow-x:auto"><table class="ocb-table">
+    <tr><th>Fiber</th><th>Typical life</th><th>What ends it</th></tr>
+    <tr><td><strong>Polyester (PET)</strong></td><td>5&ndash;10 years</td><td>Matting &mdash; the fibers crush flat in the traffic lanes and do not spring back; the carpet looks tired long before it wears through</td></tr>
+    <tr><td><strong>Olefin / polypropylene</strong></td><td>5&ndash;8 years</td><td>Crushing and soiling &mdash; fine in a basement or rental, but it flattens fast anywhere feet concentrate</td></tr>
+    <tr><td><strong>Triexta</strong></td><td>10&ndash;15 years</td><td>Usually the homeowner, honestly &mdash; the fiber outlasts the color trend it was bought in; stains resist cleaning-out only in the worst cases</td></tr>
+    <tr><td><strong>Nylon</strong></td><td>12&ndash;15+ years</td><td>Genuine wear, eventually &mdash; it springs back where others mat, which is why it is our default for stairs and hallways</td></tr>
+    <tr><td><strong>Wool</strong></td><td>15&ndash;25 years</td><td>Neglect &mdash; wool ages beautifully with care, but it holds moisture and hates the harsh spot cleaners that busy households reach for</td></tr>
+  </table></div>
+</div></div>
+
+<p>Notice what is not in that table: brand. Two carpets from the same mill can sit at opposite ends of these ranges depending on the density of the build and the fiber inside. If you want the manufacturer conversation anyway, our <a href="/blog/the-10-best-carpet-brands-reviews-2023-guide">carpet brand guide</a> covers who builds what &mdash; but fiber first, brand second.</p>
+
+<h2>The Pad Ages the Carpet From Below</h2>
+
+<p>Here is the quiet variable that explains most premature carpet deaths we see: the pad. Every footstep is an impact, and the pad is the suspension that absorbs it. When a cheap pad flattens &mdash; and cheap pad flattens in a few years &mdash; the carpet backing starts taking those impacts directly. The backing fatigues, the tufts loosen their grip, the pile crushes, and the carpet looks ten years old at year four. The carpet gets blamed; the pad did it.</p>
+
+<p>This is why a mid-grade carpet over a good pad routinely outlives a premium carpet over a bad one, and why upgrading pad is the best value line in any carpet quote. We carry three grades and bring all of them to the estimate so you can feel the difference under your own feet. If your last carpet died young, the autopsy is usually under it &mdash; and the fix costs modestly more this time around, not a fiber upgrade's worth.</p>
+
+<h2>What Ages Carpet Fastest</h2>
+
+<p><strong>Grit.</strong> Dry soil is sandpaper. It works down into the pile and every footstep grinds it against the fibers, dulling and cutting them. Households that vacuum the traffic lanes twice a week genuinely get years more carpet life &mdash; not because vacuuming fluffs the pile, but because it removes the abrasive before it does its work.</p>
+
+<p><strong>Concentrated traffic.</strong> Carpet does not age evenly; it ages where the feet go. Stairs, hallway centers, the pivot at the bottom of the staircase, the arc in front of the couch. A whole house of fine carpet gets replaced because two hallways and a staircase look terrible &mdash; which is why we spec the resilient fiber where the traffic is, a point we make at length in our <a href="/blog/best-carpet-for-stairs">stair carpet guide</a>.</p>
+
+<p><strong>Sun.</strong> South- and west-facing rooms &mdash; and Renton has plenty of them looking out over the valley &mdash; fade carpet in the window zones. Solution-dyed fibers resist this dramatically better than surface-dyed ones, another argument we lay out in the <a href="/blog/best-carpet-for-pets">pet carpet guide</a> where the same dye chemistry matters for cleaning.</p>
+
+<p><strong>A bad install.</strong> Carpet that was knee-kicked instead of power-stretched goes loose in a few years. Loose carpet flexes underfoot, and flexing wears the backing from the inside while the ripples abrade the pile from the top. A wrinkle is not just ugly &mdash; it is actively shortening the carpet's life every day it stays.</p>
+
+<h2>When It Is Dirt, Not Wear</h2>
+
+<p>A good share of the carpet we are asked to replace is not worn out &mdash; it is dirty in a specific, misleading way. Traffic lanes collect fine soil that dulls the fiber and greys the color, and the eye reads that as "worn." The test is simple: look at the pile shape, not the color. If the tufts in the lane still stand up close to the height of the pile under the couch, that carpet is dirty, not dead &mdash; and a professional hot-water extraction costs a small fraction of replacement and will genuinely startle you.</p>
+
+<p>The same goes for ripples. Waves and buckles mean the stretch failed, not the carpet &mdash; <a href="/blog/is-it-worth-it-to-restretch-your-carpet">restretching</a> fixes it in an afternoon for a fraction of new carpet. Where the eye test does tell the truth: matted lanes that stay flat after cleaning, and pile that has visibly lost height at the stair noses. That is real wear, and no cleaning brings crushed fiber back.</p>
+
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-2col">
+  <div class="ocb-card" style="margin:0">
+    <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#5c0000">Signs the carpet is actually done</h3>
+    <ul class="ocb-check">
+      <li>Matting that stays flat after a professional clean</li>
+      <li>Backing showing through the pile at stair noses or doorways</li>
+      <li>Ripples that return after a proper power-stretch</li>
+      <li>Pet odor that survives cleaning &mdash; it is in the pad or subfloor</li>
+      <li>Delaminating backing &mdash; the carpet moves separately from its backing</li>
+      <li>Padding that crunches or powders underfoot &mdash; it has broken down</li>
+    </ul>
+  </div>
+  <div class="ocb-card" style="margin:0">
+    <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#334155">Signs it just needs help</h3>
+    <ul class="ocb-check ocb-x">
+      <li>Grey, dull traffic lanes with pile that still stands up</li>
+      <li>Waves and buckles &mdash; a stretching failure, fixed in an afternoon</li>
+      <li>A few snags, burns or stains &mdash; often patchable from a closet remnant</li>
+      <li>Flattened furniture dents &mdash; they mostly recover with time and steam</li>
+      <li>A color you are tired of &mdash; a real reason to replace, just not an urgent one</li>
+      <li>Seams showing slightly &mdash; annoying, sometimes improvable, rarely fatal</li>
+    </ul>
+  </div>
+</div></div></div>
+
+<h2>Making the Next One Last</h2>
+
+<p>When replacement genuinely is the answer &mdash; our list of <a href="/blog/6-reasons-to-replace-carpet-flooring">reasons to replace carpet</a> is the honest checklist &mdash; the way to never have this conversation again is to buy for the traffic you actually have. Resilient fiber on stairs and hallways. A pad you chose on purpose, standing on it, not whatever "standard" means that week. A power-stretched install, so the carpet stays drum-tight for its whole life. And a vacuum schedule that treats the traffic lanes as the point, not the whole room.</p>
+
+<p>That is the spec we walk through at every estimate. We bring twenty-plus full-size samples and all three pad grades to your house, measure every room and stair, and leave a written price the same visit &mdash; the full cost anatomy is in our <a href="/blog/carpet-installation-cost-seattle">carpet installation cost guide</a>. Renton neighbors, from the Highlands to Fairwood, can see the service details on our <a href="/city-of-renton/carpet-installation-in-renton-wa">Renton carpet installation page</a>.</p>
+
+<div data-rt-embed-type='true'><!-- FAQ accordion + JSON-LD -->
+<div class="faq-wrap ocb" aria-labelledby="faq-title">
+  <h2 id="faq-title" class="faq-title">Carpet Lifespan: What Homeowners Ask Us</h2>
+  <div class="faq-items" role="list">
+    <details class="faq-item" role="listitem"><summary class="faq-q">How long does carpet last on average?</summary><div class="faq-a">Five to fifteen years is the honest range. Builder-grade polyester over cheap pad in a busy household sits at the short end; dense nylon or triexta over a proper pad reaches the long end. The spread is about fiber, pad and traffic concentration — not brand, and not price alone.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">How do I know if my carpet is worn out or just dirty?</summary><div class="faq-a">Look at pile shape, not color. If the tufts in the traffic lanes still stand up near the height of the pile under the furniture, the grey look is soil — a professional hot-water extraction will transform it. If the lanes stay matted flat after cleaning, or backing shows at stair noses, that is real wear and cleaning cannot reverse it.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Does the pad really affect how long carpet lasts?</summary><div class="faq-a">More than almost anything else. The pad absorbs the impact of every footstep; when a cheap pad flattens after a few years, the carpet backing takes those impacts directly and the pile crushes prematurely. A mid-grade carpet over a good pad routinely outlives a premium carpet over a bad one.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Which carpet fiber lasts the longest?</summary><div class="faq-a">Nylon, among the common synthetics — its defining trait is springing back where other fibers stay crushed, which is why it wins in hallways and on stairs. Triexta is close behind with better built-in stain resistance. Wool can outlast them all with careful maintenance. Polyester is the value option and the first to mat.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Why does my carpet look worn after only a few years?</summary><div class="faq-a">Usually one of three culprits: a pad that flattened and stopped protecting the carpet, grit that was never vacuumed out grinding the pile, or concentrated traffic hitting a soft fiber — polyester in a busy hallway shows lanes fast. Sometimes it is all three. The carpet itself is rarely the main offender.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Do ripples mean my carpet needs replacing?</summary><div class="faq-a">No — ripples mean the stretch failed, not the carpet. Carpet that was knee-kicked instead of power-stretched loosens within a few years and buckles. Restretching fixes it in an afternoon for a fraction of replacement, and doing it promptly matters: loose carpet wears itself out faster.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">How often should carpet be professionally cleaned?</summary><div class="faq-a">Every 12–18 months for a typical household, and most manufacturer warranties quietly require it. Between cleanings, vacuuming the traffic lanes twice a week does more for lifespan than anything else you can do — it removes the grit that cuts fiber before it does its work.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">When should I replace carpet instead of cleaning or restretching it?</summary><div class="faq-a">When the damage is structural: matting that stays flat after a proper clean, backing visible at stair noses, ripples that come back after a power-stretch, odor that survives cleaning because it lives in the pad or subfloor, or backing that is delaminating. At that point cleaning is money after bad — and we will tell you which side of the line you are on.</div></details>
+  </div>
+</div>
+
+<style>
+  .faq-wrap{--line:#e5e7eb;margin:28px auto;padding:20px;border:1px solid var(--line);border-radius:16px;background:#fff;box-shadow:0 8px 30px rgba(2,6,23,.06)}
+  .faq-title{margin:0 0 14px;font-size:24px;font-weight:900;text-align:center;color:#5c0000}
+  .faq-items{display:grid;gap:10px}
+  .faq-item{border:1px solid var(--line);border-radius:14px;background:#f9fafb;overflow:hidden}
+  .faq-q{cursor:pointer;display:block;padding:14px 16px;font-weight:800;color:#0f172a}
+  .faq-q::-webkit-details-marker{display:none}
+  .faq-item[open] .faq-q{background:linear-gradient(180deg, rgba(139,0,0,.08), rgba(139,0,0,.02))}
+  .faq-a{padding:0 16px 14px;color:#1f2937;line-height:1.6}
+</style>
+
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How long does carpet last on average?", "acceptedAnswer": {"@type": "Answer", "text": "Five to fifteen years is the honest range. Builder-grade polyester over cheap pad in a busy household sits at the short end; dense nylon or triexta over a proper pad reaches the long end. The spread is about fiber, pad and traffic concentration — not brand, and not price alone."}}, {"@type": "Question", "name": "How do I know if my carpet is worn out or just dirty?", "acceptedAnswer": {"@type": "Answer", "text": "Look at pile shape, not color. If the tufts in the traffic lanes still stand up near the height of the pile under the furniture, the grey look is soil — a professional hot-water extraction will transform it. If the lanes stay matted flat after cleaning, or backing shows at stair noses, that is real wear and cleaning cannot reverse it."}}, {"@type": "Question", "name": "Does the pad really affect how long carpet lasts?", "acceptedAnswer": {"@type": "Answer", "text": "More than almost anything else. The pad absorbs the impact of every footstep; when a cheap pad flattens after a few years, the carpet backing takes those impacts directly and the pile crushes prematurely. A mid-grade carpet over a good pad routinely outlives a premium carpet over a bad one."}}, {"@type": "Question", "name": "Which carpet fiber lasts the longest?", "acceptedAnswer": {"@type": "Answer", "text": "Nylon, among the common synthetics — its defining trait is springing back where other fibers stay crushed, which is why it wins in hallways and on stairs. Triexta is close behind with better built-in stain resistance. Wool can outlast them all with careful maintenance. Polyester is the value option and the first to mat."}}, {"@type": "Question", "name": "Why does my carpet look worn after only a few years?", "acceptedAnswer": {"@type": "Answer", "text": "Usually one of three culprits: a pad that flattened and stopped protecting the carpet, grit that was never vacuumed out grinding the pile, or concentrated traffic hitting a soft fiber — polyester in a busy hallway shows lanes fast. Sometimes it is all three. The carpet itself is rarely the main offender."}}, {"@type": "Question", "name": "Do ripples mean my carpet needs replacing?", "acceptedAnswer": {"@type": "Answer", "text": "No — ripples mean the stretch failed, not the carpet. Carpet that was knee-kicked instead of power-stretched loosens within a few years and buckles. Restretching fixes it in an afternoon for a fraction of replacement, and doing it promptly matters: loose carpet wears itself out faster."}}, {"@type": "Question", "name": "How often should carpet be professionally cleaned?", "acceptedAnswer": {"@type": "Answer", "text": "Every 12–18 months for a typical household, and most manufacturer warranties quietly require it. Between cleanings, vacuuming the traffic lanes twice a week does more for lifespan than anything else you can do — it removes the grit that cuts fiber before it does its work."}}, {"@type": "Question", "name": "When should I replace carpet instead of cleaning or restretching it?", "acceptedAnswer": {"@type": "Answer", "text": "When the damage is structural: matting that stays flat after a proper clean, backing visible at stair noses, ripples that come back after a power-stretch, odor that survives cleaning because it lives in the pad or subfloor, or backing that is delaminating. At that point cleaning is money after bad — and we will tell you which side of the line you are on."}}]}
+</script></div>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-cta" style="margin:30px 0">
+  <style>
+    html body .post-body .ocb-cta h2, .ocb-cta h2{color:#fff!important}
+    html body .post-body .ocb-cta .ocb-cta-sub, .ocb-cta .ocb-cta-sub{color:rgba(255,255,255,.88)!important}
+    html body .post-body .ocb-cta .ocb-cta-chips span, .ocb-cta .ocb-cta-chips span{color:rgba(255,255,255,.94)!important}
+    html body .post-body .ocb-cta a.ocb-cta-ghost, .ocb-cta a.ocb-cta-ghost{color:#fff!important;text-decoration:none!important}
+    html body .post-body .ocb-cta a.ocb-cta-gold, .ocb-cta a.ocb-cta-gold{color:#fbbc04!important}
+    html body .post-body .ocb-cta a.ocb-cta-phone, .ocb-cta a.ocb-cta-phone{color:#5c0000!important;text-decoration:none!important}
+  </style>
+  <div style="background:linear-gradient(135deg,#8B0000,#5c0000);border-radius:20px;padding:28px 24px;color:#fff;text-align:center;box-shadow:0 14px 34px rgba(92,0,0,.3)">
+    <h2 style="margin:0 0 6px;color:#fff!important;font-size:24px;font-weight:900">Get an Honest Read on Your Carpet</h2>
+    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.92)!important;font-size:16.3px">If it needs cleaning or restretching, we will say so — that visit costs you nothing. If it is genuinely done, we bring twenty-plus samples and all three pad grades to your door, measure every room and stair, and leave a written price the same visit. Free in-home estimates across King &amp; Snohomish County.</p>
+    <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
+      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff!important;color:#5c0000!important;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none!important"><span class="ocb-ic ocb-ic-phone"></span> (425) 595-1079</a>
+      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.16)!important;border:1px solid rgba(255,255,255,.55);color:#fff!important;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none!important">Book My Free Consultation</a>
+    </div>
+    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.95)!important">
+      <span>✓ Since 2013</span><span>✓ 1,000+ floors</span><span>✓ 1-yr workmanship warranty</span><span>✓ Licensed &amp; insured</span><span>✓ Financing available</span>
+    </div>
+    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04!important;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
+  </div>
+</div></div>
+
+<p><strong>Related reading:</strong> <a href="/blog/6-reasons-to-replace-carpet-flooring">Six reasons to replace carpet</a> · <a href="/blog/is-it-worth-it-to-restretch-your-carpet">Restretch or replace?</a> · <a href="/blog/best-carpet-for-stairs">The best carpet for stairs</a> · <a href="/blog/carpet-installation-cost-seattle">What carpet installation costs</a> · <a href="/city-of-renton/carpet-installation-in-renton-wa">Carpet installation in Renton</a> · <a href="/contact">Book a free estimate</a></p>
+
+<div data-rt-embed-type='true'><script>
+(function(){try{
+var els=document.querySelectorAll('.ocb-card,.ocb-fact,.ocb-tri,.faq-item');
+if(!('IntersectionObserver' in window)||!els.length)return;
+document.documentElement.classList.add('ocb-anim-ready');
+els.forEach(function(e,i){e.classList.add('ocb-rv');e.style.transitionDelay=Math.min((i%6)*70,350)+'ms'});
+var io=new IntersectionObserver(function(en){en.forEach(function(x){if(x.isIntersecting){x.target.classList.add('ocb-in');io.unobserve(x.target)}})},{threshold:.12,rootMargin:'0px 0px -8% 0px'});
+els.forEach(function(e){io.observe(e)});
+}catch(e){}})();
+</script></div>

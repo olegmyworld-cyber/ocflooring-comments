@@ -1,0 +1,204 @@
+<div data-rt-embed-type='true'><style>
+.ocb{--ink:#0f172a;--muted:#64748b;--line:#e5e7eb;--soft:#f8fafc;--brand:#8B0000;--brand2:#5c0000;--gold:#fbbc04;font-family:'Mulish',Inter,system-ui,sans-serif;color:var(--ink)}
+.ocb *{box-sizing:border-box}
+.ocb-card{border:1px solid var(--line);border-radius:18px;background:#fff;box-shadow:0 10px 30px rgba(2,6,23,.06);padding:22px;margin:26px 0}
+.ocb-eyebrow{display:inline-block;background:rgba(139,0,0,.08);color:var(--brand2);border:1px solid rgba(139,0,0,.2);border-radius:999px;padding:5px 12px;font-size:12.5px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;margin-bottom:10px}
+.ocb-chips{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0 0}
+.ocb-chip{background:var(--soft);border:1px solid var(--line);border-radius:999px;padding:6px 12px;font-size:13.6px;font-weight:700}
+.ocb-table{width:100%;border-collapse:collapse;font-size:15.2px}
+.ocb-table th,.ocb-table td{padding:11px 10px;text-align:left;border-bottom:1px solid var(--line)}
+.ocb-table th{background:var(--soft);font-weight:800;font-size:13.6px;letter-spacing:.02em}
+.ocb-table tr:last-child td{border-bottom:0}
+.ocb-table td strong{color:var(--brand2)}
+.ocb-2col{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media(max-width:680px){.ocb-2col{grid-template-columns:1fr}}
+.ocb-check{list-style:none;padding:0;margin:10px 0 0}
+.ocb-check li{padding-left:26px;position:relative;margin:7px 0;line-height:1.55}
+.ocb-check li:before{content:"✓";position:absolute;left:0;color:var(--brand);font-weight:900}
+.ocb-x li:before{content:"✕";color:#94a3b8}
+html body .post-body .ocb-facts, .ocb-facts{display:grid!important;grid-template-columns:repeat(3,1fr)!important;gap:12px!important;margin:8px 0!important}
+@media(max-width:680px){html body .post-body .ocb-facts, .ocb-facts{grid-template-columns:1fr!important}}
+.ocb-fact{background:linear-gradient(180deg,#fff,#f8fafc);border:1px solid var(--line);border-radius:16px;padding:16px}
+.ocb-fact .n{font-size:24px;font-weight:900;color:var(--brand2);display:block;margin-bottom:4px}
+html body .post-body .ocb-fact p, .ocb-fact p{margin:0!important;font-size:14.7px!important;color:#334155!important;line-height:1.5!important}
+
+.ocb-card,.ocb-fact,.ocb-tri{transition:transform .28s ease,box-shadow .28s ease}
+.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:translateY(-4px);box-shadow:0 16px 40px rgba(2,6,23,.12)}
+.faq-item{transition:border-color .25s,box-shadow .25s}
+.faq-item:hover{border-color:rgba(139,0,0,.35);box-shadow:0 6px 18px rgba(2,6,23,.07)}
+.ocb-chip{display:inline-flex;align-items:center;gap:6px;transition:transform .2s,border-color .2s}
+.ocb-chip:hover{transform:translateY(-2px);border-color:rgba(139,0,0,.35)}
+.ocb-chip svg{color:#8B0000}
+.ocb-cta a{transition:transform .22s,box-shadow .22s}
+.ocb-cta a:hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(0,0,0,.25)}
+.ocb-fact .n{position:relative}
+html.ocb-anim-ready .ocb-rv{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
+html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){html.ocb-anim-ready .ocb-rv{opacity:1!important;transform:none!important;transition:none!important}.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:none}}
+
+/* Chip icons. Webflow's rich-text sanitizer strips inline <svg> whenever a post is
+   re-saved in the Editor, so the icons are drawn from CSS on a <span> instead. */
+.ocb-ic{display:inline-block;width:15px;height:15px;flex:0 0 auto;vertical-align:-2px;background-repeat:no-repeat;background-position:center;background-size:contain}
+.ocb-ic-pin{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z'/><circle cx='12' cy='10' r='3'/></svg>")}
+.ocb-ic-home{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z'/><polyline points='9 22 9 12 15 12 15 22'/></svg>")}
+.ocb-ic-phone{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z'/></svg>")}
+.ocb-cta .ocb-ic{filter:brightness(0) saturate(100%) invert(9%) sepia(64%) saturate(4000%) hue-rotate(348deg)}
+</style></div>
+
+<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">September 17, 2026</span></div></div>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
+  <span class="ocb-eyebrow">Quick answer</span>
+  <p style="margin:0;font-size:17.9px;line-height:1.65"><strong>The best carpet for stairs is a dense, low-pile nylon &mdash; and density is something you verify by bending the sample over your hand, not something you feel in a showroom aisle.</strong> Stairs concentrate an entire household's traffic onto a few square feet, every step lands in the same spot, and the carpet has to bend over a hard nose edge for its whole life. Softness loses that fight; density and fiber resilience win it. Pick the fiber for the traffic, keep the pile short, use a firm pad, and make sure the installer wraps every tread properly &mdash; the rest is color.</p>
+  <div class="ocb-chips">
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-pin"></span> King &amp; Snohomish County</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-home"></span> Everett split-levels &amp; two-stories</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-phone"></span> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
+  </div>
+</div></div>
+
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-facts">
+  <div class="ocb-fact"><span class="n">Per tread</span><p>how honest quotes price stairs &mdash; not by square footage. Each tread is cut, wrapped and fastened individually, which is slow, precise work compared to rolling carpet across a bedroom.</p></div>
+  <div class="ocb-fact"><span class="n">20+ samples</span><p>we bring to your door, including the dense stair-grade nylons most showrooms keep in the back. The bend test happens on your own staircase, in your own light.</p></div>
+  <div class="ocb-fact"><span class="n">From $1.49/sq ft</span><p>where installed carpet starts with us, pad and labor included. Stairs add their per-tread labor on top &mdash; and we put that number in writing the same visit we measure.</p></div>
+</div></div></div>
+
+<h2>Stairs Are the Hardest Job a Carpet Ever Gets</h2>
+
+<p>A bedroom carpet spreads its traffic across a whole room, and most of the room never gets walked on at all. A staircase gets every trip &mdash; every school morning, every laundry basket, every dog launch &mdash; landed on the same few inches of every tread, in the same spot, thousands of times a year. And unlike flat floor, stair carpet is bent over a hard 90-degree nose edge its entire life, which means the pile at the nose is stretched open and taking impact at the same time.</p>
+
+<p>That is why the same carpet that looks fine in a bedroom after fifteen years can look exhausted on the stairs in five. It is not a defect and it is not bad cleaning &mdash; it is physics, and it is exactly why we tell people to shop for the staircase first and the bedrooms second. In Everett this matters more than most places: the split-levels around Silver Lake and the two-story homes off Broadway all run their whole daily life up and down one staircase. It is the main artery of the house, and it deserves the best fiber in the budget.</p>
+
+<h2>Density Beats Softness &mdash; Do the Bend Test</h2>
+
+<p>Showrooms sell softness, because softness is what your palm notices in the aisle. Stairs do not care what your palm thinks. What survives on a staircase is <strong>density</strong> &mdash; how much fiber is packed into each square inch &mdash; because dense pile supports itself and springs back, while soft, tall, sparse pile crushes flat at the nose and stays flat.</p>
+
+<p>You do not need a spec sheet to check this. Take the sample and bend it backwards over your knuckles, the way it will bend over a stair nose. If the pile yawns open and you can see the backing grinning through, that carpet will show its backing on your stair noses within a few years. If the pile stays tight and you see only fiber, it is a stair candidate. We do this test with clients on their own staircase during the estimate &mdash; it takes ten seconds per sample and it eliminates half the board immediately, including some expensive ones.</p>
+
+<h2>Fiber: Nylon Earns Its Premium Here</h2>
+
+<p>On flat bedroom floor there is a real argument for saving money with polyester. On stairs there mostly is not. Nylon's defining trait is resilience &mdash; it springs back after being crushed &mdash; and the stair nose is the most crushed spot in the house. This is the one place in the home where we tell almost everyone to pay the fiber premium, even if the bedrooms upstairs get something softer and cheaper. Mixed-fiber jobs like that are normal for us, and they put the money exactly where the wear is.</p>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-card">
+  <h3 style="margin:0 0 10px;font-size:18.5px;font-weight:900;color:#5c0000">Carpet Fibers, Ranked for Stairs</h3>
+  <div style="overflow-x:auto"><table class="ocb-table">
+    <tr><th>Fiber</th><th>Stair verdict</th><th>The honest reason</th></tr>
+    <tr><td><strong>Nylon</strong></td><td>The stair benchmark</td><td>Best resilience of any common fiber &mdash; springs back at the nose where everything else crushes flat</td></tr>
+    <tr><td><strong>Solution-dyed nylon</strong></td><td>Best in pet homes</td><td>Same resilience, plus color that survives the aggressive cleaning stairs in a dog household eventually need</td></tr>
+    <tr><td><strong>Triexta</strong></td><td>Strong second</td><td>Very good durability and built-in stain resistance; a fine stair answer when the same carpet runs through the whole house</td></tr>
+    <tr><td><strong>Polyester (PET)</strong></td><td>Bedrooms, not stairs</td><td>Soft and affordable, but it mats under concentrated traffic &mdash; the traffic lane look arrives early at the nose</td></tr>
+    <tr><td><strong>Wool</strong></td><td>Beautiful, situational</td><td>Naturally resilient and lovely in a low-traffic formal stair; priced accordingly and not for the busiest staircase in a kid household</td></tr>
+    <tr><td><strong>Berber / looped</strong></td><td>Avoid</td><td>Loops snag on the nose edge and under claws, and a pulled loop on a stair unravels in the most visible spot in the house</td></tr>
+  </table></div>
+</div></div>
+
+<p>If you want the longer fiber conversation, our <a href="/blog/best-carpet-for-pets">pet carpet guide</a> covers solution-dyed fiber in depth and our <a href="/blog/the-10-best-carpet-brands-reviews-2023-guide">carpet brand guide</a> covers who actually builds the dense stair-grade lines. And for neighbors a few miles south, the advice in our <a href="/blog/whats-the-best-carpeting-for-stairs-in-kenmore-wa">Kenmore stair carpeting post</a> holds for Everett word for word &mdash; the staircases are the same, only the commute is different.</p>
+
+<h2>Waterfall vs Wrapped: The Install Detail That Shows</h2>
+
+<p>There are two ways to carpet a tread, and you can spot the difference from across the room. <strong>Waterfall</strong> lets the carpet flow over the nose and drop straight down to the next tread in one continuous piece &mdash; faster to install, slightly softer look, and the standard on most modern staircases. <strong>Wrapped</strong> (you will also hear cap-and-band or Hollywood style) tucks the carpet tight under the nose so the profile of each step shows crisply &mdash; more tailored, more labor per tread, and worth it on a staircase that is a visual centerpiece.</p>
+
+<p>Neither is wrong. What is wrong is carpet that is not fastened firmly at the nose &mdash; that is where loose installation shows up first as a soft, shifting edge underfoot, and a shifting edge on a staircase is a safety problem, not a cosmetic one. It is also why stairs are priced per tread: each one is cut, stretched, wrapped and fastened individually. A quote that buries a staircase inside a square-foot total is worth a follow-up question before you sign it.</p>
+
+<h2>Safety: the Part We Bring Up Even When You Do Not</h2>
+
+<p>Stairs are where household falls happen, and carpet choice moves the odds. Short, dense pile over a <strong>firm, thinner pad</strong> gives your foot a stable, predictable surface. Deep plush over a soft, thick pad feels luxurious in the hallway and mushy at the stair nose &mdash; the edge compresses underfoot and your footing moves. Of the three pad grades we carry, the right stair answer is usually firmer and thinner than what we would put in the bedroom the stairs lead to, and we will say so at the estimate even though it is the cheaper option.</p>
+
+<p>Carpet also simply out-grips hard flooring on stairs. If your stairs are bare wood and you love them that way, a runner gets you traction while the wood still shows &mdash; our <a href="/blog/our-stair-installation-services">stair services page</a> covers the options, and if the treads themselves are worn, <a href="/blog/stair-refinishing-cost-per-step">stair refinishing is priced per step</a> for the same reason stair carpet is priced per tread: each one is its own small job.</p>
+
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-2col">
+  <div class="ocb-card" style="margin:0">
+    <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#5c0000">Our stair spec, in short</h3>
+    <ul class="ocb-check">
+      <li>Nylon &mdash; solution-dyed in pet households &mdash; in a short, dense cut pile</li>
+      <li>The bend test passed on your own staircase, not in a store</li>
+      <li>Firm pad grade on the stairs, even when the bedrooms get plusher</li>
+      <li>Every tread wrapped and fastened individually at the nose</li>
+      <li>Waterfall or wrapped &mdash; your call, both priced per tread in writing</li>
+      <li>Color with some fleck or texture, because stairs show soil in the center first</li>
+    </ul>
+  </div>
+  <div class="ocb-card" style="margin:0">
+    <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#334155">What we steer you away from</h3>
+    <ul class="ocb-check ocb-x">
+      <li>Buying stair carpet by softness &mdash; the palm test picks the wrong winner</li>
+      <li>Berber or any looped style bending over a nose edge</li>
+      <li>Deep plush and thick soft pad &mdash; mushy edges are a fall risk</li>
+      <li>Quotes that hide the staircase inside a square-foot number</li>
+      <li>Polyester on the busiest staircase in the house</li>
+      <li>Carpeting over treads that squeak or move &mdash; fix the stair first, then carpet it</li>
+    </ul>
+  </div>
+</div></div></div>
+
+<h2>What Stair Carpet Costs, Honestly</h2>
+
+<p>Installed carpet starts at $1.49 per square foot with us &mdash; material, pad and labor &mdash; and the staircase adds its per-tread labor on top of the measured area. That is the honest structure of every stair quote, and the number moves with tread count, whether the staircase has a landing or winders, and the fiber you land on. What we will not do is quote a staircase sight-unseen from a room count: we measure every tread, riser and landing at the estimate and leave a written price the same visit, with the pad grade and the wrap style named on paper.</p>
+
+<p>For the whole-house picture &mdash; what the bedrooms, hallway and stairs land at together &mdash; our <a href="/blog/carpet-installation-cost-seattle">carpet installation cost guide</a> walks the full quote line by line. And if your current stair carpet is loose or rippling rather than worn out, <a href="/blog/is-it-worth-it-to-restretch-your-carpet">restretching</a> may buy you years for a fraction of replacement &mdash; we will tell you which problem you actually have. Everett neighbors can see the full service details on our <a href="/city-of-everett/carpet-installation-in-everett-wa">Everett carpet installation page</a>.</p>
+
+<div data-rt-embed-type='true'><!-- FAQ accordion + JSON-LD -->
+<div class="faq-wrap ocb" aria-labelledby="faq-title">
+  <h2 id="faq-title" class="faq-title">Stair Carpet: What Homeowners Ask Us</h2>
+  <div class="faq-items" role="list">
+    <details class="faq-item" role="listitem"><summary class="faq-q">What is the best carpet for stairs?</summary><div class="faq-a">A dense, low-pile nylon cut pile over a firm pad. Density is what survives the concentrated traffic and the bend over the stair nose — verify it by bending the sample backwards over your hand; if the backing shows through the pile, it will show on your stairs within a few years. Softness is the wrong thing to shop for on a staircase.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Is nylon really worth the premium over polyester on stairs?</summary><div class="faq-a">On stairs, yes — this is the one place we say it almost without exception. Nylon springs back after being crushed, and the stair nose is the most crushed spot in the house. Polyester mats under that kind of concentrated traffic. Many of our jobs run nylon on the stairs and hallway and a softer, cheaper fiber in the bedrooms, which puts the money where the wear is.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Should stair carpet be low pile or high pile?</summary><div class="faq-a">Low. Short, dense pile keeps its shape at the nose, gives your foot a stable surface, and hides wear longest. Deep plush looks generous on day one, then crushes flat exactly where every foot lands — and over a soft pad it makes the stair edge feel mushy underfoot, which is a footing problem, not just a looks problem.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">What is the difference between waterfall and wrapped stair carpet?</summary><div class="faq-a">Waterfall flows the carpet over the nose and straight down to the next tread — faster, softer-looking, the modern default. Wrapped (cap-and-band, Hollywood) tucks the carpet tight under the nose so each step’s profile shows — more tailored and a bit more labor per tread. Both are correct when fastened firmly at the nose; we price both in writing and you pick.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">How are stairs priced for carpet?</summary><div class="faq-a">Per tread, not by square footage. Every tread is cut, stretched, wrapped and fastened individually, so a staircase carries far more labor per square foot than an open room. A quote that hides the staircase inside a square-foot total is the one to ask questions about — you cannot tell what the stairs are costing you or how they will be done.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">What pad should go under stair carpet?</summary><div class="faq-a">A firm, thinner grade — usually firmer than what we would recommend in the bedrooms. Thick, soft pad lets the carpet flex and shift at the nose, which accelerates wear and makes footing less predictable. We bring all three pad grades to the estimate so you can feel the difference, and on stairs we will usually point you at the cheaper, firmer one.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Is carpet on stairs safer than bare wood?</summary><div class="faq-a">Generally yes — carpet grips socks and paws far better than any finished wood, and it is the surface we recommend for households with young kids, older adults, or dogs that treat the staircase as a runway. If you want the wood to show, a properly fastened runner is the middle path: traction in the walking line, wood at the edges.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">How long does carpet on stairs last?</summary><div class="faq-a">Honestly: less time than the same carpet anywhere else in the house, because stairs concentrate the whole household’s traffic onto a few square feet. A dense nylon over a firm pad holds up the longest. When stair carpet does give out at the noses, you can often re-carpet just the staircase — it is priced per tread anyway, and it does not require redoing the bedrooms.</div></details>
+  </div>
+</div>
+
+<style>
+  .faq-wrap{--line:#e5e7eb;margin:28px auto;padding:20px;border:1px solid var(--line);border-radius:16px;background:#fff;box-shadow:0 8px 30px rgba(2,6,23,.06)}
+  .faq-title{margin:0 0 14px;font-size:24px;font-weight:900;text-align:center;color:#5c0000}
+  .faq-items{display:grid;gap:10px}
+  .faq-item{border:1px solid var(--line);border-radius:14px;background:#f9fafb;overflow:hidden}
+  .faq-q{cursor:pointer;display:block;padding:14px 16px;font-weight:800;color:#0f172a}
+  .faq-q::-webkit-details-marker{display:none}
+  .faq-item[open] .faq-q{background:linear-gradient(180deg, rgba(139,0,0,.08), rgba(139,0,0,.02))}
+  .faq-a{padding:0 16px 14px;color:#1f2937;line-height:1.6}
+</style>
+
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What is the best carpet for stairs?", "acceptedAnswer": {"@type": "Answer", "text": "A dense, low-pile nylon cut pile over a firm pad. Density is what survives the concentrated traffic and the bend over the stair nose — verify it by bending the sample backwards over your hand; if the backing shows through the pile, it will show on your stairs within a few years. Softness is the wrong thing to shop for on a staircase."}}, {"@type": "Question", "name": "Is nylon really worth the premium over polyester on stairs?", "acceptedAnswer": {"@type": "Answer", "text": "On stairs, yes — this is the one place we say it almost without exception. Nylon springs back after being crushed, and the stair nose is the most crushed spot in the house. Polyester mats under that kind of concentrated traffic. Many of our jobs run nylon on the stairs and hallway and a softer, cheaper fiber in the bedrooms, which puts the money where the wear is."}}, {"@type": "Question", "name": "Should stair carpet be low pile or high pile?", "acceptedAnswer": {"@type": "Answer", "text": "Low. Short, dense pile keeps its shape at the nose, gives your foot a stable surface, and hides wear longest. Deep plush looks generous on day one, then crushes flat exactly where every foot lands — and over a soft pad it makes the stair edge feel mushy underfoot, which is a footing problem, not just a looks problem."}}, {"@type": "Question", "name": "What is the difference between waterfall and wrapped stair carpet?", "acceptedAnswer": {"@type": "Answer", "text": "Waterfall flows the carpet over the nose and straight down to the next tread — faster, softer-looking, the modern default. Wrapped (cap-and-band, Hollywood) tucks the carpet tight under the nose so each step’s profile shows — more tailored and a bit more labor per tread. Both are correct when fastened firmly at the nose; we price both in writing and you pick."}}, {"@type": "Question", "name": "How are stairs priced for carpet?", "acceptedAnswer": {"@type": "Answer", "text": "Per tread, not by square footage. Every tread is cut, stretched, wrapped and fastened individually, so a staircase carries far more labor per square foot than an open room. A quote that hides the staircase inside a square-foot total is the one to ask questions about — you cannot tell what the stairs are costing you or how they will be done."}}, {"@type": "Question", "name": "What pad should go under stair carpet?", "acceptedAnswer": {"@type": "Answer", "text": "A firm, thinner grade — usually firmer than what we would recommend in the bedrooms. Thick, soft pad lets the carpet flex and shift at the nose, which accelerates wear and makes footing less predictable. We bring all three pad grades to the estimate so you can feel the difference, and on stairs we will usually point you at the cheaper, firmer one."}}, {"@type": "Question", "name": "Is carpet on stairs safer than bare wood?", "acceptedAnswer": {"@type": "Answer", "text": "Generally yes — carpet grips socks and paws far better than any finished wood, and it is the surface we recommend for households with young kids, older adults, or dogs that treat the staircase as a runway. If you want the wood to show, a properly fastened runner is the middle path: traction in the walking line, wood at the edges."}}, {"@type": "Question", "name": "How long does carpet on stairs last?", "acceptedAnswer": {"@type": "Answer", "text": "Honestly: less time than the same carpet anywhere else in the house, because stairs concentrate the whole household’s traffic onto a few square feet. A dense nylon over a firm pad holds up the longest. When stair carpet does give out at the noses, you can often re-carpet just the staircase — it is priced per tread anyway, and it does not require redoing the bedrooms."}}]}
+</script></div>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-cta" style="margin:30px 0">
+  <style>
+    html body .post-body .ocb-cta h2, .ocb-cta h2{color:#fff!important}
+    html body .post-body .ocb-cta .ocb-cta-sub, .ocb-cta .ocb-cta-sub{color:rgba(255,255,255,.88)!important}
+    html body .post-body .ocb-cta .ocb-cta-chips span, .ocb-cta .ocb-cta-chips span{color:rgba(255,255,255,.94)!important}
+    html body .post-body .ocb-cta a.ocb-cta-ghost, .ocb-cta a.ocb-cta-ghost{color:#fff!important;text-decoration:none!important}
+    html body .post-body .ocb-cta a.ocb-cta-gold, .ocb-cta a.ocb-cta-gold{color:#fbbc04!important}
+    html body .post-body .ocb-cta a.ocb-cta-phone, .ocb-cta a.ocb-cta-phone{color:#5c0000!important;text-decoration:none!important}
+  </style>
+  <div style="background:linear-gradient(135deg,#8B0000,#5c0000);border-radius:20px;padding:28px 24px;color:#fff;text-align:center;box-shadow:0 14px 34px rgba(92,0,0,.3)">
+    <h2 style="margin:0 0 6px;color:#fff!important;font-size:24px;font-weight:900">Bring the Samples to the Staircase</h2>
+    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.92)!important;font-size:16.3px">The mobile showroom comes to you: twenty-plus samples including the dense stair-grade nylons, all three pad grades, and the bend test done on your own stairs. We measure every tread and leave a written per-tread price the same visit. Free in-home estimates across King &amp; Snohomish County.</p>
+    <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
+      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff!important;color:#5c0000!important;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none!important"><span class="ocb-ic ocb-ic-phone"></span> (425) 595-1079</a>
+      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.16)!important;border:1px solid rgba(255,255,255,.55);color:#fff!important;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none!important">Book My Free Consultation</a>
+    </div>
+    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.95)!important">
+      <span>✓ Since 2013</span><span>✓ 1,000+ floors</span><span>✓ 1-yr workmanship warranty</span><span>✓ Licensed &amp; insured</span><span>✓ Financing available</span>
+    </div>
+    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04!important;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
+  </div>
+</div></div>
+
+<p><strong>Related reading:</strong> <a href="/blog/whats-the-best-carpeting-for-stairs-in-kenmore-wa">The best carpeting for stairs in Kenmore</a> · <a href="/blog/carpet-installation-cost-seattle">What carpet installation costs</a> · <a href="/blog/best-carpet-for-pets">The best carpet for pet households</a> · <a href="/blog/stair-refinishing-cost-per-step">Stair refinishing, priced per step</a> · <a href="/city-of-everett/carpet-installation-in-everett-wa">Carpet installation in Everett</a> · <a href="/contact">Book a free estimate</a></p>
+
+<div data-rt-embed-type='true'><script>
+(function(){try{
+var els=document.querySelectorAll('.ocb-card,.ocb-fact,.ocb-tri,.faq-item');
+if(!('IntersectionObserver' in window)||!els.length)return;
+document.documentElement.classList.add('ocb-anim-ready');
+els.forEach(function(e,i){e.classList.add('ocb-rv');e.style.transitionDelay=Math.min((i%6)*70,350)+'ms'});
+var io=new IntersectionObserver(function(en){en.forEach(function(x){if(x.isIntersecting){x.target.classList.add('ocb-in');io.unobserve(x.target)}})},{threshold:.12,rootMargin:'0px 0px -8% 0px'});
+els.forEach(function(e){io.observe(e)});
+}catch(e){}})();
+</script></div>
