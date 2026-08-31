@@ -11,6 +11,16 @@ Cadence: **5 posts per week — automated Mon–Fri ~7:00 AM Pacific**
 > the main session (which holds the Webflow MCP) and also does the daily
 > body-sync repair. First scheduled fire: 2026-09-01 14:02 UTC.
 
+> **City-page → blog links (2026-08-31):** every one of the 86 city service pages
+> (28 refinishing + 29 tile + 29 carpet) now carries the `ocSvcGuides` footer
+> script (`webflow-scripts/ocsvcguides-1.0.0.js`, registered + applied via API,
+> site published). It reads the page's service + city from the URL and injects up
+> to 5 links to blog posts from the 164-post map embedded in it — own-city posts
+> first, then newest same-service posts. **Date-gated**: a post is only linked
+> once its publish_date is strictly before today (America/Los_Angeles), so it can
+> never link a draft. The section grows automatically as the schedule publishes.
+> When adding future posts, regenerate the script's map and bump its version.
+
 **All 100 posts are written.** They exist as **draft** CMS items in the Webflow
 **Blogs** collection (`65f32565e111adbbb806ce92`, site `6377e8e6a53936b48ef1cad0`),
 each pre-dated to its scheduled slot in `blogs/plan/PLAN.json`
