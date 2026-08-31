@@ -1,0 +1,198 @@
+<div data-rt-embed-type='true'><style>
+.ocb{--ink:#0f172a;--muted:#64748b;--line:#e5e7eb;--soft:#f8fafc;--brand:#8B0000;--brand2:#5c0000;--gold:#fbbc04;font-family:'Mulish',Inter,system-ui,sans-serif;color:var(--ink)}
+.ocb *{box-sizing:border-box}
+.ocb-card{border:1px solid var(--line);border-radius:18px;background:#fff;box-shadow:0 10px 30px rgba(2,6,23,.06);padding:22px;margin:26px 0}
+.ocb-eyebrow{display:inline-block;background:rgba(139,0,0,.08);color:var(--brand2);border:1px solid rgba(139,0,0,.2);border-radius:999px;padding:5px 12px;font-size:12.5px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;margin-bottom:10px}
+.ocb-chips{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0 0}
+.ocb-chip{background:var(--soft);border:1px solid var(--line);border-radius:999px;padding:6px 12px;font-size:13.6px;font-weight:700}
+.ocb-table{width:100%;border-collapse:collapse;font-size:15.2px}
+.ocb-table th,.ocb-table td{padding:11px 10px;text-align:left;border-bottom:1px solid var(--line)}
+.ocb-table th{background:var(--soft);font-weight:800;font-size:13.6px;letter-spacing:.02em}
+.ocb-table tr:last-child td{border-bottom:0}
+.ocb-table td strong{color:var(--brand2)}
+.ocb-2col{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media(max-width:680px){.ocb-2col{grid-template-columns:1fr}}
+.ocb-check{list-style:none;padding:0;margin:10px 0 0}
+.ocb-check li{padding-left:26px;position:relative;margin:7px 0;line-height:1.55}
+.ocb-check li:before{content:"✓";position:absolute;left:0;color:var(--brand);font-weight:900}
+.ocb-x li:before{content:"✕";color:#94a3b8}
+html body .post-body .ocb-facts, .ocb-facts{display:grid!important;grid-template-columns:repeat(3,1fr)!important;gap:12px!important;margin:8px 0!important}
+@media(max-width:680px){html body .post-body .ocb-facts, .ocb-facts{grid-template-columns:1fr!important}}
+.ocb-fact{background:linear-gradient(180deg,#fff,#f8fafc);border:1px solid var(--line);border-radius:16px;padding:16px}
+.ocb-fact .n{font-size:24px;font-weight:900;color:var(--brand2);display:block;margin-bottom:4px}
+html body .post-body .ocb-fact p, .ocb-fact p{margin:0!important;font-size:14.7px!important;color:#334155!important;line-height:1.5!important}
+
+.ocb-card,.ocb-fact,.ocb-tri{transition:transform .28s ease,box-shadow .28s ease}
+.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:translateY(-4px);box-shadow:0 16px 40px rgba(2,6,23,.12)}
+.faq-item{transition:border-color .25s,box-shadow .25s}
+.faq-item:hover{border-color:rgba(139,0,0,.35);box-shadow:0 6px 18px rgba(2,6,23,.07)}
+.ocb-chip{display:inline-flex;align-items:center;gap:6px;transition:transform .2s,border-color .2s}
+.ocb-chip:hover{transform:translateY(-2px);border-color:rgba(139,0,0,.35)}
+.ocb-chip svg{color:#8B0000}
+.ocb-cta a{transition:transform .22s,box-shadow .22s}
+.ocb-cta a:hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(0,0,0,.25)}
+.ocb-fact .n{position:relative}
+html.ocb-anim-ready .ocb-rv{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
+html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){html.ocb-anim-ready .ocb-rv{opacity:1!important;transform:none!important;transition:none!important}.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:none}}
+
+/* Chip icons. Webflow's rich-text sanitizer strips inline <svg> whenever a post is
+   re-saved in the Editor, so the icons are drawn from CSS on a <span> instead. */
+.ocb-ic{display:inline-block;width:15px;height:15px;flex:0 0 auto;vertical-align:-2px;background-repeat:no-repeat;background-position:center;background-size:contain}
+.ocb-ic-pin{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z'/><circle cx='12' cy='10' r='3'/></svg>")}
+.ocb-ic-home{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z'/><polyline points='9 22 9 12 15 12 15 22'/></svg>")}
+.ocb-ic-phone{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z'/></svg>")}
+.ocb-cta .ocb-ic{filter:brightness(0) saturate(100%) invert(9%) sepia(64%) saturate(4000%) hue-rotate(348deg)}
+</style></div>
+
+<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">January 12, 2027</span></div></div>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
+  <span class="ocb-eyebrow">Quick answer</span>
+  <p style="margin:0;font-size:17.9px;line-height:1.65"><strong>Ditra and cement board are not really rivals &mdash; they solve different problems, and the honest answer is that Ditra wins most floors while cement board still earns its keep on walls.</strong> Ditra is an uncoupling membrane: an eighth-inch polyethylene mat that absorbs the movement between wood subfloors and rigid tile, adds almost no height or weight, and becomes a waterproof layer when its seams are taped. Cement board is exactly what it sounds like &mdash; a stable, cheap, screw-down surface that tile bonds to happily, at the cost of height, weight, and zero crack protection. Ask which problem your room has, and the debate usually settles itself.</p>
+  <div class="ocb-chips">
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-pin"></span> King &amp; Snohomish County</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-home"></span> Floors, walls &amp; showers</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-phone"></span> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
+  </div>
+</div></div>
+
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-facts">
+  <div class="ocb-fact"><span class="n">1/8 inch</span><p>the height Ditra adds to a floor, against a quarter to half inch of cement board plus its thinset bed. At a doorway transition or an appliance run, that difference decides the detail.</p></div>
+  <div class="ocb-fact"><span class="n">L/360</span><p>the deflection standard a tile floor must meet either way. Neither product stiffens a bouncy floor &mdash; anyone selling membrane or board as a fix for structure is selling wrong.</p></div>
+  <div class="ocb-fact"><span class="n">2 years</span><p>our warranty on tile work, which is exactly why we care what goes under the tile. The substrate choice is invisible on day one and decisive in year ten.</p></div>
+</div></div></div>
+
+<h2>What Each One Actually Is</h2>
+
+<p>Strip the brand fog away and the two products are simple. <strong>Cement board</strong> &mdash; Durock, HardieBacker, WonderBoard and cousins &mdash; is a rigid sheet of cement and reinforcement that screws down over framing or subfloor and gives tile a stable, water-tolerant surface to bond to. It has been the default backer since it replaced mortar beds a generation ago. It is not waterproof &mdash; water passes through it without damaging it, which is a distinction that matters enormously in showers.</p>
+
+<p><strong>Ditra</strong> is a different animal: a polyethylene mat, an eighth of an inch thick, embossed with a grid of dovetailed square cavities and backed with a fleece that anchors it into thinset. Tile bonds into the cavities on top. The genius is in what the mat does in between: the tile above and the subfloor below are no longer rigidly connected, so when a wood subfloor moves &mdash; and in Pacific Northwest humidity swings, it moves every season &mdash; the movement dies in the membrane instead of telegraphing into the tile as a crack. That is what uncoupling means, and it is the single biggest reason tile over wood subfloors fails less often than it used to. Where each layer sits in the full stack is mapped in our <a href="/blog/tile-underlayment-explained">tile underlayment guide</a>; this piece is the head-to-head.</p>
+
+<h2>Where Ditra Wins</h2>
+
+<p><strong>Floors, and it is not close.</strong> On a wood-framed floor, uncoupling is protection cement board simply does not offer &mdash; board gives tile a good surface, but it passes every bit of subfloor movement straight through. Ditra adds an eighth of an inch where board plus its required thinset bed adds three-eighths or more, which keeps tiled floors flush with neighboring hardwood and saves doors from trimming. Weight matters on upper floors: cement board adds real dead load to a bathroom floor before the first tile, while Ditra adds effectively none. It also carries a waterproofing trick board cannot match &mdash; tape the seams with Kerdi-Band and the floor becomes a waterproof assembly, which is how a laundry room or bathroom floor gets cheap insurance against the day a hose lets go. And its heated-floor sibling, Ditra-Heat, holds the cable and uncouples in one layer &mdash; the build we walk through in <a href="/blog/heated-bathroom-floor-cost">heated bathroom floors</a>.</p>
+
+<p>The honest cons: per square foot it costs more than board, it demands a properly mixed unmodified or approved thinset and a setter who reads instructions, and skipping steps &mdash; unfilled cavities, wrong trowel &mdash; quietly voids what the membrane promises.</p>
+
+<h2>Where Cement Board Wins</h2>
+
+<p><strong>Walls, price, and toughness.</strong> On a wall there is nothing to uncouple &mdash; studs do not move the way a floor span does &mdash; so Ditra's core trick buys nothing vertically, and screw-down board is the faster, cheaper, sturdier backer for a tub surround or shower wall (with a membrane over it; more on that in a moment). Board is also the budget answer on concrete-steady floors where movement is not the enemy, and it gives a satisfyingly solid substrate under wainscot and fireplace surrounds. It shrugs off job-site abuse that would slice a membrane, and every tile setter alive has installed a thousand sheets of it &mdash; there is no learning-curve risk.</p>
+
+<p>The cons are the mirror image: height and weight on floors, no crack isolation whatsoever, and the eternal misunderstanding that board alone makes a shower safe. It does not. Cement board is water-<em>tolerant</em>, not water<em>proof</em> &mdash; a shower built as tile over bare board wicks water into the wall cavity for years. Board needs a liquid or sheet membrane over it in wet areas, the assembly we detail in <a href="/blog/tile-shower-waterproofing">shower waterproofing</a>. That is also where Schluter's wall answer is Kerdi over drywall rather than Ditra at all &mdash; a different comparison for a different day.</p>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-card">
+  <h3 style="margin:0 0 10px;font-size:18.5px;font-weight:900;color:#5c0000">Ditra vs Cement Board, Spec by Spec</h3>
+  <div style="overflow-x:auto"><table class="ocb-table">
+    <tr><th>Question</th><th>Ditra</th><th>Cement board</th></tr>
+    <tr><td><strong>Crack protection</strong></td><td>Yes &mdash; uncoupling is the whole point</td><td>None &mdash; movement passes straight through</td></tr>
+    <tr><td><strong>Height added</strong></td><td>1/8"</td><td>1/4"&ndash;1/2" plus a thinset bed beneath</td></tr>
+    <tr><td><strong>Weight</strong></td><td>Negligible</td><td>Real dead load &mdash; matters upstairs</td></tr>
+    <tr><td><strong>Waterproof</strong></td><td>Yes, with seams taped (Kerdi-Band)</td><td>No &mdash; water-tolerant, needs a membrane over it</td></tr>
+    <tr><td><strong>Best on floors</strong></td><td>Wood-framed floors, heated floors, height-critical rooms</td><td>Concrete-steady rooms on a budget</td></tr>
+    <tr><td><strong>Best on walls</strong></td><td>Not its job</td><td>Yes &mdash; surrounds, wainscot, fireplaces</td></tr>
+    <tr><td><strong>Cost per sq ft</strong></td><td>Higher material cost</td><td>Cheap and everywhere</td></tr>
+    <tr><td><strong>Install risk</strong></td><td>Technique-sensitive &mdash; thinset and cavity fill matter</td><td>Hard to ruin &mdash; screws, tape, done</td></tr>
+  </table></div>
+</div></div>
+
+<h2>The Height and Weight Math Nobody Runs</h2>
+
+<p>The quiet decider in half these debates is a doorway. A bathroom floor is rarely tiled in isolation &mdash; it meets hardwood in the hall, laminate in the bedroom, a tub flange, a toilet flange set decades ago. Build the stack too tall and you buy tapered transitions, trimmed doors, and a toilet that needs a flange extension. On a remodel where the finished floor must land flush, the quarter inch Ditra saves over board is frequently the entire decision. Weight runs the same direction: a second-story bathroom in a 1980s house is already carrying tub, tile, and stone vanity ambitions, and the subfloor assembly is the one place to give ounces back. None of which excuses skipping the structural question &mdash; span, joist size, and subfloor thickness set what tile is allowed to do, the ground rules covered in <a href="/blog/all-about-subfloors-what-you-need-to-know">our subfloor guide</a>.</p>
+
+<h2>What Neither One Fixes</h2>
+
+<p>Both products get sold as cures for problems they do not treat, so here is the honest boundary line. <strong>Neither stiffens a bouncy floor.</strong> Deflection is structure &mdash; joist depth, span, spacing, subfloor thickness &mdash; and if the floor flexes past L/360, the fix is framing work, not a better membrane. <strong>Neither flattens anything.</strong> Ditra follows every hump and dip beneath it faithfully, and board bridges nothing it is not shimmed over; flatness comes from patching and self-leveler before either product shows up, and it matters double under big tile, as we detail in <a href="/blog/large-format-tile-installation">large-format tile installation</a>. <strong>Neither fixes wrong thinset.</strong> Each has a specified mortar and method, and most membrane failures we are called to autopsy were installation failures wearing a product's name.</p>
+
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-2col">
+  <div class="ocb-card" style="margin:0">
+    <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#5c0000">We reach for Ditra when&hellip;</h3>
+    <ul class="ocb-check">
+      <li>The floor is wood-framed &mdash; which is most floors here</li>
+      <li>Finished height has to meet hardwood or a door swing</li>
+      <li>The room is upstairs and weight is worth managing</li>
+      <li>The floor should be waterproof &mdash; laundry, bath, entry</li>
+      <li>Heated floor &mdash; Ditra-Heat carries cable and uncoupling in one</li>
+      <li>Seasonal humidity movement is the main enemy</li>
+    </ul>
+  </div>
+  <div class="ocb-card" style="margin:0">
+    <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#334155">We reach for cement board when&hellip;</h3>
+    <ul class="ocb-check ocb-x">
+      <li>The surface is a wall &mdash; surround, wainscot, fireplace</li>
+      <li>The floor is dead-steady and the budget is tight</li>
+      <li>The substrate needs to take a beating before tile day</li>
+      <li>A membrane will be applied over it in the wet zone</li>
+      <li>The tile is heavy stone on walls needing rigid backing</li>
+      <li>Matching an existing assembly during a partial rebuild</li>
+    </ul>
+  </div>
+</div></div></div>
+
+<p>If you take one thing from a tile setter's notebook, take this: the argument is settled room by room, not brand by brand. A typical bathroom for us is Ditra on the floor and membrane-covered board or Kerdi on the shower walls &mdash; both products, each where it wins. What you should not accept is either one used as a talisman: board in a shower with no membrane, or Ditra floated over a floor that needed a carpenter first. The full scope of how we build is on our <a href="/seattle/tile-installation-in-seattle-wa">Seattle tile installation page</a>.</p>
+
+<div data-rt-embed-type='true'><!-- FAQ accordion + JSON-LD -->
+<div class="faq-wrap ocb" aria-labelledby="faq-title">
+  <h2 id="faq-title" class="faq-title">Ditra vs Cement Board: What Homeowners Ask Us</h2>
+  <div class="faq-items" role="list">
+    <details class="faq-item" role="listitem"><summary class="faq-q">Is Ditra better than cement board?</summary><div class="faq-a">On wood-framed floors, yes — uncoupling protects tile from subfloor movement, and cement board offers no crack protection at all. On walls the answer flips: there is nothing to uncouple, so cheaper, tougher screw-down board is the better backer, with a waterproofing membrane over it in wet areas. It is a room-by-room decision, not a brand war.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Can you use Ditra on shower walls?</summary><div class="faq-a">It is not designed for walls — Ditra is a floor product. Schluter’s wall system is Kerdi, a thinner sheet membrane applied over drywall or board. A typical well-built bathroom uses Ditra on the floor and Kerdi or membrane-coated cement board on the shower walls, so the two products end up teammates rather than rivals.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Is cement board waterproof?</summary><div class="faq-a">No — and this misunderstanding ruins showers. Cement board is water-tolerant: it does not rot or swell when wet, but water passes straight through it into the wall cavity. In a shower it must be covered with a liquid-applied or sheet membrane. Tile over bare cement board with no membrane is how a shower leaks slowly for years before anyone notices.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Does Ditra really prevent cracked tile?</summary><div class="faq-a">It prevents the most common cause: movement of a wood subfloor telegraphing into rigid tile. The mat separates the two layers so seasonal expansion and small flex die in the membrane instead of the grout and tile. What it cannot prevent is cracking from a floor that flexes beyond the L/360 standard — deflection is a framing problem, and no membrane fixes structure.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">How much height does Ditra add compared to cement board?</summary><div class="faq-a">Ditra adds about an eighth of an inch plus its thinset. Cement board adds a quarter to half an inch of board plus the thinset bed required beneath it. On a remodel where tile has to land flush with hardwood at a doorway, or where a toilet flange is already set, that saved quarter inch is often the whole reason Ditra gets the job.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Is Ditra worth the extra cost over cement board?</summary><div class="faq-a">On a wood-framed floor, almost always. The material premium is small against the total job — installed tile work runs $14 to $26 per square foot — and it buys crack protection, less height, less weight, and optional waterproofing. Where it is not worth it: walls, and dead-steady slabs where movement is not the enemy and board or a direct bond does the job for less.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Do you need cement board under Ditra?</summary><div class="faq-a">No. Ditra goes directly over a structurally sound plywood or OSB subfloor with the correct thinset — that is the point of it. Stacking board under Ditra just spends money and height for nothing. What the subfloor does need is to meet thickness and deflection requirements and to be flat; membranes follow whatever surface they are given.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Can Ditra go over concrete?</summary><div class="faq-a">Yes, and it is useful there when a slab has cracks or is young enough to still be curing — uncoupling keeps slab cracks from telegraphing up into tile. On a sound, fully cured slab with no movement history, tile can also bond directly and Ditra becomes optional insurance. On any slab, flatness and moisture get checked first; the membrane fixes neither.</div></details>
+  </div>
+</div>
+
+<style>
+  .faq-wrap{--line:#e5e7eb;margin:28px auto;padding:20px;border:1px solid var(--line);border-radius:16px;background:#fff;box-shadow:0 8px 30px rgba(2,6,23,.06)}
+  .faq-title{margin:0 0 14px;font-size:24px;font-weight:900;text-align:center;color:#5c0000}
+  .faq-items{display:grid;gap:10px}
+  .faq-item{border:1px solid var(--line);border-radius:14px;background:#f9fafb;overflow:hidden}
+  .faq-q{cursor:pointer;display:block;padding:14px 16px;font-weight:800;color:#0f172a}
+  .faq-q::-webkit-details-marker{display:none}
+  .faq-item[open] .faq-q{background:linear-gradient(180deg, rgba(139,0,0,.08), rgba(139,0,0,.02))}
+  .faq-a{padding:0 16px 14px;color:#1f2937;line-height:1.6}
+</style>
+
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Is Ditra better than cement board?", "acceptedAnswer": {"@type": "Answer", "text": "On wood-framed floors, yes — uncoupling protects tile from subfloor movement, and cement board offers no crack protection at all. On walls the answer flips: there is nothing to uncouple, so cheaper, tougher screw-down board is the better backer, with a waterproofing membrane over it in wet areas. It is a room-by-room decision, not a brand war."}}, {"@type": "Question", "name": "Can you use Ditra on shower walls?", "acceptedAnswer": {"@type": "Answer", "text": "It is not designed for walls — Ditra is a floor product. Schluter’s wall system is Kerdi, a thinner sheet membrane applied over drywall or board. A typical well-built bathroom uses Ditra on the floor and Kerdi or membrane-coated cement board on the shower walls, so the two products end up teammates rather than rivals."}}, {"@type": "Question", "name": "Is cement board waterproof?", "acceptedAnswer": {"@type": "Answer", "text": "No — and this misunderstanding ruins showers. Cement board is water-tolerant: it does not rot or swell when wet, but water passes straight through it into the wall cavity. In a shower it must be covered with a liquid-applied or sheet membrane. Tile over bare cement board with no membrane is how a shower leaks slowly for years before anyone notices."}}, {"@type": "Question", "name": "Does Ditra really prevent cracked tile?", "acceptedAnswer": {"@type": "Answer", "text": "It prevents the most common cause: movement of a wood subfloor telegraphing into rigid tile. The mat separates the two layers so seasonal expansion and small flex die in the membrane instead of the grout and tile. What it cannot prevent is cracking from a floor that flexes beyond the L/360 standard — deflection is a framing problem, and no membrane fixes structure."}}, {"@type": "Question", "name": "How much height does Ditra add compared to cement board?", "acceptedAnswer": {"@type": "Answer", "text": "Ditra adds about an eighth of an inch plus its thinset. Cement board adds a quarter to half an inch of board plus the thinset bed required beneath it. On a remodel where tile has to land flush with hardwood at a doorway, or where a toilet flange is already set, that saved quarter inch is often the whole reason Ditra gets the job."}}, {"@type": "Question", "name": "Is Ditra worth the extra cost over cement board?", "acceptedAnswer": {"@type": "Answer", "text": "On a wood-framed floor, almost always. The material premium is small against the total job — installed tile work runs $14 to $26 per square foot — and it buys crack protection, less height, less weight, and optional waterproofing. Where it is not worth it: walls, and dead-steady slabs where movement is not the enemy and board or a direct bond does the job for less."}}, {"@type": "Question", "name": "Do you need cement board under Ditra?", "acceptedAnswer": {"@type": "Answer", "text": "No. Ditra goes directly over a structurally sound plywood or OSB subfloor with the correct thinset — that is the point of it. Stacking board under Ditra just spends money and height for nothing. What the subfloor does need is to meet thickness and deflection requirements and to be flat; membranes follow whatever surface they are given."}}, {"@type": "Question", "name": "Can Ditra go over concrete?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, and it is useful there when a slab has cracks or is young enough to still be curing — uncoupling keeps slab cracks from telegraphing up into tile. On a sound, fully cured slab with no movement history, tile can also bond directly and Ditra becomes optional insurance. On any slab, flatness and moisture get checked first; the membrane fixes neither."}}]}
+</script></div>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-cta" style="margin:30px 0">
+  <style>
+    html body .post-body .ocb-cta h2, .ocb-cta h2{color:#fff!important}
+    html body .post-body .ocb-cta .ocb-cta-sub, .ocb-cta .ocb-cta-sub{color:rgba(255,255,255,.88)!important}
+    html body .post-body .ocb-cta .ocb-cta-chips span, .ocb-cta .ocb-cta-chips span{color:rgba(255,255,255,.94)!important}
+    html body .post-body .ocb-cta a.ocb-cta-ghost, .ocb-cta a.ocb-cta-ghost{color:#fff!important;text-decoration:none!important}
+    html body .post-body .ocb-cta a.ocb-cta-gold, .ocb-cta a.ocb-cta-gold{color:#fbbc04!important}
+    html body .post-body .ocb-cta a.ocb-cta-phone, .ocb-cta a.ocb-cta-phone{color:#5c0000!important;text-decoration:none!important}
+  </style>
+  <div style="background:linear-gradient(135deg,#8B0000,#5c0000);border-radius:20px;padding:28px 24px;color:#fff;text-align:center;box-shadow:0 14px 34px rgba(92,0,0,.3)">
+    <h2 style="margin:0 0 6px;color:#fff!important;font-size:24px;font-weight:900">Get the Right Layer Under Your Tile</h2>
+    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.92)!important;font-size:16.3px">We will look at your framing, your heights, and your rooms, and spec the substrate honestly &mdash; Ditra where it earns the money, board where it does, and neither one sold as magic. Free in-home estimates across King &amp; Snohomish County.</p>
+    <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
+      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff!important;color:#5c0000!important;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none!important"><span class="ocb-ic ocb-ic-phone"></span> (425) 595-1079</a>
+      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.16)!important;border:1px solid rgba(255,255,255,.55);color:#fff!important;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none!important">Book My Free Consultation</a>
+    </div>
+    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.95)!important">
+      <span>✓ Since 2013</span><span>✓ 1,000+ floors</span><span>✓ 1-yr workmanship warranty</span><span>✓ Licensed &amp; insured</span><span>✓ Financing available</span>
+    </div>
+    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04!important;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
+  </div>
+</div></div>
+
+<p><strong>Related reading:</strong> <a href="/blog/tile-underlayment-explained">Tile underlayment explained</a> · <a href="/blog/tile-shower-waterproofing">Shower waterproofing explained</a> · <a href="/blog/large-format-tile-installation">Large-format tile installation</a> · <a href="/blog/heated-bathroom-floor-cost">Heated bathroom floor cost</a> · <a href="/blog/all-about-subfloors-what-you-need-to-know">All about subfloors</a> · <a href="/seattle/tile-installation-in-seattle-wa">Tile installation in Seattle</a> · <a href="/contact">Book a free estimate</a></p>
+
+<div data-rt-embed-type='true'><script>
+(function(){try{
+var els=document.querySelectorAll('.ocb-card,.ocb-fact,.ocb-tri,.faq-item');
+if(!('IntersectionObserver' in window)||!els.length)return;
+document.documentElement.classList.add('ocb-anim-ready');
+els.forEach(function(e,i){e.classList.add('ocb-rv');e.style.transitionDelay=Math.min((i%6)*70,350)+'ms'});
+var io=new IntersectionObserver(function(en){en.forEach(function(x){if(x.isIntersecting){x.target.classList.add('ocb-in');io.unobserve(x.target)}})},{threshold:.12,rootMargin:'0px 0px -8% 0px'});
+els.forEach(function(e){io.observe(e)});
+}catch(e){}})();
+</script></div>

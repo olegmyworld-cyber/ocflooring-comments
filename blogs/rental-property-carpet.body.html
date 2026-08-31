@@ -1,0 +1,199 @@
+<div data-rt-embed-type='true'><style>
+.ocb{--ink:#0f172a;--muted:#64748b;--line:#e5e7eb;--soft:#f8fafc;--brand:#8B0000;--brand2:#5c0000;--gold:#fbbc04;font-family:'Mulish',Inter,system-ui,sans-serif;color:var(--ink)}
+.ocb *{box-sizing:border-box}
+.ocb-card{border:1px solid var(--line);border-radius:18px;background:#fff;box-shadow:0 10px 30px rgba(2,6,23,.06);padding:22px;margin:26px 0}
+.ocb-eyebrow{display:inline-block;background:rgba(139,0,0,.08);color:var(--brand2);border:1px solid rgba(139,0,0,.2);border-radius:999px;padding:5px 12px;font-size:12.5px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;margin-bottom:10px}
+.ocb-chips{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0 0}
+.ocb-chip{background:var(--soft);border:1px solid var(--line);border-radius:999px;padding:6px 12px;font-size:13.6px;font-weight:700}
+.ocb-table{width:100%;border-collapse:collapse;font-size:15.2px}
+.ocb-table th,.ocb-table td{padding:11px 10px;text-align:left;border-bottom:1px solid var(--line)}
+.ocb-table th{background:var(--soft);font-weight:800;font-size:13.6px;letter-spacing:.02em}
+.ocb-table tr:last-child td{border-bottom:0}
+.ocb-table td strong{color:var(--brand2)}
+.ocb-2col{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media(max-width:680px){.ocb-2col{grid-template-columns:1fr}}
+.ocb-check{list-style:none;padding:0;margin:10px 0 0}
+.ocb-check li{padding-left:26px;position:relative;margin:7px 0;line-height:1.55}
+.ocb-check li:before{content:"✓";position:absolute;left:0;color:var(--brand);font-weight:900}
+.ocb-x li:before{content:"✕";color:#94a3b8}
+html body .post-body .ocb-facts, .ocb-facts{display:grid!important;grid-template-columns:repeat(3,1fr)!important;gap:12px!important;margin:8px 0!important}
+@media(max-width:680px){html body .post-body .ocb-facts, .ocb-facts{grid-template-columns:1fr!important}}
+.ocb-fact{background:linear-gradient(180deg,#fff,#f8fafc);border:1px solid var(--line);border-radius:16px;padding:16px}
+.ocb-fact .n{font-size:24px;font-weight:900;color:var(--brand2);display:block;margin-bottom:4px}
+html body .post-body .ocb-fact p, .ocb-fact p{margin:0!important;font-size:14.7px!important;color:#334155!important;line-height:1.5!important}
+
+.ocb-card,.ocb-fact,.ocb-tri{transition:transform .28s ease,box-shadow .28s ease}
+.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:translateY(-4px);box-shadow:0 16px 40px rgba(2,6,23,.12)}
+.faq-item{transition:border-color .25s,box-shadow .25s}
+.faq-item:hover{border-color:rgba(139,0,0,.35);box-shadow:0 6px 18px rgba(2,6,23,.07)}
+.ocb-chip{display:inline-flex;align-items:center;gap:6px;transition:transform .2s,border-color .2s}
+.ocb-chip:hover{transform:translateY(-2px);border-color:rgba(139,0,0,.35)}
+.ocb-chip svg{color:#8B0000}
+.ocb-cta a{transition:transform .22s,box-shadow .22s}
+.ocb-cta a:hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(0,0,0,.25)}
+.ocb-fact .n{position:relative}
+html.ocb-anim-ready .ocb-rv{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
+html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){html.ocb-anim-ready .ocb-rv{opacity:1!important;transform:none!important;transition:none!important}.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:none}}
+
+/* Chip icons. Webflow's rich-text sanitizer strips inline <svg> whenever a post is
+   re-saved in the Editor, so the icons are drawn from CSS on a <span> instead. */
+.ocb-ic{display:inline-block;width:15px;height:15px;flex:0 0 auto;vertical-align:-2px;background-repeat:no-repeat;background-position:center;background-size:contain}
+.ocb-ic-pin{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z'/><circle cx='12' cy='10' r='3'/></svg>")}
+.ocb-ic-home{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z'/><polyline points='9 22 9 12 15 12 15 22'/></svg>")}
+.ocb-ic-phone{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z'/></svg>")}
+.ocb-cta .ocb-ic{filter:brightness(0) saturate(100%) invert(9%) sepia(64%) saturate(4000%) hue-rotate(348deg)}
+</style></div>
+
+<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">February 18, 2027</span></div></div>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
+  <span class="ocb-eyebrow">Quick answer</span>
+  <p style="margin:0;font-size:17.9px;line-height:1.65"><strong>The right carpet for a rental is a solution-dyed polyester or nylon in a flecked mid-tone neutral, over a mid-grade pad &mdash; not the cheapest thing on the rack, and not what you would put in your own bedroom either.</strong> Landlord math is not price per square foot, it is cost per tenant-year: a bargain carpet that survives one tenancy costs more than a mid-grade one that survives three. Solution-dyed fiber shrugs off the aggressive cleaning a turnover needs, the mid pad keeps the carpet from wearing out from below, and the flecked neutral photographs well in every listing for a decade.</p>
+  <div class="ocb-chips">
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-pin"></span> King &amp; Snohomish County</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-home"></span> Woodinville rental owners</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-phone"></span> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
+  </div>
+</div></div>
+
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-facts">
+  <div class="ocb-fact"><span class="n">From $1.49/sq ft</span><p>where installed carpet starts with us, pad and labor included. On a rental unit the spread between builder-grade and the rental spec is small money against one month of vacancy &mdash; which is the number that actually hurts.</p></div>
+  <div class="ocb-fact"><span class="n">Cost per tenant-year</span><p>the only metric that matters. Divide installed cost by the tenancies the carpet survives. A cheap carpet replaced every turnover loses that arithmetic to a mid-grade carpet every single time.</p></div>
+  <div class="ocb-fact"><span class="n">One day</span><p>how long most units take to install once the carpet is in. We schedule between tenants &mdash; measure before the old tenant leaves, install the day after the unit empties, listing photos by the weekend.</p></div>
+</div></div></div>
+
+<h2>Landlord Math: Cost per Tenant-Year</h2>
+
+<p>Homeowners buy carpet on feel and looks. Landlords should buy it on arithmetic. Take the installed cost, divide by the number of tenancies it survives, and compare <em>that</em> number. The cheapest carpet on the rack looks like the obvious rental choice right up until you run it: bargain goods with a bargain pad routinely need replacing after a single hard tenancy &mdash; matted traffic lanes, stains that will not lift, a smell the next applicant notices in the doorway. The mid-grade spec costs modestly more on install day and routinely survives three tenancies. Per tenant-year it is not close.</p>
+
+<p>The hidden line in the math is vacancy. Worn-out carpet does not just cost its replacement price &mdash; it costs the days the unit sits while you scramble a contractor, and it costs applicants who walked through, wrinkled their nose, and applied somewhere else. A durable, honest floor is cheap insurance against both. How long each grade actually lasts is a subject we covered straight in <a href="/blog/how-long-does-carpet-last">how long carpet lasts</a>; rentals sit at the hard end of every range there.</p>
+
+<h2>The Rental Spec, Line by Line</h2>
+
+<p>Here is what we actually recommend when an owner tells us the unit is a rental. It is a short list, and every line is chosen for the same reason: it survives tenants who did not buy the carpet and will not baby it.</p>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-card">
+  <h3 style="margin:0 0 10px;font-size:18.5px;font-weight:900;color:#5c0000">What Landlords Should Buy, and Why</h3>
+  <div style="overflow-x:auto"><table class="ocb-table">
+    <tr><th>Decision</th><th>The rental answer</th><th>Why</th></tr>
+    <tr><td><strong>Fiber</strong></td><td>Solution-dyed polyester or nylon</td><td>Color runs through the fiber, so turnover-strength cleaning cannot fade it &mdash; you can attack year-two stains at full strength</td></tr>
+    <tr><td><strong>Pad</strong></td><td>Mid-grade, 8 lb density class</td><td>The cheap pad is what actually kills rental carpet &mdash; it collapses, then the carpet mats. The premium pad is comfort you are giving away</td></tr>
+    <tr><td><strong>Color</strong></td><td>Flecked mid-tone neutral</td><td>Hides traffic lanes and sins between deep cleans, photographs well in listings, offends no applicant</td></tr>
+    <tr><td><strong>Pile</strong></td><td>Short-to-medium textured cut pile</td><td>Dense and low wears best; deep plush mats and holds odors; textured hides vacuum tracks between showings</td></tr>
+    <tr><td><strong>Style</strong></td><td>One carpet, every carpeted room</td><td>One dye lot, one leftover roll for future patches, one repurchase decision instead of five</td></tr>
+    <tr><td><strong>Extras worth it</strong></td><td>Moisture-barrier pad if pets are allowed</td><td>Accidents stop at the pad instead of soaking the subfloor &mdash; the difference between a cleaning bill and a replacement</td></tr>
+    <tr><td><strong>Extras not worth it</strong></td><td>Premium softness, wool, deep pile</td><td>Tenants do not pay more rent for plush &mdash; spend the difference on paint and fixtures they do notice</td></tr>
+  </table></div>
+</div></div>
+
+<p>The one line worth expanding: <strong>solution-dyed fiber</strong>. Ordinary carpet is dyed after the fiber is made, so the color sits on the surface and aggressive cleaning slowly strips it &mdash; which is exactly the cleaning a turnover requires. Solution-dyed fiber has the pigment mixed in before extrusion; the color goes all the way through, like a carrot rather than a radish. Between tenants you can hot-water extract, spot-treat with enzymes, and scrub the traffic lanes hard, year after year, without bleaching pale patches into the floor. The full fiber rundown is in <a href="/blog/carpet-fiber-types">nylon, polyester, or wool</a> &mdash; for rentals, the solution-dyed column wins regardless of which polymer you pick.</p>
+
+<h2>The Pad Is Where Cheap Rentals Go Wrong</h2>
+
+<p>When a landlord shows us a unit with carpet that died young, the carpet is usually not the culprit &mdash; the pad is. Builder-grade pad crushes flat in the traffic lanes within a couple of years; once it does, every footstep lands on the carpet backing directly, and the fibers mat permanently no matter what the carpet cost. Replacing carpet over a dead pad is throwing good money after bad.</p>
+
+<p>The fix costs very little: specify the mid-grade pad, the 8-pound density class, under every room. Not the premium pad &mdash; that is comfort spend, and comfort is not what a rental sells &mdash; but never the bottom grade. We wrote the longer argument in <a href="/blog/carpet-padding-thickness">carpet padding: the half of the job nobody shops for</a>, and it applies to rentals double: the pad is invisible in the listing photos and decisive in year three.</p>
+
+<h2>Turnovers: Clean, Patch, or Replace</h2>
+
+<p>Not every scuffed carpet needs replacing at move-out, and replacing too early is its own leak in the budget. The honest triage: <strong>clean</strong> when the problem is soil &mdash; a professional hot-water extraction between tenants recovers more carpet than most owners expect, especially solution-dyed goods. <strong>Patch and restretch</strong> when the damage is local &mdash; a burn, a bleach spot, a pet corner, ripples from years of traffic; this is exactly why we tell owners to keep the leftover roll from the install. <strong>Replace</strong> when the traffic lanes are matted flat and will not recover, when odor has reached the pad, or when the backing is delaminating &mdash; the same signals we listed in <a href="/blog/when-to-replace-carpet">five signs it is time to replace carpet</a>.</p>
+
+<p>Two bookkeeping notes worth knowing. Keep the install invoice: carpet in a rental is a depreciable improvement, and your accountant will want the date and amount. And document condition with photos at every move-in and move-out &mdash; normal wear is the owner's cost, genuine damage is a deposit conversation, and the difference is much easier to demonstrate with pictures than with adjectives. When the old carpet does come out, <a href="/blog/carpet-removal-cost">removal and haul-away</a> is part of our number, not a surprise line at the end.</p>
+
+<h2>Where Carpet Belongs in a Rental &mdash; and Where It Does Not</h2>
+
+<p>Honest answer: not everywhere. In most rentals we would put a hard surface in the entry, kitchen, baths and main living path, and carpet in the bedrooms and upstairs. Carpet wins bedrooms on cost, warmth, and sound &mdash; in a two-story rental or anything with neighbors below, carpeted upstairs floors quietly prevent the most common noise complaint there is. Hard surface wins everywhere water, food, and shoes concentrate. That split also localizes your turnover cost: the rooms that take the abuse have the floor that shrugs it off, and the carpet you do replace is a bedroom at a time, not the whole unit.</p>
+
+<p>We work with a lot of owners and property managers on exactly this split &mdash; multiple units, phased schedules, same spec across a portfolio so every future repair matches. That side of the shop is described in <a href="/blog/flooring-services-tailored-for-real-estate-success">flooring services for real estate</a>, and the local details are on our <a href="/city-of-woodinville/carpet-installation-in-woodinville-wa">Woodinville carpet installation page</a>. Woodinville rentals skew toward single-family houses and townhomes rather than big complexes, which raises the stakes per unit: one house, one tenant, one carpet &mdash; buy the spec that survives the tenancy after this one.</p>
+
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-2col">
+  <div class="ocb-card" style="margin:0">
+    <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#5c0000">Our rental spec</h3>
+    <ul class="ocb-check">
+      <li>Solution-dyed polyester or nylon, textured cut pile, short to medium</li>
+      <li>Mid-grade 8 lb-class pad in every room &mdash; never the bottom grade</li>
+      <li>Flecked mid-tone neutral, one carpet across all carpeted rooms</li>
+      <li>Moisture-barrier pad wherever pets are allowed</li>
+      <li>Leftover roll labeled and stored for future patches</li>
+      <li>Install scheduled inside the turnover window, photos before listing</li>
+    </ul>
+  </div>
+  <div class="ocb-card" style="margin:0">
+    <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#334155">Mistakes that cost landlords money</h3>
+    <ul class="ocb-check ocb-x">
+      <li>Buying the cheapest carpet and the cheapest pad together</li>
+      <li>Premium plush a tenant will never pay extra rent for</li>
+      <li>White or solid pale carpet in a unit with real turnover</li>
+      <li>Replacing whole units when a patch and a deep clean would do</li>
+      <li>Different carpet in every room &mdash; five dye lots, five repurchases</li>
+      <li>No move-in photos, then arguing about the deposit from memory</li>
+    </ul>
+  </div>
+</div></div></div>
+
+<div data-rt-embed-type='true'><!-- FAQ accordion + JSON-LD -->
+<div class="faq-wrap ocb" aria-labelledby="faq-title">
+  <h2 id="faq-title" class="faq-title">Rental Property Carpet: What Landlords Ask Us</h2>
+  <div class="faq-items" role="list">
+    <details class="faq-item" role="listitem"><summary class="faq-q">What is the best carpet for a rental property?</summary><div class="faq-a">Solution-dyed polyester or nylon, short-to-medium textured cut pile, flecked mid-tone neutral, over a mid-grade pad. Every element is chosen to survive tenants and turnover cleaning rather than to feel luxurious. It costs modestly more than builder-grade and routinely lasts two or three times as many tenancies, which wins the math decisively.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">How much does carpet cost for a rental unit?</summary><div class="faq-a">Installed carpet starts at $1.49 per square foot with us, including pad and labor, and the rental spec sits toward the affordable end of the range on purpose. We measure the unit, quote it in writing the same visit, and can schedule the install inside a turnover window so the carpet is done before the listing photos.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">How long should carpet last in a rental?</summary><div class="faq-a">Rentals are the hard end of every lifespan range — expect fewer years than the same carpet would give an owner-occupier. Builder-grade goods over cheap pad can be done after a single hard tenancy; the rental spec over a mid pad routinely survives three or more. The pad is usually what decides it, not the carpet.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Do I have to replace carpet between every tenant?</summary><div class="faq-a">No, and doing so wastes money. Triage instead: professional hot-water extraction handles soil, a patch from your leftover roll handles local damage, and a restretch handles ripples. Replace only when traffic lanes are matted flat, odor has reached the pad, or the backing is failing. Solution-dyed carpet makes the clean-and-keep option succeed far more often.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Is cheap carpet ever the right call for a rental?</summary><div class="faq-a">Occasionally — a unit you plan to gut-renovate in two years does not need carpet built for ten. But as a standing policy, the cheapest carpet plus the cheapest pad is the most expensive combination landlords buy, because it gets repurchased every turnover. If the budget forces a cut, cut the carpet grade before you ever cut the pad.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Should I put LVP everywhere instead of carpet?</summary><div class="faq-a">In the wet and high-traffic rooms, hard surface usually is the better rental answer, and we will tell you so. Carpet keeps winning bedrooms and upper floors: it is cheaper per square foot, warmer in the photos, and it is the difference between a quiet duplex and a noise complaint. The split — hard surface in the path, carpet in the bedrooms — is what we install most for landlords.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Can you handle multiple units or coordinate with my property manager?</summary><div class="faq-a">Yes. We keep the spec on file so every unit and every future patch matches, schedule installs against turnover dates rather than our convenience, and can work directly with a property manager on access and timing. Most single units are measured in one visit and installed in a day.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">What about tenants with pets?</summary><div class="faq-a">If you allow pets, spec the moisture-barrier pad — it stops accidents at the pad line instead of letting them reach the subfloor, which is where permanent odor lives and where a cleaning bill becomes a replacement bill. Pair it with solution-dyed fiber and most pet tenancies end with a deep clean instead of a tear-out.</div></details>
+  </div>
+</div>
+
+<style>
+  .faq-wrap{--line:#e5e7eb;margin:28px auto;padding:20px;border:1px solid var(--line);border-radius:16px;background:#fff;box-shadow:0 8px 30px rgba(2,6,23,.06)}
+  .faq-title{margin:0 0 14px;font-size:24px;font-weight:900;text-align:center;color:#5c0000}
+  .faq-items{display:grid;gap:10px}
+  .faq-item{border:1px solid var(--line);border-radius:14px;background:#f9fafb;overflow:hidden}
+  .faq-q{cursor:pointer;display:block;padding:14px 16px;font-weight:800;color:#0f172a}
+  .faq-q::-webkit-details-marker{display:none}
+  .faq-item[open] .faq-q{background:linear-gradient(180deg, rgba(139,0,0,.08), rgba(139,0,0,.02))}
+  .faq-a{padding:0 16px 14px;color:#1f2937;line-height:1.6}
+</style>
+
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What is the best carpet for a rental property?", "acceptedAnswer": {"@type": "Answer", "text": "Solution-dyed polyester or nylon, short-to-medium textured cut pile, flecked mid-tone neutral, over a mid-grade pad. Every element is chosen to survive tenants and turnover cleaning rather than to feel luxurious. It costs modestly more than builder-grade and routinely lasts two or three times as many tenancies, which wins the math decisively."}}, {"@type": "Question", "name": "How much does carpet cost for a rental unit?", "acceptedAnswer": {"@type": "Answer", "text": "Installed carpet starts at $1.49 per square foot with us, including pad and labor, and the rental spec sits toward the affordable end of the range on purpose. We measure the unit, quote it in writing the same visit, and can schedule the install inside a turnover window so the carpet is done before the listing photos."}}, {"@type": "Question", "name": "How long should carpet last in a rental?", "acceptedAnswer": {"@type": "Answer", "text": "Rentals are the hard end of every lifespan range — expect fewer years than the same carpet would give an owner-occupier. Builder-grade goods over cheap pad can be done after a single hard tenancy; the rental spec over a mid pad routinely survives three or more. The pad is usually what decides it, not the carpet."}}, {"@type": "Question", "name": "Do I have to replace carpet between every tenant?", "acceptedAnswer": {"@type": "Answer", "text": "No, and doing so wastes money. Triage instead: professional hot-water extraction handles soil, a patch from your leftover roll handles local damage, and a restretch handles ripples. Replace only when traffic lanes are matted flat, odor has reached the pad, or the backing is failing. Solution-dyed carpet makes the clean-and-keep option succeed far more often."}}, {"@type": "Question", "name": "Is cheap carpet ever the right call for a rental?", "acceptedAnswer": {"@type": "Answer", "text": "Occasionally — a unit you plan to gut-renovate in two years does not need carpet built for ten. But as a standing policy, the cheapest carpet plus the cheapest pad is the most expensive combination landlords buy, because it gets repurchased every turnover. If the budget forces a cut, cut the carpet grade before you ever cut the pad."}}, {"@type": "Question", "name": "Should I put LVP everywhere instead of carpet?", "acceptedAnswer": {"@type": "Answer", "text": "In the wet and high-traffic rooms, hard surface usually is the better rental answer, and we will tell you so. Carpet keeps winning bedrooms and upper floors: it is cheaper per square foot, warmer in the photos, and it is the difference between a quiet duplex and a noise complaint. The split — hard surface in the path, carpet in the bedrooms — is what we install most for landlords."}}, {"@type": "Question", "name": "Can you handle multiple units or coordinate with my property manager?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. We keep the spec on file so every unit and every future patch matches, schedule installs against turnover dates rather than our convenience, and can work directly with a property manager on access and timing. Most single units are measured in one visit and installed in a day."}}, {"@type": "Question", "name": "What about tenants with pets?", "acceptedAnswer": {"@type": "Answer", "text": "If you allow pets, spec the moisture-barrier pad — it stops accidents at the pad line instead of letting them reach the subfloor, which is where permanent odor lives and where a cleaning bill becomes a replacement bill. Pair it with solution-dyed fiber and most pet tenancies end with a deep clean instead of a tear-out."}}]}
+</script></div>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-cta" style="margin:30px 0">
+  <style>
+    html body .post-body .ocb-cta h2, .ocb-cta h2{color:#fff!important}
+    html body .post-body .ocb-cta .ocb-cta-sub, .ocb-cta .ocb-cta-sub{color:rgba(255,255,255,.88)!important}
+    html body .post-body .ocb-cta .ocb-cta-chips span, .ocb-cta .ocb-cta-chips span{color:rgba(255,255,255,.94)!important}
+    html body .post-body .ocb-cta a.ocb-cta-ghost, .ocb-cta a.ocb-cta-ghost{color:#fff!important;text-decoration:none!important}
+    html body .post-body .ocb-cta a.ocb-cta-gold, .ocb-cta a.ocb-cta-gold{color:#fbbc04!important}
+    html body .post-body .ocb-cta a.ocb-cta-phone, .ocb-cta a.ocb-cta-phone{color:#5c0000!important;text-decoration:none!important}
+  </style>
+  <div style="background:linear-gradient(135deg,#8B0000,#5c0000);border-radius:20px;padding:28px 24px;color:#fff;text-align:center;box-shadow:0 14px 34px rgba(92,0,0,.3)">
+    <h2 style="margin:0 0 6px;color:#fff!important;font-size:24px;font-weight:900">Get a Rental Spec and a Written Number</h2>
+    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.92)!important;font-size:16.3px">Tell us the unit and the turnover date. We measure in one visit, quote the rental spec in writing &mdash; solution-dyed carpet, mid-grade pad, haul-away included &mdash; and install in a day so the listing photos happen on schedule. Free estimates across King &amp; Snohomish County.</p>
+    <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
+      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff!important;color:#5c0000!important;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none!important"><span class="ocb-ic ocb-ic-phone"></span> (425) 595-1079</a>
+      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.16)!important;border:1px solid rgba(255,255,255,.55);color:#fff!important;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none!important">Book My Free Consultation</a>
+    </div>
+    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.95)!important">
+      <span>✓ Since 2013</span><span>✓ 1,000+ floors</span><span>✓ 1-yr workmanship warranty</span><span>✓ Licensed &amp; insured</span><span>✓ Financing available</span>
+    </div>
+    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04!important;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
+  </div>
+</div></div>
+
+<p><strong>Related reading:</strong> <a href="/blog/how-long-does-carpet-last">How long carpet actually lasts</a> · <a href="/blog/carpet-padding-thickness">Carpet padding, explained honestly</a> · <a href="/blog/carpet-fiber-types">Carpet fibers compared</a> · <a href="/blog/when-to-replace-carpet">Five signs it is time to replace carpet</a> · <a href="/city-of-woodinville/carpet-installation-in-woodinville-wa">Carpet installation in Woodinville</a> · <a href="/contact">Book a free estimate</a></p>
+
+<div data-rt-embed-type='true'><script>
+(function(){try{
+var els=document.querySelectorAll('.ocb-card,.ocb-fact,.ocb-tri,.faq-item');
+if(!('IntersectionObserver' in window)||!els.length)return;
+document.documentElement.classList.add('ocb-anim-ready');
+els.forEach(function(e,i){e.classList.add('ocb-rv');e.style.transitionDelay=Math.min((i%6)*70,350)+'ms'});
+var io=new IntersectionObserver(function(en){en.forEach(function(x){if(x.isIntersecting){x.target.classList.add('ocb-in');io.unobserve(x.target)}})},{threshold:.12,rootMargin:'0px 0px -8% 0px'});
+els.forEach(function(e){io.observe(e)});
+}catch(e){}})();
+</script></div>

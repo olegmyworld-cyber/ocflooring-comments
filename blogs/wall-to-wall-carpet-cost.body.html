@@ -1,0 +1,196 @@
+<div data-rt-embed-type='true'><style>
+.ocb{--ink:#0f172a;--muted:#64748b;--line:#e5e7eb;--soft:#f8fafc;--brand:#8B0000;--brand2:#5c0000;--gold:#fbbc04;font-family:'Mulish',Inter,system-ui,sans-serif;color:var(--ink)}
+.ocb *{box-sizing:border-box}
+.ocb-card{border:1px solid var(--line);border-radius:18px;background:#fff;box-shadow:0 10px 30px rgba(2,6,23,.06);padding:22px;margin:26px 0}
+.ocb-eyebrow{display:inline-block;background:rgba(139,0,0,.08);color:var(--brand2);border:1px solid rgba(139,0,0,.2);border-radius:999px;padding:5px 12px;font-size:12.5px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;margin-bottom:10px}
+.ocb-chips{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0 0}
+.ocb-chip{background:var(--soft);border:1px solid var(--line);border-radius:999px;padding:6px 12px;font-size:13.6px;font-weight:700}
+.ocb-table{width:100%;border-collapse:collapse;font-size:15.2px}
+.ocb-table th,.ocb-table td{padding:11px 10px;text-align:left;border-bottom:1px solid var(--line)}
+.ocb-table th{background:var(--soft);font-weight:800;font-size:13.6px;letter-spacing:.02em}
+.ocb-table tr:last-child td{border-bottom:0}
+.ocb-table td strong{color:var(--brand2)}
+.ocb-2col{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media(max-width:680px){.ocb-2col{grid-template-columns:1fr}}
+.ocb-check{list-style:none;padding:0;margin:10px 0 0}
+.ocb-check li{padding-left:26px;position:relative;margin:7px 0;line-height:1.55}
+.ocb-check li:before{content:"✓";position:absolute;left:0;color:var(--brand);font-weight:900}
+.ocb-x li:before{content:"✕";color:#94a3b8}
+html body .post-body .ocb-facts, .ocb-facts{display:grid!important;grid-template-columns:repeat(3,1fr)!important;gap:12px!important;margin:8px 0!important}
+@media(max-width:680px){html body .post-body .ocb-facts, .ocb-facts{grid-template-columns:1fr!important}}
+.ocb-fact{background:linear-gradient(180deg,#fff,#f8fafc);border:1px solid var(--line);border-radius:16px;padding:16px}
+.ocb-fact .n{font-size:24px;font-weight:900;color:var(--brand2);display:block;margin-bottom:4px}
+html body .post-body .ocb-fact p, .ocb-fact p{margin:0!important;font-size:14.7px!important;color:#334155!important;line-height:1.5!important}
+
+.ocb-card,.ocb-fact,.ocb-tri{transition:transform .28s ease,box-shadow .28s ease}
+.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:translateY(-4px);box-shadow:0 16px 40px rgba(2,6,23,.12)}
+.faq-item{transition:border-color .25s,box-shadow .25s}
+.faq-item:hover{border-color:rgba(139,0,0,.35);box-shadow:0 6px 18px rgba(2,6,23,.07)}
+.ocb-chip{display:inline-flex;align-items:center;gap:6px;transition:transform .2s,border-color .2s}
+.ocb-chip:hover{transform:translateY(-2px);border-color:rgba(139,0,0,.35)}
+.ocb-chip svg{color:#8B0000}
+.ocb-cta a{transition:transform .22s,box-shadow .22s}
+.ocb-cta a:hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(0,0,0,.25)}
+.ocb-fact .n{position:relative}
+html.ocb-anim-ready .ocb-rv{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
+html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){html.ocb-anim-ready .ocb-rv{opacity:1!important;transform:none!important;transition:none!important}.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:none}}
+
+/* Chip icons. Webflow's rich-text sanitizer strips inline <svg> whenever a post is
+   re-saved in the Editor, so the icons are drawn from CSS on a <span> instead. */
+.ocb-ic{display:inline-block;width:15px;height:15px;flex:0 0 auto;vertical-align:-2px;background-repeat:no-repeat;background-position:center;background-size:contain}
+.ocb-ic-pin{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z'/><circle cx='12' cy='10' r='3'/></svg>")}
+.ocb-ic-home{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z'/><polyline points='9 22 9 12 15 12 15 22'/></svg>")}
+.ocb-ic-phone{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z'/></svg>")}
+.ocb-cta .ocb-ic{filter:brightness(0) saturate(100%) invert(9%) sepia(64%) saturate(4000%) hue-rotate(348deg)}
+</style></div>
+
+<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">January 7, 2027</span></div></div>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
+  <span class="ocb-eyebrow">Quick answer</span>
+  <p style="margin:0;font-size:17.9px;line-height:1.65"><strong>Wall-to-wall carpet starts at $1.49 per square foot installed with us &mdash; material, pad and labor &mdash; and a whole-house number is really a stack of room-by-room numbers that behave differently.</strong> Bedrooms are cheap and simple. Hallways and stairs are small but labor-dense. Big living rooms trip over the width of the carpet roll and pick up seams. The way to a real total is not multiplying your square footage by a rate you saw online; it is walking the house room by room, which is exactly what we do at a Kenmore kitchen table with the samples already on the floor.</p>
+  <div class="ocb-chips">
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-pin"></span> King &amp; Snohomish County</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-home"></span> Kenmore split-levels &amp; ramblers</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-phone"></span> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
+  </div>
+</div></div>
+
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-facts">
+  <div class="ocb-fact"><span class="n">From $1.49/sq ft</span><p>installed &mdash; carpet, pad and labor in one number. Fiber upgrades and pad grade move it from there, room by room, and you see each move in the written price before anything is ordered.</p></div>
+  <div class="ocb-fact"><span class="n">12 ft</span><p>the usual width of a carpet roll. Rooms wider than the roll need a seam, and rooms shaped awkwardly need more carpet than their area suggests &mdash; the two facts that break every online calculator.</p></div>
+  <div class="ocb-fact"><span class="n">Per tread</span><p>how the stairs in a split-level are priced. Two short staircases is still a real stair job, and in most Kenmore layouts they take more wear than any room they connect.</p></div>
+</div></div></div>
+
+<h2>Why the Whole-House Number Is Really Six Numbers</h2>
+
+<p>Kenmore is split-level country. The housing stock that went up here in the sixties and seventies &mdash; up from Bothell Way, around Moorlands and Inglewood &mdash; loves a floor plan with a living room half a flight up, bedrooms above it, a family room half a flight down, and two short staircases stitching it together. Carpeting a house like that is not one job; it is a bedroom job, a living-room job, a hallway job, a lower-level job and a stair job, each with its own math. Two houses with identical total square footage can land meaningfully apart on price because of how those pieces divide up.</p>
+
+<p>That is why we quote room by room and show the arithmetic. It also means you can phase the work &mdash; bedrooms this year, the lower level next &mdash; without anything being re-measured or re-guessed. Here is how the pieces of a typical Kenmore split-level behave in a quote.</p>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-card">
+  <h3 style="margin:0 0 10px;font-size:18.5px;font-weight:900;color:#5c0000">A Kenmore Split-Level, Room by Room</h3>
+  <div style="overflow-x:auto"><table class="ocb-table">
+    <tr><th>Area</th><th>Typical size</th><th>What moves its number</th></tr>
+    <tr><td><strong>Primary bedroom</strong></td><td>~150&ndash;200 sq ft</td><td>The easy one: usually narrower than the roll, so no seams, fast install. Softness matters more than toughness here</td></tr>
+    <tr><td><strong>Two kids&rsquo; bedrooms</strong></td><td>~110&ndash;140 sq ft each</td><td>Same simple math. Closets count &mdash; a quote that skips them is quietly wrong by a room&rsquo;s worth over a house</td></tr>
+    <tr><td><strong>Living room</strong></td><td>~250&ndash;350 sq ft</td><td>Often wider than 12 ft, so a seam enters the plan &mdash; where it lands, and how much extra carpet it takes, is installer skill</td></tr>
+    <tr><td><strong>Hallway</strong></td><td>~40&ndash;80 sq ft</td><td>Tiny area, dense labor: doorways, transitions, and the highest traffic per square foot in the house</td></tr>
+    <tr><td><strong>Lower-level family room</strong></td><td>~200&ndash;300 sq ft</td><td>Concrete-adjacent: moisture gets checked before carpet goes down, and pad choice matters most here</td></tr>
+    <tr><td><strong>Stairs, two runs</strong></td><td>~13&ndash;15 treads total</td><td>Priced per tread, not by area. The most labor-intensive square feet in the whole job &mdash; and the first to show wear</td></tr>
+  </table></div>
+</div></div>
+
+<h2>Roll Width and Seams: Where Online Calculators Go Wrong</h2>
+
+<p>Carpet arrives as a roll, almost always twelve feet wide. A bedroom eleven feet across fits inside the roll and wastes little. A living room fourteen feet across cannot be covered in one pass &mdash; it needs a second piece and a seam, and the second piece has to come from somewhere, usually with real waste, because pattern and pile direction have to match across the joint. This is the single biggest reason a square-footage-times-rate estimate misses: the house is priced by how it cuts from the roll, not by its area. A ten percent difference between the floor area and the carpet actually ordered is routine; awkward rooms run higher.</p>
+
+<p>Good seam planning is invisible &mdash; seams tucked away from windows whose light would rake across them, out of the main walking line, never perpendicular to a doorway threshold. It is also the difference between a floor that looks seamless for fifteen years and one with a visible stripe in year two. When we measure, the seam diagram is part of the written price, which is one of the checks we recommend in our guide to <a href="/blog/hiring-a-carpet-installer-seattle">hiring a carpet installer</a>. The measuring logic itself is laid out in <a href="/blog/how-to-measure-for-carpet">how to measure for carpet</a> if you want to rough out your own numbers first.</p>
+
+<h2>Where to Spend and Where to Save, Room by Room</h2>
+
+<p>The pleasant surprise of a room-by-room quote is that you do not have to buy one carpet for the whole house. <strong>Spend on the hallway and stairs</strong> &mdash; a resilient nylon and a firm pad, because they take more traffic than every bedroom combined; our <a href="/blog/best-carpet-for-stairs">stair carpet guide</a> covers why, and Kenmore specifically has an older piece on <a href="/blog/whats-the-best-carpeting-for-stairs-in-kenmore-wa">the best carpeting for stairs in Kenmore</a>. <strong>Save in the bedrooms</strong>, where a soft polyester over a thick pad feels luxurious and never sees enough traffic to mat; the case is made in <a href="/blog/carpet-in-bedrooms">our bedroom carpet guide</a>. <strong>Choose by moisture on the lower level</strong> &mdash; a dry lower level takes carpet happily, and pad grade does the comfort work over that colder slab-side floor.</p>
+
+<p>The pad deserves its own sentence in every room: it is the cheapest line in the quote and it decides how the carpet feels and how long it lasts. We bring all three grades to the estimate so you can stand on them in your own hallway &mdash; the full argument is in <a href="/blog/carpet-padding-thickness">our padding guide</a>. Mixing fiber by room while keeping one pad strategy is how a split-level gets carpeted well on a sane budget.</p>
+
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-2col">
+  <div class="ocb-card" style="margin:0">
+    <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#5c0000">What is inside our wall-to-wall price</h3>
+    <ul class="ocb-check">
+      <li>Every room, closet, hallway and stair measured in person</li>
+      <li>A seam plan for any room wider than the roll</li>
+      <li>Pad grade named per area, with all three grades there to stand on</li>
+      <li>Tear-out and haul-away of the old carpet, pad, staples and tack strip</li>
+      <li>Power-stretched installation in every room</li>
+      <li>Furniture moved and put back</li>
+      <li>One written total, itemized room by room, the same visit</li>
+    </ul>
+  </div>
+  <div class="ocb-card" style="margin:0">
+    <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#334155">What quietly inflates other quotes later</h3>
+    <ul class="ocb-check ocb-x">
+      <li>Closets and hallways left out of the measure</li>
+      <li>Seam waste discovered after the contract is signed</li>
+      <li>Stairs counted as square footage, then re-priced on install day</li>
+      <li>&ldquo;Standard pad&rdquo; that turns out to be the thinnest grade</li>
+      <li>Disposal fees appearing as a day-of line item</li>
+      <li>Transitions and thresholds billed separately</li>
+      <li>A phone estimate that was never going to survive contact with the house</li>
+    </ul>
+  </div>
+</div></div></div>
+
+<h2>The Stairs Are Small and They Matter Most</h2>
+
+<p>A split-level&rsquo;s two short staircases are easy to overlook in the budget and impossible to overlook in daily life &mdash; every trip from the kitchen to a bedroom or the family room crosses them. They are priced per tread because each step is wrapped, tensioned and fastened individually, and the honest consequence is that thirteen treads can cost as much as a small bedroom. That is not padding; it is where the labor actually is. Put the most resilient fiber in the budget on them, in a color that hides the traffic line, and they will still be the first thing in the house to show age &mdash; just years later than they would have.</p>
+
+<h2>Getting a Real Kenmore Number Without Leaving the House</h2>
+
+<p>Everything above argues for the same conclusion: wall-to-wall carpet is priced well only from inside the house. So that is where we do it. The mobile showroom brings twenty-plus full-size samples and all three pad grades to your door; we walk every room with a tape measure, count the treads, plan the seams, and leave a written room-by-room price the same visit. Most Kenmore homes install in a single day once the carpet arrives. If the old floor is still down, tear-out and haul-away are in the number &mdash; what that involves is covered in <a href="/blog/carpet-removal-cost">our carpet removal guide</a> &mdash; and the broader market context, if you want to sanity-check us against the region, is in <a href="/blog/carpet-installation-cost-seattle">what carpet installation costs in Seattle</a>. The local service details live on our <a href="/city-of-kenmore/carpet-installation-in-kenmore-wa">Kenmore carpet installation page</a>.</p>
+
+<div data-rt-embed-type='true'><!-- FAQ accordion + JSON-LD -->
+<div class="faq-wrap ocb" aria-labelledby="faq-title">
+  <h2 id="faq-title" class="faq-title">Wall-to-Wall Carpet Cost: What Kenmore Homeowners Ask</h2>
+  <div class="faq-items" role="list">
+    <details class="faq-item" role="listitem"><summary class="faq-q">How much does wall-to-wall carpet cost installed?</summary><div class="faq-a">With us it starts at $1.49 per square foot installed — carpet, pad and labor together. The final number moves with fiber choice, pad grade, how many stairs are in the job, seam requirements in wide rooms, and whether old flooring needs to come out. We measure the house and leave a written room-by-room price the same visit.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Can I estimate my cost from my home’s square footage?</summary><div class="faq-a">Only roughly. Carpet comes off a twelve-foot roll, so wide rooms need seams and extra material, awkward rooms carry waste, and closets and stairs change the labor picture. Square footage times a rate is a starting guess; the measured, seam-planned number is the one that survives to the invoice.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Why do stairs cost so much compared to their size?</summary><div class="faq-a">Because each tread is wrapped, tensioned and fastened individually — a staircase is the slowest, most precise work in the house, so it is priced per tread rather than by area. In a split-level the stairs also take the most traffic, which is why we put the most durable fiber there.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Is it cheaper to carpet the whole house at once or room by room?</summary><div class="faq-a">One visit and one install day is more efficient, so whole-house pricing usually works out better per square foot. But a room-by-room quote lets you phase honestly — bedrooms now, lower level later — and because we itemize by room, the later phases are already priced.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Should I use the same carpet in every room?</summary><div class="faq-a">You do not have to, and often should not. Resilient nylon on stairs and hallways where traffic concentrates, softer budget-friendly polyester in bedrooms, and a moisture-sensible choice on the lower level puts money where wear actually happens. One consistent color family keeps the house feeling coherent.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Does the pad really change the price and the result?</summary><div class="faq-a">It changes the result far more than the price. Pad is the cheapest line in the quote, and the difference between builder-grade and mid-grade is what decides whether traffic lanes crush in three years. We bring all three grades so you can feel the difference before choosing — and the pad grade is named in the written price.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">What about the lower level of a split-level — is carpet safe there?</summary><div class="faq-a">Usually yes, and it is the warmest thing you can do for a room that sits against concrete. We check moisture before anything goes down; a dry lower level takes carpet happily over the right pad. If there are signs of damp, we will say so and point you to a better option for that room instead of carpeting over a problem.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">How long does a whole-house carpet job take in Kenmore?</summary><div class="faq-a">Most homes are one install day once the carpet arrives from the mill — ordering is the longer part of the timeline. A split-level with two staircases might stretch into a second day. You will know which yours is at the estimate, because the treads and seams were counted, not guessed.</div></details>
+  </div>
+</div>
+
+<style>
+  .faq-wrap{--line:#e5e7eb;margin:28px auto;padding:20px;border:1px solid var(--line);border-radius:16px;background:#fff;box-shadow:0 8px 30px rgba(2,6,23,.06)}
+  .faq-title{margin:0 0 14px;font-size:24px;font-weight:900;text-align:center;color:#5c0000}
+  .faq-items{display:grid;gap:10px}
+  .faq-item{border:1px solid var(--line);border-radius:14px;background:#f9fafb;overflow:hidden}
+  .faq-q{cursor:pointer;display:block;padding:14px 16px;font-weight:800;color:#0f172a}
+  .faq-q::-webkit-details-marker{display:none}
+  .faq-item[open] .faq-q{background:linear-gradient(180deg, rgba(139,0,0,.08), rgba(139,0,0,.02))}
+  .faq-a{padding:0 16px 14px;color:#1f2937;line-height:1.6}
+</style>
+
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How much does wall-to-wall carpet cost installed?", "acceptedAnswer": {"@type": "Answer", "text": "With us it starts at $1.49 per square foot installed — carpet, pad and labor together. The final number moves with fiber choice, pad grade, how many stairs are in the job, seam requirements in wide rooms, and whether old flooring needs to come out. We measure the house and leave a written room-by-room price the same visit."}}, {"@type": "Question", "name": "Can I estimate my cost from my home’s square footage?", "acceptedAnswer": {"@type": "Answer", "text": "Only roughly. Carpet comes off a twelve-foot roll, so wide rooms need seams and extra material, awkward rooms carry waste, and closets and stairs change the labor picture. Square footage times a rate is a starting guess; the measured, seam-planned number is the one that survives to the invoice."}}, {"@type": "Question", "name": "Why do stairs cost so much compared to their size?", "acceptedAnswer": {"@type": "Answer", "text": "Because each tread is wrapped, tensioned and fastened individually — a staircase is the slowest, most precise work in the house, so it is priced per tread rather than by area. In a split-level the stairs also take the most traffic, which is why we put the most durable fiber there."}}, {"@type": "Question", "name": "Is it cheaper to carpet the whole house at once or room by room?", "acceptedAnswer": {"@type": "Answer", "text": "One visit and one install day is more efficient, so whole-house pricing usually works out better per square foot. But a room-by-room quote lets you phase honestly — bedrooms now, lower level later — and because we itemize by room, the later phases are already priced."}}, {"@type": "Question", "name": "Should I use the same carpet in every room?", "acceptedAnswer": {"@type": "Answer", "text": "You do not have to, and often should not. Resilient nylon on stairs and hallways where traffic concentrates, softer budget-friendly polyester in bedrooms, and a moisture-sensible choice on the lower level puts money where wear actually happens. One consistent color family keeps the house feeling coherent."}}, {"@type": "Question", "name": "Does the pad really change the price and the result?", "acceptedAnswer": {"@type": "Answer", "text": "It changes the result far more than the price. Pad is the cheapest line in the quote, and the difference between builder-grade and mid-grade is what decides whether traffic lanes crush in three years. We bring all three grades so you can feel the difference before choosing — and the pad grade is named in the written price."}}, {"@type": "Question", "name": "What about the lower level of a split-level — is carpet safe there?", "acceptedAnswer": {"@type": "Answer", "text": "Usually yes, and it is the warmest thing you can do for a room that sits against concrete. We check moisture before anything goes down; a dry lower level takes carpet happily over the right pad. If there are signs of damp, we will say so and point you to a better option for that room instead of carpeting over a problem."}}, {"@type": "Question", "name": "How long does a whole-house carpet job take in Kenmore?", "acceptedAnswer": {"@type": "Answer", "text": "Most homes are one install day once the carpet arrives from the mill — ordering is the longer part of the timeline. A split-level with two staircases might stretch into a second day. You will know which yours is at the estimate, because the treads and seams were counted, not guessed."}}]}
+</script></div>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-cta" style="margin:30px 0">
+  <style>
+    html body .post-body .ocb-cta h2, .ocb-cta h2{color:#fff!important}
+    html body .post-body .ocb-cta .ocb-cta-sub, .ocb-cta .ocb-cta-sub{color:rgba(255,255,255,.88)!important}
+    html body .post-body .ocb-cta .ocb-cta-chips span, .ocb-cta .ocb-cta-chips span{color:rgba(255,255,255,.94)!important}
+    html body .post-body .ocb-cta a.ocb-cta-ghost, .ocb-cta a.ocb-cta-ghost{color:#fff!important;text-decoration:none!important}
+    html body .post-body .ocb-cta a.ocb-cta-gold, .ocb-cta a.ocb-cta-gold{color:#fbbc04!important}
+    html body .post-body .ocb-cta a.ocb-cta-phone, .ocb-cta a.ocb-cta-phone{color:#5c0000!important;text-decoration:none!important}
+  </style>
+  <div style="background:linear-gradient(135deg,#8B0000,#5c0000);border-radius:20px;padding:28px 24px;color:#fff;text-align:center;box-shadow:0 14px 34px rgba(92,0,0,.3)">
+    <h2 style="margin:0 0 6px;color:#fff!important;font-size:24px;font-weight:900">Price Your Whole House From Your Own Hallway</h2>
+    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.92)!important;font-size:16.3px">Twenty-plus full-size samples and all three pad grades come to your Kenmore door. We measure every room, plan every seam, count every tread, and leave a written room-by-room price the same visit. Free in-home estimates across King &amp; Snohomish County.</p>
+    <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
+      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff!important;color:#5c0000!important;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none!important"><span class="ocb-ic ocb-ic-phone"></span> (425) 595-1079</a>
+      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.16)!important;border:1px solid rgba(255,255,255,.55);color:#fff!important;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none!important">Book My Free Consultation</a>
+    </div>
+    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.95)!important">
+      <span>✓ Since 2013</span><span>✓ 1,000+ floors</span><span>✓ 1-yr workmanship warranty</span><span>✓ Licensed &amp; insured</span><span>✓ Financing available</span>
+    </div>
+    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04!important;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
+  </div>
+</div></div>
+
+<p><strong>Related reading:</strong> <a href="/blog/cost-to-carpet-a-room">What it costs to carpet one room</a> · <a href="/blog/how-to-measure-for-carpet">How to measure for carpet</a> · <a href="/blog/carpet-padding-thickness">Carpet padding, explained</a> · <a href="/blog/hiring-a-carpet-installer-seattle">Questions to ask any carpet installer</a> · <a href="/city-of-kenmore/carpet-installation-in-kenmore-wa">Carpet installation in Kenmore</a> · <a href="/contact">Book a free estimate</a></p>
+
+<div data-rt-embed-type='true'><script>
+(function(){try{
+var els=document.querySelectorAll('.ocb-card,.ocb-fact,.ocb-tri,.faq-item');
+if(!('IntersectionObserver' in window)||!els.length)return;
+document.documentElement.classList.add('ocb-anim-ready');
+els.forEach(function(e,i){e.classList.add('ocb-rv');e.style.transitionDelay=Math.min((i%6)*70,350)+'ms'});
+var io=new IntersectionObserver(function(en){en.forEach(function(x){if(x.isIntersecting){x.target.classList.add('ocb-in');io.unobserve(x.target)}})},{threshold:.12,rootMargin:'0px 0px -8% 0px'});
+els.forEach(function(e){io.observe(e)});
+}catch(e){}})();
+</script></div>

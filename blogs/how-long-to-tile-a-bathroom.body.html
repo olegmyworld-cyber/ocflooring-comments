@@ -1,0 +1,201 @@
+<div data-rt-embed-type='true'><style>
+.ocb{--ink:#0f172a;--muted:#64748b;--line:#e5e7eb;--soft:#f8fafc;--brand:#8B0000;--brand2:#5c0000;--gold:#fbbc04;font-family:'Mulish',Inter,system-ui,sans-serif;color:var(--ink)}
+.ocb *{box-sizing:border-box}
+.ocb-card{border:1px solid var(--line);border-radius:18px;background:#fff;box-shadow:0 10px 30px rgba(2,6,23,.06);padding:22px;margin:26px 0}
+.ocb-eyebrow{display:inline-block;background:rgba(139,0,0,.08);color:var(--brand2);border:1px solid rgba(139,0,0,.2);border-radius:999px;padding:5px 12px;font-size:12.5px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;margin-bottom:10px}
+.ocb-chips{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0 0}
+.ocb-chip{background:var(--soft);border:1px solid var(--line);border-radius:999px;padding:6px 12px;font-size:13.6px;font-weight:700}
+.ocb-table{width:100%;border-collapse:collapse;font-size:15.2px}
+.ocb-table th,.ocb-table td{padding:11px 10px;text-align:left;border-bottom:1px solid var(--line)}
+.ocb-table th{background:var(--soft);font-weight:800;font-size:13.6px;letter-spacing:.02em}
+.ocb-table tr:last-child td{border-bottom:0}
+.ocb-table td strong{color:var(--brand2)}
+.ocb-2col{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media(max-width:680px){.ocb-2col{grid-template-columns:1fr}}
+.ocb-check{list-style:none;padding:0;margin:10px 0 0}
+.ocb-check li{padding-left:26px;position:relative;margin:7px 0;line-height:1.55}
+.ocb-check li:before{content:"✓";position:absolute;left:0;color:var(--brand);font-weight:900}
+.ocb-x li:before{content:"✕";color:#94a3b8}
+html body .post-body .ocb-facts, .ocb-facts{display:grid!important;grid-template-columns:repeat(3,1fr)!important;gap:12px!important;margin:8px 0!important}
+@media(max-width:680px){html body .post-body .ocb-facts, .ocb-facts{grid-template-columns:1fr!important}}
+.ocb-fact{background:linear-gradient(180deg,#fff,#f8fafc);border:1px solid var(--line);border-radius:16px;padding:16px}
+.ocb-fact .n{font-size:24px;font-weight:900;color:var(--brand2);display:block;margin-bottom:4px}
+html body .post-body .ocb-fact p, .ocb-fact p{margin:0!important;font-size:14.7px!important;color:#334155!important;line-height:1.5!important}
+
+.ocb-card,.ocb-fact,.ocb-tri{transition:transform .28s ease,box-shadow .28s ease}
+.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:translateY(-4px);box-shadow:0 16px 40px rgba(2,6,23,.12)}
+.faq-item{transition:border-color .25s,box-shadow .25s}
+.faq-item:hover{border-color:rgba(139,0,0,.35);box-shadow:0 6px 18px rgba(2,6,23,.07)}
+.ocb-chip{display:inline-flex;align-items:center;gap:6px;transition:transform .2s,border-color .2s}
+.ocb-chip:hover{transform:translateY(-2px);border-color:rgba(139,0,0,.35)}
+.ocb-chip svg{color:#8B0000}
+.ocb-cta a{transition:transform .22s,box-shadow .22s}
+.ocb-cta a:hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(0,0,0,.25)}
+.ocb-fact .n{position:relative}
+html.ocb-anim-ready .ocb-rv{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
+html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){html.ocb-anim-ready .ocb-rv{opacity:1!important;transform:none!important;transition:none!important}.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:none}}
+
+/* Chip icons. Webflow's rich-text sanitizer strips inline <svg> whenever a post is
+   re-saved in the Editor, so the icons are drawn from CSS on a <span> instead. */
+.ocb-ic{display:inline-block;width:15px;height:15px;flex:0 0 auto;vertical-align:-2px;background-repeat:no-repeat;background-position:center;background-size:contain}
+.ocb-ic-pin{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z'/><circle cx='12' cy='10' r='3'/></svg>")}
+.ocb-ic-home{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z'/><polyline points='9 22 9 12 15 12 15 22'/></svg>")}
+.ocb-ic-phone{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z'/></svg>")}
+.ocb-cta .ocb-ic{filter:brightness(0) saturate(100%) invert(9%) sepia(64%) saturate(4000%) hue-rotate(348deg)}
+</style></div>
+
+<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">February 2, 2027</span></div></div>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
+  <span class="ocb-eyebrow">Quick answer</span>
+  <p style="margin:0;font-size:17.9px;line-height:1.65"><strong>A floor-only bathroom takes two to three working days to tile. A tub surround or shower runs four to six. A full bathroom &mdash; floor plus a waterproofed shower &mdash; is realistically seven to nine working days, and at least one of those days is a 24-hour flood test where nobody touches a tile.</strong> The schedule is not set by how fast anyone can spread thinset. It is set by cure times &mdash; membrane, mortar, grout &mdash; and by the one test that proves the shower holds water before tile hides everything. A bid that promises a full tiled bathroom in three days is not a faster crew. It is a shorter list of steps.</p>
+  <div class="ocb-chips">
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-pin"></span> King &amp; Snohomish County</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-home"></span> Mill Creek &amp; Snohomish County homes</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-phone"></span> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
+  </div>
+</div></div>
+
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-facts">
+  <div class="ocb-fact"><span class="n">24 hours</span><p>how long the finished shower pan sits full of water before we tile over it. We photograph the flood test and keep it on file &mdash; it is the one day of the schedule we will never compress, because a leak found after tile is a demolition, not a repair.</p></div>
+  <div class="ocb-fact"><span class="n">2&ndash;3 days</span><p>a floor-only bathroom, start to grout &mdash; demo, subfloor prep, membrane, setting, and grout each need their own window, and grout wants the mortar cured underneath it.</p></div>
+  <div class="ocb-fact"><span class="n">2 years</span><p>our warranty on tile work &mdash; double the one-year most of the trade offers. We can afford it precisely because we spend the days this article describes.</p></div>
+</div></div></div>
+
+<h2>Where the Time Actually Goes</h2>
+
+<p>Homeowners picture tiling as the setting day: a wall of tile going up, spacers, the satisfying part. That day exists, and it is roughly a quarter of the project. The rest is preparation and waiting &mdash; and the waiting is not padding, it is chemistry. Thinset mortar reaches working strength on its own schedule. Liquid waterproofing has to cure between coats. Grout applied over uncured mortar traps moisture and weakens from below. None of that shows up in a time-lapse, and all of it decides whether the room is still tight in fifteen years.</p>
+
+<p>On a full bathroom, the sequence also has a hard gate in the middle: the flood test. We build the pan &mdash; pre-slope, bonded membrane, drain &mdash; then plug the drain and fill it, and it sits for 24 hours while we work elsewhere. Only after the water line has not moved do tiles go on. That day is immovable, which is why the honest answer to &ldquo;how long?&rdquo; always contains it. The full assembly is described in our guide to <a href="/blog/tile-shower-waterproofing">how a tile shower is waterproofed</a>; the schedule below is what it looks like on a calendar.</p>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-card">
+  <h3 style="margin:0 0 10px;font-size:18.5px;font-weight:900;color:#5c0000">A Full Bathroom, Day by Day</h3>
+  <div style="overflow-x:auto"><table class="ocb-table">
+    <tr><th>Day</th><th>What happens</th><th>Why it cannot be skipped</th></tr>
+    <tr><td><strong>Day 1</strong></td><td>Demolition, disposal, inspection</td><td>What is under the old floor decides the rest of the week &mdash; rot, old pans and bouncy subfloors surface here, not later</td></tr>
+    <tr><td><strong>Day 2</strong></td><td>Subfloor and wall prep</td><td>Flattening, backer board, uncoupling membrane on the floor &mdash; tile is only as good as what it is bonded to</td></tr>
+    <tr><td><strong>Day 3</strong></td><td>Shower waterproofing</td><td>Pre-slope, bonded membrane, sealed corners and drain &mdash; the product you are actually buying</td></tr>
+    <tr><td><strong>Day 4</strong></td><td>24-hour flood test</td><td>The pan sits full of water, photographed. If it drops, we fix it now &mdash; while a fix is an hour, not a tear-out</td></tr>
+    <tr><td><strong>Days 5&ndash;6</strong></td><td>Setting tile</td><td>Floor and walls, layout first &mdash; the tapered cuts land where you will not stare at them</td></tr>
+    <tr><td><strong>Day 7</strong></td><td>Grout</td><td>Only after the mortar has cured &mdash; grouting over soft thinset is how hollow, cracking floors are made</td></tr>
+    <tr><td><strong>Day 8</strong></td><td>Silicone, sealing, walkthrough</td><td>Every change of plane gets silicone, not grout; caulk needs its own cure before the first shower</td></tr>
+  </table></div>
+</div></div>
+
+<h2>Why Rushing Is the Enemy</h2>
+
+<p>Nearly every tile failure we get called to look at &mdash; cracked grout lines, hollow tiles, the stain on the ceiling below a shower &mdash; traces back to a schedule, not a material. Someone grouted the same day they set. Someone skipped the flood test because the tile was on site and the client was eager. Someone tiled over a membrane that needed another coat and another night. The materials involved are genuinely good now; the failure mode of modern tile work is impatience.</p>
+
+<p>Cure times are the non-negotiable core of it. Standard thinset wants roughly a day before it is walked on or grouted, and large heavy tile mortars can want more. Liquid membranes specify hours between coats and before tiling, and those hours assume decent temperature and humidity &mdash; a cold February bathroom in Mill Creek cures slower than the datasheet's lab. Grout and silicone each want their own window before the first shower runs. Add it up honestly and you get the eight-day calendar above. Subtract days from it and you are subtracting from only one place: the part you cannot see.</p>
+
+<p>This is also the quiet reason quotes differ. A three-day shower bid is cheaper because it contains less &mdash; usually no flood test, sometimes no membrane at all, and almost always grout applied on the heels of the setting trowel. The price difference between that job and a correct one is real; so is the difference in what happens behind the wall. We priced that difference out in <a href="/blog/cost-to-tile-a-shower">what a tiled shower actually costs</a>.</p>
+
+<h2>The Day Nothing Happens Is the Most Important Day</h2>
+
+<p>The flood test deserves its own defense, because it is the day homeowners are most tempted to negotiate away. From the outside it looks like a stalled job site: a shower pan full of still water, no crew, no noise. What it actually is: the only moment in the life of the shower when the waterproofing can be tested directly. After tile goes on, the membrane is unreachable. A pinhole at a corner or a poorly seated drain flange announces itself now with a water line that drops half an inch overnight &mdash; or announces itself in three years through the ceiling of the room below.</p>
+
+<p>We photograph the filled pan with the water line visible, and again 24 hours later, and both photos go in your file. It costs us a day of schedule on every single shower, and it is the cheapest insurance in the entire project. It is also, frankly, a good filter when you are comparing contractors: ask when the flood test happens in their schedule. If it does not have a day, it does not happen.</p>
+
+<h2>What Moves the Timeline in a Mill Creek House</h2>
+
+<p>Most of the bathrooms we tile in Mill Creek sit in houses built from the 1980s through the early 2000s &mdash; the neighborhoods that grew up around the country club and, later, Town Center. That era of construction has a signature we now plan for: <strong>particleboard underlayment</strong> under sheet vinyl. Particleboard swells at the first hint of moisture and holds fasteners badly; tile cannot go over it, so it comes out on day one, and occasionally the discovery underneath it adds a prep day. The same houses often have perfectly serviceable framing and flat floors, so once the particleboard is gone the schedule runs clean.</p>
+
+<p>Beyond the local housing stock, the usual movers apply. A <a href="/blog/heated-bathroom-floor-cost">heated floor</a> adds a day for the mat or cable, the thermostat sensor, and the electrician. Large-format tile slows setting because every piece is back-buttered and checked for lippage. Herringbone and other patterns add layout and cutting hours. And the choice of underlayment on the floor &mdash; covered in our <a href="/blog/tile-underlayment-explained">tile underlayment guide</a> &mdash; can trade a little material cost for a same-day head start, since some uncoupling membranes let you tile immediately where backer board wants a set overnight. What does <em>not</em> move the schedule much is the tile itself: cheap tile and expensive tile take about the same time to set well.</p>
+
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-2col">
+  <div class="ocb-card" style="margin:0">
+    <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#5c0000">A schedule you can trust includes</h3>
+    <ul class="ocb-check">
+      <li>A demolition day with an inspection, not just a dumpster</li>
+      <li>Named prep: flattening, backer or membrane, by product</li>
+      <li>A waterproofing day separate from the setting days</li>
+      <li>A 24-hour flood test with photos you get to see</li>
+      <li>Grout on its own day, after the mortar has cured</li>
+      <li>Silicone at every change of plane, with cure time before use</li>
+    </ul>
+  </div>
+  <div class="ocb-card" style="margin:0">
+    <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#334155">A rushed schedule quietly drops</h3>
+    <ul class="ocb-check ocb-x">
+      <li>The flood test &mdash; it costs a day and shows up on no invoice</li>
+      <li>Cure windows between membrane coats</li>
+      <li>Layout time, so the sliver cuts land at the doorway</li>
+      <li>The contingency day for what demolition finds</li>
+      <li>Grout cure before the first hot shower</li>
+      <li>Any record that the waterproofing existed at all</li>
+    </ul>
+  </div>
+</div></div></div>
+
+<h2>Living Through It: One-Bathroom Logistics</h2>
+
+<p>The question behind the question is usually &ldquo;how long am I without a bathroom?&rdquo; Honest answer: the toilet is typically out for less of the window than the shower. On a floor-only job we can often reset the toilet the evening the grout goes in, so you are down two to three days. A full bathroom means the shower is unusable for the whole run &mdash; seven to nine working days &mdash; and if it is your only shower, that is worth planning around rather than discovering. Some clients time the job with a trip; most borrow a bathroom and grumble for a week. What we will not do is compress the cure times to spare the grumbling, because we are the ones who own the <a href="/blog/can-you-tile-over-existing-tile">callback</a> if we do.</p>
+
+<p>If you are weighing the project, we walk the room, tell you which days your house will actually need &mdash; including whether that particleboard era applies to you &mdash; and put the calendar in writing next to the price. Details and scope for our area are on the <a href="/city-of-mill-creek/tile-installation-in-mill-creek-wa">Mill Creek tile installation page</a>.</p>
+
+<div data-rt-embed-type='true'><!-- FAQ accordion + JSON-LD -->
+<div class="faq-wrap ocb" aria-labelledby="faq-title">
+  <h2 id="faq-title" class="faq-title">Bathroom Tile Timelines: What Homeowners Ask Us</h2>
+  <div class="faq-items" role="list">
+    <details class="faq-item" role="listitem"><summary class="faq-q">How long does it take to tile a bathroom?</summary><div class="faq-a">A floor-only bathroom takes two to three working days. A tub surround or shower runs four to six. A full bathroom — floor plus waterproofed shower — is realistically seven to nine working days, including a 24-hour flood test and the cure windows for mortar, grout and silicone. Houses that need subfloor repair add a day or two at the front.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Can a bathroom really be tiled in a weekend?</summary><div class="faq-a">A small floor, sometimes — demo Friday, prep and set Saturday, grout Sunday is possible when the subfloor is clean. A shower, no. The waterproofing has to cure, the flood test takes 24 hours by definition, and grout wants cured mortar under it. A weekend shower promise is a list of steps someone intends to skip.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">What is a flood test and why does it add a day?</summary><div class="faq-a">After the pan is waterproofed, we plug the drain and fill the pan with water, mark the line, and leave it for 24 hours. If the line holds, the membrane is tight and tile goes on; if it drops, we fix the leak while it is still an easy fix. We photograph both ends of the test and keep the photos on file. It is the only direct test the waterproofing will ever get.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">How long after tiling until I can use the shower?</summary><div class="faq-a">Grout and silicone need to cure before the first shower — typically about 72 hours after the last silicone bead, a bit longer for some sealers. Using it early soaks uncured grout and can discolor it permanently. We put the exact date in the walkthrough so there is no guessing.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">How long can I not walk on a newly tiled floor?</summary><div class="faq-a">Stay off it for about 24 hours after setting so the mortar can reach strength, then it is fine for foot traffic while grout follows. After grout, give it another day before heavy traffic and furniture. Rushing this is how fresh floors end up with rocked tiles and cracked lines.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Does a heated bathroom floor take longer to install?</summary><div class="faq-a">About a day more. The mat or cable goes down over the prepped subfloor, the sensor is placed, resistance readings are logged before and after tiling, and a licensed electrician wires the thermostat and circuit. The heating layer itself does not slow the tile setting much; the extra day is the system installation and hookup.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">What can make the job run longer than quoted?</summary><div class="faq-a">Almost always what demolition uncovers: rotted subfloor around a toilet flange, a failed old shower pan, or particleboard underlayment that has to come out — common in 1980s and 90s houses around Mill Creek. A good quote names a contingency rate for those discoveries up front, so a surprise changes the calendar by a day or two, not the price by a mystery amount.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Do you tile in winter? Does cold weather slow it down?</summary><div class="faq-a">We tile year-round. Cure times stretch somewhat in a cold room, so in winter we keep the space heated and let the chemistry take the time it takes — that can mean an extra night before grout. The calendar moves by a day; the standard does not.</div></details>
+  </div>
+</div>
+
+<style>
+  .faq-wrap{--line:#e5e7eb;margin:28px auto;padding:20px;border:1px solid var(--line);border-radius:16px;background:#fff;box-shadow:0 8px 30px rgba(2,6,23,.06)}
+  .faq-title{margin:0 0 14px;font-size:24px;font-weight:900;text-align:center;color:#5c0000}
+  .faq-items{display:grid;gap:10px}
+  .faq-item{border:1px solid var(--line);border-radius:14px;background:#f9fafb;overflow:hidden}
+  .faq-q{cursor:pointer;display:block;padding:14px 16px;font-weight:800;color:#0f172a}
+  .faq-q::-webkit-details-marker{display:none}
+  .faq-item[open] .faq-q{background:linear-gradient(180deg, rgba(139,0,0,.08), rgba(139,0,0,.02))}
+  .faq-a{padding:0 16px 14px;color:#1f2937;line-height:1.6}
+</style>
+
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How long does it take to tile a bathroom?", "acceptedAnswer": {"@type": "Answer", "text": "A floor-only bathroom takes two to three working days. A tub surround or shower runs four to six. A full bathroom — floor plus waterproofed shower — is realistically seven to nine working days, including a 24-hour flood test and the cure windows for mortar, grout and silicone. Houses that need subfloor repair add a day or two at the front."}}, {"@type": "Question", "name": "Can a bathroom really be tiled in a weekend?", "acceptedAnswer": {"@type": "Answer", "text": "A small floor, sometimes — demo Friday, prep and set Saturday, grout Sunday is possible when the subfloor is clean. A shower, no. The waterproofing has to cure, the flood test takes 24 hours by definition, and grout wants cured mortar under it. A weekend shower promise is a list of steps someone intends to skip."}}, {"@type": "Question", "name": "What is a flood test and why does it add a day?", "acceptedAnswer": {"@type": "Answer", "text": "After the pan is waterproofed, we plug the drain and fill the pan with water, mark the line, and leave it for 24 hours. If the line holds, the membrane is tight and tile goes on; if it drops, we fix the leak while it is still an easy fix. We photograph both ends of the test and keep the photos on file. It is the only direct test the waterproofing will ever get."}}, {"@type": "Question", "name": "How long after tiling until I can use the shower?", "acceptedAnswer": {"@type": "Answer", "text": "Grout and silicone need to cure before the first shower — typically about 72 hours after the last silicone bead, a bit longer for some sealers. Using it early soaks uncured grout and can discolor it permanently. We put the exact date in the walkthrough so there is no guessing."}}, {"@type": "Question", "name": "How long can I not walk on a newly tiled floor?", "acceptedAnswer": {"@type": "Answer", "text": "Stay off it for about 24 hours after setting so the mortar can reach strength, then it is fine for foot traffic while grout follows. After grout, give it another day before heavy traffic and furniture. Rushing this is how fresh floors end up with rocked tiles and cracked lines."}}, {"@type": "Question", "name": "Does a heated bathroom floor take longer to install?", "acceptedAnswer": {"@type": "Answer", "text": "About a day more. The mat or cable goes down over the prepped subfloor, the sensor is placed, resistance readings are logged before and after tiling, and a licensed electrician wires the thermostat and circuit. The heating layer itself does not slow the tile setting much; the extra day is the system installation and hookup."}}, {"@type": "Question", "name": "What can make the job run longer than quoted?", "acceptedAnswer": {"@type": "Answer", "text": "Almost always what demolition uncovers: rotted subfloor around a toilet flange, a failed old shower pan, or particleboard underlayment that has to come out — common in 1980s and 90s houses around Mill Creek. A good quote names a contingency rate for those discoveries up front, so a surprise changes the calendar by a day or two, not the price by a mystery amount."}}, {"@type": "Question", "name": "Do you tile in winter? Does cold weather slow it down?", "acceptedAnswer": {"@type": "Answer", "text": "We tile year-round. Cure times stretch somewhat in a cold room, so in winter we keep the space heated and let the chemistry take the time it takes — that can mean an extra night before grout. The calendar moves by a day; the standard does not."}}]}
+</script></div>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-cta" style="margin:30px 0">
+  <style>
+    html body .post-body .ocb-cta h2, .ocb-cta h2{color:#fff!important}
+    html body .post-body .ocb-cta .ocb-cta-sub, .ocb-cta .ocb-cta-sub{color:rgba(255,255,255,.88)!important}
+    html body .post-body .ocb-cta .ocb-cta-chips span, .ocb-cta .ocb-cta-chips span{color:rgba(255,255,255,.94)!important}
+    html body .post-body .ocb-cta a.ocb-cta-ghost, .ocb-cta a.ocb-cta-ghost{color:#fff!important;text-decoration:none!important}
+    html body .post-body .ocb-cta a.ocb-cta-gold, .ocb-cta a.ocb-cta-gold{color:#fbbc04!important}
+    html body .post-body .ocb-cta a.ocb-cta-phone, .ocb-cta a.ocb-cta-phone{color:#5c0000!important;text-decoration:none!important}
+  </style>
+  <div style="background:linear-gradient(135deg,#8B0000,#5c0000);border-radius:20px;padding:28px 24px;color:#fff;text-align:center;box-shadow:0 14px 34px rgba(92,0,0,.3)">
+    <h2 style="margin:0 0 6px;color:#fff!important;font-size:24px;font-weight:900">Want a Real Calendar, Not a Guess?</h2>
+    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.92)!important;font-size:16.3px">We will look at your bathroom, tell you which of these days your house actually needs, and put the schedule in writing next to the price &mdash; flood test included, always. Free in-home estimates across King &amp; Snohomish County.</p>
+    <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
+      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff!important;color:#5c0000!important;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none!important"><span class="ocb-ic ocb-ic-phone"></span> (425) 595-1079</a>
+      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.16)!important;border:1px solid rgba(255,255,255,.55);color:#fff!important;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none!important">Book My Free Consultation</a>
+    </div>
+    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.95)!important">
+      <span>✓ Since 2013</span><span>✓ 1,000+ floors</span><span>✓ 1-yr workmanship warranty</span><span>✓ Licensed &amp; insured</span><span>✓ Financing available</span>
+    </div>
+    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04!important;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
+  </div>
+</div></div>
+
+<p><strong>Related reading:</strong> <a href="/blog/tile-shower-waterproofing">How a tile shower is waterproofed</a> · <a href="/blog/cost-to-tile-a-shower">What a tiled shower costs</a> · <a href="/blog/tile-underlayment-explained">Tile underlayment explained</a> · <a href="/blog/heated-bathroom-floor-cost">Heated bathroom floor costs</a> · <a href="/city-of-mill-creek/tile-installation-in-mill-creek-wa">Tile installation in Mill Creek</a> · <a href="/contact">Book a free estimate</a></p>
+
+<div data-rt-embed-type='true'><script>
+(function(){try{
+var els=document.querySelectorAll('.ocb-card,.ocb-fact,.ocb-tri,.faq-item');
+if(!('IntersectionObserver' in window)||!els.length)return;
+document.documentElement.classList.add('ocb-anim-ready');
+els.forEach(function(e,i){e.classList.add('ocb-rv');e.style.transitionDelay=Math.min((i%6)*70,350)+'ms'});
+var io=new IntersectionObserver(function(en){en.forEach(function(x){if(x.isIntersecting){x.target.classList.add('ocb-in');io.unobserve(x.target)}})},{threshold:.12,rootMargin:'0px 0px -8% 0px'});
+els.forEach(function(e){io.observe(e)});
+}catch(e){}})();
+</script></div>

@@ -1,0 +1,198 @@
+<div data-rt-embed-type='true'><style>
+.ocb{--ink:#0f172a;--muted:#64748b;--line:#e5e7eb;--soft:#f8fafc;--brand:#8B0000;--brand2:#5c0000;--gold:#fbbc04;font-family:'Mulish',Inter,system-ui,sans-serif;color:var(--ink)}
+.ocb *{box-sizing:border-box}
+.ocb-card{border:1px solid var(--line);border-radius:18px;background:#fff;box-shadow:0 10px 30px rgba(2,6,23,.06);padding:22px;margin:26px 0}
+.ocb-eyebrow{display:inline-block;background:rgba(139,0,0,.08);color:var(--brand2);border:1px solid rgba(139,0,0,.2);border-radius:999px;padding:5px 12px;font-size:12.5px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;margin-bottom:10px}
+.ocb-chips{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0 0}
+.ocb-chip{background:var(--soft);border:1px solid var(--line);border-radius:999px;padding:6px 12px;font-size:13.6px;font-weight:700}
+.ocb-table{width:100%;border-collapse:collapse;font-size:15.2px}
+.ocb-table th,.ocb-table td{padding:11px 10px;text-align:left;border-bottom:1px solid var(--line)}
+.ocb-table th{background:var(--soft);font-weight:800;font-size:13.6px;letter-spacing:.02em}
+.ocb-table tr:last-child td{border-bottom:0}
+.ocb-table td strong{color:var(--brand2)}
+.ocb-2col{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media(max-width:680px){.ocb-2col{grid-template-columns:1fr}}
+.ocb-check{list-style:none;padding:0;margin:10px 0 0}
+.ocb-check li{padding-left:26px;position:relative;margin:7px 0;line-height:1.55}
+.ocb-check li:before{content:"✓";position:absolute;left:0;color:var(--brand);font-weight:900}
+.ocb-x li:before{content:"✕";color:#94a3b8}
+html body .post-body .ocb-facts, .ocb-facts{display:grid!important;grid-template-columns:repeat(3,1fr)!important;gap:12px!important;margin:8px 0!important}
+@media(max-width:680px){html body .post-body .ocb-facts, .ocb-facts{grid-template-columns:1fr!important}}
+.ocb-fact{background:linear-gradient(180deg,#fff,#f8fafc);border:1px solid var(--line);border-radius:16px;padding:16px}
+.ocb-fact .n{font-size:24px;font-weight:900;color:var(--brand2);display:block;margin-bottom:4px}
+html body .post-body .ocb-fact p, .ocb-fact p{margin:0!important;font-size:14.7px!important;color:#334155!important;line-height:1.5!important}
+
+.ocb-card,.ocb-fact,.ocb-tri{transition:transform .28s ease,box-shadow .28s ease}
+.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:translateY(-4px);box-shadow:0 16px 40px rgba(2,6,23,.12)}
+.faq-item{transition:border-color .25s,box-shadow .25s}
+.faq-item:hover{border-color:rgba(139,0,0,.35);box-shadow:0 6px 18px rgba(2,6,23,.07)}
+.ocb-chip{display:inline-flex;align-items:center;gap:6px;transition:transform .2s,border-color .2s}
+.ocb-chip:hover{transform:translateY(-2px);border-color:rgba(139,0,0,.35)}
+.ocb-chip svg{color:#8B0000}
+.ocb-cta a{transition:transform .22s,box-shadow .22s}
+.ocb-cta a:hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(0,0,0,.25)}
+.ocb-fact .n{position:relative}
+html.ocb-anim-ready .ocb-rv{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
+html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){html.ocb-anim-ready .ocb-rv{opacity:1!important;transform:none!important;transition:none!important}.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:none}}
+
+/* Chip icons. Webflow's rich-text sanitizer strips inline <svg> whenever a post is
+   re-saved in the Editor, so the icons are drawn from CSS on a <span> instead. */
+.ocb-ic{display:inline-block;width:15px;height:15px;flex:0 0 auto;vertical-align:-2px;background-repeat:no-repeat;background-position:center;background-size:contain}
+.ocb-ic-pin{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z'/><circle cx='12' cy='10' r='3'/></svg>")}
+.ocb-ic-home{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z'/><polyline points='9 22 9 12 15 12 15 22'/></svg>")}
+.ocb-ic-phone{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z'/></svg>")}
+.ocb-cta .ocb-ic{filter:brightness(0) saturate(100%) invert(9%) sepia(64%) saturate(4000%) hue-rotate(348deg)}
+</style></div>
+
+<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">February 25, 2027</span></div></div>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
+  <span class="ocb-eyebrow">Quick answer</span>
+  <p style="margin:0;font-size:17.9px;line-height:1.65"><strong>If your Seattle condo's CC&amp;Rs have an acoustic requirement, carpet over a decent pad satisfies it more comfortably than any other floor you can buy &mdash; usually by a margin so wide the board approval becomes a formality.</strong> The rules are written around impact noise: footsteps, chairs, dropped keys traveling through the slab into the unit below. Hard flooring needs engineered underlayment and paperwork to scrape past the minimum; carpet and pad sail over it. Send us the building's rules with your estimate request and we plan the job &mdash; spec sheets, insurance certificate, elevator reservation &mdash; around them from day one.</p>
+  <div class="ocb-chips">
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-pin"></span> King &amp; Snohomish County</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-home"></span> Seattle condos &amp; high-rises</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-phone"></span> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
+  </div>
+</div></div>
+
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-facts">
+  <div class="ocb-fact"><span class="n">IIC 50</span><p>the impact-sound rating building codes treat as the floor-to-ceiling minimum, and the number most CC&amp;Rs start from &mdash; many Seattle boards write a stricter one into the rules. Carpet over pad clears these thresholds with room to spare.</p></div>
+  <div class="ocb-fact"><span class="n">Carpet + pad</span><p>the one flooring assembly that passes acoustic requirements without engineered underlayments, sound mats, or an argument. It is why so many buildings write &ldquo;carpet preferred&rdquo; &mdash; or required &mdash; straight into the CC&amp;Rs.</p></div>
+  <div class="ocb-fact"><span class="n">From $1.49/sq ft</span><p>where installed carpet starts with us, pad and labor included. Condo jobs add logistics &mdash; elevators, corridors, building hours &mdash; and we price those into the written number, not into a surprise later.</p></div>
+</div></div></div>
+
+<h2>Why Your Building Cares What Is on Your Floor</h2>
+
+<p>Concrete and steel are wonderful at holding buildings up and terrible at keeping impact noise out. Airborne sound &mdash; voices, music &mdash; is what most people imagine, but the complaint that actually lands on condo boards is <em>impact</em> noise: heels on a hard floor, a chair dragged back, a dog's toenails at 6 a.m., all of it transmitted straight through the slab into the ceiling below. A hard floor couples every one of those impacts directly to the structure. Carpet and pad decouple them &mdash; the impact lands on fiber and foam before it ever reaches concrete.</p>
+
+<p>That is the entire reason acoustic rules exist in CC&amp;Rs, and why they got stricter as hard-surface flooring got fashionable. Boards spent two decades refereeing disputes between upstairs owners who installed handsome new floors and downstairs owners who suddenly heard every footstep. The rules you have to comply with today are the scar tissue from those fights.</p>
+
+<h2>IIC, Translated Into Plain English</h2>
+
+<p>Most acoustic clauses hang on one number: <strong>IIC, Impact Insulation Class</strong>. It measures how well a floor assembly stops impact noise from reaching the room below &mdash; higher is quieter. Building codes generally set <strong>IIC 50</strong> as the minimum for multifamily construction, and that is where most CC&amp;Rs start; plenty of Seattle buildings write a higher bar into their rules, and some specify how it must be demonstrated.</p>
+
+<p>Three things worth knowing about the number. First, <strong>it rates the whole assembly</strong> &mdash; slab, underlayment, floor covering together &mdash; not the flooring product alone, which is why a marketing sheet's lab number and your building's reality can differ. Second, <strong>lab tests flatter</strong>: a rating measured in a laboratory floor rig usually comes out several points better than the same assembly measured in a real building, and some boards ask for field numbers for exactly that reason. Third &mdash; the practical one &mdash; <strong>carpet over pad is the easiest pass there is</strong>. Soft floor coverings absorb impact at the surface, which is precisely what IIC measures, and a normal carpet-and-pad assembly lands far above the thresholds boards write down. Hard surface over a bare slab, for comparison, can fall short of code entirely without an engineered sound mat underneath.</p>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-card">
+  <h3 style="margin:0 0 10px;font-size:18.5px;font-weight:900;color:#5c0000">How Floors Compare Against Condo Sound Rules</h3>
+  <div style="overflow-x:auto"><table class="ocb-table">
+    <tr><th>Floor assembly</th><th>Against a typical IIC clause</th><th>The board conversation</th></tr>
+    <tr><td><strong>Carpet over quality pad</strong></td><td>Clears it by a wide margin</td><td>Usually a formality &mdash; many CC&amp;Rs explicitly name carpet as the preferred or required covering</td></tr>
+    <tr><td><strong>Carpet over thin builder pad</strong></td><td>Still passes comfortably</td><td>Fine acoustically; the thin pad shortchanges you on comfort and carpet life, not compliance</td></tr>
+    <tr><td><strong>Hardwood or laminate on bare slab</strong></td><td>Often below code minimum</td><td>This is the install the rules were written to stop &mdash; expect a denial without a sound mat</td></tr>
+    <tr><td><strong>Hardwood/LVP over acoustic underlayment</strong></td><td>Can pass, assembly-dependent</td><td>Approvable, but the board will want product data, and you are paying for the underlayment</td></tr>
+    <tr><td><strong>Tile on slab</strong></td><td>The worst impact performer</td><td>Typically restricted to kitchens and baths, where CC&amp;Rs usually carve out an exception</td></tr>
+    <tr><td><strong>Area rugs over hard floor</strong></td><td>Helps only where the rug is</td><td>Why some older buildings have the &ldquo;80% coverage&rdquo; rug rule &mdash; enforcement is nobody’s favorite job</td></tr>
+  </table></div>
+</div></div>
+
+<h2>What the CC&amp;Rs Actually Say</h2>
+
+<p>Read your building's flooring clause before you fall in love with any floor &mdash; it is usually two paragraphs, and it decides the project. The common patterns: a <strong>minimum IIC rating</strong> for any new floor covering, sometimes with proof required; a <strong>carpet requirement</strong> in bedrooms and living areas, with hard surface allowed only in kitchens, baths and entries; a <strong>coverage percentage</strong> in older buildings &mdash; the classic rule that a certain share of the floor must be covered by carpet or rugs; and an <strong>approval process</strong>, where the board or manager signs off on the spec before work starts. Some buildings add logistics rules on top: work hours, elevator reservations, protected corridors, and where a torn-out floor is allowed to leave the building.</p>
+
+<p>If your unit is going carpet, that clause stops being an obstacle and becomes your argument. You are installing the assembly the rule was written to encourage. We have walked this road with boards before &mdash; the same dynamic we described on the refinishing side in <a href="/blog/condo-hardwood-refinishing-bellevue-hoa">condo floor work under an HOA</a> &mdash; and a clean submission almost always comes back approved without discussion.</p>
+
+<h2>The Paperwork, and How We Handle It</h2>
+
+<p>A board approval package for carpet is short, and we assemble it as part of the job rather than leaving you to chase documents. The spec sheet for the carpet and the pad, with the acoustic data the manufacturer publishes. Our license and certificate of insurance, which nearly every building manager asks for before anyone rides the freight elevator with a roll of carpet. The work schedule, written around the building's permitted hours. And the disposal plan for the old floor, because a house's worth of carpet through a lobby is exactly the kind of thing buildings have opinions about &mdash; ours goes out wrapped, by the route the manager designates.</p>
+
+<p>The pad in that package deserves one honest note: since any reasonable pad passes the acoustic test, choose it for the floor's sake, not the board's. A dense mid-or-better grade makes the carpet feel better and last longer &mdash; the full argument is in <a href="/blog/carpet-padding-thickness">carpet padding, explained honestly</a> &mdash; and in a quiet building it buys you an extra measure of goodwill from the neighbor below at trivial cost.</p>
+
+<h2>Install Day in a High-Rise</h2>
+
+<p>Condo installs are planning jobs more than cutting jobs. The elevator gets reserved and padded; corridors between the elevator and your door get protected; carpet is cut to plan in the shop so the hallway does not become a workbench; and the day is scheduled inside the building's work window, which in most Seattle towers means roughly business hours on weekdays. A unit that would be a casual one-day install in a Ballard house is still usually a one-day install downtown &mdash; it just takes an extra week of arranging first, which is why we start the building conversation at the estimate, not the morning of.</p>
+
+<p>Cost-wise, the honest picture is in <a href="/blog/carpet-installation-cost-seattle">what carpet installation costs in Seattle</a>: condo access adds labor, and we put it in the written quote up front. If you are comparing installers for a building job, the questions in <a href="/blog/hiring-a-carpet-installer-seattle">hiring a carpet installer in Seattle</a> apply double &mdash; ask specifically who books the elevator and who talks to the manager. Our own building-ready details are on the <a href="/seattle/carpet-installation-in-seattle-wa">Seattle carpet installation page</a>.</p>
+
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-2col">
+  <div class="ocb-card" style="margin:0">
+    <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#5c0000">What we hand your board</h3>
+    <ul class="ocb-check">
+      <li>Carpet and pad spec sheets with the manufacturer’s acoustic data</li>
+      <li>License and certificate of insurance, named as the building requires</li>
+      <li>A work schedule written inside the building’s permitted hours</li>
+      <li>Elevator reservation and corridor-protection plan</li>
+      <li>Disposal route for the old floor, agreed with the manager</li>
+      <li>A written scope so the approval matches what actually gets installed</li>
+    </ul>
+  </div>
+  <div class="ocb-card" style="margin:0">
+    <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#334155">What to check before you sign anything</h3>
+    <ul class="ocb-check ocb-x">
+      <li>The exact IIC number in your CC&amp;Rs, and whether proof is required</li>
+      <li>Which rooms may be hard surface and which must be carpeted</li>
+      <li>Whether the board approves before or after you order materials</li>
+      <li>Building work hours &mdash; they set the install date, not the calendar</li>
+      <li>Freight elevator rules and how far ahead it books</li>
+      <li>Whether your neighbor below has a history &mdash; forewarned is forearmed</li>
+    </ul>
+  </div>
+</div></div></div>
+
+<div data-rt-embed-type='true'><!-- FAQ accordion + JSON-LD -->
+<div class="faq-wrap ocb" aria-labelledby="faq-title">
+  <h2 id="faq-title" class="faq-title">Condo Sound Rules and Carpet: What Owners Ask Us</h2>
+  <div class="faq-items" role="list">
+    <details class="faq-item" role="listitem"><summary class="faq-q">What IIC rating do I need for my Seattle condo?</summary><div class="faq-a">Read your CC&Rs — that is the only number that binds you. Building codes generally set IIC 50 as the multifamily minimum, and most buildings start there; some Seattle boards require more, and some specify how compliance is demonstrated. Carpet over pad clears any of these thresholds comfortably, which is why it is the low-drama answer.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Does carpet really satisfy condo acoustic requirements?</summary><div class="faq-a">Yes — it is the assembly the rules were effectively written around. IIC measures impact absorption, and soft floor coverings absorb impact at the surface better than anything else you can install. A normal carpet-and-pad build lands far above typical CC&R thresholds, without the engineered underlayment a hard floor needs to get close.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">My building requires board approval for new flooring. What do you provide?</summary><div class="faq-a">The full package: spec sheets for the carpet and pad with acoustic data, our license and insurance certificate, a schedule inside the building’s work hours, and the elevator and disposal plan. You forward it, the board signs off, we install. We would rather spend a week on paperwork than have a job stopped in the lobby.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Can I put hardwood in my condo instead?</summary><div class="faq-a">Often yes, with an approved acoustic underlayment and the board’s sign-off — and if that is what you want, get the assembly approved in writing before ordering anything. But go in with open eyes: you are paying for a sound mat, doing more paperwork, and still ending up closer to the acoustic minimum than a basic carpet install starts.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">What is the 80% carpet rule I keep hearing about?</summary><div class="faq-a">Older buildings often wrote coverage rules instead of IIC numbers: some percentage of each room’s floor — commonly cited as 80% — must be covered by carpet or rugs. If your CC&Rs read that way, wall-to-wall carpet satisfies it by definition. Check whether your building has since amended to a modern IIC clause; many have.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Does thicker pad mean a quieter floor for my downstairs neighbor?</summary><div class="faq-a">Any reasonable pad passes the acoustic requirement, so choose pad for comfort and carpet life first — density matters more than sheer thickness there. That said, a quality dense pad does absorb impact better than a collapsed builder-grade one, and in a building, every bit of absorption is neighbor goodwill.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">How does a condo install differ from a house install?</summary><div class="faq-a">The cutting is the same; the logistics are not. Elevator reservation, corridor protection, permitted work hours, and the building’s disposal rules all have to be arranged in advance, which is why we start with the building manager at estimate time. Most units are still installed in a single day once the date is booked.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">What does condo carpet installation cost in Seattle?</summary><div class="faq-a">Installed carpet starts at $1.49 per square foot with us, pad and labor included, and building access adds modest labor that we price into the written quote rather than springing later. We measure the unit, review your building’s rules, and leave a number the same visit.</div></details>
+  </div>
+</div>
+
+<style>
+  .faq-wrap{--line:#e5e7eb;margin:28px auto;padding:20px;border:1px solid var(--line);border-radius:16px;background:#fff;box-shadow:0 8px 30px rgba(2,6,23,.06)}
+  .faq-title{margin:0 0 14px;font-size:24px;font-weight:900;text-align:center;color:#5c0000}
+  .faq-items{display:grid;gap:10px}
+  .faq-item{border:1px solid var(--line);border-radius:14px;background:#f9fafb;overflow:hidden}
+  .faq-q{cursor:pointer;display:block;padding:14px 16px;font-weight:800;color:#0f172a}
+  .faq-q::-webkit-details-marker{display:none}
+  .faq-item[open] .faq-q{background:linear-gradient(180deg, rgba(139,0,0,.08), rgba(139,0,0,.02))}
+  .faq-a{padding:0 16px 14px;color:#1f2937;line-height:1.6}
+</style>
+
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What IIC rating do I need for my Seattle condo?", "acceptedAnswer": {"@type": "Answer", "text": "Read your CC&Rs — that is the only number that binds you. Building codes generally set IIC 50 as the multifamily minimum, and most buildings start there; some Seattle boards require more, and some specify how compliance is demonstrated. Carpet over pad clears any of these thresholds comfortably, which is why it is the low-drama answer."}}, {"@type": "Question", "name": "Does carpet really satisfy condo acoustic requirements?", "acceptedAnswer": {"@type": "Answer", "text": "Yes — it is the assembly the rules were effectively written around. IIC measures impact absorption, and soft floor coverings absorb impact at the surface better than anything else you can install. A normal carpet-and-pad build lands far above typical CC&R thresholds, without the engineered underlayment a hard floor needs to get close."}}, {"@type": "Question", "name": "My building requires board approval for new flooring. What do you provide?", "acceptedAnswer": {"@type": "Answer", "text": "The full package: spec sheets for the carpet and pad with acoustic data, our license and insurance certificate, a schedule inside the building’s work hours, and the elevator and disposal plan. You forward it, the board signs off, we install. We would rather spend a week on paperwork than have a job stopped in the lobby."}}, {"@type": "Question", "name": "Can I put hardwood in my condo instead?", "acceptedAnswer": {"@type": "Answer", "text": "Often yes, with an approved acoustic underlayment and the board’s sign-off — and if that is what you want, get the assembly approved in writing before ordering anything. But go in with open eyes: you are paying for a sound mat, doing more paperwork, and still ending up closer to the acoustic minimum than a basic carpet install starts."}}, {"@type": "Question", "name": "What is the 80% carpet rule I keep hearing about?", "acceptedAnswer": {"@type": "Answer", "text": "Older buildings often wrote coverage rules instead of IIC numbers: some percentage of each room’s floor — commonly cited as 80% — must be covered by carpet or rugs. If your CC&Rs read that way, wall-to-wall carpet satisfies it by definition. Check whether your building has since amended to a modern IIC clause; many have."}}, {"@type": "Question", "name": "Does thicker pad mean a quieter floor for my downstairs neighbor?", "acceptedAnswer": {"@type": "Answer", "text": "Any reasonable pad passes the acoustic requirement, so choose pad for comfort and carpet life first — density matters more than sheer thickness there. That said, a quality dense pad does absorb impact better than a collapsed builder-grade one, and in a building, every bit of absorption is neighbor goodwill."}}, {"@type": "Question", "name": "How does a condo install differ from a house install?", "acceptedAnswer": {"@type": "Answer", "text": "The cutting is the same; the logistics are not. Elevator reservation, corridor protection, permitted work hours, and the building’s disposal rules all have to be arranged in advance, which is why we start with the building manager at estimate time. Most units are still installed in a single day once the date is booked."}}, {"@type": "Question", "name": "What does condo carpet installation cost in Seattle?", "acceptedAnswer": {"@type": "Answer", "text": "Installed carpet starts at $1.49 per square foot with us, pad and labor included, and building access adds modest labor that we price into the written quote rather than springing later. We measure the unit, review your building’s rules, and leave a number the same visit."}}]}
+</script></div>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-cta" style="margin:30px 0">
+  <style>
+    html body .post-body .ocb-cta h2, .ocb-cta h2{color:#fff!important}
+    html body .post-body .ocb-cta .ocb-cta-sub, .ocb-cta .ocb-cta-sub{color:rgba(255,255,255,.88)!important}
+    html body .post-body .ocb-cta .ocb-cta-chips span, .ocb-cta .ocb-cta-chips span{color:rgba(255,255,255,.94)!important}
+    html body .post-body .ocb-cta a.ocb-cta-ghost, .ocb-cta a.ocb-cta-ghost{color:#fff!important;text-decoration:none!important}
+    html body .post-body .ocb-cta a.ocb-cta-gold, .ocb-cta a.ocb-cta-gold{color:#fbbc04!important}
+    html body .post-body .ocb-cta a.ocb-cta-phone, .ocb-cta a.ocb-cta-phone{color:#5c0000!important;text-decoration:none!important}
+  </style>
+  <div style="background:linear-gradient(135deg,#8B0000,#5c0000);border-radius:20px;padding:28px 24px;color:#fff;text-align:center;box-shadow:0 14px 34px rgba(92,0,0,.3)">
+    <h2 style="margin:0 0 6px;color:#fff!important;font-size:24px;font-weight:900">Send Us the CC&amp;Rs With the Estimate Request</h2>
+    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.92)!important;font-size:16.3px">We read the flooring clause, spec carpet and pad that clear it with room to spare, and handle the board package &mdash; insurance certificate, elevator booking, disposal plan included. Written price the same visit. Free estimates across King &amp; Snohomish County.</p>
+    <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
+      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff!important;color:#5c0000!important;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none!important"><span class="ocb-ic ocb-ic-phone"></span> (425) 595-1079</a>
+      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.16)!important;border:1px solid rgba(255,255,255,.55);color:#fff!important;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none!important">Book My Free Consultation</a>
+    </div>
+    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.95)!important">
+      <span>✓ Since 2013</span><span>✓ 1,000+ floors</span><span>✓ 1-yr workmanship warranty</span><span>✓ Licensed &amp; insured</span><span>✓ Financing available</span>
+    </div>
+    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04!important;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
+  </div>
+</div></div>
+
+<p><strong>Related reading:</strong> <a href="/blog/carpet-installation-cost-seattle">What carpet installation costs in Seattle</a> · <a href="/blog/carpet-padding-thickness">Carpet padding, explained honestly</a> · <a href="/blog/hiring-a-carpet-installer-seattle">Hiring a carpet installer in Seattle</a> · <a href="/blog/condo-hardwood-refinishing-bellevue-hoa">Condo floor work under an HOA</a> · <a href="/seattle/carpet-installation-in-seattle-wa">Carpet installation in Seattle</a> · <a href="/contact">Book a free estimate</a></p>
+
+<div data-rt-embed-type='true'><script>
+(function(){try{
+var els=document.querySelectorAll('.ocb-card,.ocb-fact,.ocb-tri,.faq-item');
+if(!('IntersectionObserver' in window)||!els.length)return;
+document.documentElement.classList.add('ocb-anim-ready');
+els.forEach(function(e,i){e.classList.add('ocb-rv');e.style.transitionDelay=Math.min((i%6)*70,350)+'ms'});
+var io=new IntersectionObserver(function(en){en.forEach(function(x){if(x.isIntersecting){x.target.classList.add('ocb-in');io.unobserve(x.target)}})},{threshold:.12,rootMargin:'0px 0px -8% 0px'});
+els.forEach(function(e){io.observe(e)});
+}catch(e){}})();
+</script></div>

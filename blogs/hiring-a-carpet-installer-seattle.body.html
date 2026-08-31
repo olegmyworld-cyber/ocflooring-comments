@@ -1,0 +1,199 @@
+<div data-rt-embed-type='true'><style>
+.ocb{--ink:#0f172a;--muted:#64748b;--line:#e5e7eb;--soft:#f8fafc;--brand:#8B0000;--brand2:#5c0000;--gold:#fbbc04;font-family:'Mulish',Inter,system-ui,sans-serif;color:var(--ink)}
+.ocb *{box-sizing:border-box}
+.ocb-card{border:1px solid var(--line);border-radius:18px;background:#fff;box-shadow:0 10px 30px rgba(2,6,23,.06);padding:22px;margin:26px 0}
+.ocb-eyebrow{display:inline-block;background:rgba(139,0,0,.08);color:var(--brand2);border:1px solid rgba(139,0,0,.2);border-radius:999px;padding:5px 12px;font-size:12.5px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;margin-bottom:10px}
+.ocb-chips{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0 0}
+.ocb-chip{background:var(--soft);border:1px solid var(--line);border-radius:999px;padding:6px 12px;font-size:13.6px;font-weight:700}
+.ocb-table{width:100%;border-collapse:collapse;font-size:15.2px}
+.ocb-table th,.ocb-table td{padding:11px 10px;text-align:left;border-bottom:1px solid var(--line)}
+.ocb-table th{background:var(--soft);font-weight:800;font-size:13.6px;letter-spacing:.02em}
+.ocb-table tr:last-child td{border-bottom:0}
+.ocb-table td strong{color:var(--brand2)}
+.ocb-2col{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media(max-width:680px){.ocb-2col{grid-template-columns:1fr}}
+.ocb-check{list-style:none;padding:0;margin:10px 0 0}
+.ocb-check li{padding-left:26px;position:relative;margin:7px 0;line-height:1.55}
+.ocb-check li:before{content:"✓";position:absolute;left:0;color:var(--brand);font-weight:900}
+.ocb-x li:before{content:"✕";color:#94a3b8}
+html body .post-body .ocb-facts, .ocb-facts{display:grid!important;grid-template-columns:repeat(3,1fr)!important;gap:12px!important;margin:8px 0!important}
+@media(max-width:680px){html body .post-body .ocb-facts, .ocb-facts{grid-template-columns:1fr!important}}
+.ocb-fact{background:linear-gradient(180deg,#fff,#f8fafc);border:1px solid var(--line);border-radius:16px;padding:16px}
+.ocb-fact .n{font-size:24px;font-weight:900;color:var(--brand2);display:block;margin-bottom:4px}
+html body .post-body .ocb-fact p, .ocb-fact p{margin:0!important;font-size:14.7px!important;color:#334155!important;line-height:1.5!important}
+
+.ocb-card,.ocb-fact,.ocb-tri{transition:transform .28s ease,box-shadow .28s ease}
+.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:translateY(-4px);box-shadow:0 16px 40px rgba(2,6,23,.12)}
+.faq-item{transition:border-color .25s,box-shadow .25s}
+.faq-item:hover{border-color:rgba(139,0,0,.35);box-shadow:0 6px 18px rgba(2,6,23,.07)}
+.ocb-chip{display:inline-flex;align-items:center;gap:6px;transition:transform .2s,border-color .2s}
+.ocb-chip:hover{transform:translateY(-2px);border-color:rgba(139,0,0,.35)}
+.ocb-chip svg{color:#8B0000}
+.ocb-cta a{transition:transform .22s,box-shadow .22s}
+.ocb-cta a:hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(0,0,0,.25)}
+.ocb-fact .n{position:relative}
+html.ocb-anim-ready .ocb-rv{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
+html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){html.ocb-anim-ready .ocb-rv{opacity:1!important;transform:none!important;transition:none!important}.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:none}}
+
+/* Chip icons. Webflow's rich-text sanitizer strips inline <svg> whenever a post is
+   re-saved in the Editor, so the icons are drawn from CSS on a <span> instead. */
+.ocb-ic{display:inline-block;width:15px;height:15px;flex:0 0 auto;vertical-align:-2px;background-repeat:no-repeat;background-position:center;background-size:contain}
+.ocb-ic-pin{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z'/><circle cx='12' cy='10' r='3'/></svg>")}
+.ocb-ic-home{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z'/><polyline points='9 22 9 12 15 12 15 22'/></svg>")}
+.ocb-ic-phone{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z'/></svg>")}
+.ocb-cta .ocb-ic{filter:brightness(0) saturate(100%) invert(9%) sepia(64%) saturate(4000%) hue-rotate(348deg)}
+</style></div>
+
+<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">December 31, 2026</span></div></div>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
+  <span class="ocb-eyebrow">Quick answer</span>
+  <p style="margin:0;font-size:17.9px;line-height:1.65"><strong>Hiring a carpet installer in Seattle comes down to five questions, and none of them is &ldquo;what do you charge per square foot?&rdquo;</strong> Ask which pad grade the number assumes, whether the carpet will be power-stretched, how stairs are priced, whether tear-out and haul-away are included, and whether the measure happens in your house or on a floor plan. A quote that answers all five in writing is a quote you can compare. A quote that answers none of them is a number somebody hopes you will not examine &mdash; and it is usually the low one.</p>
+  <div class="ocb-chips">
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-pin"></span> King &amp; Snohomish County</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-home"></span> Seattle homes &amp; condos</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-phone"></span> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
+  </div>
+</div></div>
+
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-facts">
+  <div class="ocb-fact"><span class="n">5 questions</span><p>sort almost every carpet quote into keep or toss: pad grade by name, power-stretch or knee-kick, stairs per tread, haul-away in or out, and a real in-home measure. All five belong in writing before you sign anything.</p></div>
+  <div class="ocb-fact"><span class="n">From $1.49/sq ft</span><p>where installed carpet starts with us &mdash; material, pad and labor in one number. Since 2013 and 1,000+ floors, the same written price at the kitchen table, not a range that firms up later.</p></div>
+  <div class="ocb-fact"><span class="n">Per tread</span><p>how stairs should be priced. A staircase is slow, precise, individually-wrapped work; an installer who buries it in the square footage either does not do many stairs or does not want you doing the arithmetic.</p></div>
+</div></div></div>
+
+<h2>Why Carpet Quotes Are So Hard to Compare</h2>
+
+<p>Search &ldquo;carpet installers near me&rdquo; from a Seattle zip code and you will get national chains, big-box subcontract programs, one-truck independents, and a few companies like ours in between. Ask three of them to quote the same three bedrooms and a staircase and you can get numbers spread apart by four figures &mdash; on what sounds like the same job. The spread is almost never the carpet. It is everything wrapped around the carpet: which pad the number quietly assumes, whether the old floor's removal and disposal are inside or outside the price, whether the stairs were counted as stairs, and how the installer plans to attach the carpet to your floor.</p>
+
+<p>None of that shows up in a per-square-foot teaser rate, which is why the teaser rate is the least useful line in any ad. We wrote a whole breakdown of <a href="/blog/carpet-installation-cost-seattle">what carpet installation costs in Seattle</a>, but the short version is this: the quotes are only comparable after you make each company answer the same five questions. Here they are, with what a good answer and a bad answer sound like.</p>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-card">
+  <h3 style="margin:0 0 10px;font-size:18.5px;font-weight:900;color:#5c0000">Five Questions, and What the Answers Tell You</h3>
+  <div style="overflow-x:auto"><table class="ocb-table">
+    <tr><th>Ask this</th><th>A good answer</th><th>A warning sign</th></tr>
+    <tr><td><strong>Which pad grade is in this price?</strong></td><td>A specific product &mdash; thickness and density stated, upgrade prices for the other grades</td><td>&ldquo;Standard pad&rdquo; with no name. Builder-grade sponge hides under more low quotes than any other trick</td></tr>
+    <tr><td><strong>Will it be power-stretched?</strong></td><td>Yes, with a power stretcher, on every room &mdash; said without hesitation</td><td>Talk of knee-kickers being &ldquo;fine for small rooms.&rdquo; Loose carpet ripples in two or three years</td></tr>
+    <tr><td><strong>How are the stairs priced?</strong></td><td>Per tread, as their own line, with the wrap style (waterfall or Hollywood) named</td><td>Stairs lumped into total square feet &mdash; either underpriced work or a number padded elsewhere</td></tr>
+    <tr><td><strong>Is tear-out and haul-away included?</strong></td><td>Yes, in the written number: old carpet, pad, staples, tack strip, disposal</td><td>An asterisk. Disposal surprises on install day are the oldest move in flooring</td></tr>
+    <tr><td><strong>When do you measure?</strong></td><td>At your house, every room, closet and stair, with a written price the same visit</td><td>A price from your square footage over the phone. Roll widths and seams make that number fiction</td></tr>
+  </table></div>
+</div></div>
+
+<h2>The Pad Question Does the Most Work</h2>
+
+<p>If you only ask one question, ask about pad. It is the invisible half of the floor and the easiest place to cheapen a quote, because no homeowner has ever stood in a showroom comparing pads. The cheapest grade flattens within a few years and takes the carpet's appearance with it &mdash; fibers crush against a dead pad the way a mattress fails over a broken box spring. The difference between builder-grade and a proper mid-grade pad is small money on a whole-house job and enormous in year five.</p>
+
+<p>A serious installer will name the pad &mdash; thickness, density, whether it carries a moisture barrier &mdash; and will let you stand on the options. We carry all three grades in the truck for exactly this reason, and the differences are obvious underfoot in seconds. Our guide to <a href="/blog/carpet-padding-thickness">carpet padding thickness and density</a> goes deeper, but at hiring time you only need the discipline: no pad name, no signature.</p>
+
+<h2>Power-Stretching Is Where Cheap Labor Hides</h2>
+
+<p>Carpet is supposed to be installed under tension, stretched drum-tight across the room with a power stretcher &mdash; a pole-and-lever tool that spans wall to wall &mdash; and hooked onto the tack strip at that tension. The shortcut is a knee-kicker alone: faster, no tool to haul in, and the carpet looks identical on day one. The difference arrives in year two or three, when the un-stretched carpet relaxes, and waves appear in the hallway. At that point you are paying someone to come back and <a href="/blog/carpet-stretching-cost">restretch the carpet</a> &mdash; fixing labor you already paid for once.</p>
+
+<p>This is a one-question filter. Ask &ldquo;do you power-stretch every room?&rdquo; and listen. Anyone who does it will say yes instantly, because it is how the work is supposed to be done and they are proud of it. Hedging &mdash; &ldquo;where it is needed,&rdquo; &ldquo;kickers are fine for bedrooms&rdquo; &mdash; tells you where the low price came from.</p>
+
+<h2>Stairs, Closets, and Why the Measure Is the Estimate</h2>
+
+<p>Seattle housing is unkind to lazy math. A Wallingford craftsman has a staircase with a landing and a turn; a Columbia City remodel has closets nobody counted; a Belltown condo has an elevator to reserve and building hours to respect. Carpet also comes off fixed-width rolls &mdash; twelve feet, usually &mdash; so a room's price depends on how it cuts from the roll and where the seams land, not just its area. Two rooms of identical square footage can need meaningfully different amounts of carpet. That is why we treat <a href="/blog/how-to-measure-for-carpet">measuring for carpet</a> as the real work of the estimate, and why any quote produced without a tape measure in your hallway is a placeholder.</p>
+
+<p>Stairs deserve their own line because they are their own trade. Each tread is wrapped or capped individually, tensioned by hand, and secured for safety &mdash; slow work with no straight runs to speed it up, which is why honest pricing is <em>per tread</em>. It is also why the fiber on stairs matters more than anywhere else in the house; our guide to <a href="/blog/best-carpet-for-stairs">carpet for stairs</a> covers that choice. When an installer's quote shows treads counted, closets counted, and a waste allowance that reflects your actual room shapes, you are looking at someone who plans jobs rather than survives them.</p>
+
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-2col">
+  <div class="ocb-card" style="margin:0">
+    <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#5c0000">What a complete Seattle quote includes</h3>
+    <ul class="ocb-check">
+      <li>An in-home measure of every room, closet and stair &mdash; not a phone estimate</li>
+      <li>The pad grade named, with upgrade pricing for the other grades</li>
+      <li>Power-stretched installation stated in writing</li>
+      <li>Stairs as a per-tread line item, wrap style noted</li>
+      <li>Tear-out, haul-away and disposal of the old floor</li>
+      <li>Furniture moving spelled out &mdash; what is included and what is special</li>
+      <li>A written total the same visit, good until the install</li>
+    </ul>
+  </div>
+  <div class="ocb-card" style="margin:0">
+    <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#334155">Signs to keep shopping</h3>
+    <ul class="ocb-check ocb-x">
+      <li>A per-square-foot price quoted before anyone has seen the house</li>
+      <li>&ldquo;Standard pad&rdquo; with no product name attached</li>
+      <li>Hedging on the power-stretch question</li>
+      <li>Stairs hidden inside the square footage</li>
+      <li>Disposal, tack strip or transitions billed as day-of extras</li>
+      <li>No license, bond or insurance offered when asked &mdash; in Washington you can verify all three online</li>
+      <li>Pressure to sign tonight for a discount that expires tomorrow</li>
+    </ul>
+  </div>
+</div></div></div>
+
+<h2>Why Our Showroom Has Wheels</h2>
+
+<p>Here is the part where we explain our own answer to the hiring question. We do not have a store. We have a mobile showroom &mdash; twenty-plus full-size carpet samples and all three pad grades in the truck &mdash; because the store was always the weakest link in carpet buying. Showroom lighting is bright and neutral; a Seattle living room in January is neither, and the beige that glowed warm under retail lights goes grey-green on your floor in November light. Bringing the samples to the room they will live in kills that problem, and it puts the measure, the pad comparison, and the written price into one visit at your kitchen table.</p>
+
+<p>It also settles the trust question the practical way. You see the actual measurements as they are taken. You stand on the three pads. You hear the stairs counted tread by tread. The number you get is the number you pay, because every question from the table above got answered in front of you &mdash; including <a href="/blog/do-carpet-installers-move-furniture">who moves the furniture</a> (we do, and we put it back). Whether you hire us or not, insist on that same transparency from whoever gets the job. The full scope of what we do in the city is on our <a href="/seattle/carpet-installation-in-seattle-wa">Seattle carpet installation page</a>.</p>
+
+<div data-rt-embed-type='true'><!-- FAQ accordion + JSON-LD -->
+<div class="faq-wrap ocb" aria-labelledby="faq-title">
+  <h2 id="faq-title" class="faq-title">Hiring a Carpet Installer in Seattle: What People Ask</h2>
+  <div class="faq-items" role="list">
+    <details class="faq-item" role="listitem"><summary class="faq-q">How do I find a good carpet installer in Seattle?</summary><div class="faq-a">Make every candidate answer five questions in writing: which pad grade the price assumes, whether every room is power-stretched, whether stairs are priced per tread, whether tear-out and haul-away are included, and whether they measure in your home. Good installers answer all five without flinching. Reviews and referrals narrow the list; these questions finish the job.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">What should carpet installation cost in Seattle?</summary><div class="faq-a">With us, installed carpet — material, pad and labor — starts at $1.49 per square foot, and the final number moves with fiber choice, pad grade, stair count and removal. Be suspicious of any precise total quoted before someone has measured your actual rooms, because roll widths and seam planning change what a room really needs.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Is a licensed installer really necessary for carpet?</summary><div class="faq-a">In Washington, contractors are required to be registered, bonded and insured, and you can verify all three in the state contractor database in about a minute. Beyond the legal point, the credential is a cheap filter: someone who skipped registration has told you how they handle the parts of the job you cannot see.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">What is power-stretching and why does it matter?</summary><div class="faq-a">A power stretcher spans the room and tensions the carpet properly before it is hooked to the tack strip. Carpet installed with only a knee-kicker looks identical at first, then relaxes into ripples within a few years — a failure you pay to fix later. Asking "do you power-stretch every room?" is the fastest way to sort installers.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Should the old carpet removal be included in the quote?</summary><div class="faq-a">It should at least be a clear written line: tear-out of carpet, pad, staples and tack strip, plus haul-away and disposal. A house of old carpet is heavy and bulky, and dump fees are real, so vague quotes love to leave it out and rediscover it on install day. Ours includes it in the written number.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">How are stairs priced for carpet?</summary><div class="faq-a">Per tread. Each step is wrapped or capped individually and secured by hand, so a staircase carries far more labor per square foot than any room. A quote that folds stairs into total square footage is either underpricing careful work or hiding margin — either way, ask for the treads as their own line.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Why do you bring samples to the house instead of having a store?</summary><div class="faq-a">Because carpet color is a lighting decision and stores have the wrong lighting. Twenty-plus full-size samples on your own floor, in your own light, next to your own paint, beats any showroom — and while we are there we measure every room and stair, let you stand on all three pad grades, and leave a written price the same visit.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">How long does carpet installation take once I hire someone?</summary><div class="faq-a">Most Seattle homes install in a single day once the carpet arrives from the mill; ordering is usually the longer wait. Staircases, large homes and condo logistics — elevator reservations, building work hours — can add time, and a good installer tells you which category your job is in at the estimate, not on the morning.</div></details>
+  </div>
+</div>
+
+<style>
+  .faq-wrap{--line:#e5e7eb;margin:28px auto;padding:20px;border:1px solid var(--line);border-radius:16px;background:#fff;box-shadow:0 8px 30px rgba(2,6,23,.06)}
+  .faq-title{margin:0 0 14px;font-size:24px;font-weight:900;text-align:center;color:#5c0000}
+  .faq-items{display:grid;gap:10px}
+  .faq-item{border:1px solid var(--line);border-radius:14px;background:#f9fafb;overflow:hidden}
+  .faq-q{cursor:pointer;display:block;padding:14px 16px;font-weight:800;color:#0f172a}
+  .faq-q::-webkit-details-marker{display:none}
+  .faq-item[open] .faq-q{background:linear-gradient(180deg, rgba(139,0,0,.08), rgba(139,0,0,.02))}
+  .faq-a{padding:0 16px 14px;color:#1f2937;line-height:1.6}
+</style>
+
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How do I find a good carpet installer in Seattle?", "acceptedAnswer": {"@type": "Answer", "text": "Make every candidate answer five questions in writing: which pad grade the price assumes, whether every room is power-stretched, whether stairs are priced per tread, whether tear-out and haul-away are included, and whether they measure in your home. Good installers answer all five without flinching. Reviews and referrals narrow the list; these questions finish the job."}}, {"@type": "Question", "name": "What should carpet installation cost in Seattle?", "acceptedAnswer": {"@type": "Answer", "text": "With us, installed carpet — material, pad and labor — starts at $1.49 per square foot, and the final number moves with fiber choice, pad grade, stair count and removal. Be suspicious of any precise total quoted before someone has measured your actual rooms, because roll widths and seam planning change what a room really needs."}}, {"@type": "Question", "name": "Is a licensed installer really necessary for carpet?", "acceptedAnswer": {"@type": "Answer", "text": "In Washington, contractors are required to be registered, bonded and insured, and you can verify all three in the state contractor database in about a minute. Beyond the legal point, the credential is a cheap filter: someone who skipped registration has told you how they handle the parts of the job you cannot see."}}, {"@type": "Question", "name": "What is power-stretching and why does it matter?", "acceptedAnswer": {"@type": "Answer", "text": "A power stretcher spans the room and tensions the carpet properly before it is hooked to the tack strip. Carpet installed with only a knee-kicker looks identical at first, then relaxes into ripples within a few years — a failure you pay to fix later. Asking \"do you power-stretch every room?\" is the fastest way to sort installers."}}, {"@type": "Question", "name": "Should the old carpet removal be included in the quote?", "acceptedAnswer": {"@type": "Answer", "text": "It should at least be a clear written line: tear-out of carpet, pad, staples and tack strip, plus haul-away and disposal. A house of old carpet is heavy and bulky, and dump fees are real, so vague quotes love to leave it out and rediscover it on install day. Ours includes it in the written number."}}, {"@type": "Question", "name": "How are stairs priced for carpet?", "acceptedAnswer": {"@type": "Answer", "text": "Per tread. Each step is wrapped or capped individually and secured by hand, so a staircase carries far more labor per square foot than any room. A quote that folds stairs into total square footage is either underpricing careful work or hiding margin — either way, ask for the treads as their own line."}}, {"@type": "Question", "name": "Why do you bring samples to the house instead of having a store?", "acceptedAnswer": {"@type": "Answer", "text": "Because carpet color is a lighting decision and stores have the wrong lighting. Twenty-plus full-size samples on your own floor, in your own light, next to your own paint, beats any showroom — and while we are there we measure every room and stair, let you stand on all three pad grades, and leave a written price the same visit."}}, {"@type": "Question", "name": "How long does carpet installation take once I hire someone?", "acceptedAnswer": {"@type": "Answer", "text": "Most Seattle homes install in a single day once the carpet arrives from the mill; ordering is usually the longer wait. Staircases, large homes and condo logistics — elevator reservations, building work hours — can add time, and a good installer tells you which category your job is in at the estimate, not on the morning."}}]}
+</script></div>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-cta" style="margin:30px 0">
+  <style>
+    html body .post-body .ocb-cta h2, .ocb-cta h2{color:#fff!important}
+    html body .post-body .ocb-cta .ocb-cta-sub, .ocb-cta .ocb-cta-sub{color:rgba(255,255,255,.88)!important}
+    html body .post-body .ocb-cta .ocb-cta-chips span, .ocb-cta .ocb-cta-chips span{color:rgba(255,255,255,.94)!important}
+    html body .post-body .ocb-cta a.ocb-cta-ghost, .ocb-cta a.ocb-cta-ghost{color:#fff!important;text-decoration:none!important}
+    html body .post-body .ocb-cta a.ocb-cta-gold, .ocb-cta a.ocb-cta-gold{color:#fbbc04!important}
+    html body .post-body .ocb-cta a.ocb-cta-phone, .ocb-cta a.ocb-cta-phone{color:#5c0000!important;text-decoration:none!important}
+  </style>
+  <div style="background:linear-gradient(135deg,#8B0000,#5c0000);border-radius:20px;padding:28px 24px;color:#fff;text-align:center;box-shadow:0 14px 34px rgba(92,0,0,.3)">
+    <h2 style="margin:0 0 6px;color:#fff!important;font-size:24px;font-weight:900">Get the Written Price at Your Own Kitchen Table</h2>
+    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.92)!important;font-size:16.3px">The mobile showroom brings twenty-plus samples and all three pad grades to your door. We measure every room, closet and stair, answer all five questions before you ask them, and leave a written price the same visit. Free in-home estimates across King &amp; Snohomish County.</p>
+    <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
+      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff!important;color:#5c0000!important;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none!important"><span class="ocb-ic ocb-ic-phone"></span> (425) 595-1079</a>
+      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.16)!important;border:1px solid rgba(255,255,255,.55);color:#fff!important;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none!important">Book My Free Consultation</a>
+    </div>
+    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.95)!important">
+      <span>✓ Since 2013</span><span>✓ 1,000+ floors</span><span>✓ 1-yr workmanship warranty</span><span>✓ Licensed &amp; insured</span><span>✓ Financing available</span>
+    </div>
+    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04!important;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
+  </div>
+</div></div>
+
+<p><strong>Related reading:</strong> <a href="/blog/carpet-installation-cost-seattle">What carpet installation costs in Seattle</a> · <a href="/blog/carpet-padding-thickness">Carpet padding, explained</a> · <a href="/blog/how-to-measure-for-carpet">How to measure for carpet</a> · <a href="/blog/best-carpet-for-stairs">The best carpet for stairs</a> · <a href="/seattle/carpet-installation-in-seattle-wa">Carpet installation in Seattle</a> · <a href="/contact">Book a free estimate</a></p>
+
+<div data-rt-embed-type='true'><script>
+(function(){try{
+var els=document.querySelectorAll('.ocb-card,.ocb-fact,.ocb-tri,.faq-item');
+if(!('IntersectionObserver' in window)||!els.length)return;
+document.documentElement.classList.add('ocb-anim-ready');
+els.forEach(function(e,i){e.classList.add('ocb-rv');e.style.transitionDelay=Math.min((i%6)*70,350)+'ms'});
+var io=new IntersectionObserver(function(en){en.forEach(function(x){if(x.isIntersecting){x.target.classList.add('ocb-in');io.unobserve(x.target)}})},{threshold:.12,rootMargin:'0px 0px -8% 0px'});
+els.forEach(function(e){io.observe(e)});
+}catch(e){}})();
+</script></div>

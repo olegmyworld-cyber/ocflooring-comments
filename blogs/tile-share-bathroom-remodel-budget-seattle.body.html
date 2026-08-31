@@ -1,0 +1,201 @@
+<div data-rt-embed-type='true'><style>
+.ocb{--ink:#0f172a;--muted:#64748b;--line:#e5e7eb;--soft:#f8fafc;--brand:#8B0000;--brand2:#5c0000;--gold:#fbbc04;font-family:'Mulish',Inter,system-ui,sans-serif;color:var(--ink)}
+.ocb *{box-sizing:border-box}
+.ocb-card{border:1px solid var(--line);border-radius:18px;background:#fff;box-shadow:0 10px 30px rgba(2,6,23,.06);padding:22px;margin:26px 0}
+.ocb-eyebrow{display:inline-block;background:rgba(139,0,0,.08);color:var(--brand2);border:1px solid rgba(139,0,0,.2);border-radius:999px;padding:5px 12px;font-size:12.5px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;margin-bottom:10px}
+.ocb-chips{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0 0}
+.ocb-chip{background:var(--soft);border:1px solid var(--line);border-radius:999px;padding:6px 12px;font-size:13.6px;font-weight:700}
+.ocb-table{width:100%;border-collapse:collapse;font-size:15.2px}
+.ocb-table th,.ocb-table td{padding:11px 10px;text-align:left;border-bottom:1px solid var(--line)}
+.ocb-table th{background:var(--soft);font-weight:800;font-size:13.6px;letter-spacing:.02em}
+.ocb-table tr:last-child td{border-bottom:0}
+.ocb-table td strong{color:var(--brand2)}
+.ocb-2col{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media(max-width:680px){.ocb-2col{grid-template-columns:1fr}}
+.ocb-check{list-style:none;padding:0;margin:10px 0 0}
+.ocb-check li{padding-left:26px;position:relative;margin:7px 0;line-height:1.55}
+.ocb-check li:before{content:"✓";position:absolute;left:0;color:var(--brand);font-weight:900}
+.ocb-x li:before{content:"✕";color:#94a3b8}
+html body .post-body .ocb-facts, .ocb-facts{display:grid!important;grid-template-columns:repeat(3,1fr)!important;gap:12px!important;margin:8px 0!important}
+@media(max-width:680px){html body .post-body .ocb-facts, .ocb-facts{grid-template-columns:1fr!important}}
+.ocb-fact{background:linear-gradient(180deg,#fff,#f8fafc);border:1px solid var(--line);border-radius:16px;padding:16px}
+.ocb-fact .n{font-size:24px;font-weight:900;color:var(--brand2);display:block;margin-bottom:4px}
+html body .post-body .ocb-fact p, .ocb-fact p{margin:0!important;font-size:14.7px!important;color:#334155!important;line-height:1.5!important}
+
+.ocb-card,.ocb-fact,.ocb-tri{transition:transform .28s ease,box-shadow .28s ease}
+.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:translateY(-4px);box-shadow:0 16px 40px rgba(2,6,23,.12)}
+.faq-item{transition:border-color .25s,box-shadow .25s}
+.faq-item:hover{border-color:rgba(139,0,0,.35);box-shadow:0 6px 18px rgba(2,6,23,.07)}
+.ocb-chip{display:inline-flex;align-items:center;gap:6px;transition:transform .2s,border-color .2s}
+.ocb-chip:hover{transform:translateY(-2px);border-color:rgba(139,0,0,.35)}
+.ocb-chip svg{color:#8B0000}
+.ocb-cta a{transition:transform .22s,box-shadow .22s}
+.ocb-cta a:hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(0,0,0,.25)}
+.ocb-fact .n{position:relative}
+html.ocb-anim-ready .ocb-rv{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
+html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){html.ocb-anim-ready .ocb-rv{opacity:1!important;transform:none!important;transition:none!important}.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:none}}
+
+/* Chip icons. Webflow's rich-text sanitizer strips inline <svg> whenever a post is
+   re-saved in the Editor, so the icons are drawn from CSS on a <span> instead. */
+.ocb-ic{display:inline-block;width:15px;height:15px;flex:0 0 auto;vertical-align:-2px;background-repeat:no-repeat;background-position:center;background-size:contain}
+.ocb-ic-pin{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z'/><circle cx='12' cy='10' r='3'/></svg>")}
+.ocb-ic-home{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z'/><polyline points='9 22 9 12 15 12 15 22'/></svg>")}
+.ocb-ic-phone{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z'/></svg>")}
+.ocb-cta .ocb-ic{filter:brightness(0) saturate(100%) invert(9%) sepia(64%) saturate(4000%) hue-rotate(348deg)}
+</style></div>
+
+<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">February 9, 2027</span></div></div>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
+  <span class="ocb-eyebrow">Quick answer</span>
+  <p style="margin:0;font-size:17.9px;line-height:1.65"><strong>In a typical Seattle bathroom remodel, tile work &mdash; materials, prep and setting labor together &mdash; lands around 15&ndash;25% of the total budget.</strong> Plumbing and fixtures usually claim the biggest slice, general labor across trades runs a third to a half of everything, and tile sits in the middle of the stack: big enough to matter, small enough that gutting the tile line to save the project is a false economy. Our tile pricing itself is simple &mdash; $14&ndash;$26 per square foot installed, labor from $11 &mdash; and this article is about where that number sits among everything else you are paying for.</p>
+  <div class="ocb-chips">
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-pin"></span> King &amp; Snohomish County</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-home"></span> Seattle remodels &amp; condos</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-phone"></span> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
+  </div>
+</div></div>
+
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-facts">
+  <div class="ocb-fact"><span class="n">15&ndash;25%</span><p>of a full bathroom remodel budget is a normal share for tile work &mdash; floor, shower surround, and the waterproofing assembly behind it. Showers push the share up; floor-only refreshes pull it down.</p></div>
+  <div class="ocb-fact"><span class="n">$14&ndash;$26/sq ft</span><p>our installed tile range &mdash; labor from $11/sq ft plus setting materials and prep. A standard tub surround plus floor is roughly 100&ndash;120 sq ft of tile work, which is how the share above gets calculated.</p></div>
+  <div class="ocb-fact"><span class="n">24 hours</span><p>the flood test every shower pan gets before tile goes on, photographed and kept on file. It lives inside the tile line of the budget, and it is the part of the remodel you will never see and always rely on.</p></div>
+</div></div></div>
+
+<h2>The Budget Nobody Itemizes</h2>
+
+<p>Ask what a bathroom remodel costs in Seattle and you will get a range wide enough to be useless &mdash; because &ldquo;remodel&rdquo; spans everything from a fixture swap to moving walls. Ask instead <em>where the money goes</em>, and the answer gets useful fast. A full remodel is really six or seven small projects stacked in a sequence: demolition, rough plumbing and electrical, waterproofing and tile, fixtures, vanity and counters, paint and trim. Each has its own line, and knowing the normal proportions is how you spot the quote where one line is doing something strange.</p>
+
+<p>The proportions below are what we see across the remodels we tile in Seattle &mdash; from Ballard bungalows to Belltown condos. Treat them as shares, not gospel: a freestanding tub or a moved drain rearranges everything. But when a bid deviates wildly from these shapes with no explanation, that is your cue to ask why.</p>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-card">
+  <h3 style="margin:0 0 10px;font-size:18.5px;font-weight:900;color:#5c0000">Where a Seattle Bathroom Remodel Budget Goes</h3>
+  <div style="overflow-x:auto"><table class="ocb-table">
+    <tr><th>Line item</th><th>Typical share</th><th>What moves it</th></tr>
+    <tr><td><strong>Labor, all trades</strong></td><td>35&ndash;50% of total</td><td>Seattle trade labor is expensive; it is the single reason identical remodels cost less almost anywhere else</td></tr>
+    <tr><td><strong>Plumbing &amp; fixtures</strong></td><td>20&ndash;30%</td><td>Moving a drain or supply line costs multiples of reusing the layout; fixture taste ranges from modest to unbounded</td></tr>
+    <tr><td><strong>Tile work, complete</strong></td><td>15&ndash;25%</td><td>Shower vs floor-only, tile choice, substrate prep, and the waterproofing assembly behind the shower</td></tr>
+    <tr><td><strong>Vanity, counters, storage</strong></td><td>10&ndash;20%</td><td>Stock vs custom cabinetry; stone counters at bathroom sizes are small slabs but real money</td></tr>
+    <tr><td><strong>Electrical &amp; ventilation</strong></td><td>5&ndash;10%</td><td>New circuits, lighting, a proper fan &mdash; more if a heated floor or panel work is involved</td></tr>
+    <tr><td><strong>Demolition &amp; disposal</strong></td><td>3&ndash;7%</td><td>One layer of vinyl is cheap; a 1940s mortar-bed bathroom is not</td></tr>
+    <tr><td><strong>Permits &amp; sundries</strong></td><td>2&ndash;5%</td><td>Permits, protection, dump fees, the hundred small items every job eats</td></tr>
+  </table></div>
+</div></div>
+
+<h2>Why Tile Sits in the Middle of the Stack</h2>
+
+<p>Tile's share surprises people in both directions. Homeowners who think of tile as decoration are surprised it claims a fifth of the budget; homeowners who have heard shower-remodel horror stories are surprised it is not half. The explanation is what the tile line actually contains. It is not squares of porcelain &mdash; those are often the cheapest component in it. It is substrate prep, an uncoupling membrane on the floor, a pre-slope and bonded membrane in the shower, a photographed 24-hour flood test, setting labor, grout, and silicone. The visible tile is the receipt; the assembly is the purchase. We broke that anatomy down in <a href="/blog/bathroom-tile-installation-cost-seattle">what bathroom tile installation costs in Seattle</a> and, for the wet side specifically, in <a href="/blog/cost-to-tile-a-shower">what a tiled shower costs</a>.</p>
+
+<p>It is also the line with the longest consequences. A mid-grade faucet and a premium faucet both hold water for decades; a shower waterproofed properly and one tiled straight over cement board diverge within a few years, and the cheap version takes the ceiling below with it. Which is why our advice on trimming a remodel budget is consistent: economize on the things that unscrew &mdash; fixtures, mirrors, hardware, even the vanity &mdash; and never on the things that get buried.</p>
+
+<h2>What Moves Tile&rsquo;s Share Up</h2>
+
+<p><strong>A shower, first and always.</strong> A floor-only refresh keeps tile work near the bottom of its range; a full tiled shower &mdash; pan, walls, niche, glass-ready edges &mdash; is the most labor-dense part of the entire remodel and drags the share toward 25%. A <a href="/blog/curbless-shower-build-mercer-island">curbless shower</a> goes further still, because the floor structure has to be modified before waterproofing even starts.</p>
+
+<p><strong>Tile choice, in labor more than material.</strong> Large-format tile demands a flatter substrate and slower setting. Herringbone and stacked patterns add cutting and layout hours. Mosaics are slow per square foot. The tile itself can double in price and move the total modestly; the labor its installation demands is what moves the line.</p>
+
+<p><strong>What demolition finds.</strong> Pre-1950 Seattle housing stock hides mortar beds, plank subfloors, and the occasional failed pan under intact-looking surfaces. An honest bid carries a named contingency rate for this; a suspiciously tight one discovers it mid-job, when you have no leverage.</p>
+
+<p><strong>Extras that ride the tile line.</strong> A <a href="/blog/heated-bathroom-floor-cost">heated floor</a> adds its system cost plus an electrician. A second tiled wall, a tiled ceiling over a steam shower, a <a href="/blog/kitchen-backsplash-installation-cost">backsplash-height vanity wall</a> &mdash; each is a small project with its own prep and edge work.</p>
+
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-2col">
+  <div class="ocb-card" style="margin:0">
+    <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#5c0000">Worth every dollar in the tile line</h3>
+    <ul class="ocb-check">
+      <li>Substrate prep &mdash; flattening, membrane, deflection fixes</li>
+      <li>The full waterproofing assembly, by product name</li>
+      <li>The photographed 24-hour flood test</li>
+      <li>Layout time, so cuts land where you will not stare at them</li>
+      <li>Silicone at every change of plane instead of grout</li>
+      <li>A contingency rate agreed before demolition</li>
+    </ul>
+  </div>
+  <div class="ocb-card" style="margin:0">
+    <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#334155">Fine places to save instead</h3>
+    <ul class="ocb-check ocb-x">
+      <li>Fixture brands &mdash; mid-tier valves hold water like premium ones</li>
+      <li>The vanity: stock cabinet, nice counter reads as custom</li>
+      <li>Tile itself &mdash; a $6 porcelain set well beats a $30 tile set badly</li>
+      <li>Accent strips and niches in pricey mosaic &mdash; one is plenty</li>
+      <li>Hardware, mirrors, lighting &mdash; all upgradable later</li>
+      <li>Anything that unscrews &mdash; nothing behind tile does</li>
+    </ul>
+  </div>
+</div></div></div>
+
+<h2>The Timing Tax: Where Tile Sits in the Sequence</h2>
+
+<p>Tile is a mid-project trade, and that position matters to your budget in a way no line item shows. Rough plumbing and electrical must be finished, inspected and closed up before waterproofing starts; vanity, glass and trim cannot go in until grout has cured. So when tile slips, everything behind it slips, and remodel schedules bleed money quietly &mdash; extended rentals, a household living around one bathroom, trades rebooked at their convenience rather than yours. A realistic tile schedule for a full bathroom is seven to nine working days including cure times and the flood test; we published the <a href="/blog/how-long-to-tile-a-bathroom">day-by-day calendar</a> separately. Bids built on compressing that week are not saving you money; they are moving the cost somewhere you cannot see it yet.</p>
+
+<h2>Reading a Remodel Bid Like a Contractor</h2>
+
+<p>When the bids come in, resist comparing bottom lines and compare shapes. Does the tile line name the waterproofing product and include a flood test day? Does labor look like Seattle labor, or like someone planning to discover reality later? Is there a contingency rate in writing? A bid whose tile line is half of everyone else's has not found you a bargain; it has found a step it intends to skip, and the steps that get skipped in bathrooms are always the buried ones.</p>
+
+<p>If tile is the part of your remodel you want priced precisely rather than proportionally, that is what we do all day &mdash; we work alongside your GC or direct with you, and the scope is on the <a href="/seattle/tile-installation-in-seattle-wa">Seattle tile installation page</a>. We will tell you the shape of your tile line before you commit to the whole stack.</p>
+
+<div data-rt-embed-type='true'><!-- FAQ accordion + JSON-LD -->
+<div class="faq-wrap ocb" aria-labelledby="faq-title">
+  <h2 id="faq-title" class="faq-title">Seattle Bathroom Remodel Budgets: What Homeowners Ask Us</h2>
+  <div class="faq-items" role="list">
+    <details class="faq-item" role="listitem"><summary class="faq-q">How much of a bathroom remodel budget goes to tile?</summary><div class="faq-a">Typically 15–25% once you count everything the tile line actually contains: substrate prep, waterproofing, the flood test, setting labor, grout and silicone, plus the tile itself. A floor-only refresh sits at the low end; a full tiled shower with a niche and glass-ready edges pushes toward the high end.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">What is the biggest line in a Seattle bathroom remodel?</summary><div class="faq-a">Labor, taken across all trades — usually 35–50% of the total. Seattle trade labor is among the most expensive in the country, which is why the same remodel costs meaningfully less in most other metros. Plumbing and fixtures are usually the largest single category after that.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">How can I keep tile costs down without regretting it?</summary><div class="faq-a">Save on the tile, never on the installation. A modest porcelain over a properly prepped, properly waterproofed substrate outperforms premium tile set over shortcuts every time. Keep patterns simple, limit mosaic to one accent, reuse the shower footprint — and leave the membrane, flood test and prep untouched.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Does moving the plumbing really change the budget that much?</summary><div class="faq-a">Yes — it is often the single most expensive decision in the room. Moving a drain or valve means opening floors or walls, rerouting supply and waste lines, and inspection, all before anything visible happens. Keeping the layout and upgrading everything within it is the classic budget-saver.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Is a tiled shower worth the extra cost over a prefab unit?</summary><div class="faq-a">If you plan to stay, usually yes: tile outlasts acrylic, repairs locally instead of wholesale, and reads as quality to any future buyer. If you are selling within a couple of years, a clean prefab in a secondary bath is honest value. We will tell you which side of that line your project sits on.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">What share should the waterproofing be? Can I trim it?</summary><div class="faq-a">It lives inside the tile line rather than as its own percentage, and no — it is the one part of the room with no cheap substitute. Pre-slope, bonded membrane, sealed corners and a photographed 24-hour flood test are what stand between your shower and the ceiling below it. Trim fixtures instead.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Do condo remodels in Seattle cost more than houses?</summary><div class="faq-a">Per square foot, usually yes. Elevator reservations, protected corridors, HOA work-hour rules, and debris rules add hours to every trade, tile included. The materials are identical; the logistics are the surcharge. We price those hours up front rather than discovering them on day one.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">What does OC Flooring charge for the tile portion?</summary><div class="faq-a">Installed tile runs $14–$26 per square foot with labor from $11, depending on tile, layout and what is under the old floor. Every shower gets a pre-slope, bonded membrane and a photographed 24-hour flood test, and the work carries our 2-year warranty. We quote the tile line in writing so it can sit cleanly inside your remodel budget.</div></details>
+  </div>
+</div>
+
+<style>
+  .faq-wrap{--line:#e5e7eb;margin:28px auto;padding:20px;border:1px solid var(--line);border-radius:16px;background:#fff;box-shadow:0 8px 30px rgba(2,6,23,.06)}
+  .faq-title{margin:0 0 14px;font-size:24px;font-weight:900;text-align:center;color:#5c0000}
+  .faq-items{display:grid;gap:10px}
+  .faq-item{border:1px solid var(--line);border-radius:14px;background:#f9fafb;overflow:hidden}
+  .faq-q{cursor:pointer;display:block;padding:14px 16px;font-weight:800;color:#0f172a}
+  .faq-q::-webkit-details-marker{display:none}
+  .faq-item[open] .faq-q{background:linear-gradient(180deg, rgba(139,0,0,.08), rgba(139,0,0,.02))}
+  .faq-a{padding:0 16px 14px;color:#1f2937;line-height:1.6}
+</style>
+
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How much of a bathroom remodel budget goes to tile?", "acceptedAnswer": {"@type": "Answer", "text": "Typically 15–25% once you count everything the tile line actually contains: substrate prep, waterproofing, the flood test, setting labor, grout and silicone, plus the tile itself. A floor-only refresh sits at the low end; a full tiled shower with a niche and glass-ready edges pushes toward the high end."}}, {"@type": "Question", "name": "What is the biggest line in a Seattle bathroom remodel?", "acceptedAnswer": {"@type": "Answer", "text": "Labor, taken across all trades — usually 35–50% of the total. Seattle trade labor is among the most expensive in the country, which is why the same remodel costs meaningfully less in most other metros. Plumbing and fixtures are usually the largest single category after that."}}, {"@type": "Question", "name": "How can I keep tile costs down without regretting it?", "acceptedAnswer": {"@type": "Answer", "text": "Save on the tile, never on the installation. A modest porcelain over a properly prepped, properly waterproofed substrate outperforms premium tile set over shortcuts every time. Keep patterns simple, limit mosaic to one accent, reuse the shower footprint — and leave the membrane, flood test and prep untouched."}}, {"@type": "Question", "name": "Does moving the plumbing really change the budget that much?", "acceptedAnswer": {"@type": "Answer", "text": "Yes — it is often the single most expensive decision in the room. Moving a drain or valve means opening floors or walls, rerouting supply and waste lines, and inspection, all before anything visible happens. Keeping the layout and upgrading everything within it is the classic budget-saver."}}, {"@type": "Question", "name": "Is a tiled shower worth the extra cost over a prefab unit?", "acceptedAnswer": {"@type": "Answer", "text": "If you plan to stay, usually yes: tile outlasts acrylic, repairs locally instead of wholesale, and reads as quality to any future buyer. If you are selling within a couple of years, a clean prefab in a secondary bath is honest value. We will tell you which side of that line your project sits on."}}, {"@type": "Question", "name": "What share should the waterproofing be? Can I trim it?", "acceptedAnswer": {"@type": "Answer", "text": "It lives inside the tile line rather than as its own percentage, and no — it is the one part of the room with no cheap substitute. Pre-slope, bonded membrane, sealed corners and a photographed 24-hour flood test are what stand between your shower and the ceiling below it. Trim fixtures instead."}}, {"@type": "Question", "name": "Do condo remodels in Seattle cost more than houses?", "acceptedAnswer": {"@type": "Answer", "text": "Per square foot, usually yes. Elevator reservations, protected corridors, HOA work-hour rules, and debris rules add hours to every trade, tile included. The materials are identical; the logistics are the surcharge. We price those hours up front rather than discovering them on day one."}}, {"@type": "Question", "name": "What does OC Flooring charge for the tile portion?", "acceptedAnswer": {"@type": "Answer", "text": "Installed tile runs $14–$26 per square foot with labor from $11, depending on tile, layout and what is under the old floor. Every shower gets a pre-slope, bonded membrane and a photographed 24-hour flood test, and the work carries our 2-year warranty. We quote the tile line in writing so it can sit cleanly inside your remodel budget."}}]}
+</script></div>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-cta" style="margin:30px 0">
+  <style>
+    html body .post-body .ocb-cta h2, .ocb-cta h2{color:#fff!important}
+    html body .post-body .ocb-cta .ocb-cta-sub, .ocb-cta .ocb-cta-sub{color:rgba(255,255,255,.88)!important}
+    html body .post-body .ocb-cta .ocb-cta-chips span, .ocb-cta .ocb-cta-chips span{color:rgba(255,255,255,.94)!important}
+    html body .post-body .ocb-cta a.ocb-cta-ghost, .ocb-cta a.ocb-cta-ghost{color:#fff!important;text-decoration:none!important}
+    html body .post-body .ocb-cta a.ocb-cta-gold, .ocb-cta a.ocb-cta-gold{color:#fbbc04!important}
+    html body .post-body .ocb-cta a.ocb-cta-phone, .ocb-cta a.ocb-cta-phone{color:#5c0000!important;text-decoration:none!important}
+  </style>
+  <div style="background:linear-gradient(135deg,#8B0000,#5c0000);border-radius:20px;padding:28px 24px;color:#fff;text-align:center;box-shadow:0 14px 34px rgba(92,0,0,.3)">
+    <h2 style="margin:0 0 6px;color:#fff!important;font-size:24px;font-weight:900">Want the Tile Line Priced Before You Commit?</h2>
+    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.92)!important;font-size:16.3px">Bring us the bathroom &mdash; or just the plan &mdash; and we will put a real number on the tile work, waterproofing and flood test included, so the biggest buried line in your remodel is the one you understand best. Free in-home estimates across King &amp; Snohomish County.</p>
+    <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
+      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff!important;color:#5c0000!important;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none!important"><span class="ocb-ic ocb-ic-phone"></span> (425) 595-1079</a>
+      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.16)!important;border:1px solid rgba(255,255,255,.55);color:#fff!important;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none!important">Book My Free Consultation</a>
+    </div>
+    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.95)!important">
+      <span>✓ Since 2013</span><span>✓ 1,000+ floors</span><span>✓ 1-yr workmanship warranty</span><span>✓ Licensed &amp; insured</span><span>✓ Financing available</span>
+    </div>
+    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04!important;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
+  </div>
+</div></div>
+
+<p><strong>Related reading:</strong> <a href="/blog/bathroom-tile-installation-cost-seattle">Bathroom tile installation cost in Seattle</a> · <a href="/blog/cost-to-tile-a-shower">What a tiled shower costs</a> · <a href="/blog/how-long-to-tile-a-bathroom">How long a bathroom takes to tile</a> · <a href="/blog/heated-bathroom-floor-cost">Heated bathroom floor costs</a> · <a href="/seattle/tile-installation-in-seattle-wa">Tile installation in Seattle</a> · <a href="/contact">Book a free estimate</a></p>
+
+<div data-rt-embed-type='true'><script>
+(function(){try{
+var els=document.querySelectorAll('.ocb-card,.ocb-fact,.ocb-tri,.faq-item');
+if(!('IntersectionObserver' in window)||!els.length)return;
+document.documentElement.classList.add('ocb-anim-ready');
+els.forEach(function(e,i){e.classList.add('ocb-rv');e.style.transitionDelay=Math.min((i%6)*70,350)+'ms'});
+var io=new IntersectionObserver(function(en){en.forEach(function(x){if(x.isIntersecting){x.target.classList.add('ocb-in');io.unobserve(x.target)}})},{threshold:.12,rootMargin:'0px 0px -8% 0px'});
+els.forEach(function(e){io.observe(e)});
+}catch(e){}})();
+</script></div>

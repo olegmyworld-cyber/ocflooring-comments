@@ -1,0 +1,198 @@
+<div data-rt-embed-type='true'><style>
+.ocb{--ink:#0f172a;--muted:#64748b;--line:#e5e7eb;--soft:#f8fafc;--brand:#8B0000;--brand2:#5c0000;--gold:#fbbc04;font-family:'Mulish',Inter,system-ui,sans-serif;color:var(--ink)}
+.ocb *{box-sizing:border-box}
+.ocb-card{border:1px solid var(--line);border-radius:18px;background:#fff;box-shadow:0 10px 30px rgba(2,6,23,.06);padding:22px;margin:26px 0}
+.ocb-eyebrow{display:inline-block;background:rgba(139,0,0,.08);color:var(--brand2);border:1px solid rgba(139,0,0,.2);border-radius:999px;padding:5px 12px;font-size:12.5px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;margin-bottom:10px}
+.ocb-chips{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0 0}
+.ocb-chip{background:var(--soft);border:1px solid var(--line);border-radius:999px;padding:6px 12px;font-size:13.6px;font-weight:700}
+.ocb-table{width:100%;border-collapse:collapse;font-size:15.2px}
+.ocb-table th,.ocb-table td{padding:11px 10px;text-align:left;border-bottom:1px solid var(--line)}
+.ocb-table th{background:var(--soft);font-weight:800;font-size:13.6px;letter-spacing:.02em}
+.ocb-table tr:last-child td{border-bottom:0}
+.ocb-table td strong{color:var(--brand2)}
+.ocb-2col{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media(max-width:680px){.ocb-2col{grid-template-columns:1fr}}
+.ocb-check{list-style:none;padding:0;margin:10px 0 0}
+.ocb-check li{padding-left:26px;position:relative;margin:7px 0;line-height:1.55}
+.ocb-check li:before{content:"✓";position:absolute;left:0;color:var(--brand);font-weight:900}
+.ocb-x li:before{content:"✕";color:#94a3b8}
+html body .post-body .ocb-facts, .ocb-facts{display:grid!important;grid-template-columns:repeat(3,1fr)!important;gap:12px!important;margin:8px 0!important}
+@media(max-width:680px){html body .post-body .ocb-facts, .ocb-facts{grid-template-columns:1fr!important}}
+.ocb-fact{background:linear-gradient(180deg,#fff,#f8fafc);border:1px solid var(--line);border-radius:16px;padding:16px}
+.ocb-fact .n{font-size:24px;font-weight:900;color:var(--brand2);display:block;margin-bottom:4px}
+html body .post-body .ocb-fact p, .ocb-fact p{margin:0!important;font-size:14.7px!important;color:#334155!important;line-height:1.5!important}
+
+.ocb-card,.ocb-fact,.ocb-tri{transition:transform .28s ease,box-shadow .28s ease}
+.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:translateY(-4px);box-shadow:0 16px 40px rgba(2,6,23,.12)}
+.faq-item{transition:border-color .25s,box-shadow .25s}
+.faq-item:hover{border-color:rgba(139,0,0,.35);box-shadow:0 6px 18px rgba(2,6,23,.07)}
+.ocb-chip{display:inline-flex;align-items:center;gap:6px;transition:transform .2s,border-color .2s}
+.ocb-chip:hover{transform:translateY(-2px);border-color:rgba(139,0,0,.35)}
+.ocb-chip svg{color:#8B0000}
+.ocb-cta a{transition:transform .22s,box-shadow .22s}
+.ocb-cta a:hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(0,0,0,.25)}
+.ocb-fact .n{position:relative}
+html.ocb-anim-ready .ocb-rv{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
+html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){html.ocb-anim-ready .ocb-rv{opacity:1!important;transform:none!important;transition:none!important}.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:none}}
+
+/* Chip icons. Webflow's rich-text sanitizer strips inline <svg> whenever a post is
+   re-saved in the Editor, so the icons are drawn from CSS on a <span> instead. */
+.ocb-ic{display:inline-block;width:15px;height:15px;flex:0 0 auto;vertical-align:-2px;background-repeat:no-repeat;background-position:center;background-size:contain}
+.ocb-ic-pin{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z'/><circle cx='12' cy='10' r='3'/></svg>")}
+.ocb-ic-home{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z'/><polyline points='9 22 9 12 15 12 15 22'/></svg>")}
+.ocb-ic-phone{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z'/></svg>")}
+.ocb-cta .ocb-ic{filter:brightness(0) saturate(100%) invert(9%) sepia(64%) saturate(4000%) hue-rotate(348deg)}
+</style></div>
+
+<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">April 8, 2027</span></div></div>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
+  <span class="ocb-eyebrow">Quick answer</span>
+  <p style="margin:0;font-size:17.9px;line-height:1.65"><strong>Premium carpet is worth the money when the money buys engineering &mdash; better fiber, higher density, tighter twist, a warranty with substance &mdash; and wasted when it buys adjectives.</strong> The two are packaged to look identical on a showroom rack, and the difference is printed on the back of the sample, not the front. The honest test is per-year-of-life math: a floor that costs half again as much but credibly lasts twice as long, in a room you will still own when it matters, is the cheap option wearing a high price tag. Here is how to tell which one you are holding.</p>
+  <div class="ocb-chips">
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-pin"></span> King &amp; Snohomish County</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-home"></span> Medina &amp; Eastside homes</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-phone"></span> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
+  </div>
+</div></div>
+
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-facts">
+  <div class="ocb-fact"><span class="n">From $1.49/sq ft</span><p>where installed carpet starts with us &mdash; material, pad and labor. Every step up from there should buy measurable engineering: fiber, density, twist. We will show you exactly what each step adds.</p></div>
+  <div class="ocb-fact"><span class="n">20+ samples</span><p>in the mobile showroom, including the premium lines &mdash; so a $2 carpet and a $6 carpet can lie side by side on your own floor, in your own light, where the differences are honest.</p></div>
+  <div class="ocb-fact"><span class="n">3 pad grades</span><p>come to every estimate, because the pad is the cheapest place money visibly shows. Premium carpet over a bargain pad wears like a mid-grade &mdash; the floor is a system, not a face yarn.</p></div>
+</div></div></div>
+
+<h2>What &ldquo;Premium&rdquo; Actually Buys &mdash; and What It Doesn&rsquo;t</h2>
+
+<p>Carpet pricing runs on a wider spread than almost any other flooring: the most expensive broadloom on the market costs many multiples of the cheapest, and both are, to a casual hand in a showroom, soft beige fuzz. That spread is real &mdash; but it is not evenly real. Part of the price ladder is engineering: better polymer, more yarn per square inch, tighter twist, denser backing, dye methods that survive a decade of cleaning. And part of it is positioning: trademark softness names, brand tiers, boutique labels on carpet that rolled out of the same handful of mills as everything else. The engineering shows up in year seven. The positioning shows up only on the invoice.</p>
+
+<p>Our job at the estimate is separating the two, because we would rather sell you a mid-priced carpet that is genuinely built than a prestige label that is mid-priced carpet in a better font. The good news is that the built quality is checkable &mdash; most of it from the sample in your hand.</p>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-card">
+  <h3 style="margin:0 0 10px;font-size:18.5px;font-weight:900;color:#5c0000">Where the Money Shows &mdash; and Where It Is Label</h3>
+  <div style="overflow-x:auto"><table class="ocb-table">
+    <tr><th>You are paying for</th><th>Engineering or label?</th><th>The honest read</th></tr>
+    <tr><td><strong>Fiber system</strong></td><td>Engineering</td><td>Premium nylon and wool genuinely outperform; the polymer is most of what you feel in year ten</td></tr>
+    <tr><td><strong>Density</strong></td><td>Engineering</td><td>More yarn packed per square inch is the single best predictor of how a carpet wears</td></tr>
+    <tr><td><strong>Twist level</strong></td><td>Engineering</td><td>Tighter-twisted yarn springs back; loose twist blooms and mats in the traffic lanes</td></tr>
+    <tr><td><strong>Solution-dyed color</strong></td><td>Engineering</td><td>Color through the fiber survives aggressive cleaning; surface dye slowly scrubs off</td></tr>
+    <tr><td><strong>Texture-retention warranty</strong></td><td>Engineering (mostly)</td><td>A mill only backs 20 years of texture on carpet built to hold it &mdash; read the term as a confidence signal</td></tr>
+    <tr><td><strong>Trademark softness names</strong></td><td>Label</td><td>Ultra-fine soft fibers feel wonderful and can actually wear <em>worse</em> in traffic; softness is a preference, not a grade</td></tr>
+    <tr><td><strong>Brand tier &amp; collection names</strong></td><td>Mostly label</td><td>A few mills make most carpet; the collection name tells you the marketing budget, not the build</td></tr>
+    <tr><td><strong>&ldquo;Stain-proof&rdquo; adjectives</strong></td><td>Label until you read it</td><td>The warranty document lists what is excluded; the adjective on the rack card excludes nothing</td></tr>
+  </table></div>
+</div></div>
+
+<h2>Density and Twist: Read the Back of the Sample, Not the Front</h2>
+
+<p>Two habits will tell you more than any salesperson. First, <strong>bend the sample backward</strong> and look at the base of the pile: the more backing you can see grinning through, the less yarn you are buying, whatever the price says. A dense carpet shows yarn nearly to the root. Second, <strong>look at the tips of the tufts</strong>: a tight, defined twist that holds a point is yarn built to spring back; tufts already blooming open on a brand-new sample are showing you exactly what the whole traffic lane will look like in three years. Fiber choice sits underneath both checks &mdash; the full nylon-polyester-triexta-wool rundown is in our <a href="/blog/carpet-fiber-types">carpet fiber guide</a> &mdash; but the honest summary is that a dense, tightly twisted mid-fiber carpet will outlast a sparse, loosely twisted &ldquo;luxury&rdquo; one, and the backs of the two samples will tell you so in ten seconds.</p>
+
+<h2>Warranty Substance vs Warranty Theater</h2>
+
+<p>Premium carpet comes wrapped in impressive warranty numbers, and they are worth reading &mdash; just not the way the rack card hopes. Lifetime stain coverage sounds definitive until the document excludes oil-based spills, pet incidents beyond named types, dye transfer and anything classified as wear &mdash; and classifies nearly everything as wear. The number that actually signals quality is the <strong>texture-retention</strong> term: a mill that promises your pile will still stand up in twenty years is making a claim about density and twist that costs them real money if the carpet is not built for it. That is the substance. The theater is the adjective count. We unpack the whole document, exclusion by exclusion, in <a href="/blog/carpet-warranty-explained">carpet warranties explained</a> &mdash; and it is worth ten minutes before you pay a premium that turns out to be mostly paperwork.</p>
+
+<h2>The Per-Year-of-Life Math</h2>
+
+<p>Here is the frame that keeps the decision honest. Do not compare price tags; compare <strong>price per year of floor you will actually use</strong>. A mid-grade carpet that gives you eight good years in a busy hallway costs whatever it costs divided by eight. A premium carpet at half again the price that credibly delivers fifteen &mdash; dense, tight-twist, resilient fiber, real texture warranty &mdash; is cheaper per year, before you count the second installation day the mid-grade will need, the tear-out, and the disruption. The honest lifespan inputs are in <a href="/blog/how-long-does-carpet-last">how long carpet lasts</a>, and they depend as much on traffic as on the carpet: the same product lives twice as long in a guest room as on a landing.</p>
+
+<p>Two caveats keep the math from becoming a sales pitch. First, the multiplier only pays if you are still there to collect it &mdash; a premium floor you sell in year four donated most of its value to the next owner. Second, <strong>the system has to match the carpet</strong>: a premium face yarn over the cheapest pad wears like the pad, not the yarn. The pad decision &mdash; covered properly in <a href="/blog/carpet-padding-thickness">our padding guide</a> &mdash; is the least expensive part of the whole quote and the first place a premium purchase quietly gets sabotaged.</p>
+
+<h2>Where Premium Is Wasted</h2>
+
+<p>We sell high-end carpet, and we still talk people out of it weekly, because in the wrong room it is simply money on the floor. <strong>Guest rooms and formal spaces</strong> that see traffic monthly will never wear out a mid-grade carpet &mdash; buy the color you love and keep the difference. <strong>Short ownership horizons</strong>: if the plan is to sell within a few years, buyers reward clean, current and neutral, not fiber engineering they cannot see &mdash; a fresh mid-grade in a current tone does more for the sale than a premium spec, and <a href="/blog/carpet-color-trends">color</a> does more than either. <strong>Fashion-driven households</strong>: if you redecorate on a cycle, buy for the cycle, not for a twenty-year warranty you will cut short at year six. And <strong>the heavy-chaos years</strong> &mdash; toddlers, puppies, a house under construction &mdash; sometimes argue for a competent mid-grade now and the premium install when the chaos graduates. Premium carpet is a long-term instrument. It pays exactly when it is held to term.</p>
+
+<h2>The Medina Version of This Conversation</h2>
+
+<p>In Medina and the close-in Eastside, the calculus tilts &mdash; honestly &mdash; toward the top of the range more often than elsewhere, for reasons that have nothing to do with budget. These tend to be long-hold homes, which is exactly when per-year math favors engineering. The rooms are larger and the sightlines longer, which flatters the depth and evenness premium goods hold over time &mdash; and which makes a matting traffic lane visible from the front door. And wool earns a real look here: its hand, its matte depth, the way it ages &mdash; wearing down gracefully rather than uglying out &mdash; suit rooms built to be kept. In a home where the finishes are meant to last decades, the staircase and the primary suite are where we specify hardest. The mobile showroom brings the premium lines alongside the mid-grades so the comparison happens in your own light, and the details are on our <a href="/city-of-medina/carpet-installation-in-medina-wa">Medina carpet installation page</a>.</p>
+
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-2col">
+  <div class="ocb-card" style="margin:0">
+    <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#5c0000">Spend up when</h3>
+    <ul class="ocb-check">
+      <li>The room takes real traffic &mdash; halls, stairs, family rooms</li>
+      <li>You will own the home long enough to collect the extra years</li>
+      <li>The spec is measurable: density, twist, fiber, solution-dyed color</li>
+      <li>The texture-retention warranty term backs the durability claim</li>
+      <li>The pad underneath is upgraded to match &mdash; system, not face yarn</li>
+      <li>Wool&rsquo;s hand and aging matter to you and the room is built to keep</li>
+    </ul>
+  </div>
+  <div class="ocb-card" style="margin:0">
+    <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#334155">Save your money when</h3>
+    <ul class="ocb-check ocb-x">
+      <li>The room sees occasional use &mdash; guest rooms, formal spaces</li>
+      <li>You are selling within a few years; buyers pay for clean and current</li>
+      <li>The premium is a softness trademark or a collection name, not a build</li>
+      <li>The quote pairs premium carpet with the cheapest pad</li>
+      <li>You redecorate on a cycle shorter than the carpet&rsquo;s payoff</li>
+      <li>The household is mid-chaos &mdash; buy competence now, premium later</li>
+    </ul>
+  </div>
+</div></div></div>
+
+<div data-rt-embed-type='true'><!-- FAQ accordion + JSON-LD -->
+<div class="faq-wrap ocb" aria-labelledby="faq-title">
+  <h2 id="faq-title" class="faq-title">High-End Carpet: What Homeowners Ask Us</h2>
+  <div class="faq-items" role="list">
+    <details class="faq-item" role="listitem"><summary class="faq-q">Is expensive carpet actually worth it?</summary><div class="faq-a">When the price buys engineering — density, twist, fiber quality, solution-dyed color, a real texture-retention warranty — and the room has the traffic and the time horizon to use it, yes: the per-year cost usually beats the mid-grade. When the price buys a softness trademark or a collection name, no. The build quality is checkable on the sample; we will show you how at the estimate.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">How can I tell quality carpet from marketing?</summary><div class="faq-a">Bend the sample backward: the less backing showing through, the more yarn you are buying. Look at the tuft tips: tight, defined twist springs back for years; tufts blooming open on a new sample are previewing your traffic lanes. Then read the texture-retention warranty term, which mills only extend on carpet built to earn it. Those three checks outrank every adjective on the rack card.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">What does high-end carpet cost compared to standard?</summary><div class="faq-a">Installed carpet starts at $1.49 per square foot with us, and the range above that is wide — premium goods can run several times the entry point. That is exactly why we bring twenty-plus samples and all three pad grades to your home: the honest comparison is specific carpets in your specific rooms, with a written price the same visit, not a per-foot figure in the abstract.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Is wool carpet worth the premium?</summary><div class="faq-a">In the right room, genuinely. Wool has a hand and a matte depth synthetics still imitate rather than match, it resists crushing, and it ages gracefully instead of uglying out. The honest caveats: it costs several times a good synthetic, it wants gentler cleaning chemistry, and it is the wrong tool where pet accidents are likely. Long-hold homes and lower-risk rooms are where it earns its keep.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Do those soft "luxury" fibers hold up?</summary><div class="faq-a">Softness and durability pull in opposite directions more often than the marketing admits. Ultra-fine fibers feel extraordinary but present less cross-section per strand, and some mat faster in real traffic than their price implies. If you want the plush hand, put it in bedrooms and keep a denser, tighter-twist product on the paths and stairs. Soft is a preference; density is a grade.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Does a premium carpet need a premium pad?</summary><div class="faq-a">Yes — and it is the cheapest correction in the whole quote. The pad absorbs the impact that would otherwise crush the pile, so a premium face yarn over a bargain pad wears roughly like the pad. Most texture warranties quietly require a specified pad anyway. If the budget forces a choice, upgrading the pad under a mid-grade carpet often beats upgrading the carpet itself.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Should I install high-end carpet before selling the house?</summary><div class="faq-a">Almost never. Buyers reward clean, current and neutral; they cannot see density or twist, and they will not pay for your warranty. A fresh mid-grade in a current color does the staging work at a fraction of the cost. Premium carpet pays over years of ownership — installing it in your final six months donates the difference to the next owner.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Do lifetime stain warranties on premium carpet mean anything?</summary><div class="faq-a">They mean exactly what the document says, which is less than the rack card implies: typical exclusions cover oil-based spills, some pet incidents, dye transfer and anything classed as wear. The warranty worth weighing is texture retention — a mill backing your pile for twenty years is making a measurable claim about the build. Read both before paying for either.</div></details>
+  </div>
+</div>
+
+<style>
+  .faq-wrap{--line:#e5e7eb;margin:28px auto;padding:20px;border:1px solid var(--line);border-radius:16px;background:#fff;box-shadow:0 8px 30px rgba(2,6,23,.06)}
+  .faq-title{margin:0 0 14px;font-size:24px;font-weight:900;text-align:center;color:#5c0000}
+  .faq-items{display:grid;gap:10px}
+  .faq-item{border:1px solid var(--line);border-radius:14px;background:#f9fafb;overflow:hidden}
+  .faq-q{cursor:pointer;display:block;padding:14px 16px;font-weight:800;color:#0f172a}
+  .faq-q::-webkit-details-marker{display:none}
+  .faq-item[open] .faq-q{background:linear-gradient(180deg, rgba(139,0,0,.08), rgba(139,0,0,.02))}
+  .faq-a{padding:0 16px 14px;color:#1f2937;line-height:1.6}
+</style>
+
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Is expensive carpet actually worth it?", "acceptedAnswer": {"@type": "Answer", "text": "When the price buys engineering — density, twist, fiber quality, solution-dyed color, a real texture-retention warranty — and the room has the traffic and the time horizon to use it, yes: the per-year cost usually beats the mid-grade. When the price buys a softness trademark or a collection name, no. The build quality is checkable on the sample; we will show you how at the estimate."}}, {"@type": "Question", "name": "How can I tell quality carpet from marketing?", "acceptedAnswer": {"@type": "Answer", "text": "Bend the sample backward: the less backing showing through, the more yarn you are buying. Look at the tuft tips: tight, defined twist springs back for years; tufts blooming open on a new sample are previewing your traffic lanes. Then read the texture-retention warranty term, which mills only extend on carpet built to earn it. Those three checks outrank every adjective on the rack card."}}, {"@type": "Question", "name": "What does high-end carpet cost compared to standard?", "acceptedAnswer": {"@type": "Answer", "text": "Installed carpet starts at $1.49 per square foot with us, and the range above that is wide — premium goods can run several times the entry point. That is exactly why we bring twenty-plus samples and all three pad grades to your home: the honest comparison is specific carpets in your specific rooms, with a written price the same visit, not a per-foot figure in the abstract."}}, {"@type": "Question", "name": "Is wool carpet worth the premium?", "acceptedAnswer": {"@type": "Answer", "text": "In the right room, genuinely. Wool has a hand and a matte depth synthetics still imitate rather than match, it resists crushing, and it ages gracefully instead of uglying out. The honest caveats: it costs several times a good synthetic, it wants gentler cleaning chemistry, and it is the wrong tool where pet accidents are likely. Long-hold homes and lower-risk rooms are where it earns its keep."}}, {"@type": "Question", "name": "Do those soft \"luxury\" fibers hold up?", "acceptedAnswer": {"@type": "Answer", "text": "Softness and durability pull in opposite directions more often than the marketing admits. Ultra-fine fibers feel extraordinary but present less cross-section per strand, and some mat faster in real traffic than their price implies. If you want the plush hand, put it in bedrooms and keep a denser, tighter-twist product on the paths and stairs. Soft is a preference; density is a grade."}}, {"@type": "Question", "name": "Does a premium carpet need a premium pad?", "acceptedAnswer": {"@type": "Answer", "text": "Yes — and it is the cheapest correction in the whole quote. The pad absorbs the impact that would otherwise crush the pile, so a premium face yarn over a bargain pad wears roughly like the pad. Most texture warranties quietly require a specified pad anyway. If the budget forces a choice, upgrading the pad under a mid-grade carpet often beats upgrading the carpet itself."}}, {"@type": "Question", "name": "Should I install high-end carpet before selling the house?", "acceptedAnswer": {"@type": "Answer", "text": "Almost never. Buyers reward clean, current and neutral; they cannot see density or twist, and they will not pay for your warranty. A fresh mid-grade in a current color does the staging work at a fraction of the cost. Premium carpet pays over years of ownership — installing it in your final six months donates the difference to the next owner."}}, {"@type": "Question", "name": "Do lifetime stain warranties on premium carpet mean anything?", "acceptedAnswer": {"@type": "Answer", "text": "They mean exactly what the document says, which is less than the rack card implies: typical exclusions cover oil-based spills, some pet incidents, dye transfer and anything classed as wear. The warranty worth weighing is texture retention — a mill backing your pile for twenty years is making a measurable claim about the build. Read both before paying for either."}}]}
+</script></div>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-cta" style="margin:30px 0">
+  <style>
+    html body .post-body .ocb-cta h2, .ocb-cta h2{color:#fff!important}
+    html body .post-body .ocb-cta .ocb-cta-sub, .ocb-cta .ocb-cta-sub{color:rgba(255,255,255,.88)!important}
+    html body .post-body .ocb-cta .ocb-cta-chips span, .ocb-cta .ocb-cta-chips span{color:rgba(255,255,255,.94)!important}
+    html body .post-body .ocb-cta a.ocb-cta-ghost, .ocb-cta a.ocb-cta-ghost{color:#fff!important;text-decoration:none!important}
+    html body .post-body .ocb-cta a.ocb-cta-gold, .ocb-cta a.ocb-cta-gold{color:#fbbc04!important}
+    html body .post-body .ocb-cta a.ocb-cta-phone, .ocb-cta a.ocb-cta-phone{color:#5c0000!important;text-decoration:none!important}
+  </style>
+  <div style="background:linear-gradient(135deg,#8B0000,#5c0000);border-radius:20px;padding:28px 24px;color:#fff;text-align:center;box-shadow:0 14px 34px rgba(92,0,0,.3)">
+    <h2 style="margin:0 0 6px;color:#fff!important;font-size:24px;font-weight:900">See What the Money Buys, on Your Own Floor</h2>
+    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.92)!important;font-size:16.3px">The mobile showroom brings the premium lines and the honest mid-grades to Medina side by side — twenty-plus samples, all three pad grades, and a written price the same visit. If the smarter answer is the cheaper carpet, we will say so. Free in-home estimates across King &amp; Snohomish County.</p>
+    <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
+      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff!important;color:#5c0000!important;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none!important"><span class="ocb-ic ocb-ic-phone"></span> (425) 595-1079</a>
+      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.16)!important;border:1px solid rgba(255,255,255,.55);color:#fff!important;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none!important">Book My Free Consultation</a>
+    </div>
+    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.95)!important">
+      <span>✓ Since 2013</span><span>✓ 1,000+ floors</span><span>✓ 1-yr workmanship warranty</span><span>✓ Licensed &amp; insured</span><span>✓ Financing available</span>
+    </div>
+    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04!important;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
+  </div>
+</div></div>
+
+<p><strong>Related reading:</strong> <a href="/blog/carpet-fiber-types">Carpet fiber types, honestly compared</a> · <a href="/blog/carpet-warranty-explained">Carpet warranties explained</a> · <a href="/blog/how-long-does-carpet-last">How long carpet lasts</a> · <a href="/blog/carpet-padding-thickness">Choosing carpet pad</a> · <a href="/blog/the-10-best-carpet-brands-reviews-2023-guide">The best carpet brands</a> · <a href="/city-of-medina/carpet-installation-in-medina-wa">Carpet installation in Medina</a> · <a href="/contact">Book a free estimate</a></p>
+
+<div data-rt-embed-type='true'><script>
+(function(){try{
+var els=document.querySelectorAll('.ocb-card,.ocb-fact,.ocb-tri,.faq-item');
+if(!('IntersectionObserver' in window)||!els.length)return;
+document.documentElement.classList.add('ocb-anim-ready');
+els.forEach(function(e,i){e.classList.add('ocb-rv');e.style.transitionDelay=Math.min((i%6)*70,350)+'ms'});
+var io=new IntersectionObserver(function(en){en.forEach(function(x){if(x.isIntersecting){x.target.classList.add('ocb-in');io.unobserve(x.target)}})},{threshold:.12,rootMargin:'0px 0px -8% 0px'});
+els.forEach(function(e){io.observe(e)});
+}catch(e){}})();
+</script></div>

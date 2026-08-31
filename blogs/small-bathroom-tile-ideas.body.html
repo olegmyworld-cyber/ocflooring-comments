@@ -1,0 +1,203 @@
+<div data-rt-embed-type='true'><style>
+.ocb{--ink:#0f172a;--muted:#64748b;--line:#e5e7eb;--soft:#f8fafc;--brand:#8B0000;--brand2:#5c0000;--gold:#fbbc04;font-family:'Mulish',Inter,system-ui,sans-serif;color:var(--ink)}
+.ocb *{box-sizing:border-box}
+.ocb-card{border:1px solid var(--line);border-radius:18px;background:#fff;box-shadow:0 10px 30px rgba(2,6,23,.06);padding:22px;margin:26px 0}
+.ocb-eyebrow{display:inline-block;background:rgba(139,0,0,.08);color:var(--brand2);border:1px solid rgba(139,0,0,.2);border-radius:999px;padding:5px 12px;font-size:12.5px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;margin-bottom:10px}
+.ocb-chips{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0 0}
+.ocb-chip{background:var(--soft);border:1px solid var(--line);border-radius:999px;padding:6px 12px;font-size:13.6px;font-weight:700}
+.ocb-table{width:100%;border-collapse:collapse;font-size:15.2px}
+.ocb-table th,.ocb-table td{padding:11px 10px;text-align:left;border-bottom:1px solid var(--line)}
+.ocb-table th{background:var(--soft);font-weight:800;font-size:13.6px;letter-spacing:.02em}
+.ocb-table tr:last-child td{border-bottom:0}
+.ocb-table td strong{color:var(--brand2)}
+.ocb-2col{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media(max-width:680px){.ocb-2col{grid-template-columns:1fr}}
+.ocb-check{list-style:none;padding:0;margin:10px 0 0}
+.ocb-check li{padding-left:26px;position:relative;margin:7px 0;line-height:1.55}
+.ocb-check li:before{content:"✓";position:absolute;left:0;color:var(--brand);font-weight:900}
+.ocb-x li:before{content:"✕";color:#94a3b8}
+html body .post-body .ocb-facts, .ocb-facts{display:grid!important;grid-template-columns:repeat(3,1fr)!important;gap:12px!important;margin:8px 0!important}
+@media(max-width:680px){html body .post-body .ocb-facts, .ocb-facts{grid-template-columns:1fr!important}}
+.ocb-fact{background:linear-gradient(180deg,#fff,#f8fafc);border:1px solid var(--line);border-radius:16px;padding:16px}
+.ocb-fact .n{font-size:24px;font-weight:900;color:var(--brand2);display:block;margin-bottom:4px}
+html body .post-body .ocb-fact p, .ocb-fact p{margin:0!important;font-size:14.7px!important;color:#334155!important;line-height:1.5!important}
+
+.ocb-card,.ocb-fact,.ocb-tri{transition:transform .28s ease,box-shadow .28s ease}
+.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:translateY(-4px);box-shadow:0 16px 40px rgba(2,6,23,.12)}
+.faq-item{transition:border-color .25s,box-shadow .25s}
+.faq-item:hover{border-color:rgba(139,0,0,.35);box-shadow:0 6px 18px rgba(2,6,23,.07)}
+.ocb-chip{display:inline-flex;align-items:center;gap:6px;transition:transform .2s,border-color .2s}
+.ocb-chip:hover{transform:translateY(-2px);border-color:rgba(139,0,0,.35)}
+.ocb-chip svg{color:#8B0000}
+.ocb-cta a{transition:transform .22s,box-shadow .22s}
+.ocb-cta a:hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(0,0,0,.25)}
+.ocb-fact .n{position:relative}
+html.ocb-anim-ready .ocb-rv{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
+html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){html.ocb-anim-ready .ocb-rv{opacity:1!important;transform:none!important;transition:none!important}.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:none}}
+
+/* Chip icons. Webflow's rich-text sanitizer strips inline <svg> whenever a post is
+   re-saved in the Editor, so the icons are drawn from CSS on a <span> instead. */
+.ocb-ic{display:inline-block;width:15px;height:15px;flex:0 0 auto;vertical-align:-2px;background-repeat:no-repeat;background-position:center;background-size:contain}
+.ocb-ic-pin{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z'/><circle cx='12' cy='10' r='3'/></svg>")}
+.ocb-ic-home{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z'/><polyline points='9 22 9 12 15 12 15 22'/></svg>")}
+.ocb-ic-phone{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z'/></svg>")}
+.ocb-cta .ocb-ic{filter:brightness(0) saturate(100%) invert(9%) sepia(64%) saturate(4000%) hue-rotate(348deg)}
+</style></div>
+
+<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">March 16, 2027</span></div></div>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
+  <span class="ocb-eyebrow">Quick answer</span>
+  <p style="margin:0;font-size:17.9px;line-height:1.65"><strong>Tile makes a small bathroom feel bigger four ways: bigger tile, grout that matches it, one surface that keeps going instead of stopping at every threshold, and lines that pull the eye up.</strong> Fewer grout joints read as more floor; blended grout turns a grid into a plane; running the same tile into the shower erases a visual wall; vertical layouts borrow height the room already has. What tile cannot do is move a wall &mdash; a five-by-eight is still a five-by-eight &mdash; and we will tell you when the money belongs in a glass panel or a pocket door instead of a fancier tile.</p>
+  <div class="ocb-chips">
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-pin"></span> King &amp; Snohomish County</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-home"></span> Woodinville &amp; Eastside homes</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-phone"></span> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
+  </div>
+</div></div>
+
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-facts">
+  <div class="ocb-fact"><span class="n">$14&ndash;$26</span><p>per square foot installed, labor from $11. Small bathrooms sit high in that range per foot &mdash; the fixed work divides across fewer feet &mdash; but the total is the smallest tile bill in the house.</p></div>
+  <div class="ocb-fact"><span class="n">24 hours</span><p>how long every shower pan we build sits full of water before tile goes on, photographed and kept on record. Small showers get the same flood test as big ones &mdash; leaks do not scale down.</p></div>
+  <div class="ocb-fact"><span class="n">1,000+</span><p>floors since 2013 across King &amp; Snohomish County, and a large share of them five-by-eight hall baths exactly like the one you are trying to make feel less like a hallway.</p></div>
+</div></div></div>
+
+<h2>Scale: The Counterintuitive Rule</h2>
+
+<p>The instinct in a small room is small tile &mdash; it feels proportional, like furniture. The instinct is backwards. What makes a small floor feel small is not the room&rsquo;s dimensions; it is the number of lines your eye has to cross. A four-inch grid on a five-by-eight floor is over a hundred grout joints. The same floor in 12&times;24 porcelain is a couple of dozen, and the surface reads as one calm plane instead of graph paper. Large tile in a small room is the single highest-leverage move on this list.</p>
+
+<p>There are two honest limits. First, big tile demands a flat substrate &mdash; lippage you would never notice across a great room is obvious across six feet of bathroom &mdash; so prep is not optional. Second, the shower floor is the exception: that surface has to slope to a drain, which means small mosaic there, and that contrast actually works in your favor. A mosaic shower floor inside a large-format room reads as intentional, like a rug. The rest of the selection logic &mdash; porcelain, finish, hardness &mdash; is the same as any bathroom floor, and we laid it out in <a href="/blog/bathroom-floor-tile-that-lasts">bathroom floor tile that lasts</a>.</p>
+
+<h2>Grout: The Cheapest Square Footage You Can Buy</h2>
+
+<p>Grout color decides whether your tile reads as a surface or a grid, and in a small room that decision is worth more than the tile upgrade you are debating. Grout matched to the tile &mdash; a shade off, not theatrical contrast &mdash; makes the joints disappear and the floor run edge to edge as one piece. High-contrast grout does the opposite: it draws every line, counts every tile, and shrinks the room while it is at it. Contrast can be gorgeous in a big room with something to say; in a powder room it is a cage.</p>
+
+<p>The full argument &mdash; including why white floor grout goes grey and never comes back, and why you should approve a cured sample in your own light &mdash; is in <a href="/blog/choosing-grout-color">our grout color guide</a>. The short version for small rooms: blend, go one shade darker than your instinct on the floor, and spend the drama budget somewhere that is not a line every twelve inches.</p>
+
+<h2>Continuity: Stop Chopping the Room Up</h2>
+
+<p>Every change of material is a border, and every border tells the eye where the room ends. Small bathrooms accumulate borders by default: floor tile stops at the shower curb, wall tile stops at four feet, an accent strip cuts the shower in half. Each one is a fence. Remove them and the same square footage breathes. Run the floor tile into the shower where the design allows &mdash; a curbless or low-curb entry with a matching floor makes a five-foot room borrow the shower&rsquo;s footprint visually, because there is no line saying <em>this is where the floor ends</em>.</p>
+
+<p>The same logic argues for taking wall tile to the ceiling instead of stopping at a wainscot line, and for skipping the accent band that was fashionable for a decade and mostly served to cut showers in half horizontally. One material, carried through, is the whole trick. It also happens to be easier to clean and simpler to build, which is a rare case of the better-looking option being the less fussy one.</p>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-card">
+  <h3 style="margin:0 0 10px;font-size:18.5px;font-weight:900;color:#5c0000">Small-Bathroom Tactics, Ranked Honestly</h3>
+  <div style="overflow-x:auto"><table class="ocb-table">
+    <tr><th>Tactic</th><th>Effect on the room</th><th>The catch</th></tr>
+    <tr><td><strong>Large-format tile</strong></td><td>Biggest single win &mdash; fewer lines, calmer plane</td><td>Needs a genuinely flat substrate; prep is part of the price</td></tr>
+    <tr><td><strong>Grout matched to tile</strong></td><td>Joints vanish; floor reads as one surface</td><td>Skip the contrast trend; it counts your tiles out loud</td></tr>
+    <tr><td><strong>Same tile into the shower</strong></td><td>Erases the biggest border in the room</td><td>Wants a curbless or low-curb design and real waterproofing</td></tr>
+    <tr><td><strong>Tile to the ceiling</strong></td><td>Walls read taller; no horizontal stop line</td><td>More material and labor than a half wall</td></tr>
+    <tr><td><strong>Vertical layout</strong></td><td>Borrows height the room already has</td><td>Wants clean walls; crooked old framing shows it up</td></tr>
+    <tr><td><strong>Light color, satin walls</strong></td><td>Bounces the light a small room is short on</td><td>Keep the floor matte &mdash; gloss underfoot is a slip hazard</td></tr>
+    <tr><td><strong>Busy pattern everywhere</strong></td><td>Shrinks the room</td><td>If you love it, give it one wall or the floor, not both</td></tr>
+  </table></div>
+</div></div>
+
+<h2>Think Vertically &mdash; the Room Has Height to Spare</h2>
+
+<p>A small bathroom is short on floor but almost never short on height, and layout can shift attention from one to the other. Tile set in a vertical stack &mdash; joints aligned straight up rather than offset &mdash; turns every joint into a line pointing at the ceiling. A classic subway brick pattern rotated 90 degrees does the same work with the same tile. Even the humble choice of a taller, narrower tile on the walls nudges the room upward. The pattern options, and what each does to a wall, are in <a href="/blog/subway-tile-patterns">our subway tile pattern guide</a>.</p>
+
+<p>Pair the vertical lines with the continuity rule &mdash; tile to the ceiling, no stop line &mdash; and the walls stop feeling like a box and start feeling like a column of light. This is also where finish matters: a satin or gloss wall tile bounces window light and vanity light around a room that probably has too little of both, which is not a small thing in a Woodinville winter, when the sky spends four months the color of the grout you almost picked. Keep gloss on the walls, though &mdash; floors stay matte or textured, because a small bathroom is still a wet room.</p>
+
+<h2>What Tile Cannot Fix</h2>
+
+<p>Now the honest part. Tile changes how a room reads; it does not change what the room is. If the door swings into the vanity, if two people cannot pass, if the shower is 32 inches and you are not &mdash; no tile solves that. The moves that actually change a small bathroom are layout moves: a glass panel instead of a curtain (the single biggest perceived-space upgrade in most small baths, tile included), a pocket door, a wall-hung vanity that shows floor underneath, a mirror sized to the wall rather than the sink. We would rather you spend on those and set modest tile beautifully than buy showpiece tile for a room whose real problem is the floor plan.</p>
+
+<p>And if the budget conversation gets tight, it is fair to ask whether tile is the answer at all &mdash; we make the honest comparison in <a href="/blog/tile-vs-luxury-vinyl-bathroom">tile vs luxury vinyl in the bathroom</a>. Vinyl cannot do the shower, and it does not carry tile&rsquo;s continuity tricks, but in a rental or a rarely used hall bath it keeps real money in your pocket. When a client is better served by the cheaper floor, saying so is part of the job.</p>
+
+<h2>How This Plays Out in Woodinville</h2>
+
+<p>Most of the small bathrooms we tile around Woodinville live in 1980s and 90s builds &mdash; wine-country ramblers and cul-de-sac two-stories with a five-by-eight hall bath and a primary bath that was generous for its decade and is not for ours. The recipe above lands well in these houses: the framing is straight enough for vertical layouts, the five-by-eight footprint takes 12&times;24 tile with a day of substrate prep, and pulling the tub in favor of a glass-panel shower with a continuous floor is the remodel we quote most. The full scope &mdash; what we tile, how we waterproof it, and the 2-year warranty that covers it &mdash; is on the <a href="/city-of-woodinville/tile-installation-in-woodinville-wa">Woodinville tile installation page</a>.</p>
+
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-2col">
+  <div class="ocb-card" style="margin:0">
+    <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#5c0000">Makes a small bathroom feel bigger</h3>
+    <ul class="ocb-check">
+      <li>Large-format tile with tight, blended grout joints</li>
+      <li>One floor material running through the shower entry</li>
+      <li>Wall tile carried to the ceiling &mdash; no stop line</li>
+      <li>Vertical stack or vertical subway on the walls</li>
+      <li>Light, satin wall tile that bounces the light around</li>
+      <li>A mosaic shower floor framed like a rug, not a patchwork</li>
+    </ul>
+  </div>
+  <div class="ocb-card" style="margin:0">
+    <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#334155">Makes it feel smaller</h3>
+    <ul class="ocb-check ocb-x">
+      <li>Four-inch grid tile with contrasting grout &mdash; graph paper</li>
+      <li>A different material at every threshold and curb</li>
+      <li>Wainscot lines and accent strips cutting walls in half</li>
+      <li>Busy pattern on both the floor and the walls</li>
+      <li>Dark matte everything in a room with one small window</li>
+      <li>A shower curtain where a glass panel could go</li>
+    </ul>
+  </div>
+</div></div></div>
+
+<div data-rt-embed-type='true'><!-- FAQ accordion + JSON-LD -->
+<div class="faq-wrap ocb" aria-labelledby="faq-title">
+  <h2 id="faq-title" class="faq-title">Small Bathroom Tile: What Homeowners Ask Us</h2>
+  <div class="faq-items" role="list">
+    <details class="faq-item" role="listitem"><summary class="faq-q">What size tile makes a small bathroom look bigger?</summary><div class="faq-a">Larger than instinct says - 12x24 porcelain is our default on small bathroom floors. Fewer grout joints read as one calm plane instead of a grid, and that does more for perceived size than any color choice. The shower floor is the exception: it needs mosaic to slope to the drain, and that contrast reads as intentional.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">What grout color is best for a small bathroom?</summary><div class="faq-a">One that matches the tile, usually a shade darker than your first instinct on floors. Blended grout makes joints disappear so the surface runs edge to edge as one piece. High-contrast grout counts every tile out loud and visually shrinks the room - save contrast for big rooms that can afford it.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Should tile go all the way to the ceiling in a small bathroom?</summary><div class="faq-a">Usually yes. A tiled wall that stops at four or five feet draws a horizontal line through the room and makes the ceiling feel lower. Carried to the ceiling, the wall reads taller, there is no dust-catching cap ledge, and the shower gets full-height protection. It costs more in material and labor, and it is worth it more often than not.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Does using the same tile in the shower really make the room feel bigger?</summary><div class="faq-a">Yes - it removes the biggest visual border in the room. When the floor runs through a curbless or low-curb entry without changing material, the eye counts the shower footprint as part of the room. It requires real waterproofing discipline underneath, which is exactly the part of the job we flood-test and photograph.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Can dark tile work in a small bathroom?</summary><div class="faq-a">It can, done deliberately - a dark floor under light walls grounds a room nicely. What sinks small rooms is dark everything, matte everything, in a space with one small window. If you want drama, give it one surface and let the others bounce light. In our grey-sky winters, that light budget matters more than it does in the brochure photos.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Is large-format tile harder to install in a small room?</summary><div class="faq-a">The tile handling is easier - fewer pieces - but the flatness demand is stricter, and small old bathrooms rarely arrive flat. Plan on substrate prep as part of the job. Cuts are also less forgiving: with two dozen tiles on the floor, every cut shows, so layout time matters more, not less.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">What actually makes a small bathroom feel bigger besides tile?</summary><div class="faq-a">A glass shower panel instead of a curtain is the single biggest upgrade, tile included. After that: a wall-hung vanity that shows floor beneath it, a mirror sized to the wall, a pocket door, and decent lighting. We will say so at the estimate if your budget does more good there than in a tile upgrade.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">What does it cost to tile a small bathroom?</summary><div class="faq-a">Our installed tile runs $14 to $26 per square foot with labor from $11. Small rooms sit toward the high end per foot because layout, waterproofing, and mobilization divide across fewer feet - but the totals are the smallest in the house, which is why a small bathroom is usually the most affordable room to do properly.</div></details>
+  </div>
+</div>
+
+<style>
+  .faq-wrap{--line:#e5e7eb;margin:28px auto;padding:20px;border:1px solid var(--line);border-radius:16px;background:#fff;box-shadow:0 8px 30px rgba(2,6,23,.06)}
+  .faq-title{margin:0 0 14px;font-size:24px;font-weight:900;text-align:center;color:#5c0000}
+  .faq-items{display:grid;gap:10px}
+  .faq-item{border:1px solid var(--line);border-radius:14px;background:#f9fafb;overflow:hidden}
+  .faq-q{cursor:pointer;display:block;padding:14px 16px;font-weight:800;color:#0f172a}
+  .faq-q::-webkit-details-marker{display:none}
+  .faq-item[open] .faq-q{background:linear-gradient(180deg, rgba(139,0,0,.08), rgba(139,0,0,.02))}
+  .faq-a{padding:0 16px 14px;color:#1f2937;line-height:1.6}
+</style>
+
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What size tile makes a small bathroom look bigger?", "acceptedAnswer": {"@type": "Answer", "text": "Larger than instinct says - 12x24 porcelain is our default on small bathroom floors. Fewer grout joints read as one calm plane instead of a grid, and that does more for perceived size than any color choice. The shower floor is the exception: it needs mosaic to slope to the drain, and that contrast reads as intentional."}}, {"@type": "Question", "name": "What grout color is best for a small bathroom?", "acceptedAnswer": {"@type": "Answer", "text": "One that matches the tile, usually a shade darker than your first instinct on floors. Blended grout makes joints disappear so the surface runs edge to edge as one piece. High-contrast grout counts every tile out loud and visually shrinks the room - save contrast for big rooms that can afford it."}}, {"@type": "Question", "name": "Should tile go all the way to the ceiling in a small bathroom?", "acceptedAnswer": {"@type": "Answer", "text": "Usually yes. A tiled wall that stops at four or five feet draws a horizontal line through the room and makes the ceiling feel lower. Carried to the ceiling, the wall reads taller, there is no dust-catching cap ledge, and the shower gets full-height protection. It costs more in material and labor, and it is worth it more often than not."}}, {"@type": "Question", "name": "Does using the same tile in the shower really make the room feel bigger?", "acceptedAnswer": {"@type": "Answer", "text": "Yes - it removes the biggest visual border in the room. When the floor runs through a curbless or low-curb entry without changing material, the eye counts the shower footprint as part of the room. It requires real waterproofing discipline underneath, which is exactly the part of the job we flood-test and photograph."}}, {"@type": "Question", "name": "Can dark tile work in a small bathroom?", "acceptedAnswer": {"@type": "Answer", "text": "It can, done deliberately - a dark floor under light walls grounds a room nicely. What sinks small rooms is dark everything, matte everything, in a space with one small window. If you want drama, give it one surface and let the others bounce light. In our grey-sky winters, that light budget matters more than it does in the brochure photos."}}, {"@type": "Question", "name": "Is large-format tile harder to install in a small room?", "acceptedAnswer": {"@type": "Answer", "text": "The tile handling is easier - fewer pieces - but the flatness demand is stricter, and small old bathrooms rarely arrive flat. Plan on substrate prep as part of the job. Cuts are also less forgiving: with two dozen tiles on the floor, every cut shows, so layout time matters more, not less."}}, {"@type": "Question", "name": "What actually makes a small bathroom feel bigger besides tile?", "acceptedAnswer": {"@type": "Answer", "text": "A glass shower panel instead of a curtain is the single biggest upgrade, tile included. After that: a wall-hung vanity that shows floor beneath it, a mirror sized to the wall, a pocket door, and decent lighting. We will say so at the estimate if your budget does more good there than in a tile upgrade."}}, {"@type": "Question", "name": "What does it cost to tile a small bathroom?", "acceptedAnswer": {"@type": "Answer", "text": "Our installed tile runs $14 to $26 per square foot with labor from $11. Small rooms sit toward the high end per foot because layout, waterproofing, and mobilization divide across fewer feet - but the totals are the smallest in the house, which is why a small bathroom is usually the most affordable room to do properly."}}]}
+</script></div>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-cta" style="margin:30px 0">
+  <style>
+    html body .post-body .ocb-cta h2, .ocb-cta h2{color:#fff!important}
+    html body .post-body .ocb-cta .ocb-cta-sub, .ocb-cta .ocb-cta-sub{color:rgba(255,255,255,.88)!important}
+    html body .post-body .ocb-cta .ocb-cta-chips span, .ocb-cta .ocb-cta-chips span{color:rgba(255,255,255,.94)!important}
+    html body .post-body .ocb-cta a.ocb-cta-ghost, .ocb-cta a.ocb-cta-ghost{color:#fff!important;text-decoration:none!important}
+    html body .post-body .ocb-cta a.ocb-cta-gold, .ocb-cta a.ocb-cta-gold{color:#fbbc04!important}
+    html body .post-body .ocb-cta a.ocb-cta-phone, .ocb-cta a.ocb-cta-phone{color:#5c0000!important;text-decoration:none!important}
+  </style>
+  <div style="background:linear-gradient(135deg,#8B0000,#5c0000);border-radius:20px;padding:28px 24px;color:#fff;text-align:center;box-shadow:0 14px 34px rgba(92,0,0,.3)">
+    <h2 style="margin:0 0 6px;color:#fff!important;font-size:24px;font-weight:900">Make the Small Bath Feel Twice Its Size</h2>
+    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.92)!important;font-size:16.3px">We will look at the room, tell you which of these moves your bathroom can actually cash in &mdash; and which dollar belongs in a glass panel instead of the tile. Free in-home estimates across King &amp; Snohomish County.</p>
+    <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
+      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff!important;color:#5c0000!important;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none!important"><span class="ocb-ic ocb-ic-phone"></span> (425) 595-1079</a>
+      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.16)!important;border:1px solid rgba(255,255,255,.55);color:#fff!important;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none!important">Book My Free Consultation</a>
+    </div>
+    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.95)!important">
+      <span>✓ Since 2013</span><span>✓ 1,000+ floors</span><span>✓ 1-yr workmanship warranty</span><span>✓ Licensed &amp; insured</span><span>✓ Financing available</span>
+    </div>
+    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04!important;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
+  </div>
+</div></div>
+
+<p><strong>Related reading:</strong> <a href="/blog/choosing-grout-color">Choosing grout color</a> · <a href="/blog/bathroom-floor-tile-that-lasts">Bathroom floor tile that lasts</a> · <a href="/blog/subway-tile-patterns">Subway tile patterns</a> · <a href="/blog/tile-vs-luxury-vinyl-bathroom">Tile vs luxury vinyl in the bathroom</a> · <a href="/city-of-woodinville/tile-installation-in-woodinville-wa">Tile installation in Woodinville</a> · <a href="/contact">Book a free estimate</a></p>
+
+<div data-rt-embed-type='true'><script>
+(function(){try{
+var els=document.querySelectorAll('.ocb-card,.ocb-fact,.ocb-tri,.faq-item');
+if(!('IntersectionObserver' in window)||!els.length)return;
+document.documentElement.classList.add('ocb-anim-ready');
+els.forEach(function(e,i){e.classList.add('ocb-rv');e.style.transitionDelay=Math.min((i%6)*70,350)+'ms'});
+var io=new IntersectionObserver(function(en){en.forEach(function(x){if(x.isIntersecting){x.target.classList.add('ocb-in');io.unobserve(x.target)}})},{threshold:.12,rootMargin:'0px 0px -8% 0px'});
+els.forEach(function(e){io.observe(e)});
+}catch(e){}})();
+</script></div>

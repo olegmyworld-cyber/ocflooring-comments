@@ -1,0 +1,202 @@
+<div data-rt-embed-type='true'><style>
+.ocb{--ink:#0f172a;--muted:#64748b;--line:#e5e7eb;--soft:#f8fafc;--brand:#8B0000;--brand2:#5c0000;--gold:#fbbc04;font-family:'Mulish',Inter,system-ui,sans-serif;color:var(--ink)}
+.ocb *{box-sizing:border-box}
+.ocb-card{border:1px solid var(--line);border-radius:18px;background:#fff;box-shadow:0 10px 30px rgba(2,6,23,.06);padding:22px;margin:26px 0}
+.ocb-eyebrow{display:inline-block;background:rgba(139,0,0,.08);color:var(--brand2);border:1px solid rgba(139,0,0,.2);border-radius:999px;padding:5px 12px;font-size:12.5px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;margin-bottom:10px}
+.ocb-chips{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0 0}
+.ocb-chip{background:var(--soft);border:1px solid var(--line);border-radius:999px;padding:6px 12px;font-size:13.6px;font-weight:700}
+.ocb-table{width:100%;border-collapse:collapse;font-size:15.2px}
+.ocb-table th,.ocb-table td{padding:11px 10px;text-align:left;border-bottom:1px solid var(--line)}
+.ocb-table th{background:var(--soft);font-weight:800;font-size:13.6px;letter-spacing:.02em}
+.ocb-table tr:last-child td{border-bottom:0}
+.ocb-table td strong{color:var(--brand2)}
+.ocb-2col{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media(max-width:680px){.ocb-2col{grid-template-columns:1fr}}
+.ocb-check{list-style:none;padding:0;margin:10px 0 0}
+.ocb-check li{padding-left:26px;position:relative;margin:7px 0;line-height:1.55}
+.ocb-check li:before{content:"✓";position:absolute;left:0;color:var(--brand);font-weight:900}
+.ocb-x li:before{content:"✕";color:#94a3b8}
+html body .post-body .ocb-facts, .ocb-facts{display:grid!important;grid-template-columns:repeat(3,1fr)!important;gap:12px!important;margin:8px 0!important}
+@media(max-width:680px){html body .post-body .ocb-facts, .ocb-facts{grid-template-columns:1fr!important}}
+.ocb-fact{background:linear-gradient(180deg,#fff,#f8fafc);border:1px solid var(--line);border-radius:16px;padding:16px}
+.ocb-fact .n{font-size:24px;font-weight:900;color:var(--brand2);display:block;margin-bottom:4px}
+html body .post-body .ocb-fact p, .ocb-fact p{margin:0!important;font-size:14.7px!important;color:#334155!important;line-height:1.5!important}
+
+.ocb-card,.ocb-fact,.ocb-tri{transition:transform .28s ease,box-shadow .28s ease}
+.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:translateY(-4px);box-shadow:0 16px 40px rgba(2,6,23,.12)}
+.faq-item{transition:border-color .25s,box-shadow .25s}
+.faq-item:hover{border-color:rgba(139,0,0,.35);box-shadow:0 6px 18px rgba(2,6,23,.07)}
+.ocb-chip{display:inline-flex;align-items:center;gap:6px;transition:transform .2s,border-color .2s}
+.ocb-chip:hover{transform:translateY(-2px);border-color:rgba(139,0,0,.35)}
+.ocb-chip svg{color:#8B0000}
+.ocb-cta a{transition:transform .22s,box-shadow .22s}
+.ocb-cta a:hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(0,0,0,.25)}
+.ocb-fact .n{position:relative}
+html.ocb-anim-ready .ocb-rv{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
+html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){html.ocb-anim-ready .ocb-rv{opacity:1!important;transform:none!important;transition:none!important}.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:none}}
+
+/* Chip icons. Webflow's rich-text sanitizer strips inline <svg> whenever a post is
+   re-saved in the Editor, so the icons are drawn from CSS on a <span> instead. */
+.ocb-ic{display:inline-block;width:15px;height:15px;flex:0 0 auto;vertical-align:-2px;background-repeat:no-repeat;background-position:center;background-size:contain}
+.ocb-ic-pin{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z'/><circle cx='12' cy='10' r='3'/></svg>")}
+.ocb-ic-home{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z'/><polyline points='9 22 9 12 15 12 15 22'/></svg>")}
+.ocb-ic-phone{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z'/></svg>")}
+.ocb-cta .ocb-ic{filter:brightness(0) saturate(100%) invert(9%) sepia(64%) saturate(4000%) hue-rotate(348deg)}
+</style></div>
+
+<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">January 14, 2027</span></div></div>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
+  <span class="ocb-eyebrow">Quick answer</span>
+  <p style="margin:0;font-size:17.9px;line-height:1.65"><strong>Four fibers cover almost every carpet sold: nylon, polyester, triexta and wool.</strong> Nylon is the resilience benchmark &mdash; it springs back where feet actually land, which is why it earns its premium on stairs and hallways. Polyester is softer and cheaper and belongs in bedrooms, not traffic lanes. Triexta sits between them and shines in pet households. Wool is the beautiful, expensive outlier with real care requirements. Pick the fiber by the room, not by the sample that felt nicest in the store &mdash; and then put a proper pad under whichever one you choose.</p>
+  <div class="ocb-chips">
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-pin"></span> King &amp; Snohomish County</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-home"></span> Every room, every budget</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-phone"></span> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
+  </div>
+</div></div>
+
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-facts">
+  <div class="ocb-fact"><span class="n">4 fibers</span><p>do nearly all the work in residential carpet: nylon, polyester, triexta and wool. Everything else on the label &mdash; brand names, trademarks, &ldquo;proprietary&rdquo; yarns &mdash; is one of these four wearing a costume.</p></div>
+  <div class="ocb-fact"><span class="n">From $1.49/sq ft</span><p>where installed carpet starts with us, pad and labor included. Fiber choice is the biggest material swing in the quote, which is why we would rather explain it at your kitchen table than on a price tag.</p></div>
+  <div class="ocb-fact"><span class="n">20+ samples</span><p>ride along in the mobile showroom &mdash; multiple fibers in full-size pieces, plus all three pad grades, so you can compare spring-back and softness on your own floor in your own light.</p></div>
+</div></div></div>
+
+<h2>The Four Fibers That Matter</h2>
+
+<p>Carpet marketing works hard to make this complicated. Underneath every trademark and every &ldquo;revolutionary yarn system&rdquo; are four polymers, and they behave in predictable, physical ways: how well the fiber springs back after being crushed, whether stains soak into it or sit on it, how it takes dye, and what it costs. Once you know those four behaviors, you can walk past ninety percent of the sales talk and ask the only question that matters: <em>which fiber belongs in this particular room?</em></p>
+
+<p>One distinction to hold onto before the table: <strong>wear and stains are different failures.</strong> A carpet that mats flat in the hallway has a resilience problem &mdash; a wear problem. A carpet that holds a wine mark has a stain problem. Fibers that are excellent at one are often mediocre at the other, which is why the &ldquo;best&rdquo; fiber depends entirely on which failure the room in question is most likely to see.</p>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-card">
+  <h3 style="margin:0 0 10px;font-size:18.5px;font-weight:900;color:#5c0000">Carpet Fibers, Compared Honestly</h3>
+  <div style="overflow-x:auto"><table class="ocb-table">
+    <tr><th>Fiber</th><th>Where it wins</th><th>The honest trade-off</th></tr>
+    <tr><td><strong>Nylon</strong></td><td>Resilience &mdash; stairs, halls, family rooms</td><td>Costs more than polyester; conventional versions need stain treatment, solution-dyed versions cost more still</td></tr>
+    <tr><td><strong>Polyester (PET)</strong></td><td>Softness and price &mdash; bedrooms, guest rooms</td><td>Mats under repeated traffic and does not spring back; wonderful underfoot, wrong for hallways</td></tr>
+    <tr><td><strong>Triexta</strong></td><td>Pet households, busy family rooms</td><td>Stain resistance is built into the polymer; slightly springy feel divides opinion, resale name recognition still growing</td></tr>
+    <tr><td><strong>Wool</strong></td><td>Look, feel, longevity in gentle rooms</td><td>Expensive, absorbs moisture, holds odor, and dislikes the aggressive cleaners busy households reach for</td></tr>
+  </table></div>
+</div></div>
+
+<h2>Nylon: the Workhorse</h2>
+
+<p>Nylon&rsquo;s molecule has a useful kind of memory &mdash; crush it under a footstep and it wants to stand back up. That is resilience, and it is the property that decides how a carpet looks in year six, long after softness and color have stopped being news. Hallways, stairs and the path from the couch to the kitchen are where carpet actually dies, and they die by matting, not by staining. Nylon resists exactly that death, which is why we put it on <a href="/blog/best-carpet-for-stairs">stairs</a> almost by default.</p>
+
+<p>The caveat: nylon is naturally absorbent, so its stain resistance comes from either a factory treatment or &mdash; better &mdash; solution dyeing, where pigment is mixed into the polymer before the fiber is extruded. Solution-dyed nylon can be scrubbed with strong cleaners for a decade without fading, which is why it co-headlines our <a href="/blog/best-carpet-for-pets">pet carpet guide</a>. Surface-dyed nylon is still a durable floor; it just asks you to treat spills promptly and clean a little more gently.</p>
+
+<h2>Polyester: Soft, Affordable, Honest About Its Limits</h2>
+
+<p>Polyester&rsquo;s pitch is straightforward: it is the softest mainstream fiber per dollar, it takes color beautifully, and because the polymer itself does not absorb liquid well, it resists most household stains without any treatment. In a bedroom &mdash; a room that sees bare feet, not boots &mdash; that combination is close to unbeatable, and it is why our <a href="/blog/carpet-in-bedrooms">bedroom carpet guide</a> leans polyester without apology.</p>
+
+<p>Its weakness is the mirror of nylon&rsquo;s strength: crushed polyester tends to stay crushed. Run daily traffic over it and the lanes flatten and stay flat &mdash; a fiber failure no cleaning can reverse, as we explain in <a href="/blog/how-long-does-carpet-last">how long carpet lasts</a>. The practical rule is simple: polyester where people lounge, nylon where people walk. And note that oil-based stains are polyester&rsquo;s particular enemy &mdash; the same chemistry that repels water-based spills attracts oily ones, so the kitchen-adjacent family room deserves a different answer.</p>
+
+<h2>Triexta: the Newcomer That Earned Its Place</h2>
+
+<p>Triexta is the youngest of the four, a polymer related to polyester but engineered with better spring-back and with stain resistance built into the molecule itself rather than sprayed on at the factory. Nothing to wear off, nothing to reapply &mdash; you can clean it aggressively for years, which is exactly the profile a house full of dogs and toddlers needs. In pet households it is the benchmark we measure everything else against, alongside solution-dyed nylon.</p>
+
+<p>Trade-offs are modest but real. Underfoot it has a slightly springy, dense feel that most people like and some do not &mdash; a thing you discover by standing on a sample, not by reading about it. On pure resilience in brutal traffic, top-grade nylon still holds a narrow edge. And because the fiber is newer, the very cheapest triexta lines lean on the polymer&rsquo;s reputation while skimping on density &mdash; construction quality still matters, whatever the label says. Our guide to <a href="/blog/stain-resistant-carpet">stain-resistant carpet</a> covers how these claims translate into daily life.</p>
+
+<h2>Wool: Beautiful, Costly, Particular</h2>
+
+<p>Wool is the fiber every synthetic is imitating, and in the right room nothing else feels or ages like it. It is naturally flame-resistant, insulating, and it hides soil remarkably well between cleanings. It is also the most expensive mainstream option by a wide margin, it absorbs moisture and can hold odor, and it reacts badly to the aggressive alkaline and oxygenating cleaners that busy households reach for &mdash; the wrong bottle can permanently discolor it. Homes managing allergies also tend to do better with tight-constructed synthetics that stand up to frequent hot-water extraction, a topic we cover in <a href="/blog/carpet-and-allergies">carpet and allergies</a>.</p>
+
+<p>Our honest advice: wool belongs in adult spaces &mdash; a formal living room, a low-traffic primary suite &mdash; in households prepared to clean it on its own terms. It is a luxury good that rewards owners who treat it like one. If that is not the season of life your house is in, a good solution-dyed nylon delivers most of the look for a fraction of the care burden.</p>
+
+<h2>Matching Fiber to Room, and to Budget</h2>
+
+<p>Put the four together and a sensible house almost specs itself &mdash; and notice that it is rarely one fiber wall to wall. Mixing fibers by room is how you get a floor that performs everywhere without paying the premium everywhere. Construction still matters alongside polymer &mdash; pile height and density change how any fiber wears, which is the subject of <a href="/blog/low-pile-vs-high-pile-carpet">low pile versus high pile</a> &mdash; and under every one of them, the pad is doing half the work of how the floor feels and lasts.</p>
+
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-2col">
+  <div class="ocb-card" style="margin:0">
+    <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#5c0000">The spec we reach for most</h3>
+    <ul class="ocb-check">
+      <li>Stairs &amp; hallways: nylon, densely constructed, mid pile or lower</li>
+      <li>Bedrooms: polyester over a thick, soft pad &mdash; comfort where traffic is light</li>
+      <li>Family rooms with pets or kids: triexta or solution-dyed nylon</li>
+      <li>Formal, low-traffic rooms: wool if the budget and habits fit</li>
+      <li>Rental units and flips: mid-grade polyester &mdash; value where turnover rules</li>
+      <li>Everywhere: the pad grade named in writing, never &ldquo;standard&rdquo;</li>
+    </ul>
+  </div>
+  <div class="ocb-card" style="margin:0">
+    <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#334155">The mistakes we get called to fix</h3>
+    <ul class="ocb-check ocb-x">
+      <li>Polyester on a staircase &mdash; matted lanes inside three years</li>
+      <li>Wool in the mudroom-adjacent hallway of a dog household</li>
+      <li>Premium fiber over bargain pad &mdash; priorities exactly backwards</li>
+      <li>Choosing by softness in the store instead of resilience in the room</li>
+      <li>Trusting &ldquo;stain-proof&rdquo; to cover oil, dye and pet accidents</li>
+      <li>Buying the same carpet for every room because it was simpler that day</li>
+    </ul>
+  </div>
+</div></div></div>
+
+<p>This is also exactly why the mobile showroom exists. Fiber differences are physical &mdash; spring-back, softness, how a sample reads in your light next to your paint &mdash; and none of that survives translation into a spec sheet. We bring twenty-plus full-size samples across these fibers to your door, along with all three pad grades, measure every room and stair, and leave a written price the same visit. What that visit costs you is an hour; what it replaces is a guess. Details on the install side are on our <a href="/seattle/carpet-installation-in-seattle-wa">Seattle carpet installation page</a>, and the money side of the decision is in <a href="/blog/carpet-installation-cost-seattle">what carpet installation costs</a>.</p>
+
+<div data-rt-embed-type='true'><!-- FAQ accordion + JSON-LD -->
+<div class="faq-wrap ocb" aria-labelledby="faq-title">
+  <h2 id="faq-title" class="faq-title">Carpet Fibers: What Homeowners Ask Us</h2>
+  <div class="faq-items" role="list">
+    <details class="faq-item" role="listitem"><summary class="faq-q">What is the best carpet fiber overall?</summary><div class="faq-a">There is no overall — there is best for the room. Nylon wins where feet concentrate: stairs, hallways, family rooms. Polyester wins bedrooms on softness and price. Triexta wins pet households with cleanability built into the polymer. Wool wins formal rooms for owners willing to care for it. A well-specced house usually mixes two or three of them.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Is nylon really worth the premium over polyester?</summary><div class="faq-a">In traffic areas, yes. Nylon springs back after being crushed and polyester largely does not, and matting in the walking lanes is how most carpet actually dies. In a bedroom the premium buys you little, which is exactly where polyester is the smarter spend. Pay for resilience where feet go; pay for softness where they do not.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">What is triexta, and is it just fancy polyester?</summary><div class="faq-a">It is chemically related to polyester but engineered differently: better spring-back, and stain resistance built into the molecule rather than applied as a treatment that wears off. In practice it behaves like a middle point between polyester and nylon with best-in-class cleanability, which is why it anchors so many pet-focused lines.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">What does solution-dyed mean and why does it keep coming up?</summary><div class="faq-a">Conventional carpet is dyed after the fiber is made, so color sits on the surface and aggressive cleaning slowly removes it. Solution-dyed fiber has pigment mixed in before extrusion — the color goes all the way through, like a carrot rather than a radish. It survives a decade of enzyme cleaners and sun exposure far better, which matters most in pet homes and bright rooms.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Is wool carpet practical in a family home?</summary><div class="faq-a">It can be, in the right rooms and with the right habits. Wool is beautiful, insulating and long-lived, but it absorbs moisture, can hold odor, and is damaged by the harsh cleaners most households use on accidents. We steer it toward formal and low-traffic rooms and steer active-pet households toward triexta or solution-dyed nylon instead.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Does fiber matter more than pad?</summary><div class="faq-a">They fail differently, so you need both right. Fiber decides how the surface wears and cleans; pad decides how the floor feels and how fast the fibers crush. A premium fiber over the cheapest pad will still look old early. The pad is the cheaper of the two decisions, which makes upgrading it the best value line in the quote.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Which fiber hides dirt and footprints best?</summary><div class="faq-a">Texture and color do more hiding than polymer, but fiber plays a part: wool masks soil naturally, and textured or twisted constructions in any fiber disguise footprints and vacuum tracks. Mid-tone flecked colors hide the most in every fiber. A smooth, pale, deep plush in any polymer is a full-time housekeeping commitment.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">How do I actually compare fibers before buying?</summary><div class="faq-a">Stand on them, in your house. Press a thumb into the pile and watch it recover; that is the resilience difference between polyester and nylon made visible. We bring twenty-plus full-size samples across these fibers to your home with all three pad grades, so the comparison happens on your floor in your light — and the written price arrives the same visit.</div></details>
+  </div>
+</div>
+
+<style>
+  .faq-wrap{--line:#e5e7eb;margin:28px auto;padding:20px;border:1px solid var(--line);border-radius:16px;background:#fff;box-shadow:0 8px 30px rgba(2,6,23,.06)}
+  .faq-title{margin:0 0 14px;font-size:24px;font-weight:900;text-align:center;color:#5c0000}
+  .faq-items{display:grid;gap:10px}
+  .faq-item{border:1px solid var(--line);border-radius:14px;background:#f9fafb;overflow:hidden}
+  .faq-q{cursor:pointer;display:block;padding:14px 16px;font-weight:800;color:#0f172a}
+  .faq-q::-webkit-details-marker{display:none}
+  .faq-item[open] .faq-q{background:linear-gradient(180deg, rgba(139,0,0,.08), rgba(139,0,0,.02))}
+  .faq-a{padding:0 16px 14px;color:#1f2937;line-height:1.6}
+</style>
+
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What is the best carpet fiber overall?", "acceptedAnswer": {"@type": "Answer", "text": "There is no overall — there is best for the room. Nylon wins where feet concentrate: stairs, hallways, family rooms. Polyester wins bedrooms on softness and price. Triexta wins pet households with cleanability built into the polymer. Wool wins formal rooms for owners willing to care for it. A well-specced house usually mixes two or three of them."}}, {"@type": "Question", "name": "Is nylon really worth the premium over polyester?", "acceptedAnswer": {"@type": "Answer", "text": "In traffic areas, yes. Nylon springs back after being crushed and polyester largely does not, and matting in the walking lanes is how most carpet actually dies. In a bedroom the premium buys you little, which is exactly where polyester is the smarter spend. Pay for resilience where feet go; pay for softness where they do not."}}, {"@type": "Question", "name": "What is triexta, and is it just fancy polyester?", "acceptedAnswer": {"@type": "Answer", "text": "It is chemically related to polyester but engineered differently: better spring-back, and stain resistance built into the molecule rather than applied as a treatment that wears off. In practice it behaves like a middle point between polyester and nylon with best-in-class cleanability, which is why it anchors so many pet-focused lines."}}, {"@type": "Question", "name": "What does solution-dyed mean and why does it keep coming up?", "acceptedAnswer": {"@type": "Answer", "text": "Conventional carpet is dyed after the fiber is made, so color sits on the surface and aggressive cleaning slowly removes it. Solution-dyed fiber has pigment mixed in before extrusion — the color goes all the way through, like a carrot rather than a radish. It survives a decade of enzyme cleaners and sun exposure far better, which matters most in pet homes and bright rooms."}}, {"@type": "Question", "name": "Is wool carpet practical in a family home?", "acceptedAnswer": {"@type": "Answer", "text": "It can be, in the right rooms and with the right habits. Wool is beautiful, insulating and long-lived, but it absorbs moisture, can hold odor, and is damaged by the harsh cleaners most households use on accidents. We steer it toward formal and low-traffic rooms and steer active-pet households toward triexta or solution-dyed nylon instead."}}, {"@type": "Question", "name": "Does fiber matter more than pad?", "acceptedAnswer": {"@type": "Answer", "text": "They fail differently, so you need both right. Fiber decides how the surface wears and cleans; pad decides how the floor feels and how fast the fibers crush. A premium fiber over the cheapest pad will still look old early. The pad is the cheaper of the two decisions, which makes upgrading it the best value line in the quote."}}, {"@type": "Question", "name": "Which fiber hides dirt and footprints best?", "acceptedAnswer": {"@type": "Answer", "text": "Texture and color do more hiding than polymer, but fiber plays a part: wool masks soil naturally, and textured or twisted constructions in any fiber disguise footprints and vacuum tracks. Mid-tone flecked colors hide the most in every fiber. A smooth, pale, deep plush in any polymer is a full-time housekeeping commitment."}}, {"@type": "Question", "name": "How do I actually compare fibers before buying?", "acceptedAnswer": {"@type": "Answer", "text": "Stand on them, in your house. Press a thumb into the pile and watch it recover; that is the resilience difference between polyester and nylon made visible. We bring twenty-plus full-size samples across these fibers to your home with all three pad grades, so the comparison happens on your floor in your light — and the written price arrives the same visit."}}]}
+</script></div>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-cta" style="margin:30px 0">
+  <style>
+    html body .post-body .ocb-cta h2, .ocb-cta h2{color:#fff!important}
+    html body .post-body .ocb-cta .ocb-cta-sub, .ocb-cta .ocb-cta-sub{color:rgba(255,255,255,.88)!important}
+    html body .post-body .ocb-cta .ocb-cta-chips span, .ocb-cta .ocb-cta-chips span{color:rgba(255,255,255,.94)!important}
+    html body .post-body .ocb-cta a.ocb-cta-ghost, .ocb-cta a.ocb-cta-ghost{color:#fff!important;text-decoration:none!important}
+    html body .post-body .ocb-cta a.ocb-cta-gold, .ocb-cta a.ocb-cta-gold{color:#fbbc04!important}
+    html body .post-body .ocb-cta a.ocb-cta-phone, .ocb-cta a.ocb-cta-phone{color:#5c0000!important;text-decoration:none!important}
+  </style>
+  <div style="background:linear-gradient(135deg,#8B0000,#5c0000);border-radius:20px;padding:28px 24px;color:#fff;text-align:center;box-shadow:0 14px 34px rgba(92,0,0,.3)">
+    <h2 style="margin:0 0 6px;color:#fff!important;font-size:24px;font-weight:900">Compare the Fibers on Your Own Floor</h2>
+    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.92)!important;font-size:16.3px">Nylon, polyester, triexta — full-size samples of each come to your door with all three pad grades. Press, compare, and see the colors in your own light. We measure while you decide and leave a written price the same visit. Free in-home estimates across King &amp; Snohomish County.</p>
+    <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
+      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff!important;color:#5c0000!important;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none!important"><span class="ocb-ic ocb-ic-phone"></span> (425) 595-1079</a>
+      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.16)!important;border:1px solid rgba(255,255,255,.55);color:#fff!important;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none!important">Book My Free Consultation</a>
+    </div>
+    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.95)!important">
+      <span>✓ Since 2013</span><span>✓ 1,000+ floors</span><span>✓ 1-yr workmanship warranty</span><span>✓ Licensed &amp; insured</span><span>✓ Financing available</span>
+    </div>
+    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04!important;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
+  </div>
+</div></div>
+
+<p><strong>Related reading:</strong> <a href="/blog/best-carpet-for-pets">The best carpet for homes with pets</a> · <a href="/blog/stain-resistant-carpet">How stain-resistant carpet really works</a> · <a href="/blog/low-pile-vs-high-pile-carpet">Low pile vs high pile</a> · <a href="/blog/carpet-in-bedrooms">The case for carpet in bedrooms</a> · <a href="/seattle/carpet-installation-in-seattle-wa">Carpet installation in Seattle</a> · <a href="/contact">Book a free estimate</a></p>
+
+<div data-rt-embed-type='true'><script>
+(function(){try{
+var els=document.querySelectorAll('.ocb-card,.ocb-fact,.ocb-tri,.faq-item');
+if(!('IntersectionObserver' in window)||!els.length)return;
+document.documentElement.classList.add('ocb-anim-ready');
+els.forEach(function(e,i){e.classList.add('ocb-rv');e.style.transitionDelay=Math.min((i%6)*70,350)+'ms'});
+var io=new IntersectionObserver(function(en){en.forEach(function(x){if(x.isIntersecting){x.target.classList.add('ocb-in');io.unobserve(x.target)}})},{threshold:.12,rootMargin:'0px 0px -8% 0px'});
+els.forEach(function(e){io.observe(e)});
+}catch(e){}})();
+</script></div>

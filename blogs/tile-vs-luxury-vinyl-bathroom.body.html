@@ -1,0 +1,196 @@
+<div data-rt-embed-type='true'><style>
+.ocb{--ink:#0f172a;--muted:#64748b;--line:#e5e7eb;--soft:#f8fafc;--brand:#8B0000;--brand2:#5c0000;--gold:#fbbc04;font-family:'Mulish',Inter,system-ui,sans-serif;color:var(--ink)}
+.ocb *{box-sizing:border-box}
+.ocb-card{border:1px solid var(--line);border-radius:18px;background:#fff;box-shadow:0 10px 30px rgba(2,6,23,.06);padding:22px;margin:26px 0}
+.ocb-eyebrow{display:inline-block;background:rgba(139,0,0,.08);color:var(--brand2);border:1px solid rgba(139,0,0,.2);border-radius:999px;padding:5px 12px;font-size:12.5px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;margin-bottom:10px}
+.ocb-chips{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0 0}
+.ocb-chip{background:var(--soft);border:1px solid var(--line);border-radius:999px;padding:6px 12px;font-size:13.6px;font-weight:700}
+.ocb-table{width:100%;border-collapse:collapse;font-size:15.2px}
+.ocb-table th,.ocb-table td{padding:11px 10px;text-align:left;border-bottom:1px solid var(--line)}
+.ocb-table th{background:var(--soft);font-weight:800;font-size:13.6px;letter-spacing:.02em}
+.ocb-table tr:last-child td{border-bottom:0}
+.ocb-table td strong{color:var(--brand2)}
+.ocb-2col{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media(max-width:680px){.ocb-2col{grid-template-columns:1fr}}
+.ocb-check{list-style:none;padding:0;margin:10px 0 0}
+.ocb-check li{padding-left:26px;position:relative;margin:7px 0;line-height:1.55}
+.ocb-check li:before{content:"✓";position:absolute;left:0;color:var(--brand);font-weight:900}
+.ocb-x li:before{content:"✕";color:#94a3b8}
+html body .post-body .ocb-facts, .ocb-facts{display:grid!important;grid-template-columns:repeat(3,1fr)!important;gap:12px!important;margin:8px 0!important}
+@media(max-width:680px){html body .post-body .ocb-facts, .ocb-facts{grid-template-columns:1fr!important}}
+.ocb-fact{background:linear-gradient(180deg,#fff,#f8fafc);border:1px solid var(--line);border-radius:16px;padding:16px}
+.ocb-fact .n{font-size:24px;font-weight:900;color:var(--brand2);display:block;margin-bottom:4px}
+html body .post-body .ocb-fact p, .ocb-fact p{margin:0!important;font-size:14.7px!important;color:#334155!important;line-height:1.5!important}
+
+.ocb-card,.ocb-fact,.ocb-tri{transition:transform .28s ease,box-shadow .28s ease}
+.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:translateY(-4px);box-shadow:0 16px 40px rgba(2,6,23,.12)}
+.faq-item{transition:border-color .25s,box-shadow .25s}
+.faq-item:hover{border-color:rgba(139,0,0,.35);box-shadow:0 6px 18px rgba(2,6,23,.07)}
+.ocb-chip{display:inline-flex;align-items:center;gap:6px;transition:transform .2s,border-color .2s}
+.ocb-chip:hover{transform:translateY(-2px);border-color:rgba(139,0,0,.35)}
+.ocb-chip svg{color:#8B0000}
+.ocb-cta a{transition:transform .22s,box-shadow .22s}
+.ocb-cta a:hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(0,0,0,.25)}
+.ocb-fact .n{position:relative}
+html.ocb-anim-ready .ocb-rv{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
+html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){html.ocb-anim-ready .ocb-rv{opacity:1!important;transform:none!important;transition:none!important}.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:none}}
+
+/* Chip icons. Webflow's rich-text sanitizer strips inline <svg> whenever a post is
+   re-saved in the Editor, so the icons are drawn from CSS on a <span> instead. */
+.ocb-ic{display:inline-block;width:15px;height:15px;flex:0 0 auto;vertical-align:-2px;background-repeat:no-repeat;background-position:center;background-size:contain}
+.ocb-ic-pin{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z'/><circle cx='12' cy='10' r='3'/></svg>")}
+.ocb-ic-home{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z'/><polyline points='9 22 9 12 15 12 15 22'/></svg>")}
+.ocb-ic-phone{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z'/></svg>")}
+.ocb-cta .ocb-ic{filter:brightness(0) saturate(100%) invert(9%) sepia(64%) saturate(4000%) hue-rotate(348deg)}
+</style></div>
+
+<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">March 2, 2027</span></div></div>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
+  <span class="ocb-eyebrow">Quick answer</span>
+  <p style="margin:0;font-size:17.9px;line-height:1.65"><strong>For a Monroe bathroom floor, luxury vinyl wins on budget and speed, and tile wins on lifespan, wet-room capability and resale &mdash; and inside a shower there is no contest, because vinyl does not belong in one.</strong> Our new-install labor for LVP runs $3&ndash;$4.25 per square foot; installed tile runs $14&ndash;$26. That gap is real, and so is what it buys: a floor that shrugs off standing water for decades, a shower that can be waterproofed properly, and a bathroom that reads as finished to a future buyer. We install both, we recommend both, and this is the honest map of which one your bathroom is asking for.</p>
+  <div class="ocb-chips">
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-pin"></span> King &amp; Snohomish County</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-home"></span> Monroe &amp; Snohomish County homes</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-phone"></span> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
+  </div>
+</div></div>
+
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-facts">
+  <div class="ocb-fact"><span class="n">$3&ndash;$4.25/sq ft</span><p>our new-install labor for luxury vinyl plank &mdash; the honest budget answer for a bathroom floor, and often done in a day. The material rides on top of that, and mid-grade LVP is not expensive.</p></div>
+  <div class="ocb-fact"><span class="n">$14&ndash;$26/sq ft</span><p>installed tile, labor from $11 &mdash; several times the vinyl number, buying a floor measured in decades and the only assembly that belongs inside a shower: pre-slope, bonded membrane, photographed 24-hour flood test.</p></div>
+  <div class="ocb-fact"><span class="n">2 years</span><p>our warranty on tile work, double the trade&rsquo;s usual one. Vinyl carries the manufacturer&rsquo;s warranty instead &mdash; a real difference in who stands behind what, worth understanding before you choose.</p></div>
+</div></div></div>
+
+<h2>The Honest Fork</h2>
+
+<p>This is the most common either/or question we get in Monroe, and it deserves a straight answer instead of a sales pitch for the pricier option. Both materials are good at being bathroom floors. Luxury vinyl plank is waterproof as a material, comfortable underfoot, quick to install, and genuinely attractive now &mdash; the wood-look printing stopped being embarrassing years ago. Tile costs several times more installed and pays it back in categories vinyl cannot enter: it is waterproof as an <em>assembly</em>, not just a material; it lasts as long as the house; and it is the only one of the two that can climb the walls of a shower.</p>
+
+<p>So the fork is not &ldquo;good versus cheap.&rdquo; It is: what is this bathroom for, how long will you own it, and does the project include a shower? Answer those three and the material usually picks itself.</p>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-card">
+  <h3 style="margin:0 0 10px;font-size:18.5px;font-weight:900;color:#5c0000">Tile vs Luxury Vinyl in the Bathroom, Scored Straight</h3>
+  <div style="overflow-x:auto"><table class="ocb-table">
+    <tr><th>Dimension</th><th>Tile</th><th>Luxury vinyl plank</th></tr>
+    <tr><td><strong>Installed cost</strong></td><td>$14&ndash;$26/sq ft installed</td><td>Labor $3&ndash;$4.25/sq ft plus material &mdash; a fraction of tile</td></tr>
+    <tr><td><strong>Schedule</strong></td><td>Days &mdash; prep, setting, grout, cure</td><td>Usually one day for a bathroom floor</td></tr>
+    <tr><td><strong>Water, the real story</strong></td><td>Waterproof as an assembly &mdash; membrane below, sealed edges</td><td>Waterproof material, but water finds seams and edges and reaches the subfloor beneath</td></tr>
+    <tr><td><strong>Inside a shower</strong></td><td>The only legitimate answer of the two</td><td>No &mdash; not walls, not pans, ever</td></tr>
+    <tr><td><strong>Lifespan</strong></td><td>Decades; the house usually changes owners first</td><td>10&ndash;20 years, then replacement</td></tr>
+    <tr><td><strong>Comfort</strong></td><td>Hard and cool; pairs beautifully with floor heat</td><td>Warmer and softer underfoot out of the box</td></tr>
+    <tr><td><strong>Repair</strong></td><td>A cracked tile swaps individually if you kept spares</td><td>Click planks mid-room are a partial disassembly</td></tr>
+    <tr><td><strong>Resale read</strong></td><td>Reads as a finished, permanent bathroom</td><td>Reads as clean and current &mdash; but budget-grade in a primary bath</td></tr>
+  </table></div>
+</div></div>
+
+<h2>The Wet-Room Reality Nobody Prints on the Box</h2>
+
+<p>&ldquo;100% waterproof&rdquo; on a vinyl carton is true and misleading at the same time. The plank is waterproof &mdash; submerge one for a month and nothing happens. The <em>floor</em> is not, because a floor is hundreds of seams, four walls of perimeter gaps, a toilet flange, and a tub edge. Water that sits on a vinyl floor finds those openings eventually, and once it is underneath, the waterproof plank becomes a lid: the subfloor below stays wet, quietly, until the damage is structural. In a splash-and-mop bathroom this rarely matters. In a kids&rsquo;-bathtub bathroom, or under a leak nobody notices for a week, it is the whole story. Tile handles the same event differently: set over a bonded membrane with sealed transitions, the assembly sheds water back into the room where you can see it &mdash; the same philosophy, turned vertical, that we detail in <a href="/blog/tile-shower-waterproofing">how a tile shower is waterproofed</a>.</p>
+
+<p>And the shower itself is not a debate. Vinyl plank has no legitimate role inside one &mdash; not on the walls, not on a pan. If your project includes rebuilding the shower, tile is in the project no matter what the floor gets, and the honest comparison becomes tile-everywhere versus tile-shower-plus-vinyl-floor. That second option is a genuinely good budget play, and we build it often.</p>
+
+<h2>What Your Subfloor Gets to Say About It</h2>
+
+<p>Monroe&rsquo;s housing stock argues both directions. The newer subdivisions off Chain Lake Road and toward Fryelands stand on flat, sound OSB or plywood that accepts either material with minimal prep. The older farmhouse-era homes near downtown and out toward the valley are a different conversation: a century of settling means floors that dip and joists sized for lighter loads. Tile is unforgiving about both &mdash; it wants flatness and stiffness, and getting an old floor there is real prep money, part of what the <a href="/blog/bathroom-floor-tile-that-lasts">long-lasting tile floor</a> standard is built on. Vinyl is far more tolerant of a slightly imperfect floor &mdash; planks flex where tile would crack &mdash; which quietly makes LVP the pragmatic answer in some older Monroe bathrooms unless the owner wants to fund the structural work first. One thing vinyl does <em>not</em> tolerate: lumps and ridges telegraph through thin planks quickly, so &ldquo;more tolerant&rdquo; never means &ldquo;no prep.&rdquo;</p>
+
+<h2>Money, Over Ten Years Instead of One Invoice</h2>
+
+<p>On invoice day, vinyl wins by a landslide: labor at $3&ndash;$4.25 per square foot plus modest material, against tile at $14&ndash;$26 installed, means a typical 40 sq ft bathroom floor differs by four figures. Over a decade, the gap narrows. Vinyl in a busy bathroom is a 10&ndash;20 year floor &mdash; sooner if a failed seam or a long leak forces the issue &mdash; so a thirty-year horizon likely contains a replacement or two. Tile installed correctly is a one-time cost on any horizon a homeowner actually plans across. Neither answer is wrong; they are different loans. Vinyl borrows against the future at low interest; tile pays cash up front. We laid out vinyl&rsquo;s full ledger in <a href="/blog/pros-and-cons-of-luxury-vinyl-flooring">the pros and cons of luxury vinyl</a> and the waterproof-flooring landscape in <a href="/blog/what-is-the-best-waterproof-floor-in-everett-wa">our waterproof floor guide</a>.</p>
+
+<p>Resale deserves one honest paragraph. In a powder room or a kids&rsquo; bath, good LVP reads as clean and current and costs you nothing with buyers. In the primary bathroom of a house you will sell, tile reads as finished in a way vinyl does not, and appraisers and buyers in the Seattle metro have been consistent about it. If the house is a keeper, please yourself; if a sale is in the plan, put the tile where buyers look hardest.</p>
+
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-2col">
+  <div class="ocb-card" style="margin:0">
+    <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#5c0000">We say tile when</h3>
+    <ul class="ocb-check">
+      <li>The project includes a shower or tub surround rebuild</li>
+      <li>It is the primary bath of a house you may sell</li>
+      <li>You want heated floors &mdash; tile is their natural partner</li>
+      <li>Standing water is a lifestyle: kids, dogs, soaking tubs</li>
+      <li>You want the last floor this bathroom ever needs</li>
+      <li>The subfloor is sound, or you are ready to make it so</li>
+    </ul>
+  </div>
+  <div class="ocb-card" style="margin:0">
+    <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#334155">We say vinyl when</h3>
+    <ul class="ocb-check ocb-x">
+      <li>The budget has a hard ceiling and the shower is staying put</li>
+      <li>It is a rental, a flip, or a secondary bath</li>
+      <li>An older subfloor makes tile prep the biggest line item</li>
+      <li>You want the bathroom back tomorrow, not next week</li>
+      <li>Warm-underfoot matters and floor heat is not in the cards</li>
+      <li>You plan to remodel properly in a few years anyway</li>
+    </ul>
+  </div>
+</div></div></div>
+
+<h2>When We Say Vinyl</h2>
+
+<p>It happens weekly, and it surprises people to hear it from a company that loves tile: if you are refreshing a rental bathroom in Monroe, re-flooring a hall bath the kids will graduate out of, or holding a strict budget while the shower stays as-is, luxury vinyl is our straight-faced recommendation &mdash; the argument we make at length in <a href="/blog/the-benefits-of-waterproof-flooring-in-seattle-wa">the case for waterproof flooring</a>. We would rather install the right $900 floor than talk you into the wrong $3,000 one, because the second conversation always comes back around. And when the answer is tile &mdash; the shower rebuild, the forever-house primary bath &mdash; we bring the pre-slope, the bonded membrane, the photographed 24-hour flood test, and the 2-year warranty that comes with doing it right. Both doors are on the <a href="/city-of-monroe/tile-installation-in-monroe-wa">Monroe tile installation page</a>, and the estimate is free either way.</p>
+
+<div data-rt-embed-type='true'><!-- FAQ accordion + JSON-LD -->
+<div class="faq-wrap ocb" aria-labelledby="faq-title">
+  <h2 id="faq-title" class="faq-title">Tile vs Luxury Vinyl in the Bathroom: What Monroe Homeowners Ask</h2>
+  <div class="faq-items" role="list">
+    <details class="faq-item" role="listitem"><summary class="faq-q">Is luxury vinyl or tile better for a bathroom?</summary><div class="faq-a">For the floor of a budget-conscious, shower-stays-put bathroom, luxury vinyl is a genuinely good answer: waterproof as a material, warm underfoot, installed in about a day. For a bathroom with a shower rebuild, a heated floor, or resale weight — and for anything inside the shower itself — tile is the better tool. We install both and will say which your room is asking for.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Can luxury vinyl plank go inside a shower?</summary><div class="faq-a">No. Not the walls, not the pan. Vinyl plank is a floating floor with seams; a shower is a waterproofing assembly that has to hold water under pressure at every joint. Showers get a pre-slope, a bonded membrane, a 24-hour flood test, and tile. A vinyl bathroom floor outside a properly built tile shower, though, is a combination we build all the time.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">How much cheaper is vinyl than tile in a bathroom?</summary><div class="faq-a">Several times cheaper installed. Our LVP install labor runs $3–$4.25 per square foot plus material; tile runs $14–$26 per square foot installed with labor from $11. On a typical 40 square foot bathroom floor that is a four-figure difference — real money, buying a shorter-lived floor. Which side of that trade is right depends on the room and your horizon.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Is LVP really waterproof if the box says 100% waterproof?</summary><div class="faq-a">The plank is; the floor is not. Water that sits on a vinyl floor eventually finds seams, edges, and the toilet flange, and once it is under the planks it stays there, against the subfloor, where you cannot see it. For mop-and-splash life that is fine. For standing-water bathrooms, tile over a membrane handles the event; vinyl hides it.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Which lasts longer, tile or luxury vinyl?</summary><div class="faq-a">Tile, and it is not close. A correctly installed tile floor is measured in decades and usually outlasts the ownership of the house. Quality LVP in a bathroom is a 10–20 year floor, less if a seam fails or a leak goes unnoticed. Over one invoice vinyl wins; over thirty years the totals converge more than people expect.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Does tile or vinyl add more to resale value?</summary><div class="faq-a">In a primary bathroom, tile — it reads as permanent and finished to buyers and appraisers alike. In powder rooms, kids’ baths, and rentals, clean current LVP costs you nothing with buyers and keeps the budget for rooms that move the price. Spend the tile money where buyers look hardest.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Is tile too cold for a bathroom floor?</summary><div class="faq-a">Bare tile is cooler than vinyl underfoot, which is either a complaint or an invitation: tile is the natural partner for electric floor heat, which turns the coldest floor in the house into the warmest room in it. If floor heat is out of the budget, a bath mat solves most of the issue — but warm-out-of-the-box is a legitimate point in vinyl’s column.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Can you put luxury vinyl over an old tile floor?</summary><div class="faq-a">Often yes — sound, flat existing tile makes a workable base for floating LVP once grout lines are skimmed and height transitions are planned at the door. It is one of vinyl’s best budget tricks, since it skips demolition entirely. Cracked, hollow, or heaving tile is a different story: that gets diagnosed, not buried.</div></details>
+  </div>
+</div>
+
+<style>
+  .faq-wrap{--line:#e5e7eb;margin:28px auto;padding:20px;border:1px solid var(--line);border-radius:16px;background:#fff;box-shadow:0 8px 30px rgba(2,6,23,.06)}
+  .faq-title{margin:0 0 14px;font-size:24px;font-weight:900;text-align:center;color:#5c0000}
+  .faq-items{display:grid;gap:10px}
+  .faq-item{border:1px solid var(--line);border-radius:14px;background:#f9fafb;overflow:hidden}
+  .faq-q{cursor:pointer;display:block;padding:14px 16px;font-weight:800;color:#0f172a}
+  .faq-q::-webkit-details-marker{display:none}
+  .faq-item[open] .faq-q{background:linear-gradient(180deg, rgba(139,0,0,.08), rgba(139,0,0,.02))}
+  .faq-a{padding:0 16px 14px;color:#1f2937;line-height:1.6}
+</style>
+
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Is luxury vinyl or tile better for a bathroom?", "acceptedAnswer": {"@type": "Answer", "text": "For the floor of a budget-conscious, shower-stays-put bathroom, luxury vinyl is a genuinely good answer: waterproof as a material, warm underfoot, installed in about a day. For a bathroom with a shower rebuild, a heated floor, or resale weight — and for anything inside the shower itself — tile is the better tool. We install both and will say which your room is asking for."}}, {"@type": "Question", "name": "Can luxury vinyl plank go inside a shower?", "acceptedAnswer": {"@type": "Answer", "text": "No. Not the walls, not the pan. Vinyl plank is a floating floor with seams; a shower is a waterproofing assembly that has to hold water under pressure at every joint. Showers get a pre-slope, a bonded membrane, a 24-hour flood test, and tile. A vinyl bathroom floor outside a properly built tile shower, though, is a combination we build all the time."}}, {"@type": "Question", "name": "How much cheaper is vinyl than tile in a bathroom?", "acceptedAnswer": {"@type": "Answer", "text": "Several times cheaper installed. Our LVP install labor runs $3–$4.25 per square foot plus material; tile runs $14–$26 per square foot installed with labor from $11. On a typical 40 square foot bathroom floor that is a four-figure difference — real money, buying a shorter-lived floor. Which side of that trade is right depends on the room and your horizon."}}, {"@type": "Question", "name": "Is LVP really waterproof if the box says 100% waterproof?", "acceptedAnswer": {"@type": "Answer", "text": "The plank is; the floor is not. Water that sits on a vinyl floor eventually finds seams, edges, and the toilet flange, and once it is under the planks it stays there, against the subfloor, where you cannot see it. For mop-and-splash life that is fine. For standing-water bathrooms, tile over a membrane handles the event; vinyl hides it."}}, {"@type": "Question", "name": "Which lasts longer, tile or luxury vinyl?", "acceptedAnswer": {"@type": "Answer", "text": "Tile, and it is not close. A correctly installed tile floor is measured in decades and usually outlasts the ownership of the house. Quality LVP in a bathroom is a 10–20 year floor, less if a seam fails or a leak goes unnoticed. Over one invoice vinyl wins; over thirty years the totals converge more than people expect."}}, {"@type": "Question", "name": "Does tile or vinyl add more to resale value?", "acceptedAnswer": {"@type": "Answer", "text": "In a primary bathroom, tile — it reads as permanent and finished to buyers and appraisers alike. In powder rooms, kids’ baths, and rentals, clean current LVP costs you nothing with buyers and keeps the budget for rooms that move the price. Spend the tile money where buyers look hardest."}}, {"@type": "Question", "name": "Is tile too cold for a bathroom floor?", "acceptedAnswer": {"@type": "Answer", "text": "Bare tile is cooler than vinyl underfoot, which is either a complaint or an invitation: tile is the natural partner for electric floor heat, which turns the coldest floor in the house into the warmest room in it. If floor heat is out of the budget, a bath mat solves most of the issue — but warm-out-of-the-box is a legitimate point in vinyl’s column."}}, {"@type": "Question", "name": "Can you put luxury vinyl over an old tile floor?", "acceptedAnswer": {"@type": "Answer", "text": "Often yes — sound, flat existing tile makes a workable base for floating LVP once grout lines are skimmed and height transitions are planned at the door. It is one of vinyl’s best budget tricks, since it skips demolition entirely. Cracked, hollow, or heaving tile is a different story: that gets diagnosed, not buried."}}]}
+</script></div>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-cta" style="margin:30px 0">
+  <style>
+    html body .post-body .ocb-cta h2, .ocb-cta h2{color:#fff!important}
+    html body .post-body .ocb-cta .ocb-cta-sub, .ocb-cta .ocb-cta-sub{color:rgba(255,255,255,.88)!important}
+    html body .post-body .ocb-cta .ocb-cta-chips span, .ocb-cta .ocb-cta-chips span{color:rgba(255,255,255,.94)!important}
+    html body .post-body .ocb-cta a.ocb-cta-ghost, .ocb-cta a.ocb-cta-ghost{color:#fff!important;text-decoration:none!important}
+    html body .post-body .ocb-cta a.ocb-cta-gold, .ocb-cta a.ocb-cta-gold{color:#fbbc04!important}
+    html body .post-body .ocb-cta a.ocb-cta-phone, .ocb-cta a.ocb-cta-phone{color:#5c0000!important;text-decoration:none!important}
+  </style>
+  <div style="background:linear-gradient(135deg,#8B0000,#5c0000);border-radius:20px;padding:28px 24px;color:#fff;text-align:center;box-shadow:0 14px 34px rgba(92,0,0,.3)">
+    <h2 style="margin:0 0 6px;color:#fff!important;font-size:24px;font-weight:900">Bring Us the Bathroom, We&rsquo;ll Tell You Which Floor It Wants</h2>
+    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.92)!important;font-size:16.3px">Tile or vinyl, we will price both doors honestly &mdash; including when the cheap one is the right one. Showers always get the membrane, the flood test, and the 2-year warranty. Free in-home estimates across King &amp; Snohomish County.</p>
+    <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
+      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff!important;color:#5c0000!important;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none!important"><span class="ocb-ic ocb-ic-phone"></span> (425) 595-1079</a>
+      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.16)!important;border:1px solid rgba(255,255,255,.55);color:#fff!important;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none!important">Book My Free Consultation</a>
+    </div>
+    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.95)!important">
+      <span>✓ Since 2013</span><span>✓ 1,000+ floors</span><span>✓ 1-yr workmanship warranty</span><span>✓ Licensed &amp; insured</span><span>✓ Financing available</span>
+    </div>
+    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04!important;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
+  </div>
+</div></div>
+
+<p><strong>Related reading:</strong> <a href="/blog/pros-and-cons-of-luxury-vinyl-flooring">Pros and cons of luxury vinyl</a> · <a href="/blog/tile-shower-waterproofing">How a tile shower is waterproofed</a> · <a href="/blog/bathroom-floor-tile-that-lasts">Bathroom floor tile that lasts</a> · <a href="/blog/what-is-the-best-waterproof-floor-in-everett-wa">The best waterproof floors</a> · <a href="/city-of-monroe/tile-installation-in-monroe-wa">Tile installation in Monroe</a> · <a href="/contact">Book a free estimate</a></p>
+
+<div data-rt-embed-type='true'><script>
+(function(){try{
+var els=document.querySelectorAll('.ocb-card,.ocb-fact,.ocb-tri,.faq-item');
+if(!('IntersectionObserver' in window)||!els.length)return;
+document.documentElement.classList.add('ocb-anim-ready');
+els.forEach(function(e,i){e.classList.add('ocb-rv');e.style.transitionDelay=Math.min((i%6)*70,350)+'ms'});
+var io=new IntersectionObserver(function(en){en.forEach(function(x){if(x.isIntersecting){x.target.classList.add('ocb-in');io.unobserve(x.target)}})},{threshold:.12,rootMargin:'0px 0px -8% 0px'});
+els.forEach(function(e){io.observe(e)});
+}catch(e){}})();
+</script></div>

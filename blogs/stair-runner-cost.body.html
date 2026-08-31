@@ -1,0 +1,201 @@
+<div data-rt-embed-type='true'><style>
+.ocb{--ink:#0f172a;--muted:#64748b;--line:#e5e7eb;--soft:#f8fafc;--brand:#8B0000;--brand2:#5c0000;--gold:#fbbc04;font-family:'Mulish',Inter,system-ui,sans-serif;color:var(--ink)}
+.ocb *{box-sizing:border-box}
+.ocb-card{border:1px solid var(--line);border-radius:18px;background:#fff;box-shadow:0 10px 30px rgba(2,6,23,.06);padding:22px;margin:26px 0}
+.ocb-eyebrow{display:inline-block;background:rgba(139,0,0,.08);color:var(--brand2);border:1px solid rgba(139,0,0,.2);border-radius:999px;padding:5px 12px;font-size:12.5px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;margin-bottom:10px}
+.ocb-chips{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0 0}
+.ocb-chip{background:var(--soft);border:1px solid var(--line);border-radius:999px;padding:6px 12px;font-size:13.6px;font-weight:700}
+.ocb-table{width:100%;border-collapse:collapse;font-size:15.2px}
+.ocb-table th,.ocb-table td{padding:11px 10px;text-align:left;border-bottom:1px solid var(--line)}
+.ocb-table th{background:var(--soft);font-weight:800;font-size:13.6px;letter-spacing:.02em}
+.ocb-table tr:last-child td{border-bottom:0}
+.ocb-table td strong{color:var(--brand2)}
+.ocb-2col{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media(max-width:680px){.ocb-2col{grid-template-columns:1fr}}
+.ocb-check{list-style:none;padding:0;margin:10px 0 0}
+.ocb-check li{padding-left:26px;position:relative;margin:7px 0;line-height:1.55}
+.ocb-check li:before{content:"✓";position:absolute;left:0;color:var(--brand);font-weight:900}
+.ocb-x li:before{content:"✕";color:#94a3b8}
+html body .post-body .ocb-facts, .ocb-facts{display:grid!important;grid-template-columns:repeat(3,1fr)!important;gap:12px!important;margin:8px 0!important}
+@media(max-width:680px){html body .post-body .ocb-facts, .ocb-facts{grid-template-columns:1fr!important}}
+.ocb-fact{background:linear-gradient(180deg,#fff,#f8fafc);border:1px solid var(--line);border-radius:16px;padding:16px}
+.ocb-fact .n{font-size:24px;font-weight:900;color:var(--brand2);display:block;margin-bottom:4px}
+html body .post-body .ocb-fact p, .ocb-fact p{margin:0!important;font-size:14.7px!important;color:#334155!important;line-height:1.5!important}
+
+.ocb-card,.ocb-fact,.ocb-tri{transition:transform .28s ease,box-shadow .28s ease}
+.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:translateY(-4px);box-shadow:0 16px 40px rgba(2,6,23,.12)}
+.faq-item{transition:border-color .25s,box-shadow .25s}
+.faq-item:hover{border-color:rgba(139,0,0,.35);box-shadow:0 6px 18px rgba(2,6,23,.07)}
+.ocb-chip{display:inline-flex;align-items:center;gap:6px;transition:transform .2s,border-color .2s}
+.ocb-chip:hover{transform:translateY(-2px);border-color:rgba(139,0,0,.35)}
+.ocb-chip svg{color:#8B0000}
+.ocb-cta a{transition:transform .22s,box-shadow .22s}
+.ocb-cta a:hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(0,0,0,.25)}
+.ocb-fact .n{position:relative}
+html.ocb-anim-ready .ocb-rv{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
+html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){html.ocb-anim-ready .ocb-rv{opacity:1!important;transform:none!important;transition:none!important}.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:none}}
+
+/* Chip icons. Webflow's rich-text sanitizer strips inline <svg> whenever a post is
+   re-saved in the Editor, so the icons are drawn from CSS on a <span> instead. */
+.ocb-ic{display:inline-block;width:15px;height:15px;flex:0 0 auto;vertical-align:-2px;background-repeat:no-repeat;background-position:center;background-size:contain}
+.ocb-ic-pin{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z'/><circle cx='12' cy='10' r='3'/></svg>")}
+.ocb-ic-home{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z'/><polyline points='9 22 9 12 15 12 15 22'/></svg>")}
+.ocb-ic-phone{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z'/></svg>")}
+.ocb-cta .ocb-ic{filter:brightness(0) saturate(100%) invert(9%) sepia(64%) saturate(4000%) hue-rotate(348deg)}
+</style></div>
+
+<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">February 4, 2027</span></div></div>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
+  <span class="ocb-eyebrow">Quick answer</span>
+  <p style="margin:0;font-size:17.9px;line-height:1.65"><strong>A stair runner is priced per tread, not per square foot, and the treads are only part of the number &mdash; fabrication, finishing the exposed edges, and what happens to the wood on either side decide the rest.</strong> A runner costs more per square foot of carpet than wrapping the whole staircase, because every edge is finished and every tread is fitted individually. Where it wins is the total picture: less carpet, more wood showing, and a staircase that reads custom instead of covered. If the wood under your old carpet is decent, refinish-plus-runner is the best-looking money you can spend on a staircase.</p>
+  <div class="ocb-chips">
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-pin"></span> King &amp; Snohomish County</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-home"></span> Monroe &amp; Sky Valley homes</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-phone"></span> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
+  </div>
+</div></div>
+
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-facts">
+  <div class="ocb-fact"><span class="n">Per tread</span><p>how every honest stair quote is priced &mdash; runner or full wrap. A staircase is slow, fitted work: each step is measured, cut, and secured individually, which is why thirteen treads cost far more than the same area of open bedroom floor.</p></div>
+  <div class="ocb-fact"><span class="n">From $1.49/sq ft</span><p>where installed carpet starts with us, pad and labor included. Runners sit above that per square foot because of edge finishing and fitting, but they use a fraction of the material a full wrap does.</p></div>
+  <div class="ocb-fact"><span class="n">One visit</span><p>is all it takes to price a staircase properly. We measure every tread, riser, winder and landing in person, talk through runner versus wrap on your actual stairs, and leave a written number the same day.</p></div>
+</div></div></div>
+
+<h2>Runner vs Full Wrap: What You Are Choosing Between</h2>
+
+<p>A <strong>full wrap</strong> covers the staircase edge to edge &mdash; carpet across the whole tread and riser, fastened over pad, warm and quiet and forgiving underfoot. It is the standard answer in most carpeted houses, and if the rest of the upstairs is carpeted it usually looks right. A <strong>runner</strong> covers only the middle of each step and leaves a band of finished wood showing on both sides. Same staircase, completely different sentence: a wrap says <em>this floor is carpeted</em>; a runner says <em>somebody made a decision here</em>.</p>
+
+<p>The practical differences matter as much as the looks. A runner keeps the traction and quiet of carpet exactly where feet land while letting the wood do the showing off. It is also the only way to have both: hardwood stairs are beautiful and genuinely slippery &mdash; in socks, for dogs, for anyone over seventy &mdash; and a runner fixes that without burying the wood. We wrote about full-staircase carpet in <a href="/blog/best-carpet-for-stairs">the best carpet for stairs</a>; this post is about the other road.</p>
+
+<h2>How Stair Runner Pricing Actually Works</h2>
+
+<p>Every stair quote worth the paper is priced per tread, and a runner quote adds a few line items a wrap does not have. Here is where the money goes, so you can read any quote &mdash; ours or anyone's &mdash; and know what you are looking at.</p>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-card">
+  <h3 style="margin:0 0 10px;font-size:18.5px;font-weight:900;color:#5c0000">What Moves a Stair Runner Quote</h3>
+  <div style="overflow-x:auto"><table class="ocb-table">
+    <tr><th>Factor</th><th>Effect on price</th><th>Why</th></tr>
+    <tr><td><strong>Number of treads</strong></td><td>The base of the quote</td><td>Each step is measured, cut and fastened individually &mdash; a straight run of 13 is the simple case</td></tr>
+    <tr><td><strong>Winders &amp; pie steps</strong></td><td>Priced higher per step</td><td>Angled steps mean angled cuts and pattern decisions; a curved flight is fitted work, not production work</td></tr>
+    <tr><td><strong>Landings</strong></td><td>Added per landing</td><td>A landing is a small room the runner has to cross &mdash; seam placement and pattern direction both matter</td></tr>
+    <tr><td><strong>Edge finishing</strong></td><td>A runner-only cost</td><td>The long edges of a runner are visible and must be bound, serged, or bordered &mdash; raw cut carpet edges unravel</td></tr>
+    <tr><td><strong>Material choice</strong></td><td>The biggest swing</td><td>A runner uses little material, so stepping up to a dense wool or patterned loop costs less than it would anywhere else in the house</td></tr>
+    <tr><td><strong>The wood on either side</strong></td><td>The honest wildcard</td><td>If the exposed tread edges are already finished, nothing to add; if they were built to be covered, they need refinishing first</td></tr>
+    <tr><td><strong>Rods &amp; borders</strong></td><td>Optional</td><td>Stair rods are jewelry &mdash; purely decorative on a properly fastened runner, priced per stair</td></tr>
+  </table></div>
+</div></div>
+
+<p>Notice what that list does to the math. Per square foot, a runner is the most expensive carpet in your house &mdash; edge finishing and fitted installation see to that. Per staircase, it is often comparable to or cheaper than a quality full wrap, because you are buying a 27&ndash;32 inch strip instead of covering every inch. And because the quantity is small, the material upgrade that would strain the budget in a whole-house job &mdash; wool, a serious pattern &mdash; is suddenly affordable. This is the one place in the house where we routinely tell people to buy nicer carpet than they planned to.</p>
+
+<h2>The Refinish-Plus-Runner Compromise</h2>
+
+<p>Here is the version of this project we like best, and the one most Monroe houses built before the nineties are quietly set up for. Pull the old carpet off the stairs and there is usually solid wood underneath &mdash; sometimes fir, often oak treads. Refinish those treads, then run a runner down the middle. You get the wood you paid for when you bought the house, the traction and quiet of carpet where feet actually land, and a staircase that looks like it came from a much more expensive house.</p>
+
+<p>It also splits the maintenance problem sensibly. Bare wood stairs show wear in the nose of every tread and need refinishing on a cycle; fully carpeted stairs hide the wood entirely and wear out in the traffic line. With a runner, the wood that shows is the wood that nobody steps on, and the carpet that wears is a strip you can replace without touching the wood &mdash; decades from now, for a fraction of either full job. What the wood work costs is its own subject, and we priced it honestly in <a href="/blog/stair-refinishing-cost-per-step">stair refinishing, per step</a> &mdash; like carpet, stairs are per-tread work in that trade too.</p>
+
+<p>One honest caveat: not every staircase has wood worth showing. Builder-grade stairs from the last few decades are often particleboard or paint-grade material that was always meant to be covered. We can tell you which you have in about a minute at the top of your stairs &mdash; and if it is paint-grade, a full wrap or a painted-riser runner look is the better road. That conversation is free either way.</p>
+
+<h2>Do Runners Last? The Wear Question</h2>
+
+<p>A stair runner takes the hardest traffic in the house on its narrowest piece of carpet, so material choice matters more here than anywhere else. The rules are the same ones we laid out for full stair carpet, concentrated: <strong>density beats softness</strong>, and a tight loop or dense low pile outlasts a plush pile that flattens in the traffic line. <strong>Nylon and wool</strong> are the fibers that earn their keep on stairs &mdash; nylon for resilience per dollar, wool for the way it wears gracefully instead of matting. Polyester runners look wonderful for two years and then show a path. The full fiber comparison is in <a href="/blog/carpet-fiber-types">nylon, polyester, or wool</a>.</p>
+
+<p>Fastening decides the other half of lifespan. A runner that is properly fastened over stair pad &mdash; each tread secured, tension held &mdash; wears evenly and stays put. A runner tacked on tight to the wood with no pad underneath wears out from below as well as above, and one held by rods alone creeps. This is also a safety question: a loose runner on a staircase is a genuine hazard, worse than either bare wood or a proper wrap. Done right, expect a dense runner to go a decade-plus of family traffic; the waterfall-versus-wrapped detail and the rest of the stair craft carries over from <a href="/blog/whats-the-best-carpeting-for-stairs-in-kenmore-wa">what we have said about stair carpeting</a> for years.</p>
+
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-2col">
+  <div class="ocb-card" style="margin:0">
+    <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#5c0000">What our stair runner quote includes</h3>
+    <ul class="ocb-check">
+      <li>Every tread, riser, winder and landing measured in person &mdash; never from a photo</li>
+      <li>Per-tread pricing you can read, with landings and winders as their own lines</li>
+      <li>Edge finishing specified in writing &mdash; bound, serged, or bordered</li>
+      <li>Stair pad under the runner, not carpet tacked to bare wood</li>
+      <li>Old carpet, tack strip and staples out and hauled away if we are converting a wrap</li>
+      <li>A straight answer on whether your wood is worth showing before you commit</li>
+    </ul>
+  </div>
+  <div class="ocb-card" style="margin:0">
+    <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#334155">What to ask any installer</h3>
+    <ul class="ocb-check ocb-x">
+      <li>Is the price per tread or buried in a lump sum?</li>
+      <li>How are the runner edges finished &mdash; and is that in the number?</li>
+      <li>Is there pad under the runner, and what grade?</li>
+      <li>Who handles the exposed wood if it needs finishing &mdash; you, them, or nobody?</li>
+      <li>How is the runner fastened &mdash; stapled through the pile, tackless, or rods alone?</li>
+      <li>What happens at the landing &mdash; seam, turn, or pattern break?</li>
+    </ul>
+  </div>
+</div></div></div>
+
+<h2>Monroe Staircases, Specifically</h2>
+
+<p>Monroe splits neatly into two kinds of stairs. The older farmhouses and the pre-1990 neighborhoods near downtown have real wood staircases &mdash; often fir, sometimes oak &mdash; that were carpeted over somewhere along the way. Those are the refinish-plus-runner candidates, and some of the best-looking staircases we have done in Snohomish County came out from under twenty-year-old carpet on exactly those stairs. The newer developments off US-2 and toward Lake Tye mostly have paint-grade stairs built for carpet: full wrap territory, or a runner over painted risers if you want the look without the wood.</p>
+
+<p>Either way the process is the same: we come out, measure every step, tell you which kind of staircase you own, and price the options side by side &mdash; runner, wrap, and refinish-plus-runner where it applies. The broader stair services picture is on <a href="/blog/our-stair-installation-services">our stair installation page</a>, and the whole-house numbers live in <a href="/blog/carpet-installation-cost-seattle">what carpet installation costs</a>. Details for your neighborhood are on our <a href="/city-of-monroe/carpet-installation-in-monroe-wa">Monroe carpet installation page</a>.</p>
+
+<div data-rt-embed-type='true'><!-- FAQ accordion + JSON-LD -->
+<div class="faq-wrap ocb" aria-labelledby="faq-title">
+  <h2 id="faq-title" class="faq-title">Stair Runner Cost: What Homeowners Ask Us</h2>
+  <div class="faq-items" role="list">
+    <details class="faq-item" role="listitem"><summary class="faq-q">How much does a stair runner cost?</summary><div class="faq-a">Runners are priced per tread, with winders, landings and edge finishing as their own line items — not per square foot. A runner costs more per square foot of carpet than a full wrap because every edge is finished and every step is fitted individually, but it uses far less material, so the staircase total is often comparable. We measure in person and give you a written per-tread price the same visit.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Is a runner cheaper than carpeting the whole staircase?</summary><div class="faq-a">Often, but not automatically. The runner saves on material — a strip instead of full coverage — and spends some of that savings on edge finishing and fitted installation. Where the comparison tips is the wood: if the exposed edges are already presentable, the runner usually wins; if the treads need refinishing first, that is its own project, worth doing but worth pricing honestly.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Can you put a runner over my existing hardwood stairs?</summary><div class="faq-a">Yes, and it is one of the best upgrades a slippery wood staircase can get. The runner is installed over stair pad and fastened at every tread, so the wood underneath is protected, not damaged — the fastener holes sit under the runner where they will never be seen if it ever comes off.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">What is under the carpet on my stairs right now — is it worth exposing?</summary><div class="faq-a">In houses built before about 1990, frequently yes: solid fir or oak that was carpeted over during a trend cycle. In newer construction, usually paint-grade material that was always meant to be covered. We can tell you which you have by lifting a corner at the top step, and we will say plainly if the wood is not worth the refinishing money.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">What carpet material is best for a stair runner?</summary><div class="faq-a">Dense nylon or wool, in a tight loop or low cut pile. Stairs concentrate the hardest traffic in the house onto a narrow strip, so density and fiber resilience matter more than anywhere else. Because a runner uses so little material, upgrading to wool costs far less than it would in a whole room — this is the one place we suggest spending up.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Do stair runners need pad underneath?</summary><div class="faq-a">Yes. Pad under a runner does the same work it does everywhere — absorbing impact so the carpet backing does not take every footstep directly — and on stairs the traffic is relentless. A runner installed without pad wears from both sides and feels thin underfoot from day one.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Are stair rods necessary?</summary><div class="faq-a">No — on a properly fastened runner, rods are decoration, not structure. They look wonderful on traditional staircases and we install them happily, but a runner should be secure without them. If an installer proposes rods as the primary fastening, keep interviewing.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">How long does a stair runner installation take?</summary><div class="faq-a">A straight staircase is typically done in a day, including tear-out of old carpet if we are converting a wrap. Add refinishing of the exposed treads and the timeline extends to the refinishing schedule plus cure time before the runner goes down — we sequence both halves so the stairs are out of service as briefly as possible.</div></details>
+  </div>
+</div>
+
+<style>
+  .faq-wrap{--line:#e5e7eb;margin:28px auto;padding:20px;border:1px solid var(--line);border-radius:16px;background:#fff;box-shadow:0 8px 30px rgba(2,6,23,.06)}
+  .faq-title{margin:0 0 14px;font-size:24px;font-weight:900;text-align:center;color:#5c0000}
+  .faq-items{display:grid;gap:10px}
+  .faq-item{border:1px solid var(--line);border-radius:14px;background:#f9fafb;overflow:hidden}
+  .faq-q{cursor:pointer;display:block;padding:14px 16px;font-weight:800;color:#0f172a}
+  .faq-q::-webkit-details-marker{display:none}
+  .faq-item[open] .faq-q{background:linear-gradient(180deg, rgba(139,0,0,.08), rgba(139,0,0,.02))}
+  .faq-a{padding:0 16px 14px;color:#1f2937;line-height:1.6}
+</style>
+
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How much does a stair runner cost?", "acceptedAnswer": {"@type": "Answer", "text": "Runners are priced per tread, with winders, landings and edge finishing as their own line items — not per square foot. A runner costs more per square foot of carpet than a full wrap because every edge is finished and every step is fitted individually, but it uses far less material, so the staircase total is often comparable. We measure in person and give you a written per-tread price the same visit."}}, {"@type": "Question", "name": "Is a runner cheaper than carpeting the whole staircase?", "acceptedAnswer": {"@type": "Answer", "text": "Often, but not automatically. The runner saves on material — a strip instead of full coverage — and spends some of that savings on edge finishing and fitted installation. Where the comparison tips is the wood: if the exposed edges are already presentable, the runner usually wins; if the treads need refinishing first, that is its own project, worth doing but worth pricing honestly."}}, {"@type": "Question", "name": "Can you put a runner over my existing hardwood stairs?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, and it is one of the best upgrades a slippery wood staircase can get. The runner is installed over stair pad and fastened at every tread, so the wood underneath is protected, not damaged — the fastener holes sit under the runner where they will never be seen if it ever comes off."}}, {"@type": "Question", "name": "What is under the carpet on my stairs right now — is it worth exposing?", "acceptedAnswer": {"@type": "Answer", "text": "In houses built before about 1990, frequently yes: solid fir or oak that was carpeted over during a trend cycle. In newer construction, usually paint-grade material that was always meant to be covered. We can tell you which you have by lifting a corner at the top step, and we will say plainly if the wood is not worth the refinishing money."}}, {"@type": "Question", "name": "What carpet material is best for a stair runner?", "acceptedAnswer": {"@type": "Answer", "text": "Dense nylon or wool, in a tight loop or low cut pile. Stairs concentrate the hardest traffic in the house onto a narrow strip, so density and fiber resilience matter more than anywhere else. Because a runner uses so little material, upgrading to wool costs far less than it would in a whole room — this is the one place we suggest spending up."}}, {"@type": "Question", "name": "Do stair runners need pad underneath?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Pad under a runner does the same work it does everywhere — absorbing impact so the carpet backing does not take every footstep directly — and on stairs the traffic is relentless. A runner installed without pad wears from both sides and feels thin underfoot from day one."}}, {"@type": "Question", "name": "Are stair rods necessary?", "acceptedAnswer": {"@type": "Answer", "text": "No — on a properly fastened runner, rods are decoration, not structure. They look wonderful on traditional staircases and we install them happily, but a runner should be secure without them. If an installer proposes rods as the primary fastening, keep interviewing."}}, {"@type": "Question", "name": "How long does a stair runner installation take?", "acceptedAnswer": {"@type": "Answer", "text": "A straight staircase is typically done in a day, including tear-out of old carpet if we are converting a wrap. Add refinishing of the exposed treads and the timeline extends to the refinishing schedule plus cure time before the runner goes down — we sequence both halves so the stairs are out of service as briefly as possible."}}]}
+</script></div>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-cta" style="margin:30px 0">
+  <style>
+    html body .post-body .ocb-cta h2, .ocb-cta h2{color:#fff!important}
+    html body .post-body .ocb-cta .ocb-cta-sub, .ocb-cta .ocb-cta-sub{color:rgba(255,255,255,.88)!important}
+    html body .post-body .ocb-cta .ocb-cta-chips span, .ocb-cta .ocb-cta-chips span{color:rgba(255,255,255,.94)!important}
+    html body .post-body .ocb-cta a.ocb-cta-ghost, .ocb-cta a.ocb-cta-ghost{color:#fff!important;text-decoration:none!important}
+    html body .post-body .ocb-cta a.ocb-cta-gold, .ocb-cta a.ocb-cta-gold{color:#fbbc04!important}
+    html body .post-body .ocb-cta a.ocb-cta-phone, .ocb-cta a.ocb-cta-phone{color:#5c0000!important;text-decoration:none!important}
+  </style>
+  <div style="background:linear-gradient(135deg,#8B0000,#5c0000);border-radius:20px;padding:28px 24px;color:#fff;text-align:center;box-shadow:0 14px 34px rgba(92,0,0,.3)">
+    <h2 style="margin:0 0 6px;color:#fff!important;font-size:24px;font-weight:900">Get a Per-Tread Price on Your Staircase</h2>
+    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.92)!important;font-size:16.3px">We measure every tread, winder and landing in person, tell you honestly whether the wood underneath is worth showing, and price runner, wrap, and refinish-plus-runner side by side. Written number the same visit. Free estimates across King &amp; Snohomish County.</p>
+    <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
+      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff!important;color:#5c0000!important;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none!important"><span class="ocb-ic ocb-ic-phone"></span> (425) 595-1079</a>
+      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.16)!important;border:1px solid rgba(255,255,255,.55);color:#fff!important;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none!important">Book My Free Consultation</a>
+    </div>
+    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.95)!important">
+      <span>✓ Since 2013</span><span>✓ 1,000+ floors</span><span>✓ 1-yr workmanship warranty</span><span>✓ Licensed &amp; insured</span><span>✓ Financing available</span>
+    </div>
+    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04!important;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
+  </div>
+</div></div>
+
+<p><strong>Related reading:</strong> <a href="/blog/best-carpet-for-stairs">The best carpet for stairs</a> · <a href="/blog/stair-refinishing-cost-per-step">Stair refinishing, priced per step</a> · <a href="/blog/whats-the-best-carpeting-for-stairs-in-kenmore-wa">The best carpeting for stairs</a> · <a href="/blog/carpet-fiber-types">Carpet fibers compared</a> · <a href="/city-of-monroe/carpet-installation-in-monroe-wa">Carpet installation in Monroe</a> · <a href="/contact">Book a free estimate</a></p>
+
+<div data-rt-embed-type='true'><script>
+(function(){try{
+var els=document.querySelectorAll('.ocb-card,.ocb-fact,.ocb-tri,.faq-item');
+if(!('IntersectionObserver' in window)||!els.length)return;
+document.documentElement.classList.add('ocb-anim-ready');
+els.forEach(function(e,i){e.classList.add('ocb-rv');e.style.transitionDelay=Math.min((i%6)*70,350)+'ms'});
+var io=new IntersectionObserver(function(en){en.forEach(function(x){if(x.isIntersecting){x.target.classList.add('ocb-in');io.unobserve(x.target)}})},{threshold:.12,rootMargin:'0px 0px -8% 0px'});
+els.forEach(function(e){io.observe(e)});
+}catch(e){}})();
+</script></div>

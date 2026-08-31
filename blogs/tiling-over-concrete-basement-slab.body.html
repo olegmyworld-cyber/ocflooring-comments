@@ -1,0 +1,202 @@
+<div data-rt-embed-type='true'><style>
+.ocb{--ink:#0f172a;--muted:#64748b;--line:#e5e7eb;--soft:#f8fafc;--brand:#8B0000;--brand2:#5c0000;--gold:#fbbc04;font-family:'Mulish',Inter,system-ui,sans-serif;color:var(--ink)}
+.ocb *{box-sizing:border-box}
+.ocb-card{border:1px solid var(--line);border-radius:18px;background:#fff;box-shadow:0 10px 30px rgba(2,6,23,.06);padding:22px;margin:26px 0}
+.ocb-eyebrow{display:inline-block;background:rgba(139,0,0,.08);color:var(--brand2);border:1px solid rgba(139,0,0,.2);border-radius:999px;padding:5px 12px;font-size:12.5px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;margin-bottom:10px}
+.ocb-chips{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0 0}
+.ocb-chip{background:var(--soft);border:1px solid var(--line);border-radius:999px;padding:6px 12px;font-size:13.6px;font-weight:700}
+.ocb-table{width:100%;border-collapse:collapse;font-size:15.2px}
+.ocb-table th,.ocb-table td{padding:11px 10px;text-align:left;border-bottom:1px solid var(--line)}
+.ocb-table th{background:var(--soft);font-weight:800;font-size:13.6px;letter-spacing:.02em}
+.ocb-table tr:last-child td{border-bottom:0}
+.ocb-table td strong{color:var(--brand2)}
+.ocb-2col{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media(max-width:680px){.ocb-2col{grid-template-columns:1fr}}
+.ocb-check{list-style:none;padding:0;margin:10px 0 0}
+.ocb-check li{padding-left:26px;position:relative;margin:7px 0;line-height:1.55}
+.ocb-check li:before{content:"✓";position:absolute;left:0;color:var(--brand);font-weight:900}
+.ocb-x li:before{content:"✕";color:#94a3b8}
+html body .post-body .ocb-facts, .ocb-facts{display:grid!important;grid-template-columns:repeat(3,1fr)!important;gap:12px!important;margin:8px 0!important}
+@media(max-width:680px){html body .post-body .ocb-facts, .ocb-facts{grid-template-columns:1fr!important}}
+.ocb-fact{background:linear-gradient(180deg,#fff,#f8fafc);border:1px solid var(--line);border-radius:16px;padding:16px}
+.ocb-fact .n{font-size:24px;font-weight:900;color:var(--brand2);display:block;margin-bottom:4px}
+html body .post-body .ocb-fact p, .ocb-fact p{margin:0!important;font-size:14.7px!important;color:#334155!important;line-height:1.5!important}
+
+.ocb-card,.ocb-fact,.ocb-tri{transition:transform .28s ease,box-shadow .28s ease}
+.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:translateY(-4px);box-shadow:0 16px 40px rgba(2,6,23,.12)}
+.faq-item{transition:border-color .25s,box-shadow .25s}
+.faq-item:hover{border-color:rgba(139,0,0,.35);box-shadow:0 6px 18px rgba(2,6,23,.07)}
+.ocb-chip{display:inline-flex;align-items:center;gap:6px;transition:transform .2s,border-color .2s}
+.ocb-chip:hover{transform:translateY(-2px);border-color:rgba(139,0,0,.35)}
+.ocb-chip svg{color:#8B0000}
+.ocb-cta a{transition:transform .22s,box-shadow .22s}
+.ocb-cta a:hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(0,0,0,.25)}
+.ocb-fact .n{position:relative}
+html.ocb-anim-ready .ocb-rv{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
+html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){html.ocb-anim-ready .ocb-rv{opacity:1!important;transform:none!important;transition:none!important}.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:none}}
+
+/* Chip icons. Webflow's rich-text sanitizer strips inline <svg> whenever a post is
+   re-saved in the Editor, so the icons are drawn from CSS on a <span> instead. */
+.ocb-ic{display:inline-block;width:15px;height:15px;flex:0 0 auto;vertical-align:-2px;background-repeat:no-repeat;background-position:center;background-size:contain}
+.ocb-ic-pin{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z'/><circle cx='12' cy='10' r='3'/></svg>")}
+.ocb-ic-home{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z'/><polyline points='9 22 9 12 15 12 15 22'/></svg>")}
+.ocb-ic-phone{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z'/></svg>")}
+.ocb-cta .ocb-ic{filter:brightness(0) saturate(100%) invert(9%) sepia(64%) saturate(4000%) hue-rotate(348deg)}
+</style></div>
+
+<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">March 30, 2027</span></div></div>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
+  <span class="ocb-eyebrow">Quick answer</span>
+  <p style="margin:0;font-size:17.9px;line-height:1.65"><strong>A concrete basement slab is the best substrate tile ever gets &mdash; stiff, quiet, and immune to the bounce that cracks tile over wood framing &mdash; but only after it passes three checks: dry enough, flat enough, and stable enough.</strong> Moisture testing comes first, every time, because a slab that wicks ground water will push that water at your tile assembly forever. Then cracks and flatness get dealt with, usually with an uncoupling membrane and some self-leveler. And when a slab fails the checks &mdash; active water, moving cracks &mdash; the honest answer is to fix the water problem first, not to tile over it and hope.</p>
+  <div class="ocb-chips">
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-pin"></span> King &amp; Snohomish County</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-home"></span> Snohomish &amp; river-valley homes</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-phone"></span> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
+  </div>
+</div></div>
+
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-facts">
+  <div class="ocb-fact"><span class="n">$11/sq ft</span><p>where our tile labor starts. Installed tile runs $14&ndash;$26/sq ft, and basement slabs often land kindly in that range &mdash; concrete needs prep, but not the joist surgery an old wood-framed floor can demand.</p></div>
+  <div class="ocb-fact"><span class="n">2 years</span><p>our warranty on tile work &mdash; and the reason the moisture test happens before the quote is signed, not after the tile is down. We do not warranty hope.</p></div>
+  <div class="ocb-fact"><span class="n">1,000+</span><p>floors since 2013 across King &amp; Snohomish County, a healthy share of them basements &mdash; which is exactly where you learn to respect what a slab does when nobody tests it.</p></div>
+</div></div></div>
+
+<h2>Why Tile Loves a Slab &mdash; With Conditions</h2>
+
+<p>Most tile failures over wood framing trace back to movement: joists deflect, seasons swell and shrink the structure, and the grout lines keep score. Concrete does not bounce. A basement slab is the one substrate in the house where deflection is simply off the table, which is why tile over concrete, done right, is about as permanent as residential flooring gets. Add the fact that basements are where water heaters fail and laundry hoses let go, and tile starts to look less like a style choice and more like the correct engineering answer for the room.</p>
+
+<p>The conditions matter, though, because concrete has its own habits. It cracks as it cures and keeps creeping for years. It sits on soil, and soil holds water, and water moves through concrete as vapor whether you invite it or not. And builder-poured basement slabs were rarely finished flat enough for modern large-format tile. None of these is a deal-breaker. All of them are the actual job.</p>
+
+<h2>Moisture Testing Comes First, Every Time</h2>
+
+<p>Before anything is quoted in a basement, the slab gets tested for moisture &mdash; not glanced at, tested. The quick screen is a taped-down plastic sheet left for a day or two: condensation or a dark patch underneath means the slab is moving vapor. The serious tools are calcium chloride kits and in-slab relative humidity probes, which put a number on how much moisture is coming up. The number decides the assembly: a reasonably dry slab takes a standard membrane and tile; a damp one needs a vapor-rated membrane system; a wet one needs a drainage conversation, not a tile conversation.</p>
+
+<p>Snohomish basements earn extra caution here. Plenty of the housing stock &mdash; farmhouse-era homes, 1960s and 70s ramblers, daylight basements on the valley slopes &mdash; predates the routine use of vapor barriers under slabs, and the river valley keeps the water table honest. The tells are familiar: a white mineral bloom on the concrete (efflorescence), a musty smell that deep cleaning never quite kills, paint peeling off the slab in sheets. None of them says <em>never tile</em>. All of them say <em>test before you spend a dollar on porcelain</em>.</p>
+
+<h2>Cracks, Joints, and the Uncoupling Membrane</h2>
+
+<p>Every slab has cracks; the question is which kind. Hairline shrinkage cracks &mdash; thin, stable, flat across the break &mdash; are cosmetic, and an uncoupling membrane bridges them safely. The membrane is a thin polyethylene layer between slab and tile that lets the two move independently, so an old crack that creeps a hair wider never telegraphs into your floor. It is the single most valuable layer in a slab-tiling assembly, and the options are compared in <a href="/blog/ditra-vs-cement-board">DITRA vs cement board</a> &mdash; over concrete, the membrane wins that argument nearly every time.</p>
+
+<p>Two crack types do not get papered over. A crack with vertical displacement &mdash; one side higher than the other &mdash; means the slab has moved structurally, and tile goes nowhere until a professional says why. And a slab&rsquo;s control joints, the straight saw-cuts poured in on purpose, are designed to keep moving; they get honored with a matching soft joint up through the tile or isolated by the membrane system, never grouted rigid. Skip that discipline and you get the signature diagonal crack march that fills our inspection calendar &mdash; the full taxonomy is in <a href="/blog/why-tile-floors-crack">why tile floors crack</a>.</p>
+
+<h2>Flat Is Not Level &mdash; and Flat Is What Tile Needs</h2>
+
+<p>Basement slabs often slope gently toward a floor drain or a corner, and that is fine &mdash; tile does not care about level. What tile cares about is <em>flat</em>: no humps, no dishes, no quarter-inch waves that turn large-format tile into a see-saw. The fix is unglamorous and effective &mdash; grind the high spots, fill the low ones with self-leveling compound, and check with a straightedge until the surface earns the tile going on it. Old adhesive from long-dead carpet or vinyl gets scraped or ground off along the way, because thinset bonds to concrete, not to 1978&rsquo;s glue. Where each layer sits in the final stack &mdash; slab, leveler, membrane, tile &mdash; is diagrammed in <a href="/blog/tile-underlayment-explained">our underlayment guide</a>.</p>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-card">
+  <h3 style="margin:0 0 10px;font-size:18.5px;font-weight:900;color:#5c0000">What the Slab Shows Us, and What We Do About It</h3>
+  <div style="overflow-x:auto"><table class="ocb-table">
+    <tr><th>Condition</th><th>Verdict</th><th>The fix</th></tr>
+    <tr><td><strong>Clean, dry, flat slab</strong></td><td>Green light</td><td>Membrane, tile, done &mdash; the easiest substrate we ever meet</td></tr>
+    <tr><td><strong>Hairline shrinkage cracks</strong></td><td>Normal</td><td>Uncoupling membrane bridges them; no drama</td></tr>
+    <tr><td><strong>Control joints</strong></td><td>By design</td><td>Honored through the tile as soft joints, or isolated by the membrane</td></tr>
+    <tr><td><strong>Moderate moisture readings</strong></td><td>Workable</td><td>Vapor-rated membrane system, and ventilation habits worth keeping</td></tr>
+    <tr><td><strong>Out of flat</strong></td><td>Common</td><td>Grind the humps, self-level the dishes, verify with a straightedge</td></tr>
+    <tr><td><strong>Old adhesive or paint</strong></td><td>Prep item</td><td>Mechanical removal &mdash; thinset needs bare, sound concrete</td></tr>
+    <tr><td><strong>Crack with displacement</strong></td><td>Stop</td><td>Structural evaluation before any flooring conversation</td></tr>
+    <tr><td><strong>Active water intrusion</strong></td><td>Stop</td><td>Drainage, grading, or sump work first &mdash; tile does not fix hydrology</td></tr>
+  </table></div>
+</div></div>
+
+<h2>When the Slab Says No</h2>
+
+<p>Some basements are not ready for tile, and the respectful thing is to say so at the estimate. Water seeping at the cove joint after a hard rain, a sump pump that runs like a metronome, hydrostatic pressure pushing moisture through the floor &mdash; these are drainage problems, and tile laid over them becomes a very durable lid on a mess. The money goes to gutters, grading, footing drains, or a sump system first; the tile happily waits. We would rather lose a month than warranty a floor fighting the water table.</p>
+
+<p>And occasionally the honest answer is a different floor entirely. Tile is the champion for wet-risk and permanence, but it is hard and cold underfoot, and a basement rec room where kids sprawl on the floor may serve the family better in carpet over a proper pad &mdash; we make that case in <a href="/blog/carpet-for-basement">carpet for basements</a> &mdash; while solid hardwood stays off the menu below grade for reasons covered in <a href="/blog/can-i-install-hardwood-flooring-in-a-basement-or-other-moisture-prone-areas">wood in moisture-prone rooms</a>. The cold-feet problem, for what it is worth, has a tile-native fix: heated cable snapped into the same uncoupling membrane, which we compared honestly in <a href="/blog/heated-floor-mat-vs-cable">mats vs loose cable</a>.</p>
+
+<h2>The Snohomish Basement, Specifically</h2>
+
+<p>Around Snohomish the basement conversation has a local accent. The valley floor keeps ground moisture generous year-round; the older homes in and around downtown carry slabs poured decades before under-slab vapor barriers were standard practice; and the daylight basements on the hillsides mix slab-on-grade sections with framed sections in the same room, which changes the assembly mid-floor. All of it is workable &mdash; it just has to be seen and tested before it is priced. We test the slab, name the membrane, and put the prep in writing, and the full scope is on the <a href="/city-of-snohomish/tile-installation-in-snohomish-wa">Snohomish tile installation page</a>.</p>
+
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-2col">
+  <div class="ocb-card" style="margin:0">
+    <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#5c0000">Signs your slab is ready for tile</h3>
+    <ul class="ocb-check">
+      <li>Plastic-sheet test comes back dry after 48 hours</li>
+      <li>Cracks are hairline, stable, and flat across the break</li>
+      <li>Straightedge shows no humps or dishes worth naming</li>
+      <li>Bare concrete &mdash; old glue and paint already dealt with</li>
+      <li>No musty smell, no efflorescence bloom on floor or walls</li>
+      <li>Sump and gutters handle storms without drama</li>
+    </ul>
+  </div>
+  <div class="ocb-card" style="margin:0">
+    <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#334155">Signs to stop and fix first</h3>
+    <ul class="ocb-check ocb-x">
+      <li>Dark, damp patch under the taped plastic sheet</li>
+      <li>A crack where one side sits higher than the other</li>
+      <li>Water at the wall-floor joint after hard rain</li>
+      <li>Efflorescence &mdash; the slab is moving mineral-laden water</li>
+      <li>A sump pump that cycles constantly in winter</li>
+      <li>Peeling slab paint &mdash; vapor pressure is pushing from below</li>
+    </ul>
+  </div>
+</div></div></div>
+
+<div data-rt-embed-type='true'><!-- FAQ accordion + JSON-LD -->
+<div class="faq-wrap ocb" aria-labelledby="faq-title">
+  <h2 id="faq-title" class="faq-title">Tiling a Basement Slab: What Homeowners Ask Us</h2>
+  <div class="faq-items" role="list">
+    <details class="faq-item" role="listitem"><summary class="faq-q">Can you tile directly over a concrete basement slab?</summary><div class="faq-a">Structurally, concrete is the best base tile can have - but we still put an uncoupling membrane between slab and tile rather than bonding directly. The membrane bridges the hairline cracks every slab develops and keeps future concrete movement from telegraphing into grout lines. Direct-bond installs work until the slab twitches; the membrane makes that not your problem.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">How do you test a basement slab for moisture?</summary><div class="faq-a">The quick screen is a plastic sheet taped tight to the slab for a day or two - moisture underneath means the slab is moving vapor. For a real number we use calcium chloride tests or in-slab relative humidity probes. The result decides the assembly: standard membrane, vapor-rated membrane, or a drainage conversation before any tile at all.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Do cracks in the slab mean I cannot tile?</summary><div class="faq-a">Usually not. Hairline shrinkage cracks are normal concrete behavior, and an uncoupling membrane bridges them safely. The exceptions are cracks with displacement - one side higher than the other - which need a structural opinion first, and control joints, which must be honored up through the tile as soft joints rather than grouted rigid.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">My basement slab is not level. Is that a problem for tile?</summary><div class="faq-a">Slope is fine; waviness is not. Tile tolerates a floor that leans gently toward a drain, but large-format tile demands flatness - no humps or dishes. We grind high spots and pour self-leveler into low ones until a straightedge stops arguing. It is unglamorous work and it is most of the difference between a good basement tile job and a lippage museum.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">What about old carpet glue or paint on the slab?</summary><div class="faq-a">It comes off. Thinset needs to bond to sound, bare concrete, not to decades-old adhesive, so residue is scraped or ground away as part of prep. It adds hours, not drama, and it is far cheaper than the alternative, which is tile bonded to a layer that lets go.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Is a heated floor worth it over a basement slab?</summary><div class="faq-a">It is the single best comfort upgrade a basement tile floor can get. Slabs hold ground temperature all year, and heating cable snapped into the studded uncoupling membrane warms the surface for the hours you actually use the room. The membrane does double duty - crack isolation and cable placement - so the incremental cost is mostly the wire and the electrician.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">When should a basement not be tiled?</summary><div class="faq-a">When the water problem is still winning: seepage at the cove joint, a sump running constantly, moisture readings that stay high after a dry week. Tile over active water is a durable lid on an ongoing mess. Fix drainage, grading, or the sump first - the slab will still be there, and so will we. Occasionally the answer is also that carpet simply suits the room better, and we will say so.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">What does it cost to tile a basement over concrete?</summary><div class="faq-a">Our installed tile runs $14 to $26 per square foot, labor from $11. Basements often price in the friendlier half of the range - concrete needs membrane and flattening but not the structural work an old wood-framed floor can demand. Moisture results and how much leveling the slab needs are the two variables that move the number, and both are known before you sign anything.</div></details>
+  </div>
+</div>
+
+<style>
+  .faq-wrap{--line:#e5e7eb;margin:28px auto;padding:20px;border:1px solid var(--line);border-radius:16px;background:#fff;box-shadow:0 8px 30px rgba(2,6,23,.06)}
+  .faq-title{margin:0 0 14px;font-size:24px;font-weight:900;text-align:center;color:#5c0000}
+  .faq-items{display:grid;gap:10px}
+  .faq-item{border:1px solid var(--line);border-radius:14px;background:#f9fafb;overflow:hidden}
+  .faq-q{cursor:pointer;display:block;padding:14px 16px;font-weight:800;color:#0f172a}
+  .faq-q::-webkit-details-marker{display:none}
+  .faq-item[open] .faq-q{background:linear-gradient(180deg, rgba(139,0,0,.08), rgba(139,0,0,.02))}
+  .faq-a{padding:0 16px 14px;color:#1f2937;line-height:1.6}
+</style>
+
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Can you tile directly over a concrete basement slab?", "acceptedAnswer": {"@type": "Answer", "text": "Structurally, concrete is the best base tile can have - but we still put an uncoupling membrane between slab and tile rather than bonding directly. The membrane bridges the hairline cracks every slab develops and keeps future concrete movement from telegraphing into grout lines. Direct-bond installs work until the slab twitches; the membrane makes that not your problem."}}, {"@type": "Question", "name": "How do you test a basement slab for moisture?", "acceptedAnswer": {"@type": "Answer", "text": "The quick screen is a plastic sheet taped tight to the slab for a day or two - moisture underneath means the slab is moving vapor. For a real number we use calcium chloride tests or in-slab relative humidity probes. The result decides the assembly: standard membrane, vapor-rated membrane, or a drainage conversation before any tile at all."}}, {"@type": "Question", "name": "Do cracks in the slab mean I cannot tile?", "acceptedAnswer": {"@type": "Answer", "text": "Usually not. Hairline shrinkage cracks are normal concrete behavior, and an uncoupling membrane bridges them safely. The exceptions are cracks with displacement - one side higher than the other - which need a structural opinion first, and control joints, which must be honored up through the tile as soft joints rather than grouted rigid."}}, {"@type": "Question", "name": "My basement slab is not level. Is that a problem for tile?", "acceptedAnswer": {"@type": "Answer", "text": "Slope is fine; waviness is not. Tile tolerates a floor that leans gently toward a drain, but large-format tile demands flatness - no humps or dishes. We grind high spots and pour self-leveler into low ones until a straightedge stops arguing. It is unglamorous work and it is most of the difference between a good basement tile job and a lippage museum."}}, {"@type": "Question", "name": "What about old carpet glue or paint on the slab?", "acceptedAnswer": {"@type": "Answer", "text": "It comes off. Thinset needs to bond to sound, bare concrete, not to decades-old adhesive, so residue is scraped or ground away as part of prep. It adds hours, not drama, and it is far cheaper than the alternative, which is tile bonded to a layer that lets go."}}, {"@type": "Question", "name": "Is a heated floor worth it over a basement slab?", "acceptedAnswer": {"@type": "Answer", "text": "It is the single best comfort upgrade a basement tile floor can get. Slabs hold ground temperature all year, and heating cable snapped into the studded uncoupling membrane warms the surface for the hours you actually use the room. The membrane does double duty - crack isolation and cable placement - so the incremental cost is mostly the wire and the electrician."}}, {"@type": "Question", "name": "When should a basement not be tiled?", "acceptedAnswer": {"@type": "Answer", "text": "When the water problem is still winning: seepage at the cove joint, a sump running constantly, moisture readings that stay high after a dry week. Tile over active water is a durable lid on an ongoing mess. Fix drainage, grading, or the sump first - the slab will still be there, and so will we. Occasionally the answer is also that carpet simply suits the room better, and we will say so."}}, {"@type": "Question", "name": "What does it cost to tile a basement over concrete?", "acceptedAnswer": {"@type": "Answer", "text": "Our installed tile runs $14 to $26 per square foot, labor from $11. Basements often price in the friendlier half of the range - concrete needs membrane and flattening but not the structural work an old wood-framed floor can demand. Moisture results and how much leveling the slab needs are the two variables that move the number, and both are known before you sign anything."}}]}
+</script></div>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-cta" style="margin:30px 0">
+  <style>
+    html body .post-body .ocb-cta h2, .ocb-cta h2{color:#fff!important}
+    html body .post-body .ocb-cta .ocb-cta-sub, .ocb-cta .ocb-cta-sub{color:rgba(255,255,255,.88)!important}
+    html body .post-body .ocb-cta .ocb-cta-chips span, .ocb-cta .ocb-cta-chips span{color:rgba(255,255,255,.94)!important}
+    html body .post-body .ocb-cta a.ocb-cta-ghost, .ocb-cta a.ocb-cta-ghost{color:#fff!important;text-decoration:none!important}
+    html body .post-body .ocb-cta a.ocb-cta-gold, .ocb-cta a.ocb-cta-gold{color:#fbbc04!important}
+    html body .post-body .ocb-cta a.ocb-cta-phone, .ocb-cta a.ocb-cta-phone{color:#5c0000!important;text-decoration:none!important}
+  </style>
+  <div style="background:linear-gradient(135deg,#8B0000,#5c0000);border-radius:20px;padding:28px 24px;color:#fff;text-align:center;box-shadow:0 14px 34px rgba(92,0,0,.3)">
+    <h2 style="margin:0 0 6px;color:#fff!important;font-size:24px;font-weight:900">Get the Slab Tested Before You Get It Tiled</h2>
+    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.92)!important;font-size:16.3px">We will test the moisture, walk the cracks, check the flatness, and tell you straight whether your basement is ready for tile &mdash; and what to fix first if it is not. Free in-home estimates across King &amp; Snohomish County.</p>
+    <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
+      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff!important;color:#5c0000!important;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none!important"><span class="ocb-ic ocb-ic-phone"></span> (425) 595-1079</a>
+      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.16)!important;border:1px solid rgba(255,255,255,.55);color:#fff!important;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none!important">Book My Free Consultation</a>
+    </div>
+    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.95)!important">
+      <span>✓ Since 2013</span><span>✓ 1,000+ floors</span><span>✓ 1-yr workmanship warranty</span><span>✓ Licensed &amp; insured</span><span>✓ Financing available</span>
+    </div>
+    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04!important;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
+  </div>
+</div></div>
+
+<p><strong>Related reading:</strong> <a href="/blog/tile-underlayment-explained">Tile underlayment, explained</a> · <a href="/blog/why-tile-floors-crack">Why tile floors crack</a> · <a href="/blog/ditra-vs-cement-board">DITRA vs cement board</a> · <a href="/blog/heated-floor-mat-vs-cable">Heated floor mats vs loose cable</a> · <a href="/blog/carpet-for-basement">Carpet for basements</a> · <a href="/city-of-snohomish/tile-installation-in-snohomish-wa">Tile installation in Snohomish</a> · <a href="/contact">Book a free estimate</a></p>
+
+<div data-rt-embed-type='true'><script>
+(function(){try{
+var els=document.querySelectorAll('.ocb-card,.ocb-fact,.ocb-tri,.faq-item');
+if(!('IntersectionObserver' in window)||!els.length)return;
+document.documentElement.classList.add('ocb-anim-ready');
+els.forEach(function(e,i){e.classList.add('ocb-rv');e.style.transitionDelay=Math.min((i%6)*70,350)+'ms'});
+var io=new IntersectionObserver(function(en){en.forEach(function(x){if(x.isIntersecting){x.target.classList.add('ocb-in');io.unobserve(x.target)}})},{threshold:.12,rootMargin:'0px 0px -8% 0px'});
+els.forEach(function(e){io.observe(e)});
+}catch(e){}})();
+</script></div>

@@ -1,0 +1,200 @@
+<div data-rt-embed-type='true'><style>
+.ocb{--ink:#0f172a;--muted:#64748b;--line:#e5e7eb;--soft:#f8fafc;--brand:#8B0000;--brand2:#5c0000;--gold:#fbbc04;font-family:'Mulish',Inter,system-ui,sans-serif;color:var(--ink)}
+.ocb *{box-sizing:border-box}
+.ocb-card{border:1px solid var(--line);border-radius:18px;background:#fff;box-shadow:0 10px 30px rgba(2,6,23,.06);padding:22px;margin:26px 0}
+.ocb-eyebrow{display:inline-block;background:rgba(139,0,0,.08);color:var(--brand2);border:1px solid rgba(139,0,0,.2);border-radius:999px;padding:5px 12px;font-size:12.5px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;margin-bottom:10px}
+.ocb-chips{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0 0}
+.ocb-chip{background:var(--soft);border:1px solid var(--line);border-radius:999px;padding:6px 12px;font-size:13.6px;font-weight:700}
+.ocb-table{width:100%;border-collapse:collapse;font-size:15.2px}
+.ocb-table th,.ocb-table td{padding:11px 10px;text-align:left;border-bottom:1px solid var(--line)}
+.ocb-table th{background:var(--soft);font-weight:800;font-size:13.6px;letter-spacing:.02em}
+.ocb-table tr:last-child td{border-bottom:0}
+.ocb-table td strong{color:var(--brand2)}
+.ocb-2col{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media(max-width:680px){.ocb-2col{grid-template-columns:1fr}}
+.ocb-check{list-style:none;padding:0;margin:10px 0 0}
+.ocb-check li{padding-left:26px;position:relative;margin:7px 0;line-height:1.55}
+.ocb-check li:before{content:"✓";position:absolute;left:0;color:var(--brand);font-weight:900}
+.ocb-x li:before{content:"✕";color:#94a3b8}
+html body .post-body .ocb-facts, .ocb-facts{display:grid!important;grid-template-columns:repeat(3,1fr)!important;gap:12px!important;margin:8px 0!important}
+@media(max-width:680px){html body .post-body .ocb-facts, .ocb-facts{grid-template-columns:1fr!important}}
+.ocb-fact{background:linear-gradient(180deg,#fff,#f8fafc);border:1px solid var(--line);border-radius:16px;padding:16px}
+.ocb-fact .n{font-size:24px;font-weight:900;color:var(--brand2);display:block;margin-bottom:4px}
+html body .post-body .ocb-fact p, .ocb-fact p{margin:0!important;font-size:14.7px!important;color:#334155!important;line-height:1.5!important}
+
+.ocb-card,.ocb-fact,.ocb-tri{transition:transform .28s ease,box-shadow .28s ease}
+.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:translateY(-4px);box-shadow:0 16px 40px rgba(2,6,23,.12)}
+.faq-item{transition:border-color .25s,box-shadow .25s}
+.faq-item:hover{border-color:rgba(139,0,0,.35);box-shadow:0 6px 18px rgba(2,6,23,.07)}
+.ocb-chip{display:inline-flex;align-items:center;gap:6px;transition:transform .2s,border-color .2s}
+.ocb-chip:hover{transform:translateY(-2px);border-color:rgba(139,0,0,.35)}
+.ocb-chip svg{color:#8B0000}
+.ocb-cta a{transition:transform .22s,box-shadow .22s}
+.ocb-cta a:hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(0,0,0,.25)}
+.ocb-fact .n{position:relative}
+html.ocb-anim-ready .ocb-rv{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
+html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){html.ocb-anim-ready .ocb-rv{opacity:1!important;transform:none!important;transition:none!important}.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:none}}
+
+/* Chip icons. Webflow's rich-text sanitizer strips inline <svg> whenever a post is
+   re-saved in the Editor, so the icons are drawn from CSS on a <span> instead. */
+.ocb-ic{display:inline-block;width:15px;height:15px;flex:0 0 auto;vertical-align:-2px;background-repeat:no-repeat;background-position:center;background-size:contain}
+.ocb-ic-pin{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z'/><circle cx='12' cy='10' r='3'/></svg>")}
+.ocb-ic-home{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z'/><polyline points='9 22 9 12 15 12 15 22'/></svg>")}
+.ocb-ic-phone{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z'/></svg>")}
+.ocb-cta .ocb-ic{filter:brightness(0) saturate(100%) invert(9%) sepia(64%) saturate(4000%) hue-rotate(348deg)}
+</style></div>
+
+<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">February 16, 2027</span></div></div>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
+  <span class="ocb-eyebrow">Quick answer</span>
+  <p style="margin:0;font-size:17.9px;line-height:1.65"><strong>Hiring a tile installer in Seattle comes down to three questions almost nobody asks: What waterproofing membrane will you use, by name? Will you flood-test the pan for 24 hours, and can I see it? And what is your rate for what demolition finds?</strong> Add a two-minute check of the contractor's registration and bond on Washington's L&amp;I site, and you have filtered out most of the ways a tile job goes wrong &mdash; before anyone touches your bathroom. Price matters, but the spread between tile quotes is usually the answers to those three questions, not the tile.</p>
+  <div class="ocb-chips">
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-pin"></span> King &amp; Snohomish County</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-home"></span> Seattle homes &amp; condos</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-phone"></span> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
+  </div>
+</div></div>
+
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-facts">
+  <div class="ocb-fact"><span class="n">24 hours</span><p>the flood test a finished shower pan should sit through before tile goes on. We photograph ours and keep it on file. Ask every bidder when this day is in their schedule &mdash; if it does not have a day, it does not happen.</p></div>
+  <div class="ocb-fact"><span class="n">2 years</span><p>our warranty on tile work, double the one-year most of the trade offers. A warranty is only as good as the assembly behind the tile; that is the bet we are making, in writing.</p></div>
+  <div class="ocb-fact"><span class="n">4.7&#9733;</span><p>across 119 Google reviews. Read any installer&rsquo;s worst reviews, not their best &mdash; how a company behaves when something went sideways is the only review that predicts your experience.</p></div>
+</div></div></div>
+
+<h2>Why Tile Is the Trade Where Hiring Matters Most</h2>
+
+<p>Most flooring mistakes are visible and fixable. A bad paint job annoys you; a badly stretched carpet gets restretched. Tile is different in one specific way: <strong>everything that decides whether it lasts is buried on day three</strong>. The substrate prep, the membrane, the pre-slope under a shower pan &mdash; once tile covers them, no inspection can see them, and the failure arrives years later as a cracked line, a hollow floor, or a stain on the ceiling below. You are not hiring someone to place tiles. You are hiring their judgment about everything the tiles will hide.</p>
+
+<p>That is why this guide spends little time on the questions people usually ask &mdash; how long have you been in business, can I see photos &mdash; and most of it on the questions that actually separate installers. Photos show everyone's best work; every portfolio in Seattle is beautiful. The differences live in the answers below.</p>
+
+<h2>The Two-Minute Check Before Any Conversation</h2>
+
+<p>Washington makes this easy. Every legitimate contractor is registered with the state Department of Labor &amp; Industries, and the L&amp;I &ldquo;Verify a Contractor&rdquo; tool is public. Type in the business name and you will see whether the registration is active, whether the bond and liability insurance are current, and &mdash; usefully &mdash; whether anyone has filed suit against that bond. An unregistered contractor in Washington is not a bargain; it is a legal problem you are volunteering for, because you lose the bond as a recovery path and may inherit liability you did not know you were carrying.</p>
+
+<p>While you are there, check the registration age against the story you were told. A crew that says &ldquo;twenty years of experience&rdquo; attached to a registration born eight months ago is not necessarily lying &mdash; people go independent &mdash; but it is a thing to ask about. And ask for the certificate of insurance directly: a real contractor's office sends it without friction, because they get asked weekly.</p>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-card">
+  <h3 style="margin:0 0 10px;font-size:18.5px;font-weight:900;color:#5c0000">The Questions That Actually Separate Tile Installers</h3>
+  <div style="overflow-x:auto"><table class="ocb-table">
+    <tr><th>Ask this</th><th>A good answer sounds like</th><th>Walk away if</th></tr>
+    <tr><td><strong>What membrane will you use in the shower?</strong></td><td>A product, by name &mdash; a bonded sheet like Kerdi, or a liquid membrane with coat counts</td><td>&ldquo;Cement board is waterproof&rdquo; or &ldquo;the tile keeps water out&rdquo; &mdash; neither is true</td></tr>
+    <tr><td><strong>Do you flood-test the pan?</strong></td><td>&ldquo;24 hours, photographed, before any tile&rdquo; &mdash; and it has a day in the schedule</td><td>Hesitation, or &ldquo;we spray it later&rdquo; &mdash; a spray test after tile proves nothing about the pan</td></tr>
+    <tr><td><strong>What if you open the floor and find rot?</strong></td><td>A named hourly or unit rate for discoveries, agreed now, in the contract</td><td>A shrug, or &ldquo;we will work it out&rdquo; &mdash; that is a mid-job negotiation you will lose</td></tr>
+    <tr><td><strong>How will you prep the floor?</strong></td><td>Flattening, deflection check, an uncoupling membrane or proper backer, by name</td><td>&ldquo;We go right over what is there&rdquo; on a wood subfloor</td></tr>
+    <tr><td><strong>Grout and corners?</strong></td><td>Grout choice explained; silicone, not grout, at every change of plane</td><td>Grouted corners &mdash; they crack, and the crack lets water in</td></tr>
+    <tr><td><strong>Warranty, in writing?</strong></td><td>A year at minimum &mdash; ours is two &mdash; and a story about honoring it</td><td>Verbal assurances, or a warranty that excludes everything that can happen</td></tr>
+  </table></div>
+</div></div>
+
+<h2>Why the Membrane Question Does So Much Work</h2>
+
+<p>One question outperforms a reference check: <em>name the waterproofing</em>. An installer who answers instantly &mdash; Kerdi with banded seams, or a liquid membrane at the manufacturer&rsquo;s specified thickness in two coats &mdash; has revealed their whole approach: they work in systems, follow specs, and expect to be asked. An installer who waves at the question has told you the assembly will be improvised, and improvised waterproofing is how showers end up in our <a href="/blog/tile-shower-waterproofing">waterproofing guide</a> as cautionary tales. Grout is not waterproof and was never supposed to be; water passes through it by design, and the membrane behind it is the actual shower. The same fluency test applies to floors &mdash; ask what goes under the tile and expect to hear about flatness and movement, the physics we covered in <a href="/blog/why-tile-floors-crack">why tile floors crack</a>.</p>
+
+<h2>Reading the Quotes Side by Side</h2>
+
+<p>Collect three bids and the spread will surprise you &mdash; on a Seattle shower it is routinely thousands. The instinct is to assume the high bid is greed and the low bid is hunger; the truth is usually that they describe different jobs. One includes substrate flattening, a named membrane, a flood-test day, silicone corners and a contingency rate. One says &ldquo;install customer&rsquo;s tile, $X.&rdquo; The pages look similar; the showers they produce are not. We walked through the honest arithmetic in <a href="/blog/bathroom-tile-installation-cost-seattle">what bathroom tile costs in Seattle</a> &mdash; installed work runs $14&ndash;$26 per square foot with labor from $11, and a bid meaningfully below that range is leaving out steps, not overhead.</p>
+
+<p>Timeline is the other tell. A full bathroom with a waterproofed shower is realistically seven to nine working days including cure times and the flood test &mdash; the <a href="/blog/how-long-to-tile-a-bathroom">day-by-day calendar</a> is published and boring. A bidder promising the same scope in three days is not faster; they are skipping the days you cannot see.</p>
+
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-2col">
+  <div class="ocb-card" style="margin:0">
+    <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#5c0000">Green flags worth noticing</h3>
+    <ul class="ocb-check">
+      <li>Names products unprompted &mdash; membrane, mortar, grout</li>
+      <li>Puts the flood test on the schedule without being asked</li>
+      <li>Contingency rate for discoveries, in the contract</li>
+      <li>Asks about your subfloor and house age before quoting</li>
+      <li>Sends the insurance certificate the same day you ask</li>
+      <li>Talks you out of something &mdash; a pricier tile, a needless demo</li>
+    </ul>
+  </div>
+  <div class="ocb-card" style="margin:0">
+    <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#334155">Red flags that predict the ending</h3>
+    <ul class="ocb-check ocb-x">
+      <li>Big cash discount for skipping the paperwork</li>
+      <li>A deposit far out of proportion to materials</li>
+      <li>&ldquo;We can start tomorrow&rdquo; from a quality crew in February</li>
+      <li>No physical visit before a firm number on a shower</li>
+      <li>Vague line items: &ldquo;materials&rdquo;, &ldquo;prep as needed&rdquo;</li>
+      <li>Pressure to sign today because the price expires</li>
+    </ul>
+  </div>
+</div></div></div>
+
+<h2>The Conversation About Money, Had Correctly</h2>
+
+<p>A fair tile contract in Seattle has a shape: a modest deposit that roughly tracks materials, progress payments tied to milestones you can verify &mdash; waterproofing done and flood test passed is a natural one &mdash; and a final payment after the walkthrough, not before. Be suspicious of large up-front demands, and be equally fair in the other direction: a contractor who has passed your flood-test milestone has done the majority of the invisible work and earned the progress payment. Get the warranty in writing with the final invoice, along with the flood-test photos and the product names that went into your walls. That folder is worth real money when you sell the house.</p>
+
+<p>And a note on chemistry, because it is underrated: you are letting this crew into your home for a week or two. The installer who returns calls before the contract is signed is the one who will return them after. The one who explains trade-offs &mdash; <a href="/blog/epoxy-vs-cement-grout">epoxy versus cement grout</a>, niche placement, where the cut tiles should land &mdash; is the one whose judgment you are actually buying.</p>
+
+<h2>Where We Fit, Honestly</h2>
+
+<p>We are one of the companies you would be comparing, so weigh this paragraph accordingly &mdash; but the reason we published the questions above is that we like how we score on them. Every shower gets a pre-slope, a bonded membrane, and a photographed 24-hour flood test kept on file; the work carries a 2-year warranty; the contingency rate is in the contract before demolition. If you want us in your stack of bids, the scope and neighborhoods are on the <a href="/seattle/tile-installation-in-seattle-wa">Seattle tile installation page</a> &mdash; and if you already have a bidder who answers every question above cleanly, hire them with our blessing. The point of the list is that somebody answers it.</p>
+
+<div data-rt-embed-type='true'><!-- FAQ accordion + JSON-LD -->
+<div class="faq-wrap ocb" aria-labelledby="faq-title">
+  <h2 id="faq-title" class="faq-title">Hiring a Tile Installer in Seattle: What Homeowners Ask Us</h2>
+  <div class="faq-items" role="list">
+    <details class="faq-item" role="listitem"><summary class="faq-q">How do I verify a tile contractor is licensed in Washington?</summary><div class="faq-a">Use the Department of Labor & Industries "Verify a Contractor" search — it is free and public. Check that the registration is active, the bond and liability insurance are current, and look at whether there are actions against the bond. It takes two minutes and filters out the riskiest hires before a single conversation.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">What questions should I ask before hiring a tile installer?</summary><div class="faq-a">Three matter most: name the waterproofing membrane you will use; do you flood-test the shower pan for 24 hours and can I see it; and what is your rate for what demolition uncovers. Installers who answer all three instantly and specifically are rare, and they are the ones worth paying.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">How much does tile installation cost in Seattle?</summary><div class="faq-a">Installed tile work runs $14–$26 per square foot, with labor from $11 per square foot, depending on the tile, the layout, and the condition of what is underneath. Showers cost more per square foot than floors because the waterproofing assembly is most of the labor. A bid far below that range is describing a smaller job than the one you need.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Why do tile quotes vary so much between contractors?</summary><div class="faq-a">Because they describe different jobs. The spread is almost never the tile — it is substrate prep, the membrane, the flood test, silicone details, and whether a contingency for hidden damage is priced now or sprung on you later. Ask each bidder the membrane and flood-test questions and the spread usually explains itself.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Should I buy the tile myself and just hire labor?</summary><div class="faq-a">You can, and we work that way often. Buy from a real tile supplier, order 10–15% overage for cuts and breakage, and confirm the installer sees the tile before quoting — large format, natural stone and mosaics each change the labor. Let the installer supply the setting materials and membrane; that is where their system lives.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Is a handyman okay for a small tile job?</summary><div class="faq-a">For a backsplash or a laundry floor, a skilled handyman can be honest value. For anything in a shower, no — wet-area tile is a system, and the cost of a failed membrane is a rebuilt bathroom plus whatever the leak ruined below it. Match the hire to the consequence of failure, not the size of the room.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">What deposit is normal for tile work in Seattle?</summary><div class="faq-a">Enough to cover materials and scheduling commitment — commonly 10–30% depending on how much product the job requires. Progress payments should follow verifiable milestones, like a passed flood test, with the final payment after walkthrough. Treat requests for most of the money up front as the red flag it is.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">What should I get in writing when the job is done?</summary><div class="faq-a">The warranty, the flood-test photos, and the names of the products in your walls — membrane, mortar, grout. Keep them with the house documents. They are the proof of what was done correctly, they matter for any warranty conversation, and they answer the exact questions the next owner’s inspector will ask.</div></details>
+  </div>
+</div>
+
+<style>
+  .faq-wrap{--line:#e5e7eb;margin:28px auto;padding:20px;border:1px solid var(--line);border-radius:16px;background:#fff;box-shadow:0 8px 30px rgba(2,6,23,.06)}
+  .faq-title{margin:0 0 14px;font-size:24px;font-weight:900;text-align:center;color:#5c0000}
+  .faq-items{display:grid;gap:10px}
+  .faq-item{border:1px solid var(--line);border-radius:14px;background:#f9fafb;overflow:hidden}
+  .faq-q{cursor:pointer;display:block;padding:14px 16px;font-weight:800;color:#0f172a}
+  .faq-q::-webkit-details-marker{display:none}
+  .faq-item[open] .faq-q{background:linear-gradient(180deg, rgba(139,0,0,.08), rgba(139,0,0,.02))}
+  .faq-a{padding:0 16px 14px;color:#1f2937;line-height:1.6}
+</style>
+
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How do I verify a tile contractor is licensed in Washington?", "acceptedAnswer": {"@type": "Answer", "text": "Use the Department of Labor & Industries \"Verify a Contractor\" search — it is free and public. Check that the registration is active, the bond and liability insurance are current, and look at whether there are actions against the bond. It takes two minutes and filters out the riskiest hires before a single conversation."}}, {"@type": "Question", "name": "What questions should I ask before hiring a tile installer?", "acceptedAnswer": {"@type": "Answer", "text": "Three matter most: name the waterproofing membrane you will use; do you flood-test the shower pan for 24 hours and can I see it; and what is your rate for what demolition uncovers. Installers who answer all three instantly and specifically are rare, and they are the ones worth paying."}}, {"@type": "Question", "name": "How much does tile installation cost in Seattle?", "acceptedAnswer": {"@type": "Answer", "text": "Installed tile work runs $14–$26 per square foot, with labor from $11 per square foot, depending on the tile, the layout, and the condition of what is underneath. Showers cost more per square foot than floors because the waterproofing assembly is most of the labor. A bid far below that range is describing a smaller job than the one you need."}}, {"@type": "Question", "name": "Why do tile quotes vary so much between contractors?", "acceptedAnswer": {"@type": "Answer", "text": "Because they describe different jobs. The spread is almost never the tile — it is substrate prep, the membrane, the flood test, silicone details, and whether a contingency for hidden damage is priced now or sprung on you later. Ask each bidder the membrane and flood-test questions and the spread usually explains itself."}}, {"@type": "Question", "name": "Should I buy the tile myself and just hire labor?", "acceptedAnswer": {"@type": "Answer", "text": "You can, and we work that way often. Buy from a real tile supplier, order 10–15% overage for cuts and breakage, and confirm the installer sees the tile before quoting — large format, natural stone and mosaics each change the labor. Let the installer supply the setting materials and membrane; that is where their system lives."}}, {"@type": "Question", "name": "Is a handyman okay for a small tile job?", "acceptedAnswer": {"@type": "Answer", "text": "For a backsplash or a laundry floor, a skilled handyman can be honest value. For anything in a shower, no — wet-area tile is a system, and the cost of a failed membrane is a rebuilt bathroom plus whatever the leak ruined below it. Match the hire to the consequence of failure, not the size of the room."}}, {"@type": "Question", "name": "What deposit is normal for tile work in Seattle?", "acceptedAnswer": {"@type": "Answer", "text": "Enough to cover materials and scheduling commitment — commonly 10–30% depending on how much product the job requires. Progress payments should follow verifiable milestones, like a passed flood test, with the final payment after walkthrough. Treat requests for most of the money up front as the red flag it is."}}, {"@type": "Question", "name": "What should I get in writing when the job is done?", "acceptedAnswer": {"@type": "Answer", "text": "The warranty, the flood-test photos, and the names of the products in your walls — membrane, mortar, grout. Keep them with the house documents. They are the proof of what was done correctly, they matter for any warranty conversation, and they answer the exact questions the next owner’s inspector will ask."}}]}
+</script></div>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-cta" style="margin:30px 0">
+  <style>
+    html body .post-body .ocb-cta h2, .ocb-cta h2{color:#fff!important}
+    html body .post-body .ocb-cta .ocb-cta-sub, .ocb-cta .ocb-cta-sub{color:rgba(255,255,255,.88)!important}
+    html body .post-body .ocb-cta .ocb-cta-chips span, .ocb-cta .ocb-cta-chips span{color:rgba(255,255,255,.94)!important}
+    html body .post-body .ocb-cta a.ocb-cta-ghost, .ocb-cta a.ocb-cta-ghost{color:#fff!important;text-decoration:none!important}
+    html body .post-body .ocb-cta a.ocb-cta-gold, .ocb-cta a.ocb-cta-gold{color:#fbbc04!important}
+    html body .post-body .ocb-cta a.ocb-cta-phone, .ocb-cta a.ocb-cta-phone{color:#5c0000!important;text-decoration:none!important}
+  </style>
+  <div style="background:linear-gradient(135deg,#8B0000,#5c0000);border-radius:20px;padding:28px 24px;color:#fff;text-align:center;box-shadow:0 14px 34px rgba(92,0,0,.3)">
+    <h2 style="margin:0 0 6px;color:#fff!important;font-size:24px;font-weight:900">Interview Us With the Hard Questions</h2>
+    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.92)!important;font-size:16.3px">Membrane by name, a photographed 24-hour flood test, a contingency rate in the contract, and a 2-year warranty &mdash; we built the checklist because we like our answers to it. Free in-home estimates across King &amp; Snohomish County.</p>
+    <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
+      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff!important;color:#5c0000!important;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none!important"><span class="ocb-ic ocb-ic-phone"></span> (425) 595-1079</a>
+      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.16)!important;border:1px solid rgba(255,255,255,.55);color:#fff!important;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none!important">Book My Free Consultation</a>
+    </div>
+    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.95)!important">
+      <span>✓ Since 2013</span><span>✓ 1,000+ floors</span><span>✓ 1-yr workmanship warranty</span><span>✓ Licensed &amp; insured</span><span>✓ Financing available</span>
+    </div>
+    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04!important;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
+  </div>
+</div></div>
+
+<p><strong>Related reading:</strong> <a href="/blog/tile-shower-waterproofing">How a tile shower is waterproofed</a> · <a href="/blog/bathroom-tile-installation-cost-seattle">Bathroom tile installation cost in Seattle</a> · <a href="/blog/how-long-to-tile-a-bathroom">How long a bathroom takes to tile</a> · <a href="/blog/why-tile-floors-crack">Why tile floors crack</a> · <a href="/seattle/tile-installation-in-seattle-wa">Tile installation in Seattle</a> · <a href="/contact">Book a free estimate</a></p>
+
+<div data-rt-embed-type='true'><script>
+(function(){try{
+var els=document.querySelectorAll('.ocb-card,.ocb-fact,.ocb-tri,.faq-item');
+if(!('IntersectionObserver' in window)||!els.length)return;
+document.documentElement.classList.add('ocb-anim-ready');
+els.forEach(function(e,i){e.classList.add('ocb-rv');e.style.transitionDelay=Math.min((i%6)*70,350)+'ms'});
+var io=new IntersectionObserver(function(en){en.forEach(function(x){if(x.isIntersecting){x.target.classList.add('ocb-in');io.unobserve(x.target)}})},{threshold:.12,rootMargin:'0px 0px -8% 0px'});
+els.forEach(function(e){io.observe(e)});
+}catch(e){}})();
+</script></div>

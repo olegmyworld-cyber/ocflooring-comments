@@ -1,0 +1,200 @@
+<div data-rt-embed-type='true'><style>
+.ocb{--ink:#0f172a;--muted:#64748b;--line:#e5e7eb;--soft:#f8fafc;--brand:#8B0000;--brand2:#5c0000;--gold:#fbbc04;font-family:'Mulish',Inter,system-ui,sans-serif;color:var(--ink)}
+.ocb *{box-sizing:border-box}
+.ocb-card{border:1px solid var(--line);border-radius:18px;background:#fff;box-shadow:0 10px 30px rgba(2,6,23,.06);padding:22px;margin:26px 0}
+.ocb-eyebrow{display:inline-block;background:rgba(139,0,0,.08);color:var(--brand2);border:1px solid rgba(139,0,0,.2);border-radius:999px;padding:5px 12px;font-size:12.5px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;margin-bottom:10px}
+.ocb-chips{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0 0}
+.ocb-chip{background:var(--soft);border:1px solid var(--line);border-radius:999px;padding:6px 12px;font-size:13.6px;font-weight:700}
+.ocb-table{width:100%;border-collapse:collapse;font-size:15.2px}
+.ocb-table th,.ocb-table td{padding:11px 10px;text-align:left;border-bottom:1px solid var(--line)}
+.ocb-table th{background:var(--soft);font-weight:800;font-size:13.6px;letter-spacing:.02em}
+.ocb-table tr:last-child td{border-bottom:0}
+.ocb-table td strong{color:var(--brand2)}
+.ocb-2col{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media(max-width:680px){.ocb-2col{grid-template-columns:1fr}}
+.ocb-check{list-style:none;padding:0;margin:10px 0 0}
+.ocb-check li{padding-left:26px;position:relative;margin:7px 0;line-height:1.55}
+.ocb-check li:before{content:"✓";position:absolute;left:0;color:var(--brand);font-weight:900}
+.ocb-x li:before{content:"✕";color:#94a3b8}
+html body .post-body .ocb-facts, .ocb-facts{display:grid!important;grid-template-columns:repeat(3,1fr)!important;gap:12px!important;margin:8px 0!important}
+@media(max-width:680px){html body .post-body .ocb-facts, .ocb-facts{grid-template-columns:1fr!important}}
+.ocb-fact{background:linear-gradient(180deg,#fff,#f8fafc);border:1px solid var(--line);border-radius:16px;padding:16px}
+.ocb-fact .n{font-size:24px;font-weight:900;color:var(--brand2);display:block;margin-bottom:4px}
+html body .post-body .ocb-fact p, .ocb-fact p{margin:0!important;font-size:14.7px!important;color:#334155!important;line-height:1.5!important}
+
+.ocb-card,.ocb-fact,.ocb-tri{transition:transform .28s ease,box-shadow .28s ease}
+.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:translateY(-4px);box-shadow:0 16px 40px rgba(2,6,23,.12)}
+.faq-item{transition:border-color .25s,box-shadow .25s}
+.faq-item:hover{border-color:rgba(139,0,0,.35);box-shadow:0 6px 18px rgba(2,6,23,.07)}
+.ocb-chip{display:inline-flex;align-items:center;gap:6px;transition:transform .2s,border-color .2s}
+.ocb-chip:hover{transform:translateY(-2px);border-color:rgba(139,0,0,.35)}
+.ocb-chip svg{color:#8B0000}
+.ocb-cta a{transition:transform .22s,box-shadow .22s}
+.ocb-cta a:hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(0,0,0,.25)}
+.ocb-fact .n{position:relative}
+html.ocb-anim-ready .ocb-rv{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
+html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){html.ocb-anim-ready .ocb-rv{opacity:1!important;transform:none!important;transition:none!important}.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:none}}
+
+/* Chip icons. Webflow's rich-text sanitizer strips inline <svg> whenever a post is
+   re-saved in the Editor, so the icons are drawn from CSS on a <span> instead. */
+.ocb-ic{display:inline-block;width:15px;height:15px;flex:0 0 auto;vertical-align:-2px;background-repeat:no-repeat;background-position:center;background-size:contain}
+.ocb-ic-pin{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z'/><circle cx='12' cy='10' r='3'/></svg>")}
+.ocb-ic-home{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z'/><polyline points='9 22 9 12 15 12 15 22'/></svg>")}
+.ocb-ic-phone{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z'/></svg>")}
+.ocb-cta .ocb-ic{filter:brightness(0) saturate(100%) invert(9%) sepia(64%) saturate(4000%) hue-rotate(348deg)}
+</style></div>
+
+<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">March 18, 2027</span></div></div>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
+  <span class="ocb-eyebrow">Quick answer</span>
+  <p style="margin:0;font-size:17.9px;line-height:1.65"><strong>If the problem is dirt, clean it &mdash; a professional hot-water extraction costs a small fraction of new carpet and fixes what soap can fix. If the fibers are crushed flat and no longer spring back, or the pad underneath has quit, no cleaning on earth brings that carpet back.</strong> The honest move is to run the cheap test first: get the carpet properly cleaned once, then watch it for a month. What it does next tells you exactly which problem you have &mdash; and we would rather you spend that little bit first than buy new carpet a year early or nurse a dead one for five more.</p>
+  <div class="ocb-chips">
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-pin"></span> King &amp; Snohomish County</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-home"></span> Cottage Lake &amp; Woodinville area</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-phone"></span> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
+  </div>
+</div></div>
+
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-facts">
+  <div class="ocb-fact"><span class="n">One cleaning</span><p>is the cheapest diagnostic in flooring. A proper hot-water extraction either fixes the carpet or proves it cannot be fixed &mdash; and either way you learn the truth before spending real money.</p></div>
+  <div class="ocb-fact"><span class="n">From $1.49/sq ft</span><p>where installed carpet starts with us if the answer turns out to be replace &mdash; material, pad and labor. Knowing that number keeps the clean-vs-replace math honest in both directions.</p></div>
+  <div class="ocb-fact"><span class="n">Same visit</span><p>is when you get our written price. Free measure of every room, closet and stair, twenty-plus samples on your own floor, and a number you can hold the cleaning quote against.</p></div>
+</div></div></div>
+
+<h2>Three Different Problems That All Get Called &ldquo;Old Carpet&rdquo;</h2>
+
+<p>When someone in Cottage Lake calls us and says the carpet looks terrible, it is almost always one of three things, and they have opposite answers. <strong>Dirt</strong> is soil, oils and tracked-in grit sitting in the fiber &mdash; ugly, sometimes smelly, and completely recoverable. <strong>Matting</strong> is mechanical wear: the fibers themselves have been crushed and untwisted by years of footsteps until they lie flat and scatter light differently, which reads as a permanent grey path even when the carpet is clinically clean. <strong>Pad failure</strong> is the one nobody diagnoses from above &mdash; the cushion under the carpet has collapsed or soaked up years of accidents, so the floor feels hard and thin and odors keep coming back from below.</p>
+
+<p>Cleaning fixes the first, does nothing for the second, and can actually make the third more obvious. So before any money moves, the job is telling them apart &mdash; and you can do most of that yourself in ten minutes.</p>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-card">
+  <h3 style="margin:0 0 10px;font-size:18.5px;font-weight:900;color:#5c0000">What You See vs What It Actually Means</h3>
+  <div style="overflow-x:auto"><table class="ocb-table">
+    <tr><th>Symptom</th><th>Most likely culprit</th><th>Clean or replace?</th></tr>
+    <tr><td><strong>Grey traffic lanes, fibers still springy</strong></td><td>Ground-in soil and grit</td><td>Clean &mdash; this is what extraction is for</td></tr>
+    <tr><td><strong>Flat, shiny lanes that stay flat after vacuuming</strong></td><td>Matting &mdash; the fiber is worn, not dirty</td><td>Replace; no cleaner restores crushed pile</td></tr>
+    <tr><td><strong>Stains that vanish, then reappear days later</strong></td><td>Wicking from residue deep in pad</td><td>Clean properly first; recurring = pad is holding it</td></tr>
+    <tr><td><strong>Odor that returns on humid days</strong></td><td>Accidents that reached pad or subfloor</td><td>Replace carpet and pad; treat the subfloor</td></tr>
+    <tr><td><strong>Floor feels hard, thin, "bottomed out"</strong></td><td>Pad has collapsed</td><td>Replace &mdash; carpet may look fine but the assembly is done</td></tr>
+    <tr><td><strong>Ripples and waves across the room</strong></td><td>Lost stretch, not wear</td><td>Neither &mdash; restretch it and keep it</td></tr>
+    <tr><td><strong>Fraying seams, backing showing at edges</strong></td><td>Structural end of life</td><td>Replace; the carpet is coming apart</td></tr>
+    <tr><td><strong>It just looks dingy everywhere</strong></td><td>Usually dirt &mdash; honest answer needs the test below</td><td>Clean first, judge in a month</td></tr>
+  </table></div>
+</div></div>
+
+<h2>The Hot-Water-Extraction Test</h2>
+
+<p>Here is the procedure we genuinely recommend, even though we sell carpet: before you spend four figures on a new floor, spend a little on one professional hot-water extraction &mdash; the truck-mounted kind, not a rental machine &mdash; and then just live on the carpet for a month. The outcome is your answer.</p>
+
+<p><strong>It looks great and stays great:</strong> it was dirt. You just saved the cost of a new floor; put a doormat program in place and vacuum the lanes twice a week. <strong>It looks great for two weeks, then the lanes grey out again:</strong> the fibers are worn and scattering light, or residue is wicking up from a saturated pad. Cleaning cannot outrun either one. <strong>Nothing visibly changes:</strong> that is matting &mdash; the pile is crushed, and the greyness you see is geometry, not grime. <strong>It smells fine for a week and then the odor comes back:</strong> the smell was never in the carpet; it is in the pad or the subfloor, and the fix is replacement plus sealing the wood underneath. We wrote up the full end-of-life checklist in <a href="/blog/when-to-replace-carpet">when to replace carpet</a>, and the short list of <a href="/blog/6-reasons-to-replace-carpet-flooring">reasons to replace</a> covers the same ground from the other side.</p>
+
+<h2>Matting Is Wear, Not Dirt &mdash; and Cleaning Cannot Fix Geometry</h2>
+
+<p>This is the one that costs homeowners the most wasted cleaning money, so it deserves its own explanation. Carpet fiber is twisted yarn, and the twist is what makes it stand up and bounce back. Years of footsteps in the same path untwist and flatten it. A flattened fiber reflects light off its side instead of its tip, which is why a matted lane looks grey and dirty even when a lab would call it clean. People clean it, see no change, clean it again with a stronger chemical, and conclude the cleaner failed. The cleaner did not fail &mdash; the fiber is simply worn out, the same way a tire with no tread is worn out no matter how well you wash it.</p>
+
+<p>Run your hand across the suspect lane: springy fibers that stand back up are dirty carpet; flat, hard, slightly shiny pile that stays down is matted carpet. How fast a carpet gets there depends mostly on fiber and pad quality &mdash; the honest lifespan numbers are in <a href="/blog/how-long-does-carpet-last">how long carpet lasts</a> &mdash; and a matted hallway at year eight is not a defect, it is a floor that finished its shift.</p>
+
+<h2>When the Pad Is What Actually Died</h2>
+
+<p>The pad is the part of the floor you cannot see and the part that fails first in a lot of homes. Walk the room in socks: if high-traffic areas feel noticeably harder and thinner than the strip under the couch, the cushion has collapsed there, and every footstep is now grinding the carpet backing directly against the subfloor &mdash; which finishes off the carpet fast. The other pad failure is saturation. Pet accidents and spills go through carpet in seconds and get held by the pad, which is why a cleaned carpet can smell fine until the first muggy week of summer. A carpet over a dead or saturated pad is not salvageable as an assembly, even when the face yarn still looks presentable. When we replace in that situation, the old pad and tack strip come out, the subfloor gets checked and treated, and the new pad grade gets chosen deliberately &mdash; <a href="/blog/carpet-padding-thickness">the pad decision</a> is most of what decides how long round two lasts.</p>
+
+<h2>Ripples Are Neither: Do Not Replace a Loose Carpet</h2>
+
+<p>One more honest off-ramp. If your complaint is waves, ripples, or a carpet that has visibly gone loose &mdash; especially in a wide room or across a doorway &mdash; the carpet is probably fine. It has lost its stretch, either because it was knee-kicked instead of power-stretched on day one or because a decade of traffic and furniture drags worked it loose. Restretching is a fraction of the cost of replacement and buys years; the numbers are in <a href="/blog/carpet-stretching-cost">what carpet stretching costs</a>. We see rippled six-year-old carpet replaced every month somewhere, and it is usually a waste of a decent floor.</p>
+
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-2col">
+  <div class="ocb-card" style="margin:0">
+    <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#5c0000">Clean it &mdash; and keep your money &mdash; when</h3>
+    <ul class="ocb-check">
+      <li>Fibers in the bad areas still spring back under your hand</li>
+      <li>The problem is spots, spills or overall dinginess, not paths</li>
+      <li>Odors are surface-level and fade after airing out</li>
+      <li>The floor still feels cushioned everywhere underfoot</li>
+      <li>The carpet is under 7&ndash;8 years old with decent pad</li>
+      <li>It has never actually had a professional extraction</li>
+    </ul>
+  </div>
+  <div class="ocb-card" style="margin:0">
+    <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#334155">Replace it &mdash; and stop paying to clean it &mdash; when</h3>
+    <ul class="ocb-check ocb-x">
+      <li>Traffic lanes are flat and shiny and stay flat after vacuuming</li>
+      <li>Stains or odors keep returning after proper cleaning</li>
+      <li>High-traffic areas feel hard and thin &mdash; the pad is gone</li>
+      <li>Pet accidents have soaked through repeatedly over the years</li>
+      <li>Seams are fraying or the backing is delaminating</li>
+      <li>You have cleaned it twice in a year and hated it both times</li>
+    </ul>
+  </div>
+</div></div></div>
+
+<h2>The Honest Math, Cottage Lake Edition</h2>
+
+<p>A truck-mounted cleaning for a typical home costs a small fraction of what new carpet does, which is exactly why it makes sense as a first move &mdash; and exactly why serial cleaning of a dead carpet is such a bad deal. Two cleanings a year on a matted, bottomed-out floor is real money spent making no progress, on a carpet that a buyer or an appraiser will still read as worn out. When the extraction test says replace, replacement here is not exotic: installed carpet starts at $1.49 per square foot with us, the mobile showroom brings twenty-plus samples and all three pad grades to your door, and most homes install in a day. We measure every room and stair and leave a written price the same visit, so you can hold the real number against the cleaning quote instead of guessing. Details for the neighborhood are on our <a href="/city-of-cottage-lake/carpet-installation-in-cottage-lake-wa">Cottage Lake carpet installation page</a>.</p>
+
+<div data-rt-embed-type='true'><!-- FAQ accordion + JSON-LD -->
+<div class="faq-wrap ocb" aria-labelledby="faq-title">
+  <h2 id="faq-title" class="faq-title">Clean or Replace: What Homeowners Ask Us</h2>
+  <div class="faq-items" role="list">
+    <details class="faq-item" role="listitem"><summary class="faq-q">Should I clean my carpet before deciding to replace it?</summary><div class="faq-a">Almost always yes. One professional hot-water extraction is the cheapest diagnostic there is: if the carpet recovers and stays recovered, it was dirt and you just saved a four-figure purchase. If the lanes grey out again in two weeks, or nothing changes at all, you have your answer with evidence — and you go into the replacement knowing it was actually necessary.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Why does my carpet still look dirty right after cleaning?</summary><div class="faq-a">Because it is probably not dirty — it is matted. Crushed, untwisted fibers reflect light off their sides instead of their tips, which reads as grey no matter how clean the yarn is. Run your hand over the lane: pile that stays flat is worn out. Cleaning cannot restore fiber geometry, and a second, harsher cleaning will not either.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Why do stains keep coming back in the same spot?</summary><div class="faq-a">That is wicking. The spill soaked into the pad, and each cleaning pulls a little more of the residue up to the surface as it dries. A proper extraction with the right technique can beat mild cases, but a pad that has absorbed years of spills is a reservoir — and the only fix for a reservoir is removing it, which means new pad and usually new carpet.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">The smell returns every time it gets humid. Can cleaning fix that?</summary><div class="faq-a">No. Odor that cycles with humidity lives in the pad or the subfloor, not the carpet face, and surface cleaning never touches it. The fix is pulling the carpet and pad, treating or sealing the subfloor where accidents reached it, and installing new pad — ideally a moisture-barrier grade if pets are staying. It is the one symptom where we skip the cleaning advice entirely.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">My carpet is rippled and loose. Does that mean it is worn out?</summary><div class="faq-a">Usually not. Ripples mean the carpet lost its stretch — a power-stretching problem, not a wear problem — and restretching fixes it for a fraction of replacement cost. A carpet can be rippled at six years old and have half its life left. Replace for ripples only if the carpet also fails the matting and pad checks.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">How do I know if the pad has failed?</summary><div class="faq-a">Walk the room in socks and compare: if the traffic areas feel hard and thin while the protected strip under furniture still feels cushioned, the pad has collapsed where it matters. A bottomed-out pad grinds the carpet backing against the subfloor with every step, so the carpet itself is on borrowed time even if it looks acceptable from above.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Is it worth replacing carpet that is only eight years old?</summary><div class="faq-a">Age is not the test — condition is. An eight-year-old carpet on a quality pad in a gentle household can be worth cleaning and keeping for years. An eight-year-old builder-grade carpet on the thinnest pad, in a house with kids and a dog, is often genuinely finished. The extraction test and the hand-on-the-pile check tell you which one you own.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">If the answer is replace, what does new carpet actually cost?</summary><div class="faq-a">Installed carpet starts at $1.49 per square foot with us — material, pad and labor together. We bring twenty-plus full-size samples and all three pad grades to your home, measure every room, closet and stair, and leave a written price the same visit, so the comparison against another year of cleanings is concrete instead of hypothetical. Most homes install in a day.</div></details>
+  </div>
+</div>
+
+<style>
+  .faq-wrap{--line:#e5e7eb;margin:28px auto;padding:20px;border:1px solid var(--line);border-radius:16px;background:#fff;box-shadow:0 8px 30px rgba(2,6,23,.06)}
+  .faq-title{margin:0 0 14px;font-size:24px;font-weight:900;text-align:center;color:#5c0000}
+  .faq-items{display:grid;gap:10px}
+  .faq-item{border:1px solid var(--line);border-radius:14px;background:#f9fafb;overflow:hidden}
+  .faq-q{cursor:pointer;display:block;padding:14px 16px;font-weight:800;color:#0f172a}
+  .faq-q::-webkit-details-marker{display:none}
+  .faq-item[open] .faq-q{background:linear-gradient(180deg, rgba(139,0,0,.08), rgba(139,0,0,.02))}
+  .faq-a{padding:0 16px 14px;color:#1f2937;line-height:1.6}
+</style>
+
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Should I clean my carpet before deciding to replace it?", "acceptedAnswer": {"@type": "Answer", "text": "Almost always yes. One professional hot-water extraction is the cheapest diagnostic there is: if the carpet recovers and stays recovered, it was dirt and you just saved a four-figure purchase. If the lanes grey out again in two weeks, or nothing changes at all, you have your answer with evidence — and you go into the replacement knowing it was actually necessary."}}, {"@type": "Question", "name": "Why does my carpet still look dirty right after cleaning?", "acceptedAnswer": {"@type": "Answer", "text": "Because it is probably not dirty — it is matted. Crushed, untwisted fibers reflect light off their sides instead of their tips, which reads as grey no matter how clean the yarn is. Run your hand over the lane: pile that stays flat is worn out. Cleaning cannot restore fiber geometry, and a second, harsher cleaning will not either."}}, {"@type": "Question", "name": "Why do stains keep coming back in the same spot?", "acceptedAnswer": {"@type": "Answer", "text": "That is wicking. The spill soaked into the pad, and each cleaning pulls a little more of the residue up to the surface as it dries. A proper extraction with the right technique can beat mild cases, but a pad that has absorbed years of spills is a reservoir — and the only fix for a reservoir is removing it, which means new pad and usually new carpet."}}, {"@type": "Question", "name": "The smell returns every time it gets humid. Can cleaning fix that?", "acceptedAnswer": {"@type": "Answer", "text": "No. Odor that cycles with humidity lives in the pad or the subfloor, not the carpet face, and surface cleaning never touches it. The fix is pulling the carpet and pad, treating or sealing the subfloor where accidents reached it, and installing new pad — ideally a moisture-barrier grade if pets are staying. It is the one symptom where we skip the cleaning advice entirely."}}, {"@type": "Question", "name": "My carpet is rippled and loose. Does that mean it is worn out?", "acceptedAnswer": {"@type": "Answer", "text": "Usually not. Ripples mean the carpet lost its stretch — a power-stretching problem, not a wear problem — and restretching fixes it for a fraction of replacement cost. A carpet can be rippled at six years old and have half its life left. Replace for ripples only if the carpet also fails the matting and pad checks."}}, {"@type": "Question", "name": "How do I know if the pad has failed?", "acceptedAnswer": {"@type": "Answer", "text": "Walk the room in socks and compare: if the traffic areas feel hard and thin while the protected strip under furniture still feels cushioned, the pad has collapsed where it matters. A bottomed-out pad grinds the carpet backing against the subfloor with every step, so the carpet itself is on borrowed time even if it looks acceptable from above."}}, {"@type": "Question", "name": "Is it worth replacing carpet that is only eight years old?", "acceptedAnswer": {"@type": "Answer", "text": "Age is not the test — condition is. An eight-year-old carpet on a quality pad in a gentle household can be worth cleaning and keeping for years. An eight-year-old builder-grade carpet on the thinnest pad, in a house with kids and a dog, is often genuinely finished. The extraction test and the hand-on-the-pile check tell you which one you own."}}, {"@type": "Question", "name": "If the answer is replace, what does new carpet actually cost?", "acceptedAnswer": {"@type": "Answer", "text": "Installed carpet starts at $1.49 per square foot with us — material, pad and labor together. We bring twenty-plus full-size samples and all three pad grades to your home, measure every room, closet and stair, and leave a written price the same visit, so the comparison against another year of cleanings is concrete instead of hypothetical. Most homes install in a day."}}]}
+</script></div>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-cta" style="margin:30px 0">
+  <style>
+    html body .post-body .ocb-cta h2, .ocb-cta h2{color:#fff!important}
+    html body .post-body .ocb-cta .ocb-cta-sub, .ocb-cta .ocb-cta-sub{color:rgba(255,255,255,.88)!important}
+    html body .post-body .ocb-cta .ocb-cta-chips span, .ocb-cta .ocb-cta-chips span{color:rgba(255,255,255,.94)!important}
+    html body .post-body .ocb-cta a.ocb-cta-ghost, .ocb-cta a.ocb-cta-ghost{color:#fff!important;text-decoration:none!important}
+    html body .post-body .ocb-cta a.ocb-cta-gold, .ocb-cta a.ocb-cta-gold{color:#fbbc04!important}
+    html body .post-body .ocb-cta a.ocb-cta-phone, .ocb-cta a.ocb-cta-phone{color:#5c0000!important;text-decoration:none!important}
+  </style>
+  <div style="background:linear-gradient(135deg,#8B0000,#5c0000);border-radius:20px;padding:28px 24px;color:#fff;text-align:center;box-shadow:0 14px 34px rgba(92,0,0,.3)">
+    <h2 style="margin:0 0 6px;color:#fff!important;font-size:24px;font-weight:900">Get an Honest Answer Before You Spend Either Way</h2>
+    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.92)!important;font-size:16.3px">We will tell you to clean it if cleaning will work — and show you exactly why if it will not. Twenty-plus samples, all three pad grades, a free measure and a written price the same visit, so the clean-or-replace math is real. Serving Cottage Lake and all of King &amp; Snohomish County.</p>
+    <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
+      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff!important;color:#5c0000!important;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none!important"><span class="ocb-ic ocb-ic-phone"></span> (425) 595-1079</a>
+      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.16)!important;border:1px solid rgba(255,255,255,.55);color:#fff!important;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none!important">Book My Free Consultation</a>
+    </div>
+    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.95)!important">
+      <span>✓ Since 2013</span><span>✓ 1,000+ floors</span><span>✓ 1-yr workmanship warranty</span><span>✓ Licensed &amp; insured</span><span>✓ Financing available</span>
+    </div>
+    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04!important;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
+  </div>
+</div></div>
+
+<p><strong>Related reading:</strong> <a href="/blog/when-to-replace-carpet">When to replace carpet</a> · <a href="/blog/how-long-does-carpet-last">How long carpet lasts</a> · <a href="/blog/carpet-stretching-cost">What carpet stretching costs</a> · <a href="/blog/carpet-padding-thickness">Choosing carpet pad</a> · <a href="/blog/6-reasons-to-replace-carpet-flooring">Six reasons to replace carpet</a> · <a href="/city-of-cottage-lake/carpet-installation-in-cottage-lake-wa">Carpet installation in Cottage Lake</a> · <a href="/contact">Book a free estimate</a></p>
+
+<div data-rt-embed-type='true'><script>
+(function(){try{
+var els=document.querySelectorAll('.ocb-card,.ocb-fact,.ocb-tri,.faq-item');
+if(!('IntersectionObserver' in window)||!els.length)return;
+document.documentElement.classList.add('ocb-anim-ready');
+els.forEach(function(e,i){e.classList.add('ocb-rv');e.style.transitionDelay=Math.min((i%6)*70,350)+'ms'});
+var io=new IntersectionObserver(function(en){en.forEach(function(x){if(x.isIntersecting){x.target.classList.add('ocb-in');io.unobserve(x.target)}})},{threshold:.12,rootMargin:'0px 0px -8% 0px'});
+els.forEach(function(e){io.observe(e)});
+}catch(e){}})();
+</script></div>

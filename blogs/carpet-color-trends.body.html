@@ -1,0 +1,196 @@
+<div data-rt-embed-type='true'><style>
+.ocb{--ink:#0f172a;--muted:#64748b;--line:#e5e7eb;--soft:#f8fafc;--brand:#8B0000;--brand2:#5c0000;--gold:#fbbc04;font-family:'Mulish',Inter,system-ui,sans-serif;color:var(--ink)}
+.ocb *{box-sizing:border-box}
+.ocb-card{border:1px solid var(--line);border-radius:18px;background:#fff;box-shadow:0 10px 30px rgba(2,6,23,.06);padding:22px;margin:26px 0}
+.ocb-eyebrow{display:inline-block;background:rgba(139,0,0,.08);color:var(--brand2);border:1px solid rgba(139,0,0,.2);border-radius:999px;padding:5px 12px;font-size:12.5px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;margin-bottom:10px}
+.ocb-chips{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0 0}
+.ocb-chip{background:var(--soft);border:1px solid var(--line);border-radius:999px;padding:6px 12px;font-size:13.6px;font-weight:700}
+.ocb-table{width:100%;border-collapse:collapse;font-size:15.2px}
+.ocb-table th,.ocb-table td{padding:11px 10px;text-align:left;border-bottom:1px solid var(--line)}
+.ocb-table th{background:var(--soft);font-weight:800;font-size:13.6px;letter-spacing:.02em}
+.ocb-table tr:last-child td{border-bottom:0}
+.ocb-table td strong{color:var(--brand2)}
+.ocb-2col{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media(max-width:680px){.ocb-2col{grid-template-columns:1fr}}
+.ocb-check{list-style:none;padding:0;margin:10px 0 0}
+.ocb-check li{padding-left:26px;position:relative;margin:7px 0;line-height:1.55}
+.ocb-check li:before{content:"✓";position:absolute;left:0;color:var(--brand);font-weight:900}
+.ocb-x li:before{content:"✕";color:#94a3b8}
+html body .post-body .ocb-facts, .ocb-facts{display:grid!important;grid-template-columns:repeat(3,1fr)!important;gap:12px!important;margin:8px 0!important}
+@media(max-width:680px){html body .post-body .ocb-facts, .ocb-facts{grid-template-columns:1fr!important}}
+.ocb-fact{background:linear-gradient(180deg,#fff,#f8fafc);border:1px solid var(--line);border-radius:16px;padding:16px}
+.ocb-fact .n{font-size:24px;font-weight:900;color:var(--brand2);display:block;margin-bottom:4px}
+html body .post-body .ocb-fact p, .ocb-fact p{margin:0!important;font-size:14.7px!important;color:#334155!important;line-height:1.5!important}
+
+.ocb-card,.ocb-fact,.ocb-tri{transition:transform .28s ease,box-shadow .28s ease}
+.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:translateY(-4px);box-shadow:0 16px 40px rgba(2,6,23,.12)}
+.faq-item{transition:border-color .25s,box-shadow .25s}
+.faq-item:hover{border-color:rgba(139,0,0,.35);box-shadow:0 6px 18px rgba(2,6,23,.07)}
+.ocb-chip{display:inline-flex;align-items:center;gap:6px;transition:transform .2s,border-color .2s}
+.ocb-chip:hover{transform:translateY(-2px);border-color:rgba(139,0,0,.35)}
+.ocb-chip svg{color:#8B0000}
+.ocb-cta a{transition:transform .22s,box-shadow .22s}
+.ocb-cta a:hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(0,0,0,.25)}
+.ocb-fact .n{position:relative}
+html.ocb-anim-ready .ocb-rv{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
+html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){html.ocb-anim-ready .ocb-rv{opacity:1!important;transform:none!important;transition:none!important}.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:none}}
+
+/* Chip icons. Webflow's rich-text sanitizer strips inline <svg> whenever a post is
+   re-saved in the Editor, so the icons are drawn from CSS on a <span> instead. */
+.ocb-ic{display:inline-block;width:15px;height:15px;flex:0 0 auto;vertical-align:-2px;background-repeat:no-repeat;background-position:center;background-size:contain}
+.ocb-ic-pin{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z'/><circle cx='12' cy='10' r='3'/></svg>")}
+.ocb-ic-home{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z'/><polyline points='9 22 9 12 15 12 15 22'/></svg>")}
+.ocb-ic-phone{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z'/></svg>")}
+.ocb-cta .ocb-ic{filter:brightness(0) saturate(100%) invert(9%) sepia(64%) saturate(4000%) hue-rotate(348deg)}
+</style></div>
+
+<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">February 11, 2027</span></div></div>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
+  <span class="ocb-eyebrow">Quick answer</span>
+  <p style="margin:0;font-size:17.9px;line-height:1.65"><strong>The carpet colors that do not date a house are warm mid-tone neutrals with visible fleck &mdash; oatmeal, greige, mushroom, soft taupe.</strong> Every strong carpet trend of the last forty years has aged into a timestamp: rose beige says 1992, cool gray says 2016. The survivors are the colors that never led a trend in the first place. Add fleck &mdash; small variations of tone through the pile &mdash; and the carpet also hides everyday life better than any solid ever will. Pick the undertone in your own light, not a showroom's, and you have a floor that will still look deliberate in fifteen years.</p>
+  <div class="ocb-chips">
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-pin"></span> King &amp; Snohomish County</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-home"></span> Snoqualmie &amp; the Ridge</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-phone"></span> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
+  </div>
+</div></div>
+
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-facts">
+  <div class="ocb-fact"><span class="n">20+ samples</span><p>full-size pieces we bring to your house, because carpet color is the least trustworthy decision in any showroom. The same greige reads warm at noon and green at 4 p.m. under Snoqualmie tree light &mdash; you want to see that before you buy, not after.</p></div>
+  <div class="ocb-fact"><span class="n">From $1.49/sq ft</span><p>where installed carpet starts with us, pad and labor included. Color does not change the price &mdash; which is exactly why it deserves the most careful decision in the job: it is the one upgrade that is free.</p></div>
+  <div class="ocb-fact"><span class="n">Same visit</span><p>we measure every room and leave a written price while the samples are still on your floor. Live with the two finalists for a few days if you want &mdash; the number will not change while you decide.</p></div>
+</div></div></div>
+
+<h2>Why Carpet Color Dates a House at All</h2>
+
+<p>Walk into a house and the carpet color tells you when it was last touched. Rose beige and mauve: early nineties. Golden honey tones: 2005. Cool silver-gray wall to wall: the 2010s, when every flip in King County got the same spec. None of those colors were mistakes when they went in &mdash; they were the confident choice of their moment, which is precisely the problem. A carpet lasts ten to fifteen years; a trend peak lasts three or four. Buy at the peak and you spend a decade owning the timestamp.</p>
+
+<p>The colors that survive are the ones that never spike. Warm mid-tone neutrals have been quietly acceptable in every decade since wall-to-wall carpet existed, because they borrow from things that do not go out of style &mdash; wool, sand, stone, undyed fiber. They flatter hardwood nearby, they do not fight repainted walls, and no future buyer will ever walk in and name the year. That is the entire strategy: <strong>choose the color that never wins the trend cycle, because it never loses it either.</strong></p>
+
+<h2>The Survivors: Warm Neutrals With Fleck</h2>
+
+<p>Inside that family, the specific winners share two traits. First, <strong>warmth</strong>: an undertone leaning cream, tan, or mushroom rather than blue or violet. The Pacific Northwest argues for this more than most places &mdash; our winter light is gray enough without a gray floor doubling it, and a warm neutral makes a north-facing room feel inhabited in January instead of abandoned. Cool gray had its decade, and if you love it, a warm gray (greige) keeps the modernity without the morgue lighting.</p>
+
+<p>Second, <strong>fleck</strong> &mdash; a pile built from several close tones instead of one flat color, whether barber-pole twisted yarns, subtle heather, or a fine multi-tone loop. Fleck ages better for an unglamorous reason: it hides. Crumbs, lint, a faint traffic path, the shadow a vacuum leaves &mdash; a solid carpet displays all of it, a flecked carpet absorbs it. Fleck also survives fading and cleaning more gracefully, because there is no single perfect shade to drift away from. Nearly every carpet we install that still looks sharp at year ten is a flecked warm neutral. The fiber underneath matters as much as the color on top, and we ranked those honestly in <a href="/blog/carpet-fiber-types">nylon, polyester, or wool</a>.</p>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-card">
+  <h3 style="margin:0 0 10px;font-size:18.5px;font-weight:900;color:#5c0000">What Each Color Family Shows &mdash; and Hides</h3>
+  <div style="overflow-x:auto"><table class="ocb-table">
+    <tr><th>Color family</th><th>Hides well</th><th>Shows badly</th></tr>
+    <tr><td><strong>Mid-tone flecked neutral</strong></td><td>Almost everything &mdash; crumbs, lint, traffic lanes, vacuum shadows</td><td>Very little; the reason it is the default answer</td></tr>
+    <tr><td><strong>White &amp; cream solids</strong></td><td>Pet hair from light animals, dust</td><td>Every spill, every footpath, every year of its life</td></tr>
+    <tr><td><strong>Dark brown &amp; charcoal</strong></td><td>Spills and stains</td><td>Lint, dust, light pet hair, dry footprints &mdash; dark carpet is a lint magnet</td></tr>
+    <tr><td><strong>Cool solid gray</strong></td><td>Moderate soil</td><td>Its own era &mdash; and warm-toned dirt reads orange against it</td></tr>
+    <tr><td><strong>Saturated color (navy, green, wine)</strong></td><td>Stains, in the right room</td><td>Fading in sun, and your commitment to it in year eight</td></tr>
+    <tr><td><strong>Patterned &amp; heavily textured</strong></td><td>Wear and soil better than anything</td><td>Dated pattern risk &mdash; keep the pattern subtle and the color neutral</td></tr>
+  </table></div>
+</div></div>
+
+<h2>Undertones, and Why Your Light Decides</h2>
+
+<p>Two beiges that look identical on a rack can be a pink-beige and a green-beige, and you will not see it until two hundred square feet of one of them is on your floor next to your wall color. Undertone mismatches are the single most common color regret we hear, and they are almost never the homeowner's fault &mdash; showroom lighting is bright, even, and overhead, which is to say nothing like a house. Snoqualmie is a hard case even by Northwest standards: ridge lots sit in fir shade that bounces green into every window, valley light is flat gray half the year, and Ridge floor plans mix big south glass with dim interior halls. The same sample genuinely changes color room to room.</p>
+
+<p>This is most of why we run the mobile showroom instead of a store. Twenty-plus full-size samples come to your house, go on the floor of the actual room, against your actual trim and paint, in your actual light &mdash; and you can look at them at noon and again after dinner before deciding. We measure while you look and leave a written price the same visit. The details are on our <a href="/city-of-snoqualmie/carpet-installation-in-snoqualmie-wa">Snoqualmie carpet installation page</a>.</p>
+
+<h2>The Resale Logic</h2>
+
+<p>If there is any chance you sell within five or so years, the color question stops being about you. Buyers do not see carpet color; they feel it. A fresh warm neutral reads as <em>move-in ready</em> and disappears from the negotiation. A dated or personal color reads as <em>project</em>, and buyers price projects with a markup &mdash; a few thousand dollars of replacement carpet becomes a five-figure mental deduction. Agents have told us versions of this for years, and it matches what we covered in <a href="/blog/what-to-do-with-your-floor-before-putting-your-house-on-the-market-in-woodinville-wa">getting floors ready for the market</a>: the floor's job at sale time is to raise zero questions.</p>
+
+<p>The honest corollary: if you are staying put, buy the color you love. A deep green study or a navy bedroom is a real pleasure to live with, and carpet is one of the cheaper things in a house to change your mind about later. Just make the bold choice in the rooms that are cheap to redo &mdash; a bedroom, not a staircase that connects to three hundred feet of hallway.</p>
+
+<h2>Rooms Change the Answer</h2>
+
+<p><strong>Bedrooms</strong> are where color gets to be personal &mdash; low traffic, one room's worth of commitment, and the case for carpet there is strong anyway, as we laid out in <a href="/blog/carpet-in-bedrooms">why bedrooms are still the best room for carpet</a>. <strong>Halls and stairs</strong> are the opposite: maximum traffic, connected to everything, expensive to redo piecemeal &mdash; that is flecked mid-tone neutral territory, no exceptions we would defend. <strong>Family rooms</strong> sit in between; go neutral but let texture do the interest. And in a pet household the old trick still holds &mdash; carpet within a shade or two of the animal that sheds on it, which we explain in <a href="/blog/best-carpet-for-pets">the best carpet for pets</a>. One more practical note: color hides soil, it does not repel it &mdash; stain protection lives in the fiber, not the dye, and <a href="/blog/stain-resistant-carpet">the stain-resistance warranties</a> are their own reading.</p>
+
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-2col">
+  <div class="ocb-card" style="margin:0">
+    <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#5c0000">Colors we keep recommending</h3>
+    <ul class="ocb-check">
+      <li>Oatmeal and undyed-wool tones &mdash; the fifty-year survivors</li>
+      <li>Greige: warm gray that keeps the modern look without the chill</li>
+      <li>Mushroom and soft taupe against white or cream trim</li>
+      <li>Heathered and barber-pole flecks in any of the above</li>
+      <li>Subtle tone-on-tone pattern where texture wants to do the talking</li>
+      <li>A half-shade darker than your first instinct &mdash; carpet reads lighter installed</li>
+    </ul>
+  </div>
+  <div class="ocb-card" style="margin:0">
+    <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#334155">Choices clients tell us they regret</h3>
+    <ul class="ocb-check ocb-x">
+      <li>Solid cool gray bought at the top of the trend</li>
+      <li>White or near-white anywhere feet actually travel</li>
+      <li>Very dark solids in rooms with lint, dust, or a light-haired pet</li>
+      <li>Undertones picked under showroom light, discovered at home</li>
+      <li>Bold color on stairs and halls that locked the whole floor plan to it</li>
+      <li>Matching carpet to a furniture set that left three years later</li>
+    </ul>
+  </div>
+</div></div></div>
+
+<div data-rt-embed-type='true'><!-- FAQ accordion + JSON-LD -->
+<div class="faq-wrap ocb" aria-labelledby="faq-title">
+  <h2 id="faq-title" class="faq-title">Carpet Color: What Homeowners Ask Us</h2>
+  <div class="faq-items" role="list">
+    <details class="faq-item" role="listitem"><summary class="faq-q">What carpet color does not go out of style?</summary><div class="faq-a">Warm mid-tone neutrals with visible fleck — oatmeal, greige, mushroom, soft taupe. They have been acceptable in every decade of wall-to-wall carpet because they borrow from materials that never date: wool, sand, stone. Strong trend colors spike and stamp a year on the room; the quiet neutrals never win the cycle and never lose it.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Is gray carpet out of style now?</summary><div class="faq-a">Solid cool gray reads as the 2010s, the way rose beige reads as the early nineties. That does not make it wrong if you love it — but if longevity is the goal, shift to greige or a warm flecked gray. You keep the modern look and lose the timestamp, and warm tones handle Northwest winter light far better.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">What carpet color hides dirt best?</summary><div class="faq-a">Mid-tone flecked neutrals, and it is not close. The multiple tones in the pile absorb crumbs, lint, traffic shading and vacuum marks that a solid color displays. Very light carpet shows soil, and very dark carpet shows lint and dust — the middle of the range with fleck hides both directions of mess.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Should I pick a light or dark carpet for a small room?</summary><div class="faq-a">Lighter and warmer generally makes a small room feel bigger, and carpet reads about a half-shade lighter installed across a floor than it does on a sample. That is also the caution in the other direction: the sample that looks perfect in your hand often lands one notch paler than you expected, so lean slightly darker than your first instinct.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">What carpet color is best for resale?</summary><div class="faq-a">A fresh warm neutral, flecked, in good condition. Buyers read it as move-in ready and stop thinking about the floor, which is exactly what you want. Dated or highly personal color becomes a mental deduction bigger than the actual replacement cost. If you are selling within five years, choose for the next owner, not for yourself.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Do trends matter at all, or should I ignore them completely?</summary><div class="faq-a">Notice them, then buy one step behind them. Trends are useful as a map of what will look dated soonest — whatever is on every magazine cover this year is the highest-risk color you can install. The safe play is the neutral family the trend is orbiting: when everything was gray, greige was the smart buy; it still is.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Does carpet color affect the price?</summary><div class="faq-a">Within a given carpet line, no — color is free. Our installed carpet starts at $1.49 per square foot and the number moves with fiber, pad grade and the scope of the job, never with the dye lot. That is worth taking seriously: color is the one decision in the quote where the best answer costs nothing extra.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">How do I check a color in my own light before committing?</summary><div class="faq-a">Insist on seeing a full-size sample in the actual room — morning and evening, next to the trim and wall color, doors closed the way you live. That is the entire reason we bring the showroom to you: twenty-plus samples on your floor, and we measure and leave a written price the same visit while you compare the finalists.</div></details>
+  </div>
+</div>
+
+<style>
+  .faq-wrap{--line:#e5e7eb;margin:28px auto;padding:20px;border:1px solid var(--line);border-radius:16px;background:#fff;box-shadow:0 8px 30px rgba(2,6,23,.06)}
+  .faq-title{margin:0 0 14px;font-size:24px;font-weight:900;text-align:center;color:#5c0000}
+  .faq-items{display:grid;gap:10px}
+  .faq-item{border:1px solid var(--line);border-radius:14px;background:#f9fafb;overflow:hidden}
+  .faq-q{cursor:pointer;display:block;padding:14px 16px;font-weight:800;color:#0f172a}
+  .faq-q::-webkit-details-marker{display:none}
+  .faq-item[open] .faq-q{background:linear-gradient(180deg, rgba(139,0,0,.08), rgba(139,0,0,.02))}
+  .faq-a{padding:0 16px 14px;color:#1f2937;line-height:1.6}
+</style>
+
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What carpet color does not go out of style?", "acceptedAnswer": {"@type": "Answer", "text": "Warm mid-tone neutrals with visible fleck — oatmeal, greige, mushroom, soft taupe. They have been acceptable in every decade of wall-to-wall carpet because they borrow from materials that never date: wool, sand, stone. Strong trend colors spike and stamp a year on the room; the quiet neutrals never win the cycle and never lose it."}}, {"@type": "Question", "name": "Is gray carpet out of style now?", "acceptedAnswer": {"@type": "Answer", "text": "Solid cool gray reads as the 2010s, the way rose beige reads as the early nineties. That does not make it wrong if you love it — but if longevity is the goal, shift to greige or a warm flecked gray. You keep the modern look and lose the timestamp, and warm tones handle Northwest winter light far better."}}, {"@type": "Question", "name": "What carpet color hides dirt best?", "acceptedAnswer": {"@type": "Answer", "text": "Mid-tone flecked neutrals, and it is not close. The multiple tones in the pile absorb crumbs, lint, traffic shading and vacuum marks that a solid color displays. Very light carpet shows soil, and very dark carpet shows lint and dust — the middle of the range with fleck hides both directions of mess."}}, {"@type": "Question", "name": "Should I pick a light or dark carpet for a small room?", "acceptedAnswer": {"@type": "Answer", "text": "Lighter and warmer generally makes a small room feel bigger, and carpet reads about a half-shade lighter installed across a floor than it does on a sample. That is also the caution in the other direction: the sample that looks perfect in your hand often lands one notch paler than you expected, so lean slightly darker than your first instinct."}}, {"@type": "Question", "name": "What carpet color is best for resale?", "acceptedAnswer": {"@type": "Answer", "text": "A fresh warm neutral, flecked, in good condition. Buyers read it as move-in ready and stop thinking about the floor, which is exactly what you want. Dated or highly personal color becomes a mental deduction bigger than the actual replacement cost. If you are selling within five years, choose for the next owner, not for yourself."}}, {"@type": "Question", "name": "Do trends matter at all, or should I ignore them completely?", "acceptedAnswer": {"@type": "Answer", "text": "Notice them, then buy one step behind them. Trends are useful as a map of what will look dated soonest — whatever is on every magazine cover this year is the highest-risk color you can install. The safe play is the neutral family the trend is orbiting: when everything was gray, greige was the smart buy; it still is."}}, {"@type": "Question", "name": "Does carpet color affect the price?", "acceptedAnswer": {"@type": "Answer", "text": "Within a given carpet line, no — color is free. Our installed carpet starts at $1.49 per square foot and the number moves with fiber, pad grade and the scope of the job, never with the dye lot. That is worth taking seriously: color is the one decision in the quote where the best answer costs nothing extra."}}, {"@type": "Question", "name": "How do I check a color in my own light before committing?", "acceptedAnswer": {"@type": "Answer", "text": "Insist on seeing a full-size sample in the actual room — morning and evening, next to the trim and wall color, doors closed the way you live. That is the entire reason we bring the showroom to you: twenty-plus samples on your floor, and we measure and leave a written price the same visit while you compare the finalists."}}]}
+</script></div>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-cta" style="margin:30px 0">
+  <style>
+    html body .post-body .ocb-cta h2, .ocb-cta h2{color:#fff!important}
+    html body .post-body .ocb-cta .ocb-cta-sub, .ocb-cta .ocb-cta-sub{color:rgba(255,255,255,.88)!important}
+    html body .post-body .ocb-cta .ocb-cta-chips span, .ocb-cta .ocb-cta-chips span{color:rgba(255,255,255,.94)!important}
+    html body .post-body .ocb-cta a.ocb-cta-ghost, .ocb-cta a.ocb-cta-ghost{color:#fff!important;text-decoration:none!important}
+    html body .post-body .ocb-cta a.ocb-cta-gold, .ocb-cta a.ocb-cta-gold{color:#fbbc04!important}
+    html body .post-body .ocb-cta a.ocb-cta-phone, .ocb-cta a.ocb-cta-phone{color:#5c0000!important;text-decoration:none!important}
+  </style>
+  <div style="background:linear-gradient(135deg,#8B0000,#5c0000);border-radius:20px;padding:28px 24px;color:#fff;text-align:center;box-shadow:0 14px 34px rgba(92,0,0,.3)">
+    <h2 style="margin:0 0 6px;color:#fff!important;font-size:24px;font-weight:900">See the Finalists in Your Own Light</h2>
+    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.92)!important;font-size:16.3px">Twenty-plus full-size samples on your floor, in your rooms, at the time of day you actually live in them &mdash; plus all three pad grades and a written price the same visit. Free in-home estimates across King &amp; Snohomish County.</p>
+    <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
+      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff!important;color:#5c0000!important;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none!important"><span class="ocb-ic ocb-ic-phone"></span> (425) 595-1079</a>
+      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.16)!important;border:1px solid rgba(255,255,255,.55);color:#fff!important;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none!important">Book My Free Consultation</a>
+    </div>
+    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.95)!important">
+      <span>✓ Since 2013</span><span>✓ 1,000+ floors</span><span>✓ 1-yr workmanship warranty</span><span>✓ Licensed &amp; insured</span><span>✓ Financing available</span>
+    </div>
+    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04!important;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
+  </div>
+</div></div>
+
+<p><strong>Related reading:</strong> <a href="/blog/carpet-fiber-types">Carpet fibers compared</a> · <a href="/blog/carpet-in-bedrooms">Why bedrooms are the best room for carpet</a> · <a href="/blog/best-carpet-for-pets">The best carpet for pets</a> · <a href="/blog/stain-resistant-carpet">What stain-resistance warranties cover</a> · <a href="/city-of-snoqualmie/carpet-installation-in-snoqualmie-wa">Carpet installation in Snoqualmie</a> · <a href="/contact">Book a free estimate</a></p>
+
+<div data-rt-embed-type='true'><script>
+(function(){try{
+var els=document.querySelectorAll('.ocb-card,.ocb-fact,.ocb-tri,.faq-item');
+if(!('IntersectionObserver' in window)||!els.length)return;
+document.documentElement.classList.add('ocb-anim-ready');
+els.forEach(function(e,i){e.classList.add('ocb-rv');e.style.transitionDelay=Math.min((i%6)*70,350)+'ms'});
+var io=new IntersectionObserver(function(en){en.forEach(function(x){if(x.isIntersecting){x.target.classList.add('ocb-in');io.unobserve(x.target)}})},{threshold:.12,rootMargin:'0px 0px -8% 0px'});
+els.forEach(function(e){io.observe(e)});
+}catch(e){}})();
+</script></div>

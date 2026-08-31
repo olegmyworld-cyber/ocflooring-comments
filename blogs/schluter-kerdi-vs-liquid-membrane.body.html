@@ -1,0 +1,201 @@
+<div data-rt-embed-type='true'><style>
+.ocb{--ink:#0f172a;--muted:#64748b;--line:#e5e7eb;--soft:#f8fafc;--brand:#8B0000;--brand2:#5c0000;--gold:#fbbc04;font-family:'Mulish',Inter,system-ui,sans-serif;color:var(--ink)}
+.ocb *{box-sizing:border-box}
+.ocb-card{border:1px solid var(--line);border-radius:18px;background:#fff;box-shadow:0 10px 30px rgba(2,6,23,.06);padding:22px;margin:26px 0}
+.ocb-eyebrow{display:inline-block;background:rgba(139,0,0,.08);color:var(--brand2);border:1px solid rgba(139,0,0,.2);border-radius:999px;padding:5px 12px;font-size:12.5px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;margin-bottom:10px}
+.ocb-chips{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0 0}
+.ocb-chip{background:var(--soft);border:1px solid var(--line);border-radius:999px;padding:6px 12px;font-size:13.6px;font-weight:700}
+.ocb-table{width:100%;border-collapse:collapse;font-size:15.2px}
+.ocb-table th,.ocb-table td{padding:11px 10px;text-align:left;border-bottom:1px solid var(--line)}
+.ocb-table th{background:var(--soft);font-weight:800;font-size:13.6px;letter-spacing:.02em}
+.ocb-table tr:last-child td{border-bottom:0}
+.ocb-table td strong{color:var(--brand2)}
+.ocb-2col{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media(max-width:680px){.ocb-2col{grid-template-columns:1fr}}
+.ocb-check{list-style:none;padding:0;margin:10px 0 0}
+.ocb-check li{padding-left:26px;position:relative;margin:7px 0;line-height:1.55}
+.ocb-check li:before{content:"✓";position:absolute;left:0;color:var(--brand);font-weight:900}
+.ocb-x li:before{content:"✕";color:#94a3b8}
+html body .post-body .ocb-facts, .ocb-facts{display:grid!important;grid-template-columns:repeat(3,1fr)!important;gap:12px!important;margin:8px 0!important}
+@media(max-width:680px){html body .post-body .ocb-facts, .ocb-facts{grid-template-columns:1fr!important}}
+.ocb-fact{background:linear-gradient(180deg,#fff,#f8fafc);border:1px solid var(--line);border-radius:16px;padding:16px}
+.ocb-fact .n{font-size:24px;font-weight:900;color:var(--brand2);display:block;margin-bottom:4px}
+html body .post-body .ocb-fact p, .ocb-fact p{margin:0!important;font-size:14.7px!important;color:#334155!important;line-height:1.5!important}
+
+.ocb-card,.ocb-fact,.ocb-tri{transition:transform .28s ease,box-shadow .28s ease}
+.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:translateY(-4px);box-shadow:0 16px 40px rgba(2,6,23,.12)}
+.faq-item{transition:border-color .25s,box-shadow .25s}
+.faq-item:hover{border-color:rgba(139,0,0,.35);box-shadow:0 6px 18px rgba(2,6,23,.07)}
+.ocb-chip{display:inline-flex;align-items:center;gap:6px;transition:transform .2s,border-color .2s}
+.ocb-chip:hover{transform:translateY(-2px);border-color:rgba(139,0,0,.35)}
+.ocb-chip svg{color:#8B0000}
+.ocb-cta a{transition:transform .22s,box-shadow .22s}
+.ocb-cta a:hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(0,0,0,.25)}
+.ocb-fact .n{position:relative}
+html.ocb-anim-ready .ocb-rv{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
+html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){html.ocb-anim-ready .ocb-rv{opacity:1!important;transform:none!important;transition:none!important}.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:none}}
+
+/* Chip icons. Webflow's rich-text sanitizer strips inline <svg> whenever a post is
+   re-saved in the Editor, so the icons are drawn from CSS on a <span> instead. */
+.ocb-ic{display:inline-block;width:15px;height:15px;flex:0 0 auto;vertical-align:-2px;background-repeat:no-repeat;background-position:center;background-size:contain}
+.ocb-ic-pin{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z'/><circle cx='12' cy='10' r='3'/></svg>")}
+.ocb-ic-home{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z'/><polyline points='9 22 9 12 15 12 15 22'/></svg>")}
+.ocb-ic-phone{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z'/></svg>")}
+.ocb-cta .ocb-ic{filter:brightness(0) saturate(100%) invert(9%) sepia(64%) saturate(4000%) hue-rotate(348deg)}
+</style></div>
+
+<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">February 23, 2027</span></div></div>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
+  <span class="ocb-eyebrow">Quick answer</span>
+  <p style="margin:0;font-size:17.9px;line-height:1.65"><strong>Schluter Kerdi and liquid-applied membranes are both legitimate ways to waterproof a shower &mdash; a properly installed version of either will outlast your ownership of the house.</strong> Kerdi is a bonded polyethylene sheet: its thickness is guaranteed by the factory, and its risk lives at the seams. Liquid membranes are rolled or troweled on in coats: seamless by nature, and their risk lives in thickness &mdash; a thin spot is invisible until it leaks. Which is why the honest answer to &ldquo;which is better?&rdquo; is a third thing entirely: the installer&rsquo;s fluency with the system in their hands, proven by a 24-hour flood test before any tile goes on.</p>
+  <div class="ocb-chips">
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-pin"></span> King &amp; Snohomish County</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-home"></span> Showers &amp; wet rooms</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-phone"></span> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
+  </div>
+</div></div>
+
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-facts">
+  <div class="ocb-fact"><span class="n">24 hours</span><p>the flood test every shower pan gets from us before tile &mdash; sheet or liquid, no exceptions. The pan sits full, photographed at fill and at 24 hours, and the photos go in your file. It is the referee in this whole debate.</p></div>
+  <div class="ocb-fact"><span class="n">2 coats</span><p>the usual minimum for liquid membranes, applied to the manufacturer&rsquo;s specified thickness and verified with a wet-film gauge. The product is fine; unmeasured application is where liquid jobs fail.</p></div>
+  <div class="ocb-fact"><span class="n">2 years</span><p>our warranty on tile work &mdash; double the trade&rsquo;s usual one year. We can offer it because the membrane behind the tile, whichever system, is installed to spec and tested before it disappears.</p></div>
+</div></div></div>
+
+<h2>What Each System Actually Is</h2>
+
+<p><strong>Schluter Kerdi</strong> is the orange sheet you have seen on every renovation show: a thin polyethylene membrane with a fleece backing, cut to fit and bonded to the wall and pan with thinset mortar. Seams overlap by a specified width or get covered with banding; corners and the drain use preformed pieces. The membrane arrives at its rated thickness &mdash; the factory did that part &mdash; so the installer&rsquo;s whole job is the fit: full mortar coverage, correct overlaps, tight preformed corners, and a proper connection at the Kerdi drain.</p>
+
+<p><strong>Liquid membranes</strong> &mdash; RedGard, Hydro Ban, Mapei&rsquo;s Aquadefense and their peers &mdash; are elastomeric coatings applied like thick paint. Two or more coats go on with roller or trowel, usually in perpendicular directions, with reinforcing fabric at corners, seams and the drain. Cured, they form a continuous rubbery skin bonded to the substrate. There are no seams to lap because there are no seams at all &mdash; but the rated waterproofing only exists at the rated thickness, which the installer controls entirely, coat by coat.</p>
+
+<p>Both are modern, surface-applied systems &mdash; the water is stopped at the tile assembly&rsquo;s face, not caught by a buried pan liner three layers deep. That philosophy, and why it replaced the old mortar-bed-and-liner approach, is covered in our broader <a href="/blog/tile-shower-waterproofing">shower waterproofing guide</a>. Here we are settling the narrower question: sheet or liquid?</p>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-card">
+  <h3 style="margin:0 0 10px;font-size:18.5px;font-weight:900;color:#5c0000">Kerdi vs Liquid Membrane, Honestly Scored</h3>
+  <div style="overflow-x:auto"><table class="ocb-table">
+    <tr><th>Dimension</th><th>Schluter Kerdi</th><th>Liquid membrane</th></tr>
+    <tr><td><strong>Thickness control</strong></td><td>Factory-guaranteed &mdash; the sheet is the spec</td><td>Installer-controlled &mdash; needs a wet-film gauge and discipline, coat by coat</td></tr>
+    <tr><td><strong>Seams &amp; corners</strong></td><td>The risk lives here: overlaps and banding must be right</td><td>Seamless by nature; fabric-reinforced corners are routine</td></tr>
+    <tr><td><strong>Odd geometry</strong></td><td>Benches, curves and niches mean lots of cutting and piecing</td><td>Paints around anything &mdash; complex shapes are its home turf</td></tr>
+    <tr><td><strong>Speed to tile</strong></td><td>Tile the same day &mdash; no cure wait</td><td>Cure time between coats and before tile; a day or two of chemistry</td></tr>
+    <tr><td><strong>System integration</strong></td><td>Sheet, band, corners, niche and drain from one catalog, engineered together</td><td>Pairs with any drain and backer, which is flexibility and responsibility at once</td></tr>
+    <tr><td><strong>Failure mode</strong></td><td>A bad seam or starved mortar bond &mdash; findable at the flood test</td><td>A thin spot &mdash; invisible to the eye, also findable at the flood test</td></tr>
+    <tr><td><strong>Cost</strong></td><td>Higher material cost, very predictable labor</td><td>Cheaper material; labor honesty is the real price</td></tr>
+  </table></div>
+</div></div>
+
+<h2>Where Kerdi Wins</h2>
+
+<p>Kerdi&rsquo;s great virtue is that the factory already did the hardest part. Thickness &mdash; the thing that actually stops water &mdash; is not a variable on site. That makes the system beautifully inspectable: you can look at a Kerdi shower before tile and <em>see</em> the overlaps, the banded seams, the preformed corners, and photograph all of it. In a standard alcove or tub-to-shower conversion, where walls are flat and corners are square, a fluent Kerdi installer produces a near-identical assembly every single time, and same-day tiling keeps the schedule tight &mdash; a real advantage inside the <a href="/blog/how-long-to-tile-a-bathroom">seven-to-nine-day calendar</a> of a full bathroom.</p>
+
+<p>The integrated catalog matters more than it sounds, too. The drain is designed for the sheet, the niche is a preformed box that bands into the wall, the curb pieces fold where curbs fold. When one manufacturer engineers the whole path water might take, the seams between <em>products</em> disappear along with the seams in the membrane &mdash; the same logic that makes us reach for the companion uncoupling system in <a href="/blog/ditra-vs-cement-board">Ditra versus cement board</a> on floors.</p>
+
+<h2>Where Liquid Wins</h2>
+
+<p>Geometry, first. A curved bench, a sloped <a href="/blog/curbless-shower-build-mercer-island">curbless entry</a>, a reading niche with an arched top, a hundred-year-old wall that is nowhere near flat &mdash; liquid paints over all of it without a dart or a pieced seam. The more your shower deviates from a box, the stronger the liquid argument gets. Complex pans with multiple penetrations &mdash; body sprays, a steam head, a hand shower bar &mdash; are simpler to seal with fabric and liquid than with a jigsaw of sheet pieces.</p>
+
+<p>Liquid is also more forgiving of mixed substrates and repairs: it bonds over properly prepped cement board, existing sound mortar beds, and transitions between materials without caring about the change. And the material cost is meaningfully lower &mdash; on a tight renovation budget where the labor is trusted, that difference is real money that can go toward better tile.</p>
+
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-2col">
+  <div class="ocb-card" style="margin:0">
+    <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#5c0000">Choose Kerdi-style sheet when</h3>
+    <ul class="ocb-check">
+      <li>The shower is a standard alcove with flat, square walls</li>
+      <li>Schedule is tight &mdash; tile can go on the same day</li>
+      <li>You want a photographable, visually verifiable assembly</li>
+      <li>The drain and niche can come from the same engineered system</li>
+      <li>The installer lives in that system and builds it weekly</li>
+      <li>You are the trust-but-verify type &mdash; sheet shows its work</li>
+    </ul>
+  </div>
+  <div class="ocb-card" style="margin:0">
+    <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#334155">Choose liquid membrane when</h3>
+    <ul class="ocb-check ocb-x">
+      <li>Benches, curves, curbless slopes or odd niches are involved</li>
+      <li>Many penetrations: valves, body sprays, steam fittings</li>
+      <li>Substrates are mixed or walls are far from flat</li>
+      <li>Material budget matters and the labor is proven</li>
+      <li>Repairs or tie-ins to existing waterproofing are needed</li>
+      <li>The installer gauges thickness and logs coats &mdash; ask to see</li>
+    </ul>
+  </div>
+</div></div></div>
+
+<h2>How Each One Fails &mdash; and the Test That Catches Both</h2>
+
+<p>Neither system fails as a product; both fail as installations. Kerdi fails at a starved seam &mdash; too little mortar under an overlap, a corner piece stretched instead of seated, banding skipped because the overlap &ldquo;looked wide enough.&rdquo; Liquid fails at thickness &mdash; a second coat rolled thin over a first coat that had already skinned, a corner where the fabric never got buried, a spec that wanted 30 wet mils and got half that because nobody owned a gauge. The failure is invisible in both cases. Tile goes on, everything is beautiful, and the assembly&rsquo;s truth emerges through the ceiling below in year three &mdash; at which point the fix is a rebuild, the argument we made in <a href="/blog/regrouting-vs-retiling-a-shower">regrouting versus retiling a shower</a>.</p>
+
+<p>This is why the flood test is not a nicety. Plug the drain, fill the pan, mark the line, wait 24 hours. A starved Kerdi seam weeps; a thin liquid spot weeps; a tight assembly of either kind holds to the pencil mark. It is the one moment the membrane can be tested directly in its entire service life, it costs a day, and it ends the sheet-versus-liquid argument for that particular shower with data. We photograph ours and keep them on file &mdash; ask any bidder, using either system, when their flood test day is.</p>
+
+<h2>What We Actually Use</h2>
+
+<p>Both &mdash; chosen per job, not per ideology. A standard alcove on a tight calendar usually gets the sheet system; a curbless pan with a bench and three penetrations usually gets liquid with fabric reinforcement; some jobs get both, sheet on the walls and liquid where geometry demands it, tied together per the manufacturers&rsquo; instructions. Every one of them gets a pre-slope under the pan, and every one sits through the photographed 24-hour flood test before tile. That combination &mdash; system fluency plus verification &mdash; is what the <a href="/blog/cost-to-tile-a-shower">price of a properly built shower</a> is actually buying, and it is why we can put a 2-year warranty behind tile work when the trade standard is one.</p>
+
+<p>If you are planning a shower anywhere in King or Snohomish County, we will tell you which system your geometry and schedule argue for &mdash; and show you flood-test photos from jobs like yours. Scope and details are on the <a href="/seattle/tile-installation-in-seattle-wa">Seattle tile installation page</a>.</p>
+
+<div data-rt-embed-type='true'><!-- FAQ accordion + JSON-LD -->
+<div class="faq-wrap ocb" aria-labelledby="faq-title">
+  <h2 id="faq-title" class="faq-title">Kerdi vs Liquid Membranes: What Homeowners Ask Us</h2>
+  <div class="faq-items" role="list">
+    <details class="faq-item" role="listitem"><summary class="faq-q">Is Schluter Kerdi better than liquid membrane?</summary><div class="faq-a">Neither is better in the abstract — both are proven systems that outlast the house when installed to spec. Kerdi carries factory-guaranteed thickness and its risk at the seams; liquid is seamless and carries its risk in application thickness. The installer’s fluency with their chosen system matters far more than the choice itself.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">What is Schluter Kerdi, exactly?</summary><div class="faq-a">A thin polyethylene sheet membrane with a fleece backing, bonded to shower walls and pans with thinset mortar. Seams are overlapped or banded, corners and drains use preformed pieces, and tile can be set the same day. It is part of an engineered family — drain, niche, curb, and the Ditra floor membrane — designed to work as one system.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Which is cheaper, Kerdi or liquid membrane?</summary><div class="faq-a">Liquid usually costs less in material, and Kerdi tends to be more predictable in labor. On a standard shower the installed difference is modest either way — and it is dwarfed by the cost difference between any correct installation and a failed one. Choose the system your installer is fluent in, not the one that saves tens of dollars.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Can you tile the same day over each membrane?</summary><div class="faq-a">Over Kerdi, yes — the mortar bonding the sheet does not need to cure before tiling starts, which is a genuine schedule advantage. Liquid membranes need each coat to cure and a final cure before tile, typically adding a day or two. On a full bathroom calendar that difference is real but rarely decisive.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Do liquid membranes like RedGard actually work in showers?</summary><div class="faq-a">Yes — when applied at the manufacturer’s specified thickness with reinforcing fabric at corners and penetrations, liquid membranes are fully legitimate shower waterproofing. The products earn their bad stories almost exclusively through thin application. An installer who uses a wet-film gauge and logs coats removes exactly that risk.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Do I still need a flood test with a Kerdi shower?</summary><div class="faq-a">Absolutely. Kerdi’s factory thickness does not protect a starved seam, a stretched corner piece, or a bad drain connection — installation errors a 24-hour flood test catches while they are an hour’s fix instead of a rebuild. Sheet or liquid, the pan sits full for 24 hours and gets photographed before we set tile over it.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Can Kerdi and liquid membrane be combined in one shower?</summary><div class="faq-a">Yes, and it is common in complicated builds — sheet on the flat wall planes, liquid with fabric where a bench, curve, or cluster of penetrations makes sheet-piecing awkward. The tie-ins between systems follow the manufacturers’ instructions and get the same flood test as everything else.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">What goes behind the membrane — do I still need cement board?</summary><div class="faq-a">Kerdi is approved over standard drywall in dry framing as well as cement board, because the sheet itself is the waterproofing plane. Liquid membranes go over cement board or equivalent tile backer, never bare drywall in wet areas. Either way the membrane, not the board, is what keeps the wall dry — board choice is about a sound substrate.</div></details>
+  </div>
+</div>
+
+<style>
+  .faq-wrap{--line:#e5e7eb;margin:28px auto;padding:20px;border:1px solid var(--line);border-radius:16px;background:#fff;box-shadow:0 8px 30px rgba(2,6,23,.06)}
+  .faq-title{margin:0 0 14px;font-size:24px;font-weight:900;text-align:center;color:#5c0000}
+  .faq-items{display:grid;gap:10px}
+  .faq-item{border:1px solid var(--line);border-radius:14px;background:#f9fafb;overflow:hidden}
+  .faq-q{cursor:pointer;display:block;padding:14px 16px;font-weight:800;color:#0f172a}
+  .faq-q::-webkit-details-marker{display:none}
+  .faq-item[open] .faq-q{background:linear-gradient(180deg, rgba(139,0,0,.08), rgba(139,0,0,.02))}
+  .faq-a{padding:0 16px 14px;color:#1f2937;line-height:1.6}
+</style>
+
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Is Schluter Kerdi better than liquid membrane?", "acceptedAnswer": {"@type": "Answer", "text": "Neither is better in the abstract — both are proven systems that outlast the house when installed to spec. Kerdi carries factory-guaranteed thickness and its risk at the seams; liquid is seamless and carries its risk in application thickness. The installer’s fluency with their chosen system matters far more than the choice itself."}}, {"@type": "Question", "name": "What is Schluter Kerdi, exactly?", "acceptedAnswer": {"@type": "Answer", "text": "A thin polyethylene sheet membrane with a fleece backing, bonded to shower walls and pans with thinset mortar. Seams are overlapped or banded, corners and drains use preformed pieces, and tile can be set the same day. It is part of an engineered family — drain, niche, curb, and the Ditra floor membrane — designed to work as one system."}}, {"@type": "Question", "name": "Which is cheaper, Kerdi or liquid membrane?", "acceptedAnswer": {"@type": "Answer", "text": "Liquid usually costs less in material, and Kerdi tends to be more predictable in labor. On a standard shower the installed difference is modest either way — and it is dwarfed by the cost difference between any correct installation and a failed one. Choose the system your installer is fluent in, not the one that saves tens of dollars."}}, {"@type": "Question", "name": "Can you tile the same day over each membrane?", "acceptedAnswer": {"@type": "Answer", "text": "Over Kerdi, yes — the mortar bonding the sheet does not need to cure before tiling starts, which is a genuine schedule advantage. Liquid membranes need each coat to cure and a final cure before tile, typically adding a day or two. On a full bathroom calendar that difference is real but rarely decisive."}}, {"@type": "Question", "name": "Do liquid membranes like RedGard actually work in showers?", "acceptedAnswer": {"@type": "Answer", "text": "Yes — when applied at the manufacturer’s specified thickness with reinforcing fabric at corners and penetrations, liquid membranes are fully legitimate shower waterproofing. The products earn their bad stories almost exclusively through thin application. An installer who uses a wet-film gauge and logs coats removes exactly that risk."}}, {"@type": "Question", "name": "Do I still need a flood test with a Kerdi shower?", "acceptedAnswer": {"@type": "Answer", "text": "Absolutely. Kerdi’s factory thickness does not protect a starved seam, a stretched corner piece, or a bad drain connection — installation errors a 24-hour flood test catches while they are an hour’s fix instead of a rebuild. Sheet or liquid, the pan sits full for 24 hours and gets photographed before we set tile over it."}}, {"@type": "Question", "name": "Can Kerdi and liquid membrane be combined in one shower?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, and it is common in complicated builds — sheet on the flat wall planes, liquid with fabric where a bench, curve, or cluster of penetrations makes sheet-piecing awkward. The tie-ins between systems follow the manufacturers’ instructions and get the same flood test as everything else."}}, {"@type": "Question", "name": "What goes behind the membrane — do I still need cement board?", "acceptedAnswer": {"@type": "Answer", "text": "Kerdi is approved over standard drywall in dry framing as well as cement board, because the sheet itself is the waterproofing plane. Liquid membranes go over cement board or equivalent tile backer, never bare drywall in wet areas. Either way the membrane, not the board, is what keeps the wall dry — board choice is about a sound substrate."}}]}
+</script></div>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-cta" style="margin:30px 0">
+  <style>
+    html body .post-body .ocb-cta h2, .ocb-cta h2{color:#fff!important}
+    html body .post-body .ocb-cta .ocb-cta-sub, .ocb-cta .ocb-cta-sub{color:rgba(255,255,255,.88)!important}
+    html body .post-body .ocb-cta .ocb-cta-chips span, .ocb-cta .ocb-cta-chips span{color:rgba(255,255,255,.94)!important}
+    html body .post-body .ocb-cta a.ocb-cta-ghost, .ocb-cta a.ocb-cta-ghost{color:#fff!important;text-decoration:none!important}
+    html body .post-body .ocb-cta a.ocb-cta-gold, .ocb-cta a.ocb-cta-gold{color:#fbbc04!important}
+    html body .post-body .ocb-cta a.ocb-cta-phone, .ocb-cta a.ocb-cta-phone{color:#5c0000!important;text-decoration:none!important}
+  </style>
+  <div style="background:linear-gradient(135deg,#8B0000,#5c0000);border-radius:20px;padding:28px 24px;color:#fff;text-align:center;box-shadow:0 14px 34px rgba(92,0,0,.3)">
+    <h2 style="margin:0 0 6px;color:#fff!important;font-size:24px;font-weight:900">Planning a Shower? Ask Us Which System Yours Wants</h2>
+    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.92)!important;font-size:16.3px">We install both &mdash; sheet and liquid, chosen for your geometry and schedule, always over a pre-slope, always flood-tested for 24 hours with photos in your file. Free in-home estimates across King &amp; Snohomish County.</p>
+    <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
+      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff!important;color:#5c0000!important;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none!important"><span class="ocb-ic ocb-ic-phone"></span> (425) 595-1079</a>
+      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.16)!important;border:1px solid rgba(255,255,255,.55);color:#fff!important;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none!important">Book My Free Consultation</a>
+    </div>
+    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.95)!important">
+      <span>✓ Since 2013</span><span>✓ 1,000+ floors</span><span>✓ 1-yr workmanship warranty</span><span>✓ Licensed &amp; insured</span><span>✓ Financing available</span>
+    </div>
+    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04!important;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
+  </div>
+</div></div>
+
+<p><strong>Related reading:</strong> <a href="/blog/tile-shower-waterproofing">How a tile shower is waterproofed</a> · <a href="/blog/ditra-vs-cement-board">Ditra vs cement board</a> · <a href="/blog/cost-to-tile-a-shower">What a tiled shower costs</a> · <a href="/blog/regrouting-vs-retiling-a-shower">Regrouting vs retiling a shower</a> · <a href="/seattle/tile-installation-in-seattle-wa">Tile installation in Seattle</a> · <a href="/contact">Book a free estimate</a></p>
+
+<div data-rt-embed-type='true'><script>
+(function(){try{
+var els=document.querySelectorAll('.ocb-card,.ocb-fact,.ocb-tri,.faq-item');
+if(!('IntersectionObserver' in window)||!els.length)return;
+document.documentElement.classList.add('ocb-anim-ready');
+els.forEach(function(e,i){e.classList.add('ocb-rv');e.style.transitionDelay=Math.min((i%6)*70,350)+'ms'});
+var io=new IntersectionObserver(function(en){en.forEach(function(x){if(x.isIntersecting){x.target.classList.add('ocb-in');io.unobserve(x.target)}})},{threshold:.12,rootMargin:'0px 0px -8% 0px'});
+els.forEach(function(e){io.observe(e)});
+}catch(e){}})();
+</script></div>
