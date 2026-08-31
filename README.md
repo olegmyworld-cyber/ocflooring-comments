@@ -113,6 +113,36 @@ updated via `update_collection_items` with `cmsLocaleId` (required) and
 re-published via `publish_collection_items`; URL-set images get re-ingested
 under a new asset-id prefix but keep the original file content/name.
 
+### Floor-refinishing page: sealer/stain picker rebuilt in page code (2026-08-31, same branch)
+
+The homepage's Bona sealer/stain picker would not appear on
+`/flooring-services-near-me/floor-refinishing` no matter how it was loaded.
+Cause: the hosted bundle `bona-pkg-loader-v2-min.js` starts with its own path
+guard — homepage, `hardwood-floor-refinishing-in-*` city pages, or
+`/services/floor-refinishing` (an alias that does not exist on this site) —
+and returns before rendering anything on any other URL. Page-level code
+cannot reach inside a bundle that has already exited.
+
+So the section is now the page's own code, reusing the same copy and the same
+Webflow-hosted room photos and stain planks the bundle uses:
+
+- [`refinish-head-picker.html`](webflow-scripts/refinish-head-picker.html) —
+  page HEAD: scoped CSS + a small script that renders into `#ocp`. Sealer
+  Finish / Stain Color toggle, 5 Bona sealers (tone, description, best-for),
+  21 stain colors, Living/Kitchen room views, swatch strip, Customer Favorite
+  badge. Image URLs are rebuilt from stored asset ids — no external bundle.
+- [`refinish-footer-redesign.html`](webflow-scripts/refinish-footer-redesign.html) —
+  page FOOTER: `#ocp` mount inside `.ocrp-left`; bundle loader, widget CSS
+  overrides and the relocation polling all removed.
+
+Verified in Chromium against a skeleton of the live page
+([`tools/bona-picker-harness`](tools/bona-picker-harness)) — 25 checks over
+render, toggle, room swap, swatch selection, image URLs, section placement,
+the empty-CTA fix, the gallery filter, console errors and mobile overflow.
+The unminified bundle is readable at
+`s3.amazonaws.com/webflow-prod-assets/<site-id>/<asset-id>_bona-pkg-loader-v2.js`
+(the S3 host is reachable from this container when the Webflow CDN is not).
+
 ## Changes on branch `claude/oc-flooring-webflow-fixes-amosur`
 
 ### Bona sealer widget — "CUSTOMER FAVORITE" badge overlap (2026-06-14)
