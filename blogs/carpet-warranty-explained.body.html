@@ -1,0 +1,203 @@
+<div data-rt-embed-type='true'><style>
+.ocb{--ink:#0f172a;--muted:#64748b;--line:#e5e7eb;--soft:#f8fafc;--brand:#8B0000;--brand2:#5c0000;--gold:#fbbc04;font-family:'Mulish',Inter,system-ui,sans-serif;color:var(--ink)}
+.ocb *{box-sizing:border-box}
+.ocb-card{border:1px solid var(--line);border-radius:18px;background:#fff;box-shadow:0 10px 30px rgba(2,6,23,.06);padding:22px;margin:26px 0}
+.ocb-eyebrow{display:inline-block;background:rgba(139,0,0,.08);color:var(--brand2);border:1px solid rgba(139,0,0,.2);border-radius:999px;padding:5px 12px;font-size:12.5px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;margin-bottom:10px}
+.ocb-chips{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0 0}
+.ocb-chip{background:var(--soft);border:1px solid var(--line);border-radius:999px;padding:6px 12px;font-size:13.6px;font-weight:700}
+.ocb-table{width:100%;border-collapse:collapse;font-size:15.2px}
+.ocb-table th,.ocb-table td{padding:11px 10px;text-align:left;border-bottom:1px solid var(--line)}
+.ocb-table th{background:var(--soft);font-weight:800;font-size:13.6px;letter-spacing:.02em}
+.ocb-table tr:last-child td{border-bottom:0}
+.ocb-table td strong{color:var(--brand2)}
+.ocb-2col{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media(max-width:680px){.ocb-2col{grid-template-columns:1fr}}
+.ocb-check{list-style:none;padding:0;margin:10px 0 0}
+.ocb-check li{padding-left:26px;position:relative;margin:7px 0;line-height:1.55}
+.ocb-check li:before{content:"✓";position:absolute;left:0;color:var(--brand);font-weight:900}
+.ocb-x li:before{content:"✕";color:#94a3b8}
+html body .post-body .ocb-facts, .ocb-facts{display:grid!important;grid-template-columns:repeat(3,1fr)!important;gap:12px!important;margin:8px 0!important}
+@media(max-width:680px){html body .post-body .ocb-facts, .ocb-facts{grid-template-columns:1fr!important}}
+.ocb-fact{background:linear-gradient(180deg,#fff,#f8fafc);border:1px solid var(--line);border-radius:16px;padding:16px}
+.ocb-fact .n{font-size:24px;font-weight:900;color:var(--brand2);display:block;margin-bottom:4px}
+html body .post-body .ocb-fact p, .ocb-fact p{margin:0!important;font-size:14.7px!important;color:#334155!important;line-height:1.5!important}
+
+.ocb-card,.ocb-fact,.ocb-tri{transition:transform .28s ease,box-shadow .28s ease}
+.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:translateY(-4px);box-shadow:0 16px 40px rgba(2,6,23,.12)}
+.faq-item{transition:border-color .25s,box-shadow .25s}
+.faq-item:hover{border-color:rgba(139,0,0,.35);box-shadow:0 6px 18px rgba(2,6,23,.07)}
+.ocb-chip{display:inline-flex;align-items:center;gap:6px;transition:transform .2s,border-color .2s}
+.ocb-chip:hover{transform:translateY(-2px);border-color:rgba(139,0,0,.35)}
+.ocb-chip svg{color:#8B0000}
+.ocb-cta a{transition:transform .22s,box-shadow .22s}
+.ocb-cta a:hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(0,0,0,.25)}
+.ocb-fact .n{position:relative}
+html.ocb-anim-ready .ocb-rv{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
+html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){html.ocb-anim-ready .ocb-rv{opacity:1!important;transform:none!important;transition:none!important}.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:none}}
+
+/* Chip icons. Webflow's rich-text sanitizer strips inline <svg> whenever a post is
+   re-saved in the Editor, so the icons are drawn from CSS on a <span> instead. */
+.ocb-ic{display:inline-block;width:15px;height:15px;flex:0 0 auto;vertical-align:-2px;background-repeat:no-repeat;background-position:center;background-size:contain}
+.ocb-ic-pin{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z'/><circle cx='12' cy='10' r='3'/></svg>")}
+.ocb-ic-home{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z'/><polyline points='9 22 9 12 15 12 15 22'/></svg>")}
+.ocb-ic-phone{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z'/></svg>")}
+.ocb-cta .ocb-ic{filter:brightness(0) saturate(100%) invert(9%) sepia(64%) saturate(4000%) hue-rotate(348deg)}
+</style></div>
+
+<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">January 28, 2027</span></div></div>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
+  <span class="ocb-eyebrow">Quick answer</span>
+  <p style="margin:0;font-size:17.9px;line-height:1.65"><strong>A carpet warranty is not one promise &mdash; it is three separate ones (wear, stain, and texture retention), each with its own exclusions, and most claims die on the maintenance clauses, not the coverage.</strong> Nearly every manufacturer warranty quietly requires professional hot-water extraction on a schedule, with receipts, and classifies the most common complaints &mdash; matting in the hallway, traffic-lane shading &mdash; as things it never covered in the first place. Read the document before you buy, then put your real protection where it actually lives: in the fiber and the pad you choose.</p>
+  <div class="ocb-chips">
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-pin"></span> King &amp; Snohomish County</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-home"></span> Mill Creek &amp; Snohomish County</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-phone"></span> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
+  </div>
+</div></div>
+
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-facts">
+  <div class="ocb-fact"><span class="n">3 warranties</span><p>hide inside every "carpet warranty" &mdash; wear, stain, and texture retention are separate coverages with separate definitions and separate exclusions. A claim filed under the wrong one is denied on arrival.</p></div>
+  <div class="ocb-fact"><span class="n">12&ndash;18 months</span><p>the professional hot-water extraction cadence most warranties quietly require. No receipts, no claim &mdash; this single clause kills more claims than every exclusion combined.</p></div>
+  <div class="ocb-fact"><span class="n">From $1.49/sq ft</span><p>installed carpet with us, pad and labor included. The fiber and pad you pick at that table protect you from far more than any paragraph of coverage ever will.</p></div>
+</div></div></div>
+
+<h2>The Three Warranties Hiding in One Document</h2>
+
+<p>When a salesperson says a carpet has a &ldquo;25-year warranty,&rdquo; they are compressing three different documents into one comforting number. They cover different failures, they are voided by different things, and the one you will actually want someday is usually the shortest.</p>
+
+<p><strong>The wear warranty</strong> covers abrasive wear &mdash; fiber actually gone, worn through to the backing. Read the definition and you will find it means physical loss of fiber, not crushing, not flattening, not the pale traffic lane in front of the couch. Carpet that looks exhausted but still has its fiber is not &ldquo;worn&rdquo; by warranty math. Genuine wear-through is rare on any decent carpet, which is why this number is so long and so loudly advertised.</p>
+
+<p><strong>The stain warranty</strong> covers staining from a defined list of substances &mdash; and the exclusion list is where the honesty lives. Oil-based spills, pet accidents on non-pet lines, dye transfer, bleach, and anything &ldquo;not promptly treated&rdquo; are typically out. <strong>The texture-retention warranty</strong> covers the tuft losing its twist and matting down; it is usually the shortest of the three and the most prorated, and it is exactly the failure a busy household is most likely to see.</p>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-card">
+  <h3 style="margin:0 0 10px;font-size:18.5px;font-weight:900;color:#5c0000">What Each Coverage Actually Means</h3>
+  <div style="overflow-x:auto"><table class="ocb-table">
+    <tr><th>Coverage</th><th>What it covers</th><th>What it quietly excludes</th></tr>
+    <tr><td><strong>Wear</strong></td><td>Fiber loss &mdash; worn through to the backing</td><td>Crushing, matting, flattening, traffic-lane shading &mdash; the things people actually mean by "worn out"</td></tr>
+    <tr><td><strong>Stain</strong></td><td>Stains from listed household substances</td><td>Oil-based spills, pet accidents on standard lines, dye transfer, bleach, anything not treated promptly</td></tr>
+    <tr><td><strong>Texture retention</strong></td><td>Tufts losing twist and matting</td><td>Stairs and hallways are often excluded outright &mdash; the places texture fails first</td></tr>
+    <tr><td><strong>Manufacturing defects</strong></td><td>Delamination, tuft loss, streaks from the mill</td><td>Usually solid coverage, but short &mdash; and it requires proper installation to stay valid</td></tr>
+    <tr><td><strong>Installation workmanship</strong></td><td>Seams, stretching, transitions</td><td>Not the manufacturer&rsquo;s problem at all &mdash; this one comes from your installer, in writing</td></tr>
+  </table></div>
+</div></div>
+
+<h2>The Maintenance Clauses That Void Claims</h2>
+
+<p>Here is the part almost nobody reads until they are angry. Somewhere in the fine print, nearly every carpet warranty requires <strong>professional hot-water extraction every 12&ndash;18 months, performed by a certified cleaner, with receipts you kept</strong>. File a claim in year six and the first thing the manufacturer asks for is your cleaning records. No receipts, no claim &mdash; and the carpet itself never even gets inspected.</p>
+
+<p>The same section usually requires regular vacuuming with an approved machine, prompt treatment of spills with approved products, and a pad that meets the manufacturer&rsquo;s spec. That last one matters more than it looks: install premium carpet over the wrong pad and some warranties are void from day one, before the first footstep. It is one more reason the pad conversation &mdash; which we walk through in our guide to <a href="/blog/carpet-padding-thickness">carpet padding thickness and grades</a> &mdash; belongs at the front of the purchase, not the end.</p>
+
+<p>None of this is a scam, exactly. Grit genuinely does cut fiber, and a carpet that is never professionally cleaned genuinely does fail early. But you should walk in knowing that the warranty is, in practice, a maintenance contract: the manufacturer promises to stand behind the carpet as long as you can prove you did everything right. Budget for the cleanings, keep a folder, or treat the warranty as decoration.</p>
+
+<h2>What &ldquo;Lifetime&rdquo; Actually Means</h2>
+
+<p>&ldquo;Lifetime&rdquo; is the most successful word in flooring marketing, and it means less than it sounds like. It is not your lifetime, and not the house&rsquo;s &mdash; it is the <em>useful life of the carpet as the manufacturer defines it</em>, which the same document often defines as ending exactly when the carpet no longer performs. A carpet that matted flat in year seven has, by that logic, reached the end of its life rather than failed within it.</p>
+
+<p>Add the usual limiters &mdash; original purchaser only, original installation location only, prorated recovery that shrinks every year, coverage that pays for replacement material but not the labor to install it &mdash; and a lifetime warranty converges on a simple truth: it is a statement about the brand&rsquo;s confidence, useful for comparing two carpets side by side, and a poor thing to lean on when something goes wrong. How long carpet really lasts is a fiber-and-traffic question, and we lay out the honest numbers in <a href="/blog/how-long-does-carpet-last">how long carpet lasts</a>.</p>
+
+<h2>What Actually Protects You: Fiber and Pad</h2>
+
+<p>After years of watching claims succeed and fail, our honest advice is this: <strong>buy the protection at the sample stage, not the paperwork stage</strong>. The two decisions that decide how your carpet looks in year ten are the fiber and the pad &mdash; and neither one requires a lawyer to read.</p>
+
+<p>Fiber first. Solution-dyed fibers &mdash; triexta and solution-dyed nylon &mdash; carry their color all the way through the strand, so aggressive cleaning cannot fade them, and their stain resistance is built into the polymer rather than sprayed on at the mill. That is protection no clause can revoke. The full rundown is in our <a href="/blog/carpet-fiber-types">carpet fiber guide</a>, and the specific case for engineered stain resistance &mdash; and what &ldquo;stain-proof&rdquo; does and does not mean &mdash; is in <a href="/blog/stain-resistant-carpet">stain-resistant carpet, explained honestly</a>. For resilience in traffic lanes &mdash; the failure the texture warranty is least likely to pay for &mdash; nylon and triexta simply outlast polyester, and no warranty on a budget fiber changes that.</p>
+
+<p>Then the pad. A quality pad carries its own warranty, supports the carpet&rsquo;s, and does more for how the floor feels and wears than any coverage tier. In pet households a moisture-barrier pad is the difference between an accident and a permanent problem &mdash; the whole argument is in <a href="/blog/best-carpet-for-pets">the best carpet for pets</a>. Cheap pad under premium carpet is the single most backwards line item in flooring.</p>
+
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-2col">
+  <div class="ocb-card" style="margin:0">
+    <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#5c0000">What keeps a claim alive</h3>
+    <ul class="ocb-check">
+      <li>Professional hot-water extraction on schedule &mdash; receipts filed away</li>
+      <li>The manufacturer-spec pad, named on your invoice</li>
+      <li>Prompt spill treatment with approved cleaners</li>
+      <li>The original invoice showing carpet line, color and location</li>
+      <li>Professional installation you can document</li>
+      <li>Reading the exclusions before you buy, not after the stain</li>
+    </ul>
+  </div>
+  <div class="ocb-card" style="margin:0">
+    <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#334155">What kills a claim before inspection</h3>
+    <ul class="ocb-check ocb-x">
+      <li>No cleaning receipts &mdash; the number one claim-killer by a mile</li>
+      <li>Wrong pad, or no record of which pad went in</li>
+      <li>Filing matting or shading under the wear warranty</li>
+      <li>Pet accidents on a line that never covered them</li>
+      <li>DIY or undocumented installation</li>
+      <li>Expecting "lifetime" to mean your lifetime</li>
+    </ul>
+  </div>
+</div></div></div>
+
+<h2>How We Handle Warranties in Mill Creek</h2>
+
+<p>When the mobile showroom comes to your door in Mill Creek, the warranty conversation happens at your kitchen table with the actual documents, not a brochure summary. We bring 20+ full-size samples and all three pad grades, and for the lines you shortlist we will tell you plainly which coverage is meaningful and which is marketing &mdash; including when a cheaper carpet with a better fiber is the stronger buy than a longer warranty on a weaker one. You get a free measure and a written price the same visit, with the carpet line and the pad named on the quote &mdash; which is exactly the paper trail a future claim needs.</p>
+
+<p>Installation matters to the manufacturer too: several coverages require professional installation to industry standards, and seam or stretch problems are the installer&rsquo;s responsibility, never the mill&rsquo;s. Our work is covered by our own workmanship warranty, separate from anything the manufacturer promises. The full local details are on our <a href="/city-of-mill-creek/carpet-installation-in-mill-creek-wa">Mill Creek carpet installation page</a>.</p>
+
+<div data-rt-embed-type='true'><!-- FAQ accordion + JSON-LD -->
+<div class="faq-wrap ocb" aria-labelledby="faq-title">
+  <h2 id="faq-title" class="faq-title">Carpet Warranties: What Buyers Ask Us</h2>
+  <div class="faq-items" role="list">
+    <details class="faq-item" role="listitem"><summary class="faq-q">What does a carpet warranty actually cover?</summary><div class="faq-a">Three separate things, usually with separate terms: abrasive wear (fiber physically gone, not flattened), staining from a defined list of substances, and texture retention (tufts holding their twist). Each has its own exclusions, and installation problems like seams and stretching are never the manufacturer’s responsibility — those come from your installer’s workmanship warranty.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Why do carpet warranty claims get denied?</summary><div class="faq-a">Most often on the maintenance clauses, not the damage itself. Nearly every warranty requires professional hot-water extraction every 12–18 months with receipts, an approved pad, and prompt spill treatment. Missing cleaning records is the single most common reason a claim dies before anyone inspects the carpet.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">What does a "lifetime" carpet warranty mean?</summary><div class="faq-a">The useful life of the carpet as the manufacturer defines it — not your lifetime. Combined with original-owner-only terms, proration that shrinks the payout every year, and coverage of material but not labor, a lifetime warranty is best read as a confidence signal for comparing carpets, not a safety net.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Is matting in the traffic lanes covered by the wear warranty?</summary><div class="faq-a">Almost never. Wear warranties define wear as actual fiber loss — worn through to the backing — which is rare on any decent carpet. Matting and crushing fall under texture retention, which is typically shorter, heavily prorated, and often excludes stairs and hallways, the exact places texture fails first.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Do I really need professional cleaning to keep the warranty valid?</summary><div class="faq-a">If the warranty says so, yes — and nearly all of them do. Hot-water extraction by a certified cleaner every 12 to 18 months, with receipts you keep, is the standard requirement. It is also genuinely good for the carpet, so we suggest treating it as real maintenance rather than a hoop.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Does the pad affect the carpet warranty?</summary><div class="faq-a">Yes, more than most buyers realize. Manufacturers spec a minimum pad, and installing over the wrong one can void coverage from day one. A quality pad also carries its own warranty and does more for long-term appearance than any coverage tier. Get the pad named on your invoice.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Are pet stains covered by a standard stain warranty?</summary><div class="faq-a">Usually not. Standard stain warranties list household food and beverage spills and exclude pet urine, oil-based messes, and dye transfer. Dedicated pet lines cover urine staining specifically — but even those class matting from a big dog as wear, not stain. Fiber choice is what protects you in the excluded categories.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">What protects my carpet better than the warranty?</summary><div class="faq-a">The fiber and the pad. Solution-dyed triexta or nylon resists stains and fading at the polymer level — protection no clause can revoke — and a quality pad determines how the carpet wears and feels for its whole life. We bring both conversations to your home with the samples, and put the carpet and pad in writing the same visit.</div></details>
+  </div>
+</div>
+
+<style>
+  .faq-wrap{--line:#e5e7eb;margin:28px auto;padding:20px;border:1px solid var(--line);border-radius:16px;background:#fff;box-shadow:0 8px 30px rgba(2,6,23,.06)}
+  .faq-title{margin:0 0 14px;font-size:24px;font-weight:900;text-align:center;color:#5c0000}
+  .faq-items{display:grid;gap:10px}
+  .faq-item{border:1px solid var(--line);border-radius:14px;background:#f9fafb;overflow:hidden}
+  .faq-q{cursor:pointer;display:block;padding:14px 16px;font-weight:800;color:#0f172a}
+  .faq-q::-webkit-details-marker{display:none}
+  .faq-item[open] .faq-q{background:linear-gradient(180deg, rgba(139,0,0,.08), rgba(139,0,0,.02))}
+  .faq-a{padding:0 16px 14px;color:#1f2937;line-height:1.6}
+</style>
+
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does a carpet warranty actually cover?", "acceptedAnswer": {"@type": "Answer", "text": "Three separate things, usually with separate terms: abrasive wear (fiber physically gone, not flattened), staining from a defined list of substances, and texture retention (tufts holding their twist). Each has its own exclusions, and installation problems like seams and stretching are never the manufacturer’s responsibility — those come from your installer’s workmanship warranty."}}, {"@type": "Question", "name": "Why do carpet warranty claims get denied?", "acceptedAnswer": {"@type": "Answer", "text": "Most often on the maintenance clauses, not the damage itself. Nearly every warranty requires professional hot-water extraction every 12–18 months with receipts, an approved pad, and prompt spill treatment. Missing cleaning records is the single most common reason a claim dies before anyone inspects the carpet."}}, {"@type": "Question", "name": "What does a \"lifetime\" carpet warranty mean?", "acceptedAnswer": {"@type": "Answer", "text": "The useful life of the carpet as the manufacturer defines it — not your lifetime. Combined with original-owner-only terms, proration that shrinks the payout every year, and coverage of material but not labor, a lifetime warranty is best read as a confidence signal for comparing carpets, not a safety net."}}, {"@type": "Question", "name": "Is matting in the traffic lanes covered by the wear warranty?", "acceptedAnswer": {"@type": "Answer", "text": "Almost never. Wear warranties define wear as actual fiber loss — worn through to the backing — which is rare on any decent carpet. Matting and crushing fall under texture retention, which is typically shorter, heavily prorated, and often excludes stairs and hallways, the exact places texture fails first."}}, {"@type": "Question", "name": "Do I really need professional cleaning to keep the warranty valid?", "acceptedAnswer": {"@type": "Answer", "text": "If the warranty says so, yes — and nearly all of them do. Hot-water extraction by a certified cleaner every 12 to 18 months, with receipts you keep, is the standard requirement. It is also genuinely good for the carpet, so we suggest treating it as real maintenance rather than a hoop."}}, {"@type": "Question", "name": "Does the pad affect the carpet warranty?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, more than most buyers realize. Manufacturers spec a minimum pad, and installing over the wrong one can void coverage from day one. A quality pad also carries its own warranty and does more for long-term appearance than any coverage tier. Get the pad named on your invoice."}}, {"@type": "Question", "name": "Are pet stains covered by a standard stain warranty?", "acceptedAnswer": {"@type": "Answer", "text": "Usually not. Standard stain warranties list household food and beverage spills and exclude pet urine, oil-based messes, and dye transfer. Dedicated pet lines cover urine staining specifically — but even those class matting from a big dog as wear, not stain. Fiber choice is what protects you in the excluded categories."}}, {"@type": "Question", "name": "What protects my carpet better than the warranty?", "acceptedAnswer": {"@type": "Answer", "text": "The fiber and the pad. Solution-dyed triexta or nylon resists stains and fading at the polymer level — protection no clause can revoke — and a quality pad determines how the carpet wears and feels for its whole life. We bring both conversations to your home with the samples, and put the carpet and pad in writing the same visit."}}]}
+</script></div>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-cta" style="margin:30px 0">
+  <style>
+    html body .post-body .ocb-cta h2, .ocb-cta h2{color:#fff!important}
+    html body .post-body .ocb-cta .ocb-cta-sub, .ocb-cta .ocb-cta-sub{color:rgba(255,255,255,.88)!important}
+    html body .post-body .ocb-cta .ocb-cta-chips span, .ocb-cta .ocb-cta-chips span{color:rgba(255,255,255,.94)!important}
+    html body .post-body .ocb-cta a.ocb-cta-ghost, .ocb-cta a.ocb-cta-ghost{color:#fff!important;text-decoration:none!important}
+    html body .post-body .ocb-cta a.ocb-cta-gold, .ocb-cta a.ocb-cta-gold{color:#fbbc04!important}
+    html body .post-body .ocb-cta a.ocb-cta-phone, .ocb-cta a.ocb-cta-phone{color:#5c0000!important;text-decoration:none!important}
+  </style>
+  <div style="background:linear-gradient(135deg,#8B0000,#5c0000);border-radius:20px;padding:28px 24px;color:#fff;text-align:center;box-shadow:0 14px 34px rgba(92,0,0,.3)">
+    <h2 style="margin:0 0 6px;color:#fff!important;font-size:24px;font-weight:900">Read the Fine Print With Us</h2>
+    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.92)!important;font-size:16.3px">The mobile showroom brings 20+ samples, all three pad grades, and straight answers about which warranty terms matter on the lines you like. Free measure and a written price the same visit, with the carpet and pad named on the quote. Serving Mill Creek and all of King &amp; Snohomish County.</p>
+    <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
+      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff!important;color:#5c0000!important;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none!important"><span class="ocb-ic ocb-ic-phone"></span> (425) 595-1079</a>
+      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.16)!important;border:1px solid rgba(255,255,255,.55);color:#fff!important;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none!important">Book My Free Consultation</a>
+    </div>
+    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.95)!important">
+      <span>✓ Since 2013</span><span>✓ 1,000+ floors</span><span>✓ 1-yr workmanship warranty</span><span>✓ Licensed &amp; insured</span><span>✓ Financing available</span>
+    </div>
+    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04!important;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
+  </div>
+</div></div>
+
+<p><strong>Related reading:</strong> <a href="/blog/carpet-fiber-types">Carpet fiber types, compared</a> · <a href="/blog/stain-resistant-carpet">Stain-resistant carpet, honestly</a> · <a href="/blog/best-carpet-for-pets">The best carpet for pets</a> · <a href="/blog/carpet-padding-thickness">Carpet padding thickness and grades</a> · <a href="/city-of-mill-creek/carpet-installation-in-mill-creek-wa">Carpet installation in Mill Creek</a> · <a href="/contact">Book a free estimate</a></p>
+
+<div data-rt-embed-type='true'><script>
+(function(){try{
+var els=document.querySelectorAll('.ocb-card,.ocb-fact,.ocb-tri,.faq-item');
+if(!('IntersectionObserver' in window)||!els.length)return;
+document.documentElement.classList.add('ocb-anim-ready');
+els.forEach(function(e,i){e.classList.add('ocb-rv');e.style.transitionDelay=Math.min((i%6)*70,350)+'ms'});
+var io=new IntersectionObserver(function(en){en.forEach(function(x){if(x.isIntersecting){x.target.classList.add('ocb-in');io.unobserve(x.target)}})},{threshold:.12,rootMargin:'0px 0px -8% 0px'});
+els.forEach(function(e){io.observe(e)});
+}catch(e){}})();
+</script></div>

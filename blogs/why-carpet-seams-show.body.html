@@ -1,0 +1,200 @@
+<div data-rt-embed-type='true'><style>
+.ocb{--ink:#0f172a;--muted:#64748b;--line:#e5e7eb;--soft:#f8fafc;--brand:#8B0000;--brand2:#5c0000;--gold:#fbbc04;font-family:'Mulish',Inter,system-ui,sans-serif;color:var(--ink)}
+.ocb *{box-sizing:border-box}
+.ocb-card{border:1px solid var(--line);border-radius:18px;background:#fff;box-shadow:0 10px 30px rgba(2,6,23,.06);padding:22px;margin:26px 0}
+.ocb-eyebrow{display:inline-block;background:rgba(139,0,0,.08);color:var(--brand2);border:1px solid rgba(139,0,0,.2);border-radius:999px;padding:5px 12px;font-size:12.5px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;margin-bottom:10px}
+.ocb-chips{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0 0}
+.ocb-chip{background:var(--soft);border:1px solid var(--line);border-radius:999px;padding:6px 12px;font-size:13.6px;font-weight:700}
+.ocb-table{width:100%;border-collapse:collapse;font-size:15.2px}
+.ocb-table th,.ocb-table td{padding:11px 10px;text-align:left;border-bottom:1px solid var(--line)}
+.ocb-table th{background:var(--soft);font-weight:800;font-size:13.6px;letter-spacing:.02em}
+.ocb-table tr:last-child td{border-bottom:0}
+.ocb-table td strong{color:var(--brand2)}
+.ocb-2col{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media(max-width:680px){.ocb-2col{grid-template-columns:1fr}}
+.ocb-check{list-style:none;padding:0;margin:10px 0 0}
+.ocb-check li{padding-left:26px;position:relative;margin:7px 0;line-height:1.55}
+.ocb-check li:before{content:"✓";position:absolute;left:0;color:var(--brand);font-weight:900}
+.ocb-x li:before{content:"✕";color:#94a3b8}
+html body .post-body .ocb-facts, .ocb-facts{display:grid!important;grid-template-columns:repeat(3,1fr)!important;gap:12px!important;margin:8px 0!important}
+@media(max-width:680px){html body .post-body .ocb-facts, .ocb-facts{grid-template-columns:1fr!important}}
+.ocb-fact{background:linear-gradient(180deg,#fff,#f8fafc);border:1px solid var(--line);border-radius:16px;padding:16px}
+.ocb-fact .n{font-size:24px;font-weight:900;color:var(--brand2);display:block;margin-bottom:4px}
+html body .post-body .ocb-fact p, .ocb-fact p{margin:0!important;font-size:14.7px!important;color:#334155!important;line-height:1.5!important}
+
+.ocb-card,.ocb-fact,.ocb-tri{transition:transform .28s ease,box-shadow .28s ease}
+.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:translateY(-4px);box-shadow:0 16px 40px rgba(2,6,23,.12)}
+.faq-item{transition:border-color .25s,box-shadow .25s}
+.faq-item:hover{border-color:rgba(139,0,0,.35);box-shadow:0 6px 18px rgba(2,6,23,.07)}
+.ocb-chip{display:inline-flex;align-items:center;gap:6px;transition:transform .2s,border-color .2s}
+.ocb-chip:hover{transform:translateY(-2px);border-color:rgba(139,0,0,.35)}
+.ocb-chip svg{color:#8B0000}
+.ocb-cta a{transition:transform .22s,box-shadow .22s}
+.ocb-cta a:hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(0,0,0,.25)}
+.ocb-fact .n{position:relative}
+html.ocb-anim-ready .ocb-rv{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
+html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){html.ocb-anim-ready .ocb-rv{opacity:1!important;transform:none!important;transition:none!important}.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:none}}
+
+/* Chip icons. Webflow's rich-text sanitizer strips inline <svg> whenever a post is
+   re-saved in the Editor, so the icons are drawn from CSS on a <span> instead. */
+.ocb-ic{display:inline-block;width:15px;height:15px;flex:0 0 auto;vertical-align:-2px;background-repeat:no-repeat;background-position:center;background-size:contain}
+.ocb-ic-pin{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z'/><circle cx='12' cy='10' r='3'/></svg>")}
+.ocb-ic-home{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z'/><polyline points='9 22 9 12 15 12 15 22'/></svg>")}
+.ocb-ic-phone{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z'/></svg>")}
+.ocb-cta .ocb-ic{filter:brightness(0) saturate(100%) invert(9%) sepia(64%) saturate(4000%) hue-rotate(348deg)}
+</style></div>
+
+<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">March 4, 2027</span></div></div>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
+  <span class="ocb-eyebrow">Quick answer</span>
+  <p style="margin:0;font-size:17.9px;line-height:1.65"><strong>Every wall-to-wall carpet wider than the roll has seams &mdash; the question is never whether they exist, only whether you notice them.</strong> Carpet ships on rolls, most commonly 12 feet wide, so any room wider than that gets pieced. Whether a seam shows depends on three things: where the light rakes across it, which way the pile leans on each side, and where the seam sits relative to traffic. A good installer plans all three on paper before cutting anything &mdash; and a faint seam line at certain angles is normal even on a flawless job. Fraying, gaps, or a hard ridge underfoot are not.</p>
+  <div class="ocb-chips">
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-pin"></span> King &amp; Snohomish County</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-home"></span> Newcastle &amp; Eastside homes</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-phone"></span> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
+  </div>
+</div></div>
+
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-facts">
+  <div class="ocb-fact"><span class="n">12 feet</span><p>the standard carpet roll width (some styles come 13&#8217;6&#8221; or 15&#8217;). Any room wider than the roll gets a seam &mdash; physics, not workmanship.</p></div>
+  <div class="ocb-fact"><span class="n">3 factors</span><p>decide whether a seam shows: light angle, pile direction, and placement in traffic. A good seam map controls all three before the first cut.</p></div>
+  <div class="ocb-fact"><span class="n">From $1.49/sq ft</span><p>installed carpet with us &mdash; measured room by room with a seam plan we will show you, and a written price the same visit.</p></div>
+</div></div></div>
+
+<h2>Seams Are Physics, Not Failure</h2>
+
+<p>Start with the fact the showroom rarely mentions: carpet is a textile that comes off a roll, and the roll has a width. Most residential broadloom is 12 feet wide; a minority of styles come in 13&#8217;6&#8221; or 15&#8217;. Your living room is probably wider than that, and your L-shaped hallway certainly does not match a rectangle of any width. So the carpet gets cut and joined &mdash; two pieces, their edges seam-sealed and bonded to a heat-activated tape, pressed together into one continuous floor.</p>
+
+<p>Done well, that joint is tight, flat, and permanent. But it is still two pieces of textile meeting, and under the wrong light it can read as a faint line &mdash; the way a well-hung wallpaper seam is invisible at noon and visible at sunset. Understanding that baseline is the difference between a homeowner who calls a normal seam a defect and one who can spot the real defects when they happen. Roll width is also why the piecing plan is decided by the measure, not the install day &mdash; the whole logic is in <a href="/blog/how-to-measure-for-carpet">how to measure for carpet</a>, and it is a big part of why two quotes on the same room can carry different yardage, which we unpack in <a href="/blog/wall-to-wall-carpet-cost">what wall-to-wall carpet costs</a>.</p>
+
+<h2>Why a Seam Shows: Light, Pile, and Traffic</h2>
+
+<p><strong>Light angle is the biggest one.</strong> A seam that is invisible under evening lamps can appear at 8 a.m. when low sun rakes across the floor from a picture window. Light traveling <em>along</em> a seam hides it; light crossing it at a low angle throws a shadow off every fiber that sits a hair proud of its neighbor. This is why the worst place for a seam is perpendicular to a big window, and why a seam you never noticed in July can introduce itself in January when the sun drops lower.</p>
+
+<p><strong>Pile direction is the sneaky one.</strong> Carpet pile leans the way it came off the machine, and it reflects light differently with the lean than against it &mdash; the same effect as vacuum tracks. If two pieces meet with their pile leaning different directions, the two sides read as different shades even when the joint itself is perfect, and no amount of seam technique fixes it. Every piece in a room must run the same direction, which costs yardage &mdash; and is exactly the corner a cheap quote cuts.</p>
+
+<p><strong>Traffic finishes the job.</strong> A seam in a walkway gets crushed and abraded faster than the field around it, so it ages on its own schedule and becomes more visible every year. Seams also show more on some products than others: dense low pile with sheen telegraphs everything, while textured cut piles hide joints well &mdash; one more trade-off in the <a href="/blog/berber-vs-plush-carpet">berber versus plush</a> conversation, since looped berber seams are genuinely difficult and patterned styles add match repeats on top.</p>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-card">
+  <h3 style="margin:0 0 10px;font-size:18.5px;font-weight:900;color:#5c0000">What Makes a Seam More or Less Visible</h3>
+  <div style="overflow-x:auto"><table class="ocb-table">
+    <tr><th>Factor</th><th>Hides the seam</th><th>Shows the seam</th></tr>
+    <tr><td><strong>Light</strong></td><td>Seam runs toward the main window, parallel to the light</td><td>Low raking light crossing the seam at 90&deg;</td></tr>
+    <tr><td><strong>Pile direction</strong></td><td>All pieces leaning the same way</td><td>Pieces reversed &mdash; two shades of the same carpet, permanently</td></tr>
+    <tr><td><strong>Placement</strong></td><td>Under furniture, along walls, out of walkways</td><td>Across a doorway or down the middle of a traffic lane</td></tr>
+    <tr><td><strong>Carpet style</strong></td><td>Textured or twisted cut pile, mid height, some fleck</td><td>Dense low pile, high sheen, tight loops, big pattern repeats</td></tr>
+    <tr><td><strong>Pad &amp; stretch</strong></td><td>Firm pad, power-stretched drum-tight</td><td>Soft thick pad flexing the joint; loose carpet peaking at the seam</td></tr>
+    <tr><td><strong>Age</strong></td><td>Seams relax and blend over the first weeks</td><td>Traffic wear concentrating on a badly placed joint for years</td></tr>
+  </table></div>
+</div></div>
+
+<h2>How a Good Installer Plans a Seam Map</h2>
+
+<p>On a professional job, the seams are decided at the measure, drawn on a diagram, and priced honestly &mdash; before anyone orders carpet. The logic runs in order: point the pile the same direction everywhere; put seams parallel to the dominant light source where possible; keep them out of doorways, pivot points, and the main walking lines; and prefer a longer seam along a quiet wall to a short one across a busy path. Then the map gets checked against the roll: sometimes buying an extra half-yard moves a seam from the worst spot in the room to a place you will never look.</p>
+
+<p>Execution matters as much as the map. Cut edges get seam-sealed so they cannot fray, the joint is bonded on seaming tape with the right heat, and the whole floor is power-stretched afterward &mdash; a drum-tight carpet holds its seams flat, while a loose one lets them peak into little ridges. The pad underneath has a vote too: a firm pad supports the joint, a mushy one flexes it with every step, which is one more reason <a href="/blog/carpet-padding-thickness">pad thickness and grade</a> is a performance decision rather than a comfort upgrade. When you compare installers, ask to see the seam diagram &mdash; the ones who plan it will show you happily, and the checklist in <a href="/blog/hiring-a-carpet-installer-seattle">hiring a carpet installer</a> covers the rest of that conversation.</p>
+
+<h2>Normal Seam vs. Defect: An Honest Line</h2>
+
+<p>Here is the standard we hold our own work to. A <strong>normal seam</strong> on a quality installation: you can find it if you know where to look, it may read as a faint line under low raking light or right after vacuuming, and it is flat underfoot with no gap and no fray. Industry standards say exactly this &mdash; seams are not invisible, they are <em>minimized</em>. If your installer placed it sensibly and the pile runs one direction, a faint line at 8 a.m. in January is the material behaving like a textile, and the polite truth is that nobody who does not clean your carpets will ever find it.</p>
+
+<p>A <strong>defective seam</strong> is different in kind, not degree: a visible gap between the two pieces; edges fraying or sprouting tufts; a hard ridge you can feel through socks (peaking that never relaxes); the two sides reading as different colors because the pile was reversed; or a seam placed straight across a doorway when the diagram had room to avoid it. Those are workmanship problems, they do not improve with time, and a professional installer fixes them without being argued into it.</p>
+
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-2col">
+  <div class="ocb-card" style="margin:0">
+    <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#5c0000">Normal &mdash; even on excellent work</h3>
+    <ul class="ocb-check">
+      <li>A faint line visible under low, raking light at certain hours</li>
+      <li>A seam you can find by touch when you kneel and look for it</li>
+      <li>Slight shading difference right after installation that relaxes in weeks</li>
+      <li>Seams present in any room wider than the roll &mdash; usually 12 feet</li>
+      <li>More visible joints on low, dense, shiny, or looped products</li>
+      <li>A seam placed under furniture or along a quiet wall by design</li>
+    </ul>
+  </div>
+  <div class="ocb-card" style="margin:0">
+    <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#334155">Defect &mdash; call your installer</h3>
+    <ul class="ocb-check ocb-x">
+      <li>A gap you can see daylight through, or edges pulling apart</li>
+      <li>Fraying, sprouting tufts, or backing visible at the joint</li>
+      <li>A hard ridge underfoot that has not relaxed after several weeks</li>
+      <li>Two sides reading as different shades &mdash; pile direction reversed</li>
+      <li>A seam across a doorway or main walkway the plan could have avoided</li>
+      <li>Seams opening after stretching &mdash; or a floor that was never power-stretched</li>
+    </ul>
+  </div>
+</div></div></div>
+
+<h2>Seams in Newcastle Homes</h2>
+
+<p>Newcastle&rsquo;s housing stock is practically a seam-planning workshop: split-levels and two-stories with open great rooms wider than any roll, stairs feeding hallways at pivot points, and big south- and west-facing windows aimed at Lake Washington views &mdash; which means low raking light across the exact floors where seams have to live. When we measure a Newcastle home, the seam map is drawn against those windows and walkways specifically, and we will show you where every joint lands before you sign anything.</p>
+
+<p>The mobile showroom helps here more than people expect: seeing the actual sample in your actual light &mdash; morning and evening, with and against the pile &mdash; tells you more about how a seam will read than any showroom ceiling ever could. We bring 20+ full-size samples and all three pad grades, measure every room and stair, and leave a written price the same visit. The local details are on our <a href="/city-of-new-castle/carpet-installation-in-newcastle-wa">Newcastle carpet installation page</a>.</p>
+
+<div data-rt-embed-type='true'><!-- FAQ accordion + JSON-LD -->
+<div class="faq-wrap ocb" aria-labelledby="faq-title">
+  <h2 id="faq-title" class="faq-title">Carpet Seams: What Homeowners Ask Us</h2>
+  <div class="faq-items" role="list">
+    <details class="faq-item" role="listitem"><summary class="faq-q">Is it normal to see the seam in new carpet?</summary><div class="faq-a">Often, yes — for the first few weeks and under certain light. Seams are joints in a textile, and industry standards call for them to be minimized, not invisible. A faint line under low raking light on a properly placed, sealed, flat seam is normal. A gap, fraying, a hard ridge, or two sides reading as different shades is not.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Why does my carpet seam show more in the morning?</summary><div class="faq-a">Light angle. Low sun raking across the floor throws a shadow off every fiber that sits slightly proud at the joint, so a seam that vanishes under evening lamps can appear at 8 a.m. This is also why good installers run seams parallel to the dominant window instead of across its light.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Why does carpet have seams at all?</summary><div class="faq-a">Because carpet comes on rolls — most commonly 12 feet wide, occasionally 13’6” or 15 feet. Any room wider than the roll, and most hallways and L-shapes, must be pieced. The measure determines where those pieces meet, which is why a proper measure includes a seam diagram, not just square footage.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Can a carpet seam be truly invisible?</summary><div class="faq-a">No, and anyone promising invisible seams is overpromising. A well-made seam in a textured cut pile, placed out of traffic and parallel to the light, is effectively invisible in daily life — you would have to hunt for it. Dense low pile, sheen, loops, and patterns all make the joint easier to find.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">My installer put a seam in the doorway. Is that wrong?</summary><div class="faq-a">Sometimes it is unavoidable — doorways are where pieces naturally meet, and some layouts give no alternative. But a doorway is a pivot point that concentrates wear on the joint, so a good plan avoids it when the geometry allows. Ask to see the seam diagram and the reasoning; a professional will have both.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">What is seam peaking and is it a defect?</summary><div class="faq-a">Peaking is the joint rising into a slight ridge, usually because tension across the seam is high or the carpet was not stretched evenly. A slight peak can relax over the first weeks. A hard ridge you feel underfoot months later is a workmanship issue — typically stretching or seaming technique — and your installer should correct it.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Do seams affect how long the carpet lasts?</summary><div class="faq-a">A well-placed, sealed seam lasts as long as the carpet. A badly placed one ages faster than the field around it because traffic concentrates wear on the joint, and an unsealed edge can fray and delaminate. Placement and edge sealing at install day decide most of it, along with a firm pad and a proper power stretch.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Which carpets hide seams best?</summary><div class="faq-a">Textured and twisted cut piles in mid heights with some color fleck hide joints best. Dense low-pile products with sheen, tight loops like berber, and large pattern repeats show them most — patterned carpet also needs extra yardage for matching. If your room guarantees a prominent seam location, style choice is a real part of the fix.</div></details>
+  </div>
+</div>
+
+<style>
+  .faq-wrap{--line:#e5e7eb;margin:28px auto;padding:20px;border:1px solid var(--line);border-radius:16px;background:#fff;box-shadow:0 8px 30px rgba(2,6,23,.06)}
+  .faq-title{margin:0 0 14px;font-size:24px;font-weight:900;text-align:center;color:#5c0000}
+  .faq-items{display:grid;gap:10px}
+  .faq-item{border:1px solid var(--line);border-radius:14px;background:#f9fafb;overflow:hidden}
+  .faq-q{cursor:pointer;display:block;padding:14px 16px;font-weight:800;color:#0f172a}
+  .faq-q::-webkit-details-marker{display:none}
+  .faq-item[open] .faq-q{background:linear-gradient(180deg, rgba(139,0,0,.08), rgba(139,0,0,.02))}
+  .faq-a{padding:0 16px 14px;color:#1f2937;line-height:1.6}
+</style>
+
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Is it normal to see the seam in new carpet?", "acceptedAnswer": {"@type": "Answer", "text": "Often, yes — for the first few weeks and under certain light. Seams are joints in a textile, and industry standards call for them to be minimized, not invisible. A faint line under low raking light on a properly placed, sealed, flat seam is normal. A gap, fraying, a hard ridge, or two sides reading as different shades is not."}}, {"@type": "Question", "name": "Why does my carpet seam show more in the morning?", "acceptedAnswer": {"@type": "Answer", "text": "Light angle. Low sun raking across the floor throws a shadow off every fiber that sits slightly proud at the joint, so a seam that vanishes under evening lamps can appear at 8 a.m. This is also why good installers run seams parallel to the dominant window instead of across its light."}}, {"@type": "Question", "name": "Why does carpet have seams at all?", "acceptedAnswer": {"@type": "Answer", "text": "Because carpet comes on rolls — most commonly 12 feet wide, occasionally 13’6” or 15 feet. Any room wider than the roll, and most hallways and L-shapes, must be pieced. The measure determines where those pieces meet, which is why a proper measure includes a seam diagram, not just square footage."}}, {"@type": "Question", "name": "Can a carpet seam be truly invisible?", "acceptedAnswer": {"@type": "Answer", "text": "No, and anyone promising invisible seams is overpromising. A well-made seam in a textured cut pile, placed out of traffic and parallel to the light, is effectively invisible in daily life — you would have to hunt for it. Dense low pile, sheen, loops, and patterns all make the joint easier to find."}}, {"@type": "Question", "name": "My installer put a seam in the doorway. Is that wrong?", "acceptedAnswer": {"@type": "Answer", "text": "Sometimes it is unavoidable — doorways are where pieces naturally meet, and some layouts give no alternative. But a doorway is a pivot point that concentrates wear on the joint, so a good plan avoids it when the geometry allows. Ask to see the seam diagram and the reasoning; a professional will have both."}}, {"@type": "Question", "name": "What is seam peaking and is it a defect?", "acceptedAnswer": {"@type": "Answer", "text": "Peaking is the joint rising into a slight ridge, usually because tension across the seam is high or the carpet was not stretched evenly. A slight peak can relax over the first weeks. A hard ridge you feel underfoot months later is a workmanship issue — typically stretching or seaming technique — and your installer should correct it."}}, {"@type": "Question", "name": "Do seams affect how long the carpet lasts?", "acceptedAnswer": {"@type": "Answer", "text": "A well-placed, sealed seam lasts as long as the carpet. A badly placed one ages faster than the field around it because traffic concentrates wear on the joint, and an unsealed edge can fray and delaminate. Placement and edge sealing at install day decide most of it, along with a firm pad and a proper power stretch."}}, {"@type": "Question", "name": "Which carpets hide seams best?", "acceptedAnswer": {"@type": "Answer", "text": "Textured and twisted cut piles in mid heights with some color fleck hide joints best. Dense low-pile products with sheen, tight loops like berber, and large pattern repeats show them most — patterned carpet also needs extra yardage for matching. If your room guarantees a prominent seam location, style choice is a real part of the fix."}}]}
+</script></div>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-cta" style="margin:30px 0">
+  <style>
+    html body .post-body .ocb-cta h2, .ocb-cta h2{color:#fff!important}
+    html body .post-body .ocb-cta .ocb-cta-sub, .ocb-cta .ocb-cta-sub{color:rgba(255,255,255,.88)!important}
+    html body .post-body .ocb-cta .ocb-cta-chips span, .ocb-cta .ocb-cta-chips span{color:rgba(255,255,255,.94)!important}
+    html body .post-body .ocb-cta a.ocb-cta-ghost, .ocb-cta a.ocb-cta-ghost{color:#fff!important;text-decoration:none!important}
+    html body .post-body .ocb-cta a.ocb-cta-gold, .ocb-cta a.ocb-cta-gold{color:#fbbc04!important}
+    html body .post-body .ocb-cta a.ocb-cta-phone, .ocb-cta a.ocb-cta-phone{color:#5c0000!important;text-decoration:none!important}
+  </style>
+  <div style="background:linear-gradient(135deg,#8B0000,#5c0000);border-radius:20px;padding:28px 24px;color:#fff;text-align:center;box-shadow:0 14px 34px rgba(92,0,0,.3)">
+    <h2 style="margin:0 0 6px;color:#fff!important;font-size:24px;font-weight:900">Want to See the Seam Map Before You Buy?</h2>
+    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.92)!important;font-size:16.3px">We measure every room, draw the seams against your light and your walkways, and show you where each joint lands before you commit. Mobile showroom with 20+ samples, all three pad grades, and a written price the same visit. Serving Newcastle and all of King &amp; Snohomish County.</p>
+    <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
+      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff!important;color:#5c0000!important;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none!important"><span class="ocb-ic ocb-ic-phone"></span> (425) 595-1079</a>
+      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.16)!important;border:1px solid rgba(255,255,255,.55);color:#fff!important;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none!important">Book My Free Consultation</a>
+    </div>
+    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.95)!important">
+      <span>✓ Since 2013</span><span>✓ 1,000+ floors</span><span>✓ 1-yr workmanship warranty</span><span>✓ Licensed &amp; insured</span><span>✓ Financing available</span>
+    </div>
+    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04!important;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
+  </div>
+</div></div>
+
+<p><strong>Related reading:</strong> <a href="/blog/how-to-measure-for-carpet">How to measure for carpet</a> · <a href="/blog/wall-to-wall-carpet-cost">What wall-to-wall carpet costs</a> · <a href="/blog/carpet-padding-thickness">Carpet padding thickness and grades</a> · <a href="/blog/berber-vs-plush-carpet">Berber vs plush carpet</a> · <a href="/city-of-new-castle/carpet-installation-in-newcastle-wa">Carpet installation in Newcastle</a> · <a href="/contact">Book a free estimate</a></p>
+
+<div data-rt-embed-type='true'><script>
+(function(){try{
+var els=document.querySelectorAll('.ocb-card,.ocb-fact,.ocb-tri,.faq-item');
+if(!('IntersectionObserver' in window)||!els.length)return;
+document.documentElement.classList.add('ocb-anim-ready');
+els.forEach(function(e,i){e.classList.add('ocb-rv');e.style.transitionDelay=Math.min((i%6)*70,350)+'ms'});
+var io=new IntersectionObserver(function(en){en.forEach(function(x){if(x.isIntersecting){x.target.classList.add('ocb-in');io.unobserve(x.target)}})},{threshold:.12,rootMargin:'0px 0px -8% 0px'});
+els.forEach(function(e){io.observe(e)});
+}catch(e){}})();
+</script></div>

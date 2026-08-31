@@ -1,0 +1,205 @@
+<div data-rt-embed-type='true'><style>
+.ocb{--ink:#0f172a;--muted:#64748b;--line:#e5e7eb;--soft:#f8fafc;--brand:#8B0000;--brand2:#5c0000;--gold:#fbbc04;font-family:'Mulish',Inter,system-ui,sans-serif;color:var(--ink)}
+.ocb *{box-sizing:border-box}
+.ocb-card{border:1px solid var(--line);border-radius:18px;background:#fff;box-shadow:0 10px 30px rgba(2,6,23,.06);padding:22px;margin:26px 0}
+.ocb-eyebrow{display:inline-block;background:rgba(139,0,0,.08);color:var(--brand2);border:1px solid rgba(139,0,0,.2);border-radius:999px;padding:5px 12px;font-size:12.5px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;margin-bottom:10px}
+.ocb-chips{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0 0}
+.ocb-chip{background:var(--soft);border:1px solid var(--line);border-radius:999px;padding:6px 12px;font-size:13.6px;font-weight:700}
+.ocb-table{width:100%;border-collapse:collapse;font-size:15.2px}
+.ocb-table th,.ocb-table td{padding:11px 10px;text-align:left;border-bottom:1px solid var(--line)}
+.ocb-table th{background:var(--soft);font-weight:800;font-size:13.6px;letter-spacing:.02em}
+.ocb-table tr:last-child td{border-bottom:0}
+.ocb-table td strong{color:var(--brand2)}
+.ocb-2col{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media(max-width:680px){.ocb-2col{grid-template-columns:1fr}}
+.ocb-check{list-style:none;padding:0;margin:10px 0 0}
+.ocb-check li{padding-left:26px;position:relative;margin:7px 0;line-height:1.55}
+.ocb-check li:before{content:"✓";position:absolute;left:0;color:var(--brand);font-weight:900}
+.ocb-x li:before{content:"✕";color:#94a3b8}
+html body .post-body .ocb-facts, .ocb-facts{display:grid!important;grid-template-columns:repeat(3,1fr)!important;gap:12px!important;margin:8px 0!important}
+@media(max-width:680px){html body .post-body .ocb-facts, .ocb-facts{grid-template-columns:1fr!important}}
+.ocb-fact{background:linear-gradient(180deg,#fff,#f8fafc);border:1px solid var(--line);border-radius:16px;padding:16px}
+.ocb-fact .n{font-size:24px;font-weight:900;color:var(--brand2);display:block;margin-bottom:4px}
+html body .post-body .ocb-fact p, .ocb-fact p{margin:0!important;font-size:14.7px!important;color:#334155!important;line-height:1.5!important}
+
+.ocb-card,.ocb-fact,.ocb-tri{transition:transform .28s ease,box-shadow .28s ease}
+.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:translateY(-4px);box-shadow:0 16px 40px rgba(2,6,23,.12)}
+.faq-item{transition:border-color .25s,box-shadow .25s}
+.faq-item:hover{border-color:rgba(139,0,0,.35);box-shadow:0 6px 18px rgba(2,6,23,.07)}
+.ocb-chip{display:inline-flex;align-items:center;gap:6px;transition:transform .2s,border-color .2s}
+.ocb-chip:hover{transform:translateY(-2px);border-color:rgba(139,0,0,.35)}
+.ocb-chip svg{color:#8B0000}
+.ocb-cta a{transition:transform .22s,box-shadow .22s}
+.ocb-cta a:hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(0,0,0,.25)}
+.ocb-fact .n{position:relative}
+html.ocb-anim-ready .ocb-rv{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
+html.ocb-anim-ready .ocb-rv.ocb-in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){html.ocb-anim-ready .ocb-rv{opacity:1!important;transform:none!important;transition:none!important}.ocb-card:hover,.ocb-fact:hover,.ocb-tri:hover{transform:none}}
+
+/* Chip icons. Webflow's rich-text sanitizer strips inline <svg> whenever a post is
+   re-saved in the Editor, so the icons are drawn from CSS on a <span> instead. */
+.ocb-ic{display:inline-block;width:15px;height:15px;flex:0 0 auto;vertical-align:-2px;background-repeat:no-repeat;background-position:center;background-size:contain}
+.ocb-ic-pin{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z'/><circle cx='12' cy='10' r='3'/></svg>")}
+.ocb-ic-home{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z'/><polyline points='9 22 9 12 15 12 15 22'/></svg>")}
+.ocb-ic-phone{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B0000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z'/></svg>")}
+.ocb-cta .ocb-ic{filter:brightness(0) saturate(100%) invert(9%) sepia(64%) saturate(4000%) hue-rotate(348deg)}
+</style></div>
+
+<div data-rt-embed-type='true'><div class="ocb" style="margin:22px 0 6px"><span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:7px 16px;font-size:14px;font-weight:800;letter-spacing:.01em;box-shadow:0 4px 12px rgba(22,163,74,.35)">April 6, 2027</span></div></div>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-card" style="background:linear-gradient(180deg,#fff,#f8fafc)">
+  <span class="ocb-eyebrow">Quick answer</span>
+  <p style="margin:0;font-size:17.9px;line-height:1.65"><strong>Most tile never needs sealing. Porcelain and glazed ceramic are effectively sealed at the factory, and epoxy grout is sealed by chemistry &mdash; the only things in your bathroom that genuinely drink a sealer are cement grout and natural stone.</strong> That one sentence saves most homeowners a weekend a year and a cabinet of products. The honest maintenance list is short: a pH-neutral cleaner, no vinegar or acid anywhere near stone, sealer on cement grout every year or two in wet areas, and the knowledge that dingy grout usually needs a deep clean, not another coat of sealer.</p>
+  <div class="ocb-chips">
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-pin"></span> King &amp; Snohomish County</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-home"></span> Cottage Lake &amp; Woodinville area</span>
+    <span class="ocb-chip"><span class="ocb-ic ocb-ic-phone"></span> <a href="tel:+14255951079" style="color:inherit;text-decoration:none">(425) 595-1079</a></span>
+  </div>
+</div></div>
+
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-facts">
+  <div class="ocb-fact"><span class="n">2 materials</span><p>in a tiled room actually absorb sealer: cement grout and natural stone. Porcelain, glazed ceramic, and epoxy grout do not need it &mdash; ever.</p></div>
+  <div class="ocb-fact"><span class="n">1&ndash;2 years</span><p>the honest resealing cadence for cement grout in a working shower. Dry-area floors stretch far longer &mdash; and stone follows the water-drop test, not the calendar.</p></div>
+  <div class="ocb-fact"><span class="n">2 years</span><p>our warranty on tile work. The maintenance that protects it is unglamorous: neutral cleaner, sealed cement grout, and silicone renewed when it fails.</p></div>
+</div></div></div>
+
+<h2>What Actually Needs Sealing</h2>
+
+<p>The sealer aisle is built on a misunderstanding, so let us clear it up. Sealer exists for porous materials &mdash; things with microscopic openings that drink liquid. In a tiled room, exactly two things qualify.</p>
+
+<p><strong>Cement grout.</strong> Ordinary sanded or unsanded grout is a cement product, and cement is porous. Unsealed, it absorbs water, soap, oils, and whatever is in them, which is how grout lines end up stained two shades darker in the shower and along the cooking side of a backsplash. A penetrating sealer soaks into those pores and buys you time to wipe things up before they soak in. It does not make grout waterproof &mdash; nothing makes cement grout waterproof &mdash; it makes it slower to stain.</p>
+
+<p><strong>Natural stone.</strong> Marble, travertine, limestone, slate, and most granite are porous rock, tile shape notwithstanding. They need a penetrating sealer on the tile itself, not just the grout, and they need it on a recurring basis. If you have a stone floor or a marble shower, sealing is genuinely part of ownership &mdash; which is one of the honest costs we put on the table when someone is choosing between stone and porcelain in the first place.</p>
+
+<h2>What Never Needs Sealing</h2>
+
+<p><strong>Porcelain tile</strong> is fired so dense that it absorbs almost nothing &mdash; that near-zero absorption is practically the definition of porcelain, and it is a big part of why we set it in most wet areas (the full comparison is in <a href="/blog/porcelain-vs-ceramic-tile">porcelain vs ceramic</a>). Sealer has nowhere to go; on a polished porcelain surface it can even sit on top as a hazy film you then get to strip. <strong>Glazed ceramic</strong> is the same story for a different reason: the glaze is a fired glass coating, and glass does not absorb. The unglazed edges buried in thinset do not matter.</p>
+
+<p><strong>Epoxy grout</strong> is sealed by chemistry &mdash; it is a resin, not a cement, so there are no pores to fill. It never needs sealer, which is exactly why we push it in heavy-use showers despite the higher install cost; that trade is laid out in <a href="/blog/epoxy-vs-cement-grout">epoxy vs cement grout</a>. If a product or a contractor offers to seal your porcelain tile or your epoxy grout for money, you have learned something useful about the product or the contractor.</p>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-card">
+  <h3 style="margin:0 0 10px;font-size:18.5px;font-weight:900;color:#5c0000">Seal It or Skip It</h3>
+  <div style="overflow-x:auto"><table class="ocb-table">
+    <tr><th>Surface</th><th>Needs sealer?</th><th>The honest cadence</th></tr>
+    <tr><td><strong>Cement grout, shower</strong></td><td>Yes &mdash; penetrating sealer</td><td>Every 1&ndash;2 years; water stops beading and darkens the line when it is due</td></tr>
+    <tr><td><strong>Cement grout, dry floor</strong></td><td>Yes, less urgently</td><td>Every few years; kitchens and entries sooner than bedrooms and halls</td></tr>
+    <tr><td><strong>Epoxy grout</strong></td><td>Never</td><td>It is resin &mdash; there is nothing for sealer to soak into</td></tr>
+    <tr><td><strong>Porcelain tile</strong></td><td>No</td><td>Near-zero absorption from the kiln; sealer just films on the surface</td></tr>
+    <tr><td><strong>Glazed ceramic</strong></td><td>No</td><td>The glaze is fired glass &mdash; already the best sealer there is</td></tr>
+    <tr><td><strong>Natural stone</strong></td><td>Yes &mdash; tile and grout both</td><td>When water stops beading on the stone; showers before dry floors</td></tr>
+    <tr><td><strong>Silicone joints</strong></td><td>No &mdash; replaced, not sealed</td><td>Recaulk changes of plane when the bead cracks or peels</td></tr>
+  </table></div>
+</div></div>
+
+<h2>Cleaner Honesty: What to Use and What to Keep Away</h2>
+
+<p>Daily and weekly maintenance is where most tile damage actually happens, and the villains are usually under the sink already. The rule that matters most: <strong>no vinegar, no lemon, nothing acidic on natural stone, ever.</strong> Acid does not clean marble or travertine &mdash; it dissolves them. The dull spot vinegar leaves on polished marble is not residue; it is an etch, a change to the surface of the rock, and no cleaner takes it back out. Acidic cleaners are also hard on cement grout over time, eating the paste at the surface until the line goes sandy.</p>
+
+<p>What we actually recommend is boring: a <strong>pH-neutral tile cleaner</strong> &mdash; or warm water and a drop of dish soap &mdash; a microfiber mop, and a squeegee in the shower, which does more for grout than any product because it removes the water before minerals and soap settle in. Skip oil and wax &ldquo;shine&rdquo; products that build a film, abrasive powders and steel wool on glazed surfaces, and the habit of letting bleach sit in grout lines &mdash; occasional and diluted is survivable on cement grout, but it is a stain-hider, not a cleaner, and it does stone no favors. On colored grout, harsh chemistry is also how a carefully chosen shade drifts &mdash; picking one that ages gracefully is its own decision, covered in <a href="/blog/choosing-grout-color">choosing a grout color</a>.</p>
+
+<div data-rt-embed-type='true'><div class="ocb"><div class="ocb-2col">
+  <div class="ocb-card" style="margin:0">
+    <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#5c0000">On our own floors</h3>
+    <ul class="ocb-check">
+      <li>pH-neutral cleaner, or warm water with a drop of dish soap</li>
+      <li>Microfiber mop or cloth &mdash; and vacuuming grit before it scratches</li>
+      <li>A shower squeegee &mdash; 30 seconds that outperforms any sealer</li>
+      <li>Enzyme or oxygen cleaners for organic grout stains, rinsed well</li>
+      <li>Penetrating sealer on cement grout and stone, on schedule</li>
+      <li>Fresh silicone at corners the moment the old bead fails</li>
+    </ul>
+  </div>
+  <div class="ocb-card" style="margin:0">
+    <h3 style="margin:0;font-size:18.5px;font-weight:900;color:#334155">Kept away from tile and stone</h3>
+    <ul class="ocb-check ocb-x">
+      <li>Vinegar, lemon, or any acid on natural stone &mdash; it etches on contact</li>
+      <li>Acidic "grout brighteners" used as routine cleaners</li>
+      <li>Oil soaps and wax shines that build a dull, slippery film</li>
+      <li>Abrasive powders and steel wool on glazed surfaces</li>
+      <li>Bleach as a habit &mdash; it whitens stains without removing them</li>
+      <li>Sealer sold for porcelain or epoxy grout &mdash; it has no job to do</li>
+    </ul>
+  </div>
+</div></div></div>
+
+<h2>How Often to Reseal &mdash; and the 10-Second Test</h2>
+
+<p>Forget memorizing a schedule; the material tells you. <strong>Drip water on the grout line or the stone and watch it.</strong> If it beads or sits on the surface, the sealer is working. If it soaks in and darkens the material within a minute or two, it is time. In practice that means cement grout in a daily-use shower wants sealer every year or two, dry-area floors stretch to several years, and stone runs its own schedule depending on how porous it is and how much water it sees. Sealing day is undramatic: clean the grout properly, let it dry fully, apply a penetrating sealer, wipe the excess off the tile faces before it hazes. The cleaning is the hard part &mdash; which brings us to the next section.</p>
+
+<h2>When Dingy Grout Means Cleaning, Not Resealing</h2>
+
+<p>Here is the misdiagnosis we see most: grout has gone grey or blotchy, the homeowner reseals it, nothing improves &mdash; because sealer is prevention, not restoration. <strong>Sealing dirty grout locks the dirt in.</strong> Uniformly darker grout in traffic lanes and shower floors is almost always embedded soil and soap film sitting in the pores, and the fix is a proper deep clean &mdash; an alkaline or oxygen-based grout cleaner, a stiff nylon brush, patience &mdash; followed by sealer once it is clean and dry. Done in that order, ten-year-old grout frequently comes back two shades lighter and stays there.</p>
+
+<p>Being honest about the boundaries: if grout is cracking, crumbling, or coming out in pieces, that is not a cleaning problem or a sealing problem &mdash; that is a regrout, and sometimes evidence of movement underneath that deserves a look. The decision tree for that is in <a href="/blog/regrouting-vs-retiling-a-shower">regrouting vs retiling a shower</a>. And one distinction worth engraving: <strong>sealer is not waterproofing.</strong> A shower stays out of the framing because of the membrane system behind the tile &mdash; the pre-slope, bonded membrane, and the 24-hour flood test we photograph on every pan &mdash; not because of anything applied to the grout. If a shower is leaking, sealer is not the conversation; <a href="/blog/tile-shower-waterproofing">how showers are actually waterproofed</a> is.</p>
+
+<h2>Tile Maintenance in Cottage Lake</h2>
+
+<p>Around Cottage Lake and the Woodinville area, most of what we install is porcelain over proper membranes with, increasingly, epoxy grout in the showers &mdash; which is a polite way of saying we mostly build tile that does not want your weekends. Where homeowners here do the most damage is well-intentioned: vinegar habits brought to a new stone floor, and shower grout that needed a deep clean getting coat after coat of sealer instead. Both are cheap to avoid now that you know.</p>
+
+<p>If your tile is past what maintenance can fix &mdash; cracked lines, crumbling grout, a shower you no longer trust &mdash; we will tell you plainly which it is and what it costs, with labor from $11/sq ft and $14&ndash;$26/sq ft installed on full rebuilds, backed by that 2-year warranty. The local details are on our <a href="/city-of-cottage-lake/tile-installation-in-cottage-lake-wa">Cottage Lake tile installation page</a>.</p>
+
+<div data-rt-embed-type='true'><!-- FAQ accordion + JSON-LD -->
+<div class="faq-wrap ocb" aria-labelledby="faq-title">
+  <h2 id="faq-title" class="faq-title">Sealing and Maintaining Tile: What Homeowners Ask Us</h2>
+  <div class="faq-items" role="list">
+    <details class="faq-item" role="listitem"><summary class="faq-q">Does porcelain tile need to be sealed?</summary><div class="faq-a">No. Porcelain is fired dense enough that it absorbs almost nothing, so penetrating sealer has nowhere to go and surface sealers just build a hazy film you eventually have to strip. The cement grout between porcelain tiles is the part that drinks sealer — seal the lines, skip the tile.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">How often should I seal shower grout?</summary><div class="faq-a">Cement grout in a daily-use shower wants a penetrating sealer every year or two. The water test beats the calendar: drip water on the line — if it beads, you are fine; if it soaks in and darkens the grout within a minute or two, it is time. Epoxy grout never needs sealing at all.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Can I use vinegar to clean tile floors?</summary><div class="faq-a">On glazed ceramic or porcelain, diluted vinegar will not hurt the tile, though it slowly attacks cement grout. On natural stone the answer is an absolute no — vinegar etches marble, travertine, and limestone on contact, leaving permanent dull spots that no cleaner removes. A pH-neutral cleaner does the same job with none of the risk.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">My grout is dark and dingy. Should I reseal it?</summary><div class="faq-a">Clean it first — dingy grout is almost always embedded soil and soap film, and sealer locks in whatever is already there. Deep-clean with an alkaline or oxygen-based grout cleaner and a stiff nylon brush, let it dry completely, and then seal. Resealing dirty grout is the most common tile maintenance mistake we see.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Does sealing grout make my shower waterproof?</summary><div class="faq-a">No — and this one matters. Sealer slows staining; it does not stop water. Grout and tile were never the waterproofing: the membrane system behind them is, which is why every shower we build gets a pre-slope, a bonded membrane, and a photographed 24-hour flood test. If a shower is leaking, no sealer will save it.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">Does natural stone tile really need regular sealing?</summary><div class="faq-a">Yes — the stone itself, not just the grout. Marble, travertine, limestone, slate, and most granite are porous and need a penetrating sealer on a recurring basis, more often in showers than on dry floors. If that maintenance does not appeal, porcelain that looks like stone is the honest alternative, and we will say so at the estimate.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">What is the best everyday cleaner for tile?</summary><div class="faq-a">A pH-neutral tile cleaner or warm water with a drop of dish soap, applied with a microfiber mop — plus a squeegee after every shower, which does more for grout than any bottled product. Avoid oil soaps and wax shines that build film, abrasives that scratch glaze, and acids anywhere near stone or cement grout.</div></details>
+    <details class="faq-item" role="listitem"><summary class="faq-q">When is dingy or damaged grout beyond cleaning and sealing?</summary><div class="faq-a">When it is cracking, crumbling, or coming out in pieces — that is a regrout, not a cleaning job, and cracks that keep returning in the same lines can point to movement underneath that deserves an inspection. Stains that survive a proper deep clean can also justify regrouting for the color reset alone.</div></details>
+  </div>
+</div>
+
+<style>
+  .faq-wrap{--line:#e5e7eb;margin:28px auto;padding:20px;border:1px solid var(--line);border-radius:16px;background:#fff;box-shadow:0 8px 30px rgba(2,6,23,.06)}
+  .faq-title{margin:0 0 14px;font-size:24px;font-weight:900;text-align:center;color:#5c0000}
+  .faq-items{display:grid;gap:10px}
+  .faq-item{border:1px solid var(--line);border-radius:14px;background:#f9fafb;overflow:hidden}
+  .faq-q{cursor:pointer;display:block;padding:14px 16px;font-weight:800;color:#0f172a}
+  .faq-q::-webkit-details-marker{display:none}
+  .faq-item[open] .faq-q{background:linear-gradient(180deg, rgba(139,0,0,.08), rgba(139,0,0,.02))}
+  .faq-a{padding:0 16px 14px;color:#1f2937;line-height:1.6}
+</style>
+
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Does porcelain tile need to be sealed?", "acceptedAnswer": {"@type": "Answer", "text": "No. Porcelain is fired dense enough that it absorbs almost nothing, so penetrating sealer has nowhere to go and surface sealers just build a hazy film you eventually have to strip. The cement grout between porcelain tiles is the part that drinks sealer — seal the lines, skip the tile."}}, {"@type": "Question", "name": "How often should I seal shower grout?", "acceptedAnswer": {"@type": "Answer", "text": "Cement grout in a daily-use shower wants a penetrating sealer every year or two. The water test beats the calendar: drip water on the line — if it beads, you are fine; if it soaks in and darkens the grout within a minute or two, it is time. Epoxy grout never needs sealing at all."}}, {"@type": "Question", "name": "Can I use vinegar to clean tile floors?", "acceptedAnswer": {"@type": "Answer", "text": "On glazed ceramic or porcelain, diluted vinegar will not hurt the tile, though it slowly attacks cement grout. On natural stone the answer is an absolute no — vinegar etches marble, travertine, and limestone on contact, leaving permanent dull spots that no cleaner removes. A pH-neutral cleaner does the same job with none of the risk."}}, {"@type": "Question", "name": "My grout is dark and dingy. Should I reseal it?", "acceptedAnswer": {"@type": "Answer", "text": "Clean it first — dingy grout is almost always embedded soil and soap film, and sealer locks in whatever is already there. Deep-clean with an alkaline or oxygen-based grout cleaner and a stiff nylon brush, let it dry completely, and then seal. Resealing dirty grout is the most common tile maintenance mistake we see."}}, {"@type": "Question", "name": "Does sealing grout make my shower waterproof?", "acceptedAnswer": {"@type": "Answer", "text": "No — and this one matters. Sealer slows staining; it does not stop water. Grout and tile were never the waterproofing: the membrane system behind them is, which is why every shower we build gets a pre-slope, a bonded membrane, and a photographed 24-hour flood test. If a shower is leaking, no sealer will save it."}}, {"@type": "Question", "name": "Does natural stone tile really need regular sealing?", "acceptedAnswer": {"@type": "Answer", "text": "Yes — the stone itself, not just the grout. Marble, travertine, limestone, slate, and most granite are porous and need a penetrating sealer on a recurring basis, more often in showers than on dry floors. If that maintenance does not appeal, porcelain that looks like stone is the honest alternative, and we will say so at the estimate."}}, {"@type": "Question", "name": "What is the best everyday cleaner for tile?", "acceptedAnswer": {"@type": "Answer", "text": "A pH-neutral tile cleaner or warm water with a drop of dish soap, applied with a microfiber mop — plus a squeegee after every shower, which does more for grout than any bottled product. Avoid oil soaps and wax shines that build film, abrasives that scratch glaze, and acids anywhere near stone or cement grout."}}, {"@type": "Question", "name": "When is dingy or damaged grout beyond cleaning and sealing?", "acceptedAnswer": {"@type": "Answer", "text": "When it is cracking, crumbling, or coming out in pieces — that is a regrout, not a cleaning job, and cracks that keep returning in the same lines can point to movement underneath that deserves an inspection. Stains that survive a proper deep clean can also justify regrouting for the color reset alone."}}]}
+</script></div>
+
+<div data-rt-embed-type='true'><div class="ocb ocb-cta" style="margin:30px 0">
+  <style>
+    html body .post-body .ocb-cta h2, .ocb-cta h2{color:#fff!important}
+    html body .post-body .ocb-cta .ocb-cta-sub, .ocb-cta .ocb-cta-sub{color:rgba(255,255,255,.88)!important}
+    html body .post-body .ocb-cta .ocb-cta-chips span, .ocb-cta .ocb-cta-chips span{color:rgba(255,255,255,.94)!important}
+    html body .post-body .ocb-cta a.ocb-cta-ghost, .ocb-cta a.ocb-cta-ghost{color:#fff!important;text-decoration:none!important}
+    html body .post-body .ocb-cta a.ocb-cta-gold, .ocb-cta a.ocb-cta-gold{color:#fbbc04!important}
+    html body .post-body .ocb-cta a.ocb-cta-phone, .ocb-cta a.ocb-cta-phone{color:#5c0000!important;text-decoration:none!important}
+  </style>
+  <div style="background:linear-gradient(135deg,#8B0000,#5c0000);border-radius:20px;padding:28px 24px;color:#fff;text-align:center;box-shadow:0 14px 34px rgba(92,0,0,.3)">
+    <h2 style="margin:0 0 6px;color:#fff!important;font-size:24px;font-weight:900">Want an Honest Read on Your Tile?</h2>
+    <p class="ocb-cta-sub" style="margin:0 0 16px;color:rgba(255,255,255,.92)!important;font-size:16.3px">We will tell you whether your grout needs a clean, a seal, or a regrout &mdash; and whether the tile behind it is worth keeping. Free in-home estimates across King &amp; Snohomish County, with every rebuild backed by our 2-year warranty.</p>
+    <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
+      <a class="ocb-cta-phone" href="tel:+14255951079" style="background:#fff!important;color:#5c0000!important;border-radius:12px;padding:13px 22px;font-weight:900;text-decoration:none!important"><span class="ocb-ic ocb-ic-phone"></span> (425) 595-1079</a>
+      <a class="ocb-cta-ghost" href="/contact" style="background:rgba(255,255,255,.16)!important;border:1px solid rgba(255,255,255,.55);color:#fff!important;border-radius:12px;padding:13px 22px;font-weight:800;text-decoration:none!important">Book My Free Consultation</a>
+    </div>
+    <div class="ocb-cta-chips" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:14.1px;color:rgba(255,255,255,.95)!important">
+      <span>✓ Since 2013</span><span>✓ 1,000+ floors</span><span>✓ 1-yr workmanship warranty</span><span>✓ Licensed &amp; insured</span><span>✓ Financing available</span>
+    </div>
+    <p style="margin:14px 0 0;font-size:14.4px"><a class="ocb-cta-gold" href="https://g.page/r/CR-6MJtUZVexEBM/review" target="_blank" rel="noopener" style="color:#fbbc04!important;text-decoration:underline">★★★★★ See why 120+ neighbors review us on Google</a></p>
+  </div>
+</div></div>
+
+<p><strong>Related reading:</strong> <a href="/blog/tile-shower-waterproofing">How tile showers are waterproofed</a> · <a href="/blog/epoxy-vs-cement-grout">Epoxy vs cement grout</a> · <a href="/blog/regrouting-vs-retiling-a-shower">Regrouting vs retiling a shower</a> · <a href="/blog/choosing-grout-color">Choosing a grout color</a> · <a href="/city-of-cottage-lake/tile-installation-in-cottage-lake-wa">Tile installation in Cottage Lake</a> · <a href="/contact">Book a free estimate</a></p>
+
+<div data-rt-embed-type='true'><script>
+(function(){try{
+var els=document.querySelectorAll('.ocb-card,.ocb-fact,.ocb-tri,.faq-item');
+if(!('IntersectionObserver' in window)||!els.length)return;
+document.documentElement.classList.add('ocb-anim-ready');
+els.forEach(function(e,i){e.classList.add('ocb-rv');e.style.transitionDelay=Math.min((i%6)*70,350)+'ms'});
+var io=new IntersectionObserver(function(en){en.forEach(function(x){if(x.isIntersecting){x.target.classList.add('ocb-in');io.unobserve(x.target)}})},{threshold:.12,rootMargin:'0px 0px -8% 0px'});
+els.forEach(function(e){io.observe(e)});
+}catch(e){}})();
+</script></div>
