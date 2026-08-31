@@ -1,7 +1,15 @@
 # OC Flooring Blog — Editorial Calendar & Standing Rules
 
-Cadence: **3 posts per week — automated Mon/Wed/Fri ~7:00 AM Pacific**
-(Routine `trig_016wNSjucGgwvifoSmFcP3jD`, one post per run).
+Cadence: **5 posts per week — automated Mon–Fri ~7:00 AM Pacific**
+(Routine `trig_01Vufv9d8qercegMJCdceAJT`, bound to the main working session).
+
+> **Routine architecture note (2026-08-31):** the original fresh-session routines
+> (`trig_016wNSjucGgwvifoSmFcP3jD` publish, `trig_01GE3NPZkGv6JdtdrEueGC4z` backfill)
+> ran without Webflow access — fired sessions got no MCP connectors even after
+> attaching the connector in the routines UI — so their runs "succeeded" while
+> writing nothing. Both were deleted and replaced by one routine that fires into
+> the main session (which holds the Webflow MCP) and also does the daily
+> body-sync repair. First scheduled fire: 2026-09-01 14:02 UTC.
 
 **All 100 posts are written.** They exist as **draft** CMS items in the Webflow
 **Blogs** collection (`65f32565e111adbbb806ce92`, site `6377e8e6a53936b48ef1cad0`),
