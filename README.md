@@ -22,3 +22,11 @@ phones. See [`webflow-scripts/bonamobilefix-1.0.0.js`](webflow-scripts/bonamobil
 
 Published live to `nwocflooring.com`, `www.nwocflooring.com`, and the Webflow
 subdomain.
+
+## Changes on branch `claude/navbar-logo-design-ideas-7v0xqa`
+
+### Navbar logo enlarged 20% (2026-08-31)
+
+Applied via the Webflow API to the `image-nav-logo` class (Navbar component):
+`max-height` 4rem → 4.8rem (desktop/base), 3rem → 3.6rem (tiny/mobile breakpoint).
+Change made in the Designer draft; requires a site publish to go live.
