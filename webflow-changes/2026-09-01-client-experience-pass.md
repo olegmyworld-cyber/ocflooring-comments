@@ -218,3 +218,17 @@ Safe by design: the bar lives OUTSIDE `#ocw-gal` (the gallery sets `gal.innerHTM
 would wipe anything inside), sections are CSS grid / flex-scroll with no JS width measurement,
 and cards keep their `data-c`/`data-i` so the lightbox still works.
 Adding a 3rd category later = add one button with data-f="2".
+
+## Revision 26 — Our Work: mobile labels + Tile & Carpet categories
+- Filter labels now responsive: full text on desktop, short on ≤640px
+  (All / Refinishing / Installation / Tile / Carpet) via .lg/.sm spans.
+- New embed `4278760d-4c74-35e6-e1ec-1113578f24a9` (after the gallery embed) adds two sections
+  using `.ocx-*` classes, OUTSIDE #ocw-gal so the original widget is untouched:
+  * Tile Installation — 8 photos from the Tile Gallery page (6a8fb630bf19a48fafa6a9e5)
+  * Carpet Installation — 3 photos from the Carpet Installation page (6a9453aa5038df1a06154847)
+  Includes its own minimal fixed-overlay lightbox (#ocx-lb) so cards zoom like the originals.
+- Filter embed `d5294c65-...` now toggles both `#ocw-gal .ocw-sec` (index 0/1) and
+  `.ocx-sec[data-cat=tile|carpet]`.
+Notes: Tile Installation service page has NO photos of its own; 13 more tile photos are available
+on the Tile Gallery page if we want to expand. Image srcs are the assets' hostedUrl
+(s3.amazonaws.com/webflow-prod-assets/...) since embeds cannot reference asset IDs.
