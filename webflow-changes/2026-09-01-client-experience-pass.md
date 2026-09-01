@@ -72,3 +72,7 @@ More now shows: Our Work, About Us, Stairs, Laminate, Floor Repair, Our Floor Pr
 ## Revision 7 — service links 20% bigger
 - New combo class `is-service-big` on "Nav Link" (font-size: 1.2em) applied to the 6 service links.
 - Their SVG icons enlarged 17px → 20px (width/height attrs).
+
+## Revision 8 — Blog in More; More toggle sized up
+- Added "Blog" TextLink `60a89032-bd52-1dec-203f-e7b9f60b20ad` at bottom of More dropdown → blog page `65f32565e111adbbb806ceaa`.
+- More toggle block `f58347ea...120fe` now uses `Nav Link is-service-big`; its icon bumped to 20px.
