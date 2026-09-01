@@ -151,3 +151,8 @@ carries hand-ported EMBED copies of those sections (.occore core guide, .ocvg gu
 diagram, trust cards), so adding the scripts would duplicate them.
 Audited all 30 vinyl plank city pages (King/Snohomish + Whidbey/Oak Harbor): every one already
 carries the full 6-script reference set incl. oclvpc. No changes needed there.
+
+## Revision 20 — remove "Advantages of Vinyl Plank Flooring"
+Hidden `section_features` block `158c602f-1e01-11dd-9824-eb99752e6765` on page
+65f32565e111adbbb806d0d7 (the 5-card "Advantages of Vinyl Plank Flooring" section).
+Rollback: set that element's visibility back to true.
