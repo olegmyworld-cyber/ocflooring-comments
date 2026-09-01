@@ -57,3 +57,9 @@ Menu fixes, hidden dropdown items, and footer fixes kept as-is.
   carpet 6a9453aa..., tile 6a9453a9..., vinyl d0d7).
 - Moved "Our Work" (`...7212`) and "About Us" (`...7214`, re-shown) to the TOP of the More dropdown,
   restyled to "Nav Link Dropdown".
+
+## Revision 5 — dedupe More dropdown
+Hidden (visibility=false) dropdown items now duplicated by direct navbar links:
+Floor Refinishing `5ceda1a3...2521`, Floor Installation `f58347ea...12101`,
+Vinyl Plank `f58347ea...12103`, Carpet `2bc942db...d7bc`, Tile `8e56386e...033e`.
+More now shows: Our Work, About Us, Stairs, Laminate, Floor Repair, Our Floor Products.
