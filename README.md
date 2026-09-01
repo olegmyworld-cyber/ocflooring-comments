@@ -65,3 +65,13 @@ The two blocks that depend on hosted scripts on the Arlington page (its `#ocarl`
 here, so this page loads no additional hosted script.
 
 Source of record: [`webflow-embeds/vinyl-plank-hub-arlington-port.html`](webflow-embeds/vinyl-plank-hub-arlington-port.html).
+
+**Follow-up (2026-09-01):** removed six old-style sections from the vinyl plank hub page
+at Oleg's request — "Luxury Vinyl Plank – Style & Durability Without the Price Tag"
+(`section_vinyl`), "What Vinyl Plank Flooring Costs in King & Snohomish Counties"
+(`section_price`), "Why Choose Waterproof Vinyl Plank in the PNW?" (`section_features`),
+"Vinyl or Linoleum – What's Best for Your Home?" (`section_benefits`), the "Our Projects"
+gallery (`section_gallery`) and the "We Bring the Showroom to You" CTA
+(`Section // CTA 2` instance, removed from this page only). What remains is the hero, the
+red line, partners, the ported blocks, the 3-step process section, services, why-choose,
+areas and the footer.
