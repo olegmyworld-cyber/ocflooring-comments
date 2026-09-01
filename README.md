@@ -88,3 +88,9 @@ Designer; the filter prop is not writable via the API). The hub's old 3-step pro
 section and an empty stray section were removed, and Bellevue-specific wording in the
 copied sections was rewritten for King & Snohomish counties (schedule subtitle, two
 guide-link labels).
+
+**Follow-up 3 (2026-09-01):** modernized the vinyl hub page hero image — page footer CSS
+stretches the cover image to the full hero height beside the text (the same stretch the
+city vinyl pages get from `ocvinylheroimg`, which is path-guarded and skips this page),
+with `object-fit: cover`, rounded corners and a soft shadow; tablet and phone get scaled
+heights. Source: `webflow-embeds/vinyl-hub-hero-css.html`.

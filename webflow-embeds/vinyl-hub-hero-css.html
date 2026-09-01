@@ -1,0 +1,18 @@
+<!-- OC Flooring - page FOOTER custom code on
+     /flooring-services-near-me/vinyl-plank-flooring-and-laminate-flooring
+     Hero image treatment: stretch the cover image to the full hero height beside the
+     text (same behaviour the city vinyl pages get from the ocvinylheroimg script,
+     which is path-guarded and skips this page), with rounded corners, soft shadow
+     and object-fit cover. Page-level code, so it only affects this page. -->
+<style id="oc-hub-hero">
+@media (min-width:992px){
+  .section_hero .background-wrapper.is-hero{align-items:stretch !important}
+  .section_hero .hero-cover-img{width:100% !important;height:100% !important;min-height:640px !important;max-height:none !important;align-self:stretch !important;object-fit:cover !important;object-position:center !important;border-radius:28px !important;box-shadow:0 30px 70px -30px rgba(11,31,58,.38)}
+}
+@media (min-width:768px) and (max-width:991px){
+  .section_hero .hero-cover-img{width:100% !important;min-height:460px !important;max-height:none !important;object-fit:cover !important;object-position:center !important;border-radius:22px !important}
+}
+@media (max-width:767px){
+  .section_hero .hero-cover-img{width:100% !important;min-height:320px !important;object-fit:cover !important;object-position:center !important;border-radius:18px !important}
+}
+</style>
