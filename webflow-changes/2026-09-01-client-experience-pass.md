@@ -109,3 +109,10 @@ at runtime). Added to the navbar embed:
   30px !important (<=479px).
 - Guard script that strips inline font-size/line-height on those H1s on mobile (MutationObserver
   on style attr), so injected inline styles can't win.
+
+## Revision 15 — universal mobile H1 clamp
+Class-scoped fix didn't take (hero title appears script-rebuilt; red "Hardwood" span indicates
+runtime rewrite, class unknown). Replaced with universal clamp in navbar embed:
+- CSS: all `h1` → 34px !important (≤767px), 30px !important (≤479px).
+- JS: sets inline `font-size`/`line-height` with priority "important" on every h1 at ≤767px,
+  re-asserting via MutationObserver + 60s interval; no-op check prevents observer loops.
