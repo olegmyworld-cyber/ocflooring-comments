@@ -81,3 +81,8 @@ More now shows: Our Work, About Us, Stairs, Laminate, Floor Repair, Our Floor Pr
 - "Blog" renamed "Blogs"; verified link → blog page ceaa.
 - More order now: About Us, Our Work, Blogs, Stairs, Laminate, Our Floor Products.
 - Confirmed no duplicate Blog link anywhere else in navbar.
+
+## Revision 10 — remove top-bar Blogs on homepage
+- Homepage navbar instance (`3932c992-...45d1`) used variant `eb34f5cc-...` which rendered a "Blogs"
+  top-bar link and hid Price/Financing. Switched its Variant prop to `base` — same navbar as all
+  other pages. Rollback: set Variant prop back to `eb34f5cc-d07b-9ebe-86a1-ef47e25b0e94`.
