@@ -100,3 +100,13 @@ component's default floor-sander photo to the family photo (`shutterstock_166054
 asset `69297010e9eef7401e398228`) — the same family image the Arlington vinyl page uses
 in that spot. The other family asset (`shutterstock_1309145173`) already appears in this
 page's before/after benefits section, so it was not reused.
+
+**Follow-up 5 (2026-09-01):** vinyl hub page copy pass — every remaining city-generic
+title and text rewritten in King & Snohomish counties style. Page title → "Vinyl Plank
+Flooring | King & Snohomish Counties"; SEO title → "Vinyl Plank Installation | King &
+Snohomish Counties WA"; meta description tightened with both counties and city examples
+(OG tags inherit). Section rewrites: steps h2 → "How King & Snohomish County Homeowners
+Get Floors They Trust" (now matches the runtime restyle), features h2 → "Advantages of
+Vinyl Plank Flooring for Puget Sound Homes" plus a county-flavored subtitle, schedule
+h2 → "Let's Get Started on Your New Floors — Anywhere in King & Snohomish Counties",
+and the first two process step descriptions now name the counties and cities.
