@@ -101,3 +101,11 @@ More now shows: Our Work, About Us, Stairs, Laminate, Floor Repair, Our Floor Pr
 Hero title styles `heading-hero` and `heading-hero-custom` grew on smaller breakpoints
 (2.85rem tiny vs 2.6rem desktop). Now: medium 2.5rem, small 2.2rem, tiny 2rem (line-height 1.15)
 so mobile matches desktop proportions. Note: OCHeroTitleSize script may also touch this at runtime.
+
+## Revision 14 — force mobile hero H1 size
+Breakpoint style change alone didn't take on the phone (a legacy script appears to set the size
+at runtime). Added to the navbar embed:
+- `#oc-hero-mobile-size` CSS: h1.heading-hero/.heading-hero-custom → 34px !important (<=767px),
+  30px !important (<=479px).
+- Guard script that strips inline font-size/line-height on those H1s on mobile (MutationObserver
+  on style attr), so injected inline styles can't win.
