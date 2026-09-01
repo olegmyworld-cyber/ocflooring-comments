@@ -94,3 +94,9 @@ stretches the cover image to the full hero height beside the text (the same stre
 city vinyl pages get from `ocvinylheroimg`, which is path-guarded and skips this page),
 with `object-fit: cover`, rounded corners and a soft shadow; tablet and phone get scaled
 heights. Source: `webflow-embeds/vinyl-hub-hero-css.html`.
+
+**Follow-up 4 (2026-09-01):** vinyl hub page "Why Choose" section image swapped from the
+component's default floor-sander photo to the family photo (`shutterstock_1660546246`,
+asset `69297010e9eef7401e398228`) — the same family image the Arlington vinyl page uses
+in that spot. The other family asset (`shutterstock_1309145173`) already appears in this
+page's before/after benefits section, so it was not reused.
