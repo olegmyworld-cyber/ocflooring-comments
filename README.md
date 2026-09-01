@@ -75,3 +75,16 @@ gallery (`section_gallery`) and the "We Bring the Showroom to You" CTA
 (`Section // CTA 2` instance, removed from this page only). What remains is the hero, the
 red line, partners, the ported blocks, the 3-step process section, services, why-choose,
 areas and the footer.
+
+**Follow-up 2 (2026-09-01):** true copy of the Bellevue vinyl page's native sections onto
+the vinyl hub page, done via temporary components: each Bellevue section
+(`section_benefits` before/after slider, `section_schedule`, `section_steps`,
+`section_features`, the `padding-global` block and the `ocgd` guides section) was
+transformed into a temp component, instantiated on the hub page in Bellevue's order,
+then unlinked to plain elements on BOTH pages and the temp components deleted — the
+Bellevue page is unchanged in effect. A fresh `Section // Galllery` component instance
+was also added (its Floor Type filter still needs the one-click "Vinyl" override in the
+Designer; the filter prop is not writable via the API). The hub's old 3-step process
+section and an empty stray section were removed, and Bellevue-specific wording in the
+copied sections was rewritten for King & Snohomish counties (schedule subtitle, two
+guide-link labels).
