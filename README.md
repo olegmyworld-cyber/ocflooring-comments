@@ -133,3 +133,17 @@ for the why-call-us story, and a trust chip row (licensed, Bellevue shop, writte
 pricing, warranty + reviews). All copy is condensed from the original text; styles
 reuse the page's existing ocrp/ocwr/ocbp classes.
 Source: [`webflow-embeds/flooring-repair-modern-sections.html`](webflow-embeds/flooring-repair-modern-sections.html).
+
+### All 30 city floor-repair pages — neighborhoods section restyled (2026-09-01)
+
+The city `hardwood-floor-repair` pages are already card-heavy; their one wall of text is
+the city history/neighborhoods section (`section[aria-labelledby="ocrp-loc"]`, three
+long city-specific paragraphs inside `.ocrp-prose`). New PAGE-level registered inline
+script `ocRepairLocCards` (`ocrepairloccards`, applied to all 30 repair pages) restyles
+it generically at runtime, whatever the city: each paragraph becomes a white card with a
+red icon tile (home / layers / map pin / droplet, cycling), stacked with soft shadows on
+the section's cream background — same card language as the rest of those pages and the
+county hub's hand-built redesign. Text untouched; presentation only. The county hub
+(`/flooring-services-near-me/flooring-repair`) is excluded by the path guard since its
+sections were rebuilt by hand.
+Source: [`webflow-scripts/ocrepairloccards-1.0.0.js`](webflow-scripts/ocrepairloccards-1.0.0.js) (deployed copy minified to fit the 2000-char inline limit).
