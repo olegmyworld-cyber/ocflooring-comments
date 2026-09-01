@@ -43,3 +43,25 @@ hides it at runtime anyway via `OCRemoveHomeMap`. Mobile keeps the same horizont
 card slider the home page has (`#ocf-trust .rev-grid` under 767px).
 
 Source of record: [`webflow-embeds/floor-refinishing-ocf-trust-reviews.html`](webflow-embeds/floor-refinishing-ocf-trust-reviews.html).
+
+### Vinyl plank hub page rebuilt in the Arlington page's style (2026-09-01)
+
+**Page:** `/flooring-services-near-me/vinyl-plank-flooring-and-laminate-flooring`
+(page id `65f32565e111adbbb806d0d7`), previously the old-style layout.
+
+**Change:** ported the distinctive blocks from the "Vinyl Plank Flooring Arlington, WA"
+page (`65fc655de6d6ce262918416e`) onto the hub page, with every Arlington-specific line
+rewritten for King & Snohomish counties — the interactive vinyl-core guide, the
+project-manager process restyle, the "what homeowners want to know first"
+warranty/timeline/reviews block, the interactive LVP layer explorer, the service-area
+block and the vinyl plank guide & FAQ. The hero now uses the Arlington hero variant,
+background image and button label, and the old Trustindex `Section // Reviews` instance
+was removed from this page only (reviews now come from the ported block, as on Arlington).
+
+Deployed as six HTML Embed elements placed directly in the page tree rather than page
+custom code — Webflow rejects page custom code above roughly 10k characters (HTTP 406).
+The two blocks that depend on hosted scripts on the Arlington page (its `#ocarl` CSS from
+`ocvinyladv`, its core-guide interactivity from `ocVinylCore`) were made self-contained
+here, so this page loads no additional hosted script.
+
+Source of record: [`webflow-embeds/vinyl-plank-hub-arlington-port.html`](webflow-embeds/vinyl-plank-hub-arlington-port.html).
