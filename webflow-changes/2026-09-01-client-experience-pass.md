@@ -96,3 +96,8 @@ More now shows: Our Work, About Us, Stairs, Laminate, Floor Repair, Our Floor Pr
 
 ## Revision 12 — phone spacing
 - `.nav-phone` style: added margin-left: 28px to separate the phone number from the More dropdown.
+
+## Revision 13 — mobile hero H1 sizing
+Hero title styles `heading-hero` and `heading-hero-custom` grew on smaller breakpoints
+(2.85rem tiny vs 2.6rem desktop). Now: medium 2.5rem, small 2.2rem, tiny 2rem (line-height 1.15)
+so mobile matches desktop proportions. Note: OCHeroTitleSize script may also touch this at runtime.
