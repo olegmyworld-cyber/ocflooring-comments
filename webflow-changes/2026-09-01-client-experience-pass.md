@@ -171,3 +171,13 @@ Our Gallery section whose caption does not match /vinyl|lvp|waterproof plank/i.
 PERMANENT FIX (2 clicks in Designer): select the Gallery instance on this page, set Floor Type
 filter to "Vinyl Plank Flooring Installation", then delete that embed.
 Caveat: new vinyl gallery items must have "vinyl" or "LVP" in the caption to survive the filter.
+
+## Revision 22 — REVERTED the client-side gallery filter (it broke the carousel)
+Hiding `.w-dyn-item` slides with display:none corrupted the gallery carousel's measurements
+(site scripts GalleryArrowsMultiFix / ocareasslider size and position the track), so slides
+overflowed and overlapped the section below. Deleted embed
+`bb1f8de6-9828-5d0b-c690-86e3f1cc2e09`. Gallery is back to its original working state
+(showing all flooring types).
+CONCLUSION: the ONLY safe fix is changing the Gallery instance's "Floor Type" filter prop to
+"Vinyl Plank Flooring Installation" in the Webflow Designer — that prop type is not writable
+via the API. Do not retry a client-side slide filter.
