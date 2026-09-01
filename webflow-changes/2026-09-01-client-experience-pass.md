@@ -126,3 +126,11 @@ Clamp raised: ≤479px → 38px, 480–767px → 40px (line-height 1.15). Breakp
 216/223 pages contain the shared Navbar component (carries menu, H1 clamp, Blogs guard).
 Missing (utility/template pages only): detail_blog-category, detail_gallery, detail_vinyl-gallery,
 detail_sku, detail_category, 401, 404. Blog post template (detail_blog) IS covered.
+
+## Revision 17 — duplicate FAQ on vinyl plank page
+Page `65f32565e111adbbb806d0d7` had TWO full FAQ embeds, each with its own FAQPage JSON-LD:
+- KEPT `bfe41d78-57a1-ad41-abe4-dbb250242335` (.ocvg, "Vinyl Plank Flooring Guide & FAQ", 8 Qs).
+- HIDDEN `a4f7efe7-cc7e-2d6d-598e-474c05acff1d` (.faq-section, 8 Qs; also duplicated the city
+  list already rendered by embed `0df921ef`). Rollback: set its visibility back to true.
+Note: the two FAQs gave conflicting pricing (kept one: ~$2.50/sq ft labor + $2-7 materials;
+removed one said $4-7/sq ft installed) — worth confirming which is current.
