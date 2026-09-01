@@ -110,3 +110,11 @@ Get Floors They Trust" (now matches the runtime restyle), features h2 → "Advan
 Vinyl Plank Flooring for Puget Sound Homes" plus a county-flavored subtitle, schedule
 h2 → "Let's Get Started on Your New Floors — Anywhere in King & Snohomish Counties",
 and the first two process step descriptions now name the counties and cities.
+
+**Follow-up 6 (2026-09-01):** the copied before/after section on the vinyl hub page turned
+out to carry its copy inside an HTML embed (`.ocvb2`), which text-element scans don't see
+— so it was still fully Bellevue-worded. Rewrote the embed for King & Snohomish counties
+(eyebrow, h2 "Why King & Snohomish County Homeowners Choose Vinyl Plank…", intro,
+bullets, slider caption, image alts, CTA now "Get My Free Vinyl Plank Estimate"),
+keeping the slider markup, CSS and JS byte-identical. Swept every other copied section
+for hidden embeds — none found.
