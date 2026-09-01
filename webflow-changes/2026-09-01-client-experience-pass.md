@@ -50,3 +50,10 @@ Menu fixes, hidden dropdown items, and footer fixes kept as-is.
   Vinyl `be644278-0695-910b-fc19-bf386fd7750e` — each linked to its main service page.
 - Dropdown toggle renamed "Flooring Services" → "More" (still holds all services incl. stairs/laminate/repair/products).
 - "About Us" NavbarLink `6f76eb68-...7214` hidden to free space (rollback: visibility=true).
+
+## Revision 4 — navbar icons, link fix, dropdown reorg
+- Added SVG icons (matching existing 17px stroke style) to the 5 direct links.
+- Fixed 5 direct links: builder had left them as "#": now page links (refinishing cf36, install cf50,
+  carpet 6a9453aa..., tile 6a9453a9..., vinyl d0d7).
+- Moved "Our Work" (`...7212`) and "About Us" (`...7214`, re-shown) to the TOP of the More dropdown,
+  restyled to "Nav Link Dropdown".
