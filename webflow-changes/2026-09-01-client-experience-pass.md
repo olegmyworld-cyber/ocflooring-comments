@@ -86,3 +86,10 @@ More now shows: Our Work, About Us, Stairs, Laminate, Floor Repair, Our Floor Pr
 - Homepage navbar instance (`3932c992-...45d1`) used variant `eb34f5cc-...` which rendered a "Blogs"
   top-bar link and hid Price/Financing. Switched its Variant prop to `base` — same navbar as all
   other pages. Rollback: set Variant prop back to `eb34f5cc-d07b-9ebe-86a1-ef47e25b0e94`.
+
+## Revision 11 — kill injected top-bar Blogs link
+- The top-bar "Blogs" link is injected at runtime by one of the site's 15 footer/header scripts
+  (source unreachable from this env; likely OCHeaderInit or siteCleanupD).
+- Added a guard script inside the navbar component embed (`c6e17660-...7931`): hides any anchor
+  with text "Blog"/"Blogs" in the nav that is NOT inside a .w-dropdown-list. The Blogs link inside
+  the More dropdown is unaffected.
