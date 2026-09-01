@@ -93,3 +93,6 @@ More now shows: Our Work, About Us, Stairs, Laminate, Floor Repair, Our Floor Pr
 - Added a guard script inside the navbar component embed (`c6e17660-...7931`): hides any anchor
   with text "Blog"/"Blogs" in the nav that is NOT inside a .w-dropdown-list. The Blogs link inside
   the More dropdown is unaffected.
+
+## Revision 12 — phone spacing
+- `.nav-phone` style: added margin-left: 28px to separate the phone number from the More dropdown.
