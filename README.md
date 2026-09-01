@@ -147,3 +147,27 @@ county hub's hand-built redesign. Text untouched; presentation only. The county 
 (`/flooring-services-near-me/flooring-repair`) is excluded by the path guard since its
 sections were rebuilt by hand.
 Source: [`webflow-scripts/ocrepairloccards-1.0.0.js`](webflow-scripts/ocrepairloccards-1.0.0.js) (deployed copy minified to fit the 2000-char inline limit).
+
+### Carpet hub page rebuilt from the Bellevue carpet page (2026-09-01)
+
+**Page:** `/flooring-services-near-me/carpet-installation` (page id `6a9453aa5038df1a06154847`).
+
+The old hub was a bare header/footer with all content in page custom code. Replaced with
+a full copy of the Bellevue carpet page (`6a8ccb1ebf28596111eed9f2`) via the
+transform-to-component / insert / unlink-both-sides trick: the entire `ci-page` block
+(hero, hook, trust, cost, booking, how-it-works, services & prices, samples, cost
+calculator, stretching vs. replacement, reviews, FAQ, guides, CTA, Areas and the custom
+ci-footer) came over in one round trip, with the Bellevue page left unchanged in effect
+and the temp component deleted. Added the standard Navbar (the hub had none) with
+Bellevue's variant/labels, applied the five scripts that power the layout
+(CarpetBellevueFontsCanonical, ocCarpetBellevue, ocCarpetPatchLoader, ocpqBoost,
+ocSvcGuides — the canonical injection only fires on city paths, so the hub is
+unaffected), and removed the old header block and duplicate site Footer.
+
+Then ~35 text rewrites for King & Snohomish counties (H1, ledes, cost section, steps,
+services, samples, calculator label, stretching, reviews heading, all six FAQs, guides,
+CTA, breadcrumb, eyebrows, footer line) — the real reviewer attribution ("Richard L. ·
+Bellevue") and the Bellevue shop address were deliberately kept. Page title, SEO title
+and meta description set for the counties. The old hub's one keeper — the city-links
+directory to every carpet city page — was preserved as an embed just above the footer.
+API note: page custom code writes 406 above ~2k chars, hence the embed.
