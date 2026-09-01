@@ -134,3 +134,10 @@ Page `65f32565e111adbbb806d0d7` had TWO full FAQ embeds, each with its own FAQPa
   list already rendered by embed `0df921ef`). Rollback: set its visibility back to true.
 Note: the two FAQs gave conflicting pricing (kept one: ~$2.50/sq ft labor + $2-7 materials;
 removed one said $4-7/sq ft installed) — worth confirming which is current.
+
+## Revision 18 — vinyl page hero image matched to Bellevue
+The Bellevue vinyl page (65fa23dd7a54eca64ae7a9de) sets its hero image at runtime via the
+page-level script `ocvinylheroimg` (its Hero Cover Image prop is just the component default).
+Applied the same script to the general vinyl page 65f32565e111adbbb806d0d7 (footer, v1.0.0).
+Hero Cover Image prop left as-is (65f32565e111adbbb806cf98) so the page still shows a vinyl
+photo if the script is path-gated. Rollback: remove_page_script ocvinylheroimg from that page.
