@@ -21,5 +21,11 @@
   "published_on": "2026-08-31",
   "inbound_links_added": true,
   "note": "routine fire 14:05 UTC no-oped (no Webflow access in fired session); published manually from main session same day"
+ },
+ {
+  "slug": "bathroom-tile-installation-cost-seattle",
+  "published_on": "2026-09-01",
+  "inbound_links_added": true,
+  "note": "first automated publish by main-session routine"
  }
 ]
