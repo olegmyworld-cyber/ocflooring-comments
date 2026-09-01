@@ -63,3 +63,8 @@ Hidden (visibility=false) dropdown items now duplicated by direct navbar links:
 Floor Refinishing `5ceda1a3...2521`, Floor Installation `f58347ea...12101`,
 Vinyl Plank `f58347ea...12103`, Carpet `2bc942db...d7bc`, Tile `8e56386e...033e`.
 More now shows: Our Work, About Us, Stairs, Laminate, Floor Repair, Our Floor Products.
+
+## Revision 6 — Repair on navbar
+- Added "Repair" TextLink `3ad5cada-4cbf-7dfd-8c2a-c5563f43efaa` (wrench icon, icon moved before text)
+  after Vinyl, linked to flooring-repair page `65f32565e111adbbb806cf4f`.
+- Hidden the now-duplicate "Floor Repair" dropdown item `f58347ea...12105`.
