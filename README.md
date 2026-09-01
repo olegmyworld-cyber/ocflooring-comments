@@ -118,3 +118,18 @@ out to carry its copy inside an HTML embed (`.ocvb2`), which text-element scans 
 bullets, slider caption, image alts, CTA now "Get My Free Vinyl Plank Estimate"),
 keeping the slider markup, CSS and JS byte-identical. Swept every other copied section
 for hidden embeds — none found.
+
+### Flooring Repair page — two prose sections restyled (2026-09-01)
+
+**Page:** `/flooring-services-near-me/flooring-repair` (page id `65f32565e111adbbb806cf4f`).
+
+"Floor Repair Across King & Snohomish County" and "Why Homeowners Call Us Before They
+Replace a Floor" were solid walls of paragraphs. A new HTML Embed hides the originals
+(by their `aria-labelledby` ids inside the page's main `ocrp` embed) and inserts
+redesigned versions in the same slot: two county cards with pin icons and city chips, a
+dashed "Bothell sits on the line" callout, two icon insight cards (seasonal movement /
+material decides the fix), a navy CTA strip with a tap-to-call button, three icon cards
+for the why-call-us story, and a trust chip row (licensed, Bellevue shop, written
+pricing, warranty + reviews). All copy is condensed from the original text; styles
+reuse the page's existing ocrp/ocwr/ocbp classes.
+Source: [`webflow-embeds/flooring-repair-modern-sections.html`](webflow-embeds/flooring-repair-modern-sections.html).

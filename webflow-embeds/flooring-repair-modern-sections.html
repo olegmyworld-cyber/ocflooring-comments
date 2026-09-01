@@ -1,0 +1,65 @@
+<!-- OC Flooring - HTML Embed on /flooring-services-near-me/flooring-repair.
+     Restyles two prose-heavy sections ("Floor Repair Across King & Snohomish County"
+     and "Why Homeowners Call Us Before They Replace a Floor") into card/icon layouts.
+     The originals live mid-way inside the big ocrp embed on this page; rather than
+     rewrite that embed, this one hides them by their aria-labelledby ids and inserts
+     the redesigned sections in the same slot (just before the FAQ section) at runtime.
+     Reuses the page's existing ocrp/ocwr/ocbp styles; adds only the ocloc2/ocwt bits. -->
+<style id="ocrp2-css">
+section.ocrp[aria-labelledby="ocrp-loc"],section.ocrp[aria-labelledby="ocrp-why"]{display:none!important}
+.ocloc2-lead{color:#4a5666;font-size:clamp(15.5px,1.6vw,17.5px);line-height:1.65;margin:0 0 26px;max-width:70ch}
+.ocloc2-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin:0 0 18px}
+.ocloc2-card{background:#fff;border:1px solid #e7e0d6;border-radius:20px;padding:26px 26px 22px;box-shadow:0 10px 30px -20px rgba(12,31,63,.35)}
+.ocloc2-head{display:flex;align-items:center;gap:14px;margin-bottom:16px}
+.ocloc2-head h3{margin:0;font-size:1.25rem}
+.ocloc2-ico{width:46px;height:46px;flex:none;border-radius:14px;background:rgba(190,30,45,.09);color:#be1e2d;display:grid;place-items:center}
+.ocloc2-ico svg{width:24px;height:24px}
+.ocloc2-chips{display:flex;flex-wrap:wrap;gap:8px}
+.ocloc2-chips span{background:#f6f2ec;border:1px solid #e7e0d6;border-radius:999px;padding:6px 13px;font-size:13.5px;font-weight:600;color:#3a4654}
+.ocloc2-note{display:flex;align-items:center;gap:12px;background:#fff;border:1px dashed #d8cfc0;border-radius:14px;padding:13px 18px;color:#4a5666;font-size:14.5px;margin:0 0 30px}
+.ocloc2-note svg{width:18px;height:18px;color:#be1e2d;flex:none}
+.ocloc2-note b{color:#0b1f3a}
+.ocwr-grid.is-two{grid-template-columns:1fr 1fr}
+.occta-strip{display:flex;align-items:center;justify-content:space-between;gap:22px;flex-wrap:wrap;background:#0b1f3a;border-radius:20px;padding:26px 30px;margin-top:30px}
+.occta-strip p{color:#c3cfe0;margin:0;font-size:.98rem;line-height:1.6;flex:1 1 420px}
+.occta-strip p b{color:#fff}
+.occta-strip .ocbp-btn{margin:0;white-space:nowrap}
+.ocwt-strip{display:flex;flex-wrap:wrap;gap:10px;margin-top:28px}
+.ocwt-chip{display:inline-flex;align-items:center;gap:8px;background:#fff;border:1px solid #e7e0d6;border-radius:999px;padding:10px 16px;font-size:13.5px;font-weight:700;color:#0b1f3a}
+.ocwt-chip svg{width:16px;height:16px;color:#be1e2d;flex:none}
+@media(max-width:860px){.ocloc2-grid,.ocwr-grid.is-two{grid-template-columns:1fr}.occta-strip{padding:22px 20px}}
+</style>
+
+<section class="ocrp is-alt" id="ocloc2-sec" aria-labelledby="ocrp-loc2"><div class="ocrp-wrap">
+<h2 id="ocrp-loc2">Floor Repair Across King &amp; Snohomish County</h2>
+<p class="ocloc2-lead">One shop in Bellevue, one crew, both counties. Same matching process, same written pricing, same 1-year workmanship warranty wherever you are.</p>
+<div class="ocloc2-grid">
+<div class="ocloc2-card"><div class="ocloc2-head"><span class="ocloc2-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-5.6-7-11a7 7 0 0 1 14 0c0 5.4-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg></span><h3>King County</h3></div><div class="ocloc2-chips"><span>Seattle</span><span>Shoreline</span><span>Medina</span><span>Mercer Island</span><span>Bellevue</span><span>Kirkland</span><span>Redmond</span><span>Sammamish</span><span>Issaquah</span><span>Newcastle</span><span>Renton</span><span>Kenmore</span><span>Woodinville</span><span>Cottage Lake</span><span>Duvall</span><span>Snoqualmie</span><span>North Bend</span></div></div>
+<div class="ocloc2-card"><div class="ocloc2-head"><span class="ocloc2-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-5.6-7-11a7 7 0 0 1 14 0c0 5.4-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg></span><h3>Snohomish County</h3></div><div class="ocloc2-chips"><span>Edmonds</span><span>Lynnwood</span><span>Mill Creek</span><span>Mukilteo</span><span>Everett</span><span>Snohomish</span><span>Monroe</span><span>Lake Stevens</span><span>Marysville</span><span>Arlington</span></div></div>
+</div>
+<p class="ocloc2-note"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v18" stroke-dasharray="3 3"/><path d="M5 7l-2 5 2 5M19 7l2 5-2 5"/></svg><span><b>Bothell sits on the line between the two counties</b> — and we work both halves of it.</span></p>
+<div class="ocwr-grid is-two">
+<div class="ocwr-card"><div class="ocwr-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3s6 6.3 6 10.2a6 6 0 0 1-12 0C6 9.3 12 3 12 3z"/><path d="M9.5 14.5a2.6 2.6 0 0 0 2.5 2"/></svg></div><h3>Floors here move with the seasons</h3><p>A long wet season and a genuinely dry summer swing indoor humidity enough that solid wood expands and contracts on a cycle you can measure. A gap that looks alarming in late August can be half its width by December — which is why we won't pack a gap at its widest. Filler pushed in during the open season gets crushed and spat back out when the boards swell.</p></div>
+<div class="ocwr-card"><div class="ocwr-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l9 5-9 5-9-5 9-5z"/><path d="M3 13l9 5 9-5"/><path d="M3 17l9 5 9-5"/></svg></div><h3>The material decides the fix</h3><p>Older housing in both counties is solid hardwood — vertical-grain Douglas fir in pre-war houses, strip oak in post-war ones — and that sands and blends. The newer Eastside build-out and the subdivisions spreading north are engineered hardwood, laminate and LVP with wear layers thinner than a credit card. Those don't sand: the fix is plank replacement, and the hard part is sourcing a product that may be discontinued.</p></div>
+</div>
+<div class="occta-strip"><p><b>Every city we serve has its own floor repair page</b> covering the housing there and the failures that keep coming up. If yours is on the list, start there — and if it isn't, the same crew and warranty apply anywhere in King or Snohomish County.</p><a class="ocbp-btn" href="tel:+14255951079">Call (425) 595-1079</a></div>
+</div></section>
+
+<section class="ocrp is-alt" id="ocwhy2-sec" aria-labelledby="ocrp-why2"><div class="ocrp-wrap">
+<div class="ocrp-eyebrow">A repair company first — serving King and Snohomish County since 2013</div>
+<h2 id="ocrp-why2">Why Homeowners Call Us Before They Replace a Floor</h2>
+<p class="ocloc2-lead">Most flooring companies treat repair as the small job they squeeze in between installs. We treat it as the work — and that changes what you get.</p>
+<div class="ocwr-grid">
+<div class="ocwr-card"><div class="ocwr-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="4"/><circle cx="12" cy="12" r=".5"/></svg></div><h3>It's a matching problem first</h3><p>Pulling a ruined board and fastening a new one down is the easy half. Getting the species, board width, grain, stain and sheen to agree with a floor that has been quietly ageing for thirty years is the half that decides whether you notice the patch every day — or forget within a week where it used to be.</p></div>
+<div class="ocwr-card"><div class="ocwr-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="4" width="12" height="5" rx="1.5"/><path d="M16 6.5h4v4h-8v3"/><path d="M10.8 16v5"/></svg></div><h3>Repair and refinish, one crew</h3><p>We repair hardwood, laminate and vinyl plank — boards and planks one at a time, gaps that stay open, pet and water damage, lifted thresholds. And because we also refinish floors, we blend the repaired area into the surrounding finish instead of leaving a bright new rectangle in your living room.</p></div>
+<div class="ocwr-card"><div class="ocwr-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l7 3v6c0 4-3 7-7 8-4-1-7-4-7-8V6l7-3z"/><path d="M9 12l2 2 4-4"/></svg></div><h3>Straight answers before work starts</h3><p>Because we refinish too, we'll tell you when a repair is the wrong answer. Sometimes that's the cheaper call, sometimes the more expensive one — either way you get it in writing before anyone starts work.</p></div>
+</div>
+<div class="ocwt-strip">
+<span class="ocwt-chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l7 3v6c0 4-3 7-7 8-4-1-7-4-7-8V6l7-3z"/></svg>Licensed &amp; insured</span>
+<span class="ocwt-chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 11l9-7 9 7"/><path d="M5 10v10h14V10"/></svg>Bellevue shop — 13343 NE Bel Red Rd #210 · since 2013</span>
+<span class="ocwt-chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 3h7l4 4v14H7z"/><path d="M14 3v4h4"/><path d="M10 12h5M10 16h5"/></svg>Written pricing before we begin</span>
+<span class="ocwt-chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l2.6 5.3 5.9.9-4.3 4.1 1 5.8L12 16.9 6.8 19l1-5.8L3.5 9.2l5.9-.9z"/></svg>1-year warranty · 103 five-star reviews</span>
+</div>
+</div></section>
+
+<script>(function(){function mv(){var f=document.querySelector('section[aria-labelledby="ocrp-faq"]');var a=document.getElementById('ocloc2-sec'),b=document.getElementById('ocwhy2-sec');if(!f||!f.parentNode||!a||!b||a.getAttribute('data-pos'))return;f.parentNode.insertBefore(a,f);f.parentNode.insertBefore(b,f);a.setAttribute('data-pos','1');}mv();document.addEventListener('DOMContentLoaded',mv);window.addEventListener('load',mv);setTimeout(mv,400);setTimeout(mv,1200);})();</script>
