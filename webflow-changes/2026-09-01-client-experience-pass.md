@@ -141,3 +141,13 @@ page-level script `ocvinylheroimg` (its Hero Cover Image prop is just the compon
 Applied the same script to the general vinyl page 65f32565e111adbbb806d0d7 (footer, v1.0.0).
 Hero Cover Image prop left as-is (65f32565e111adbbb806cf98) so the page still shows a vinyl
 photo if the script is path-gated. Rollback: remove_page_script ocvinylheroimg from that page.
+
+## Revision 19 — LVP Collections section on the general vinyl page
+"Luxury Vinyl Plank Collections" (mobile-showroom card + collection/shade filters + color carousel)
+is rendered by page script `oclvpc`. Added it (footer, v1.0.0) to the general vinyl page
+65f32565e111adbbb806d0d7.
+Deliberately NOT added there: ocvinylcore, ocvinylguides, ocvinyladv, ocarlpos — that page already
+carries hand-ported EMBED copies of those sections (.occore core guide, .ocvg guide+FAQ, layer
+diagram, trust cards), so adding the scripts would duplicate them.
+Audited all 30 vinyl plank city pages (King/Snohomish + Whidbey/Oak Harbor): every one already
+carries the full 6-script reference set incl. oclvpc. No changes needed there.
