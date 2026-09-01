@@ -30,3 +30,10 @@ now "Hardwood, tile, vinyl plank, carpet and stairs — one trusted local team f
 ## Not changed
 - No visible "Shop" item in navbar (first nav link is About Us) — nothing removed.
 - Sub-service pages (staining, dustless, eco, recoat) remain published; only unlinked from menu.
+
+## Revision (same day, per Oleg)
+Homepage stays refinishing-only:
+- Big 6-card grid replaced with a compact "Looking for a different flooring service?" pill strip
+  (same embed element `96f10d01-83f6-7bb5-d510-07facd3e78ff`), moved down to sit just before the FAQ section.
+- "Our Services" subtitle restored to the refinishing-only original.
+Menu fixes, hidden dropdown items, and footer fixes kept as-is.
