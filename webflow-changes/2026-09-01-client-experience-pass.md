@@ -207,3 +207,14 @@ That file is NOT in the site asset library (checked all 1245 assets — no hoste
 set_image_asset was not possible. Added embed `c492a4b9-4fd4-ed3a-3ab1-9af2f1936a64` after the
 hero section that swaps the hero img src/alt and strips srcset/sizes.
 Permanent fix: upload that image to Assets, set it on the hero image element, delete the embed.
+
+## Revision 25 — Our Work category filter
+Gallery embed `7a1aafb3-...` renders 2 stacked `.ocw-sec` sections inside `#ocw-gal`:
+"Hardwood Floor Refinishing" (14 photos) and "Flooring Installation" (15 photos). No filter existed.
+Added embed `d5294c65-4e15-af77-e868-e96a2a7a04b8` immediately BEFORE the gallery embed:
+pill filter bar (All Work / Hardwood Floor Refinishing / Flooring Installation) that toggles
+`display:none` on whole `.ocw-sec` sections.
+Safe by design: the bar lives OUTSIDE `#ocw-gal` (the gallery sets `gal.innerHTML` once, which
+would wipe anything inside), sections are CSS grid / flex-scroll with no JS width measurement,
+and cards keep their `data-c`/`data-i` so the lightbox still works.
+Adding a 3rd category later = add one button with data-f="2".
