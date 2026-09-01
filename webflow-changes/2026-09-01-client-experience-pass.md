@@ -116,3 +116,8 @@ runtime rewrite, class unknown). Replaced with universal clamp in navbar embed:
 - CSS: all `h1` → 34px !important (≤767px), 30px !important (≤479px).
 - JS: sets inline `font-size`/`line-height` with priority "important" on every h1 at ≤767px,
   re-asserting via MutationObserver + 60s interval; no-op check prevents observer loops.
+
+## Revision 16 — mobile H1 bigger per Oleg
+Clarified direction: Oleg wants a PROMINENT mobile title (desktop feel), 30px was too small.
+Clamp raised: ≤479px → 38px, 480–767px → 40px (line-height 1.15). Breakpoint styles set to
+2.4rem (tiny) / 2.5rem (small) to match.
