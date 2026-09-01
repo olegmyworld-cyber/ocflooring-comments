@@ -121,3 +121,8 @@ runtime rewrite, class unknown). Replaced with universal clamp in navbar embed:
 Clarified direction: Oleg wants a PROMINENT mobile title (desktop feel), 30px was too small.
 Clamp raised: ≤479px → 38px, 480–767px → 40px (line-height 1.15). Breakpoint styles set to
 2.4rem (tiny) / 2.5rem (small) to match.
+
+## Verification — navbar/fix coverage (12-agent scan of all 223 pages)
+216/223 pages contain the shared Navbar component (carries menu, H1 clamp, Blogs guard).
+Missing (utility/template pages only): detail_blog-category, detail_gallery, detail_vinyl-gallery,
+detail_sku, detail_category, 401, 404. Blog post template (detail_blog) IS covered.
