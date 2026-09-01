@@ -68,3 +68,7 @@ More now shows: Our Work, About Us, Stairs, Laminate, Floor Repair, Our Floor Pr
 - Added "Repair" TextLink `3ad5cada-4cbf-7dfd-8c2a-c5563f43efaa` (wrench icon, icon moved before text)
   after Vinyl, linked to flooring-repair page `65f32565e111adbbb806cf4f`.
 - Hidden the now-duplicate "Floor Repair" dropdown item `f58347ea...12105`.
+
+## Revision 7 — service links 20% bigger
+- New combo class `is-service-big` on "Nav Link" (font-size: 1.2em) applied to the 6 service links.
+- Their SVG icons enlarged 17px → 20px (width/height attrs).
