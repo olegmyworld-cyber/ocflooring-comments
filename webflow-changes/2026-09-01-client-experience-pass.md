@@ -42,3 +42,11 @@ Menu fixes, hidden dropdown items, and footer fixes kept as-is.
 - Dropdown toggle text "Services" → "Flooring Services" (String `f58347ea-...120ff`).
 - Dropdown order now: Floor Refinishing, Floor Installation, Tile, Vinyl Plank, Carpet,
   Stairs, Laminate, Floor Repair, Our Floor Products (hidden sub-services unchanged).
+
+## Revision 3 — direct category links on navbar
+- Added 5 TextLinks (style "Nav Link") in nav-menu-inner-wrapper, before the dropdown:
+  Refinishing `531e0fff-f59d-52a1-bf1a-373e47a71450`, Installation `b4aabd7b-a03a-54c6-a634-eff4b1622429`,
+  Carpet `c2c7005f-4c1e-2512-c058-79586176c8ab`, Tile `8bd56900-c5da-1a56-152b-58be1535c394`,
+  Vinyl `be644278-0695-910b-fc19-bf386fd7750e` — each linked to its main service page.
+- Dropdown toggle renamed "Flooring Services" → "More" (still holds all services incl. stairs/laminate/repair/products).
+- "About Us" NavbarLink `6f76eb68-...7214` hidden to free space (rollback: visibility=true).
