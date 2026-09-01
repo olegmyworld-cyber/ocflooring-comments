@@ -37,3 +37,8 @@ Homepage stays refinishing-only:
   (same embed element `96f10d01-83f6-7bb5-d510-07facd3e78ff`), moved down to sit just before the FAQ section.
 - "Our Services" subtitle restored to the refinishing-only original.
 Menu fixes, hidden dropdown items, and footer fixes kept as-is.
+
+## Revision 2 — dropdown reorder + rename
+- Dropdown toggle text "Services" → "Flooring Services" (String `f58347ea-...120ff`).
+- Dropdown order now: Floor Refinishing, Floor Installation, Tile, Vinyl Plank, Carpet,
+  Stairs, Laminate, Floor Repair, Our Floor Products (hidden sub-services unchanged).
