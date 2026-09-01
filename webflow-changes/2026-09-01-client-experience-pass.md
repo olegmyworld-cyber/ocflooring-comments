@@ -196,3 +196,14 @@ Replaced the stock CMS gallery on page 65f32565e111adbbb806d0d7:
 Image URLs are hardcoded from the Galleries collection; new CMS photos will NOT appear here
 automatically. Cleanest long-term fix remains: set the Gallery instance Floor Type filter to
 "Vinyl Plank Flooring Installation" in Designer, delete this embed, unhide the stock gallery.
+
+## Revision 24 — Our Work hero image
+Page /our-work (65f32565e111adbbb806d079). Hero image element
+`d6b1ee80-37ff-5b41-bc06-6d4b6574bd5a` (.hero-cover-img, assetId 6a18afd7f1bbd4795f420612).
+Requested photo: "Red oak dining room — natural matte finish", found in the Our Work gallery
+embed `7a1aafb3-...` (JS DATA array, Hardwood Floor Refinishing category, 3rd photo):
+https://cdn.prod.website-files.com/6377e8e6a539368c54f1cadd/6a1a5278656dbb77c2095be1_Refinished%20red%20oak%20hardwood%20floor%20with%20natural%20matte%20finish%20in%20a%20Bellevue%20living%20room.avif
+That file is NOT in the site asset library (checked all 1245 assets — no hostedUrl match), so
+set_image_asset was not possible. Added embed `c492a4b9-4fd4-ed3a-3ab1-9af2f1936a64` after the
+hero section that swaps the hero img src/alt and strips srcset/sizes.
+Permanent fix: upload that image to Assets, set it on the hero image element, delete the embed.
