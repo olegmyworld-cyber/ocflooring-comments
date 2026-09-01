@@ -181,3 +181,18 @@ overflowed and overlapped the section below. Deleted embed
 CONCLUSION: the ONLY safe fix is changing the Gallery instance's "Floor Type" filter prop to
 "Vinyl Plank Flooring Installation" in the Webflow Designer — that prop type is not writable
 via the API. Do not retry a client-side slide filter.
+
+## Revision 23 — new self-contained vinyl gallery slider
+Replaced the stock CMS gallery on page 65f32565e111adbbb806d0d7:
+- Old `Section // Galllery` instance `ff3c0fe3-...` cannot be hidden via API
+  ("Element does not support setVisibility"), so it is hidden with CSS
+  `.section_gallery{display:none!important}` inside the new embed (page-scoped).
+- New embed `d5923f4d-9623-976b-7cb7-e408b68a0484` inserted before `dd475bb1-...`:
+  heading "Our Gallery", subtitle, red "Check More Here" -> /our-work, and a scroll-snap
+  flex track with the 7 vinyl CMS images + captions, red prev/next buttons.
+- Deliberately NOT a Webflow slider and not touching `.w-dyn-item` — this is what caused the
+  overlap in Revision 21. Arrows are absolutely positioned only inside `.ocvgal-rel`
+  (position:relative), so nothing can overflow into neighbouring sections.
+Image URLs are hardcoded from the Galleries collection; new CMS photos will NOT appear here
+automatically. Cleanest long-term fix remains: set the Gallery instance Floor Type filter to
+"Vinyl Plank Flooring Installation" in Designer, delete this embed, unhide the stock gallery.
