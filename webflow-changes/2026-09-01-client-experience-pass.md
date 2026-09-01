@@ -156,3 +156,18 @@ carries the full 6-script reference set incl. oclvpc. No changes needed there.
 Hidden `section_features` block `158c602f-1e01-11dd-9824-eb99752e6765` on page
 65f32565e111adbbb806d0d7 (the 5-card "Advantages of Vinyl Plank Flooring" section).
 Rollback: set that element's visibility back to true.
+
+## Revision 21 — vinyl page gallery shows vinyl photos only
+The "Our Gallery" section is the shared Gallery component; which photos show is controlled by its
+"Floor Type" CMS filter prop. General vinyl page had `flooring-type isSet` (ALL photos → hardwood
+refinishing shots); Bellevue has `flooring-type equals c0d7e4f67b0ed913a5918154f299fdb4`
+(= "Vinyl Plank Flooring Installation", 7 items in the Galleries collection 6729ca872c3650b83417285e).
+
+Filter-type component props CANNOT be set via the Webflow API (set_component_instance_prop_values
+returns "Collection not found"; confirmed unsupported). Workaround: added HtmlEmbed
+`bb1f8de6-9828-5d0b-c690-86e3f1cc2e09` after `dd475bb1...` that hides any `.w-dyn-item` in the
+Our Gallery section whose caption does not match /vinyl|lvp|waterproof plank/i.
+
+PERMANENT FIX (2 clicks in Designer): select the Gallery instance on this page, set Floor Type
+filter to "Vinyl Plank Flooring Installation", then delete that embed.
+Caveat: new vinyl gallery items must have "vinyl" or "LVP" in the caption to survive the filter.
