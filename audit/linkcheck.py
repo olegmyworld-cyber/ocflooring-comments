@@ -86,6 +86,8 @@ def check(text,target):
     if t=='/': t='/city-of-bellevue/hardwood-floor-refinishing-in-bellevue-wa'  # home page is the Bellevue refinishing landing page
     tc,ts=city_of_text(text),svc_of_text(text)
     pc,ps=city_of_path(t),svc_of_path(t)
+    if ps is None and pc is None: return ('ok',None,'not a city/service page')  # /contact, non-core hubs, misc pages
+    if len(text)>90: return ('ok',None,'long text, not a label')
     if ts and tc:
         exp=expected(tc,ts)
         if exp=='/city-of-bellevue/hardwood-floor-refinishing-in-bellevue-wa': exp='/'
