@@ -1,3 +1,17 @@
+source,target
+/services-near-me/hardwood-floor-staining,/flooring-services-near-me/hardwood-floor-staining
+/services-near-me/laminate-flooring-installation,/flooring-services-near-me/laminate-flooring-installation
+/services-near-me/stair-installation-and-remodeling,/flooring-services-near-me/stair-installation-and-remodeling
+/services-near-me/wood-wall-panels,/flooring-services-near-me/wood-wall-panels
+/services-near-me/solid-hardwood-flooring,/flooring-services-near-me/solid-hardwood-flooring
+/services-near-me/unfinished-hardwood-floors,/flooring-services-near-me/unfinished-hardwood-floors
+/services-near-me/buff-and-recoat-hardwood-floors,/flooring-services-near-me/buff-and-recoat-hardwood-floors
+/services/floor-refinishing,/flooring-services-near-me/floor-refinishing
+/services-near-me/eco-friendly-floor-refinishing,/flooring-services-near-me/eco-friendly-floor-refinishing
+/services-near-me/dustless-floor-sanding,/flooring-services-near-me/dustless-floor-sanding
+/services-near-me/engineered-hardwood-flooring,/flooring-services-near-me/engineered-hardwood-flooring
+/services-near-me/our-products,/flooring-services-near-me/our-products
+/services-near-me/floor-refinishing,/flooring-services-near-me/floor-refinishing
 /services/flooring-repair,/flooring-services-near-me/flooring-repair
 /seattle/vinyl-floor-plank-installation-west-seattle-wa-flooring,/seattle/vinyl-plank-flooring-installation-in-seattle-wa
 /services/seattle-wa-wood-wall-paneling-acoustic-panels,/flooring-services-near-me/wood-wall-panels
@@ -10,7 +24,6 @@
 /city-of-mercer-island/laminate-floor-installation-mercer-island-wa-waterproof-flooring,/city-of-mercer-island/vinyl-plank-flooring-installation-in-mercer-island-wa
 /city-of-renton/vinyl-plank-flooring-installation-in-renton-wa-lvp-floor,/city-of-renton/vinyl-plank-flooring-installation-in-renton-wa
 /city-of-snohomish/laminate-floor-installation-in-snohomish-wa-waterproof-flooring,/city-of-snohomish/vinyl-plank-flooring-installation-in-snohomish-wa
-/services/floor-refinishing,/flooring-services-near-me/floor-refinishing
 /city-of-lynnwood/laminate-floor-installation-in-lynnwood-wa-waterproof-flooring,/city-of-lynnwood/vinyl-plank-flooring-installation-in-lynnwood-wa
 /city-of-renton/hardwood-flooring-services-renton-floor-installation,/city-of-renton/hardwood-floor-installation-in-renton-wa
 /seattle/laminate-floor-installation-in-west-seattle-wa-waterproof-flooring,/seattle/vinyl-plank-flooring-installation-in-seattle-wa

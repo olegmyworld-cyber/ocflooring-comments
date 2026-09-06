@@ -48,7 +48,7 @@
     var m = p.match(/^\/([a-z0-9-]+)\/([a-z0-9-]+)$/);
     if (!m) return p === '/thank-you' ? '/contact' : null;
     var f = m[1], s = m[2];
-    if (f === 'services') {
+    if (f === 'services' || f === 'services-near-me') {
       if (SA[s]) return SVC + SA[s];
       var c = cls(s);
       if (c && !/^(hardwood-floor|floor-refinishing|flooring-repair|tile-installation|carpet-installation|laminate|vinyl|dustless|eco|engineered|solid|unfinished|buff|stair|commercial|insurance|our-products|flooring-store|wood-wall)/.test(s)) {

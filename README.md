@@ -37,7 +37,7 @@ crawl shows no broken internal links, so these come from Google / old backlinks 
 
 **Fix, two layers:**
 
-1. [`redirects/redirects.csv`](redirects/redirects.csv) — 175 exact `old,new` rows
+1. [`redirects/redirects.csv`](redirects/redirects.csv) — the 14 redirects already in Webflow (exported 2026-09-06) plus 173 new exact rows, header `source,target`,
    to import in Webflow: *Site settings → Publishing → 301 redirects → Import*.
    This is the real fix (HTTP 301, passes SEO value). The Webflow API has no
    redirects endpoint, so the import is a one-time manual step.
