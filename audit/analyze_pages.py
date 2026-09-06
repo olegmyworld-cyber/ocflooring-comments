@@ -20,7 +20,12 @@ for pg in entries:
         else:
             continue  # phone/email/file/none
         if mode=='pagesection': continue
-        st,exp,why=check(text,target)
+        if not target or target.strip() in ('#','') or target.startswith('#') or re.search(r'\.(txt|xml|pdf|jpg|jpeg|png|webp|avif|svg|js|css|json)$',target.split('?')[0]): continue
+        if l.get('where')=='prop':
+            # component prop links: the recorded text is the instance heading, not the button label -> liveness only
+            st,exp,why=('dead',None,'target is not a live page') if (target.startswith('/') and not is_live(target)) else ('ok',None,'')
+        else:
+            st,exp,why=check(text,target)
         if st in ('dead','mismatch'):
             issues.append(dict(page=pg['path'],page_id=pg['page_id'],kind=st,text=text,target=target,expected=exp,why=why,mode=mode,**{k:l.get(k) for k in ('where','eid','ecomp','prop_id','prop_name','attr_href')}))
         # stale custom href attribute that disagrees with the real link
