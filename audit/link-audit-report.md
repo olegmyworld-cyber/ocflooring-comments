@@ -57,3 +57,40 @@ correct Seattle tile URL); the only unreadable code on blog pages is the hosted
 - `linkcheck.py` — text → expected path rules and live-page check.
 - `analyze_pages.py` — consumes the extraction JSON (`{pages:[…], components:[…]}`) and reports `dead`, `mismatch`, `dead-pageid`, `attr-mismatch`.
 - `extract_links.py` — helper used by the extraction agents.
+
+## Follow-up 2026-09-07: still lands on hardwood after the fixes
+
+Re-verified after the user reported the Seattle tile link still opening the Seattle
+hardwood installation page:
+
+- The live CMS item carries `/seattle/tile-installation-in-seattle-wa` in both places the
+  text appears (body "Related reading" and the City Links block).
+- The tile page is real tile content (31 headings, `ti-*` styles, title "Tile Installation
+  Seattle, WA | OC Flooring") and is not a draft.
+- Semrush's crawl of 2026-09-03 fetched `/seattle/tile-installation-in-seattle-wa` and got
+  the tile page (200, tile title), so the server does not redirect that URL.
+- No Webflow redirect (all 187 rows exact, none match), no Cloudflare worker on the domain
+  (only `llms-txt`), the 404 script leaves the URL alone, and every readable script on blog
+  pages (ocblogdates, ocbguard, ocseofixes3, siteCleanupD, ocjunkcleanup, ocarealinksinjector,
+  site head/footer code) is link-neutral for this URL. `ocrelatedposts` is hosted with an SRI
+  hash and cannot be read from this environment.
+- The live site and Webflow's CDN are unreachable from this environment (egress blocked), so
+  the rendered page could not be inspected directly.
+
+This is the third time the same symptom was chased (Woodinville carpet, Mukilteo carpet,
+now Seattle tile) with every stored link correct; the prior branch concluded the hop is
+HTTP-level or a browser-cached 301.
+
+**Added:** `webflow-scripts/oclinkclick-1.0.0.min.js`, registered as inline script
+`oclinkclick` 1.0.0 and applied to the blog post template and the home page footers. It
+intercepts the click in the capture phase and navigates to the page matching the link's
+service + city text, so a late href rewrite or a competing click handler cannot redirect the
+visitor. It ignores modified clicks (ctrl/cmd/shift/alt/middle), external hosts, multi-city
+labels and long text. `oclinkmatch-1.1.0.js` is the combined (href rewrite + click guard)
+version for site-wide use once a custom-code slot is available; it is 2,472 chars, over the
+2,000-char inline-script limit, and the site footer code is too close to its 10k limit.
+
+If the symptom survives this, the remaining causes are outside Webflow content: a
+browser-cached 301 (test in an incognito window), a Google Tag Manager tag
+(container GTM-PR94PQZW is loaded on every page and can inject code), or the
+`ocrelatedposts` hosted script.
