@@ -94,3 +94,16 @@ If the symptom survives this, the remaining causes are outside Webflow content: 
 browser-cached 301 (test in an incognito window), a Google Tag Manager tag
 (container GTM-PR94PQZW is loaded on every page and can inject code), or the
 `ocrelatedposts` hosted script.
+
+## Blog queue check (2026-09-07)
+
+All 273 items in the Blogs collection (118 live, 155 scheduled drafts through 2027-04-12) plus
+the 164 queued bodies in the `oc-flooring-blogs-7ihsfc` branch were run through
+[`check_blog_bodies.py`](check_blog_bodies.py): 5,132 CMS links and 3,355 repo links.
+
+- Every service+city link points at the right city page; every internal target is a live page
+  or a scheduled post; no draft links to a post scheduled after itself.
+- Four live posts link to "Refinishing a Mercer Island Waterfront Home", which went live today
+  (2026-09-07 14:10 UTC), so those links resolve.
+- Two scheduled drafts (`high-end-carpet-worth-it`, April 8 2027; `carpet-stairs-fall-safety`,
+  April 1 2027) have an empty body; the publish routine's image gate does not catch that.
