@@ -106,4 +106,7 @@ the 164 queued bodies in the `oc-flooring-blogs-7ihsfc` branch were run through
 - Four live posts link to "Refinishing a Mercer Island Waterfront Home", which went live today
   (2026-09-07 14:10 UTC), so those links resolve.
 - Two scheduled drafts (`high-end-carpet-worth-it`, April 8 2027; `carpet-stairs-fall-safety`,
-  April 1 2027) have an empty body; the publish routine's image gate does not catch that.
+  April 1 2027) had an empty CMS body. Not a content gap: the repo held the full ~30 KB body for
+  each (the CMS copy had never been pushed, see `blogs/plan/body_sync.py` in the blogs branch).
+  Both bodies were pushed to the CMS on 2026-09-07; both items remain drafts on their scheduled
+  dates and were not removed from the queue.
