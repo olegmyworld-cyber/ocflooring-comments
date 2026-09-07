@@ -54,3 +54,24 @@ crawl shows no broken internal links, so these come from Google / old backlinks 
 page (site groups vinyl + laminate); the two Bellevue refinishing URLs go to the
 home page (no Bellevue refinishing city page exists); dead products go to
 `/flooring-services-near-me/our-products`.
+
+### Site-wide link audit — "Tile installation in Seattle" opened the hardwood page (2026-09-07)
+
+**Problem:** A blog link with tile/Seattle text opened the Seattle hardwood installation
+page. Request was to check every link on every page and make each match its service and city.
+
+**Audit:** 223 static pages (3,145 links), 23 shared components (271 links), 66 pages of
+custom head/footer code (1,179 URL references) and the live CMS content, extracted through
+the Webflow Designer API and checked by [`audit/analyze_pages.py`](audit/analyze_pages.py).
+
+**Fixed and published (37 edits):** a stale custom `href` attribute on 29 tile city pages
+that sent "carpet installation in <city>" to Bellevue; canonical/hreflang/og:url/schema on
+four service hubs and one Bellevue page pointing at 404 URLs; two "Lake Forest Park, WA"
+links in the Areas component pointing at Lake Stevens; a Footer CSS rule keyed on a retired
+href. Details in [`audit/link-audit-report.md`](audit/link-audit-report.md) and
+[`audit/fixes.json`](audit/fixes.json).
+
+**Guard:** [`webflow-scripts/oclinkmatch-1.0.0.js`](webflow-scripts/oclinkmatch-1.0.0.js)
+on the blog post template rewrites any service+city anchor to the matching city page at
+runtime, because the reported wrong link exists in no stored content (suspected runtime
+rewrite by the hosted `ocrelatedposts` script).
