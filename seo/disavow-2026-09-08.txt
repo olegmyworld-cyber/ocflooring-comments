@@ -53,3 +53,25 @@ domain:domains.com.bz
 domain:domains.tntcode.com
 domain:domainsc.com
 domain:seodomains.website
+
+# --- Section 3: Semrush Backlink Audit toxic list (score 61-96), 2026-09-08 export. "Where to buy aged domains" scraper network and OBL link farms ---
+domain:alljobs.info
+domain:carplz.com
+domain:findinfo.in
+domain:getonline.co.in
+domain:getwebsiteworth.com
+domain:globalecommerce.org
+domain:goodfeetforabigman.com
+domain:indexaward.com
+domain:indians.cc
+domain:jobsapp.info
+domain:linksnatcher.com
+domain:pagesearch.net
+domain:plant-wide.com
+domain:queries.co.in
+domain:read.org.in
+domain:sergechel.info
+domain:taxies.biz
+domain:wallpapers.pro
+domain:way2check.art
+domain:ycm.info
