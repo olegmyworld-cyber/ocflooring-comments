@@ -112,3 +112,12 @@ Left alone, flagged:
 - Homepage LocalBusiness says open 24/7; the Contact page says Mon–Fri 9am–5pm. Oleg: leave as is (2026-09-08).
 - Homepage carries a self-declared aggregateRating (4.7, 103). Google only honours that when the
   reviews are visible on the page; the reviews section makes that defensible, but it is a judgment call.
+
+## Backlinks: disavow filed 2026-09-07 19:34 PT
+
+`disavow-2026-09-08.txt` (71 domains) uploaded to Search Console for https://www.nwocflooring.com/.
+Two spam families: a "Buy Backlinks / PBN" ad network using the domain as bait (35 domains, since 2026-06-30,
+still growing) and a "Where to buy aged domains" scraper network (32 domains, since 2025-05). Kova confirmed
+they built no links. Directories (superpages, dexknows, yellowpages, prosource.app) deliberately not disavowed.
+Monthly: re-export Semrush backlinks, append new spam domains, re-upload; check GSC Manual Actions.
+Also upload to the non-www property if it is verified.
