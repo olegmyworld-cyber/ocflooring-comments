@@ -28,6 +28,6 @@ subdomain.
 `seo/indexing-review-2026-09-08.md` explains the 312 not-indexed pages in GSC. Most are
 174 historical URLs (renamed `/services/` folder, renamed Arlington folder, old city slugs,
 deleted laminate city pages) that still carry ~25% of the site's impressions and now 404 or
-dead-end. `seo/redirects-webflow-import.csv` is the 301 map to import in Webflow
-(Site settings → Publishing → 301 redirects); `seo/redirects-2026-09-08.csv` is the same
-map with traffic numbers and the reason for each row.
+dead-end. `seo/redirects-2026-09-08.csv` maps each dead URL to its live
+equivalent with traffic numbers. Checked against the 187 redirects already live in Webflow
+(`seo/redirects-existing-2026-09-08.csv`): all 174 were already covered, nothing to import.

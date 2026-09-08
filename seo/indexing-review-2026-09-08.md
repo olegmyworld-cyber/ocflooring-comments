@@ -50,7 +50,7 @@ The live `/flooring-services-near-me/` pages have 105 impressions and 0 clicks i
 ## Files
 
 - `redirects-2026-09-08.csv` — 174 rows: old path, new path, traffic, reason. Review this one.
-- `redirects-webflow-import.csv` — same 174 rows, two columns, for Webflow Site settings → Publishing → 301 redirects → import.
+- `redirects-existing-2026-09-08.csv` — the 187 rules live in Webflow on 2026-09-08 (export). Already covers all 174.
 
 Mapping rules used: `/services/X` → `/flooring-services-near-me/X` (8 renamed slugs mapped by hand);
 `/city-of-arlington/<service>-in-arlington-wa` → `/arlington/<service>`;
@@ -81,7 +81,14 @@ to the product name and its product page. Classes: `oc-product-index`, `oc-produ
 columns by breakpoint), `oc-product-index-link`. The grid's filter buttons only touch `.link-item-product`
 cards, so the index is unaffected by them. Not published; publish together with the merged redirects.
 
-## Redirect import warning
+## Redirects: nothing to import (checked 2026-09-08 against the live list)
 
-Webflow's redirect import REPLACES the whole list. The site already had 187 redirects on 2026-09-08.
-Export those first, merge with `redirects-2026-09-08.csv`, then import the merged file.
+`redirects-existing-2026-09-08.csv` is the export of the 187 rules already live in Webflow. Every one of
+the 174 dead URLs in `redirects-2026-09-08.csv` is already covered: 107 with the same target, 67 with a
+different one (laminate city pages go to each city's vinyl-plank page, not the main laminate page; a few
+old blog slugs go to a specific replacement post). All 187 targets resolve to live pages and none chain.
+The live rules stay as they are. Do NOT import anything; Webflow's import replaces the whole list.
+
+Consequence for GSC: "Page with redirect" (104) is the correct, permanent state for those URLs and will
+never validate as "fixed". The 36 "Not found (404)" URLs are not in search-analytics data (zero
+impressions) and could not be identified from here; the URL-level export of that GSC row is needed.
