@@ -1,0 +1,219 @@
+<title>Аудит сайта OC Flooring</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;800&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+  :root{
+    --paper:#F3F4F6; --sheet:#FFFFFF; --ink:#1B2028; --ink-2:#4A525E; --ink-3:#7A8290;
+    --rule:#D9DCE2; --rule-soft:#E9EBEF;
+    --accent:#A8281C; --accent-ink:#FFFFFF;
+    --ok:#1F7A4D; --ok-bg:#E3F3EA; --warn:#9A6400; --warn-bg:#FBF0D6; --off:#5B6370; --off-bg:#E8EAEE; --crit:#A8281C; --crit-bg:#F8E3E0;
+    --display:"Archivo","Helvetica Neue",Arial,sans-serif;
+    --body:"IBM Plex Sans","Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    --mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --paper:#15181D; --sheet:#1D2127; --ink:#ECEEF1; --ink-2:#B8BEC8; --ink-3:#828A97;
+      --rule:#333944; --rule-soft:#282D36;
+      --accent:#E2574A; --accent-ink:#15181D;
+      --ok:#5CC38A; --ok-bg:#173324; --warn:#E3B04B; --warn-bg:#3A2E10; --off:#A0A7B3; --off-bg:#2A2F38; --crit:#E2574A; --crit-bg:#3E1E1A;
+    }
+  }
+  :root[data-theme="dark"]{
+    --paper:#15181D; --sheet:#1D2127; --ink:#ECEEF1; --ink-2:#B8BEC8; --ink-3:#828A97;
+    --rule:#333944; --rule-soft:#282D36;
+    --accent:#E2574A; --accent-ink:#15181D;
+    --ok:#5CC38A; --ok-bg:#173324; --warn:#E3B04B; --warn-bg:#3A2E10; --off:#A0A7B3; --off-bg:#2A2F38; --crit:#E2574A; --crit-bg:#3E1E1A;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.55;-webkit-font-smoothing:antialiased}
+  .sheet{max-width:880px;margin:0 auto;padding:40px 24px 80px}
+  header{border-bottom:2px solid var(--ink);padding-bottom:20px;margin-bottom:36px}
+  .eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-3);margin:0 0 10px}
+  h1{font-family:var(--display);font-weight:800;font-size:clamp(30px,5vw,44px);line-height:1.05;letter-spacing:-.02em;margin:0 0 14px;text-wrap:balance}
+  .meta{display:flex;flex-wrap:wrap;gap:6px 22px;font-family:var(--mono);font-size:13px;color:var(--ink-2)}
+  .meta span b{color:var(--ink);font-weight:500}
+  h2{font-family:var(--display);font-weight:700;font-size:22px;letter-spacing:-.01em;margin:44px 0 12px;padding-top:18px;border-top:1px solid var(--rule);text-wrap:balance}
+  h3{font-family:var(--body);font-weight:600;font-size:16px;margin:26px 0 8px}
+  p{max-width:68ch;margin:0 0 12px}
+  ul{max-width:68ch;padding-left:20px;margin:0 0 12px}
+  li{margin:0 0 6px}
+  .verdict{background:var(--sheet);border-left:4px solid var(--accent);padding:18px 22px;margin:0 0 8px}
+  .verdict p{margin:0 0 8px}
+  .verdict p:last-child{margin:0}
+  .verdict .k{font-family:var(--display);font-weight:800;font-size:20px;letter-spacing:-.01em;margin-bottom:10px}
+  table{border-collapse:collapse;width:100%;font-size:14.5px;margin:6px 0 10px}
+  .tablewrap{overflow-x:auto;margin:0 0 14px}
+  th{font-family:var(--mono);font-size:11.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-3);text-align:left;font-weight:500;padding:8px 10px;border-bottom:1px solid var(--ink)}
+  td{padding:9px 10px;border-bottom:1px solid var(--rule-soft);vertical-align:top}
+  td.num,th.num{text-align:right;font-family:var(--mono);font-variant-numeric:tabular-nums;white-space:nowrap}
+  td.mono,.mono{font-family:var(--mono);font-size:13.5px}
+  tr.total td{border-top:1px solid var(--ink);border-bottom:none;font-weight:600}
+  .pill{display:inline-block;font-family:var(--mono);font-size:11.5px;letter-spacing:.04em;text-transform:uppercase;padding:3px 8px;border-radius:3px;white-space:nowrap;font-weight:500}
+  .ok{background:var(--ok-bg);color:var(--ok)} .warn{background:var(--warn-bg);color:var(--warn)} .off{background:var(--off-bg);color:var(--off)} .crit{background:var(--crit-bg);color:var(--crit)}
+  .note{font-size:14px;color:var(--ink-2);max-width:68ch}
+  .cal{display:grid;grid-template-columns:120px 1fr;gap:10px 18px;max-width:68ch;margin:10px 0 0}
+  .cal .d{font-family:var(--mono);font-size:13px;color:var(--ink-2);padding-top:2px}
+  .foot{margin-top:56px;padding-top:16px;border-top:1px solid var(--rule);font-family:var(--mono);font-size:12.5px;color:var(--ink-3);max-width:68ch}
+  a{color:var(--accent)}
+  a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+  @media (max-width:600px){ .cal{grid-template-columns:1fr;gap:2px 0} .cal .d{padding-top:8px} }
+</style>
+
+<div class="sheet">
+<header>
+  <p class="eyebrow">Аудит сайта · итоговый</p>
+  <h1>Аудит сайта OC Flooring</h1>
+  <div class="meta">
+    <span>Сайт <b>nwocflooring.com</b></span>
+    <span>Дата <b>8 сентября 2026</b></span>
+    <span>Для <b>Олега Чайковского</b></span>
+    <span>Платформа <b>Webflow</b></span>
+  </div>
+</header>
+
+<div class="verdict">
+  <div class="k">Сайт готов. Узкое место — отзывы, а не код.</div>
+  <p>Сайт стоит первым среди всех местных подрядчиков по своим ключевым запросам, по всему округу Кинг, на десктопе. Все технические проблемы, найденные на этой неделе, исправлены и опубликованы. Звонки от этих позиций отбирают карта Google (map pack) и Yelp: они стоят выше органической выдачи и забирают клик. И то, и другое решается количеством отзывов, а не чем-либо на сайте.</p>
+  <p>Следующая работа, которая окупится: отзыв в Google Business Profile после каждого объекта и пять настоящих городских страниц для тех городов, откуда реально приходят заказы. Всё остальное на этой странице — наблюдение.</p>
+</div>
+
+<h2>Сводная таблица</h2>
+<div class="tablewrap"><table>
+<tr><th>Область</th><th>Состояние</th><th>Что это значит</th></tr>
+<tr><td>Индексация</td><td><span class="pill ok">В порядке</span></td><td>428 страниц в индексе. 312 «не в индексе» — это редиректы, удалённые страницы и новые страницы в очереди. Исправлять нечего.</td></tr>
+<tr><td>Редиректы</td><td><span class="pill ok">Готово</span></td><td>187 правил работают. Все старые URL с трафиком уже перекрыты. Ничего не импортировалось.</td></tr>
+<tr><td>Внутренние ссылки</td><td><span class="pill ok">Исправлено 7 сент.</span></td><td>91 страница товаров без единой ссылки теперь связана через алфавитный указатель на странице Our Products.</td></tr>
+<tr><td>Title и структурированные данные</td><td><span class="pill ok">Исправлено 8 сент.</span></td><td>3 проблемы с title устранены. JSON-LD на 208 из 216 статических страниц; 27 добавлено или исправлено.</td></tr>
+<tr><td>Здоровье сайта (краулер Semrush)</td><td><span class="pill ok">97%</span></td><td>0 ошибок, 0 битых внутренних ссылок. Оставшиеся предупреждения — скрипты Webflow и сторонние виджеты.</td></tr>
+<tr><td>Ссылочный профиль</td><td><span class="pill ok">Disavow подан</span></td><td>71 спам-домен отклонён 7 сентября. Ручных санкций нет. Профиль анкоров естественный.</td></tr>
+<tr><td>Позиции</td><td><span class="pill ok">Лидер</span></td><td>17 из 29 отслеживаемых запросов на 1-й позиции в Bellevue. Топ-3 по округу на запросах с реальным объёмом.</td></tr>
+<tr><td>Клики с этих позиций</td><td><span class="pill warn">Мало</span></td><td>Главная на позициях 1–3 по ключевым запросам даёт 3 клика на 480 показов. Остальное забирает карта.</td></tr>
+<tr><td>Аналитика</td><td><span class="pill warn">Замусорена</span></td><td>Половина сессий GA4 — боты. Ключевые события не заданы, ни одна заявка на сайте не считается.</td></tr>
+<tr><td>Реклама</td><td><span class="pill off">Выключена с 13 авг.</span></td><td>Платного трафика нет. Отслеживание конверсий не срочно, пока реклама не запущена снова.</td></tr>
+</table></div>
+
+<h2>Что сделано 7–8 сентября</h2>
+<div class="tablewrap"><table>
+<tr><th>Изменение</th><th>Где</th><th>Статус</th></tr>
+<tr><td>Указатель товаров: два Collection List, все 191 товар текстовыми ссылками с названием, по алфавиту</td><td>Страница Our Products</td><td><span class="pill ok">Опубликовано</span></td></tr>
+<tr><td>SEO title сокращён до 60 символов</td><td>Hardwood Floor Installation (основная)</td><td><span class="pill ok">Опубликовано</span></td></tr>
+<tr><td>SEO title перестал дублировать H1</td><td>Страницы установки Lake Stevens и Cottage Lake</td><td><span class="pill ok">Опубликовано</span></td></tr>
+<tr><td>Добавлен JSON-LD Service + BreadcrumbList</td><td>15 основных страниц услуг</td><td><span class="pill ok">Опубликовано</span></td></tr>
+<tr><td>Добавлен JSON-LD по типу страницы</td><td>About, Contact, Reviews, Blog, Our Work, Why We're Different, Financing, Our Products, Flooring Store, Floor Care guide</td><td><span class="pill ok">Опубликовано</span></td></tr>
+<tr><td>Устаревшие URL <span class="mono">/services/</span> исправлены внутри существующего JSON-LD</td><td>Floor Repair, Vinyl Plank</td><td><span class="pill ok">Опубликовано</span></td></tr>
+<tr><td>Файл disavow, 71 домен</td><td>Search Console, свойство www</td><td><span class="pill ok">Загружен 7 сент. 19:34</span></td></tr>
+<tr><td>Карта редиректов сверена со 187 действующими правилами</td><td>Репозиторий, <span class="mono">seo/</span></td><td><span class="pill off">Изменений не требуется</span></td></tr>
+</table></div>
+<p class="note">Оставлено как есть по решению владельца: часы работы в схеме главной страницы (24/7) расходятся со страницей Contact (пн–пт 9–17). Около 150 городских страниц несут в «хлебных крошках» устаревший URL, который корректно редиректит; переписывать их — косметика.</p>
+
+<h2>Индексация</h2>
+<p>Search Console знает 740 URL. 428 в индексе. 312 не в индексе распределяются так.</p>
+<div class="tablewrap"><table>
+<tr><th>Причина</th><th class="num">Страниц</th><th>Что это на этом сайте</th><th>Действие</th></tr>
+<tr><td>Страница с редиректом</td><td class="num">104</td><td>Старая папка <span class="mono">/services/</span>, старая папка Arlington, старые слаги городов до июня. Все редиректят корректно.</td><td>Нет. Постоянное состояние.</td></tr>
+<tr><td>Не найдено (404)</td><td class="num">36</td><td>URL с нулём показов, которые ни разу не появились в данных трафика. Отсюда определить нельзя.</td><td>По желанию: выгрузить эту строку из Search Console.</td></tr>
+<tr><td>Просканировано, не в индексе</td><td class="num">91</td><td>Страницы товаров без внутренних ссылок плюс городские страницы, которые Google считает шаблонными.</td><td>Товары исправлены 7 сент. Города: см. «Контент».</td></tr>
+<tr><td>Обнаружено, не в индексе</td><td class="num">63</td><td>56 городских страниц по ковролину и плитке, созданные 28 авг. – 3 сент., ещё в очереди.</td><td>Ждать. Проверить 7 окт.</td></tr>
+<tr><td>Canonical, noindex</td><td class="num">18</td><td>Пагинация блога и служебные страницы.</td><td>Нет.</td></tr>
+</table></div>
+<p class="note">Страницы услуг переехали из <span class="mono">/services/</span> в <span class="mono">/flooring-services-near-me/</span> примерно 21 августа. Google пока ранжирует старые адреса и ещё не заменил их. Две с половиной недели — нормальный срок. Если 7 октября в отчёте Semrush по посадочным страницам всё ещё преобладают старые адреса, редиректы нужно проверять всерьёз.</p>
+
+<h2>Трафик</h2>
+<p>Search Console, последние 90 дней, только живые страницы. Клики — единственная колонка, которая имеет значение.</p>
+<div class="tablewrap"><table>
+<tr><th>Тип страниц</th><th class="num">Живых страниц</th><th class="num">Показы</th><th class="num">Клики</th></tr>
+<tr><td>Главная</td><td class="num">1</td><td class="num">23 521</td><td class="num">289</td></tr>
+<tr><td>Статьи блога</td><td class="num">118</td><td class="num">49 964</td><td class="num">205</td></tr>
+<tr><td>Товары</td><td class="num">191</td><td class="num">5 559</td><td class="num">189</td></tr>
+<tr><td>Города: реставрация паркета</td><td class="num">29</td><td class="num">20 148</td><td class="num">42</td></tr>
+<tr><td>Города: виниловая доска</td><td class="num">30</td><td class="num">22 465</td><td class="num">17</td></tr>
+<tr><td>Города: укладка паркета</td><td class="num">30</td><td class="num">21 133</td><td class="num">16</td></tr>
+<tr><td>Города: ремонт, ковролин, плитка</td><td class="num">91</td><td class="num">3 556</td><td class="num">7</td></tr>
+<tr><td>Страницы услуг (новая папка)</td><td class="num">21</td><td class="num">105</td><td class="num">0</td></tr>
+<tr class="total"><td>Итого</td><td class="num">511</td><td class="num">146 451</td><td class="num">765</td></tr>
+</table></div>
+<p>Товары — третий по величине источник кликов, и до 7 сентября на них не вело ни одной внутренней ссылки. 180 городских страниц вместе дают 82 клика в квартал — меньше одного клика на страницу. Страницы услуг в новой папке почти ничего не показывают, потому что их видимость всё ещё сидит на старых URL.</p>
+<p>Google Analytics требует осторожности: из 2 295 сессий за 30 дней 1 138 — прямые заходы из Сингапура, Германии и Китая с вовлечённостью 4%. Реальный человеческий трафик — около 1 100 в месяц. Любую цифру GA читать только по США.</p>
+
+<h2>Позиции</h2>
+<h3>Bellevue, десктоп, 29 отслеживаемых запросов</h3>
+<p>17 запросов на 1-й позиции, 26 в топ-10. Недельные скачки на 20 позиций по отдельным запросам — шум: у этих запросов один-два поиска в день, и на следующий день в Search Console они снова были на первой позиции.</p>
+<h3>Округ Кинг, десктоп, запросы с объёмом</h3>
+<div class="tablewrap"><table>
+<tr><th>Запрос</th><th class="num">Поисков / мес.</th><th class="num">Позиция</th></tr>
+<tr><td>flooring installation</td><td class="num">260</td><td class="num">3</td></tr>
+<tr><td>hardwood floor refinishing</td><td class="num">170</td><td class="num">2</td></tr>
+<tr><td>wood floor refinishing</td><td class="num">110</td><td class="num">3</td></tr>
+<tr><td>hardwood floor refinishing seattle</td><td class="num">90</td><td class="num">1</td></tr>
+<tr><td>wood floor refinishing near me</td><td class="num">50</td><td class="num">2</td></tr>
+</table></div>
+<h3>Конкуренты по тем же запросам</h3>
+<div class="tablewrap"><table>
+<tr><th>Домен</th><th class="num">Запросов</th><th class="num">Ср. позиция</th></tr>
+<tr><td>nwocflooring.com</td><td class="num">28</td><td class="num">6,3</td></tr>
+<tr><td>yelp.com</td><td class="num">29</td><td class="num">7,6</td></tr>
+<tr><td>thumbtack.com</td><td class="num">27</td><td class="num">16,3</td></tr>
+<tr><td>seattlehardwoodfloorsllc.com</td><td class="num">25</td><td class="num">26,8</td></tr>
+<tr><td>luksconstruction.com</td><td class="num">25</td><td class="num">28,2</td></tr>
+<tr><td>dreamhf.com</td><td class="num">24</td><td class="num">32,4</td></tr>
+<tr><td>evergreen-hardwood.com</td><td class="num">23</td><td class="num">45,3</td></tr>
+</table></div>
+<p>Ближайший подрядчик отстаёт на 20 позиций. Единственный сайт впереди на первой странице — Yelp, чей список «Top 10» ранжируется по всем 29 запросам. Клиент, пролиставший карту, видит вас, затем Yelp. Место в этом списке Yelp — это количество отзывов.</p>
+<p class="note">Все отчёты отслеживания — только десктоп. Домовладелец, который ищет «floor refinishing near me», держит в руке телефон, и там карта занимает весь экран. Перед следующим чтением переключите кампанию Semrush на мобильные.</p>
+
+<h2>Ссылочный профиль</h2>
+<div class="tablewrap"><table>
+<tr><th>Показатель</th><th class="num">Значение</th><th>Прочтение</th></tr>
+<tr><td>Ссылающихся доменов</td><td class="num">192</td><td>В основном каталоги и скраперы. Настоящих редакционных ссылок мало.</td></tr>
+<tr><td>Authority Score (Semrush)</td><td class="num">9</td><td>Норма для местного подрядчика. У конкурентов 5–15.</td></tr>
+<tr><td>Состав анкоров</td><td class="num">50 / 29 / 11</td><td>Естественные / бренд / коммерческие. Профиль натуральный; у купленных ссылок коммерческих анкоров 40%+.</td></tr>
+<tr><td>Спам-доменов отклонено</td><td class="num">71</td><td>Сеть рекламы «Buy Backlinks», использующая домен как приманку с 30 июня, плюс сеть скраперов «aged domains» с мая 2025. Не заказывались ни владельцем, ни Kova.</td></tr>
+<tr><td>Ручные санкции</td><td class="num">0</td><td>Единственный сигнал штрафа, который имеет значение. Проверять ежемесячно.</td></tr>
+</table></div>
+<p>Изменения позиций от disavow не ждите. Эти ссылки и так игнорировались; файл делает это официальным и датированным.</p>
+
+<h2>Контент и география</h2>
+<p>На сайте 180 городских страниц: 30 городов на шесть услуг, по одному шаблону. Страницы рядом с Bellevue ранжируются, дальние — нет. Ранжирует близость и Business Profile, а не страница, и по той же причине Google отказывается индексировать часть набора.</p>
+<p>Счета QuickBooks за последние 12 месяцев, сопоставленные с адресами бронирований Calendly, показывают, откуда реально приходит реставрация. Учтены только 53% выручки, у которых есть адрес бронирования.</p>
+<div class="tablewrap"><table>
+<tr><th>Город</th><th class="num">Объектов</th><th class="num">Выручка</th><th class="num">Реставрация, $</th><th class="num">Доля</th></tr>
+<tr><td>Seattle</td><td class="num">10</td><td class="num">$28 010</td><td class="num">$13 386</td><td class="num">48%</td></tr>
+<tr><td>Everett</td><td class="num">4</td><td class="num">$30 271</td><td class="num">$13 299</td><td class="num">44%</td></tr>
+<tr><td>Kirkland</td><td class="num">3</td><td class="num">$15 579</td><td class="num">$11 467</td><td class="num">74%</td></tr>
+<tr><td>Redmond</td><td class="num">3</td><td class="num">$11 223</td><td class="num">$10 216</td><td class="num">91%</td></tr>
+<tr><td>Issaquah</td><td class="num">2</td><td class="num">$15 248</td><td class="num">$9 936</td><td class="num">65%</td></tr>
+<tr><td>Bellevue</td><td class="num">2</td><td class="num">$5 032</td><td class="num">$2 180</td><td class="num">43%</td></tr>
+</table></div>
+<p>Bellevue — адрес на двери и слово в названии компании — дал два объекта. По факту это реставратор Сиэтла и северного коридора с почтовым адресом в Bellevue. Пять настоящих страниц для Seattle, Everett, Kirkland, Redmond и Issaquah — с фото объектов, именным отзывом местного клиента и улицами, где работали — обойдут 180 шаблонов. Сначала Seattle: его страница уже на 7-й позиции по «dustless floor sanding seattle».</p>
+
+<h2>Что осталось</h2>
+<div class="tablewrap"><table>
+<tr><th>Задача</th><th>Кто</th><th>Когда</th><th>Зачем</th></tr>
+<tr><td>Просить отзыв в Google после каждого завершённого объекта; фото и пост еженедельно</td><td>Олег</td><td>Постоянно</td><td>Карта забирает клики, которые зарабатывают позиции. Карту решают отзывы.</td></tr>
+<tr><td>Сделать страницу реставрации Seattle настоящей: фото объектов, именной отзыв, улицы</td><td>Claude, фото от Олега</td><td>По команде</td><td>Наибольшая выручка по реставрации среди городов, страница уже ранжируется.</td></tr>
+<tr><td>Затем Everett, Kirkland, Redmond, Issaquah</td><td>Те же</td><td>После Seattle</td><td>Остальная пятёрка.</td></tr>
+<tr><td>Четыре письма за ссылками: каталог мастеров Bona, Pallmann, страница дилеров Metropolitan, страница подрядчиков Pure Real Estate</td><td>Олег</td><td>В этом месяце</td><td>Настоящие ссылки с доверенных сайтов. Ничто другое авторитет не двигает.</td></tr>
+<tr><td>Заменить 29 отслеживаемых запросов на топ-30 по показам из Search Console; переключить кампанию на мобильные</td><td>Олег, пять минут</td><td>До 7 окт.</td><td>Текущая кампания следит за запросами, которые никто не ищет.</td></tr>
+<tr><td>Отслеживание заявок в GA4: отправка формы, тап по телефону, бронирование Calendly</td><td>Claude</td><td>За день до запуска рекламы</td><td>При выключенной рекламе не срочно. Обязательно до любых ставок по конверсиям.</td></tr>
+<tr><td>Продление Kova SEO</td><td>Олег</td><td>Открыто</td><td>Спросить, как они собираются вывести городские страницы в топ. Ответ покажет, продлевать или нет.</td></tr>
+</table></div>
+
+<h2>Чего не делать</h2>
+<ul>
+  <li>Покупать ссылки, гостевые посты или любые «PBN»-размещения. Единственное, за что дают ручной штраф.</li>
+  <li>Добавлять на этот сайт новые шаблонные городские страницы. 180 уже дают меньше клика на страницу в квартал.</li>
+  <li>Отрабатывать 107 «идей» Semrush по on-page или гоняться за его показателем токсичности. Ни то, ни другое не приносит объект.</li>
+  <li>Импортировать файл редиректов. Импортёр Webflow заменяет весь список; 187 действующих правил верны.</li>
+  <li>Читать еженедельный отчёт по позициям. Запросы с одним поиском в день прыгают на 20 позиций от шума.</li>
+</ul>
+
+<h2>Наблюдение</h2>
+<div class="cal">
+  <div class="d">Каждые 3 дня</div><div>Semrush пересканирует сайт. «Сиротских» страниц из sitemap к середине сентября должно стать меньше 10 вместо 101.</div>
+  <div class="d">Ежемесячно</div><div>Search Console → Security &amp; Manual Actions. Должно быть «No issues detected». Заново выгрузить ссылки, добавить новые спам-домены в файл disavow.</div>
+  <div class="d">7 октября</div><div>Отчёт Semrush по посадочным страницам: новые URL <span class="mono">/flooring-services-near-me/</span> должны заменить <span class="mono">/services/</span>. Search Console: «Обнаружено, не в индексе» — значительно меньше 30. echardwood.com: растёт или нет. Решить судьбу городских страниц по ковролину и плитке на данных за месяц.</div>
+  <div class="d">7 ноября</div><div>Первое чтение страницы Seattle, если построена: показы и позиция по «hardwood floor refinishing seattle» против базы за 90 дней — 107 показов на позиции 2,9.</div>
+</div>
+
+<p class="foot">Источники: Google Search Console (окна 28 и 90 дней до 7 сент.), Google Analytics 4 (30 дней до 6 сент.), краулинг Semrush Site Audit от 7 сент., Semrush Position Tracking за неделю 31 авг. – 7 сент., выгрузки ссылок Semrush 7–8 сент., данные сайта Webflow, счета QuickBooks сент. 2025 – авг. 2026, бронирования Calendly. Рабочие файлы и история изменений — в репозитории, папка <span class="mono">seo/</span>. Английская версия: <a href="https://claude.ai/code/artifact/e3fa8cea-e213-40f5-8685-85129606531d">OC Flooring Site Audit</a>.</p>
+</div>
