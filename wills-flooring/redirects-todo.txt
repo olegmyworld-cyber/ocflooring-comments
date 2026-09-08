@@ -1,0 +1,8 @@
+Add these 301 redirects in Webflow Site Settings > Publishing > 301 Redirects BEFORE publishing the site, or the old URLs (which currently rank in Google) will 404.
+/bellevue-flooring-services/laminate-flooring-installation-in-bellevue-wa-expert-service -> /bellevue-flooring-services/laminate-flooring-installation-in-bellevue-wa
+/issaquah-wa-flooring-services/hardwood-floor-refinishing-in-sammamish-wa-wills-flooring -> /issaquah-wa-flooring-services/hardwood-floor-refinishing-in-issaquah-wa
+/newcastle-wa-flooring-services/hardwood-floor-refinishing-in-renton-wa-wills-flooring -> /newcastle-wa-flooring-services/hardwood-floor-refinishing-in-newcastle-wa
+/renton-flooring-services/hardwood-floor-refinishing-in-renton-wa-wills-flooring-copy -> /renton-flooring-services/hardwood-floor-refinishing-in-renton-wa
+/sammamish-wa-flooring-services/hardwood-floor-refinishing-in-sammamish-wa-wills-flooring-copy -> /sammamish-wa-flooring-services/hardwood-floor-refinishing-in-sammamish-wa
+/seattle-flooring-services/laminate-flooring-installation-in-seattle-wa-expert-services -> /seattle-flooring-services/laminate-flooring-installation-in-seattle-wa
+/west-seattle-flooring-services/hardwood-floor-installation-in-west-seattle-wa---expert-services -> /west-seattle-flooring-services/hardwood-floor-installation-in-west-seattle-wa
