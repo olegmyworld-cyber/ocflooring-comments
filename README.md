@@ -22,3 +22,12 @@ phones. See [`webflow-scripts/bonamobilefix-1.0.0.js`](webflow-scripts/bonamobil
 
 Published live to `nwocflooring.com`, `www.nwocflooring.com`, and the Webflow
 subdomain.
+
+## SEO — Search Console indexing review (2026-09-08)
+
+`seo/indexing-review-2026-09-08.md` explains the 312 not-indexed pages in GSC. Most are
+174 historical URLs (renamed `/services/` folder, renamed Arlington folder, old city slugs,
+deleted laminate city pages) that still carry ~25% of the site's impressions and now 404 or
+dead-end. `seo/redirects-webflow-import.csv` is the 301 map to import in Webflow
+(Site settings → Publishing → 301 redirects); `seo/redirects-2026-09-08.csv` is the same
+map with traffic numbers and the reason for each row.
