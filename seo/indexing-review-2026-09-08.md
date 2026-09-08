@@ -176,3 +176,21 @@ Done (owner-approved):
 Not done: duplicate Google tag (GTM + separate gtag) - owner to confirm GA4 is inside GTM; script consolidation
 (15 registered + 9 inline footer scripts) - not worth the risk without a live test.
 Next: re-run PageSpeed on the homepage a day after publish and compare page weight; expect ~1-1.5 MB less.
+
+## Blog grid sort, 2026-09-08 (published)
+
+Symptom: /blog cards showed dates out of order. Cause: the green date badge is not a CMS date. The page script
+`ocblogdates` (page-level, blog page only) parses a hand-typed "Month D, YYYY ·" prefix at the start of each
+post's Post Summary and renders it as a badge; the collection list was sorting by created-on, which has no
+relation to that typed date (old posts were rewritten in Aug/Sep 2026 and given new typed dates).
+
+Fix: new DateTime field "Publish Date" (slug publish-date, id b5a0997cce310cf82a2c0b73e223710f) on the Blogs
+collection, seeded on all 273 items from the typed prefix (119 live, 154 scheduled drafts dated Sep 2026 to
+Apr 2027). Blog page collection list (element 3d83953f-...-106823d37d9b) now sorts publish-date descending.
+
+Going forward, a new post needs BOTH the typed "Month D, YYYY ·" prefix in Post Summary (what the badge shows)
+and the Publish Date field (what the grid sorts by). If they disagree, the grid order will look wrong again.
+Cleaner long-term: bind a real date element in the card to publish-date and drop the prefix + script.
+
+API notes: update_collection_items caps at 100 items per call (101 is rejected whole); list_collection_items
+pages overlap unless a sort is given (use sortBy slug); no built-in date can be used as a list sort field.
