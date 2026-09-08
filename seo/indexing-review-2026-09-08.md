@@ -71,3 +71,17 @@ The laminate city pages were deleted on purpose. All 61 laminate URLs redirect t
 
 - Redirect rules cannot be created through the Webflow MCP tools available in this session; import the CSV manually.
 - Direct crawl of nwocflooring.com is blocked from this environment; the 104/36 split per URL comes from GSC's own export, which I did not have at URL level.
+
+## Done 2026-09-08: product index on Our Products (staged in Webflow, needs publish)
+
+The page's product grid is a Collection List capped at Webflow's 100-item limit, so 91 of 191 products
+were linked from nowhere. Added below the grid's CTA buttons: an "All Flooring Products A–Z" block with
+two Collection Lists (Products sorted by name; items 1–100 and 101–191), one text link per product bound
+to the product name and its product page. Classes: `oc-product-index`, `oc-product-index-list` (3 / 2 / 1
+columns by breakpoint), `oc-product-index-link`. The grid's filter buttons only touch `.link-item-product`
+cards, so the index is unaffected by them. Not published; publish together with the merged redirects.
+
+## Redirect import warning
+
+Webflow's redirect import REPLACES the whole list. The site already had 187 redirects on 2026-09-08.
+Export those first, merge with `redirects-2026-09-08.csv`, then import the merged file.
