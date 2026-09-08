@@ -75,3 +75,12 @@ domain:taxies.biz
 domain:wallpapers.pro
 domain:way2check.art
 domain:ycm.info
+
+# --- Section 4: second Backlink Audit export (score 45-58), same scraper network. prosource.app deliberately excluded (directory, 126 links, not spam) ---
+domain:allwebsitesdirectory.com
+domain:websitescrawl.art
+domain:newsblogsports.site
+domain:hebagh.cv
+domain:thirty.co.in
+domain:tunca.org
+domain:way2check.cv
