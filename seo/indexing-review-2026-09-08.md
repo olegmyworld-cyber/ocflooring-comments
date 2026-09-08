@@ -194,3 +194,29 @@ Cleaner long-term: bind a real date element in the card to publish-date and drop
 
 API notes: update_collection_items caps at 100 items per call (101 is rejected whole); list_collection_items
 pages overlap unless a sort is given (use sortBy slug); no built-in date can be used as a list sort field.
+
+## Blog city buttons -> wrong service page, 2026-09-08 (root cause found, hardened, published)
+
+Owner report: on /blog/tile-installation-cost-per-square-foot the button "Tile Installation in Seattle, WA"
+opened the hardwood-installation Seattle page; Bellevue/Redmond/Kirkland worked. "Same problem as before."
+
+Audit (all 273 posts, deterministic + 4 adversarial agents): every one of the 1,157 city-links buttons and 988
+in-body internal links has text service+city == href, every href is a live page whose title matches, and the
+blog-template link scripts (OCLinkMatch / OCLinkClick, added 09-06/07 as a band-aid) compute the same target as the
+href, so they never rewrite these buttons. The Seattle tile page is a genuine tile page (H1 "Waterproofed first.
+Tiled second."), no duplicate slug, no redirect rule.
+
+Root cause (GA4-confirmed): the /404 page's page-level "fallback redirect" script guesses a page from URL keywords
+and location.replace()s. Its cls() had no tile/carpet branch until 2026-09-06 20:49Z, so while the tile city page
+was returning 404 the script classified "tile-installation-in-seattle-wa" by the word "installation" and sent
+visitors to /seattle/hardwood-floor-installation-in-seattle-wa. GA4: 6 such landings with the bathroom-tile post
+as referrer on 09-06, one at 09-07 10:17 PT, then 09-07 10:18 PT the same click reached the tile page; none since.
+GA4 has no 09-08 data yet; if the owner still sees it today it is a cached copy in his browser (test in incognito).
+
+Hardening (published): target() now sends a missing canonical <service>-in-<city>-wa URL to that SERVICE's main
+page under /flooring-services-near-me/ and never to a different service; legacy remaps unchanged. Details and
+node checks in webflow-scripts/404-fallback-redirects-2026-09-08.md.
+
+Follow-up (not done): oc-area-links-v1-min.js ("Explore More Flooring Services" block on city service pages) has
+no tile or carpet entries, so it never links to the 66 new tile/carpet city pages; the two text-driven link
+rewriters on the blog template are band-aids that can be removed once nobody edits links by hand.
