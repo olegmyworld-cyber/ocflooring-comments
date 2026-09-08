@@ -1,15 +1,15 @@
-# Disavow file for nwocflooring.com, prepared 2026-09-08
-# Reason: spam link network using the domain as advertising bait, anchor text
-# "High Quality Dofollow Backlinks DA 50 PA 40 Premium PBN Network Service ... Buy Backlinks Online Cheap".
-# First seen 2026-06-30, still growing as of 2026-09-07. Not commissioned by the site owner or its SEO vendor.
-# Also includes auto-generated stat-scraper domains flagged toxic by Semrush Backlink Audit (Aug 2026).
+# Disavow file for nwocflooring.com, prepared 2026-09-08 from the full Semrush backlink export (487 links)
+# Section 1: link-selling spam network using the domain as advertising bait. 35 domains, 39 links,
+# identical anchor "High Quality Dofollow Backlinks ... Buy Backlinks Online Cheap". First seen 2026-06-30, latest 2026-09-07.
+# Not commissioned by the site owner or its SEO vendor.
+# Section 2: auto-generated domain-statistics scraper sites (no editorial value, flagged toxic by Semrush).
+# Directories (superpages, dexknows, yellowpages, prosource.app) and real businesses are deliberately NOT included.
 # Upload at https://search.google.com/search-console/disavow-links for property https://www.nwocflooring.com/
 
-domain:all-aged-domains.com
+# --- Section 1: spam network ---
 domain:aloysionunes.com
 domain:archive-hu.com
 domain:bestnz-poker-casinoslot.com
-domain:bestwebstats.com
 domain:betulcrime.com
 domain:betwinnermirror.com
 domain:blogerreviewers.com
@@ -28,5 +28,28 @@ domain:juaralaundry.com
 domain:lawyerinjeddah.com
 domain:libyanatravel.com
 domain:lydiaroyrealestate.com
+domain:m98ufa.com
+domain:masihnyata.com
+domain:mediaboooster.com
 domain:missburrg.com
+domain:nivira.shop
 domain:onlineshoppingidea.com
+domain:plrdownloadshub.com
+domain:plumeriamarketing.com
+domain:royaldb.us.com
+domain:sahammurah.com
+domain:southfwb.com
+domain:techbumppy.com
+domain:themicrodigits.com
+domain:ufabettererm4.com
+
+# --- Section 2: stat scrapers ---
+domain:all-aged-domains.com
+domain:alltopleveldomains.space
+domain:bestwebstats.com
+domain:domain.com.lc
+domain:domainanalysis.org
+domain:domains.com.bz
+domain:domains.tntcode.com
+domain:domainsc.com
+domain:seodomains.website
