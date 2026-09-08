@@ -121,3 +121,10 @@ still growing) and a "Where to buy aged domains" scraper network (32 domains, si
 they built no links. Directories (superpages, dexknows, yellowpages, prosource.app) deliberately not disavowed.
 Monthly: re-export Semrush backlinks, append new spam domains, re-upload; check GSC Manual Actions.
 Also upload to the non-www property if it is verified.
+
+## Partner links, 2026-09-08 (live)
+
+One link each way between the two sites, brand-name anchors, no ownership disclosed (owner's decision):
+- olegsonsremodeling.com/services → "OC Flooring" → /flooring-services-near-me/floor-refinishing
+- nwocflooring.com/flooring-services-near-me/commercial-flooring-installation → "Oleg & Sons Remodeling" → olegsonsremodeling.com
+Do not add more cross-links between the sites. Expected effect: Authority Score 9 → ~10, no ranking change.
