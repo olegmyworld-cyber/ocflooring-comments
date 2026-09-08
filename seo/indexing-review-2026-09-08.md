@@ -92,3 +92,23 @@ The live rules stay as they are. Do NOT import anything; Webflow's import replac
 Consequence for GSC: "Page with redirect" (104) is the correct, permanent state for those URLs and will
 never validate as "fixed". The 36 "Not found (404)" URLs are not in search-analytics data (zero
 impressions) and could not be identified from here; the URL-level export of that GSC row is needed.
+
+## Done 2026-09-08 (later): titles and structured data (staged, needs publish)
+
+Titles: main hardwood-installation page shortened to 60 chars; Lake Stevens and Cottage Lake
+hardwood-installation pages got "| OC Flooring" appended so the SEO title no longer equals the H1.
+
+Structured data inventory (Webflow page-settings JSON-LD, 216 static pages): 181 already had it
+(every city page: FlooringContractor/Service + Breadcrumb, most with FAQ). Semrush's "schema on 0 pages"
+was wrong. Added Service + BreadcrumbList to 15 top-level service pages, WebPage/AboutPage/ContactPage/
+CollectionPage + Breadcrumb to our-products, hardwood-floor-maintenance, flooring-store, financing,
+about-us, contact, reviews, our-work, why-were-different, blog. Corrected flooring-repair and
+vinyl-plank pages, whose blocks still used /services/ URLs. All new blocks reference the homepage
+LocalBusiness entity (#ocflooring) as provider/about.
+
+Left alone, flagged:
+- ~150 city pages have a breadcrumb item pointing at /services/our-products or another retired
+  /services/ URL. Those 301 to the right page, so nothing breaks; rewriting 150 blocks is cosmetic.
+- Homepage LocalBusiness says open 24/7; the Contact page says Mon–Fri 9am–5pm. One of them is wrong.
+- Homepage carries a self-declared aggregateRating (4.7, 103). Google only honours that when the
+  reviews are visible on the page; the reviews section makes that defensible, but it is a judgment call.
