@@ -63,9 +63,9 @@ deleted blog posts → `/blog`; `/thank-you` → `/contact`; Bellevue refinishin
 61 laminate URLs point at the single laminate service page. Alternative: point each at the city's vinyl-plank page (keeps the city, loses the product match).
 If the laminate city pages were deleted by mistake, restore them instead and drop those 61 rows.
 
-## Staged in Webflow, not published
+## Small cleanup, manual
 
-`/checkout`, `/paypal-checkout`, `/order-confirmation` set to excluded from sitemap. Takes effect on next site publish.
+`/checkout`, `/paypal-checkout`, `/order-confirmation` are in the sitemap. The Webflow API refuses to change sitemap status on ecommerce utility pages, so untick "include in sitemap" in each page's settings in the Designer, then publish.
 
 ## Not done here
 
