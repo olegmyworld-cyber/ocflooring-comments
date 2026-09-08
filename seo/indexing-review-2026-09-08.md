@@ -58,10 +58,10 @@ messy city slugs → the clean slug for the same service in the same city folder
 every laminate city URL → `/flooring-services-near-me/laminate-flooring-installation` (see decision below);
 deleted blog posts → `/blog`; `/thank-you` → `/contact`; Bellevue refinishing → `/` (the homepage is the Bellevue refinishing page).
 
-## Decision needed
+## Laminate mapping (decided 2026-09-08)
 
-61 laminate URLs point at the single laminate service page. Alternative: point each at the city's vinyl-plank page (keeps the city, loses the product match).
-If the laminate city pages were deleted by mistake, restore them instead and drop those 61 rows.
+The laminate city pages were deleted on purpose. All 61 laminate URLs redirect to
+`/flooring-services-near-me/laminate-flooring-installation`. Confirmed by Oleg; keep as is.
 
 ## Small cleanup, manual
 
