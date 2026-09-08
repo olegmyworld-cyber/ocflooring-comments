@@ -155,16 +155,24 @@ Service descriptions that still said "103 5-star reviews".
 Watch: GSC Enhancements → Review snippets (errors) and Manual Actions, ~2 weeks after publish. When the GBP
 count changes, update the number in one place first: the homepage schema, then the city JSON.
 
-## Page weight / Core Web Vitals, 2026-09-08
+## Page weight / Core Web Vitals, 2026-09-08 (published)
 
 PageSpeed Insights on the homepage (Sep 7): real-user (CrUX) data = "No Data", so Core Web Vitals cannot affect
-ranking for this site today; lab scores 43 mobile / 66 desktop, page weight 5.6–7.6 MB, image savings ~1.1–1.4 MB,
-unused JS 674 KB, blocking time 800–1,160 ms. Hero is already AVIF (181 KB); weight comes from other sections.
+ranking for this site today; lab scores 43 mobile / 66 desktop, page weight 5.6-7.6 MB, image savings ~1.1-1.4 MB,
+unused JS 674 KB, blocking time 800-1,160 ms. Hero is already AVIF (181 KB).
 
 Done (owner-approved):
 - OpenAI Ads pixel removed from site <head> (saved in webflow-scripts/removed-head-openai-pixel.html).
-- Webflow in-place AVIF conversion requested for the 28 JPG/PNG assets >= 150 KB (16.6 MB total; ids in
-  scratch big_assets.json → see compression task ed2e4888-2748-453b-9555-998e3dfe283e). 121 smaller JPG/PNG
-  (3.35 MB) left for a second pass.
-Not done: duplicate Google tag (GTM + separate gtag) — needs owner to confirm GA4 is inside GTM; script
-consolidation (15 registered + 9 inline footer scripts) — judged not worth the risk without a live test.
+- Webflow in-place conversion of the 28 JPG/PNG assets >= 150 KB (same asset ids, files replaced):
+    18 -> AVIF   9.68 MB -> 0.98 MB   (phone photos, blog images, recent stock uploads)
+     3 -> WebP   3.22 MB -> 2.06 MB   (Shutterstock originals too large for the AVIF encoder)
+     7 unchanged 3.68 MB              (5,700-8,200 px Shutterstock "-min" JPGs; WebP came out larger)
+  Webflow's AVIF encoder stalls on originals above ~4,000 px; a batch containing one such file hangs the whole
+  batch and the task reports "failed" at 15 min even though smaller files in it did convert. Keep giants out
+  of AVIF batches. 121 JPG/PNG under 150 KB (3.35 MB total) not touched.
+- Unchanged giants (asset id, px, KB): 6742a254 8192px 501; 674525d0 7360px 337; 673d4c77 6720px 281;
+  673d4aea 6468px 408; 6742ba01 6454px 959; 6742bacf 5753px 523; 66940275 (IMG_8530) 4032px 672.
+  Real fix = resize to <= 2,000 px and re-upload, which creates a new asset id and needs every usage re-pointed.
+Not done: duplicate Google tag (GTM + separate gtag) - owner to confirm GA4 is inside GTM; script consolidation
+(15 registered + 9 inline footer scripts) - not worth the risk without a live test.
+Next: re-run PageSpeed on the homepage a day after publish and compare page weight; expect ~1-1.5 MB less.
