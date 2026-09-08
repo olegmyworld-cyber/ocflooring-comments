@@ -109,6 +109,6 @@ LocalBusiness entity (#ocflooring) as provider/about.
 Left alone, flagged:
 - ~150 city pages have a breadcrumb item pointing at /services/our-products or another retired
   /services/ URL. Those 301 to the right page, so nothing breaks; rewriting 150 blocks is cosmetic.
-- Homepage LocalBusiness says open 24/7; the Contact page says Mon–Fri 9am–5pm. One of them is wrong.
+- Homepage LocalBusiness says open 24/7; the Contact page says Mon–Fri 9am–5pm. Oleg: leave as is (2026-09-08).
 - Homepage carries a self-declared aggregateRating (4.7, 103). Google only honours that when the
   reviews are visible on the page; the reviews section makes that defensible, but it is a judgment call.
