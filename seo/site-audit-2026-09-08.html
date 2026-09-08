@@ -1,0 +1,220 @@
+<title>OC Flooring Site Audit</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;800&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+  :root{
+    --paper:#F3F4F6; --sheet:#FFFFFF; --ink:#1B2028; --ink-2:#4A525E; --ink-3:#7A8290;
+    --rule:#D9DCE2; --rule-soft:#E9EBEF;
+    --accent:#A8281C; --accent-ink:#FFFFFF;
+    --ok:#1F7A4D; --ok-bg:#E3F3EA; --warn:#9A6400; --warn-bg:#FBF0D6; --off:#5B6370; --off-bg:#E8EAEE; --crit:#A8281C; --crit-bg:#F8E3E0;
+    --display:"Archivo","Helvetica Neue",Arial,sans-serif;
+    --body:"IBM Plex Sans","Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    --mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --paper:#15181D; --sheet:#1D2127; --ink:#ECEEF1; --ink-2:#B8BEC8; --ink-3:#828A97;
+      --rule:#333944; --rule-soft:#282D36;
+      --accent:#E2574A; --accent-ink:#15181D;
+      --ok:#5CC38A; --ok-bg:#173324; --warn:#E3B04B; --warn-bg:#3A2E10; --off:#A0A7B3; --off-bg:#2A2F38; --crit:#E2574A; --crit-bg:#3E1E1A;
+    }
+  }
+  :root[data-theme="dark"]{
+    --paper:#15181D; --sheet:#1D2127; --ink:#ECEEF1; --ink-2:#B8BEC8; --ink-3:#828A97;
+    --rule:#333944; --rule-soft:#282D36;
+    --accent:#E2574A; --accent-ink:#15181D;
+    --ok:#5CC38A; --ok-bg:#173324; --warn:#E3B04B; --warn-bg:#3A2E10; --off:#A0A7B3; --off-bg:#2A2F38; --crit:#E2574A; --crit-bg:#3E1E1A;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.55;-webkit-font-smoothing:antialiased}
+  .sheet{max-width:880px;margin:0 auto;padding:40px 24px 80px}
+  header{border-bottom:2px solid var(--ink);padding-bottom:20px;margin-bottom:36px}
+  .eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-3);margin:0 0 10px}
+  h1{font-family:var(--display);font-weight:800;font-size:clamp(30px,5vw,44px);line-height:1.05;letter-spacing:-.02em;margin:0 0 14px;text-wrap:balance}
+  .meta{display:flex;flex-wrap:wrap;gap:6px 22px;font-family:var(--mono);font-size:13px;color:var(--ink-2)}
+  .meta span b{color:var(--ink);font-weight:500}
+  h2{font-family:var(--display);font-weight:700;font-size:22px;letter-spacing:-.01em;margin:44px 0 12px;padding-top:18px;border-top:1px solid var(--rule);text-wrap:balance}
+  h3{font-family:var(--body);font-weight:600;font-size:16px;margin:26px 0 8px}
+  p{max-width:68ch;margin:0 0 12px}
+  p.lede{font-size:18px;line-height:1.5;max-width:60ch}
+  ul{max-width:68ch;padding-left:20px;margin:0 0 12px}
+  li{margin:0 0 6px}
+  .verdict{background:var(--sheet);border-left:4px solid var(--accent);padding:18px 22px;margin:0 0 8px}
+  .verdict p{margin:0 0 8px}
+  .verdict p:last-child{margin:0}
+  .verdict .k{font-family:var(--display);font-weight:800;font-size:20px;letter-spacing:-.01em;margin-bottom:10px}
+  table{border-collapse:collapse;width:100%;font-size:14.5px;margin:6px 0 10px}
+  .tablewrap{overflow-x:auto;margin:0 0 14px}
+  th{font-family:var(--mono);font-size:11.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-3);text-align:left;font-weight:500;padding:8px 10px;border-bottom:1px solid var(--ink)}
+  td{padding:9px 10px;border-bottom:1px solid var(--rule-soft);vertical-align:top}
+  td.num,th.num{text-align:right;font-family:var(--mono);font-variant-numeric:tabular-nums;white-space:nowrap}
+  td.mono{font-family:var(--mono);font-size:13.5px}
+  tr.total td{border-top:1px solid var(--ink);border-bottom:none;font-weight:600}
+  .pill{display:inline-block;font-family:var(--mono);font-size:11.5px;letter-spacing:.04em;text-transform:uppercase;padding:3px 8px;border-radius:3px;white-space:nowrap;font-weight:500}
+  .ok{background:var(--ok-bg);color:var(--ok)} .warn{background:var(--warn-bg);color:var(--warn)} .off{background:var(--off-bg);color:var(--off)} .crit{background:var(--crit-bg);color:var(--crit)}
+  .note{font-size:14px;color:var(--ink-2);max-width:68ch}
+  .cal{display:grid;grid-template-columns:110px 1fr;gap:10px 18px;max-width:68ch;margin:10px 0 0}
+  .cal .d{font-family:var(--mono);font-size:13px;color:var(--ink-2);padding-top:2px}
+  .foot{margin-top:56px;padding-top:16px;border-top:1px solid var(--rule);font-family:var(--mono);font-size:12.5px;color:var(--ink-3);max-width:68ch}
+  a{color:var(--accent)}
+  a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+  @media (max-width:600px){ .cal{grid-template-columns:1fr;gap:2px 0} .cal .d{padding-top:8px} }
+</style>
+
+<div class="sheet">
+<header>
+  <p class="eyebrow">Website audit · final</p>
+  <h1>OC Flooring Site Audit</h1>
+  <div class="meta">
+    <span>Site <b>nwocflooring.com</b></span>
+    <span>Date <b>8 Sep 2026</b></span>
+    <span>Prepared for <b>Oleg Chaikovskyi</b></span>
+    <span>Platform <b>Webflow</b></span>
+  </div>
+</header>
+
+<div class="verdict">
+  <div class="k">The website is finished. The bottleneck is reviews, not code.</div>
+  <p>The site ranks first among every local contractor on its own keywords, across King County, on desktop. Every technical item found this week is fixed and live. What stops those rankings turning into calls is the Google map pack and Yelp, which sit above the organic results and take the click. Both are decided by review count, not by anything on the website.</p>
+  <p>Next work that pays: reviews on the Business Profile after every job, and five real city pages for the cities the jobs actually come from. Everything else on this page is monitoring.</p>
+</div>
+
+<h2>Scoreboard</h2>
+<div class="tablewrap"><table>
+<tr><th>Area</th><th>State</th><th>What it means</th></tr>
+<tr><td>Indexing</td><td><span class="pill ok">Healthy</span></td><td>428 pages indexed. The 312 "not indexed" are redirects, deleted pages, and new pages in queue. Nothing to fix.</td></tr>
+<tr><td>Redirects</td><td><span class="pill ok">Complete</span></td><td>187 rules live. Every retired URL with traffic already covered. Nothing imported.</td></tr>
+<tr><td>Internal links</td><td><span class="pill ok">Fixed 7 Sep</span></td><td>91 orphaned product pages now linked from an A–Z index on Our Products.</td></tr>
+<tr><td>Titles and structured data</td><td><span class="pill ok">Fixed 8 Sep</span></td><td>3 title issues corrected. JSON-LD on 208 of 216 static pages; 27 added or corrected.</td></tr>
+<tr><td>Site health (Semrush crawl)</td><td><span class="pill ok">97%</span></td><td>0 errors, 0 broken internal links. Remaining warnings are Webflow scripts and third-party embeds.</td></tr>
+<tr><td>Backlinks</td><td><span class="pill ok">Disavow filed</span></td><td>71 spam domains disavowed 7 Sep. Manual Actions: none. Anchor profile natural.</td></tr>
+<tr><td>Rankings</td><td><span class="pill ok">Leader</span></td><td>17 of 29 tracked keywords at position 1 in Bellevue. Top 3 county-wide on the terms with volume.</td></tr>
+<tr><td>Clicks from those rankings</td><td><span class="pill warn">Low</span></td><td>Homepage at position 1–3 on the money terms earns 3 clicks per 480 impressions. Map pack takes the rest.</td></tr>
+<tr><td>Analytics</td><td><span class="pill warn">Polluted</span></td><td>Half of GA4 sessions are bots. No key events defined, so no lead is counted anywhere on the site.</td></tr>
+<tr><td>Ads</td><td><span class="pill off">Off since 13 Aug</span></td><td>No paid traffic. Conversion tracking is not urgent until ads restart.</td></tr>
+</table></div>
+
+<h2>What was done, 7–8 September</h2>
+<div class="tablewrap"><table>
+<tr><th>Change</th><th>Where</th><th>State</th></tr>
+<tr><td>Product index: two Collection Lists, all 191 products as named text links, sorted A–Z</td><td>Our Products page</td><td><span class="pill ok">Live</span></td></tr>
+<tr><td>SEO title shortened to 60 characters</td><td>Hardwood Floor Installation (main)</td><td><span class="pill ok">Live</span></td></tr>
+<tr><td>SEO title made distinct from H1</td><td>Lake Stevens and Cottage Lake installation pages</td><td><span class="pill ok">Live</span></td></tr>
+<tr><td>Service + BreadcrumbList JSON-LD added</td><td>15 top-level service pages</td><td><span class="pill ok">Live</span></td></tr>
+<tr><td>Page-type JSON-LD added</td><td>About, Contact, Reviews, Blog, Our Work, Why We're Different, Financing, Our Products, Flooring Store, Floor Care guide</td><td><span class="pill ok">Live</span></td></tr>
+<tr><td>Stale <span class="mono">/services/</span> URLs corrected inside existing JSON-LD</td><td>Floor Repair, Vinyl Plank</td><td><span class="pill ok">Live</span></td></tr>
+<tr><td>Disavow file, 71 domains</td><td>Search Console, www property</td><td><span class="pill ok">Uploaded 7 Sep 19:34</span></td></tr>
+<tr><td>Redirect map reconciled against the 187 live rules</td><td>Repo, <span class="mono">seo/</span></td><td><span class="pill off">No change needed</span></td></tr>
+</table></div>
+<p class="note">Left alone by decision: Business Profile hours in the homepage schema (24/7) differ from the Contact page (Mon–Fri 9–5). Around 150 city pages carry a breadcrumb pointing at a retired URL that redirects correctly; rewriting them is cosmetic.</p>
+
+<h2>Indexing</h2>
+<p>Search Console reports 740 known URLs. 428 are indexed. The 312 that aren't break down as follows.</p>
+<div class="tablewrap"><table>
+<tr><th>Reason</th><th class="num">Pages</th><th>On this site this is</th><th>Action</th></tr>
+<tr><td>Page with redirect</td><td class="num">104</td><td>Retired <span class="mono">/services/</span> folder, retired Arlington folder, pre-June city slugs. All redirect correctly.</td><td>None. Permanent state.</td></tr>
+<tr><td>Not found (404)</td><td class="num">36</td><td>URLs with zero impressions that never appeared in traffic data. Could not be identified from here.</td><td>Optional: export that row from Search Console.</td></tr>
+<tr><td>Crawled, not indexed</td><td class="num">91</td><td>Product pages that had no internal links, plus city pages Google considers thin.</td><td>Products fixed 7 Sep. City pages: see Content.</td></tr>
+<tr><td>Discovered, not indexed</td><td class="num">63</td><td>56 carpet and tile city pages created 28 Aug – 3 Sep, still in queue.</td><td>Wait. Check 7 Oct.</td></tr>
+<tr><td>Canonical, noindex</td><td class="num">18</td><td>Blog pagination and utility pages.</td><td>None.</td></tr>
+</table></div>
+<p class="note">The service pages moved from <span class="mono">/services/</span> to <span class="mono">/flooring-services-near-me/</span> around 21 August. Google still ranks the old addresses and hasn't yet swapped them. Two and a half weeks is normal. If the old addresses still dominate Semrush's landing-page report on 7 October, the redirects need a real look.</p>
+
+<h2>Traffic</h2>
+<p>Search Console, last 90 days, live pages only. Clicks are the column that matters.</p>
+<div class="tablewrap"><table>
+<tr><th>Page type</th><th class="num">Live pages</th><th class="num">Impressions</th><th class="num">Clicks</th></tr>
+<tr><td>Home</td><td class="num">1</td><td class="num">23,521</td><td class="num">289</td></tr>
+<tr><td>Blog posts</td><td class="num">118</td><td class="num">49,964</td><td class="num">205</td></tr>
+<tr><td>Products</td><td class="num">191</td><td class="num">5,559</td><td class="num">189</td></tr>
+<tr><td>City: hardwood refinishing</td><td class="num">29</td><td class="num">20,148</td><td class="num">42</td></tr>
+<tr><td>City: vinyl plank</td><td class="num">30</td><td class="num">22,465</td><td class="num">17</td></tr>
+<tr><td>City: hardwood installation</td><td class="num">30</td><td class="num">21,133</td><td class="num">16</td></tr>
+<tr><td>City: repair, carpet, tile</td><td class="num">91</td><td class="num">3,556</td><td class="num">7</td></tr>
+<tr><td>Service pages (new folder)</td><td class="num">21</td><td class="num">105</td><td class="num">0</td></tr>
+<tr class="total"><td>Total</td><td class="num">511</td><td class="num">146,451</td><td class="num">765</td></tr>
+</table></div>
+<p>Products are the third-largest click source and had no internal links until 7 September. The 180 city pages produce 82 clicks a quarter between them, under one click per page. The new-folder service pages show almost nothing because their visibility still sits on the old URLs.</p>
+<p>Google Analytics adds a caution: of 2,295 sessions in 30 days, 1,138 are direct visits from Singapore, Germany and China with 4% engagement. Real human traffic is about 1,100 a month. Read every GA figure as US-only.</p>
+
+<h2>Rankings</h2>
+<h3>Bellevue, desktop, 29 tracked keywords</h3>
+<p>17 keywords at position 1, 26 in the top 10. Weekly swings of 20 places on single keywords are noise: those terms get one or two searches a day and were back at position 1 the following day in Search Console.</p>
+<h3>King County, desktop, terms with volume</h3>
+<div class="tablewrap"><table>
+<tr><th>Keyword</th><th class="num">Searches / month</th><th class="num">Position</th></tr>
+<tr><td>flooring installation</td><td class="num">260</td><td class="num">3</td></tr>
+<tr><td>hardwood floor refinishing</td><td class="num">170</td><td class="num">2</td></tr>
+<tr><td>wood floor refinishing</td><td class="num">110</td><td class="num">3</td></tr>
+<tr><td>hardwood floor refinishing seattle</td><td class="num">90</td><td class="num">1</td></tr>
+<tr><td>wood floor refinishing near me</td><td class="num">50</td><td class="num">2</td></tr>
+</table></div>
+<h3>Competitors on the same keywords</h3>
+<div class="tablewrap"><table>
+<tr><th>Domain</th><th class="num">Keywords</th><th class="num">Avg. position</th></tr>
+<tr><td>nwocflooring.com</td><td class="num">28</td><td class="num">6.3</td></tr>
+<tr><td>yelp.com</td><td class="num">29</td><td class="num">7.6</td></tr>
+<tr><td>thumbtack.com</td><td class="num">27</td><td class="num">16.3</td></tr>
+<tr><td>seattlehardwoodfloorsllc.com</td><td class="num">25</td><td class="num">26.8</td></tr>
+<tr><td>luksconstruction.com</td><td class="num">25</td><td class="num">28.2</td></tr>
+<tr><td>dreamhf.com</td><td class="num">24</td><td class="num">32.4</td></tr>
+<tr><td>evergreen-hardwood.com</td><td class="num">23</td><td class="num">45.3</td></tr>
+</table></div>
+<p>The nearest contractor is 20 positions behind. The only site ahead on page one is Yelp, whose "Top 10" list ranks for all 29 keywords. A customer who scrolls past the map pack sees you, then Yelp. Position on that Yelp list is a review count.</p>
+<p class="note">Every tracked report is desktop-only. The homeowner searching "floor refinishing near me" is on a phone, where the map pack fills the screen. Switch the Semrush campaign to mobile before reading it again.</p>
+
+<h2>Backlinks</h2>
+<div class="tablewrap"><table>
+<tr><th>Measure</th><th class="num">Value</th><th>Reading</th></tr>
+<tr><td>Referring domains</td><td class="num">192</td><td>Mostly directories and scrapers. Real editorial links are few.</td></tr>
+<tr><td>Authority Score (Semrush)</td><td class="num">9</td><td>Typical for a local contractor. Competitors are 5–15.</td></tr>
+<tr><td>Anchor mix</td><td class="num">50 / 29 / 11</td><td>Organic / brand / money keywords. A natural profile; bought links would show 40%+ money anchors.</td></tr>
+<tr><td>Spam domains disavowed</td><td class="num">71</td><td>A "Buy Backlinks" ad network using the domain as bait since 30 June, plus an "aged domains" scraper network since May 2025. Not commissioned by the owner or Kova.</td></tr>
+<tr><td>Manual actions</td><td class="num">0</td><td>The only penalty signal that matters. Check monthly.</td></tr>
+</table></div>
+<p>Expect no ranking change from the disavow. The links were already being ignored; the file makes that formal and dated.</p>
+
+<h2>Content and geography</h2>
+<p>The site has 180 city pages across 30 cities and six services, built from one template. Pages near Bellevue rank; pages far from it don't. That is proximity and the Business Profile doing the ranking, not the page, and it is also why Google declines to index part of the set.</p>
+<p>QuickBooks invoices for the last 12 months, matched to Calendly booking addresses, show where the refinishing work actually comes from. Only the 53% of revenue with a booking address is counted.</p>
+<div class="tablewrap"><table>
+<tr><th>City</th><th class="num">Jobs</th><th class="num">Revenue</th><th class="num">Refinishing $</th><th class="num">Share</th></tr>
+<tr><td>Seattle</td><td class="num">10</td><td class="num">$28,010</td><td class="num">$13,386</td><td class="num">48%</td></tr>
+<tr><td>Everett</td><td class="num">4</td><td class="num">$30,271</td><td class="num">$13,299</td><td class="num">44%</td></tr>
+<tr><td>Kirkland</td><td class="num">3</td><td class="num">$15,579</td><td class="num">$11,467</td><td class="num">74%</td></tr>
+<tr><td>Redmond</td><td class="num">3</td><td class="num">$11,223</td><td class="num">$10,216</td><td class="num">91%</td></tr>
+<tr><td>Issaquah</td><td class="num">2</td><td class="num">$15,248</td><td class="num">$9,936</td><td class="num">65%</td></tr>
+<tr><td>Bellevue</td><td class="num">2</td><td class="num">$5,032</td><td class="num">$2,180</td><td class="num">43%</td></tr>
+</table></div>
+<p>Bellevue, the address on the door and the word in the company name, produced two jobs. The business is a Seattle and north-corridor refinisher with a Bellevue mailing address. Five real pages for Seattle, Everett, Kirkland, Redmond and Issaquah, with job photos, a named local review and the streets worked, will outrank 180 templates. Seattle first; its page already ranks 7 for "dustless floor sanding seattle".</p>
+
+<h2>What's left</h2>
+<div class="tablewrap"><table>
+<tr><th>Item</th><th>Owner</th><th>When</th><th>Why</th></tr>
+<tr><td>Ask for a Google review after every completed job; photos and a post weekly</td><td>Oleg</td><td>Ongoing</td><td>The map pack takes the clicks the rankings earn. Reviews decide the map pack.</td></tr>
+<tr><td>Build the Seattle refinishing page as a real page: job photos, named review, streets</td><td>Claude, with photos from Oleg</td><td>On go</td><td>Highest refinishing revenue of any city, page already ranking.</td></tr>
+<tr><td>Then Everett, Kirkland, Redmond, Issaquah</td><td>Same</td><td>After Seattle</td><td>Rest of the top five.</td></tr>
+<tr><td>Four link emails: Bona craftsman directory, Pallmann, Metropolitan dealer page, Pure Real Estate vendors page</td><td>Oleg</td><td>This month</td><td>Real links from trusted sites. Nothing else moves authority.</td></tr>
+<tr><td>Replace the 29 tracked keywords with the top 30 by Search Console impressions; switch campaign to mobile</td><td>Oleg, five minutes</td><td>Before 7 Oct</td><td>Current campaign tracks terms nobody searches.</td></tr>
+<tr><td>Lead tracking in GA4: form submit, phone tap, Calendly booking</td><td>Claude</td><td>The day before ads restart</td><td>Not urgent with ads off. Required before any conversion-based bidding.</td></tr>
+<tr><td>Kova SEO renewal</td><td>Oleg</td><td>Open</td><td>Ask them how they would get city pages to rank. The answer tells you whether to renew.</td></tr>
+</table></div>
+
+<h2>Do not do</h2>
+<ul>
+  <li>Buy links, guest posts, or "PBN" placements of any kind. The one thing that earns a manual penalty.</li>
+  <li>Add more templated city pages to this site. 180 already produce under one click per page per quarter.</li>
+  <li>Work Semrush's 107 on-page "ideas" or chase its toxicity score. Neither moves a refinishing job.</li>
+  <li>Import a redirect file. Webflow's importer replaces the entire list; the 187 rules live today are correct.</li>
+  <li>Read weekly position tracking. Single-searcher keywords swing 20 places on noise.</li>
+</ul>
+
+<h2>Monitoring</h2>
+<div class="cal">
+  <div class="d">Every 3 days</div><div>Semrush recrawls. Orphaned sitemap pages should fall from 101 to under 10 by mid-September.</div>
+  <div class="d">Monthly</div><div>Search Console → Security &amp; Manual Actions. Should read "No issues detected". Re-export backlinks, append any new spam domains to the disavow file.</div>
+  <div class="d">7 Oct</div><div>Semrush landing-page report: new <span class="mono">/flooring-services-near-me/</span> URLs should have replaced <span class="mono">/services/</span>. Search Console: "Discovered, not indexed" should be well under 30. echardwood.com: still climbing or not. Decide the fate of the carpet and tile city pages on a month of data.</div>
+  <div class="d">7 Nov</div><div>First read on the Seattle page if built: impressions and position for "hardwood floor refinishing seattle" against the 90-day baseline of 107 impressions at position 2.9.</div>
+</div>
+
+<p class="foot">Sources: Google Search Console (28- and 90-day windows to 7 Sep), Google Analytics 4 (30 days to 6 Sep), Semrush Site Audit crawl of 7 Sep, Semrush Position Tracking week of 31 Aug – 7 Sep, Semrush backlink exports of 7–8 Sep, Webflow site data, QuickBooks invoices Sep 2025 – Aug 2026, Calendly bookings. Working files and change history in the repository under <span class="mono">seo/</span>.</p>
+</div>
