@@ -128,3 +128,29 @@ One link each way between the two sites, brand-name anchors, no ownership disclo
 - olegsonsremodeling.com/services → "OC Flooring" → /flooring-services-near-me/floor-refinishing
 - nwocflooring.com/flooring-services-near-me/commercial-flooring-installation → "Oleg & Sons Remodeling" → olegsonsremodeling.com
 Do not add more cross-links between the sites. Expected effect: Authority Score 9 → ~10, no ranking change.
+
+## Review star snippets (aggregateRating), 2026-09-08 (published)
+
+Owner's call after the self-serving-review warning: use the real Google Business Profile figures, 4.7 / 99.
+Google may still refuse to render stars for a business's own rating; nothing here fabricates or inflates.
+
+Markup (business node `#ocflooring` carries `aggregateRating` 4.7 / 99 / best 5 / worst 1):
+- Homepage: count corrected from 103 to 99.
+- Main refinishing page /flooring-services-near-me/floor-refinishing: LocalBusiness + rating + Service + Breadcrumb.
+- 29 city refinishing pages (`city-refinishing-schema-2026-09-08.json`): LocalBusiness stub + rating + Service
+  node added in front of the existing FAQPage + BreadcrumbList; breadcrumb level 2 repointed from the retired
+  /services/floor-refinishing to /flooring-services-near-me/floor-refinishing.
+- Installation, vinyl, repair, carpet, tile pages: deliberately no rating (no visible reviews there).
+
+Visible reviews (the condition Google sets): the trust-reviews injector now also fires on the main refinishing
+page and on /arlington/hardwood-floor-refinishing, whose slug did not match the city pattern. The old registered
+script `octrustreviewsinjector9d` returned 404 on update, so `octrustreviewsinjector10` (same code, wider
+guard) was registered, applied in the footer, and the old one removed. Webflow caps applied scripts at 15;
+the site is at 15 again.
+
+Consistency pass (every on-site claim now says 99 reviews / 4.7 stars): commercial page "Why choose" copy;
+About, Reviews, Our Work SEO + schema descriptions; Reviews SEO title; 14 city-page SEO descriptions and
+Service descriptions that still said "103 5-star reviews".
+
+Watch: GSC Enhancements → Review snippets (errors) and Manual Actions, ~2 weeks after publish. When the GBP
+count changes, update the number in one place first: the homepage schema, then the city JSON.
