@@ -154,3 +154,17 @@ Service descriptions that still said "103 5-star reviews".
 
 Watch: GSC Enhancements → Review snippets (errors) and Manual Actions, ~2 weeks after publish. When the GBP
 count changes, update the number in one place first: the homepage schema, then the city JSON.
+
+## Page weight / Core Web Vitals, 2026-09-08
+
+PageSpeed Insights on the homepage (Sep 7): real-user (CrUX) data = "No Data", so Core Web Vitals cannot affect
+ranking for this site today; lab scores 43 mobile / 66 desktop, page weight 5.6–7.6 MB, image savings ~1.1–1.4 MB,
+unused JS 674 KB, blocking time 800–1,160 ms. Hero is already AVIF (181 KB); weight comes from other sections.
+
+Done (owner-approved):
+- OpenAI Ads pixel removed from site <head> (saved in webflow-scripts/removed-head-openai-pixel.html).
+- Webflow in-place AVIF conversion requested for the 28 JPG/PNG assets >= 150 KB (16.6 MB total; ids in
+  scratch big_assets.json → see compression task ed2e4888-2748-453b-9555-998e3dfe283e). 121 smaller JPG/PNG
+  (3.35 MB) left for a second pass.
+Not done: duplicate Google tag (GTM + separate gtag) — needs owner to confirm GA4 is inside GTM; script
+consolidation (15 registered + 9 inline footer scripts) — judged not worth the risk without a live test.
