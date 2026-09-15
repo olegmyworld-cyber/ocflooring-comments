@@ -1,6 +1,10 @@
 Import wills-flooring/webflow-301-redirects.csv in Webflow: Site Settings > Publishing > 301 Redirects > Import 301 redirects.
 Do this BEFORE publishing, or the renamed URLs will 404.
 
+NOTE: the file deliberately has NO header row. Webflow's importer validates a header
+line as if it were a redirect and fails the entire import with
+'The path must start with a "/" and be a valid URI path.'
+
 The CSV is the COMPLETE final list: 17 rows = your 10 existing redirects (exported 15 Sep) plus the 7 new ones.
 
 Four of your existing redirects were retargeted, because they pointed at URLs that were renamed during this work.
