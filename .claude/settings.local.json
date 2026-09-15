@@ -1,9 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "mcp__Webflow__data_cms_tool",
-      "mcp__Webflow__data_element_settings_tool",
-      "mcp__Webflow__ask_webflow_ai"
-    ]
-  }
-}
