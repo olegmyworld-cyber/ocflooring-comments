@@ -2,7 +2,9 @@
 
 Site `66cc1f4542ee0c42e43d0303` · collection **Blog Posts** `66cecfc7e7f88d2528ab474e` · category **Hardwood Refinishing** `66ced3625e68f5f0e740c5b9`.
 
-**Created as a draft CMS item on 2026-09-15: `6aa9c8c879f234ee20d70b90`** (unpublished; body verified identical to the HTML file; main image imported from gallery item 92).
+**Created as a draft CMS item on 2026-09-15: `6aa9c8c879f234ee20d70b90`** (unpublished; main image imported from gallery item 92).
+
+**v2 (2026-09-15, same day):** body replaced with the Apple-style layout. No inline images; the hero photo comes from Image Main via the template. The first two embeds are global CSS and a post-scoped override that turns the template hero (`.section_hero.is-default`) into text-left / image-right on a `#f5f5f7` background, keeping the template's 8.25rem top padding for the navbar. Calculator uses a segmented service control, iOS-style toggles and a stepper. Time to read set to 12 mins. Stored body verified identical to the HTML file.
 The blog template derives `<title>` from **Name** and the meta description from **Description Small**, so there are no separate title-tag / meta fields.
 
 | Field | Value |
@@ -13,7 +15,7 @@ The blog template derives `<title>` from **Name** and the meta description from 
 | **Meta Description** (155 chars) | Refinishing hardwood floors in Everett, WA costs $1.99–$6.50/sq ft in 2026. Instant calculator, recoat-or-refinish quiz, neighborhood notes from Riverside to Silver Lake. |
 | **Post Summary** | September 15, 2026 · Hardwood floor refinishing in Everett runs $1.99–$6.50 per square foot in 2026. This local guide from Wills Flooring, Bona Certified Craftsmen in Lynnwood, covers what's under Everett floors by neighborhood and era (mill-era fir, Boeing-boom oak, hardwood under carpet), an Everett calculator with stair pricing, a 60-second recoat-or-refinish quiz, and the questions Everett homeowners ask before hiring. |
 | **Publish Date** | 2026-09-15 |
-| **Image Main** | Wills refinishing gallery item 92 (`6813adea41d23a89c9794c86_92.jpg`). Inline figures use gallery items 92, 85 and 70. Swap for Everett project photos if you have them. |
+| **Image Main** | Wills refinishing gallery item 92 (imported as `6aa9c8c879f234ee20d70b51_...92.jpeg`). It is the only photo on the page and appears on the right side of the hero. Swap for an Everett project photo if you have one. |
 | **Post Body** | Contents of `wills-hardwood-floor-refinishing-everett-wa.html` (below the header comment) |
 
 ## Brand facts used
