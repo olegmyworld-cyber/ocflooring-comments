@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__Webflow",
+      "mcp__Google_Search_Console_by_Windsor_ai",
+      "mcp__Google_Analytics_4_by_Windsor_ai",
+      "mcp__Calendly__users-get_current_user",
+      "mcp__Calendly__event_types-list_event_types",
+      "mcp__Calendly__meetings-list_events"
+    ]
+  }
+}
