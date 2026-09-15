@@ -1,8 +1,25 @@
-Add these 301 redirects in Webflow Site Settings > Publishing > 301 Redirects BEFORE publishing the site, or the old URLs (which currently rank in Google) will 404.
-/bellevue-flooring-services/laminate-flooring-installation-in-bellevue-wa-expert-service -> /bellevue-flooring-services/laminate-flooring-installation-in-bellevue-wa
-/issaquah-wa-flooring-services/hardwood-floor-refinishing-in-sammamish-wa-wills-flooring -> /issaquah-wa-flooring-services/hardwood-floor-refinishing-in-issaquah-wa
-/newcastle-wa-flooring-services/hardwood-floor-refinishing-in-renton-wa-wills-flooring -> /newcastle-wa-flooring-services/hardwood-floor-refinishing-in-newcastle-wa
-/renton-flooring-services/hardwood-floor-refinishing-in-renton-wa-wills-flooring-copy -> /renton-flooring-services/hardwood-floor-refinishing-in-renton-wa
-/sammamish-wa-flooring-services/hardwood-floor-refinishing-in-sammamish-wa-wills-flooring-copy -> /sammamish-wa-flooring-services/hardwood-floor-refinishing-in-sammamish-wa
-/seattle-flooring-services/laminate-flooring-installation-in-seattle-wa-expert-services -> /seattle-flooring-services/laminate-flooring-installation-in-seattle-wa
-/west-seattle-flooring-services/hardwood-floor-installation-in-west-seattle-wa---expert-services -> /west-seattle-flooring-services/hardwood-floor-installation-in-west-seattle-wa
+Import wills-flooring/webflow-301-redirects.csv in Webflow: Site Settings > Publishing > 301 Redirects > Import 301 redirects.
+Do this BEFORE publishing, or the renamed URLs will 404.
+
+The CSV is the COMPLETE final list: 17 rows = your 10 existing redirects (exported 15 Sep) plus the 7 new ones.
+
+Four of your existing redirects were retargeted, because they pointed at URLs that were renamed during this work.
+Left alone they would have become two-hop chains, which Google discounts and Webflow may not follow at all:
+
+  /renton-flooring-services/hardwood-floor-refinishing-in-renton-wa-wills-flooring
+     was -> /newcastle-wa-flooring-services/hardwood-floor-refinishing-in-renton-wa-wills-flooring
+     now -> /newcastle-wa-flooring-services/hardwood-floor-refinishing-in-newcastle-wa
+
+  /sammamish-wa-flooring-services/hardwood-floor-refinishing-in-sammamish-wa-wills-flooring
+     was -> /issaquah-wa-flooring-services/hardwood-floor-refinishing-in-sammamish-wa-wills-flooring
+     now -> /issaquah-wa-flooring-services/hardwood-floor-refinishing-in-issaquah-wa
+
+  /seattle-flooring-services/laminate-flooring-installation-in-seattle-wa---expert-services
+     was -> /seattle-flooring-services/laminate-flooring-installation-in-seattle-wa-expert-services
+     now -> /seattle-flooring-services/laminate-flooring-installation-in-seattle-wa
+
+  /bellevue-flooring-services/laminate-flooring-installation-in-bellevue-wa---expert-service
+     was -> /bellevue-flooring-services/laminate-flooring-installation-in-bellevue-wa-expert-service
+     now -> /bellevue-flooring-services/laminate-flooring-installation-in-bellevue-wa
+
+Checked: no duplicate sources, no redirect chains, no redirect pointing at itself.
