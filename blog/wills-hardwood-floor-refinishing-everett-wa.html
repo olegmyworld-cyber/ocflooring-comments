@@ -11,8 +11,9 @@ Metadata for the CMS item lives in blog/wills-hardwood-floor-refinishing-everett
 .ap{--ink:#1d1d1f;--ink2:#6e6e73;--bg:#f5f5f7;--card:#fff;--line:rgba(0,0,0,.08);--navy:#071730;--navy2:#03101f;--gold:#ea8a2a;--r:24px;font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display","SF Pro Text","Helvetica Neue",Inter,system-ui,sans-serif;color:var(--ink);-webkit-font-smoothing:antialiased}
 .ap *{box-sizing:border-box}
 /* Site rich-text renders links as blocks; keep them inline */
-.w-richtext a,.blog-post-content-wrapper a,.post-body a{display:inline!important;color:#071730!important;text-decoration:underline!important;text-underline-offset:3px;text-decoration-thickness:1px}
-.w-richtext a:hover,.blog-post-content-wrapper a:hover{color:#ea8a2a!important}
+.w-richtext a:not(.ap-btn):not(.star),.blog-post-content-wrapper a:not(.ap-btn):not(.star),.post-body a:not(.ap-btn):not(.star){display:inline!important;color:#071730!important;text-decoration:underline!important;text-underline-offset:3px;text-decoration-thickness:1px}
+.w-richtext a:not(.ap-btn):not(.star):hover,.blog-post-content-wrapper a:not(.ap-btn):not(.star):hover{color:#ea8a2a!important}
+.w-richtext a.ap-btn,.blog-post-content-wrapper a.ap-btn{display:inline-flex!important;text-decoration:none!important}
 .ap-ic{width:20px;height:20px;flex:0 0 auto;stroke:currentColor;fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;vertical-align:-4px}
 .ap-ib{display:inline-flex;align-items:center;justify-content:center;width:40px;height:40px;border-radius:12px;background:rgba(7,23,48,.06);color:#071730;margin-bottom:12px}
 .ap-ib.gold{background:rgba(234,138,42,.14);color:#c46a12}
