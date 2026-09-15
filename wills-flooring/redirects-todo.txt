@@ -27,3 +27,9 @@ Left alone they would have become two-hop chains, which Google discounts and Web
      now -> /bellevue-flooring-services/laminate-flooring-installation-in-bellevue-wa
 
 Checked: no duplicate sources, no redirect chains, no redirect pointing at itself.
+
+--- 15 Sep, after publish ---
+Why We're Different page retired (set to draft, out of sitemap, footer link removed).
+Import wills-flooring/webflow-301-redirect-why-page.csv (one row, no header):
+  /why-were-different -> /about
+Then publish. The redirect only fires once the page is unpublished, so publish is required.
