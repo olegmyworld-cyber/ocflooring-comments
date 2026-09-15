@@ -10,6 +10,20 @@ Metadata for the CMS item lives in blog/wills-hardwood-floor-refinishing-everett
 /* ===== Apple-style tokens & primitives ===== */
 .ap{--ink:#1d1d1f;--ink2:#6e6e73;--bg:#f5f5f7;--card:#fff;--line:rgba(0,0,0,.08);--navy:#071730;--navy2:#03101f;--gold:#ea8a2a;--r:24px;font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display","SF Pro Text","Helvetica Neue",Inter,system-ui,sans-serif;color:var(--ink);-webkit-font-smoothing:antialiased}
 .ap *{box-sizing:border-box}
+/* Site rich-text renders links as blocks; keep them inline */
+.w-richtext a,.blog-post-content-wrapper a,.post-body a{display:inline!important;color:#071730!important;text-decoration:underline!important;text-underline-offset:3px;text-decoration-thickness:1px}
+.w-richtext a:hover,.blog-post-content-wrapper a:hover{color:#ea8a2a!important}
+.ap-ic{width:20px;height:20px;flex:0 0 auto;stroke:currentColor;fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;vertical-align:-4px}
+.ap-ib{display:inline-flex;align-items:center;justify-content:center;width:40px;height:40px;border-radius:12px;background:rgba(7,23,48,.06);color:#071730;margin-bottom:12px}
+.ap-ib.gold{background:rgba(234,138,42,.14);color:#c46a12}
+.ap-tile .ap-ib{width:32px;height:32px;border-radius:10px;margin-bottom:8px}
+.ap-tile .ap-ib .ap-ic{width:17px;height:17px}
+.ap-lab-ic{display:inline-flex;align-items:center;gap:8px}
+.ap-lab-ic .ap-ic{width:18px;height:18px;color:#6e6e73}
+.ap-li-ic{display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:7px;background:rgba(7,23,48,.06);color:#071730;margin-right:8px;vertical-align:-5px}
+.ap-li-ic .ap-ic{width:14px;height:14px}
+.ap-steps .d{display:flex;flex-direction:column;gap:6px}
+.ap-steps .d .ap-ic{color:#6e6e73}
 .ap-panel{background:var(--bg);border-radius:28px;padding:36px 28px;margin:28px 0}
 @media(max-width:680px){.ap-panel{padding:24px 18px;border-radius:22px}}
 .ap-card{background:var(--card);border-radius:var(--r);padding:26px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
@@ -45,6 +59,7 @@ html body .post-body .ap-card p, .ap-card p{margin:0!important;font-size:15.5px!
 .ap-list li:first-child{border-top:0;padding-top:0}
 .ap-list li:before{content:"";position:absolute;left:0;top:calc(50% - 10px);width:20px;height:20px;border-radius:50%;background:var(--navy);-webkit-mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Ccircle cx='10' cy='10' r='10'/%3E%3Cpath d='M6 10.5l2.6 2.6L14 7.5' stroke='%23fff' stroke-width='2' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center/contain no-repeat;mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Ccircle cx='10' cy='10' r='10'/%3E%3Cpath d='M6 10.5l2.6 2.6L14 7.5' stroke='%23fff' stroke-width='2' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center/contain no-repeat}
 .ap-list li:first-child:before{top:calc(50% - 16px)}
+.ap-list.noicon li{padding-left:0}.ap-list.noicon li:before{display:none}
 .ap-list.x li:before{background:#c7c7cc;-webkit-mask-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Ccircle cx='10' cy='10' r='10'/%3E%3Cpath d='M7 7l6 6M13 7l-6 6' stroke='%23fff' stroke-width='2' stroke-linecap='round'/%3E%3C/svg%3E");mask-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Ccircle cx='10' cy='10' r='10'/%3E%3Cpath d='M7 7l6 6M13 7l-6 6' stroke='%23fff' stroke-width='2' stroke-linecap='round'/%3E%3C/svg%3E")}
 .ap-btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;background:var(--navy);color:#fff!important;border:0;border-radius:999px;padding:14px 24px;font-size:16px;font-weight:600;text-decoration:none!important;cursor:pointer;transition:transform .2s,background .2s}
 .ap-btn:hover{background:var(--navy2);transform:translateY(-1px)}
@@ -83,13 +98,13 @@ html.ap-ready .ap-rv.ap-in{opacity:1;transform:none}
   <span class="ap-eyebrow">Quick answer · Everett, WA · 2026</span>
   <p class="ap-lead">Refinishing hardwood floors in Everett costs $1.99–$6.50 per square foot. <span>$1.99 for a screen &amp; recoat, $3.99 for a full sand with natural finish, $6.50 with a custom stain, 500 sq ft minimum. A typical 800–1,200 sq ft main floor runs $3,200–$4,800 for a natural refinish and takes two to four working days. Pre-1950 North Everett homes usually have old-growth Douglas fir; 1960s–2000s homes south of 41st usually have red or white oak. Both refinish beautifully.</span></p>
   <div class="ap-grid c4" style="margin-top:22px">
-    <div class="ap-tile"><b>Cost / sq ft</b><span>$1.99–$6.50</span></div>
-    <div class="ap-tile"><b>Timeline</b><span>2–4 days</span></div>
-    <div class="ap-tile"><b>Minimum</b><span>500 sq ft</span></div>
-    <div class="ap-tile"><b>Warranty</b><span>1 year</span></div>
+    <div class="ap-tile"><span class="ap-ib"><svg class="ap-ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2v20M17 6.5H9.5a3 3 0 0 0 0 6h5a3 3 0 0 1 0 6H6"/></svg></span><b>Cost / sq ft</b><span>$1.99–$6.50</span></div>
+    <div class="ap-tile"><span class="ap-ib"><svg class="ap-ic" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span><b>Timeline</b><span>2–4 days</span></div>
+    <div class="ap-tile"><span class="ap-ib"><svg class="ap-ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 17 17 3l4 4L7 21z"/><path d="m8 8 1.5 1.5M11 5l1.5 1.5M14 14l1.5 1.5M5 11l1.5 1.5"/></svg></span><b>Minimum</b><span>500 sq ft</span></div>
+    <div class="ap-tile"><span class="ap-ib"><svg class="ap-ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 5 6v5c0 5 3.5 8.5 7 10 3.5-1.5 7-5 7-10V6z"/><path d="m9 12 2 2 4-4"/></svg></span><b>Warranty</b><span>1 year</span></div>
   </div>
   <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:22px">
-    <a class="ap-btn" href="#refi-calc-title">Try the calculator</a>
+    <a class="ap-btn" href="#refi-calc-title"><svg class="ap-ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v4M12 17v4M3 12h4M17 12h4M6 6l2 2M16 16l2 2M6 18l2-2M16 8l2-2"/></svg> Try the calculator</a>
     <a class="ap-btn ghost" href="tel:+14253504435">Call (425) 350-4435</a>
   </div>
 </section></div>
@@ -99,9 +114,9 @@ html.ap-ready .ap-rv.ap-in{opacity:1;transform:none}
 <h2>Why Everett Floors Are Worth a Local Guide</h2>
 
 <div data-rt-embed-type='true'><section class="ap"><div class="ap-grid c3">
-  <div class="ap-card ap-rv"><span class="ap-num">1890s–1930s</span><p>North Everett's oldest homes were built when the mills were running. The floors are usually old-growth Douglas fir, tight-grained wood you cannot buy new today. It's softer than oak and rewards a careful sander.</p></div>
-  <div class="ap-card ap-rv"><span class="ap-num">1967</span><p>The year the Boeing Everett plant opened. The ranchers and split-levels that followed almost always have 2¼" red oak strip flooring, and most of it has been sanded once or never. Ideal refinish candidates.</p></div>
-  <div class="ap-card ap-rv"><span class="ap-num">3 in 10</span><p>Roughly three in ten Everett estimates start with "we think there's hardwood under the carpet." There usually is, and it's usually salvageable. Staple holes and carpet-pad residue sand right out.</p></div>
+  <div class="ap-card ap-rv"><span class="ap-ib"><svg class="ap-ic" viewBox="0 0 24 24" aria-hidden="true"><path d="m3 11 9-8 9 8v9a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"/></svg></span><span class="ap-num">1890s–1930s</span><p>North Everett's oldest homes were built when the mills were running. The floors are usually old-growth Douglas fir, tight-grained wood you cannot buy new today. It's softer than oak and rewards a careful sander.</p></div>
+  <div class="ap-card ap-rv"><span class="ap-ib"><svg class="ap-ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 21V9l6 4V9l6 4V4h6v17z"/></svg></span><span class="ap-num">1967</span><p>The year the Boeing Everett plant opened. The ranchers and split-levels that followed almost always have 2¼" red oak strip flooring, and most of it has been sanded once or never. Ideal refinish candidates.</p></div>
+  <div class="ap-card ap-rv"><span class="ap-ib"><svg class="ap-ic" viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3 9 5-9 5-9-5z"/><path d="m3 13 9 5 9-5"/></svg></span><span class="ap-num">3 in 10</span><p>Roughly three in ten Everett estimates start with "we think there's hardwood under the carpet." There usually is, and it's usually salvageable. Staple holes and carpet-pad residue sand right out.</p></div>
 </div></section></div>
 
 <h2>What Hardwood Floor Refinishing Costs in Everett (2026)</h2>
@@ -109,9 +124,9 @@ html.ap-ready .ap-rv.ap-in{opacity:1;transform:none}
 
 <div data-rt-embed-type='true'><section class="ap ap-panel">
   <div class="ap-grid c3">
-    <div class="ap-card ap-rv"><span class="ap-tag gold">Best value</span><div class="ap-price">$3.99<small>/ sq ft</small></div><h3 class="ap-h3">Natural finish</h3><p style="margin-top:8px!important">Full sand to bare wood, three coats of clear waterborne finish. The "like new" refinish, and the right call for Everett fir.</p></div>
-    <div class="ap-card ap-rv"><span class="ap-tag">Most popular</span><div class="ap-price">$6.50<small>/ sq ft</small></div><h3 class="ap-h3">Stain finish</h3><p style="margin-top:8px!important">Full sand, custom stain color, protective topcoats. Turns orange 1970s oak into a modern light-natural or a deep espresso.</p></div>
-    <div class="ap-card ap-rv"><span class="ap-tag">Fast refresh</span><div class="ap-price">$1.99<small>/ sq ft</small></div><h3 class="ap-h3">Screen &amp; recoat</h3><p style="margin-top:8px!important">Light buff and a fresh topcoat, usually one day. For floors that are dull but not damaged.</p></div>
+    <div class="ap-card ap-rv"><span class="ap-ib gold"><svg class="ap-ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 4c-9 0-15 5-15 13a4 4 0 0 0 4 4c8 0 11-7 11-17z"/><path d="M5 21c3-6 7-9 12-12"/></svg></span><br><span class="ap-tag gold">Best value</span><div class="ap-price">$3.99<small>/ sq ft</small></div><h3 class="ap-h3">Natural finish</h3><p style="margin-top:8px!important">Full sand to bare wood, three coats of clear waterborne finish. The "like new" refinish, and the right call for Everett fir.</p></div>
+    <div class="ap-card ap-rv"><span class="ap-ib"><svg class="ap-ic" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="8.5" cy="10" r="1"/><circle cx="12" cy="7" r="1"/><circle cx="15.5" cy="10" r="1"/><path d="M12 21c-1.5-2 1-4 3-4h1.5a2.5 2.5 0 0 0 0-5"/></svg></span><br><span class="ap-tag">Most popular</span><div class="ap-price">$6.50<small>/ sq ft</small></div><h3 class="ap-h3">Stain finish</h3><p style="margin-top:8px!important">Full sand, custom stain color, protective topcoats. Turns orange 1970s oak into a modern light-natural or a deep espresso.</p></div>
+    <div class="ap-card ap-rv"><span class="ap-ib"><svg class="ap-ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 12a8 8 0 1 1-2.3-5.7"/><path d="M20 4v5h-5"/></svg></span><br><span class="ap-tag">Fast refresh</span><div class="ap-price">$1.99<small>/ sq ft</small></div><h3 class="ap-h3">Screen &amp; recoat</h3><p style="margin-top:8px!important">Light buff and a fresh topcoat, usually one day. For floors that are dull but not damaged.</p></div>
   </div>
   <p style="margin:18px 4px 0;font-size:14px;line-height:1.5;color:#6e6e73">500 sq ft minimum billed area. Add-ons: dust containment +$250, washer &amp; dryer +$160 per pair, other appliances +$80 each. Stairs $55–$75 per tread. Board repairs and pet-stain replacements are quoted at the free in-home estimate.</p>
 </section></div>
@@ -180,19 +195,19 @@ html.ap-ready .ap-rv.ap-in{opacity:1;transform:none}
   <h2 id="refi-calc-title" class="ap-h" style="margin-top:0">Everett Refinishing Calculator</h2>
   <p class="ap-sub">Real Snohomish County pricing. Tell us the era of your house and we'll tell you what to expect under the finish.</p>
   <form class="rc-grid" onsubmit="return false;">
-    <div class="rc-field rc-span"><span class="rc-lab">Service</span>
+    <div class="rc-field rc-span"><span class="rc-lab ap-lab-ic"><svg class="ap-ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20c3 0 4-2 4-4l8-8 4 4-8 8c-2 0-4 1-8 0z"/><path d="m14 6 4 4"/></svg>Service</span>
       <div class="rc-seg" role="radiogroup" aria-label="Service">
         <button type="button" class="on" data-v="natural">Natural <em>$3.99</em></button>
         <button type="button" data-v="stain">Stain <em>$6.50</em></button>
         <button type="button" data-v="recoat">Recoat <em>$1.99</em></button>
       </div><input type="hidden" id="rc-finish" value="natural">
     </div>
-    <label class="rc-field"><span class="rc-lab">Total floor area</span><div class="rc-in"><input id="rc-area" type="number" min="1" value="850" inputmode="numeric"><i>sq ft</i></div><small>500 sq ft minimum billed</small></label>
-    <label class="rc-field"><span class="rc-lab">Stair treads</span><div class="rc-in"><input id="rc-stairs" type="number" min="0" value="0" inputmode="numeric"><i>treads</i></div><small>$55–$75 per tread</small></label>
-    <label class="rc-field rc-span"><span class="rc-lab">When was your house built?</span><select id="rc-era"><option value="pre1940">Before 1940 · North Everett, Riverside, Bayside</option><option value="mid" selected>1940–1979 · Evergreen, Delta, Lowell, Eastmont</option><option value="late">1980–2005 · Silver Lake, Cascade View, Pinehurst</option><option value="new">2006 or newer</option><option value="unknown">Not sure</option></select><small>Doesn't change the price. Changes what we expect to find.</small></label>
-    <label class="rc-field rc-row"><span><span class="rc-lab">Dust containment</span><small>+$250</small></span><span class="rc-sw"><input id="rc-dust" type="checkbox"><i></i></span></label>
-    <label class="rc-field rc-row"><span><span class="rc-lab">Move washer &amp; dryer</span><small>+$160 per pair</small></span><span class="rc-sw"><input id="rc-wd" type="checkbox"><i></i></span></label>
-    <label class="rc-field rc-row"><span><span class="rc-lab">Other appliances</span><small>+$80 each</small></span><span class="rc-step"><button type="button" data-d="-1" aria-label="Fewer">−</button><input id="rc-appliances" type="number" min="0" value="0" inputmode="numeric"><button type="button" data-d="1" aria-label="More">+</button></span></label>
+    <label class="rc-field"><span class="rc-lab ap-lab-ic"><svg class="ap-ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 17 17 3l4 4L7 21z"/><path d="m8 8 1.5 1.5M11 5l1.5 1.5M14 14l1.5 1.5M5 11l1.5 1.5"/></svg>Total floor area</span><div class="rc-in"><input id="rc-area" type="number" min="1" value="850" inputmode="numeric"><i>sq ft</i></div><small>500 sq ft minimum billed</small></label>
+    <label class="rc-field"><span class="rc-lab ap-lab-ic"><svg class="ap-ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 21h4v-4h4v-4h4V9h4V5h2"/></svg>Stair treads</span><div class="rc-in"><input id="rc-stairs" type="number" min="0" value="0" inputmode="numeric"><i>treads</i></div><small>$55–$75 per tread</small></label>
+    <label class="rc-field rc-span"><span class="rc-lab ap-lab-ic"><svg class="ap-ic" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M8 3v4M16 3v4M3 10h18"/></svg>When was your house built?</span><select id="rc-era"><option value="pre1940">Before 1940 · North Everett, Riverside, Bayside</option><option value="mid" selected>1940–1979 · Evergreen, Delta, Lowell, Eastmont</option><option value="late">1980–2005 · Silver Lake, Cascade View, Pinehurst</option><option value="new">2006 or newer</option><option value="unknown">Not sure</option></select><small>Doesn't change the price. Changes what we expect to find.</small></label>
+    <label class="rc-field rc-row"><span><span class="rc-lab ap-lab-ic"><svg class="ap-ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 8h10a3 3 0 1 0-3-3"/><path d="M4 12h14a3 3 0 1 1-3 3"/><path d="M4 16h7a2 2 0 1 1-2 2"/></svg>Dust containment</span><small>+$250</small></span><span class="rc-sw"><input id="rc-dust" type="checkbox"><i></i></span></label>
+    <label class="rc-field rc-row"><span><span class="rc-lab ap-lab-ic"><svg class="ap-ic" viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="3" width="16" height="18" rx="2"/><circle cx="12" cy="13" r="4"/><path d="M8 7h.01M11 7h2"/></svg>Move washer &amp; dryer</span><small>+$160 per pair</small></span><span class="rc-sw"><input id="rc-wd" type="checkbox"><i></i></span></label>
+    <label class="rc-field rc-row"><span><span class="rc-lab ap-lab-ic"><svg class="ap-ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 3v5M15 3v5M6 8h12v4a6 6 0 0 1-12 0z"/><path d="M12 18v3"/></svg>Other appliances</span><small>+$80 each</small></span><span class="rc-step"><button type="button" data-d="-1" aria-label="Fewer">−</button><input id="rc-appliances" type="number" min="0" value="0" inputmode="numeric"><button type="button" data-d="1" aria-label="More">+</button></span></label>
     <div class="rc-actions rc-span"><button type="button" id="rc-calc" class="ap-btn">Calculate</button><button type="button" id="rc-reset" class="ap-btn ghost">Reset</button></div>
   </form>
   <div id="rc-result" class="rc-result" hidden aria-live="polite">
@@ -308,9 +323,9 @@ html.ap-ready .ap-rv.ap-in{opacity:1;transform:none}
 <p>This is the most common Everett call we get, and the answer is usually yes. Carpet protects a hardwood floor from decades of sun and traffic, so what comes out from under 1980s carpet in a Delta or Riverside house is often in better shape than a floor that was exposed the whole time. Here's how to check before you call anyone:</p>
 
 <div data-rt-embed-type='true'><section class="ap"><div class="ap-grid c3">
-  <div class="ap-card ap-rv"><span class="ap-tag">Step 1</span><h3 class="ap-h3" style="margin:12px 0 8px">Pull a floor vent register</h3><p>Look at the edge of the cut-out. Hardwood shows layers of tongue-and-groove boards ¾" thick. Plywood subfloor shows thin laminated layers.</p></div>
-  <div class="ap-card ap-rv"><span class="ap-tag">Step 2</span><h3 class="ap-h3" style="margin:12px 0 8px">Lift a corner in a closet</h3><p>Carpet is usually only tacked at the edges. Peel back a corner and the pad; you'll see the boards.</p></div>
-  <div class="ap-card ap-rv"><span class="ap-tag">Step 3</span><h3 class="ap-h3" style="margin:12px 0 8px">Look for the border</h3><p>Pre-1940 Everett homes often have a stained or painted border 12 to 18 inches in from the walls. That all sands out to one uniform floor.</p></div>
+  <div class="ap-card ap-rv"><span class="ap-ib"><svg class="ap-ic" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="7" width="18" height="10" rx="2"/><path d="M7 10h10M7 14h10"/></svg></span><br><span class="ap-tag">Step 1</span><h3 class="ap-h3" style="margin:12px 0 8px">Pull a floor vent register</h3><p>Look at the edge of the cut-out. Hardwood shows layers of tongue-and-groove boards ¾" thick. Plywood subfloor shows thin laminated layers.</p></div>
+  <div class="ap-card ap-rv"><span class="ap-ib"><svg class="ap-ic" viewBox="0 0 24 24" aria-hidden="true"><circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><path d="M20 4 8.5 15.5M20 20 8.5 8.5"/></svg></span><br><span class="ap-tag">Step 2</span><h3 class="ap-h3" style="margin:12px 0 8px">Lift a corner in a closet</h3><p>Carpet is usually only tacked at the edges. Peel back a corner and the pad; you'll see the boards.</p></div>
+  <div class="ap-card ap-rv"><span class="ap-ib"><svg class="ap-ic" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2"/><rect x="7" y="7" width="10" height="10" rx="1"/></svg></span><br><span class="ap-tag">Step 3</span><h3 class="ap-h3" style="margin:12px 0 8px">Look for the border</h3><p>Pre-1940 Everett homes often have a stained or painted border 12 to 18 inches in from the walls. That all sands out to one uniform floor.</p></div>
 </div></section></div>
 
 <p>What sands out: staple holes, tack-strip nail holes, carpet-pad residue, paint spatter, old shellac and varnish, gray oxidation. What doesn't: black pet stains that reached the wood, boards cut for old floor furnaces or heat registers, and water damage that lifted or cupped the boards. Those are board-replacement repairs, and we weave in matching oak or fir before finishing so the repair disappears. If the floor is more than half damaged, we'll tell you honestly that <a href="/services/hardwood-flooring">new hardwood installation</a> is the better use of money.</p>
@@ -319,11 +334,11 @@ html.ap-ready .ap-rv.ap-in{opacity:1;transform:none}
 <p>A full sand-and-refinish on a typical Everett main floor runs two to four working days, and you're walking on it in socks the next morning. Here's the schedule we run on an 850 sq ft rambler:</p>
 
 <div data-rt-embed-type='true'><section class="ap ap-panel"><ol class="ap-steps">
-  <li><span class="d">Before</span><span class="t">Free in-home estimate. We measure, check species, thickness at a vent and moisture content, note repairs, and hand you a firm written quote.<em>You: move small items. We can move appliances for the add-on fee.</em></span></li>
-  <li><span class="d">Day 1</span><span class="t">Rough, medium and fine sanding passes with dust-capturing machines. Edges and corners by edger and hand. Repairs woven in.<em>You: home is fine to be in; rooms being sanded are off-limits.</em></span></li>
-  <li><span class="d">Day 2</span><span class="t">Final buff, gap filling, vacuum and tack. Water-pop if staining. Stain or sealer coat goes down.<em>You: stay off the coated rooms. Low odor with waterborne finish.</em></span></li>
-  <li><span class="d">Day 3</span><span class="t">Second and third coats of Bona waterborne finish, two to three hours apart. Final walkthrough.<em>You: socks only the next morning.</em></span></li>
-  <li><span class="d">After</span><span class="t">Finish cures over seven days, full hardness at about fourteen.<em>You: furniture at 48–72 hours with felt pads. Rugs after 7–14 days.</em></span></li>
+  <li><span class="d"><svg class="ap-ic" viewBox="0 0 24 24" aria-hidden="true"><rect x="6" y="4" width="12" height="17" rx="2"/><path d="M9 4V3h6v1M9 11h6M9 15h4"/></svg>Before</span><span class="t">Free in-home estimate. We measure, check species, thickness at a vent and moisture content, note repairs, and hand you a firm written quote.<em>You: move small items. We can move appliances for the add-on fee.</em></span></li>
+  <li><span class="d"><svg class="ap-ic" viewBox="0 0 24 24" aria-hidden="true"><path d="m14 6 6 6-2 2-6-6z"/><path d="M4 20l7-7 3 3-7 7z"/><path d="m11 3 3 3"/></svg>Day 1</span><span class="t">Rough, medium and fine sanding passes with dust-capturing machines. Edges and corners by edger and hand. Repairs woven in.<em>You: home is fine to be in; rooms being sanded are off-limits.</em></span></li>
+  <li><span class="d"><svg class="ap-ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3s6 6.5 6 11a6 6 0 0 1-12 0c0-4.5 6-11 6-11z"/></svg>Day 2</span><span class="t">Final buff, gap filling, vacuum and tack. Water-pop if staining. Stain or sealer coat goes down.<em>You: stay off the coated rooms. Low odor with waterborne finish.</em></span></li>
+  <li><span class="d"><svg class="ap-ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20c3 0 4-2 4-4l8-8 4 4-8 8c-2 0-4 1-8 0z"/><path d="m14 6 4 4"/></svg>Day 3</span><span class="t">Second and third coats of Bona waterborne finish, two to three hours apart. Final walkthrough.<em>You: socks only the next morning.</em></span></li>
+  <li><span class="d"><svg class="ap-ic" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="m8 12 3 3 5-6"/></svg>After</span><span class="t">Finish cures over seven days, full hardness at about fourteen.<em>You: furniture at 48–72 hours with felt pads. Rugs after 7–14 days.</em></span></li>
 </ol></section></div>
 
 <p>Does Everett's rain slow anything down? Not much. Waterborne finishes dry by evaporation and cure by reaction, and we're working indoors with the heat on in winter. What matters more is the house sitting at normal living conditions, roughly 35–55% relative humidity, for a week or two before sanding, so the boards are at the width they'll live at. That's why we ask you to run the furnace normally in January and not to leave the house at 50°F while you're away. More on <a href="/services/process">our refinishing process</a>.</p>
@@ -332,9 +347,9 @@ html.ap-ready .ap-rv.ap-in{opacity:1;transform:none}
 <p>We're Bona Certified Craftsmen and use Bona waterborne finishes on nearly every Everett floor. We'd push back if you asked for oil-based polyurethane. Here's the honest comparison:</p>
 
 <div data-rt-embed-type='true'><section class="ap"><div class="ap-grid c2">
-  <div class="ap-card ap-rv"><span class="ap-tag gold">What we recommend</span><h3 class="ap-h3" style="margin:12px 0 4px">Bona waterborne</h3>
+  <div class="ap-card ap-rv"><span class="ap-ib gold"><svg class="ap-ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 15c2-2 4-2 6 0s4 2 6 0 4-2 6 0"/><path d="M3 10c2-2 4-2 6 0s4 2 6 0 4-2 6 0"/></svg></span><br><span class="ap-tag gold">What we recommend</span><h3 class="ap-h3" style="margin:12px 0 4px">Bona waterborne</h3>
     <ul class="ap-list"><li>Dries in two to three hours between coats; three coats in one day</li><li>Low odor and low VOC. Families and pets stay home</li><li>Stays clear. Fir and white oak keep their true color</li><li>Bona Traffic HD option for kitchens, dogs and rentals</li><li>Light-natural and Nordic looks are only possible with waterborne</li></ul></div>
-  <div class="ap-card ap-rv"><span class="ap-tag">On request</span><h3 class="ap-h3" style="margin:12px 0 4px">Oil-based polyurethane</h3>
+  <div class="ap-card ap-rv"><span class="ap-ib"><svg class="ap-ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3c1 4 5 5 5 10a5 5 0 0 1-10 0c0-2 1-3 2-4 0 2 1 3 2 3 0-3-1-5 1-9z"/></svg></span><br><span class="ap-tag">On request</span><h3 class="ap-h3" style="margin:12px 0 4px">Oil-based polyurethane</h3>
     <ul class="ap-list x"><li>8–24 hours between coats; three to five days out of the rooms</li><li>Strong fumes; not ideal in an occupied Everett home in winter</li><li>Ambers over time. Turns oak orange and fir pumpkin</li><li>Cheaper per gallon, but the schedule costs you more</li><li>Fine for a vacant rental if you want that traditional amber look</li></ul></div>
 </div></section></div>
 
@@ -342,12 +357,12 @@ html.ap-ready .ap-rv.ap-in{opacity:1;transform:none}
 
 <h2>Pet Stains, Winter Gaps and Other Everett Repairs</h2>
 
-<div data-rt-embed-type='true'><section class="ap ap-card"><ul class="ap-list" style="margin:0">
-  <li><strong>Pet urine stains.</strong> Gray or light brown usually sands out. Black means the urine reached the wood fibers; sanding won't remove it and neither will bleach. We replace the boards.</li>
-  <li><strong>Gaps between boards every winter.</strong> Normal in Everett. Furnace heat drops indoor humidity, boards shrink, gaps open, then close in June. We fill during refinishing, but we won't fill wide seasonal gaps in a fir floor with hard filler, because it pops out by spring.</li>
-  <li><strong>Cupped boards near a door or dishwasher.</strong> Find the moisture source first, let the floor dry to match the rest of the house, then sand flat. Sanding a wet, cupped floor flat gives you a crowned floor when it dries.</li>
-  <li><strong>Sun-faded floors by the sliders.</strong> Common in west-facing Bayside and Rucker Hill homes. A full sand resets the color; a recoat won't.</li>
-  <li><strong>Old floor-furnace cutouts.</strong> We patch with matching species and, on fir, hunt down reclaimed old-growth so the grain matches.</li>
+<div data-rt-embed-type='true'><section class="ap ap-card"><ul class="ap-list noicon" style="margin:0">
+  <li><span class="ap-li-ic"><svg class="ap-ic" viewBox="0 0 24 24" aria-hidden="true"><circle cx="7" cy="9" r="1.6"/><circle cx="11" cy="6" r="1.6"/><circle cx="15.5" cy="7" r="1.6"/><circle cx="18.5" cy="11" r="1.6"/><path d="M12 11c-3 0-6 3-6 6a2 2 0 0 0 3 1.7c1-.6 2-.6 3-.6s2 0 3 .6A2 2 0 0 0 18 17c0-3-3-6-6-6z"/></svg></span><strong>Pet urine stains.</strong> Gray or light brown usually sands out. Black means the urine reached the wood fibers; sanding won't remove it and neither will bleach. We replace the boards.</li>
+  <li><span class="ap-li-ic"><svg class="ap-ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2v20M2 12h20M5 5l14 14M19 5 5 19"/></svg></span><strong>Gaps between boards every winter.</strong> Normal in Everett. Furnace heat drops indoor humidity, boards shrink, gaps open, then close in June. We fill during refinishing, but we won't fill wide seasonal gaps in a fir floor with hard filler, because it pops out by spring.</li>
+  <li><span class="ap-li-ic"><svg class="ap-ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3s6 6.5 6 11a6 6 0 0 1-12 0c0-4.5 6-11 6-11z"/></svg></span><strong>Cupped boards near a door or dishwasher.</strong> Find the moisture source first, let the floor dry to match the rest of the house, then sand flat. Sanding a wet, cupped floor flat gives you a crowned floor when it dries.</li>
+  <li><span class="ap-li-ic"><svg class="ap-ic" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M4.9 19.1 7 17M17 7l2.1-2.1"/></svg></span><strong>Sun-faded floors by the sliders.</strong> Common in west-facing Bayside and Rucker Hill homes. A full sand resets the color; a recoat won't.</li>
+  <li><span class="ap-li-ic"><svg class="ap-ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3c1 4 5 5 5 10a5 5 0 0 1-10 0c0-2 1-3 2-4 0 2 1 3 2 3 0-3-1-5 1-9z"/></svg></span><strong>Old floor-furnace cutouts.</strong> We patch with matching species and, on fir, hunt down reclaimed old-growth so the grain matches.</li>
 </ul></section></div>
 
 <h2>How to Compare Refinishing Quotes in Everett</h2>
@@ -426,6 +441,7 @@ html.ap-ready .ap-rv.ap-in{opacity:1;transform:none}
     html body .post-body .ap-cta .s, .ap-cta .s{color:rgba(255,255,255,.72)!important;font-size:17px!important;line-height:1.5!important;max-width:560px;margin:0 auto 22px!important}
     .ap-cta .row{display:flex;gap:10px;justify-content:center;flex-wrap:wrap}
     .ap-cta .chips{display:flex;gap:18px;justify-content:center;flex-wrap:wrap;margin-top:22px;font-size:14px;color:rgba(255,255,255,.7)}
+    .ap-cta .chips span{display:inline-flex;align-items:center;gap:6px}.ap-cta .chips .ap-ic{width:16px;height:16px;color:#ea8a2a}
     html body .post-body .ap-cta a.ghost, .ap-cta a.ghost{color:#fff!important;border-color:rgba(255,255,255,.4)!important}
     .ap-cta a.ghost:hover{background:rgba(255,255,255,.08)}
     html body .post-body .ap-cta a.star, .ap-cta a.star{color:#ea8a2a!important;text-decoration:none!important;font-weight:600;display:inline-block;margin-top:16px;font-size:15px}
@@ -435,7 +451,7 @@ html.ap-ready .ap-rv.ap-in{opacity:1;transform:none}
     <h2>Get your exact Everett price</h2>
     <p class="s">We measure, check the species and thickness, and hand you a firm written quote on the spot. No pressure, no obligation, anywhere in Everett and Snohomish County.</p>
     <div class="row"><a class="ap-btn white" href="tel:+14253504435">Call (425) 350-4435</a><a class="ap-btn ghost" href="/contact">Book a free estimate</a></div>
-    <div class="chips"><span>Bona Certified Craftsmen</span><span>Since 2013</span><span>1-year workmanship warranty</span><span>Licensed &amp; insured</span><span>Lynnwood showroom, 15 min from Everett</span></div>
+    <div class="chips"><span><svg class="ap-ic" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="9" r="6"/><path d="m8.5 14-1.5 7 5-3 5 3-1.5-7"/></svg> Bona Certified Craftsmen</span><span><svg class="ap-ic" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M8 3v4M16 3v4M3 10h18"/></svg> Since 2013</span><span><svg class="ap-ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 5 6v5c0 5 3.5 8.5 7 10 3.5-1.5 7-5 7-10V6z"/><path d="m9 12 2 2 4-4"/></svg> 1-year workmanship warranty</span><span><svg class="ap-ic" viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg> Licensed &amp; insured</span><span><svg class="ap-ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-6-7-11a7 7 0 0 1 14 0c0 5-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg> Lynnwood showroom, 15 min from Everett</span></div>
     <a class="star" href="/about">★★★★★ 4.8 stars, 100+ five-star reviews on Google</a>
   </div>
 </section></div>
