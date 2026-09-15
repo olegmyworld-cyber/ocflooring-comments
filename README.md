@@ -22,3 +22,25 @@ phones. See [`webflow-scripts/bonamobilefix-1.0.0.js`](webflow-scripts/bonamobil
 
 Published live to `nwocflooring.com`, `www.nwocflooring.com`, and the Webflow
 subdomain.
+
+## Blog posts (branch `claude/clever-noether-l41bks`)
+
+### Hardwood Floor Refinishing in Everett, WA (2026-09-15)
+
+Webflow rich-text embed for a new Blogs CMS item targeting "hardwood floor
+refinishing Everett WA" and the Snohomish County long tail.
+
+- [`blog/hardwood-floor-refinishing-everett-wa.html`](blog/hardwood-floor-refinishing-everett-wa.html)
+  — Post Body. Same `.ocb` design system as the King & Snohomish cost guide
+  (Mulish, `#8B0000` brand). Sixteen `data-rt-embed-type` blocks, each under
+  Webflow's 10,000-char embed limit. Hooks: an Everett calculator (era selector,
+  stair treads at $55–$75, add-ons, 500 sq ft minimum) and a five-question
+  "recoat or refinish?" quiz. FAQ accordion with 13 questions. Structured data
+  is a single `@graph` (BlogPosting, Service with Everett `areaServed` and priced
+  Offers, FAQPage).
+- [`blog/hardwood-floor-refinishing-everett-wa.meta.md`](blog/hardwood-floor-refinishing-everett-wa.meta.md)
+  — Name, slug, title tag, meta description, summary, category, City Links
+  field HTML, and the keyword map.
+
+Verified in headless Chromium: calculator math (min billing, stair range,
+add-ons), quiz verdicts, FAQ toggles, no horizontal overflow at 320–1200 px.
