@@ -1,6 +1,8 @@
 # Wills Flooring — CMS item metadata
 
 Site `66cc1f4542ee0c42e43d0303` · collection **Blog Posts** `66cecfc7e7f88d2528ab474e` · category **Hardwood Refinishing** `66ced3625e68f5f0e740c5b9`.
+
+**Created as a draft CMS item on 2026-09-15: `6aa9c8c879f234ee20d70b90`** (unpublished; body verified identical to the HTML file; main image imported from gallery item 92).
 The blog template derives `<title>` from **Name** and the meta description from **Description Small**, so there are no separate title-tag / meta fields.
 
 | Field | Value |
