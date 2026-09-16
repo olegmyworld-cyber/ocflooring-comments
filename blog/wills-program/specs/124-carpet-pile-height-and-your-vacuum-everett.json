@@ -133,15 +133,15 @@
    "items": [
     {
      "icon": "alert",
-     "html": "<strong>\"The vacuum will not move.\"</strong> Suction lock on dense plush. Raise the height setting, open the suction relief valve if there is one, or switch to a suction-only head. The carpet is not defective."
+     "html": "<strong>\"The vacuum will not move.\"</strong> Suction lock on dense plush. Raise the height setting, open the suction relief valve, or switch to a suction-only head. The carpet is not defective."
     },
     {
      "icon": "scissors",
-     "html": "<strong>\"My Berber is getting fuzzy.\"</strong> A stiff beater bar is pulling at the loops and eventually snags one, which can run like a stocking. Turn the brush off on loop pile. Most carpet warranties specifically call this out."
+     "html": "<strong>\"My Berber is getting fuzzy.\"</strong> A stiff beater bar pulls at the loops and eventually snags one, which runs like a stocking. Turn the brush off on loop pile; most warranties call this out."
     },
     {
      "icon": "wind",
-     "html": "<strong>\"It smells hot.\"</strong> The brush roll is bogged in long fibers or the belt is slipping because the head is set too low. Long frieze needs the highest setting; clear the roll with scissors weekly."
+     "html": "<strong>\"It smells hot.\"</strong> The brush roll is bogged in long fibers, or the belt slips because the head sits too low. Long frieze needs the highest setting."
     },
     {
      "icon": "paw",
@@ -159,7 +159,7 @@
   },
   {
    "type": "p",
-   "html": "Pile height changes how a room cleans, not what it costs to install. Labor is <strong>$0.99 per sq ft</strong> stretch-in over pad, <strong>$1.29 per sq ft</strong> glue-down on a slab, and <strong>$30 per step</strong>, with a 500 sq ft minimum, for low pile and shag alike. Tear-out and haul-away of the old carpet and pad is $0.45 per sq ft, and moving furniture is $0.25 per sq ft. An upstairs in a Silver Lake two-story, 900 sq ft with a 13-step run, is 900 × $0.99 + 13 × $30 = $1,281 in labor, plus $405 if we pull the old carpet. The carpet and pad themselves are quoted at the free in-home estimate, and a dense medium pile costs more per yard than a thin builder plush."
+   "html": "Pile height changes how a room cleans, not what it costs to install. Labor is <strong>$0.99 per sq ft</strong> stretch-in over pad, <strong>$1.29</strong> glue-down on a slab and <strong>$30 per step</strong>, 500 sq ft minimum, for low pile and shag alike. Tear-out and haul-away is $0.45 per sq ft, moving furniture $0.25. An upstairs in a Silver Lake two-story, 900 sq ft with a 13-step run, is 900 × $0.99 + 13 × $30 = $1,281 in labor, plus $405 to pull the old carpet. The carpet and pad are quoted at the free in-home estimate, and a dense medium pile costs more per yard than a thin builder plush."
   },
   {
    "type": "calc",
@@ -224,6 +224,32 @@
    "icon": "home",
    "title": "The Everett shift-worker reality: ",
    "text": "A lot of our Everett customers work Boeing shifts and clean at odd hours. If quiet matters, a canister with a suction head on medium pile is the quietest combination. If a robot runs while you sleep, keep pile under 3/8 in, the pad firm, and skip tall transitions."
+  },
+  {
+   "type": "h2",
+   "text": "What to check before you choose a carpet"
+  },
+  {
+   "type": "list",
+   "icons": true,
+   "items": [
+    {
+     "icon": "search",
+     "html": "<strong>Bring your vacuum to the sample.</strong> When our mobile showroom is at your house, run your own vacuum over the samples. Two minutes beats any spec sheet."
+    },
+    {
+     "icon": "clipboard",
+     "html": "<strong>Ask for pile height, face weight and density on paper.</strong> Those three predict both wear and vacuum behavior."
+    },
+    {
+     "icon": "layers",
+     "html": "<strong>Match the pad to the pile.</strong> Firm pad under plush, never a thick soft pad under a dense high pile. Our post on <a href=\"/blog-posts/carpet-padding-explained-edmonds\">carpet padding</a> goes deeper."
+    },
+    {
+     "icon": "shield",
+     "html": "<strong>Read the warranty's vacuum clause.</strong> Many require a CRI-certified vacuum and prohibit beater bars on loop pile. Details on our <a href=\"/services/carpet-installation\">carpet installation page</a>."
+    }
+   ]
   }
  ],
  "faq": [
