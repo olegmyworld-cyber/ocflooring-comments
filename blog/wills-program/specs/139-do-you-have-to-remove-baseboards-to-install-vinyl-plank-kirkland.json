@@ -1,0 +1,144 @@
+{
+ "slug": "do-you-have-to-remove-baseboards-to-install-vinyl-plank-kirkland",
+ "title": "Do You Have to Remove Baseboards to Install Vinyl Plank?",
+ "meta": "No. Most vinyl plank installs leave the baseboards on and cover the gap with shoe molding. When pulling them is worth it in a Kirkland remodel, from Wills Flooring.",
+ "category": "lvp",
+ "city": "Kirkland",
+ "time": "8 mins",
+ "date": "2027-02-02T15:00:00.000Z",
+ "keywords": "remove baseboards for vinyl plank, vinyl plank quarter round or not, LVP expansion gap baseboard, install vinyl plank without removing trim, vinyl plank installation Kirkland WA",
+ "offers": [
+  ["Vinyl plank flooring installation", "2.50", "per square foot"]
+ ],
+ "blocks": [
+  {
+   "type": "quick",
+   "eyebrow": "Short answer",
+   "lead": "No. Most vinyl plank installations leave the baseboards on the wall and cover the small expansion gap with a shoe molding; you only need to pull the base if you want a flush, trim-free look, if it is damaged, or if you are replacing it anyway.",
+   "detail": "Floating vinyl plank needs only about 1/4 to 3/8 in of gap at the walls, far less than hardwood, so a slim shoe hides it easily. Wills Flooring installs vinyl plank at $2.50 per sq ft labor with a 500 sq ft minimum; shoe molding or baseboard work is quoted with the job at the free estimate.",
+   "tiles": [
+    {"icon": "dollar", "label": "Install labor", "value": "$2.50 / sq ft"},
+    {"icon": "ruler", "label": "Gap at walls", "value": "1/4 to 3/8 in"},
+    {"icon": "done", "label": "Default", "value": "Base stays, shoe added"},
+    {"icon": "sparkle", "label": "Flush look", "value": "Pull and reset base"}
+   ]
+  },
+  {
+   "type": "p",
+   "html": "This question comes up on almost every Kirkland vinyl plank estimate, and it splits along neighborhood lines. In Juanita and Totem Lake rentals and condos, owners want the fastest, cheapest install and the answer is leave the base on. In Houghton, Rose Hill and Bridle Trails remodels, owners have watched enough renovation shows to know that quarter round is a tell, and they want the base sitting on the floor. Both are legitimate. Here is what each one involves, what it changes on the quote, and the situations where the base has to come off whether you like it or not."
+  },
+  {"type": "h2", "text": "Why the answer is usually no"},
+  {
+   "type": "cards",
+   "cols": 2,
+   "items": [
+    {"icon": "layers", "title": "The gap is small", "text": "Vinyl plank moves with temperature, not humidity, and it moves less than wood. Most manufacturers ask for 1/4 to 3/8 in at fixed objects. A 1/2 in shoe covers that with room to spare."},
+    {"icon": "ruler", "title": "The floor is thin", "text": "At 4 to 8 mm, vinyl plank barely changes the floor height. Base that was set over carpet or vinyl ends up only slightly higher than the new floor, so shoe looks proportionate rather than stacked."},
+    {"icon": "frame", "title": "Shoe is nearly invisible when painted", "text": "A shoe molding painted the same white as the base reads as part of the base from standing height. It is quarter round in stained oak that looks like an afterthought, not painted shoe."},
+    {"icon": "clock", "title": "It saves a day and a paint job", "text": "No pulling, labeling, filling, caulking or touch-up. On a Kirkland condo where every hour in the building is scheduled, that matters."}
+   ]
+  },
+  {"type": "h2", "text": "When pulling the baseboard is worth it"},
+  {
+   "type": "table",
+   "head": ["Situation", "Keep or pull?", "Why"],
+   "rows": [
+    ["Full remodel with fresh paint planned", "Pull", "Touch-up is free when the walls are being painted anyway, and the flush look is worth it."],
+    ["Selling in Houghton, Rose Hill or Bridle Trails", "Pull", "Buyers at that price point notice shoe molding. A flush base photographs like hardwood."],
+    ["Base is MDF and already chipped or swollen", "Pull and replace", "MDF breaks when pried. Replace with new base and skip the shoe."],
+    ["Rental turnover in Juanita or Totem Lake", "Keep", "Fast, cheap, durable. Shoe molding takes the knocks instead of the base."],
+    ["Condo with a strict work-hours window", "Keep", "Fewer hours in the unit, less noise, no painter needed afterward."],
+    ["Old floor was thick tile or hardwood", "Either", "The new floor may sit lower than the old one, leaving a strip of unpainted wall under the base. Pull and reset, or add shoe and touch up."]
+   ],
+   "note": "Whatever you choose for the walls, door casings are always undercut so the plank slides beneath them. Casings are never left with a molding piece around them."
+  },
+  {"type": "h2", "text": "Price your Kirkland installation"},
+  {"type": "calc", "kind": "lvp", "note": "Labor only. Shoe molding, baseboard removal and reset, and new trim are quoted as separate lines at the free estimate."},
+  {"type": "h2", "text": "If the base comes off: the order of work"},
+  {
+   "type": "steps",
+   "wide": true,
+   "items": [
+    {"icon": "scissors", "d": "Before install day", "text": "Score the caulk line at the top of the base with a utility knife. Pull with a flat bar and a trim puller, working from the studs. Label each piece by wall.", "note": "Doing this yourself the weekend before saves crew time, if the base is real wood."},
+    {"icon": "hammer", "d": "Nails and wall", "text": "Pull finish nails through the back of the board with pliers so the face stays clean. Scrape the caulk ridge off the wall.", "note": "MDF base rarely survives this step."},
+    {"icon": "layers", "d": "Floor goes in", "text": "Plank runs to within 1/4 to 3/8 in of the drywall, casings undercut, no fasteners anywhere through the plank.", "note": "A floating floor pinned by a tight base will buckle in the first warm week."},
+    {"icon": "frame", "d": "Base goes back", "text": "Set on the new floor, nailed into studs above the plank, never through it. Holes filled, joints and top line caulked, paint touched up.", "note": "New base, if chosen, is installed the same way."}
+   ]
+  },
+  {"type": "h2", "text": "Keep, pull or replace: side by side"},
+  {
+   "type": "compare",
+   "a": {
+    "icon": "done",
+    "tag": "Keep the base, add shoe",
+    "title": "Choose this when",
+    "items": [
+     "Speed and cost matter more than a flush look",
+     "The base is in good shape and painted a common white",
+     "You are not repainting",
+     "It is a rental, a condo or a basement",
+     "The room already has shoe or quarter round elsewhere"
+    ]
+   },
+   "b": {
+    "icon": "sparkle",
+    "tag": "Pull, reset or replace",
+    "title": "Choose this when",
+    "items": [
+     "You want the base sitting on the floor with no shoe",
+     "Walls are being painted anyway",
+     "The base is MDF that is damaged, or a dated profile you dislike",
+     "The room is a showcase: living room, kitchen, primary suite",
+     "You are selling to Eastside buyers who will notice"
+    ]
+   }
+  },
+  {"type": "h2", "text": "Mistakes we fix after DIY baseboard removal"},
+  {
+   "type": "ul",
+   "items": [
+    "Prying without scoring the caulk, which peels the drywall paper and turns a trim job into a wall repair.",
+    "Pulling MDF and expecting to reuse it. Once it snaps at the nail line, it is done. Budget for new base if the house is a 1990s or 2000s build.",
+    "Throwing away the labels. Base that was cut for one wall rarely fits another.",
+    "Removing the base under the kitchen cabinets and the toe kicks. Floating plank must never be trapped under cabinets or an island; the plank stops at the toe kick and the kick covers the gap.",
+    "Renailing the base tight to the floor. The base rests on the plank but must be fastened to the wall only. Nail it down and the floor cannot move.",
+    "Painting the shoe before install and then cutting it. Paint after the miters are cut and the nail holes are filled."
+   ]
+  },
+  {
+   "type": "callout",
+   "icon": "alert",
+   "title": "Kirkland condos and toe kicks: ",
+   "text": "In the Juanita and Totem Lake mid-rises, the base often runs behind built-ins and under kitchen toe kicks. We do not pull those. The plank floats to within the gap of the fixed cabinet and the kick hides it. If your HOA requires an acoustic underlayment, the extra height is worth checking against the dishwasher opening before install day. Our post on <a href=\"/blog-posts/why-is-my-vinyl-plank-floor-buckling-or-gapping-sammamish\">why vinyl plank buckles</a> explains what happens when a floating floor gets pinned."
+  },
+  {"type": "h2", "text": "Settle these before install day"},
+  {
+   "type": "list",
+   "icons": true,
+   "items": [
+    {"icon": "search", "html": "<strong>Identify the base material.</strong> Wood reuses; MDF replaces. A fingernail test in a closet tells you."},
+    {"icon": "palette", "html": "<strong>Get the paint name.</strong> Shoe molding or touch-up in the wrong white shows more than the shoe itself."},
+    {"icon": "ruler", "html": "<strong>Measure the old floor height.</strong> Coming down from tile or thick hardwood can expose a bare strip under the base; going up from carpet usually does not."},
+    {"icon": "clipboard", "html": "<strong>Ask for trim as its own line.</strong> Our quote lists installation labor at $2.50 per sq ft, then shoe, removal and reset, or new base separately so you can pick. The hardwood version of this decision is covered in <a href=\"/blog-posts/baseboards-and-quarter-round-everett\">our baseboards and quarter round post</a>."},
+    {"icon": "home", "html": "<strong>Tell us about the cabinets and built-ins.</strong> Anything fixed to the floor changes where the plank stops. Details on the whole process are on our <a href=\"/services/lvp-vinyl-flooring\">vinyl plank installation page</a>."}
+   ]
+  }
+ ],
+ "faq": [
+  {"q": "Can you install vinyl plank without removing baseboards?", "a": "Yes, and it is the most common method. The plank stops 1/4 to 3/8 in from the wall and a shoe molding nailed to the baseboard covers the gap. It is faster, cheaper and needs no repainting. Pulling the base is optional for a flush look."},
+  {"q": "Does vinyl plank need quarter round?", "a": "It needs something to cover the expansion gap if the baseboard stays. A slim shoe molding usually looks better than quarter round. If the base is removed and reset on top of the new floor, no shoe or quarter round is needed at all."},
+  {"q": "How big should the expansion gap be for vinyl plank?", "a": "Most manufacturers specify 1/4 to 3/8 in at walls, cabinets and other fixed objects; some rigid-core products allow less. Check your plank's instructions. The gap lets the floating floor expand in warm weather without buckling."},
+  {"q": "Should I remove the baseboards myself before the installers come?", "a": "You can if the base is solid wood and you score the caulk line first. It saves crew time on a Kirkland install. If the base is MDF, it will probably break, so decide first whether you are replacing it. Either way, leave base behind cabinets alone."},
+  {"q": "Does Wills Flooring charge extra for baseboard removal?", "a": "The $2.50 per sq ft installation labor covers laying the plank and undercutting door casings. Shoe molding, baseboard removal and reset, and new base are separate lines on the written quote you get at the free in-home estimate."},
+  {"q": "Can baseboards sit directly on vinyl plank?", "a": "Yes, that is the flush look. The base rests on the plank but is nailed into the wall studs only, never through the plank, so the floating floor can still move underneath it."}
+ ],
+ "faq_title": "Baseboard questions from Kirkland vinyl plank installs",
+ "faq_sub": "From Juanita rentals to Houghton remodels and Totem Lake condos.",
+ "related": [
+  ["do-you-need-underlayment-under-vinyl-plank-flooring-everett", "underlayment under vinyl plank"],
+  ["transition-strips-from-vinyl-plank-to-tile-carpet-and-hardwood-seattle", "transition strips for vinyl plank"],
+  ["why-is-my-vinyl-plank-floor-buckling-or-gapping-sammamish", "why vinyl plank buckles or gaps"]
+ ],
+ "cta_title": "Get the trim decision priced both ways",
+ "cta_sub": "We look at your baseboards, measure the rooms and hand you a firm written quote with shoe, reset or new base itemized, on the spot. Free, no obligation, anywhere in Kirkland."
+}

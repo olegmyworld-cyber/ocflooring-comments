@@ -1,0 +1,291 @@
+{
+ "slug": "whole-house-carpet-installation-in-kirkland",
+ "title": "Whole-House Carpet Installation in Kirkland: A Real Cost Example",
+ "meta": "How a whole-house carpet job in Kirkland is measured and itemized: rooms to square yards, waste, pad, stairs, removal. Wills Flooring walks through one home.",
+ "category": "carpet",
+ "city": "Kirkland",
+ "time": "8 mins",
+ "date": "2027-03-23T15:00:00.000Z",
+ "keywords": "whole house carpet installation cost, how much carpet for a whole house, carpet installation quote breakdown, carpet cost example, carpet installation Kirkland WA",
+ "blocks": [
+  {
+   "type": "quick",
+   "eyebrow": "Short answer",
+   "lead": "A whole-house carpet job is priced from six numbers: the measured square yards of carpet after waste, the pad, the stairs counted one by one, the labor to install, the old carpet coming out, and the furniture that has to move. Material is usually the biggest of the six, and the fiber you pick swings it more than anything else.",
+   "detail": "Rather than post a number that would be wrong for your house, this walks through a real Kirkland two-story the way we measure and itemize it, so you can see which lines move and by how much. Wills Flooring brings samples to your home and hands you the firm written version on the spot.",
+   "tiles": [
+    {
+     "icon": "ruler",
+     "label": "Measured in",
+     "value": "Square yards"
+    },
+    {
+     "icon": "layers",
+     "label": "Waste and seams",
+     "value": "10 to 15%"
+    },
+    {
+     "icon": "stairs",
+     "label": "Stairs",
+     "value": "Priced per step"
+    },
+    {
+     "icon": "tag",
+     "label": "Biggest swing",
+     "value": "Fiber choice"
+    }
+   ],
+   "cta": false
+  },
+  {
+   "type": "p",
+   "html": "The house in this example is a real type we see constantly on the Eastside: a 1988 two-story in Juanita with a carpeted upstairs, carpeted family room and a straight staircase, being recarpeted before a family moves in. The same layout shows up across Finn Hill, Rose Hill and the newer parts of Totem Lake. Kirkland buyers expect the carpet to look and feel like it belongs in a house at that price, which is why the fiber and pad lines in this example lean toward the middle of the range rather than the bottom."
+  },
+  {
+   "type": "h2",
+   "text": "Step one: the house, measured room by room"
+  },
+  {
+   "type": "steps",
+   "wide": true,
+   "items": [
+    {
+     "icon": "home",
+     "d": "Upstairs: four bedrooms and a hall",
+     "text": "Primary bedroom 16 by 14 with a walk-in closet, three bedrooms around 12 by 11 each, and a hall 14 by 4.",
+     "note": "About 720 sq ft of carpet, closets included"
+    },
+    {
+     "icon": "sofa",
+     "d": "Main floor: family room and a small office",
+     "text": "Family room 20 by 16 off the kitchen, office 11 by 10 by the front door.",
+     "note": "About 430 sq ft"
+    },
+    {
+     "icon": "stairs",
+     "d": "The staircase",
+     "text": "Fourteen straight steps, closed on both sides, with a landing counted as floor.",
+     "note": "14 stairs, priced per step"
+    },
+    {
+     "icon": "ruler",
+     "d": "Convert to square yards and add waste",
+     "text": "Carpet is sold from 12 ft rolls in square yards. Room widths that do not fit a 12 ft roll create seams and offcuts, so the order is about 12 percent above the floor area on this layout.",
+     "note": "1,150 sq ft ÷ 9 = 128 sq yd, plus waste = about 143 sq yd ordered"
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "Step two: the quote, line by line"
+  },
+  {
+   "type": "table",
+   "head": [
+    "Line on the quote",
+    "What drives it in this house",
+    "Rough share of the total"
+   ],
+   "rows": [
+    [
+     "Carpet material",
+     "143 sq yd of the chosen product. A mid-grade nylon here; polyester would drop it, wool would more than double it.",
+     "Roughly half"
+    ],
+    [
+     "Pad",
+     "The same square yards of an 8 lb rebond pad, upgraded to a moisture-barrier pad in the primary bedroom for the dog.",
+     "Around a tenth"
+    ],
+    [
+     "Installation labor",
+     "Stretch-in over tack strip in every room, seams placed where furniture and traffic hide them.",
+     "A fifth to a quarter"
+    ],
+    [
+     "Stairs",
+     "14 steps wrapped in the same carpet, per step. Open-sided or pie steps would cost more each.",
+     "About a tenth"
+    ],
+    [
+     "Old carpet removal and disposal",
+     "About 1,150 sq ft of carpet and pad out, tack strip checked and replaced where rusted.",
+     "A few percent"
+    ],
+    [
+     "Furniture",
+     "House was empty in this example. Occupied homes add a line for beds and dressers.",
+     "None here"
+    ]
+   ],
+   "note": "Shares are rounded from this one job so you can see what moves the number. Your house and your fiber choice will shift them; we give firm dollar figures only after measuring."
+  },
+  {
+   "type": "h2",
+   "text": "Scope your Kirkland carpet project"
+  },
+  {
+   "type": "estimator",
+   "title": "Scope Your Kirkland Carpet Project",
+   "sub": "Rooms, stairs, removal and furniture. We bring samples to the house, measure every room, and hand you the firm itemized quote on the spot."
+  },
+  {
+   "type": "h2",
+   "text": "Step three: the same house at three spec levels"
+  },
+  {
+   "type": "cards",
+   "cols": 3,
+   "items": [
+    {
+     "icon": "tag",
+     "tag": "Budget",
+     "title": "Polyester cut pile, 6 lb pad",
+     "text": "The lowest material line and a fine choice for a rental or a quick pre-sale refresh. Softer underfoot at first, but it mats in the hall and on the stairs within a few years. Keep it in the bedrooms and put something tougher on the stairs."
+    },
+    {
+     "icon": "star",
+     "tag": "What we quoted",
+     "title": "Mid-grade nylon, 8 lb pad",
+     "text": "Resilient enough for a family and a dog, holds its texture on the staircase, and reads as quality to a Kirkland buyer. The material line rises by roughly a third over polyester and the pad by a little. This is the sweet spot for most Juanita and Finn Hill homes.",
+     "gold": true
+    },
+    {
+     "icon": "award",
+     "tag": "Premium",
+     "title": "Wool or patterned nylon, upgraded pad",
+     "text": "For a Houghton or Bridle Trails home where the carpet is a design feature. Wool or a patterned loop can double the material line or more, and patterns add waste for matching. Worth it in a primary suite; rarely worth it in kids' rooms."
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "What moved the number most on this job"
+  },
+  {
+   "type": "compare",
+   "a": {
+    "icon": "chart",
+    "tag": "Big levers",
+    "title": "These changed the total a lot",
+    "items": [
+     "Fiber: polyester to nylon to wool is the whole spread",
+     "Stairs: fourteen steps is a line of its own, and open-sided steps cost more",
+     "Waste: room widths over 12 ft forced seams and extra yardage",
+     "Pad upgrade in the primary bedroom"
+    ]
+   },
+   "b": {
+    "icon": "tag",
+    "tag": "Small levers",
+    "title": "These barely moved it",
+    "items": [
+     "Color and style within the same fiber and grade",
+     "Removal of the old carpet",
+     "Choosing tack strip stretch-in over other methods",
+     "Doing the whole house at once versus room by room (whole house is cheaper per yard)"
+    ]
+   }
+  },
+  {
+   "type": "callout",
+   "icon": "alert",
+   "gold": true,
+   "title": "Why we do not print a whole-house dollar figure: ",
+   "text": "Two Kirkland homes with the same square footage can differ by half depending on fiber, stairs and seams. A number on a blog post would be wrong for your house in one direction or the other. We measure and quote in person, and the price we write down is the price you pay."
+  },
+  {
+   "type": "h2",
+   "text": "Mistakes that make a whole-house job cost more than it should"
+  },
+  {
+   "type": "list",
+   "icons": true,
+   "items": [
+    {
+     "icon": "x",
+     "html": "<strong>Ordering from the room dimensions instead of a seam diagram.</strong> Carpet comes 12 ft wide. A 13 ft room needs a seam and an extra strip, and guessing the yardage without a layout leaves you short or paying for a roll you do not need. See <a href=\"/blog-posts/how-to-measure-for-carpet-everett\">how to measure for carpet</a> before you order anything."
+    },
+    {
+     "icon": "x",
+     "html": "<strong>Putting the cheapest carpet on the stairs.</strong> Stairs take the most wear in the house. If the budget is tight, save in the guest room, not on the staircase."
+    },
+    {
+     "icon": "x",
+     "html": "<strong>Reusing the old pad.</strong> Pad is a small line and it decides how the carpet feels and how long it lasts. Old pad also holds a decade of dust and pet history."
+    },
+    {
+     "icon": "x",
+     "html": "<strong>Recarpeting room by room over two years.</strong> Dye lots change, minimums repeat, and you pay setup twice. One order, one install, one seam diagram."
+    },
+    {
+     "icon": "x",
+     "html": "<strong>Skipping the subfloor check.</strong> Pulling 1980s carpet in Juanita sometimes finds squeaks and stained particleboard. Finding it at the estimate keeps it off the install-day invoice."
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "What to have ready for the measure"
+  },
+  {
+   "type": "ul",
+   "items": [
+    "A list of every room and closet getting carpet, and which rooms are staying hard-surface.",
+    "The stair count, and whether any steps are open on one side or pie-shaped.",
+    "Where pets sleep, so the pad upgrade goes in the right room.",
+    "Whether the house will be empty or furnished on install day.",
+    "Your move-in or listing date, so the order and install fit before it.",
+    "Your budget priority: softest feel, longest life, or lowest total. It changes the fiber we bring."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "How is whole-house carpet measured and priced?",
+   "a": "Room by room, in square feet converted to square yards, with a seam diagram that accounts for the 12 ft roll width. Waste of 10 to 15 percent is normal. Stairs are counted and priced per step. Pad, labor, removal and furniture moving are separate lines on the written quote."
+  },
+  {
+   "q": "What is the biggest cost in a whole-house carpet job?",
+   "a": "The carpet material itself, usually about half of the total. The fiber and grade you choose move that line more than anything else. Polyester is the least, nylon costs roughly a third more, and wool or patterned carpet can double it or more."
+  },
+  {
+   "q": "Is it cheaper to carpet the whole house at once?",
+   "a": "Yes, per square yard. One roll order, one installation setup and one seam plan cost less than doing rooms over two years. You also avoid dye-lot differences between rooms and the minimum charges that apply to small jobs."
+  },
+  {
+   "q": "How much extra carpet is needed for waste?",
+   "a": "Usually 10 to 15 percent above the floor area, depending on how room widths fit the 12 ft roll and where seams fall. Patterned carpet needs more for pattern matching. The quote should show the square yards ordered, not just the floor area."
+  },
+  {
+   "q": "Should the stairs get the same carpet as the bedrooms?",
+   "a": "Usually the same color for a continuous look, but the stairs should be at least as durable as anything in the house. If the bedrooms get polyester on a budget, put nylon on the staircase. Stairs are priced per step, and open-sided steps take longer to wrap."
+  },
+  {
+   "q": "How long does a whole-house carpet installation take in Kirkland?",
+   "a": "Two days for a typical two-story like the example: upstairs and stairs the first day, main floor the second. An empty house goes faster. Furniture moving and old carpet removal add time, and we confirm the schedule when we hand you the quote."
+  }
+ ],
+ "faq_title": "Whole-house carpet questions from Kirkland homeowners",
+ "faq_sub": "From two-stories in Juanita to lakefront homes in Houghton.",
+ "related": [
+  [
+   "how-to-measure-for-carpet-everett",
+   "how to measure for carpet"
+  ],
+  [
+   "nylon-vs-polyester-vs-triexta-vs-wool-carpet-sammamish",
+   "nylon vs polyester vs triexta vs wool"
+  ],
+  [
+   "carpet-padding-explained-edmonds",
+   "carpet padding explained"
+  ],
+  [
+   "how-long-does-carpet-last-kirkland",
+   "how long carpet lasts"
+  ]
+ ],
+ "cta_title": "Get your house measured and itemized",
+ "cta_sub": "We bring samples to your Kirkland home, measure every room and stair, draw the seam plan and hand you a firm written quote with every line shown. Free, no obligation."
+}

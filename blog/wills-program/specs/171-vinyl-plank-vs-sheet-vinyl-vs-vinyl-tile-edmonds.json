@@ -1,0 +1,320 @@
+{
+ "slug": "vinyl-plank-vs-sheet-vinyl-vs-vinyl-tile-edmonds",
+ "title": "Vinyl Plank vs Sheet Vinyl vs Vinyl Tile: What's the Difference?",
+ "meta": "Vinyl plank, sheet vinyl and vinyl tile are one material in three formats with different seams, repairs and looks. Wills Flooring compares them for Edmonds.",
+ "category": "lvp",
+ "city": "Edmonds",
+ "time": "8 mins",
+ "date": "2027-03-06T15:00:00.000Z",
+ "keywords": "vinyl plank vs sheet vinyl, luxury vinyl tile vs plank, sheet vinyl vs LVP, difference between vinyl flooring types, vinyl flooring Edmonds",
+ "offers": [
+  [
+   "Vinyl plank flooring installation",
+   "2.50",
+   "per square foot"
+  ]
+ ],
+ "blocks": [
+  {
+   "type": "quick",
+   "eyebrow": "Short answer",
+   "lead": "All three are vinyl. Sheet vinyl comes in wide rolls with almost no seams, vinyl tile comes in squares that mimic stone and can be grouted, and vinyl plank comes in wood-look strips that click together and float. Plank is what most Edmonds homes get now; sheet still wins in small wet rooms; tile is a niche.",
+   "detail": "The format changes how it is installed, how it is repaired, how it handles water and how it looks. It does not change the material much. A good rigid-core plank and a good sheet vinyl are both plastic floors that last 15 to 25 years.",
+   "tiles": [
+    {
+     "icon": "layers",
+     "label": "Vinyl plank",
+     "value": "Floating, click-lock"
+    },
+    {
+     "icon": "droplet",
+     "label": "Sheet vinyl",
+     "value": "Fewest seams"
+    },
+    {
+     "icon": "grid",
+     "label": "Vinyl tile",
+     "value": "Stone look, groutable"
+    },
+    {
+     "icon": "dollar",
+     "label": "Plank install labor",
+     "value": "$2.50 / sq ft"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "html": "Edmonds has all three under one roof more often than any city we work in. A 1960s rambler in Seaview or Westgate has the original sheet vinyl in the laundry room, peel-and-stick tile someone put down in the 1990s in the bathroom, and a homeowner who wants vinyl plank across the kitchen and living room now. Knowing which is which, and what can go over what, saves a lot of money and one very important safety mistake we cover below."
+  },
+  {
+   "type": "h2",
+   "text": "The three formats side by side"
+  },
+  {
+   "type": "table",
+   "head": [
+    "",
+    "Vinyl plank (LVP)",
+    "Sheet vinyl",
+    "Vinyl tile (LVT)"
+   ],
+   "rows": [
+    [
+     "Shape",
+     "Strips, usually 6 to 9 in wide and 48 to 60 in long",
+     "Rolls 6 or 12 ft wide, cut to the room",
+     "Squares, 12 to 24 in, or plank-size tiles"
+    ],
+    [
+     "Install",
+     "Floating click-lock, sometimes glue-down",
+     "Full-spread or perimeter glue, one piece",
+     "Glue-down, peel-and-stick, or click-lock groutable"
+    ],
+    [
+     "Seams",
+     "Hundreds, tight but present",
+     "Almost none in a small room",
+     "Many, often grouted"
+    ],
+    [
+     "Water",
+     "Planks waterproof; seams can pass water to the subfloor over time",
+     "Best in class if the room is one sheet with sealed edges",
+     "Good if grouted and sealed"
+    ],
+    [
+     "Repair",
+     "Replace a plank",
+     "Patch shows; usually replace the room",
+     "Replace a tile"
+    ],
+    [
+     "Subfloor",
+     "Flat within 3/16 in over 10 ft; tolerates small flaws",
+     "Must be perfectly smooth; every bump telegraphs",
+     "Flat and smooth"
+    ],
+    [
+     "Look",
+     "Wood, occasionally stone",
+     "Wood, stone, or pattern printed in one piece",
+     "Stone, ceramic, concrete"
+    ]
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "Where each one wins in an Edmonds house"
+  },
+  {
+   "type": "cards",
+   "cols": 3,
+   "items": [
+    {
+     "icon": "layers",
+     "tag": "Most rooms",
+     "title": "Vinyl plank",
+     "text": "Open kitchen-living areas, hallways, bedrooms, basements, whole-house jobs. Floats over minor imperfections in the plywood of a 1950s Bowl bungalow, looks like wood, and a damaged plank is swapped in an hour. This is what we install at $2.50 per sq ft labor.",
+     "gold": true
+    },
+    {
+     "icon": "droplet",
+     "tag": "Small wet rooms",
+     "title": "Sheet vinyl",
+     "text": "Laundry rooms, small bathrooms, mudrooms off a Perrinville garage. One piece with coved or sealed edges is the closest thing to a waterproof tray. The trade-off is a perfectly prepped subfloor and a whole-room replacement when it is damaged."
+    },
+    {
+     "icon": "grid",
+     "tag": "Stone look",
+     "title": "Vinyl tile",
+     "text": "Entries and bathrooms where you want a slate or travertine look with real grout lines, without the cold and cracking of ceramic. Warmer underfoot than tile in a waterfront Edmonds winter and far easier on dropped dishes."
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "Price your Edmonds vinyl plank installation"
+  },
+  {
+   "type": "calc",
+   "kind": "lvp",
+   "note": "Labor for vinyl plank. Sheet vinyl and glue-down tile are scoped and quoted at the free estimate because the subfloor prep drives the price more than the material."
+  },
+  {
+   "type": "h2",
+   "text": "What can go over what"
+  },
+  {
+   "type": "steps",
+   "wide": true,
+   "items": [
+    {
+     "icon": "search",
+     "d": "Old sheet vinyl under new plank",
+     "text": "Usually fine. Floating plank goes over well-adhered sheet vinyl if it is flat and not cushioned. Loose or bubbled sheet gets cut out and the subfloor patched.",
+     "note": "Never sand or scrape old sheet vinyl; see the warning below"
+    },
+    {
+     "icon": "grid",
+     "d": "Old peel-and-stick tile under new plank",
+     "text": "Only if every tile is stuck down tight. Loose corners telegraph through plank. Most of the 1990s peel-and-stick in Edmonds bathrooms comes up instead.",
+     "note": "Removal and disposal quoted at the estimate"
+    },
+    {
+     "icon": "layers",
+     "d": "Plank over ceramic tile",
+     "text": "Yes, after grout lines are filled and any cracked tiles are set. Rigid-core plank bridges narrow grout joints; flexible plank does not.",
+     "note": "Saves a demolition day in an older Edmonds bath"
+    },
+    {
+     "icon": "droplet",
+     "d": "New sheet vinyl over anything",
+     "text": "Sheet needs a smooth, sound surface: new underlayment plywood or a skim-coated slab. Old vinyl or tile underneath is almost always removed first.",
+     "note": "This prep is why sheet is not the cheap option people expect"
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "The Edmonds-specific warning: old vinyl and asbestos"
+  },
+  {
+   "type": "callout",
+   "icon": "alert",
+   "gold": true,
+   "title": "Do not sand, grind or dry-scrape old sheet vinyl or 9-inch tiles: ",
+   "text": "Sheet vinyl, its felt backing and the black adhesive under it, and the 9 by 9 in tiles common in 1950s to 1970s Edmonds ramblers, often contain asbestos. It is harmless left alone or covered. It becomes a problem when it is sanded or broken up. If your floor dates from before the mid-1980s and has to come out, it gets tested first, and if positive it is removed by a licensed abatement contractor, not a flooring crew. Floating vinyl plank over it is the safe and common answer."
+  },
+  {
+   "type": "compare",
+   "a": {
+    "icon": "done",
+    "tag": "Go over it",
+    "title": "Leave the old vinyl in place when",
+    "items": [
+     "It is flat, fully adhered and not cushioned",
+     "The house is pre-1985 and you have not tested it",
+     "Door heights and transitions can take another 5 to 8 mm",
+     "You are installing floating rigid-core plank"
+    ]
+   },
+   "b": {
+    "icon": "x",
+    "tag": "Take it out",
+    "title": "Remove it when",
+    "items": [
+     "It is loose, bubbled, cushioned or water-damaged underneath",
+     "You are installing new sheet vinyl or glue-down tile",
+     "The subfloor below is soft, which is common near toilets and dishwashers",
+     "A test came back clean, or a licensed abatement crew is doing the removal"
+    ]
+   }
+  },
+  {
+   "type": "h2",
+   "text": "Mistakes people make choosing between the three"
+  },
+  {
+   "type": "list",
+   "icons": true,
+   "items": [
+    {
+     "icon": "x",
+     "html": "<strong>Buying sheet vinyl because it is waterproof, then putting it in a big room.</strong> Once a room needs a seam, sheet loses its main advantage and gains all of its disadvantages."
+    },
+    {
+     "icon": "x",
+     "html": "<strong>Buying the cheapest plank and expecting sheet-level water protection.</strong> Thin flexible plank with a shallow click joint passes water at every seam. In a laundry room, use a rigid core with a tight lock, or use sheet."
+    },
+    {
+     "icon": "x",
+     "html": "<strong>Mixing formats without a plan for transitions.</strong> Plank in the kitchen at 6 mm meeting sheet in the laundry at 2 mm needs a reducer, not a hope. See <a href=\"/blog-posts/transition-strips-from-vinyl-plank-to-tile-carpet-and-hardwood-seattle\">transition strips for vinyl plank</a>."
+    },
+    {
+     "icon": "x",
+     "html": "<strong>Skipping subfloor prep on sheet.</strong> Every nail head, seam and grain line in the plywood shows through sheet vinyl in raking light off the water. It is the least forgiving floor we know."
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "How to decide, room by room"
+  },
+  {
+   "type": "list",
+   "icons": true,
+   "items": [
+    {
+     "icon": "ruler",
+     "html": "<strong>Measure the room.</strong> Under 12 ft in one direction and wet: sheet is a real option. Larger: plank."
+    },
+    {
+     "icon": "search",
+     "html": "<strong>Find out what is there now and when it was installed.</strong> Pre-1985 vinyl changes the removal plan and the safety plan."
+    },
+    {
+     "icon": "droplet",
+     "html": "<strong>Rate the water risk honestly.</strong> A laundry room with a floor drain is different from a powder room. Match the format to the worst day, not the average one."
+    },
+    {
+     "icon": "home",
+     "html": "<strong>Think about the whole floor plan.</strong> Downsizing retirees moving into a Bowl condo usually want one continuous plank floor with no transitions to trip on. That decides the format for the wet rooms too."
+    },
+    {
+     "icon": "box",
+     "html": "<strong>Look at samples in the room.</strong> Sheet and tile patterns repeat; plank has more variation per box. We bring all of it to your house."
+    },
+    {
+     "icon": "shield",
+     "html": "<strong>Get the prep in writing.</strong> Removal, testing, patching and flattening are quoted line by line at the free estimate, and every Wills Flooring install carries a 1-year workmanship warranty. See our <a href=\"/services/lvp-vinyl-flooring\">vinyl plank installation page</a>."
+    }
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Is vinyl plank better than sheet vinyl?",
+   "a": "For most rooms, yes. Plank is easier to install over an imperfect subfloor, easier to repair, and looks more like wood. Sheet vinyl is better in a small wet room where a single piece with sealed edges gives true waterproofing. Neither is better everywhere."
+  },
+  {
+   "q": "What is the difference between LVT and LVP?",
+   "a": "Only the shape. Luxury vinyl tile (LVT) comes in squares or short rectangles and usually mimics stone or ceramic, sometimes with real grout. Luxury vinyl plank (LVP) comes in long strips and mimics wood. The core, wear layer and durability specs are the same product families."
+  },
+  {
+   "q": "Can vinyl plank be installed over old sheet vinyl?",
+   "a": "Yes, if the sheet is flat, fully stuck down and not the cushioned type. That is also the safest way to deal with vinyl from before 1985 that may contain asbestos: leave it undisturbed and float new rigid-core plank over it. Loose or damaged sheet needs to come out first."
+  },
+  {
+   "q": "How much does it cost to install vinyl plank in Edmonds?",
+   "a": "Wills Flooring charges $2.50 per sq ft for installation labor with a 500 sq ft minimum, and $100 per stair. A 900 sq ft main floor is $2,250 in labor. Plank, underlayment, old-floor removal and subfloor prep are quoted at the free estimate."
+  },
+  {
+   "q": "Does sheet vinyl last longer than vinyl plank?",
+   "a": "Roughly the same, 15 to 25 years for quality products. Sheet tends to fail at seams and edges or from a single tear that cannot be patched invisibly. Plank fails one plank at a time and gets fixed one plank at a time, which is why it usually outlasts sheet in practice."
+  },
+  {
+   "q": "Is peel-and-stick vinyl tile any good?",
+   "a": "As a short-term or rental floor, it is fine on a clean, primed, smooth subfloor. As a long-term floor in a damp Edmonds bathroom, the adhesive gives up at the corners within a few years. Glue-down or click-lock vinyl tile is the durable version of the same look."
+  }
+ ],
+ "faq_title": "Vinyl format questions from Edmonds homeowners",
+ "faq_sub": "From ramblers in Seaview and Westgate, waterfront condos and older homes near downtown.",
+ "related": [
+  [
+   "can-vinyl-plank-be-installed-over-tile-hardwood-concrete-or-old-vinyl",
+   "vinyl plank over tile, hardwood, concrete or old vinyl"
+  ],
+  [
+   "rigid-core-vs-flexible-vinyl-plank-edmonds",
+   "rigid core versus flexible vinyl plank"
+  ],
+  [
+   "vinyl-plank-vs-tile-in-bathrooms-kirkland",
+   "vinyl plank versus tile in bathrooms"
+  ]
+ ],
+ "cta_title": "See all three formats in your own rooms",
+ "cta_sub": "We bring plank, sheet and tile samples to your Edmonds home, check what is under the old floor, and hand you a firm written price on the spot. Free, no obligation."
+}

@@ -1,0 +1,281 @@
+{
+ "slug": "is-hardwood-flooring-worth-it-in-everett-rental-properties",
+ "title": "Is Hardwood Flooring Worth It in Everett Rental Properties?",
+ "meta": "Hardwood is worth it in Everett rentals when the floor is already there or the unit competes on rent. Wills Flooring runs the numbers against vinyl plank.",
+ "category": "hardwood",
+ "city": "Everett",
+ "time": "8 mins",
+ "date": "2027-03-01T15:00:00.000Z",
+ "keywords": "hardwood floors rental property, is hardwood worth it in a rental, best flooring for rentals Everett, hardwood vs vinyl plank rental, landlord flooring Everett WA",
+ "offers": [
+  [
+   "Hardwood floor installation, engineered or solid",
+   "3.25",
+   "per square foot"
+  ],
+  [
+   "Unfinished hardwood installation",
+   "2.75",
+   "per square foot"
+  ]
+ ],
+ "blocks": [
+  {
+   "type": "quick",
+   "eyebrow": "Short answer",
+   "lead": "Hardwood is worth it in an Everett rental in two cases: the house already has hardwood under the carpet, or the unit competes for tenants who pay a premium for it. For a typical builder-grade rental, vinyl plank at $2.50 per sq ft labor beats new hardwood at $3.25 plus material.",
+   "detail": "The math is not about the install price. It is about turnover. Hardwood costs more up front but is refinished, not replaced, at each rough tenant. Vinyl plank is cheaper to install and cheaper to shrug at when it is damaged.",
+   "tiles": [
+    {
+     "icon": "dollar",
+     "label": "Hardwood install",
+     "value": "$3.25 / sq ft labor"
+    },
+    {
+     "icon": "layers",
+     "label": "Vinyl plank install",
+     "value": "$2.50 / sq ft labor"
+    },
+    {
+     "icon": "refresh",
+     "label": "Recoat between tenants",
+     "value": "$1.99 / sq ft"
+    },
+    {
+     "icon": "ruler",
+     "label": "Minimum",
+     "value": "500 sq ft"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "html": "Everett landlords ask us this from two very different positions. One owns a 1915 house in Riverside or Bayside with fir floors under 40-year-old carpet. The other owns a 1998 Silver Lake or Eastmont split-level with builder oak in the living room and worn carpet everywhere else. Both are asking whether hardwood is worth it, but the right answer is different for each, so this post splits them apart."
+  },
+  {
+   "type": "h2",
+   "text": "The real cost of hardwood in a rental, over ten years"
+  },
+  {
+   "type": "table",
+   "head": [
+    "Line item",
+    "Hardwood (engineered)",
+    "Vinyl plank"
+   ],
+   "rows": [
+    [
+     "Installation labor, 900 sq ft",
+     "900 × $3.25 = $2,925",
+     "900 × $2.50 = $2,250"
+    ],
+    [
+     "Material",
+     "Quoted at the estimate; more than vinyl",
+     "Quoted at the estimate; less than hardwood"
+    ],
+    [
+     "Damage at turnover, year 4",
+     "Screen and recoat: 900 × $1.99 = $1,791",
+     "Replace damaged planks, or live with it"
+    ],
+    [
+     "Heavy damage, year 8",
+     "Sand and refinish: 900 × $3.99 = $3,591",
+     "Replace the floor: 900 × $2.50 = $2,250 plus material"
+    ],
+    [
+     "Floor at year 10",
+     "Same floor, refinished, 30 years left",
+     "Second floor, near end of life"
+    ]
+   ],
+   "note": "Wills Flooring published rates, 500 sq ft minimum. Material, removal and subfloor prep are quoted at the free estimate for both options."
+  },
+  {
+   "type": "h2",
+   "text": "When hardwood wins in an Everett rental"
+  },
+  {
+   "type": "cards",
+   "cols": 2,
+   "items": [
+    {
+     "icon": "home",
+     "tag": "Best case",
+     "title": "The hardwood is already there",
+     "text": "Most pre-1960 Everett houses in Riverside, Bayside and near Everett High have fir or oak under the carpet. Refinishing at $3.99 per sq ft all-in is cheaper than installing anything new, and tenants pay more for original floors than for new vinyl.",
+     "gold": true
+    },
+    {
+     "icon": "chart",
+     "title": "The unit competes on rent",
+     "text": "A Port Gardner condo or a renovated craftsman renting to Boeing engineers and Providence staff is compared against other renovated units. Hardwood in photos raises inquiries and shortens vacancy, which is worth more than the install difference."
+    },
+    {
+     "icon": "calendar",
+     "title": "You plan to hold for 10+ years or sell to an owner-occupier",
+     "text": "Hardwood is the only rental floor that is worth more at year 15 than the day you installed it, because a refinish resets it. If the exit plan is a sale to a family, not an investor, hardwood is part of the price."
+    },
+    {
+     "icon": "key",
+     "title": "Long-term tenants",
+     "text": "A rental with three-year average tenancies sees a third of the turnover damage of one with one-year leases. Hardwood in a stable duplex makes sense. Hardwood in a student rental near the college does not."
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "Price hardwood for your Everett rental"
+  },
+  {
+   "type": "calc",
+   "kind": "hardwood",
+   "note": "Labor only. Material is quoted at the free estimate; for rentals we usually recommend a mid-range engineered oak with a 3 mm or thicker wear layer so it can be refinished at least once."
+  },
+  {
+   "type": "h2",
+   "text": "Solid, engineered or unfinished for a rental"
+  },
+  {
+   "type": "compare",
+   "a": {
+    "icon": "done",
+    "tag": "Engineered, prefinished",
+    "title": "Our default for rentals",
+    "items": [
+     "$3.25 per sq ft labor, walk on it the same day",
+     "Factory finish is harder than anything applied on site",
+     "Choose a wear layer of 3 mm or more so it can be sanded once",
+     "Stable over the concrete and crawlspace mix common in Everett"
+    ]
+   },
+   "b": {
+    "icon": "x",
+    "tag": "Unfinished solid",
+    "title": "Only worth it when",
+    "items": [
+     "You are matching existing fir or oak in an older Riverside house",
+     "$2.75 per sq ft labor plus $3.99 to sand and finish, so more up front",
+     "You want the maximum number of future refinishes",
+     "The unit can sit empty an extra week for finish cure"
+    ]
+   }
+  },
+  {
+   "type": "h2",
+   "text": "When hardwood is the wrong call for a rental, honestly"
+  },
+  {
+   "type": "list",
+   "icons": true,
+   "items": [
+    {
+     "icon": "droplet",
+     "html": "<strong>Ground-floor units with any water history.</strong> A daylight basement apartment in a Silver Lake split-level, a unit with a washer inside, or anything that has flooded once. Vinyl plank survives a leak; hardwood cups."
+    },
+    {
+     "icon": "dog",
+     "html": "<strong>Pet-friendly rentals.</strong> If you allow dogs to get a rent premium, every tenant will have a dog. Nail scratches on hardwood need a recoat every turnover. Vinyl plank shrugs them off. See <a href=\"/blog-posts/best-flooring-for-everett-rental-properties\">best flooring for Everett rentals</a> for the vinyl side of this comparison."
+    },
+    {
+     "icon": "wallet",
+     "html": "<strong>Rents that do not support it.</strong> If comparable units in your part of Everett rent the same with vinyl plank and hardwood, hardwood is a gift to the tenant. Check listings before you decide."
+    },
+    {
+     "icon": "refresh",
+     "html": "<strong>Short leases and high turnover.</strong> Furnished, month-to-month and travel-nurse rentals near the hospital see moving damage every few months. Refinishing cannot keep up."
+    },
+    {
+     "icon": "layers",
+     "html": "<strong>Thin engineered as a compromise.</strong> The worst rental floor is a cheap engineered hardwood with a 1 mm veneer. It scratches like wood, cannot be refinished like wood, and costs more than vinyl. If the budget only reaches that, buy good vinyl plank instead."
+    }
+   ]
+  },
+  {
+   "type": "callout",
+   "icon": "alert",
+   "gold": true,
+   "title": "The Everett-specific opportunity: ",
+   "text": "Before you price new flooring for any Everett house built before 1960, pull up a corner of the carpet in a closet. We find refinishable fir or oak under carpet in most of the older rentals we visit. Refinishing at $3.99 per sq ft all-in is the cheapest hardwood you will ever own, and the 15-minute drive from our Lynnwood showroom means we can look the same week."
+  },
+  {
+   "type": "h2",
+   "text": "Landlord checklist before you install hardwood"
+  },
+  {
+   "type": "list",
+   "icons": true,
+   "items": [
+    {
+     "icon": "search",
+     "html": "<strong>Check under the carpet first.</strong> Existing hardwood changes the whole decision."
+    },
+    {
+     "icon": "ruler",
+     "html": "<strong>Specify the wear layer in writing.</strong> 3 mm minimum on engineered so you get at least one refinish. Ask for the spec sheet, not the sales name."
+    },
+    {
+     "icon": "brush",
+     "html": "<strong>Pick a satin or matte factory finish in a mid-brown or natural tone.</strong> High gloss and very dark stains show every scratch and cost more to touch up between tenants."
+    },
+    {
+     "icon": "clipboard",
+     "html": "<strong>Write floor care into the lease.</strong> Felt pads on furniture, no steam mops, rugs at entries, nails trimmed on pets. Landlords who do this refinish half as often."
+    },
+    {
+     "icon": "calendar",
+     "html": "<strong>Budget a $1.99 recoat every second turnover.</strong> It takes a day and keeps the floor from ever needing a full sand. Skipping recoats is how a hardwood rental ends up needing a $3.99 refinish at year five."
+    },
+    {
+     "icon": "shield",
+     "html": "<strong>Use an installer with a warranty and a real address.</strong> Wills Flooring is licensed and insured, in business since 2013, and covers every install with a 1-year workmanship warranty. Details on our <a href=\"/services/hardwood-flooring\">hardwood installation page</a>."
+    }
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Does hardwood raise rent in Everett?",
+   "a": "In renovated older neighborhoods and near-downtown condos, yes, hardwood units rent faster and often for more than the same unit with carpet. In newer builder-grade areas like Silver Lake, vinyl plank rents nearly as well. Check active listings for your exact street before deciding."
+  },
+  {
+   "q": "How much does it cost to put hardwood in a 1,000 sq ft rental?",
+   "a": "At Wills Flooring's published rate, 1,000 sq ft of engineered or solid hardwood is $3,250 in labor, plus material, removal and any subfloor prep quoted at the free estimate. Vinyl plank on the same unit is $2,500 in labor. Refinishing existing hardwood is $3,990 all-in."
+  },
+  {
+   "q": "Is engineered hardwood good enough for a rental?",
+   "a": "Yes, if the wear layer is at least 3 mm. That gives you one full refinish plus recoats, which covers 20 years of tenants. Thin engineered with a 1 mm veneer is the one floor we tell landlords not to buy."
+  },
+  {
+   "q": "What about refinishing between tenants?",
+   "a": "A screen and recoat at $1.99 per sq ft takes one day and handles normal wear. Plan it every second turnover. A full sand and refinish at $3.99 is only needed for deep scratches, pet stains or water marks, typically once a decade in a well-managed unit."
+  },
+  {
+   "q": "Should I refinish the existing floors or cover them with vinyl plank?",
+   "a": "Refinish them. Original fir or oak in a Riverside or Bayside house is a rental feature that vinyl cannot match, and refinishing costs less than installing anything new. Cover them only if the boards are water-damaged or the unit has a serious moisture problem."
+  },
+  {
+   "q": "Can a tenant destroy a hardwood floor?",
+   "a": "They can scratch it, stain it and dent it. Almost all of that sands out. The damage that does not come out is long-term water, such as a leaking plant pot or a wet dog bed left for months. Address that in the lease and inspect at renewals."
+  }
+ ],
+ "faq_title": "Rental flooring questions from Everett landlords",
+ "faq_sub": "What owners of duplexes, craftsman rentals and Port Gardner condos ask us.",
+ "related": [
+  [
+   "best-flooring-for-everett-rental-properties",
+   "best flooring for Everett rentals"
+  ],
+  [
+   "do-hardwood-floors-increase-home-value-in-seattle",
+   "do hardwood floors increase home value"
+  ],
+  [
+   "engineered-vs-solid-hardwood-kirkland",
+   "engineered versus solid hardwood"
+  ]
+ ],
+ "cta_title": "Get a rental-ready hardwood quote",
+ "cta_sub": "We check what is under the carpet, measure and hand you a firm written price at the property. Free, no obligation, anywhere in Everett."
+}
