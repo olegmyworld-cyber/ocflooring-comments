@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__Webflow__data_cms_tool",
+      "mcp__Webflow__get_asset_preview",
+      "mcp__Semrush__get_report_schema",
+      "mcp__Semrush__execute_report",
+      "mcp__Webflow__data_pages_tool"
+    ]
+  }
+}
