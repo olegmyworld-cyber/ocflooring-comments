@@ -1,70 +1,287 @@
 {
  "slug": "hand-scraped-wire-brushed-or-smooth-hardwood-sammamish",
  "title": "Hand-Scraped, Wire-Brushed or Smooth Hardwood: Which Texture Hides Wear Best?",
- "meta": "Wire-brushed hardwood hides scratches and dog nails best; hand-scraped hides dents; smooth shows the most but refinishes easiest. Wills Flooring explains for Sammamish.",
+ "meta": "Wire-brushed hardwood hides scratches and dog nails best, hand-scraped hides dents, smooth refinishes easiest. Wills Flooring explains for Sammamish homes.",
  "category": "hardwood",
  "city": "Sammamish",
  "time": "8 mins",
  "date": "2027-03-17T15:00:00.000Z",
  "keywords": "wire brushed vs hand scraped hardwood, hand scraped hardwood floors pros and cons, wire brushed hardwood scratches, smooth vs textured hardwood floors, hardwood flooring Sammamish",
  "offers": [
-  ["Hardwood floor installation, engineered or solid", "3.25", "per square foot"],
-  ["Unfinished hardwood installation", "2.75", "per square foot"]
+  [
+   "Hardwood floor installation, engineered or solid",
+   "3.25",
+   "per square foot"
+  ],
+  [
+   "Unfinished hardwood installation",
+   "2.75",
+   "per square foot"
+  ]
  ],
  "blocks": [
-  {"type":"quick","eyebrow":"Short answer","lead":"Wire-brushed hardwood hides everyday wear best: the open grain swallows fine scratches, dog nails and dust, and a matte finish on top of it hides the rest.","detail":"Hand-scraped hides dents and heavy damage but looks dated and is hard to refinish evenly. Smooth shows every mark first, yet it is the easiest to sand back to new. Installation labor is the same for all three at Wills Flooring's published $3.25 per sq ft.",
-   "tiles":[{"icon":"paw","label":"Hides scratches","value":"Wire-brushed"},{"icon":"hammer","label":"Hides dents","value":"Hand-scraped"},{"icon":"refresh","label":"Easiest refinish","value":"Smooth"},{"icon":"dollar","label":"Install labor","value":"$3.25 / sq ft"}],"cta":"Try the calculator"},
-  {"type":"p","html":"Walk into any Sammamish showroom appointment and the texture question comes up in the first ten minutes. A family in Klahanie with two Labs and three kids wants a floor that will not look destroyed by Thanksgiving. A couple in Sahalee wants the clean look they saw in a Houghton listing. The honest answer depends on what kind of wear your house produces, because scratches, dents, grit and sun do not behave the same way on each texture. This post breaks down what actually happens to each surface after a few plateau winters, so you can pick the one that matches your household instead of the one that photographs best on a sample board."},
-  {"type":"h2","text":"What the three textures actually are"},
-  {"type":"cards","cols":3,"items":[
-    {"icon":"layers","title":"Smooth (flat-sawn or sanded)","text":"The board is sanded perfectly flat before finishing. Light reflects evenly, so the grain and color read cleanly and the floor looks calm and modern. Every scratch also reflects light, which is why smooth floors show wear first. Most site-finished floors are smooth by default."},
-    {"icon":"wind","title":"Wire-brushed","text":"Steel brushes pull the soft spring wood out of the surface, leaving the harder grain slightly raised. The result is a subtle linear texture you feel more than see. Scratches land inside the texture instead of across a flat plane, and a low-gloss finish nearly erases them from view."},
-    {"icon":"hammer","title":"Hand-scraped (and distressed)","text":"Long shallow scoops are cut across the board, by hand on premium lines and by machine on most. Combined with knots, wormholes or chatter marks on distressed versions. Dents and gouges disappear into the intentional damage, but the look leans rustic and 2008-era."}
-  ]},
-  {"type":"h2","text":"How each texture handles real Sammamish wear"},
-  {"type":"table","head":["Type of wear","Smooth","Wire-brushed","Hand-scraped"],"rows":[
-    ["Fine scratches from grit and chairs","Shows first, especially in low winter sun","Hidden inside the grain texture","Hidden, but the scrape pattern already looks busy"],
-    ["Dog nail scratches","Visible traffic lanes within a year","Mostly hidden with a matte finish","Hidden well; this is where scraped floors shine"],
-    ["Dents from dropped pans and toys","Obvious on a flat plane","Visible but softened","Nearly invisible among the scoops"],
-    ["Dust, dog hair and dried mud","Shows on dark colors, hides on light","Settles into the grain; looks clean longer","Collects in scoops and takes more vacuuming"],
-    ["Sun fade from big plateau windows","Even fade, easy to blend","Even fade","Uneven fade highlights the scrape pattern"],
-    ["Future sand and refinish","Easiest; sands flat and predictable","Possible; brushing is shallow and sands out to smooth","Difficult; sanding flat removes the texture and a lot of wear layer"]
-  ],"note":"Assumes a quality engineered or solid plank with a factory matte or low-gloss finish. Gloss level does as much hiding as texture does."},
-  {"type":"h2","text":"Price your Sammamish hardwood floor right now"},
-  {"type":"calc","kind":"hardwood","note":"Texture does not change our labor rate. It changes the material price per box, which we bring in writing with the samples at your free estimate."},
-  {"type":"h2","text":"Matching the texture to the room and the household"},
-  {"type":"steps","wide":true,"items":[
-    {"icon":"dog","d":"Two dogs, kids, open-plan main floor in Klahanie or Trossachs","text":"Wire-brushed white oak or hickory in a mid tone with a matte finish. It hides the nail marks and the grit that comes in from the trail.","note":"1,400 sq ft × $3.25 = $4,550 installation labor, plus material"},
-    {"icon":"sun","d":"South-facing great room with a wall of glass near Pine Lake","text":"Smooth or wire-brushed in a lighter color. Avoid heavy hand-scraped, because uneven fading makes the scoops read as damage after a few summers.","note":"Light colors also hide dust between cleanings"},
-    {"icon":"home","d":"Formal dining room or primary bedroom","text":"Smooth. Low traffic, no shoes, and the clean surface shows off the wood. This is where you can spend on a premium plank.","note":"500 sq ft minimum applies if it is the only room we install"},
-    {"icon":"stairs","d":"Stairs and upper hall","text":"Match the main floor texture, but on stairs a slightly higher sheen on the tread is acceptable because the texture itself provides grip.","note":"Hardwood stairs are $125 per stair at Wills Flooring"},
-    {"icon":"star","d":"Selling within three years","text":"Wire-brushed or smooth, never heavy hand-scraped. Plateau buyers touring Sahalee and Beaver Lake homes read scraped floors as a remodel they will have to pay for.","note":"Resale is where texture choice costs the most"}
-  ]},
-  {"type":"h2","text":"The gloss level matters as much as the texture"},
-  {"type":"p","html":"People choose a texture to hide wear and then order it in a semi-gloss that undoes the whole plan. A high sheen turns every micro-scratch into a bright line. A matte or ultra-matte finish scatters light so scratches stop reflecting. If you must have smooth boards in a busy Sammamish house, choose matte and a species harder than red oak. If you want wire-brushed, matte makes it almost self-hiding. For the full sheen breakdown on refinished floors, see our guide to <a href=\"/blog-posts/matte-vs-satin-vs-semi-gloss-lynnwood\">matte, satin and semi-gloss finishes</a>."},
-  {"type":"callout","icon":"alert","gold":true,"title":"One thing samples will not tell you: ","text":"Wire-brushing on a cheap plank is often just a printed or lightly rolled texture that wears through at doorways within a few years. Real brushing goes into the wood. Run a fingernail across the sample against the grain; if you feel ridges, it is real. We only carry lines where the texture is cut, not printed."},
-  {"type":"h2","text":"When each texture is the wrong choice"},
-  {"type":"list","icons":true,"items":[
-    {"icon":"x","html":"<strong>Smooth in a dog house with dark stain.</strong> Dark smooth floors show nail scratches as light lines through the color. If you love dark and have dogs, go wire-brushed or accept a recoat every few years."},
-    {"icon":"x","html":"<strong>Hand-scraped in a modern remodel.</strong> The rest of the house says 2026, the floor says 2008. It is also the hardest to refinish later, so the look is close to permanent."},
-    {"icon":"x","html":"<strong>Wire-brushed with a thin wear layer.</strong> Brushing already removes some surface. On engineered planks with a 2 mm wear layer, there is little left for a future sanding. Look for 3 mm or more."},
-    {"icon":"x","html":"<strong>Any textured floor you plan to site-finish yourself.</strong> Finish pools in texture. Textured floors should arrive prefinished; smooth is the right choice for unfinished planks at our $2.75 per sq ft installation rate."},
-    {"icon":"x","html":"<strong>Deep distressing in a wet mudroom.</strong> Scoops hold water and grit. Wet dogs plus deep texture equals gray patches at the back door."}
-  ]},
-  {"type":"h2","text":"What to check before you order"},
-  {"type":"ul","items":["Take three samples home and drag a house key across each one under your own windows. The one that hides the line is your answer.","Ask for the wear layer thickness in millimeters, not just the total plank thickness.","Confirm the finish is matte or low-gloss and whether it is aluminum oxide or a urethane; both are fine, but they wear differently.","Ask how the manufacturer recommends repairing a scratch. Wire-brushed and smooth floors take a touch-up kit well; scraped floors usually need a board swap.","Have us check your subfloor and moisture at the free estimate. Texture will not save a floor installed over a damp crawlspace.","Order 8 to 10 percent extra and keep a box. Board replacement is the only fix for a deep gouge, and dye lots change."]}
+  {
+   "type": "quick",
+   "eyebrow": "Short answer",
+   "lead": "Wire-brushed hardwood hides everyday wear best: the open grain swallows fine scratches, dog nails and dust, and a matte finish on top of it hides the rest.",
+   "detail": "Hand-scraped hides dents and heavy damage but looks dated and is hard to refinish evenly. Smooth shows every mark first, yet it is the easiest to sand back to new. Installation labor is the same for all three at Wills Flooring's published $3.25 per sq ft.",
+   "tiles": [
+    {
+     "icon": "paw",
+     "label": "Hides scratches",
+     "value": "Wire-brushed"
+    },
+    {
+     "icon": "hammer",
+     "label": "Hides dents",
+     "value": "Hand-scraped"
+    },
+    {
+     "icon": "refresh",
+     "label": "Easiest refinish",
+     "value": "Smooth"
+    },
+    {
+     "icon": "dollar",
+     "label": "Install labor",
+     "value": "$3.25 / sq ft"
+    }
+   ],
+   "cta": "Try the calculator"
+  },
+  {
+   "type": "p",
+   "html": "Walk into any Sammamish showroom appointment and the texture question comes up in the first ten minutes. A family in Klahanie with two Labs and three kids wants a floor that will not look destroyed by Thanksgiving. A couple in Sahalee wants the clean look they saw in a listing. The honest answer depends on what kind of wear your house produces, because scratches, dents, grit and sun do not behave the same way on each texture. Here is what actually happens to each surface after a few plateau winters."
+  },
+  {
+   "type": "h2",
+   "text": "What the three textures actually are"
+  },
+  {
+   "type": "cards",
+   "cols": 3,
+   "items": [
+    {
+     "icon": "layers",
+     "title": "Smooth (flat-sawn or sanded)",
+     "text": "The board is sanded perfectly flat before finishing. Light reflects evenly, so grain and color read cleanly and the floor looks calm and modern. Every scratch also reflects light, which is why smooth floors show wear first. Most site-finished floors are smooth by default."
+    },
+    {
+     "icon": "wind",
+     "title": "Wire-brushed",
+     "text": "Steel brushes pull the soft spring wood out of the surface, leaving the harder grain slightly raised. The result is a subtle linear texture you feel more than see. Scratches land inside the texture instead of across a flat plane, and a low-gloss finish nearly erases them from view."
+    },
+    {
+     "icon": "hammer",
+     "title": "Hand-scraped (and distressed)",
+     "text": "Long shallow scoops are cut across the board, by hand on premium lines and by machine on most. Combined with knots, wormholes or chatter marks on distressed versions. Dents and gouges disappear into the intentional damage, but the look leans rustic and 2008-era."
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "How each texture handles real Sammamish wear"
+  },
+  {
+   "type": "table",
+   "head": [
+    "Type of wear",
+    "Smooth",
+    "Wire-brushed",
+    "Hand-scraped"
+   ],
+   "rows": [
+    [
+     "Fine scratches from grit and chairs",
+     "Shows first, especially in low winter sun",
+     "Hidden inside the grain texture",
+     "Hidden, but the scrape pattern already looks busy"
+    ],
+    [
+     "Dog nail scratches",
+     "Visible traffic lanes within a year",
+     "Mostly hidden with a matte finish",
+     "Hidden well; this is where scraped floors shine"
+    ],
+    [
+     "Dents from dropped pans and toys",
+     "Obvious on a flat plane",
+     "Visible but softened",
+     "Nearly invisible among the scoops"
+    ],
+    [
+     "Dust, dog hair and dried mud",
+     "Shows on dark colors, hides on light",
+     "Settles into the grain; looks clean longer",
+     "Collects in scoops and takes more vacuuming"
+    ],
+    [
+     "Sun fade from big plateau windows",
+     "Even fade, easy to blend",
+     "Even fade",
+     "Uneven fade highlights the scrape pattern"
+    ],
+    [
+     "Future sand and refinish",
+     "Easiest; sands flat and predictable",
+     "Possible; brushing is shallow and sands out to smooth",
+     "Difficult; sanding flat removes the texture and a lot of wear layer"
+    ]
+   ],
+   "note": "Assumes a quality engineered or solid plank with a factory matte or low-gloss finish. Gloss level does as much hiding as texture does."
+  },
+  {
+   "type": "h2",
+   "text": "Price your Sammamish hardwood floor right now"
+  },
+  {
+   "type": "calc",
+   "kind": "hardwood",
+   "note": "Texture does not change our labor rate. It changes the material price per box, which we bring in writing with the samples at your free estimate."
+  },
+  {
+   "type": "h2",
+   "text": "Matching the texture to the room and the household"
+  },
+  {
+   "type": "steps",
+   "wide": true,
+   "items": [
+    {
+     "icon": "dog",
+     "d": "Two dogs, kids, open-plan main floor in Klahanie or Trossachs",
+     "text": "Wire-brushed white oak or hickory in a mid tone with a matte finish. It hides the nail marks and the grit that comes in from the trail.",
+     "note": "1,400 sq ft × $3.25 = $4,550 installation labor, plus material"
+    },
+    {
+     "icon": "sun",
+     "d": "South-facing great room with a wall of glass near Pine Lake",
+     "text": "Smooth or wire-brushed in a lighter color. Avoid heavy hand-scraped, because uneven fading makes the scoops read as damage after a few summers.",
+     "note": "Light colors also hide dust between cleanings"
+    },
+    {
+     "icon": "home",
+     "d": "Formal dining room or primary bedroom",
+     "text": "Smooth. Low traffic, no shoes, and the clean surface shows off the wood. This is where you can spend on a premium plank.",
+     "note": "500 sq ft minimum applies if it is the only room we install"
+    },
+    {
+     "icon": "stairs",
+     "d": "Stairs and upper hall",
+     "text": "Match the main floor texture, but on stairs a slightly higher sheen on the tread is acceptable because the texture itself provides grip.",
+     "note": "Hardwood stairs are $125 per stair at Wills Flooring"
+    },
+    {
+     "icon": "star",
+     "d": "Selling within three years",
+     "text": "Wire-brushed or smooth, never heavy hand-scraped. Plateau buyers touring Sahalee and Beaver Lake homes read scraped floors as a remodel they will have to pay for.",
+     "note": "Resale is where texture choice costs the most"
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "The gloss level matters as much as the texture"
+  },
+  {
+   "type": "p",
+   "html": "People choose a texture to hide wear and then order it in a semi-gloss that undoes the whole plan. A high sheen turns every micro-scratch into a bright line. A matte or ultra-matte finish scatters light so scratches stop reflecting. If you must have smooth boards in a busy Sammamish house, choose matte and a species harder than red oak. If you want wire-brushed, matte makes it almost self-hiding. For the full sheen breakdown on refinished floors, see our guide to <a href=\"/blog-posts/matte-vs-satin-vs-semi-gloss-lynnwood\">matte, satin and semi-gloss finishes</a>."
+  },
+  {
+   "type": "callout",
+   "icon": "alert",
+   "gold": true,
+   "title": "One thing samples will not tell you: ",
+   "text": "Wire-brushing on a cheap plank is often just a printed or lightly rolled texture that wears through at doorways within a few years. Real brushing goes into the wood. Run a fingernail across the sample against the grain; if you feel ridges, it is real. We only carry lines where the texture is cut, not printed."
+  },
+  {
+   "type": "h2",
+   "text": "When each texture is the wrong choice"
+  },
+  {
+   "type": "list",
+   "icons": true,
+   "items": [
+    {
+     "icon": "x",
+     "html": "<strong>Smooth in a dog house with dark stain.</strong> Dark smooth floors show nail scratches as light lines through the color. If you love dark and have dogs, go wire-brushed or accept a recoat every few years."
+    },
+    {
+     "icon": "x",
+     "html": "<strong>Hand-scraped in a modern remodel.</strong> The rest of the house says 2026, the floor says 2008. It is also the hardest to refinish later, so the look is close to permanent."
+    },
+    {
+     "icon": "x",
+     "html": "<strong>Wire-brushed with a thin wear layer.</strong> Brushing already removes some surface. On engineered planks with a 2 mm wear layer, there is little left for a future sanding. Look for 3 mm or more."
+    },
+    {
+     "icon": "x",
+     "html": "<strong>Any textured floor you plan to site-finish yourself.</strong> Finish pools in texture. Textured floors should arrive prefinished; smooth is the right choice for unfinished planks at our $2.75 per sq ft installation rate."
+    },
+    {
+     "icon": "x",
+     "html": "<strong>Deep distressing in a wet mudroom.</strong> Scoops hold water and grit. Wet dogs plus deep texture equals gray patches at the back door."
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "What to check before you order"
+  },
+  {
+   "type": "ul",
+   "items": [
+    "Take three samples home and drag a house key across each one under your own windows. The one that hides the line is your answer.",
+    "Ask for the wear layer thickness in millimeters, not just the total plank thickness.",
+    "Confirm the finish is matte or low-gloss and whether it is aluminum oxide or a urethane; both are fine, but they wear differently.",
+    "Ask how the manufacturer recommends repairing a scratch. Wire-brushed and smooth floors take a touch-up kit well; scraped floors usually need a board swap.",
+    "Have us check your subfloor and moisture at the free estimate. Texture will not save a floor installed over a damp crawlspace.",
+    "Order 8 to 10 percent extra and keep a box. Board replacement is the only fix for a deep gouge, and dye lots change."
+   ]
+  }
  ],
  "faq": [
-  {"q":"Does wire-brushed hardwood scratch less than smooth hardwood?","a":"It scratches exactly the same amount; the wood species and the finish decide that. What changes is visibility. On wire-brushed boards, scratches fall into the raised grain and stop catching light, so they disappear from normal viewing height. On smooth boards the same scratch sits on a flat plane and reflects."},
-  {"q":"Can wire-brushed or hand-scraped floors be refinished later?","a":"Wire-brushed floors can be sanded, and they come out smooth afterward because the brushing is shallow. Hand-scraped floors are much harder; sanding flat removes the scoops and a lot of wear layer, so most are replaced or given a screen and recoat instead of a full refinish."},
-  {"q":"Is hand-scraped hardwood out of style in 2026?","a":"Heavy hand-scraped and distressed looks have faded from new construction and from what Sammamish buyers ask for. A light, subtle scrape on a wide white oak plank still sells. Deep machine scraping in dark colors is the version buyers read as dated."},
-  {"q":"Which texture is best for dogs in a Sammamish home?","a":"Wire-brushed in a mid tone with a matte finish, on a hard species such as hickory or white oak. It hides nail scratches and tracked-in grit better than smooth, and it cleans easier than deep hand-scraped texture, which collects hair and dried mud in the scoops."},
-  {"q":"Does texture change the installation cost?","a":"Not at Wills Flooring. Engineered or solid prefinished planks install at $3.25 per sq ft regardless of texture, with a 500 sq ft minimum. Texture changes the material price per box, which varies by brand and species, and we quote it in writing at the free in-home estimate."},
-  {"q":"Can I get wire-brushed texture on an unfinished, site-finished floor?","a":"Some mills sell unfinished wire-brushed planks, but site-applied finish tends to pool in the texture and the result is uneven. If you want a site-finished floor at our $2.75 per sq ft unfinished rate, choose smooth boards and get the wear-hiding from a matte finish and a harder species."}
+  {
+   "q": "Does wire-brushed hardwood scratch less than smooth hardwood?",
+   "a": "It scratches exactly the same amount; the wood species and the finish decide that. What changes is visibility. On wire-brushed boards, scratches fall into the raised grain and stop catching light, so they disappear from normal viewing height. On smooth boards the same scratch sits on a flat plane and reflects."
+  },
+  {
+   "q": "Can wire-brushed or hand-scraped floors be refinished later?",
+   "a": "Wire-brushed floors can be sanded, and they come out smooth afterward because the brushing is shallow. Hand-scraped floors are much harder; sanding flat removes the scoops and a lot of wear layer, so most are replaced or given a screen and recoat instead of a full refinish."
+  },
+  {
+   "q": "Is hand-scraped hardwood out of style in 2026?",
+   "a": "Heavy hand-scraped and distressed looks have faded from new construction and from what Sammamish buyers ask for. A light, subtle scrape on a wide white oak plank still sells. Deep machine scraping in dark colors is the version buyers read as dated."
+  },
+  {
+   "q": "Which texture is best for dogs in a Sammamish home?",
+   "a": "Wire-brushed in a mid tone with a matte finish, on a hard species such as hickory or white oak. It hides nail scratches and tracked-in grit better than smooth, and it cleans easier than deep hand-scraped texture, which collects hair and dried mud in the scoops."
+  },
+  {
+   "q": "Does texture change the installation cost?",
+   "a": "Not at Wills Flooring. Engineered or solid prefinished planks install at $3.25 per sq ft regardless of texture, with a 500 sq ft minimum. Texture changes the material price per box, which varies by brand and species, and we quote it in writing at the free in-home estimate."
+  },
+  {
+   "q": "Can I get wire-brushed texture on an unfinished, site-finished floor?",
+   "a": "Some mills sell unfinished wire-brushed planks, but site-applied finish tends to pool in the texture and the result is uneven. If you want a site-finished floor at our $2.75 per sq ft unfinished rate, choose smooth boards and get the wear-hiding from a matte finish and a harder species."
+  }
  ],
  "faq_title": "Texture questions from Sammamish homeowners",
  "faq_sub": "Asked at kitchen tables from Pine Lake to Trossachs.",
- "related": [["hickory-vs-maple-vs-oak-flooring-sammamish","hickory vs maple vs oak for the plateau"],["wide-plank-vs-narrow-plank-hardwood-sammamish","wide plank vs narrow plank hardwood"],["what-is-the-best-hardwood-flooring-for-dogs-snohomish","the best hardwood for dogs"]],
+ "related": [
+  [
+   "hickory-vs-maple-vs-oak-flooring-sammamish",
+   "hickory vs maple vs oak for the plateau"
+  ],
+  [
+   "wide-plank-vs-narrow-plank-hardwood-sammamish",
+   "wide plank vs narrow plank hardwood"
+  ],
+  [
+   "what-is-the-best-hardwood-flooring-for-dogs-snohomish",
+   "the best hardwood for dogs"
+  ]
+ ],
  "cta_title": "See all three textures on your own floor",
  "cta_sub": "We bring smooth, wire-brushed and hand-scraped samples to your Sammamish home, measure, check the subfloor and hand you a firm written quote. Free and no pressure."
 }

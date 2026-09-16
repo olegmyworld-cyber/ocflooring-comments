@@ -1,70 +1,297 @@
 {
  "slug": "should-you-install-vinyl-plank-yourself-seattle",
  "title": "Should You Install Vinyl Plank Yourself? DIY vs Pro Cost in Seattle",
- "meta": "DIY vinyl plank saves the $2.50 per sq ft labor but costs tools, waste and weekends. Wills Flooring compares DIY vs pro honestly for Seattle homes, condos and stairs.",
+ "meta": "DIY vinyl plank saves the $2.50 per sq ft labor but costs tools, waste and weekends. Wills Flooring compares DIY vs pro honestly for Seattle homes and condos.",
  "category": "lvp",
  "city": "Seattle",
  "time": "8 mins",
  "date": "2026-11-26T15:00:00.000Z",
  "keywords": "DIY vinyl plank flooring vs professional, should I install vinyl plank myself, cost to install vinyl plank Seattle, how hard is it to install LVP, vinyl plank installation labor cost per square foot, DIY LVP mistakes",
- "offers": [["Vinyl plank flooring installation", "2.50", "per square foot"]],
+ "offers": [
+  [
+   "Vinyl plank flooring installation",
+   "2.50",
+   "per square foot"
+  ]
+ ],
  "blocks": [
-  {"type":"quick","eyebrow":"Short answer","lead":"Install it yourself if the room is a simple rectangle over a flat subfloor and you have a free weekend; hire it out when the job involves stairs, an uneven old Seattle subfloor, a condo with rules, or more than a couple of rooms.","detail":"Wills Flooring installs vinyl plank at $2.50 per sq ft in labor plus $100 per stair. On a 600 sq ft job that is $1,500. DIY saves most of that and costs tools, extra plank, two weekends and any mistakes you make on the way.",
-   "tiles":[{"icon":"dollar","label":"Pro labor","value":"$2.50 / sq ft"},{"icon":"stairs","label":"Pro stairs","value":"$100 / stair"},{"icon":"clock","label":"DIY, 600 sq ft, first time","value":"2 weekends"},{"icon":"box","label":"DIY waste","value":"10–15%"}]},
-  {"type":"p","html":"Vinyl plank is the most DIY-friendly floor ever sold, and the Seattle version of this question is usually honest: \"I am handy, the videos make it look easy, is paying someone $1,500 worth it?\" Sometimes no. A Beacon Hill bedroom over a flat plywood subfloor is a fine first project. A Ballard bungalow with a 1925 fir subfloor that dips an inch toward the chimney, or a Capitol Hill condo with quiet hours, an elevator and a concrete slab, is a different job. Here is how to tell which one you have."},
-  {"type":"h2","text":"DIY vs pro on a real 600 sq ft Seattle job"},
-  {"type":"table","head":["Line","DIY","Wills Flooring"],"rows":[
-    ["Installation labor","Your time: 16 to 24 hours for a first-timer","600 × $2.50 = $1,500"],
-    ["Plank material","You buy it, 10 to 15 percent extra for cuts and mistakes","You buy it or we supply it; 5 to 7 percent waste on a straight layout"],
-    ["Tools","Tapping block, pull bar, spacers, utility knife, jigsaw or oscillating tool, straightedge, possibly a saw rental","Included"],
-    ["Subfloor flattening","Learn to use floor patch, or skip it and regret it","Checked at the estimate, quoted as a line, done before plank"],
-    ["Undercutting door jambs","Hand saw and patience, or the jamb saw you do not own","Standard"],
-    ["Old floor removal and disposal","Your truck, your transfer station trip","Quoted at the estimate"],
-    ["Stairs","Hardest part of any job; most DIY attempts stop here","$100 per stair, treads, risers and nosings fitted"],
-    ["Warranty","Manufacturer only, and only if installed exactly to spec","1-year workmanship warranty plus the manufacturer's"]
-  ],"note":"Wills Flooring prices from the published price list, 500 sq ft minimum. Tool costs vary by what you already own; a basic kit and a saw rental are typically a low-hundreds retail expense, not a Wills price."},
-  {"type":"h2","text":"Price the pro version of your Seattle floor"},
-  {"type":"calc","kind":"lvp","note":"Labor only. Plank, underlayment, tear-out and subfloor prep are quoted at the free estimate. Compare this number to what your weekends are worth."},
-  {"type":"h2","text":"Where DIY installs go wrong"},
-  {"type":"cards","cols":2,"items":[
-    {"icon":"ruler","title":"The subfloor was not flat","text":"Vinyl plank needs 3/16 in over 10 ft. Old Seattle fir and plywood subfloors rarely meet that without work. Plank over a dip flexes, joints open, and a hump becomes a buckle. Most DIY failures we are called to fix started here, and the fix is pulling the floor up."},
-    {"icon":"grid","title":"No expansion gap","text":"Planks cut tight to the wall look great in March and lift in August when the sun through a west-facing window heats the floor. A 1/4 to 3/8 in gap at every wall, jamb and cabinet, hidden by baseboard or shoe molding, is not optional."},
-    {"icon":"layers","title":"Short staggers and H-joints","text":"End joints closer than 6 to 8 in between rows, or lined up every other row, weaken the lock and show as a pattern from across the room. Planning the layout takes an hour most first-timers skip."},
-    {"icon":"hammer","title":"Damaged locking edges","text":"Hammering planks together instead of angling them in crushes the tongue. The joint looks closed and opens a month later. A tapping block and a pull bar are cheap; knowing how hard to hit is the part you learn on your own floor."},
-    {"icon":"frame","title":"Cutting around door jambs","text":"Cutting the plank around the jamb leaves a visible gap that has to be caulked. Undercutting the jamb so the plank slides under it is what makes a floor look professional, and it needs a jamb saw or a careful hand saw."},
-    {"icon":"stairs","title":"Stairs","text":"Each step is a tread, a riser and a stair nosing that must be glued and sometimes screwed, with cuts fitted to walls that are never square. A staircase is where we get the most calls to finish a DIY project."}
-  ]},
-  {"type":"h2","text":"When DIY makes sense, and when it does not"},
-  {"type":"compare","a":{"icon":"done","tag":"Do it yourself","title":"Reasonable when","items":["One or two rectangular rooms, no stairs","Plywood or OSB subfloor that reads flat with a straightedge","Click-lock or rigid-core plank, not glue-down","You have a helper, a free weekend or two, and do not mind a learning curve","The old floor is carpet you can pull yourself"]},
-    "b":{"icon":"x","tag":"Hire it","title":"Better when","items":["Stairs, a landing or an open-plan floor with many transitions","A pre-1950 Seattle house with an uneven fir subfloor or a slab that needs a moisture test","A condo with HOA rules, elevator reservations and quiet hours","Tile or glued vinyl has to come out first","You want a workmanship warranty and one weekend, not three"]}},
-  {"type":"h2","text":"What the pro price actually buys in Seattle"},
-  {"type":"steps","wide":true,"items":[
-    {"icon":"search","d":"Estimate","text":"We check subfloor flatness with a straightedge, test moisture on slabs and crawlspace floors, count doorways and transitions, and give you a firm written price. In a condo, we sort out the building's flooring rules and elevator access with you."},
-    {"icon":"truck","d":"Prep day","text":"Tear-out, disposal, screws in squeaky spots, floor patch in the dips, sanding of high spots. This is the day DIYers skip and the reason their floors fail."},
-    {"icon":"hammer","d":"Install","text":"A two-person crew lays 500 to 700 sq ft a day with undercut jambs, planned staggers, correct gaps and transitions that lie flat. A 600 sq ft main floor is one day.","note":"600 × $2.50 = $1,500 labor. Add 13 stairs: 13 × $100 = $1,300."},
-    {"icon":"shield","d":"After","text":"Walkable immediately. Any plank that fails from installation in the first year is our problem, not yours. Manufacturer warranties stay valid because the floor was installed to spec."}
-  ]},
-  {"type":"callout","icon":"alert","title":"A Seattle condo note: ","text":"Many downtown, Capitol Hill and Queen Anne buildings require a sound-rated underlayment under hard flooring and written approval before work starts. A DIY install without the approved underlayment can mean pulling the floor back up when the neighbor below complains. Check the rules before you buy plank."},
-  {"type":"h2","text":"If you do it yourself, do these five things"},
-  {"type":"list","icons":true,"items":[
-    {"icon":"ruler","html":"<strong>Check flatness first.</strong> Lay a 10 ft straightedge or a taut string across the room. Anything over 3/16 in gets floor patch or sanding before a single plank goes down."},
-    {"icon":"box","html":"<strong>Buy 15 percent extra and let it acclimate.</strong> Two days in the room at living temperature. Keep the leftover boxes; the color will not be available in three years."},
-    {"icon":"grid","html":"<strong>Dry-lay the first three rows.</strong> Start from the longest, straightest wall, measure so the last row is not a sliver, and plan staggers of at least 6 to 8 in."},
-    {"icon":"scissors","html":"<strong>Undercut the jambs, do not cut around them.</strong> A scrap of plank as a height guide and a flush-cut saw is all it takes."},
-    {"icon":"phone","html":"<strong>Know when to call.</strong> If the stairs, the slab or the subfloor turn out to be more than expected, we finish DIY projects more often than you would think. It is cheaper to call before the plank is half down than after."}
-  ]}
+  {
+   "type": "quick",
+   "eyebrow": "Short answer",
+   "lead": "Install it yourself if the room is a simple rectangle over a flat subfloor and you have a free weekend; hire it out when the job involves stairs, an uneven old Seattle subfloor, a condo with rules, or more than a couple of rooms.",
+   "detail": "Wills Flooring installs vinyl plank at $2.50 per sq ft in labor plus $100 per stair. On a 600 sq ft job that is $1,500. DIY saves most of that and costs tools, extra plank, two weekends and any mistakes you make on the way.",
+   "tiles": [
+    {
+     "icon": "dollar",
+     "label": "Pro labor",
+     "value": "$2.50 / sq ft"
+    },
+    {
+     "icon": "stairs",
+     "label": "Pro stairs",
+     "value": "$100 / stair"
+    },
+    {
+     "icon": "clock",
+     "label": "DIY, 600 sq ft, first time",
+     "value": "2 weekends"
+    },
+    {
+     "icon": "box",
+     "label": "DIY waste",
+     "value": "10–15%"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "html": "<a href=\"/services/lvp-vinyl-flooring\">Vinyl plank</a> is the most DIY-friendly floor ever sold, and the Seattle version of this question is usually honest: \"I am handy, the videos make it look easy, is paying someone $1,500 worth it?\" Sometimes no. A Beacon Hill bedroom over a flat plywood subfloor is a fine first project. A Ballard bungalow with a 1925 fir subfloor that dips an inch toward the chimney, or a Capitol Hill condo with quiet hours, an elevator and a concrete slab, is a different job. Here is how to tell which one you have."
+  },
+  {
+   "type": "h2",
+   "text": "DIY vs pro on a real 600 sq ft Seattle job"
+  },
+  {
+   "type": "table",
+   "head": [
+    "Line",
+    "DIY",
+    "Wills Flooring"
+   ],
+   "rows": [
+    [
+     "Installation labor",
+     "Your time: 16 to 24 hours for a first-timer",
+     "600 × $2.50 = $1,500"
+    ],
+    [
+     "Plank material",
+     "You buy it, 10 to 15 percent extra for cuts and mistakes",
+     "You buy it or we supply it; 5 to 7 percent waste on a straight layout"
+    ],
+    [
+     "Tools",
+     "Tapping block, pull bar, spacers, utility knife, jigsaw or oscillating tool, straightedge, possibly a saw rental",
+     "Included"
+    ],
+    [
+     "Subfloor flattening",
+     "Learn to use floor patch, or skip it and regret it",
+     "Checked at the estimate, quoted as a line, done before plank"
+    ],
+    [
+     "Undercutting door jambs",
+     "Hand saw and patience, or the jamb saw you do not own",
+     "Standard"
+    ],
+    [
+     "Old floor removal and disposal",
+     "Your truck, your transfer station trip",
+     "Quoted at the estimate"
+    ],
+    [
+     "Stairs",
+     "Hardest part of any job; most DIY attempts stop here",
+     "$100 per stair, treads, risers and nosings fitted"
+    ],
+    [
+     "Warranty",
+     "Manufacturer only, and only if installed exactly to spec",
+     "1-year workmanship warranty plus the manufacturer's"
+    ]
+   ],
+   "note": "Wills Flooring prices from the published price list, 500 sq ft minimum. Tool costs vary by what you already own; a basic kit and a saw rental are typically a low-hundreds retail expense, not a Wills price."
+  },
+  {
+   "type": "h2",
+   "text": "Price the pro version of your Seattle floor"
+  },
+  {
+   "type": "calc",
+   "kind": "lvp",
+   "note": "Labor only. Plank, underlayment, tear-out and subfloor prep are quoted at the free estimate. Compare this number to what your weekends are worth."
+  },
+  {
+   "type": "h2",
+   "text": "Where DIY installs go wrong"
+  },
+  {
+   "type": "cards",
+   "cols": 2,
+   "items": [
+    {
+     "icon": "ruler",
+     "title": "The subfloor was not flat",
+     "text": "Vinyl plank needs 3/16 in over 10 ft. Old Seattle fir and plywood subfloors rarely meet that without work. Plank over a dip flexes, joints open, and a hump becomes a buckle. Most DIY failures we are called to fix started here."
+    },
+    {
+     "icon": "grid",
+     "title": "No expansion gap",
+     "text": "Planks cut tight to the wall look great in March and lift in August when the sun through a west-facing window heats the floor. A 1/4 to 3/8 in gap at every wall, jamb and cabinet, hidden by baseboard or shoe molding, is not optional."
+    },
+    {
+     "icon": "layers",
+     "title": "Short staggers and H-joints",
+     "text": "End joints closer than 6 to 8 in between rows, or lined up every other row, weaken the lock and show as a pattern from across the room. Planning the layout takes an hour most first-timers skip."
+    },
+    {
+     "icon": "hammer",
+     "title": "Damaged locking edges",
+     "text": "Hammering planks together instead of angling them in crushes the tongue. The joint looks closed and opens a month later. A tapping block and a pull bar are cheap; knowing how hard to hit is learned on your own floor."
+    },
+    {
+     "icon": "frame",
+     "title": "Cutting around door jambs",
+     "text": "Cutting the plank around the jamb leaves a visible gap that has to be caulked. Undercutting the jamb so the plank slides under it is what makes a floor look professional, and it needs a jamb saw or a careful hand saw."
+    },
+    {
+     "icon": "stairs",
+     "title": "Stairs",
+     "text": "Each step is a tread, a riser and a stair nosing that must be glued and sometimes screwed, with cuts fitted to walls that are never square. A staircase is where we get the most calls to finish a DIY project."
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "When DIY makes sense, and when it does not"
+  },
+  {
+   "type": "compare",
+   "a": {
+    "icon": "done",
+    "tag": "Do it yourself",
+    "title": "Reasonable when",
+    "items": [
+     "One or two rectangular rooms, no stairs",
+     "Plywood or OSB subfloor that reads flat with a straightedge",
+     "Click-lock or rigid-core plank, not glue-down",
+     "You have a helper, a free weekend or two, and do not mind a learning curve",
+     "The old floor is carpet you can pull yourself"
+    ]
+   },
+   "b": {
+    "icon": "x",
+    "tag": "Hire it",
+    "title": "Better when",
+    "items": [
+     "Stairs, a landing or an open-plan floor with many transitions",
+     "A pre-1950 Seattle house with an uneven fir subfloor or a slab that needs a moisture test",
+     "A condo with HOA rules, elevator reservations and quiet hours",
+     "Tile or glued vinyl has to come out first",
+     "You want a workmanship warranty and one weekend, not three"
+    ]
+   }
+  },
+  {
+   "type": "h2",
+   "text": "What the pro price actually buys in Seattle"
+  },
+  {
+   "type": "steps",
+   "wide": true,
+   "items": [
+    {
+     "icon": "search",
+     "d": "Estimate",
+     "text": "We check subfloor flatness with a straightedge, test moisture on slabs and crawlspace floors, count doorways and transitions, and give you a firm written price. In a condo, we sort out the building's flooring rules and elevator access with you."
+    },
+    {
+     "icon": "truck",
+     "d": "Prep day",
+     "text": "Tear-out, disposal, screws in squeaky spots, floor patch in the dips, sanding of high spots. This is the day DIYers skip and the reason their floors fail."
+    },
+    {
+     "icon": "hammer",
+     "d": "Install",
+     "text": "A two-person crew lays 500 to 700 sq ft a day with undercut jambs, planned staggers, correct gaps and transitions that lie flat. A 600 sq ft main floor is one day.",
+     "note": "600 × $2.50 = $1,500 labor. Add 13 stairs: 13 × $100 = $1,300."
+    },
+    {
+     "icon": "shield",
+     "d": "After",
+     "text": "Walkable immediately. Any plank that fails from installation in the first year is our problem, not yours. Manufacturer warranties stay valid because the floor was installed to spec."
+    }
+   ]
+  },
+  {
+   "type": "callout",
+   "icon": "alert",
+   "title": "A Seattle condo note: ",
+   "text": "Many downtown, Capitol Hill and Queen Anne buildings require a sound-rated underlayment under hard flooring and written approval before work starts. A DIY install without the approved underlayment can mean pulling the floor back up when the neighbor below complains. Check the rules before you buy plank."
+  },
+  {
+   "type": "h2",
+   "text": "If you do it yourself, do these five things"
+  },
+  {
+   "type": "list",
+   "icons": true,
+   "items": [
+    {
+     "icon": "ruler",
+     "html": "<strong>Check flatness first.</strong> Lay a 10 ft straightedge or a taut string across the room. Anything over 3/16 in gets floor patch or sanding before a single plank goes down."
+    },
+    {
+     "icon": "box",
+     "html": "<strong>Buy 15 percent extra and let it acclimate.</strong> Two days in the room at living temperature. Keep the leftover boxes; the color will not be available in three years."
+    },
+    {
+     "icon": "grid",
+     "html": "<strong>Dry-lay the first three rows.</strong> Start from the longest, straightest wall, measure so the last row is not a sliver, and plan staggers of at least 6 to 8 in."
+    },
+    {
+     "icon": "scissors",
+     "html": "<strong>Undercut the jambs, do not cut around them.</strong> A scrap of plank as a height guide and a flush-cut saw is all it takes."
+    },
+    {
+     "icon": "phone",
+     "html": "<strong>Know when to call.</strong> If the stairs, the slab or the subfloor turn out to be more than expected, we finish DIY projects more often than you would think. It is cheaper to call before the plank is half down than after."
+    }
+   ]
+  }
  ],
  "faq": [
-  {"q":"How much does it cost to have vinyl plank installed in Seattle?","a":"Wills Flooring installs vinyl plank at $2.50 per sq ft in labor with a 500 sq ft minimum, plus $100 per stair. A 600 sq ft job is 600 × $2.50 = $1,500. Plank material, underlayment, old floor removal and subfloor prep are quoted separately at the free in-home estimate."},
-  {"q":"How much do you really save by installing vinyl plank yourself?","a":"You save the labor, $2.50 per sq ft at our rates, minus tools you do not own, a saw rental, extra plank for waste and mistakes, and disposal of the old floor. On a simple 600 sq ft room the real saving is often around $1,000 for two weekends of work. On a job with stairs or leveling it is less."},
-  {"q":"How hard is it to install vinyl plank flooring for a beginner?","a":"Laying click-lock plank in a flat rectangular room is genuinely beginner-friendly. The hard parts are everything around it: flattening the subfloor, undercutting door jambs, planning staggers, leaving gaps, cutting around vents and toilets, and stairs. Those are where first-time floors fail and where a professional earns the fee."},
-  {"q":"Can you install vinyl plank over an uneven old subfloor?","a":"Not without prep. Plank needs a subfloor flat to about 3/16 in over 10 ft. Older Seattle homes with fir subfloors often have dips and humps well beyond that. Floor patch and sanding fix it, and skipping the step leads to flexing joints and buckles. We check flatness at every estimate."},
-  {"q":"Is installing vinyl plank on stairs a DIY job?","a":"It is the hardest part of any vinyl plank project. Each tread, riser and nosing is cut to walls that are rarely square, glued and fitted so nothing moves underfoot. Most of the partially finished DIY jobs we complete stopped at the stairs. Wills Flooring installs stairs at $100 per stair."},
-  {"q":"Does a DIY installation void the vinyl plank warranty?","a":"Not automatically, but manufacturers require installation to their written specifications, including subfloor flatness, expansion gaps, acclimation and approved underlayment. Any failure traced to those is excluded. A professional installation keeps the manufacturer warranty intact and adds Wills Flooring's 1-year workmanship warranty."}
+  {
+   "q": "How much does it cost to have vinyl plank installed in Seattle?",
+   "a": "Wills Flooring installs vinyl plank at $2.50 per sq ft in labor with a 500 sq ft minimum, plus $100 per stair. A 600 sq ft job is 600 × $2.50 = $1,500. Plank material, underlayment, old floor removal and subfloor prep are quoted separately at the free in-home estimate."
+  },
+  {
+   "q": "How much do you really save by installing vinyl plank yourself?",
+   "a": "You save the labor, $2.50 per sq ft at our rates, minus tools you do not own, a saw rental, extra plank for waste and mistakes, and disposal of the old floor. On a simple 600 sq ft room the real saving is often around $1,000 for two weekends of work. On a job with stairs or leveling it is less."
+  },
+  {
+   "q": "How hard is it to install vinyl plank flooring for a beginner?",
+   "a": "Laying click-lock plank in a flat rectangular room is genuinely beginner-friendly. The hard parts are everything around it: flattening the subfloor, undercutting door jambs, planning staggers, leaving gaps, cutting around vents and toilets, and stairs. Those are where first-time floors fail and where a professional earns the fee."
+  },
+  {
+   "q": "Can you install vinyl plank over an uneven old subfloor?",
+   "a": "Not without prep. Plank needs a subfloor flat to about 3/16 in over 10 ft. Older Seattle homes with fir subfloors often have dips and humps well beyond that. Floor patch and sanding fix it, and skipping the step leads to flexing joints and buckles. We check flatness at every estimate."
+  },
+  {
+   "q": "Is installing vinyl plank on stairs a DIY job?",
+   "a": "It is the hardest part of any vinyl plank project. Each tread, riser and nosing is cut to walls that are rarely square, glued and fitted so nothing moves underfoot. Most of the partially finished DIY jobs we complete stopped at the stairs. Wills Flooring installs stairs at $100 per stair."
+  },
+  {
+   "q": "Does a DIY installation void the vinyl plank warranty?",
+   "a": "Not automatically, but manufacturers require installation to their written specifications, including subfloor flatness, expansion gaps, acclimation and approved underlayment. Any failure traced to those is excluded. A professional installation keeps the manufacturer warranty intact and adds Wills Flooring's 1-year workmanship warranty."
+  }
  ],
  "faq_title": "DIY vs pro questions from Seattle homeowners",
  "faq_sub": "Asked on Reddit, on Google and at our Lynnwood showroom.",
- "related": [["how-flat-does-a-subfloor-need-to-be-for-vinyl-plank-seattle","how flat a subfloor needs to be"],["click-lock-vs-glue-down-vinyl-plank-seattle","click-lock vs glue-down vinyl plank"],["do-you-need-underlayment-under-vinyl-plank-flooring-everett","underlayment under vinyl plank"]],
+ "related": [
+  [
+   "how-flat-does-a-subfloor-need-to-be-for-vinyl-plank-seattle",
+   "how flat a subfloor needs to be"
+  ],
+  [
+   "click-lock-vs-glue-down-vinyl-plank-seattle",
+   "click-lock vs glue-down vinyl plank"
+  ],
+  [
+   "do-you-need-underlayment-under-vinyl-plank-flooring-everett",
+   "underlayment under vinyl plank"
+  ]
+ ],
  "cta_title": "Get the pro price before you decide",
  "cta_sub": "We check your subfloor, count the stairs and give you a firm written labor quote to weigh against your weekends. Free estimate anywhere in Seattle."
 }
