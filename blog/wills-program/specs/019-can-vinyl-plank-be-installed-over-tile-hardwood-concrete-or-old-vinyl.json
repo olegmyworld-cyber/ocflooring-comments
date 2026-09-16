@@ -1,62 +1,274 @@
 {
  "slug": "can-vinyl-plank-be-installed-over-tile-hardwood-concrete-or-old-vinyl",
  "title": "Can Vinyl Plank Be Installed Over Tile, Hardwood, Concrete or Old Vinyl?",
- "meta": "Yes, vinyl plank can go over tile, hardwood, concrete and single-layer vinyl if the floor is flat, solid and dry. Wills Flooring explains the prep for Everett homes.",
+ "meta": "Vinyl plank can go over tile, hardwood, concrete and single-layer vinyl if the floor is flat, solid and dry. Wills Flooring explains the prep for Everett homes.",
  "category": "lvp",
  "city": "Everett",
  "time": "8 mins",
  "date": "2026-10-05T15:00:00.000Z",
  "keywords": "vinyl plank over tile, install vinyl plank over hardwood, LVP over concrete, vinyl plank over old vinyl flooring, vinyl plank installation Everett WA, floating floor over existing floor",
- "offers": [["Vinyl plank flooring installation", "2.50", "per square foot"]],
+ "offers": [
+  [
+   "Vinyl plank flooring installation",
+   "2.50",
+   "per square foot"
+  ]
+ ],
  "blocks": [
-  {"type":"quick","eyebrow":"Short answer","lead":"Yes to all four, with conditions. Vinyl plank can float over tile, hardwood, concrete or a single layer of old vinyl as long as the existing floor is solid, flat within 3/16 in over 10 ft, dry, and not itself a floating floor.","detail":"Tile needs its grout lines filled, hardwood needs to be fastened flat, concrete needs a moisture test, and old sheet vinyl has to be one well-glued layer. Get those right and you skip the tear-out line on the quote. Wills Flooring installs vinyl plank for $2.50 per sq ft in labor.",
-   "tiles":[{"icon":"grid","label":"Over tile","value":"Yes, fill grout lines"},{"icon":"tree","label":"Over hardwood","value":"Yes, if flat"},{"icon":"basement","label":"Over concrete","value":"Yes, test moisture"},{"icon":"layers","label":"Over old vinyl","value":"Yes, one layer only"}],"cta":"Try the calculator"},
-  {"type":"p","html":"Everett homes come with layers. A 1910s house in Riverside or Bayside might have fir, then 1960s sheet vinyl, then 1990s tile in the kitchen. A Silver Lake or Eastmont home from the late 1990s has builder oak in the hall and ceramic tile in the kitchen. A Port Gardner condo sits on concrete. In every case the homeowner asks the same thing: do we really have to rip all that out first? Often you do not. Here is how we decide, surface by surface."},
-  {"type":"h2","text":"Four conditions that apply to every existing floor"},
-  {"type":"cards","cols":2,"items":[
-    {"icon":"ruler","title":"Flat within 3/16 in over 10 ft","text":"Rigid-core vinyl plank telegraphs every hump and dip. Grout lines, cupped boards and slab ridges show through as a wavy surface and open the click joints. We check with a 10 ft straightedge at the estimate and price any leveling before we start.","gold":true},
-    {"icon":"lock","title":"Solid and fastened","text":"The old floor has to be stuck to the house. Loose tiles, bouncing hardwood, curling vinyl edges and any floating laminate are out. A floating floor over another floating floor moves twice as much, and the joints break within a season.","gold":false},
-    {"icon":"moisture","title":"Dry","text":"Vinyl plank does not mind moisture, but what is trapped under it does. Concrete gets a moisture test, and old vinyl on a slab gets checked underneath at an edge. Any active leak or seep gets fixed before flooring, never covered.","gold":false},
-    {"icon":"home","title":"Height you can live with","text":"Adding a floor raises everything by a quarter inch or more. Doors need trimming, the dishwasher may no longer slide out, and the step at the exterior door changes. We measure appliance clearance before agreeing to go over anything.","gold":false}
-  ]},
-  {"type":"h2","text":"Surface by surface"},
-  {"type":"table","head":["Existing floor","Go over it?","Prep needed","When we tear out instead"],"rows":[
-    ["Ceramic or porcelain tile","Usually yes","Fill grout lines deeper than 1/8 in with patch or skim coat; reset any loose tile.","Hollow or cracked tiles across the room, or a height problem at appliances."],
-    ["Hardwood, nailed","Yes, if flat","Screw down squeaks, sand or grind cupped boards, fill gaps wider than a plank edge.","Water-damaged or badly cupped boards, or when refinishing the wood is the better move."],
-    ["Bare concrete slab","Yes","Moisture test, grind ridges, self-level low spots, vapor-rated underlayment.","Slab that tests wet or has seasonal seepage. Fix the water first."],
-    ["Sheet vinyl, single layer","Yes","Must be fully glued, not cushioned; clean and repair any curled edges.","Two or more layers, a cushioned backing, or vinyl that is lifting."],
-    ["Peel-and-stick or vinyl tile","Case by case","Every tile must be stuck; loose ones come up and the spot is patched.","More than a few loose tiles or a soft subfloor underneath."],
-    ["Floating laminate or click vinyl","No","None. It has to come out.","Always. Floating over floating fails."],
-    ["Carpet and pad","No","Tear out, remove staples and tack strip, inspect subfloor.","Always."]
-  ],"note":"Removal, leveling and underlayment are quoted at the free estimate. Going over an existing floor mostly saves the tear-out and disposal lines, not the leveling."},
-  {"type":"h2","text":"Price your Everett vinyl plank installation"},
-  {"type":"calc","kind":"lvp","note":"Labor only. Skipping tear-out removes a line from the quote; leveling over grout lines or an uneven slab adds one."},
-  {"type":"p","html":"A 900 sq ft Silver Lake main floor going over the existing oak and kitchen tile is 900 × $2.50 = $2,250 in installation labor, plus plank and the skim coat over the grout lines. The 14 stairs to the bedrooms, if you want them wrapped in matching plank, are 14 × $100 = $1,400. Everett is about 15 minutes from our Lynnwood showroom, so the estimate visit is usually the same week you call."},
-  {"type":"h2","text":"Over the hardwood, or refinish the hardwood?"},
-  {"type":"compare","a":{"icon":"refresh","tag":"Refinish the hardwood","title":"Better when","items":["The wood is solid oak or fir with enough thickness left to sand","You like the look of real wood and a refinish at $3.99 per sq ft is close to your plank budget","Resale in an older Everett neighborhood where original floors are a selling point","The damage is scratches, gray finish or light pet stains"]},
-   "b":{"icon":"layers","tag":"Vinyl plank over it","title":"Better when","items":["Thin or previously over-sanded boards that cannot take another pass","You want one waterproof surface through the kitchen and laundry","A rental where durability beats character","Boards are stained deep or patched with mismatched species"]}},
-  {"type":"callout","icon":"alert","title":"Old vinyl and asbestos: ","text":"Sheet vinyl and 9 in tiles installed before about 1980, which describes a lot of Everett kitchens, may contain asbestos in the backing or adhesive. Do not sand, scrape or pull it. Floating vinyl plank over intact old vinyl is an accepted way to encapsulate it. If it must come out, it gets tested first and removed by an abatement contractor, not by us and not by you."},
-  {"type":"h2","text":"Mistakes that make a floating floor fail over an old one"},
-  {"type":"list","icons":true,"items":[
-    {"icon":"grid","html":"<strong>Skipping the skim coat over tile.</strong> Within months the grout pattern shows through the planks and the joints start to click when you walk. Filling the lines is cheap; redoing the floor is not."},
-    {"icon":"layers","html":"<strong>Floating over cushioned vinyl.</strong> The soft backing lets the planks flex at every joint and the locking edges snap. If your old vinyl feels springy, it comes out."},
-    {"icon":"x","html":"<strong>Going over laminate or click vinyl.</strong> Two floating floors slide against each other. This is the most common DIY failure we get called to fix in Everett."},
-    {"icon":"moisture","html":"<strong>Trusting old vinyl on concrete to be dry.</strong> Sheet vinyl hides a damp slab for decades. We lift an edge and test before covering it."},
-    {"icon":"ruler","html":"<strong>Forgetting the perimeter gap.</strong> Vinyl plank needs room to move at walls, cabinets and transitions. Tight against the old tile edge, it buckles in the first warm week."},
-    {"icon":"plug","html":"<strong>Trapping the dishwasher.</strong> Raising the kitchen floor without checking the dishwasher height means it cannot come out for service. We measure it before quoting. See our <a href=\"/services/lvp-vinyl-flooring\">vinyl plank installation page</a> for what the estimate covers."}
-  ]}
+  {
+   "type": "quick",
+   "eyebrow": "Short answer",
+   "lead": "Yes to all four, with conditions. Vinyl plank can float over tile, hardwood, concrete or a single layer of old vinyl as long as the existing floor is solid, flat within 3/16 in over 10 ft, dry, and not itself a floating floor.",
+   "detail": "Tile needs its grout lines filled, hardwood needs to be fastened flat, concrete needs a moisture test, and old sheet vinyl has to be one well-glued layer. Get those right and you skip the tear-out line on the quote. Wills Flooring installs vinyl plank for $2.50 per sq ft in labor.",
+   "tiles": [
+    {
+     "icon": "grid",
+     "label": "Over tile",
+     "value": "Yes, fill grout lines"
+    },
+    {
+     "icon": "tree",
+     "label": "Over hardwood",
+     "value": "Yes, if flat"
+    },
+    {
+     "icon": "basement",
+     "label": "Over concrete",
+     "value": "Yes, test moisture"
+    },
+    {
+     "icon": "layers",
+     "label": "Over old vinyl",
+     "value": "Yes, one layer only"
+    }
+   ],
+   "cta": "Try the calculator"
+  },
+  {
+   "type": "p",
+   "html": "Everett homes come with layers. A 1910s house in Riverside or Bayside might have fir, then 1960s sheet vinyl, then 1990s tile in the kitchen. A Silver Lake or Eastmont home from the late 1990s has builder oak in the hall and ceramic tile in the kitchen. A Port Gardner condo sits on concrete. In every case the homeowner asks the same thing: do we really have to rip all that out first? Often you do not. Here is how we decide, surface by surface."
+  },
+  {
+   "type": "h2",
+   "text": "Four conditions that apply to every existing floor"
+  },
+  {
+   "type": "cards",
+   "cols": 2,
+   "items": [
+    {
+     "icon": "ruler",
+     "title": "Flat within 3/16 in over 10 ft",
+     "text": "Rigid-core vinyl plank telegraphs every hump and dip. Grout lines, cupped boards and slab ridges show through as a wavy surface and open the click joints. We check with a 10 ft straightedge at the estimate and price any leveling before we start.",
+     "gold": true
+    },
+    {
+     "icon": "lock",
+     "title": "Solid and fastened",
+     "text": "The old floor has to be stuck to the house. Loose tiles, bouncing hardwood, curling vinyl edges and any floating laminate are out. A floating floor over another floating floor moves twice as much, and the joints break within a season.",
+     "gold": false
+    },
+    {
+     "icon": "moisture",
+     "title": "Dry",
+     "text": "Vinyl plank does not mind moisture, but what is trapped under it does. Concrete gets a moisture test, and old vinyl on a slab gets checked underneath at an edge. Any active leak or seep gets fixed before flooring, never covered.",
+     "gold": false
+    },
+    {
+     "icon": "home",
+     "title": "Height you can live with",
+     "text": "Adding a floor raises everything by a quarter inch or more. Doors need trimming, the dishwasher may no longer slide out, and the step at the exterior door changes. We measure appliance clearance before agreeing to go over anything.",
+     "gold": false
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "Surface by surface"
+  },
+  {
+   "type": "table",
+   "head": [
+    "Existing floor",
+    "Go over it?",
+    "Prep needed",
+    "When we tear out instead"
+   ],
+   "rows": [
+    [
+     "Ceramic or porcelain tile",
+     "Usually yes",
+     "Fill grout lines deeper than 1/8 in with patch or skim coat; reset any loose tile.",
+     "Hollow or cracked tiles across the room, or a height problem at appliances."
+    ],
+    [
+     "Hardwood, nailed",
+     "Yes, if flat",
+     "Screw down squeaks, sand or grind cupped boards, fill gaps wider than a plank edge.",
+     "Water-damaged or badly cupped boards, or when refinishing the wood is the better move."
+    ],
+    [
+     "Bare concrete slab",
+     "Yes",
+     "Moisture test, grind ridges, self-level low spots, vapor-rated underlayment.",
+     "Slab that tests wet or has seasonal seepage. Fix the water first."
+    ],
+    [
+     "Sheet vinyl, single layer",
+     "Yes",
+     "Must be fully glued, not cushioned; clean and repair any curled edges.",
+     "Two or more layers, a cushioned backing, or vinyl that is lifting."
+    ],
+    [
+     "Peel-and-stick or vinyl tile",
+     "Case by case",
+     "Every tile must be stuck; loose ones come up and the spot is patched.",
+     "More than a few loose tiles or a soft subfloor underneath."
+    ],
+    [
+     "Floating laminate or click vinyl",
+     "No",
+     "None. It has to come out.",
+     "Always. Floating over floating fails."
+    ],
+    [
+     "Carpet and pad",
+     "No",
+     "Tear out, remove staples and tack strip, inspect subfloor.",
+     "Always."
+    ]
+   ],
+   "note": "Removal, leveling and underlayment are quoted at the free estimate. Going over an existing floor mostly saves the tear-out and disposal lines, not the leveling."
+  },
+  {
+   "type": "h2",
+   "text": "Price your Everett vinyl plank installation"
+  },
+  {
+   "type": "calc",
+   "kind": "lvp",
+   "note": "Labor only. Skipping tear-out removes a line from the quote; leveling over grout lines or an uneven slab adds one."
+  },
+  {
+   "type": "p",
+   "html": "A 900 sq ft Silver Lake main floor going over the existing oak and kitchen tile is 900 × $2.50 = $2,250 in installation labor, plus plank and the skim coat over the grout lines. The 14 stairs to the bedrooms, if you want them wrapped in matching plank, are 14 × $100 = $1,400. Everett is about 15 minutes from our Lynnwood showroom, so the estimate visit is usually the same week you call."
+  },
+  {
+   "type": "h2",
+   "text": "Over the hardwood, or refinish the hardwood?"
+  },
+  {
+   "type": "compare",
+   "a": {
+    "icon": "refresh",
+    "tag": "Refinish the hardwood",
+    "title": "Better when",
+    "items": [
+     "The wood is solid oak or fir with enough thickness left to sand",
+     "You like the look of real wood and a refinish at $3.99 per sq ft is close to your plank budget",
+     "Resale in an older Everett neighborhood where original floors are a selling point",
+     "The damage is scratches, gray finish or light pet stains"
+    ]
+   },
+   "b": {
+    "icon": "layers",
+    "tag": "Vinyl plank over it",
+    "title": "Better when",
+    "items": [
+     "Thin or previously over-sanded boards that cannot take another pass",
+     "You want one waterproof surface through the kitchen and laundry",
+     "A rental where durability beats character",
+     "Boards are stained deep or patched with mismatched species"
+    ]
+   }
+  },
+  {
+   "type": "h2",
+   "text": "Old vinyl and asbestos: leave it alone"
+  },
+  {
+   "type": "callout",
+   "icon": "alert",
+   "title": "Old vinyl and asbestos: ",
+   "text": "Sheet vinyl and 9 in tiles installed before about 1980, which describes a lot of Everett kitchens, may contain asbestos in the backing or adhesive. Do not sand, scrape or pull it. Floating vinyl plank over intact old vinyl is an accepted way to encapsulate it. If it must come out, it gets tested first and removed by an abatement contractor, not by us and not by you."
+  },
+  {
+   "type": "h2",
+   "text": "Mistakes that make a floating floor fail over an old one"
+  },
+  {
+   "type": "list",
+   "icons": true,
+   "items": [
+    {
+     "icon": "grid",
+     "html": "<strong>Skipping the skim coat over tile.</strong> Within months the grout pattern shows through the planks and the joints start to click when you walk. Filling the lines is cheap; redoing the floor is not."
+    },
+    {
+     "icon": "layers",
+     "html": "<strong>Floating over cushioned vinyl.</strong> The soft backing lets the planks flex at every joint and the locking edges snap. If your old vinyl feels springy, it comes out."
+    },
+    {
+     "icon": "x",
+     "html": "<strong>Going over laminate or click vinyl.</strong> Two floating floors slide against each other. This is the most common DIY failure we get called to fix in Everett."
+    },
+    {
+     "icon": "moisture",
+     "html": "<strong>Trusting old vinyl on concrete to be dry.</strong> Sheet vinyl hides a damp slab for decades. We lift an edge and test before covering it."
+    },
+    {
+     "icon": "ruler",
+     "html": "<strong>Forgetting the perimeter gap.</strong> Vinyl plank needs room to move at walls, cabinets and transitions. Tight against the old tile edge, it buckles in the first warm week."
+    },
+    {
+     "icon": "plug",
+     "html": "<strong>Trapping the dishwasher.</strong> Raising the kitchen floor without checking the dishwasher height means it cannot come out for service. We measure it before quoting. See our <a href=\"/services/lvp-vinyl-flooring\">vinyl plank installation page</a> for what the estimate covers."
+    }
+   ]
+  }
  ],
  "faq": [
-  {"q":"Can you put vinyl plank directly over ceramic tile?","a":"Yes, if the tile is solid and the grout lines are shallow. Lines deeper than about 1/8 inch get filled with floor patch or a skim coat so they do not telegraph through the planks. Loose or cracked tiles are reset or removed. The added height at the dishwasher and exterior doors gets checked first."},
-  {"q":"Is it a good idea to install vinyl plank over hardwood floors?","a":"It works when the hardwood is flat, fastened and too thin or too damaged to refinish. If the boards are solid oak with sanding left in them, refinishing at $3.99 per sq ft often gives a better result for similar money and keeps a feature Everett buyers value. We tell you which at the estimate."},
-  {"q":"Does vinyl plank need underlayment over concrete?","a":"Yes, either a vapor-rated underlayment or a plank with an attached pad plus a poly vapor barrier, depending on the moisture test result. Concrete also needs to be flat within 3/16 inch over 10 feet, so slab ridges are ground and low spots are filled with self-leveler before the planks go down."},
-  {"q":"Can I put vinyl plank over old sheet vinyl?","a":"Yes, if it is a single layer, fully glued, not cushioned and not lifting at the edges. Two layers or a springy backing must come out. If the vinyl dates from before 1980 it may contain asbestos, in which case leaving it in place and floating new plank over it is the safe choice."},
-  {"q":"How much height does vinyl plank add?","a":"Most rigid-core planks are 5 to 8 mm thick, plus 1 to 2 mm of pad, so about a quarter to three-eighths of an inch. Going over tile adds that to the tile height. Doors are trimmed as part of the install; appliances and exterior door thresholds are checked before we agree to go over an existing floor."},
-  {"q":"Does going over the old floor save money?","a":"It saves the removal and disposal lines, and a day of work. It does not remove the need for leveling, and skim coating grout lines or grinding a slab can cost as much as tearing out a small floor. Installation labor is $2.50 per sq ft either way; we price both options at the free estimate."}
+  {
+   "q": "Can you put vinyl plank directly over ceramic tile?",
+   "a": "Yes, if the tile is solid and the grout lines are shallow. Lines deeper than about 1/8 inch get filled with floor patch or a skim coat so they do not telegraph through the planks. Loose or cracked tiles are reset or removed. The added height at the dishwasher and exterior doors gets checked first."
+  },
+  {
+   "q": "Is it a good idea to install vinyl plank over hardwood floors?",
+   "a": "It works when the hardwood is flat, fastened and too thin or too damaged to refinish. If the boards are solid oak with sanding left in them, refinishing at $3.99 per sq ft often gives a better result for similar money and keeps a feature Everett buyers value. We tell you which at the estimate."
+  },
+  {
+   "q": "Does vinyl plank need underlayment over concrete?",
+   "a": "Yes, either a vapor-rated underlayment or a plank with an attached pad plus a poly vapor barrier, depending on the moisture test result. Concrete also needs to be flat within 3/16 inch over 10 feet, so slab ridges are ground and low spots are filled with self-leveler before the planks go down."
+  },
+  {
+   "q": "Can I put vinyl plank over old sheet vinyl?",
+   "a": "Yes, if it is a single layer, fully glued, not cushioned and not lifting at the edges. Two layers or a springy backing must come out. If the vinyl dates from before 1980 it may contain asbestos, in which case leaving it in place and floating new plank over it is the safe choice."
+  },
+  {
+   "q": "How much height does vinyl plank add?",
+   "a": "Most rigid-core planks are 5 to 8 mm thick, plus 1 to 2 mm of pad, so about a quarter to three-eighths of an inch. Going over tile adds that to the tile height. Doors are trimmed as part of the install; appliances and exterior door thresholds are checked before we agree to go over an existing floor."
+  },
+  {
+   "q": "Does going over the old floor save money?",
+   "a": "It saves the removal and disposal lines, and a day of work. It does not remove the need for leveling, and skim coating grout lines or grinding a slab can cost as much as tearing out a small floor. Installation labor is $2.50 per sq ft either way; we price both options at the free estimate."
+  }
  ],
  "faq_title": "Going-over questions from Everett homeowners",
  "faq_sub": "Layers of old floor, and whether they have to go.",
- "related": [["how-flat-does-a-subfloor-need-to-be-for-vinyl-plank-seattle","how flat the subfloor needs to be"],["do-you-need-underlayment-under-vinyl-plank-flooring-everett","underlayment under vinyl plank"],["how-much-does-it-cost-to-replace-carpet-with-vinyl-plank-in-seattle","replacing carpet with vinyl plank"]],
+ "related": [
+  [
+   "how-flat-does-a-subfloor-need-to-be-for-vinyl-plank-seattle",
+   "how flat the subfloor needs to be"
+  ],
+  [
+   "do-you-need-underlayment-under-vinyl-plank-flooring-everett",
+   "underlayment under vinyl plank"
+  ],
+  [
+   "how-much-does-it-cost-to-replace-carpet-with-vinyl-plank-in-seattle",
+   "replacing carpet with vinyl plank"
+  ]
+ ],
  "cta_title": "Find out what has to come out",
  "cta_sub": "Free in-home estimate anywhere in Everett. We check flatness, test the slab, measure appliance clearance and quote both the over-the-top and tear-out options in writing."
 }
