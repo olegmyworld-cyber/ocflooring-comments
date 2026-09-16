@@ -7,12 +7,13 @@
  "time": "8 mins",
  "date": "2027-01-10T15:00:00.000Z",
  "keywords": "carpet over squeaky subfloor, fix squeaky floor before carpet, squeaky subfloor under carpet, subfloor screws before carpet, how to stop floor squeaks carpet installation",
+ "offers": [["Carpet installation, stretch-in","0.99","per square foot"],["Carpet installation, glue-down","1.29","per square foot"]],
  "blocks": [
   {
    "type": "quick",
    "eyebrow": "Short answer",
    "lead": "Yes, carpet can be installed over a squeaky subfloor, and it usually is. But carpet and pad only muffle a squeak, they do not stop it. The right time to fix it is the one day the old carpet is up and the plywood is bare.",
-   "detail": "Most squeaks are plywood rubbing on a nail or a joist as it moves. The fix is screws into the joists, shims or adhesive at gaps, and a replaced sheet where the wood is soft. Skip it and you will hear the same squeak through the new carpet for the next fifteen years.",
+   "detail": "Most squeaks are plywood rubbing on a nail or a joist as it moves. The fix is screws into the joists, shims or adhesive at gaps, and a replaced sheet where the wood is soft. Skip it and you will hear the same squeak through the new carpet for fifteen years. Carpet labor is published, $0.99 per sq ft stretch-in and $30 per step; the subfloor work is scoped on top of that at the estimate.",
    "tiles": [
     {
      "icon": "done",
@@ -30,12 +31,12 @@
      "value": "Screws into joists"
     },
     {
-     "icon": "clock",
-     "label": "Best time",
-     "value": "Between tear-out and install"
+     "icon": "dollar",
+     "label": "Carpet labor",
+     "value": "$0.99 / sq ft"
     }
    ],
-   "cta": false
+   "cta": "Price your rooms"
   },
   {
    "type": "p",
@@ -109,12 +110,16 @@
   },
   {
    "type": "h2",
-   "text": "Scope your Snohomish carpet project"
+   "text": "Price your Snohomish carpet job right now"
   },
   {
-   "type": "estimator",
-   "title": "Scope Your Snohomish Carpet Project",
-   "sub": "Tell us the rooms and stairs. We bring samples, check the subfloor while we measure, and give you a firm written price on the spot."
+   "type": "p",
+   "html": "The carpet side of the bill comes off a published rate card: <strong>$0.99 per sq ft</strong> stretch-in over pad, <strong>$1.29 per sq ft</strong> glue-down, <strong>$30 per step</strong>, 500 sq ft minimum, plus $0.45 per sq ft to pull and haul the old carpet and pad and $0.25 per sq ft to move furniture. Three bedrooms and a hall at 800 sq ft is 800 × $0.99 = $792 in labor, plus 800 × $0.45 = $360 of tear-out. Screwing down the subfloor is prep, so it is quoted separately once we walk the rooms, and so are the carpet and pad, which move the total more than anything else."
+  },
+  {
+   "type": "calc",
+   "kind": "carpet",
+   "note": "Labor only. Subfloor screw-down, shimming and any plywood replacement are quoted at the free estimate."
   },
   {
    "type": "h2",
@@ -181,7 +186,7 @@
     [
      "Stretch-in vs glue-down",
      "No difference to squeaks",
-     "Stretch-in over pad is standard for homes. Glue-down is for commercial or basement use."
+     "Stretch-in over pad, $0.99 per sq ft, is standard for homes. Glue-down at $1.29 is for slabs and commercial rooms."
     ],
     [
      "Adding a plywood underlayment layer",
@@ -189,7 +194,7 @@
      "Raises the floor height at every doorway. Used when the existing subfloor is thin or badly spaced, not as a first move."
     ]
    ],
-   "note": "We do not publish a carpet rate because fiber and pad choices vary so much. Subfloor screwing during a carpet install is scoped at the free estimate once we have walked the rooms."
+   "note": "Carpet labor is published, $0.99 per sq ft stretch-in. Subfloor screwing is prep, so it is scoped at the free estimate once we have walked the rooms."
   },
   {
    "type": "h2",
@@ -249,7 +254,7 @@
   },
   {
    "q": "Does Wills Flooring fix squeaks as part of carpet installation?",
-   "a": "We check the subfloor during the free estimate and again after tear-out. Screwing down loose plywood and replacing soft sheets is scoped and priced at the estimate as subfloor prep, so there are no surprises on install day. We would rather fix it than carpet over it."
+   "a": "Yes. Carpet labor is on our rate card at $0.99 per sq ft, and subfloor work is a separate prep line quoted at the free estimate, after we walk the rooms and check again at tear-out. Pricing it up front means no surprises on install day. We would rather fix a squeak than carpet over it."
   },
   {
    "q": "Why does my floor squeak more in summer?",
