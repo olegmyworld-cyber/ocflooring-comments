@@ -1,0 +1,306 @@
+{
+ "slug": "vinyl-plank-in-everett-condos",
+ "title": "Vinyl Plank in Everett Condos: Sound Ratings, HOA Rules and Underlayment",
+ "meta": "Vinyl plank in an Everett condo must meet your HOA's IIC sound rating with the right underlayment. Wills Flooring explains the rules, pads and labor cost.",
+ "category": "lvp",
+ "city": "Everett",
+ "time": "8 mins",
+ "date": "2026-12-28T15:00:00.000Z",
+ "keywords": "vinyl plank condo sound rating, LVP underlayment IIC rating, HOA flooring rules vinyl plank, vinyl plank flooring Everett condo, acoustic underlayment for vinyl plank, condo flooring installation Everett WA",
+ "offers": [
+  [
+   "Vinyl plank flooring installation",
+   "2.50",
+   "per square foot"
+  ]
+ ],
+ "blocks": [
+  {
+   "type": "quick",
+   "eyebrow": "Short answer",
+   "lead": "Vinyl plank is one of the easiest floors to get approved in an Everett condo, as long as the plank and underlayment together meet your HOA's sound number, usually IIC 50 or higher, and the board signs off before installation.",
+   "detail": "The plank itself is not what passes the test. The underlayment, or the pad bonded to the back of the plank, does the acoustic work. Pick the assembly to match the number in your HOA document and the rest is paperwork and scheduling.",
+   "tiles": [
+    {
+     "icon": "volume",
+     "label": "Typical HOA minimum",
+     "value": "IIC 50–55"
+    },
+    {
+     "icon": "layers",
+     "label": "What passes it",
+     "value": "The underlayment"
+    },
+    {
+     "icon": "clipboard",
+     "label": "Board approval",
+     "value": "2–4 weeks"
+    },
+    {
+     "icon": "dollar",
+     "label": "Install labor",
+     "value": "$2.50 / sq ft"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "html": "Everett has more condo stock than people expect: the Port Gardner and waterfront buildings, mid-rise units along Colby and Rucker, and the converted apartment complexes around Silver Lake and Eastmont. Most still have builder carpet, and owners want vinyl plank instead. Then the HOA sends over a flooring policy full of acronyms. This post translates it, explains which underlayment does what, and lays out how the job actually runs in a building."
+  },
+  {
+   "type": "h2",
+   "text": "What the HOA flooring form is really asking"
+  },
+  {
+   "type": "table",
+   "head": [
+    "Term",
+    "What it measures",
+    "What matters for vinyl plank"
+   ],
+   "rows": [
+    [
+     "IIC (Impact Insulation Class)",
+     "How well the floor assembly blocks footsteps, drops and chair scrapes from reaching the unit below.",
+     "The number most Everett HOAs require. 50 is the usual code floor, 55 to 60 in newer or quieter buildings."
+    ],
+    [
+     "STC (Sound Transmission Class)",
+     "Airborne noise like voices and TV passing through the floor and ceiling.",
+     "Mostly set by the building's concrete and ceiling, not your flooring. Rarely a flooring decision."
+    ],
+    [
+     "Delta IIC",
+     "The improvement a specific underlayment adds on top of a bare slab.",
+     "The honest number to compare pads. A Delta IIC of 18 to 22 is typical for quality vinyl plank underlayments."
+    ],
+    [
+     "Assembly rating vs product rating",
+     "Whether the test was done on a full floor-ceiling assembly like yours or just the pad on a lab slab.",
+     "Ask for a test report on a concrete assembly similar to your building; a bare 6 in slab tests very differently from 8 in with a drywall ceiling."
+    ]
+   ],
+   "note": "Ground-floor units and units over parking garages are often exempt. Read your specific policy; two buildings a block apart on Everett's waterfront can require different numbers."
+  },
+  {
+   "type": "h2",
+   "text": "Underlayment choices for vinyl plank"
+  },
+  {
+   "type": "cards",
+   "cols": 2,
+   "items": [
+    {
+     "icon": "layers",
+     "tag": "Most common",
+     "title": "Attached pad (IXPE or cork backing)",
+     "text": "Many rigid-core planks come with a 1 to 1.5 mm pad already bonded on. Alone it typically reaches the low 50s IIC on a bare slab with a ceiling below. Convenient, but you cannot add a second foam pad under it without voiding most warranties and softening the click joints.",
+     "gold": true
+    },
+    {
+     "icon": "shield",
+     "title": "Separate acoustic underlayment",
+     "text": "A 2 to 3 mm rubber, cork-rubber or dense foam roll under a plank with no attached pad. This is how we hit IIC 55 to 60 requirements. Choose a product rated for rigid vinyl; soft foam meant for laminate lets the joints flex and fail."
+    },
+    {
+     "icon": "droplet",
+     "title": "Vapor barrier for older slabs",
+     "text": "Everett's older mid-rise buildings have slabs that were never sealed. A 6 mil poly sheet or an underlayment with a built-in film face protects the plank adhesive and any cork layer. Not a sound product on its own, but often required alongside one."
+    },
+    {
+     "icon": "lock",
+     "title": "Sound-rated adhesive for glue-down",
+     "text": "For glue-down planks, some acoustic adhesives carry their own IIC test data and count toward the rating. Useful in units where the floor height at the entry door cannot rise more than a few millimeters."
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "Price your Everett condo floor right now"
+  },
+  {
+   "type": "calc",
+   "kind": "lvp",
+   "note": "Labor only. The plank, acoustic underlayment, vapor barrier, carpet removal and any elevator or building fees are quoted at the free in-home estimate."
+  },
+  {
+   "type": "h2",
+   "text": "How the job runs inside a building"
+  },
+  {
+   "type": "steps",
+   "wide": true,
+   "items": [
+    {
+     "icon": "clipboard",
+     "d": "Submit the package",
+     "text": "Product spec sheet, the underlayment test report showing it meets the required IIC, our license and insurance certificate, and proposed work dates. We put this together for you.",
+     "note": "Boards in Everett typically answer in two to four weeks."
+    },
+    {
+     "icon": "calendar",
+     "d": "Reserve the building",
+     "text": "Elevator pads, loading zone or freight entrance, and the building's work hours. Most Port Gardner buildings allow 8 or 9 to 5 on weekdays only.",
+     "note": "Deliveries of plank go up in one trip when the elevator is booked."
+    },
+    {
+     "icon": "truck",
+     "d": "Tear-out and haul-away",
+     "text": "Old carpet, pad and tack strip come out and go down to the truck the same morning, bagged so the hallway carpet stays clean.",
+     "note": "Quoted at the estimate; usually a half day for a 900 sq ft unit."
+    },
+    {
+     "icon": "search",
+     "d": "Slab check",
+     "text": "We grind high spots, fill low ones and test slab moisture. Older Everett slabs sometimes read high near exterior walls and plumbing chases.",
+     "note": "Flatness matters more for rigid core than for carpet ever did."
+    },
+    {
+     "icon": "hammer",
+     "d": "Install",
+     "text": "Vapor barrier, acoustic underlayment, then plank with the specified expansion gap at every wall and a low-profile transition at the unit door.",
+     "note": "A 900 sq ft unit is usually one long day, two if the layout is cut up."
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "Floating or glue-down in a condo?"
+  },
+  {
+   "type": "compare",
+   "a": {
+    "icon": "done",
+    "tag": "Floating click-lock",
+    "title": "Choose this when",
+    "items": [
+     "The HOA rating is met by an attached pad or a rigid-rated roll underlayment",
+     "You may sell in a few years and want a floor a future owner can lift",
+     "The slab is reasonably flat and dry",
+     "Rooms are under about 40 ft in any direction without a transition"
+    ]
+   },
+   "b": {
+    "icon": "x",
+    "tag": "Glue-down",
+    "title": "Choose that when",
+    "items": [
+     "Floor height at the entry or balcony door is tight",
+     "You want the quietest walk and the least hollow sound",
+     "The unit has heavy furniture or a rolling office chair area",
+     "The building requires a sound-rated adhesive assembly"
+    ]
+   }
+  },
+  {
+   "type": "callout",
+   "icon": "alert",
+   "title": "Do not stack pads: ",
+   "text": "The most common failed floor we see in Everett condos is a plank with an attached pad installed over a second foam underlayment because someone wanted extra quiet. The joints rock, the locking strips crack and the warranty is gone. Pick one acoustic layer sized to the number and stop."
+  },
+  {
+   "type": "h2",
+   "text": "Mistakes that fail the sound test or the board"
+  },
+  {
+   "type": "list",
+   "icons": true,
+   "items": [
+    {
+     "icon": "search",
+     "html": "<strong>Submitting the plank's rating instead of the assembly's.</strong> A plank box that says IIC 72 was tested with a suspended ceiling below. Your board wants the report that matches a concrete slab."
+    },
+    {
+     "icon": "layers",
+     "html": "<strong>Using laminate underlayment under rigid vinyl.</strong> It is too soft. Rigid core needs a dense, thin pad or the joints flex every time you walk."
+    },
+    {
+     "icon": "volume",
+     "html": "<strong>Ignoring the perimeter.</strong> Plank touching the wall or a nailed baseboard transmits impact noise straight into the structure. The expansion gap is also a sound gap."
+    },
+    {
+     "icon": "calendar",
+     "html": "<strong>Booking the installer before the board answers.</strong> Two to four weeks is normal. Order material once you have written approval, not before."
+    },
+    {
+     "icon": "home",
+     "html": "<strong>Forgetting the bathrooms and laundry.</strong> Most Everett boards treat every room the same, so the sheet vinyl in the bathroom is your chance to unify the whole unit. See our <a href=\"/services/lvp-vinyl-flooring\">vinyl plank</a> page for the products we bring."
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "What to have ready before we visit"
+  },
+  {
+   "type": "list",
+   "icons": true,
+   "items": [
+    {
+     "icon": "clipboard",
+     "html": "<strong>Your HOA flooring policy</strong>, even a photo of the page. The required IIC number decides the underlayment."
+    },
+    {
+     "icon": "phone",
+     "html": "<strong>Your building manager's contact</strong> for elevator reservations and work hours."
+    },
+    {
+     "icon": "ruler",
+     "html": "<strong>The height at your entry door and balcony slider.</strong> A quick measurement from the slab to the door bottom tells us whether floating is possible."
+    },
+    {
+     "icon": "moisture",
+     "html": "<strong>Any history of slab moisture or leaks</strong> from the unit above, so we test those spots first."
+    },
+    {
+     "icon": "key",
+     "html": "<strong>A parking plan.</strong> Downtown Everett buildings near the Port often need a loading permit for the truck. If you are still comparing floors, <a href=\"/blog-posts/hardwood-floors-in-kirkland-condos-and-second-floors\">hardwood in condos</a> follows the same HOA process at a higher labor rate."
+    }
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "What IIC rating does vinyl plank need in a condo?",
+   "a": "It depends on your HOA policy. Most Everett associations require an assembly rating of IIC 50, and quieter or newer buildings ask for 55 to 60. The plank plus its underlayment must meet that number on a slab like yours, and the test report is what you submit for approval."
+  },
+  {
+   "q": "Does vinyl plank with an attached pad need extra underlayment?",
+   "a": "Usually not, and stacking a second foam pad under an attached-pad plank voids most warranties and makes the click joints flex. If the attached pad alone does not meet your HOA's number, switch to a plank without a pad and use a rated acoustic underlayment."
+  },
+  {
+   "q": "How much does it cost to install vinyl plank in an Everett condo?",
+   "a": "Wills Flooring's labor is $2.50 per sq ft with a 500 sq ft minimum, so a 900 sq ft unit is $2,250 in labor. Plank, acoustic underlayment, vapor barrier, carpet removal and any elevator or loading fees are quoted at the free in-home estimate."
+  },
+  {
+   "q": "Can the HOA refuse vinyl plank in my unit?",
+   "a": "They can refuse a floor that does not meet the sound requirement or was installed without approval. They generally cannot refuse a compliant assembly submitted properly. Ground-floor units are sometimes exempt. Follow the process in writing and keep the approval letter with your closing documents."
+  },
+  {
+   "q": "Is vinyl plank quieter than laminate in a condo?",
+   "a": "Yes, in most assemblies. Vinyl is denser and less resonant than laminate, so the same underlayment scores a few IIC points higher and the floor sounds less hollow. Glue-down vinyl over a sound-rated adhesive is the quietest option short of carpet."
+  },
+  {
+   "q": "How long does a condo vinyl plank installation take?",
+   "a": "One to two days for a typical 800 to 1,000 sq ft Everett unit once the board has approved, including tear-out. The approval itself takes two to four weeks, so the calendar is driven by paperwork more than by the installation."
+  }
+ ],
+ "faq_title": "Condo vinyl plank questions from Everett owners",
+ "faq_sub": "From Port Gardner high-rises to Silver Lake conversions.",
+ "related": [
+  [
+   "do-you-need-underlayment-under-vinyl-plank-flooring-everett",
+   "underlayment under vinyl plank"
+  ],
+  [
+   "click-lock-vs-glue-down-vinyl-plank-seattle",
+   "click-lock vs glue-down vinyl plank"
+  ],
+  [
+   "how-flat-does-a-subfloor-need-to-be-for-vinyl-plank-seattle",
+   "how flat the slab needs to be"
+  ]
+ ],
+ "cta_title": "Bring us your HOA flooring policy",
+ "cta_sub": "We match the underlayment to your building's number, bring plank samples to your Everett unit and hand you a firm written quote plus the test report your board needs. Free."
+}

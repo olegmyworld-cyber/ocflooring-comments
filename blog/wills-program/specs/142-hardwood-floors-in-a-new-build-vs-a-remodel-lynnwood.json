@@ -1,0 +1,124 @@
+{
+ "slug": "hardwood-floors-in-a-new-build-vs-a-remodel-lynnwood",
+ "title": "Hardwood Floors in a New Build vs a Remodel: What Changes in Lynnwood",
+ "meta": "Hardwood floor installation in a Lynnwood new build vs a remodel: same $3.25 per sq ft labor, very different sequencing, subfloor and moisture. Wills Flooring explains.",
+ "category": "hardwood",
+ "city": "Lynnwood",
+ "time": "8 mins",
+ "date": "2027-02-05T15:00:00.000Z",
+ "keywords": "hardwood floors new construction vs remodel, hardwood installation Lynnwood WA, builder flooring allowance hardwood, when to install hardwood in new build, hardwood floors remodel old house",
+ "offers": [
+  ["Hardwood floor installation, engineered or solid", "3.25", "per square foot"],
+  ["Unfinished hardwood installation", "2.75", "per square foot"]
+ ],
+ "blocks": [
+  {
+   "type": "quick",
+   "eyebrow": "Short answer",
+   "lead": "The installation labor is identical, $3.25 per sq ft for prefinished engineered or solid and $2.75 for unfinished, but almost everything around the floor changes: sequencing, subfloor, moisture, trim and who else is on site.",
+   "detail": "In a Lynnwood new build the floor waits on the schedule of six other trades. In a 1970s Alderwood remodel the floor waits on whatever we find under the carpet. Both are routine for us, but they are planned very differently.",
+   "tiles": [
+    {"icon": "dollar", "label": "Install labor", "value": "$3.25 / sq ft"},
+    {"icon": "brush", "label": "Unfinished", "value": "$2.75 / sq ft"},
+    {"icon": "stairs", "label": "Stairs", "value": "$125 per stair"},
+    {"icon": "ruler", "label": "Minimum", "value": "500 sq ft"}
+   ]
+  },
+  {
+   "type": "p",
+   "html": "Lynnwood is building fast around the light rail station and along 196th, and at the same time a whole generation of Alderwood, Meadowdale and Martha Lake ramblers and split-levels is being opened up and remodeled. We install hardwood in both, sometimes in the same week, and the questions are completely different. New-build buyers ask whether to take the builder's flooring allowance or bring us in after closing. Remodelers ask what happens when the carpet comes up. This post covers what actually changes, and what doesn't, so you can budget and schedule either project properly. Our full rate card is on the <a href=\"/services/hardwood-flooring\">hardwood installation page</a>."
+  },
+  {"type": "h2", "text": "What stays the same: the labor rates"},
+  {
+   "type": "prices",
+   "items": [
+    {"icon": "layers", "tag": "Most remodels", "price": "$3.25", "unit": "/ sq ft", "title": "Prefinished engineered or solid", "text": "Nail-down, glue-down or floating, factory-finished planks. Walk on it the day we finish. The same rate whether the house is two months old or fifty years old.", "gold": true},
+    {"icon": "brush", "tag": "Common in new builds", "price": "$2.75", "unit": "/ sq ft", "title": "Unfinished, site-finished", "text": "Raw planks installed, then sanded and finished in place at our refinishing rates. Gives a flat, seamless floor and lets you pick the exact stain. Needs an empty house."},
+    {"icon": "stairs", "tag": "Either project", "price": "$125", "unit": "per stair", "title": "Hardwood on stairs", "text": "Treads, risers and nosings on a split-level or townhome staircase. Priced per stair on top of the floor area."}
+   ],
+   "note": "Labor only, 500 sq ft minimum. Material, underlayment, old-floor removal and subfloor prep are quoted at the free estimate. The remodel almost always has more of those lines; the new build almost never has removal."
+  },
+  {"type": "h2", "text": "Six things that change between a new build and a remodel"},
+  {
+   "type": "table",
+   "head": ["What changes", "New build (Lynnwood townhome or infill)", "Remodel (1960s to 80s rambler or split-level)"],
+   "rows": [
+    ["Sequencing", "Floor goes in after drywall and primer, before final paint and base trim. We coordinate with the GC's calendar.", "Floor goes in whenever you can clear the rooms. Everything else in the house works around it."],
+    ["Subfloor", "New plywood or OSB, usually flat, sometimes still wet. We check moisture, not levelness.", "Old plywood or plank subfloor with squeaks, humps and pet-damaged spots. We check everything."],
+    ["Moisture", "Fresh framing and concrete give off water for months. HVAC must run two weeks before we deliver wood.", "House has dried out for decades. Crawlspace vapor is the risk, not construction moisture."],
+    ["Old floor removal", "None. Bare subfloor, no disposal.", "Carpet, pad, staples, sometimes glued parquet or two layers of vinyl. Quoted on site."],
+    ["Trim and doors", "Base and shoe go on after the floor, so no quarter round is needed. Doors are hung after.", "Base is already on. We either pull and reinstall it or add shoe molding. Doors often need undercutting."],
+    ["Living in it", "Nobody lives there. Site-finished floors are easy.", "You live there. Prefinished is faster and there is no finish smell or cure wait."]
+   ],
+   "note": "The labor rate does not move, but a remodel usually has three to five extra quoted lines a new build does not."
+  },
+  {"type": "h2", "text": "Price your Lynnwood hardwood install right now"},
+  {"type": "calc", "kind": "hardwood", "note": "For a remodel, add carpet removal and any subfloor repair, which we price at the estimate. For a new build, ask your builder to leave the subfloor bare and the base trim off."},
+  {"type": "h2", "text": "How the schedule runs in each project"},
+  {
+   "type": "steps",
+   "wide": true,
+   "items": [
+    {"icon": "home", "d": "New build: drywall done", "text": "We visit once the house is closed in and the heat is running. Moisture readings on the subfloor decide the delivery date, not the GC's wish list.", "note": "Subfloor and wood should be within 2 to 4 percentage points of each other"},
+    {"icon": "calendar", "d": "New build: week of install", "text": "Wood acclimates on site for three to five days with HVAC at living temperature. Then we install, usually 400 to 600 sq ft per day.", "note": "A 1,400 sq ft townhome main level runs 3 days"},
+    {"icon": "brush", "d": "New build: after us", "text": "Painters do final coats, trim carpenter sets base and shoe, doors are hung. If it is a site-finished floor we come back to sand and finish after paint.", "note": "1,400 × $2.75 = $3,850 install, then refinishing rates"},
+    {"icon": "search", "d": "Remodel: the estimate", "text": "We pull back a carpet corner in a closet to see what is under it. Many Alderwood and Martha Lake homes have oak already there; many more have plank subfloor that needs a plywood layer.", "note": "If there is oak, refinishing may beat new hardwood"},
+    {"icon": "truck", "d": "Remodel: day 1", "text": "Carpet, pad and tack strip out. Staples pulled, squeaks screwed down, high spots sanded and low spots filled. Wood is delivered and stacked in the rooms.", "note": "Acclimation runs while prep happens"},
+    {"icon": "hammer", "d": "Remodel: days 2 to 4", "text": "Install room by room so you keep a path through the house. Base reinstalled or shoe added, transitions set at tile and carpet, doors undercut.", "note": "900 sq ft + 13 stairs: 900 × $3.25 + 13 × $125 = $4,550"}
+   ]
+  },
+  {"type": "h2", "text": "Prefinished or unfinished? The answer flips"},
+  {
+   "type": "compare",
+   "a": {"icon": "done", "tag": "Prefinished", "title": "Usually wins in a remodel", "items": ["You are living in the house and need to walk on it tonight", "No finish smell, no 72-hour cure, no dust from sanding", "Rooms can be done one at a time around furniture", "Factory aluminum-oxide finish is harder than anything applied on site"]},
+   "b": {"icon": "brush", "tag": "Unfinished", "title": "Usually wins in a new build", "items": ["House is empty, so sanding dust and cure time cost nothing", "Perfectly flat floor with no beveled edges between boards", "You choose the exact stain and sheen after seeing it on your wood", "Stairs, landings and floor finish all match because they were finished together"]}
+  },
+  {
+   "type": "callout",
+   "icon": "alert",
+   "title": "About the builder's flooring allowance: ",
+   "text": "Ask what the allowance actually buys and what the credit is if you decline it. In a lot of Lynnwood new construction the standard option is a thin-wear-layer engineered plank, and the credit for skipping it is smaller than the retail value. Bringing in your own installer after closing often gets a better floor for similar money, but only if the builder leaves the subfloor bare and holds the base trim. Get that in writing before you sign the change order."
+  },
+  {"type": "h2", "text": "Mistakes that cost money in each kind of project"},
+  {
+   "type": "list",
+   "icons": true,
+   "items": [
+    {"icon": "moisture", "html": "<strong>New build: installing on a wet subfloor.</strong> Fresh OSB that reads 16 percent will shrink and leave gaps by the first winter. We wait for numbers, not dates."},
+    {"icon": "calendar", "html": "<strong>New build: putting the floor in before the painters are done.</strong> Ladders, drips and sanding dust on a brand-new floor. Floor goes in after primer and before final coats, never before drywall."},
+    {"icon": "layers", "html": "<strong>Remodel: skipping the subfloor look.</strong> A quote that never lifted the carpet is a guess. Plank subfloors in 1960s ramblers usually need a plywood overlay before nail-down hardwood, and that changes the budget."},
+    {"icon": "home", "html": "<strong>Remodel: not checking for oak first.</strong> A surprising number of Lynnwood carpets hide sound red oak. Refinishing it at $3.99 per sq ft can beat installing new at $3.25 plus material, and you keep the original floor."},
+    {"icon": "ruler", "html": "<strong>Both: forgetting transitions and door clearance.</strong> New hardwood sits higher than carpet. Doors need undercutting and tile thresholds need a real transition, not a bead of caulk."}
+   ]
+  },
+  {"type": "h2", "text": "Your checklist before you sign either contract"},
+  {
+   "type": "list",
+   "icons": true,
+   "items": [
+    {"icon": "clipboard", "html": "<strong>New build:</strong> written confirmation that the subfloor stays bare, base trim stays off, and HVAC runs two weeks before delivery."},
+    {"icon": "search", "html": "<strong>Remodel:</strong> a quote written after someone actually looked under the carpet, with removal, subfloor prep and trim as separate lines."},
+    {"icon": "thermo", "html": "<strong>Both:</strong> a moisture reading on the subfloor recorded on the quote, and an acclimation plan for the wood."},
+    {"icon": "frame", "html": "<strong>Both:</strong> a decision on <a href=\"/blog-posts/prefinished-vs-site-finished-hardwood-floors-edmonds\">prefinished vs site-finished</a> made on your schedule, not the installer's convenience."},
+    {"icon": "shield", "html": "<strong>Both:</strong> licensed, insured, and a workmanship warranty in writing. Ours is one year, and we have been doing this from Lynnwood since 2013."}
+   ]
+  }
+ ],
+ "faq": [
+  {"q": "Is it cheaper to install hardwood in a new build or a remodel?", "a": "The labor rate is the same, $3.25 per sq ft for prefinished and $2.75 for unfinished. A new build is usually cheaper overall because there is no old floor to remove, no base trim to pull, and the subfloor is new. A remodel adds removal, prep and trim lines that we price at the estimate."},
+  {"q": "Should I take the builder's flooring allowance or hire my own installer?", "a": "Compare the actual product in the allowance and the credit for declining it. If the credit is fair and the builder will leave the subfloor bare and the trim off, hiring your own installer after closing usually gets a better floor. If the credit is small, the allowance can still be the better deal."},
+  {"q": "When in the construction schedule should hardwood go in?", "a": "After drywall and primer, once the HVAC has been running for about two weeks and the subfloor reads dry, and before final paint coats, base trim and interior doors. Cabinets can go before or after; we prefer to run the floor under them so a future kitchen change is not locked in."},
+  {"q": "Can you match new hardwood to the existing oak in my split-level?", "a": "Usually, yes. In Lynnwood split-levels the original is almost always 2 1/4 inch red oak strip. We source the same species and width, then either refinish everything together for a seamless match or use a flush transition where the two floors meet."},
+  {"q": "How long does hardwood need to acclimate in a new house?", "a": "Three to five days in the rooms where it will be installed, with the heat running at normal living temperature. The real test is the meter: the wood and the subfloor should be within a few percentage points. New construction often needs longer because the framing is still drying."},
+  {"q": "Do you remove the old carpet in a remodel?", "a": "Yes. Carpet, pad, tack strip and staples come out, and we haul it away. It is a separate line on the written quote so you can compare it with doing it yourself. We also screw down squeaks and fix the subfloor before any wood goes down."}
+ ],
+ "faq_title": "New build and remodel questions from Lynnwood homeowners",
+ "faq_sub": "From the phone at our 196th St showroom and from the job sites around it.",
+ "related": [
+  ["how-much-does-hardwood-floor-installation-cost-in-lynnwood", "hardwood installation cost in Lynnwood"],
+  ["what-subfloor-prep-is-needed-before-installing-hardwood-floors-everett", "subfloor prep before hardwood"],
+  ["hardwood-floor-transitions-and-thresholds-lynnwood", "transitions and thresholds"]
+ ],
+ "cta_title": "Building or remodeling in Lynnwood? Get a firm number",
+ "cta_sub": "We come to the site or the house, check the subfloor and moisture, bring samples and write a fixed quote on the spot. Free, and the showroom is five minutes away."
+}
