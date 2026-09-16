@@ -1,0 +1,67 @@
+{
+ "slug": "should-you-install-hardwood-floors-yourself-lynnwood",
+ "title": "Should You Install Hardwood Floors Yourself? DIY vs Pro Cost in Lynnwood",
+ "meta": "DIY hardwood in Lynnwood saves less than you think: pro labor is $3.25 per sq ft at Wills Flooring. Real DIY costs, time and risks, and when DIY really pays.",
+ "category": "hardwood",
+ "city": "Lynnwood",
+ "time": "9 mins",
+ "date": "2026-12-11T15:00:00.000Z",
+ "keywords": "DIY hardwood floor installation vs professional, should I install hardwood floors myself, cost to install hardwood floors yourself, hardwood installation labor cost Lynnwood, is installing hardwood floors hard",
+ "offers": [["Hardwood floor installation, engineered or solid", "3.25", "per square foot"], ["Unfinished hardwood installation", "2.75", "per square foot"]],
+ "blocks": [
+  {"type":"quick","eyebrow":"Short answer","lead":"For most Lynnwood homeowners, no. Pro labor is $3.25 per sq ft, and a first-time DIY on a 700 sq ft rambler typically saves under $1,500 after tools, extra material and two or three lost weekends, while carrying all the risk of squeaks, gaps and a voided material warranty.","detail":"DIY does make sense for a handy owner doing a single rectangular room of click-together engineered plank with no stairs. Everything else, especially nail-down solid, stairs and 1970s split-level subfloors, is where the savings disappear.",
+   "tiles":[{"icon":"dollar","label":"Pro labor","value":"$3.25 / sq ft"},{"icon":"brush","label":"Unfinished, pro","value":"$2.75 / sq ft"},{"icon":"stairs","label":"Stairs, pro","value":"$125 each"},{"icon":"clock","label":"DIY, 700 sq ft","value":"3–5 days"}]},
+  {"type":"p","html":"Lynnwood is a DIY town. Alderwood and Martha Lake are full of 1960s to 1980s ramblers and split-levels where the owner already pulled the carpet, found oak in the hall, and is now standing in a big-box aisle pricing a flooring nailer. The videos make it look like a weekend. Having fixed a fair number of those weekends, here is what the job actually costs both ways, using our published labor rates for the pro side and honest numbers for the DIY side, so you can decide with your eyes open."},
+  {"type":"h2","text":"What a pro install costs in Lynnwood"},
+  {"type":"prices","items":[
+    {"icon":"layers","tag":"Most Lynnwood jobs","price":"$3.25","title":"Engineered or solid, prefinished","text":"Installation labor for nail-down, glue-down or floating prefinished hardwood. Material is quoted separately based on the floor you choose from the samples we bring.","gold":true},
+    {"icon":"brush","tag":"Site-finished","price":"$2.75","title":"Unfinished hardwood","text":"Installation labor for raw boards that are then sanded and finished in place at our refinishing rates. The classic route for matching existing oak in a 1970s Lynnwood house."},
+    {"icon":"stairs","tag":"Per stair","price":"$125","unit":"/ stair","title":"Hardwood on stairs","text":"Treads, risers and nosing. Split-levels have two short runs of 6 to 8 steps each, which is the part almost no DIYer wants to do twice."}
+  ],"note":"Wills Flooring published rates, 500 sq ft minimum. Old-floor removal, subfloor prep and material are quoted at the free estimate."},
+  {"type":"h2","text":"What DIY actually costs"},
+  {"type":"table","head":["DIY line item","What it is","Why it is easy to forget"],"rows":[
+    ["Tool rental","Flooring nailer or stapler, compressor, hose, miter saw, jamb saw, table saw for rips, moisture meter","Rental counters charge by the day, and a first install runs three to five days"],
+    ["Extra material","10 to 15 percent waste for a pro; 15 to 20 percent for a first-timer who miscuts and racks poorly","One extra box of engineered oak can cost more than a day of pro labor"],
+    ["Subfloor prep","Screws, patch compound, a second layer of plywood if the 5/8 in subfloor in a split-level needs it","Skipped by most DIYers, which is why the floor squeaks later"],
+    ["Disposal","Old carpet, pad, tack strip, packaging","Snohomish County transfer station fees and a truck"],
+    ["Your time","Three to five days of physical work for 700 sq ft, plus acclimation days","Two or three weekends with the living room in boxes"],
+    ["Fixing mistakes","Re-laying a bowed starter row, replacing split boards, filling gaps","Often becomes a call to a pro anyway, at repair rates"]
+  ],"note":"We have not put dollar figures on the DIY side because rental prices and material vary; add them up honestly for your own project and compare to the pro labor below."},
+  {"type":"h2","text":"A 700 sq ft Alderwood rambler, both ways"},
+  {"type":"steps","wide":true,"items":[
+    {"icon":"home","d":"Pro: Wills Flooring","text":"Living room, dining and hall, prefinished engineered white oak, nailed over screwed-down plywood. Two installers, two days, furniture moved back on day three.","note":"700 × $3.25 = $2,275 labor. Material and tear-out quoted separately."},
+    {"icon":"hammer","d":"DIY: realistic","text":"Same floor. Four days of rental tools, 18 percent waste instead of 10, a Saturday at the transfer station, and one bedroom door that no longer clears because the jamb was not undercut.","note":"Tools + extra material + disposal + fasteners typically absorb a third to a half of the $2,275 you set out to save"},
+    {"icon":"clock","d":"The hidden line","text":"Three weekends. If your time is worth anything, or the house needs to be listed by a date, the pro number starts to look small.","note":"Pro finish date: 2 days. DIY finish date: 3 weekends, if nothing goes wrong."}
+  ]},
+  {"type":"h2","text":"Price the pro version right now"},
+  {"type":"calc","kind":"hardwood","note":"Labor only. Compare this against your honest DIY receipt, then decide."},
+  {"type":"h2","text":"When DIY genuinely makes sense"},
+  {"type":"compare","a":{"icon":"done","tag":"Do it yourself","title":"Good DIY candidates","items":["One rectangular room, under 300 sq ft, no stairs","Click-together engineered plank that floats, not nail-down solid","Flat, dry plywood subfloor already screwed down","You own or can borrow the saws, and you have done trim work before","No deadline and a spare room to live in while it happens"]},
+    "b":{"icon":"x","tag":"Hire it out","title":"Hand it to a pro","items":["Solid 3/4 in nail-down, which needs a nailer, cleats and a feel for the mallet","Any stairs, landings or split-level half flights","Rooms that connect through doorways and need a continuous, aligned run","Glue-down over a slab or over radiant heat","A house you are selling; Lynnwood buyers notice gaps and telegraphed seams"]}},
+  {"type":"h2","text":"The DIY mistakes we get called to fix"},
+  {"type":"list","icons":true,"items":[
+    {"icon":"thermo","html":"<strong>No acclimation.</strong> Boxes opened and installed the same afternoon. Two months later the boards have shrunk and every seam shows a black line. Our guide on <a href=\"/blog-posts/do-hardwood-floors-need-to-acclimate-before-installation-kirkland\">acclimating hardwood</a> explains the timing."},
+    {"icon":"ruler","html":"<strong>Starting on a wall that is not straight.</strong> 1960s Lynnwood walls wander by half an inch over 20 ft. Pros snap a line off the room's center; DIYers butt the first row to the drywall and the error grows across the room."},
+    {"icon":"lock","html":"<strong>Skipping the subfloor screws.</strong> The nailer sets cleats into a subfloor that still moves on its joists, and the squeak is now under a floor you cannot lift."},
+    {"icon":"layers","html":"<strong>Poor racking.</strong> End joints stacked within an inch of the previous row, or a repeating stair-step pattern that cannot be fixed without pulling boards."},
+    {"icon":"box","html":"<strong>No expansion gap.</strong> Boards jammed tight to the wall behind the baseboard. The first humid Lynnwood winter, the floor buckles at the hallway."},
+    {"icon":"shield","html":"<strong>Voided material warranty.</strong> Manufacturers require installation to industry guidelines and often a moisture test with readings recorded. A DIY floor that fails usually has no paper trail, so the claim is denied."}
+  ]},
+  {"type":"callout","icon":"hammer","gold":true,"title":"The middle path: ","text":"Do the parts that need sweat, not skill. Pull the carpet and pad, yank the tack strip and staples, haul it to the transfer station, and empty the rooms. That removes most of the tear-out line from the quote and leaves the nailing, stairs and transitions to us at $3.25 per sq ft. Many Lynnwood customers do exactly this."},
+  {"type":"h2","text":"If you hire it out, ask these five things"},
+  {"type":"ul","items":["Is the labor rate per square foot published, and does the quote list material, prep and tear-out as separate lines? Ours does.","Will you screw down the subfloor and record a moisture reading before installing?","Who handles undercutting door jambs, transitions and baseboards, and is that included?","How long will the boards acclimate in the house, and where will they sit?","What is the workmanship warranty? Wills Flooring backs every hardwood installation with a 1-year workmanship warranty, on top of the manufacturer's material warranty."]}
+ ],
+ "faq": [
+  {"q":"How much do you save by installing hardwood floors yourself?","a":"You save the labor, which at Wills Flooring is $3.25 per sq ft for prefinished engineered or solid. On a 700 sq ft Lynnwood rambler that is $2,275. From that you subtract tool rental, higher waste, fasteners, disposal and your own time, so most first-timers net well under $1,500 for three weekends of work."},
+  {"q":"Is installing hardwood floors hard for a beginner?","a":"Floating click-together engineered plank in one square room is manageable for a handy person. Nail-down solid strip, stairs, rooms that connect through doorways and glue-down over concrete are hard to do well the first time. The skills are layout, racking, keeping rows straight and knowing when the subfloor needs work."},
+  {"q":"Do I need special tools to install hardwood flooring?","a":"For nail-down you need a pneumatic flooring nailer or stapler, a compressor, a miter saw, a table saw for rips, a jamb saw, a moisture meter, tapping block and pull bar. Most are rentable, but a first install takes three to five days of rental. Floating floors need fewer tools but still a good saw."},
+  {"q":"Will a DIY installation void the hardwood warranty?","a":"It can. Manufacturers require installation to industry guidelines, an acceptable subfloor and recorded moisture readings. If the floor gaps, cups or squeaks and there is no documentation, the claim is usually denied. A professional installation gives you both the manufacturer warranty and Wills Flooring's 1-year workmanship warranty."},
+  {"q":"Can I do part of the job myself to lower the price?","a":"Yes. Removing old carpet, pad, tack strip and staples, hauling the debris and clearing furniture are all things a homeowner can do, and it reduces the tear-out and prep lines on the quote. Leave the layout, nailing, stairs and transitions to the installer. We will tell you at the estimate exactly what is worth doing yourself."},
+  {"q":"How long does a pro take to install 700 sq ft of hardwood in Lynnwood?","a":"About two days for prefinished engineered or solid over a prepared subfloor, plus any acclimation time beforehand. Unfinished hardwood adds sanding and three coats of finish, which takes another three to four days. A DIY install of the same area typically runs three to five working days spread across weekends."}
+ ],
+ "faq_title": "DIY vs pro questions from Lynnwood",
+ "faq_sub": "Asked across the counter at our 196th St SW showroom.",
+ "related": [["how-much-does-hardwood-floor-installation-cost-in-lynnwood","hardwood installation cost in Lynnwood"],["nail-down-vs-glue-down-vs-floating-hardwood-lynnwood","nail-down vs glue-down vs floating hardwood"],["do-hardwood-floors-need-to-acclimate-before-installation-kirkland","acclimating hardwood before installation"]],
+ "cta_title": "Compare your DIY receipt to a real quote",
+ "cta_sub": "Stop by the Lynnwood showroom on 196th or book a free in-home visit. We measure, check the subfloor and hand you a firm labor and material quote so the DIY decision is made with real numbers."
+}

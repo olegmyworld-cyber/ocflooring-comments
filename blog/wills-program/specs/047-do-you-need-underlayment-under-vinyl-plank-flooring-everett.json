@@ -1,0 +1,71 @@
+{
+ "slug": "do-you-need-underlayment-under-vinyl-plank-flooring-everett",
+ "title": "Do You Need Underlayment Under Vinyl Plank Flooring?",
+ "meta": "Do you need underlayment under vinyl plank? Only if the plank has no attached pad, never two layers. An Everett installer explains, plus Wills Flooring rates.",
+ "category": "lvp",
+ "city": "Everett",
+ "time": "8 mins",
+ "date": "2026-11-02T15:00:00.000Z",
+ "keywords": "do you need underlayment for vinyl plank flooring, underlayment under LVP, vinyl plank attached pad vs underlayment, vapor barrier under vinyl plank concrete, vinyl plank installation Everett WA",
+ "offers": [["Vinyl plank flooring installation", "2.50", "per square foot"]],
+ "blocks": [
+  {"type":"quick","eyebrow":"Short answer","lead":"Only if the plank does not already have a pad attached. Most rigid-core vinyl plank sold today comes with an attached underlayment, and putting a second layer under it voids the warranty and can break the locking joints. Planks without a pad need a thin 1 to 1.5 mm underlayment, and any concrete slab needs a vapor barrier regardless of the plank.","detail":"Wills Flooring installs vinyl plank for $2.50 per sq ft labor with a 500 sq ft minimum. Underlayment, when it is needed, is a material line quoted at the free in-home estimate.",
+   "tiles":[{"icon":"dollar","label":"Install labor","value":"$2.50 / sq ft"},{"icon":"layers","label":"Attached pad","value":"No extra layer"},{"icon":"droplet","label":"Over concrete","value":"6 mil vapor barrier"},{"icon":"ruler","label":"Max total pad","value":"About 1.5 mm"}]},
+  {"type":"p","html":"This question comes up on almost every vinyl plank estimate we do in Everett, usually because a big-box store tried to sell a roll of foam alongside the plank. The honest answer depends on three things: whether your plank has a pad glued to its back, what your subfloor is, and whether you are floating or gluing. A Riverside house with 1910 fir subfloors, a Silver Lake two-story with a garage-level slab and a Port Gardner condo with a sound-rated HOA get three different answers."},
+  {"type":"h2","text":"What underlayment actually does, and does not do"},
+  {"type":"cards","cols":2,"items":[
+    {"icon":"volume","title":"Sound","text":"The biggest real benefit. A pad reduces the hollow click of a floating floor and cuts impact noise to the room below. This is why condos and second floors care about it and why manufacturers attach a pad to most rigid-core planks."},
+    {"icon":"grid","title":"Small imperfections","text":"A pad smooths over minor texture: old adhesive ridges, plywood grain, small nail dimples. It does not fix dips or humps. Anything deeper than 3/16 inch over 10 feet still needs to be leveled, pad or no pad."},
+    {"icon":"moisture","title":"Moisture","text":"Underlayment is not a moisture barrier unless it says so and has a sealed film layer. Over concrete you need a true vapor barrier, either a 6 mil poly sheet or an underlayment with an integrated one and taped seams."},
+    {"icon":"thermo","title":"Comfort and warmth","text":"Marginal. A 1 mm pad adds a little softness and takes the chill off a slab, but a thick soft foam is a mistake under vinyl plank: the joints flex, the locks break, and the warranty is gone. Vinyl plank wants a firm base."}
+  ]},
+  {"type":"h2","text":"The decision, by plank and subfloor"},
+  {"type":"table","head":["Your situation","Underlayment?","What we use"],"rows":[
+    ["Rigid core (SPC or WPC) with attached pad, over plywood or OSB","No","Nothing. The attached pad is the underlayment. Adding more voids most warranties."],
+    ["Rigid core with attached pad, over concrete slab","Vapor barrier only","6 mil poly sheet under the plank, seams taped, or a film-faced underlayment rated for the plank."],
+    ["Rigid core with no attached pad, over wood subfloor","Yes, thin","1 to 1.5 mm dense foam or felt, per the plank manufacturer's spec."],
+    ["Flexible click-lock LVP, 4 to 5 mm thick","Yes, thin and firm","1 mm dense underlayment; anything soft shows every dip and stresses the locks."],
+    ["Glue-down vinyl plank, any subfloor","Never","Adhesive goes straight to a smooth, dry subfloor. Underlayment would defeat the bond."],
+    ["Floating plank over existing vinyl, tile or hardwood","Depends on attached pad","Same rules as above. The old floor is the subfloor; the pad decision does not change."],
+    ["Condo or second floor with an HOA sound requirement","Usually yes, acoustic","Acoustic underlayment rated for the required IIC, or an attached pad whose rating is documented in writing."]
+  ],"note":"Underlayment and vapor barrier are materials, quoted separately from the $2.50 per sq ft installation labor."},
+  {"type":"h2","text":"How this plays out in Everett houses"},
+  {"type":"list","icons":true,"items":[
+    {"icon":"home","html":"<strong>Riverside and Bayside, 1900s to 1920s.</strong> Original fir subfloors with gaps and a bit of wave. The pad does not fix this. We screw down loose boards, fill gaps and often add a thin plywood layer before any plank goes down. Then an attached-pad rigid core plank, no extra underlayment."},
+    {"icon":"basement","html":"<strong>Silver Lake and Eastmont, 1990s to 2000s.</strong> Plywood upstairs, a slab in the daylight basement or converted garage. Upstairs: attached pad only. Downstairs: moisture test, then 6 mil vapor barrier under the same plank. One plank, two prep methods."},
+    {"icon":"volume","html":"<strong>Port Gardner and downtown condos.</strong> HOAs frequently require a documented IIC rating. We pull the plank's spec sheet and, if the attached pad does not meet it, we switch to a plank without a pad plus a certified acoustic underlayment. Two pads stacked is never the answer."}
+  ]},
+  {"type":"h2","text":"Price your Everett vinyl plank install right now"},
+  {"type":"calc","kind":"lvp","note":"Labor only. If your plank needs underlayment or your slab needs a vapor barrier, we add those materials to the written quote at the free estimate."},
+  {"type":"h2","text":"What a real Everett quote looks like"},
+  {"type":"steps","wide":true,"items":[
+    {"icon":"home","d":"Silver Lake two-story · 1,100 sq ft + 14 stairs","text":"Attached-pad SPC plank over plywood upstairs and a slab basement. Vapor barrier under the basement portion only.","note":"1,100 × $2.50 + 14 × $100 = $4,150 labor; plank and 6 mil poly quoted separately"},
+    {"icon":"home","d":"Port Gardner condo · 720 sq ft","text":"HOA required a specific IIC rating. Plank without pad plus a certified acoustic underlayment, documented for the building.","note":"720 × $2.50 = $1,800 labor; acoustic underlayment quoted as a material line"},
+    {"icon":"home","d":"Riverside bungalow · 550 sq ft","text":"Fir subfloor fastened and skim-coated, then attached-pad plank floated. No additional underlayment.","note":"550 × $2.50 = $1,375 labor, above the 500 sq ft minimum; subfloor prep quoted on site"}
+  ]},
+  {"type":"h2","text":"When adding underlayment makes the floor worse"},
+  {"type":"callout","icon":"alert","title":"The most common failure we see: ","text":"A homeowner or a hurried crew lays a thick foam or cork underlayment under a plank that already has an attached pad. The floor feels soft for a month, then the locking edges start to separate at the seams in the hallway. The manufacturer denies the claim because the installation instructions were ignored. Fixing it means pulling the floor up."},
+  {"type":"ul","items":["Using carpet pad or laminate foam under vinyl plank. Wrong density, wrong thickness, and the plank warranty excludes both.","Skipping the vapor barrier on a slab because it \"tested dry in August.\" Everett slabs read differently in February. The barrier is cheap insurance.","Trusting an underlayment marketed as \"moisture resistant\" to act as a vapor barrier. Unless it has a sealed film and taped seams, it is not one.","Doubling up an acoustic pad to hit an HOA number. Ratings are per system; two pads do not add up, they just make the joints flex."]},
+  {"type":"h2","text":"What to ask before your plank arrives"},
+  {"type":"list","icons":true,"items":[
+    {"icon":"search","html":"<strong>Does this plank have an attached pad, and what does the manufacturer allow underneath it?</strong> The install guide is one page; ask to see it."},
+    {"icon":"moisture","html":"<strong>What was the slab moisture reading?</strong> Any <a href=\"/services/lvp-vinyl-flooring\">vinyl plank installation</a> over concrete at Wills starts with a test and a written result."},
+    {"icon":"volume","html":"<strong>For condos: what IIC does the building require, and which product meets it?</strong> Get the number and the spec sheet before ordering."},
+    {"icon":"ruler","html":"<strong>How flat is my subfloor?</strong> If the answer is \"the pad will take care of it,\" that is a warning sign."},
+    {"icon":"clipboard","html":"<strong>Is underlayment a separate line on the quote?</strong> Ours is, when it is needed, so you can see exactly what you are paying for."}
+  ]}
+ ],
+ "faq": [
+  {"q":"Does vinyl plank with an attached pad need underlayment?","a":"No. The attached pad is the underlayment, and nearly every rigid-core plank manufacturer prohibits adding another layer beneath it. A second pad makes the floor too soft, stresses the locking joints and voids the warranty. Over concrete you still add a vapor barrier, which is a thin sheet, not a pad."},
+  {"q":"What underlayment should go under vinyl plank without a pad?","a":"A thin, dense underlayment, usually 1 to 1.5 mm, made specifically for vinyl plank and listed in the plank manufacturer's instructions. Avoid soft foam meant for laminate and any carpet pad. Over concrete, choose one with an integrated vapor barrier and taped seams, or lay 6 mil poly first."},
+  {"q":"Do I need a vapor barrier under vinyl plank on a concrete slab in Everett?","a":"Yes, every time. Slabs in Silver Lake basements and converted garages pass moisture through year-round, even when they feel dry in summer. A 6 mil polyethylene sheet with taped seams, or an underlayment with an integrated film, protects the plank and keeps the manufacturer's warranty intact."},
+  {"q":"Does underlayment help vinyl plank over an uneven subfloor?","a":"Only for small texture, such as adhesive ridges or plywood grain. It does not fix dips or humps beyond 3/16 inch over 10 feet, and it will not stop joints from failing over a low spot. Leveling compound or a plywood overlay is the fix; the pad is not."},
+  {"q":"Does Wills Flooring charge extra to install underlayment?","a":"Installation labor stays at $2.50 per sq ft. When underlayment or a vapor barrier is required, the material is added as a separate line to the written quote you receive at the free in-home estimate, so you can see the cost before anything is ordered."},
+  {"q":"Can I use cork or acoustic underlayment under vinyl plank in a condo?","a":"Yes, if it is rated for vinyl plank and the plank has no attached pad. Many Everett condo buildings require a specific IIC sound rating, and a certified acoustic underlayment is the usual way to meet it. Never stack it under a plank that already has a pad; ratings do not add up."}
+ ],
+ "faq_title": "Underlayment questions from Everett homeowners",
+ "faq_sub": "From estimates in Riverside, Silver Lake, Eastmont and Port Gardner, about 15 minutes from our Lynnwood showroom.",
+ "related": [["can-vinyl-plank-be-installed-over-tile-hardwood-concrete-or-old-vinyl","installing vinyl plank over old floors"],["how-thick-should-vinyl-plank-flooring-be-kirkland","how thick vinyl plank should be"],["does-vinyl-plank-need-a-moisture-test-over-concrete-kirkland","moisture testing concrete before vinyl plank"]],
+ "cta_title": "Get the right answer for your subfloor",
+ "cta_sub": "We bring plank samples to your Everett home, test the subfloor and slab, and write the underlayment decision into a firm quote on the spot. Free, no obligation."
+}

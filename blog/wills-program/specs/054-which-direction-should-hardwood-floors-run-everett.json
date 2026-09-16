@@ -1,0 +1,289 @@
+{
+ "slug": "which-direction-should-hardwood-floors-run-everett",
+ "title": "Which Direction Should Hardwood Floors Run? Layout Rules That Matter",
+ "meta": "Run hardwood across the joists, then along the longest wall toward the main light. Wills Flooring's layout rules for Everett homes, and the mistakes to avoid.",
+ "category": "hardwood",
+ "city": "Everett",
+ "time": "8 mins",
+ "date": "2026-11-09T15:00:00.000Z",
+ "keywords": "which direction should hardwood floors run, hardwood floor direction joists, hardwood flooring layout rules, wood floor direction hallway, hardwood floor direction light source, hardwood installation Everett WA",
+ "offers": [
+  [
+   "Hardwood floor installation, engineered or solid",
+   "3.25",
+   "per square foot"
+  ],
+  [
+   "Unfinished hardwood installation",
+   "2.75",
+   "per square foot"
+  ]
+ ],
+ "blocks": [
+  {
+   "type": "quick",
+   "eyebrow": "Short answer",
+   "lead": "Run hardwood perpendicular to the floor joists first; when the joists give you a choice, run the boards parallel to the longest wall and toward the main source of light.",
+   "detail": "The joist rule is structural and applies to nail-down floors over a wood subfloor. The other rules are visual, and they usually agree with each other. When they conflict, structure wins, then sight lines, then light.",
+   "tiles": [
+    {
+     "icon": "hammer",
+     "label": "Rule 1",
+     "value": "Across the joists"
+    },
+    {
+     "icon": "ruler",
+     "label": "Rule 2",
+     "value": "Along the longest wall"
+    },
+    {
+     "icon": "sun",
+     "label": "Rule 3",
+     "value": "Toward the main light"
+    },
+    {
+     "icon": "layers",
+     "label": "Exception",
+     "value": "Glue-down on a slab"
+    }
+   ],
+   "cta": "Try the calculator"
+  },
+  {
+   "type": "p",
+   "html": "A common Reddit thread asks whether the installer or the homeowner picks the direction, and the honest answer is both, in that order. In Everett we install into three very different houses: 1900s to 1920s Riverside and Bayside homes with 2×8 joists and a plank subfloor, 1990s to 2000s Silver Lake and Eastmont two-stories with engineered I-joists and OSB, and Port Gardner condos sitting on concrete. Each one changes which rules apply. Here is how we decide, room by room, and the mistakes that are expensive to undo."
+  },
+  {
+   "type": "h2",
+   "text": "Rule 1: run across the joists (the structural rule)"
+  },
+  {
+   "type": "cards",
+   "cols": 2,
+   "items": [
+    {
+     "icon": "hammer",
+     "title": "Why perpendicular",
+     "text": "A nail-down floor is a second structural layer. Boards that cross the joists tie them together and stiffen the floor. Boards that run parallel to the joists ride on the subfloor alone, and over time the seams between subfloor sheets can telegraph up as squeaks and slight dips between boards."
+    },
+    {
+     "icon": "search",
+     "title": "How to find your joists",
+     "text": "Look in the crawlspace or basement, or find the nail rows in the subfloor once the old carpet is up. In most Everett houses the joists run across the narrow dimension of the house, which means the flooring runs the long way. Our estimator checks this at the free in-home measure."
+    },
+    {
+     "icon": "layers",
+     "title": "When you can ignore it",
+     "text": "Glue-down engineered on a Port Gardner condo slab has no joists to worry about. A floating engineered floor over any subfloor is also free. And if your heart is set on running parallel to the joists, adding a layer of 1/2 in plywood over the existing subfloor makes it safe; we quote that at the estimate."
+    },
+    {
+     "icon": "home",
+     "title": "Old Riverside plank subfloors",
+     "text": "Many 1910s Everett homes have 1×6 diagonal or straight plank subfloors instead of plywood. Straight planks that run parallel to the new hardwood are a problem; we either run the hardwood across them or add a plywood layer first."
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "Rules 2 and 3: the visual rules"
+  },
+  {
+   "type": "list",
+   "icons": true,
+   "items": [
+    {
+     "icon": "ruler",
+     "html": "<strong>Follow the longest dimension.</strong> Boards running the length of a room make it read longer and calmer. Running them across a narrow room chops it into stripes. In a 12 by 24 ft Silver Lake great room, run the 24 ft way."
+    },
+    {
+     "icon": "sun",
+     "html": "<strong>Point them at the main light.</strong> Boards running toward a big window or slider let the light rake along the length of each board, so seams disappear and the grain shows. Boards running across the light throw a small shadow at every seam."
+    },
+    {
+     "icon": "home",
+     "html": "<strong>Start from the front door.</strong> The first sight line matters most. Boards that lead your eye from the entry into the house feel intentional; boards that cross the entry like a threshold feel like a hallway rug."
+    },
+    {
+     "icon": "grid",
+     "html": "<strong>Run hallways the long way, always.</strong> A hall with boards running across it looks like a ladder. If the hall and the room disagree, the hall wins and the room follows, because the hall is where you see the most seams in the shortest distance."
+    },
+    {
+     "icon": "done",
+     "html": "<strong>One direction for the whole floor.</strong> Open-plan main floors should run one way throughout. Changing direction at a doorway needs a transition strip or a border, and each one is a spot people notice."
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "Everett homes and the direction we usually recommend"
+  },
+  {
+   "type": "table",
+   "head": [
+    "House type",
+    "Subfloor and joists",
+    "Usual direction",
+    "Why"
+   ],
+   "rows": [
+    [
+     "Riverside or Bayside 1910s bungalow",
+     "2×8 joists, plank subfloor, crawlspace",
+     "Front to back, across joists",
+     "Joists run side to side in most of these; front-to-back also lines up with the long living-dining run and the front windows."
+    ],
+    [
+     "Eastmont or Silver Lake 1990s two-story",
+     "I-joists, OSB subfloor",
+     "Along the great room, across joists",
+     "Builder oak was usually laid this way already; matching it lets us tie into any hardwood that stays."
+    ],
+    [
+     "Split-level near Evergreen Way",
+     "Joists change direction at the stairs",
+     "Follow the main level, add plywood if needed",
+     "Upper and lower halves sometimes have joists at 90 degrees to each other; we keep one visual direction and shim the structure."
+    ],
+    [
+     "Port Gardner or downtown condo on a slab",
+     "Concrete, glue-down or floating",
+     "Toward the view windows",
+     "No joist rule. Boards run toward the water so the light rakes along them."
+    ],
+    [
+     "Boeing-era 1960s rambler",
+     "2×10 joists, plywood",
+     "Along the hall, across joists",
+     "Long central hall dictates it; bedrooms follow."
+    ]
+   ],
+   "note": "We confirm joist direction at every estimate. Do not assume from the outside of the house."
+  },
+  {
+   "type": "h2",
+   "text": "Price your Everett hardwood installation right now"
+  },
+  {
+   "type": "calc",
+   "kind": "hardwood",
+   "note": "Direction does not change the labor rate for a straight lay. Diagonal, herringbone and added plywood are quoted at the estimate."
+  },
+  {
+   "type": "h2",
+   "text": "Diagonal, herringbone and other exceptions"
+  },
+  {
+   "type": "cards",
+   "cols": 3,
+   "items": [
+    {
+     "icon": "ruler2",
+     "title": "Diagonal (45 degrees)",
+     "text": "Solves the joist problem in any room, since a diagonal board always crosses the joists. It also hides walls that are out of square, common in old Everett houses. Costs more material, roughly 10 to 15 percent extra for waste, and more cutting time."
+    },
+    {
+     "icon": "grid",
+     "title": "Herringbone or chevron",
+     "text": "Direction becomes about where the pattern centers, not which way boards run. The center line usually runs from the front door toward the main room. See our post on <a href=\"/blog-posts/how-much-does-herringbone-or-chevron-hardwood-flooring-cost-to-install\">herringbone and chevron installation cost</a>."
+    },
+    {
+     "icon": "frame",
+     "title": "Borders and room changes",
+     "text": "When two rooms must run differently, a single perpendicular border board at the doorway makes the change look deliberate. It is cleaner than a T-molding and costs a few extra minutes of layout."
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "Mistakes that cost money to undo"
+  },
+  {
+   "type": "compare",
+   "a": {
+    "icon": "done",
+    "tag": "Get it right",
+    "title": "What a good installer does",
+    "items": [
+     "Checks joist direction before quoting, not on install day",
+     "Snaps a layout line off the longest straight wall, not a wavy one",
+     "Dry-lays the first three rows across the whole room to check the last row width",
+     "Matches direction to any existing hardwood that stays"
+    ]
+   },
+   "b": {
+    "icon": "x",
+    "tag": "Regret later",
+    "title": "What we get called to fix",
+    "items": [
+     "Boards parallel to joists over an old plank subfloor, squeaking within a year",
+     "Direction changed at every doorway with a T-molding in each",
+     "A one-inch sliver as the last row against the most visible wall",
+     "Boards running across a narrow hallway"
+    ]
+   }
+  },
+  {
+   "type": "callout",
+   "icon": "alert",
+   "title": "Staircases fix the direction for you: ",
+   "text": "If hardwood continues up a staircase at $125 per stair, the treads run across the stairs, and the upper landing usually has to run the same way. Plan the second floor from the landing outward, not from the bedrooms in."
+  },
+  {
+   "type": "h2",
+   "text": "What to ask before install day"
+  },
+  {
+   "type": "ul",
+   "items": [
+    "Which way do my joists run, and did you verify it?",
+    "Will the direction you propose match the hardwood that is staying?",
+    "How wide will the last row be against the main wall?",
+    "Do we need a plywood layer, and what does it add?"
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Do hardwood floors have to run perpendicular to the joists?",
+   "a": "For a nail-down floor over a wood subfloor, yes, that is the standard and the safe choice. Running parallel to the joists is possible if you add a layer of plywood over the subfloor first, or if the floor is a glue-down or floating engineered product. On a concrete slab there are no joists and the rule does not apply."
+  },
+  {
+   "q": "Should hardwood run the same direction in every room?",
+   "a": "On an open main floor, yes. Consistent direction makes the space read as one floor and avoids transition strips. Rooms with a door that closes can change direction if there is a reason, such as a very long narrow room, but a border board at the threshold makes it look deliberate."
+  },
+  {
+   "q": "Should hardwood floors run toward the window or across it?",
+   "a": "Toward the main window when structure allows. Light traveling along the length of the boards makes seams vanish and shows the grain. Light hitting the boards side-on casts a small shadow at every joint and makes any unevenness visible."
+  },
+  {
+   "q": "Which direction should hardwood run in a hallway?",
+   "a": "Lengthwise, always. Boards running across a hallway look like a ladder and produce a seam every few inches of travel. If the hall direction conflicts with the joists, that is one of the few cases where we recommend adding plywood so the hall can run the long way."
+  },
+  {
+   "q": "Does the direction of the flooring change the installation price?",
+   "a": "Not for a straight lay. Wills Flooring's published rate is $3.25 per sq ft for engineered or solid and $2.75 for unfinished, whichever way the boards run. Diagonal layouts and patterns take more cutting and more material, and an added plywood layer is extra; both are quoted at the free estimate."
+  },
+  {
+   "q": "Can I run new hardwood the opposite direction from existing hardwood?",
+   "a": "You can, but the seam where they meet will need a border or T-molding, and it will be noticed. If the old floor stays, we normally match its direction and weave the new boards in so the joint disappears. If the old floor is going, the new one is free to follow the rules above."
+  }
+ ],
+ "faq_title": "Layout questions from Everett homeowners",
+ "faq_sub": "From the estimate table, before a single board is nailed.",
+ "related": [
+  [
+   "how-long-does-hardwood-floor-installation-take-everett",
+   "how long hardwood installation takes in Everett"
+  ],
+  [
+   "nail-down-vs-glue-down-vs-floating-hardwood-lynnwood",
+   "nail-down vs glue-down vs floating hardwood"
+  ],
+  [
+   "how-much-does-herringbone-or-chevron-hardwood-flooring-cost-to-install",
+   "herringbone and chevron installation cost"
+  ]
+ ],
+ "cta_title": "Let us check your joists before you decide",
+ "cta_sub": "We come to your Everett home with samples, verify the joist direction and subfloor, lay out the direction with you, and leave a firm written price. Free, no obligation."
+}

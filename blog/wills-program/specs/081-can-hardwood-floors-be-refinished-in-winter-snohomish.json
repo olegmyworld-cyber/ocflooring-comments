@@ -1,0 +1,69 @@
+{
+ "slug": "can-hardwood-floors-be-refinished-in-winter-snohomish",
+ "title": "Can Hardwood Floors Be Refinished in Winter? Refinishing During Snohomish's Rainy Season",
+ "meta": "Yes, hardwood floors can be refinished in winter. Wills Flooring covers heat, humidity, dry time and crawlspace moisture for Snohomish homes, $3.99 per sq ft.",
+ "category": "refinish",
+ "city": "Snohomish",
+ "time": "8 mins",
+ "date": "2026-12-06T15:00:00.000Z",
+ "keywords": "refinish hardwood floors in winter, can you refinish floors in cold weather, hardwood refinishing rainy season, floor finish drying time humidity, winter floor refinishing Snohomish WA",
+ "offers": [["Sand and refinish, natural finish", "3.99", "per square foot"], ["Sand and refinish with stain", "6.50", "per square foot"], ["Screen and recoat", "1.99", "per square foot"]],
+ "blocks": [
+  {"type":"quick","eyebrow":"Short answer","lead":"Yes, hardwood floors refinish perfectly well in a Snohomish winter as long as the house is heated to 65 to 75 degrees, indoor humidity stays under about 55 percent and the crew allows a little extra dry time between coats.","detail":"Water-based finish cures by evaporation, and a heated Pacific Northwest house in January is actually drier indoors than it is in July. The real winter risks are a cold house, a damp crawlspace and a wood stove, and all three are manageable.",
+   "tiles":[{"icon":"thermo","label":"Indoor temperature","value":"65–75°F"},{"icon":"moisture","label":"Indoor humidity","value":"Under 55%"},{"icon":"clock","label":"Extra dry time","value":"A few hours per coat"},{"icon":"dollar","label":"Natural finish","value":"$3.99 / sq ft"}]},
+  {"type":"p","html":"Every November the calls from Snohomish slow down. People assume the floor has to wait for a dry week in July. It does not. Some of the best refinishing weather of the year is a cold, clear January stretch when the furnace is running and the indoor air is dry. This post covers what actually affects a winter refinish, how we set up a job in a farmhouse with a wood stove and a crawlspace, and when waiting really is the right call."},
+  {"type":"h2","text":"What actually matters for a finish to cure"},
+  {"type":"cards","cols":2,"items":[
+    {"icon":"thermo","title":"Temperature of the floor, not the forecast","text":"Bona water-based finishes want the floor and the air between roughly 65 and 75 degrees. A heated house delivers that in any month. A vacant house with the furnace off does not, and finish applied at 50 degrees stays soft and can cloud."},
+    {"icon":"moisture","title":"Indoor relative humidity","text":"High humidity slows evaporation. In winter a Snohomish house with the heat on typically sits at 30 to 45 percent indoors, which is ideal. The humid season for finish is actually a muggy August evening with the windows open."},
+    {"icon":"wind","title":"Gentle airflow","text":"Finish needs moving air to release solvent and water, but not a cold draft that chills the floor or blows in leaves. In winter we run fans inside with windows cracked slightly rather than thrown open."},
+    {"icon":"flame","title":"Dust and ash","text":"A wood stove in the same room as a wet finish is a dust source. Ash, fine soot and the convection current it creates land in the coat. The stove goes cold for finishing days, and the furnace does the heating."}
+  ]},
+  {"type":"h2","text":"Winter vs summer refinishing in Snohomish"},
+  {"type":"table","head":["Factor","Winter (Nov–Mar)","Summer (Jun–Sep)"],"rows":[
+    ["Indoor humidity","Low with heat on; finish dries fast","Higher, especially evenings; dry times can run long"],
+    ["Dry time between coats","2 to 4 hours, sometimes a little longer if the house is cool","2 to 3 hours in a dry house, longer on muggy days"],
+    ["Ventilation","Cracked windows, fans; heating cost for a few days","Open windows; pollen and cottonwood fluff are a real dust problem"],
+    ["Wood movement","Boards at their narrowest; gaps at their widest","Boards swollen; gaps closed"],
+    ["Scheduling","Easy; crews available within a week or two","Booked out, especially before school starts"],
+    ["Mud and dogs","Worst season for tracking; containment and paper paths matter","Manageable"]
+  ],"note":"Wills Flooring refinishing prices are the same in every season: $3.99 per sq ft natural, $6.50 with stain, $1.99 for a screen and recoat, 500 sq ft minimum."},
+  {"type":"h2","text":"Price your Snohomish floor right now"},
+  {"type":"calc","kind":"refinish","note":"Prices do not change with the season. Dust containment is worth adding in winter when the house is closed up."},
+  {"type":"h2","text":"How we set up a winter job in a Snohomish house"},
+  {"type":"steps","wide":true,"items":[
+    {"icon":"search","d":"Estimate visit","text":"We meter the floor and, if the house is on a crawlspace, we check the subfloor from below or at a register. A floor reading much wetter than the house air needs the crawlspace looked at before sanding.","note":"Common on acreage homes around Blackmans Lake and Fobes Hill"},
+    {"icon":"thermo","d":"Two days before","text":"Furnace set to 68 and left there. Wood stove cold. If the house is vacant, heat has to be on for at least 48 hours so the floor itself warms up."},
+    {"icon":"box","d":"Day 1","text":"Rooms cleared, doorways sealed, paper paths from the entry so the crew is not tracking mud onto raw wood. Sanding begins.","note":"A 1,050 sq ft farmhouse main floor: 1,050 × $3.99 = $4,190. Add $250 for dust containment."},
+    {"icon":"brush","d":"Days 2 and 3","text":"Fine sanding, buffing, then sealer and finish coats. Fans run inside; a window in the far room is cracked for exchange. We check the coat with a moisture meter, not the clock, before the next one."},
+    {"icon":"done","d":"Day 4","text":"Final coat. Socks after 24 hours, furniture after 72, rugs after two to four weeks. Keep the stove off another 48 hours so the finish cures evenly."}
+  ]},
+  {"type":"h2","text":"Snohomish-specific winter problems and fixes"},
+  {"type":"list","icons":true,"items":[
+    {"icon":"moisture","html":"<strong>Wet crawlspaces.</strong> Rainy-season groundwater under an older farmhouse pushes moisture into the subfloor. If the boards are cupped, sanding them flat now means they crown when the crawlspace dries in summer. We meter first and sometimes ask you to fix drainage or add a vapor barrier before we sand."},
+    {"icon":"flame","html":"<strong>Wood stove heat.</strong> Stoves dry the boards nearest the hearth far more than the far bedroom. Those boards shrink and gap. Running the furnace instead of the stove for the week of the job keeps the floor even."},
+    {"icon":"layers","html":"<strong>Gaps at their widest.</strong> Boards are narrowest in winter. Filling every gap in January means the filler crushes out in July. We fill only stable gaps and leave seasonal ones alone."},
+    {"icon":"dog","html":"<strong>Mud and dogs.</strong> Snohomish dogs come in wet and dirty from November to April. Dogs need to be off the floor for the finish days and on paper paths for a week after. Most clients board them or send them to a relative."}
+  ]},
+  {"type":"h2","text":"When to wait for spring"},
+  {"type":"compare","a":{"icon":"done","tag":"Go ahead in winter","title":"Refinish now when","items":["The house is occupied and heated, or you can heat a vacant one for a week","Floor moisture reads within a few points of the house average","No active leaks, cupping or crowning","You want the work done before summer schedules fill up"]},
+    "b":{"icon":"x","tag":"Hold off","title":"Wait when","items":["The crawlspace has standing water or the subfloor reads wet","Boards are visibly cupped from this season's moisture","The house cannot be held at 65 degrees or more","A wood stove is the only heat source and cannot be replaced by portable electric heat"]}},
+  {"type":"callout","icon":"alert","title":"A note on stain in winter: ","text":"Stain adds a day, and in a cool house it can add more. Oil-based stains under water-based finish need to be fully dry or the finish will not bond. In winter we allow an extra night after the stain coat. That is a scheduling difference, not a quality one."},
+  {"type":"h2","text":"How to get the best winter result"},
+  {"type":"ul","items":["Turn the heat up two days early and leave it there through the job. Cold floors are the single biggest winter mistake.","Let the stove go cold for finishing days and two days after. Heat with the furnace or portable electric heaters.","Ask for the $250 dust containment. With the house closed up, sealed doorways and an air scrubber keep the rest of the house clean.","Set up a mud station at the door: mat, boot tray, towel for the dog. Grit on a week-old finish is the most common damage we see.","Book early in the week so the finish has a quiet weekend to cure before normal life resumes."]},
+  {"type":"p","html":"If your floor is already cupped, read <a href=\"/blog-posts/cupped-or-crowned-hardwood-floors-snohomish\">cupped or crowned hardwood floors</a> before you book anything. The full process is on our <a href=\"/services/floor-refinish\">floor refinishing</a> page."}
+ ],
+ "faq": [
+  {"q":"Can you refinish hardwood floors in the rain?","a":"Yes. Rain outside does not matter if the house is heated and closed up. Finish cures based on the temperature and humidity of the air touching it, and a heated house in a Snohomish winter is usually drier indoors than a summer evening with the windows open."},
+  {"q":"Does floor finish take longer to dry in winter?","a":"Slightly, if the house is cool. At 68 degrees and normal winter indoor humidity, Bona water-based finish dries between coats in two to four hours, which is about the same as summer. Below 60 degrees, dry times stretch and the finish can cure soft, so we require the heat on."},
+  {"q":"Is it more expensive to refinish floors in winter?","a":"No. Wills Flooring charges $3.99 per sq ft for a natural finish, $6.50 with stain and $1.99 for a screen and recoat year-round, with a 500 sq ft minimum. Winter scheduling is easier, and you may get a date within a week or two instead of a month."},
+  {"q":"Should I turn off my wood stove during refinishing?","a":"Yes, for the finishing days and about two days after. A stove drops ash and soot into wet finish and dries the boards near the hearth unevenly. Heat the house with the furnace or portable electric heaters instead. The stove can go back into service once the finish has cured."},
+  {"q":"Will the gaps in my floor close after a winter refinish?","a":"Seasonal gaps will narrow in summer when the boards take on moisture, whether or not the floor was refinished. That is why we do not fill every gap in winter. Filler in a gap that is about to close gets crushed out. We fill stable gaps only and leave the seasonal ones."},
+  {"q":"Can I ventilate a winter refinish without freezing the house?","a":"Yes. We crack a window or two in rooms away from the wet floor and run fans inside to move air, while the furnace holds temperature. The finish does not need open windows to cure. It needs warmth and moving air, and it gets more of both in winter than most people expect."}
+ ],
+ "faq_title": "Winter refinishing questions from Snohomish homeowners",
+ "faq_sub": "From farmhouse owners, Clearview acreage and the phone at our Lynnwood showroom.",
+ "related": [["when-is-the-best-time-of-year-to-refinish-hardwood-floors-in-edmonds","the best time of year to refinish"],["cupped-or-crowned-hardwood-floors-snohomish","cupped or crowned hardwood floors"],["can-gaps-in-hardwood-floors-be-fixed-during-refinishing-everett","fixing gaps during refinishing"]],
+ "cta_title": "Book a winter refinish while the calendar is open",
+ "cta_sub": "We meter the floor, check the crawlspace and hand you a firm written price on the spot. Free anywhere in Snohomish, any month of the year."
+}

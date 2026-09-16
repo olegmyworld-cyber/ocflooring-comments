@@ -1,0 +1,83 @@
+{
+ "id": "66ced46ecb67820876384d36",
+ "slug": "ceramic-vs-porcelain-tile-flooring-which-is-better-for-your-space",
+ "title": "Ceramic vs. Porcelain Tile Flooring: Key Differences Explained",
+ "meta": "Porcelain absorbs under 0.5% water and wears harder; ceramic costs less and cuts easier. Wills Flooring on PEI ratings, rectified edges, wet rooms and cost.",
+ "category": "tile",
+ "published": "2024-08-28",
+ "time": "8 mins",
+ "keywords": "ceramic vs porcelain tile, porcelain vs ceramic tile flooring, PEI rating tile, rectified tile, large format tile installation, tile flooring Lynnwood",
+ "blocks": [
+  {"type":"quick","eyebrow":"Short answer","lead":"Porcelain is the better floor tile for almost every room because it absorbs under 0.5 percent water and wears harder; ceramic wins on price, easier cutting and walls.","detail":"Both are fired clay and both are installed the same way, so the choice is about where the tile lives. Wills Flooring prices tile from a measured layout, so this post explains what drives cost rather than quoting a rate.",
+   "tiles":[{"icon":"droplet","label":"Porcelain absorption","value":"Under 0.5%"},{"icon":"water","label":"Ceramic absorption","value":"Up to 7%"},{"icon":"shield","label":"Floor rating","value":"PEI 3 to 5"},{"icon":"ruler","label":"Large-format flatness","value":"1/8 in over 10 ft"}],"cta":"Scope your project"},
+  {"type":"p","html":"\"Is porcelain really worth the extra money over ceramic?\" is one of the most common tile questions we hear in Lynnwood and Mill Creek kitchens, and the honest answer is that it depends on the room and the tile size. The two materials are cousins, not twins. Here is what actually separates them, what the ratings on the box mean, and where each one belongs."},
+  {"type":"h2","text":"What actually separates ceramic from porcelain"},
+  {"type":"table","head":["Property","Ceramic","Porcelain"],"rows":[
+    ["Clay and firing","Coarser red or white clay, fired around 1,800°F","Fine kaolin clay with feldspar, fired above 2,200°F"],
+    ["Water absorption","0.5 to 7 percent depending on grade","Under 0.5 percent, the ANSI definition of porcelain"],
+    ["Density and hardness","Softer body; the glaze carries the wear","Denser body, harder glaze, often color through the body"],
+    ["Chips","Show the red or white body under the glaze","Often the same color through, so chips hide"],
+    ["Cutting","Scores and snaps easily; DIY friendly","Needs a wet saw and diamond blade; more labor"],
+    ["Frost and exterior","Not rated; absorbs water and cracks in a freeze","Frost-rated; fine for covered porches and entries"],
+    ["Material cost","Lower","Higher, though the gap has narrowed a lot"]
+  ],"note":"Look for a certified porcelain mark on the box. Some imported tile uses the word loosely, and the absorption number is what counts."},
+  {"type":"h2","text":"PEI ratings: read the number, not the marketing"},
+  {"type":"p","html":"PEI is an abrasion test of the glaze, not the body. It tells you how much foot traffic the surface takes before it dulls. Both ceramic and porcelain carry PEI ratings, and a PEI 4 ceramic will outwear a PEI 2 porcelain on a floor."},
+  {"type":"table","head":["PEI","Rated for","Where we use it"],"rows":[
+    ["0–1","Walls only","Backsplashes, shower walls"],
+    ["2","Light foot traffic","Bathroom floors used in bare feet or slippers"],
+    ["3","Normal residential","Kitchens, halls, most bedrooms"],
+    ["4","Heavy residential, light commercial","Entries, mudrooms, family kitchens with dogs"],
+    ["5","Heavy commercial","Garages and shops; overkill for most homes but fine"]
+  ]},
+  {"type":"h2","text":"Water absorption and wet rooms"},
+  {"type":"cards","cols":2,"items":[
+    {"icon":"water","title":"Bathrooms and showers","text":"Porcelain's low absorption means the tile itself will not hold moisture, but it does not make a shower waterproof. Waterproofing is the membrane behind and under the tile. We use porcelain on floors, either tile on walls, and always a proper membrane."},
+    {"icon":"mop","title":"Mudrooms and entries","text":"Wet boots, road grit and dog paws in an Everett or Bothell entry are the hardest test a floor takes. PEI 4 porcelain with a slight texture for grip, and a darker grout, is our default."},
+    {"icon":"snow","title":"Covered porches","text":"Only porcelain. Ceramic soaks up rain and a Puget Sound freeze pops the glaze off. Confirm the box says frost-resistant and pick a textured surface for wet-weather grip."},
+    {"icon":"flame","title":"Radiant heat","text":"Tile is the best floor over electric or hydronic radiant heat because it conducts and stores warmth. Porcelain is denser and moves less with temperature. Use an uncoupling membrane and a flexible thinset rated for heated floors."}
+  ]},
+  {"type":"h2","text":"Rectified edges and large-format tile"},
+  {"type":"p","html":"Two specs on the box change the installation more than the material does."},
+  {"type":"list","icons":true,"items":[
+    {"icon":"ruler","html":"<strong>Rectified edges.</strong> The tile is cut square after firing so every piece is exactly the same size. That allows grout joints of 1/16 to 1/8 in for a near-seamless look. Non-rectified tile varies slightly and needs 3/16 in joints or wider to hide it."},
+    {"icon":"grid","html":"<strong>Large format means flatness.</strong> Any tile with a side over 15 in needs a subfloor flat to 1/8 in over 10 ft and 1/16 in over 2 ft. Otherwise you get lippage, one tile edge standing above its neighbor. Self-leveler or a mortar bed adds real cost on older Shoreline and Seattle floors."},
+    {"icon":"layers","html":"<strong>Coverage and leveling.</strong> Large tile needs a large-format thinset, back-buttering and 95 percent mortar coverage in wet areas. Leveling clips are standard on 24 in and larger tile."},
+    {"icon":"search","html":"<strong>Plank tile has its own rule.</strong> Wood-look porcelain planks should be offset no more than one third, not a 50 percent brick pattern, or the slight crown in each plank creates lippage at every joint."}
+  ]},
+  {"type":"h2","text":"Get a firm price for your rooms"},
+  {"type":"estimator","title":"Scope Your Tile Project","sub":"Tell us the rooms and we bring samples and a firm price to your door."},
+  {"type":"h2","text":"What drives the price of a tile floor"},
+  {"type":"p","html":"Wills Flooring quotes tile from a measured layout because these variables move the number more than the tile itself does."},
+  {"type":"list","icons":true,"items":[
+    {"icon":"ruler","html":"<strong>Tile size and pattern.</strong> 12 by 24 straight-lay is the baseline. Herringbone, diagonal and small mosaics add cuts and time. Large format adds flatness prep."},
+    {"icon":"layers","html":"<strong>Subfloor prep.</strong> Plywood needs a second layer or an uncoupling membrane; slabs need flatness checked and often leveled. This is the line that varies most between a 1970s Lynnwood split-level and a new build."},
+    {"icon":"hammer","html":"<strong>Demolition.</strong> Pulling old tile and thinset is slow and loud. Removing vinyl or carpet is quick."},
+    {"icon":"droplet","html":"<strong>Waterproofing and heat.</strong> Membranes in wet rooms and radiant mats under the tile each add material and a step."},
+    {"icon":"scissors","html":"<strong>Cuts and details.</strong> Toe kicks, curved walls, niches and floor drains all mean wet-saw time. Porcelain cuts slower than ceramic."}
+  ]},
+  {"type":"h2","text":"When ceramic is the smarter buy, and when neither is"},
+  {"type":"compare","a":{"icon":"done","tag":"Ceramic","title":"Choose ceramic when","items":["It is going on a wall or backsplash","A powder room or guest bath gets light, bare-foot traffic","Budget is tight and the room is dry","You want a hand-made or glazed look that only ceramic offers"]},
+    "b":{"icon":"x","tag":"Not tile at all","title":"Skip tile when","items":["The subfloor bounces; tile and grout crack over deflection","You want warmth underfoot without radiant heat; vinyl plank or wood feel warmer","The floor must be redone quickly and cheaply in a rental","Plank flatness cannot be reached without major leveling"]}},
+  {"type":"h2","text":"Mistakes we get called to fix"},
+  {"type":"list","icons":true,"items":[
+    {"icon":"alert","html":"<strong>Ceramic on a porch or in a mudroom.</strong> It absorbs water, chips at the edges and shows the red body."},
+    {"icon":"ruler","html":"<strong>Large tile on an unflattened floor.</strong> Lippage you can catch a toe on, and no grout fixes it."},
+    {"icon":"x","html":"<strong>No membrane in a shower.</strong> Porcelain over bare drywall or plywood. The tile is fine; the wall behind it is rotting."},
+    {"icon":"grid","html":"<strong>Wrong grout joint.</strong> Non-rectified tile forced into 1/16 in joints shows every size variation."}
+  ]}
+ ],
+ "faq": [
+  {"q":"Is porcelain tile better than ceramic for floors?","a":"For most floors, yes. Porcelain absorbs under 0.5 percent water, is denser and harder, and usually hides chips because the color runs through the body. Ceramic is fine for dry, light-traffic floors and walls, and it costs less and cuts more easily."},
+  {"q":"What PEI rating do I need for a kitchen floor?","a":"PEI 3 for a normal kitchen, PEI 4 if you have dogs, kids or an entry door opening into the kitchen. PEI is a glaze wear test, so it applies to both ceramic and porcelain. Anything rated PEI 1 or 2 belongs on walls."},
+  {"q":"Can ceramic tile be used in a shower?","a":"On the walls, yes. Ceramic wall tile is standard and comes in the widest range of colors. For the shower floor, use porcelain or a mosaic rated for wet floors with a slip-resistant surface. In both cases the waterproofing membrane behind the tile is what keeps the shower dry."},
+  {"q":"What does rectified tile mean?","a":"The edges are cut square after firing so every tile is exactly the same size. That allows tight grout joints of 1/16 to 1/8 in for a clean, modern look. Non-rectified tile varies slightly and needs wider joints to hide the difference."},
+  {"q":"Why is large-format tile more expensive to install?","a":"Tiles over 15 in need a subfloor flat to 1/8 in over 10 ft, back-buttering, leveling clips and large-format mortar. The prep is the cost, especially on older Puget Sound homes with wavy plywood or uneven slabs."},
+  {"q":"Does Wills Flooring publish a tile price per square foot?","a":"No. Tile pricing depends on size, pattern, subfloor prep, demolition and waterproofing more than on the tile itself, so we measure and quote each job in writing at a free in-home visit. You get one firm number before any work starts."}
+ ],
+ "faq_title": "Tile questions from kitchens and baths across the Sound",
+ "faq_sub": "Asked in Lynnwood, Mill Creek, Everett, Shoreline and the rest of Snohomish and King County.",
+ "related": [["vinyl-plank-vs-tile-in-bathrooms-kirkland","vinyl plank vs tile in bathrooms"],["best-flooring-for-mudrooms-and-entryways-in-rainy-snohomish","the best flooring for rainy mudrooms"],["can-vinyl-plank-be-installed-over-tile-hardwood-concrete-or-old-vinyl","installing vinyl plank over old tile"]],
+ "cta_title": "Get a firm tile price for your rooms",
+ "cta_sub": "We bring porcelain and ceramic samples to your door, check the subfloor for flatness and deflection, and hand you a written quote on the spot. Free across Snohomish and King County."
+}

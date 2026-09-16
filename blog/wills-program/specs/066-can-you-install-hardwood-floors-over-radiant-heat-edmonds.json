@@ -1,0 +1,268 @@
+{
+ "slug": "can-you-install-hardwood-floors-over-radiant-heat-edmonds",
+ "title": "Can You Install Hardwood Floors Over Radiant Heat?",
+ "meta": "Yes, hardwood works over radiant heat with engineered or narrow quartersawn solid, a surface under 85 F and steady humidity. Wills Flooring, Edmonds WA.",
+ "category": "hardwood",
+ "city": "Edmonds",
+ "time": "8 mins",
+ "date": "2026-11-21T15:00:00.000Z",
+ "keywords": "hardwood floors over radiant heat, engineered hardwood radiant heat, can you put wood floors over in-floor heating, best hardwood for radiant heat, hydronic radiant floor hardwood installation, Edmonds hardwood installation",
+ "offers": [
+  [
+   "Hardwood floor installation, engineered or solid",
+   "3.25",
+   "per square foot"
+  ],
+  [
+   "Unfinished hardwood installation",
+   "2.75",
+   "per square foot"
+  ]
+ ],
+ "blocks": [
+  {
+   "type": "quick",
+   "eyebrow": "Short answer",
+   "lead": "Yes. Hardwood installs over radiant heat successfully when the floor is engineered or narrow quartersawn solid, the surface temperature stays under about 85 F, and the house holds a steady humidity.",
+   "detail": "Wills Flooring installs engineered or solid hardwood at $3.25 per sq ft and unfinished hardwood at $2.75 per sq ft in labor, radiant or not. The extra work is in the planning, not the price.",
+   "tiles": [
+    {
+     "icon": "thermo",
+     "label": "Max surface temp",
+     "value": "80–85 F"
+    },
+    {
+     "icon": "layers",
+     "label": "Best choice",
+     "value": "Engineered"
+    },
+    {
+     "icon": "droplet",
+     "label": "Indoor humidity",
+     "value": "35–55%"
+    },
+    {
+     "icon": "dollar",
+     "label": "Install labor",
+     "value": "$3.25 / sq ft"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "html": "Radiant heat shows up in Edmonds more than you would guess: slab additions on 1950s to 1970s Seaview and Westgate ramblers, remodels in the Bowl where a retiree downsizing from a bigger house wants warm floors and no baseboard heaters, and new waterfront builds with hydronic tubing in the slab. The question is always the same: \"Will the wood cup, gap or crack over the heat?\" It will if you pick the wrong wood or run the system wrong. It will not if you follow the rules below, and the <a href=\"/services/hardwood-flooring\">installation labor</a> costs the same either way."
+  },
+  {
+   "type": "h2",
+   "text": "Why radiant heat and wood need rules"
+  },
+  {
+   "type": "p",
+   "html": "Wood moves with moisture, not temperature. Radiant heat dries the bottom of the board while the top faces room air, and every winter the boards shrink and gap; every summer they swell back. A furnace does the same thing to a floor, but slower and more evenly. Radiant concentrates the drying at the wood, so the species, the cut, the width and the construction of the plank decide whether the movement stays invisible or becomes a problem."
+  },
+  {
+   "type": "h2",
+   "text": "Which hardwood works over radiant heat"
+  },
+  {
+   "type": "table",
+   "head": [
+    "Floor type",
+    "Over radiant?",
+    "Why"
+   ],
+   "rows": [
+    [
+     "Engineered, plywood core, 3/8–5/8 in",
+     "Best choice",
+     "Cross-laminated core barely moves. Most manufacturers approve it for radiant with a surface limit around 85 F."
+    ],
+    [
+     "Solid quartersawn white oak, 2 1/4–3 1/4 in",
+     "Good",
+     "Quartersawn boards move half as much across their width as plainsawn. Narrow widths spread the movement into many small joints."
+    ],
+    [
+     "Solid plainsawn oak, 5 in or wider",
+     "Risky",
+     "Wide plainsawn boards show the biggest seasonal gaps and cup most. We do not recommend it over radiant."
+    ],
+    [
+     "Maple, hickory, Brazilian cherry",
+     "Avoid",
+     "Dense, less stable species that move a lot and telegraph every humidity swing. Maple over radiant is a common regret."
+    ],
+    [
+     "Unfinished solid, site-finished",
+     "Case by case",
+     "Works with narrow quartersawn stock and a long acclimation with the heat running. Finish must be applied with the system on at a moderate setting."
+    ]
+   ],
+   "note": "Always confirm the specific product's radiant approval in writing. Warranty terms differ between manufacturers, and many require a maximum surface temperature and a slab moisture test."
+  },
+  {
+   "type": "h2",
+   "text": "Price your Edmonds hardwood installation"
+  },
+  {
+   "type": "calc",
+   "kind": "hardwood",
+   "note": "Labor is the same over radiant heat. Material, moisture testing and any leveling over the slab are quoted at the free estimate."
+  },
+  {
+   "type": "h2",
+   "text": "How the installation changes over radiant"
+  },
+  {
+   "type": "steps",
+   "wide": true,
+   "items": [
+    {
+     "icon": "moisture",
+     "d": "Before · Test the slab and run the heat",
+     "text": "A new radiant slab needs weeks to dry out. We moisture test it, then the system runs for at least a week before any wood arrives so the concrete gives up its water before the floor is on it."
+    },
+    {
+     "icon": "box",
+     "d": "Week before · Acclimate with the heat on",
+     "text": "The wood sits in the room at normal living temperature and humidity, with the radiant running at its working setting. Acclimating in a cold, closed-up Edmonds house and then turning on the heat after installation is how floors gap in month one.",
+     "note": "Target 35 to 55 percent indoor humidity year-round. A hygrometer costs less than one replaced board."
+    },
+    {
+     "icon": "hammer",
+     "d": "Install day · Method matches the system",
+     "text": "Over a hydronic slab, engineered planks are glued down or floated; there is nothing to nail into. Over tubing set between sleepers or in a poured underlayment on a wood subfloor, we nail or staple with fasteners sized so nothing reaches the tubes. The tube layout is mapped before the first cleat.",
+     "note": "Electric mats under wood are rare and need the manufacturer's blessing; most are made for tile."
+    },
+    {
+     "icon": "thermo",
+     "d": "After · Ramp the heat slowly",
+     "text": "The system comes back up a few degrees a day to the working temperature, never above the 80 to 85 F surface limit. Rugs over radiant hardwood trap heat and should be breathable; a thick rubber-backed rug can cook the boards under it."
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "What to expect once you live on it"
+  },
+  {
+   "type": "cards",
+   "cols": 2,
+   "items": [
+    {
+     "icon": "snow",
+     "title": "Winter gaps are normal",
+     "text": "Hairline gaps between boards in January are the wood doing what wood does. On a narrow engineered floor they are hard to see. On a wide solid plank they can open to a credit card's width. Both close in summer. Filling them in winter is a mistake, because the filler pops out when the boards swell."
+    },
+    {
+     "icon": "sun",
+     "title": "Slow, steady heat wins",
+     "text": "Radiant is most comfortable and easiest on wood when it runs continuously at a low setting rather than cycling hot and cold. Setback schedules that drop the floor to 55 at night and blast it in the morning are hard on the boards. Set it and leave it."
+    },
+    {
+     "icon": "droplet",
+     "title": "Humidity is the real control",
+     "text": "Edmonds sits at the water and outdoor humidity is high most of the year, but a heated house in January can drop below 30 percent inside. That is when gaps and squeaks appear. A whole-house or portable humidifier does more for a radiant floor than any product choice."
+    },
+    {
+     "icon": "shield",
+     "title": "Warranty in both directions",
+     "text": "Keep the surface temperature under the manufacturer's limit and the humidity in range and the material warranty holds. Wills Flooring's 1-year workmanship warranty covers the installation itself; we are Bona Certified Craftsmen and a Metropolitan Hardwood distributor, so we install products we know are approved for radiant."
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "When hardwood over radiant is the wrong choice"
+  },
+  {
+   "type": "compare",
+   "a": {
+    "icon": "done",
+    "tag": "Go ahead with hardwood",
+    "title": "When",
+    "items": [
+     "The system is hydronic with a controllable supply temperature",
+     "You will run it steadily and keep indoor humidity in range",
+     "You are choosing engineered or narrow quartersawn solid",
+     "The slab tests dry and the manufacturer approves the product for radiant"
+    ]
+   },
+   "b": {
+    "icon": "x",
+    "tag": "Choose something else",
+    "title": "When",
+    "items": [
+     "The system has no way to cap surface temperature",
+     "You want wide plainsawn solid planks or maple",
+     "The room is a bathroom or laundry with standing water risk",
+     "The slab reads wet and cannot be sealed; vinyl plank tolerates that better"
+    ]
+   }
+  },
+  {
+   "type": "callout",
+   "icon": "alert",
+   "title": "About the unfinished, site-finished option: ",
+   "text": "Sanding and finishing over a running radiant floor is doable but the finish dries fast and can show lap marks if the surface is warm. We turn the system down during finishing and back up slowly afterward. Budget the extra day."
+  },
+  {
+   "type": "h2",
+   "text": "Questions to ask before you sign"
+  },
+  {
+   "type": "ul",
+   "items": [
+    "Is this specific product approved for radiant heat, and what surface temperature limit does the manufacturer set?",
+    "Has the slab been moisture tested, and what were the numbers?",
+    "How will the tubing be located before nailing, if the subfloor is wood?",
+    "How long will the wood acclimate with the heat running?",
+    "Who sets the ramp-up schedule after installation, and what humidity should I hold in the house?"
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the best hardwood for radiant heat?",
+   "a": "Engineered hardwood with a plywood core is the safest choice because the cross-laminated layers barely move with humidity changes. If you want solid, choose narrow quartersawn white oak, 3 1/4 in or less. Avoid maple, hickory, Brazilian cherry and any wide plainsawn plank over radiant heat."
+  },
+  {
+   "q": "How hot can a radiant floor get under hardwood?",
+   "a": "Most manufacturers cap the wood surface temperature at 80 to 85 F. That is plenty to heat an Edmonds home comfortably. Systems need a way to limit supply water temperature or a floor sensor. Rugs over the floor trap heat and should be breathable, not rubber-backed."
+  },
+  {
+   "q": "Will hardwood over radiant heat gap in winter?",
+   "a": "Slightly, yes. As the heat dries the boards they shrink and hairline gaps open, then close again in summer. Narrow engineered planks make it almost invisible. Holding indoor humidity between 35 and 55 percent with a humidifier keeps the gaps small. Do not fill them in winter."
+  },
+  {
+   "q": "Can you nail hardwood over radiant tubing?",
+   "a": "Only when the tubes are below a wood subfloor or between sleepers with known spacing, and with fasteners short enough to stay above them. We map the tubing before nailing. Over a concrete slab with tubes in it, engineered flooring is glued down or floated instead."
+  },
+  {
+   "q": "Does hardwood over radiant heat cost more to install?",
+   "a": "Wills Flooring charges the same installation labor, $3.25 per sq ft for engineered or solid and $2.75 for unfinished, with a 500 sq ft minimum. The added costs are moisture testing, any slab leveling and a radiant-approved product, all quoted at the free in-home estimate."
+  },
+  {
+   "q": "How long should hardwood acclimate over a radiant floor?",
+   "a": "At least a week in the room with the radiant system running at its normal working temperature and the house at normal humidity. The point is for the wood to reach the moisture level it will live at. Acclimating in a cold, unheated house defeats the purpose."
+  }
+ ],
+ "faq_title": "Radiant heat and hardwood questions from Edmonds",
+ "faq_sub": "From remodels in the Bowl, Seaview and Westgate, and from the phone at our Lynnwood showroom.",
+ "related": [
+  [
+   "can-hardwood-floors-be-installed-over-a-concrete-slab-edmonds",
+   "hardwood over a concrete slab in Edmonds"
+  ],
+  [
+   "prefinished-vs-site-finished-hardwood-floors-edmonds",
+   "prefinished vs site-finished hardwood"
+  ],
+  [
+   "can-vinyl-plank-go-over-radiant-floor-heat-edmonds",
+   "vinyl plank over radiant heat"
+  ]
+ ],
+ "cta_title": "Plan your Edmonds radiant-heat hardwood floor",
+ "cta_sub": "We bring radiant-approved samples to the house, test the slab and give you a firm written price on the spot. Free, anywhere in Edmonds."
+}

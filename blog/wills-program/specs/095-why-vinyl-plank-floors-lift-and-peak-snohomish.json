@@ -1,0 +1,67 @@
+{
+ "slug": "why-vinyl-plank-floors-lift-and-peak-snohomish",
+ "title": "Why Vinyl Plank Floors Lift and Peak: Installation Mistakes We Fix in Snohomish",
+ "meta": "Vinyl plank lifting or peaking in your Snohomish home? Usually no expansion gap, pinned planks or crawlspace moisture. Causes and fixes from Wills Flooring.",
+ "category": "lvp",
+ "city": "Snohomish",
+ "time": "8 mins",
+ "date": "2026-12-20T15:00:00.000Z",
+ "keywords": "vinyl plank floor lifting, vinyl plank peaking at seams, why is my vinyl plank floor lifting up, LVP expansion gap, floating floor buckling fix, vinyl plank repair Snohomish",
+ "offers": [["Vinyl plank flooring installation", "2.50", "per square foot"]],
+ "blocks": [
+  {"type":"quick","eyebrow":"Short answer","lead":"Vinyl plank lifts and peaks when it has nowhere to expand: a missing gap at the walls, planks pinned under cabinets or trim, a run too long for one floating field, or moisture and heat pushing from below.","detail":"Vinyl moves with temperature far more than people expect. A floating floor that cannot move outward moves upward, and the joints tent. Nearly every peaked floor we see in Snohomish traces back to one of five installation mistakes, and most are fixable.",
+   "tiles":[{"icon":"ruler","label":"Expansion gap","value":"1/4 to 3/8 in at every wall"},{"icon":"ruler2","label":"Max single run","value":"Per manufacturer, often 40 to 50 ft"},{"icon":"dollar","label":"Wills install labor","value":"$2.50 / sq ft"},{"icon":"stairs","label":"Stairs","value":"$100 per stair"}],"cta":"Try the calculator"},
+  {"type":"p","html":"Snohomish is DIY country. A lot of the vinyl plank between Blackmans Lake and Clearview was installed by the homeowner over a long weekend, and most of it is fine. The calls we get are the other kind: a ridge across the kitchen where two planks meet, a hump in front of the slider that appeared in July, a hallway that clicks and lifts near the wood stove. The planks are not defective. The floor was installed with no room to move, and with crawlspaces, well water and wood heat, it moves a lot. Here is how to read the symptom and what it takes to fix it."},
+  {"type":"h2","text":"The five causes, in the order we find them"},
+  {"type":"cards","cols":2,"items":[
+    {"icon":"ruler","title":"1. No expansion gap","text":"Vinyl plank needs a gap of roughly 1/4 to 3/8 inch at every wall, cabinet, post and pipe, hidden by baseboard or quarter round. Planks fitted tight to the wall for a clean look have zero room. First warm afternoon, the joints peak."},
+    {"icon":"lock","title":"2. Pinned planks","text":"A floating floor has to float everywhere. Islands set on top of it, baseboards nailed through it, door stops screwed through it or caulk locking the edge all pin the field, and the floor buckles on the far side."},
+    {"icon":"ruler2","title":"3. Runs too long, no transitions","text":"Most manufacturers cap a floating field at 40 to 50 feet and require a T-molding there. A Snohomish farmhouse with a 55 foot run from front door to mudroom, laid as one piece, has more expansion than any wall gap can absorb."},
+    {"icon":"moisture","title":"4. Moisture from below","text":"Damp crawlspaces, missing vapor barriers and slabs without a moisture test push water vapor up into the subfloor. Plywood swells, and even waterproof vinyl rides the swell. Soft OSB under a peaked floor is the giveaway."},
+    {"icon":"flame","title":"5. Heat swings","text":"Wood stoves, south-facing glass and sunrooms take vinyl through big daily temperature swings. Dark planks in full sun can pass 100 degrees at the surface. Flexible LVP is worse than rigid SPC here, and neither survives a tight install next to a stove."}
+  ]},
+  {"type":"h2","text":"Read the symptom, find the cause"},
+  {"type":"table","head":["What you see","Most likely cause","What fixing it takes"],"rows":[
+    ["Peaked joints along one wall or across a doorway","No gap at that wall, or trim nailed through the floor","Pull baseboard, trim planks back with an oscillating tool, re-nail trim to the wall only"],
+    ["Hump in the middle of a long room, worse in summer","Run exceeds the manufacturer's limit, or island pinning the field","Add a T-molding at a doorway, or release the island and shim it"],
+    ["Whole area lifting near a slider or wood stove","Thermal expansion against a tight edge","Open the gap on that side; add UV film on the glass if it is a sunroom"],
+    ["Soft, bouncy or cupped area under lifted planks","Moisture in the subfloor","Fix the crawlspace vapor barrier or drainage first, replace swollen subfloor, then reinstall"],
+    ["Single plank lifted or unlocked, rest flat","Broken click joint or debris in the joint","Replace that plank; no other work needed"]
+   ],"note":"Bring us a photo and the plank brand if you have it. Most of the diagnosis comes from the pattern of the lift."},
+  {"type":"h2","text":"Price your Snohomish vinyl plank project right now"},
+  {"type":"calc","kind":"lvp","note":"Repairs to an existing floor are quoted on site. This calculator prices a new installation at our published labor rate; material, removal and subfloor prep are quoted at the free estimate."},
+  {"type":"h2","text":"How we fix a peaked floor"},
+  {"type":"steps","wide":true,"items":[
+    {"icon":"search","d":"Diagnose","text":"We pull a piece of baseboard to check the perimeter gap, tap the field for hollow or soft spots and take a moisture reading of the subfloor."},
+    {"icon":"scissors","d":"Release the floor","text":"Baseboards come off. Planks are trimmed back with an oscillating multi-tool to open a proper gap. Any trim, door stop or transition fastened through the planks is pulled and refastened to the wall or subfloor only."},
+    {"icon":"box","d":"Free the island or cabinets","text":"If a kitchen island sits on the vinyl, we lift it, cut the floor back around its footprint and set it on the subfloor with shims and a filler strip."},
+    {"icon":"grid","d":"Add transitions where needed","text":"Long runs get a T-molding at a natural break, usually a doorway. Each zone can then move within its own gaps."},
+    {"icon":"refresh","d":"Relay and replace","text":"Peaked planks are usually fine once they can lie flat. Cracked click joints get swapped, which is why we tell everyone to keep a spare box. Baseboard goes back on, nailed to the wall only."}
+  ]},
+  {"type":"h2","text":"Repair or start over?"},
+  {"type":"compare","a":{"icon":"done","tag":"Repair","title":"Repair makes sense when","items":["The lift is in one area and the rest of the floor is flat","Planks are undamaged and you have spares or the product is still sold","The subfloor is dry and sound","The floor is otherwise a product you like"]},
+    "b":{"icon":"x","tag":"Replace","title":"Replace when","items":["The subfloor is wet, swollen or rotted under a wide area","Joints have cracked across many planks from repeated peaking","The product is a thin, flexible plank that will never behave near a stove or slider","You were planning to change the floor anyway"]}},
+  {"type":"callout","icon":"alert","title":"Never fasten a floating floor down to stop it moving: ","text":"Screws, nails or construction adhesive through a peaked plank do not fix expansion; they move the buckle somewhere else and crack the joints on the way. The fix is always to give the floor room, not to hold it down."},
+  {"type":"h2","text":"How to keep a new Snohomish vinyl floor flat"},
+  {"type":"list","icons":true,"items":[
+    {"icon":"thermo","html":"<strong>Acclimate the boxes and hold the house at living temperature.</strong> 48 hours in the room, and the heat on. Installing in a 50 degree house in January and heating it to 72 later builds in an expansion problem. More in our post on <a href=\"/blog-posts/does-vinyl-plank-flooring-need-to-acclimate-before-installation-edmonds\">acclimating vinyl plank</a>."},
+    {"icon":"ruler","html":"<strong>Gap everything.</strong> Walls, cabinets, posts, hearths, pipes and door jambs. Undercut jambs so the plank slides beneath them instead of butting against them."},
+    {"icon":"box","html":"<strong>Set islands and cabinets on the subfloor, not the floor.</strong> Run the vinyl up to them with a gap. This is the most common mistake in remodeled Snohomish kitchens."},
+    {"icon":"moisture","html":"<strong>Check the crawlspace before the floor goes down.</strong> A 6 mil vapor barrier on the ground, working vents and dry joists. Acreage homes sometimes have standing water under the house in winter, and no flooring survives that."},
+    {"icon":"layers","html":"<strong>Choose rigid core near heat and glass.</strong> SPC moves less with temperature than flexible LVP or WPC. Next to a wood stove or a wall of glass it is the difference between a flat floor and an annual repair. Our <a href=\"/services/lvp-vinyl-flooring\">vinyl plank installation service</a> covers product selection at the estimate."}
+  ]}
+ ],
+ "faq": [
+  {"q":"Why is my vinyl plank floor lifting at the seams?","a":"Peaked seams mean the planks are expanding against something and have nowhere to go, so the joints push upward. The usual causes are no expansion gap at the walls, trim nailed through the floor, a kitchen island sitting on the planks, or a single run longer than the manufacturer allows without a transition."},
+  {"q":"Can a lifted vinyl plank floor be fixed without replacing it?","a":"Usually, yes. If the planks are undamaged, we remove the baseboard, trim the planks back to create a proper gap, release anything pinning the floor and let it lie flat again. Planks with cracked click joints get swapped. Replacement is only needed when the subfloor is wet or many joints are broken."},
+  {"q":"How big should the expansion gap be for vinyl plank?","a":"Most manufacturers specify 1/4 to 3/8 inch at every wall and fixed object, covered by baseboard or quarter round. Larger rooms and rooms with big temperature swings, like a Snohomish sunroom or a kitchen with a wood stove, should use the larger end of the range."},
+  {"q":"Does crawlspace moisture cause vinyl plank to buckle?","a":"Yes, indirectly. Vinyl itself is waterproof, but the plywood or OSB under it is not. A damp crawlspace swells the subfloor, and the vinyl rides the swell and peaks at the joints. Fix the vapor barrier and drainage first or the new floor will do the same thing."},
+  {"q":"Why did my floor start peaking in summer after being fine all winter?","a":"Vinyl expands as it warms. A floor installed tight in a cool house has just enough room until the first warm week, when sun through south glass or a slider pushes it past its limit. Summer peaking is the classic sign of a missing or undersized expansion gap."},
+  {"q":"How much does Wills Flooring charge to install vinyl plank in Snohomish?","a":"Our published labor rate is $2.50 per sq ft with a 500 sq ft minimum and $100 per stair. Material, removal of the old floor and subfloor prep are quoted at the free in-home estimate. Repairs to an existing floor are priced on site after we see what is pinning it."}
+ ],
+ "faq_title": "Lifting and peaking questions from Snohomish",
+ "faq_sub": "From Blackmans Lake, Fobes Hill, Clearview and the farms in between.",
+ "related": [["why-is-my-vinyl-plank-floor-buckling-or-gapping-sammamish","vinyl plank buckling and gapping"],["can-vinyl-plank-flooring-be-repaired-kirkland","whether vinyl plank can be repaired"],["how-long-does-vinyl-plank-installation-take-snohomish","how long vinyl plank installation takes"]],
+ "cta_title": "Get your Snohomish floor lying flat again",
+ "cta_sub": "We find what is pinning the floor, check the crawlspace and subfloor, and give you a firm written price to fix or replace it. Free, no obligation."
+}

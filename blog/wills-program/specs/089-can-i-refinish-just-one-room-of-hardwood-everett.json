@@ -1,0 +1,64 @@
+{
+ "slug": "can-i-refinish-just-one-room-of-hardwood-everett",
+ "title": "Can I Refinish Just One Room of Hardwood? Will It Match the Rest of the House?",
+ "meta": "You can refinish one room of hardwood, and a natural finish on the same species matches closely. Where it will not, and how Everett pros hide the line.",
+ "category": "refinish",
+ "city": "Everett",
+ "time": "8 mins",
+ "date": "2026-12-14T15:00:00.000Z",
+ "keywords": "refinish one room of hardwood floors, will refinished floor match existing, refinish hardwood in one room only, matching new finish to old hardwood, hardwood refinishing Everett",
+ "offers": [["Sand and refinish, natural finish", "3.99", "per square foot"], ["Sand and refinish with stain", "6.50", "per square foot"], ["Screen and recoat", "1.99", "per square foot"]],
+ "blocks": [
+  {"type":"quick","eyebrow":"Short answer","lead":"Yes, you can refinish one room, and with a natural finish on the same species the new floor comes close, but a freshly sanded room next to a 25-year-old finish will show a color and sheen difference at the doorway unless you stop at a threshold or blend the hallway.","detail":"The difference is not the wood, it is age: old oil-based finish has ambered while new water-based finish stays clear. Stained floors are harder to match than natural ones. The honest fix is usually one room plus a recoat of what it touches.",
+   "tiles":[{"icon":"brush","label":"Natural finish","value":"$3.99 / sq ft"},{"icon":"palette","label":"Stained","value":"$6.50 / sq ft"},{"icon":"refresh","label":"Recoat next room","value":"$1.99 / sq ft"},{"icon":"home","label":"Best stopping point","value":"Under a door"}]},
+  {"type":"p","html":"In Everett the one-room question comes in two flavors. In Silver Lake and Eastmont it is a 1998 builder-grade red oak floor where the dog lived in the family room and the rest of the house still looks fine. In Riverside and Bayside it is a 1915 fir floor where one bedroom was carpeted for 60 years and is now being uncovered while the hall was refinished a decade ago. Both want the room fixed and no visible line. Here is when that works."},
+  {"type":"h2","text":"Why one refinished room looks different from the next"},
+  {"type":"cards","cols":2,"items":[
+    {"icon":"sun","title":"Finish age and ambering","text":"Oil-based polyurethane, which is what most Everett floors got before about 2010, turns amber and then orange over 10 to 25 years. Our three coats of Bona water-based finish stay clear. A freshly sanded red oak room will look pinker and paler than the ambered hall next to it, even though the wood is identical."},
+    {"icon":"palette","title":"Stain drift","text":"Stain colors are discontinued, reformulated and applied over wood that was a different age. Matching a stained floor from 2005 is a custom color-mixing job, and even a good match shifts as both floors age at different rates."},
+    {"icon":"sparkle","title":"Sheen","text":"Old finish dulls with traffic. A new satin next to a worn-down semi-gloss reads as two different floors even in the same color. This is the easiest difference to fix, because a recoat brings the old floor to the same sheen."},
+    {"icon":"layers","title":"Species and cut","text":"Additions and patched rooms in older Everett homes sometimes have a different species or a different plank width than the original. No finish will hide that; only a stain chosen to bridge the two comes close."}
+  ]},
+  {"type":"h2","text":"Where to stop so the line disappears"},
+  {"type":"steps","wide":true,"items":[
+    {"icon":"done","d":"Best: under a closed door","text":"Stop the sanding directly under the door in its closed position. With the door shut nobody sees both floors at once, and with it open the line falls in the shadow of the jamb. Bedrooms, offices and dens all qualify."},
+    {"icon":"done","d":"Good: at an existing transition","text":"A threshold, T-molding or change in board direction is a natural break. The eye expects a change there and forgives a shade difference."},
+    {"icon":"alert","d":"Risky: an open doorway with continuous boards","text":"If the same boards run from the bedroom into the hall with no break, the only clean options are to sand both, or to sand the room and recoat the hall to match sheen and accept the color difference."},
+    {"icon":"x","d":"Never: mid-room or mid-hallway","text":"A stop line across a run of boards is impossible to hide. If a hall is involved, the hall gets done end to end."}
+  ]},
+  {"type":"h2","text":"Price your Everett room right now"},
+  {"type":"calc","kind":"refinish","note":"One room is billed at a 500 sq ft minimum. Add the adjoining hall or a recoat of the next room and you often reach 500 sq ft of real floor for the same money."},
+  {"type":"h2","text":"Match odds by scenario"},
+  {"type":"table","head":["Scenario","Match at the doorway","What we recommend"],"rows":[
+    ["Natural finish, same species, adjacent floor refinished within 5 years","Very close","Refinish the room, recoat the neighbor for sheen if needed"],
+    ["Natural finish, same species, adjacent floor 15+ years old with oil-based poly","Visible: new room paler and cooler","Stop under a door, or recoat the neighbor and accept a subtle shade difference that narrows over time"],
+    ["Stained floor, original stain still available","Fair with a custom sample board","Test on the actual floor, not a sample, and compare in daylight before committing"],
+    ["Stained floor, stain discontinued","Poor without blending","Refinish through to the nearest transition, or plan a whole-floor restain"]
+  ],"note":"We bring finish samples and, for stained floors, test a small patch on your own boards before quoting the match."},
+  {"type":"h2","text":"When to do the whole floor instead"},
+  {"type":"compare","a":{"icon":"done","tag":"One room","title":"Fine to refinish alone when","items":["The room closes off with a door","The damage (pet stains, water marks, gray boards) is confined to that room","The rest of the floor has a sound finish and matches in sheen after a recoat","The floor is natural, not stained"]},
+    "b":{"icon":"refresh","tag":"Whole floor","title":"Do it all when","items":["Boards run continuously through open doorways into the hall or living room","The floor is stained, especially a discontinued color","The rest of the finish is already worn to bare wood in the traffic paths","You are selling; Everett buyers photograph open floor plans as one space"]}},
+  {"type":"callout","icon":"home","gold":true,"title":"Silver Lake builder oak: ","text":"Most 1990s to 2000s Everett homes have 2 1/4 in red oak with oil-based finish that has gone orange. If you refinish one room natural with water-based finish, it will look noticeably lighter and pinker than the hall. Many owners like the fresh look enough to do the rest of the house the next year; we plan the stopping point with that in mind."},
+  {"type":"h2","text":"How to get the closest match on a one-room job"},
+  {"type":"list","icons":true,"items":[
+    {"icon":"sparkle","html":"<strong>Match the sheen first.</strong> Sheen mismatch is more visible than color mismatch. A <a href=\"/blog-posts/refinish-or-recoat-kirkland\">screen and recoat</a> of the adjoining room at $1.99 per sq ft brings it to the same satin as the new room for a fraction of a full sand."},
+    {"icon":"search","html":"<strong>Test on your floor, not a sample board.</strong> Stain reacts to the age and sanding of the wood. We apply test patches in a closet or under where furniture will sit and compare them to the old floor in daylight."},
+    {"icon":"sun","html":"<strong>Compare at the right time of day.</strong> Look at the doorway at midday and again in the evening. Everett winter light is low and gray and exaggerates warm versus cool differences."},
+    {"icon":"palette","html":"<strong>Consider a light tint on the new room.</strong> A very light amber-toned sealer can nudge a fresh natural floor toward an aged neighbor. It is a judgment call, and we will show you both."},
+    {"icon":"ruler","html":"<strong>Use the minimum wisely.</strong> One room bills at 500 sq ft; adding the hall or a recoat of the next room costs little or nothing extra. Our guide to <a href=\"/blog-posts/what-does-a-500-sq-ft-minimum-mean-for-refinishing-one-room-seattle\">what a 500 sq ft minimum means</a> shows the math."}
+  ]}
+ ],
+ "faq": [
+  {"q":"Can you refinish just one room of hardwood floors?","a":"Yes. One room is a normal job as long as there is a sensible place to stop, ideally under a door or at a threshold. Wills Flooring bills one room at a 500 sq ft minimum, so a 200 sq ft Everett bedroom costs $1,995 at the natural rate, and adding the hallway to reach 500 sq ft costs nothing extra."},
+  {"q":"Will a refinished room match the rest of the house?","a":"Close but rarely perfect. The same species with a natural finish comes very near, but a freshly sanded floor with clear water-based finish looks lighter and cooler than an older floor whose oil-based finish has ambered. The gap narrows over two or three years. Stained floors are harder to match and need test patches on the actual boards."},
+  {"q":"How do you hide the line between a refinished room and the old floor?","a":"Stop sanding under the door in its closed position or at an existing transition strip. Then bring the adjacent room to the same sheen with a screen and recoat at $1.99 per sq ft. Never stop a sanding line across a run of boards in an open doorway or partway down a hall; that line cannot be hidden."},
+  {"q":"Can you refinish one room with stain to match an existing stained floor?","a":"Sometimes. If the original stain is still available we mix and test on your floor, compare in daylight and adjust. Discontinued colors and floors that have aged for 15 or more years are difficult, and the honest advice is often to refinish through to the nearest natural break, or to plan a whole-floor restain."},
+  {"q":"Why does my newly refinished room look lighter than the hallway?","a":"Because sanding removed the surface layer that darkened over decades of light exposure, and the new finish is a clear water-based product while the hallway probably has amber oil-based polyurethane. Both are red oak; one is fresh and one is 20 years old. The new room will warm up somewhat over time."},
+  {"q":"Is it cheaper to refinish one room now and the rest later?","a":"Usually not. Each visit carries its own 500 sq ft minimum and setup, so two separate small jobs cost more than one combined job. If the rest of the house will need refinishing within two or three years, doing it all at once is cheaper and eliminates the matching problem entirely."}
+ ],
+ "faq_title": "One-room refinishing questions from Everett",
+ "faq_sub": "Asked from Silver Lake to Riverside, about 15 minutes from our showroom.",
+ "related": [["what-does-a-500-sq-ft-minimum-mean-for-refinishing-one-room-seattle","what a 500 sq ft minimum means for one room"],["refinish-or-recoat-kirkland","refinish vs recoat"],["can-red-oak-floors-be-stained-to-look-like-white-oak-edmonds","staining red oak to look like white oak"]],
+ "cta_title": "Let us look at the doorway before you decide",
+ "cta_sub": "We come to your Everett home, check the finish on both sides of the line, test a match if there is stain involved, and give you a firm written quote for the room or the whole floor. Free and honest."
+}

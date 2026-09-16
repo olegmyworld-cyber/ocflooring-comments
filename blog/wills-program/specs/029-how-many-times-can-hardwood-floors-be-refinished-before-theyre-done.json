@@ -1,0 +1,285 @@
+{
+ "slug": "how-many-times-can-hardwood-floors-be-refinished-before-theyre-done",
+ "title": "How Many Times Can Hardwood Floors Be Refinished Before They're Done?",
+ "meta": "Solid 3/4 in hardwood can be refinished 4 to 6 times; each sanding removes about 1/32 in. How to tell how many your Seattle floor has left, by Wills Flooring.",
+ "category": "refinish",
+ "city": "Seattle",
+ "time": "8 mins",
+ "date": "2026-10-15T15:00:00.000Z",
+ "keywords": "how many times can hardwood floors be refinished, how many times can you sand hardwood floors, hardwood floor lifespan refinishing, when hardwood is too thin to refinish, hardwood floor refinishing Seattle",
+ "offers": [
+  [
+   "Sand and refinish, natural finish",
+   "3.99",
+   "per square foot"
+  ],
+  [
+   "Sand and refinish with stain",
+   "6.50",
+   "per square foot"
+  ],
+  [
+   "Screen and recoat",
+   "1.99",
+   "per square foot"
+  ]
+ ],
+ "blocks": [
+  {
+   "type": "quick",
+   "eyebrow": "Short answer",
+   "lead": "A standard 3/4 in solid hardwood floor can be fully sanded and refinished about 4 to 6 times over its life. Each sanding removes roughly 1/32 in of wood, and the floor is done when less than about 3/32 in remains above the tongue.",
+   "detail": "Screen-and-recoats do not count against that number because they remove only finish, not wood. A 1920s Seattle floor sanded two or three times usually has two more in it, if past crews were careful.",
+   "tiles": [
+    {
+     "icon": "refresh",
+     "label": "Full sandings, 3/4 in solid",
+     "value": "4–6 in a lifetime"
+    },
+    {
+     "icon": "ruler2",
+     "label": "Wood removed per sanding",
+     "value": "About 1/32 in"
+    },
+    {
+     "icon": "alert",
+     "label": "Stop when wood above tongue is",
+     "value": "Under 3/32 in"
+    },
+    {
+     "icon": "brush",
+     "label": "Sand and refinish",
+     "value": "$3.99 / sq ft"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "html": "This is the question behind a lot of nervous Seattle estimates. An owner in Wallingford or Queen Anne has a 1925 oak floor that was refinished when they bought the house, once more after a kitchen remodel, and now carries a dog's worth of scratches. Is one more sanding fine, or are they about to hit nails? The answer is not a fixed number; it is a measurement, and you can take it yourself with a ruler at a floor register before you call anyone."
+  },
+  {
+   "type": "h2",
+   "text": "Where the 4 to 6 number comes from"
+  },
+  {
+   "type": "cards",
+   "cols": 2,
+   "items": [
+    {
+     "icon": "ruler2",
+     "title": "The math of a 3/4 in board",
+     "text": "A standard solid strip is 3/4 in thick, but the sandable part is only the wood above the tongue and groove, roughly 1/4 in, or 8/32 in. A careful professional sanding removes about 1/32 in. Stop at 3/32 in above the tongue so boards do not split or show fastener heads, and you have about five sandings across the floor's life."
+    },
+    {
+     "icon": "hammer",
+     "title": "Careless sandings cost two",
+     "text": "An aggressive drum sander held still for a second digs a trough, and the crew has to take the whole floor down to that level. Rented DIY machines and the belt sanders used through the 1970s routinely removed 1/16 in or more. That is why two 1920s floors with the same history can have very different wood left."
+    },
+    {
+     "icon": "layers",
+     "title": "Engineered floors follow different rules",
+     "text": "An engineered plank has a veneer of 0.6 to 6 mm over plywood. A 2 mm veneer takes one sanding, 3 mm one or two, 4 mm and up two or three. Under 2 mm it can only be recoated. Most Capitol Hill and downtown condo floors are engineered, so the 4 to 6 rule does not apply to them."
+    },
+    {
+     "icon": "tree",
+     "title": "Fir and softwoods run thinner",
+     "text": "Old-growth Douglas fir floors in Ballard, Beacon Hill and West Seattle bedrooms are often 3/4 in but softer, so each sanding takes a little more wood and the boards were frequently laid thinner than oak. Budget for one fewer sanding than the oak math suggests, and always use the finest grit sequence that will do the job."
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "Sandings by floor type"
+  },
+  {
+   "type": "table",
+   "head": [
+    "Floor",
+    "Sandable wood",
+    "Lifetime full sandings",
+    "Notes"
+   ],
+   "rows": [
+    [
+     "3/4 in solid oak strip",
+     "About 1/4 in above the tongue",
+     "4–6",
+     "The classic Seattle floor, 1900s through 1970s"
+    ],
+    [
+     "3/4 in solid Douglas fir",
+     "About 1/4 in, softer",
+     "3–5",
+     "Softer wood, more removal per pass"
+    ],
+    [
+     "Engineered, 4–6 mm veneer",
+     "4–6 mm",
+     "2–3",
+     "Behaves like solid for refinishing"
+    ],
+    [
+     "Engineered, 2–3 mm veneer",
+     "2–3 mm",
+     "1–2",
+     "Fine grits only; no drum sanders"
+    ],
+    [
+     "Engineered, under 2 mm",
+     "Too thin",
+     "0",
+     "Screen and recoat at $1.99 per sq ft is the only option"
+    ]
+   ],
+   "note": "These assume professional sanding at about 1/32 in per pass. Deep gouges, cupping or pet stains that must be sanded out remove more."
+  },
+  {
+   "type": "h2",
+   "text": "Price your Seattle refinish right now"
+  },
+  {
+   "type": "calc",
+   "kind": "refinish",
+   "note": "If your floor is on its last sanding, choose Natural rather than Stain: stain requires a more thorough sanding and removes more wood."
+  },
+  {
+   "type": "h2",
+   "text": "How to check how many sandings your floor has left"
+  },
+  {
+   "type": "steps",
+   "wide": true,
+   "items": [
+    {
+     "icon": "vent",
+     "d": "Step 1 · Lift a floor register",
+     "text": "The cut edge of the boards is visible around the duct. Measure from the top of the board to the top of the tongue. At 1/4 in you have a nearly new floor; at 1/8 in you have one, maybe two, sandings left; at 3/32 in or less, stop."
+    },
+    {
+     "icon": "search",
+     "d": "Step 2 · Look for exposed nail heads or filler",
+     "text": "Shiny spots along the board edges are the tops of cleats coming into view, and rows of wood filler dots usually mean a previous crew already hit them. Either one says the floor is close to done."
+    },
+    {
+     "icon": "frame",
+     "d": "Step 3 · Check the edges and the bevels",
+     "text": "A floor that has been sanded several times is often noticeably lower in the room than under the baseboard or at a closet edge. A step of 1/16 in or more at a threshold is a sign of several past sandings."
+    },
+    {
+     "icon": "clipboard",
+     "d": "Step 4 · Let us measure",
+     "text": "At the free estimate we check thickness at two or three points, note previous sandings and tell you plainly whether this is a sanding, a recoat or a replacement."
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "Sand again, recoat, or start over?"
+  },
+  {
+   "type": "compare",
+   "a": {
+    "icon": "done",
+    "tag": "Sand once more",
+    "title": "Sand when",
+    "items": [
+     "At least 1/8 in of wood remains above the tongue",
+     "Damage goes through the finish into the wood: gray boards, deep scratches, pet stains",
+     "You want to change the color",
+     "A recoat was already tried and the finish did not bond"
+    ]
+   },
+   "b": {
+    "icon": "x",
+    "tag": "Recoat or replace",
+    "title": "Do not sand when",
+    "items": [
+     "Less than 3/32 in remains, or nail heads are showing",
+     "The finish is dull but intact: a $1.99 screen and recoat fixes it and costs no wood",
+     "Boards are cracked, loose or already patched heavily",
+     "You would rather put the money toward a new floor with a full lifetime ahead of it"
+    ]
+   }
+  },
+  {
+   "type": "callout",
+   "icon": "alert",
+   "title": "How to make your remaining sandings last decades: ",
+   "text": "Recoat every 7 to 10 years, before the finish wears through to bare wood. A $1.99 per sq ft screen and recoat removes nothing but the top layer of finish, and homeowners who do this keep the same floor for a century. Wait until the wood turns gray and you spend a full sanding every 12 to 15 years and run out of floor."
+  },
+  {
+   "type": "h2",
+   "text": "Ways to stretch a floor's remaining life"
+  },
+  {
+   "type": "list",
+   "icons": true,
+   "items": [
+    {
+     "icon": "refresh",
+     "html": "<strong>Recoat before you need to sand.</strong> If water still beads on the floor and there is no bare wood, you are a recoat customer, not a sanding customer."
+    },
+    {
+     "icon": "brush",
+     "html": "<strong>Ask for a light sanding sequence.</strong> A flat, lightly scratched floor does not need to start at 36 grit. Starting at 50 or 60 grit on a multi-head machine removes less wood."
+    },
+    {
+     "icon": "palette",
+     "html": "<strong>Skip stain on a thin floor.</strong> Stain shows every sanding mark, so crews sand deeper to prepare for it. Natural finish at $3.99 per sq ft is gentler on the wood than stain at $6.50."
+    },
+    {
+     "icon": "shield",
+     "html": "<strong>Choose a durable finish.</strong> Three coats of a commercial-grade water-based finish outlast two coats of a cheaper product by years. As Bona Certified Craftsmen we apply the finish system we would put in our own homes."
+    },
+    {
+     "icon": "home",
+     "html": "<strong>Fix the cause, not just the floor.</strong> Grit from a Green Lake entry, a leaking dishwasher or an untrimmed dog wears through any finish. Mats, felt pads and nail trims are cheaper than 1/32 in of oak. See our <a href=\"/services/floor-refinish\">refinishing service</a> page for how we handle older floors."
+    }
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "How much wood does refinishing remove?",
+   "a": "A careful professional sanding removes about 1/32 in, roughly 0.8 mm. An aggressive or amateur sanding with a drum machine can remove 1/16 in or more, which is two sandings' worth. A screen and recoat removes only a hair of finish and essentially no wood, which is why recoating regularly extends the life of a floor so much."
+  },
+  {
+   "q": "Can a 100-year-old hardwood floor be refinished?",
+   "a": "Usually yes. Many 1910s to 1920s Seattle oak floors have been sanded only two or three times and still have 1/8 in or more above the tongue. We measure at a register or threshold first. If the floor is fir, or has been sanded by rental machines, there may be only one careful natural-finish sanding left."
+  },
+  {
+   "q": "How do I know if my hardwood floor is too thin to refinish?",
+   "a": "Look for nail or cleat heads showing at board edges, wood filler dots in rows, boards that flex or crack along the grain, and a noticeable step down at thresholds. Measure at a floor register: less than 3/32 in from the top of the board to the tongue means the floor should be recoated, not sanded."
+  },
+  {
+   "q": "Does a screen and recoat count as a refinish?",
+   "a": "Not in the sense of using up the floor. A recoat abrades only the existing finish and adds a fresh coat, removing no meaningful wood. At Wills Flooring it costs $1.99 per sq ft versus $3.99 for a full sand. It only works while the old finish is intact, so it should be done before wear reaches bare wood."
+  },
+  {
+   "q": "How often should hardwood floors be refinished?",
+   "a": "A full sanding is typically needed every 12 to 20 years in a family home, less often if you recoat every 7 to 10 years and keep grit off the floor. A floor that is recoated on schedule may need a full sanding only every 25 to 30 years, which is how a solid floor lasts the life of the house."
+  },
+  {
+   "q": "What happens if you sand through to the tongue?",
+   "a": "The board loses its structural connection to its neighbors, the joint opens, and the edges chip and splinter. Nail heads appear and tear the sandpaper. Boards sanded this thin have to be replaced, and if the whole floor is at that point, replacement of the room is the honest recommendation rather than another refinish."
+  }
+ ],
+ "faq_title": "Refinishing lifespan questions from Seattle homeowners",
+ "faq_sub": "From century-old Craftsman floors to Capitol Hill condos.",
+ "related": [
+  [
+   "how-thick-does-hardwood-need-to-be-to-refinish-snohomish",
+   "how thick hardwood needs to be to refinish"
+  ],
+  [
+   "can-engineered-hardwood-floors-be-refinished-snohomish",
+   "refinishing engineered floors"
+  ],
+  [
+   "can-my-hardwood-floors-be-refinished-or-do-they-need-replacing-everett",
+   "refinish or replace checklist"
+  ]
+ ],
+ "cta_title": "Find out how many sandings your floor has left",
+ "cta_sub": "We measure the wood at the estimate and tell you honestly whether to sand, recoat or replace. Free in-home visit anywhere in Seattle, firm price in writing."
+}

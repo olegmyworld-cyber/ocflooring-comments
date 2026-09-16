@@ -1,0 +1,275 @@
+{
+ "slug": "do-i-need-to-move-out-while-my-hardwood-floors-are-refinished-lynnwood",
+ "title": "Do I Need to Move Out While My Hardwood Floors Are Refinished?",
+ "meta": "Most Lynnwood families stay home during hardwood refinishing with water-based finish; a few should leave. Wills Flooring walks through each day and the rules.",
+ "category": "refinish",
+ "city": "Lynnwood",
+ "time": "8 mins",
+ "date": "2026-10-23T15:00:00.000Z",
+ "keywords": "do I need to move out for floor refinishing, can you stay in house while refinishing hardwood floors, living in home during floor refinishing, hardwood floor refinishing Lynnwood WA, water-based floor finish fumes",
+ "offers": [
+  [
+   "Sand and refinish, natural finish",
+   "3.99",
+   "per square foot"
+  ],
+  [
+   "Sand and refinish with stain",
+   "6.50",
+   "per square foot"
+  ],
+  [
+   "Screen and recoat",
+   "1.99",
+   "per square foot"
+  ]
+ ],
+ "blocks": [
+  {
+   "type": "quick",
+   "eyebrow": "Short answer",
+   "lead": "Usually no. With water-based Bona finish and a bedroom wing that is not being sanded, most Lynnwood families stay home and simply stay off the work area for three to four days.",
+   "detail": "Plan to leave when the whole floor plan is being done at once, when someone in the house has asthma or is under a year old, or when the only bathroom is across the wet floor. We tell you which situation you are in at the estimate.",
+   "tiles": [
+    {
+     "icon": "home",
+     "label": "Most homes",
+     "value": "Stay, off the floor"
+    },
+    {
+     "icon": "clock",
+     "label": "Off-limits time",
+     "value": "3–4 days"
+    },
+    {
+     "icon": "wind",
+     "label": "Dust containment",
+     "value": "+$250"
+    },
+    {
+     "icon": "moon",
+     "label": "Walk in socks",
+     "value": "After 24 hrs"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "html": "This is the first thing people ask after the price, and the answer changed when the industry moved from oil-based to water-based finishes. The Lynnwood houses we refinish most, the 1960s and 70s ramblers and split-levels in Alderwood, Meadowdale and Martha Lake with oak under the carpet, are also the easiest to stay in, because the bedrooms sit apart from the living space. Here is what each day is like, who should book a hotel, and how to make staying comfortable."
+  },
+  {
+   "type": "h2",
+   "text": "What the four days actually feel like when you stay"
+  },
+  {
+   "type": "steps",
+   "wide": true,
+   "items": [
+    {
+     "icon": "wind",
+     "d": "Day 1 · Rough sanding",
+     "text": "The loud day. Belt sander and edger from about 8 to 4. Our machines are vacuum-connected, and with dust containment we seal doorways with plastic and run an air scrubber. Be in the bedrooms or, better, out at Alderwood for the day.",
+     "note": "Noise is the issue on day one, not fumes."
+    },
+    {
+     "icon": "brush",
+     "d": "Day 2 · Fine sanding, seal coat",
+     "text": "Quieter. Final sanding passes, wood filler, then the first coat of Bona water-based sealer. It smells faintly like latex paint for a couple of hours and is dry to the touch in two to three. No headache, no solvent smell.",
+     "note": "Stain jobs add a day here and stay off-limits overnight."
+    },
+    {
+     "icon": "layers",
+     "d": "Day 3 · Second coat",
+     "text": "Light abrasion between coats, then the second coat. The floor is closed for the day. You reach the bedrooms around the edge of the house or through the garage, which is why we ask about your floor plan at the estimate."
+    },
+    {
+     "icon": "done",
+     "d": "Day 4 · Final coat",
+     "text": "Third coat goes on, and the floor is walkable in socks 24 hours later. Furniture with felt pads returns after 72 hours. Rugs wait two weeks so the finish fully cures underneath.",
+     "note": "Most Lynnwood families are back to normal by the weekend."
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "Stay or go? An honest decision table"
+  },
+  {
+   "type": "compare",
+   "a": {
+    "icon": "done",
+    "tag": "Stay home",
+    "title": "Works when",
+    "items": [
+     "Bedrooms and at least one bathroom are on carpet, tile or upstairs",
+     "The kitchen is not on the list, or you are fine with a microwave in the garage for four days",
+     "You are using water-based finish, which Wills uses on every job",
+     "Nobody in the house has severe asthma or a chemical sensitivity"
+    ]
+   },
+   "b": {
+    "icon": "x",
+    "tag": "Book a few nights away",
+    "title": "Better when",
+    "items": [
+     "Every room including the hallway to the bathroom is being refinished",
+     "A newborn, an elderly relative or someone with breathing problems lives there",
+     "It is a one-level rambler with hardwood in every room and no garage access",
+     "You are staining, which adds a day and keeps the floor closed longer"
+    ]
+   }
+  },
+  {
+   "type": "h2",
+   "text": "Price your Lynnwood refinish right now"
+  },
+  {
+   "type": "calc",
+   "kind": "refinish",
+   "note": "Turn on dust containment if you plan to stay home; it is the single upgrade that makes living through a refinish comfortable."
+  },
+  {
+   "type": "h2",
+   "text": "Water-based vs oil-based: why the moving-out advice changed"
+  },
+  {
+   "type": "cards",
+   "cols": 2,
+   "items": [
+    {
+     "icon": "droplet",
+     "tag": "What Wills uses",
+     "title": "Water-based Bona finish",
+     "text": "Low odor, low VOC, dry to the touch in a few hours and recoatable the same day. The smell is mild and gone by evening with a window cracked. This is why staying home is now normal. Wills Flooring are Bona Certified Craftsmen and use it on every job.",
+     "gold": true
+    },
+    {
+     "icon": "flame",
+     "tag": "The old advice",
+     "title": "Oil-based polyurethane",
+     "text": "Strong solvent fumes for days, 24 hours between coats, and a week or more before the smell fades. Every \"you must move out\" article you have read was written about this product. Some contractors still use it because it is cheaper."
+    },
+    {
+     "icon": "clock",
+     "title": "Faster cure means fewer closed days",
+     "text": "Three water-based coats go on in two days instead of three or four. The floor is closed for about 72 hours total rather than most of a week, and there is no overnight ban on being anywhere in the house."
+    },
+    {
+     "icon": "leaf",
+     "title": "Safer for kids and pets in the house",
+     "text": "Low-VOC finish means the nursery down the hall is fine with the door shut. We still ask that pets stay off the floor until day five and that the litter box or dog bed moves to a carpeted room for the week."
+    }
+   ]
+  },
+  {
+   "type": "callout",
+   "icon": "alert",
+   "title": "The kitchen is the real question: ",
+   "text": "Nobody moves out because of bedrooms. They move out because the fridge, stove and sink sit on the floor being sanded. In Lynnwood split-levels the kitchen shares the main level with the living room, so it is almost always part of the job. Plan four days of meals without it, or ask us to sequence the kitchen last."
+  },
+  {
+   "type": "h2",
+   "text": "Two Lynnwood jobs, two different plans"
+  },
+  {
+   "type": "table",
+   "head": [
+    "The house",
+    "What they did",
+    "Cost"
+   ],
+   "rows": [
+    [
+     "Alderwood split-level, 720 sq ft main level plus 7 stairs, bedrooms upstairs on carpet",
+     "Stayed home. Bedrooms and bath upstairs, entered through the garage and lower level. Dust containment kept the upstairs clean. Kitchen out for four days.",
+     "720 × $3.99 + 7 × $55 + $250 = $3,508"
+    ],
+    [
+     "Meadowdale rambler, 1,050 sq ft, hardwood in every room including the hallway to the only bathroom",
+     "Three nights at a relative's in Edmonds. Stain to a light natural tone. We sequenced bedrooms first so they could return to sleep there on night four.",
+     "1,050 × $6.50 + $250 = $7,075"
+    ],
+    [
+     "Martha Lake townhome, 560 sq ft main floor, elevator-free, HOA quiet hours",
+     "Stayed home. Sanding limited to 9 to 5 for the HOA. Washer and dryer moved off the laundry nook floor.",
+     "560 × $3.99 + $160 + $250 = $2,644"
+    ]
+   ],
+   "note": "Prices from the Wills Flooring price list; 500 sq ft minimum applies."
+  },
+  {
+   "type": "h2",
+   "text": "How to make staying home painless"
+  },
+  {
+   "type": "list",
+   "icons": true,
+   "items": [
+    {
+     "icon": "wind",
+     "html": "<strong>Add dust containment.</strong> $250 for plastic sealing and an air scrubber. If you are sleeping in the house it is not optional in our view; it is the difference between a normal week and wiping every shelf twice."
+    },
+    {
+     "icon": "box",
+     "html": "<strong>Empty the rooms completely before day one.</strong> Closets included if their floors are being done. Every hour we spend moving your furniture is an hour the floor is not being sanded."
+    },
+    {
+     "icon": "key",
+     "html": "<strong>Map your path to the bathroom.</strong> Walk it before we start. If it crosses the work floor, ask us to sequence rooms so a route stays open, or plan to be out on coat days."
+    },
+    {
+     "icon": "paw",
+     "html": "<strong>Plan for the dog.</strong> Doggy daycare in Lynnwood for the two sanding days is money well spent. Pets can return once the final coat has had 24 hours, on trimmed nails. Our <a href=\"/blog-posts/how-to-refinish-hardwood-floors-with-a-dog-in-the-house-edmonds\">refinishing with a dog</a> post has the full routine."
+    },
+    {
+     "icon": "clipboard",
+     "html": "<strong>Ask for the day-by-day schedule in writing.</strong> Wills Flooring includes it with the quote so you know exactly which rooms are closed when. Details on what a <a href=\"/services/floor-refinish\">refinish</a> includes are on the service page."
+    }
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Can you stay in the house while hardwood floors are refinished?",
+   "a": "Yes in most cases, as long as the finish is water-based and you have bedrooms and a bathroom off the work area. You stay off the sanded floor for about three days, then walk on it in socks after the final coat has dried 24 hours. Whole-house jobs and homes with respiratory concerns are the exceptions."
+  },
+  {
+   "q": "How long do you have to stay off refinished hardwood floors?",
+   "a": "With water-based finish you can walk on the floor in socks 24 hours after the last coat, move furniture back with felt pads after 72 hours, and put rugs down after about two weeks. Stained floors follow the same timeline once the top coats are on, but the stain day adds a closed night."
+  },
+  {
+   "q": "Are hardwood floor refinishing fumes dangerous?",
+   "a": "Water-based finishes like the Bona products Wills Flooring uses are low-VOC and smell mildly of latex paint for a few hours. Oil-based polyurethane is the product behind the strong fumes people remember, and it is the reason older advice says to move out. Anyone with severe asthma should still leave on coat days to be safe."
+  },
+  {
+   "q": "Can I sleep in my house the night the floors are sealed?",
+   "a": "With water-based finish, yes. Keep the bedroom doors closed, crack a window in the sanded area if the weather allows, and stay off the floor. The odor is largely gone within a few hours. Wills schedules the final coat early in the day so the house has time to air out before bedtime."
+  },
+  {
+   "q": "How do I get to the bathroom during floor refinishing?",
+   "a": "Plan the route before work starts. In Lynnwood split-levels the upstairs bath is usually reachable from the garage or lower level. If the only path crosses the work floor, ask us to sequence rooms so one route stays open, or plan to be out on the two coat days. We map this at the estimate."
+  },
+  {
+   "q": "Does refinishing hardwood floors make the whole house dusty?",
+   "a": "Far less than it used to. Our sanders are vacuum-connected, which captures most dust at the source. Adding the $250 dust containment option seals the doorways with plastic and runs an air scrubber, which keeps bedrooms and closets clean enough that most families only wipe the counters afterward."
+  }
+ ],
+ "faq_title": "Living-through-it questions from Lynnwood homeowners",
+ "faq_sub": "Asked at the showroom on 196th, usually right after \"how much does it cost.\"",
+ "related": [
+  [
+   "how-long-does-hardwood-floor-refinishing-take-lynnwood",
+   "how long refinishing takes in Lynnwood"
+  ],
+  [
+   "is-dustless-hardwood-floor-refinishing-really-dustless-edmonds",
+   "whether dustless refinishing is really dustless"
+  ],
+  [
+   "how-soon-can-you-walk-on-refinished-hardwood-floors-and-move-furniture",
+   "when you can walk on refinished floors"
+  ]
+ ],
+ "cta_title": "Get a schedule you can live with",
+ "cta_sub": "We look at your floor plan, tell you honestly whether to stay or go, and hand you a written quote with the day-by-day plan. Free, anywhere in Lynnwood."
+}

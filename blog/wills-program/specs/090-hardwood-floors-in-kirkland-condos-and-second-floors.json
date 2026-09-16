@@ -1,0 +1,67 @@
+{
+ "slug": "hardwood-floors-in-kirkland-condos-and-second-floors",
+ "title": "Hardwood Floors in Kirkland Condos and Second Floors: Sound Rules and Underlayment",
+ "meta": "Hardwood in a Kirkland condo or upstairs needs a sound-rated underlayment (often IIC 50+) and HOA sign-off. Wills Flooring explains the rules and options.",
+ "category": "hardwood",
+ "city": "Kirkland",
+ "time": "9 mins",
+ "date": "2026-12-15T15:00:00.000Z",
+ "keywords": "hardwood floors in condo sound requirements, IIC rating hardwood underlayment, HOA flooring rules hardwood, acoustic underlayment for hardwood floors, hardwood installation Kirkland condo",
+ "offers": [["Hardwood floor installation, engineered or solid", "3.25", "per square foot"], ["Unfinished hardwood installation", "2.75", "per square foot"]],
+ "blocks": [
+  {"type":"quick","eyebrow":"Short answer","lead":"Yes, hardwood works in Kirkland condos and on second floors, but most HOAs require a sound-rated underlayment (commonly IIC 50 or higher, 55+ in newer buildings) and prefer a floated or glued engineered floor over nailed solid, so plan the underlayment and the HOA paperwork before the labor.","detail":"Installation labor is $3.25 per sq ft for engineered or solid at Wills Flooring. The acoustic underlayment, moisture barrier and any HOA-required documentation are quoted at the free estimate once we have read your building's flooring policy.",
+   "tiles":[{"icon":"dollar","label":"Install labor","value":"$3.25 / sq ft"},{"icon":"volume","label":"Typical HOA rule","value":"IIC 50+"},{"icon":"layers","label":"Underlayment","value":"Acoustic mat"},{"icon":"stairs","label":"Stairs","value":"$125 each"}]},
+  {"type":"p","html":"Kirkland has more condo hardwood questions per square mile than anywhere else we work. Downtown and Moss Bay buildings from the 2000s, Juanita Beach and Houghton mid-rises, Totem Lake's newer towers, plus thousands of two-story homes in Rose Hill and Finn Hill where a bedroom sits over the living room. All of them share one worry: will the people below hear every footstep? The answer depends on two numbers your HOA cares about, one underlayment decision, and an installation method that suits an upper floor. Here is the whole picture."},
+  {"type":"h2","text":"The two sound numbers on every HOA flooring form"},
+  {"type":"cards","cols":2,"items":[
+    {"icon":"volume","title":"IIC: Impact Insulation Class","text":"How well the floor assembly blocks impact noise: footsteps, dropped keys, a chair scraping. This is the number that matters for hardwood. Building codes set a lab minimum around 50; Kirkland HOAs commonly require 50 to 55, and some luxury buildings ask for 60 or higher."},
+    {"icon":"wind","title":"STC: Sound Transmission Class","text":"How well the assembly blocks airborne noise like voices and TV. Flooring changes it very little; it is mostly about the concrete or joist structure. HOAs list it anyway, and underlayment makers publish it."},
+    {"icon":"chart","title":"Delta IIC: what the underlayment adds","text":"The improvement a specific underlayment contributes over a bare slab, measured in a lab. A product with Delta IIC 20 over a 6 in slab rated 28 gets you to about 48. This is the honest way to compare products."},
+    {"icon":"alert","title":"Lab vs field ratings","text":"Published IIC numbers come from lab tests on a specific slab with a specific ceiling below. Your building is different. If an HOA asks for a field test, budget for an acoustic consultant; it is rare in Kirkland but not unheard of in the newest towers."}
+  ]},
+  {"type":"h2","text":"Underlayment options and what each one does"},
+  {"type":"table","head":["Underlayment","Works with","Typical sound benefit","Notes for Kirkland buildings"],"rows":[
+    ["Cork, 6 to 12 mm","Floating or glue-down engineered","Good; higher Delta IIC with thickness","Natural, stable, the most common HOA-approved choice. Needs a vapor barrier over concrete."],
+    ["Recycled rubber mat","Glue-down engineered","Very good, especially for impact","Heavier and pricier; the pick when a building demands 55 or more."],
+    ["Cork-rubber composite","Glue-down or floating","Very good","Balances the two above; often specified by acoustic consultants."],
+    ["Acoustic foam with film","Floating engineered only","Fair to good","Inexpensive and quick. Check that the published IIC is for a hardwood assembly, not laminate."],
+    ["Sound-rated adhesive systems","Glue-down engineered","Good","Adhesive with an acoustic membrane in one step; simplifies a glue-down over slab."],
+    ["Standard felt or rosin paper","Nail-down solid","None to speak of","Fine for a single-family upstairs with no HOA; will fail any condo sound rule."]
+  ],"note":"Underlayment is quoted separately from the $3.25 per sq ft installation labor. We match the product to your HOA document, not the other way round."},
+  {"type":"h2","text":"Price your Kirkland installation"},
+  {"type":"calc","kind":"hardwood","note":"Labor only. Acoustic underlayment, vapor barrier, elevator scheduling and HOA paperwork are quoted at the free estimate."},
+  {"type":"h2","text":"Which installation method suits an upper floor"},
+  {"type":"compare","a":{"icon":"done","tag":"Engineered, glued or floated","title":"The condo default","items":["Works over concrete slabs, which is what most Kirkland condos have","Accepts a thick acoustic underlayment without nails punching through it","Engineered planks are stable across the humidity swing between winter heat and lake air","Glue-down feels most solid; floating is quickest and easiest to repair","Both are what HOA flooring policies usually describe"]},
+    "b":{"icon":"x","tag":"Solid, nailed","title":"Rarely allowed upstairs in a condo","items":["Needs a wood subfloor, so it cannot go directly on a slab","Nails through a sound mat destroy its rating","3/4 in solid moves more with seasonal humidity in an unheated garage-over unit","Some HOAs ban it outright regardless of underlayment","Fine for the second floor of a single-family Rose Hill home with plywood subfloor and no HOA"]}},
+  {"type":"h2","text":"The HOA process, step by step"},
+  {"type":"steps","wide":true,"items":[
+    {"icon":"clipboard","d":"1. Get the flooring policy","text":"Ask the manager for the written hard-surface flooring rule. It usually states a minimum IIC, sometimes STC, and whether ground-floor units are exempt.","note":"Many Kirkland buildings also require a signed neighbor notice"},
+    {"icon":"search","d":"2. Match the underlayment","text":"We pick a product whose published assembly rating meets or beats the number, and give you the manufacturer's test report to submit.","note":"The report is what the board actually approves"},
+    {"icon":"key","d":"3. Book the building","text":"Elevator pad and reservation, loading zone, work hours (often 9 to 5 weekdays), and dumpster rules for the old flooring. We handle the scheduling; you sign the forms.","note":"Downtown Kirkland loading zones book up fast in summer"},
+    {"icon":"layers","d":"4. Install","text":"Old floor out, slab checked for flatness and moisture, vapor barrier if needed, acoustic underlayment, then engineered hardwood glued or floated. A typical 800 sq ft unit takes two to three days.","note":"800 × $3.25 = $2,600 labor, plus underlayment and material"},
+    {"icon":"done","d":"5. Close out","text":"Keep the underlayment receipt and test report with your unit records. If a neighbor complains later, that paperwork ends the conversation."}
+  ]},
+  {"type":"callout","icon":"home","gold":true,"title":"Second floors in single-family Kirkland homes: ","text":"No HOA, but the physics are the same. A bedroom over a living room in a 1980s Finn Hill two-story gets much quieter if we screw the subfloor to the joists, use a cork or felt underlayment appropriate to the install method, and fill any gaps at the walls. Most of the noise people hear downstairs is a loose subfloor, not the hardwood."},
+  {"type":"h2","text":"Mistakes we see on Kirkland upper floors"},
+  {"type":"list","icons":true,"items":[
+    {"icon":"alert","html":"<strong>Buying flooring first, reading the policy second.</strong> A solid plank the owner loves cannot be nailed on a slab, and the return window has closed. Bring us the HOA document before you fall for a sample."},
+    {"icon":"volume","html":"<strong>Trusting a laminate IIC number for hardwood.</strong> Underlayment ratings depend on the floor on top. Hardwood is heavier and transmits differently than laminate; ask for the hardwood assembly report."},
+    {"icon":"droplet","html":"<strong>Skipping the moisture test on a slab.</strong> Kirkland buildings near the lake have slabs that read high. A vapor barrier under the acoustic mat is cheap; a cupped floor is not."},
+    {"icon":"layers","html":"<strong>Doubling up underlayments.</strong> Two soft layers make a floating floor spongy and can void the plank warranty. One correct product beats two guesses. See our guide on <a href=\"/blog-posts/do-you-need-underlayment-under-hardwood-floors-seattle\">underlayment under hardwood</a>."},
+    {"icon":"thermo","html":"<strong>No acclimation in a sealed condo.</strong> Boxes must sit in the unit with the HVAC running for several days. Storing them in the parking garage does not count."}
+  ]}
+ ],
+ "faq": [
+  {"q":"What IIC rating do I need for hardwood in a condo?","a":"Check your HOA flooring policy, because it varies by building. Most Kirkland associations require an assembly rating of IIC 50 to 55, and some newer or luxury buildings ask for 60 or more. Ground-floor units are sometimes exempt. The underlayment manufacturer's test report for a hardwood assembly is what you submit for approval."},
+  {"q":"Can you install solid hardwood in a condo?","a":"Usually not on an upper floor. Solid hardwood is nailed, which needs a wood subfloor rather than a concrete slab, and nails driven through an acoustic underlayment ruin its sound rating. Most Kirkland condos specify glued or floated engineered hardwood over an approved sound mat, which looks identical once installed."},
+  {"q":"What is the best underlayment for hardwood floors in a condo?","a":"For most Kirkland buildings a 6 to 12 mm cork or a cork-rubber composite meets the requirement with a floating or glue-down engineered floor. Buildings requiring IIC 55 or higher usually need a recycled rubber mat or a sound-rated adhesive system. We match the product to the number in your HOA document."},
+  {"q":"How much does it cost to install hardwood in a Kirkland condo?","a":"Wills Flooring's installation labor is $3.25 per sq ft for engineered or solid, with a 500 sq ft minimum, so an 800 sq ft unit is $2,600 in labor. The engineered hardwood itself, acoustic underlayment, vapor barrier, old-floor removal and any elevator or building fees are quoted at the free in-home estimate."},
+  {"q":"Will hardwood on my second floor be loud for the rooms below?","a":"It can be if the subfloor is loose or the underlayment is wrong. In a single-family home we screw the subfloor to the joists, use an appropriate underlayment for the install method and seal gaps at the walls. In a condo the acoustic underlayment does most of the work. Rugs in bedrooms and felt pads on chairs handle the rest."},
+  {"q":"Does the HOA need to approve my hardwood floor before installation?","a":"In nearly every Kirkland condo, yes. Expect to submit the flooring product, the underlayment test report showing it meets the required IIC, your installer's license and insurance, and the work dates. Boards can take two to four weeks to respond, so start the paperwork before booking the install."}
+ ],
+ "faq_title": "Condo and second-floor hardwood questions from Kirkland",
+ "faq_sub": "From Moss Bay high-rises to Finn Hill two-stories.",
+ "related": [["engineered-vs-solid-hardwood-kirkland","engineered vs solid hardwood"],["do-you-need-underlayment-under-hardwood-floors-seattle","underlayment under hardwood floors"],["do-hardwood-floors-need-to-acclimate-before-installation-kirkland","acclimating hardwood before installation"]],
+ "cta_title": "Bring us your HOA flooring policy",
+ "cta_sub": "We read the sound requirement, bring engineered samples and the right underlayment to your Kirkland unit, and hand you a firm written quote plus the test report your board needs. Free."
+}

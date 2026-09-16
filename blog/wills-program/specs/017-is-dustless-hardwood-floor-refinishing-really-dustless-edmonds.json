@@ -1,0 +1,302 @@
+{
+ "slug": "is-dustless-hardwood-floor-refinishing-really-dustless-edmonds",
+ "title": "Is Dustless Hardwood Floor Refinishing Really Dustless? What Edmonds Homeowners Should Expect",
+ "meta": "Dustless floor refinishing is nearly dustless, not perfectly. Wills Flooring explains vacuum sanders, $250 containment and what Edmonds homeowners find after.",
+ "category": "refinish",
+ "city": "Edmonds",
+ "time": "8 mins",
+ "date": "2026-10-03T15:00:00.000Z",
+ "keywords": "dustless hardwood floor refinishing, is dustless refinishing really dustless, dust free floor sanding Edmonds WA, dust containment floor refinishing cost, refinishing floors while living in the house",
+ "offers": [
+  [
+   "Sand and refinish, natural finish",
+   "3.99",
+   "per square foot"
+  ],
+  [
+   "Sand and refinish with stain",
+   "6.50",
+   "per square foot"
+  ],
+  [
+   "Screen and recoat",
+   "1.99",
+   "per square foot"
+  ]
+ ],
+ "blocks": [
+  {
+   "type": "quick",
+   "eyebrow": "Short answer",
+   "lead": "Nearly, but not completely. Vacuum-connected sanders capture the large majority of sanding dust, and full containment with plastic sealing and an air scrubber catches most of what is left. Expect a light film on high surfaces, not the drifts of the old days.",
+   "detail": "At Wills Flooring every sander on every job is connected to a vacuum system; that is included in the $3.99 per sq ft natural refinish. The $250 dust containment option adds sealed doorways, covered HVAC returns and an air scrubber, and it is what we recommend for occupied Edmonds homes.",
+   "tiles": [
+    {
+     "icon": "wind",
+     "label": "Every job",
+     "value": "Vacuum-connected sanders"
+    },
+    {
+     "icon": "shield",
+     "label": "Containment add-on",
+     "value": "+$250"
+    },
+    {
+     "icon": "brush",
+     "label": "Natural refinish",
+     "value": "$3.99 / sq ft"
+    },
+    {
+     "icon": "search",
+     "label": "What remains",
+     "value": "A light film"
+    }
+   ],
+   "cta": "Try the calculator"
+  },
+  {
+   "type": "p",
+   "html": "Ask a room full of Edmonds homeowners about refinishing and someone will describe the 1990s version: a cloud that settled on every surface in the house for a month. That job does not exist anymore, at least not from a properly equipped crew. But \"dustless\" is a marketing word, and we would rather tell you exactly what escapes and where than let you find it on top of the fridge. This matters in Edmonds specifically because so many of the jobs are 1950s to 1970s ramblers in Seaview, Westgate and Perrinville where the owners are staying in the house, often retirees who moved for the ferry-town pace, not for a week of construction."
+  },
+  {
+   "type": "h2",
+   "text": "Where the dust comes from"
+  },
+  {
+   "type": "steps",
+   "wide": true,
+   "items": [
+    {
+     "icon": "hammer",
+     "d": "The big sander",
+     "text": "The belt or drum machine does most of the work and makes most of the dust. It is connected to a high-volume vacuum that pulls the dust off the floor the moment it is cut. This is the part that is genuinely close to dust-free.",
+     "note": "Roughly the first three passes, from coarse to fine grit."
+    },
+    {
+     "icon": "scissors",
+     "d": "The edger",
+     "text": "A hand-guided disc sander for the 6 in along every wall and into closets. It is vacuum-connected too, but it runs at an angle and closer to your baseboards, so a little more escapes here than anywhere else.",
+     "note": "Corners are finished by hand scraper, which makes almost none."
+    },
+    {
+     "icon": "refresh",
+     "d": "The buffer between coats",
+     "text": "After the first coat of Bona finish cures, the floor is lightly abraded before the next coat. This is fine, powdery dust that floats longer than sanding dust.",
+     "note": "The air scrubber earns its keep on this day."
+    },
+    {
+     "icon": "mop",
+     "d": "The clean-up",
+     "text": "Before every coat we vacuum, then tack the floor with a damp microfiber to lift what the machines missed. Finish will not lie flat over dust, so this step protects the result, not just your shelves.",
+     "note": "You will see us do this two or three times."
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "What is included and what the $250 adds"
+  },
+  {
+   "type": "table",
+   "head": [
+    "Measure",
+    "Every Wills Flooring refinish",
+    "With dust containment (+$250)"
+   ],
+   "rows": [
+    [
+     "Vacuum-connected belt sander and edger",
+     "Included",
+     "Included"
+    ],
+    [
+     "Vacuum between grits and before each coat",
+     "Included",
+     "Included"
+    ],
+    [
+     "Plastic sealed over doorways to other rooms",
+     "Not included",
+     "Yes, zipper doors where you need to pass"
+    ],
+    [
+     "HVAC returns and registers covered",
+     "Not included",
+     "Yes, and we ask you to shut the system off while sanding"
+    ],
+    [
+     "Air scrubber running during and after sanding",
+     "Not included",
+     "Yes, from the first pass to the last coat"
+    ],
+    [
+     "Wipe-down of window sills and door tops at the end",
+     "Light",
+     "Full pass through the work area"
+    ],
+    [
+     "Best fit",
+     "Empty house or rooms you can close off",
+     "Occupied homes, allergies, open-plan ramblers"
+    ]
+   ],
+   "note": "Our sanders are vacuum-connected on every job; the $250 buys the sealing and the scrubber, not the vacuums."
+  },
+  {
+   "type": "h2",
+   "text": "Price your Edmonds refinish with or without containment"
+  },
+  {
+   "type": "calc",
+   "kind": "refinish",
+   "note": "Toggle dust containment to see the $250 line. It is a flat fee, not per square foot, so it matters less on a big job than a small one."
+  },
+  {
+   "type": "p",
+   "html": "A 780 sq ft Seaview rambler main floor with a natural finish and containment is 780 × $3.99 + $250 = $3,362. Skip containment and it is $3,112. For a couple living in the house during the job with the bedrooms down the hall, the $250 is the best-spent line on the quote. For an empty house that just closed, it is optional."
+  },
+  {
+   "type": "h2",
+   "text": "What you will actually find afterward"
+  },
+  {
+   "type": "cards",
+   "cols": 2,
+   "items": [
+    {
+     "icon": "search",
+     "title": "A fine film on high, flat surfaces",
+     "text": "The top of door casings, the fridge, window sills and open shelving in the work area pick up a thin layer you can wipe with one pass of a damp cloth. It is fine wood dust, not grit. In a sealed job it is confined to the rooms we worked in.",
+     "gold": false
+    },
+    {
+     "icon": "wind",
+     "title": "Airborne dust for about a day",
+     "text": "The finest particles float. The air scrubber pulls them out during the job, and by the time the last coat goes on, the air is clear. Without a scrubber, expect that faint haze to settle over the following day or two.",
+     "gold": false
+    },
+    {
+     "icon": "lock",
+     "title": "Nothing in sealed rooms",
+     "text": "Bedrooms behind a zipper door, closed closets and the kitchen behind plastic stay clean. This is the whole point of the containment option, and it is why we recommend it for anyone sleeping in the house during the job.",
+     "gold": true
+    },
+    {
+     "icon": "leaf",
+     "title": "More smell than dust",
+     "text": "What most Edmonds homeowners notice is the smell of freshly cut oak or fir, and a mild finish odor for a day. Bona water-based finish is low-VOC and does not have the solvent smell of old oil-based polyurethane.",
+     "gold": false
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "Staying in the house or leaving"
+  },
+  {
+   "type": "compare",
+   "a": {
+    "icon": "home",
+    "tag": "Stay",
+    "title": "Works well when",
+    "items": [
+     "Single-level rambler where bedrooms and a bathroom are behind a door we can seal",
+     "You add dust containment and shut off forced-air heat while we sand",
+     "Natural finish, so the floor takes socks after 24 hours",
+     "Nobody in the house has asthma or is under a year old"
+    ]
+   },
+   "b": {
+    "icon": "x",
+    "tag": "Leave for the sanding days",
+    "title": "Better when",
+    "items": [
+     "The whole house is being refinished, bedrooms included",
+     "Stain job, which adds a day of drying with no access",
+     "Asthma, chemical sensitivity or a newborn",
+     "Open-plan remodel with no doors to seal, common in updated Bowl homes"
+    ]
+   }
+  },
+  {
+   "type": "callout",
+   "icon": "alert",
+   "title": "The forced-air rule: ",
+   "text": "If your furnace runs while we sand, it pulls dust into the ducts and blows it into every room, sealed or not. We cover the returns, but please shut the system off during sanding hours and change the filter when we are done. In a marine climate like Edmonds a day without heat is rarely a problem."
+  },
+  {
+   "type": "h2",
+   "text": "How to make it as dustless as it can be"
+  },
+  {
+   "type": "list",
+   "icons": true,
+   "items": [
+    {
+     "icon": "box",
+     "html": "<strong>Empty the rooms completely, including closets.</strong> Anything left in the work area gets a film, and anything on the floor stops the sander."
+    },
+    {
+     "icon": "frame",
+     "html": "<strong>Take art off the walls and cover what cannot move.</strong> The edger runs right along the baseboard; wall hangings above it catch the most."
+    },
+    {
+     "icon": "vent",
+     "html": "<strong>Turn off forced air and cover returns.</strong> Or let us do it as part of containment."
+    },
+    {
+     "icon": "shield",
+     "html": "<strong>Choose containment if anyone is living in the house.</strong> For an empty house, put the $250 toward a second room instead."
+    },
+    {
+     "icon": "clipboard",
+     "html": "<strong>Tell us about allergies.</strong> We add scrubber time and an extra tack pass. Our <a href=\"/services/floor-refinish\">refinishing page</a> covers what else is included on every job."
+    }
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Is dustless floor refinishing worth the extra cost?",
+   "a": "The vacuum-connected sanders are included in every Wills Flooring refinish, so the only extra is the $250 containment option. For an occupied Edmonds home, someone with allergies or an open-plan main floor, yes. For an empty house between owners, the standard vacuum setup is usually enough."
+  },
+  {
+   "q": "Do I need to cover my furniture and cabinets?",
+   "a": "Furniture must leave the work area regardless, because the sander needs the whole floor. Kitchen cabinets stay; expect a light film on the counters and upper cabinet tops unless the kitchen is sealed off. Closing cabinet doors and drawers keeps the inside clean in nearly every case."
+  },
+  {
+   "q": "Can I stay in my Edmonds home during refinishing?",
+   "a": "Often, yes, in a rambler where the bedrooms and a bathroom are behind a door we can seal with plastic. Add containment, shut off the furnace while we sand, and plan to use the sealed side of the house. For a whole-house job or a stain job, most people stay elsewhere for two or three nights."
+  },
+  {
+   "q": "How long does the dust stay in the air?",
+   "a": "With the air scrubber running, the air is clear by the end of each day. Without one, the finest particles settle over the next day or two, mostly on horizontal surfaces near the work area. Vacuum-connected sanders keep the amount small, but fine dust floats longer than most people expect."
+  },
+  {
+   "q": "Is sanding dust from old floors dangerous?",
+   "a": "Wood dust is a respiratory irritant, and dust from old finishes is something you should not breathe for hours. That is exactly why every sander we run is connected to a vacuum and why we recommend leaving the work area during sanding. Once the floor is finished and wiped down, there is no ongoing exposure."
+  },
+  {
+   "q": "Does Wills Flooring clean up the dust afterward?",
+   "a": "We vacuum and tack the floor before every coat because the finish requires it, and we wipe sills and door tops in the work area at the end. With containment we do a fuller pass. We do not deep-clean the rest of the house, so keep the plastic up until we take it down."
+  }
+ ],
+ "faq_title": "Dust questions from Edmonds homeowners",
+ "faq_sub": "Usually asked while pointing at the top of the fridge.",
+ "related": [
+  [
+   "do-i-need-to-move-out-while-my-hardwood-floors-are-refinished-lynnwood",
+   "whether you need to move out"
+  ],
+  [
+   "how-to-prepare-your-sammamish-home-for-hardwood-floor-refinishing",
+   "preparing your home for refinishing"
+  ],
+  [
+   "are-refinished-hardwood-floors-safe-for-babies-and-pets-edmonds",
+   "refinished floors, babies and pets"
+  ]
+ ],
+ "cta_title": "See the vacuum setup before you book",
+ "cta_sub": "Free in-home estimate anywhere in Edmonds. We walk the rooms, explain exactly where we will seal, and give you a firm written price with or without containment."
+}

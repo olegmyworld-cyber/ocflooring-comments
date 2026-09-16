@@ -1,0 +1,308 @@
+{
+ "slug": "is-vinyl-plank-flooring-really-waterproof-seattle",
+ "title": "Is Vinyl Plank Flooring Really Waterproof? Basements, Bathrooms and Leaks",
+ "meta": "Vinyl plank is waterproof; the subfloor is not. Wills Flooring explains what LVP survives in Seattle basements, bathrooms and leaks, plus $2.50/sq ft labor.",
+ "category": "lvp",
+ "city": "Seattle",
+ "time": "8 mins",
+ "date": "2026-10-01T15:00:00.000Z",
+ "keywords": "is vinyl plank flooring waterproof, waterproof vinyl plank basement Seattle, LVP flooding what happens, vinyl plank bathroom waterproof, luxury vinyl plank water damage subfloor",
+ "offers": [
+  [
+   "Vinyl plank flooring installation",
+   "2.50",
+   "per square foot"
+  ]
+ ],
+ "blocks": [
+  {
+   "type": "quick",
+   "eyebrow": "Short answer",
+   "lead": "The plank is waterproof. The floor is not. Rigid-core vinyl plank will not swell, warp or stain from water sitting on it, but water still runs through the seams and the perimeter gap to whatever is underneath.",
+   "detail": "That distinction decides everything about basements, bathrooms and leaks. In Seattle, where the questions usually involve a 1920s basement or a condo dishwasher, vinyl plank is still the best hard-surface answer, as long as you understand what it does and does not protect. Wills Flooring installs it for $2.50 per sq ft in labor.",
+   "tiles": [
+    {
+     "icon": "droplet",
+     "label": "The plank itself",
+     "value": "Waterproof"
+    },
+    {
+     "icon": "layers",
+     "label": "Seams and edges",
+     "value": "Water passes through"
+    },
+    {
+     "icon": "home",
+     "label": "Subfloor",
+     "value": "Not protected"
+    },
+    {
+     "icon": "dollar",
+     "label": "Installation labor",
+     "value": "$2.50 / sq ft"
+    }
+   ],
+   "cta": "Try the calculator"
+  },
+  {
+   "type": "p",
+   "html": "A common Reddit thread goes: \"Our washer hose let go, the LVP looks perfect, so we are fine, right?\" Sometimes. The plank was fine; the plywood under it was soaked. The word waterproof on the box is true and also incomplete, and in a city as wet as Seattle that gap matters. Here is what the label means, where water actually goes, what we check before installing in a Ballard or Beacon Hill basement, and what happens after a real leak."
+  },
+  {
+   "type": "h2",
+   "text": "What waterproof means on the box"
+  },
+  {
+   "type": "cards",
+   "cols": 2,
+   "items": [
+    {
+     "icon": "layers",
+     "tag": "Rigid core",
+     "title": "SPC and WPC vinyl plank",
+     "text": "The core is stone-plastic or wood-plastic composite. Neither absorbs water, so a plank left in a bucket for a week comes out unchanged. This is what waterproof means: the material does not swell, delaminate or grow mold on its own. It says nothing about the joints between planks.",
+     "gold": true
+    },
+    {
+     "icon": "grid",
+     "tag": "Glue-down",
+     "title": "Flexible LVT",
+     "text": "Thin, flexible vinyl tiles and planks glued to the subfloor. Also waterproof as a material, and because there is no air gap under them, less water reaches the subfloor. The trade-off is that a flooded glue-down floor usually has to be scrapped, because you cannot lift it to dry things out.",
+     "gold": false
+    },
+    {
+     "icon": "x",
+     "tag": "Not the same",
+     "title": "Water-resistant laminate",
+     "text": "Laminate has a wood-fiber core. Newer lines seal the edges and survive a spill for a day; they do not survive a leak. If a box says water-resistant instead of waterproof, that is the difference between a wiped-up spill and a wet subfloor.",
+     "gold": false
+    },
+    {
+     "icon": "clipboard",
+     "tag": "Read it",
+     "title": "The warranty fine print",
+     "text": "Every waterproof warranty we have read covers the plank and excludes the subfloor, standing water beyond 24 to 72 hours, flooding and leaks from appliances. It protects you from a defective plank, not from a burst hose. Plan your installation as if the warranty did not exist.",
+     "gold": false
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "Where the water actually goes"
+  },
+  {
+   "type": "steps",
+   "wide": true,
+   "items": [
+    {
+     "icon": "droplet",
+     "d": "A spill or a wet dog",
+     "text": "Stays on top. Wipe it up within a few hours and nothing happens. This is the everyday case and vinyl plank wins it outright.",
+     "note": "Even a pet accident overnight is usually harmless if cleaned in the morning."
+    },
+    {
+     "icon": "clock",
+     "d": "Standing water for hours",
+     "text": "Seeps through the click joints and the expansion gap at the walls. Plywood or OSB under it starts to swell; concrete traps water between slab and plank.",
+     "note": "A dishwasher that runs and leaks all cycle is enough."
+    },
+    {
+     "icon": "wind",
+     "d": "Days later",
+     "text": "Trapped moisture under a floating floor has nowhere to dry. That is when the musty smell starts and when the subfloor edges cup and lift plank joints.",
+     "note": "The plank still looks fine, which is the trap."
+    },
+    {
+     "icon": "refresh",
+     "d": "The floating-floor advantage",
+     "text": "Click-lock vinyl plank can be unclicked from the nearest wall, stacked, the subfloor dried with fans for a few days, and the same planks put back. A glue-down or a laminate cannot.",
+     "note": "We have done this after several Seattle water-heater failures."
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "Seattle basements: the slab decides"
+  },
+  {
+   "type": "table",
+   "head": [
+    "What we find at the estimate",
+    "Vinyl plank?",
+    "What changes"
+   ],
+   "rows": [
+    [
+     "Dry slab, no history of water",
+     "Yes",
+     "Standard install with an attached pad or a vapor-rated underlayment."
+    ],
+    [
+     "White powder (efflorescence) or dark patches",
+     "Yes, after testing",
+     "Moisture test first. Often fine with a 6 mil poly barrier under a floating floor."
+    ],
+    [
+     "Seasonal seepage at one wall in winter",
+     "Not yet",
+     "Fix the drainage, gutters or crack first. Vinyl plank will survive; the smell under it will not go away."
+    ],
+    [
+     "Old 9 in asbestos tile, sound and stuck down",
+     "Yes",
+     "Do not remove it. Floating vinyl plank over intact tile is an accepted way to encapsulate it."
+    ],
+    [
+     "Uneven slab, more than 3/16 in over 10 ft",
+     "Yes, after leveling",
+     "Self-leveling compound is quoted at the estimate. Rigid core telegraphs every hump."
+    ]
+   ],
+   "note": "Basements in Ballard, Wallingford and Green Lake bungalows were not built to be living space. The slab is often thin and unsealed, so we test rather than assume."
+  },
+  {
+   "type": "h2",
+   "text": "Price your Seattle vinyl plank floor"
+  },
+  {
+   "type": "calc",
+   "kind": "lvp",
+   "note": "Labor only. Plank, underlayment, leveling and old-floor removal are quoted at the free estimate."
+  },
+  {
+   "type": "p",
+   "html": "A 700 sq ft finished basement in a Wallingford home is 700 × $2.50 = $1,750 in installation labor, plus the plank you choose. Adding the 13 stairs down to it is 13 × $100 = $1,300. A 60 sq ft bathroom done on its own bills at the 500 sq ft minimum, so bathrooms make sense as part of a bigger job, not alone."
+  },
+  {
+   "type": "h2",
+   "text": "Bathrooms, kitchens and laundry rooms: the details that keep water out"
+  },
+  {
+   "type": "list",
+   "icons": true,
+   "items": [
+    {
+     "icon": "droplet",
+     "html": "<strong>Silicone the wet perimeter.</strong> Along the tub, the shower curb and around the toilet flange we fill the expansion gap with 100 percent silicone instead of leaving it open under the trim. That is the main entry point for bath water."
+    },
+    {
+     "icon": "washer",
+     "html": "<strong>Put a pan under the washer.</strong> A washer supply line is the most common flood in Seattle condos and the one most likely to reach the unit below. A drain pan and braided hoses matter more than the floor."
+    },
+    {
+     "icon": "layers",
+     "html": "<strong>Keep seams away from the dishwasher.</strong> We lay out planks so a full-width plank sits under the dishwasher and fridge rather than a joint. Fewer seams where leaks start."
+    },
+    {
+     "icon": "vent",
+     "html": "<strong>Run the fan.</strong> Vinyl plank does not care about steam. Your drywall, cabinets and the subfloor edges do. A fan on a 20-minute timer protects everything the floor cannot."
+    },
+    {
+     "icon": "pin",
+     "html": "<strong>Condo rules first.</strong> Many Capitol Hill and Queen Anne buildings require a sound-rated underlayment. We pick a pad that meets the HOA number and still has a vapor rating."
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "After a real leak: what to do with a vinyl plank floor"
+  },
+  {
+   "type": "compare",
+   "a": {
+    "icon": "done",
+    "tag": "Floating click-lock",
+    "title": "Usually salvageable",
+    "items": [
+     "Lift planks from the nearest wall back to dry area",
+     "Dry the subfloor with fans and a dehumidifier for 3 to 5 days",
+     "Check plywood for swelling and mold; replace bad sheets",
+     "Reinstall the same planks; a few damaged locking edges may need replacing from your leftover box"
+    ]
+   },
+   "b": {
+    "icon": "x",
+    "tag": "Glue-down or long soak",
+    "title": "Usually replaced",
+    "items": [
+     "Glue-down planks tear when lifted and cannot be reused",
+     "Water trapped more than a week means the subfloor is the problem, not the floor",
+     "Concrete slabs need to dry back below the adhesive limit before anything goes down",
+     "Insurance adjusters often approve replacement once the subfloor is involved"
+    ]
+   }
+  },
+  {
+   "type": "callout",
+   "icon": "alert",
+   "title": "Keep a box: ",
+   "text": "Always keep one unopened carton of your vinyl plank. Colors are discontinued every couple of years, and after a leak that spare box is the difference between a repair and a whole-room replacement."
+  },
+  {
+   "type": "h2",
+   "text": "Honest limits of waterproof vinyl plank"
+  },
+  {
+   "type": "list",
+   "icons": true,
+   "items": [
+    {
+     "icon": "sun",
+     "html": "<strong>Heat is a bigger enemy than water.</strong> South-facing Seattle windows and radiant heat over 85°F make planks expand and buckle. Waterproof is not heatproof."
+    },
+    {
+     "icon": "ruler",
+     "html": "<strong>The subfloor still has to be flat and dry.</strong> A waterproof plank on a wet slab is a mold farm with a nice top. Moisture testing is not optional."
+    },
+    {
+     "icon": "volume",
+     "html": "<strong>It is not a moisture barrier for your house.</strong> If a basement leaks, fix the leak. Covering it with vinyl plank hides the evidence until the smell arrives."
+    },
+    {
+     "icon": "home",
+     "html": "<strong>Some rooms still want tile.</strong> A curbless shower floor, a steam shower or a mudroom drain are tile jobs. Vinyl plank belongs everywhere else in the bathroom. See our <a href=\"/services/lvp-vinyl-flooring\">vinyl plank installation page</a> for what we include."
+    }
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Can water get under vinyl plank flooring?",
+   "a": "Yes. Click joints and the expansion gap along the walls let standing water through to the subfloor. The plank itself stays undamaged, which is why a floor can look perfect over a soaked subfloor. Wipe spills within hours, and after a real leak lift the planks and dry underneath."
+  },
+  {
+   "q": "Is vinyl plank a good choice for a Seattle basement?",
+   "a": "It is the best hard-surface choice for most Seattle basements, provided the slab tests dry or is corrected first. Rigid-core planks handle the humidity swings of a 1920s basement without swelling. We test the concrete at the free estimate and add a vapor-rated underlayment when the numbers call for it."
+  },
+  {
+   "q": "Does vinyl plank need to be sealed in a bathroom?",
+   "a": "The planks do not, but the perimeter does. We seal the expansion gap at the tub, shower and toilet with 100 percent silicone so bath water cannot run under the floor. Everywhere else the gap is left open under the baseboard so the floor can move."
+  },
+  {
+   "q": "What happens to vinyl plank in a flood?",
+   "a": "The planks survive; the subfloor is the concern. A floating floor can be lifted, the subfloor dried for several days and the same planks reinstalled. Glue-down vinyl usually has to be replaced. Either way, water left under the floor for more than a few days leads to mold and odor."
+  },
+  {
+   "q": "How much does it cost to install vinyl plank in a Seattle basement?",
+   "a": "Wills Flooring installation labor is $2.50 per sq ft with a 500 sq ft minimum, and stairs are $100 each. A 700 sq ft basement is $1,750 in labor. Plank, underlayment and any slab leveling are quoted at the free in-home estimate after we moisture test the concrete."
+  }
+ ],
+ "faq_title": "Waterproof vinyl plank questions from Seattle",
+ "faq_sub": "Basements, condos and the occasional washer hose.",
+ "related": [
+  [
+   "can-you-put-vinyl-plank-in-bathrooms-kitchens-and-laundry-rooms-lynnwood",
+   "vinyl plank in bathrooms and laundry rooms"
+  ],
+  [
+   "spc-vs-wpc-vinyl-plank-lynnwood",
+   "SPC vs WPC cores"
+  ],
+  [
+   "is-vinyl-plank-a-good-choice-for-sammamishs-wet-climate",
+   "vinyl plank in a wet climate"
+  ]
+ ],
+ "cta_title": "Get the slab tested before you buy planks",
+ "cta_sub": "Free in-home estimate anywhere in Seattle. We moisture test the subfloor, bring rigid-core samples and give you a firm written price on the spot."
+}

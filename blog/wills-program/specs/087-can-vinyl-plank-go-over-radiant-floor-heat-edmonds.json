@@ -1,0 +1,66 @@
+{
+ "slug": "can-vinyl-plank-go-over-radiant-floor-heat-edmonds",
+ "title": "Can Vinyl Plank Go Over Radiant Floor Heat?",
+ "meta": "Yes, most rigid-core vinyl plank works over radiant heat if the surface stays under 85°F and the plank is rated for it. Edmonds install rules, Wills Flooring.",
+ "category": "lvp",
+ "city": "Edmonds",
+ "time": "8 mins",
+ "date": "2026-12-12T15:00:00.000Z",
+ "keywords": "vinyl plank over radiant floor heat, can you put LVP over heated floors, luxury vinyl plank radiant heat max temperature, best flooring for radiant heat, vinyl plank installation Edmonds",
+ "offers": [["Vinyl plank flooring installation", "2.50", "per square foot"]],
+ "blocks": [
+  {"type":"quick","eyebrow":"Short answer","lead":"Yes. Most rigid-core vinyl plank is approved over radiant heat, as long as the floor surface never exceeds 85°F, the system is run on the manufacturer's schedule before and after installation, and the spec sheet for the plank you choose actually says radiant-approved.","detail":"Hydronic tubing in a slab, staple-up hydronic under a wood subfloor and electric mats made for floating floors all work. The failures we see in Edmonds come from thermostats set too high, rugs trapping heat, and planks that were never rated for it.",
+   "tiles":[{"icon":"thermo","label":"Max surface temp","value":"85°F"},{"icon":"layers","label":"Best core","value":"SPC rigid core"},{"icon":"calendar","label":"Ramp after install","value":"48–72 hours"},{"icon":"dollar","label":"Install labor","value":"$2.50 / sq ft"}]},
+  {"type":"p","html":"Radiant heat is having a moment in Edmonds. Retirees downsizing into the Bowl and Westgate want warm bathroom floors, homeowners in Seaview and Perrinville are adding heated floors to daylight basements and ADUs, and a surprising number of 1950s to 1970s ramblers on slabs already have hydronic tubing that nobody has trusted in years. The same people want vinyl plank because the waterfront air makes them nervous about hardwood. The two are compatible, but only if the plank, the thermostat and the install sequence are all chosen for it. Here is what we check."},
+  {"type":"h2","text":"Which radiant systems work with vinyl plank"},
+  {"type":"cards","cols":2,"items":[
+    {"icon":"water","title":"Hydronic in a concrete slab","text":"Warm water in tubing cast into the slab. The most even and forgiving system for vinyl plank, because the mass of the concrete smooths out temperature swings. The slab must be moisture tested and flat; a glue-down or floating rigid-core plank goes directly on it."},
+    {"icon":"home","title":"Hydronic staple-up under a wood subfloor","text":"Tubing fastened under the plywood between joists, usually with aluminum plates. Works well, but surface temperature can be uneven over the tubes, so a rigid SPC core is the safer choice over a flexible plank."},
+    {"icon":"plug","title":"Electric mats rated for floating floors","text":"Thin mesh mats designed to sit under a floating floor, often with their own thin underlayment. Fine with vinyl plank if the mat is rated for it and the thermostat has a floor sensor, not just an air sensor."},
+    {"icon":"alert","title":"Electric cable in thinset (tile systems)","text":"Cables meant to be buried in mortar under tile. Vinyl plank can go over them only after the cable is embedded in self-leveler and the surface is flat. Never lay plank directly on loose cable."}
+  ]},
+  {"type":"h2","text":"The spec sheet lines that matter"},
+  {"type":"table","head":["Spec line","What to look for","Why it matters over heat"],"rows":[
+    ["Radiant heat approval","An explicit yes, with a maximum surface temperature","Some planks are excluded outright; installing them voids the warranty on day one"],
+    ["Max surface temperature","85°F is the near-universal limit; a few allow 80°F only","Vinyl softens and expands above this, and adhesives can release"],
+    ["Core type","SPC (stone plastic composite) rigid core","Lowest expansion with temperature; WPC and flexible LVP move more"],
+    ["Installation method allowed over radiant","Floating and/or glue-down with a heat-rated adhesive","Peel-and-stick planks are rarely rated for heated floors"],
+    ["Attached pad or underlayment","Thin, low R-value, approved by the plank maker","A thick foam pad insulates the heat away from the room and traps it in the plank"],
+    ["Expansion gap","Often larger over radiant, 3/8 in or more","Heated planks move more than room-temperature ones"]
+  ],"note":"Bring the plank spec sheet and the radiant system manual to the estimate. We compare the two before quoting."},
+  {"type":"h2","text":"Price your Edmonds installation"},
+  {"type":"calc","kind":"lvp","note":"Installation labor only. Moisture testing over a slab and any leveling over embedded cable are quoted at the free estimate."},
+  {"type":"h2","text":"How the installation sequence changes over radiant heat"},
+  {"type":"steps","wide":true,"items":[
+    {"icon":"flame","d":"2 weeks before","text":"Run the heating system at normal operating temperature. On a new slab this drives out moisture; on an existing system it proves everything works before it is covered. Nobody wants to lift a new floor to find a leak.","note":"New slabs also need a full cure, typically 60 days minimum, before any flooring"},
+    {"icon":"droplet","d":"1 week before","text":"Moisture test the slab or subfloor with the system running. Readings must meet the plank and adhesive limits. Deliver the planks and let them acclimate in the room at 65°F to 85°F.","note":"Edmonds slabs near the water often read high; this is where jobs get postponed"},
+    {"icon":"snow","d":"48 hours before","text":"Turn the system down so the surface is at room temperature during installation. Glue-down adhesives in particular need to cure on a floor that is not being heated."},
+    {"icon":"layers","d":"Install day","text":"Floating SPC or glue-down with a heat-rated adhesive. Expansion gap sized per the spec sheet. No thick underlayment. Transitions left with room to move.","note":"Typical Edmonds rambler main floor: 900 × $2.50 = $2,250 labor"},
+    {"icon":"thermo","d":"48 to 72 hours after","text":"Leave the heat off or low while adhesive cures and the floor settles. Then bring the system up slowly, about 5°F per day, until it reaches its normal setting, never past 85°F at the surface."}
+  ]},
+  {"type":"callout","icon":"sofa","gold":true,"title":"Rugs and furniture: ","text":"A thick area rug or a mattress on the floor over a radiant zone can push the surface under it well past 85°F even when the thermostat reads fine. Use a floor sensor thermostat with a high limit, and keep rugs thin or use rug pads made for heated floors. Most warranty claims over radiant come down to this."},
+  {"type":"h2","text":"When vinyl plank over radiant is a bad idea"},
+  {"type":"compare","a":{"icon":"done","tag":"Go ahead","title":"Good match when","items":["The plank is SPC rigid core and explicitly radiant-approved","The thermostat has a floor sensor and a high-limit setting","The slab or subfloor tests dry with the system running","The room is a bathroom, kitchen, basement or ADU where you want waterproof flooring anyway","The installer sizes the expansion gap for heat"]},
+    "b":{"icon":"x","tag":"Reconsider","title":"Think twice when","items":["The system is an old high-temperature hydronic loop with no mixing valve; surface temps can exceed 85°F","The plank is a flexible glue-down or peel-and-stick with no radiant rating","You plan thick rugs or a low platform bed over the heated zone","The slab has a history of moisture and no vapor mitigation","You want the warmth of wood underfoot; engineered hardwood is also radiant-compatible, see our guide to hardwood over radiant heat"]}},
+  {"type":"h2","text":"Floating or glue-down over heat?"},
+  {"type":"list","icons":true,"items":[
+    {"icon":"layers","html":"<strong>Floating SPC</strong> is the default for most Edmonds homes. It handles small temperature swings by moving as a unit, installs fast, and can be lifted if the system ever needs service. Keep runs under the manufacturer's maximum length without a transition."},
+    {"icon":"brush","html":"<strong>Glue-down</strong> with a heat-rated adhesive conducts heat slightly better and feels more solid, which some people prefer in a bathroom or kitchen. It is less forgiving of moisture and needs the slab flat to 3/16 in over 10 ft."},
+    {"icon":"x","html":"<strong>Loose-lay and peel-and-stick</strong> are almost never rated for radiant. Skip them regardless of price."},
+    {"icon":"search","html":"<strong>Not sure what you have?</strong> Bring a photo of the boiler or thermostat, or check our <a href=\"/blog-posts/rigid-core-vs-flexible-vinyl-plank-edmonds\">rigid core vs flexible vinyl plank</a> comparison, then let us check the system at the free estimate."}
+  ]}
+ ],
+ "faq": [
+  {"q":"What is the maximum temperature for vinyl plank over radiant heat?","a":"Nearly every manufacturer sets the limit at 85°F measured at the floor surface, and a few conservative brands say 80°F. Above that the vinyl softens, expands and can release from adhesive. Use a thermostat with a floor sensor and a high-limit setting rather than one that only reads air temperature."},
+  {"q":"Does radiant heat work well through vinyl plank?","a":"Yes. Vinyl plank is thin and conducts heat reasonably well, better than carpet or thick engineered hardwood. The main losses come from thick underlayment, so use only a thin pad the plank maker approves, or a plank with an attached pad designed for radiant. Glue-down transfers heat slightly faster than floating."},
+  {"q":"Can I put vinyl plank over electric heated floor mats?","a":"Yes, if the mat is rated for use under floating floors and the plank is radiant-approved. Cable systems meant for tile must first be embedded in self-leveling compound so the surface is flat and the cable is protected. Never lay plank directly on exposed cable or mesh."},
+  {"q":"How long after installing vinyl plank can I turn the radiant heat back on?","a":"Wait 48 to 72 hours for adhesive to cure and the floor to settle, then raise the temperature gradually, about 5°F per day, until you reach the normal setting. Turning a cold system to full heat the day after installation is one of the most common causes of gapping and lifted edges."},
+  {"q":"Is SPC or WPC better over radiant heat?","a":"SPC. Its stone-filled rigid core expands and contracts less with temperature than WPC's foamed core or a flexible vinyl plank, so it stays flat and tight over a heated floor. WPC is softer and warmer to the touch, but many WPC products carry stricter radiant limits or exclude it entirely."},
+  {"q":"How much does it cost to install vinyl plank over radiant heat in Edmonds?","a":"Wills Flooring's installation labor is $2.50 per sq ft with a 500 sq ft minimum and $100 per stair, the same as any vinyl plank job. Moisture testing, leveling over embedded cable and the plank itself are quoted at the free in-home estimate after we look at the system."}
+ ],
+ "faq_title": "Radiant heat and vinyl plank questions from Edmonds",
+ "faq_sub": "From heated bathroom floors in the Bowl to ADUs in Perrinville.",
+ "related": [["can-you-install-hardwood-floors-over-radiant-heat-edmonds","hardwood floors over radiant heat"],["rigid-core-vs-flexible-vinyl-plank-edmonds","rigid core vs flexible vinyl plank"],["does-vinyl-plank-flooring-need-to-acclimate-before-installation-edmonds","acclimating vinyl plank before installation"]],
+ "cta_title": "Have us check the system before you buy the plank",
+ "cta_sub": "We come to your Edmonds home with radiant-rated samples, read the thermostat and the slab, and give you a firm written quote. Free, and it saves a lot of lifted planks later."
+}

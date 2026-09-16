@@ -1,0 +1,67 @@
+{
+ "slug": "should-you-refinish-hardwood-floors-before-or-after-painting",
+ "title": "Should You Refinish Hardwood Floors Before or After Painting and Remodeling?",
+ "meta": "Refinish hardwood floors after the messy remodel work and wall paint, but before the final coat on baseboards. Wills Flooring lays out the Sammamish sequence.",
+ "category": "refinish",
+ "city": "Sammamish",
+ "time": "8 mins",
+ "date": "2026-12-02T15:00:00.000Z",
+ "keywords": "refinish floors before or after painting, paint or refinish floors first, remodel order of operations flooring, when to refinish floors during a remodel, hardwood refinishing and painting sequence",
+ "offers": [["Sand and refinish, natural finish", "3.99", "per square foot"], ["Sand and refinish with stain", "6.50", "per square foot"], ["Screen and recoat", "1.99", "per square foot"]],
+ "blocks": [
+  {"type":"quick","eyebrow":"Short answer","lead":"Refinish the floors after all the dusty and heavy work is done and after the ceilings and walls are painted, but before the final coat on the baseboards and trim.","detail":"Floors are one of the last finishes to go in and the easiest to damage. Painters can touch up a baseboard in an hour. Nobody can touch up a scratched floor without a visible patch.",
+   "tiles":[{"icon":"hammer","label":"Demo and drywall","value":"First"},{"icon":"brush","label":"Ceilings and walls","value":"Second"},{"icon":"layers","label":"Sand and finish floors","value":"Third"},{"icon":"frame","label":"Final trim coat","value":"Last"}]},
+  {"type":"p","html":"This question comes up in almost every Sammamish remodel we quote. The Klahanie and Trossachs houses from the 1990s and 2000s have builder-grade oak on an open main floor, and after twenty years the owners want new paint, new kitchen and fresh floors all at once. The painter says floors first so he does not drip on the finish. The floor guy says paint first so sanding dust does not land on wet walls. Both have a point. The right answer is a sequence, not a winner."},
+  {"type":"h2","text":"The order that protects everything"},
+  {"type":"steps","wide":true,"items":[
+    {"icon":"hammer","d":"1. Demolition and structural","text":"Walls coming out, cabinets removed, plumbing and electrical rough-in. This is the phase that drops tools and debris on floors. Old floors soak it up; new finish would not."},
+    {"icon":"frame","d":"2. Drywall, mud and texture","text":"Drywall dust is the finest dust in a remodel and it gets everywhere. It must be done and cleaned up before any floor finish is open."},
+    {"icon":"brush","d":"3. Ceilings, walls, first coat on trim","text":"Painters work with drop cloths over the old floor. Drips and ladder scuffs land on wood that is about to be sanded anyway."},
+    {"icon":"box","d":"4. Cabinets and heavy fixtures set","text":"Kitchen cabinets, islands, a new range and fridge all get positioned before the floor is sanded, so we sand right up to them and finish under the toe kick line.","note":"Exception: if the new floor will run under the cabinets, they wait."},
+    {"icon":"layers","d":"5. Sand, stain if chosen, three coats of finish","text":"Three to four days with an empty, dust-controlled house. Nobody else on site.","note":"1,100 sq ft open main floor: 1,100 × $3.99 = $4,389 natural, or 1,100 × $6.50 = $7,150 stained"},
+    {"icon":"done","d":"6. Final trim coat and touch-ups","text":"After the finish cures for a few days, painters come back for the last coat on baseboards and shoe molding and fix any edger scuffs. Then furniture."}
+  ]},
+  {"type":"h2","text":"Why the floors do not go first"},
+  {"type":"cards","cols":2,"items":[
+    {"icon":"alert","title":"Fresh finish is fragile for weeks","text":"Bona water-based finish is walkable in a day and takes furniture in three, but full hardness takes two to four weeks. A ladder foot or a dropped drywall screw during that window leaves a permanent mark."},
+    {"icon":"wind","title":"Drywall dust ruins a finish coat","text":"Even after the finish has cured, fine dust gets ground in underfoot and dulls the sheen in the traffic lanes. On a stained floor it shows as a haze you cannot wipe off."},
+    {"icon":"droplet","title":"Paint drips are hard to remove","text":"Latex on raw wood sands off. Latex on a finished floor has to be scraped, and the scraper leaves a mark in the finish that will not blend."},
+    {"icon":"sofa","title":"Trades track everything","text":"Plumbers, electricians and cabinet installers wear boots, drag toolboxes and roll carts. Over a month of remodel traffic, a new floor picks up more wear than a year of family life."}
+  ]},
+  {"type":"h2","text":"Price your Sammamish floor right now"},
+  {"type":"calc","kind":"refinish","note":"If your remodel is moving appliances anyway, uncheck those add-ons. We only charge to move what is in our way when we arrive."},
+  {"type":"h2","text":"Why the baseboards wait for the floor"},
+  {"type":"p","html":"Sanding to the edge of a room means running an edger along the baseboard. Even a careful crew leaves a faint scuff or a line of fine dust along the bottom inch. If the baseboards already have their final coat, that scuff shows. If they are primed with one coat and waiting for the last, the painter covers it in an afternoon. The same logic applies to shoe molding and quarter round: install it after the floor is finished, then paint it. In a Sahalee house with tall painted trim and a dark stained floor, this detail is the difference between crisp and almost crisp."},
+  {"type":"h2","text":"Task by task: before or after the floor?"},
+  {"type":"table","head":["Task","Before the floor","After the floor","Why"],"rows":[
+    ["Demo, framing, drywall","Yes","","Heaviest debris and finest dust"],
+    ["Ceiling and wall paint","Yes","","Drips land on wood about to be sanded"],
+    ["Kitchen cabinets","Usually yes","","Floor finishes up to the toe kick; cabinets never sit on new finish"],
+    ["Baseboard final coat","","Yes","Covers edger scuffs"],
+    ["Shoe molding, quarter round","","Yes","Covers the expansion gap and any edge sanding line"],
+    ["Interior doors rehung","","Yes","Bottoms may need trimming for the new floor height"],
+    ["Appliances back in place","","Yes, after 72 hours","Sliding a fridge on day-one finish gouges it"],
+    ["Area rugs down","","Yes, after 2 to 4 weeks","Finish needs to fully cure before being covered"]
+  ]},
+  {"type":"h2","text":"When floors should go first anyway"},
+  {"type":"compare","a":{"icon":"done","tag":"Normal remodel","title":"Floors near the end","items":["Walls and ceilings being painted","Kitchen or bath being redone on the same level","Any drywall work","Cabinets staying in place"]},
+    "b":{"icon":"refresh","tag":"Exception","title":"Floors first when","items":["Only trim and doors are being painted and everything else is done","New flooring must run under new cabinets or a built-in","You are staining and want to pick wall colors to match the actual floor","The house is empty and you are moving in right after the floor, with painters coming later"]}},
+  {"type":"callout","icon":"alert","title":"About picking paint after the floor: ","text":"Half of our Sammamish stain clients ask to see the finished floor before committing to wall colors. That is reasonable. Do walls first in a primer or a neutral, refinish, then pick the accent colors and finish the trim. It costs one extra painter visit and saves you from a warm gray wall against a cool gray floor."},
+  {"type":"h2","text":"How to run the schedule so nobody blames anybody"},
+  {"type":"ul","items":["Book the floor crew for a window when no other trade is in the house. We need three to four days of an empty main floor.","Ask the painter to leave the final trim coat for after the floor, and get that in writing on both bids.","Have the general contractor finish all drywall sanding and do a full vacuum and wipe-down before we arrive.","Plan 72 hours after the last finish coat before appliances and furniture come back, and two to four weeks before rugs.","If the remodel is big, ask for the dust containment add-on. Our sanders are vacuum-connected already; the $250 seals doorways and runs an air scrubber so the rest of the house stays clean."]},
+  {"type":"p","html":"For the day-by-day of the floor phase itself, read <a href=\"/blog-posts/how-to-prepare-your-sammamish-home-for-hardwood-floor-refinishing\">how to prepare your Sammamish home for refinishing</a>. Our <a href=\"/services/floor-refinish\">refinishing service</a> page has the full process."}
+ ],
+ "faq": [
+  {"q":"Should I paint before or after refinishing hardwood floors?","a":"Paint ceilings and walls before the floor and leave the final coat on baseboards and trim for after. Wall painting drips and ladder scuffs land on wood that is about to be sanded, while a fresh floor finish would be damaged. The last trim coat covers any edger marks."},
+  {"q":"Can painters work in the house while floors are being finished?","a":"No. Sanding fills the air with dust that would land in wet paint, and wet finish would pick up paint overspray and foot traffic. We need three to four days with the main floor empty. Painters can work on other levels if the doorways are sealed."},
+  {"q":"How long after refinishing can other trades walk on the floor?","a":"Light foot traffic in socks after 24 hours, shoes after 48, furniture and appliances after 72 hours. Full cure of a water-based finish takes two to four weeks, so heavy carts and dropped tools should stay off until then. Protect traffic lanes with breathable paper, not plastic."},
+  {"q":"Do kitchen cabinets go in before or after hardwood refinishing?","a":"Before, in almost every case. The cabinets are set, then we sand and finish right up to the toe kick. New finish should never end up under a cabinet, because a future cabinet swap would expose it. The exception is when brand new flooring is being installed under the cabinet footprint."},
+  {"q":"How much does it cost to refinish a Sammamish main floor during a remodel?","a":"Wills Flooring charges $3.99 per sq ft for a natural finish and $6.50 with stain, with a 500 sq ft minimum. A typical 1,100 sq ft open main floor in Klahanie or Trossachs is $4,389 natural or $7,150 stained, plus $250 if you want full dust containment."},
+  {"q":"Should I pick paint colors before or after seeing the new floor?","a":"If you are staining the floor, wait. Stained oak shifts warm or cool depending on the color, and it is easier to match walls to a finished floor than the other way around. Prime the walls first, refinish, then choose final colors and have the painter return for walls and trim."}
+ ],
+ "faq_title": "Remodel sequencing questions from Sammamish homeowners",
+ "faq_sub": "From Klahanie and Trossachs main-floor remodels and the phone at our Lynnwood showroom.",
+ "related": [["how-to-prepare-your-sammamish-home-for-hardwood-floor-refinishing","how to prepare your home for refinishing"],["how-soon-can-you-walk-on-refinished-hardwood-floors-and-move-furniture","when you can walk on refinished floors"],["how-long-does-hardwood-floor-refinishing-take-lynnwood","how long refinishing takes"]],
+ "cta_title": "Slot the floors into your remodel schedule",
+ "cta_sub": "We measure, check the wood and hand you a firm written price on the spot, then coordinate dates with your painter and contractor. Free anywhere in Sammamish."
+}

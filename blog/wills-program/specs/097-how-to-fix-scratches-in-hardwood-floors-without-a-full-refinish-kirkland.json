@@ -1,0 +1,72 @@
+{
+ "slug": "how-to-fix-scratches-in-hardwood-floors-without-a-full-refinish-kirkland",
+ "title": "How to Fix Scratches in Hardwood Floors Without a Full Refinish",
+ "meta": "Fix hardwood floor scratches without a full refinish: touch-up markers, spot repairs or a $1.99 per sq ft recoat. Kirkland advice from Wills Flooring.",
+ "category": "refinish",
+ "city": "Kirkland",
+ "time": "8 mins",
+ "date": "2026-12-22T15:00:00.000Z",
+ "keywords": "fix scratches in hardwood floors, hardwood floor scratch repair without refinishing, dog scratches on hardwood floors fix, screen and recoat scratched floors, hardwood touch up marker, floor scratch repair Kirkland",
+ "offers": [["Screen and recoat", "1.99", "per square foot"], ["Sand and refinish, natural finish", "3.99", "per square foot"], ["Sand and refinish with stain", "6.50", "per square foot"]],
+ "blocks": [
+  {"type":"quick","eyebrow":"Short answer","lead":"Most hardwood scratches live in the finish, not the wood, and can be fixed with a touch-up marker, a small spot repair or a screen-and-recoat at $1.99 per sq ft. Only scratches that cut through the finish into raw wood need sanding.","detail":"The test is simple: if a fingernail does not catch in the scratch and the wood underneath is not lighter, it is a finish scratch. That covers most dog nail marks, chair scuffs and grit scratches we see in Kirkland homes. Gouges, gray wood inside the scratch and pet stains are the other category.",
+   "tiles":[{"icon":"refresh","label":"Screen and recoat","value":"$1.99 / sq ft"},{"icon":"brush","label":"Full sand, if needed","value":"$3.99 / sq ft"},{"icon":"ruler","label":"Minimum","value":"500 sq ft"},{"icon":"clock","label":"Recoat time","value":"1 day"}],"cta":"Try the calculator"},
+  {"type":"p","html":"Kirkland is a dog town. Juanita Beach, the Cross Kirkland Corridor and every lakefront yard in Houghton send wet paws and long nails back across oak floors daily. Add rolling office chairs and a lot of 1990s Rose Hill prefinished floors, and \"can I fix these scratches without redoing the whole floor\" is one of our most common calls. Usually yes. This post sorts scratches by depth, matches each to the fix that works, and flags the products that make a floor harder to repair later."},
+  {"type":"h2","text":"First, find out how deep the scratch goes"},
+  {"type":"cards","cols":3,"items":[
+    {"icon":"sparkle","tag":"Level 1","title":"In the finish only","text":"A fine white or gray line with no depth under a fingernail that disappears when wet. Dog nails, grit, chair legs. Fix: touch-up marker for a few, a recoat for many.","gold":true},
+    {"icon":"layers","tag":"Level 2","title":"Through the finish, into stain or the top of the wood","text":"Lighter or raw wood shows inside and a fingernail catches slightly. Dragged furniture, big dogs. Fix: spot repair with a stain marker and finish, then a recoat to blend and reseal."},
+    {"icon":"alert","tag":"Level 3","title":"Gouges, dents and stains","text":"Wood is torn or crushed, dark from dirt or water, or it is a pet stain. Fix: board replacement or full sanding at $3.99 per sq ft. No marker or recoat hides this."}
+  ]},
+  {"type":"h2","text":"The fix for each depth"},
+  {"type":"table","head":["Scratch","DIY fix","Pro fix","What it will not do"],"rows":[
+    ["Light finish scuffs, a few","Bona or similar touch-up marker in the right tone; wipe excess","Not needed","Will not remove the line, only hides the white edge"],
+    ["Light finish scratches, many","Hardwood floor cleaner, then a compatible finish refresher","Screen and recoat, $1.99 per sq ft, one day","Cannot fix scratches you can feel"],
+    ["A few deeper scratches to wood","Stain marker or wax stick, then clear touch-up finish","Spot repair plus a recoat over the area","Will not disappear completely on a dark stain"],
+    ["Gouge or dent","Wood filler tinted to match, sanded flush","Board replacement, then sand and finish","Filler shows on natural oak under a satin finish"],
+    ["Gray, black or pet-stained wood","None","Full sanding, sometimes board replacement","A recoat seals the stain in permanently"]
+   ],"note":"Recoating has a 500 sq ft minimum, so a scratched hallway is usually recoated together with the rooms it connects."},
+  {"type":"h2","text":"Price a recoat or refinish for your Kirkland floor"},
+  {"type":"calc","kind":"refinish","note":"Choose screen and recoat for finish-level scratches. If the wood itself is scratched or stained, select natural or stained refinish."},
+  {"type":"h2","text":"How a screen-and-recoat erases finish scratches"},
+  {"type":"steps","wide":true,"items":[
+    {"icon":"search","d":"Check the finish","text":"We confirm the finish is intact everywhere, with no bare or gray wood, and that it has never been treated with wax or an acrylic polish. Either one makes the new coat peel."},
+    {"icon":"mop","d":"Deep clean","text":"Every trace of cleaner residue, oil and grit comes off. Skipping this is why DIY recoats peel."},
+    {"icon":"refresh","d":"Screen","text":"A buffer with a fine abrasive screen scuffs the old finish evenly. The scratches you see are in this layer, so most go with it."},
+    {"icon":"brush","d":"Coat","text":"One fresh coat of Bona water-based finish in the sheen you choose. Finish scratches are now under new finish, not in it.","note":"Example: Juanita rambler, 950 sq ft × $1.99 = $1,890.50, done in a day"},
+    {"icon":"clock","d":"Cure","text":"Socks after 24 hours, furniture after 72, rugs after a week. Dogs back on the floor at 72 hours with trimmed nails."}
+  ]},
+  {"type":"h2","text":"When a recoat is not the answer"},
+  {"type":"compare","a":{"icon":"done","tag":"Recoat works","title":"Go ahead when","items":["Scratches are white or gray lines in the finish only","The floor is dull in traffic lanes but has no bare wood","It is a site-finished floor with polyurethane or water-based finish","You want the same color and just want it to look new"]},
+    "b":{"icon":"x","tag":"Recoat fails","title":"Do not recoat when","items":["The floor was ever waxed or polished with an acrylic restorer","It is a factory-finished floor with an aluminum oxide coating that has not been prepped for adhesion","Scratches show raw or gray wood, or there are pet stains","Boards are cupped or the finish is peeling"]}},
+  {"type":"callout","icon":"alert","title":"The Rose Hill prefinished problem: ","text":"Many 1990s and 2000s Kirkland homes have factory-finished hardwood with an aluminum oxide top coat. It is very hard, which is why the scratches you see are finish scratches, but new finish will not bond to it without a special abrasion and adhesion step. We test a patch first. If it will not take a recoat, the options are targeted board replacement or a full sanding."},
+  {"type":"h2","text":"DIY products: what works and what backfires"},
+  {"type":"list","icons":true,"items":[
+    {"icon":"done","html":"<strong>Touch-up markers and wax sticks work</strong> for a handful of scratches. Match one shade lighter than the floor; darker lines show more. Buy the kind made for floors, not furniture."},
+    {"icon":"done","html":"<strong>A proper hardwood cleaner works</strong> and is the first step before anything else. Half of the \"scratches\" people show us are dried cleaner film and grit that a real clean removes."},
+    {"icon":"x","html":"<strong>Acrylic restorers and polishes backfire.</strong> They look great for a month, then cloud, scuff and trap dirt. Worse, they must be chemically stripped before a recoat, which adds a day and cost. Every Kirkland floor we have had to refuse had one of these on it."},
+    {"icon":"x","html":"<strong>Steel wool and sandpaper on one spot leave a halo.</strong> You will remove the scratch and create a dull patch that is more visible than the scratch was. Leave spot sanding to a <a href=\"/services/floor-refinish\">refinishing crew</a> who will blend and recoat the whole room."}
+  ]},
+  {"type":"h2","text":"Stop the next round of scratches"},
+  {"type":"list","icons":true,"items":[
+    {"icon":"dog","html":"<strong>Nails trimmed every two to three weeks.</strong> Most dog scratches come from nails grown past the pad; a big dog turning fast on oak leaves a fan of arcs."},
+    {"icon":"home","html":"<strong>A walk-off mat at every door.</strong> Grit from Kirkland gravel paths and lakeside sand is the main cause of the fine haze in traffic lanes."},
+    {"icon":"sofa","html":"<strong>Felt pads on everything that moves</strong>, replaced yearly, and a hard chair mat under any rolling office chair. Casters are the number one source of Level 2 scratches in home offices."},
+    {"icon":"star","html":"<strong>Choose satin or matte at your next refinish.</strong> Lower sheen hides fine scratches far better than semi-gloss. See our guide to <a href=\"/blog-posts/matte-vs-satin-vs-semi-gloss-lynnwood\">choosing a floor sheen</a>."},
+    {"icon":"calendar","html":"<strong>Recoat on a schedule, not after damage.</strong> A recoat every five to seven years in a busy house keeps scratches in the finish layer forever and pushes the full sanding out by decades."}
+  ]}
+ ],
+ "faq": [
+  {"q":"Can dog scratches on hardwood floors be fixed without refinishing?","a":"Usually, yes. Most dog nail scratches are in the finish, not the wood. A few can be hidden with a touch-up marker; a floor covered in them is fixed by a screen-and-recoat, which abrades the scratched top layer and applies a fresh coat of finish at $1.99 per sq ft. Scratches that show raw wood need a spot repair first."},
+  {"q":"How much does it cost to fix scratches in hardwood floors in Kirkland?","a":"A screen-and-recoat is $1.99 per sq ft at Wills Flooring's published rate, with a 500 sq ft minimum, so a typical Kirkland main floor runs about $1,600 to $2,400. If scratches go into the wood or the floor is stained, a full sand and refinish is $3.99 per sq ft natural or $6.50 with stain."},
+  {"q":"How do I know if a scratch is in the finish or the wood?","a":"Run a fingernail across it and wet it with a drop of water. A finish scratch does not catch your nail and nearly disappears when wet. A scratch into the wood catches, shows lighter or raw color inside, and stays visible when wet. Gray or dark wood inside the scratch means dirt or moisture has gotten in."},
+  {"q":"Can you recoat a prefinished hardwood floor?","a":"Sometimes. Factory finishes with aluminum oxide are very hard and new finish will not bond without a special abrasion and adhesion process. We test a patch in a closet first. If it fails, the options are replacing damaged boards or a full sanding, which removes the factory finish entirely."},
+  {"q":"Why will a contractor not recoat my floor after I used a floor polish?","a":"Acrylic polishes and restorers leave a film that new finish cannot bond to, so a recoat over them peels within months. The film has to be chemically stripped first, which adds time and cost and does not always come off cleanly. If you have used one, tell us before the estimate."},
+  {"q":"How long does a screen-and-recoat take?","a":"One day for a typical Kirkland main floor of 800 to 1,200 sq ft. You can walk on it in socks after 24 hours, move furniture back after 72 hours and put rugs down after about a week. Very little dust is created because the screen only scuffs the finish rather than sanding wood."}
+ ],
+ "faq_title": "Scratch repair questions from Kirkland homeowners",
+ "faq_sub": "From Juanita, Houghton, Rose Hill and every dog owner in between.",
+ "related": [["refinish-or-recoat-kirkland","refinish or recoat in Kirkland"],["screening-vs-buffing-vs-sanding-hardwood-floors-lynnwood","screening vs buffing vs sanding"],["how-to-prevent-scratches-on-new-hardwood-floors-lynnwood","preventing scratches on hardwood"]],
+ "cta_title": "Find out which fix your Kirkland floor needs",
+ "cta_sub": "We check scratch depth, test whether the finish will take a recoat and give you a firm written quote for the least work that solves it. Free, no obligation."
+}

@@ -1,0 +1,76 @@
+{
+ "id": "66ced51d039c441c7562fcce",
+ "slug": "common-mistakes-to-avoid-when-refinishing-hardwood-floors",
+ "title": "Avoid These Common Hardwood Floor Refinishing Mistakes",
+ "meta": "Hardwood refinishing mistakes that ruin floors: drum sander marks, skipped grits, finish over dust, sanding through engineered veneer. Wills Flooring's fixes.",
+ "category": "refinish",
+ "published": "2024-08-28",
+ "time": "8 mins",
+ "keywords": "hardwood floor refinishing mistakes, drum sander marks hardwood floor, DIY hardwood floor refinishing vs professional, water popping before stain, refinishing engineered hardwood mistakes, hardwood refinishing Lynnwood",
+ "offers": [["Sand and refinish, natural finish", "3.99", "per square foot"], ["Sand and refinish with stain", "6.50", "per square foot"], ["Screen and recoat", "1.99", "per square foot"]],
+ "blocks": [
+  {"type":"quick","eyebrow":"Short answer","lead":"The mistakes that ruin a refinish are almost all sanding mistakes: stopping the drum sander, skipping grits and sanding an engineered floor too thin. Finish mistakes come second and are easier to fix.","detail":"Wills Flooring sands and refinishes for $3.99 per sq ft natural or $6.50 with stain, all-in, with a 500 sq ft minimum. Many of the floors we refinish from Lynnwood to Seattle are repairs of a first attempt that went wrong.",
+   "tiles":[{"icon":"hammer","label":"Costliest mistake","value":"Drum stop marks"},{"icon":"dollar","label":"Pro natural finish","value":"$3.99 / sq ft"},{"icon":"clock","label":"Furniture back","value":"72 hours"},{"icon":"layers","label":"Engineered limit","value":"2 mm veneer"}],"cta":"Try the calculator"},
+  {"type":"p","html":"Every spring we get calls from Mill Creek, Bothell and Everett that start the same way: \"We rented a sander over the weekend and now the floor has waves in it.\" A 100 lb drum sander removes wood faster than you can react, and every error is permanent until the next full sanding. Here are the mistakes we see most, in the order they happen, and what each costs to put right."},
+  {"type":"h2","text":"Sanding mistakes you cannot undo"},
+  {"type":"cards","cols":2,"items":[
+    {"icon":"hammer","title":"Stopping the drum sander","text":"A drum sander that pauses for one second while spinning digs a trough you can feel with your foot. The only fix is sanding the whole room down to that depth, which burns one of the three or four sandings a 3/4 in oak floor has in its life."},
+    {"icon":"layers","title":"Skipping grits","text":"Jumping from 36 grit straight to 100 leaves deep scratches the fine paper never removes. They hide in bare wood and reappear the moment stain or finish hits. A proper sequence is 36, 60, 80, then 100 or 120, with a buffer pass to blend."},
+    {"icon":"refresh","title":"Edger swirls and dishing","text":"The edger spins at a different angle from the drum, and a heavy hand along the walls leaves swirls and a dished perimeter that stain shows as a dark halo. Pros feather the edger into the field and hand-scrape corners."},
+    {"icon":"alert","title":"Sanding through engineered veneer","text":"Engineered hardwood has a real-wood layer of 0.6 to 4 mm over plywood. Anything under 2 mm cannot take a full sanding at all. Go one pass too deep and the plywood core shows through in a stripe. We measure the wear layer at an exposed edge before quoting."}
+  ]},
+  {"type":"h2","text":"Stain and finish mistakes"},
+  {"type":"list","icons":true,"items":[
+    {"icon":"droplet","html":"<strong>Not water-popping before stain.</strong> Wiping the sanded floor with water raises the grain so stain absorbs evenly. Skip it and oak takes stain in blotches, with the edger areas darker than the field. It is the top cause of the \"my floor looks dirty\" call."},
+    {"icon":"wind","html":"<strong>Applying finish over dust.</strong> Every coat needs a vacuum, a tack and a clean room. Dust in the finish reads as grit you can feel and a cloudy look in low winter light. Turn the furnace off while coating so it does not blow dust from the vents."},
+    {"icon":"brush","html":"<strong>Heavy coats and puddled edges.</strong> Water-based finish goes on thin, about 500 sq ft per gallon. Thick coats stay soft, show lap lines and can peel. Three thin coats always beat two thick ones."},
+    {"icon":"thermo","html":"<strong>Ignoring humidity and temperature.</strong> Puget Sound falls and winters run damp and cool. Below about 60°F and above 60 percent humidity, water-based finish can take twice as long to cure and may trap moisture. We run heat and dehumidifiers on those days rather than skip the wait."}
+  ]},
+  {"type":"h2","text":"Rushing the cure"},
+  {"type":"p","html":"The floor looks done when the last coat is dry to the touch. It is not. Water-based finish reaches full hardness over about 30 days, and most gouges we repair happened in the first week."},
+  {"type":"steps","wide":true,"items":[
+    {"icon":"brush","d":"Day 0","text":"Final coat goes on. Nobody walks on it. Windows closed, heat steady around 65 to 70°F."},
+    {"icon":"home","d":"24 hours","text":"Socks only. No shoes, no pets, no rugs."},
+    {"icon":"sofa","d":"72 hours","text":"Furniture returns, lifted and set down, never dragged. Felt pads on every leg."},
+    {"icon":"calendar","d":"7 days","text":"Rugs, pet beds and plant stands can go down. Rubber-backed rugs still wait."},
+    {"icon":"done","d":"30 days","text":"Full cure. Wet mopping and rubber-backed mats are fine from here on."}
+  ]},
+  {"type":"h2","text":"Price a professional refinish"},
+  {"type":"calc","kind":"refinish","note":"Refinishing prices are all-in: labor, sanding, three coats of Bona finish and cleanup. Repairing a failed DIY sanding is priced as a normal sand and refinish."},
+  {"type":"h2","text":"DIY vs pro: the honest cost comparison"},
+  {"type":"p","html":"Renting a sander looks cheap until you add up everything the weekend consumes. Here is an 800 sq ft main floor, natural finish, both ways."},
+  {"type":"table","head":["Line item","DIY weekend","Wills Flooring"],"rows":[
+    ["Drum sander and edger rental","Typical rental-counter range in the Seattle area: $150–$300 for two to three days","Included"],
+    ["Abrasives, screens, pads","$100–$200 for a full grit sequence","Included"],
+    ["Water-based finish, 3 coats","$250–$450 for a quality product","Bona, included"],
+    ["Vacuum, tack cloths, applicators, respirator","$75–$150","Included"],
+    ["Your time","Three to five full days, plus learning on your own floor","One crew, three to four days, you are not there"],
+    ["Total","Roughly $600–$1,100 in materials, before mistakes","800 × $3.99 = $3,192, warrantied"]
+  ],"note":"DIY figures are typical regional rental and retail ranges, not Wills prices. The gap narrows fast if one drum mark means renting again or paying a pro to sand the wave out."},
+  {"type":"callout","icon":"alert","title":"When DIY makes sense: ","text":"A single room of solid oak that is already flat, no stain, and you have run a drum sander before. A screen-and-recoat with a rented buffer is also within reach for a careful owner. A stained floor, a stairway or an engineered floor is not."},
+  {"type":"h2","text":"The mistake before the mistakes: refinishing the wrong floor"},
+  {"type":"compare","a":{"icon":"done","tag":"Refinish","title":"Sanding is the right call when","items":["Solid wood, or engineered with at least 2 mm of veneer","Damage is scratches, gray finish or shallow pet stains","Boards are flat and firmly nailed","You want a new color or a natural reset"]},
+    "b":{"icon":"x","tag":"Do something else","title":"Sanding is the wrong call when","items":["The finish is dull but intact: a $1.99 screen and recoat does the job","Boards are cupped from a leak that has not been fixed","The floor has been sanded four times and the tongue is close","Pet urine has gone black through the board; those boards need replacing first"]}},
+  {"type":"h2","text":"How to avoid these mistakes when you hire it out"},
+  {"type":"list","icons":true,"items":[
+    {"icon":"award","html":"<strong>Ask what finish system they use and whether they are certified on it.</strong> Wills Flooring crews are Bona Certified Craftsmen; certification means the sanding sequence and coat schedule follow the manufacturer, not habit."},
+    {"icon":"search","html":"<strong>Ask how they handle edges and corners.</strong> The answer should include feathering the edger and hand-scraping, not just \"we edge it.\""},
+    {"icon":"palette","html":"<strong>Ask for a stain sample on your floor.</strong> Two or three colors on a sanded, water-popped patch, viewed in your own light. Never choose from a chip."},
+    {"icon":"wind","html":"<strong>Ask about dust.</strong> Vacuum-connected sanders should be standard. Full containment with sealed doorways and an air scrubber is $250 more and worth it in an occupied home."},
+    {"icon":"clipboard","html":"<strong>Get the cure schedule in writing.</strong> A good quote says when you can walk, when furniture returns and when rugs go down. Ours does, and the work carries a 1-year workmanship warranty. Read more on our <a href=\"/services/floor-refinish\">refinishing service page</a>."}
+  ]}
+ ],
+ "faq": [
+  {"q":"Can drum sander marks be fixed?","a":"Yes, but only by sanding the whole floor down to the depth of the deepest mark, which uses up one of the floor's limited sandings. Spot sanding a drum mark leaves a dish that shows under finish. On engineered floors the mark often cannot be removed at all."},
+  {"q":"Why does my stained floor look blotchy?","a":"Almost always the floor was not water-popped, or the edger areas were sanded to a finer grit than the field. Both cause uneven stain absorption. The fix is a full resand, water-pop and restain, priced at Wills Flooring's $6.50 per sq ft stain rate."},
+  {"q":"How thick does the wood need to be to refinish?","a":"Solid hardwood needs roughly 3/32 in of wood above the tongue. Engineered flooring needs a veneer of at least 2 mm for a light sanding and 3 mm or more for a normal one. We measure at a register or threshold before we quote."},
+  {"q":"How long should I wait before putting furniture back?","a":"Walk in socks after 24 hours, return furniture after 72 hours, and wait a week for rugs. Water-based finish reaches full hardness in about 30 days, so lift rather than drag anything heavy during that first month."},
+  {"q":"Is it cheaper to refinish hardwood floors myself?","a":"In materials, yes: roughly $600 to $1,100 in typical rental and retail costs for 800 sq ft versus $3,192 at Wills Flooring's $3.99 rate. In risk, no. One drum mark or blotchy stain means paying for a full professional sanding on top of what you already spent."},
+  {"q":"Can I refinish floors in a Seattle winter?","a":"Yes. Cool, damp weather slows water-based finish, so a good crew runs heat and dehumidification and waits the extra hours between coats. The mistake is rushing the coats to stay on schedule, not the season itself."}
+ ],
+ "faq_title": "Refinishing questions we answer after a DIY weekend",
+ "faq_sub": "From Lynnwood, Mill Creek, Everett and the rest of Snohomish and King County.",
+ "related": [["diy-hardwood-floor-refinishing-vs-hiring-a-pro-in-edmonds","DIY refinishing vs hiring a pro"],["why-does-my-refinished-floor-look-blotchy-lynnwood","why a refinished floor looks blotchy"],["can-engineered-hardwood-floors-be-refinished-snohomish","whether engineered floors can be refinished"]],
+ "cta_title": "Get it sanded right the first time",
+ "cta_sub": "We measure the wood, check the wear layer and hand you a firm written quote at your kitchen table. Free estimates across Snohomish and King County, and every refinish carries a 1-year workmanship warranty."
+}

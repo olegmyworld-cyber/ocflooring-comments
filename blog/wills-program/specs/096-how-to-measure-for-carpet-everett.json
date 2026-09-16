@@ -1,0 +1,279 @@
+{
+ "slug": "how-to-measure-for-carpet-everett",
+ "title": "How to Measure for Carpet: Rolls, Seams and Waste Factor Explained",
+ "meta": "How to measure for carpet like an installer: 12-foot rolls, seam placement and a 10 to 20 percent waste factor. A worked Everett example from Wills Flooring.",
+ "category": "carpet",
+ "city": "Everett",
+ "time": "8 mins",
+ "date": "2026-12-21T15:00:00.000Z",
+ "keywords": "how to measure for carpet, carpet waste factor, carpet roll width 12 feet, how much carpet do I need for stairs, carpet square yards calculator, measuring a room for carpet with seams",
+ "blocks": [
+  {
+   "type": "quick",
+   "eyebrow": "Short answer",
+   "lead": "Measure each room at its longest and widest points, add three to six inches to each, then lay those rectangles out against a 12-foot-wide roll. Real homes end up needing 10 to 20 percent more carpet than their square footage.",
+   "detail": "The extra is the strips left over when a 12-foot roll meets an 11-foot room, plus seams that have to run with the pile. Here is how it works, with an Everett two-story as the example.",
+   "tiles": [
+    {
+     "icon": "ruler",
+     "label": "Standard roll width",
+     "value": "12 ft (some 13 ft 6 in, 15 ft)"
+    },
+    {
+     "icon": "chart",
+     "label": "Typical waste",
+     "value": "10 to 20 percent"
+    },
+    {
+     "icon": "stairs",
+     "label": "Per standard stair",
+     "value": "About 20 in of length"
+    },
+    {
+     "icon": "grid",
+     "label": "Carpet is sold by",
+     "value": "Square yard = 9 sq ft"
+    }
+   ],
+   "cta": false
+  },
+  {
+   "type": "p",
+   "html": "A common Reddit thread goes: \"My rooms total 640 square feet, the store says I need 790, are they ripping me off?\" Usually not. Carpet is a 12-foot-wide product cut to fit rooms that are almost never 12 feet wide, and the offcuts are real. In the Silver Lake and Eastmont two-stories we carpet most often in Everett, the layout of the pieces on the roll decides the yardage, not the sum of the rooms. Understanding that math lets you check any quote, including ours."
+  },
+  {
+   "type": "h2",
+   "text": "Measure like an installer, not a painter"
+  },
+  {
+   "type": "steps",
+   "wide": true,
+   "items": [
+    {
+     "icon": "ruler",
+     "d": "1. Longest and widest",
+     "text": "Measure each room at its longest and widest points, wall to wall, ignoring bump-outs and alcoves for now. Closets are their own small rectangles, including the door opening."
+    },
+    {
+     "icon": "ruler2",
+     "d": "2. Add the cut allowance",
+     "text": "Add three inches to each dimension for trimming; six if the walls are out of square, which describes most 1920s Riverside and Bayside houses."
+    },
+    {
+     "icon": "grid",
+     "d": "3. Convert to roll pieces",
+     "text": "Every room becomes a piece cut from a 12-foot-wide roll. A room 11 ft 6 in wide fits one width with a small strip of waste. A 13 ft room needs a full width plus a seamed fill strip cut from another length."
+    },
+    {
+     "icon": "scissors",
+     "d": "4. Place the seams",
+     "text": "Fill strips must run the same direction as the pile of the main piece, so you cannot rotate a leftover to make it fit. This rule creates most of the waste."
+    },
+    {
+     "icon": "stairs",
+     "d": "5. Count the stairs",
+     "text": "A standard stair with a 10 to 11 inch tread and 7 to 8 inch riser uses about 20 inches of length with the tuck. Thirteen stairs is about 22 feet in a strip 3 inches wider than the stair."
+    },
+    {
+     "icon": "clipboard",
+     "d": "6. Total the roll length",
+     "text": "Add the lengths of the pieces cut from the roll, multiply by 12 for square feet and divide by 9 for square yards. Compare to the plain square footage and you have your waste factor."
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "Where the waste actually comes from"
+  },
+  {
+   "type": "table",
+   "head": [
+    "Situation",
+    "Typical waste",
+    "Why"
+   ],
+   "rows": [
+    [
+     "Room narrower than 12 ft",
+     "5 to 15 percent",
+     "The strip between room width and 12 ft is scrap unless another room uses it"
+    ],
+    [
+     "Room 12 to 15 ft wide",
+     "15 to 25 percent",
+     "Needs a fill strip seamed in, cut from a second length running the same direction"
+    ],
+    [
+     "Hallways",
+     "20 to 40 percent",
+     "A 3 ft hall cut from a 12 ft roll leaves 9 ft of width unused unless closets or stairs share the piece"
+    ],
+    [
+     "Stairs",
+     "10 to 15 percent",
+     "Strips are cut across the roll; three or four fit per width depending on stair width"
+    ],
+    [
+     "Patterned carpet",
+     "Add 5 to 10 percent",
+     "Every cut must land on the pattern repeat"
+    ],
+    [
+     "Whole house, mixed rooms",
+     "10 to 20 percent overall",
+     "Good layout turns bedroom offcuts into hall and closet pieces"
+    ]
+   ],
+   "note": "Layout realities, not Wills Flooring pricing. We measure every room to the inch and show you the roll layout with the quote."
+  },
+  {
+   "type": "h2",
+   "text": "Scope your Everett carpet project"
+  },
+  {
+   "type": "estimator",
+   "title": "Scope your Everett carpet project",
+   "sub": "Enter the rough floor area and stairs. We measure to the inch at the free estimate, draw the roll layout and hand you a firm written price."
+  },
+  {
+   "type": "h2",
+   "text": "Worked example: a Silver Lake two-story"
+  },
+  {
+   "type": "cards",
+   "cols": 2,
+   "items": [
+    {
+     "icon": "home",
+     "tag": "The rooms",
+     "title": "What we measured",
+     "text": "Primary bedroom 13 ft × 15 ft. Kids' bedrooms 11 ft × 12 ft and 10 ft × 11 ft. Hall 3 ft × 14 ft. Two closets, 2 ft × 5 ft each. Straight staircase, 13 steps, 3 ft wide. Plain square footage: 195 + 132 + 110 + 42 + 20 = 499 sq ft, plus stairs."
+    },
+    {
+     "icon": "grid",
+     "tag": "The roll layout",
+     "title": "How it cuts from a 12 ft roll",
+     "text": "Primary bedroom: one 15 ft 6 in length plus a 1 ft 3 in fill strip seamed along one side, cut from a second 15 ft 6 in length. The rest of that second length yields the hall and both closets. Bedroom two: a 12 ft 6 in length. Bedroom three: an 11 ft 6 in length."
+    },
+    {
+     "icon": "stairs",
+     "tag": "The stairs",
+     "title": "Strips across the roll",
+     "text": "Stairs 3 ft wide need strips 3 ft 3 in wide, so three fit across a 12 ft roll. Thirteen steps at 20 inches is about 22 feet, or 7 ft 4 in per strip. One 7 ft 6 in length of roll covers the staircase."
+    },
+    {
+     "icon": "chart",
+     "tag": "The total",
+     "title": "Roll length and waste",
+     "text": "15 ft 6 in + 15 ft 6 in + 12 ft 6 in + 11 ft 6 in + 7 ft 6 in = 62 ft 6 in of roll. Times 12 ft is 750 sq ft, about 83 sq yd, against 499 sq ft of floor plus about 65 sq ft of stairs. Waste lands near 25 percent because of the 13 ft bedroom and the hall.",
+     "gold": true
+    }
+   ],
+   "note": "Swap the primary bedroom to 11 ft 6 in wide and the waste drops under 15 percent. Room width relative to 12 feet is the whole game."
+  },
+  {
+   "type": "h2",
+   "text": "Seam rules that decide the layout"
+  },
+  {
+   "type": "list",
+   "icons": true,
+   "items": [
+    {
+     "icon": "sun",
+     "html": "<strong>Seams run toward the main light source.</strong> A seam that runs across a window's light casts a shadow line. In a Port Gardner condo with one wall of glass, that fixes the direction of every piece."
+    },
+    {
+     "icon": "layers",
+     "html": "<strong>Pile direction must match across a seam.</strong> Carpet pile leans one way. Opposite pile directions look like two different colors, even from the same roll."
+    },
+    {
+     "icon": "home",
+     "html": "<strong>Keep seams out of doorways and traffic lanes.</strong> A seam in a doorway is walked on constantly and frays first. Push it under the bed if you can. Our post on <a href=\"/blog-posts/carpet-seams-lynnwood\">carpet seams</a> covers what a good one looks like."
+    },
+    {
+     "icon": "scissors",
+     "html": "<strong>Fill strips go on the least visible side.</strong> Under the window, behind the door swing or along the closet wall, never down the middle."
+    },
+    {
+     "icon": "grid",
+     "html": "<strong>Patterns need extra for repeat.</strong> Every cut has to land on the repeat, so pieces get longer."
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "What we do at the estimate"
+  },
+  {
+   "type": "list",
+   "icons": true,
+   "items": [
+    {
+     "icon": "ruler",
+     "html": "<strong>Measure every room to the inch</strong>, including closets, reveals and stairs, and sketch the plan on the spot."
+    },
+    {
+     "icon": "grid",
+     "html": "<strong>Draw the roll layout</strong> and show you where each seam falls before you commit. If moving a seam six inches saves a length of roll, we say so."
+    },
+    {
+     "icon": "tag",
+     "html": "<strong>Quote the measured yardage</strong>, not a rounded guess, with the waste visible so you can compare quotes fairly. See our <a href=\"/services/carpet-installation\">carpet installation page</a>."
+    },
+    {
+     "icon": "x",
+     "html": "<strong>Flag the two DIY errors we see most.</strong> Ordering exactly the square footage, then finding the last bedroom short by a strip with no dye-lot match; and measuring a staircase as one 3 ft by 13 ft rectangle when each step needs tread, riser and tuck, and older Riverside houses have pie steps that need individual wrapped pieces."
+    },
+    {
+     "icon": "box",
+     "html": "<strong>Leave you the usable remnants.</strong> A piece large enough to patch a burn or pet spot is worth keeping in the garage."
+    }
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "How much extra carpet should I order beyond the room's square footage?",
+   "a": "Plan on 10 to 20 percent for a typical whole-house job and more for hallways, stairs and rooms just over 12 feet wide. The extra is the offcut from a 12-foot roll and the seams that must run with the pile. A room layout on the roll, not a percentage, gives the exact number."
+  },
+  {
+   "q": "How wide is a roll of carpet?",
+   "a": "Twelve feet is standard in the United States. Some products come 13 feet 6 inches or 15 feet wide, which can remove a seam in a slightly wider room, but the selection is limited. Always confirm the width of the specific carpet before planning a seamless room around it."
+  },
+  {
+   "q": "How much carpet do I need for 13 stairs?",
+   "a": "Each standard step uses roughly 20 inches of carpet length once you add the tread, riser and the tuck under the nose, so 13 steps need about 22 feet in a strip slightly wider than the stair. From a 12-foot roll, three 3-foot-wide strips fit across, so a 13-step staircase needs about 7 feet 6 inches of roll length."
+  },
+  {
+   "q": "Why is carpet sold by the square yard?",
+   "a": "Tradition from the roll goods trade. One square yard is nine square feet. Many quotes now show square feet instead, so check which unit a quote uses before comparing. A price per square yard divided by nine gives the per square foot equivalent."
+  },
+  {
+   "q": "Can a hallway be carpeted without a seam?",
+   "a": "Usually yes, if the hall is under 12 feet wide, which nearly all are, and its length fits the roll. The waste is the issue, not the seam: a 3-foot-wide hall cut from a 12-foot roll leaves 9 feet of width, so a good installer plans the closets and stairs to come out of the same piece."
+  },
+  {
+   "q": "Will Wills Flooring measure my Everett home for free?",
+   "a": "Yes. Our mobile showroom comes to you anywhere in Everett, about 15 minutes from our Lynnwood location. We measure every room and stair to the inch, bring carpet and pad samples, draw the roll layout with seam positions and give you a firm written quote on the spot."
+  }
+ ],
+ "faq_title": "Carpet measuring questions from Everett",
+ "faq_sub": "From Silver Lake two-stories to Riverside bungalows with no square corners.",
+ "related": [
+  [
+   "how-to-prepare-for-carpet-installation-everett",
+   "preparing for carpet installation"
+  ],
+  [
+   "carpet-seams-lynnwood",
+   "what carpet seams should look like"
+  ],
+  [
+   "how-much-does-it-cost-to-carpet-stairs-in-seattle",
+   "carpeting stairs"
+  ]
+ ],
+ "cta_title": "Let us measure it to the inch",
+ "cta_sub": "We measure every room and stair, draw the roll layout with the seams marked and hand you a firm written price. Free, no obligation, anywhere in Everett."
+}
