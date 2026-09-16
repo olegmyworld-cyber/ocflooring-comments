@@ -24,3 +24,26 @@ Rules
 - After each create, list the item by slug and confirm `description-big` length equals the local file length.
 - Slugs must be unique; if a create fails with a slug conflict, check whether the item already exists before retrying.
 - Image Main is left empty on purpose: the owner adds hero photos in the Webflow Editor.
+
+## Status (2026-09-16)
+
+All 200 scheduled posts are in the Blog Posts collection as drafts, verified byte-for-byte
+against `out/<slug>.json`, with correct `scheduled-publish-date` and no Image Main. Item ids
+are in `uploaded/<slug>.json`. The five legacy posts were updated in place: still live, hero
+images and slugs untouched, bodies replaced with the new design (`uploaded/legacy-*.json`).
+
+Open items for the owner:
+
+1. **Hero images.** Every scheduled post has an empty Image Main. The daily Routine holds a
+   post rather than publishing it when the image is missing, and names the slug.
+2. **Site publish.** The template hero change (image right, text left) and the five updated
+   legacy bodies only reach the live site after a Webflow publish. Close Designer tabs first:
+   an open tab once overwrote a post body on publish.
+3. **Dead CSS.** `blog/wills-hardwood-floor-refinishing-everett-wa.html` (CMS item
+   `6aa9c8c879f234ee20d70b90`) still carries a per-post hero override targeting
+   `.section_hero.is-default`. The template elements now carry `blog-hero*` classes only, so
+   after the site publish that override matches nothing. Harmless, but it can be stripped
+   once the publish has happened. Do not strip it before, or the live post loses its hero.
+4. **Pricing gaps.** Carpet posts use the price-free estimator because Wills publishes no
+   carpet rate. Confirm carpet pricing, that install rates are labor-only, and the $100 LVP
+   stair price the calculator assumes.
