@@ -1,0 +1,288 @@
+{
+ "slug": "transition-strips-from-vinyl-plank-to-tile-carpet-and-hardwood-seattle",
+ "title": "Transition Strips From Vinyl Plank to Tile, Carpet and Hardwood",
+ "meta": "Vinyl plank meets tile, carpet or hardwood? Use a T-molding, reducer or end cap, leave the gap, never pin the floating floor. Wills Flooring's Seattle guide.",
+ "category": "lvp",
+ "city": "Seattle",
+ "time": "8 mins",
+ "date": "2027-03-18T15:00:00.000Z",
+ "keywords": "vinyl plank transition to tile, vinyl plank to carpet transition strip, LVP to hardwood transition, T-molding vs reducer vinyl plank, vinyl plank installation Seattle",
+ "offers": [
+  [
+   "Vinyl plank flooring installation",
+   "2.50",
+   "per square foot"
+  ]
+ ],
+ "blocks": [
+  {
+   "type": "quick",
+   "eyebrow": "Short answer",
+   "lead": "Vinyl plank meets other floors with one of four strips: a T-molding when both sides are the same height, a reducer when the vinyl is higher, an end cap against carpet, and a flush or overlap threshold against hardwood or tall tile.",
+   "detail": "The rule underneath all four is the same: a floating vinyl floor must be free to move, so the strip covers the expansion gap without pinning the planks. Wills Flooring installs vinyl plank at $2.50 per sq ft; transitions are quoted with the job.",
+   "tiles": [
+    {
+     "icon": "grid",
+     "label": "Same height",
+     "value": "T-molding"
+    },
+    {
+     "icon": "layers",
+     "label": "Vinyl is higher",
+     "value": "Reducer"
+    },
+    {
+     "icon": "sofa",
+     "label": "Meets carpet",
+     "value": "End cap"
+    },
+    {
+     "icon": "ruler",
+     "label": "Gap to leave",
+     "value": "1/4 to 3/8 in"
+    }
+   ],
+   "cta": "Try the calculator"
+  },
+  {
+   "type": "p",
+   "html": "Almost every vinyl plank job in Seattle runs into another floor somewhere. A Ballard bungalow keeps its original fir in the living room and gets vinyl in the kitchen. A Capitol Hill condo has tile at the entry and carpet in the bedrooms. A West Seattle basement meets a slab step at the garage door. The plank itself is easy; the doorways are where jobs go wrong, because a transition is both trim and a structural detail that lets a floating floor breathe."
+  },
+  {
+   "type": "h2",
+   "text": "Why transitions matter more on vinyl plank than on other floors"
+  },
+  {
+   "type": "callout",
+   "icon": "alert",
+   "gold": true,
+   "title": "The floating floor rule: ",
+   "text": "Click-lock vinyl plank is not attached to the subfloor. It expands and contracts as one sheet with temperature and, on WPC cores, humidity. If a strip is screwed or glued through the planks, the floor cannot move, and it buckles at the doorway or gaps at the far wall. Every strip fastens to the subfloor or a track, never to the vinyl."
+  },
+  {
+   "type": "h2",
+   "text": "The four transition types and when each one belongs"
+  },
+  {
+   "type": "cards",
+   "cols": 2,
+   "items": [
+    {
+     "icon": "grid",
+     "title": "T-molding",
+     "text": "A T-shaped strip whose top bridges two floors of equal height, with the stem in the gap between them. Used vinyl-to-tile and vinyl-to-hardwood when both surfaces land within about 1/8 in. Snaps into a track fastened to the subfloor, so the planks stay free."
+    },
+    {
+     "icon": "layers",
+     "title": "Reducer",
+     "text": "A wedge that ramps down from the vinyl to a lower floor, such as sheet vinyl, thin tile or a bare slab in a Seattle basement. Most vinyl plank sits 5 to 8 mm high, so a reducer is common where it meets a thinner old floor."
+    },
+    {
+     "icon": "sofa",
+     "title": "End cap (square nose)",
+     "text": "Finishes the vinyl edge where it meets carpet, a sliding door track, a hearth or an exterior threshold. The carpet is tucked and stapled up to the cap, not under it. This is the correct strip for vinyl-to-carpet, and the one most often replaced with a metal bar that looks like a rental."
+    },
+    {
+     "icon": "home",
+     "title": "Threshold, flush or overlap",
+     "text": "A taller strip used against a floor higher than the vinyl, such as porcelain over a mud bed or old 3/4 in hardwood. It steps up rather than down. Where vinyl meets original wood, a hardwood threshold milled and stained to match often looks better than any factory piece."
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "Vinyl plank against each floor: what we actually use"
+  },
+  {
+   "type": "table",
+   "head": [
+    "Vinyl plank meets",
+    "Usual strip",
+    "Height reality in Seattle homes"
+   ],
+   "rows": [
+    [
+     "Ceramic or porcelain tile",
+     "T-molding if flush; reducer or threshold if not",
+     "Tile on backer board lands close to a 6 mm plank plus pad; tile on a mud bed sits much higher"
+    ],
+    [
+     "Carpet",
+     "End cap with carpet tucked to it",
+     "Carpet plus pad is usually 1/2 to 3/4 in, higher than the vinyl"
+    ],
+    [
+     "Original hardwood (3/4 in fir or oak)",
+     "Threshold or overlap reducer, or a hardwood strip milled on site",
+     "Old Seattle hardwood is about 1/2 in higher than 5 mm vinyl"
+    ],
+    [
+     "Bare concrete or slab step",
+     "Reducer, or a metal edge if it is an exterior door",
+     "Basement slabs and garage steps are always lower"
+    ],
+    [
+     "Another vinyl plank room",
+     "T-molding in runs over about 40 ft; none needed in smaller open plans",
+     "Same height"
+    ]
+   ],
+   "note": "Manufacturers sell matching moldings in the plank color. We order them with the flooring so the dye lot matches."
+  },
+  {
+   "type": "h2",
+   "text": "Price your Seattle vinyl plank floor right now"
+  },
+  {
+   "type": "calc",
+   "kind": "lvp",
+   "note": "Transition strips, underlayment and old-floor removal are quoted at the free estimate along with the material."
+  },
+  {
+   "type": "h2",
+   "text": "Fixing the height problem before it becomes a trip hazard"
+  },
+  {
+   "type": "steps",
+   "wide": true,
+   "items": [
+    {
+     "icon": "ruler",
+     "d": "Measure both finished heights",
+     "text": "Not the subfloor, the finished floor. A 5.5 mm plank on 1.5 mm pad is 7 mm. Porcelain on backer board is often 12 to 14 mm. That difference decides the strip."
+    },
+    {
+     "icon": "layers",
+     "d": "Decide which side gives",
+     "text": "Raise the vinyl side with thicker underlayment or a plywood shim, or accept a ramp. In older Seattle houses with sagging floors we often shim under the plank near the doorway."
+    },
+    {
+     "icon": "home",
+     "d": "Put the transition under the door",
+     "text": "With the door closed, the strip should hide beneath it so each room reads as one floor. The vinyl often runs a few inches past the room it belongs to."
+    },
+    {
+     "icon": "droplet",
+     "d": "Seal wet-room edges",
+     "text": "Where vinyl meets tile in a bathroom or the slab at a basement door, run color-matched silicone in the gap under the strip. It keeps mop water and tracked rain out of the seam."
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "Can you skip transitions in an open plan?"
+  },
+  {
+   "type": "compare",
+   "a": {
+    "icon": "done",
+    "tag": "Skip the strip",
+    "title": "Reasonable when",
+    "items": [
+     "Vinyl runs continuously room to room with no other floor in between",
+     "Total run is under the manufacturer's limit, often 40 to 50 ft each way",
+     "The core is rigid SPC and the subfloor is flat through the doorways"
+    ]
+   },
+   "b": {
+    "icon": "x",
+    "tag": "Use a transition",
+    "title": "Required when",
+    "items": [
+     "Any change of material, even to a different vinyl",
+     "Runs beyond the manufacturer limit, or an L-shaped plan with a long leg",
+     "Condo rules that ask for a break at the unit entry for sound and access"
+    ]
+   }
+  },
+  {
+   "type": "h2",
+   "text": "The transition mistakes we see most in Seattle"
+  },
+  {
+   "type": "list",
+   "icons": true,
+   "items": [
+    {
+     "icon": "x",
+     "html": "<strong>Screwing the strip through the planks.</strong> The floor buckles by the first hot week in August. It is the most common cause of a vinyl floor lifting at a doorway; see <a href=\"/blog-posts/why-vinyl-plank-floors-lift-and-peak-snohomish\">why vinyl plank floors lift and peak</a>."
+    },
+    {
+     "icon": "x",
+     "html": "<strong>Running the vinyl tight to the tile with no gap.</strong> It looks clean on install day and gaps or peaks by winter. Leave the gap and cover it."
+    },
+    {
+     "icon": "x",
+     "html": "<strong>Using a metal carpet bar at a vinyl edge.</strong> That is the fix for old sheet vinyl, not plank. The matching end cap costs little and is the difference between a remodel and a rental."
+    },
+    {
+     "icon": "x",
+     "html": "<strong>Ignoring door swing and appliance paths.</strong> A tall threshold at a Wallingford kitchen door catches the dishwasher on delivery day and the door every day."
+    },
+    {
+     "icon": "x",
+     "html": "<strong>Matching the strip to the wrong floor.</strong> Where vinyl meets original oak, a strip in the oak's color disappears. A vinyl-colored strip against real wood looks like a patch."
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "What to settle before the installer arrives"
+  },
+  {
+   "type": "ul",
+   "items": [
+    "Walk every doorway and note what the vinyl will meet: tile, carpet, wood, slab or more vinyl.",
+    "Have the installer measure finished heights at each opening and name the strip that goes where.",
+    "Order transitions in the plank's dye lot, or plan a stained hardwood threshold where vinyl meets real wood.",
+    "Decide where the seam lands. Under the door is the goal, and it changes how much plank each room needs.",
+    "In a Seattle condo, check the HOA flooring rules; some require a transition at the entry and a specific underlayment.",
+    "Ask whether doors will be undercut and baseboards removed, since both affect how clean the edges look."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Do you need a transition strip between vinyl plank and tile?",
+   "a": "Almost always. Even when the two floors land at the same height, the vinyl needs an expansion gap at the tile edge, and a T-molding covers it. If the tile is higher, use a reducer or threshold. The exception is glue-down vinyl, which does not float and can be caulked to the tile."
+  },
+  {
+   "q": "How do you transition vinyl plank to carpet?",
+   "a": "With an end cap, also called a square nose. The cap fastens to the subfloor at the vinyl edge, and the carpet is stretched, trimmed and tucked against it over its own tack strip. Never lay the carpet over the vinyl, and never pin the vinyl under the tack strip."
+  },
+  {
+   "q": "What is the difference between a T-molding and a reducer?",
+   "a": "A T-molding bridges two floors of equal height, with its stem in the gap between them. A reducer ramps from a higher floor down to a lower one. Under about 1/8 in of difference, use a T-molding; beyond that, a reducer or threshold so nobody trips."
+  },
+  {
+   "q": "Can vinyl plank run through a doorway without a transition?",
+   "a": "Yes, if it is the same vinyl on both sides, the total run stays under the manufacturer's limit, and the subfloor is flat through the opening. Rigid SPC cores handle long open runs better than WPC or flexible plank. Any change of material needs a strip."
+  },
+  {
+   "q": "How much gap should vinyl plank have at a transition?",
+   "a": "Follow the manufacturer, usually 1/4 to 3/8 in on each side of the strip track. The strip covers the gap. In Seattle homes with south-facing glass or radiant heat, use the larger figure, because heat drives most of the movement in vinyl plank."
+  },
+  {
+   "q": "Does Wills Flooring supply and install the transition strips?",
+   "a": "Yes. We order matching T-moldings, reducers and end caps with the plank, or mill a hardwood threshold where vinyl meets original wood. Labor is $2.50 per sq ft with a 500 sq ft minimum; strips, underlayment and prep are quoted in writing at the free estimate."
+  }
+ ],
+ "faq_title": "Transition questions from Seattle vinyl plank jobs",
+ "faq_sub": "From Ballard bungalows to Beacon Hill basements.",
+ "related": [
+  [
+   "click-lock-vs-glue-down-vinyl-plank-seattle",
+   "click-lock vs glue-down vinyl plank"
+  ],
+  [
+   "how-flat-does-a-subfloor-need-to-be-for-vinyl-plank-seattle",
+   "how flat the subfloor needs to be"
+  ],
+  [
+   "hardwood-floor-transitions-and-thresholds-lynnwood",
+   "hardwood transitions and thresholds"
+  ]
+ ],
+ "cta_title": "Get every doorway priced, not just the square footage",
+ "cta_sub": "We measure each room and each transition in your Seattle home, bring matching samples and strips, and hand you a firm written quote on the spot. Free, no obligation."
+}

@@ -1,0 +1,126 @@
+{
+ "slug": "rigid-core-vs-flexible-vinyl-plank-edmonds",
+ "title": "Rigid Core vs Flexible Vinyl Plank: Which One Do You Actually Want?",
+ "meta": "Rigid core vs flexible vinyl plank for Edmonds homes: rigid hides subfloor flaws and floats, flexible glues down and stays put. Wills Flooring, $2.50 per sq ft labor.",
+ "category": "lvp",
+ "city": "Edmonds",
+ "time": "8 mins",
+ "date": "2027-02-06T15:00:00.000Z",
+ "keywords": "rigid core vs flexible vinyl plank, rigid core LVP vs LVT, glue down vinyl plank vs click lock, flexible luxury vinyl plank pros and cons, vinyl plank flooring Edmonds WA",
+ "offers": [
+  ["Vinyl plank flooring installation", "2.50", "per square foot"]
+ ],
+ "blocks": [
+  {
+   "type": "quick",
+   "eyebrow": "Short answer",
+   "lead": "Most Edmonds homeowners want rigid core: it floats, it bridges small subfloor flaws, and it goes in fast. Flexible glue-down vinyl plank wins in a narrower set of rooms: very flat slabs, heavy rolling loads, and spaces where a floating floor would move.",
+   "detail": "Wills Flooring installs both at $2.50 per sq ft labor. The plank itself is where the decision, and most of the money, lives. Here is how we choose between them house by house."
+   ,
+   "tiles": [
+    {"icon": "dollar", "label": "Install labor", "value": "$2.50 / sq ft"},
+    {"icon": "layers", "label": "Rigid core", "value": "Floats, click-lock"},
+    {"icon": "droplet", "label": "Flexible", "value": "Glued, 2 to 3 mm"},
+    {"icon": "stairs", "label": "Stairs", "value": "$100 per stair"}
+   ]
+  },
+  {
+   "type": "p",
+   "html": "Walk into any flooring store and you will hear \"rigid core\" a dozen times. It is the SPC and WPC click-lock plank that has taken over the vinyl aisle. Flexible vinyl plank, the thinner glue-down product that came first, is still made and still sold, and in Edmonds we install a fair amount of it in Bowl condos and on the slab levels of Seaview and Westgate homes. A common Reddit thread asks whether flexible is just the cheap version. It is not; it is a different tool. The <a href=\"/services/lvp-vinyl-flooring\">vinyl plank page</a> has our rates, and this post has the decision."
+  },
+  {"type": "h2", "text": "What the two words actually mean"},
+  {
+   "type": "cards",
+   "cols": 2,
+   "items": [
+    {"icon": "layers", "title": "Rigid core: a stiff plank that floats", "text": "A 4 to 8 mm plank with a stone-plastic (SPC) or wood-plastic (WPC) core, a vinyl print layer and a wear layer on top. Planks click together and lie loose on the subfloor with a small expansion gap at the walls. Nothing is glued."},
+    {"icon": "droplet", "title": "Flexible: a thin plank that is glued", "text": "A 2 to 3 mm solid vinyl plank you can bend in your hands. It is spread with adhesive or set on a pressure-sensitive glue and pressed down. Every plank is bonded to the subfloor, so the floor cannot shift, lift or drum."},
+    {"icon": "ruler", "title": "Rigid forgives, flexible telegraphs", "text": "Rigid core bridges small dips and seams in the subfloor. Flexible shows every one of them within a month: a nail head, a plywood seam, a grain of grit under the plank. It demands a flat, clean, sealed subfloor."},
+    {"icon": "shield", "title": "Both are waterproof planks", "text": "Neither swells when wet. The difference is what happens to water that gets past them. A glued floor keeps it out of the seams better; a floating floor lets a spill run underneath and sit on the subfloor."}
+   ]
+  },
+  {"type": "h2", "text": "Side by side"},
+  {
+   "type": "table",
+   "head": ["", "Rigid core (SPC or WPC)", "Flexible glue-down"],
+   "rows": [
+    ["Thickness", "4 to 8 mm plus attached pad", "2 to 3 mm, no pad"],
+    ["Subfloor tolerance", "Bridges 3/16 in over 10 ft", "Needs near-perfect flatness; everything shows"],
+    ["Feel underfoot", "Firmer, slightly hollow if pad is thin", "Solid, quiet, feels like the subfloor"],
+    ["Heavy rolling loads", "Can bow or unclick under a loaded appliance dolly", "Handles wheelchairs, office chairs, kitchen islands"],
+    ["Repair", "Unclick from the nearest wall, or cut and glue one plank", "Heat one plank, lift it, glue a new one"],
+    ["Big open rooms", "Needs a transition around 40 to 50 ft of run", "Runs uninterrupted through the whole level"],
+    ["Direct sun", "Better SPC handles it; WPC can grow", "Glue holds it flat, top choice for west windows"],
+    ["Install labor", "$2.50 / sq ft", "$2.50 / sq ft, plus adhesive and more prep"]
+   ],
+   "note": "Wills Flooring installs both at the same labor rate. Flexible usually carries more subfloor prep, which we quote at the estimate."
+  },
+  {"type": "h2", "text": "Price your Edmonds vinyl plank installation right now"},
+  {"type": "calc", "kind": "lvp", "note": "Same labor for rigid or flexible. Plank, adhesive, underlayment and subfloor leveling are quoted at the free estimate."},
+  {"type": "h2", "text": "How we decide at an Edmonds estimate"},
+  {
+   "type": "steps",
+   "wide": true,
+   "items": [
+    {"icon": "ruler", "d": "1. Straightedge on the subfloor", "text": "A 10 ft straightedge across the room. Under 3/16 in of variation and both are on the table. Over that, rigid core or a leveling pass; flexible is off unless you pay for flatness.", "note": "Seaview ramblers on plank subfloor usually fail this test"},
+    {"icon": "moisture", "d": "2. What is the subfloor made of", "text": "Concrete slab in a daylight basement or Bowl condo: either works, and glue-down is our usual pick. Plywood or OSB: rigid core floats over it happily. Old particleboard: neither, until it is replaced.", "note": "Slab moisture is tested before any glue-down"},
+    {"icon": "sun", "d": "3. Windows and heat", "text": "A west-facing room above the water gets real afternoon sun. Floating WPC can expand and peak. Glue-down or a quality SPC stays flat.", "note": "Perrinville and the Bowl have the most of these rooms"},
+    {"icon": "sofa", "d": "4. What lives on the floor", "text": "Kitchen islands, wheelchairs, rolling chairs, a 600 lb fridge: glue-down. Ordinary furniture and foot traffic: rigid core is fine.", "note": "Retirees downsizing into Edmonds condos often plan for mobility"},
+    {"icon": "home", "d": "5. Room layout", "text": "One long run through a kitchen, hall and great room without a doorway to hide a transition strongly favors glue-down.", "note": "Floating floors need a break every 40 to 50 ft"}
+   ]
+  },
+  {"type": "h2", "text": "Which one for which Edmonds room"},
+  {
+   "type": "compare",
+   "a": {"icon": "done", "tag": "Rigid core", "title": "Choose it when", "items": ["The subfloor is plywood or OSB with normal seams and nail heads", "You want the job done in a day or two with no adhesive cure", "Rooms are bedrooms, halls and living areas with doorways between them", "You may want to lift a plank for a future repair without solvents", "You are covering old vinyl or tile you do not want to remove"]},
+   "b": {"icon": "x", "tag": "Flexible glue-down", "title": "Choose it instead when", "items": ["The floor is a flat, tested concrete slab", "Heavy rolling loads or mobility equipment will use the room", "The run is long and open with nowhere for a transition", "A west or south window bakes the floor every afternoon", "The room is a condo where sound transfer to the unit below matters"]}
+  },
+  {
+   "type": "callout",
+   "icon": "alert",
+   "title": "The flatness problem nobody mentions in the store: ",
+   "text": "Flexible plank on a 1960s Edmonds plank subfloor without a plywood overlay and a skim coat will show every board line by spring. The plank is not defective; the floor under it is uneven. If a quote for flexible glue-down has no prep line, ask how the installer plans to get the subfloor flat, because a good one cannot skip it."
+  },
+  {"type": "h2", "text": "Mistakes we get called to fix"},
+  {
+   "type": "list",
+   "icons": true,
+   "items": [
+    {"icon": "layers", "html": "<strong>Rigid core over a soft, bouncy subfloor.</strong> Rigid bridges dips, not movement. Loose subfloor sheets pop the locking joints. Screw the subfloor down first."},
+    {"icon": "ruler", "html": "<strong>Flexible plank with grit under it.</strong> A single piece of drywall crumb telegraphs as a bump forever. The slab has to be vacuumed twice, then wiped."},
+    {"icon": "wind", "html": "<strong>No expansion gap on a floating floor.</strong> Base shoe nailed tight to the plank locks it in place, and it buckles at the first warm week. Gap at every wall, every cabinet, every post."},
+    {"icon": "droplet", "html": "<strong>Wrong adhesive on a damp slab.</strong> Standard pressure-sensitive glue releases when slab moisture climbs. A moisture test and, if needed, a moisture-tolerant adhesive or a sealer are not optional on Edmonds slabs."},
+    {"icon": "search", "html": "<strong>Buying by thickness alone.</strong> A 3 mm flexible plank with a 20 mil wear layer will outlast an 8 mm rigid plank with a 6 mil wear layer. Compare wear layers, not core thickness. Our post on <a href=\"/blog-posts/how-thick-should-vinyl-plank-flooring-be-kirkland\">plank thickness</a> covers that."}
+   ]
+  },
+  {"type": "h2", "text": "What to ask before you buy either one"},
+  {
+   "type": "list",
+   "icons": true,
+   "items": [
+    {"icon": "clipboard", "html": "<strong>What is the wear layer in mils?</strong> 12 mil is the floor for a busy house, 20 mil for dogs and rentals, whichever core you pick."},
+    {"icon": "ruler", "html": "<strong>Did you check the subfloor with a straightedge?</strong> If the answer is no, the quote is a guess about prep."},
+    {"icon": "moisture", "html": "<strong>Was the slab moisture tested?</strong> Any glue-down over concrete needs a number on the quote."},
+    {"icon": "grid", "html": "<strong>Where will the transitions be?</strong> For a floating floor, ask to see them drawn on the layout before install day."},
+    {"icon": "shield", "html": "<strong>Who warranties what?</strong> The manufacturer covers the plank; Wills Flooring covers the installation for a year. Bring both samples to the house, in the room's light, before deciding. We do that at every free estimate."}
+   ]
+  }
+ ],
+ "faq": [
+  {"q": "Is rigid core vinyl plank better than flexible vinyl plank?", "a": "Better for most rooms, not all. Rigid core floats over ordinary plywood subfloors, hides small flaws and installs quickly. Flexible glue-down is better on flat concrete, under heavy rolling loads, in long open runs and in sunny rooms where a floating floor would move. Match the product to the room."},
+  {"q": "Does flexible vinyl plank cost more to install than rigid core?", "a": "Wills Flooring charges the same $2.50 per sq ft labor for both. Flexible usually costs more in total because it needs adhesive and a flatter subfloor, which means more prep. Those items are quoted at the free estimate after we check the floor."},
+  {"q": "Can rigid core vinyl plank be glued down?", "a": "Some SPC products are rated for glue-down and we do it on slabs where the owner wants a floating look with a bonded feel. Most rigid core is designed to float, and gluing a product not rated for it voids the warranty. Check the spec sheet."},
+  {"q": "Which is quieter, rigid core or glue-down vinyl plank?", "a": "Glue-down is quieter underfoot because there is no air gap and nothing to drum. Rigid core with a good attached pad is close. In Edmonds condos with a neighbor below, glue-down or rigid core over an acoustic underlayment approved by the HOA is the usual answer."},
+  {"q": "Which one handles Edmonds humidity better?", "a": "Both are waterproof planks and neither swells. Humidity affects the floating floor more because it expands and contracts as a sheet, which is why the expansion gap matters. Glue-down cannot move, so seasonal swings near the water are a non-issue for it."},
+  {"q": "Can I install flexible vinyl plank over my existing vinyl floor?", "a": "Sometimes, if the old sheet vinyl is fully bonded, smooth and single-layer, with an embossing leveler over the texture. Cushioned or loose vinyl has to come out. Rigid core is far more forgiving here and often goes straight over old vinyl."}
+ ],
+ "faq_title": "Rigid core and flexible plank questions from Edmonds",
+ "faq_sub": "From the showroom van and from Google searches that end at our phone.",
+ "related": [
+  ["spc-vs-wpc-vinyl-plank-lynnwood", "SPC vs WPC rigid core"],
+  ["click-lock-vs-glue-down-vinyl-plank-seattle", "click-lock vs glue-down installation"],
+  ["how-much-does-vinyl-plank-flooring-installation-cost-in-edmonds", "vinyl plank installation cost in Edmonds"]
+ ],
+ "cta_title": "See both planks on your own subfloor",
+ "cta_sub": "We bring rigid and flexible samples to your Edmonds home, check the subfloor with a straightedge and a meter, and hand you a firm written price. Free, no obligation."
+}

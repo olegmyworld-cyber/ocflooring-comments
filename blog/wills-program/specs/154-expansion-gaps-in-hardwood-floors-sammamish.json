@@ -1,0 +1,290 @@
+{
+ "slug": "expansion-gaps-in-hardwood-floors-sammamish",
+ "title": "Expansion Gaps in Hardwood Floors: Why Open Floor Plans Need Them",
+ "meta": "Hardwood needs a 1/2 to 3/4 in expansion gap at every wall and fixed object, plus transitions on very long runs. Why Sammamish open plans buckle without them.",
+ "category": "hardwood",
+ "city": "Sammamish",
+ "time": "8 mins",
+ "date": "2027-02-17T15:00:00.000Z",
+ "keywords": "expansion gap hardwood floor, how much expansion gap for hardwood flooring, hardwood floor open floor plan expansion, why do hardwood floors buckle, hardwood floor installation Sammamish WA",
+ "offers": [
+  [
+   "Hardwood floor installation, engineered or solid",
+   "3.25",
+   "per square foot"
+  ],
+  [
+   "Unfinished hardwood installation",
+   "2.75",
+   "per square foot"
+  ]
+ ],
+ "blocks": [
+  {
+   "type": "quick",
+   "eyebrow": "Short answer",
+   "lead": "Hardwood floors need a 1/2 to 3/4 inch gap at every wall, cabinet, hearth and post, hidden under the baseboard, because wood widens in wet winters and shrinks in dry ones.",
+   "detail": "In a big open Sammamish main floor the run of boards can be 40 feet or more, so seasonal movement adds up to an inch or so. Without room to move, the floor pushes against the walls and buckles, peaks or cracks. Installation labor is $3.25 per sq ft at Wills Flooring; the gaps are part of the job.",
+   "tiles": [
+    {
+     "icon": "ruler",
+     "label": "Perimeter gap",
+     "value": "1/2 to 3/4 in"
+    },
+    {
+     "icon": "layers",
+     "label": "Hidden by",
+     "value": "Baseboard + shoe"
+    },
+    {
+     "icon": "moisture",
+     "label": "Cause",
+     "value": "Humidity swings"
+    },
+    {
+     "icon": "dollar",
+     "label": "Install labor",
+     "value": "$3.25 / sq ft"
+    }
+   ],
+   "cta": "Try the calculator"
+  },
+  {
+   "type": "p",
+   "html": "Walk into a 2005 Klahanie or Trossachs house and the main floor is one room: entry, great room, dining and kitchen all under the same ceiling with the same floor. That is exactly the layout where expansion gaps matter most and get skipped most. A common Reddit question goes something like: my installer left a gap around the edge of my new floor, is that sloppy? No. That gap is the reason the floor will still be flat in ten years. This post explains how much wood moves, where the gaps go, and what happens on the plateau when they are left out."
+  },
+  {
+   "type": "h2",
+   "text": "How much hardwood actually moves"
+  },
+  {
+   "type": "table",
+   "head": [
+    "Floor",
+    "Movement across a 40 ft open room",
+    "Notes"
+   ],
+   "rows": [
+    [
+     "Solid red oak, 2 1/4 in strip",
+     "Roughly 3/4 in to 1 in between a damp February and a dry, furnace-heated December",
+     "Most Sammamish builder floors from the 1990s and 2000s"
+    ],
+    [
+     "Solid white oak, 5 in plank",
+     "Similar total, but concentrated into fewer, wider gaps between boards",
+     "Wide plank shows seasonal gaps more, moves the same overall"
+    ],
+    [
+     "Solid hickory or maple, 3 1/4 in",
+     "Slightly more than oak",
+     "Denser species react faster to a humidity spike"
+    ],
+    [
+     "Engineered, plywood core, 7 in plank",
+     "Roughly a third of solid",
+     "Cross-ply core fights the movement; still needs a perimeter gap"
+    ],
+    [
+     "Floating engineered click floor",
+     "Moves as one sheet, not board by board",
+     "Manufacturers cap run length, often around 30 to 40 ft, then require a transition"
+    ]
+   ],
+   "note": "Figures are typical for Puget Sound humidity swings, roughly 30 percent indoor RH with the furnace running to 60 percent or more in a damp shoulder season. Your species and width are checked at the free estimate."
+  },
+  {
+   "type": "h2",
+   "text": "Where the gaps go in an open plan"
+  },
+  {
+   "type": "cards",
+   "cols": 2,
+   "items": [
+    {
+     "icon": "home",
+     "title": "Every wall, under the trim",
+     "text": "The 1/2 to 3/4 in perimeter gap sits behind the baseboard and shoe molding, so you never see it. If a floor is installed against existing baseboards without removing them, the shoe molding alone has to hide the gap, which limits it to about 1/2 in."
+    },
+    {
+     "icon": "box",
+     "title": "Kitchen islands and cabinets",
+     "text": "Islands are the classic open-plan mistake. If the island is set on top of the floor and screwed down, it pins the floor in the middle of the room. We install around islands with a gap, or the island goes on the subfloor first and the floor is fitted to it."
+    },
+    {
+     "icon": "flame",
+     "title": "Hearths, posts and door jambs",
+     "text": "Stone hearths in Pine Lake and Beaver Lake great rooms are a fixed edge just like a wall. So is a structural post. Boards are undercut or gapped at these, and the gap is covered by a reducer or the hearth trim."
+    },
+    {
+     "icon": "grid",
+     "title": "Long runs and direction changes",
+     "text": "When a floating floor runs past the manufacturer's limit or turns a corner into a hallway, a T-molding lets each section move on its own. Nail-down solid floors usually run the whole length without one, but they still need the perimeter gap at both ends."
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "Nail-down solid versus floating engineered"
+  },
+  {
+   "type": "compare",
+   "a": {
+    "icon": "done",
+    "tag": "Nail-down solid or engineered",
+    "title": "Movement is board by board",
+    "items": [
+     "Each board is fastened, so movement shows as small seasonal gaps between boards",
+     "Perimeter gap of 3/4 in is standard, less where trim is thin",
+     "Long open runs are fine without a T-molding",
+     "Wide plank and open plan should be acclimated and often glue-assisted",
+     "Best for Sammamish two-story homes with plywood subfloors"
+    ]
+   },
+   "b": {
+    "icon": "layers",
+    "tag": "Floating engineered",
+    "title": "Movement is one big sheet",
+    "items": [
+     "Boards lock together and the whole floor slides as a unit",
+     "Needs the perimeter gap at every fixed object, including islands",
+     "Manufacturer sets a maximum run before a transition strip is required",
+     "Heavy islands or built-ins on top of it will pin it and cause peaking",
+     "Good over concrete slabs and daylight basements on the plateau"
+    ]
+   }
+  },
+  {
+   "type": "h2",
+   "text": "Price your Sammamish floor right now"
+  },
+  {
+   "type": "calc",
+   "kind": "hardwood",
+   "note": "Gaps, undercuts and transitions are part of the installation labor. Trim removal and reinstallation is discussed at the estimate."
+  },
+  {
+   "type": "h2",
+   "text": "What happens when the gap is missing"
+  },
+  {
+   "type": "steps",
+   "wide": true,
+   "items": [
+    {
+     "icon": "moisture",
+     "d": "Fall",
+     "text": "The rains start, indoor humidity climbs, and the boards begin to widen. With a gap, nothing happens. Without one, the floor starts to press on the drywall behind the baseboard."
+    },
+    {
+     "icon": "alert",
+     "d": "Winter",
+     "text": "Pressure builds along a 40 ft run. Somewhere in the middle of the great room the floor lifts into a ridge, called peaking on floating floors and buckling on nailed floors. Baseboards may crack or push out at the corners."
+    },
+    {
+     "icon": "sun",
+     "d": "Summer",
+     "text": "The furnace has dried the house out, boards shrink, and the ridge partly flattens. Now there are wide gaps between boards where they were forced apart, and a few edges are crushed or split. The damage does not undo itself."
+    },
+    {
+     "icon": "hammer",
+     "d": "The fix",
+     "text": "Pull baseboards, cut the floor back to create the gap that should have been there, and replace crushed boards. On a floating floor sometimes just relieving the edge saves it. Cheaper than replacement, but far more than doing it right the first time."
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "Mistakes we see in Sammamish open plans"
+  },
+  {
+   "type": "ul",
+   "items": [
+    "Skipping acclimation. Boxes delivered to a cold garage and installed the next morning will shrink and gap. Material needs several days in the room at living conditions; see our note on <a href=\"/blog-posts/do-hardwood-floors-need-to-acclimate-before-installation-kirkland\">acclimating hardwood</a>.",
+    "Filling the perimeter gap with caulk or backer rod. It looks tidy and completely defeats the purpose.",
+    "Screwing a new island through a floating floor. The island belongs on the subfloor, with the floor fitted around it and gapped.",
+    "Running a click floor 60 feet from the front door to the back slider with no transition because the owner did not want a strip. It peaked the first winter.",
+    "Undersizing the gap because the baseboards stayed in place and only shoe molding was added. Taller shoe or pulling the trim solves it.",
+    "Ignoring a wet crawlspace under a plateau home. It pumps moisture into the subfloor year-round, and even a correct gap cannot absorb a floor that never dries out. Keep the main floor between roughly 35 and 55 percent RH."
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "What to ask before your installer starts"
+  },
+  {
+   "type": "list",
+   "icons": true,
+   "items": [
+    {
+     "icon": "ruler",
+     "html": "<strong>How wide is the perimeter gap and how will it be covered?</strong> The answer should be a number, plus a plan for baseboard removal or shoe molding."
+    },
+    {
+     "icon": "box",
+     "html": "<strong>What happens at the island and the hearth?</strong> If the installer intends to run the floor under a pinned island, that is a problem for a floating floor."
+    },
+    {
+     "icon": "grid",
+     "html": "<strong>Where will transitions go, if anywhere?</strong> For a floating floor, ask for the manufacturer's maximum run and compare it to your longest dimension."
+    },
+    {
+     "icon": "thermo",
+     "html": "<strong>How is moisture being checked?</strong> Subfloor and boards should be metered before the first row goes down. We do this at every Sammamish install, including the free estimate visit."
+    },
+    {
+     "icon": "calendar",
+     "html": "<strong>How long will the wood acclimate?</strong> Several days at living conditions is normal. Same-day install from the truck is a red flag on the plateau."
+    },
+    {
+     "icon": "shield",
+     "html": "<strong>Who fixes it if it buckles?</strong> Wills Flooring covers installation with a 1-year workmanship warranty and is a Metropolitan Hardwood distributor, so material and labor questions have one phone number: <a href=\"/services/hardwood-flooring\">our hardwood installation service</a>."
+    }
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "How big should the expansion gap be for hardwood floors?",
+   "a": "Half an inch to three quarters of an inch at every wall and fixed object is the standard for solid and engineered hardwood. Many manufacturers specify the exact figure for their product. Wider planks and very long runs sit at the top of the range. The gap disappears under the baseboard and shoe molding."
+  },
+  {
+   "q": "Do engineered hardwood floors need an expansion gap?",
+   "a": "Yes. Engineered moves less than solid because of its cross-ply core, but it still moves, and a floating engineered floor moves as one sheet. It needs a perimeter gap at every wall, cabinet and post, and on long open runs a transition strip where the manufacturer requires one."
+  },
+  {
+   "q": "Can I install hardwood across a whole open floor plan without a transition strip?",
+   "a": "With nail-down solid or engineered, usually yes, as long as the perimeter gap is correct. With a floating click floor it depends on the manufacturer's maximum run, often 30 to 40 feet. Sammamish great rooms that open to a long hall can exceed that, and a T-molding at the hall is the honest answer."
+  },
+  {
+   "q": "Why is my hardwood floor buckling in the middle of the room?",
+   "a": "Almost always because it has nowhere to expand. The perimeter gap is missing or filled, or an island or built-in is pinning the floor, so winter humidity pushes the boards up into a ridge. A wet crawlspace or a leak can do the same. An installer can usually relieve the edge and replace damaged boards."
+  },
+  {
+   "q": "Does the expansion gap cost extra with Wills Flooring?",
+   "a": "No. Undercutting jambs, gapping at walls and fixed objects, and setting transitions are part of the $3.25 per sq ft installation labor. Removing and reinstalling baseboards, or adding new shoe molding, is quoted at the free estimate depending on your trim."
+  },
+  {
+   "q": "Is the gap between my hardwood boards in winter normal?",
+   "a": "Small seasonal gaps between boards, about the thickness of a credit card, are normal in a nailed solid floor during the furnace season, and they close in spring. Gaps you can fit a coin into, or gaps that never close, point to a dry house or boards that were installed too wet."
+  }
+ ],
+ "faq_title": "Expansion gap questions from the Sammamish plateau",
+ "faq_sub": "From open-plan great rooms in Klahanie, Trossachs and Sahalee.",
+ "related": [
+  [
+   "do-hardwood-floors-need-to-acclimate-before-installation-kirkland",
+   "why hardwood must acclimate first"
+  ],
+  [
+   "wide-plank-vs-narrow-plank-hardwood-sammamish",
+   "wide plank versus narrow plank"
+  ],
+  [
+   "nail-down-vs-glue-down-vs-floating-hardwood-lynnwood",
+   "nail-down, glue-down or floating"
+  ]
+ ],
+ "cta_title": "Get an open-plan floor that stays flat",
+ "cta_sub": "We meter the subfloor, measure your longest run and plan every gap and transition before quoting. Free in-home estimate anywhere in Sammamish."
+}

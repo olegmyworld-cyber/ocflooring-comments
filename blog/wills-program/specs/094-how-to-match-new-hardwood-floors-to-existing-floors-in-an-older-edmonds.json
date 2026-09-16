@@ -34,7 +34,7 @@
     {"icon":"scissors","d":"Day 1: tear out and stagger","text":"Old tile or carpet comes out. Subfloor is built up so the new boards sit flush. At the old floor's edge we cut back every second or third board a random distance so the joint becomes a staggered zigzag instead of a straight line."},
     {"icon":"hammer","d":"Day 1 to 2: weave and nail","text":"New boards are fed into the staggered pockets, tongue to groove, and nailed down. Done right, you cannot find the seam."},
     {"icon":"brush","d":"Day 3 to 5: sand and finish everything","text":"The entire combined floor is sanded to bare wood so old and new start from the same surface, then finished with three coats of Bona water-based. Any stain goes on now."},
-    {"icon":"home","d":"Worked example: Seaview rambler","text":"Existing 600 sq ft of 2 1/4 in red oak, plus 350 sq ft of new kitchen and dining area.","note":"350 × $2.75 = $962.50 install, plus 950 × $3.99 = $3,790.50 refinish, total $4,753 before material and subfloor build-up"}
+    {"icon":"home","d":"Worked example: Seaview rambler","text":"Existing 600 sq ft of 2 1/4 in red oak, plus 500 sq ft of new kitchen and dining area.","note":"500 × $2.75 = $1,375 install, plus 1,100 × $3.99 = $4,389 refinish, total $5,764 before material and subfloor build-up"}
   ]},
   {"type":"h2","text":"When a true match is not possible"},
   {"type":"compare","a":{"icon":"done","tag":"Lace-in works","title":"Go ahead when","items":["The old floor is solid, 3/4 in thick, with at least 3/32 in of wood above the tongue","Species and board width are still made (red oak, white oak, fir, maple)","The old floor has not been sanded four or more times","You are willing to refinish the old rooms too"]},
