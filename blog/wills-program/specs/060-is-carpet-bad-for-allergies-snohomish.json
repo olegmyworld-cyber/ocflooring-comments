@@ -1,0 +1,67 @@
+{
+ "slug": "is-carpet-bad-for-allergies-snohomish",
+ "title": "Is Carpet Bad for Allergies? What the Research Actually Says",
+ "meta": "Carpet is not bad for allergies by itself. Research shows it traps allergens if vacuumed weekly with HEPA vacuum. Wills Flooring on carpet in Snohomish homes.",
+ "category": "carpet",
+ "city": "Snohomish",
+ "time": "8 mins",
+ "date": "2026-11-15T15:00:00.000Z",
+ "keywords": "is carpet bad for allergies, carpet and asthma research, best carpet for allergy sufferers, carpet vs hardwood for allergies, dust mites in carpet, carpet installation Snohomish WA",
+ "blocks": [
+  {"type":"quick","eyebrow":"Short answer","lead":"Not by itself. The research does not show that carpet causes allergies or asthma; it shows that carpet holds dust, dander and mite allergen in the pile, which is a problem if you never remove it and an advantage if you vacuum it out weekly with a HEPA machine.","detail":"Hard floors let the same allergens stay airborne and recirculate until they settle. The honest answer depends on how you clean, how damp the house is, and who in the family is allergic to what. Snohomish homes add mud, dogs, wood smoke and crawlspace moisture to the equation.",
+   "tiles":[{"icon":"search","label":"Verdict","value":"Depends on upkeep"},{"icon":"paw","label":"Main allergens","value":"Mites, dander, pollen"},{"icon":"wind","label":"Weekly","value":"HEPA vacuum, slow passes"},{"icon":"droplet","label":"Indoor humidity","value":"Under 50 percent"}],"cta":"Scope your project"},
+  {"type":"p","html":"A common Reddit thread asks whether ripping out carpet cured someone's allergies, and the replies split evenly between yes, no and it was the cat. That matches the science, which is messier than either side admits. Around Snohomish the question has a local flavor: acreage that tracks in mud and grass pollen, dogs that sleep on the bedroom floor, a wood stove putting fine ash into the air all winter, and a vented crawlspace under a 1920s farmhouse near Blackmans Lake keeping the floor damp enough for dust mites to thrive. Here is what the studies actually found, which carpet and pad choices matter, and where carpet should and should not go in an allergic household."},
+  {"type":"h2","text":"What the research actually found"},
+  {"type":"cards","cols":2,"items":[
+    {"icon":"chart","title":"Airborne dust is often lower in carpeted rooms","text":"Several room-comparison studies have measured fewer fine particles in the air above carpet than above hard floors, because the pile holds dust down instead of letting footsteps kick it back up. That holds only while the carpet is cleaned; a neglected carpet becomes a reservoir that releases allergen with every step."},
+    {"icon":"alert","title":"Dust mite allergen is higher in carpet","text":"Mites live in the pile and pad and feed on skin flakes. Studies consistently find more mite allergen in carpet than on bare floors, especially in humid homes. Mites need relative humidity above about 50 percent, which is why a damp Snohomish crawlspace matters more than the carpet itself."},
+    {"icon":"search","title":"No consistent link to asthma","text":"Large reviews of the evidence have not found that living with carpet causes asthma or makes it worse in a consistent way. One often-cited country-level comparison showed asthma rising while carpet sales fell, which proves nothing either way but undercuts the idea that removing carpet is a cure."},
+    {"icon":"paw","title":"Pet dander goes everywhere","text":"Dander is small, sticky and airborne. It settles on carpet, but also on couches, bedding and hard floors. Households with a dog measure dander on every surface. The floor is one part of the picture, not the cause."}
+  ]},
+  {"type":"h2","text":"Allergen by allergen: what carpet does and what helps"},
+  {"type":"table","head":["Allergen","What carpet does","What actually helps"],"rows":[
+    ["Dust mites","Gives them a home in the pile and pad; worse above 50 percent humidity","Dehumidifier or crawlspace fix, low dense pile, weekly HEPA vacuum, hot-water extraction yearly"],
+    ["Pet dander","Traps it until vacuumed; releases it if not","Vacuum twice weekly with a dog, groom the dog outside, keep dogs off beds"],
+    ["Pollen","Holds what is tracked in from fields and pasture","Shoes off, entry mats, vacuum more in May and June"],
+    ["Mold spores","Grows in carpet only if it stays damp","Never carpet a room that gets wet; fix the crawlspace; dry any spill within 24 hours"],
+    ["Wood smoke and fine ash","Settles in pile near the stove","Hard floor in the stove zone, carpet elsewhere; HEPA vacuum"],
+    ["VOCs from new carpet","Brief odor in the first few days","Green Label Plus carpet and pad, ventilate for 72 hours"]
+  ]},
+  {"type":"h2","text":"Which carpet is best for an allergic household"},
+  {"type":"list","icons":true,"items":[
+    {"icon":"layers","html":"<strong>Low, dense pile.</strong> A short frieze or a tight loop holds less dust per square foot and releases it to the vacuum more easily than a deep plush. Shag is the worst choice."},
+    {"icon":"tag","html":"<strong>Nylon or triexta, solution-dyed.</strong> Synthetic fibers do not feed mites or absorb moisture the way wool can, and solution-dyed yarn takes hot-water extraction without fading. Our <a href=\"/blog-posts/nylon-vs-polyester-vs-triexta-vs-wool-carpet-sammamish\">fiber comparison</a> goes deeper."},
+    {"icon":"box","html":"<strong>A dense pad with a moisture barrier.</strong> Pad is where mites and pet accidents collect. A dense rebond or felt pad with a sealed top layer keeps liquids on the surface so they can be extracted instead of soaking in."},
+    {"icon":"award","html":"<strong>Green Label Plus carpet and pad.</strong> Certified low emissions. It does not affect mites or dander, but it removes one variable for sensitive people in the first week."},
+    {"icon":"x","html":"<strong>Skip antimicrobial claims.</strong> Treatments marketed as allergen-fighting have little evidence behind them. The vacuum and the humidity level do the work, not the label."}
+  ]},
+  {"type":"h2","text":"Scope your Snohomish carpet project"},
+  {"type":"estimator","title":"Scope Your Carpet Project","sub":"Tell us the rooms. We bring low-pile, allergy-friendly samples and pad options to your door with a firm written price."},
+  {"type":"h2","text":"Room by room: where carpet belongs in an allergic home"},
+  {"type":"compare","a":{"icon":"done","tag":"Carpet works","title":"Fine with a weekly HEPA routine","items":["Upstairs bedrooms with a dehumidified, dry house","Kids' rooms and playrooms where a soft floor matters","A home office or media room with no pets on the floor","Stairs and upper halls, which never get wet"]},
+    "b":{"icon":"x","tag":"Hard floor instead","title":"Skip carpet here","items":["Entry and mudroom, where the acreage comes inside on boots","A room directly over a damp or vented crawlspace with no vapor barrier","The zone around the wood stove","Any basement or room that has ever flooded","The bedroom of a severely mite-allergic person if humidity cannot be controlled"]}},
+  {"type":"h2","text":"The cleaning routine that makes carpet allergy-safe"},
+  {"type":"steps","wide":true,"items":[
+    {"icon":"wind","d":"Weekly","text":"HEPA-filter vacuum with a sealed body, slow overlapping passes, twice a week in rooms where the dog sleeps. A cheap vacuum without HEPA blows the fine allergen straight back into the air."},
+    {"icon":"droplet","d":"Monthly","text":"Check indoor humidity with a $10 hygrometer. Above 50 percent, run a dehumidifier or look at the crawlspace. Dry air is the single most effective mite control there is."},
+    {"icon":"home","d":"Every day at the door","text":"Shoes off, a real outdoor mat and a washable indoor mat. Most of the pollen and mud in a Snohomish house arrives on boots and paws."},
+    {"icon":"mop","d":"Every 12 to 18 months","text":"Professional hot-water extraction, then dry the carpet fully within 24 hours with fans. Damp carpet after cleaning is how mold starts, so avoid cleaning in the wettest weeks of winter."},
+    {"icon":"calendar","d":"Every 10 to 15 years","text":"Replace it. Old pad in particular holds decades of allergen no cleaning reaches. When we pull carpet in a 1990s house, the pad is usually the worst part."}
+  ]},
+  {"type":"callout","icon":"alert","title":"Fix the crawlspace before you blame the carpet: ","text":"Many Snohomish homes on Fobes Hill and out toward Clearview sit over vented crawlspaces with standing water in winter. That moisture rises through the subfloor and keeps carpet and pad damp enough for mites and mold no matter how often you vacuum. A vapor barrier and a dehumidifier do more for an allergic family than any flooring change, and they protect hardwood and vinyl plank too."},
+  {"type":"p","html":"If you decide carpet is not the right call for a particular room, we install <a href=\"/services/lvp-vinyl-flooring\">vinyl plank</a> and hardwood in the same visit and can mix surfaces by room. Bedrooms in carpet and the entry, kitchen and stove zone in a hard surface is the most common allergy-conscious layout we install in Snohomish."}
+ ],
+ "faq": [
+  {"q":"Does removing carpet help allergies?","a":"Sometimes, mainly for people allergic to dust mites in a humid house. For dander and pollen, removal changes little because those settle on every surface. Many families report no difference after pulling carpet, and a few report more sneezing because dust that was held in the pile is now airborne with every footstep. Vacuuming and humidity control matter more than the surface."},
+  {"q":"Is carpet or hardwood better for asthma?","a":"The evidence does not clearly favor either. Carpet holds particles down between cleanings; hard floors let them recirculate but are easier to clean completely. For asthma triggered by dust mites, hard floors in the bedroom with a dehumidified house is the safer choice. For most other triggers, a well-vacuumed low-pile carpet is fine."},
+  {"q":"What is the best carpet for allergy sufferers?","a":"A low, dense cut pile or tight loop in solution-dyed nylon or triexta, over a dense pad with a moisture barrier, certified Green Label Plus. The short pile releases dust to the vacuum, the synthetic fiber does not hold moisture, and the barrier pad keeps spills and pet accidents from soaking into the cushion where mites live."},
+  {"q":"How often should you vacuum carpet if you have allergies?","a":"Once a week minimum with a sealed HEPA vacuum, twice a week in rooms where pets sleep, using slow overlapping passes rather than quick ones. A vacuum without a HEPA filter and a sealed body pushes the smallest allergen particles back into the air, which can make symptoms worse right after cleaning."},
+  {"q":"Do dust mites live in carpet?","a":"Yes, in the pile and especially in the pad, wherever there are skin flakes to eat and humidity above about 50 percent. Below that humidity they struggle to survive. In a Snohomish house over a damp crawlspace the fix is a vapor barrier and a dehumidifier; in a dry house, weekly vacuuming keeps populations low."},
+  {"q":"Does Wills Flooring install allergy-friendly carpet in Snohomish?","a":"Yes. Our mobile showroom brings low-pile nylon and triexta samples, Green Label Plus pad and moisture-barrier pad options to your Snohomish home, measures every room, and leaves a firm written quote. We can also quote vinyl plank or hardwood for the entry and stove zone in the same visit. Estimates are free."}
+ ],
+ "faq_title": "Carpet and allergy questions from Snohomish",
+ "faq_sub": "Asked by parents, dog owners and people with a hygrometer on the wall.",
+ "related": [["hypoallergenic-carpet-everett","hypoallergenic carpet, explained"],["what-is-the-best-carpet-for-pets-everett","the best carpet for pets"],["can-you-put-carpet-in-a-basement-in-snohomish","carpet in a Snohomish basement"]],
+ "cta_title": "Pick the carpet that suits your allergies",
+ "cta_sub": "We bring low-pile, allergy-conscious samples and pad options to your Snohomish home, measure, and give you a firm written price on the spot. Free, no obligation."
+}
