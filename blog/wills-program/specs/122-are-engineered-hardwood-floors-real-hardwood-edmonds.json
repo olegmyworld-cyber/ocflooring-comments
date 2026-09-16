@@ -1,0 +1,143 @@
+{
+ "slug": "are-engineered-hardwood-floors-real-hardwood-edmonds",
+ "title": "Are Engineered Hardwood Floors Real Hardwood? What You're Actually Buying",
+ "meta": "Yes, engineered hardwood is real wood: a solid hardwood top layer bonded to a plywood core. Wills Flooring explains what Edmonds buyers get and installs it at $3.25/sq ft.",
+ "category": "hardwood",
+ "city": "Edmonds",
+ "time": "8 mins",
+ "date": "2027-01-16T15:00:00.000Z",
+ "keywords": "is engineered hardwood real wood, engineered hardwood vs solid hardwood, what is engineered hardwood flooring made of, engineered hardwood Edmonds WA, engineered wood floor wear layer, engineered hardwood installation cost",
+ "offers": [
+  ["Hardwood floor installation, engineered or solid", "3.25", "per square foot"],
+  ["Unfinished hardwood installation", "2.75", "per square foot"]
+ ],
+ "blocks": [
+  {
+   "type": "quick",
+   "eyebrow": "Short answer",
+   "lead": "Yes. Engineered hardwood is real hardwood: a layer of genuine oak, maple, hickory or walnut glued to a plywood or dense fiber core. The part you walk on, see and eventually sand is the same wood as a solid plank.",
+   "detail": "What you are buying is a thinner slice of the expensive species on top of a more stable, less expensive base. Wills Flooring installs engineered and solid hardwood at the same labor rate, $3.25 per sq ft, so the choice comes down to the product, not the labor bill.",
+   "tiles": [
+    {"icon": "layers", "label": "Top layer", "value": "Real hardwood"},
+    {"icon": "ruler2", "label": "Wear layer", "value": "0.6 to 6 mm"},
+    {"icon": "hammer", "label": "Install labor", "value": "$3.25 / sq ft"},
+    {"icon": "ruler", "label": "Minimum", "value": "500 sq ft"}
+   ]
+  },
+  {
+   "type": "p",
+   "html": "This question comes up at almost every estimate we run in Edmonds, usually phrased as \"is this the fake stuff?\" The confusion is understandable. Big-box aisles put engineered hardwood, laminate and wood-look vinyl plank side by side, all with similar photos on the box. Only one of the three is wood. Here is exactly what is inside an engineered plank, how to read a spec sheet before you spend money, and where engineered makes more sense than solid in an Edmonds house."
+  },
+  {"type": "h2", "text": "What is actually inside an engineered plank"},
+  {
+   "type": "cards",
+   "cols": 2,
+   "items": [
+    {"icon": "layers", "title": "The wear layer (the real wood)", "text": "A slice of solid hardwood, sawn or sliced from the same logs that become solid flooring. It carries the grain, the color and the stain. Thickness runs from a paper-thin 0.6 mm on budget products to 6 mm on premium lines. This is the only part of the plank you ever see."},
+    {"icon": "grid", "title": "The core", "text": "Most engineered floors use cross-laminated plywood, five to eleven plies with the grain alternating direction. Some use HDF, a dense wood fiber board. Either way it is still wood product, and the cross-grain construction is what keeps the plank from cupping and shrinking the way a solid board does."},
+    {"icon": "shield", "title": "The factory finish", "text": "Almost all engineered flooring comes prefinished with several coats of aluminum-oxide urethane cured under UV light. That finish is harder than anything applied on site, which is why prefinished floors carry 25-year and lifetime finish warranties."},
+    {"icon": "frame", "title": "The profile", "text": "Tongue and groove milled into the core, sometimes a click joint for floating installs. Better products add micro-bevels on the edges so slight height differences between boards disappear once installed."}
+   ]
+  },
+  {"type": "h2", "text": "Engineered vs solid vs the look-alikes"},
+  {
+   "type": "table",
+   "head": ["Product", "What the surface is", "Can it be sanded?", "Moisture behavior"],
+   "rows": [
+    ["Solid hardwood", "Wood, 3/4 in thick top to bottom", "Yes, 4 to 6 times over its life", "Expands and shrinks across the width every season"],
+    ["Engineered hardwood", "Real wood veneer, 0.6 to 6 mm", "Yes if the wear layer is 2 mm or more; 3 mm+ for repeat sandings", "Far more stable; approved for slabs and radiant heat"],
+    ["Laminate", "A photograph of wood under a melamine wear layer", "No", "Swells at the edges if water sits on it"],
+    ["Vinyl plank (LVP)", "A printed vinyl film under a clear wear layer", "No", "Waterproof, but not wood in any sense"]
+   ],
+   "note": "Laminate and vinyl plank are good products for the right room. They are just not hardwood, and a listing that calls them hardwood is wrong."
+  },
+  {"type": "h2", "text": "How to read the box before you buy"},
+  {
+   "type": "list",
+   "icons": true,
+   "items": [
+    {"icon": "ruler2", "html": "<strong>Wear layer in millimeters.</strong> If the box does not state it, assume it is under 2 mm. We consider 3 mm the floor for a house you plan to keep, because that is enough for one real sanding later."},
+    {"icon": "layers", "html": "<strong>Core type and ply count.</strong> Multi-ply Baltic birch or poplar plywood is the most stable. HDF cores are fine in dry rooms but are less forgiving if a dishwasher leaks."},
+    {"icon": "search", "html": "<strong>Sawn vs sliced vs rotary-peeled veneer.</strong> Sawn veneer looks identical to solid wood. Rotary-peeled veneer has a wild, repeating grain that many people find looks fake even though it is real wood."},
+    {"icon": "ruler", "html": "<strong>Total plank thickness.</strong> Common sizes are 3/8, 1/2, 9/16 and 3/4 in. Thicker planks feel more solid underfoot and let you nail down instead of glue or float."},
+    {"icon": "shield", "html": "<strong>Two separate warranties.</strong> A structural warranty covers delamination; a finish warranty covers wear-through. Read the exclusions, because pet urine and standing water are almost always excluded on both."}
+   ]
+  },
+  {"type": "h2", "text": "Price your Edmonds hardwood install right now"},
+  {"type": "calc", "kind": "hardwood", "note": "Labor only. The engineered plank you choose is quoted separately once you have seen samples in your own light."},
+  {"type": "h2", "text": "Where engineered beats solid in an Edmonds house"},
+  {
+   "type": "compare",
+   "a": {
+    "icon": "done",
+    "tag": "Engineered",
+    "title": "Choose engineered when",
+    "items": [
+     "The house sits on a slab, like many 1950s to 70s ramblers in Westgate and Esperance",
+     "You are close to the water in the Bowl or Seaview and humidity swings are real",
+     "You want wide planks, 7 in and up, that stay flat",
+     "There is radiant heat in the floor",
+     "You want a factory finish and a two-day install with no dust or cure time"
+    ]
+   },
+   "b": {
+    "icon": "x",
+    "tag": "Solid",
+    "title": "Choose solid when",
+    "items": [
+     "You are matching an existing 3/4 in oak floor in a 1960s Perrinville home",
+     "You want a floor that can be sanded five or six times over a century",
+     "You plan to stain on site to a custom color",
+     "The subfloor is plywood over a dry, vented crawlspace",
+     "You prefer narrow strip flooring where movement is minimal anyway"
+    ]
+   }
+  },
+  {
+   "type": "callout",
+   "icon": "water",
+   "title": "The Edmonds moisture point: ",
+   "text": "Homes within a few blocks of the ferry dock and the waterfront see wider indoor humidity swings than homes up the hill. A solid 5 in plank in that setting will gap in February and tighten in August. Engineered with a plywood core barely moves. That is the honest reason we recommend engineered for most wide-plank projects in the Bowl."
+  },
+  {"type": "h2", "text": "Where the \"real hardwood\" label gets abused"},
+  {
+   "type": "cards",
+   "cols": 2,
+   "items": [
+    {"icon": "alert", "title": "Veneer thinner than a credit card", "text": "A 0.6 mm wear layer is real wood, technically. Practically it is a one-life floor: it cannot be sanded, and a deep scratch from a dragged chair shows the core. If a listing photo shows exposed pale core at a scratch, that is what happened."},
+    {"icon": "tag", "title": "\"Hardwood\" in the MLS listing", "text": "Edmonds listings routinely call laminate \"hardwood laminate\" or vinyl plank \"wood plank.\" If you are buying a house, ask for the product name or pull a floor register and look at the edge of a board. Wood shows plies; laminate shows brown fiberboard; vinyl shows a solid colored core."},
+    {"icon": "droplet", "title": "Waterproof claims", "text": "Some engineered lines advertise waterproof cores. The core may resist water, but the real wood on top still does what wood does. Treat those claims as water-resistant and keep the mop damp, not wet."},
+    {"icon": "refresh", "title": "\"Refinishable\" on a 1.2 mm layer", "text": "A 1.2 mm veneer can take a screen and recoat, which refreshes the finish without touching the wood. It cannot take a real sanding to remove scratches or change color. Both are called refinishing in marketing copy; only one removes damage."}
+   ]
+  },
+  {"type": "h2", "text": "What to check before you sign for engineered hardwood"},
+  {
+   "type": "list",
+   "icons": true,
+   "items": [
+    {"icon": "home", "html": "<strong>See the sample in your house.</strong> Our mobile showroom brings full-size boards to your Edmonds home so you can see the veneer grain in your own north light, not under warehouse fluorescents."},
+    {"icon": "ruler2", "html": "<strong>Get the wear layer in writing.</strong> Ask for the spec sheet, not the salesperson's memory. Three millimeters or more if you plan to stay."},
+    {"icon": "moisture", "html": "<strong>Have the subfloor moisture tested.</strong> Engineered tolerates more than solid, but no wood floor survives a wet slab. We test at the free estimate before quoting."},
+    {"icon": "clipboard", "html": "<strong>Confirm the install method.</strong> Nail, glue or float changes the feel and the sound of the floor. Glue-down over a slab feels the most like solid wood. Floated floors are quieter to install but can sound hollow."},
+    {"icon": "shield", "html": "<strong>Ask who covers what.</strong> The manufacturer covers the product; Wills Flooring covers the workmanship for one year. Read our <a href=\"/services/hardwood-flooring\">hardwood installation page</a> for what is included."}
+   ]
+  }
+ ],
+ "faq": [
+  {"q": "Is engineered hardwood considered real hardwood by appraisers and buyers?", "a": "Yes. Appraisers and most buyers treat engineered hardwood as hardwood flooring, because the visible surface is genuine wood. The exception is very thin veneer products that have started to show core at scratches; those read as damaged wood, not as a different material."},
+  {"q": "Can engineered hardwood be refinished?", "a": "It depends on the wear layer. A 2 mm layer can usually be sanded once with care. Three to four millimeters allows one or two full sandings; 6 mm behaves like a solid floor. Under 2 mm you are limited to a screen and recoat, which refreshes the finish but does not remove scratches."},
+  {"q": "Does engineered hardwood look different from solid once installed?", "a": "Not if the veneer is sawn or sliced from the log. Rotary-peeled veneer has a broader, repeating grain that some people spot as engineered. Board width, bevel and finish sheen matter far more to the finished look than solid versus engineered."},
+  {"q": "How long does engineered hardwood last?", "a": "A quality product with a 3 mm or thicker wear layer lasts 40 to 80 years with one or two refinishes. Thin-veneer budget products are realistically 15 to 25 years before the finish wears and there is nothing to sand."},
+  {"q": "Is engineered hardwood cheaper to install than solid?", "a": "At Wills Flooring the labor rate is the same, $3.25 per sq ft for either. Engineered can save money on prep when it is glued or floated over a slab, since solid would need a plywood subfloor added first. Material prices overlap widely between the two."},
+  {"q": "Is engineered hardwood a good choice for an Edmonds home near the water?", "a": "Usually the better choice. The cross-ply core resists the seasonal swelling and shrinking that opens gaps in solid planks during humid winters near the Sound. For planks wider than 5 inches in the Bowl or Seaview, we recommend engineered almost every time."}
+ ],
+ "faq_title": "Engineered hardwood questions from Edmonds homeowners",
+ "faq_sub": "Asked at estimates, on Google and on the phone at our Lynnwood showroom.",
+ "related": [
+  ["engineered-vs-solid-hardwood-kirkland", "engineered vs solid hardwood, side by side"],
+  ["prefinished-vs-site-finished-hardwood-floors-edmonds", "prefinished vs site-finished floors in Edmonds"],
+  ["can-engineered-hardwood-floors-be-refinished-snohomish", "whether engineered floors can be refinished"]
+ ],
+ "cta_title": "See real engineered hardwood in your Edmonds living room",
+ "cta_sub": "We bring full boards, measure, test the subfloor and write a firm labor and material quote on the spot. Free, no obligation, anywhere in Edmonds."
+}

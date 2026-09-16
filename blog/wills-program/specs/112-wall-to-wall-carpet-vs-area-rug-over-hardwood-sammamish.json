@@ -12,66 +12,149 @@
    "type": "quick",
    "eyebrow": "Short answer",
    "lead": "Wall-to-wall carpet makes sense in bedrooms, bonus rooms and on stairs, where you want warmth and quiet all the way to the wall. An area rug makes sense wherever the hardwood is worth showing, which in most Sammamish homes means the whole main floor.",
-   "detail": "The wrong answer is to carpet over good hardwood on a main floor, or to try to make a rug do the job of carpet in a cold upstairs bedroom. Each option has a place, and the house usually tells you which is which.",
+   "detail": "The wrong answer is carpeting over good main-floor hardwood, or asking a rug to do the job of carpet in a cold upstairs bedroom.",
    "tiles": [
-    {"icon": "home", "label": "Carpet wins", "value": "Bedrooms, stairs, bonus rooms"},
-    {"icon": "layers", "label": "Rugs win", "value": "Main-floor hardwood"},
-    {"icon": "sun", "label": "Rug risk", "value": "Fade lines on the wood"},
-    {"icon": "tag", "label": "Resale", "value": "Visible hardwood sells"}
+    {
+     "icon": "home",
+     "label": "Carpet wins",
+     "value": "Bedrooms, stairs, bonus rooms"
+    },
+    {
+     "icon": "layers",
+     "label": "Rugs win",
+     "value": "Main-floor hardwood"
+    },
+    {
+     "icon": "sun",
+     "label": "Rug risk",
+     "value": "Fade lines on the wood"
+    },
+    {
+     "icon": "tag",
+     "label": "Resale",
+     "value": "Visible hardwood sells"
+    }
    ],
    "cta": false
   },
   {
    "type": "p",
-   "html": "This question comes up in almost every Sammamish estimate we run. The plateau homes in Klahanie, Trossachs and Pine Lake were mostly built between the 1990s and 2010s with builder-grade oak on the main floor and carpet upstairs. Twenty years later the carpet is tired, the oak is scratched from dogs and kids, and the owner is standing in the hallway asking: do I put carpet back, run hardwood everywhere and use rugs, or just carpet over the oak and stop thinking about it? Here is how we answer it, room by room."
+   "html": "This question comes up in almost every Sammamish estimate we run. The plateau homes in Klahanie, Trossachs and Pine Lake were mostly built between the 1990s and 2010s with builder-grade oak on the main floor and carpet upstairs. Twenty years later the carpet is tired, the oak is scratched from dogs and kids, and the owner is standing in the hallway asking: do I put carpet back, <a href=\"/services/floor-refinish\">refinish the oak</a> and use rugs, or just carpet over the wood and stop thinking about it? Here is how we answer it, room by room."
   },
-  {"type": "h2", "text": "What you are really choosing between"},
+  {
+   "type": "h2",
+   "text": "What you are really choosing between"
+  },
   {
    "type": "cards",
    "cols": 2,
    "items": [
-    {"icon": "thermo", "title": "Warmth and quiet", "text": "Wall-to-wall carpet with a good pad insulates the whole room and kills footfall noise between floors. A rug does that only inside its own footprint. In a two-story Sammamish home with kids upstairs, that difference is the whole argument for carpeting the bedrooms."},
-    {"icon": "palette", "title": "Look and resale", "text": "Buyers on the Eastside expect to see hardwood on the main floor. A rug frames the wood and can be changed with the furniture. Carpet installed over good hardwood reads as hiding something, and an agent will say so during the listing walk-through."},
-    {"icon": "mop", "title": "Cleaning reality", "text": "A rug can be rolled up, sent out for cleaning or replaced after a bad spill. Carpet is cleaned in place, and the pad under it holds whatever soaks through. With dogs, that matters more than any fiber label."},
-    {"icon": "refresh", "title": "Flexibility", "text": "A rug is furniture. Move, sell or swap it any time. Carpet is a commitment for 10 to 15 years, and stretch-in carpet over hardwood means tack strips nailed into the wood along every wall."}
+    {
+     "icon": "thermo",
+     "title": "Warmth and quiet",
+     "text": "Wall-to-wall carpet with a good pad insulates the whole room and kills footfall noise between floors. A rug does that only inside its own footprint. In a two-story Sammamish home with kids upstairs, that difference is the whole argument for carpeting the bedrooms."
+    },
+    {
+     "icon": "palette",
+     "title": "Look and resale",
+     "text": "Buyers on the Eastside expect to see hardwood on the main floor. A rug frames the wood and can be changed with the furniture. Carpet installed over good hardwood reads as hiding something, and an agent will say so during the listing walk-through."
+    },
+    {
+     "icon": "mop",
+     "title": "Cleaning reality",
+     "text": "A rug can be rolled up, sent out for cleaning or replaced after a bad spill. Carpet is cleaned in place, and the pad under it holds whatever soaks through. With dogs, that matters more than any fiber label."
+    },
+    {
+     "icon": "refresh",
+     "title": "Flexibility",
+     "text": "A rug is furniture. Move, sell or swap it any time. Carpet is a commitment for 10 to 15 years, and stretch-in carpet over hardwood means tack strips nailed into the wood along every wall."
+    }
    ]
   },
-  {"type": "h2", "text": "Room by room in a typical Sammamish two-story"},
+  {
+   "type": "h2",
+   "text": "Room by room in a typical Sammamish two-story"
+  },
   {
    "type": "table",
-   "head": ["Room", "Better choice", "Why"],
-   "rows": [
-    ["Main-floor living and dining", "Rug over hardwood", "The oak is the selling feature. A large low-pile rug under the sofa group gives you the soft landing without covering the wood."],
-    ["Kitchen and entry", "Neither, or a washable runner", "Wet zones. Carpet fails here, and a big rug traps grit that scratches the wood. Keep it to a small washable mat."],
-    ["Upstairs bedrooms", "Wall-to-wall carpet", "Warm feet at 6 a.m., quiet for the people below, and the room is rarely shown off. This is where carpet earns its keep."],
-    ["Stairs", "Wall-to-wall carpet or a fitted runner", "Bare hardwood stairs are slippery for kids and older dogs. Carpet or a properly installed runner adds grip and cuts noise."],
-    ["Bonus room or media room", "Wall-to-wall carpet", "Sound absorption is the point of the room. Carpet plus pad beats any rug for acoustics."],
-    ["Home office", "Rug over hardwood", "Rolling chairs destroy carpet pile in a season. A flat rug with a chair mat lasts longer and looks better on a video call."]
+   "head": [
+    "Room",
+    "Better choice",
+    "Why"
    ],
-   "note": "This is the pattern we see hold up across Sahalee, Beaver Lake and Klahanie homes. Your layout may argue for an exception, and that is what the in-home visit is for."
+   "rows": [
+    [
+     "Main-floor living and dining",
+     "Rug over hardwood",
+     "The oak is the selling feature. A large low-pile rug under the sofa group softens the room without hiding the wood."
+    ],
+    [
+     "Kitchen and entry",
+     "Washable runner only",
+     "Wet zones. Carpet fails here and a big rug traps grit that scratches the finish."
+    ],
+    [
+     "Upstairs bedrooms",
+     "Wall-to-wall carpet",
+     "Warm feet at 6 a.m., quiet for the people below, and nobody shows off a bedroom floor."
+    ],
+    [
+     "Stairs",
+     "Carpet or a fitted runner",
+     "Bare hardwood stairs are slippery for kids and older dogs. Carpet adds grip and cuts noise."
+    ],
+    [
+     "Bonus or media room",
+     "Wall-to-wall carpet",
+     "Sound absorption is the point of the room. Carpet plus pad beats any rug."
+    ],
+    [
+     "Home office",
+     "Rug over hardwood",
+     "Rolling chairs destroy carpet pile in a season. A flat rug with a chair mat lasts longer."
+    ]
+   ],
+   "note": "This pattern holds across Sahalee, Beaver Lake and Klahanie homes. Your layout may argue for an exception, which is what the in-home visit is for."
   },
-  {"type": "h2", "text": "What rugs quietly do to hardwood"},
   {
-   "type": "p",
-   "html": "Rugs are the low-commitment choice, but they are not free of consequences. These are the four things we find under rugs when we come to <a href=\"/services/floor-refinish\">refinish</a> a Sammamish main floor."
+   "type": "h2",
+   "text": "What rugs quietly do to hardwood"
   },
   {
    "type": "list",
    "icons": true,
    "items": [
-    {"icon": "sun", "html": "<strong>Fade lines.</strong> South-facing plateau rooms get real sun in summer. The wood under a rug stays darker or lighter than the exposed floor, and the tan line only disappears with a full sand."},
-    {"icon": "alert", "html": "<strong>Pad discoloration.</strong> Cheap rubber or latex rug pads can react with the finish and leave a yellow or cloudy patch the exact shape of the pad. Use a felt or felt-and-natural-rubber pad rated for hardwood."},
-    {"icon": "search", "html": "<strong>Trapped grit.</strong> Sand and gravel from the driveway work under the rug edge and scratch the finish as the rug shifts. Vacuum under the rug, not just on top of it."},
-    {"icon": "droplet", "html": "<strong>Moisture.</strong> A dog bowl or a plant on a rug over hardwood is a slow leak you cannot see. Black stains in the wood mean water reached the boards weeks ago."}
+    {
+     "icon": "sun",
+     "html": "<strong>Fade lines.</strong> South-facing plateau rooms get real sun in summer. The wood under a rug stays darker or lighter than the exposed floor, and the tan line only disappears with a full sand."
+    },
+    {
+     "icon": "alert",
+     "html": "<strong>Pad discoloration.</strong> Cheap rubber or latex rug pads can react with the finish and leave a yellow or cloudy patch the exact shape of the pad. Use a felt or felt-and-natural-rubber pad rated for hardwood."
+    },
+    {
+     "icon": "search",
+     "html": "<strong>Trapped grit.</strong> Sand and gravel from the driveway work under the rug edge and scratch the finish as the rug shifts. Vacuum under the rug, not just on top of it."
+    },
+    {
+     "icon": "droplet",
+     "html": "<strong>Moisture.</strong> A dog bowl or a plant on a rug over hardwood is a slow leak you cannot see. Black stains in the wood mean water reached the boards weeks ago."
+    }
    ]
   },
-  {"type": "h2", "text": "Scope your Sammamish carpet project"},
   {
-   "type": "p",
-   "html": "If the bedrooms, stairs or bonus room are going back to wall-to-wall carpet, tell us the rooms and rough sizes below. We bring fiber and pad samples to the house, measure every room, and hand you a firm written price at the visit."
+   "type": "h2",
+   "text": "Scope your Sammamish carpet project"
   },
-  {"type": "estimator", "title": "Scope Your Sammamish Carpet Project", "sub": "Bedrooms, stairs, bonus room. Rough sizes are fine; we measure on site and bring samples to your door."},
-  {"type": "h2", "text": "When wall-to-wall is wrong, and when a rug is wrong"},
+  {
+   "type": "estimator",
+   "title": "Scope Your Sammamish Carpet Project",
+   "sub": "Bedrooms, stairs, bonus room. Rough sizes are fine; we measure on site and bring samples to your door."
+  },
+  {
+   "type": "h2",
+   "text": "When wall-to-wall is wrong, and when a rug is wrong"
+  },
   {
    "type": "compare",
    "a": {
@@ -103,34 +186,40 @@
    "title": "The one thing we talk people out of: ",
    "text": "Carpeting over a main-floor hardwood floor because it is scratched. Refinishing removes the scratches and keeps the value. Carpet over it adds tack-strip holes along every wall and a job to undo when you sell. If the wood is thick enough to sand, sand it."
   },
-  {"type": "h2", "text": "What drives the cost of each option"},
   {
-   "type": "p",
-   "html": "We do not publish a carpet rate because the material range is so wide. What we can tell you is what moves the number on each side, so you can compare apples to apples when quotes arrive."
+   "type": "h2",
+   "text": "Mistakes Sammamish homeowners make with this decision"
   },
-  {
-   "type": "steps",
-   "wide": true,
-   "items": [
-    {"icon": "layers", "d": "Wall-to-wall: fiber and pad", "text": "Nylon and triexta cost more than polyester and last longer under kids and dogs. Pad density changes both feel and lifespan. Those two choices set most of the material line."},
-    {"icon": "stairs", "d": "Wall-to-wall: stairs and tear-out", "text": "Stairs are priced per tread and take far longer per square foot than a flat room. Removing and hauling old carpet and pad is a separate line on every quote."},
-    {"icon": "ruler", "d": "Rug: size and construction", "text": "A room-sized wool or hand-knotted rug can cost as much as carpeting the room. Machine-made synthetic rugs cost far less but wear faster and are harder to clean well."},
-    {"icon": "refresh", "d": "Rug: replacement cycle", "text": "Rugs in high-traffic main floors get replaced every 5 to 8 years. Over 15 years, two or three rugs plus pads can equal one carpet install. Count the whole period, not the first purchase."},
-    {"icon": "shield", "d": "Both: what protects the hardwood", "text": "A proper felt pad under a rug, or professional stretch-in carpet with the fewest tack strips possible, keeps the oak underneath refinishable later. Ask how the installer will treat the wood."}
-   ]
-  },
-  {"type": "h2", "text": "Mistakes Sammamish homeowners make with this decision"},
   {
    "type": "cards",
    "cols": 2,
    "items": [
-    {"icon": "dog", "title": "Buying the rug before the dog", "text": "A light wool rug on a main floor with a lab that swims in Pine Lake will be brown by fall. If there is a dog, choose a patterned, mid-tone rug or a solution-dyed carpet, and decide the flooring before the puppy arrives."},
-    {"icon": "ruler", "title": "Rugs that are too small", "text": "A rug that floats in the middle of an open-plan great room looks like a bath mat. The front legs of every seat should sit on it. Measure the furniture group first, then shop, not the other way around."},
-    {"icon": "hammer", "title": "Gluing carpet to hardwood", "text": "Glue-down carpet over oak is the worst of both worlds. The adhesive soaks into the grain and the floor is never refinishable again. If carpet must go over wood, it is stretch-in over pad, nothing else."},
-    {"icon": "home", "title": "Carpeting the whole upstairs the same", "text": "Bedrooms want a soft, dense pile. A bonus room with a pool table or exercise gear wants a low, tight loop that takes abuse. Two carpets upstairs is normal and costs little extra."}
+    {
+     "icon": "dog",
+     "title": "Buying the rug before the dog",
+     "text": "A light wool rug on a main floor with a lab that swims in Pine Lake will be brown by fall. If there is a dog, choose a patterned, mid-tone rug or a solution-dyed carpet, and decide the flooring before the puppy arrives."
+    },
+    {
+     "icon": "ruler",
+     "title": "Rugs that are too small",
+     "text": "A rug that floats in the middle of an open-plan great room looks like a bath mat. The front legs of every seat should sit on it. Measure the furniture group first, then shop, not the other way around."
+    },
+    {
+     "icon": "hammer",
+     "title": "Gluing carpet to hardwood",
+     "text": "Glue-down carpet over oak is the worst of both worlds. The adhesive soaks into the grain and the floor is never refinishable again. If carpet must go over wood, it is stretch-in over pad, nothing else."
+    },
+    {
+     "icon": "home",
+     "title": "Carpeting the whole upstairs the same",
+     "text": "Bedrooms want a soft, dense pile. A bonus room with a pool table or exercise gear wants a low, tight loop that takes abuse. Two carpets upstairs is normal and costs little extra."
+    }
    ]
   },
-  {"type": "h2", "text": "Checklist before you decide"},
+  {
+   "type": "h2",
+   "text": "Checklist before you decide"
+  },
   {
    "type": "ul",
    "items": [
@@ -145,19 +234,46 @@
   }
  ],
  "faq": [
-  {"q": "Can you install wall-to-wall carpet over hardwood floors without damaging them?", "a": "Yes, if it is stretch-in carpet over pad. Tack strips are nailed along the walls, which leaves small holes at the perimeter that sand out later. Never glue carpet to hardwood. The adhesive ruins the wood for refinishing and removal is brutal."},
-  {"q": "Is it cheaper to put a rug on hardwood or install carpet?", "a": "For one room, a mid-range rug is usually cheaper than carpeting the room. Over 15 years it often evens out, because main-floor rugs get replaced two or three times while carpet is installed once. Compare the full period, and remember quality wool rugs can cost as much as carpet."},
-  {"q": "Does carpet over hardwood hurt resale value in Sammamish?", "a": "On the main floor, yes. Eastside buyers expect visible hardwood in living and dining areas and will mentally deduct the cost of removing carpet. In upstairs bedrooms it is neutral or positive, since most buyers here still prefer carpet where they sleep."},
-  {"q": "What kind of rug pad is safe on hardwood?", "a": "Felt, or felt with a natural rubber underside, made for hardwood. Avoid cheap PVC or synthetic rubber waffle pads, which can react with the finish and leave a cloudy patch. Any pad should be trimmed an inch inside the rug edge so the rug lies flat."},
-  {"q": "Should the stairs be carpeted if the main floor is hardwood?", "a": "Often, yes. Hardwood stairs are slippery in socks and hard on older dogs. Wall-to-wall carpet on the stairs or a properly stapled runner over hardwood treads gives grip and quiet while keeping the wood visible at the edges. Loose runners on stairs are a fall hazard."},
-  {"q": "Will a rug leave a mark on my hardwood floor?", "a": "It can. UV light changes the color of both the finish and the wood, so the covered area stays a different shade. Rotate rugs twice a year and move them a few inches when you can. Only a full sand and refinish erases a fade line completely."}
+  {
+   "q": "Can you install wall-to-wall carpet over hardwood floors without damaging them?",
+   "a": "Yes, if it is stretch-in carpet over pad. Tack strips are nailed along the walls and leave small perimeter holes that sand out later. Never glue carpet to hardwood; the adhesive ruins the wood for refinishing."
+  },
+  {
+   "q": "Is it cheaper to put a rug on hardwood or install carpet?",
+   "a": "For one room, a mid-range rug usually costs less than carpeting it. Over 15 years it often evens out, because main-floor rugs get replaced two or three times while carpet is installed once. Quality wool rugs can cost as much as carpet."
+  },
+  {
+   "q": "Does carpet over hardwood hurt resale value in Sammamish?",
+   "a": "On the main floor, yes. Eastside buyers expect visible hardwood in living and dining areas and mentally deduct the cost of removing carpet. In upstairs bedrooms it is neutral or positive, since most buyers here still prefer carpet where they sleep."
+  },
+  {
+   "q": "What kind of rug pad is safe on hardwood?",
+   "a": "Felt, or felt with a natural rubber underside, made for hardwood. Avoid cheap PVC or synthetic rubber waffle pads, which can react with the finish and leave a cloudy patch. Trim the pad an inch inside the rug edge so the rug lies flat."
+  },
+  {
+   "q": "Should the stairs be carpeted if the main floor is hardwood?",
+   "a": "Often, yes. Hardwood stairs are slippery in socks and hard on older dogs. Wall-to-wall carpet or a properly stapled runner over hardwood treads gives grip and quiet while showing wood at the edges. Loose runners on stairs are a fall hazard."
+  },
+  {
+   "q": "Will a rug leave a mark on my hardwood floor?",
+   "a": "It can. Sunlight changes the color of the finish and the wood, so the covered area ends up a different shade. Rotate rugs twice a year and shift them a few inches when you can. Only a full sand and refinish erases a fade line completely."
+  }
  ],
  "faq_title": "Carpet vs rug questions from Sammamish homeowners",
  "faq_sub": "Asked at estimates in Klahanie, Trossachs and Pine Lake, and answered here.",
  "related": [
-  ["which-rooms-should-have-carpet-sammamish", "which rooms should have carpet"],
-  ["carpet-vs-hardwood-for-resale-value-in-edmonds", "carpet vs hardwood for resale"],
-  ["carpet-tiles-vs-wall-to-wall-carpet-sammamish", "carpet tiles vs wall-to-wall"]
+  [
+   "which-rooms-should-have-carpet-sammamish",
+   "which rooms should have carpet"
+  ],
+  [
+   "carpet-vs-hardwood-for-resale-value-in-edmonds",
+   "carpet vs hardwood for resale"
+  ],
+  [
+   "carpet-tiles-vs-wall-to-wall-carpet-sammamish",
+   "carpet tiles vs wall-to-wall"
+  ]
  ],
  "cta_title": "See carpet and rug options on your own floor",
  "cta_sub": "Our mobile showroom brings carpet samples to your Sammamish home, measures every room and prices the whole plan, including refinishing the oak you want to keep, in one written quote."

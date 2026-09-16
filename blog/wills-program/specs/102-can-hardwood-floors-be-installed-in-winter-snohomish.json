@@ -1,0 +1,138 @@
+{
+ "slug": "can-hardwood-floors-be-installed-in-winter-snohomish",
+ "title": "Can Hardwood Floors Be Installed in Winter? Humidity and Timing in Snohomish",
+ "meta": "Yes, hardwood installs well in a Snohomish winter if the house is heated, humidity sits at 30–50% and the wood acclimates. Wills Flooring explains timing.",
+ "category": "hardwood",
+ "city": "Snohomish",
+ "time": "8 mins",
+ "date": "2026-12-27T15:00:00.000Z",
+ "keywords": "install hardwood floors in winter, hardwood installation humidity, best time of year to install hardwood floors, hardwood acclimation winter, hardwood floor installation Snohomish WA",
+ "offers": [
+  ["Hardwood floor installation, engineered or solid", "3.25", "per square foot"],
+  ["Unfinished hardwood installation", "2.75", "per square foot"]
+ ],
+ "blocks": [
+  {
+   "type": "quick",
+   "eyebrow": "Short answer",
+   "lead": "Yes, hardwood floors can be installed in a Snohomish winter, and a heated house in January is often a better environment for it than a humid house in June.",
+   "detail": "What the wood cares about is indoor temperature, indoor humidity and how close its moisture content is to the subfloor's, not the month on the calendar. The winter risks are a cold job site, a wet crawlspace and wood that never had time to settle in.",
+   "tiles": [
+    {"icon": "thermo", "label": "Indoor temperature", "value": "60–80°F"},
+    {"icon": "moisture", "label": "Indoor humidity", "value": "30–50%"},
+    {"icon": "ruler", "label": "Wood vs subfloor", "value": "Within 2–4%"},
+    {"icon": "dollar", "label": "Install labor", "value": "$3.25 / sq ft"}
+   ]
+  },
+  {
+   "type": "p",
+   "html": "The question usually arrives in November from someone in Clearview or out on Fobes Hill who just pulled up carpet and found particleboard. They want real wood before the holidays, and a relative has told them wood floors should only go in during summer. That advice comes from a different climate. In Snohomish the outdoor air is soaked from October to April, but the air inside a heated house is at its driest of the year. Understanding that flip is the whole answer, so here is how we plan a winter installation around it."
+  },
+  {"type": "h2", "text": "What the wood actually cares about"},
+  {
+   "type": "cards",
+   "cols": 2,
+   "items": [
+    {"icon": "thermo", "title": "A heated, lived-in house", "text": "Hardwood, adhesive and the subfloor all need the house to be at normal living temperature for a week before delivery and to stay there. A vacant Snohomish farmhouse with the furnace set to 50 is not ready. Turn the heat on, and if it is a remodel, finish the drywall and paint first so the moisture they release is gone."},
+    {"icon": "moisture", "title": "Indoor humidity in a livable band", "text": "Most flooring manufacturers want 30 to 50 percent relative humidity in the room, year round. A Snohomish house running the furnace in January often sits at 30 to 40 percent, which is inside the band. The trouble spot is a house that is closed up and unheated, where indoor humidity tracks the outdoor 85 percent."},
+    {"icon": "ruler", "title": "Wood and subfloor moisture that agree", "text": "We meter the planks and the plywood before the first board goes down. For strip and narrow plank we want them within about 4 percent of each other; for wide plank, within 2 percent. If the subfloor reads 14 percent because the crawlspace is damp, no amount of acclimating the wood fixes that."},
+    {"icon": "home", "title": "A dry crawlspace underneath", "text": "This is the Snohomish variable. Older homes on acreage often have bare dirt crawlspaces, clogged vents and downspouts dumping at the foundation. In winter that puts water vapor straight into the subfloor. We check it on every estimate, and a vapor barrier and drainage fix comes before flooring, not after."}
+   ]
+  },
+  {"type": "h2", "text": "Winter vs summer installation in a Snohomish house"},
+  {
+   "type": "table",
+   "head": ["Factor", "Winter install (Nov–Mar)", "Summer install (Jun–Sep)"],
+   "rows": [
+    ["Indoor humidity", "Low, 30–40% with the furnace on. Wood is at its smallest.", "Higher, 45–60% on wet stretches. Wood is at its largest."],
+    ["Seasonal movement later", "Boards swell slightly in summer; gaps close. Leave the manufacturer's expansion space.", "Boards shrink in winter; hairline gaps appear the first January. Normal, but noticeable."],
+    ["Acclimation", "5 to 7 days in the heated room. Do not store the wood in the garage.", "5 to 7 days, but a humid week can push wide plank to 10 or more."],
+    ["Delivery", "Planks come in wrapped and go straight inside. We do not unload in the rain.", "Easy."],
+    ["Scheduling", "Open calendar, faster start, done before guests arrive.", "Peak season; 3 to 6 weeks out is common."],
+    ["Site-finished floors", "Finish dries fine in a heated house; allow a few extra hours per coat.", "Fastest dry times."]
+   ],
+   "note": "Movement figures are typical for oak and maple. Hickory and wide plank move more; engineered hardwood moves the least."
+  },
+  {"type": "h2", "text": "Price your Snohomish hardwood installation"},
+  {
+   "type": "calc",
+   "kind": "hardwood",
+   "note": "Labor only. Material, underlayment, vapor barrier, old-floor removal and any crawlspace work are quoted at the free in-home estimate."
+  },
+  {"type": "h2", "text": "How a winter installation runs, start to finish"},
+  {
+   "type": "steps",
+   "wide": true,
+   "items": [
+    {"icon": "search", "d": "Estimate visit", "text": "We measure, meter the subfloor, open the crawlspace hatch and look for standing water, bare dirt or a torn vapor barrier. Samples come with us so you choose the floor in your own light.", "note": "Free. About an hour in most Snohomish homes."},
+    {"icon": "home", "d": "One week before delivery", "text": "Heat on and held at 60 to 80 degrees. Any painting, drywall or tile work finished and dry. If a wood stove is the main heat, we ask you to run it steadily rather than in hot bursts.", "note": "This is the step most often skipped, and the one that matters most."},
+    {"icon": "truck", "d": "Delivery and acclimation", "text": "Boxes go into the rooms where the floor will live, stacked with air space, not in the garage or a cold mudroom. We meter a sample of planks on arrival and again before installation.", "note": "5 to 7 days for most floors, longer for wide solid plank."},
+    {"icon": "hammer", "d": "Installation", "text": "Underlayment or vapor retarder down, layout snapped, boards nailed, glued or floated per the product. Rows are set to the manufacturer's expansion gap at every wall so the summer swell has room.", "note": "A 1,000 sq ft main floor is typically two to three days."},
+    {"icon": "done", "d": "First winter and first summer", "text": "Winter-installed floors are the tightest they will ever be on day one. Expect them to close up even more, or press slightly, by August. That is why the expansion gap is not optional.", "note": "A humidifier is rarely needed in Snohomish; a dehumidifier in summer sometimes is."}
+   ]
+  },
+  {"type": "h2", "text": "When to wait for spring"},
+  {
+   "type": "compare",
+   "a": {
+    "icon": "done",
+    "tag": "Go ahead in winter",
+    "title": "Install now when",
+    "items": [
+     "The house is occupied and heated every day",
+     "The crawlspace has a vapor barrier and reads dry",
+     "Subfloor moisture is under about 12% and stable",
+     "You are installing engineered or standard-width solid",
+     "Interior painting and drywall are finished"
+    ]
+   },
+   "b": {
+    "icon": "x",
+    "tag": "Wait",
+    "title": "Hold off when",
+    "items": [
+     "The house is vacant and unheated between visits",
+     "The crawlspace has standing water or bare dirt in winter",
+     "Subfloor readings climb week over week",
+     "It is a new addition still drying out from concrete or plaster",
+     "You want 7 in or wider solid plank and cannot hold humidity steady"
+    ]
+   }
+  },
+  {
+   "type": "callout",
+   "icon": "flame",
+   "title": "Wood stoves and pellet stoves: ",
+   "text": "Common in Snohomish and hard on a new floor if they are the only heat. The room around the stove can hit 15 percent humidity while the back bedroom sits at 50. Run the central furnace during acclimation and installation, keep the stove modest for the first month, and use a rug pad, not a bare rug, in front of it."
+  },
+  {"type": "h2", "text": "How to get a floor that stays tight after winter"},
+  {
+   "type": "list",
+   "icons": true,
+   "items": [
+    {"icon": "moisture", "html": "<strong>Ask for the moisture readings in writing.</strong> Plank and subfloor, before installation. If an installer does not own a meter, that tells you something."},
+    {"icon": "layers", "html": "<strong>Favor engineered or narrower solid boards for a winter start.</strong> They move less, so the summer swell is smaller. Engineered is also the right call over any Snohomish crawlspace that has ever been damp. Our <a href=\"/services/hardwood-flooring\">hardwood installation</a> page covers both."},
+    {"icon": "home", "html": "<strong>Fix the crawlspace first.</strong> A 6 mil vapor barrier over the dirt and working downspout extensions cost a fraction of a cupped floor."},
+    {"icon": "calendar", "html": "<strong>Give the wood its full week.</strong> Rushing acclimation to hit a holiday deadline is how gaps and squeaks happen. Book a week earlier instead; winter calendars have room."},
+    {"icon": "thermo", "html": "<strong>Hold the house between 30 and 50 percent humidity year round.</strong> A cheap hygrometer on the wall is the best warranty you can buy. If you are also thinking about the existing floors, <a href=\"/blog-posts/can-hardwood-floors-be-refinished-in-winter-snohomish\">winter refinishing</a> follows the same rules."}
+   ]
+  }
+ ],
+ "faq": [
+  {"q": "Is winter a bad time to install hardwood floors?", "a": "No. In western Washington a heated house in winter has lower indoor humidity than the same house in summer, which is comfortable for wood. The real requirements are steady heat, indoor humidity in the 30 to 50 percent range and wood that has acclimated to the room for about a week."},
+  {"q": "How long does hardwood need to acclimate in winter?", "a": "Five to seven days inside the heated rooms where it will be installed, for most oak and maple products. Wide solid plank may need longer. Acclimation in a cold garage does not count; the wood must sit in the conditions it will live in."},
+  {"q": "Will hardwood installed in winter gap in summer?", "a": "Usually the opposite. Winter-installed boards are at their smallest, so they swell slightly and tighten in summer. That is why the installer must leave the manufacturer's expansion gap at the walls. Floors installed in humid summers are the ones that show winter gaps."},
+  {"q": "Can hardwood be installed over a crawlspace in Snohomish in winter?", "a": "Yes, if the crawlspace is dry enough. We meter the subfloor and check for a vapor barrier over the soil. A damp winter crawlspace pushes moisture into the plywood, and hardwood on top will cup. Engineered hardwood is the safer choice over any crawlspace with a moisture history."},
+  {"q": "How much does Wills Flooring charge to install hardwood floors in Snohomish?", "a": "Our published labor rate is $3.25 per sq ft for engineered or solid prefinished hardwood and $2.75 per sq ft for unfinished, with a 500 sq ft minimum, plus $125 per stair. Material, underlayment and old-floor removal are quoted at the free in-home estimate."},
+  {"q": "Does a wood stove affect a new hardwood floor?", "a": "It can. A stove dries the air near it far more than a furnace does, so boards close to the stove shrink more than boards across the room. Run central heat during installation, ease the stove in over the first month, and keep room humidity above 30 percent."}
+ ],
+ "faq_title": "Winter hardwood installation questions from Snohomish",
+ "faq_sub": "Asked from farmhouses, Clearview two-stories and the Lynnwood showroom floor.",
+ "related": [
+  ["do-hardwood-floors-need-to-acclimate-before-installation-kirkland", "how long hardwood needs to acclimate"],
+  ["hardwood-over-a-crawlspace-kirkland", "hardwood over a crawlspace"],
+  ["how-far-out-should-you-book-hardwood-installation-in-everett", "how far out to book an installation"]
+ ],
+ "cta_title": "Get a winter installation date and a firm price",
+ "cta_sub": "We bring samples and a moisture meter to your Snohomish home, check the crawlspace and hand you a written quote on the spot. Free, no obligation."
+}

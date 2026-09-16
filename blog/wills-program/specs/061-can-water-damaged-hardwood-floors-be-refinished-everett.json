@@ -1,0 +1,288 @@
+{
+ "slug": "can-water-damaged-hardwood-floors-be-refinished-everett",
+ "title": "Can Water-Damaged Hardwood Floors Be Refinished? When Sanding Works and When It Doesn't",
+ "meta": "Often yes. Stains and mild cupping sand out once the wood dries; buckled, black or soft boards are replaced first. Wills Flooring explains for Everett homes.",
+ "category": "refinish",
+ "city": "Everett",
+ "time": "8 mins",
+ "date": "2026-11-16T15:00:00.000Z",
+ "keywords": "can water damaged hardwood floors be refinished, water damaged hardwood floor repair, cupped hardwood floors sanding, refinish hardwood after leak, hardwood floor water damage insurance, hardwood floor refinishing Everett WA",
+ "offers": [
+  [
+   "Sand and refinish, natural finish",
+   "3.99",
+   "per square foot"
+  ],
+  [
+   "Sand and refinish with stain",
+   "6.50",
+   "per square foot"
+  ],
+  [
+   "Screen and recoat",
+   "1.99",
+   "per square foot"
+  ]
+ ],
+ "blocks": [
+  {
+   "type": "quick",
+   "eyebrow": "Short answer",
+   "lead": "Often, yes. Water stains, mild cupping and a failed finish all sand out once the wood has dried back below about 12 percent moisture, but boards that are buckled, black through their thickness, or soft have to be replaced before the floor is refinished.",
+   "detail": "The single most important step is the one nobody wants to wait for: drying. Sand a floor that is still wet and it will crown and need sanding again. A moisture meter, not a calendar, tells us when a floor is ready.",
+   "tiles": [
+    {
+     "icon": "droplet",
+     "label": "Dry first",
+     "value": "Under 12% moisture"
+    },
+    {
+     "icon": "refresh",
+     "label": "Mild cupping",
+     "value": "Sands flat"
+    },
+    {
+     "icon": "moon",
+     "label": "Black to the core",
+     "value": "Replace boards"
+    },
+    {
+     "icon": "brush",
+     "label": "Refinish rate",
+     "value": "$3.99 / sq ft"
+    }
+   ],
+   "cta": "Try the calculator"
+  },
+  {
+   "type": "p",
+   "html": "Water damage in Everett comes in three flavors. A dishwasher supply line lets go in a Silver Lake or Eastmont two-story and soaks 1990s builder oak for a weekend. A Port Gardner condo takes water from the unit upstairs. A 1910s Riverside house near the river has a crawlspace that has been damp for decades, and the fir above it has cupped so slowly the owners stopped noticing. Each can often be refinished instead of replaced, but the biggest mistake is calling a sander before the wood has dried. Here is how we decide, what it costs at our published rates, and how the insurance conversation goes."
+  },
+  {
+   "type": "h2",
+   "text": "Type of damage, and whether sanding fixes it"
+  },
+  {
+   "type": "table",
+   "head": [
+    "What you see",
+    "What it means",
+    "Refinishable?",
+    "What we do"
+   ],
+   "rows": [
+    [
+     "White or light gray cloudy stain",
+     "Water got into or under the finish only",
+     "Yes",
+     "Full sand removes it; natural finish at $3.99 per sq ft"
+    ],
+    [
+     "Dark brown stain, wood still firm",
+     "Water soaked into the wood and left minerals behind",
+     "Usually",
+     "Sand, then oxalic acid bleach on what remains; may leave a faint shadow"
+    ],
+    [
+     "Cupping: board edges higher than centers",
+     "Bottom of the boards wetter than the top, typically from below",
+     "Yes, once dry",
+     "Dry to under 12 percent, then sand flat. Sanding wet cupped boards causes crowning later"
+    ],
+    [
+     "Crowning: board centers higher than edges",
+     "Floor was sanded flat while still cupped, then dried",
+     "Yes",
+     "Second sanding after full drying; wood thickness has to allow it"
+    ],
+    [
+     "Buckling: boards lifted off the subfloor",
+     "Severe swelling, often standing water for days",
+     "No, not those boards",
+     "Remove and replace lifted boards, dry subfloor, weave in new wood, sand whole room"
+    ],
+    [
+     "Black through the board, soft or spongy",
+     "Rot or long-term saturation",
+     "No",
+     "Replace boards and possibly subfloor; check for mold"
+    ]
+   ],
+   "note": "We meter every damaged board at the estimate. Oak and fir read differently, so we compare against an undamaged board in the same room."
+  },
+  {
+   "type": "h2",
+   "text": "Why drying comes before everything else"
+  },
+  {
+   "type": "cards",
+   "cols": 2,
+   "items": [
+    {
+     "icon": "droplet",
+     "title": "Wet wood is a moving target",
+     "text": "Oak swells across its width as it takes on water and shrinks as it dries. A cupped board sanded flat today will keep drying, its edges shrink, and the center ends up proud: crowning. Now it needs a second sanding, and thin floors may not have the wood for it."
+    },
+    {
+     "icon": "clock",
+     "title": "How long drying really takes",
+     "text": "A weekend dishwasher leak on 3/4 in oak with fans and a dehumidifier: two to four weeks. A floor over a chronically damp Riverside crawlspace: the crawlspace has to be fixed first, then the floor can take six weeks or more to settle. We check with a pin meter, not a guess."
+    },
+    {
+     "icon": "thermo",
+     "title": "Dry from below too",
+     "text": "Water that came from above often ends up in the subfloor. If the plywood or plank subfloor under the hardwood is still wet, the boards will re-cup after refinishing. In a condo we ask to see the ceiling below; in a house we look in the crawlspace."
+    },
+    {
+     "icon": "search",
+     "title": "The number we want",
+     "text": "Under 12 percent moisture content, and within 2 to 3 points of an undamaged board in the same room. Everett's damp winters mean a healthy floor often reads 9 to 11 percent, so a damaged board at 12 is not done yet."
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "Price your Everett refinish right now"
+  },
+  {
+   "type": "calc",
+   "kind": "refinish",
+   "note": "Board replacement, subfloor drying and bleaching are quoted at the estimate. The rates here cover the sanding and finishing of the whole room."
+  },
+  {
+   "type": "h2",
+   "text": "Three Everett water jobs, with the math"
+  },
+  {
+   "type": "steps",
+   "wide": true,
+   "items": [
+    {
+     "icon": "home",
+     "d": "Silver Lake kitchen and dining · 650 sq ft",
+     "text": "Dishwasher supply line failure, brown staining across about 30 sq ft, mild cupping. Dried three weeks with fans and a dehumidifier, then sanded and finished natural. Fridge and range moved.",
+     "note": "650 × $3.99 + 2 × $80 = $2,754. Six boards replaced, quoted separately."
+    },
+    {
+     "icon": "home",
+     "d": "Riverside 1915 fir main floor · 1,100 sq ft + 14 stairs",
+     "text": "Chronic crawlspace damp, whole-floor cupping. Owner had a vapor barrier and dehumidifier installed; floor took seven weeks to settle. Sanded flat, natural satin finish, stairs refinished to match.",
+     "note": "1,100 × $3.99 + 14 × $55 = $5,159"
+    },
+    {
+     "icon": "home",
+     "d": "Port Gardner condo · 800 sq ft",
+     "text": "Leak from the unit above left dark shadows on oak after bleaching. Owner chose a medium brown stain to hide the remaining marks and refresh the look for resale.",
+     "note": "800 × $6.50 = $5,200, plus building elevator reservation and $250 dust containment for an occupied unit"
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "The process from leak to finished floor"
+  },
+  {
+   "type": "list",
+   "icons": true,
+   "items": [
+    {
+     "icon": "wind",
+     "html": "<strong>Dry it properly.</strong> Air movers and a dehumidifier for two to six weeks, longer for crawlspace problems. A water-mitigation company can speed this up; ask them to leave a drying log with moisture readings."
+    },
+    {
+     "icon": "search",
+     "html": "<strong>Meter and decide.</strong> We read every affected board and mark the ones under 12 percent and firm as sandable, and the buckled, soft or black-through boards for replacement."
+    },
+    {
+     "icon": "hammer",
+     "html": "<strong>Replace what has to go.</strong> Matching oak or fir is woven into the existing floor, with joints staggered so the patch disappears once sanded."
+    },
+    {
+     "icon": "brush",
+     "html": "<strong>Sand the whole room, bleach stains, finish.</strong> The entire connected floor is sanded so the repaired area matches. Remaining dark marks are bleached or, if you prefer, hidden with a stain at $6.50 per sq ft."
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "Refinish or replace the floor?"
+  },
+  {
+   "type": "compare",
+   "a": {
+    "icon": "done",
+    "tag": "Refinish",
+    "title": "Sanding wins when",
+    "items": [
+     "Fewer than about 15 to 20 percent of boards need replacement",
+     "Boards are firm and have dried below 12 percent",
+     "The floor has enough thickness left for one more sanding"
+    ]
+   },
+   "b": {
+    "icon": "x",
+    "tag": "Replace",
+    "title": "New floor makes more sense when",
+    "items": [
+     "Buckling covers most of the room and the subfloor is damaged",
+     "Boards are black and soft across a large area or smell of mold",
+     "The floor is thin fir already sanded to the nail heads"
+    ]
+   }
+  },
+  {
+   "type": "callout",
+   "icon": "clipboard",
+   "title": "On insurance claims: ",
+   "text": "Most policies cover sudden leaks, not slow ones. Photograph everything before drying starts, keep the mitigation company's moisture log, and get our written estimate for the whole connected floor, not just the wet patch. Adjusters generally accept that a refinish has to cover the entire room to match, and a stain to hide residual marks is a reasonable line item. We can walk the adjuster through the estimate."
+  },
+  {
+   "type": "p",
+   "html": "Not sure whether your floor is cupped, crowned or both? See our post on <a href=\"/blog-posts/cupped-or-crowned-hardwood-floors-snohomish\">cupped and crowned hardwood floors</a>. Either way, the free estimate includes moisture readings on every board you are worried about."
+  }
+ ],
+ "faq": [
+  {
+   "q": "Can you sand out water stains on hardwood floors?",
+   "a": "White or cloudy stains almost always sand out, because they are in the finish. Brown stains usually sand out or fade with oxalic acid bleach after sanding. Black stains that go through the board do not; those boards are replaced before the room is sanded. A shadow that remains can be hidden with a stain."
+  },
+  {
+   "q": "How long should hardwood dry before refinishing after water damage?",
+   "a": "Until it reads under 12 percent moisture and within two or three points of undamaged boards in the same room, not a set number of days. A short leak on oak takes two to four weeks with fans and a dehumidifier. A floor over a damp Everett crawlspace can take six weeks or more once the crawlspace is fixed."
+  },
+  {
+   "q": "Will cupped hardwood floors flatten on their own?",
+   "a": "Sometimes, if the moisture source was brief and the boards dry evenly. Boards often flatten most of the way but keep a slight cup that a sanding removes. Do not sand cupped boards while they are still wet; they will dry into crowned boards with high centers and need sanding again."
+  },
+  {
+   "q": "How much does it cost to refinish water-damaged hardwood floors in Everett?",
+   "a": "Sanding and finishing are at Wills Flooring's published rates: $3.99 per sq ft natural or $6.50 with stain, 500 sq ft minimum. Board replacement and any subfloor work are quoted at the free estimate after we meter the floor. A 650 sq ft Silver Lake kitchen and dining room is 650 × $3.99 = $2,594 for the refinish."
+  },
+  {
+   "q": "Does homeowners insurance cover refinishing hardwood after a leak?",
+   "a": "Sudden and accidental leaks, such as a failed supply line or an upstairs neighbor's overflow, are usually covered. Slow leaks and long-term crawlspace moisture usually are not. Document with photos, keep the drying log, and submit a written estimate for the whole connected floor since the entire room must be sanded to match."
+  },
+  {
+   "q": "Can engineered hardwood be refinished after water damage?",
+   "a": "Only if the wear layer is thick enough, roughly 3 mm or more, and the plywood core has not delaminated. Engineered boards that swell often separate at the core and need replacement. Solid oak and fir, which most older Everett homes have, are far more forgiving and can usually be dried and sanded."
+  }
+ ],
+ "faq_title": "Water damage questions from Everett homeowners",
+ "faq_sub": "Usually asked the week after the leak, before the floor is dry.",
+ "related": [
+  [
+   "can-my-hardwood-floors-be-refinished-or-do-they-need-replacing-everett",
+   "refinish or replace in Everett"
+  ],
+  [
+   "cupped-or-crowned-hardwood-floors-snohomish",
+   "cupped and crowned hardwood floors"
+  ],
+  [
+   "why-are-my-hardwood-floors-turning-gray-or-black-seattle",
+   "why floors turn gray or black"
+  ]
+ ],
+ "cta_title": "Get the floor metered before you decide",
+ "cta_sub": "We read the moisture in every damaged board at your Everett home, tell you what will sand out and what will not, and leave a firm written quote you can hand to the adjuster. Free, no obligation."
+}
