@@ -1,7 +1,7 @@
 {
  "slug": "patterned-carpet-trends-for-2026-kirkland",
  "title": "Patterned Carpet Trends for 2026: What Designers in Kirkland Are Choosing",
- "meta": "Patterned carpet trends for 2026 in Kirkland: quiet geometrics, tone-on-tone cut and loop, striped stair runners and warm neutrals. Wills Flooring explains what works.",
+ "meta": "Patterned carpet trends for 2026 in Kirkland: quiet geometrics, tone-on-tone cut and loop, striped stair runners and warm neutrals. Wills Flooring explains.",
  "category": "carpet",
  "city": "Kirkland",
  "time": "7 mins",
@@ -14,10 +14,26 @@
    "lead": "In 2026 Kirkland designers are picking quiet, small-scale patterns: tone-on-tone cut and loop geometrics, soft trellis, linen-look textures and striped stair runners, almost always in warm neutrals rather than bold color.",
    "detail": "The look is pattern you notice from the doorway and forget when you sit down. Big florals and high-contrast prints are what people are pulling out, not putting in.",
    "tiles": [
-    {"icon": "grid", "label": "Pattern scale", "value": "Small, 2 to 6 in repeat"},
-    {"icon": "palette", "label": "Palette", "value": "Warm greige, oat, clay"},
-    {"icon": "layers", "label": "Construction", "value": "Cut and loop, wool blends"},
-    {"icon": "stairs", "label": "Where it goes", "value": "Stairs, bedrooms, dens"}
+    {
+     "icon": "grid",
+     "label": "Pattern scale",
+     "value": "Small, 2 to 6 in repeat"
+    },
+    {
+     "icon": "palette",
+     "label": "Palette",
+     "value": "Warm greige, oat, clay"
+    },
+    {
+     "icon": "layers",
+     "label": "Construction",
+     "value": "Cut and loop, wool blends"
+    },
+    {
+     "icon": "stairs",
+     "label": "Where it goes",
+     "value": "Stairs, bedrooms, dens"
+    }
    ],
    "cta": false
   },
@@ -33,12 +49,43 @@
    "type": "cards",
    "cols": 3,
    "items": [
-    {"icon": "grid", "tag": "Most requested", "title": "Tone-on-tone geometric", "text": "Small squares, diamonds or a soft trellis cut into a loop base, all in one color. The pattern is light and shadow from the height difference between cut and loop yarn. It hides footprints and vacuum tracks, which is why designers put it in bedrooms.", "gold": true},
-    {"icon": "layers", "tag": "Modern classic", "title": "Herringbone loop", "text": "A tight herringbone worked into a level loop. It borrows from the herringbone wood and tile Eastside remodels have used for years and ties a carpeted bedroom to a hardwood hall. Best in a mid-tone where the pattern reads but does not shout."},
-    {"icon": "leaf", "tag": "Quiet luxury", "title": "Linen and sisal textures", "text": "Not a printed pattern at all: a fine woven-look loop that mimics linen or sisal. Kirkland buyers get the natural-fiber look without the staining and stiffness of real sisal. Usually a wool or wool-nylon blend in oat, flax or sand."},
-    {"icon": "stairs", "tag": "Stairs and halls", "title": "Striped runners", "text": "Three or four related neutrals in narrow stripes running down a staircase or hallway. Stripes make a short hall feel longer and give stairs a tailored look. On Kirkland split-levels this is the single most common patterned request."},
-    {"icon": "sparkle", "tag": "Rising", "title": "Organic and abstract", "text": "Soft, irregular shapes like watercolor or worn stone, tufted in two close tones. A favorite for media rooms and primary suites because it forgives spills and pet traffic better than any solid: there is no clean field for a stain to sit in."},
-    {"icon": "x", "tag": "Fading", "title": "High-contrast prints", "text": "Black and cream animal prints, large florals and bold tile motifs still sell as area rugs, but as wall-to-wall they are leaving Kirkland specs. Buyers read them as a personal choice they will have to replace, and resale is always in the back of the mind here."}
+    {
+     "icon": "grid",
+     "tag": "Most requested",
+     "title": "Tone-on-tone geometric",
+     "text": "Small squares, diamonds or a soft trellis cut into a loop base, all in one color. The pattern is light and shadow from the height difference between cut and loop yarn. It hides footprints and vacuum tracks, which is why designers put it in bedrooms.",
+     "gold": true
+    },
+    {
+     "icon": "layers",
+     "tag": "Modern classic",
+     "title": "Herringbone loop",
+     "text": "A tight herringbone worked into a level loop. It borrows from the herringbone wood and tile Eastside remodels have used for years and ties a carpeted bedroom to a hardwood hall. Best in a mid-tone where the pattern reads but does not shout."
+    },
+    {
+     "icon": "leaf",
+     "tag": "Quiet luxury",
+     "title": "Linen and sisal textures",
+     "text": "Not a printed pattern at all: a fine woven-look loop that mimics linen or sisal. Kirkland buyers get the natural-fiber look without the staining and stiffness of real sisal. Usually a wool or wool-nylon blend in oat, flax or sand."
+    },
+    {
+     "icon": "stairs",
+     "tag": "Stairs and halls",
+     "title": "Striped runners",
+     "text": "Three or four related neutrals in narrow stripes running down a staircase or hallway. Stripes make a short hall feel longer and give stairs a tailored look. On Kirkland split-levels this is the single most common patterned request."
+    },
+    {
+     "icon": "sparkle",
+     "tag": "Rising",
+     "title": "Organic and abstract",
+     "text": "Soft, irregular shapes like watercolor or worn stone, tufted in two close tones. A favorite for media rooms and primary suites because it forgives spills and pet traffic better than any solid: there is no clean field for a stain to sit in."
+    },
+    {
+     "icon": "x",
+     "tag": "Fading",
+     "title": "High-contrast prints",
+     "text": "Black and cream animal prints, large florals and bold tile motifs still sell as area rugs, but as wall-to-wall they are leaving Kirkland specs. Buyers read them as a personal choice they will have to replace, and resale is always in the back of the mind here."
+    }
    ]
   },
   {
@@ -47,14 +94,42 @@
   },
   {
    "type": "table",
-   "head": ["Room", "Pattern scale", "Why"],
+   "head": [
+    "Room",
+    "Pattern scale",
+    "Why"
+   ],
    "rows": [
-    ["Primary bedroom", "Small tone-on-tone geometric", "Soft underfoot, hides traffic lanes, reads as a solid from the bed."],
-    ["Kids' rooms", "Organic or small trellis", "Forgives spills. Avoid stripes; furniture rarely sits square to them."],
-    ["Stairs and upstairs hall", "Stripes or fine herringbone", "The most-seen carpet in the house. Pattern makes it feel intentional."],
-    ["Media room or basement", "Larger organic pattern", "Low light flattens texture, so a bigger repeat still shows."],
-    ["Home office", "Linen-look loop", "Rolling chairs need a low, dense loop. Texture reads as pattern without a repeat."],
-    ["Main floor living room", "Usually none", "Most Kirkland main floors are hardwood now. Where carpet stays, rugs carry the pattern."]
+    [
+     "Primary bedroom",
+     "Small tone-on-tone geometric",
+     "Soft underfoot, hides traffic lanes, reads as a solid from the bed."
+    ],
+    [
+     "Kids' rooms",
+     "Organic or small trellis",
+     "Forgives spills. Avoid stripes; furniture rarely sits square to them."
+    ],
+    [
+     "Stairs and upstairs hall",
+     "Stripes or fine herringbone",
+     "The most-seen carpet in the house. Pattern makes it feel intentional."
+    ],
+    [
+     "Media room or basement",
+     "Larger organic pattern",
+     "Low light flattens texture, so a bigger repeat still shows."
+    ],
+    [
+     "Home office",
+     "Linen-look loop",
+     "Rolling chairs need a low, dense loop. Texture reads as pattern without a repeat."
+    ],
+    [
+     "Main floor living room",
+     "Usually none",
+     "Most Kirkland main floors are hardwood now. Where carpet stays, rugs carry the pattern."
+    ]
    ],
    "note": "These are the choices we see across Juanita, Rose Hill and Finn Hill remodels. Your light and furniture will shift them."
   },
@@ -79,10 +154,27 @@
    "type": "steps",
    "wide": true,
    "items": [
-    {"icon": "ruler", "d": "Measure the repeat", "text": "Every pattern has a length and width repeat on the spec sheet. The layout is planned so seams land on a full repeat and the pattern runs square to the longest wall."},
-    {"icon": "box", "d": "Order the extra", "text": "Patterned carpet needs a higher waste factor than solid because every cut has to land on the repeat, especially for stairs and L-shaped rooms.", "note": "We calculate it at the measure so there is one order, not two."},
-    {"icon": "scissors", "d": "Cut to pattern, then to room", "text": "Each piece is cut on the repeat line first, then trimmed to the room. Cutting to the room first is how patterns end up half a diamond off at the seam."},
-    {"icon": "stairs", "d": "Stretch, check, align the stairs", "text": "The carpet is power-stretched, then checked with a straightedge across the pattern before the last edge is tucked. Runner stripes are centered on each tread and carried straight down every riser."}
+    {
+     "icon": "ruler",
+     "d": "Measure the repeat",
+     "text": "Every pattern has a length and width repeat on the spec sheet. The layout is planned so seams land on a full repeat and the pattern runs square to the longest wall."
+    },
+    {
+     "icon": "box",
+     "d": "Order the extra",
+     "text": "Patterned carpet needs a higher waste factor than solid because every cut has to land on the repeat, especially for stairs and L-shaped rooms.",
+     "note": "We calculate it at the measure so there is one order, not two."
+    },
+    {
+     "icon": "scissors",
+     "d": "Cut to pattern, then to room",
+     "text": "Each piece is cut on the repeat line first, then trimmed to the room. Cutting to the room first is how patterns end up half a diamond off at the seam."
+    },
+    {
+     "icon": "stairs",
+     "d": "Stretch, check, align the stairs",
+     "text": "The carpet is power-stretched, then checked with a straightedge across the pattern before the last edge is tucked. Runner stripes are centered on each tread and carried straight down every riser."
+    }
    ]
   },
   {
@@ -93,10 +185,22 @@
    "type": "list",
    "icons": true,
    "items": [
-    {"icon": "palette", "html": "<strong>Warm greige and mushroom.</strong> The cool gray of every Kirkland flip from 2015 to 2021 is out. Pattern in a warm gray-beige reads as texture and sits well next to white oak."},
-    {"icon": "leaf", "html": "<strong>Oat, flax and sand.</strong> The linen-look loops live here. They pull light into north-facing bedrooms in Juanita and Finn Hill that feel dim from November to March."},
-    {"icon": "sun", "html": "<strong>Clay and rust as one accent stripe.</strong> A single warm stripe in a neutral runner is how most Kirkland owners bring in color without committing a room to it."},
-    {"icon": "moon", "html": "<strong>Charcoal, in small doses.</strong> A deep small geometric makes a media room feel like a theater. Keep it off stairs and halls, where lint and pet hair show."}
+    {
+     "icon": "palette",
+     "html": "<strong>Warm greige and mushroom.</strong> The cool gray of every Kirkland flip from 2015 to 2021 is out. Pattern in a warm gray-beige reads as texture and sits well next to white oak."
+    },
+    {
+     "icon": "leaf",
+     "html": "<strong>Oat, flax and sand.</strong> The linen-look loops live here. They pull light into north-facing bedrooms in Juanita and Finn Hill that feel dim from November to March."
+    },
+    {
+     "icon": "sun",
+     "html": "<strong>Clay and rust as one accent stripe.</strong> A single warm stripe in a neutral runner is how most Kirkland owners bring in color without committing a room to it."
+    },
+    {
+     "icon": "moon",
+     "html": "<strong>Charcoal, in small doses.</strong> A deep small geometric makes a media room feel like a theater. Keep it off stairs and halls, where lint and pet hair show."
+    }
    ]
   },
   {
@@ -136,11 +240,26 @@
    "type": "list",
    "icons": true,
    "items": [
-    {"icon": "search", "html": "<strong>What is the repeat, and where will the seams fall?</strong> A good installer can show you on the room sketch before the carpet is ordered. If a patterned quote carries the same labor time as a solid, they plan to cut it like a solid."},
-    {"icon": "home", "html": "<strong>Can I see the sample at night?</strong> Tone-on-tone patterns change completely under warm lamps. Our <a href=\"/services/carpet-installation\">mobile showroom</a> leaves samples with you overnight for this reason."},
-    {"icon": "layers", "html": "<strong>What pad does this pattern want?</strong> Cut and loop holds its definition longer on a firm, dense pad. A soft pad lets the loops crush and the pattern blur."},
-    {"icon": "stairs", "html": "<strong>How will the stairs be wrapped?</strong> Waterfall, wrapped nose or a runner with exposed treads each use different lengths and show the pattern differently. Our post on <a href=\"/blog-posts/what-is-the-best-carpet-for-stairs-lynnwood\">carpet for stairs</a> covers the tradeoffs."},
-    {"icon": "shield", "html": "<strong>What if the pattern is off at a seam?</strong> Wills Flooring backs installation with a 1-year workmanship warranty, and a visibly misaligned pattern is a workmanship issue."}
+    {
+     "icon": "search",
+     "html": "<strong>What is the repeat, and where will the seams fall?</strong> A good installer can show you on the room sketch before the carpet is ordered. If a patterned quote carries the same labor time as a solid, they plan to cut it like a solid."
+    },
+    {
+     "icon": "home",
+     "html": "<strong>Can I see the sample at night?</strong> Tone-on-tone patterns change completely under warm lamps. Our <a href=\"/services/carpet-installation\">mobile showroom</a> leaves samples with you overnight for this reason."
+    },
+    {
+     "icon": "layers",
+     "html": "<strong>What pad does this pattern want?</strong> Cut and loop holds its definition longer on a firm, dense pad. A soft pad lets the loops crush and the pattern blur."
+    },
+    {
+     "icon": "stairs",
+     "html": "<strong>How will the stairs be wrapped?</strong> Waterfall, wrapped nose or a runner with exposed treads each use different lengths and show the pattern differently. Our post on <a href=\"/blog-posts/what-is-the-best-carpet-for-stairs-lynnwood\">carpet for stairs</a> covers the tradeoffs."
+    },
+    {
+     "icon": "shield",
+     "html": "<strong>What if the pattern is off at a seam?</strong> Wills Flooring backs installation with a 1-year workmanship warranty, and a visibly misaligned pattern is a workmanship issue."
+    }
    ]
   }
  ],
@@ -173,9 +292,18 @@
  "faq_title": "Patterned carpet questions from Kirkland homeowners",
  "faq_sub": "Asked at kitchen tables from Juanita to Bridle Trails.",
  "related": [
-  ["is-carpet-outdated-in-2026-kirkland", "is carpet outdated in 2026?"],
-  ["light-vs-dark-carpet-seattle", "light vs dark carpet"],
-  ["berber-vs-plush-vs-frieze-carpet-edmonds", "berber, plush and frieze explained"]
+  [
+   "is-carpet-outdated-in-2026-kirkland",
+   "is carpet outdated in 2026?"
+  ],
+  [
+   "light-vs-dark-carpet-seattle",
+   "light vs dark carpet"
+  ],
+  [
+   "berber-vs-plush-vs-frieze-carpet-edmonds",
+   "berber, plush and frieze explained"
+  ]
  ],
  "cta_title": "See the pattern in your own light",
  "cta_sub": "Our mobile showroom brings 2026 patterned samples to your Kirkland home, plans the seams and stair alignment on the spot, and leaves you with a firm written price. Free, no obligation."

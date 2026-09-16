@@ -1,14 +1,18 @@
 {
  "slug": "can-vinyl-plank-be-installed-in-winter-in-kirkland",
  "title": "Can Vinyl Plank Be Installed in Winter in Kirkland?",
- "meta": "Yes. Vinyl plank installs well in a Kirkland winter if planks acclimate 48 hours at 65 to 85°F and the slab tests dry. Wills Flooring explains the cold-weather rules.",
+ "meta": "Yes. Vinyl plank installs well in a Kirkland winter if planks acclimate 48 hours at 65 to 85°F and the slab tests dry. Wills Flooring's cold-weather rules.",
  "category": "lvp",
  "city": "Kirkland",
  "time": "8 mins",
  "date": "2027-03-30T15:00:00.000Z",
  "keywords": "can vinyl plank be installed in winter, LVP installation cold weather, vinyl plank acclimation temperature, vinyl plank installation Kirkland WA, does vinyl plank expand and contract, winter flooring installation",
  "offers": [
-  ["Vinyl plank flooring installation", "2.50", "per square foot"]
+  [
+   "Vinyl plank flooring installation",
+   "2.50",
+   "per square foot"
+  ]
  ],
  "blocks": [
   {
@@ -17,10 +21,26 @@
    "lead": "Yes. Vinyl plank can be installed in any Kirkland winter month, provided the boxes acclimate for 48 hours in a room held between 65 and 85°F and any concrete slab passes a moisture test first.",
    "detail": "Vinyl moves with temperature more than it moves with humidity. Cold planks are shorter and stiffer; warm planks are longer and softer. Install them cold without acclimation and the floor grows into the walls in July. Handle that one variable and winter is a fine time to do it.",
    "tiles": [
-    {"icon": "thermo", "label": "Room temperature", "value": "65 to 85°F"},
-    {"icon": "clock", "label": "Acclimation", "value": "48 hours"},
-    {"icon": "dollar", "label": "Install labor", "value": "$2.50 / sq ft"},
-    {"icon": "stairs", "label": "Stairs", "value": "$100 per stair"}
+    {
+     "icon": "thermo",
+     "label": "Room temperature",
+     "value": "65 to 85°F"
+    },
+    {
+     "icon": "clock",
+     "label": "Acclimation",
+     "value": "48 hours"
+    },
+    {
+     "icon": "dollar",
+     "label": "Install labor",
+     "value": "$2.50 / sq ft"
+    },
+    {
+     "icon": "stairs",
+     "label": "Stairs",
+     "value": "$100 per stair"
+    }
    ],
    "cta": "Try the calculator"
   },
@@ -36,10 +56,26 @@
    "type": "cards",
    "cols": 2,
    "items": [
-    {"icon": "thermo", "title": "Planks shrink when cold and grow when warm", "text": "Vinyl expands and contracts with temperature, not humidity. A plank installed at 45°F straight off a truck can grow several millimeters across a room once the house sits at 72°F, and that growth has to go somewhere."},
-    {"icon": "layers", "title": "Click joints get brittle", "text": "The locking tongue on a cold, flexible plank can crack when it is tapped together. Rigid SPC cores handle this better than WPC or flexible LVP, but every type installs cleaner at room temperature."},
-    {"icon": "droplet", "title": "Adhesive has a floor", "text": "Glue-down installs need the adhesive, the slab and the plank all above about 65°F. Below that it skins over slowly and bonds poorly. Click-lock floating floors do not have this problem."},
-    {"icon": "moisture", "title": "Slabs are wettest in winter", "text": "Kirkland's daylight basements and slab-on-grade ramblers near Juanita Bay pull ground moisture during the rainy months. Vinyl itself does not care, but the adhesive and any pad do, and trapped moisture grows mold under a floating floor."}
+    {
+     "icon": "thermo",
+     "title": "Planks shrink when cold and grow when warm",
+     "text": "Vinyl expands and contracts with temperature, not humidity. A plank installed at 45°F straight off a truck can grow several millimeters across a room once the house sits at 72°F, and that growth has to go somewhere."
+    },
+    {
+     "icon": "layers",
+     "title": "Click joints get brittle",
+     "text": "The locking tongue on a cold, flexible plank can crack when it is tapped together. Rigid SPC cores handle this better than WPC or flexible LVP, but every type installs cleaner at room temperature."
+    },
+    {
+     "icon": "droplet",
+     "title": "Adhesive has a floor",
+     "text": "Glue-down installs need the adhesive, the slab and the plank all above about 65°F. Below that it skins over slowly and bonds poorly. Click-lock floating floors do not have this problem."
+    },
+    {
+     "icon": "moisture",
+     "title": "Slabs are wettest in winter",
+     "text": "Kirkland's daylight basements and slab-on-grade ramblers near Juanita Bay pull ground moisture during the rainy months. Vinyl itself does not care, but the adhesive and any pad do, and trapped moisture grows mold under a floating floor."
+    }
    ]
   },
   {
@@ -48,12 +84,37 @@
   },
   {
    "type": "table",
-   "head": ["Plank type", "Cold sensitivity", "Acclimation", "Winter verdict"],
+   "head": [
+    "Plank type",
+    "Cold sensitivity",
+    "Acclimation",
+    "Winter verdict"
+   ],
    "rows": [
-    ["Rigid core SPC, 5 to 6.5 mm", "Low; stone-plastic core barely moves", "48 hours at room temperature", "Best choice for winter and for big open Kirkland main floors"],
-    ["Rigid core WPC, 6.5 to 8 mm", "Moderate; foamed core moves more than SPC", "48 hours, keep boxes flat", "Fine when acclimated; watch expansion gaps on long runs"],
-    ["Flexible glue-down LVP, 2 to 3 mm", "High; thin planks stiffen and curl when cold", "48 to 72 hours, plus warm adhesive and slab", "Doable in heated rooms; avoid in a cold basement in January"],
-    ["Loose-lay vinyl plank", "High; relies on friction and room temperature", "72 hours", "Wait for a steadily heated house"]
+    [
+     "Rigid core SPC, 5 to 6.5 mm",
+     "Low; stone-plastic core barely moves",
+     "48 hours at room temperature",
+     "Best choice for winter and for big open Kirkland main floors"
+    ],
+    [
+     "Rigid core WPC, 6.5 to 8 mm",
+     "Moderate; foamed core moves more than SPC",
+     "48 hours, keep boxes flat",
+     "Fine when acclimated; watch expansion gaps on long runs"
+    ],
+    [
+     "Flexible glue-down LVP, 2 to 3 mm",
+     "High; thin planks stiffen and curl when cold",
+     "48 to 72 hours, plus warm adhesive and slab",
+     "Doable in heated rooms; avoid in a cold basement in January"
+    ],
+    [
+     "Loose-lay vinyl plank",
+     "High; relies on friction and room temperature",
+     "72 hours",
+     "Wait for a steadily heated house"
+    ]
    ],
    "note": "Wills Flooring installs vinyl plank for $2.50 per sq ft in labor with a 500 sq ft minimum, plus $100 per stair. Plank, underlayment and subfloor prep are quoted at the free estimate."
   },
@@ -74,11 +135,33 @@
    "type": "steps",
    "wide": true,
    "items": [
-    {"icon": "truck", "d": "Day 0: delivery", "text": "Boxes go into the heated rooms where they will be installed, laid flat, not stacked in the garage. A Kirkland garage in December is often in the 40s.", "note": "Boxes stacked in a cold garage are the most common winter mistake we see."},
-    {"icon": "clock", "d": "Days 0 to 2: acclimation", "text": "Thermostat holds 65 to 85°F. The planks reach room temperature and their final length. If the home has radiant heat, it runs at its normal setting for the whole period."},
-    {"icon": "moisture", "d": "Day 1: moisture test on concrete", "text": "A slab in a daylight basement or a slab-on-grade rambler gets a relative humidity probe or calcium chloride test. High readings mean a vapor barrier or a change of plan, not a gamble."},
-    {"icon": "ruler", "d": "Day 2 to 3: install", "text": "Expansion gap at every wall and fixed object, sized to the manufacturer's spec and the room length. Big open Sammamish-style plans in Bridle Trails often need a T-mold mid-run; we tell you where before we start.", "note": "A crew installs 500 to 800 sq ft per day."},
-    {"icon": "thermo", "d": "After: steady heat", "text": "Keep the house within normal living range. Do not turn the heat off for a two-week vacation the day after install. Vinyl handles seasons fine once it has an expansion gap and a stable start."}
+    {
+     "icon": "truck",
+     "d": "Day 0: delivery",
+     "text": "Boxes go into the heated rooms where they will be installed, laid flat, not stacked in the garage. A Kirkland garage in December is often in the 40s.",
+     "note": "Boxes stacked in a cold garage are the most common winter mistake we see."
+    },
+    {
+     "icon": "clock",
+     "d": "Days 0 to 2: acclimation",
+     "text": "Thermostat holds 65 to 85°F. The planks reach room temperature and their final length. If the home has radiant heat, it runs at its normal setting for the whole period."
+    },
+    {
+     "icon": "moisture",
+     "d": "Day 1: moisture test on concrete",
+     "text": "A slab in a daylight basement or a slab-on-grade rambler gets a relative humidity probe or calcium chloride test. High readings mean a vapor barrier or a change of plan, not a gamble."
+    },
+    {
+     "icon": "ruler",
+     "d": "Day 2 to 3: install",
+     "text": "Expansion gap at every wall and fixed object, sized to the manufacturer's spec and the room length. Big open Sammamish-style plans in Bridle Trails often need a T-mold mid-run; we tell you where before we start.",
+     "note": "A crew installs 500 to 800 sq ft per day."
+    },
+    {
+     "icon": "thermo",
+     "d": "After: steady heat",
+     "text": "Keep the house within normal living range. Do not turn the heat off for a two-week vacation the day after install. Vinyl handles seasons fine once it has an expansion gap and a stable start."
+    }
    ]
   },
   {
@@ -125,11 +208,26 @@
    "type": "list",
    "icons": true,
    "items": [
-    {"icon": "x", "html": "<strong>Installing straight off the truck.</strong> Cold planks are short. They lock together fine and then grow. Without acclimation the floor pushes against the walls and peaks at the seams in June."},
-    {"icon": "x", "html": "<strong>Skipping the expansion gap because the baseboard is staying.</strong> The gap is not optional. Quarter round or a new base covers it. Read <a href=\"/blog-posts/why-is-my-vinyl-plank-floor-buckling-or-gapping-sammamish\">why vinyl plank buckles and gaps</a> if you want the full explanation."},
-    {"icon": "x", "html": "<strong>Pinning the floor down.</strong> Heavy islands, built-ins or a screwed-down transition strip that traps a floating floor stop it from moving. Cabinets go on the subfloor, not on the plank."},
-    {"icon": "x", "html": "<strong>Glue-down on a cold slab.</strong> Adhesive that never reached temperature releases in spots. You will hear it as a hollow click underfoot in a few months."},
-    {"icon": "x", "html": "<strong>Space heaters aimed at the floor.</strong> Blasting one room to 90°F to speed acclimation warps the planks nearest the heater and leaves the rest cold. Even heat, whole house, two days."}
+    {
+     "icon": "x",
+     "html": "<strong>Installing straight off the truck.</strong> Cold planks are short. They lock together fine and then grow. Without acclimation the floor pushes against the walls and peaks at the seams in June."
+    },
+    {
+     "icon": "x",
+     "html": "<strong>Skipping the expansion gap because the baseboard is staying.</strong> The gap is not optional. Quarter round or a new base covers it. Read <a href=\"/blog-posts/why-is-my-vinyl-plank-floor-buckling-or-gapping-sammamish\">why vinyl plank buckles and gaps</a> if you want the full explanation."
+    },
+    {
+     "icon": "x",
+     "html": "<strong>Pinning the floor down.</strong> Heavy islands, built-ins or a screwed-down transition strip that traps a floating floor stop it from moving. Cabinets go on the subfloor, not on the plank."
+    },
+    {
+     "icon": "x",
+     "html": "<strong>Glue-down on a cold slab.</strong> Adhesive that never reached temperature releases in spots. You will hear it as a hollow click underfoot in a few months."
+    },
+    {
+     "icon": "x",
+     "html": "<strong>Space heaters aimed at the floor.</strong> Blasting one room to 90°F to speed acclimation warps the planks nearest the heater and leaves the rest cold. Even heat, whole house, two days."
+    }
    ]
   },
   {
@@ -140,12 +238,30 @@
    "type": "list",
    "icons": true,
    "items": [
-    {"icon": "thermo", "html": "<strong>Set the heat to 65 to 75°F</strong> two days before delivery and leave it there through the week after."},
-    {"icon": "box", "html": "<strong>Make room indoors for the boxes,</strong> flat and out of the garage. A 900 sq ft order is about 40 boxes."},
-    {"icon": "moisture", "html": "<strong>Ask for the slab moisture reading in writing</strong> if any room sits on concrete."},
-    {"icon": "layers", "html": "<strong>Choose rigid core SPC for winter installs and big rooms.</strong> It moves least and forgives the most."},
-    {"icon": "clipboard", "html": "<strong>Confirm the expansion gap plan and any T-molds</strong> on the quote, especially for open-plan main floors."},
-    {"icon": "shield", "html": "<strong>Get the warranty in writing.</strong> Wills Flooring backs every installation with a one-year workmanship warranty, winter or summer."}
+    {
+     "icon": "thermo",
+     "html": "<strong>Set the heat to 65 to 75°F</strong> two days before delivery and leave it there through the week after."
+    },
+    {
+     "icon": "box",
+     "html": "<strong>Make room indoors for the boxes,</strong> flat and out of the garage. A 900 sq ft order is about 40 boxes."
+    },
+    {
+     "icon": "moisture",
+     "html": "<strong>Ask for the slab moisture reading in writing</strong> if any room sits on concrete."
+    },
+    {
+     "icon": "layers",
+     "html": "<strong>Choose rigid core SPC for winter installs and big rooms.</strong> It moves least and forgives the most."
+    },
+    {
+     "icon": "clipboard",
+     "html": "<strong>Confirm the expansion gap plan and any T-molds</strong> on the quote, especially for open-plan main floors."
+    },
+    {
+     "icon": "shield",
+     "html": "<strong>Get the warranty in writing.</strong> Wills Flooring backs every installation with a one-year workmanship warranty, winter or summer."
+    }
    ]
   }
  ],
@@ -178,9 +294,18 @@
  "faq_title": "Winter vinyl plank questions from Kirkland",
  "faq_sub": "What we hear from Juanita to Bridle Trails every December.",
  "related": [
-  ["does-vinyl-plank-flooring-need-to-acclimate-before-installation-edmonds", "why vinyl plank needs to acclimate"],
-  ["why-is-my-vinyl-plank-floor-buckling-or-gapping-sammamish", "why vinyl plank buckles or gaps"],
-  ["does-vinyl-plank-need-a-moisture-test-over-concrete-kirkland", "moisture testing vinyl plank over concrete"]
+  [
+   "does-vinyl-plank-flooring-need-to-acclimate-before-installation-edmonds",
+   "why vinyl plank needs to acclimate"
+  ],
+  [
+   "why-is-my-vinyl-plank-floor-buckling-or-gapping-sammamish",
+   "why vinyl plank buckles or gaps"
+  ],
+  [
+   "does-vinyl-plank-need-a-moisture-test-over-concrete-kirkland",
+   "moisture testing vinyl plank over concrete"
+  ]
  ],
  "cta_title": "Install vinyl plank in Kirkland this winter",
  "cta_sub": "We bring samples, test the slab and hand you a firm written quote on the spot. Free estimates across Kirkland, any month of the year."

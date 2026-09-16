@@ -1,16 +1,28 @@
 {
  "slug": "does-refinishing-hardwood-floors-increase-home-value-in-everett",
  "title": "Does Refinishing Hardwood Floors Increase Home Value in Everett? ROI Numbers",
- "meta": "Refinishing hardwood floors in Everett usually returns more than it costs: $3.99 per sq ft all-in vs faster sales and stronger offers. Wills Flooring runs the ROI.",
+ "meta": "Refinishing hardwood floors in Everett usually returns more than it costs: $3.99 per sq ft all-in vs faster sales and stronger offers. Wills Flooring's ROI.",
  "category": "refinish",
  "city": "Everett",
  "time": "8 mins",
  "date": "2027-02-08T15:00:00.000Z",
  "keywords": "does refinishing hardwood floors increase home value, hardwood floor refinishing ROI, refinish floors before selling Everett WA, hardwood floors resale value, cost to refinish hardwood floors Everett",
  "offers": [
-  ["Sand and refinish, natural finish", "3.99", "per square foot"],
-  ["Sand and refinish with stain", "6.50", "per square foot"],
-  ["Screen and recoat", "1.99", "per square foot"]
+  [
+   "Sand and refinish, natural finish",
+   "3.99",
+   "per square foot"
+  ],
+  [
+   "Sand and refinish with stain",
+   "6.50",
+   "per square foot"
+  ],
+  [
+   "Screen and recoat",
+   "1.99",
+   "per square foot"
+  ]
  ],
  "blocks": [
   {
@@ -19,55 +31,168 @@
    "lead": "Yes. In Everett, refinishing existing hardwood is one of the few pre-sale projects that reliably returns more than it costs, because it turns a floor buyers would mentally deduct for into the top line of the listing.",
    "detail": "At Wills Flooring's $3.99 per sq ft, a typical 1,100 sq ft Silver Lake main floor refinishes for $4,389. National agent surveys have repeatedly ranked hardwood refinishing at or near the top for cost recovered. Here is how that plays out on an Everett house.",
    "tiles": [
-    {"icon": "dollar", "label": "Natural refinish", "value": "$3.99 / sq ft"},
-    {"icon": "refresh", "label": "Recoat", "value": "$1.99 / sq ft"},
-    {"icon": "home", "label": "1,100 sq ft example", "value": "$4,389"},
-    {"icon": "chart", "label": "Typical recovery", "value": "At or above cost"}
+    {
+     "icon": "dollar",
+     "label": "Natural refinish",
+     "value": "$3.99 / sq ft"
+    },
+    {
+     "icon": "refresh",
+     "label": "Recoat",
+     "value": "$1.99 / sq ft"
+    },
+    {
+     "icon": "home",
+     "label": "1,100 sq ft example",
+     "value": "$4,389"
+    },
+    {
+     "icon": "chart",
+     "label": "Typical recovery",
+     "value": "At or above cost"
+    }
    ]
   },
   {
    "type": "p",
    "html": "The honest version of this question is not \"will an appraiser add $10,000 for new floors.\" Appraisers do not line-item finishes that way. The real question is whether spending four or five thousand dollars before listing an Everett house gets you a higher sale price, a faster sale, or both. In our experience since 2013, across Riverside bungalows, Silver Lake two-stories and Port Gardner condos, it does, and the reason is simple: worn hardwood is the first thing buyers photograph with their phones and the first thing they use to negotiate. Our <a href=\"/services/floor-refinish\">refinishing page</a> lists every rate; this post does the math."
   },
-  {"type": "h2", "text": "Where the value actually comes from"},
+  {
+   "type": "h2",
+   "text": "Where the value actually comes from"
+  },
   {
    "type": "cards",
    "cols": 2,
    "items": [
-    {"icon": "search", "title": "Listing photos", "text": "Most buyers see the floor on a screen before they see the house. A freshly finished oak floor reads as \"maintained\" in every wide shot. Gray, scratched boards read as \"project,\" and buyers price projects at two or three times what they actually cost."},
-    {"icon": "wallet", "title": "The buyer's mental math", "text": "A buyer who sees worn floors does not deduct $4,389. They deduct a round, scary number, often $10,000 to $15,000, because they assume the floors need replacing. Refinishing removes that deduction for a fraction of it."},
-    {"icon": "clock", "title": "Days on market", "text": "Everett agents tell us the same thing: move-in ready homes get offers in the first two weekends; homes with an obvious to-do list sit and then get a low offer. A month of extra mortgage and utilities on a $700,000 house costs more than the refinish."},
-    {"icon": "home", "title": "Hardwood vs carpet in the comps", "text": "In Silver Lake and Eastmont, half the 1990s houses still have builder carpet over plywood and half have oak. When yours is oak and it shines, you are competing with the better half of the comps, not the worse."}
+    {
+     "icon": "search",
+     "title": "Listing photos",
+     "text": "Most buyers see the floor on a screen before they see the house. A freshly finished oak floor reads as \"maintained\" in every wide shot. Gray, scratched boards read as \"project,\" and buyers price projects at two or three times what they actually cost."
+    },
+    {
+     "icon": "wallet",
+     "title": "The buyer's mental math",
+     "text": "A buyer who sees worn floors does not deduct $4,389. They deduct a round, scary number, often $10,000 to $15,000, because they assume the floors need replacing. Refinishing removes that deduction for a fraction of it."
+    },
+    {
+     "icon": "clock",
+     "title": "Days on market",
+     "text": "Everett agents tell us the same thing: move-in ready homes get offers in the first two weekends; homes with an obvious to-do list sit and then get a low offer. A month of extra mortgage and utilities on a $700,000 house costs more than the refinish."
+    },
+    {
+     "icon": "home",
+     "title": "Hardwood vs carpet in the comps",
+     "text": "In Silver Lake and Eastmont, half the 1990s houses still have builder carpet over plywood and half have oak. When yours is oak and it shines, you are competing with the better half of the comps, not the worse."
+    }
    ]
   },
-  {"type": "h2", "text": "Three levels of investment, priced"},
+  {
+   "type": "h2",
+   "text": "Three levels of investment, priced"
+  },
   {
    "type": "prices",
    "items": [
-    {"icon": "refresh", "tag": "Finish dull, no bare wood", "price": "$1.99", "unit": "/ sq ft", "title": "Screen and recoat", "text": "One day, no dust, no color change. The highest ROI option when it qualifies: 1,100 sq ft for $2,189 and the floor photographs like new."},
-    {"icon": "brush", "tag": "Best value for most Everett sellers", "price": "$3.99", "unit": "/ sq ft", "title": "Sand and refinish, natural", "text": "Full sanding to bare wood, three coats of Bona water-based finish. Removes scratches, gray traffic lanes and most pet marks. 1,100 sq ft for $4,389.", "gold": true},
-    {"icon": "palette", "tag": "Only if the color is dated", "price": "$6.50", "unit": "/ sq ft", "title": "Sand, stain and finish", "text": "Adds a stain step. Worth it when the floor is orange 1990s oak and Everett buyers expect something lighter and cooler. 1,100 sq ft for $7,150."}
+    {
+     "icon": "refresh",
+     "tag": "Finish dull, no bare wood",
+     "price": "$1.99",
+     "unit": "/ sq ft",
+     "title": "Screen and recoat",
+     "text": "One day, no dust, no color change. The highest ROI option when it qualifies: 1,100 sq ft for $2,189 and the floor photographs like new."
+    },
+    {
+     "icon": "brush",
+     "tag": "Best value for most Everett sellers",
+     "price": "$3.99",
+     "unit": "/ sq ft",
+     "title": "Sand and refinish, natural",
+     "text": "Full sanding to bare wood, three coats of Bona water-based finish. Removes scratches, gray traffic lanes and most pet marks. 1,100 sq ft for $4,389.",
+     "gold": true
+    },
+    {
+     "icon": "palette",
+     "tag": "Only if the color is dated",
+     "price": "$6.50",
+     "unit": "/ sq ft",
+     "title": "Sand, stain and finish",
+     "text": "Adds a stain step. Worth it when the floor is orange 1990s oak and Everett buyers expect something lighter and cooler. 1,100 sq ft for $7,150."
+    }
    ],
    "note": "All-in prices, labor and finish, 500 sq ft minimum. Stairs $55 to $75 per tread, dust containment $250, appliance moves extra."
   },
-  {"type": "h2", "text": "Price your Everett refinish right now"},
-  {"type": "calc", "kind": "refinish", "note": "Use the recoat option first if your finish is intact; it is the cheapest way to change how the listing looks."},
-  {"type": "h2", "text": "ROI math on three Everett houses"},
+  {
+   "type": "h2",
+   "text": "Price your Everett refinish right now"
+  },
+  {
+   "type": "calc",
+   "kind": "refinish",
+   "note": "Use the recoat option first if your finish is intact; it is the cheapest way to change how the listing looks."
+  },
+  {
+   "type": "h2",
+   "text": "ROI math on three Everett houses"
+  },
   {
    "type": "steps",
    "wide": true,
    "items": [
-    {"icon": "home", "d": "Silver Lake two-story, 1998 · 1,100 sq ft oak + 14 stairs", "text": "Builder-grade red oak, gray in the kitchen, dog scratches at the slider. Natural refinish, stairs done to match, dust containment because the family stayed.", "note": "1,100 × $3.99 + 14 × $55 + $250 = $5,409"},
-    {"icon": "home", "d": "Riverside bungalow, 1915 · 780 sq ft fir", "text": "Original fir under 40-year-old carpet. Carpet out, natural finish, satin sheen. The floor became the listing's headline instead of a line about \"hardwood under carpet.\"", "note": "780 × $3.99 = $3,112"},
-    {"icon": "home", "d": "Port Gardner condo · 650 sq ft engineered oak", "text": "Finish dull but intact, no bare wood. Screen and recoat, one day, elevator reserved. Total under $1,300 for a floor that reads as new in photos.", "note": "650 × $1.99 = $1,294"},
-    {"icon": "chart", "d": "What the return looks like", "text": "National agent surveys have put hardwood refinishing among the top projects for cost recovered, often above 100 percent. Locally, the clearer effect is fewer buyer deductions and a shorter time on market.", "note": "Treat those as national averages, not a promise on your house"}
+    {
+     "icon": "home",
+     "d": "Silver Lake two-story, 1998 · 1,100 sq ft oak + 14 stairs",
+     "text": "Builder-grade red oak, gray in the kitchen, dog scratches at the slider. Natural refinish, stairs done to match, dust containment because the family stayed.",
+     "note": "1,100 × $3.99 + 14 × $55 + $250 = $5,409"
+    },
+    {
+     "icon": "home",
+     "d": "Riverside bungalow, 1915 · 780 sq ft fir",
+     "text": "Original fir under 40-year-old carpet. Carpet out, natural finish, satin sheen. The floor became the listing's headline instead of a line about \"hardwood under carpet.\"",
+     "note": "780 × $3.99 = $3,112"
+    },
+    {
+     "icon": "home",
+     "d": "Port Gardner condo · 650 sq ft engineered oak",
+     "text": "Finish dull but intact, no bare wood. Screen and recoat, one day, elevator reserved. Total under $1,300 for a floor that reads as new in photos.",
+     "note": "650 × $1.99 = $1,294"
+    },
+    {
+     "icon": "chart",
+     "d": "What the return looks like",
+     "text": "National agent surveys have put hardwood refinishing among the top projects for cost recovered, often above 100 percent. Locally, the clearer effect is fewer buyer deductions and a shorter time on market.",
+     "note": "Treat those as national averages, not a promise on your house"
+    }
    ]
   },
-  {"type": "h2", "text": "When refinishing does not pay"},
+  {
+   "type": "h2",
+   "text": "When refinishing does not pay"
+  },
   {
    "type": "compare",
-   "a": {"icon": "done", "tag": "Refinish", "title": "Pays when", "items": ["The floor is sound solid oak or fir with visible wear", "The rest of the house is in decent shape, so the floor is the weak link", "You have at least three weeks before photos", "The color is fine and only the finish is tired"]},
-   "b": {"icon": "x", "tag": "Skip or downsize", "title": "Does not pay when", "items": ["Boards are cupped, rotted or already sanded thin", "The house is being sold as a fixer or to a builder for the lot", "You are also replacing the kitchen; do the floor after, not before", "The floor only needs a recoat and someone is quoting a full sand"]}
+   "a": {
+    "icon": "done",
+    "tag": "Refinish",
+    "title": "Pays when",
+    "items": [
+     "The floor is sound solid oak or fir with visible wear",
+     "The rest of the house is in decent shape, so the floor is the weak link",
+     "You have at least three weeks before photos",
+     "The color is fine and only the finish is tired"
+    ]
+   },
+   "b": {
+    "icon": "x",
+    "tag": "Skip or downsize",
+    "title": "Does not pay when",
+    "items": [
+     "Boards are cupped, rotted or already sanded thin",
+     "The house is being sold as a fixer or to a builder for the lot",
+     "You are also replacing the kitchen; do the floor after, not before",
+     "The floor only needs a recoat and someone is quoting a full sand"
+    ]
+   }
   },
   {
    "type": "callout",
@@ -75,45 +200,108 @@
    "title": "Do not chase the trend with stain before selling: ",
    "text": "Stain adds $2.51 per sq ft and locks in a color the buyer may not want. Unless the existing tone is genuinely dated, a natural finish in satin photographs well, appeals to the widest range of Everett buyers, and leaves the stain decision to the new owner. The exception is heavily orange 1990s oak, where a light neutral stain often earns its cost back."
   },
-  {"type": "h2", "text": "Mistakes that erase the return"},
+  {
+   "type": "h2",
+   "text": "Mistakes that erase the return"
+  },
   {
    "type": "list",
    "icons": true,
    "items": [
-    {"icon": "calendar", "html": "<strong>Refinishing the week before photos.</strong> Water-based finish is walkable in a day but keeps curing for weeks. Furniture dragged back too soon leaves marks in the listing pictures. Plan three weeks."},
-    {"icon": "layers", "html": "<strong>Doing only the living room.</strong> A perfect living room next to a gray hallway highlights the gap. Refinish everything that connects, or recoat the whole level."},
-    {"icon": "search", "html": "<strong>Paying for a full sand when a recoat would do.</strong> If the finish is dull but nowhere worn to wood, a $1.99 recoat gives you the same photos for half the money. Read more in our <a href=\"/blog-posts/refinish-or-recoat-kirkland\">refinish or recoat guide</a>."},
-    {"icon": "hammer", "html": "<strong>Leaving stairs untouched.</strong> The stairs are in every photo of the entry. At $55 to $75 per tread they are the cheapest part of the job per impression."},
-    {"icon": "wallet", "html": "<strong>Spending on stain instead of repairs.</strong> A stained floor with a soft board and a squeak still fails inspection. Fix the wood first, then decide on color."}
+    {
+     "icon": "calendar",
+     "html": "<strong>Refinishing the week before photos.</strong> Water-based finish is walkable in a day but keeps curing for weeks. Furniture dragged back too soon leaves marks in the listing pictures. Plan three weeks."
+    },
+    {
+     "icon": "layers",
+     "html": "<strong>Doing only the living room.</strong> A perfect living room next to a gray hallway highlights the gap. Refinish everything that connects, or recoat the whole level."
+    },
+    {
+     "icon": "search",
+     "html": "<strong>Paying for a full sand when a recoat would do.</strong> If the finish is dull but nowhere worn to wood, a $1.99 recoat gives you the same photos for half the money. Read more in our <a href=\"/blog-posts/refinish-or-recoat-kirkland\">refinish or recoat guide</a>."
+    },
+    {
+     "icon": "hammer",
+     "html": "<strong>Leaving stairs untouched.</strong> The stairs are in every photo of the entry. At $55 to $75 per tread they are the cheapest part of the job per impression."
+    },
+    {
+     "icon": "wallet",
+     "html": "<strong>Spending on stain instead of repairs.</strong> A stained floor with a soft board and a squeak still fails inspection. Fix the wood first, then decide on color."
+    }
    ]
   },
-  {"type": "h2", "text": "How to get the most resale value per dollar"},
+  {
+   "type": "h2",
+   "text": "How to get the most resale value per dollar"
+  },
   {
    "type": "list",
    "icons": true,
    "items": [
-    {"icon": "phone", "html": "<strong>Ask your agent which rooms matter.</strong> Entry, living room, kitchen and hall carry the photos. Bedrooms behind closed doors matter less."},
-    {"icon": "clipboard", "html": "<strong>Get the square footage measured, not guessed.</strong> We bill measured area at $3.99, and the number on the quote is the number on the invoice."},
-    {"icon": "brush", "html": "<strong>Choose satin, natural, three coats.</strong> It hides dust and small scratches through showings and is the finish most Everett buyers expect."},
-    {"icon": "wind", "html": "<strong>Add dust containment if you are living there.</strong> $250 keeps the rest of the house show-ready while we work."},
-    {"icon": "shield", "html": "<strong>Keep the paperwork.</strong> A dated invoice from a licensed, insured Bona Certified Craftsman with a one-year warranty is something your agent can hand to buyers."}
+    {
+     "icon": "phone",
+     "html": "<strong>Ask your agent which rooms matter.</strong> Entry, living room, kitchen and hall carry the photos. Bedrooms behind closed doors matter less."
+    },
+    {
+     "icon": "clipboard",
+     "html": "<strong>Get the square footage measured, not guessed.</strong> We bill measured area at $3.99, and the number on the quote is the number on the invoice."
+    },
+    {
+     "icon": "brush",
+     "html": "<strong>Choose satin, natural, three coats.</strong> It hides dust and small scratches through showings and is the finish most Everett buyers expect."
+    },
+    {
+     "icon": "wind",
+     "html": "<strong>Add dust containment if you are living there.</strong> $250 keeps the rest of the house show-ready while we work."
+    },
+    {
+     "icon": "shield",
+     "html": "<strong>Keep the paperwork.</strong> A dated invoice from a licensed, insured Bona Certified Craftsman with a one-year warranty is something your agent can hand to buyers."
+    }
    ]
   }
  ],
  "faq": [
-  {"q": "How much value does refinishing hardwood floors add to a house?", "a": "There is no fixed dollar amount an appraiser adds. The return comes from stronger offers and fewer buyer deductions. National agent surveys have repeatedly ranked hardwood refinishing near the top of remodeling projects for cost recovered, often at or above what it cost. Locally, the clearest effect is a faster sale."},
-  {"q": "How much does it cost to refinish hardwood floors before selling in Everett?", "a": "At Wills Flooring's published rates, $3.99 per sq ft for a natural finish and $1.99 for a screen-and-recoat, with a 500 sq ft minimum. A 1,000 sq ft Everett main floor is $3,990 or $1,990. Stairs run $55 to $75 per tread and dust containment is $250."},
-  {"q": "Is it better to refinish hardwood or replace it with vinyl plank before selling?", "a": "Refinish, almost every time. Everett buyers pay for real hardwood, and refinishing at $3.99 all-in is far cheaper than removing the wood and installing anything new. Only replace if the boards are rotted, cupped or sanded too thin to take another pass."},
-  {"q": "How long before listing should I refinish the floors?", "a": "Three to four weeks before photos. The job itself takes three to four days for a typical main floor, then the finish needs a week or two to harden fully before furniture and staging go back without leaving marks."},
-  {"q": "Will a recoat instead of a full refinish still help the sale?", "a": "Yes, if the finish is dull but not worn through to bare wood. A recoat restores sheen and hides fine scratches for $1.99 per sq ft, and the listing photos look the same as a full refinish. Deep scratches, gray boards and pet stains need sanding."},
-  {"q": "Do Everett buyers care about the floor color?", "a": "They care that it looks intentional and current. Natural oak in satin is the safe choice. Heavily orange 1990s oak can benefit from a light neutral stain at $6.50 per sq ft, but dark or trendy colors narrow your buyer pool and cost more."}
+  {
+   "q": "How much value does refinishing hardwood floors add to a house?",
+   "a": "There is no fixed dollar amount an appraiser adds. The return comes from stronger offers and fewer buyer deductions. National agent surveys have repeatedly ranked hardwood refinishing near the top of remodeling projects for cost recovered, often at or above what it cost. Locally, the clearest effect is a faster sale."
+  },
+  {
+   "q": "How much does it cost to refinish hardwood floors before selling in Everett?",
+   "a": "At Wills Flooring's published rates, $3.99 per sq ft for a natural finish and $1.99 for a screen-and-recoat, with a 500 sq ft minimum. A 1,000 sq ft Everett main floor is $3,990 or $1,990. Stairs run $55 to $75 per tread and dust containment is $250."
+  },
+  {
+   "q": "Is it better to refinish hardwood or replace it with vinyl plank before selling?",
+   "a": "Refinish, almost every time. Everett buyers pay for real hardwood, and refinishing at $3.99 all-in is far cheaper than removing the wood and installing anything new. Only replace if the boards are rotted, cupped or sanded too thin to take another pass."
+  },
+  {
+   "q": "How long before listing should I refinish the floors?",
+   "a": "Three to four weeks before photos. The job itself takes three to four days for a typical main floor, then the finish needs a week or two to harden fully before furniture and staging go back without leaving marks."
+  },
+  {
+   "q": "Will a recoat instead of a full refinish still help the sale?",
+   "a": "Yes, if the finish is dull but not worn through to bare wood. A recoat restores sheen and hides fine scratches for $1.99 per sq ft, and the listing photos look the same as a full refinish. Deep scratches, gray boards and pet stains need sanding."
+  },
+  {
+   "q": "Do Everett buyers care about the floor color?",
+   "a": "They care that it looks intentional and current. Natural oak in satin is the safe choice. Heavily orange 1990s oak can benefit from a light neutral stain at $6.50 per sq ft, but dark or trendy colors narrow your buyer pool and cost more."
+  }
  ],
  "faq_title": "Resale and ROI questions from Everett sellers",
  "faq_sub": "From agents, sellers and the phone at our Lynnwood showroom, 15 minutes down I-5.",
  "related": [
-  ["is-it-worth-refinishing-hardwood-floors-before-selling-a-house", "refinishing before you sell"],
-  ["can-my-hardwood-floors-be-refinished-or-do-they-need-replacing-everett", "refinish or replace in Everett"],
-  ["refinish-or-recoat-kirkland", "refinish or recoat"]
+  [
+   "is-it-worth-refinishing-hardwood-floors-before-selling-a-house",
+   "refinishing before you sell"
+  ],
+  [
+   "can-my-hardwood-floors-be-refinished-or-do-they-need-replacing-everett",
+   "refinish or replace in Everett"
+  ],
+  [
+   "refinish-or-recoat-kirkland",
+   "refinish or recoat"
+  ]
  ],
  "cta_title": "Selling in Everett? Get the exact number first",
  "cta_sub": "We measure, check whether a recoat will do, and hand you a firm written quote you can show your agent. Free, on the spot, anywhere in Everett."

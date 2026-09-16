@@ -1,15 +1,23 @@
 {
  "slug": "hardwood-over-a-crawlspace-kirkland",
  "title": "Hardwood Over a Crawlspace: Vapor Barriers and Moisture Rules for Kirkland Homes",
- "meta": "Installing hardwood over a crawlspace in Kirkland: the vapor barrier, subfloor moisture limits and acclimation rules that stop cupping. Wills Flooring, $3.25 per sq ft.",
+ "meta": "Installing hardwood over a crawlspace in Kirkland: the vapor barrier, moisture limits and acclimation rules that stop cupping. Wills Flooring, $3.25 per sq.",
  "category": "hardwood",
  "city": "Kirkland",
  "time": "8 mins",
  "date": "2027-01-12T15:00:00.000Z",
  "keywords": "hardwood floor over crawlspace, crawlspace vapor barrier hardwood, subfloor moisture content hardwood installation, hardwood cupping crawlspace, hardwood installation Kirkland",
  "offers": [
-  ["Hardwood floor installation, engineered or solid", "3.25", "per square foot"],
-  ["Unfinished hardwood installation", "2.75", "per square foot"]
+  [
+   "Hardwood floor installation, engineered or solid",
+   "3.25",
+   "per square foot"
+  ],
+  [
+   "Unfinished hardwood installation",
+   "2.75",
+   "per square foot"
+  ]
  ],
  "blocks": [
   {
@@ -18,10 +26,26 @@
    "lead": "Hardwood over a crawlspace works when three things are true: the crawlspace floor is covered with a sealed 6-mil vapor barrier, the plywood subfloor meters at 12 percent moisture or less and within 4 points of the new flooring, and a moisture retarder goes between subfloor and boards.",
    "detail": "Miss any one of those and the floor cups within a year. Kirkland's lakeside water table and wet winters make crawlspaces here damper than most. Wills Flooring installs hardwood at $3.25 per sq ft; crawlspace barrier work and subfloor prep are quoted at the free estimate.",
    "tiles": [
-    {"icon": "dollar", "label": "Install labor", "value": "$3.25 / sq ft"},
-    {"icon": "moisture", "label": "Subfloor limit", "value": "12% MC or less"},
-    {"icon": "layers", "label": "Ground cover", "value": "6-mil poly, sealed"},
-    {"icon": "ruler", "label": "Board vs subfloor", "value": "Within 4 points"}
+    {
+     "icon": "dollar",
+     "label": "Install labor",
+     "value": "$3.25 / sq ft"
+    },
+    {
+     "icon": "moisture",
+     "label": "Subfloor limit",
+     "value": "12% MC or less"
+    },
+    {
+     "icon": "layers",
+     "label": "Ground cover",
+     "value": "6-mil poly, sealed"
+    },
+    {
+     "icon": "ruler",
+     "label": "Board vs subfloor",
+     "value": "Within 4 points"
+    }
    ],
    "cta": "Try the calculator"
   },
@@ -29,50 +53,134 @@
    "type": "p",
    "html": "Most Kirkland houses from the 1960s through the 1990s in Juanita, Finn Hill, Rose Hill and Bridle Trails sit on a crawlspace, and the closer you get to Lake Washington the wetter that crawlspace is. We get called to look at cupped hardwood every winter, and the story is nearly always the same: nice floor, correct installation, nobody looked under the house. This post is the checklist we run before a single board goes down over a Kirkland crawlspace."
   },
-  {"type": "h2", "text": "What a damp crawlspace does to a hardwood floor"},
+  {
+   "type": "h2",
+   "text": "What a damp crawlspace does to a hardwood floor"
+  },
   {
    "type": "cards",
    "cols": 2,
    "items": [
-    {"icon": "moisture", "title": "Cupping", "text": "Moisture comes up through the subfloor and into the bottom of each board. The bottom swells, the top does not, and every board edge rises. Cupping across a whole room is almost always a crawlspace problem, not a spill."},
-    {"icon": "layers", "title": "Crowning after a bad fix", "text": "If a cupped floor is sanded flat while still wet, it dries later and the centers hump up. The floor is then too thin to sand again. Drying first is the whole game."},
-    {"icon": "alert", "title": "Gaps and squeaks", "text": "A floor that took on crawlspace moisture in winter shrinks hard in summer. The result is wide seasonal gaps and loosened fasteners that squeak, even though the boards were fine when installed."},
-    {"icon": "home", "title": "Mold and finish failure", "text": "Persistent moisture under the boards grows mold on the plywood and can lift the finish from below. By the time it smells musty in the living room, the subfloor usually needs replacing."}
+    {
+     "icon": "moisture",
+     "title": "Cupping",
+     "text": "Moisture comes up through the subfloor and into the bottom of each board. The bottom swells, the top does not, and every board edge rises. Cupping across a whole room is almost always a crawlspace problem, not a spill."
+    },
+    {
+     "icon": "layers",
+     "title": "Crowning after a bad fix",
+     "text": "If a cupped floor is sanded flat while still wet, it dries later and the centers hump up. The floor is then too thin to sand again. Drying first is the whole game."
+    },
+    {
+     "icon": "alert",
+     "title": "Gaps and squeaks",
+     "text": "A floor that took on crawlspace moisture in winter shrinks hard in summer. The result is wide seasonal gaps and loosened fasteners that squeak, even though the boards were fine when installed."
+    },
+    {
+     "icon": "home",
+     "title": "Mold and finish failure",
+     "text": "Persistent moisture under the boards grows mold on the plywood and can lift the finish from below. By the time it smells musty in the living room, the subfloor usually needs replacing."
+    }
    ]
   },
-  {"type": "h2", "text": "The moisture rules we install by"},
+  {
+   "type": "h2",
+   "text": "The moisture rules we install by"
+  },
   {
    "type": "table",
-   "head": ["Check", "Target", "If it fails"],
+   "head": [
+    "Check",
+    "Target",
+    "If it fails"
+   ],
    "rows": [
-    ["Crawlspace ground cover", "6-mil or thicker polyethylene over 100 percent of the soil, seams overlapped 12 in and taped, run up the stem walls", "Install or repair the barrier first; this is quoted with the job or handled by your crawlspace contractor"],
-    ["Standing water or damp soil", "Dry to the touch, no pooling, downspouts carrying water away from the house", "Fix drainage before flooring. No barrier survives standing water"],
-    ["Subfloor moisture content", "12 percent or less on a pin meter, checked in at least 20 spots across the floor", "Dehumidify and re-test in a week or two; do not install"],
-    ["Flooring vs subfloor difference", "Within 4 points for strip flooring, within 2 points for planks over 3 in wide", "Keep acclimating the flooring in the house until it matches"],
-    ["Crawlspace relative humidity", "Below about 60 percent, with working vents or a conditioned, encapsulated space", "Add ventilation, a dehumidifier or encapsulation before installation"],
-    ["Retarder under the boards", "15-lb asphalt felt or a rated underlayment paper over the whole subfloor for nail-down", "Never install nail-down solid hardwood directly on bare plywood over a crawlspace"]
+    [
+     "Crawlspace ground cover",
+     "6-mil or thicker polyethylene over 100 percent of the soil, seams overlapped 12 in and taped, run up the stem walls",
+     "Install or repair the barrier first; this is quoted with the job or handled by your crawlspace contractor"
+    ],
+    [
+     "Standing water or damp soil",
+     "Dry to the touch, no pooling, downspouts carrying water away from the house",
+     "Fix drainage before flooring. No barrier survives standing water"
+    ],
+    [
+     "Subfloor moisture content",
+     "12 percent or less on a pin meter, checked in at least 20 spots across the floor",
+     "Dehumidify and re-test in a week or two; do not install"
+    ],
+    [
+     "Flooring vs subfloor difference",
+     "Within 4 points for strip flooring, within 2 points for planks over 3 in wide",
+     "Keep acclimating the flooring in the house until it matches"
+    ],
+    [
+     "Crawlspace relative humidity",
+     "Below about 60 percent, with working vents or a conditioned, encapsulated space",
+     "Add ventilation, a dehumidifier or encapsulation before installation"
+    ],
+    [
+     "Retarder under the boards",
+     "15-lb asphalt felt or a rated underlayment paper over the whole subfloor for nail-down",
+     "Never install nail-down solid hardwood directly on bare plywood over a crawlspace"
+    ]
    ],
    "note": "These are the manufacturer and NWFA-style requirements every warranty depends on. We meter and write the readings on the quote so you have them."
   },
-  {"type": "h2", "text": "Price your Kirkland hardwood installation right now"},
+  {
+   "type": "h2",
+   "text": "Price your Kirkland hardwood installation right now"
+  },
   {
    "type": "p",
    "html": "A 1,200 sq ft Finn Hill main floor over a crawlspace is 1,200 × $3.25 = $3,900 in labor for engineered or solid hardwood, or 1,200 × $2.75 = $3,300 for unfinished boards that we then sand and finish. Flooring material, the moisture retarder, any subfloor work and crawlspace barrier repair are quoted at the estimate."
   },
-  {"type": "calc", "kind": "hardwood", "note": "Moisture readings, vapor barrier repair and subfloor replacement are scoped at the free estimate after we look under the house."},
-  {"type": "h2", "text": "What happens before the first board"},
+  {
+   "type": "calc",
+   "kind": "hardwood",
+   "note": "Moisture readings, vapor barrier repair and subfloor replacement are scoped at the free estimate after we look under the house."
+  },
+  {
+   "type": "h2",
+   "text": "What happens before the first board"
+  },
   {
    "type": "steps",
    "wide": true,
    "items": [
-    {"icon": "search", "d": "Estimate visit", "text": "We open the crawlspace hatch. We look for the barrier, standing water, insulation falling off the joists, and mold on the underside of the subfloor. We meter the plywood from above in every room."},
-    {"icon": "layers", "d": "Barrier and drainage", "text": "If the ground cover is missing or torn, it gets replaced with sealed 6-mil poly run up the stem walls. Downspouts that dump next to the foundation get extensions. This is often a week or two before flooring."},
-    {"icon": "moisture", "d": "Dry down", "text": "A subfloor over 12 percent gets a dehumidifier and fans, then a re-test. Kirkland winter readings of 14 to 16 percent are common and usually come down within two weeks once the barrier is in.", "note": "We will not install on a wet subfloor even if the schedule says so. The warranty is worth more than the calendar."},
-    {"icon": "box", "d": "Acclimate", "text": "Flooring is delivered into the house, out of the boxes, in the rooms where it will go, until its moisture content is within 4 points of the subfloor. Typically 5 to 10 days in Kirkland."},
-    {"icon": "hammer", "d": "Install", "text": "Felt or rated paper goes down over the whole subfloor, then the boards are nailed or glued. Readings from every stage go on your paperwork."}
+    {
+     "icon": "search",
+     "d": "Estimate visit",
+     "text": "We open the crawlspace hatch. We look for the barrier, standing water, insulation falling off the joists, and mold on the underside of the subfloor. We meter the plywood from above in every room."
+    },
+    {
+     "icon": "layers",
+     "d": "Barrier and drainage",
+     "text": "If the ground cover is missing or torn, it gets replaced with sealed 6-mil poly run up the stem walls. Downspouts that dump next to the foundation get extensions. This is often a week or two before flooring."
+    },
+    {
+     "icon": "moisture",
+     "d": "Dry down",
+     "text": "A subfloor over 12 percent gets a dehumidifier and fans, then a re-test. Kirkland winter readings of 14 to 16 percent are common and usually come down within two weeks once the barrier is in.",
+     "note": "We will not install on a wet subfloor even if the schedule says so. The warranty is worth more than the calendar."
+    },
+    {
+     "icon": "box",
+     "d": "Acclimate",
+     "text": "Flooring is delivered into the house, out of the boxes, in the rooms where it will go, until its moisture content is within 4 points of the subfloor. Typically 5 to 10 days in Kirkland."
+    },
+    {
+     "icon": "hammer",
+     "d": "Install",
+     "text": "Felt or rated paper goes down over the whole subfloor, then the boards are nailed or glued. Readings from every stage go on your paperwork."
+    }
    ]
   },
-  {"type": "h2", "text": "Solid or engineered over a Kirkland crawlspace?"},
+  {
+   "type": "h2",
+   "text": "Solid or engineered over a Kirkland crawlspace?"
+  },
   {
    "type": "compare",
    "a": {
@@ -104,20 +212,44 @@
    "title": "When we say no: ",
    "text": "If there is standing water in the crawlspace, active mold on the subfloor, or the plywood meters above 16 percent and will not come down, we do not install hardwood that season. We will quote the crawlspace fix and come back, or talk about <a href=\"/services/lvp-vinyl-flooring\">vinyl plank</a> for that room if the moisture cannot be controlled."
   },
-  {"type": "h2", "text": "Mistakes that cup a new floor within a year"},
+  {
+   "type": "h2",
+   "text": "Mistakes that cup a new floor within a year"
+  },
   {
    "type": "list",
    "icons": true,
    "items": [
-    {"icon": "x", "html": "<strong>Skipping the crawlspace visit.</strong> A crew that quotes from the living room has no idea what is under the house. Ask if they opened the hatch."},
-    {"icon": "layers", "html": "<strong>Barrier that covers 80 percent of the soil.</strong> Moisture finds the bare 20 percent. Full coverage with taped seams or it is not a barrier."},
-    {"icon": "clock", "html": "<strong>Acclimating in the garage.</strong> Kirkland garages in January are close to outdoor humidity. Flooring acclimates in the rooms it will live in, with the heat on."},
-    {"icon": "moisture", "html": "<strong>Installing on a single meter reading.</strong> One dry spot near the furnace says nothing about the corner over the wettest soil. Twenty readings, worst one counts."},
-    {"icon": "hammer", "html": "<strong>Nailing solid hardwood to bare plywood.</strong> The felt layer is cheap and it is the last line of defense. No retarder, no warranty."},
-    {"icon": "wind", "html": "<strong>Closing the vents for winter and forgetting.</strong> Sealed vents trap crawlspace moisture all spring. Either encapsulate and dehumidify properly or leave the vents working."}
+    {
+     "icon": "x",
+     "html": "<strong>Skipping the crawlspace visit.</strong> A crew that quotes from the living room has no idea what is under the house. Ask if they opened the hatch."
+    },
+    {
+     "icon": "layers",
+     "html": "<strong>Barrier that covers 80 percent of the soil.</strong> Moisture finds the bare 20 percent. Full coverage with taped seams or it is not a barrier."
+    },
+    {
+     "icon": "clock",
+     "html": "<strong>Acclimating in the garage.</strong> Kirkland garages in January are close to outdoor humidity. Flooring acclimates in the rooms it will live in, with the heat on."
+    },
+    {
+     "icon": "moisture",
+     "html": "<strong>Installing on a single meter reading.</strong> One dry spot near the furnace says nothing about the corner over the wettest soil. Twenty readings, worst one counts."
+    },
+    {
+     "icon": "hammer",
+     "html": "<strong>Nailing solid hardwood to bare plywood.</strong> The felt layer is cheap and it is the last line of defense. No retarder, no warranty."
+    },
+    {
+     "icon": "wind",
+     "html": "<strong>Closing the vents for winter and forgetting.</strong> Sealed vents trap crawlspace moisture all spring. Either encapsulate and dehumidify properly or leave the vents working."
+    }
    ]
   },
-  {"type": "h2", "text": "Checklist before hardwood goes over your crawlspace"},
+  {
+   "type": "h2",
+   "text": "Checklist before hardwood goes over your crawlspace"
+  },
   {
    "type": "ul",
    "items": [
@@ -132,19 +264,46 @@
   }
  ],
  "faq": [
-  {"q": "Do I need a vapor barrier in the crawlspace before installing hardwood?", "a": "Yes. A 6-mil or heavier polyethylene ground cover over all of the soil, seams overlapped and taped, is the first requirement. Without it, ground moisture rises through the subfloor into the boards and the floor cups. It is separate from the felt or paper retarder installed under the flooring itself."},
-  {"q": "What moisture content should a subfloor be before hardwood?", "a": "12 percent or less on a pin meter, and within 4 percentage points of the new flooring for strip boards, within 2 points for planks wider than 3 in. We take at least 20 readings across the floor and go by the worst one, not the average."},
-  {"q": "Is engineered hardwood better than solid over a crawlspace?", "a": "It is more forgiving. The cross-ply core moves less with humidity, and glue-down engineered can use an adhesive that also blocks vapor. Solid strip hardwood works well too if the crawlspace is sealed and dry. Wide solid planks are the riskiest option over a Kirkland crawlspace."},
-  {"q": "How long does hardwood need to acclimate in a Kirkland home?", "a": "Until it matches the subfloor, not a fixed number of days. In practice that is 5 to 10 days inside the heated house, boxes opened, in the rooms where it will be installed. We meter both the flooring and the subfloor and start only when they are within range."},
-  {"q": "Why is my hardwood floor cupping in winter?", "a": "Usually crawlspace moisture. Wet winter soil raises the humidity under the house, the subfloor absorbs it, and the bottom of each board swells more than the top. Fixing the barrier and drainage, then letting the floor dry for weeks, often flattens it. Sand only after it is dry and stable."},
-  {"q": "Does Wills Flooring fix crawlspace problems as part of hardwood installation?", "a": "We inspect the crawlspace at every estimate and can install or repair the ground vapor barrier as part of the job. Drainage, encapsulation and mold remediation are referred to specialists. Installation labor is $3.25 per sq ft; barrier work and subfloor prep are quoted separately."}
+  {
+   "q": "Do I need a vapor barrier in the crawlspace before installing hardwood?",
+   "a": "Yes. A 6-mil or heavier polyethylene ground cover over all of the soil, seams overlapped and taped, is the first requirement. Without it, ground moisture rises through the subfloor into the boards and the floor cups. It is separate from the felt or paper retarder installed under the flooring itself."
+  },
+  {
+   "q": "What moisture content should a subfloor be before hardwood?",
+   "a": "12 percent or less on a pin meter, and within 4 percentage points of the new flooring for strip boards, within 2 points for planks wider than 3 in. We take at least 20 readings across the floor and go by the worst one, not the average."
+  },
+  {
+   "q": "Is engineered hardwood better than solid over a crawlspace?",
+   "a": "It is more forgiving. The cross-ply core moves less with humidity, and glue-down engineered can use an adhesive that also blocks vapor. Solid strip hardwood works well too if the crawlspace is sealed and dry. Wide solid planks are the riskiest option over a Kirkland crawlspace."
+  },
+  {
+   "q": "How long does hardwood need to acclimate in a Kirkland home?",
+   "a": "Until it matches the subfloor, not a fixed number of days. In practice that is 5 to 10 days inside the heated house, boxes opened, in the rooms where it will be installed. We meter both the flooring and the subfloor and start only when they are within range."
+  },
+  {
+   "q": "Why is my hardwood floor cupping in winter?",
+   "a": "Usually crawlspace moisture. Wet winter soil raises the humidity under the house, the subfloor absorbs it, and the bottom of each board swells more than the top. Fixing the barrier and drainage, then letting the floor dry for weeks, often flattens it. Sand only after it is dry and stable."
+  },
+  {
+   "q": "Does Wills Flooring fix crawlspace problems as part of hardwood installation?",
+   "a": "We inspect the crawlspace at every estimate and can install or repair the ground vapor barrier as part of the job. Drainage, encapsulation and mold remediation are referred to specialists. Installation labor is $3.25 per sq ft; barrier work and subfloor prep are quoted separately."
+  }
  ],
  "faq_title": "Crawlspace questions from Kirkland homeowners",
  "faq_sub": "From Juanita to Bridle Trails, asked every winter.",
  "related": [
-  ["do-hardwood-floors-need-to-acclimate-before-installation-kirkland", "how long hardwood needs to acclimate"],
-  ["what-subfloor-prep-is-needed-before-installing-hardwood-floors-everett", "subfloor prep before hardwood"],
-  ["cupped-or-crowned-hardwood-floors-snohomish", "cupped or crowned hardwood floors"]
+  [
+   "do-hardwood-floors-need-to-acclimate-before-installation-kirkland",
+   "how long hardwood needs to acclimate"
+  ],
+  [
+   "what-subfloor-prep-is-needed-before-installing-hardwood-floors-everett",
+   "subfloor prep before hardwood"
+  ],
+  [
+   "cupped-or-crowned-hardwood-floors-snohomish",
+   "cupped or crowned hardwood floors"
+  ]
  ],
  "cta_title": "We look under the house before we quote",
  "cta_sub": "Crawlspace check, 20 moisture readings and a firm written price for the floor and any barrier work, all at one free visit anywhere in Kirkland."

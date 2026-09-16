@@ -1,15 +1,23 @@
 {
  "slug": "how-far-out-should-you-book-hardwood-installation-in-everett",
  "title": "How Far Out Should You Book Hardwood Installation in Everett? Lead Times Explained",
- "meta": "Book Everett hardwood installation 3 to 6 weeks ahead in spring and summer, 1 to 3 in winter. Wills Flooring explains material lead times, acclimation and $3.25/sq ft labor.",
+ "meta": "Book Everett hardwood installation 3 to 6 weeks ahead in spring and summer, 1 to 3 in winter. Wills Flooring on material lead times, acclimation and $3.25.",
  "category": "hardwood",
  "city": "Everett",
  "time": "8 mins",
  "date": "2027-03-29T15:00:00.000Z",
  "keywords": "how far in advance to book hardwood floor installation, hardwood flooring lead time, hardwood installation Everett WA, how long to get hardwood floors installed, hardwood flooring scheduling, when to order hardwood flooring",
  "offers": [
-  ["Hardwood floor installation, engineered or solid", "3.25", "per square foot"],
-  ["Unfinished hardwood installation", "2.75", "per square foot"]
+  [
+   "Hardwood floor installation, engineered or solid",
+   "3.25",
+   "per square foot"
+  ],
+  [
+   "Unfinished hardwood installation",
+   "2.75",
+   "per square foot"
+  ]
  ],
  "blocks": [
   {
@@ -18,10 +26,26 @@
    "lead": "Book hardwood installation in Everett three to six weeks before you want the crew in the house during spring and summer, and one to three weeks ahead from November through February.",
    "detail": "The crew's calendar is rarely the bottleneck. Material is. In-stock engineered plank from our distributor arrives in about a week, special-order wide plank can take six to eight, and unfinished solid needs a week in your house before anyone nails it down.",
    "tiles": [
-    {"icon": "calendar", "label": "Peak season", "value": "3 to 6 weeks"},
-    {"icon": "snow", "label": "Winter", "value": "1 to 3 weeks"},
-    {"icon": "truck", "label": "Special-order plank", "value": "6 to 8 weeks"},
-    {"icon": "dollar", "label": "Install labor", "value": "$3.25 / sq ft"}
+    {
+     "icon": "calendar",
+     "label": "Peak season",
+     "value": "3 to 6 weeks"
+    },
+    {
+     "icon": "snow",
+     "label": "Winter",
+     "value": "1 to 3 weeks"
+    },
+    {
+     "icon": "truck",
+     "label": "Special-order plank",
+     "value": "6 to 8 weeks"
+    },
+    {
+     "icon": "dollar",
+     "label": "Install labor",
+     "value": "$3.25 / sq ft"
+    }
    ],
    "cta": "Try the calculator"
   },
@@ -37,11 +61,34 @@
    "type": "steps",
    "wide": true,
    "items": [
-    {"icon": "home", "d": "Week 0: free estimate", "text": "We bring samples to the house, measure, check the subfloor and moisture, and hand you a firm written quote. From Riverside or Eastmont this is usually booked within two or three days of your call.", "note": "The Lynnwood showroom is about 15 minutes away, so same-week visits are normal."},
-    {"icon": "truck", "d": "Week 1 to 8: material", "text": "In-stock engineered from Metropolitan Hardwood ships in about a week. Special colors, wide plank and long lengths run four to eight weeks. Unfinished solid oak is usually stocked.", "note": "This is the number that decides your date."},
-    {"icon": "clock", "d": "3 to 10 days: acclimation", "text": "Solid and unfinished hardwood sits in the rooms it will be installed in until its moisture matches the subfloor. Engineered needs less, usually two to three days. Everett's damp winters and dry furnace air both matter here."},
-    {"icon": "hammer", "d": "1 to 4 days: removal and prep", "text": "Pulling carpet or old vinyl, fixing squeaks, sistering a soft joist in a 1920s Bayside house or flattening a 1990s slab in Silver Lake. Quoted at the estimate, and it can add a day you did not plan for."},
-    {"icon": "layers", "d": "2 to 5 days: installation", "text": "A crew installs roughly 300 to 500 sq ft of nail-down per day. A 1,200 sq ft Eastmont main floor is three days; stairs add about a day per flight.", "note": "Unfinished floors add three to five days of sanding, finishing and cure after this."}
+    {
+     "icon": "home",
+     "d": "Week 0: free estimate",
+     "text": "We bring samples to the house, measure, check the subfloor and moisture, and hand you a firm written quote. From Riverside or Eastmont this is usually booked within two or three days of your call.",
+     "note": "The Lynnwood showroom is about 15 minutes away, so same-week visits are normal."
+    },
+    {
+     "icon": "truck",
+     "d": "Week 1 to 8: material",
+     "text": "In-stock engineered from Metropolitan Hardwood ships in about a week. Special colors, wide plank and long lengths run four to eight weeks. Unfinished solid oak is usually stocked.",
+     "note": "This is the number that decides your date."
+    },
+    {
+     "icon": "clock",
+     "d": "3 to 10 days: acclimation",
+     "text": "Solid and unfinished hardwood sits in the rooms it will be installed in until its moisture matches the subfloor. Engineered needs less, usually two to three days. Everett's damp winters and dry furnace air both matter here."
+    },
+    {
+     "icon": "hammer",
+     "d": "1 to 4 days: removal and prep",
+     "text": "Pulling carpet or old vinyl, fixing squeaks, sistering a soft joist in a 1920s Bayside house or flattening a 1990s slab in Silver Lake. Quoted at the estimate, and it can add a day you did not plan for."
+    },
+    {
+     "icon": "layers",
+     "d": "2 to 5 days: installation",
+     "text": "A crew installs roughly 300 to 500 sq ft of nail-down per day. A 1,200 sq ft Eastmont main floor is three days; stairs add about a day per flight.",
+     "note": "Unfinished floors add three to five days of sanding, finishing and cure after this."
+    }
    ]
   },
   {
@@ -50,13 +97,43 @@
   },
   {
    "type": "table",
-   "head": ["Product", "Typical lead time", "Why", "Everett note"],
+   "head": [
+    "Product",
+    "Typical lead time",
+    "Why",
+    "Everett note"
+   ],
    "rows": [
-    ["In-stock engineered oak or hickory, standard widths", "5 to 10 days", "Warehoused regionally, ships on the next truck", "Most Silver Lake and Eastmont replacements of builder oak fall here"],
-    ["Special-order engineered, wide plank or custom color", "4 to 8 weeks", "Made or finished to order, often overseas", "Popular for Port Gardner condos wanting a light European oak look"],
-    ["Unfinished solid red or white oak, 2¼ or 3¼ in", "1 to 2 weeks plus acclimation", "Domestic mills keep it stocked, but it must sit in your house", "The go-to for matching original strip in Riverside and Bayside homes"],
-    ["Site-finished wide plank solid", "3 to 6 weeks plus acclimation", "Wider boards are milled in smaller runs", "Needs a dry, heated house; not a January project in a vacant home"],
-    ["Stair treads and nosings to match", "Same as the plank, sometimes longer", "Matching treads are a separate SKU that sells out", "Order with the flooring, not after; $125 per stair for installation"]
+    [
+     "In-stock engineered oak or hickory, standard widths",
+     "5 to 10 days",
+     "Warehoused regionally, ships on the next truck",
+     "Most Silver Lake and Eastmont replacements of builder oak fall here"
+    ],
+    [
+     "Special-order engineered, wide plank or custom color",
+     "4 to 8 weeks",
+     "Made or finished to order, often overseas",
+     "Popular for Port Gardner condos wanting a light European oak look"
+    ],
+    [
+     "Unfinished solid red or white oak, 2¼ or 3¼ in",
+     "1 to 2 weeks plus acclimation",
+     "Domestic mills keep it stocked, but it must sit in your house",
+     "The go-to for matching original strip in Riverside and Bayside homes"
+    ],
+    [
+     "Site-finished wide plank solid",
+     "3 to 6 weeks plus acclimation",
+     "Wider boards are milled in smaller runs",
+     "Needs a dry, heated house; not a January project in a vacant home"
+    ],
+    [
+     "Stair treads and nosings to match",
+     "Same as the plank, sometimes longer",
+     "Matching treads are a separate SKU that sells out",
+     "Order with the flooring, not after; $125 per stair for installation"
+    ]
    ],
    "note": "Installation labor is $3.25 per sq ft for engineered or solid, $2.75 for unfinished plus refinishing rates. Material is quoted separately at the estimate. Read our guide on <a href=\"/blog-posts/how-much-extra-hardwood-flooring-should-you-order-snohomish\">how much extra hardwood to order</a> so a short order does not add a second lead time."
   },
@@ -77,10 +154,26 @@
    "type": "cards",
    "cols": 2,
    "items": [
-    {"icon": "calendar", "title": "The spring rush", "text": "From mid-April to Labor Day every Everett contractor is busy. Refinish and install calendars fill three to six weeks out, and the same is true of the distributors' trucks. If your deadline is June, order in April."},
-    {"icon": "search", "title": "Surprises under the carpet", "text": "1990s builder homes in Silver Lake often have particleboard underlayment that must come out before nail-down. Older homes in Riverside hide soft spots near the kitchen. Each fix is a day."},
-    {"icon": "moisture", "title": "A wet subfloor", "text": "If the plywood meters above 12 percent or the slab fails a moisture test, installation waits until it dries or gets a barrier. Winter installs in a house that has been empty and unheated are the usual culprit."},
-    {"icon": "home", "title": "Condo and HOA notice", "text": "Port Gardner and downtown Everett buildings often want two weeks' notice, a certificate of insurance and elevator booking. Start that paperwork the day you sign, not the week before."}
+    {
+     "icon": "calendar",
+     "title": "The spring rush",
+     "text": "From mid-April to Labor Day every Everett contractor is busy. Refinish and install calendars fill three to six weeks out, and the same is true of the distributors' trucks. If your deadline is June, order in April."
+    },
+    {
+     "icon": "search",
+     "title": "Surprises under the carpet",
+     "text": "1990s builder homes in Silver Lake often have particleboard underlayment that must come out before nail-down. Older homes in Riverside hide soft spots near the kitchen. Each fix is a day."
+    },
+    {
+     "icon": "moisture",
+     "title": "A wet subfloor",
+     "text": "If the plywood meters above 12 percent or the slab fails a moisture test, installation waits until it dries or gets a barrier. Winter installs in a house that has been empty and unheated are the usual culprit."
+    },
+    {
+     "icon": "home",
+     "title": "Condo and HOA notice",
+     "text": "Port Gardner and downtown Everett buildings often want two weeks' notice, a certificate of insurance and elevator booking. Start that paperwork the day you sign, not the week before."
+    }
    ]
   },
   {
@@ -127,11 +220,26 @@
    "type": "list",
    "icons": true,
    "items": [
-    {"icon": "search", "html": "<strong>Choose from in-stock lines first.</strong> Our mobile showroom carries the engineered oaks and hickories that ship in a week. Ask which samples on the ring are stocked before you fall for one that is not."},
-    {"icon": "box", "html": "<strong>Take delivery early.</strong> Material can sit in your house for two weeks as easily as two days. Acclimation runs while you wait for the crew, not after."},
-    {"icon": "hammer", "html": "<strong>Do the demo yourself if you are able.</strong> Pulling carpet and pad on a Saturday can save a day of crew time, though we still remove staples and check the subfloor."},
-    {"icon": "calendar", "html": "<strong>Ask about a winter slot.</strong> December through February in Everett usually books one to three weeks out and material moves faster too. Heated, occupied homes install just as well in winter."},
-    {"icon": "clipboard", "html": "<strong>Get everything on one written quote.</strong> Labor, material, removal, subfloor prep and stairs. A change order mid-job costs more time than money. Our <a href=\"/services/hardwood-flooring\">hardwood installation page</a> lists what a Wills quote includes."}
+    {
+     "icon": "search",
+     "html": "<strong>Choose from in-stock lines first.</strong> Our mobile showroom carries the engineered oaks and hickories that ship in a week. Ask which samples on the ring are stocked before you fall for one that is not."
+    },
+    {
+     "icon": "box",
+     "html": "<strong>Take delivery early.</strong> Material can sit in your house for two weeks as easily as two days. Acclimation runs while you wait for the crew, not after."
+    },
+    {
+     "icon": "hammer",
+     "html": "<strong>Do the demo yourself if you are able.</strong> Pulling carpet and pad on a Saturday can save a day of crew time, though we still remove staples and check the subfloor."
+    },
+    {
+     "icon": "calendar",
+     "html": "<strong>Ask about a winter slot.</strong> December through February in Everett usually books one to three weeks out and material moves faster too. Heated, occupied homes install just as well in winter."
+    },
+    {
+     "icon": "clipboard",
+     "html": "<strong>Get everything on one written quote.</strong> Labor, material, removal, subfloor prep and stairs. A change order mid-job costs more time than money. Our <a href=\"/services/hardwood-flooring\">hardwood installation page</a> lists what a Wills quote includes."
+    }
    ]
   },
   {
@@ -142,11 +250,26 @@
    "type": "list",
    "icons": true,
    "items": [
-    {"icon": "calendar", "html": "<strong>Write down your real deadline,</strong> then subtract material lead time, acclimation, prep and install days. That is your order-by date."},
-    {"icon": "home", "html": "<strong>Book the free estimate now,</strong> even if the project is months away. Measured square footage and a subfloor check make every later step faster."},
-    {"icon": "truck", "html": "<strong>Confirm stock on the exact SKU,</strong> including treads and transitions, before you sign."},
-    {"icon": "thermo", "html": "<strong>Plan to keep the house at 60 to 75°F</strong> from delivery through install. Vacant Riverside rentals in winter need the heat on early."},
-    {"icon": "phone", "html": "<strong>Send HOA paperwork the day you sign</strong> if you live in a Port Gardner or downtown building."}
+    {
+     "icon": "calendar",
+     "html": "<strong>Write down your real deadline,</strong> then subtract material lead time, acclimation, prep and install days. That is your order-by date."
+    },
+    {
+     "icon": "home",
+     "html": "<strong>Book the free estimate now,</strong> even if the project is months away. Measured square footage and a subfloor check make every later step faster."
+    },
+    {
+     "icon": "truck",
+     "html": "<strong>Confirm stock on the exact SKU,</strong> including treads and transitions, before you sign."
+    },
+    {
+     "icon": "thermo",
+     "html": "<strong>Plan to keep the house at 60 to 75°F</strong> from delivery through install. Vacant Riverside rentals in winter need the heat on early."
+    },
+    {
+     "icon": "phone",
+     "html": "<strong>Send HOA paperwork the day you sign</strong> if you live in a Port Gardner or downtown building."
+    }
    ]
   }
  ],
@@ -179,9 +302,18 @@
  "faq_title": "Scheduling questions from Everett homeowners",
  "faq_sub": "What we hear when someone calls with a date already circled on the calendar.",
  "related": [
-  ["how-long-does-hardwood-floor-installation-take-everett", "how long hardwood installation takes"],
-  ["do-hardwood-floors-need-to-acclimate-before-installation-kirkland", "why hardwood needs to acclimate"],
-  ["how-a-mobile-flooring-showroom-works-everett", "how our mobile showroom visit works"]
+  [
+   "how-long-does-hardwood-floor-installation-take-everett",
+   "how long hardwood installation takes"
+  ],
+  [
+   "do-hardwood-floors-need-to-acclimate-before-installation-kirkland",
+   "why hardwood needs to acclimate"
+  ],
+  [
+   "how-a-mobile-flooring-showroom-works-everett",
+   "how our mobile showroom visit works"
+  ]
  ],
  "cta_title": "Get your Everett date on the calendar",
  "cta_sub": "We measure, bring in-stock samples and give you a firm written quote with a realistic timeline on the spot. Free, no obligation."

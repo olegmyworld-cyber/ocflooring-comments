@@ -1,15 +1,23 @@
 {
  "slug": "how-much-does-it-cost-to-remove-old-carpet-or-flooring-before-hardwood",
  "title": "How Much Does It Cost to Remove Old Carpet or Flooring Before Hardwood Installation?",
- "meta": "Old floor removal is a separate line from the $3.25 per sq ft hardwood install labor. What carpet, vinyl, tile and old hardwood tear-out involves in Seattle, from Wills Flooring.",
+ "meta": "Old floor removal is a separate line from the $3.25 per sq ft hardwood install labor. What carpet, vinyl, tile and hardwood tear-out involves in Seattle.",
  "category": "hardwood",
  "city": "Seattle",
  "time": "8 mins",
  "date": "2027-01-28T15:00:00.000Z",
  "keywords": "cost to remove old carpet before hardwood, flooring removal cost Seattle, tear out tile before hardwood floors, remove old hardwood floor cost, carpet removal and disposal, hardwood installation cost Seattle",
  "offers": [
-  ["Hardwood floor installation, engineered or solid", "3.25", "per square foot"],
-  ["Unfinished hardwood installation", "2.75", "per square foot"]
+  [
+   "Hardwood floor installation, engineered or solid",
+   "3.25",
+   "per square foot"
+  ],
+  [
+   "Unfinished hardwood installation",
+   "2.75",
+   "per square foot"
+  ]
  ],
  "blocks": [
   {
@@ -18,10 +26,26 @@
    "lead": "Removal is a separate line on a hardwood quote. Wills Flooring's $3.25 per sq ft installation labor covers laying the new floor; tearing out carpet, vinyl, tile or old hardwood and hauling it away is quoted at the free estimate once we see what is down and what is under it.",
    "detail": "Carpet is the cheapest and fastest to remove. Glued sheet vinyl and mortared tile are the slowest and cost the most. Pre-1980 sheet vinyl can need asbestos testing before anyone touches it.",
    "tiles": [
-    {"icon": "hammer", "label": "Install labor", "value": "$3.25 / sq ft"},
-    {"icon": "brush", "label": "Unfinished hardwood", "value": "$2.75 / sq ft"},
-    {"icon": "stairs", "label": "Hardwood on stairs", "value": "$125 per stair"},
-    {"icon": "truck", "label": "Old floor removal", "value": "Quoted on site"}
+    {
+     "icon": "hammer",
+     "label": "Install labor",
+     "value": "$3.25 / sq ft"
+    },
+    {
+     "icon": "brush",
+     "label": "Unfinished hardwood",
+     "value": "$2.75 / sq ft"
+    },
+    {
+     "icon": "stairs",
+     "label": "Hardwood on stairs",
+     "value": "$125 per stair"
+    },
+    {
+     "icon": "truck",
+     "label": "Old floor removal",
+     "value": "Quoted on site"
+    }
    ]
   },
   {
@@ -34,13 +58,43 @@
   },
   {
    "type": "table",
-   "head": ["Old floor", "Effort", "What can go wrong", "Disposal"],
+   "head": [
+    "Old floor",
+    "Effort",
+    "What can go wrong",
+    "Disposal"
+   ],
    "rows": [
-    ["Carpet and pad", "Low. Cut into strips, roll, pull tack strip and staples.", "Thousands of pad staples in a plywood subfloor take longer than the carpet itself.", "Bulky but light. Weighed by the ton at the transfer station."],
-    ["Floating laminate or vinyl plank", "Low. Unclicks and stacks; underlayment peels up.", "Glued-down plank leaves adhesive that must be scraped or ground before hardwood goes down.", "Moderate volume, moderate weight."],
-    ["Sheet vinyl or vinyl tile", "Medium to high. Scraping adhesive is slow.", "Pre-1980 material may contain asbestos and needs a test before disturbance.", "Heavy if the underlayment comes with it."],
-    ["Ceramic or stone tile", "High. Demolition hammer, then thinset removal, then the underlayment.", "Cracked subfloor from the tile job, and dust that gets everywhere without containment.", "Heaviest by far. Disposal is charged by weight."],
-    ["Old hardwood", "Medium. Boards pry up in runs; nails must be pulled or driven.", "Original Seattle fir is often worth refinishing instead. We check before we tear.", "Clean wood can sometimes be reused or recycled."]
+    [
+     "Carpet and pad",
+     "Low. Cut into strips, roll, pull tack strip and staples.",
+     "Thousands of pad staples in a plywood subfloor take longer than the carpet itself.",
+     "Bulky but light. Weighed by the ton at the transfer station."
+    ],
+    [
+     "Floating laminate or vinyl plank",
+     "Low. Unclicks and stacks; underlayment peels up.",
+     "Glued-down plank leaves adhesive that must be scraped or ground before hardwood goes down.",
+     "Moderate volume, moderate weight."
+    ],
+    [
+     "Sheet vinyl or vinyl tile",
+     "Medium to high. Scraping adhesive is slow.",
+     "Pre-1980 material may contain asbestos and needs a test before disturbance.",
+     "Heavy if the underlayment comes with it."
+    ],
+    [
+     "Ceramic or stone tile",
+     "High. Demolition hammer, then thinset removal, then the underlayment.",
+     "Cracked subfloor from the tile job, and dust that gets everywhere without containment.",
+     "Heaviest by far. Disposal is charged by weight."
+    ],
+    [
+     "Old hardwood",
+     "Medium. Boards pry up in runs; nails must be pulled or driven.",
+     "Original Seattle fir is often worth refinishing instead. We check before we tear.",
+     "Clean wood can sometimes be reused or recycled."
+    ]
    ],
    "note": "National averages for carpet removal alone run about $1 to $2 per sq ft including disposal. That is an industry figure, not a Wills price; we quote your actual floor."
   },
@@ -52,10 +106,26 @@
    "type": "cards",
    "cols": 2,
    "items": [
-    {"icon": "layers", "title": "We do not know how many layers there are", "text": "One Wallingford kitchen we did had four floors stacked: vinyl plank, sheet vinyl, particleboard underlayment and linoleum. A flat per-foot rate would have been wrong in either direction. At the estimate we lift a register grate or a threshold and count."},
-    {"icon": "alert", "title": "Asbestos changes everything", "text": "Sheet vinyl, 9 in tiles and their black mastic from before about 1980 can contain asbestos. We do not sand, grind or rip them. If a test comes back positive, licensed abatement handles removal and we install afterward, often over a new underlayment rather than the old material."},
-    {"icon": "hammer", "title": "The subfloor sets the real price", "text": "Removal ends when the subfloor is clean, flat and sound. Tile jobs often leave a cracked or overscrewed underlayment. Old carpet hides water damage at exterior doors. Repairs are their own line, and we would rather show you than guess."},
-    {"icon": "home", "title": "Seattle access", "text": "A dumpster needs a spot on a Ballard street with permit parking. A Capitol Hill condo means an elevator reservation and bagging debris. Those are real hours and they belong in your quote, not on the final invoice as a surprise."}
+    {
+     "icon": "layers",
+     "title": "We do not know how many layers there are",
+     "text": "One Wallingford kitchen we did had four floors stacked: vinyl plank, sheet vinyl, particleboard underlayment and linoleum. A flat per-foot rate would have been wrong in either direction. At the estimate we lift a register grate or a threshold and count."
+    },
+    {
+     "icon": "alert",
+     "title": "Asbestos changes everything",
+     "text": "Sheet vinyl, 9 in tiles and their black mastic from before about 1980 can contain asbestos. We do not sand, grind or rip them. If a test comes back positive, licensed abatement handles removal and we install afterward, often over a new underlayment rather than the old material."
+    },
+    {
+     "icon": "hammer",
+     "title": "The subfloor sets the real price",
+     "text": "Removal ends when the subfloor is clean, flat and sound. Tile jobs often leave a cracked or overscrewed underlayment. Old carpet hides water damage at exterior doors. Repairs are their own line, and we would rather show you than guess."
+    },
+    {
+     "icon": "home",
+     "title": "Seattle access",
+     "text": "A dumpster needs a spot on a Ballard street with permit parking. A Capitol Hill condo means an elevator reservation and bagging debris. Those are real hours and they belong in your quote, not on the final invoice as a surprise."
+    }
    ]
   },
   {
@@ -75,10 +145,30 @@
    "type": "steps",
    "wide": true,
    "items": [
-    {"icon": "ruler", "d": "Ballard 1940s house · 900 sq ft main floor + 12 stairs", "text": "Engineered white oak, carpet and pad over plywood, stairs currently carpeted.", "note": "Install labor: 900 × $3.25 = $2,925. Stairs: 12 × $125 = $1,500."},
-    {"icon": "box", "d": "Material", "text": "Engineered oak plank from Metropolitan Hardwood, quoted per box after you pick a sample at your kitchen table.", "note": "Quoted separately, with 8 to 10 percent extra for cuts."},
-    {"icon": "truck", "d": "Removal and disposal", "text": "Carpet, pad, tack strip and staples on the main floor and stairs, hauled away the same day.", "note": "Quoted at the estimate after we lift a corner and check the subfloor."},
-    {"icon": "hammer", "d": "Subfloor prep", "text": "Sink the high spots, screw down squeaks, patch the soft area at the back door.", "note": "Quoted at the estimate. Sometimes nothing is needed."}
+    {
+     "icon": "ruler",
+     "d": "Ballard 1940s house · 900 sq ft main floor + 12 stairs",
+     "text": "Engineered white oak, carpet and pad over plywood, stairs currently carpeted.",
+     "note": "Install labor: 900 × $3.25 = $2,925. Stairs: 12 × $125 = $1,500."
+    },
+    {
+     "icon": "box",
+     "d": "Material",
+     "text": "Engineered oak plank from Metropolitan Hardwood, quoted per box after you pick a sample at your kitchen table.",
+     "note": "Quoted separately, with 8 to 10 percent extra for cuts."
+    },
+    {
+     "icon": "truck",
+     "d": "Removal and disposal",
+     "text": "Carpet, pad, tack strip and staples on the main floor and stairs, hauled away the same day.",
+     "note": "Quoted at the estimate after we lift a corner and check the subfloor."
+    },
+    {
+     "icon": "hammer",
+     "d": "Subfloor prep",
+     "text": "Sink the high spots, screw down squeaks, patch the soft area at the back door.",
+     "note": "Quoted at the estimate. Sometimes nothing is needed."
+    }
    ]
   },
   {
@@ -118,11 +208,26 @@
    "type": "list",
    "icons": true,
    "items": [
-    {"icon": "alert", "html": "<strong>Ripping up old vinyl without a test.</strong> A lab test is cheap. Disturbing asbestos tile in an occupied Seattle house is not."},
-    {"icon": "tree", "html": "<strong>Throwing away a floor you could have kept.</strong> Original 1920s fir in Queen Anne and Wallingford is often sound under carpet. Refinishing at $3.99 per sq ft can cost less than removal plus new hardwood. Read <a href=\"/blog-posts/whats-under-my-carpet-kirkland\">what is under my carpet</a> first."},
-    {"icon": "calendar", "html": "<strong>Tearing out too early.</strong> New hardwood needs to acclimate in the house for several days. Living on bare subfloor with staples for two weeks is unpleasant and dangerous with kids."},
-    {"icon": "hammer", "html": "<strong>Leaving the staples.</strong> Every pad staple left in the plywood is a high spot under new hardwood and a squeak later. Pulling them is most of the labor in carpet removal."},
-    {"icon": "truck", "html": "<strong>Putting carpet at the curb.</strong> Seattle does not collect it with regular garbage. It goes to a transfer station by weight, or in our truck."}
+    {
+     "icon": "alert",
+     "html": "<strong>Ripping up old vinyl without a test.</strong> A lab test is cheap. Disturbing asbestos tile in an occupied Seattle house is not."
+    },
+    {
+     "icon": "tree",
+     "html": "<strong>Throwing away a floor you could have kept.</strong> Original 1920s fir in Queen Anne and Wallingford is often sound under carpet. Refinishing at $3.99 per sq ft can cost less than removal plus new hardwood. Read <a href=\"/blog-posts/whats-under-my-carpet-kirkland\">what is under my carpet</a> first."
+    },
+    {
+     "icon": "calendar",
+     "html": "<strong>Tearing out too early.</strong> New hardwood needs to acclimate in the house for several days. Living on bare subfloor with staples for two weeks is unpleasant and dangerous with kids."
+    },
+    {
+     "icon": "hammer",
+     "html": "<strong>Leaving the staples.</strong> Every pad staple left in the plywood is a high spot under new hardwood and a squeak later. Pulling them is most of the labor in carpet removal."
+    },
+    {
+     "icon": "truck",
+     "html": "<strong>Putting carpet at the curb.</strong> Seattle does not collect it with regular garbage. It goes to a transfer station by weight, or in our truck."
+    }
    ]
   },
   {
@@ -133,11 +238,26 @@
    "type": "list",
    "icons": true,
    "items": [
-    {"icon": "search", "html": "<strong>Know the age of every layer.</strong> If the house or the flooring predates 1980, ask for a test before anyone cuts into vinyl."},
-    {"icon": "clipboard", "html": "<strong>Get removal, disposal and subfloor prep as separate written lines.</strong> Our estimate lists each one so you can compare quotes fairly and see what you would save by doing part of it yourself."},
-    {"icon": "box", "html": "<strong>Decide who moves what.</strong> Appliances, pianos and built-ins all need a plan before the crew arrives."},
-    {"icon": "home", "html": "<strong>Sort out parking and access.</strong> A dumpster permit on a Seattle street or an elevator booking in a condo takes days, not hours."},
-    {"icon": "shield", "html": "<strong>Ask what happens if the subfloor is bad.</strong> We stop, show you, and price the repair before continuing. See our <a href=\"/services/hardwood-flooring\">hardwood installation page</a> for what the install itself includes."}
+    {
+     "icon": "search",
+     "html": "<strong>Know the age of every layer.</strong> If the house or the flooring predates 1980, ask for a test before anyone cuts into vinyl."
+    },
+    {
+     "icon": "clipboard",
+     "html": "<strong>Get removal, disposal and subfloor prep as separate written lines.</strong> Our estimate lists each one so you can compare quotes fairly and see what you would save by doing part of it yourself."
+    },
+    {
+     "icon": "box",
+     "html": "<strong>Decide who moves what.</strong> Appliances, pianos and built-ins all need a plan before the crew arrives."
+    },
+    {
+     "icon": "home",
+     "html": "<strong>Sort out parking and access.</strong> A dumpster permit on a Seattle street or an elevator booking in a condo takes days, not hours."
+    },
+    {
+     "icon": "shield",
+     "html": "<strong>Ask what happens if the subfloor is bad.</strong> We stop, show you, and price the repair before continuing. See our <a href=\"/services/hardwood-flooring\">hardwood installation page</a> for what the install itself includes."
+    }
    ]
   }
  ],
@@ -170,9 +290,18 @@
  "faq_title": "Removal questions from Seattle homeowners",
  "faq_sub": "What people ask once they realize the quote has more than one line.",
  "related": [
-  ["whats-included-in-a-hardwood-installation-quote-seattle", "what a hardwood quote includes"],
-  ["what-subfloor-prep-is-needed-before-installing-hardwood-floors-everett", "subfloor prep before hardwood"],
-  ["can-hardwood-be-installed-over-existing-hardwood-tile-or-vinyl-snohomish", "hardwood over existing floors"]
+  [
+   "whats-included-in-a-hardwood-installation-quote-seattle",
+   "what a hardwood quote includes"
+  ],
+  [
+   "what-subfloor-prep-is-needed-before-installing-hardwood-floors-everett",
+   "subfloor prep before hardwood"
+  ],
+  [
+   "can-hardwood-be-installed-over-existing-hardwood-tile-or-vinyl-snohomish",
+   "hardwood over existing floors"
+  ]
  ],
  "cta_title": "Find out what is under your floor",
  "cta_sub": "We lift a corner, check every layer and the subfloor, and hand you a written quote with installation, removal and prep as separate lines. Free, anywhere in Seattle."
