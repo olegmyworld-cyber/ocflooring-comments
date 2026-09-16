@@ -1,15 +1,23 @@
 {
  "slug": "hardwood-vs-laminate-flooring-edmonds",
  "title": "Hardwood vs Laminate Flooring: Which Is Worth It in Edmonds?",
- "meta": "Hardwood vs laminate in Edmonds: $3.25 vs $2.50 per sq ft labor, but hardwood refinishes for decades and laminate does not. Where each one wins, from Wills Flooring.",
+ "meta": "Hardwood vs laminate in Edmonds: $3.25 vs $2.50 per sq ft labor, but hardwood refinishes for decades and laminate does not. Where each wins. Wills Flooring.",
  "category": "hardwood",
  "city": "Edmonds",
  "time": "8 mins",
  "date": "2027-02-13T15:00:00.000Z",
  "keywords": "hardwood vs laminate flooring, is hardwood worth it over laminate, laminate vs hardwood cost, hardwood or laminate for resale, hardwood flooring Edmonds WA",
  "offers": [
-  ["Hardwood floor installation, engineered or solid", "3.25", "per square foot"],
-  ["Unfinished hardwood installation", "2.75", "per square foot"]
+  [
+   "Hardwood floor installation, engineered or solid",
+   "3.25",
+   "per square foot"
+  ],
+  [
+   "Unfinished hardwood installation",
+   "2.75",
+   "per square foot"
+  ]
  ],
  "blocks": [
   {
@@ -18,49 +26,125 @@
    "lead": "Hardwood is worth it in an Edmonds home you plan to keep or sell at full value: it costs $0.75 more per sq ft to install than laminate, but it can be refinished for 50 years and buyers in the Bowl and Seaview pay for it. Laminate is the better call for a rental, a basement or a budget that has to cover the whole house at once.",
    "detail": "Wills Flooring installs hardwood at $3.25 per sq ft for labor and laminate at $2.50, both with a 500 sq ft minimum. Material is quoted separately at the free estimate, and that is where the real gap between the two shows up.",
    "tiles": [
-    {"icon": "dollar", "label": "Hardwood labor", "value": "$3.25 / sq ft"},
-    {"icon": "dollar", "label": "Laminate labor", "value": "$2.50 / sq ft"},
-    {"icon": "refresh", "label": "Refinishable", "value": "Hardwood only"},
-    {"icon": "clock", "label": "Realistic lifespan", "value": "50+ yrs vs 15–25"}
+    {
+     "icon": "dollar",
+     "label": "Hardwood labor",
+     "value": "$3.25 / sq ft"
+    },
+    {
+     "icon": "dollar",
+     "label": "Laminate labor",
+     "value": "$2.50 / sq ft"
+    },
+    {
+     "icon": "refresh",
+     "label": "Refinishable",
+     "value": "Hardwood only"
+    },
+    {
+     "icon": "clock",
+     "label": "Realistic lifespan",
+     "value": "50+ yrs vs 15–25"
+    }
    ]
   },
   {
    "type": "p",
    "html": "A common version of this question in Edmonds sounds like: we bought a 1960s rambler in Seaview, the carpet has to go, and laminate looks fine in the samples, so why would we pay more for wood? It is a fair question, and laminate has gotten a lot better. The answer depends on three things: how long you will own the house, what the room is, and what the next buyer in your neighborhood expects. This post puts real numbers and Edmonds-specific realities on each."
   },
-  {"type": "h2", "text": "Head to head on what actually matters"},
+  {
+   "type": "h2",
+   "text": "Head to head on what actually matters"
+  },
   {
    "type": "table",
-   "head": ["Factor", "Hardwood", "Laminate"],
+   "head": [
+    "Factor",
+    "Hardwood",
+    "Laminate"
+   ],
    "rows": [
-    ["Installation labor (Wills)", "$3.25 per sq ft engineered or solid; $2.75 unfinished plus finishing", "$2.50 per sq ft"],
-    ["Material", "Wide range; quoted separately. Metropolitan Hardwood lines through our distributor", "Lower per sq ft; quoted separately"],
-    ["Lifespan", "50 to 100 years with refinishing", "15 to 25 years, then replaced"],
-    ["Scratches and wear", "Shows wear, but sands out", "Very scratch-resistant surface; damage cannot be repaired, only replaced plank by plank"],
-    ["Water", "Cups with prolonged moisture; dries and can be sanded", "Core swells and stays swollen; edges lift"],
-    ["Sound and feel", "Solid, warm underfoot", "Hollow click without a good underlayment"],
-    ["Resale in Edmonds", "Expected in the Bowl, Seaview and near downtown", "Neutral to slightly negative in main living areas"]
+    [
+     "Installation labor (Wills)",
+     "$3.25 per sq ft engineered or solid; $2.75 unfinished plus finishing",
+     "$2.50 per sq ft"
+    ],
+    [
+     "Material",
+     "Wide range; quoted separately. Metropolitan Hardwood lines through our distributor",
+     "Lower per sq ft; quoted separately"
+    ],
+    [
+     "Lifespan",
+     "50 to 100 years with refinishing",
+     "15 to 25 years, then replaced"
+    ],
+    [
+     "Scratches and wear",
+     "Shows wear, but sands out",
+     "Very scratch-resistant surface; damage cannot be repaired, only replaced plank by plank"
+    ],
+    [
+     "Water",
+     "Cups with prolonged moisture; dries and can be sanded",
+     "Core swells and stays swollen; edges lift"
+    ],
+    [
+     "Sound and feel",
+     "Solid, warm underfoot",
+     "Hollow click without a good underlayment"
+    ],
+    [
+     "Resale in Edmonds",
+     "Expected in the Bowl, Seaview and near downtown",
+     "Neutral to slightly negative in main living areas"
+    ]
    ],
    "note": "Wills prices are installation labor only. Material, underlayment, old-floor removal and subfloor prep are quoted at the free in-home estimate."
   },
-  {"type": "h2", "text": "What the two really cost over 25 years"},
+  {
+   "type": "h2",
+   "text": "What the two really cost over 25 years"
+  },
   {
    "type": "cards",
    "cols": 2,
    "items": [
-    {"icon": "dollar", "title": "Hardwood, 900 sq ft main floor", "text": "Install labor: 900 × $3.25 = $2,925, plus material. Around year 12 you screen and recoat at $1.99 per sq ft: $1,791. Around year 25 a full sand and refinish at $3.99: $3,591. The floor is still original wood and still adding value."},
-    {"icon": "dollar", "title": "Laminate, same 900 sq ft", "text": "Install labor: 900 × $2.50 = $2,250, plus material. Nothing can be renewed, so by year 15 to 20 the worn kitchen path and a swollen edge at the dishwasher mean a second full install: another $2,250 in labor plus new material and tear-out."},
-    {"icon": "chart", "title": "The crossover", "text": "Laminate wins on day one by $675 in labor and usually more in material. Hardwood wins the moment laminate is replaced once. If you will own the Edmonds house for more than about 12 years, wood is the cheaper floor over its life."},
-    {"icon": "home", "title": "Resale changes the math again", "text": "Buyers touring a Bowl or Seaview home expect hardwood on the main floor. Laminate in the listing photos reads as a project to redo. That does not show up on an invoice, but it shows up on the offer."}
+    {
+     "icon": "dollar",
+     "title": "Hardwood, 900 sq ft main floor",
+     "text": "Install labor: 900 × $3.25 = $2,925, plus material. Around year 12 you screen and recoat at $1.99 per sq ft: $1,791. Around year 25 a full sand and refinish at $3.99: $3,591. The floor is still original wood and still adding value."
+    },
+    {
+     "icon": "dollar",
+     "title": "Laminate, same 900 sq ft",
+     "text": "Install labor: 900 × $2.50 = $2,250, plus material. Nothing can be renewed, so by year 15 to 20 the worn kitchen path and a swollen edge at the dishwasher mean a second full install: another $2,250 in labor plus new material and tear-out."
+    },
+    {
+     "icon": "chart",
+     "title": "The crossover",
+     "text": "Laminate wins on day one by $675 in labor and usually more in material. Hardwood wins the moment laminate is replaced once. If you will own the Edmonds house for more than about 12 years, wood is the cheaper floor over its life."
+    },
+    {
+     "icon": "home",
+     "title": "Resale changes the math again",
+     "text": "Buyers touring a Bowl or Seaview home expect hardwood on the main floor. Laminate in the listing photos reads as a project to redo. That does not show up on an invoice, but it shows up on the offer."
+    }
    ]
   },
-  {"type": "h2", "text": "Price your Edmonds hardwood installation"},
+  {
+   "type": "h2",
+   "text": "Price your Edmonds hardwood installation"
+  },
   {
    "type": "calc",
    "kind": "hardwood",
    "note": "For laminate, use the $2.50 rate on our <a href=\"/services/laminate-flooring-installation\">laminate installation page</a>. Both carry the 500 sq ft minimum."
   },
-  {"type": "h2", "text": "Where each one wins"},
+  {
+   "type": "h2",
+   "text": "Where each one wins"
+  },
   {
    "type": "compare",
    "a": {
@@ -88,26 +172,60 @@
     ]
    }
   },
-  {"type": "h2", "text": "Edmonds realities that tilt the decision"},
+  {
+   "type": "h2",
+   "text": "Edmonds realities that tilt the decision"
+  },
   {
    "type": "steps",
    "wide": true,
    "items": [
-    {"icon": "water", "d": "Waterfront humidity", "text": "Homes in the Bowl and along the bluff live in salt air and steady humidity. Both floors need acclimation, but laminate's fiberboard core is the one that swells for good if the humidity swings hard. Engineered hardwood is the most stable option near the water."},
-    {"icon": "home", "d": "1950s to 70s ramblers", "text": "Seaview, Westgate and Perrinville ramblers often have oak in the living room and carpet in the bedrooms. Matching new hardwood into the old is straightforward for us; laminate next to real oak never quite passes."},
-    {"icon": "key", "d": "Retirees downsizing", "text": "A lot of Edmonds buyers are moving from bigger Eastside homes and expect the same finishes. Hardwood on the main floor of a downsizing condo or rambler is close to required at that price point."},
-    {"icon": "sofa", "d": "Basements and lower levels", "text": "Slab lower levels in Esperance and along the ravines are where laminate or vinyl plank make sense. Solid hardwood does not belong below grade at all."}
+    {
+     "icon": "water",
+     "d": "Waterfront humidity",
+     "text": "Homes in the Bowl and along the bluff live in salt air and steady humidity. Both floors need acclimation, but laminate's fiberboard core is the one that swells for good if the humidity swings hard. Engineered hardwood is the most stable option near the water."
+    },
+    {
+     "icon": "home",
+     "d": "1950s to 70s ramblers",
+     "text": "Seaview, Westgate and Perrinville ramblers often have oak in the living room and carpet in the bedrooms. Matching new hardwood into the old is straightforward for us; laminate next to real oak never quite passes."
+    },
+    {
+     "icon": "key",
+     "d": "Retirees downsizing",
+     "text": "A lot of Edmonds buyers are moving from bigger Eastside homes and expect the same finishes. Hardwood on the main floor of a downsizing condo or rambler is close to required at that price point."
+    },
+    {
+     "icon": "sofa",
+     "d": "Basements and lower levels",
+     "text": "Slab lower levels in Esperance and along the ravines are where laminate or vinyl plank make sense. Solid hardwood does not belong below grade at all."
+    }
    ]
   },
-  {"type": "h2", "text": "When hardwood is not worth it, honestly"},
+  {
+   "type": "h2",
+   "text": "When hardwood is not worth it, honestly"
+  },
   {
    "type": "list",
    "icons": true,
    "items": [
-    {"icon": "x", "html": "<strong>You will sell within three years and the neighborhood does not command it.</strong> If comparable Edmonds listings show laminate and sell fine, you will not recover the difference."},
-    {"icon": "x", "html": "<strong>The room gets wet regularly.</strong> Mudrooms, laundry rooms and bathrooms are not hardwood rooms. Frankly they are not laminate rooms either; <a href=\"/services/lvp-vinyl-flooring\">vinyl plank</a> is the right answer there."},
-    {"icon": "x", "html": "<strong>The subfloor needs a lot of work.</strong> Hardwood wants a flat, dry, solid subfloor. If the crawlspace is damp or the plywood is soft, spend on that first; the floor choice comes second."},
-    {"icon": "x", "html": "<strong>It is a rental with turnover every year or two.</strong> Laminate takes tenant abuse and can be replaced a room at a time without matching anything."}
+    {
+     "icon": "x",
+     "html": "<strong>You will sell within three years and the neighborhood does not command it.</strong> If comparable Edmonds listings show laminate and sell fine, you will not recover the difference."
+    },
+    {
+     "icon": "x",
+     "html": "<strong>The room gets wet regularly.</strong> Mudrooms, laundry rooms and bathrooms are not hardwood rooms. Frankly they are not laminate rooms either; <a href=\"/services/lvp-vinyl-flooring\">vinyl plank</a> is the right answer there."
+    },
+    {
+     "icon": "x",
+     "html": "<strong>The subfloor needs a lot of work.</strong> Hardwood wants a flat, dry, solid subfloor. If the crawlspace is damp or the plywood is soft, spend on that first; the floor choice comes second."
+    },
+    {
+     "icon": "x",
+     "html": "<strong>It is a rental with turnover every year or two.</strong> Laminate takes tenant abuse and can be replaced a room at a time without matching anything."
+    }
    ]
   },
   {
@@ -116,7 +234,10 @@
    "title": "The most common mistake we see: ",
    "text": "Choosing laminate for the main floor of a nice Edmonds home to save on labor, then discovering the material savings were small once a good underlayment and quality plank were priced. Get both quotes with material at the same estimate before deciding. We bring samples of each."
   },
-  {"type": "h2", "text": "Decide it properly: a short checklist"},
+  {
+   "type": "h2",
+   "text": "Decide it properly: a short checklist"
+  },
   {
    "type": "ul",
    "items": [
@@ -158,9 +279,18 @@
  "faq_title": "Hardwood or laminate: Edmonds questions we hear",
  "faq_sub": "From the Bowl, Seaview, Perrinville and the phone at our Lynnwood showroom.",
  "related": [
-  ["hardwood-vs-luxury-vinyl-plank-for-resale-value-in-seattle", "hardwood vs vinyl plank for resale"],
-  ["carpet-vs-hardwood-for-resale-value-in-edmonds", "carpet vs hardwood for resale in Edmonds"],
-  ["prefinished-vs-site-finished-hardwood-floors-edmonds", "prefinished vs site-finished hardwood"]
+  [
+   "hardwood-vs-luxury-vinyl-plank-for-resale-value-in-seattle",
+   "hardwood vs vinyl plank for resale"
+  ],
+  [
+   "carpet-vs-hardwood-for-resale-value-in-edmonds",
+   "carpet vs hardwood for resale in Edmonds"
+  ],
+  [
+   "prefinished-vs-site-finished-hardwood-floors-edmonds",
+   "prefinished vs site-finished hardwood"
+  ]
  ],
  "cta_title": "See both floors side by side in your own light",
  "cta_sub": "We bring hardwood and laminate samples to your Edmonds home, measure, check the subfloor and quote both options with material on the spot. Free, no obligation."

@@ -1,15 +1,23 @@
 {
  "slug": "eco-friendly-hardwood-flooring-options-for-snohomish-homes",
  "title": "Eco-Friendly Hardwood Flooring Options for Snohomish Homes: FSC, Low-VOC and Reclaimed",
- "meta": "Eco-friendly hardwood for Snohomish homes: FSC-certified domestic oak, low-VOC water-based finish, and the truth about reclaimed fir. Options and prices from Wills Flooring.",
+ "meta": "Eco-friendly hardwood for Snohomish homes: FSC domestic oak, low-VOC water-based finish, and the truth about reclaimed fir. Options and prices from Wills Flooring.",
  "category": "hardwood",
  "city": "Snohomish",
  "time": "8 mins",
  "date": "2027-02-21T15:00:00.000Z",
  "keywords": "eco friendly hardwood flooring, FSC certified hardwood floors, low VOC hardwood floor finish, reclaimed wood flooring pros and cons, sustainable flooring Snohomish WA",
  "offers": [
-  ["Hardwood floor installation, engineered or solid", "3.25", "per square foot"],
-  ["Unfinished hardwood installation", "2.75", "per square foot"]
+  [
+   "Hardwood floor installation, engineered or solid",
+   "3.25",
+   "per square foot"
+  ],
+  [
+   "Unfinished hardwood installation",
+   "2.75",
+   "per square foot"
+  ]
  ],
  "blocks": [
   {
@@ -18,48 +26,120 @@
    "lead": "The most sustainable hardwood floor for a Snohomish home is FSC-certified domestic white oak or maple, installed unfinished and coated on site with a low-VOC water-based finish, then kept for 50 years by refinishing instead of replacing. Reclaimed fir is a real option too, with real caveats.",
    "detail": "Installation labor is $3.25 per sq ft for prefinished engineered or solid and $2.75 for unfinished, with a 500 sq ft minimum. Certified and reclaimed material costs more per box than builder-grade oak; we quote it at the free estimate with samples in hand.",
    "tiles": [
-    {"icon": "tree", "label": "Certification to look for", "value": "FSC"},
-    {"icon": "leaf", "label": "Finish", "value": "Low-VOC water-based"},
-    {"icon": "dollar", "label": "Unfinished install", "value": "$2.75 / sq ft"},
-    {"icon": "refresh", "label": "Best green move", "value": "Refinish, not replace"}
+    {
+     "icon": "tree",
+     "label": "Certification to look for",
+     "value": "FSC"
+    },
+    {
+     "icon": "leaf",
+     "label": "Finish",
+     "value": "Low-VOC water-based"
+    },
+    {
+     "icon": "dollar",
+     "label": "Unfinished install",
+     "value": "$2.75 / sq ft"
+    },
+    {
+     "icon": "refresh",
+     "label": "Best green move",
+     "value": "Refinish, not replace"
+    }
    ]
   },
   {
    "type": "p",
    "html": "Snohomish homeowners ask this more than any other city we serve, partly because so many live on acreage with a wood stove and a well and think about where things come from. The question usually splits into three: is the wood harvested responsibly, what is the finish putting into the air, and does reclaimed old-growth fir make sense in a farmhouse restoration. Below is the plain answer to each, including where the marketing gets ahead of the facts."
   },
-  {"type": "h2", "text": "The four levers that actually make a wood floor green"},
+  {
+   "type": "h2",
+   "text": "The four levers that actually make a wood floor green"
+  },
   {
    "type": "cards",
    "cols": 2,
    "items": [
-    {"icon": "tree", "title": "Where the tree came from", "text": "FSC certification is the one that tracks a specific log from a managed forest to your box of flooring. Domestic species like white oak, red oak, maple and hickory from the eastern US carry it widely. Tropical species rarely do, and their shipping footprint is enormous."},
-    {"icon": "leaf", "title": "What the finish releases", "text": "Old oil-based polyurethane off-gassed solvents for weeks. The Bona water-based finishes we use are low-VOC, GREENGUARD Gold certified for indoor air, and safe to sleep near the next night. This is the biggest indoor air win on the list."},
-    {"icon": "layers", "title": "How much wood it uses", "text": "Engineered flooring uses a thin layer of the slow-growing species over a fast-growing plywood core. One log of white oak makes several times more engineered floor than solid. The tradeoff is fewer refinishes over its life."},
-    {"icon": "refresh", "title": "How long it stays out of the landfill", "text": "A solid floor that is sanded every 20 years instead of torn out is the greenest floor there is. Keeping the original fir in a 1910 downtown Snohomish house beats any new product, however it is certified."}
+    {
+     "icon": "tree",
+     "title": "Where the tree came from",
+     "text": "FSC certification is the one that tracks a specific log from a managed forest to your box of flooring. Domestic species like white oak, red oak, maple and hickory from the eastern US carry it widely. Tropical species rarely do, and their shipping footprint is enormous."
+    },
+    {
+     "icon": "leaf",
+     "title": "What the finish releases",
+     "text": "Old oil-based polyurethane off-gassed solvents for weeks. The Bona water-based finishes we use are low-VOC, GREENGUARD Gold certified for indoor air, and safe to sleep near the next night. This is the biggest indoor air win on the list."
+    },
+    {
+     "icon": "layers",
+     "title": "How much wood it uses",
+     "text": "Engineered flooring uses a thin layer of the slow-growing species over a fast-growing plywood core. One log of white oak makes several times more engineered floor than solid. The tradeoff is fewer refinishes over its life."
+    },
+    {
+     "icon": "refresh",
+     "title": "How long it stays out of the landfill",
+     "text": "A solid floor that is sanded every 20 years instead of torn out is the greenest floor there is. Keeping the original fir in a 1910 downtown Snohomish house beats any new product, however it is certified."
+    }
    ]
   },
-  {"type": "h2", "text": "Certifications and labels, decoded"},
+  {
+   "type": "h2",
+   "text": "Certifications and labels, decoded"
+  },
   {
    "type": "table",
-   "head": ["Label", "What it actually certifies", "Worth weighting?"],
+   "head": [
+    "Label",
+    "What it actually certifies",
+    "Worth weighting?"
+   ],
    "rows": [
-    ["FSC (Forest Stewardship Council)", "Chain of custody from a responsibly managed forest to the finished product.", "Yes. The strongest forestry label available on flooring."],
-    ["SFI, PEFC", "Industry-run forestry standards, less strict than FSC.", "Some. Better than nothing, not equal to FSC."],
-    ["CARB Phase 2 / TSCA Title VI", "Formaldehyde emissions from the plywood core of engineered flooring meet US limits.", "Yes for engineered. It is a legal minimum, so any legitimate product has it."],
-    ["FloorScore", "The finished flooring product meets indoor air VOC limits.", "Yes, especially for prefinished engineered."],
-    ["GREENGUARD Gold", "Very low emissions from the finish, tested for schools and healthcare.", "Yes. The Bona finishes we apply carry it."],
-    ["'Eco', 'green', 'natural' on the box", "Nothing. Marketing words with no standard behind them.", "No."]
+    [
+     "FSC (Forest Stewardship Council)",
+     "Chain of custody from a responsibly managed forest to the finished product.",
+     "Yes. The strongest forestry label available on flooring."
+    ],
+    [
+     "SFI, PEFC",
+     "Industry-run forestry standards, less strict than FSC.",
+     "Some. Better than nothing, not equal to FSC."
+    ],
+    [
+     "CARB Phase 2 / TSCA Title VI",
+     "Formaldehyde emissions from the plywood core of engineered flooring meet US limits.",
+     "Yes for engineered. It is a legal minimum, so any legitimate product has it."
+    ],
+    [
+     "FloorScore",
+     "The finished flooring product meets indoor air VOC limits.",
+     "Yes, especially for prefinished engineered."
+    ],
+    [
+     "GREENGUARD Gold",
+     "Very low emissions from the finish, tested for schools and healthcare.",
+     "Yes. The Bona finishes we apply carry it."
+    ],
+    [
+     "'Eco', 'green', 'natural' on the box",
+     "Nothing. Marketing words with no standard behind them.",
+     "No."
+    ]
    ],
    "note": "Ask for the certificate number, not the logo. We bring the spec sheets to the estimate along with the samples."
   },
-  {"type": "h2", "text": "Price your Snohomish hardwood installation"},
+  {
+   "type": "h2",
+   "text": "Price your Snohomish hardwood installation"
+  },
   {
    "type": "calc",
    "kind": "hardwood",
    "note": "Choose Unfinished for a site-finished low-VOC floor; sanding and finishing are added at refinishing rates. Certified material is quoted separately."
   },
-  {"type": "h2", "text": "Reclaimed fir and barn wood: the honest version"},
+  {
+   "type": "h2",
+   "text": "Reclaimed fir and barn wood: the honest version"
+  },
   {
    "type": "compare",
    "a": {
@@ -91,18 +171,36 @@
    "title": "The greenest reclaimed floor is the one already in your house: ",
    "text": "Many 1900s to 1920s Snohomish homes have original fir under carpet or linoleum. Sanding and finishing it at $3.99 per sq ft with a water-based finish uses no new wood at all. We check under the carpet at every estimate before we talk about new material. See <a href=\"/blog-posts/how-to-refinish-old-fir-floors-in-a-1920s-edmonds-house-without-ruining\">refinishing old fir floors</a> for what to expect."
   },
-  {"type": "h2", "text": "Snohomish realities that change the choice"},
+  {
+   "type": "h2",
+   "text": "Snohomish realities that change the choice"
+  },
   {
    "type": "list",
    "icons": true,
    "items": [
-    {"icon": "flame", "html": "<strong>Wood stoves dry the house out.</strong> Winter humidity near a stove can drop below 25 percent, which opens gaps in wide solid planks. Engineered or narrower solid boards, plus a humidifier, keep an eco floor from cracking."},
-    {"icon": "home", "html": "<strong>Crawlspaces and mud.</strong> Acreage homes have damp crawls and muddy entries. A site-finished floor with three coats of water-based finish handles wet boots better than a factory finish with micro-bevels that trap grit."},
-    {"icon": "dog", "html": "<strong>Dogs and horses in the yard.</strong> Pick hard domestic species: white oak or hickory. Soft reclaimed fir in a mudroom is a mistake, however good the story."},
-    {"icon": "truck", "html": "<strong>Distance from the mill.</strong> Domestic hardwood from our <a href=\"/services/hardwood-flooring\">Metropolitan Hardwood lines</a> ships a fraction of the distance of tropical species. Shipping is a bigger share of a floor's footprint than most people expect."}
+    {
+     "icon": "flame",
+     "html": "<strong>Wood stoves dry the house out.</strong> Winter humidity near a stove can drop below 25 percent, which opens gaps in wide solid planks. Engineered or narrower solid boards, plus a humidifier, keep an eco floor from cracking."
+    },
+    {
+     "icon": "home",
+     "html": "<strong>Crawlspaces and mud.</strong> Acreage homes have damp crawls and muddy entries. A site-finished floor with three coats of water-based finish handles wet boots better than a factory finish with micro-bevels that trap grit."
+    },
+    {
+     "icon": "dog",
+     "html": "<strong>Dogs and horses in the yard.</strong> Pick hard domestic species: white oak or hickory. Soft reclaimed fir in a mudroom is a mistake, however good the story."
+    },
+    {
+     "icon": "truck",
+     "html": "<strong>Distance from the mill.</strong> Domestic hardwood from our <a href=\"/services/hardwood-flooring\">Metropolitan Hardwood lines</a> ships a fraction of the distance of tropical species. Shipping is a bigger share of a floor's footprint than most people expect."
+    }
    ]
   },
-  {"type": "h2", "text": "Greenwashing to watch for"},
+  {
+   "type": "h2",
+   "text": "Greenwashing to watch for"
+  },
   {
    "type": "ul",
    "items": [
@@ -113,15 +211,35 @@
     "Tearing out a sound original floor to install a certified new one. The original floor was the greener option."
    ]
   },
-  {"type": "h2", "text": "How to get a genuinely low-impact hardwood floor"},
+  {
+   "type": "h2",
+   "text": "How to get a genuinely low-impact hardwood floor"
+  },
   {
    "type": "steps",
    "wide": true,
    "items": [
-    {"icon": "search", "d": "1. Check what you already have", "text": "Pull a corner of carpet. Original fir or oak that can be refinished beats every new product on this list."},
-    {"icon": "tree", "d": "2. Pick FSC domestic species", "text": "White oak or hickory for hard use, maple for a light modern look. Ask us for the FSC chain-of-custody number on the quote."},
-    {"icon": "brush", "d": "3. Go unfinished and site-finish", "text": "Install at $2.75 per sq ft, then sand and coat with three coats of low-VOC water-based finish. A 900 sq ft floor is 900 × $2.75 = $2,475 in install labor plus 900 × $3.99 = $3,591 for finishing, plus material.", "note": "One continuous finish film with no bevels also keeps the floor cleaner in a muddy house."},
-    {"icon": "refresh", "d": "4. Maintain instead of replace", "text": "Screen and recoat at $1.99 per sq ft every five to seven years. The floor never sees a landfill."}
+    {
+     "icon": "search",
+     "d": "1. Check what you already have",
+     "text": "Pull a corner of carpet. Original fir or oak that can be refinished beats every new product on this list."
+    },
+    {
+     "icon": "tree",
+     "d": "2. Pick FSC domestic species",
+     "text": "White oak or hickory for hard use, maple for a light modern look. Ask us for the FSC chain-of-custody number on the quote."
+    },
+    {
+     "icon": "brush",
+     "d": "3. Go unfinished and site-finish",
+     "text": "Install at $2.75 per sq ft, then sand and coat with three coats of low-VOC water-based finish. A 900 sq ft floor is 900 × $2.75 = $2,475 in install labor plus 900 × $3.99 = $3,591 for finishing, plus material.",
+     "note": "One continuous finish film with no bevels also keeps the floor cleaner in a muddy house."
+    },
+    {
+     "icon": "refresh",
+     "d": "4. Maintain instead of replace",
+     "text": "Screen and recoat at $1.99 per sq ft every five to seven years. The floor never sees a landfill."
+    }
    ]
   }
  ],
@@ -154,9 +272,18 @@
  "faq_title": "Sustainable hardwood questions from Snohomish",
  "faq_sub": "From downtown Victorians, Clearview acreage and the phone at our Lynnwood showroom.",
  "related": [
-  ["water-based-vs-oil-based-finish-sammamish", "water-based vs oil-based finish"],
-  ["white-oak-vs-red-oak-flooring-seattle", "white oak vs red oak flooring"],
-  ["are-engineered-hardwood-floors-real-hardwood-edmonds", "are engineered floors real hardwood"]
+  [
+   "water-based-vs-oil-based-finish-sammamish",
+   "water-based vs oil-based finish"
+  ],
+  [
+   "white-oak-vs-red-oak-flooring-seattle",
+   "white oak vs red oak flooring"
+  ],
+  [
+   "are-engineered-hardwood-floors-real-hardwood-edmonds",
+   "are engineered floors real hardwood"
+  ]
  ],
  "cta_title": "See certified samples in your own house",
  "cta_sub": "We bring FSC domestic oak, maple and hickory samples with their certificates to your Snohomish home, check what is under the carpet, and hand you a firm written quote. Free, no obligation."
