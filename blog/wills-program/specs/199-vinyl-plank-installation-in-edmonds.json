@@ -1,14 +1,18 @@
 {
  "slug": "vinyl-plank-installation-in-edmonds",
  "title": "Vinyl Plank Installation in Edmonds: 7 Questions to Ask Your Installer",
- "meta": "Seven questions to ask before booking vinyl plank installation in Edmonds: price, moisture testing, flatness, plank, trim, stairs and warranty. Wills Flooring answers each.",
+ "meta": "Seven questions to ask before booking vinyl plank installation in Edmonds: price, moisture, flatness, plank, trim, stairs, warranty. Wills Flooring answers.",
  "category": "lvp",
  "city": "Edmonds",
  "time": "8 mins",
  "date": "2027-04-03T15:00:00.000Z",
  "keywords": "vinyl plank installation Edmonds WA, questions to ask flooring installer, LVP installer checklist, vinyl plank installation cost Edmonds, luxury vinyl plank contractor, how to hire a flooring installer",
  "offers": [
-  ["Vinyl plank flooring installation", "2.50", "per square foot"]
+  [
+   "Vinyl plank flooring installation",
+   "2.50",
+   "per square foot"
+  ]
  ],
  "blocks": [
   {
@@ -17,50 +21,114 @@
    "lead": "Ask any Edmonds vinyl plank installer seven questions before you book: what the labor rate includes, whether they moisture-test, how flat the floor must be and who levels it, which plank core and wear layer they recommend, how they handle baseboards and transitions, how stairs are done, and who stands behind the work.",
    "detail": "Wills Flooring's answers are on our published price list: $2.50 per sq ft of labor, $100 per stair, 500 sq ft minimum, and a 1-year workmanship warranty. The plank itself, removal and any leveling are quoted at the free in-home estimate.",
    "tiles": [
-    {"icon": "dollar", "label": "Install labor", "value": "$2.50 / sq ft"},
-    {"icon": "stairs", "label": "Stairs", "value": "$100 per stair"},
-    {"icon": "ruler", "label": "Minimum", "value": "500 sq ft"},
-    {"icon": "shield", "label": "Workmanship warranty", "value": "1 year"}
+    {
+     "icon": "dollar",
+     "label": "Install labor",
+     "value": "$2.50 / sq ft"
+    },
+    {
+     "icon": "stairs",
+     "label": "Stairs",
+     "value": "$100 per stair"
+    },
+    {
+     "icon": "ruler",
+     "label": "Minimum",
+     "value": "500 sq ft"
+    },
+    {
+     "icon": "shield",
+     "label": "Workmanship warranty",
+     "value": "1 year"
+    }
    ],
    "cta": "Price your install"
   },
   {
    "type": "p",
-   "html": "Vinyl plank is the floor most Edmonds homeowners choose when the 1960s carpet finally goes, whether it is a Seaview rambler over a crawlspace, a Perrinville split-entry or a condo in the Bowl a few blocks from the ferry. It is also the floor with the widest gap between a good installation and a bad one, because the product forgives nothing underneath it. These seven questions sort installers quickly. Ask them of everyone, including our <a href=\"/services/lvp-vinyl-flooring\">vinyl plank installation</a> crew."
+   "html": "Vinyl plank is the floor most Edmonds homeowners choose when the 1960s carpet finally goes, whether in a Seaview rambler over a crawlspace, a Perrinville split-entry or a condo in the Bowl near the ferry. It is also the floor with the widest gap between a good installation and a bad one, because the product forgives nothing underneath it. These seven questions sort installers quickly. Ask them of everyone, including our <a href=\"/services/lvp-vinyl-flooring\">vinyl plank installation</a> crew."
   },
-  {"type": "h2", "text": "Questions 1 and 2: what is in the price, and will you test for moisture?"},
+  {
+   "type": "h2",
+   "text": "Questions 1 and 2: what is in the price, and will you test for moisture?"
+  },
   {
    "type": "table",
-   "head": ["Question", "A good answer", "A warning sign"],
+   "head": [
+    "Question",
+    "A good answer",
+    "A warning sign"
+   ],
    "rows": [
-    ["1. What does your per-square-foot labor rate include?", "Installation of the plank only, with material, underlayment, removal and prep as separate written lines. Ours is $2.50 per sq ft.", "One lump sum, or \"everything\" with no lines to check against."],
-    ["1b. Is there a minimum?", "Yes, stated up front. Ours is 500 sq ft billed.", "A minimum that appears only on the invoice."],
-    ["2. Will you moisture-test the subfloor?", "Yes, with a pin meter on wood and a calcium chloride or relative-humidity test on any slab, with the readings written on the quote.", "\"Vinyl is waterproof, so it does not matter.\" The plank is; the subfloor and adhesive are not."],
-    ["2b. What about my crawlspace?", "We look at the vapor barrier and vents, because a damp Edmonds crawlspace pushes moisture into the plywood above it.", "No mention of the crawlspace at all."]
+    [
+     "1. What does your per-square-foot labor rate include?",
+     "Installation of the plank only, with material, underlayment, removal and prep as separate written lines. Ours is $2.50 per sq ft.",
+     "One lump sum, or \"everything\" with no lines to check against."
+    ],
+    [
+     "1b. Is there a minimum?",
+     "Yes, stated up front. Ours is 500 sq ft billed.",
+     "A minimum that appears only on the invoice."
+    ],
+    [
+     "2. Will you moisture-test the subfloor?",
+     "Yes, with a pin meter on wood and a relative-humidity test on any slab, readings written on the quote.",
+     "\"Vinyl is waterproof, so it does not matter.\" The plank is; the subfloor and adhesive are not."
+    ],
+    [
+     "2b. What about my crawlspace?",
+     "We check the vapor barrier and vents, because a damp Edmonds crawlspace pushes moisture into the plywood above it.",
+     "No mention of the crawlspace at all."
+    ]
    ],
    "note": "Edmonds sits on the water and many older homes have crawlspaces with open vents. Moisture is the single most common cause of a vinyl plank floor that lifts or peaks in its first summer."
   },
-  {"type": "h2", "text": "Question 3: How flat does my floor need to be, and who fixes it?"},
+  {
+   "type": "h2",
+   "text": "Question 3: How flat does my floor need to be, and who fixes it?"
+  },
   {
    "type": "cards",
    "cols": 2,
    "items": [
-    {"icon": "ruler", "title": "The number to ask for", "text": "Most rigid-core plank calls for a subfloor flat to within 3/16 in over 10 ft. Ask the installer what tolerance they work to. If they cannot name one, they are not checking."},
-    {"icon": "home", "title": "What Edmonds ramblers show", "text": "1950s to 70s houses in Seaview and Westgate often have joists that settled toward the center of the house, humps where a wall was removed, and old vinyl layers of different thickness in the kitchen. All of it telegraphs through a click floor."},
-    {"icon": "hammer", "title": "How it gets fixed", "text": "High spots are sanded or planed; low spots get a cement-based patch or self-leveling compound. Old sheet vinyl with a cushion backing usually has to come out. Each of these is a separate line on an honest quote."},
-    {"icon": "alert", "title": "Why it matters", "text": "Click joints flex over a dip and eventually crack or separate. Over a hump, the plank rocks and the joint opens. A hollow, clicking sound underfoot is the sign of a floor installed over an unflattened subfloor."}
+    {
+     "icon": "ruler",
+     "title": "The number to ask for",
+     "text": "Most rigid-core plank calls for a subfloor flat to within 3/16 in over 10 ft. Ask the installer what tolerance they work to. If they cannot name one, they are not checking."
+    },
+    {
+     "icon": "home",
+     "title": "What Edmonds ramblers show",
+     "text": "1950s to 70s houses in Seaview and Westgate often have joists that settled toward the center, humps where a wall was removed, and old vinyl layers of different thickness in the kitchen. All of it telegraphs through a click floor."
+    },
+    {
+     "icon": "hammer",
+     "title": "How it gets fixed",
+     "text": "High spots are sanded or planed; low spots get a cement-based patch or self-leveling compound. Old sheet vinyl with a cushion backing usually has to come out. Each of these is a separate line on an honest quote."
+    },
+    {
+     "icon": "alert",
+     "title": "Why it matters",
+     "text": "Click joints flex over a dip and eventually crack or separate. Over a hump, the plank rocks and the joint opens. A hollow, clicking sound underfoot is the sign of a floor installed over an unflattened subfloor."
+    }
    ]
   },
-  {"type": "h2", "text": "Price your Edmonds vinyl plank installation right now"},
+  {
+   "type": "h2",
+   "text": "Price your Edmonds vinyl plank installation right now"
+  },
   {
    "type": "calc",
    "kind": "lvp",
    "note": "Labor only. Plank, underlayment, removal and any leveling are quoted at the free estimate after we meter and straightedge the floor."
   },
-  {"type": "h2", "text": "Questions 4 and 5: which plank, and what happens to the trim?"},
+  {
+   "type": "h2",
+   "text": "Questions 4 and 5: which plank, and what happens to the trim?"
+  },
   {
    "type": "p",
-   "html": "Question 4 is about the product. A good installer will recommend a rigid core (SPC or WPC) and a wear layer of at least 12 mil for bedrooms and 20 mil for kitchens, halls and homes with dogs, and will show you the sample in your own room. Be wary of anyone pushing a single brand without explaining why, or who cannot say whether the plank has an attached pad. Question 5 is about the edges of the room, and it has two honest answers."
+   "html": "Question 4 is about the product. A good installer will recommend a rigid core (SPC or WPC) with a wear layer of at least 12 mil for bedrooms and 20 mil for kitchens, halls and homes with dogs, and will show you the sample in your own room. Be wary of anyone pushing one brand without saying why. Question 5 is about the edges of the room, and it has two honest answers."
   },
   {
    "type": "compare",
@@ -87,26 +155,62 @@
     ]
    }
   },
-  {"type": "h2", "text": "Questions 6 and 7: stairs, and who stands behind the work"},
+  {
+   "type": "h2",
+   "text": "Questions 6 and 7: stairs, and who stands behind the work"
+  },
   {
    "type": "steps",
    "wide": true,
    "items": [
-    {"icon": "stairs", "d": "6. How are the stairs done?", "text": "Stairs cannot float. Each tread is glued, the riser is faced with matching material, and a flush stair nose from the same collection finishes the edge. Ask to see a photo of the installer's stair work before booking.", "note": "Wills Flooring: $100 per stair. A Perrinville split-entry with 13 stairs and 700 sq ft: 700 × $2.50 + 13 × $100 = $3,050 labor"},
-    {"icon": "shield", "d": "7. Who backs the work?", "text": "Ask for the contractor license number, proof of insurance and the written workmanship warranty. Ask whether the crew are employees and who you call if a plank lifts in August.", "note": "Wills Flooring: licensed and insured since 2013, 1-year workmanship warranty, one phone number, (425) 350-4435"},
-    {"icon": "search", "d": "7b. What is not covered?", "text": "An honest installer will tell you: manufacturing defects go to the plank maker, and moisture damage from a leak or a crawlspace problem that arose after install is not workmanship. Getting this straight before the job avoids arguments after it.", "note": "Ask for both warranties, product and workmanship, in writing"}
+    {
+     "icon": "stairs",
+     "d": "6. How are the stairs done?",
+     "text": "Stairs cannot float. Each tread is glued, the riser is faced with matching material, and a flush stair nose from the same collection finishes the edge. Ask to see a photo of the installer's stair work before booking.",
+     "note": "Wills Flooring: $100 per stair. A Perrinville split-entry with 13 stairs and 700 sq ft: 700 × $2.50 + 13 × $100 = $3,050 labor"
+    },
+    {
+     "icon": "shield",
+     "d": "7. Who backs the work?",
+     "text": "Ask for the contractor license number, proof of insurance and the written workmanship warranty. Ask whether the crew are employees and who you call if a plank lifts in August.",
+     "note": "Wills Flooring: licensed and insured since 2013, 1-year workmanship warranty, one phone number, (425) 350-4435"
+    },
+    {
+     "icon": "search",
+     "d": "7b. What is not covered?",
+     "text": "An honest installer will tell you: manufacturing defects go to the plank maker, and moisture damage from a leak or crawlspace problem that arose after install is not workmanship. Settling this before the job avoids arguments after it.",
+     "note": "Ask for both warranties, product and workmanship, in writing"
+    }
    ]
   },
-  {"type": "h2", "text": "Answers that should make you walk away"},
+  {
+   "type": "h2",
+   "text": "Answers that should make you walk away"
+  },
   {
    "type": "list",
    "icons": true,
    "items": [
-    {"icon": "x", "html": "<strong>\"Vinyl is waterproof, so we do not need to test anything.\"</strong> The plank is waterproof. The plywood, the adhesive and the click joints are not."},
-    {"icon": "x", "html": "<strong>\"We just go right over the old vinyl.\"</strong> Sometimes true for a single, well-bonded layer, but cushioned vinyl and multiple layers need to come out, and old vinyl should be tested before it is disturbed."},
-    {"icon": "x", "html": "<strong>\"We can float the stairs.\"</strong> Floating plank on stairs comes loose. Treads must be glued and finished with a proper nose."},
-    {"icon": "x", "html": "<strong>No expansion gap, or no answer about it.</strong> Rigid core still moves. A sunroom or south-facing Edmonds living room with no gap at the wall will peak in the first hot week."},
-    {"icon": "x", "html": "<strong>A quote from the driveway.</strong> Nobody can quote flatness, moisture or removal without walking the rooms and opening a corner. Our <a href=\"/blog-posts/does-vinyl-plank-need-a-moisture-test-over-concrete-kirkland\">moisture testing guide</a> explains what a real check looks like."}
+    {
+     "icon": "x",
+     "html": "<strong>\"Vinyl is waterproof, so we do not need to test anything.\"</strong> The plank is waterproof. The plywood, the adhesive and the click joints are not."
+    },
+    {
+     "icon": "x",
+     "html": "<strong>\"We just go right over the old vinyl.\"</strong> Sometimes fine for a single well-bonded layer, but cushioned or multiple layers must come out, and old vinyl should be tested before it is disturbed."
+    },
+    {
+     "icon": "x",
+     "html": "<strong>\"We can float the stairs.\"</strong> Floating plank on stairs comes loose. Treads must be glued and finished with a proper nose."
+    },
+    {
+     "icon": "x",
+     "html": "<strong>No expansion gap, or no answer about it.</strong> Rigid core still moves. A sunroom or south-facing Edmonds living room with no gap at the wall will peak in the first hot week."
+    },
+    {
+     "icon": "x",
+     "html": "<strong>A quote from the driveway.</strong> Nobody can quote flatness, moisture or removal without walking the rooms and opening a corner. Our <a href=\"/blog-posts/does-vinyl-plank-need-a-moisture-test-over-concrete-kirkland\">moisture testing guide</a> explains what a real check looks like."
+    }
    ]
   },
   {
@@ -116,18 +220,42 @@
    "title": "The Edmonds crawlspace rule: ",
    "text": "If your house is west of Highway 99 and built before 1980, assume the crawlspace matters. We check the vapor barrier and meter the subfloor at every estimate. A plywood reading over about 14 percent means the crawlspace gets fixed or dried before the plank goes down, not after."
   },
-  {"type": "h2", "text": "Your seven-question checklist for the estimate"},
+  {
+   "type": "h2",
+   "text": "Your seven-question checklist for the estimate"
+  },
   {
    "type": "list",
    "icons": true,
    "items": [
-    {"icon": "dollar", "html": "<strong>1. What does the labor rate include, and what is the minimum?</strong>"},
-    {"icon": "moisture", "html": "<strong>2. Will you moisture-test the subfloor and look at the crawlspace, and write the readings down?</strong>"},
-    {"icon": "ruler", "html": "<strong>3. What flatness tolerance do you work to, and how will you fix my floor to meet it?</strong>"},
-    {"icon": "layers", "html": "<strong>4. Which core and wear layer do you recommend for my rooms, and can I see it in my own light?</strong>"},
-    {"icon": "scissors", "html": "<strong>5. Baseboards off, or quarter round on, and what does each cost?</strong>"},
-    {"icon": "stairs", "html": "<strong>6. How exactly are the stairs done, and can I see photos?</strong>"},
-    {"icon": "shield", "html": "<strong>7. License, insurance, and both warranties in writing?</strong>"}
+    {
+     "icon": "dollar",
+     "html": "<strong>1. What does the labor rate include, and what is the minimum?</strong>"
+    },
+    {
+     "icon": "moisture",
+     "html": "<strong>2. Will you moisture-test the subfloor and look at the crawlspace, and write the readings down?</strong>"
+    },
+    {
+     "icon": "ruler",
+     "html": "<strong>3. What flatness tolerance do you work to, and how will you fix my floor to meet it?</strong>"
+    },
+    {
+     "icon": "layers",
+     "html": "<strong>4. Which core and wear layer do you recommend for my rooms, and can I see it in my own light?</strong>"
+    },
+    {
+     "icon": "scissors",
+     "html": "<strong>5. Baseboards off, or quarter round on, and what does each cost?</strong>"
+    },
+    {
+     "icon": "stairs",
+     "html": "<strong>6. How exactly are the stairs done, and can I see photos?</strong>"
+    },
+    {
+     "icon": "shield",
+     "html": "<strong>7. License, insurance, and both warranties in writing?</strong>"
+    }
    ]
   }
  ],
@@ -145,10 +273,6 @@
    "a": "Sometimes. One layer of well-bonded, non-cushioned sheet vinyl that is flat can be covered. Cushioned vinyl, multiple layers, or loose vinyl must come out. Vinyl from before the mid-1980s should be tested for asbestos before anyone disturbs it."
   },
   {
-   "q": "Do I have to remove baseboards to install vinyl plank?",
-   "a": "No. You can remove and reinstall them for the cleanest look, or leave them and cover the expansion gap with quarter round or shoe molding. In older Edmonds homes with original trim, quarter round is often the safer choice because old baseboards splinter on removal."
-  },
-  {
    "q": "Can vinyl plank be floated on stairs?",
    "a": "No. Stair treads must be glued down and finished with a flush stair nose from the same collection, with the risers faced to match. Floating plank on stairs works loose and becomes a trip hazard. Wills Flooring charges $100 per stair for this work."
   },
@@ -160,9 +284,18 @@
  "faq_title": "Questions Edmonds homeowners ask about hiring a vinyl plank installer",
  "faq_sub": "From the Bowl to Perrinville, asked at the estimate.",
  "related": [
-  ["how-much-does-vinyl-plank-flooring-installation-cost-in-edmonds", "vinyl plank installation cost in Edmonds"],
-  ["does-vinyl-plank-flooring-need-to-acclimate-before-installation-edmonds", "does vinyl plank need to acclimate"],
-  ["whats-included-in-a-vinyl-plank-installation-quote-in-snohomish", "what a vinyl plank quote should include"]
+  [
+   "how-much-does-vinyl-plank-flooring-installation-cost-in-edmonds",
+   "vinyl plank installation cost in Edmonds"
+  ],
+  [
+   "does-vinyl-plank-flooring-need-to-acclimate-before-installation-edmonds",
+   "does vinyl plank need to acclimate"
+  ],
+  [
+   "whats-included-in-a-vinyl-plank-installation-quote-in-snohomish",
+   "what a vinyl plank quote should include"
+  ]
  ],
  "cta_title": "Get all seven answers at one free visit",
  "cta_sub": "We bring the samples to your Edmonds home, meter the subfloor, check the crawlspace and hand you an itemized written quote on the spot."

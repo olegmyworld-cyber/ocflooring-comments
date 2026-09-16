@@ -1,7 +1,7 @@
 {
  "slug": "cheap-vs-quality-carpet-snohomish",
  "title": "Cheap vs Quality Carpet: What You Actually Get for the Money",
- "meta": "Cheap vs quality carpet: what extra money buys in fiber, density, twist, backing and pad, and where cheap carpet fails first. Wills Flooring, serving Snohomish.",
+ "meta": "Cheap vs quality carpet: what extra money buys in fiber, density, twist, backing and pad, and where cheap carpet fails first. Wills Flooring in Snohomish.",
  "category": "carpet",
  "city": "Snohomish",
  "time": "8 mins",
@@ -14,62 +14,174 @@
    "lead": "Quality carpet buys you a denser pile, a better fiber, a tighter twist, a heavier backing and a firmer pad. Cheap carpet gives you the same look on day one and a crushed, matted hallway by year three.",
    "detail": "The difference is not softness or color; both tiers come in every color. It is how the carpet handles traffic, mud and dogs, which is exactly what a Snohomish house throws at it. Here is what each spec on the label does and where the extra money actually goes.",
    "tiles": [
-    {"icon": "grid", "label": "Density", "value": "Ask for the number"},
-    {"icon": "leaf", "label": "Fiber", "value": "Nylon or triexta"},
-    {"icon": "refresh", "label": "Twist", "value": "5 turns per inch or more"},
-    {"icon": "layers", "label": "Pad", "value": "Firm, not thick"}
+    {
+     "icon": "grid",
+     "label": "Density",
+     "value": "Ask for the number"
+    },
+    {
+     "icon": "leaf",
+     "label": "Fiber",
+     "value": "Nylon or triexta"
+    },
+    {
+     "icon": "refresh",
+     "label": "Twist",
+     "value": "5 turns per inch or more"
+    },
+    {
+     "icon": "layers",
+     "label": "Pad",
+     "value": "Firm, not thick"
+    }
    ],
    "cta": false
   },
   {
    "type": "p",
-   "html": "Snohomish homeowners are practical people. The ones we visit on acreage off Fobes Hill or out toward Clearview usually have a big-box flyer on the counter and a fair question: the carpet on sale looks the same as the one that costs twice as much, so what is the difference? The honest answer is that the two carpets are built to survive different amounts of walking, and a farmhouse with a mudroom, a wood stove and two dogs is the hardest test there is. This guide reads the label for you. When you are ready to see samples, our <a href=\"/services/carpet-installation\">carpet installation</a> team brings them to the house."
+   "html": "Snohomish homeowners are practical people. The ones we visit on acreage off Fobes Hill or out toward Clearview usually have a big-box flyer on the counter and a fair question: the carpet on sale looks the same as the one that costs twice as much, so what is the difference? The honest answer is that the two carpets are built to survive different amounts of walking, and a farmhouse with a mudroom, a wood stove and two dogs is the hardest test there is. This guide reads the label for you; our <a href=\"/services/carpet-installation\">carpet installation</a> team brings the samples to the house."
   },
-  {"type": "h2", "text": "What actually changes as the price goes up"},
+  {
+   "type": "h2",
+   "text": "What actually changes as the price goes up"
+  },
   {
    "type": "table",
-   "head": ["Spec", "Cheap carpet", "Quality carpet", "Why it matters in Snohomish"],
+   "head": [
+    "Spec",
+    "Cheap carpet",
+    "Quality carpet",
+    "Why it matters in Snohomish"
+   ],
    "rows": [
-    ["Fiber", "Polyester (PET), sometimes olefin", "Nylon or triexta", "Nylon and triexta spring back after crushing; polyester mats in the hallway and holds oily soil from boots and dogs."],
-    ["Face weight", "Under 30 oz per sq yd", "40 oz and up", "More yarn per yard is more material to wear through, but weight alone is easy to fake with tall, loose pile."],
-    ["Density", "Under 2,000", "3,000 or higher", "Density is face weight divided by pile height. It is the number that predicts matting. A short, dense carpet outlasts a tall, fluffy one."],
-    ["Twist", "3 to 4 turns per inch, heat-set lightly", "5 or more turns per inch, heat-set", "Tight twist keeps the tips from blooming and fuzzing, which is how a cut pile starts to look tired."],
-    ["Dye method", "Piece-dyed after tufting", "Solution-dyed, color built into the fiber", "Solution-dyed fiber can be cleaned with diluted bleach and will not fade in a south-facing farmhouse window."],
-    ["Backing", "Light woven polypropylene, thin latex", "Heavier secondary backing, more latex", "A weak backing delaminates at seams and stretches poorly. In a damp crawlspace house, it is the first thing to fail."],
-    ["Warranty", "Stain warranty only, short texture term", "Texture retention and abrasive wear terms of 10 years or more", "Texture retention is the line that matters. Stain warranties exclude almost everything a dog does."]
+    [
+     "Fiber",
+     "Polyester (PET), sometimes olefin",
+     "Nylon or triexta",
+     "Nylon and triexta spring back after crushing; polyester mats in the hallway and holds oily soil from boots and dogs."
+    ],
+    [
+     "Face weight",
+     "Under 30 oz per sq yd",
+     "40 oz and up",
+     "More yarn per yard is more material to wear through, but weight alone is easy to fake with tall, loose pile."
+    ],
+    [
+     "Density",
+     "Under 2,000",
+     "3,000 or higher",
+     "Density is face weight divided by pile height and the number that predicts matting. A short, dense carpet outlasts a tall, fluffy one."
+    ],
+    [
+     "Twist",
+     "3 to 4 turns per inch, heat-set lightly",
+     "5 or more turns per inch, heat-set",
+     "Tight twist keeps the tips from blooming and fuzzing, which is how a cut pile starts to look tired."
+    ],
+    [
+     "Dye method",
+     "Piece-dyed after tufting",
+     "Solution-dyed, color built into the fiber",
+     "Solution-dyed fiber can be cleaned with diluted bleach and will not fade in a south-facing farmhouse window."
+    ],
+    [
+     "Backing",
+     "Light woven polypropylene, thin latex",
+     "Heavier secondary backing, more latex",
+     "A weak backing delaminates at seams and stretches poorly. In a damp crawlspace house, it is the first thing to fail."
+    ],
+    [
+     "Warranty",
+     "Stain warranty only, short texture term",
+     "Texture retention and abrasive wear terms of 10 years or more",
+     "Texture retention is the line that matters. Stain warranties exclude almost everything a dog does."
+    ]
    ],
    "note": "Price tiers overlap. A dense, low-pile polyester can outperform a tall, loose nylon. Read the numbers, not the tier."
   },
-  {"type": "h2", "text": "Where cheap carpet fails first in a Snohomish house"},
+  {
+   "type": "h2",
+   "text": "Where cheap carpet fails first in a Snohomish house"
+  },
   {
    "type": "cards",
    "cols": 2,
    "items": [
-    {"icon": "home", "title": "The hall and the stairs", "text": "Low density plus a loose twist means every step crushes the pile and it does not stand back up. Within a couple of years the path from the back door to the kitchen is a visibly darker, flatter lane while the room corners still look new."},
-    {"icon": "paw", "title": "Mud, dogs and well water", "text": "Polyester attracts oily soil, so paw prints and the greasy ring around a dog bed set in. Iron in Snohomish well water leaves rust-toned spots on piece-dyed carpet after a cleaning. Solution-dyed nylon or triexta shrugs both off."},
-    {"icon": "scissors", "title": "Seams and edges", "text": "Thin backing shows seam lines, frays at doorways and pulls loose from tack strip. In a house over a crawlspace with seasonal humidity, a light backing also relaxes and ripples sooner."},
-    {"icon": "layers", "title": "The pad bottoms out", "text": "A soft, thin bargain pad flattens in months. Once it does, the carpet backing takes every footstep directly and wears through from beneath, which no fiber can survive."}
+    {
+     "icon": "home",
+     "title": "The hall and the stairs",
+     "text": "Low density plus a loose twist means every step crushes the pile and it does not stand back up. Within a couple of years the path from the back door to the kitchen is a darker, flatter lane while the room corners still look new."
+    },
+    {
+     "icon": "paw",
+     "title": "Mud, dogs and well water",
+     "text": "Polyester attracts oily soil, so paw prints and the ring around a dog bed set in. Iron in Snohomish well water leaves rust-toned spots on piece-dyed carpet after a cleaning. Solution-dyed nylon or triexta shrugs both off."
+    },
+    {
+     "icon": "scissors",
+     "title": "Seams and edges",
+     "text": "Thin backing shows seam lines, frays at doorways and pulls loose from tack strip. In a house over a crawlspace with seasonal humidity, a light backing also relaxes and ripples sooner."
+    },
+    {
+     "icon": "layers",
+     "title": "The pad bottoms out",
+     "text": "A soft, thin bargain pad flattens in months. Once it does, the carpet backing takes every footstep directly and wears through from beneath, which no fiber can survive."
+    }
    ]
   },
-  {"type": "h2", "text": "Scope your Snohomish carpet project"},
+  {
+   "type": "h2",
+   "text": "Scope your Snohomish carpet project"
+  },
   {
    "type": "estimator",
    "title": "Scope Your Snohomish Carpet Project",
    "sub": "Tell us the rooms and stairs. We bring both tiers of samples to the house, measure, check the subfloor and give you a firm written price on the spot."
   },
-  {"type": "h2", "text": "How to read a carpet spec sheet in 60 seconds"},
+  {
+   "type": "h2",
+   "text": "How to read a carpet spec sheet in 60 seconds"
+  },
   {
    "type": "steps",
    "wide": true,
    "items": [
-    {"icon": "leaf", "d": "1. Fiber", "text": "Look for nylon (type 6 or 6,6) or triexta for halls, stairs and family rooms. Polyester is acceptable in a guest room or a rental.", "note": "Solution-dyed is a bonus in any fiber"},
-    {"icon": "grid", "d": "2. Density", "text": "If the sheet lists it, 3,000 or more is durable. If it lists only face weight and pile height, divide weight by height in inches and multiply by 36 to get it yourself.", "note": "Example: 40 oz at half an inch of pile is 2,880, borderline for a busy hall"},
-    {"icon": "refresh", "d": "3. Twist", "text": "Five turns per inch or more, heat-set. Pinch a tuft: a tight, defined tip is good, a frayed, splaying one is not.", "note": "Frieze and textured cut piles usually carry the highest twist"},
-    {"icon": "layers", "d": "4. Pad", "text": "An 8 lb rebond pad at 7/16 in is the standard for living areas. Firmer and thinner on stairs. A thick, soft pad feels luxurious at the store and shortens the carpet's life at home.", "note": "Our <a href=\"/blog-posts/carpet-padding-explained-edmonds\">padding guide</a> goes deeper"},
-    {"icon": "shield", "d": "5. Warranty language", "text": "Find the texture retention and abrasive wear terms. Ignore the headline stain number; it is the least meaningful line on the label.", "note": "Pet warranties are worth reading closely for what they exclude"}
+    {
+     "icon": "leaf",
+     "d": "1. Fiber",
+     "text": "Look for nylon (type 6 or 6,6) or triexta for halls, stairs and family rooms. Polyester is acceptable in a guest room or a rental.",
+     "note": "Solution-dyed is a bonus in any fiber"
+    },
+    {
+     "icon": "grid",
+     "d": "2. Density",
+     "text": "If the sheet lists it, 3,000 or more is durable. If it lists only face weight and pile height, divide weight by height in inches and multiply by 36 to get it yourself.",
+     "note": "Example: 40 oz at half an inch of pile is 2,880, borderline for a busy hall"
+    },
+    {
+     "icon": "refresh",
+     "d": "3. Twist",
+     "text": "Five turns per inch or more, heat-set. Pinch a tuft: a tight, defined tip is good, a frayed, splaying one is not.",
+     "note": "Frieze and textured cut piles usually carry the highest twist"
+    },
+    {
+     "icon": "layers",
+     "d": "4. Pad",
+     "text": "An 8 lb rebond pad at 7/16 in is the standard for living areas, firmer and thinner on stairs. A thick, soft pad feels luxurious at the store and shortens the carpet's life at home.",
+     "note": "Our <a href=\"/blog-posts/carpet-padding-explained-edmonds\">padding guide</a> goes deeper"
+    },
+    {
+     "icon": "shield",
+     "d": "5. Warranty language",
+     "text": "Find the texture retention and abrasive wear terms. Ignore the headline stain number; it is the least meaningful line on the label.",
+     "note": "Pet warranties are worth reading closely for what they exclude"
+    }
    ]
   },
-  {"type": "h2", "text": "When cheap carpet is the smart buy"},
+  {
+   "type": "h2",
+   "text": "When cheap carpet is the smart buy"
+  },
   {
    "type": "compare",
    "a": {
@@ -102,30 +214,60 @@
    "title": "Two things never to skimp on, even with cheap carpet: ",
    "text": "The pad and the stretch. A firm 8 lb pad and a proper power-stretch install make a bargain carpet last years longer and look tighter. A soft pad and a knee-kicker-only install make an expensive carpet ripple and wear like a cheap one. Ask any installer, including us, about both."
   },
-  {"type": "h2", "text": "Mistakes that waste money at either price"},
+  {
+   "type": "h2",
+   "text": "Mistakes that waste money at either price"
+  },
   {
    "type": "list",
    "icons": true,
    "items": [
-    {"icon": "x", "html": "<strong>Buying by softness.</strong> The plushest sample in the stack is usually the tallest, loosest pile, which is the one that mats. Judge by pinching the pile and reading the density, not by petting it."},
-    {"icon": "x", "html": "<strong>Buying by the stain warranty.</strong> Almost every fiber has a stain treatment now. Texture retention is the term that tells you whether the hall will still look good."},
-    {"icon": "x", "html": "<strong>One carpet for the whole house.</strong> Put the dense nylon on the stairs and hall and a less expensive carpet in the bedrooms. Same color family, different spec, and nobody can see the change at a doorway."},
-    {"icon": "x", "html": "<strong>Premium carpet over a bargain pad.</strong> The pad is the suspension. Good carpet on a pad that bottoms out wears from underneath."},
-    {"icon": "x", "html": "<strong>Skipping the subfloor.</strong> Snohomish farmhouses and older ramblers over crawlspaces often have soft or damp plywood. Carpet hides it for a year and then the seams and the smell tell on it."},
-    {"icon": "x", "html": "<strong>Choosing light, piece-dyed carpet for a mudroom hallway.</strong> Solution-dyed, medium-tone, flecked or textured carpet hides what boots and dogs bring in."}
+    {
+     "icon": "x",
+     "html": "<strong>Buying by softness.</strong> The plushest sample in the stack is usually the tallest, loosest pile, which is the one that mats. Judge by pinching the pile and reading the density, not by petting it."
+    },
+    {
+     "icon": "x",
+     "html": "<strong>Buying by the stain warranty.</strong> Almost every fiber has a stain treatment now. Texture retention is the term that tells you whether the hall will still look good."
+    },
+    {
+     "icon": "x",
+     "html": "<strong>One carpet for the whole house.</strong> Put the dense nylon on the stairs and hall and a less expensive carpet in the bedrooms. Same color family, different spec, and nobody can see the change at a doorway."
+    },
+    {
+     "icon": "x",
+     "html": "<strong>Skipping the subfloor.</strong> Snohomish farmhouses and older ramblers over crawlspaces often have soft or damp plywood. Carpet hides it for a year and then the seams and the smell tell on it."
+    }
    ]
   },
-  {"type": "h2", "text": "Checklist before you buy"},
+  {
+   "type": "h2",
+   "text": "Checklist before you buy"
+  },
   {
    "type": "list",
    "icons": true,
    "items": [
-    {"icon": "clipboard", "html": "<strong>Get the spec sheet for every sample you like,</strong> not just the tier name. Fiber, face weight, pile height, density, twist and dye method."},
-    {"icon": "home", "html": "<strong>Map the traffic.</strong> Mark the back door, the hall, the stairs and where the dog sleeps. Those areas get the quality carpet."},
-    {"icon": "layers", "html": "<strong>Specify the pad by weight and thickness</strong> and make sure it is a separate line on the quote."},
-    {"icon": "search", "html": "<strong>Ask how the crew stretches.</strong> Power stretcher, not knee kicker only, on every room over a few feet wide."},
-    {"icon": "moisture", "html": "<strong>Have the subfloor checked before install day.</strong> We meter plywood and look at the crawlspace at the free estimate, because a wet subfloor ruins either tier."},
-    {"icon": "sun", "html": "<strong>See both tiers side by side in your own room.</strong> Under a Snohomish farmhouse's window light, with the dog walking across them, the difference is obvious."}
+    {
+     "icon": "clipboard",
+     "html": "<strong>Get the spec sheet for every sample you like,</strong> not just the tier name. Fiber, face weight, pile height, density, twist and dye method."
+    },
+    {
+     "icon": "home",
+     "html": "<strong>Map the traffic.</strong> Mark the back door, the hall, the stairs and where the dog sleeps. Those areas get the quality carpet."
+    },
+    {
+     "icon": "layers",
+     "html": "<strong>Specify the pad by weight and thickness</strong> and make sure it is a separate line on the quote."
+    },
+    {
+     "icon": "search",
+     "html": "<strong>Ask how the crew stretches.</strong> Power stretcher, not knee kicker only, on every room over a few feet wide."
+    },
+    {
+     "icon": "moisture",
+     "html": "<strong>Have the subfloor checked before install day.</strong> We meter plywood and look at the crawlspace at the free estimate, because a wet subfloor ruins either tier."
+    }
    ]
   }
  ],
@@ -148,7 +290,7 @@
   },
   {
    "q": "How long should quality carpet last compared to cheap carpet?",
-   "a": "With a good pad and proper stretching, a dense nylon or triexta carpet commonly looks good for 12 to 15 years in a family home. Budget polyester in the same hallway often shows matting in two to three years and is replaced within five to seven."
+   "a": "With a good pad and proper stretching, a dense nylon or triexta carpet commonly looks good for 12 to 15 years in a family home. Budget polyester in the same hallway often mats within two to three years and is replaced within five to seven."
   },
   {
    "q": "Can I mix cheap and quality carpet in one house?",
@@ -158,9 +300,18 @@
  "faq_title": "Cheap vs quality carpet: questions from Snohomish homeowners",
  "faq_sub": "Asked on farmhouse porches and at the Lynnwood showroom.",
  "related": [
-  ["nylon-vs-polyester-vs-triexta-vs-wool-carpet-sammamish", "which carpet fiber to buy"],
-  ["carpet-padding-explained-edmonds", "carpet padding explained"],
-  ["what-is-the-best-carpet-for-high-traffic-areas-snohomish", "best carpet for high-traffic areas"]
+  [
+   "nylon-vs-polyester-vs-triexta-vs-wool-carpet-sammamish",
+   "which carpet fiber to buy"
+  ],
+  [
+   "carpet-padding-explained-edmonds",
+   "carpet padding explained"
+  ],
+  [
+   "what-is-the-best-carpet-for-high-traffic-areas-snohomish",
+   "best carpet for high-traffic areas"
+  ]
  ],
  "cta_title": "Compare both tiers on your own floor",
  "cta_sub": "Our mobile showroom brings budget and premium samples to your Snohomish home, measures, checks the subfloor and leaves a firm written quote. Free, no obligation."

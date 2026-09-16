@@ -206,12 +206,12 @@
      "icon": "truck",
      "d": "Question 5, part one: before the crew",
      "text": "When does the wood arrive, how long does it acclimate, and what do you need to clear? Solid hardwood usually sits three to five days in the rooms where it goes. Furniture, rugs and anything on the floor should be out before delivery.",
-     "note": "Ask whether the thermostat needs to be at living temperature during acclimation; it does"
+     "note": "The thermostat should be at living temperature during acclimation"
     },
     {
      "icon": "calendar",
      "d": "Question 5, part two: the install days",
-     "text": "A 1,000 sq ft prefinished engineered floor in a Martha Lake rambler is typically two to three days of installation. Unfinished floors add sanding and three coats of finish, which adds three to four days and a cure period before furniture.",
+     "text": "A 1,000 sq ft prefinished engineered floor in a Martha Lake rambler is typically two to three days of installation. Unfinished floors add sanding and three coats of finish, another three to four days plus cure time before furniture.",
      "note": "1,000 × $3.25 = $3,250 labor for prefinished; 1,000 × $2.75 + 1,000 × $3.99 = $6,740 for unfinished plus site finishing"
     },
     {
@@ -244,15 +244,11 @@
     },
     {
      "icon": "x",
-     "html": "<strong>A deposit over half the job.</strong> Material deposits are normal. Most of the labor should be paid when the floor is done and you have walked it."
-    },
-    {
-     "icon": "x",
      "html": "<strong>\"Acclimation is not necessary.\"</strong> It is, especially for solid wood in a damp Snohomish County winter. Skipping it is how gaps and cupping appear the next summer."
     },
     {
      "icon": "x",
-     "html": "<strong>Quoting new hardwood without checking for the old.</strong> In Lynnwood, that is leaving a refinishable oak floor, and thousands of dollars, under the carpet."
+     "html": "<strong>Quoting new hardwood without checking for the old.</strong> In Lynnwood, that can leave a refinishable oak floor, and thousands of dollars, under the carpet."
     }
    ]
   },
@@ -286,7 +282,7 @@
     },
     {
      "icon": "home",
-     "html": "<strong>Samples seen in your own light.</strong> A mobile showroom visit puts the boards on your Lynnwood floor next to your cabinets, which is the only place a color decision should be made."
+     "html": "<strong>Samples seen in your own light.</strong> A mobile showroom visit puts the boards on your Lynnwood floor next to your cabinets, the only place a color decision should be made."
     }
    ]
   }

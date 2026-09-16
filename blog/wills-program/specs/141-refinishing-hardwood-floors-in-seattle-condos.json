@@ -1,0 +1,315 @@
+{
+ "slug": "refinishing-hardwood-floors-in-seattle-condos",
+ "title": "Refinishing Hardwood Floors in Seattle Condos: Rules, Noise, Elevators and Timing",
+ "meta": "Refinishing hardwood in a Seattle condo costs the same $3.99 per sq ft as a house; the catch is HOA approval, quiet hours and elevators. From Wills Flooring.",
+ "category": "refinish",
+ "city": "Seattle",
+ "time": "9 mins",
+ "date": "2027-02-04T15:00:00.000Z",
+ "keywords": "refinish hardwood floors condo Seattle, condo floor refinishing HOA rules, refinishing floors in an apartment building, hardwood refinishing quiet hours elevator, Seattle condo floor sanding",
+ "offers": [
+  [
+   "Sand and refinish, natural finish",
+   "3.99",
+   "per square foot"
+  ],
+  [
+   "Sand and refinish with stain",
+   "6.50",
+   "per square foot"
+  ],
+  [
+   "Screen and recoat",
+   "1.99",
+   "per square foot"
+  ]
+ ],
+ "blocks": [
+  {
+   "type": "quick",
+   "eyebrow": "Short answer",
+   "lead": "Yes, you can refinish hardwood in a Seattle condo, and it costs the same $3.99 per sq ft natural or $6.50 stained as a house; what changes is the logistics: written HOA approval, work inside quiet hours, an elevator reservation, dust and fume control for the neighbors, and a schedule built around cure time you cannot rush.",
+   "detail": "Wills Flooring refinishes condo floors from Belltown to Capitol Hill to Ballard every month. The 500 sq ft minimum applies, so a 450 sq ft unit is billed at 500. Low-odor, fast-drying water-based Bona finish is what makes it workable in a building full of neighbors.",
+   "tiles": [
+    {
+     "icon": "dollar",
+     "label": "Natural finish",
+     "value": "$3.99 / sq ft"
+    },
+    {
+     "icon": "wind",
+     "label": "Dust containment",
+     "value": "+$250"
+    },
+    {
+     "icon": "clock",
+     "label": "Work hours",
+     "value": "Weekdays, 8 or 9 to 5"
+    },
+    {
+     "icon": "calendar",
+     "label": "Timeline",
+     "value": "4 to 6 days incl. cure"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "html": "Seattle condo floors fall into two families. The 1900s to 1920s brick and timber conversions in Pioneer Square, Belltown and lower Queen Anne have thick original fir or oak that sands like any house floor. The 1990s to 2010s mid-rises on Capitol Hill, in Ballard and around South Lake Union have engineered planks with a thin veneer that may or may not take a sanding. Both share a building manager, a rules document, an elevator and a downstairs neighbor. Here are the rules, the floor check, the schedule and the honest cases where a condo floor should be recoated or replaced instead."
+  },
+  {
+   "type": "h2",
+   "text": "The rules your building will enforce"
+  },
+  {
+   "type": "cards",
+   "cols": 2,
+   "items": [
+    {
+     "icon": "clipboard",
+     "title": "Written approval and insurance",
+     "text": "Most Seattle HOAs require a work request even for refinishing, plus the contractor's license and certificate of insurance. We supply ours the same day you ask. Allow one board cycle, often two to four weeks."
+    },
+    {
+     "icon": "clock",
+     "title": "Quiet hours",
+     "text": "Typical rules allow noisy work 8 or 9 a.m. to 5 p.m. on weekdays. Sanding is the loud part and happens on days one and two; coating days are nearly silent, which helps when the window is tight."
+    },
+    {
+     "icon": "truck",
+     "title": "Elevator and loading",
+     "text": "Sanders, vacuums and finish come up a reserved freight or padded elevator. Belltown and Capitol Hill buildings often need a loading zone permit or a dock slot, which we arrange with the manager."
+    },
+    {
+     "icon": "volume",
+     "title": "Sound rules do not change",
+     "text": "Refinishing replaces the finish only. The floor assembly and any acoustic underlayment stay as they were, so the IIC rating your HOA cares about is unaffected. Say so on the request form."
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "First: is your condo floor sandable?"
+  },
+  {
+   "type": "table",
+   "head": [
+    "Floor type",
+    "Common in",
+    "Full sand?",
+    "Our advice"
+   ],
+   "rows": [
+    [
+     "Solid oak or fir, 3/4 in",
+     "1900s to 1920s conversions, older co-ops",
+     "Yes, several times",
+     "Sand and refinish, natural or stain."
+    ],
+    [
+     "Engineered, 3 to 4 mm wear layer",
+     "Higher-end 2000s and newer buildings",
+     "Yes, once or twice",
+     "Sand once, then recoat every 5 to 7 years to preserve the veneer."
+    ],
+    [
+     "Engineered, 2 mm wear layer",
+     "Most 1990s to 2010s mid-rises",
+     "One careful sand at most",
+     "Often a screen and recoat at $1.99 is the safer call."
+    ],
+    [
+     "Engineered, under 2 mm or unknown",
+     "Builder-grade units",
+     "No",
+     "Recoat only. Sanding will expose the plywood core at the bevels."
+    ],
+    [
+     "Parquet or herringbone",
+     "1960s to 1970s towers",
+     "Yes, with care",
+     "Sandable but direction changes at every block; see our parquet post."
+    ]
+   ],
+   "note": "We check the wear layer at a heat register or a closet edge before we quote. If the veneer is too thin, we say so and price a recoat instead. See <a href=\"/blog-posts/can-engineered-hardwood-floors-be-refinished-snohomish\">whether engineered floors can be refinished</a>."
+  },
+  {
+   "type": "h2",
+   "text": "Price your Seattle condo floor"
+  },
+  {
+   "type": "calc",
+   "kind": "refinish",
+   "note": "Loading zone permits, elevator deposits and HOA fees are the building's charges, not ours, and are not included here."
+  },
+  {
+   "type": "h2",
+   "text": "A condo schedule that respects the building"
+  },
+  {
+   "type": "steps",
+   "wide": true,
+   "items": [
+    {
+     "icon": "clipboard",
+     "d": "Two to four weeks out",
+     "text": "Submit the work request with our license and insurance. Reserve the elevator for day one and the final day. Post a notice for the neighbors above, below and beside.",
+     "note": "Boards that meet monthly are the usual delay."
+    },
+    {
+     "icon": "wind",
+     "d": "Day 1: containment and rough sanding",
+     "text": "Doorways sealed, air scrubber running, vacuum-connected sanders on the main area. This is the loud day, kept inside quiet hours.",
+     "note": "Dust containment is +$250 and we recommend it in every occupied building."
+    },
+    {
+     "icon": "brush",
+     "d": "Day 2: fine sanding and first coat",
+     "text": "Edges, fill and final grit in the morning, sealer coat by early afternoon. Water-based finish is walkable in hours and has little odor.",
+     "note": "Stain jobs add a day here for water-popping and stain drying."
+    },
+    {
+     "icon": "layers",
+     "d": "Days 3 and 4: coats two and three",
+     "text": "One coat per day with a light abrasion between. Quiet work, no elevator needed.",
+     "note": "Socks after 24 hours from the last coat."
+    },
+    {
+     "icon": "sofa",
+     "d": "Day 7 and beyond",
+     "text": "Furniture back after 72 hours, rugs after a week, full cure in two to four weeks.",
+     "note": "Plan the move-in around this, not the last work day."
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "What the neighbors will and will not notice"
+  },
+  {
+   "type": "compare",
+   "a": {
+    "icon": "done",
+    "tag": "What we control",
+    "title": "Handled by the crew",
+    "items": [
+     "Sanders connected to vacuums, plus plastic and an air scrubber with containment",
+     "Water-based Bona finish: low odor, no solvent smell in the hallway",
+     "No sanding outside the building's hours, ever",
+     "Padded elevator, floor protection in the corridor, daily cleanup",
+     "Written notice template you can slide under neighbors' doors"
+    ]
+   },
+   "b": {
+    "icon": "alert",
+    "tag": "What to expect anyway",
+    "title": "Be upfront with neighbors about",
+    "items": [
+     "Sander noise through the slab or joists for one to two days",
+     "A mild finish smell in the unit for about 24 hours after each coat",
+     "One or two elevator holds of an hour or so",
+     "Some hallway traffic with equipment and hoses",
+     "Your own displacement: most owners stay elsewhere for two to four nights"
+    ]
+   }
+  },
+  {
+   "type": "h2",
+   "text": "When refinishing a condo floor is the wrong call"
+  },
+  {
+   "type": "ul",
+   "items": [
+    "The veneer is under 2 mm. Sanding exposes plywood at the bevels and the floor is ruined. Recoat, or replace.",
+    "The finish is wax or a hardwax oil. Water-based polyurethane will not bond over it, so a recoat is off the table and a full sand is the only refinish option.",
+    "There is moisture from below. A slab-on-grade unit or a leak from a neighbor's line shows as cupping or dark edges. Fix the source first or the new finish fails the same way.",
+    "The HOA requires carpet coverage in bedrooms. Refinishing the living area still makes sense; refinishing under mandatory carpet does not.",
+    "The unit has 300 sq ft of exposed wood. The 500 sq ft minimum makes it $1,995 at the natural rate; sometimes a recoat at the same minimum is the better use of money. See <a href=\"/blog-posts/what-does-a-500-sq-ft-minimum-mean-for-refinishing-one-room-seattle\">what the minimum means for a small space</a>."
+   ]
+  },
+  {
+   "type": "callout",
+   "icon": "pin",
+   "title": "Parking and loading in Seattle: ",
+   "text": "Capitol Hill, Belltown and Queen Anne are restricted parking zones, and our van has to sit somewhere for four days. We handle the loading zone permit or dock scheduling with your manager; the building's own fees, if any, are yours. Tell us the building's rules at the estimate."
+  },
+  {
+   "type": "h2",
+   "text": "Checklist for a smooth condo refinish"
+  },
+  {
+   "type": "list",
+   "icons": true,
+   "items": [
+    {
+     "icon": "search",
+     "html": "<strong>Find the flooring and alteration sections of your rules.</strong> Hours, insurance limits, elevator policy and notice requirements are all there. Send them to us before the estimate."
+    },
+    {
+     "icon": "ruler",
+     "html": "<strong>Know your wear layer.</strong> We measure it, but the building's original spec sheet, if the manager has it, settles the question fastest."
+    },
+    {
+     "icon": "calendar",
+     "html": "<strong>Book around the board meeting.</strong> Get the estimate first so the request packet is complete when the board sits."
+    },
+    {
+     "icon": "wind",
+     "html": "<strong>Take the dust containment.</strong> In a shared building the $250 is cheap insurance against a complaint: doorways sealed, air scrubber running, on top of the vacuum-connected sanders."
+    },
+    {
+     "icon": "home",
+     "html": "<strong>Plan where you will sleep.</strong> Two to four nights away is normal. The unit is a work site until the last coat."
+    },
+    {
+     "icon": "shield",
+     "html": "<strong>Use a crew that has done buildings before.</strong> Wills Flooring is licensed, insured, Bona Certified and backs the work with a 1-year workmanship warranty. Our <a href=\"/services/floor-refinish\">refinishing page</a> has the full process."
+    }
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Do I need HOA approval to refinish hardwood floors in a Seattle condo?",
+   "a": "Almost always. Most Seattle buildings treat refinishing as an alteration requiring a work request, the contractor's license and insurance, and agreed dates. Some allow a manager sign-off instead of a board vote. Check your rules; approval can take two to four weeks."
+  },
+  {
+   "q": "How much does it cost to refinish condo floors in Seattle?",
+   "a": "The same as a house: $3.99 per sq ft natural, $6.50 with stain, $1.99 for a screen and recoat, with a 500 sq ft minimum. Dust containment is +$250. A 700 sq ft Capitol Hill unit, natural finish with containment, is 700 × $3.99 + $250 = $3,043."
+  },
+  {
+   "q": "How loud is floor sanding for the neighbors?",
+   "a": "The sanding days are loud, similar to a vacuum cleaner running for hours, and travel through the structure. Coating days are almost silent. We keep all sanding inside the building's permitted hours and give you a notice to share with adjacent units."
+  },
+  {
+   "q": "Can engineered floors in a newer condo be refinished?",
+   "a": "If the wear layer is 2 mm or more, usually once. Under 2 mm, no; a screen and recoat is the only option. We check the thickness at a register or closet edge before quoting, so you never pay for a sanding the floor cannot take."
+  },
+  {
+   "q": "How long do I have to stay out of my condo?",
+   "a": "Most owners stay elsewhere for two to four nights. The floor is walkable in socks 24 hours after the final coat, furniture returns after 72 hours, and the finish fully cures over two to four weeks. Water-based finish makes this much shorter than oil-based."
+  },
+  {
+   "q": "Does refinishing affect my condo's sound rating?",
+   "a": "No. Refinishing changes only the finish on top of the boards. The underlayment, subfloor and any acoustic mat stay untouched, so the IIC rating is the same after as before. Replacing the floor would raise the question; refinishing does not."
+  }
+ ],
+ "faq_title": "Condo refinishing questions from Seattle owners",
+ "faq_sub": "From Pioneer Square lofts to Capitol Hill mid-rises and Ballard townhome stacks.",
+ "related": [
+  [
+   "what-does-a-500-sq-ft-minimum-mean-for-refinishing-one-room-seattle",
+   "what the 500 sq ft minimum means"
+  ],
+  [
+   "can-parquet-floors-be-refinished-seattle",
+   "refinishing parquet floors"
+  ],
+  [
+   "hardwood-floors-in-kirkland-condos-and-second-floors",
+   "hardwood in condos and on upper floors"
+  ]
+ ],
+ "cta_title": "Get a condo-ready refinishing quote",
+ "cta_sub": "We check the wear layer, read your building's rules and hand you a firm written quote with the paperwork the HOA needs, on the spot. Free, no obligation, anywhere in Seattle."
+}

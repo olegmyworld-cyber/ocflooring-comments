@@ -1,7 +1,7 @@
 {
  "slug": "carpet-removal-and-disposal-sammamish",
  "title": "Carpet Removal and Disposal: What It Costs and What's Included in Sammamish",
- "meta": "Carpet removal is priced by area, stairs and how the old carpet went down. What a Sammamish tear-out includes, what drives the cost and when to DIY. Wills Flooring.",
+ "meta": "Carpet removal is priced by area, stairs and install method. What a Sammamish tear-out includes, what drives the cost and when to DIY it. Wills Flooring.",
  "category": "carpet",
  "city": "Sammamish",
  "time": "8 mins",
@@ -14,10 +14,26 @@
    "lead": "Carpet removal and disposal is a separate line on a carpet quote, priced by the floor area, the number of stairs, and how the old carpet was installed, and when Wills Flooring installs your new carpet the tear-out, pad removal, tack strip check and haul-away are written into the same firm quote.",
    "detail": "Stretch-in carpet over pad in a Sammamish bedroom comes up in minutes. Glued-down carpet on a slab, pet-soaked pad, or fourteen stairs of stapled runner is a different job. That is why we price it after we see it, at the free in-home estimate, and never by a guess over the phone.",
    "tiles": [
-    {"icon": "ruler", "label": "Priced by", "value": "Area, stairs, method"},
-    {"icon": "truck", "label": "Included", "value": "Carpet, pad, haul-away"},
-    {"icon": "hammer", "label": "Tack strip", "value": "Reused if sound"},
-    {"icon": "clock", "label": "Typical time", "value": "Half a day"}
+    {
+     "icon": "ruler",
+     "label": "Priced by",
+     "value": "Area, stairs, method"
+    },
+    {
+     "icon": "truck",
+     "label": "Included",
+     "value": "Carpet, pad, haul-away"
+    },
+    {
+     "icon": "hammer",
+     "label": "Tack strip",
+     "value": "Reused if sound"
+    },
+    {
+     "icon": "clock",
+     "label": "Typical time",
+     "value": "Half a day"
+    }
    ],
    "cta": false
   },
@@ -25,48 +41,144 @@
    "type": "p",
    "html": "A Sammamish carpet job is rarely small. Klahanie, Trossachs and Sahalee homes from the 1990s and 2000s often have carpet through the whole upstairs, down the main staircase and across a bonus room, and after fifteen years of kids and a golden retriever it all needs to go at once. The first question we get is whether removal is included, and the second is whether it is cheaper to rip it out yourself before the crew arrives. This post answers both honestly, explains what drives the price, and lists exactly what a proper tear-out covers so you can compare quotes line by line."
   },
-  {"type": "h2", "text": "What drives the removal price"},
+  {
+   "type": "h2",
+   "text": "What drives the removal price"
+  },
   {
    "type": "cards",
    "cols": 2,
    "items": [
-    {"icon": "ruler", "title": "Square footage and layout", "text": "Big open rooms roll up fast. Closets, hallways with many doorways and rooms with built-ins take longer per square foot because every edge has to be cut and every corner pried."},
-    {"icon": "stairs", "title": "Stairs", "text": "Each tread is cut, pried and de-stapled by hand, and stair pad is usually glued or stapled heavily. A fourteen-step Sammamish staircase can take as long as two bedrooms."},
-    {"icon": "layers", "title": "How it was installed", "text": "Stretch-in over pad is quick. Glued-down carpet in a basement or bonus room over slab must be scraped, and the adhesive residue affects what can go down next. Double-stick installations are the slowest."},
-    {"icon": "paw", "title": "Condition and weight", "text": "Wet, pet-soaked or moldy pad is heavier, must be bagged, and often means the subfloor needs cleaning or sealing before new pad goes down. Disposal is charged by weight, so a soaked pad literally costs more to get rid of."}
+    {
+     "icon": "ruler",
+     "title": "Square footage and layout",
+     "text": "Big open rooms roll up fast. Closets, hallways with many doorways and rooms with built-ins take longer per square foot because every edge has to be cut and every corner pried."
+    },
+    {
+     "icon": "stairs",
+     "title": "Stairs",
+     "text": "Each tread is cut, pried and de-stapled by hand, and stair pad is usually glued or stapled heavily. A fourteen-step Sammamish staircase can take as long as two bedrooms."
+    },
+    {
+     "icon": "layers",
+     "title": "How it was installed",
+     "text": "Stretch-in over pad is quick. Glued-down carpet in a basement or bonus room over slab must be scraped, and the adhesive residue affects what can go down next. Double-stick installations are the slowest."
+    },
+    {
+     "icon": "paw",
+     "title": "Condition and weight",
+     "text": "Wet, pet-soaked or moldy pad is heavier, must be bagged, and often means the subfloor needs cleaning or sealing before new pad goes down. Disposal is charged by weight, so a soaked pad literally costs more to get rid of."
+    }
    ]
   },
-  {"type": "h2", "text": "What is included in a Wills Flooring tear-out"},
+  {
+   "type": "h2",
+   "text": "What is included in a Wills Flooring tear-out"
+  },
   {
    "type": "table",
-   "head": ["Item", "Included?", "Notes"],
+   "head": [
+    "Item",
+    "Included?",
+    "Notes"
+   ],
    "rows": [
-    ["Cut, roll and remove old carpet", "Yes", "Rolled in manageable sections and carried out, not dragged through the house."],
-    ["Remove old pad", "Yes", "Always replaced with new pad; old pad is compressed and often holds odor."],
-    ["Pull staples and scrape pad residue", "Yes", "Hundreds of staples per room on a wood subfloor. Every one gets pulled."],
-    ["Inspect tack strip", "Yes", "Reused if sound and the right height; rusty, loose or broken strip is replaced and priced at the estimate."],
-    ["Sweep and inspect subfloor", "Yes", "Squeaks screwed down where accessible; soft spots reported before new carpet goes down."],
-    ["Haul-away and disposal", "Yes", "Loaded on our truck the same day and taken to a licensed transfer station. Nothing left in the driveway."],
-    ["Furniture moving", "Case by case", "Most owners clear rooms; large pieces can be moved by the crew for a fee set at the estimate."],
-    ["Subfloor odor sealing or repair", "Quoted", "Needed after long-term pet damage. Priced once we see the subfloor."]
+    [
+     "Cut, roll and remove old carpet",
+     "Yes",
+     "Rolled in manageable sections and carried out, not dragged through the house."
+    ],
+    [
+     "Remove old pad",
+     "Yes",
+     "Always replaced with new pad; old pad is compressed and often holds odor."
+    ],
+    [
+     "Pull staples and scrape pad residue",
+     "Yes",
+     "Hundreds of staples per room on a wood subfloor. Every one gets pulled."
+    ],
+    [
+     "Inspect tack strip",
+     "Yes",
+     "Reused if sound and the right height; rusty, loose or broken strip is replaced and priced at the estimate."
+    ],
+    [
+     "Sweep and inspect subfloor",
+     "Yes",
+     "Squeaks screwed down where accessible; soft spots reported before new carpet goes down."
+    ],
+    [
+     "Haul-away and disposal",
+     "Yes",
+     "Loaded on our truck the same day and taken to a licensed transfer station. Nothing left in the driveway."
+    ],
+    [
+     "Furniture moving",
+     "Case by case",
+     "Most owners clear rooms; large pieces can be moved by the crew for a fee set at the estimate."
+    ],
+    [
+     "Subfloor odor sealing or repair",
+     "Quoted",
+     "Needed after long-term pet damage. Priced once we see the subfloor."
+    ]
    ],
    "note": "All of this appears as its own line on the written quote so you can see what the removal is and what the installation is. No dollar figures are quoted until we have measured and looked."
   },
-  {"type": "h2", "text": "Scope your Sammamish carpet project"},
-  {"type": "estimator", "title": "Scope Your Sammamish Carpet Project", "sub": "Tell us the area, the stairs and whether the old carpet needs to go. We measure, check the subfloor, bring samples and hand you a firm written price that includes the tear-out."},
-  {"type": "h2", "text": "Tear-out day, step by step"},
+  {
+   "type": "h2",
+   "text": "Scope your Sammamish carpet project"
+  },
+  {
+   "type": "estimator",
+   "title": "Scope Your Sammamish Carpet Project",
+   "sub": "Tell us the area, the stairs and whether the old carpet needs to go. We measure, check the subfloor, bring samples and hand you a firm written price that includes the tear-out."
+  },
+  {
+   "type": "h2",
+   "text": "Tear-out day, step by step"
+  },
   {
    "type": "steps",
    "wide": true,
    "items": [
-    {"icon": "box", "d": "Before we arrive", "text": "Rooms cleared of small items, closets emptied, pets in another room. Open a window for dust.", "note": "Vacuum first if the carpet is very dirty; it keeps the dust down during cutting."},
-    {"icon": "scissors", "d": "Cut and roll", "text": "Carpet is cut into strips about 3 ft wide, pulled from the tack strip and rolled tight with tape.", "note": "Strips are sized to fit the stairwell and the truck."},
-    {"icon": "layers", "d": "Pad out", "text": "Pad is pulled, bagged if wet or contaminated, and staples are pulled or driven flush across the whole subfloor.", "note": "This is the slow, unglamorous part."},
-    {"icon": "search", "d": "Subfloor check", "text": "Tack strip inspected, squeaks screwed down, any soft or stained areas photographed and discussed before the new pad goes down.", "note": "Pet stains on the subfloor get an enzyme clean or sealer, quoted separately."},
-    {"icon": "truck", "d": "Haul-away", "text": "Everything loaded and taken to a licensed transfer station the same day. In most cases new pad and carpet start going in right after.", "note": "Whole upstairs plus stairs: tear-out is usually a morning."}
+    {
+     "icon": "box",
+     "d": "Before we arrive",
+     "text": "Rooms cleared of small items, closets emptied, pets in another room. Open a window for dust.",
+     "note": "Vacuum first if the carpet is very dirty; it keeps the dust down during cutting."
+    },
+    {
+     "icon": "scissors",
+     "d": "Cut and roll",
+     "text": "Carpet is cut into strips about 3 ft wide, pulled from the tack strip and rolled tight with tape.",
+     "note": "Strips are sized to fit the stairwell and the truck."
+    },
+    {
+     "icon": "layers",
+     "d": "Pad out",
+     "text": "Pad is pulled, bagged if wet or contaminated, and staples are pulled or driven flush across the whole subfloor.",
+     "note": "This is the slow, unglamorous part."
+    },
+    {
+     "icon": "search",
+     "d": "Subfloor check",
+     "text": "Tack strip inspected, squeaks screwed down, any soft or stained areas photographed and discussed before the new pad goes down.",
+     "note": "Pet stains on the subfloor get an enzyme clean or sealer, quoted separately."
+    },
+    {
+     "icon": "truck",
+     "d": "Haul-away",
+     "text": "Everything loaded and taken to a licensed transfer station the same day. In most cases new pad and carpet start going in right after.",
+     "note": "Whole upstairs plus stairs: tear-out is usually a morning."
+    }
    ]
   },
-  {"type": "h2", "text": "Should you rip it out yourself?"},
+  {
+   "type": "h2",
+   "text": "Should you rip it out yourself?"
+  },
   {
    "type": "compare",
    "a": {
@@ -94,7 +206,10 @@
     ]
    }
   },
-  {"type": "h2", "text": "Mistakes that make removal cost more"},
+  {
+   "type": "h2",
+   "text": "Mistakes that make removal cost more"
+  },
   {
    "type": "ul",
    "items": [
@@ -112,33 +227,78 @@
    "title": "Where old carpet goes: ",
    "text": "Most old carpet from the Eastside ends up as garbage at a transfer station because recycling programs for used carpet in Washington are limited and depend on fiber type. If your old carpet is a single-fiber nylon, ask us about recycling options at the estimate; sometimes there is one, often there is not. We will tell you the truth rather than promise a green outcome we cannot deliver. For what happens next, see <a href=\"/blog-posts/how-to-prepare-for-carpet-installation-everett\">how to prepare for carpet installation</a>."
   },
-  {"type": "h2", "text": "Checklist before removal day"},
+  {
+   "type": "h2",
+   "text": "Checklist before removal day"
+  },
   {
    "type": "list",
    "icons": true,
    "items": [
-    {"icon": "search", "html": "<strong>Lift a corner in each room.</strong> A photo of what is underneath, especially any hardwood or particleboard, changes the plan and the price."},
-    {"icon": "paw", "html": "<strong>Be honest about pet accidents.</strong> Stained pad and subfloor need sealing before new carpet. Knowing in advance avoids a mid-job surprise."},
-    {"icon": "clipboard", "html": "<strong>Ask for removal as its own line.</strong> If a quote buries it in the total, you cannot compare it against another quote or against doing it yourself."},
-    {"icon": "home", "html": "<strong>Check your HOA rules on debris.</strong> Klahanie, Trossachs and Sahalee all have rules about bins and trailers. Our same-day haul-away avoids the issue."},
-    {"icon": "calendar", "html": "<strong>Sequence the trades.</strong> Paint before tear-out or after install, not in between. Our <a href=\"/services/carpet-installation\">carpet installation page</a> explains the full process from tear-out to final vacuum."}
+    {
+     "icon": "search",
+     "html": "<strong>Lift a corner in each room.</strong> A photo of what is underneath, especially any hardwood or particleboard, changes the plan and the price."
+    },
+    {
+     "icon": "paw",
+     "html": "<strong>Be honest about pet accidents.</strong> Stained pad and subfloor need sealing before new carpet. Knowing in advance avoids a mid-job surprise."
+    },
+    {
+     "icon": "clipboard",
+     "html": "<strong>Ask for removal as its own line.</strong> If a quote buries it in the total, you cannot compare it against another quote or against doing it yourself."
+    },
+    {
+     "icon": "home",
+     "html": "<strong>Check your HOA rules on debris.</strong> Klahanie, Trossachs and Sahalee all have rules about bins and trailers. Our same-day haul-away avoids the issue."
+    },
+    {
+     "icon": "calendar",
+     "html": "<strong>Sequence the trades.</strong> Paint before tear-out or after install, not in between. Our <a href=\"/services/carpet-installation\">carpet installation page</a> explains the full process from tear-out to final vacuum."
+    }
    ]
   }
  ],
  "faq": [
-  {"q": "Is carpet removal included in the price of new carpet?", "a": "With Wills Flooring it is written into the same firm quote as its own line, so you see the removal separately from the installation. Some quotes exclude it or leave it vague, so always ask whether tear-out, pad removal and haul-away are covered before you compare totals."},
-  {"q": "What drives the cost of carpet removal?", "a": "Floor area, the number of stairs, whether the carpet is stretched over pad or glued down, and the condition of the pad. Wet or pet-soaked pad is heavier and needs bagging, and disposal is charged by weight. Removal is priced at the free in-home estimate once we have seen it."},
-  {"q": "How long does it take to remove carpet from a whole upstairs?", "a": "For a typical Sammamish upstairs with three or four bedrooms, a hall and a staircase, tear-out takes a morning for our crew, including staple pulling and haul-away. New pad and carpet usually start the same day."},
-  {"q": "Can I dispose of old carpet at the King County transfer station?", "a": "Yes, as garbage charged by weight. Cut it into rolls you can lift and tape them. Sammamish curbside collection does not take carpet, and leaving it at the curb usually draws an HOA notice."},
-  {"q": "Should I remove the carpet myself to save money?", "a": "Only if it is stretch-in carpet, you pull every staple and the pad, and you have a way to haul it. The saving is usually modest once disposal weight and a weekend of work are counted, and glued or stair carpet is best left to the crew."},
-  {"q": "Do you reuse the old tack strip?", "a": "If it is sound, the right height for the new pad and not rusted, yes. Loose, broken or rusty strip is replaced and priced at the estimate. Never pull tack strip yourself before the estimate; you may be removing something that was fine."}
+  {
+   "q": "Is carpet removal included in the price of new carpet?",
+   "a": "With Wills Flooring it is written into the same firm quote as its own line, so you see the removal separately from the installation. Some quotes exclude it or leave it vague, so always ask whether tear-out, pad removal and haul-away are covered before you compare totals."
+  },
+  {
+   "q": "What drives the cost of carpet removal?",
+   "a": "Floor area, the number of stairs, whether the carpet is stretched over pad or glued down, and the condition of the pad. Wet or pet-soaked pad is heavier and needs bagging, and disposal is charged by weight. Removal is priced at the free in-home estimate once we have seen it."
+  },
+  {
+   "q": "How long does it take to remove carpet from a whole upstairs?",
+   "a": "For a typical Sammamish upstairs with three or four bedrooms, a hall and a staircase, tear-out takes a morning for our crew, including staple pulling and haul-away. New pad and carpet usually start the same day."
+  },
+  {
+   "q": "Can I dispose of old carpet at the King County transfer station?",
+   "a": "Yes, as garbage charged by weight. Cut it into rolls you can lift and tape them. Sammamish curbside collection does not take carpet, and leaving it at the curb usually draws an HOA notice."
+  },
+  {
+   "q": "Should I remove the carpet myself to save money?",
+   "a": "Only if it is stretch-in carpet, you pull every staple and the pad, and you have a way to haul it. The saving is usually modest once disposal weight and a weekend of work are counted, and glued or stair carpet is best left to the crew."
+  },
+  {
+   "q": "Do you reuse the old tack strip?",
+   "a": "If it is sound, the right height for the new pad and not rusted, yes. Loose, broken or rusty strip is replaced and priced at the estimate. Never pull tack strip yourself before the estimate; you may be removing something that was fine."
+  }
  ],
  "faq_title": "Carpet removal questions from Sammamish",
  "faq_sub": "From whole-upstairs replacements in Klahanie, Trossachs and Sahalee.",
  "related": [
-  ["how-to-prepare-for-carpet-installation-everett", "how to prepare for carpet installation"],
-  ["how-much-does-carpet-installation-cost-in-snohomish", "what drives carpet installation cost"],
-  ["how-long-does-carpet-installation-take-everett", "how long carpet installation takes"]
+  [
+   "how-to-prepare-for-carpet-installation-everett",
+   "how to prepare for carpet installation"
+  ],
+  [
+   "how-much-does-carpet-installation-cost-in-snohomish",
+   "what drives carpet installation cost"
+  ],
+  [
+   "how-long-does-carpet-installation-take-everett",
+   "how long carpet installation takes"
+  ]
  ],
  "cta_title": "Get removal and installation on one written quote",
  "cta_sub": "We measure, check what is under the old carpet, bring samples and hand you a firm written price with the tear-out itemized, on the spot. Free, no obligation, anywhere in Sammamish."
