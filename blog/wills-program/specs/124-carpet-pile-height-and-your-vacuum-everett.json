@@ -7,7 +7,18 @@
  "time": "8 mins",
  "date": "2027-01-18T15:00:00.000Z",
  "keywords": "carpet pile height vacuum, best vacuum for high pile carpet, vacuum hard to push on new carpet, low pile vs high pile carpet, robot vacuum carpet pile height, carpet installation Everett WA",
- "offers": [["Carpet installation, stretch-in","0.99","per square foot"],["Carpet installation, glue-down","1.29","per square foot"]],
+ "offers": [
+  [
+   "Carpet installation, stretch-in",
+   "0.99",
+   "per square foot"
+  ],
+  [
+   "Carpet installation, glue-down",
+   "1.29",
+   "per square foot"
+  ]
+ ],
  "blocks": [
   {
    "type": "quick",
@@ -87,9 +98,9 @@
    "rows": [
     [
      "Upright with fixed brush roll",
-     "Good, but the bar can fuzz loop pile over time",
+     "Good, though the bar can fuzz loop pile over time",
      "Good on a mid setting",
-     "Poor: hard to push, fibers wrap the brush, motor strains"
+     "Poor: hard to push, fibers wrap the brush"
     ],
     [
      "Upright or canister with height adjustment and brush shut-off",
@@ -99,9 +110,9 @@
     ],
     [
      "Robot vacuum",
-     "Good if edges are trimmed and transitions are low",
+     "Good if transitions are low",
      "Usually fine under about 3/8 in",
-     "Poor: gets stuck, cannot climb, brushes tangle in long strands"
+     "Poor: gets stuck and brushes tangle in long strands"
     ],
     [
      "Canister with suction-only floor head",
@@ -194,17 +205,17 @@
     {
      "icon": "x",
      "title": "Buying the thickest sample in the ring",
-     "text": "Thick and soft sells itself on a showroom floor. Six months later it is matted in the walkway because no vacuum could lift the pile back up. Judge samples by density and resilience, not height."
+     "text": "Thick and soft sells itself in a showroom. Six months later it is matted in the walkway because no vacuum could lift the pile back up. Judge samples by density, not height."
     },
     {
      "icon": "x",
      "title": "Assuming any vacuum handles any carpet",
-     "text": "If you own a fixed-height bagless upright, a dense high plush will fight it forever. Either pick a medium pile or budget for a vacuum with height adjustment the week the carpet goes in."
+     "text": "If you own a fixed-height upright, a dense high plush will fight it forever. Pick a medium pile, or budget for a vacuum with height adjustment the week the carpet goes in."
     },
     {
      "icon": "x",
      "title": "Beater bar on loop pile",
-     "text": "Berber and level loop in Eastmont hallways get fuzzed by aggressive brush rolls. It looks like wear but it is damage, and it is excluded from most warranties."
+     "text": "Berber and level loop in Eastmont hallways get fuzzed by aggressive brush rolls. It looks like wear, but it is damage, and most warranties exclude it."
     }
    ]
   },
@@ -212,59 +223,29 @@
    "type": "callout",
    "icon": "home",
    "title": "The Everett shift-worker reality: ",
-   "text": "A lot of our Everett customers work Boeing shifts and clean at odd hours. If quiet matters, a canister with a suction head on medium pile is the quietest combination. If a robot vacuum runs while you sleep, keep pile under 3/8 in, the pad firm, and skip tall transitions between rooms."
-  },
-  {
-   "type": "h2",
-   "text": "What to check before you choose a carpet"
-  },
-  {
-   "type": "list",
-   "icons": true,
-   "items": [
-    {
-     "icon": "search",
-     "html": "<strong>Bring your vacuum to the sample.</strong> Seriously. When our mobile showroom is at your house, run your own vacuum over the samples. Two minutes tells you more than any spec sheet."
-    },
-    {
-     "icon": "clipboard",
-     "html": "<strong>Ask for pile height, face weight and density on paper.</strong> Three numbers that predict both wear and vacuum behavior. A dense medium pile is the sweet spot for most Everett homes."
-    },
-    {
-     "icon": "layers",
-     "html": "<strong>Match the pad to the pile.</strong> Firm pad under plush, and never a thick soft pad under a dense high pile unless you love pushing a vacuum uphill. Our post on <a href=\"/blog-posts/carpet-padding-explained-edmonds\">carpet padding</a> goes deeper."
-    },
-    {
-     "icon": "paw",
-     "html": "<strong>Think about who sheds.</strong> Dogs, cats and long hair favor lower, tighter piles and a rubber-finned brush. Frieze hides footprints but holds hair on the surface."
-    },
-    {
-     "icon": "shield",
-     "html": "<strong>Read the carpet warranty's vacuum clause.</strong> Many require a CRI-certified vacuum and prohibit beater bars on loop pile. Keep the receipt. Details on what we install are on our <a href=\"/services/carpet-installation\">carpet installation page</a>."
-    }
-   ]
+   "text": "A lot of our Everett customers work Boeing shifts and clean at odd hours. If quiet matters, a canister with a suction head on medium pile is the quietest combination. If a robot runs while you sleep, keep pile under 3/8 in, the pad firm, and skip tall transitions."
   }
  ],
  "faq": [
   {
    "q": "What pile height is best for a vacuum?",
-   "a": "Medium pile, roughly 1/4 to 1/2 inch, in a dense construction works with nearly every vacuum type including robots. Low pile is even easier but firmer underfoot. High pile and shag need a vacuum with height adjustment and strong suction rather than an aggressive brush."
+   "a": "Medium pile, roughly 1/4 to 1/2 inch, in a dense construction works with nearly every vacuum including robots. Low pile is easier still but firmer underfoot. High pile and shag need height adjustment and strong suction rather than an aggressive brush."
   },
   {
    "q": "Why is my vacuum so hard to push on new carpet?",
-   "a": "New carpet, especially dense plush, seals against the vacuum head and creates suction lock. Raise the height setting or open the suction relief. The pile also has not been walked on yet, so it grabs the brush more. It eases within a few weeks."
+   "a": "New carpet, especially dense plush, seals against the vacuum head and creates suction lock. Raise the height setting or open the suction relief. The pile has not been walked on yet either, so it grabs the brush more. It eases within a few weeks."
   },
   {
    "q": "Can a robot vacuum handle plush carpet?",
-   "a": "Most robots work well on low and medium pile under about 3/8 inch with a firm pad. On thick plush, frieze or shag they lose traction, tangle their brushes and stop. Use them for daily maintenance and do the deep clean with a full-size vacuum."
+   "a": "Most robots work well on low and medium pile under about 3/8 inch over a firm pad. On thick plush, frieze or shag they lose traction, tangle their brushes and stop. Use them for daily upkeep and deep clean with a full-size vacuum."
   },
   {
    "q": "Does a beater bar damage carpet?",
-   "a": "On cut pile it is beneficial and lifts the fibers. On loop pile like Berber it can fuzz and snag loops, which is why most manufacturers say to turn the brush off or use suction only on loops. Check the vacuum setting before the first pass on new carpet."
+   "a": "On cut pile it helps and lifts the fibers. On loop pile like Berber it fuzzes and snags loops, which is why most manufacturers say to turn the brush off or use suction only. Check the setting before the first pass on new carpet."
   },
   {
    "q": "How often should new carpet be vacuumed?",
-   "a": "High-traffic areas twice a week, the rest weekly. Grit at the base of the pile acts like sandpaper on the fibers, so frequent light vacuuming does more for carpet life than an occasional deep clean. Slow passes matter more than pressure."
+   "a": "High-traffic areas twice a week, the rest weekly. Grit at the base of the pile works like sandpaper, so frequent light vacuuming does more for carpet life than an occasional deep clean. Slow passes matter more than pressure."
   },
   {
    "q": "Does pad affect how a carpet vacuums?",
@@ -272,7 +253,7 @@
   }
  ],
  "faq_title": "Carpet and vacuum questions from Everett homeowners",
- "faq_sub": "From estimates in Silver Lake and Eastmont, Google searches and calls to our Lynnwood showroom.",
+ "faq_sub": "From estimates in Silver Lake and Eastmont, and calls to the Lynnwood showroom.",
  "related": [
   [
    "berber-vs-plush-vs-frieze-carpet-edmonds",
@@ -288,5 +269,5 @@
   ]
  ],
  "cta_title": "Pick an Everett carpet your vacuum can handle",
- "cta_sub": "We bring samples and pad to your house, you run your own vacuum over them, and we write a firm price on the spot. Free, no obligation, about 15 minutes from our Lynnwood showroom."
+ "cta_sub": "We bring samples and pad to your house, you run your own vacuum over them, and we write a firm price on the spot. Free, about 15 minutes from the Lynnwood showroom."
 }
