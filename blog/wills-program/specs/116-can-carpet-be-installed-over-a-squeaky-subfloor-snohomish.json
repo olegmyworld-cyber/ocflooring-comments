@@ -40,7 +40,7 @@
   },
   {
    "type": "p",
-   "html": "Snohomish houses squeak. Farmhouses on Fobes Hill have hundred-year-old fir subfloors, 1970s houses out toward Clearview have plywood nailed down before construction adhesive was standard, and almost everything sits over a crawlspace that swings from damp in February to dry in August. So when the bedroom carpet is finally getting replaced, the question is fair: do we have to deal with the squeak, or can the new carpet just go down? You can install right over it. Whether you should is the rest of this post."
+   "html": "Snohomish houses squeak. Farmhouses on Fobes Hill have hundred-year-old fir subfloors, 1970s houses toward Clearview have plywood nailed down before construction adhesive was standard, and almost everything sits over a crawlspace that swings from damp to dry. So when the bedroom carpet is finally getting replaced, the question is fair: deal with the squeak, or just put the new carpet down? You can install right over it. Whether you should is the rest of this post."
   },
   {
    "type": "h2",
@@ -53,17 +53,17 @@
     {
      "icon": "hammer",
      "title": "Nails that have let go",
-     "text": "Plywood was nailed, the joists dried and shrank a fraction, and now the sheet lifts off the nail shank with every step and drops back. That click and rub is the classic squeak. Screws fix it; more nails do not."
+     "text": "Plywood was nailed, the joists dried and shrank a fraction, and now the sheet lifts off the nail shank with every step and drops back. That rub is the classic squeak. Screws fix it; more nails do not."
     },
     {
      "icon": "layers",
      "title": "Gaps between plywood and joist",
-     "text": "A joist that is slightly low or crowned leaves a void under the sheet. The plywood flexes into the gap. Shims glued into the gap from below, or adhesive injected from above, take the movement out."
+     "text": "A joist that is low or crowned leaves a void under the sheet, and the plywood flexes into it. Shims glued in from below, or adhesive injected from above, take the movement out."
     },
     {
      "icon": "moisture",
      "title": "Crawlspace moisture cycles",
-     "text": "Snohomish crawlspaces run wet. Joists swell in winter and shrink in summer, so fasteners loosen a little every year. Squeaks that appear each August and fade by spring are moisture squeaks."
+     "text": "Snohomish crawlspaces run wet. Joists swell in winter and shrink in summer, so fasteners loosen a little every year. Squeaks that show up each August and fade by spring are moisture squeaks."
     },
     {
      "icon": "alert",
@@ -83,28 +83,28 @@
     {
      "icon": "truck",
      "d": "Tear-out",
-     "text": "Old carpet, pad and tack strip come up. Staples are pulled, not hammered flat. Now the whole plywood surface is visible and every squeak can be found by walking it."
+     "text": "Old carpet, pad and tack strip come up, and staples are pulled rather than hammered flat. With the plywood bare, every squeak can be found by walking it."
     },
     {
      "icon": "search",
      "d": "Locate",
-     "text": "We walk each room and mark every squeak with chalk, then find the joists with a stud finder or by the existing nail lines. The fix is only permanent if the screw hits the joist."
+     "text": "We mark every squeak with chalk, then find the joists with a stud finder or by the old nail lines. The fix is only permanent if the screw hits the joist."
     },
     {
      "icon": "hammer",
      "d": "Screw down",
-     "text": "Coarse-thread subfloor screws, long enough to bite 1 in or more into the joist, every 6 to 8 in along the joist through the squeaky area. Heads sunk just below the surface so nothing telegraphs through the pad.",
+     "text": "Coarse-thread subfloor screws that bite 1 in or more into the joist, every 6 to 8 in through the squeaky area, heads sunk just below the surface so nothing telegraphs through the pad.",
      "note": "A typical bedroom takes 40 to 80 screws and about an hour."
     },
     {
      "icon": "layers",
      "d": "Shim and glue",
-     "text": "Where the sheet still moves, construction adhesive is injected into the gap or a glued shim goes in from the crawlspace. Seams between sheets that rub get a bead of adhesive too."
+     "text": "Where the sheet still moves, adhesive is injected into the gap or a glued shim goes in from the crawlspace. Rubbing seams between sheets get a bead too."
     },
     {
      "icon": "done",
      "d": "Replace what is soft",
-     "text": "Any sheet that flexes, smells musty or crumbles at the edge is cut out and replaced with new plywood of the same thickness before pad and carpet go down."
+     "text": "Any sheet that flexes, smells musty or crumbles at the edge is cut out and replaced with plywood of the same thickness before the pad goes down."
     }
    ]
   },
@@ -132,7 +132,7 @@
     "tag": "Fix it first",
     "title": "Worth the hour when",
     "items": [
-     "The squeak is in a bedroom, hallway or on stairs where you hear it every night",
+     "The squeak is in a bedroom, hallway or stairs you hear every night",
      "The old carpet is already coming up, so the plywood is exposed anyway",
      "The house is over a crawlspace and the squeaks change with the season",
      "You are selling in the next few years; buyers walk floors and listen"
@@ -144,9 +144,9 @@
     "title": "Defensible when",
     "items": [
      "The squeak is one spot in a closet or under a bed that never moves",
-     "The subfloor is old tongue-and-groove fir boards where screws help less and the squeak is structural character",
+     "The subfloor is old tongue-and-groove fir where screws help less",
      "The room is a short-term rental turnover and the budget is the budget",
-     "The noise comes from the joists or ductwork below, which carpet work cannot reach"
+     "The noise comes from joists or ductwork below, which carpet work cannot reach"
     ]
    }
   },

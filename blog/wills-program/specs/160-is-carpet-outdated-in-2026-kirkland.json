@@ -57,7 +57,7 @@
     {
      "icon": "chart",
      "title": "Listing photos",
-     "text": "Hardwood photographs well. Beige carpet photographs like beige carpet. Kirkland listings compete on photos, so sellers rip out main-floor carpet before listing and buyers learn to expect it."
+     "text": "Hardwood photographs well. Beige carpet photographs like beige carpet. Kirkland listings compete on photos, so sellers pull main-floor carpet before listing and buyers learn to expect it."
     },
     {
      "icon": "paw",
@@ -91,17 +91,12 @@
     [
      "Stairs",
      "Strong choice",
-     "Grip and fall protection for kids, dogs and older parents. Also the loudest place for hard floors."
+     "Grip and fall protection for kids, dogs and older parents. Also the loudest place for a hard floor."
     ],
     [
      "Bonus and media rooms",
      "Best option",
      "Kills echo, hides cables, survives kids on the floor. The Finn Hill and Juanita bonus-room floor of choice."
-    ],
-    [
-     "Home offices",
-     "Good with a low pile",
-     "Quiet on calls. Use a chair mat or a dense loop pile."
     ],
     [
      "Living and family rooms",
@@ -157,7 +152,7 @@
   },
   {
    "type": "p",
-   "html": "Money is part of why carpet stayed upstairs. Our labor for stretch-in carpet is $0.99 per sq ft with $30 per step, against $2.50 per sq ft and $100 per stair for vinyl plank and $3.25 per sq ft and $125 per stair for hardwood. A 900 sq ft Juanita upstairs with 14 stairs is 900 × $0.99 + 14 × $30 = $891 + $420 = $1,311 in carpet labor. The same floor in vinyl plank is 900 × $2.50 + 14 × $100 = $2,250 + $1,400 = $3,650. Carpet and pad are quoted on top of that at the estimate, and so is the plank, but the gap does not close."
+   "html": "Money is part of why carpet stayed upstairs. Stretch-in carpet is $0.99 per sq ft and $30 per step, against $2.50 and $100 per stair for vinyl plank, $3.25 and $125 per stair for hardwood. A 900 sq ft Juanita upstairs with 14 stairs is 900 × $0.99 + 14 × $30 = $891 + $420 = $1,311 in carpet labor. In vinyl plank it is 900 × $2.50 + 14 × $100 = $2,250 + $1,400 = $3,650. Material is quoted at the estimate on either one, but the gap does not close."
   },
   {
    "type": "h2",
@@ -173,8 +168,7 @@
      "Low, dense pile in warm gray, greige, oatmeal and mushroom tones",
      "Subtle patterns: tone-on-tone loops, small geometrics, textured plush",
      "Solution-dyed nylon and triexta that release pet hair and clean with water",
-     "Dense pad chosen for the room, not the cheapest roll on the truck",
-     "Flush transitions to hardwood at bedroom doors"
+     "Dense pad chosen for the room, not the cheapest roll on the truck"
     ]
    },
    "b": {
@@ -185,8 +179,7 @@
      "Tall, loose polyester plush that matted in the traffic lane",
      "Rose beige, hunter green, mauve",
      "Thin, light pad that bottomed out in two years",
-     "Carpet running through the dining room and up to the kitchen vinyl",
-     "Visible seams because the layout was done to save yardage"
+     "Carpet running through the dining room and up to the kitchen vinyl"
     ]
    }
   },
@@ -265,7 +258,7 @@
  "faq": [
   {
    "q": "Do buyers in Kirkland still accept carpet in bedrooms?",
-   "a": "Yes. Almost every Kirkland listing we prepare keeps or replaces bedroom carpet rather than converting to hard floors. Agents ask for main-floor hardwood or vinyl plank and fresh, neutral carpet upstairs. Buyers with young kids often prefer it."
+   "a": "Yes. Almost every Kirkland listing we prepare keeps or replaces bedroom carpet rather than converting to hard floors. Agents ask for main-floor hardwood or vinyl plank and fresh, neutral carpet upstairs, which at $0.99 per sq ft is the cheapest pre-listing improvement on our list."
   },
   {
    "q": "Is carpet coming back in style?",
@@ -273,7 +266,7 @@
   },
   {
    "q": "Does carpet lower home value?",
-   "a": "Carpet on a main floor next to a hard-floor kitchen usually costs you at sale, because buyers assume they will replace it. Carpet in bedrooms and bonus rooms does not lower value if it is clean and neutral. Worn or stained carpet anywhere costs you more than replacing it."
+   "a": "Carpet on a main floor next to a hard-floor kitchen usually costs you at sale, because buyers assume they will replace it. Carpet in bedrooms and bonus rooms does not, as long as it is clean and neutral. Worn or stained carpet anywhere costs more than replacing it does."
   },
   {
    "q": "What carpet colors look current in 2026?",
