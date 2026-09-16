@@ -97,7 +97,7 @@
      "Texture retention is the line that matters. Stain warranties exclude almost everything a dog does."
     ]
    ],
-   "note": "Price tiers overlap. A dense, low-pile polyester can outperform a tall, loose nylon. Read the numbers, not the tier."
+   "note": "Tiers overlap. A dense, low-pile polyester can outperform a tall, loose nylon. Read the numbers, not the tier."
   },
   {
    "type": "h2",
@@ -155,7 +155,7 @@
     {
      "icon": "grid",
      "d": "2. Density",
-     "text": "If the sheet lists it, 3,000 or more is durable. If it lists only face weight and pile height, divide weight by height in inches and multiply by 36 to get it yourself.",
+     "text": "If the sheet lists it, 3,000 or more is durable. If it lists only face weight and pile height, divide weight by height in inches and multiply by 36.",
      "note": "Example: 40 oz at half an inch of pile is 2,880, borderline for a busy hall"
     },
     {
@@ -212,7 +212,7 @@
    "icon": "alert",
    "gold": true,
    "title": "Two things never to skimp on, even with cheap carpet: ",
-   "text": "The pad and the stretch. A firm 8 lb pad and a proper power-stretch install make a bargain carpet last years longer and look tighter. A soft pad and a knee-kicker-only install make an expensive carpet ripple and wear like a cheap one. Ask any installer, including us, about both."
+   "text": "The pad and the stretch. A firm 8 lb pad and a proper power-stretch install make a bargain carpet last years longer and look tighter. A soft pad and a knee-kicker-only install make an expensive carpet ripple and wear like a cheap one."
   },
   {
    "type": "h2",
@@ -250,7 +250,7 @@
    "items": [
     {
      "icon": "clipboard",
-     "html": "<strong>Get the spec sheet for every sample you like,</strong> not just the tier name. Fiber, face weight, pile height, density, twist and dye method."
+     "html": "<strong>Get the spec sheet for every sample you like:</strong> fiber, face weight, pile height, density, twist and dye method."
     },
     {
      "icon": "home",
