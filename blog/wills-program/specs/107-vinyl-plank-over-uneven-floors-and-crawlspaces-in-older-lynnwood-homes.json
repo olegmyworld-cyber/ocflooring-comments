@@ -1,0 +1,146 @@
+{
+ "slug": "vinyl-plank-over-uneven-floors-and-crawlspaces-in-older-lynnwood-homes",
+ "title": "Vinyl Plank Over Uneven Floors and Crawlspaces in Older Lynnwood Homes",
+ "meta": "Vinyl plank can go over the uneven subfloors in Lynnwood's 1960s–80s ramblers, but only after flattening and a dry crawlspace. Wills Flooring explains the prep.",
+ "category": "lvp",
+ "city": "Lynnwood",
+ "time": "8 mins",
+ "date": "2027-01-01T15:00:00.000Z",
+ "keywords": "vinyl plank over uneven subfloor, LVP over crawlspace, leveling floor for vinyl plank, vinyl plank in older home, subfloor prep for vinyl plank, vinyl plank installation Lynnwood WA",
+ "offers": [
+  ["Vinyl plank flooring installation", "2.50", "per square foot"]
+ ],
+ "blocks": [
+  {
+   "type": "quick",
+   "eyebrow": "Short answer",
+   "lead": "Yes, vinyl plank works over the wavy subfloors in Lynnwood's 1960s to 1980s ramblers and split-levels, but only after the high spots are ground, the low spots are filled and the crawlspace under the floor is proven dry.",
+   "detail": "Rigid-core plank is stiff enough to bridge small dips, which is why it is the default choice for older homes. It is not stiff enough to ignore a hump at a beam line or a sag at a rotted joist, and it will telegraph both within a year.",
+   "tiles": [
+    {"icon": "ruler", "label": "Flatness target", "value": "3/16 in over 10 ft"},
+    {"icon": "moisture", "label": "Subfloor moisture", "value": "Under 12–13%"},
+    {"icon": "layers", "label": "Best plank type", "value": "Rigid core, 5 mm+"},
+    {"icon": "dollar", "label": "Install labor", "value": "$2.50 / sq ft"}
+   ]
+  },
+  {
+   "type": "p",
+   "html": "Pull the carpet in an Alderwood or Martha Lake rambler and you usually find one of three things: 1960s plywood with a hump where it crosses the center beam, 1970s particleboard underlayment that has swelled at every seam, or a 1980s split-level lower floor that dips toward a damp corner of the crawlspace. All three are normal for the age, and all three are fixable. What we will not do is click a floating floor over them and hope. This post covers what makes these floors uneven, how each problem is corrected, and how the crawlspace decides whether the job can start at all."
+  },
+  {"type": "h2", "text": "Why Lynnwood ramblers are rarely flat"},
+  {
+   "type": "cards",
+   "cols": 2,
+   "items": [
+    {"icon": "home", "title": "The center-beam hump", "text": "Most 1960s ramblers carry the floor on a beam down the middle of the crawlspace. Sixty years later the outer walls have settled a little and the beam has not, so the floor crowns along the hallway. It is often 3/8 in high over four feet, well past what any plank tolerates."},
+    {"icon": "layers", "title": "Swollen particleboard", "text": "1970s builders put 5/8 in particleboard over the plywood as a carpet underlayment. It drinks moisture from the crawlspace, swells at the seams and crumbles at the bathroom door. It has to come out; nothing floats flat over it and nothing glues to it."},
+    {"icon": "droplet", "title": "Sag at the wet corner", "text": "A downspout dumping at the foundation, a long-ago dishwasher leak or a plumbing drip under the kitchen leaves a soft, low spot. The subfloor bows between joists and sometimes the joist itself has gone punky. Filling over rot just hides it."},
+    {"icon": "hammer", "title": "Patchwork from past remodels", "text": "Kitchens redone in the 1990s often have a plywood patch that sits a hair higher or lower than the original floor, with a hardwood-to-vinyl transition ramp sanded into it. Split-levels add the half-flight landing that never matched either level."}
+   ]
+  },
+  {"type": "h2", "text": "Flatness fixes, ranked from cheapest to most involved"},
+  {
+   "type": "table",
+   "head": ["Problem", "The fix", "What to expect"],
+   "rows": [
+    ["Humps and ridges under 1/4 in", "Belt-sand or grind the high spot, feather the edges.", "Fast, dusty, done the morning of installation. Included in most prep quotes."],
+    ["Dips and low spots under 1/2 in", "Cement-based floor patch or self-leveler over a primed plywood subfloor, with lath where the pour is deep.", "Dries a few hours to overnight. Skipping the primer is why leveler cracks on wood."],
+    ["Swollen particleboard", "Remove it entirely down to the plywood, re-screw, fill the gaps and seams.", "Adds a half day for a typical rambler. Disposal is part of the removal line."],
+    ["Soft or spongy areas", "Cut out the bad plywood, sister or replace the damaged joist section, install new subfloor flush.", "A carpentry repair, priced after we open it up. Never skipped."],
+    ["Whole floor out of level but flat", "Nothing. Vinyl plank does not need level, only flat.", "A floor that drops 1 in from one wall to the other is fine if it does it smoothly."],
+    ["Too many small problems", "A new 1/4 in or 3/8 in plywood overlay screwed on 6 in centers.", "The cleanest result on a really tired subfloor, and it stiffens squeaky floors too."]
+   ],
+   "note": "Removal, leveling and plywood overlay are quoted at the free estimate after we see the floor. Installation labor for the plank itself is $2.50 per sq ft."
+  },
+  {"type": "h2", "text": "Price your Lynnwood vinyl plank installation"},
+  {
+   "type": "calc",
+   "kind": "lvp",
+   "note": "Labor only. Plank, underlayment, particleboard removal, leveling and any crawlspace work are added at the free in-home estimate."
+  },
+  {"type": "h2", "text": "The crawlspace check that decides everything"},
+  {
+   "type": "steps",
+   "wide": true,
+   "items": [
+    {"icon": "search", "d": "Open the hatch", "text": "We look for standing water, bare dirt, a torn or missing vapor barrier, insulation hanging down wet and any dark staining on the underside of the subfloor.", "note": "Ten minutes at the estimate, and the most valuable ten minutes of the visit."},
+    {"icon": "moisture", "d": "Meter the subfloor", "text": "Pin readings in the wet corner, at the kitchen, at a bathroom door and in the middle of the house. Plywood over a healthy Lynnwood crawlspace reads 9 to 12 percent in winter.", "note": "Readings above about 13 percent, or rising week to week, stop the job."},
+    {"icon": "wind", "d": "Check vents and drainage", "text": "Blocked or painted-shut foundation vents, downspouts ending at the wall and grade sloping toward the house are the three fixes we ask for most.", "note": "Most are weekend jobs for a homeowner; the vapor barrier is the one to hire out."},
+    {"icon": "done", "d": "Decide the assembly", "text": "Dry crawlspace: rigid-core floating plank with the manufacturer's underlayment. Borderline: fix the crawlspace first, then a plank with an attached pad over a taped 6 mil poly sheet as insurance.", "note": "Vinyl is waterproof; the plywood under it is not."}
+   ]
+  },
+  {"type": "h2", "text": "Which plank handles an imperfect floor"},
+  {
+   "type": "compare",
+   "a": {
+    "icon": "done",
+    "tag": "Rigid core, SPC or WPC, 5 mm and up",
+    "title": "Choose this when",
+    "items": [
+     "The subfloor has been flattened but still has minor texture",
+     "You want a floating floor that can be lifted for a future repair",
+     "Rooms flow together and you want few transitions",
+     "The crawlspace is dry and the plywood is sound"
+    ]
+   },
+   "b": {
+    "icon": "x",
+    "tag": "Thin flexible glue-down plank",
+    "title": "Avoid it when",
+    "items": [
+     "Any part of the subfloor is still uneven; it shows every seam and screw head",
+     "Particleboard is still in place; adhesive will not hold to it",
+     "Subfloor moisture is high; glue-down traps it",
+     "You are hoping thickness alone will hide a hump; it will not"
+    ]
+   }
+  },
+  {
+   "type": "callout",
+   "icon": "alert",
+   "title": "Thicker plank is not a leveling tool: ",
+   "text": "An 8 mm rigid plank feels solid in the store, and homeowners assume it will bridge a bad floor. It bridges a dip the width of your hand. Over a beam hump the joints open on the downhill side within months, and the warranty excludes it because the subfloor was out of spec. Flatten first, then choose the plank for looks and wear."
+  },
+  {"type": "h2", "text": "Mistakes we are called to fix in Lynnwood"},
+  {
+   "type": "list",
+   "icons": true,
+   "items": [
+    {"icon": "layers", "html": "<strong>Floating plank straight over swollen particleboard.</strong> The seams telegraph as ridges in a few months and the bathroom edge crumbles. It has to come out."},
+    {"icon": "droplet", "html": "<strong>Self-leveler poured on bare plywood with no primer or lath.</strong> It cracks, breaks into plates and clicks underfoot. The leveler then has to be chipped out."},
+    {"icon": "home", "html": "<strong>Flattening the floor but ignoring the crawlspace.</strong> The plank goes down beautifully in October; by April the plywood has swelled and the joints peak. See <a href=\"/blog-posts/why-vinyl-plank-floors-lift-and-peak-snohomish\">why vinyl plank floors lift and peak</a>."},
+    {"icon": "hammer", "html": "<strong>Screwing the hump down.</strong> A beam-line crown is structural. Screws do nothing; grinding or an overlay does."},
+    {"icon": "ruler", "html": "<strong>Running one floating field across a split-level landing.</strong> Each level and the landing get their own field and a transition, or the plank binds and lifts at the step."}
+   ]
+  },
+  {"type": "h2", "text": "Checklist before we start"},
+  {
+   "type": "list",
+   "icons": true,
+   "items": [
+    {"icon": "clipboard", "html": "<strong>Know where the crawlspace hatch is</strong> and clear the closet or cabinet in front of it."},
+    {"icon": "moisture", "html": "<strong>Note any history of leaks</strong>: dishwasher, water heater, a toilet that ran. We meter those spots first."},
+    {"icon": "search", "html": "<strong>Walk the floor barefoot</strong> and mark soft or crowned spots with tape. You know the house better than a first visit does."},
+    {"icon": "wind", "html": "<strong>Check the foundation vents and downspouts</strong> outside. If they need work, doing it before installation saves a return trip."},
+    {"icon": "phone", "html": "<strong>Ask for the flatness fix and the moisture reading on the quote.</strong> A Wills quote names both. The full process is on our <a href=\"/services/lvp-vinyl-flooring\">vinyl plank installation</a> page."}
+   ]
+  }
+ ],
+ "faq": [
+  {"q": "How flat does a subfloor need to be for vinyl plank?", "a": "Most manufacturers specify no more than 3/16 in of variation over a 10 ft span, and some tighten it to 1/8 in over 6 ft for thin planks. Older Lynnwood homes rarely meet that without grinding humps and filling dips, which is standard prep, not a reason to change floors."},
+  {"q": "Can you install vinyl plank over particleboard?", "a": "No, not in any way we would warranty. Particleboard swells with moisture, telegraphs its seams through a floating floor and will not hold adhesive. We remove it down to the plywood, re-screw the plywood and fill the seams before any plank goes down."},
+  {"q": "Does a crawlspace cause problems for vinyl plank?", "a": "A damp one does. The vinyl is waterproof but the plywood under it absorbs crawlspace moisture, swells and pushes the joints up. We meter the subfloor and inspect the crawlspace at the estimate. A vapor barrier over the soil and working downspouts fix most Lynnwood crawlspaces."},
+  {"q": "Will thick vinyl plank hide an uneven floor?", "a": "Only very small dips. A thicker rigid plank bridges a shallow low spot the width of your hand, but it cannot hide a hump at a beam or a sag over a bad joist. Those show as open joints within a year and are excluded from the plank warranty because the subfloor was out of spec."},
+  {"q": "How much does subfloor leveling add to a vinyl plank job?", "a": "It depends on the fix. Grinding a hump is quick and often included; removing particleboard adds a half day; a plywood overlay or joist repair is more. We quote each at the free estimate after seeing the floor. Plank installation labor itself is $2.50 per sq ft with a 500 sq ft minimum."},
+  {"q": "Should I choose floating or glue-down vinyl plank in an older Lynnwood home?", "a": "Floating rigid-core plank in nearly every case. It tolerates minor subfloor texture, can be lifted for repairs and does not depend on adhesive bonding to old plywood. Glue-down flexible plank shows every imperfection and traps moisture, so we reserve it for flat, dry slabs."}
+ ],
+ "faq_title": "Uneven floor and crawlspace questions from Lynnwood",
+ "faq_sub": "Asked about Alderwood ramblers, Martha Lake split-levels and Meadowdale remodels.",
+ "related": [
+  ["how-flat-does-a-subfloor-need-to-be-for-vinyl-plank-seattle", "how flat a subfloor needs to be"],
+  ["why-vinyl-plank-floors-lift-and-peak-snohomish", "why vinyl plank lifts and peaks"],
+  ["spc-vs-wpc-vinyl-plank-lynnwood", "SPC vs WPC vinyl plank"]
+ ],
+ "cta_title": "Get your Lynnwood subfloor checked and priced",
+ "cta_sub": "We are a few minutes away on 196th. We meter the floor, look in the crawlspace, bring rigid-core samples and hand you a written quote with the prep spelled out. Free, no obligation."
+}

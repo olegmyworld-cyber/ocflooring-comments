@@ -8,7 +8,11 @@
  "date": "2027-01-17T15:00:00.000Z",
  "keywords": "vinyl plank in sunroom, does vinyl plank fade in sunlight, LVP heat expansion south facing room, best vinyl plank for sunroom, vinyl plank flooring Snohomish WA, SPC vs WPC heat",
  "offers": [
-  ["Vinyl plank flooring installation", "2.50", "per square foot"]
+  [
+   "Vinyl plank flooring installation",
+   "2.50",
+   "per square foot"
+  ]
  ],
  "blocks": [
   {
@@ -17,66 +21,173 @@
    "lead": "Vinyl plank can go in a sunroom or a south-facing room, but only a rigid SPC core with a UV-stabilized wear layer, installed with a full expansion gap and shaded glass, will stay flat and hold its color.",
    "detail": "Heat, not water, is what kills vinyl plank in glass rooms. A floating WPC or flexible plank can grow a quarter inch across a 20 ft room on a July afternoon and buckle against the wall. Wills Flooring installs vinyl plank at $2.50 per sq ft and will tell you at the estimate if your room is a bad fit.",
    "tiles": [
-    {"icon": "sun", "label": "Best core", "value": "Rigid SPC"},
-    {"icon": "thermo", "label": "Sunroom floor temp", "value": "Can pass 100°F"},
-    {"icon": "hammer", "label": "Install labor", "value": "$2.50 / sq ft"},
-    {"icon": "ruler", "label": "Minimum", "value": "500 sq ft"}
+    {
+     "icon": "sun",
+     "label": "Best core",
+     "value": "Rigid SPC"
+    },
+    {
+     "icon": "thermo",
+     "label": "Sunroom floor temp",
+     "value": "Can pass 100°F"
+    },
+    {
+     "icon": "hammer",
+     "label": "Install labor",
+     "value": "$2.50 / sq ft"
+    },
+    {
+     "icon": "ruler",
+     "label": "Minimum",
+     "value": "500 sq ft"
+    }
    ]
   },
   {
    "type": "p",
-   "html": "Snohomish has more sunrooms and enclosed porches per house than almost anywhere we work. Farmhouses off Fobes Hill added glassed-in porches in the 80s, Clearview homes have three-season rooms off the kitchen, and plenty of Blackmans Lake properties have a south wall that is mostly window. People want the same vinyl plank in there that runs through the rest of the house. Sometimes that works. Sometimes we come back in August to a floor that has lifted into a tent. Here is what heat actually does to the product and how to spec around it."
+   "html": "Snohomish has more sunrooms and enclosed porches per house than almost anywhere we work. Farmhouses off Fobes Hill added glassed-in porches in the 80s, Clearview homes have three-season rooms off the kitchen, and plenty of Blackmans Lake properties have a south wall that is mostly window. People want the same vinyl plank in there that runs through the house. Sometimes that works. Sometimes we come back in August to a floor that has lifted into a tent. Here is what heat does to the product and how to spec around it."
   },
-  {"type": "h2", "text": "What heat actually does to vinyl plank"},
+  {
+   "type": "h2",
+   "text": "What heat actually does to vinyl plank"
+  },
   {
    "type": "cards",
    "cols": 2,
    "items": [
-    {"icon": "thermo", "title": "It expands, a lot more than wood", "text": "Vinyl has a high coefficient of thermal expansion. A flexible plank can grow roughly 1/8 in for every 10 ft of run between a 55°F night and a 95°F afternoon. Over a 20 ft sunroom that is a quarter inch of movement every sunny day, which is more than most baseboards hide."},
-    {"icon": "layers", "title": "It softens", "text": "Above about 85°F the vinyl in a flexible or WPC plank gets pliable. Click joints lose grip, furniture legs press dents in, and a floated floor can creep toward the low side of the room. Rigid SPC cores are loaded with limestone and stay stiff to well over 100°F."},
-    {"icon": "sun", "title": "The print can fade", "text": "The wood look is a printed film. UV light slowly bleaches the inks, and the area under a rug stays dark while the rest lightens. Products rated for direct sunlight put UV inhibitors in the wear layer and the film; budget products do not, and warranties exclude fading in sun-exposed rooms."},
-    {"icon": "droplet", "title": "Glue behaves differently", "text": "Glue-down installs remove the floating-floor buckling problem, but pressure-sensitive adhesives soften in heat too. In a true glass sunroom we specify a hard-set or high-temperature adhesive, which most flooring stores never mention."}
+    {
+     "icon": "thermo",
+     "title": "It expands, a lot more than wood",
+     "text": "Vinyl has a high coefficient of thermal expansion. A flexible plank can grow roughly 1/8 in for every 10 ft of run between a 55°F night and a 95°F afternoon. Over a 20 ft sunroom that is a quarter inch of movement on every sunny day, more than most baseboards hide."
+    },
+    {
+     "icon": "layers",
+     "title": "It softens",
+     "text": "Above about 85°F the vinyl in a flexible or WPC plank gets pliable. Click joints lose grip, furniture legs press dents in, and a floated floor can creep toward the low side of the room. Rigid SPC cores are loaded with limestone and stay stiff well past 100°F."
+    },
+    {
+     "icon": "sun",
+     "title": "The print can fade",
+     "text": "The wood look is a printed film. UV light slowly bleaches the inks, so the area under a rug stays dark while the rest lightens. Products rated for direct sunlight put UV inhibitors in the wear layer and the film; budget products do not, and their warranties exclude fading in sun-exposed rooms."
+    },
+    {
+     "icon": "droplet",
+     "title": "Glue behaves differently",
+     "text": "Glue-down installs remove the floating-floor buckling problem, but pressure-sensitive adhesives soften in heat too. In a true glass sunroom we specify a hard-set or high-temperature adhesive, which most flooring stores never mention."
+    }
    ]
   },
-  {"type": "h2", "text": "SPC vs WPC vs flexible plank in a hot room"},
+  {
+   "type": "h2",
+   "text": "SPC vs WPC vs flexible plank in a hot room"
+  },
   {
    "type": "table",
-   "head": ["Plank type", "Core", "Heat behavior", "Verdict for a sunroom"],
-   "rows": [
-    ["SPC (stone plastic composite)", "Dense vinyl and limestone, rigid", "Very low expansion, stays stiff past 100°F", "Yes, with a UV-rated wear layer"],
-    ["WPC (wood plastic composite)", "Foamed vinyl core, softer and thicker", "Moderate expansion, softens in strong sun", "Only in a conditioned room with shaded glass"],
-    ["Flexible LVP (glue-down or loose lay)", "Solid vinyl, thin", "Highest expansion, dents when warm", "Glue-down only, with a high-temp adhesive"],
-    ["Rigid-core with attached cork or foam pad", "SPC or WPC plus pad", "Pad insulates from a hot slab but adds nothing against sun", "Fine if the core is SPC"]
+   "head": [
+    "Plank type",
+    "Core",
+    "Heat behavior",
+    "Verdict for a sunroom"
    ],
-   "note": "Manufacturer heat limits are printed in the install guide, usually as a maximum floor surface temperature. Many WPC lines cap at 85°F; most SPC lines allow more. Read that line before buying a single box."
+   "rows": [
+    [
+     "SPC (stone plastic composite)",
+     "Dense vinyl and limestone, rigid",
+     "Very low expansion, stays stiff past 100°F",
+     "Yes, with a UV-rated wear layer"
+    ],
+    [
+     "WPC (wood plastic composite)",
+     "Foamed vinyl core, softer and thicker",
+     "Moderate expansion, softens in strong sun",
+     "Only in a conditioned room with shaded glass"
+    ],
+    [
+     "Flexible LVP (glue-down or loose lay)",
+     "Solid vinyl, thin",
+     "Highest expansion, dents when warm",
+     "Glue-down only, with a high-temp adhesive"
+    ]
+   ],
+   "note": "Manufacturer heat limits are printed in the install guide as a maximum floor surface temperature. Many WPC lines cap at 85°F; most SPC lines allow more. Read that line before buying a box."
   },
-  {"type": "h2", "text": "How to spec a plank for a sunroom"},
+  {
+   "type": "h2",
+   "text": "How to spec a plank for a sunroom"
+  },
   {
    "type": "list",
    "icons": true,
    "items": [
-    {"icon": "search", "html": "<strong>Look for a stated sunroom or direct-sunlight approval.</strong> If the warranty says \"not for use in rooms exposed to direct sunlight,\" believe it. The good products say the opposite in plain words."},
-    {"icon": "palette", "html": "<strong>Go lighter in color.</strong> A dark walnut-look plank absorbs far more heat than a pale oak look. On a south-facing slab we have measured 20°F differences between colors sitting side by side."},
-    {"icon": "shield", "html": "<strong>Insist on a 20 mil wear layer or thicker.</strong> Thicker wear layers carry more UV inhibitor and resist the dents that soft, warm vinyl invites."},
-    {"icon": "ruler2", "html": "<strong>Check the maximum run length.</strong> Floating floors have a limit on continuous run before they need a transition. Sunrooms often exceed it if you run the plank straight out of the kitchen with no break."},
-    {"icon": "home", "html": "<strong>Plan the glass.</strong> Low-E window film or cellular shades cut floor temperature dramatically. It is cheaper than replacing a buckled floor and it protects your furniture too."}
+    {
+     "icon": "search",
+     "html": "<strong>Look for a stated sunroom or direct-sunlight approval.</strong> If the warranty says \"not for use in rooms exposed to direct sunlight,\" believe it. The good products say the opposite in plain words."
+    },
+    {
+     "icon": "palette",
+     "html": "<strong>Go lighter in color.</strong> A dark walnut-look plank absorbs far more heat than a pale oak look. On a south-facing slab we have measured 20°F differences between colors sitting side by side."
+    },
+    {
+     "icon": "shield",
+     "html": "<strong>Insist on a 20 mil wear layer or thicker.</strong> Thicker wear layers carry more UV inhibitor and resist the dents that soft, warm vinyl invites."
+    },
+    {
+     "icon": "ruler2",
+     "html": "<strong>Check the maximum run length.</strong> Floating floors have a limit on continuous run before they need a transition. Sunrooms often exceed it if the plank runs straight out of the kitchen with no break."
+    },
+    {
+     "icon": "home",
+     "html": "<strong>Plan the glass.</strong> Low-E window film or cellular shades cut floor temperature dramatically. It is cheaper than replacing a buckled floor."
+    }
    ]
   },
-  {"type": "h2", "text": "Price your Snohomish vinyl plank install right now"},
-  {"type": "calc", "kind": "lvp", "note": "Labor only. Add the plank quote from your free estimate. Sunroom adhesive upgrades are quoted on site."},
-  {"type": "h2", "text": "Installation details that keep a sunroom floor flat"},
+  {
+   "type": "h2",
+   "text": "Price your Snohomish vinyl plank install right now"
+  },
+  {
+   "type": "calc",
+   "kind": "lvp",
+   "note": "Labor only. Add the plank quote from your free estimate. Sunroom adhesive upgrades are quoted on site."
+  },
+  {
+   "type": "h2",
+   "text": "Installation details that keep a sunroom floor flat"
+  },
   {
    "type": "steps",
    "wide": true,
    "items": [
-    {"icon": "thermo", "d": "Step 1 · Acclimate in the room", "text": "Boxes sit open in the sunroom itself for 48 hours, not in the garage. The plank needs to reach the temperature it will live at before it is locked together.", "note": "Install on a mild day, ideally with the floor between 65°F and 80°F"},
-    {"icon": "ruler", "d": "Step 2 · Double the expansion gap", "text": "Standard gap is about 1/4 in. In a glass room we leave 3/8 to 1/2 in at every wall, post and slider track, then cover it with a taller base shoe.", "note": "Any place the floor touches something fixed is where it will buckle"},
-    {"icon": "grid", "d": "Step 3 · Break the floor at the doorway", "text": "A T-molding where the sunroom meets the house lets the two areas move independently. Running one continuous floor from a 68°F kitchen into a 95°F sunroom is the single most common cause of peaking.", "note": "Yes, it interrupts the look. It also saves the floor"},
-    {"icon": "hammer", "d": "Step 4 · Consider glue-down over a slab", "text": "Most Snohomish sunrooms sit on a slab. A glued SPC plank with a high-temperature adhesive cannot float or creep and tolerates heat swings better than any click floor.", "note": "The slab needs a moisture test first; we do this at the estimate"},
-    {"icon": "sofa", "d": "Step 5 · Furniture and rugs", "text": "Wide felt pads under everything, and no rubber-backed rugs. Rubber traps heat and can react with the vinyl, leaving a yellow shadow that never comes out.", "note": "Rotate rugs seasonally so fading stays even"}
+    {
+     "icon": "thermo",
+     "d": "Step 1 · Acclimate in the room",
+     "text": "Boxes sit open in the sunroom itself for 48 hours, not in the garage, so the plank reaches the temperature it will live at before it is locked together.",
+     "note": "Install on a mild day, ideally with the floor between 65°F and 80°F"
+    },
+    {
+     "icon": "ruler",
+     "d": "Step 2 · Double the expansion gap",
+     "text": "Standard gap is about 1/4 in. In a glass room we leave 3/8 to 1/2 in at every wall, post and slider track, then cover it with a taller base shoe.",
+     "note": "Any place the floor touches something fixed is where it will buckle"
+    },
+    {
+     "icon": "grid",
+     "d": "Step 3 · Break the floor at the doorway",
+     "text": "A T-molding where the sunroom meets the house lets the two areas move independently. Running one continuous floor from a 68°F kitchen into a 95°F sunroom is the most common cause of peaking we see.",
+     "note": "Yes, it interrupts the look. It also saves the floor"
+    },
+    {
+     "icon": "hammer",
+     "d": "Step 4 · Consider glue-down over a slab",
+     "text": "Most Snohomish sunrooms sit on a slab. A glued SPC plank with a high-temperature adhesive cannot float or creep and tolerates heat swings better than any click floor.",
+     "note": "The slab needs a moisture test first; we do this at the estimate"
+    }
    ]
   },
-  {"type": "h2", "text": "When vinyl plank is the wrong floor for the room"},
+  {
+   "type": "h2",
+   "text": "When vinyl plank is the wrong floor for the room"
+  },
   {
    "type": "compare",
    "a": {
@@ -87,8 +198,7 @@
      "The sunroom is heated and cooled with the rest of the house",
      "Glass has Low-E coating, film or shades",
      "You choose SPC with a stated sunlight approval",
-     "The room can take a transition strip at the door",
-     "The slab passes a moisture test"
+     "The room can take a transition strip at the door"
     ]
    },
    "b": {
@@ -99,8 +209,7 @@
      "The room is an unconditioned glass enclosure that hits 110°F in July",
      "There is a wood stove or pellet stove in the room within a few feet of the floor",
      "Dogs and wet fields mean the floor gets hosed down",
-     "The slab shows moisture or has no vapor barrier",
-     "You want a dark plank and no window treatment"
+     "The slab shows moisture or has no vapor barrier"
     ]
    }
   },
@@ -110,33 +219,78 @@
    "title": "The Snohomish wood stove note: ",
    "text": "A lot of acreage homes heat a sunroom or family room with a wood stove. Radiant heat off a stove can push the floor surface within 3 ft of it past any vinyl plank rating, even SPC. Use a hearth pad or tile that zone and start the plank outside it. We can lay that out at the estimate."
   },
-  {"type": "h2", "text": "What to confirm before you buy or book"},
+  {
+   "type": "h2",
+   "text": "What to confirm before you buy or book"
+  },
   {
    "type": "list",
    "icons": true,
    "items": [
-    {"icon": "clipboard", "html": "<strong>Get the heat limit and sunlight clause from the install guide.</strong> Not the brochure. The guide is what the manufacturer holds you to if you file a claim."},
-    {"icon": "thermo", "html": "<strong>Measure your room on a sunny afternoon.</strong> An infrared thermometer costs little and tells you whether the floor sees 85°F or 105°F. That number decides the product."},
-    {"icon": "layers", "html": "<strong>Compare SPC and WPC samples in the room itself.</strong> Our mobile showroom brings both to your Snohomish house. Leave them in the sun for an hour and feel the difference in stiffness."},
-    {"icon": "search", "html": "<strong>Ask how the installer handles the doorway.</strong> If the answer is \"we just run it through,\" keep asking. Read about <a href=\"/blog-posts/why-is-my-vinyl-plank-floor-buckling-or-gapping-sammamish\">why floating floors buckle</a> to see what that decision costs later."},
-    {"icon": "shield", "html": "<strong>Know who covers what.</strong> Manufacturer warranties often exclude sunrooms entirely. Wills Flooring's 1-year workmanship warranty covers the installation; product selection is where the risk sits, so choose carefully. Details on our <a href=\"/services/lvp-vinyl-flooring\">vinyl plank installation page</a>."}
+    {
+     "icon": "clipboard",
+     "html": "<strong>Get the heat limit and sunlight clause from the install guide.</strong> Not the brochure. The guide is what the manufacturer holds you to in a claim."
+    },
+    {
+     "icon": "thermo",
+     "html": "<strong>Measure your room on a sunny afternoon.</strong> An infrared thermometer costs little and tells you whether the floor sees 85°F or 105°F. That number decides the product."
+    },
+    {
+     "icon": "layers",
+     "html": "<strong>Compare SPC and WPC samples in the room itself.</strong> Our mobile showroom brings both to your Snohomish house. Leave them in the sun for an hour and feel the difference in stiffness."
+    },
+    {
+     "icon": "search",
+     "html": "<strong>Ask how the installer handles the doorway.</strong> If the answer is \"we just run it through,\" keep asking. Read about <a href=\"/blog-posts/why-is-my-vinyl-plank-floor-buckling-or-gapping-sammamish\">why floating floors buckle</a> to see what that decision costs later."
+    },
+    {
+     "icon": "shield",
+     "html": "<strong>Know who covers what.</strong> Manufacturer warranties often exclude sunrooms entirely. Wills Flooring's 1-year workmanship warranty covers the installation; product selection is where the risk sits. Details on our <a href=\"/services/lvp-vinyl-flooring\">vinyl plank installation page</a>."
+    }
    ]
   }
  ],
  "faq": [
-  {"q": "Does vinyl plank fade in direct sunlight?", "a": "Budget vinyl plank can fade noticeably within two to three summers in a south-facing room, especially darker colors. Products with UV inhibitors in the wear layer and print film hold color far longer. Rugs left in one spot create a shadow line either way, so rotate them."},
-  {"q": "Will vinyl plank buckle in a sunroom?", "a": "A floating floor without enough expansion room will. The fix is an SPC core, a 3/8 to 1/2 inch gap at every wall, a transition at the sunroom door and shaded glass. Glue-down with a high-temperature adhesive removes the buckling risk almost entirely."},
-  {"q": "What temperature is too hot for vinyl plank?", "a": "Most manufacturers cap floor surface temperature around 85°F for WPC and flexible plank and somewhat higher for SPC; the exact number is in the installation guide. Unconditioned glass sunrooms in Snohomish can exceed 100°F at the floor in July, so measure before you buy."},
-  {"q": "Is SPC or WPC better for a south-facing room?", "a": "SPC. Its limestone-filled core expands less and stays rigid in heat, so click joints hold and the floor does not creep. WPC is softer and quieter underfoot but softens in strong sun and has tighter heat limits."},
-  {"q": "Can I run the same vinyl plank from my kitchen into the sunroom?", "a": "Same product, yes. Same continuous floor, no. Put a T-molding at the doorway so the sunroom section can expand on its own. Two rooms at different temperatures sharing one floating floor is the most common buckling call we get."},
-  {"q": "How much does it cost to install vinyl plank in a sunroom in Snohomish?", "a": "Wills Flooring charges $2.50 per sq ft for labor with a 500 sq ft minimum, so a sunroom is usually combined with adjoining rooms to use the minimum fully. Plank, underlayment, adhesive upgrades and slab prep are quoted at the free in-home estimate."}
+  {
+   "q": "Does vinyl plank fade in direct sunlight?",
+   "a": "Budget vinyl plank can fade noticeably within two to three summers in a south-facing room, especially darker colors. Products with UV inhibitors in the wear layer and print film hold color far longer. Rugs left in one spot create a shadow line either way, so rotate them."
+  },
+  {
+   "q": "Will vinyl plank buckle in a sunroom?",
+   "a": "A floating floor without enough expansion room will. The fix is an SPC core, a 3/8 to 1/2 inch gap at every wall, a transition at the sunroom door and shaded glass. Glue-down with a high-temperature adhesive removes the buckling risk almost entirely."
+  },
+  {
+   "q": "What temperature is too hot for vinyl plank?",
+   "a": "Most manufacturers cap floor surface temperature around 85°F for WPC and flexible plank and higher for SPC; the exact number is in the installation guide. Unconditioned glass sunrooms in Snohomish can pass 100°F at the floor in July, so measure before you buy."
+  },
+  {
+   "q": "Is SPC or WPC better for a south-facing room?",
+   "a": "SPC. Its limestone-filled core expands less and stays rigid in heat, so click joints hold and the floor does not creep. WPC is softer and quieter underfoot but softens in strong sun and has tighter heat limits."
+  },
+  {
+   "q": "Can I run the same vinyl plank from my kitchen into the sunroom?",
+   "a": "Same product, yes. Same continuous floor, no. Put a T-molding at the doorway so the sunroom section can expand on its own. Two rooms at different temperatures sharing one floating floor is the most common buckling call we get."
+  },
+  {
+   "q": "How much does it cost to install vinyl plank in a sunroom in Snohomish?",
+   "a": "Wills Flooring charges $2.50 per sq ft for labor with a 500 sq ft minimum, so a sunroom is usually combined with adjoining rooms to use the minimum fully. Plank, underlayment, adhesive upgrades and slab prep are quoted at the free in-home estimate."
+  }
  ],
  "faq_title": "Sunroom and south-facing room questions from Snohomish",
  "faq_sub": "From estimates on acreage properties, Google searches and calls to our Lynnwood showroom.",
  "related": [
-  ["spc-vs-wpc-vinyl-plank-lynnwood", "SPC vs WPC vinyl plank, explained"],
-  ["why-is-my-vinyl-plank-floor-buckling-or-gapping-sammamish", "why vinyl plank buckles or gaps"],
-  ["does-vinyl-plank-flooring-need-to-acclimate-before-installation-edmonds", "acclimating vinyl plank before install"]
+  [
+   "spc-vs-wpc-vinyl-plank-lynnwood",
+   "SPC vs WPC vinyl plank, explained"
+  ],
+  [
+   "why-is-my-vinyl-plank-floor-buckling-or-gapping-sammamish",
+   "why vinyl plank buckles or gaps"
+  ],
+  [
+   "does-vinyl-plank-flooring-need-to-acclimate-before-installation-edmonds",
+   "acclimating vinyl plank before install"
+  ]
  ],
  "cta_title": "Get a sunroom-safe plank recommendation in Snohomish",
  "cta_sub": "We bring SPC and WPC samples to your house, measure the room, test the slab and write a firm quote on the spot. Free, no obligation, anywhere in Snohomish."

@@ -1,0 +1,149 @@
+{
+ "slug": "cupped-or-crowned-hardwood-floors-snohomish",
+ "title": "Cupped or Crowned Hardwood Floors: Can They Be Sanded Flat?",
+ "meta": "Cupped hardwood can be sanded flat only after the moisture source is fixed and the boards dry back to normal. Wills Flooring explains crowning risk and costs for Snohomish homes.",
+ "category": "refinish",
+ "city": "Snohomish",
+ "time": "8 mins",
+ "date": "2027-02-28T15:00:00.000Z",
+ "keywords": "cupped hardwood floors sanding, can cupped wood floors be sanded flat, crowned hardwood floor fix, hardwood floor cupping crawlspace, why are my hardwood floors cupping, refinish cupped floors Snohomish",
+ "offers": [
+  ["Sand and refinish, natural finish", "3.99", "per square foot"],
+  ["Sand and refinish with stain", "6.50", "per square foot"],
+  ["Screen and recoat", "1.99", "per square foot"]
+ ],
+ "blocks": [
+  {
+   "type": "quick",
+   "eyebrow": "Short answer",
+   "lead": "Yes, cupped hardwood can be sanded flat, but only after the moisture source is fixed and the boards have dried back to a normal, even moisture content. Sand a floor while it is still cupped and it will crown a few months later, which is worse and harder to fix.",
+   "detail": "In Snohomish, cupping almost always traces to a damp crawlspace, a plumbing leak or a wet season with no vapor barrier. The sanding itself is our standard refinish at $3.99 per sq ft; the waiting and the moisture fix are what make this job different.",
+   "tiles": [
+    {"icon": "moisture", "label": "Step one", "value": "Fix the moisture"},
+    {"icon": "clock", "label": "Dry-back time", "value": "Weeks to months"},
+    {"icon": "dollar", "label": "Sand and refinish", "value": "$3.99 / sq ft"},
+    {"icon": "ruler", "label": "Wood needed", "value": "3/32 in above tongue"}
+   ],
+   "cta": "Try the calculator"
+  },
+  {
+   "type": "p",
+   "html": "Run your hand across the boards. If each one feels like a shallow trough, edges up and center down, the floor is cupped. If each board is a low hump, center high and edges low, it is crowned. Both come from moisture moving unevenly through the wood, and in Snohomish County, with crawlspaces over wet ground, well systems and homes on acreage near Blackmans Lake and Fobes Hill, we see more of both than anywhere else we work. The good news is that most of these floors are saved, not replaced. The order of operations is what matters."
+  },
+  {"type": "h2", "text": "Cupped vs crowned: what each one is telling you"},
+  {
+   "type": "compare",
+   "a": {
+    "icon": "moisture",
+    "tag": "Cupped",
+    "title": "Edges up, center down",
+    "items": [
+     "The bottom of the board is wetter than the top",
+     "Cause: damp crawlspace, slab moisture, leak under the floor, no vapor barrier",
+     "Common in Snohomish farmhouses and 1970s Clearview homes over dirt crawlspaces",
+     "Reversible: many cupped floors flatten on their own once the source is fixed"
+    ]
+   },
+   "b": {
+    "icon": "alert",
+    "tag": "Crowned",
+    "title": "Center up, edges down",
+    "items": [
+     "The top of the board is wetter than the bottom, or the floor was sanded while cupped",
+     "Cause: surface spill or flood that was dried fast, or a premature sanding",
+     "Common after a dishwasher leak or a refinish done too soon after a leak",
+     "Not reversible by drying: crowning from a bad sanding is permanent until sanded again"
+    ]
+   }
+  },
+  {"type": "h2", "text": "Why Snohomish floors cup more than most"},
+  {
+   "type": "cards",
+   "cols": 2,
+   "items": [
+    {"icon": "basement", "title": "Crawlspaces over wet ground", "text": "Much of the county sits on clay and river soil. A crawlspace with standing water in February and no vapor barrier pumps moisture straight into the underside of the floor above it. The boards swell from the bottom and the edges rise."},
+    {"icon": "droplet", "title": "Well water and old plumbing", "text": "Homes on wells run higher pressure swings and older supply lines. A slow drip under a kitchen or bathroom soaks the subfloor for months before anyone notices, cupping the boards nearest the wall.", "gold": true},
+    {"icon": "flame", "title": "Wood stoves in winter", "text": "A stove in the living room drops indoor humidity into the teens while the crawlspace stays saturated. That gap between the top and bottom of the board is exactly what drives cupping, and it is worst in January."},
+    {"icon": "paw", "title": "Mud, dogs and door mats", "text": "Wet paws and boots at the back door keep one patch of floor damp every day from October to May. The cupping appears in a six-foot arc around the door and nowhere else."}
+   ]
+  },
+  {"type": "h2", "text": "The right order: fix, dry, measure, then sand"},
+  {
+   "type": "steps",
+   "wide": true,
+   "items": [
+    {"icon": "search", "d": "1. Find and stop the source", "text": "Crawlspace inspection, plumbing check, appliance lines, exterior grading and downspouts. Until this is done nothing else counts.", "note": "We look under the house at the estimate. Standing water or bare dirt means a vapor barrier or drainage before we sand."},
+    {"icon": "wind", "d": "2. Let the floor dry back", "text": "With the source fixed and the house heated and ventilated, boards lose moisture over weeks. Many cupped floors flatten most of the way on their own, which is why sanding early is a mistake.", "note": "Fans and a dehumidifier in the crawlspace speed this up. Expect four to twelve weeks, longer for a flood."},
+    {"icon": "thermo", "d": "3. Meter the top and bottom", "text": "We read moisture content at the board surface and, where possible, from the crawlspace below. The floor is ready when the two readings are within a couple of points and stable across two visits a week apart.", "note": "Typical target in a heated Snohomish home: 6 to 9 percent, and no more than 2 points difference top to bottom."},
+    {"icon": "brush", "d": "4. Sand flat and finish", "text": "Now the remaining cup is sanded out with the drum sander, boards are patched where needed, and three coats of Bona water-based finish go on.", "note": "A 700 sq ft main floor: 700 × $3.99 = $2,793 for the natural finish."}
+   ]
+  },
+  {"type": "h2", "text": "Price your Snohomish refinish right now"},
+  {
+   "type": "calc",
+   "kind": "refinish",
+   "note": "Sanding a dried cupped floor is priced as a standard refinish. Board replacement, crawlspace vapor barrier and moisture mitigation are quoted at the estimate."
+  },
+  {"type": "h2", "text": "How much wood does flattening take?"},
+  {
+   "type": "table",
+   "head": ["Severity", "What sanding removes", "Can it be done?"],
+   "rows": [
+    ["Slight cup, under 1/32 in after drying", "One extra pass with a coarser grit, about the same as a normal refinish.", "Yes, on any floor with 3/32 in or more above the tongue."],
+    ["Moderate cup, 1/32 to 1/16 in", "Noticeably more wood from the board edges. A 3/4 in solid floor handles it; a floor already sanded three times may not.", "Usually. We measure remaining thickness at a register or threshold first."],
+    ["Heavy cup, over 1/16 in that will not dry out", "Too much edge material; the tongue would be exposed at the board edges.", "No. Replace the affected boards, then refinish the room as one."],
+    ["Engineered floor, any cup", "The veneer is 2 to 4 mm; the edges are the first place it sands through.", "Rarely. Light cup only, and only on a 4 mm veneer that has never been sanded."]
+   ],
+   "note": "The most common Snohomish outcome: a floor that cupped 1/16 in in winter dries to under 1/32 in by summer and sands flat as a normal job."
+  },
+  {"type": "h2", "text": "When sanding is the wrong move"},
+  {
+   "type": "list",
+   "icons": true,
+   "items": [
+    {"icon": "alert", "html": "<strong>The source is not fixed.</strong> A flat floor over a wet crawlspace cups again within a year, and this time you have less wood to work with. No reputable refinisher should sand it."},
+    {"icon": "clock", "html": "<strong>The floor is still drying.</strong> If moisture readings dropped two points between last week and this week, it is not done. Sanding now guarantees crowning."},
+    {"icon": "ruler", "html": "<strong>Not enough thickness left.</strong> Below about 3/32 in above the tongue, flattening the edges exposes the tongue joint. Those boards need replacing, not sanding."},
+    {"icon": "layers", "html": "<strong>Boards are cupped and also black.</strong> Dark staining across the cup means water sat long enough to rot fibers or grow mold. Sanding lightens it but does not fix soft wood; see how we handle <a href=\"/blog-posts/can-water-damaged-hardwood-floors-be-refinished-everett\">water-damaged floors</a>."},
+    {"icon": "home", "html": "<strong>The subfloor is the problem.</strong> Swollen OSB or a delaminated plywood subfloor under the cup will keep telegraphing through. It has to come out first, which makes this an installation job, not a refinish."}
+   ]
+  },
+  {
+   "type": "callout",
+   "icon": "alert",
+   "gold": true,
+   "title": "The classic Snohomish mistake: ",
+   "text": "A floor cups after a winter leak, the owner calls a refinisher in March, and the crew sands it flat the same week. By August the boards have dried, the sanded edges are now lower than the centers, and every board is crowned. The only fix is another sanding, and the floor has lost two rounds of wood in one year. Patience is the cheapest tool on this job."
+  },
+  {"type": "h2", "text": "What to have ready before you call"},
+  {
+   "type": "ul",
+   "items": [
+    "When you first noticed the cupping, and whether it changes with the seasons.",
+    "Whether the crawlspace has a vapor barrier, standing water or a sump.",
+    "Any leaks, appliance failures or floods in the last two years, even ones that seemed dry quickly.",
+    "How many times the floor has been sanded before, if you know.",
+    "Whether the floor is solid or engineered; a closet edge or a floor register will show the profile.",
+    "Photos in raking light from the window so we can see how much cup remains before the visit.",
+    "A moisture reading if you own a meter, top of board and, if reachable, the underside from the crawlspace."
+   ]
+  }
+ ],
+ "faq": [
+  {"q": "Can cupped hardwood floors be sanded flat?", "a": "Yes, once the moisture source is fixed and the boards have dried to an even moisture content top to bottom. At that point the remaining cup is sanded out as part of a standard refinish at $3.99 per sq ft. Sanding a floor that is still wet or still drying causes crowning later, so the timing is everything."},
+  {"q": "Will cupped floors flatten on their own?", "a": "Often, yes. When the cause is seasonal crawlspace moisture and it is corrected, many floors flatten most of the way within a few months as the boards dry back. Some residual cup usually remains, which a refinish removes. Crowning from a premature sanding does not fix itself."},
+  {"q": "What is the difference between cupping and crowning?", "a": "Cupping is board edges higher than the center, caused by moisture entering from below. Crowning is the center higher than the edges, caused by moisture from above or, most often, by sanding a cupped floor flat before it finished drying so the edges ended up too low once the wood shrank back."},
+  {"q": "How long should I wait after a leak before refinishing?", "a": "Until moisture readings are stable and within a couple of points top to bottom, checked a week apart. In a heated Snohomish home that is typically four to twelve weeks after the source is fixed; a flood over a crawlspace can take longer. We will not schedule sanding until the numbers hold."},
+  {"q": "How much does it cost to fix cupped hardwood floors in Snohomish?", "a": "The sanding and finishing is priced as a normal refinish: $3.99 per sq ft natural or $6.50 with stain, 500 sq ft minimum. A 700 sq ft main floor is $2,793 natural. Board replacement, crawlspace vapor barrier or drainage work are separate and quoted after we inspect the house."},
+  {"q": "Can engineered hardwood that has cupped be sanded?", "a": "Rarely. Engineered veneers are 2 to 4 mm thick and the raised edges are exactly where a sander cuts first. Light cupping on a thick, never-sanded veneer can sometimes be screened after drying. Moderate or heavy cupping on engineered floors usually means replacing the affected planks."}
+ ],
+ "faq_title": "Cupped floor questions from Snohomish County",
+ "faq_sub": "Crawlspaces, wells, wood stoves and wet winters, answered from experience.",
+ "related": [
+  ["can-water-damaged-hardwood-floors-be-refinished-everett", "refinishing water-damaged floors"],
+  ["how-thick-does-hardwood-need-to-be-to-refinish-snohomish", "how thick hardwood must be to refinish"],
+  ["hardwood-over-a-crawlspace-kirkland", "hardwood over a crawlspace"]
+ ],
+ "cta_title": "Get your cupped Snohomish floor checked before anyone sands it",
+ "cta_sub": "We meter the boards, look at the crawlspace, and tell you honestly whether to wait, sand or replace. Free written quote at your home, no pressure to rush."
+}

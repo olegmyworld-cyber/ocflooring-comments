@@ -4,13 +4,25 @@
  "meta": "Not really. A recoat can add a slight tint but cannot lighten or remove old stain; a true color change means sanding and staining. Wills Flooring explains for Sammamish homes.",
  "category": "refinish",
  "city": "Sammamish",
- "time": "8 mins",
+ "time": "7 mins",
  "date": "2027-01-27T15:00:00.000Z",
  "keywords": "change hardwood floor color without sanding, tinted polyurethane over existing finish, stain hardwood floors without sanding, darken hardwood floors without refinishing, sand and stain cost Sammamish",
  "offers": [
-  ["Sand and refinish, natural finish", "3.99", "per square foot"],
-  ["Sand and refinish with stain", "6.50", "per square foot"],
-  ["Screen and recoat", "1.99", "per square foot"]
+  [
+   "Sand and refinish, natural finish",
+   "3.99",
+   "per square foot"
+  ],
+  [
+   "Sand and refinish with stain",
+   "6.50",
+   "per square foot"
+  ],
+  [
+   "Screen and recoat",
+   "1.99",
+   "per square foot"
+  ]
  ],
  "blocks": [
   {
@@ -19,15 +31,31 @@
    "lead": "Not in any meaningful way. Without sanding you can add a slight tint on top of the existing finish, always darker and always subtle; you cannot lighten a floor, remove the old stain, or turn orange oak into white oak.",
    "detail": "A real color change is a sand, stain and finish job at $6.50 per sq ft. A screen and recoat at $1.99 keeps your current color and freshens it. Everything in between is a compromise with real risks.",
    "tiles": [
-    {"icon": "refresh", "label": "Recoat, same color", "value": "$1.99 / sq ft"},
-    {"icon": "palette", "label": "Sand, stain, finish", "value": "$6.50 / sq ft"},
-    {"icon": "brush", "label": "Sand, natural", "value": "$3.99 / sq ft"},
-    {"icon": "alert", "label": "Go lighter without sanding", "value": "Not possible"}
+    {
+     "icon": "refresh",
+     "label": "Recoat, same color",
+     "value": "$1.99 / sq ft"
+    },
+    {
+     "icon": "palette",
+     "label": "Sand, stain, finish",
+     "value": "$6.50 / sq ft"
+    },
+    {
+     "icon": "brush",
+     "label": "Sand, natural",
+     "value": "$3.99 / sq ft"
+    },
+    {
+     "icon": "alert",
+     "label": "Lighter without sanding",
+     "value": "Not possible"
+    }
    ]
   },
   {
    "type": "p",
-   "html": "Almost every Sammamish home built between 1995 and 2012, from Klahanie to Trossachs to the Pine Lake plateau, came with the same floor: 2 1/4 in red oak strip, gloss oil-based finish, now aged to a strong orange. Owners want it lighter and cooler, or deep and modern, and they want to skip the dust and the week of disruption. The question we hear is some version of \"can you just put a different color over what's there?\" Here is the honest answer, what actually happens when people try it, and what a proper change costs."
+   "html": "Almost every Sammamish home built between 1995 and 2012, from Klahanie to Trossachs to the Pine Lake plateau, came with the same floor: 2 1/4 in red oak strip under a gloss oil-based finish, now aged to a strong orange. Owners want it lighter and cooler, or deep and modern, and they want to skip the dust and the week of disruption. The question we hear is some version of \"can you just put a different color over what's there?\" Here is the honest answer, what happens when people try, and what a proper change costs."
   },
   {
    "type": "h2",
@@ -37,11 +65,26 @@
    "type": "cards",
    "cols": 3,
    "items": [
-    {"icon": "layers", "num": "Layer 1", "title": "The wood itself", "text": "Red oak is pink-tan with a strong grain. White oak is grayer and tighter. Maple is pale and blotchy when stained. Whatever you do on top, the species sets the starting point, and the only way to reach it is to remove what is above it."},
-    {"icon": "palette", "num": "Layer 2", "title": "The stain", "text": "Stain is pigment soaked into bare wood. Once sealed, it is locked in. You cannot add stain over finish because there is nothing for it to soak into, and you cannot lift it out without exposing raw wood."},
-    {"icon": "shield", "num": "Layer 3", "title": "The finish", "text": "Polyurethane or a water-based finish is a clear plastic film. It ambers with age, which is where a lot of the orange in a Sammamish floor comes from. A recoat only touches this layer. It can carry a tint, but it is a colored window, not a new floor."}
+    {
+     "icon": "layers",
+     "num": "Layer 1",
+     "title": "The wood itself",
+     "text": "Red oak is pink-tan with a strong grain. White oak is grayer and tighter. Maple is pale and blotchy when stained. Whatever you do on top, the species sets the starting point, and the only way to reach it is to remove what sits above it."
+    },
+    {
+     "icon": "palette",
+     "num": "Layer 2",
+     "title": "The stain",
+     "text": "Stain is pigment soaked into bare wood. Once sealed, it is locked in. You cannot add stain over finish because there is nothing for it to soak into, and you cannot lift it out without exposing raw wood."
+    },
+    {
+     "icon": "shield",
+     "num": "Layer 3",
+     "title": "The finish",
+     "text": "Polyurethane is a clear film that ambers with age, which is where much of the orange in a Sammamish floor comes from. A recoat only touches this layer. It can carry a tint, but it is a colored window, not a new floor."
+    }
    ],
-   "note": "Recoating replaces only Layer 3. Any color change that matters happens in Layers 1 and 2, which sanding is the only way to reach."
+   "note": "Recoating replaces only Layer 3. Any color change that matters happens in Layers 1 and 2, and sanding is the only way to reach them."
   },
   {
    "type": "h2",
@@ -54,11 +97,10 @@
     "tag": "Tinted recoat can",
     "title": "Realistic outcomes",
     "items": [
-     "Take a yellowed floor a shade warmer or a shade browner",
-     "Knock down some of the orange with a slightly cool tint, on a floor that is already medium-toned",
+     "Take a yellowed floor a shade warmer or browner",
+     "Knock down some orange with a slightly cool tint on a medium-toned floor",
      "Even out mild sun fading between a rug area and the open floor",
-     "Freshen a dull finish in one day without dust",
-     "Be reversed later by sanding, because the tint sits in the film"
+     "Freshen a dull finish in one day without dust"
     ]
    },
    "b": {
@@ -69,14 +111,9 @@
      "Make a floor lighter, whiter or grayer than it is now",
      "Remove or cover an existing dark stain",
      "Hide scratches, gray boards or pet stains that are in the wood",
-     "Produce an even color where the old finish is worn through in traffic lanes",
-     "Change species character: red oak will still look like red oak"
+     "Wear evenly: tint rubs off in traffic lanes first, leaving a two-tone floor"
     ]
    }
-  },
-  {
-   "type": "p",
-   "html": "There is another catch. A tinted topcoat wears the way any topcoat does: in the paths from the fridge to the sink and along the hallway. On a clear recoat that wear is invisible. On a tinted one, the color wears off in those lanes first and you end up with a two-tone floor a few years in. We do tinted recoats, but only after the homeowner has seen a sample of the tint over their own floor and understood the wear pattern."
   },
   {
    "type": "h2",
@@ -93,14 +130,37 @@
   },
   {
    "type": "table",
-   "head": ["Method", "What actually happens", "Verdict"],
+   "head": [
+    "Method",
+    "What actually happens",
+    "Verdict"
+   ],
    "rows": [
-    ["Gel stain over the existing finish", "Sits on the surface like paint, streaks with the grain direction, chips at the seams within months. Cannot be recoated cleanly.", "Avoid"],
-    ["Colored polyurethane, several coats", "Each coat darkens and muddies the grain. Three coats of amber tint on red oak reads as brown plastic, and it wears unevenly.", "One coat, subtle only"],
-    ["Chemical stripper, no sanding", "Softens the finish but leaves stain in the wood and raises grain. You still have to sand to get a floor that will take new stain evenly.", "Not a shortcut"],
-    ["Bleach or wood lightener", "Only works on bare wood, so it requires sanding first. Useful in a proper refinish when going very light on red oak.", "Sanding required"],
-    ["Paint the floor", "Requires abrading the finish for adhesion. Paint on a floor scratches and chips, and reversing it later costs a full sanding plus extra passes.", "Rarely worth it"],
-    ["Screen and recoat, clear", "Restores sheen and protection, removes fine scratches. Same color as today, minus a little of the fresh-amber glow.", "Good, if you like your color"]
+    [
+     "Gel stain over the finish",
+     "Sits on top like paint, streaks with the grain, chips at the seams within months.",
+     "Avoid"
+    ],
+    [
+     "Colored polyurethane, several coats",
+     "Each coat darkens and muddies the grain. Three amber coats on red oak read as brown plastic and wear unevenly.",
+     "One subtle coat only"
+    ],
+    [
+     "Chemical stripper, no sanding",
+     "Softens the finish but leaves stain in the wood and raises grain. You still sand before new stain will take evenly.",
+     "Not a shortcut"
+    ],
+    [
+     "Bleach or wood lightener",
+     "Works only on bare wood. Useful inside a proper refinish when going very light on red oak.",
+     "Sanding required"
+    ],
+    [
+     "Paint the floor",
+     "Needs abrading for adhesion, then scratches and chips. Reversing it later costs a full sanding plus extra passes.",
+     "Rarely worth it"
+    ]
    ],
    "note": "We are Bona Certified Craftsmen and have been called to fix every one of these on Sammamish floors. Fixing a failed shortcut always costs more than doing the stain job first."
   },
@@ -112,14 +172,29 @@
    "type": "steps",
    "wide": true,
    "items": [
-    {"icon": "refresh", "d": "Keep the color · 1,200 sq ft Klahanie main floor", "text": "Screen and recoat, one day, no dust, walk on it the next morning.", "note": "1,200 × $1.99 = $2,388"},
-    {"icon": "brush", "d": "Reset to natural · same 1,200 sq ft", "text": "Full sanding to bare wood, three coats of clear Bona water-based finish. Red oak comes out pink-tan and stays far less orange than the old oil finish ever was.", "note": "1,200 × $3.99 = $4,788"},
-    {"icon": "palette", "d": "Change the color · same 1,200 sq ft + 14 stairs", "text": "Sand, water-pop, stain to a light natural or a modern brown, three top coats. Stairs sanded and stained to match.", "note": "1,200 × $6.50 + 14 × $55–$75 = $8,570–$8,850"}
+    {
+     "icon": "refresh",
+     "d": "Keep the color · 1,200 sq ft Klahanie main floor",
+     "text": "Screen and recoat, one day, no dust, walk on it the next morning.",
+     "note": "1,200 × $1.99 = $2,388"
+    },
+    {
+     "icon": "brush",
+     "d": "Reset to natural · same 1,200 sq ft",
+     "text": "Sand to bare wood, three coats of clear Bona water-based finish. Red oak comes out warm tan and stays far less orange than the old oil finish.",
+     "note": "1,200 × $3.99 = $4,788"
+    },
+    {
+     "icon": "palette",
+     "d": "Change the color · 1,200 sq ft + 14 stairs",
+     "text": "Sand, water-pop, stain to a light natural or a modern brown, three top coats. Stairs sanded and stained to match.",
+     "note": "1,200 × $6.50 + 14 × $55–$75 = $8,570–$8,850"
+    }
    ]
   },
   {
    "type": "p",
-   "html": "One thing surprises most Sammamish owners: a natural sand and refinish already changes the color a lot. The orange they hate is mostly aged oil finish, not the wood. Sanding it off and using a clear water-based finish, which does not amber, lands red oak in a warm natural tan for $3.99, not $6.50. For anyone who wants \"less orange\" rather than a specific new color, that is the right job. Read more on <a href=\"/blog-posts/can-red-oak-floors-be-stained-to-look-like-white-oak-edmonds\">what red oak can and cannot become</a>."
+   "html": "One thing surprises most Sammamish owners: a natural sand and refinish already changes the color a lot, because the orange they hate is mostly aged oil finish, not wood. Sanding it off under a clear water-based finish that does not amber lands red oak in a warm natural tan for $3.99, not $6.50. Read more on <a href=\"/blog-posts/can-red-oak-floors-be-stained-to-look-like-white-oak-edmonds\">what red oak can and cannot become</a>."
   },
   {
    "type": "h2",
@@ -129,11 +204,22 @@
    "type": "list",
    "icons": true,
    "items": [
-    {"icon": "ruler", "html": "<strong>The floor is thin.</strong> If a previous owner sanded it two or three times already, another sanding for stain may take it below the safe thickness above the tongue. We measure at a register or a threshold before quoting."},
-    {"icon": "home", "html": "<strong>It is engineered with a thin veneer.</strong> Many 2005 to 2012 Sammamish builds have 2 mm veneer engineered oak. That will take one careful sanding at most, and often none. Color change is off the table; a recoat is the whole menu."},
-    {"icon": "layers", "html": "<strong>You want maple to be dark and even.</strong> Maple takes stain blotchy no matter who does it. If your Sahalee house has maple, a natural finish or a very light tone is the honest recommendation."},
-    {"icon": "calendar", "html": "<strong>You are selling in the next few months.</strong> Buyers in Sammamish expect clean, not custom. A $1.99 recoat on a sound floor returns more per dollar than an $6.50 stain job a buyer might not have chosen."},
-    {"icon": "paw", "html": "<strong>Big dogs, dark stain.</strong> Dark stains show every scratch as a light line. With two labs and a Beaver Lake back yard, a mid-tone or natural finish will look better in year three than espresso will."}
+    {
+     "icon": "ruler",
+     "html": "<strong>The floor is thin.</strong> If it has been sanded two or three times already, another sanding for stain may take it below the safe thickness above the tongue. We measure at a register before quoting."
+    },
+    {
+     "icon": "home",
+     "html": "<strong>It is engineered with a thin veneer.</strong> Many 2005 to 2012 Sammamish builds have 2 mm engineered oak. That takes one careful sanding at most, often none. A recoat is the whole menu."
+    },
+    {
+     "icon": "layers",
+     "html": "<strong>You want maple to be dark and even.</strong> Maple takes stain blotchy no matter who does it. If your Sahalee house has maple, natural or a very light tone is the honest recommendation."
+    },
+    {
+     "icon": "paw",
+     "html": "<strong>Big dogs, dark stain.</strong> Dark stains show every scratch as a light line. With two labs and a Beaver Lake back yard, a mid-tone will look better in year three than espresso will."
+    }
    ]
   },
   {
@@ -144,30 +230,45 @@
    "type": "list",
    "icons": true,
    "items": [
-    {"icon": "search", "html": "<strong>Ask for a sanded sample patch in your own house.</strong> We sand a closet-sized area and put three stain options on it under your light. Photos of other people's floors are not a plan."},
-    {"icon": "sun", "html": "<strong>Look at the sample at 8 am, noon and 9 pm.</strong> Sammamish main floors have big windows and long gray winters. A tone that looks perfect at noon can go muddy under evening lamps."},
-    {"icon": "droplet", "html": "<strong>Insist on water-popping before stain.</strong> It opens the grain so red oak takes stain evenly. Skipping it is how blotchy floors happen, and it is the first thing we check in someone else's failed job."},
-    {"icon": "shield", "html": "<strong>Use a non-ambering finish over light stains.</strong> Bona water-based finish stays clear. An oil-based topcoat over a light gray or white stain turns it yellow-green within two years."},
-    {"icon": "clipboard", "html": "<strong>Get the color name and finish sheen in writing on the quote.</strong> Our written estimate lists the exact stain, the number of coats and the sheen so there are no surprises when the crew opens the cans. Start at our <a href=\"/services/floor-refinish\">refinishing page</a> or <a href=\"/contact\">book the free estimate</a>."}
+    {
+     "icon": "search",
+     "html": "<strong>Ask for a sanded sample patch in your own house.</strong> We sand a closet-sized area and put three stain options on it under your light. Photos of other people's floors are not a plan."
+    },
+    {
+     "icon": "sun",
+     "html": "<strong>Look at the sample at 8 am, noon and 9 pm.</strong> Sammamish main floors have big windows and long gray winters. A tone that is perfect at noon can go muddy under evening lamps."
+    },
+    {
+     "icon": "droplet",
+     "html": "<strong>Insist on water-popping before stain.</strong> It opens the grain so red oak takes stain evenly. Skipping it is how blotchy floors happen."
+    },
+    {
+     "icon": "shield",
+     "html": "<strong>Use a non-ambering finish over light stains.</strong> Bona water-based finish stays clear. An oil-based topcoat over a light gray or white stain turns yellow-green within two years."
+    },
+    {
+     "icon": "clipboard",
+     "html": "<strong>Get the stain name and sheen in writing.</strong> Our written estimate lists the exact stain, coats and sheen. Start at our <a href=\"/services/floor-refinish\">refinishing page</a> or <a href=\"/contact\">book the free estimate</a>."
+    }
    ]
   }
  ],
  "faq": [
   {
    "q": "Can you stain hardwood floors without sanding them first?",
-   "a": "No. Stain works by soaking into bare wood. Over an existing finish it has nothing to absorb into, so it sits on top, streaks and wears off. Products sold as no-sand stains are tinted coatings, and they only nudge the color darker. A real color change needs the finish sanded off first."
+   "a": "No. Stain works by soaking into bare wood. Over an existing finish it has nothing to absorb into, so it sits on top, streaks and wears off. Products sold as no-sand stains are tinted coatings and only nudge the color darker. A real color change needs the finish sanded off first."
   },
   {
    "q": "How much does it cost to sand and stain hardwood floors in Sammamish?",
-   "a": "Wills Flooring charges $6.50 per sq ft for sanding, staining and three coats of finish, with a 500 sq ft minimum. A 1,200 sq ft main floor is $7,800 before stairs, which run $55 to $75 per tread. Dust containment is $250 extra if you want the plastic sealing and air scrubber."
+   "a": "Wills Flooring charges $6.50 per sq ft for sanding, staining and three coats of finish, with a 500 sq ft minimum. A 1,200 sq ft main floor is $7,800 before stairs, which run $55 to $75 per tread. Dust containment is $250 extra."
   },
   {
    "q": "Can I make my orange oak floors lighter without sanding?",
-   "a": "No. Lightening means removing the aged finish and often the old stain, which only sanding does. The good news is that most of the orange is amber from old oil-based finish, so a natural sand and refinish with a clear water-based finish at $3.99 per sq ft usually gets you the lighter look without any stain at all."
+   "a": "No. Lightening means removing the aged finish and often the old stain, which only sanding does. The good news: most of the orange is amber from old oil-based finish, so a natural sand and refinish with clear water-based finish at $3.99 per sq ft usually gets the lighter look without any stain."
   },
   {
    "q": "What is a tinted recoat and does Wills Flooring do them?",
-   "a": "It is a screen and recoat with a small amount of tint added to the finish. It can shift a floor slightly warmer or browner in one day with no dust. We do them when the goal is subtle, after showing you a sample on your floor, and we price the tint at the estimate on top of the $1.99 recoat rate."
+   "a": "It is a screen and recoat with a small amount of tint in the finish. It can shift a floor slightly warmer or browner in one day with no dust. We do them when the goal is subtle, after showing you a sample on your floor, and price the tint at the estimate on top of the $1.99 recoat rate."
   },
   {
    "q": "Can engineered hardwood be stained a different color?",
@@ -175,15 +276,24 @@
   },
   {
    "q": "How long does a color change take compared with a recoat?",
-   "a": "A recoat is one day and you walk on it the next morning. A sand and stain on a typical main floor is four to five days: sanding and water-popping, a stain day with overnight dry, then three top coats with dry time between. Furniture goes back after 72 hours and rugs after two weeks."
+   "a": "A recoat is one day and you walk on it the next morning. A sand and stain on a typical main floor is four to five days: sanding and water-popping, a stain day with overnight dry, then three top coats. Furniture goes back after 72 hours and rugs after two weeks."
   }
  ],
  "faq_title": "Color-change questions from Sammamish homeowners",
  "faq_sub": "What we get asked when someone wants the orange gone without the dust.",
  "related": [
-  ["can-red-oak-floors-be-stained-to-look-like-white-oak-edmonds", "can red oak look like white oak?"],
-  ["refinish-or-recoat-kirkland", "refinish or recoat: which one you need"],
-  ["hardwood-floor-stain-colors-trending-in-kirkland-for-2026", "stain colors trending for 2026"]
+  [
+   "can-red-oak-floors-be-stained-to-look-like-white-oak-edmonds",
+   "can red oak look like white oak?"
+  ],
+  [
+   "refinish-or-recoat-kirkland",
+   "refinish or recoat: which one you need"
+  ],
+  [
+   "hardwood-floor-stain-colors-trending-in-kirkland-for-2026",
+   "stain colors trending for 2026"
+  ]
  ],
  "cta_title": "See three stain colors on your own floor",
  "cta_sub": "We come to your Sammamish home, measure, check the wood thickness, sand a sample patch and hand you a firm written quote for the exact color you choose. Free, no obligation."

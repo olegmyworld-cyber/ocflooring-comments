@@ -1,0 +1,150 @@
+{
+ "slug": "can-gaps-in-hardwood-floors-be-fixed-during-refinishing-everett",
+ "title": "Can Gaps in Hardwood Floors Be Fixed During Refinishing?",
+ "meta": "Yes, most permanent gaps in hardwood floors are filled during refinishing, but seasonal gaps should be left alone. Everett refinishing from $3.99 per sq ft. Wills Flooring.",
+ "category": "refinish",
+ "city": "Everett",
+ "time": "8 mins",
+ "date": "2027-01-11T15:00:00.000Z",
+ "keywords": "gaps in hardwood floors fix, fill gaps hardwood floor refinishing, hardwood floor gaps filler, seasonal gaps hardwood floors, wood floor gaps between boards Everett",
+ "offers": [
+  ["Sand and refinish, natural finish", "3.99", "per square foot"],
+  ["Sand and refinish with stain", "6.50", "per square foot"],
+  ["Screen and recoat", "1.99", "per square foot"]
+ ],
+ "blocks": [
+  {
+   "type": "quick",
+   "eyebrow": "Short answer",
+   "lead": "Yes, if the gaps are permanent. Hairline to 1/16 in gaps are trowel-filled with a wood-flour slurry as part of every full sand, and wider gaps get wood slivers or board replacement. Gaps that open every winter and close every summer should not be filled at all.",
+   "detail": "Filling is included in a sand and refinish at $3.99 per sq ft natural or $6.50 with stain. Slivers and board replacement are quoted on site. The skill is knowing which gaps to fill and which to leave, and in Everett that depends a lot on the age of the house.",
+   "tiles": [
+    {"icon": "dollar", "label": "Sand and refinish", "value": "$3.99 / sq ft"},
+    {"icon": "ruler", "label": "Trowel fill works to", "value": "About 1/16 in"},
+    {"icon": "layers", "label": "Wider gaps", "value": "Slivers or new boards"},
+    {"icon": "snow", "label": "Seasonal gaps", "value": "Leave them"}
+   ],
+   "cta": "Try the calculator"
+  },
+  {
+   "type": "p",
+   "html": "Everett has two very different gap problems. In Riverside and Bayside, 1910s fir floors have gaps you can lose a nickel in, and they have been that size for eighty years. In Silver Lake and Eastmont, 1990s builder oak has thin gaps that show up in January when the furnace runs and vanish by July. Both homeowners ask the same question when they call about <a href=\"/services/floor-refinish\">refinishing</a>: can you fill those? One answer is yes. The other is please don't. Here is how we tell them apart."
+  },
+  {"type": "h2", "text": "Seasonal gaps vs permanent gaps"},
+  {
+   "type": "compare",
+   "a": {
+    "icon": "snow",
+    "tag": "Seasonal",
+    "title": "Do not fill",
+    "items": [
+     "Open in winter when indoor humidity drops, close or nearly close by late summer",
+     "Even width across the whole floor rather than a few wide ones",
+     "Common in 1990s to 2000s oak in Silver Lake, Eastmont and Port Gardner condos",
+     "Filler put in during winter gets crushed and squeezed out in summer, then falls out the next winter"
+    ]
+   },
+   "b": {
+    "icon": "done",
+    "tag": "Permanent",
+    "title": "Fill during the refinish",
+    "items": [
+     "Same width in February and August",
+     "Old fir or oak that shrank decades ago and is done moving",
+     "Gaps around patched areas, at old wall removals, or where boards were installed wet",
+     "Wide random gaps in 1900s to 1930s Riverside and Bayside homes"
+    ]
+   }
+  },
+  {"type": "h2", "text": "The right fix for each gap width"},
+  {
+   "type": "table",
+   "head": ["Gap width", "Fix", "Included in the refinish?"],
+   "rows": [
+    ["Hairline to about 1/16 in", "Trowel-filled with a slurry of the floor's own sanding dust and filler resin, sanded flush before finish", "Yes, standard on every full sand"],
+    ["1/16 to 1/8 in", "Trowel fill on solid floors that are done moving; slivers if there is any seasonal movement", "Trowel fill yes; slivers quoted on site"],
+    ["1/8 to 1/4 in", "Glued wood slivers ripped from matching stock, planed flush, then sanded with the floor", "Quoted per linear foot at the estimate"],
+    ["Over 1/4 in or many wide gaps", "Board replacement, or in old fir, a full re-lay of the worst area", "Quoted on site after we lift a board to check the subfloor"],
+    ["Gaps plus cupping or crowning", "Fix the moisture source first; refinish later", "Not a filling problem"]
+   ],
+   "note": "Trowel filler is tinted with the floor's own dust, so on a natural finish it nearly disappears. Under a dark stain, filler lines show more; we talk about that before choosing color."
+  },
+  {"type": "h2", "text": "Price your Everett refinish right now"},
+  {
+   "type": "p",
+   "html": "A 780 sq ft Bayside main floor with old fir and permanent gaps is 780 × $3.99 = $3,112 for the sand, trowel fill and three coats of natural finish. Slivers for the dozen widest gaps would be a separate line. If the finish is intact and the gaps are all seasonal, a screen and recoat at $1.99 per sq ft leaves the gaps alone and freshens the floor for 780 × $1.99 = $1,552."
+  },
+  {"type": "calc", "kind": "refinish", "note": "Wood slivers and board replacement are quoted on site after we measure the gaps in a few rooms. Everett is about 15 minutes from our Lynnwood showroom, so we can usually look within a few days."},
+  {"type": "h2", "text": "How gap filling fits into the refinish"},
+  {
+   "type": "steps",
+   "wide": true,
+   "items": [
+    {"icon": "search", "d": "Estimate", "text": "We measure gap widths in each room and ask when you noticed them. If the answer is \"every winter,\" we check with a moisture meter and usually recommend leaving them."},
+    {"icon": "hammer", "d": "Day 1 · Rough sand", "text": "The floor is sanded to bare wood. Wide permanent gaps get slivers glued in now so they can be planed and sanded flush with everything else."},
+    {"icon": "layers", "d": "Day 1 · Trowel fill", "text": "Fine sanding dust from your own floor is mixed with filler and troweled across the whole surface, pushing into every small gap and nail hole. It dries in about an hour.", "note": "Whole-floor trowel filling is included in the $3.99 and $6.50 rates."},
+    {"icon": "refresh", "d": "Day 2 · Fine sand", "text": "The filled floor is sanded again with fine grits and screened. Filler that sits proud is taken flush; filler that sank is touched up."},
+    {"icon": "brush", "d": "Days 2–3 · Finish", "text": "Three coats of Bona water-based finish. On a natural floor the filled gaps read as slightly darker lines that match the grain."}
+   ]
+  },
+  {"type": "h2", "text": "When gaps should be left alone or fixed another way"},
+  {
+   "type": "cards",
+   "cols": 2,
+   "items": [
+    {"icon": "snow", "title": "The gaps are seasonal", "text": "Filling a moving gap fails. The fix is humidity: keep the house between about 35 and 55 percent RH year-round. A whole-house humidifier on the furnace closes most winter gaps in Everett homes."},
+    {"icon": "moisture", "title": "The floor is cupped", "text": "Gaps next to raised board edges mean moisture from below, usually a damp crawlspace. Filling does nothing. Find the water, let the floor dry for weeks, then refinish."},
+    {"icon": "home", "title": "Old fir with character", "text": "Riverside and Bayside owners often want the 1910s fir to look like 1910s fir. We fill the gaps that catch a broom and leave the rest. It is a taste decision and we will follow yours."},
+    {"icon": "layers", "title": "Gaps are really a loose subfloor", "text": "If boards move up and down as well as sideways, the nails have let go or the subfloor is spongy. That gets screwed down or repaired before a sander ever touches it."}
+   ]
+  },
+  {
+   "type": "callout",
+   "icon": "alert",
+   "title": "About the rope trick: ",
+   "text": "Stained rope or oakum pressed into gaps is a real technique for wide-plank farmhouse floors and it looks fine in the right house. It is not for 2 1/4 in strip oak, and it is not something we do under a finish coat; it stays flexible and cleanable on top."
+  },
+  {"type": "h2", "text": "Gap-filling mistakes we see on other people's floors"},
+  {
+   "type": "list",
+   "icons": true,
+   "items": [
+    {"icon": "x", "html": "<strong>Latex filler from a tube.</strong> It shrinks, cracks and pops out within a year, and it takes finish differently from the wood. It is for nail holes, not gaps."},
+    {"icon": "droplet", "html": "<strong>Filling in January.</strong> Even permanent-looking gaps are at their widest in winter. Filler that fits in January is squeezed and cracked by August. We prefer spring and fall for gap-heavy floors."},
+    {"icon": "hammer", "html": "<strong>Slivers with no glue.</strong> A dry sliver works loose in months. Every sliver is glued on both faces, tapped in and planed after the glue cures."},
+    {"icon": "palette", "html": "<strong>Dark stain over heavy fill.</strong> Filler and end grain take stain darker than face grain, so every filled gap becomes a black line. On a heavily filled floor we push toward natural or a light stain."},
+    {"icon": "search", "html": "<strong>Not asking why.</strong> A gap is a symptom. A crew that fills without checking moisture and the subfloor is refinishing a problem, not fixing one."}
+   ]
+  },
+  {"type": "h2", "text": "Checklist before you book a refinish for a gappy floor"},
+  {
+   "type": "ul",
+   "items": [
+    "Photograph the widest gaps in winter and again in summer if you can; the comparison answers the seasonal question",
+    "Note whether any boards move up and down, which points to fastening or subfloor problems",
+    "Look for cupped edges, black staining or a musty smell, all signs of moisture rather than shrinkage",
+    "Check the crawlspace vapor barrier and any plumbing under kitchens and baths",
+    "Decide how much character you want left in an old fir floor and say so at the estimate",
+    "Ask what filler will be used and whether it is mixed with your floor's own dust",
+    "If the finish is intact and the gaps are seasonal, ask about a <a href=\"/blog-posts/refinish-or-recoat-kirkland\">screen and recoat</a> instead of a full sand"
+   ]
+  }
+ ],
+ "faq": [
+  {"q": "Does refinishing hardwood floors fill in the gaps?", "a": "A full sand and refinish includes trowel-filling the whole floor with a slurry made from its own sanding dust, which fills hairline gaps up to about 1/16 in. Wider gaps need glued wood slivers or board replacement, quoted separately. A screen and recoat does not fill anything."},
+  {"q": "Why do my hardwood floors have gaps in winter but not summer?", "a": "Wood loses moisture when the furnace runs and indoor humidity drops, so each board shrinks slightly across its width. In summer it takes moisture back and swells. This is normal, especially in Everett's damp climate, and the fix is a humidifier, not filler."},
+  {"q": "What is the best filler for gaps in hardwood floors?", "a": "For small permanent gaps, a trowelable wood filler mixed with fine sanding dust from the same floor, applied to bare wood before finishing. For gaps over 1/8 in, real wood slivers glued in place. Tube latex fillers and caulk fail quickly and should not be used on floors."},
+  {"q": "How much does it cost to fix gaps in a hardwood floor in Everett?", "a": "Trowel filling is included in Wills Flooring's sand and refinish at $3.99 per sq ft natural or $6.50 with stain, 500 sq ft minimum. Slivers for wider gaps and any board replacement are quoted at the free estimate once we have measured the gaps in a few rooms."},
+  {"q": "Can gaps in old fir floors be fixed?", "a": "Yes. The 1900s to 1930s fir in Riverside and Bayside stopped moving decades ago, so its gaps are permanent and fill well. Very wide gaps get slivers of matching fir. Many owners choose to fill only the gaps that catch dirt and keep the rest as character."},
+  {"q": "Will the filled gaps be visible after refinishing?", "a": "Slightly. Filler tinted with the floor's own dust reads as a thin line a shade darker than the wood, which blends on a natural finish. Under dark stain the lines are more obvious. We show you a filled sample area before the finish goes on so there are no surprises."}
+ ],
+ "faq_title": "Gap questions from Everett homeowners",
+ "faq_sub": "From 1910s Bayside fir to 1990s Silver Lake oak.",
+ "related": [
+  ["refinish-or-recoat-kirkland", "refinish or recoat: which one you need"],
+  ["cupped-or-crowned-hardwood-floors-snohomish", "cupped or crowned hardwood floors"],
+  ["hardwood-floor-refinishing-everett-wa", "refinishing prices in Everett"]
+ ],
+ "cta_title": "Find out which gaps to fill",
+ "cta_sub": "We measure the gaps, meter the moisture and tell you which ones fill and which ones should stay. Firm written quote on the spot, free, anywhere in Everett."
+}

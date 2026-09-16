@@ -51,7 +51,7 @@
   },
   {
    "type": "p",
-   "html": "Walk into a 2005 Klahanie or Trossachs house and the main floor is one room: entry, great room, dining and kitchen all under the same ceiling with the same floor. That is exactly the layout where expansion gaps matter most and get skipped most. A common Reddit question goes something like: my installer left a gap around the edge of my new floor, is that sloppy? No. That gap is the reason the floor will still be flat in ten years. This post explains how much wood moves, where the gaps go, and what happens on the plateau when they are left out."
+   "html": "Walk into a 2005 Klahanie or Trossachs house and the main floor is one room: entry, great room, dining and kitchen under the same ceiling with the same floor. That is exactly the layout where expansion gaps matter most and get skipped most. A common Reddit question asks whether the gap an installer left around the edge of a new floor is sloppy work. No. That gap is the reason the floor will still be flat in ten years. Here is how much wood moves, where the gaps go, and what happens on the plateau when they are left out."
   },
   {
    "type": "h2",
@@ -91,7 +91,7 @@
      "Manufacturers cap run length, often around 30 to 40 ft, then require a transition"
     ]
    ],
-   "note": "Figures are typical for Puget Sound humidity swings, roughly 30 percent indoor RH with the furnace running to 60 percent or more in a damp shoulder season. Your species and width are checked at the free estimate."
+   "note": "Typical for Puget Sound swings between a furnace-dried winter and a damp shoulder season. Your species and width are checked at the free estimate."
   },
   {
    "type": "h2",
@@ -137,8 +137,7 @@
      "Each board is fastened, so movement shows as small seasonal gaps between boards",
      "Perimeter gap of 3/4 in is standard, less where trim is thin",
      "Long open runs are fine without a T-molding",
-     "Wide plank and open plan should be acclimated and often glue-assisted",
-     "Best for Sammamish two-story homes with plywood subfloors"
+     "Wide plank and open plan should be acclimated and often glue-assisted"
     ]
    },
    "b": {
@@ -149,8 +148,7 @@
      "Boards lock together and the whole floor slides as a unit",
      "Needs the perimeter gap at every fixed object, including islands",
      "Manufacturer sets a maximum run before a transition strip is required",
-     "Heavy islands or built-ins on top of it will pin it and cause peaking",
-     "Good over concrete slabs and daylight basements on the plateau"
+     "Heavy islands or built-ins on top of it will pin it and cause peaking"
     ]
    }
   },
@@ -184,12 +182,12 @@
     {
      "icon": "sun",
      "d": "Summer",
-     "text": "The furnace has dried the house out, boards shrink, and the ridge partly flattens. Now there are wide gaps between boards where they were forced apart, and a few edges are crushed or split. The damage does not undo itself."
+     "text": "The furnace has dried the house out, boards shrink, and the ridge partly flattens. Now there are wide gaps where boards were forced apart, and a few edges are crushed or split. The damage does not undo itself."
     },
     {
      "icon": "hammer",
      "d": "The fix",
-     "text": "Pull baseboards, cut the floor back to create the gap that should have been there, and replace crushed boards. On a floating floor sometimes just relieving the edge saves it. Cheaper than replacement, but far more than doing it right the first time."
+     "text": "Pull baseboards, cut the floor back to create the gap that should have been there, and replace crushed boards. Cheaper than replacement, but far more than doing it right the first time."
     }
    ]
   },
@@ -246,7 +244,7 @@
  "faq": [
   {
    "q": "How big should the expansion gap be for hardwood floors?",
-   "a": "Half an inch to three quarters of an inch at every wall and fixed object is the standard for solid and engineered hardwood. Many manufacturers specify the exact figure for their product. Wider planks and very long runs sit at the top of the range. The gap disappears under the baseboard and shoe molding."
+   "a": "Half an inch to three quarters of an inch at every wall and fixed object is the standard for solid and engineered hardwood. Wider planks and very long runs sit at the top of the range, and many manufacturers specify an exact figure. The gap disappears under the baseboard and shoe molding."
   },
   {
    "q": "Do engineered hardwood floors need an expansion gap?",

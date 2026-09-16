@@ -1,0 +1,182 @@
+{
+ "slug": "how-to-clean-vinyl-plank-floors-lynnwood",
+ "title": "How to Clean Vinyl Plank Floors (And What Will Ruin Them)",
+ "meta": "How to clean vinyl plank floors: vacuum without a beater bar, damp-mop with a pH-neutral cleaner, and never use steam, wax or polish. Wills Flooring's Lynnwood guide.",
+ "category": "lvp",
+ "city": "Lynnwood",
+ "time": "7 mins",
+ "date": "2027-01-29T15:00:00.000Z",
+ "keywords": "how to clean vinyl plank floors, best cleaner for luxury vinyl plank, can you use a steam mop on vinyl plank, remove scuffs from vinyl plank, vinyl plank floor care, vinyl plank flooring Lynnwood",
+ "offers": [
+  ["Vinyl plank flooring installation", "2.50", "per square foot"]
+ ],
+ "blocks": [
+  {
+   "type": "quick",
+   "eyebrow": "Short answer",
+   "lead": "Vacuum or dry-mop grit off weekly, damp-mop with a pH-neutral vinyl floor cleaner as needed, and never use a steam mop, wax, floor polish, oil soap or abrasive pads.",
+   "detail": "Vinyl plank has a clear wear layer on top. Cleaning is about keeping grit from scratching it and keeping residue from dulling it. Almost every ruined vinyl floor we see in Lynnwood was cleaned wrong, not worn out.",
+   "tiles": [
+    {"icon": "wind", "label": "Weekly", "value": "Vacuum, no beater bar"},
+    {"icon": "droplet", "label": "As needed", "value": "Damp mop, pH-neutral"},
+    {"icon": "x", "label": "Never", "value": "Steam, wax, polish"},
+    {"icon": "shield", "label": "Wear layer", "value": "12 to 20 mil typical"}
+   ]
+  },
+  {
+   "type": "p",
+   "html": "Vinyl plank went into thousands of Lynnwood homes in the last ten years, from Alderwood split-levels getting the carpet out to new townhomes near the light rail station. It sells as low-maintenance, and it is, but low maintenance is not no maintenance. The wear layer is tough against everyday traffic and helpless against a steam mop. Here is the routine we give every customer at the end of an installation, the products and habits that ruin these floors, and how to tell a cleaning problem from a floor that needs replacing."
+  },
+  {
+   "type": "h2",
+   "text": "The routine that keeps vinyl plank looking new"
+  },
+  {
+   "type": "steps",
+   "wide": true,
+   "items": [
+    {"icon": "wind", "d": "Every few days", "text": "Sweep or vacuum entries, kitchen and hallways. Use a hard-floor vacuum or turn the beater bar off; a spinning brush roll grinds grit into the wear layer.", "note": "Grit is the number one cause of dull traffic lanes."},
+    {"icon": "droplet", "d": "Weekly or as needed", "text": "Damp-mop with a microfiber flat mop and a pH-neutral cleaner made for vinyl or luxury vinyl. Wring the mop until it is barely wet. Rinse the pad, not the floor.", "note": "Standing water finds click-lock seams."},
+    {"icon": "mop", "d": "Spills, right away", "text": "Wipe liquid spills immediately, especially at seams and near walls. Vinyl plank is waterproof; the subfloor under it is not."},
+    {"icon": "calendar", "d": "Twice a year", "text": "Check felt pads under chairs and tables, replace door mats, and clean the mat area where grit collects. Look for scuffs and treat them before they build up."}
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "What will ruin a vinyl plank floor"
+  },
+  {
+   "type": "table",
+   "head": ["Product or habit", "What it does", "Instead"],
+   "rows": [
+    ["Steam mop", "Heat and forced moisture soften the wear layer, cloud the finish and drive water into seams. Most manufacturers void the warranty.", "Damp microfiber mop."],
+    ["Wax, acrylic polish, \"shine\" products", "Build a soft film that yellows, shows every footprint and has to be chemically stripped.", "Nothing. The finish is the shine."],
+    ["Oil soap, vinegar, ammonia, bleach", "Oil leaves a dulling residue; acids and bleach etch the wear layer over time.", "pH-neutral vinyl cleaner."],
+    ["Abrasive pads, powders, magic erasers", "Micro-scratch the surface. Fine at first, then a hazy patch that never goes away.", "Soft cloth and a vinyl-safe cleaner."],
+    ["Rubber-backed mats", "Chemical staining: a permanent yellow rectangle where the mat sat.", "Mats labeled safe for vinyl, with a non-rubber backing."],
+    ["Dragging appliances or furniture", "Gouges through the wear layer that no cleaner fixes.", "Lift, or slide on hardboard."]
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "Replacing a floor that is past cleaning? Price your Lynnwood vinyl plank"
+  },
+  {
+   "type": "calc",
+   "kind": "lvp",
+   "note": "Installation labor only. Material, underlayment and removal of the old floor are quoted at the free estimate."
+  },
+  {
+   "type": "h2",
+   "text": "Stains and marks, one by one"
+  },
+  {
+   "type": "cards",
+   "cols": 3,
+   "items": [
+    {"icon": "search", "title": "Black scuffs from shoes", "text": "Rub with a clean tennis ball or a soft cloth dampened with vinyl cleaner. If it does not move, a drop of isopropyl alcohol on a cloth usually does. Never scrub with a rough pad."},
+    {"icon": "droplet", "title": "Grease and food", "text": "Warm water with a small amount of dish soap on a cloth, then rinse with clean water and dry. Grease left to sit collects grit and turns into a dull patch in front of the stove."},
+    {"icon": "paw", "title": "Pet accidents", "text": "Blot, clean with vinyl cleaner, then check the seams. Urine that reaches the subfloor through a click-lock seam is the one pet problem cleaning cannot fix, and it is the reason we seal the perimeter in laundry and pet areas."},
+    {"icon": "brush", "title": "Ink, marker, hair dye", "text": "Isopropyl alcohol on a white cloth, dabbed not rubbed, then rinsed. Hair dye left overnight can stain a lighter vinyl permanently; the fix is a plank swap, not a cleaner."},
+    {"icon": "tag", "title": "Sticky residue", "text": "Tape, stickers and spilled juice leave a film that attracts dirt. Warm water and mild soap first; a citrus adhesive remover safe for vinyl second. Test in a closet first."},
+    {"icon": "sun", "title": "Yellowing", "text": "Usually a rubber mat, a polish build-up or years of oil soap. Strip polish with the manufacturer's recommended stripper. Mat staining is permanent; the only fix is replacing the affected planks."}
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "Lynnwood specifics: rain, mud and wet shoes"
+  },
+  {
+   "type": "list",
+   "icons": true,
+   "items": [
+    {"icon": "home", "html": "<strong>Two mats at every door, one outside and one inside.</strong> Between October and April a Lynnwood entry sees wet grit every day. Mats stop most of it before it reaches the floor."},
+    {"icon": "wind", "html": "<strong>Vacuum the entry more than the bedrooms.</strong> Traffic lanes from the door to the kitchen wear first in Martha Lake and Meadowdale split-levels because that is where the grit lands."},
+    {"icon": "dog", "html": "<strong>Dry the dog at the door.</strong> Wet paws track grit into the wear layer and water into the seams. A towel by the slider saves the floor by the slider."},
+    {"icon": "thermo", "html": "<strong>Keep the house between roughly 60 and 85 F.</strong> Vinyl plank expands and contracts with temperature. A sunroom left to bake or a vacant rental left cold can gap or peak, and no cleaner fixes that."}
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "When cleaning will not fix it"
+  },
+  {
+   "type": "compare",
+   "a": {
+    "icon": "done",
+    "tag": "Cleaning problem",
+    "title": "Fixable at home",
+    "items": [
+     "Dull haze in traffic lanes that improves after a proper pH-neutral mop",
+     "Sticky or streaky surface after switching cleaners",
+     "Scuffs, food, pet marks on the surface",
+     "Polish build-up that a stripper removes"
+    ]
+   },
+   "b": {
+    "icon": "x",
+    "tag": "Floor problem",
+    "title": "Needs plank replacement or more",
+    "items": [
+     "Gouges or scratches you can feel with a fingernail",
+     "Yellow rectangles from rubber mats",
+     "Peaking, gapping or lifting planks",
+     "Soft or discolored planks near a leak, which means water under the floor"
+    ]
+   }
+  },
+  {
+   "type": "p",
+   "html": "Individual planks can often be swapped rather than replacing a room; see <a href=\"/blog-posts/can-vinyl-plank-flooring-be-repaired-kirkland\">can vinyl plank be repaired</a>. If the whole floor is a thin builder-grade product with a 6 mil wear layer that has gone hazy everywhere, replacement with a 12 to 20 mil plank is the better use of money, and our <a href=\"/services/lvp-vinyl-flooring\">installation labor is $2.50 per sq ft</a>."
+  },
+  {
+   "type": "h2",
+   "text": "Ask your installer before the crew leaves"
+  },
+  {
+   "type": "list",
+   "icons": true,
+   "items": [
+    {"icon": "clipboard", "html": "<strong>Which cleaner does the manufacturer specify?</strong> Using something else can void the wear-layer warranty. We leave the care sheet with you."},
+    {"icon": "box", "html": "<strong>Are there spare planks?</strong> Keep a box from the same lot for future swaps. Colors change between production runs."},
+    {"icon": "shield", "html": "<strong>What is the wear layer thickness?</strong> 12 mil is fine for bedrooms, 20 mil for kitchens, entries and dogs. It determines how forgiving the floor is of the grit you miss."},
+    {"icon": "droplet", "html": "<strong>Are the wet areas sealed at the perimeter?</strong> A bead of sealant under the baseboard in bathrooms and laundry keeps mop water and pet accidents out of the subfloor."}
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Can you use a steam mop on vinyl plank floors?",
+   "a": "No. Heat and pressurized moisture soften the wear layer, cloud the finish and push water into click-lock seams and under the planks. Nearly every manufacturer excludes steam-mop damage from the warranty. A barely damp microfiber mop with a pH-neutral cleaner does the same job safely."
+  },
+  {
+   "q": "What is the best cleaner for luxury vinyl plank?",
+   "a": "A pH-neutral cleaner labeled for vinyl or luxury vinyl, diluted as directed, or the one your plank manufacturer names in its care guide. Avoid oil soaps, vinegar, ammonia, bleach and anything that promises shine. The finish already has the shine it is supposed to have."
+  },
+  {
+   "q": "How do I get vinyl plank floors to shine again?",
+   "a": "Usually by removing what is dulling them. Residue from the wrong cleaner or a polish build-up is the common cause; a proper pH-neutral mop or the manufacturer's stripper restores the original sheen. Do not add wax or polish. If the wear layer itself is scratched, no product brings it back."
+  },
+  {
+   "q": "Can I use a robot vacuum or a regular upright on vinyl plank?",
+   "a": "Yes, as long as the spinning brush roll is off or the vacuum is designed for hard floors. Robot vacuums are fine and help a lot with daily grit. Check the wheels for embedded debris now and then, since a stone in a wheel can scratch a lane across the room."
+  },
+  {
+   "q": "Why are there yellow marks under my door mats?",
+   "a": "Rubber and some latex mat backings react with vinyl and stain it permanently. Cleaning will not remove it; the affected planks have to be replaced. Use mats labeled safe for vinyl floors, with a felt, woven or colorfast backing, at every entry."
+  },
+  {
+   "q": "How long should a vinyl plank floor last in a Lynnwood home?",
+   "a": "A quality 12 to 20 mil plank installed over a flat subfloor and cleaned properly lasts 15 to 25 years in a normal household. Thin 6 mil builder-grade product in a busy entry may look tired in five. Grit control and the right cleaner make more difference than any other factor."
+  }
+ ],
+ "faq_title": "Vinyl plank cleaning questions from Lynnwood",
+ "faq_sub": "The questions we answer on the last day of every installation.",
+ "related": [
+  ["can-vinyl-plank-flooring-be-repaired-kirkland", "can vinyl plank be repaired?"],
+  ["does-vinyl-plank-flooring-scratch-sammamish", "does vinyl plank scratch?"],
+  ["is-vinyl-plank-flooring-really-waterproof-seattle", "is vinyl plank really waterproof?"]
+ ],
+ "cta_title": "Floor past saving? Get a firm price to replace it",
+ "cta_sub": "We bring vinyl plank samples to your Lynnwood home, measure, check the subfloor and hand you a written quote on the spot. Free, no obligation, five minutes from the showroom."
+}

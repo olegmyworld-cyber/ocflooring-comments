@@ -1,0 +1,325 @@
+{
+ "slug": "how-thick-does-hardwood-need-to-be-to-refinish-snohomish",
+ "title": "How Thick Does Hardwood Need to Be to Refinish? Measuring Your Wear Layer",
+ "meta": "Solid hardwood needs 3/32 in of wood above the tongue to sand; engineered needs a 2 mm wear layer. Wills Flooring shows Snohomish owners how to measure it.",
+ "category": "refinish",
+ "city": "Snohomish",
+ "time": "8 mins",
+ "date": "2027-03-28T15:00:00.000Z",
+ "keywords": "how thick does hardwood need to be to refinish, hardwood wear layer thickness, can thin hardwood be sanded, how to measure hardwood floor thickness, engineered hardwood wear layer refinish, hardwood floor refinishing Snohomish",
+ "offers": [
+  [
+   "Sand and refinish, natural finish",
+   "3.99",
+   "per square foot"
+  ],
+  [
+   "Sand and refinish with stain",
+   "6.50",
+   "per square foot"
+  ],
+  [
+   "Screen and recoat",
+   "1.99",
+   "per square foot"
+  ]
+ ],
+ "blocks": [
+  {
+   "type": "quick",
+   "eyebrow": "Short answer",
+   "lead": "Solid hardwood needs at least 3/32 in of wood above the tongue to be sanded safely, and engineered hardwood needs a wear layer of at least 2 mm. Anything thinner should be screened and recoated, not sanded.",
+   "detail": "A full sanding removes roughly 1/32 to 1/16 in of wood. A new 3/4 in solid floor has about 1/4 in above the tongue, so it can take four to six sandings in its life. Most Snohomish floors we look at still have plenty left.",
+   "tiles": [
+    {
+     "icon": "ruler",
+     "label": "Solid minimum",
+     "value": "3/32 in above tongue"
+    },
+    {
+     "icon": "layers",
+     "label": "Engineered minimum",
+     "value": "2 mm wear layer"
+    },
+    {
+     "icon": "brush",
+     "label": "Full sand, natural",
+     "value": "$3.99 / sq ft"
+    },
+    {
+     "icon": "refresh",
+     "label": "Too thin? Recoat",
+     "value": "$1.99 / sq ft"
+    }
+   ],
+   "cta": "Try the calculator"
+  },
+  {
+   "type": "p",
+   "html": "This is the question behind a lot of nervous emails from Snohomish. Someone in a 1910 farmhouse near downtown has fir floors that have clearly been sanded before and wants to know if there is one more refinish in them. Someone in a 2004 Clearview house with 3/4 in builder oak wonders whether the previous owner's sanding used up their chances. The honest answer depends on a measurement you can take yourself in ten minutes with a ruler and a floor register."
+  },
+  {
+   "type": "h2",
+   "text": "How much wood each sanding removes"
+  },
+  {
+   "type": "table",
+   "head": [
+    "Floor type",
+    "Wood above the tongue when new",
+    "Realistic full sandings",
+    "Common in Snohomish"
+   ],
+   "rows": [
+    [
+     "3/4 in solid oak or maple strip",
+     "About 1/4 in (8/32)",
+     "4 to 6 over its life",
+     "1990s to 2010s homes in Clearview and Fobes Hill, most remodels"
+    ],
+    [
+     "3/4 in solid fir, edge grain",
+     "About 1/4 in, but softer",
+     "3 to 4; fir loses more per pass",
+     "Downtown Victorians, farmhouses, Blackmans Lake cabins"
+    ],
+    [
+     "5/16 in solid strip or parquet",
+     "Roughly 3/16 in total, no real tongue",
+     "1 to 2, done carefully",
+     "1950s to 1960s ranches, some glued-down parquet"
+    ],
+    [
+     "Engineered, 4 to 6 mm wear layer",
+     "4 to 6 mm of real wood",
+     "2 to 3",
+     "Higher-end remodels, wide plank"
+    ],
+    [
+     "Engineered, 2 to 3 mm wear layer",
+     "2 to 3 mm",
+     "1 light sanding",
+     "Mid-range prefinished plank"
+    ],
+    [
+     "Engineered under 2 mm",
+     "Veneer only",
+     "0; recoat only",
+     "Budget plank, some big-box products"
+    ]
+   ],
+   "note": "A full sand to bare wood typically removes 1/32 to 1/16 in. Deep gouges, cupping and old pet stains push toward the higher number because the floor has to be sanded flat before it can be sanded clean."
+  },
+  {
+   "type": "h2",
+   "text": "How to measure your wear layer at home"
+  },
+  {
+   "type": "steps",
+   "wide": true,
+   "items": [
+    {
+     "icon": "vent",
+     "d": "Step 1: pull a floor register",
+     "text": "Lift the grille out of a heat register in the room. Snohomish ramblers and farmhouses almost always have one in a hardwood room. You are now looking at the cut edge of the boards.",
+     "note": "No register? A closet threshold or the gap under a removed shoe molding also works."
+    },
+    {
+     "icon": "search",
+     "d": "Step 2: find the tongue",
+     "text": "On solid strip you will see a tongue or groove on the side of the exposed board. The wood above it is your wear layer. On engineered flooring you will see a thin layer of real wood glued over plywood-like plies."
+    },
+    {
+     "icon": "ruler",
+     "d": "Step 3: measure",
+     "text": "Hold a steel ruler or calipers against the edge. Solid: measure from the top of the tongue to the surface. Engineered: measure the top wood layer only, in millimeters.",
+     "note": "3/32 in is about 2.4 mm. Two stacked dimes are roughly 2.7 mm, a handy field gauge."
+    },
+    {
+     "icon": "clipboard",
+     "d": "Step 4: check three spots",
+     "text": "Measure near a doorway, mid-room and against a wall. Edgers cut deeper along walls and doorways wear fastest. Your thinnest reading is the one that counts."
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "Price your Snohomish floor right now"
+  },
+  {
+   "type": "calc",
+   "kind": "refinish",
+   "note": "If your measurement says the floor is too thin to sand, choose the screen and recoat option. It is the only price that applies."
+  },
+  {
+   "type": "h2",
+   "text": "Signs a floor is already too thin, no ruler needed"
+  },
+  {
+   "type": "cards",
+   "cols": 2,
+   "items": [
+    {
+     "icon": "alert",
+     "title": "Nail heads showing",
+     "text": "Blind-nailed strip hides its nails in the tongue. When you can see nail heads or the dark line of a fastener through the surface, the wear layer has been sanded down to them. One more pass would tear the boards."
+    },
+    {
+     "icon": "layers",
+     "title": "Dark lines at every board edge",
+     "text": "A shadowy line along the seam between boards often means the top of the groove is showing through. Sanding will open the seam."
+    },
+    {
+     "icon": "search",
+     "title": "Dished or scalloped boards",
+     "text": "Run your palm across the floor. If every board feels slightly hollow in the middle, an aggressive drum sander has been through more than once, and flattening it again costs thickness."
+    },
+    {
+     "icon": "home",
+     "title": "Bounce or flex near walls",
+     "text": "Thin fir in older Snohomish houses over a crawlspace sometimes flexes underfoot at the edges. Combined with the signs above, it usually means the boards have gone thin and brittle."
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "When sanding is the wrong call"
+  },
+  {
+   "type": "compare",
+   "a": {
+    "icon": "refresh",
+    "tag": "Screen and recoat, $1.99 / sq ft",
+    "title": "The right move when",
+    "items": [
+     "Wood above the tongue is under 3/32 in or engineered wear layer is under 2 mm",
+     "The finish is dull or lightly scratched but not worn through to bare wood",
+     "You like the current color and just want protection back",
+     "Example: 800 sq ft Clearview main floor, 800 × $1.99 = $1,592"
+    ]
+   },
+   "b": {
+    "icon": "x",
+    "tag": "Replace instead",
+    "title": "Stop and talk about new floors when",
+    "items": [
+     "Nail heads or tongues are already exposed across the room",
+     "The finish is worn through and the wood is gray, so a recoat cannot bond",
+     "Boards are cupped from crawlspace moisture and flattening them would use the last of the wood",
+     "Engineered veneer under 2 mm is already scratched to the plywood"
+    ]
+   }
+  },
+  {
+   "type": "callout",
+   "icon": "flame",
+   "gold": true,
+   "title": "A Snohomish-specific note: ",
+   "text": "Homes heated with a wood stove run very dry from November to March, and old fir shrinks more than oak. Gaps that open in winter close in summer. Do not let anyone fill and sand a thin fir floor flat in January to chase those gaps; the wood does not come back and the gaps return in August. More in our post on <a href=\"/blog-posts/how-to-refinish-old-fir-floors-in-a-1920s-edmonds-house-without-ruining\">refinishing old fir floors</a>."
+  },
+  {
+   "type": "h2",
+   "text": "What a careful refinisher does differently on a thin floor"
+  },
+  {
+   "type": "list",
+   "icons": true,
+   "items": [
+    {
+     "icon": "search",
+     "html": "<strong>Measures before quoting.</strong> At a Wills Flooring estimate we pull a register, meter the moisture and check thickness in several rooms. If the floor cannot take a sand, we quote the recoat or a replacement, not the job that pays the most."
+    },
+    {
+     "icon": "layers",
+     "html": "<strong>Starts with a finer grit.</strong> A floor with 1/8 in left does not get a 36-grit cut. Starting at 50 or 60 grit saves wood at the cost of extra passes."
+    },
+    {
+     "icon": "ruler",
+     "html": "<strong>Uses a multi-disc sander on the last pass.</strong> Planetary sanders flatten without the dish marks a drum leaves."
+    },
+    {
+     "icon": "brush",
+     "html": "<strong>Recommends natural over stain.</strong> Stain needs an aggressive, uniform cut to take evenly. On a thin floor the $3.99 natural rate is not just cheaper than $6.50 with stain, it is safer for the wood."
+    },
+    {
+     "icon": "shield",
+     "html": "<strong>Writes the thickness on the quote.</strong> Bona Certified Craftsmen document what they found so the next owner knows how many sandings remain. See our <a href=\"/services/floor-refinish\">refinishing service page</a> for what our written quote includes."
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "Your thickness checklist before you book"
+  },
+  {
+   "type": "list",
+   "icons": true,
+   "items": [
+    {
+     "icon": "vent",
+     "html": "<strong>Pull one register and photograph the board edge</strong> with a ruler in the shot. Send it with your estimate request and we can often answer before we drive out."
+    },
+    {
+     "icon": "clipboard",
+     "html": "<strong>Find out how many times the floor has been sanded.</strong> Seller disclosures and neighbors in the same Fobes Hill development often know."
+    },
+    {
+     "icon": "ruler",
+     "html": "<strong>Measure in the doorway, not just the closet.</strong> Doorways and hallways wear fastest and get edged hardest."
+    },
+    {
+     "icon": "dollar",
+     "html": "<strong>Run both numbers.</strong> A 1,100 sq ft Clearview main floor is 1,100 × $3.99 = $4,389 to sand and refinish, or 1,100 × $1.99 = $2,189 to recoat. Your thickness tells you which one you are shopping for."
+    },
+    {
+     "icon": "phone",
+     "html": "<strong>Ask the estimator to show you the measurement.</strong> Anyone who quotes a full sand without looking at the edge of a board is guessing with your floor."
+    }
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "How thick does a hardwood floor need to be to refinish it?",
+   "a": "For solid hardwood, at least 3/32 in of wood above the tongue, about 2.4 mm. For engineered, a wear layer of at least 2 mm for one light sanding and 3 mm or more for a full sanding. Below those numbers, a screen and recoat is the only safe option."
+  },
+  {
+   "q": "How much wood does refinishing remove?",
+   "a": "A full sand to bare wood removes roughly 1/32 to 1/16 in, depending on how deep the scratches, stains and cupping go. A screen and recoat removes almost nothing, only the top of the old finish, which is why it can be repeated indefinitely."
+  },
+  {
+   "q": "Can 2 mm engineered hardwood be refinished?",
+   "a": "Once, carefully, with a fine starting grit and a natural finish. There is no margin for a second sanding and no margin for staining. Many owners with 2 mm floors are better served by a recoat at $1.99 per sq ft while the finish is still intact."
+  },
+  {
+   "q": "How can I tell how many times my floor has been sanded?",
+   "a": "Compare the thickness above the tongue to a new board. A 3/4 in solid floor starts at about 1/4 in above the tongue, so a reading of 5/32 in suggests two or three sandings already. Visible nail heads mean it is at the end."
+  },
+  {
+   "q": "Can 5/16 in solid hardwood be sanded?",
+   "a": "Usually once, sometimes twice, by a careful crew using finer grits and a multi-disc sander. These thin floors are common in 1950s and 1960s Snohomish ranches. If they show nail heads or have already been sanded twice, recoat or replace."
+  },
+  {
+   "q": "Does Wills Flooring charge to check floor thickness?",
+   "a": "No. Thickness, moisture and subfloor checks are part of the free in-home estimate anywhere in Snohomish County. We pull a register, measure, and write the result on your quote."
+  }
+ ],
+ "faq_title": "Wear layer questions from Snohomish homeowners",
+ "faq_sub": "The measurements and math behind every refinish quote we write.",
+ "related": [
+  [
+   "how-many-times-can-hardwood-floors-be-refinished-before-theyre-done",
+   "how many times hardwood can be refinished"
+  ],
+  [
+   "can-engineered-hardwood-floors-be-refinished-snohomish",
+   "refinishing engineered hardwood in Snohomish"
+  ],
+  [
+   "refinish-or-recoat-kirkland",
+   "refinish or recoat: which one you need"
+  ]
+ ],
+ "cta_title": "Find out how much floor you have left",
+ "cta_sub": "We measure the wear layer, meter the moisture and give you a firm written quote on the spot. Free anywhere in Snohomish County."
+}

@@ -1,0 +1,323 @@
+{
+ "slug": "whats-included-in-a-hardwood-installation-quote-seattle",
+ "title": "What's Included in a Hardwood Installation Quote? Labor vs Material Explained",
+ "meta": "Hardwood installation quotes split into labor, material and prep. Wills Flooring explains each line, what $3.25 per sq ft covers and how Seattle quotes compare.",
+ "category": "hardwood",
+ "city": "Seattle",
+ "time": "8 mins",
+ "date": "2026-12-31T15:00:00.000Z",
+ "keywords": "hardwood installation quote explained, hardwood flooring labor vs material cost, what does hardwood installation include, how to compare flooring quotes, hardwood floor installation cost Seattle",
+ "offers": [
+  [
+   "Hardwood floor installation, engineered or solid",
+   "3.25",
+   "per square foot"
+  ],
+  [
+   "Unfinished hardwood installation",
+   "2.75",
+   "per square foot"
+  ]
+ ],
+ "blocks": [
+  {
+   "type": "quick",
+   "eyebrow": "Short answer",
+   "lead": "A complete hardwood installation quote has three parts: labor to install the floor, the material itself including waste, and prep such as removal, underlayment and subfloor work. Wills Flooring's labor is $3.25 per sq ft; the other two parts are measured and priced at your house.",
+   "detail": "Most confusion between Seattle quotes comes from one company bundling everything into a single per-foot number while another lists labor alone. Neither is wrong, but you cannot compare them until you break both into the same three parts.",
+   "tiles": [
+    {
+     "icon": "hammer",
+     "label": "Labor, prefinished",
+     "value": "$3.25 / sq ft"
+    },
+    {
+     "icon": "brush",
+     "label": "Labor, unfinished",
+     "value": "$2.75 / sq ft"
+    },
+    {
+     "icon": "stairs",
+     "label": "Stairs",
+     "value": "$125 per stair"
+    },
+    {
+     "icon": "box",
+     "label": "Material",
+     "value": "Quoted on site"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "html": "A common Reddit thread asks why three Seattle hardwood quotes for the same Wallingford bungalow came back at wildly different totals. Read the quotes closely and the answer is almost always scope, not greed: one included tear-out and a new plywood layer, one assumed the homeowner would buy the wood, and one priced 8 percent waste while another priced 15. This post walks through every line that belongs on a real quote, explains which are fixed and which are measured, and shows how to line two quotes up side by side."
+  },
+  {
+   "type": "h2",
+   "text": "The lines on a complete quote"
+  },
+  {
+   "type": "table",
+   "head": [
+    "Line item",
+    "Wills Flooring",
+    "What it covers"
+   ],
+   "rows": [
+    [
+     "Installation labor, prefinished engineered or solid",
+     "$3.25 / sq ft, 500 sq ft min",
+     "Layout, cutting, nailing, gluing or floating, expansion gaps, transitions to other floors, cleanup."
+    ],
+    [
+     "Installation labor, unfinished solid",
+     "$2.75 / sq ft, 500 sq ft min",
+     "Same as above; sanding and finishing are then billed at the refinishing rates because it is a second job."
+    ],
+    [
+     "Stairs",
+     "$125 per stair",
+     "Tread, riser and nosing on a standard closed staircase. Open-sided and curved stairs are quoted individually."
+    ],
+    [
+     "Hardwood material plus waste",
+     "Quoted at the estimate",
+     "The wood itself, plus 7 to 15 percent waste depending on layout and pattern. We are a Metropolitan Hardwood distributor and price the material to you directly."
+    ],
+    [
+     "Underlayment and vapor barrier",
+     "Quoted at the estimate",
+     "Felt or rosin paper for nail-down, moisture barrier for glue-down or slabs, acoustic mat for condos."
+    ],
+    [
+     "Old floor removal and disposal",
+     "Quoted at the estimate",
+     "Carpet, tile, laminate or old hardwood out of the house and to the dump. Tile removal costs the most."
+    ],
+    [
+     "Subfloor prep",
+     "Quoted at the estimate",
+     "Screwing down loose plywood, flattening, replacing damaged sections, sometimes a new 1/2 in plywood layer over old plank subfloor."
+    ],
+    [
+     "Trim and transitions",
+     "Often included, confirm",
+     "Reinstalling baseboard or adding quarter round, thresholds at doorways, reducers to tile."
+    ]
+   ],
+   "note": "Every Wills quote lists these separately so you can see exactly where the money goes. Furniture moving and appliance moves are line items too, never surprises."
+  },
+  {
+   "type": "h2",
+   "text": "What the labor number actually buys"
+  },
+  {
+   "type": "cards",
+   "cols": 2,
+   "items": [
+    {
+     "icon": "ruler",
+     "title": "Measuring and layout",
+     "text": "We measure to the foot and bill the measured area, not the whole house. Layout includes squaring the first row to the longest sight line, planning the direction across joists and deciding where transitions land in doorways."
+    },
+    {
+     "icon": "hammer",
+     "title": "The installation itself",
+     "text": "Racking the boards for color and length distribution, cutting around vents and cabinets, nailing every 6 to 8 in on solid, or gluing and rolling engineered over a slab. This is the skilled part and where cheap labor shows up later as squeaks and gaps."
+    },
+    {
+     "icon": "layers",
+     "title": "Underlayment installation",
+     "text": "Rolling out felt, taping seams on a vapor barrier or laying acoustic mat is labor, and it is included. The underlayment product itself is material."
+    },
+    {
+     "icon": "shield",
+     "title": "Warranty and insurance",
+     "text": "Wills Flooring's labor rate includes a 1-year workmanship warranty and the cost of being licensed and insured. A quote from an uninsured installer can be lower for a reason you only discover when a nail hits a pipe."
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "Price the labor on your Seattle floor right now"
+  },
+  {
+   "type": "calc",
+   "kind": "hardwood",
+   "note": "This is the labor portion only. Material, underlayment, removal and prep are added at the free in-home estimate, where you see samples in your own light."
+  },
+  {
+   "type": "h2",
+   "text": "A worked example: 900 sq ft Ballard bungalow, all three parts"
+  },
+  {
+   "type": "steps",
+   "wide": true,
+   "items": [
+    {
+     "icon": "hammer",
+     "d": "Labor",
+     "text": "Prefinished engineered white oak, nailed over the existing fir subfloor, 900 sq ft and 12 closed stairs to the basement.",
+     "note": "900 × $3.25 + 12 × $125 = $2,925 + $1,500 = $4,425"
+    },
+    {
+     "icon": "box",
+     "d": "Material",
+     "text": "900 sq ft plus 10 percent waste is 990 sq ft of engineered white oak. Price depends on the plank you choose; a 5 in engineered oak and a 7 in wide plank can differ by half again. Underlayment felt and fasteners are added here.",
+     "note": "Quoted per sq ft at the estimate from Metropolitan Hardwood pricing."
+    },
+    {
+     "icon": "truck",
+     "d": "Prep",
+     "text": "Pulling wall-to-wall carpet and pad, disposal, screwing down the loose original subfloor, and reinstalling the painted baseboard.",
+     "note": "Quoted at the estimate after we see the subfloor."
+    },
+    {
+     "icon": "done",
+     "d": "Total",
+     "text": "Labor is the fixed, published part. Material is your choice. Prep is what the house needs. Any quote that gives you one number without those three parts is hiding one of them.",
+     "note": "We hand you the written breakdown at the visit, not by email days later."
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "Prefinished vs unfinished: two different quotes"
+  },
+  {
+   "type": "compare",
+   "a": {
+    "icon": "done",
+    "tag": "Prefinished, $3.25 / sq ft labor",
+    "title": "The quote has",
+    "items": [
+     "One labor line, one material line, prep",
+     "Floor is walkable the same day it is finished",
+     "Factory finish with a long wear warranty",
+     "Fewer trades, shorter schedule"
+    ]
+   },
+   "b": {
+    "icon": "brush",
+    "tag": "Unfinished, $2.75 / sq ft labor",
+    "title": "The quote adds",
+    "items": [
+     "Sanding and finishing at $3.99 natural or $6.50 stained per sq ft",
+     "Three to five extra days for finish and cure",
+     "A perfectly flat, seamless surface and custom color",
+     "The right choice when matching an original Seattle floor"
+    ]
+   }
+  },
+  {
+   "type": "callout",
+   "icon": "alert",
+   "title": "Watch the waste factor: ",
+   "text": "Waste is the quietest place a quote can grow. Straight-lay plank in square Seattle rooms needs 7 to 10 percent. Diagonal, herringbone or a chopped-up Craftsman floor plan needs 12 to 15. If one quote carries 20 percent waste on a simple room, ask why."
+  },
+  {
+   "type": "h2",
+   "text": "Red flags in a hardwood quote"
+  },
+  {
+   "type": "list",
+   "icons": true,
+   "items": [
+    {
+     "icon": "alert",
+     "html": "<strong>One number for everything.</strong> You cannot tell whether the wood is a $4 or a $12 product, or whether removal is in or out."
+    },
+    {
+     "icon": "ruler",
+     "html": "<strong>Square footage rounded to the hundred.</strong> A quote on \"about 1,000 sq ft\" for a 910 sq ft floor is 90 sq ft of labor and material you are paying for twice."
+    },
+    {
+     "icon": "search",
+     "html": "<strong>No mention of the subfloor.</strong> A Seattle house from 1925 has a plank subfloor that may need a plywood layer. If nobody looked, the number will change on installation day."
+    },
+    {
+     "icon": "shield",
+     "html": "<strong>No license number, insurance or warranty on the page.</strong> Required to work legally in Seattle and the reason a real quote costs a little more."
+    },
+    {
+     "icon": "dollar",
+     "html": "<strong>A big deposit before material is ordered.</strong> A deposit that covers the wood is normal; half the labor up front is not."
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "Questions to ask before you sign"
+  },
+  {
+   "type": "list",
+   "icons": true,
+   "items": [
+    {
+     "icon": "clipboard",
+     "html": "<strong>Is the labor rate per measured square foot, and what is the minimum?</strong> Ours is $3.25 with a 500 sq ft minimum."
+    },
+    {
+     "icon": "box",
+     "html": "<strong>What waste percentage is in the material line, and do I keep the leftover boxes?</strong> You should; they are yours and they matter for future repairs."
+    },
+    {
+     "icon": "layers",
+     "html": "<strong>Which underlayment, and is installing it included?</strong> It is in our labor rate. The product is listed separately."
+    },
+    {
+     "icon": "truck",
+     "html": "<strong>Who removes the old floor and hauls it away?</strong> Confirm disposal fees are in the number."
+    },
+    {
+     "icon": "home",
+     "html": "<strong>What happens if the subfloor needs work?</strong> Ask how it is priced before the crew finds it. Read more about the process on our <a href=\"/services/hardwood-flooring\">hardwood installation</a> page, or see <a href=\"/blog-posts/how-much-extra-hardwood-flooring-should-you-order-snohomish\">how much extra hardwood to order</a> for the waste math."
+    }
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is included in the hardwood installation labor price?",
+   "a": "At Wills Flooring, $3.25 per sq ft covers measuring, layout, installing the underlayment, cutting and fastening the boards by nail, glue or floating method, expansion gaps, transitions at doorways and cleanup, backed by a 1-year workmanship warranty. Material, removal and subfloor prep are separate lines."
+  },
+  {
+   "q": "Why is the material not on the published price list?",
+   "a": "Because the wood is your choice and the range is wide. A 3/8 in engineered oak and a 3/4 in solid wide plank can differ by several dollars per square foot, and waste depends on the layout. We bring samples to your house and quote the exact product with its waste factor in writing."
+  },
+  {
+   "q": "How much waste should a hardwood quote include?",
+   "a": "Seven to 10 percent for straight-lay plank in simple rooms, 12 to 15 percent for diagonal or herringbone layouts and chopped-up older Seattle floor plans. Anything above 15 percent on a standard room deserves an explanation. Leftover boxes belong to you."
+  },
+  {
+   "q": "Is it cheaper to buy the hardwood myself?",
+   "a": "Sometimes on the sticker, rarely overall. Retail material often costs more than distributor pricing, and installer-supplied material comes with someone responsible if boxes arrive damaged or short. As a Metropolitan Hardwood distributor we pass distributor pricing to you and handle the order."
+  },
+  {
+   "q": "Does the quote include removing my old carpet or tile?",
+   "a": "Ours lists removal and disposal as its own line so you can decide. Carpet removal is quick; tile removal is the slowest and most expensive tear-out because of the mortar bed. If you pull the carpet yourself, the line drops off."
+  },
+  {
+   "q": "How does an unfinished hardwood quote differ from a prefinished one?",
+   "a": "Unfinished installation labor is $2.75 per sq ft, lower than prefinished, but the floor then needs sanding and finishing at $3.99 per sq ft natural or $6.50 stained. Unfinished costs more in total and takes longer, but gives a seamless surface and custom color."
+  }
+ ],
+ "faq_title": "Quote questions Seattle homeowners ask us",
+ "faq_sub": "From Ballard, Wallingford, West Seattle and the phone at the Lynnwood showroom.",
+ "related": [
+  [
+   "how-much-does-hardwood-floor-installation-cost-in-lynnwood",
+   "hardwood installation cost in Lynnwood"
+  ],
+  [
+   "how-much-extra-hardwood-flooring-should-you-order-snohomish",
+   "how much extra hardwood to order"
+  ],
+  [
+   "prefinished-vs-site-finished-hardwood-floors-edmonds",
+   "prefinished vs site-finished hardwood"
+  ]
+ ],
+ "cta_title": "Get a quote you can actually compare",
+ "cta_sub": "We measure your Seattle floor, check the subfloor, bring samples and hand you a written quote with labor, material and prep on separate lines. Free, no obligation."
+}
