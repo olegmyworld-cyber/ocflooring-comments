@@ -1,0 +1,157 @@
+{
+ "slug": "what-does-a-hardwood-floor-warranty-actually-cover-seattle",
+ "title": "What Does a Hardwood Floor Warranty Actually Cover?",
+ "meta": "A hardwood floor warranty covers finish wear-through and factory defects, not scratches, dents or moisture damage. Wills Flooring explains the fine print for Seattle homes.",
+ "category": "hardwood",
+ "city": "Seattle",
+ "time": "8 mins",
+ "date": "2027-02-25T15:00:00.000Z",
+ "keywords": "hardwood floor warranty, what does a hardwood flooring warranty cover, engineered hardwood warranty exclusions, hardwood installation warranty Seattle, wear layer warranty, workmanship warranty flooring",
+ "offers": [
+  ["Hardwood floor installation, engineered or solid", "3.25", "per square foot"],
+  ["Unfinished hardwood installation", "2.75", "per square foot"]
+ ],
+ "blocks": [
+  {
+   "type": "quick",
+   "eyebrow": "Short answer",
+   "lead": "A hardwood floor warranty covers two narrow things: the factory finish wearing through to bare wood under normal use, and manufacturing defects like delamination or bad milling. It does not cover scratches, dents, gloss loss, fading, gaps or anything caused by moisture.",
+   "detail": "You actually hold two or three separate warranties: the manufacturer's finish warranty, the manufacturer's structural warranty, and your installer's workmanship warranty. Each one covers a different failure, and each has conditions that are easy to break in a wet Seattle house.",
+   "tiles": [
+    {"icon": "shield", "label": "Finish warranty", "value": "Wear-through only"},
+    {"icon": "layers", "label": "Structural", "value": "Factory defects"},
+    {"icon": "hammer", "label": "Wills workmanship", "value": "1 year"},
+    {"icon": "dollar", "label": "Install labor", "value": "$3.25 / sq ft"}
+   ],
+   "cta": "Try the calculator"
+  },
+  {
+   "type": "p",
+   "html": "The phrase \"50-year warranty\" sells a lot of hardwood in Seattle showrooms. Then a Queen Anne homeowner calls two years later about a dog-scratched hallway and learns the warranty never covered scratches at all. That is not a scam, it is just how flooring warranties are written. This post explains what each layer of coverage really promises, what voids it, and what a Seattle homeowner should ask before signing an installation contract with anyone, including us."
+  },
+  {"type": "h2", "text": "The three warranties you actually hold"},
+  {
+   "type": "cards",
+   "cols": 3,
+   "items": [
+    {"icon": "brush", "tag": "Manufacturer", "title": "Finish warranty", "text": "Promises the factory finish will not wear through to bare wood under normal residential foot traffic for 15, 25 or 50 years. Wear-through means a spot where the coating is gone and the wood is exposed. Dulling, micro-scratches and traffic lanes are not wear-through."},
+    {"icon": "layers", "tag": "Manufacturer", "title": "Structural warranty", "text": "Covers defects that came from the factory: an engineered plank whose layers separate, milling that leaves boards that will not lock, or a wear layer that is thinner than the spec. Often lifetime for the original owner. Almost never claimed, because factory defects show up in the first month.", "gold": true},
+    {"icon": "hammer", "tag": "Installer", "title": "Workmanship warranty", "text": "Covers how the floor went in: boards that lift, gaps that open because the floor was not acclimated, squeaks from poor fastening, transitions that come loose. Wills Flooring gives one year on every installation, and this is the warranty you will actually use if anything goes wrong."}
+   ],
+   "note": "Ask for all three in writing. A verbal \"we stand behind our work\" is not a warranty."
+  },
+  {"type": "h2", "text": "What the fine print excludes, every time"},
+  {
+   "type": "table",
+   "head": ["Problem", "Covered?", "Why the manufacturer says no"],
+   "rows": [
+    ["Scratches from pets, chairs, grit", "No", "Classified as damage, not wear. Even a 50-year finish warranty excludes scratches from day one."],
+    ["Dents from dropped pans or heels", "No", "Wood hardness is a species property, not a defect. Walnut dents; the warranty does not care."],
+    ["Gloss loss in traffic lanes", "No", "Finish dulling is considered normal wear until the coating is actually gone."],
+    ["Color change from sunlight", "No", "Every wood species changes color under UV. South-facing West Seattle windows do this fast."],
+    ["Cupping, crowning, gaps", "No", "Moisture-related movement is always the owner's or installer's problem, never the mill's."],
+    ["Finish wearing through to bare wood", "Yes, usually pro-rated", "This is the one thing a finish warranty exists for."],
+    ["Delamination of engineered layers", "Yes", "A true factory defect, provided the floor was installed to spec."]
+   ],
+   "note": "Most manufacturer warranties also require that the floor was installed by a professional following their written instructions, and that you can prove it."
+  },
+  {"type": "h2", "text": "Price your Seattle hardwood installation right now"},
+  {
+   "type": "calc",
+   "kind": "hardwood",
+   "note": "Labor only, with our 1-year workmanship warranty included. Material, underlayment, moisture testing and removal of the old floor are quoted at the free estimate."
+  },
+  {"type": "h2", "text": "The conditions that quietly void coverage in Seattle homes"},
+  {
+   "type": "list",
+   "icons": true,
+   "items": [
+    {"icon": "moisture", "html": "<strong>Subfloor moisture over the limit.</strong> Manufacturers require a documented moisture reading before installation. A 1920s Ballard house with a damp crawlspace or a West Seattle daylight basement can exceed the limit without anyone noticing. No reading on file means no structural claim later."},
+    {"icon": "thermo", "html": "<strong>Indoor humidity outside 35 to 55 percent.</strong> Seattle winters with the furnace running drop indoor humidity into the 20s. Gaps that open in February are excluded because the house was \"outside the specified environment.\""},
+    {"icon": "mop", "html": "<strong>Steam mops and wet mopping.</strong> Almost every hardwood warranty names steam cleaners as an automatic exclusion. So do oil soaps, vinegar and wax on a polyurethane finish."},
+    {"icon": "calendar", "html": "<strong>Skipped acclimation.</strong> Boxes carried from a cold truck straight to the nail gun. When the boards shrink in the first heating season, the manufacturer points to the acclimation clause."},
+    {"icon": "home", "html": "<strong>Wrong installation method.</strong> Some engineered planks are approved for glue or nail but not floating, or not over radiant heat. Install outside the approved list and both the structural and finish warranties are gone."},
+    {"icon": "key", "html": "<strong>Change of ownership.</strong> Most manufacturer warranties belong to the original purchaser only. When a Wallingford house sells, the buyer often has no coverage at all, regardless of the number on the box."}
+   ]
+  },
+  {"type": "h2", "text": "What a workmanship warranty covers that the mill never will"},
+  {
+   "type": "steps",
+   "wide": true,
+   "items": [
+    {"icon": "ruler", "d": "Gaps and movement from a bad install", "text": "If boards were nailed too tight, not acclimated, or the expansion gap at the wall was skipped, the resulting gaps or buckling are on the installer. This is the most common real-world claim.", "note": "Wills documents subfloor and plank moisture readings at every job so the cause is never a guessing game."},
+    {"icon": "volume", "d": "Squeaks and hollow spots", "text": "New squeaks within the first year usually mean fasteners missed a joist or adhesive did not bond. Both are workmanship. Squeaks in a 1910 Capitol Hill subfloor that existed before the new floor are not.", "note": "We check and fasten loose subfloor sheets before laying the first board."},
+    {"icon": "frame", "d": "Transitions, reducers and trim", "text": "T-molds that pop up, quarter round that separates, thresholds that lift at doorways. Small, annoying, and covered.", "note": "Covered for one year on every Wills installation."},
+    {"icon": "search", "d": "Visible defects installed anyway", "text": "A good crew culls boards with chipped edges or finish flaws. If a defective board made it into the middle of your living room, that is a workmanship issue, not a mill issue.", "note": "Ask how the crew handles culls; ours come out of the box, not out of your floor."}
+   ]
+  },
+  {
+   "type": "callout",
+   "icon": "alert",
+   "gold": true,
+   "title": "Seattle condo owners, read this: ",
+   "text": "If your HOA requires a sound-rated underlayment, the plank manufacturer must approve that specific underlayment or the finish and structural warranties may not apply. We match the underlayment to both the HOA rule and the plank spec before quoting Capitol Hill and Belltown units."
+  },
+  {"type": "h2", "text": "How a warranty claim really plays out"},
+  {
+   "type": "compare",
+   "a": {
+    "icon": "done",
+    "tag": "Claims that succeed",
+    "title": "You are likely to be paid when",
+    "items": [
+     "Finish is worn to bare wood in a normal traffic area within the term",
+     "Engineered layers separate and moisture readings were documented at install",
+     "You have the receipt, the installer's invoice and photos from day one",
+     "The floor was cleaned with the manufacturer's approved products"
+    ]
+   },
+   "b": {
+    "icon": "x",
+    "tag": "Claims that fail",
+    "title": "Expect a denial when",
+    "items": [
+     "The complaint is scratches, dents, dulling or color change",
+     "No moisture readings exist and the house has a crawlspace or slab",
+     "A steam mop, vinegar or wax has touched the floor",
+     "You bought the house with the floor already in it"
+    ]
+   }
+  },
+  {
+   "type": "p",
+   "html": "Even a successful finish claim is usually pro-rated and pays in replacement material, not labor. On a 900 sq ft floor, new planks are the smaller cost; installing them again at <a href=\"/services/hardwood-flooring\">$3.25 per sq ft</a> is $2,925 that the manufacturer will not cover. That is why the installer's warranty and the moisture paperwork matter more than the big number on the box."
+  },
+  {"type": "h2", "text": "What to ask before you sign any hardwood contract"},
+  {
+   "type": "ul",
+   "items": [
+    "Which written manufacturer warranty applies to this exact plank, and can I have a copy before ordering?",
+    "Will you record subfloor and plank moisture readings on the invoice? If the answer is no, that is a red flag in Seattle.",
+    "How long is your workmanship warranty and what does it exclude? Wills Flooring's is one year, in writing, on every job.",
+    "Is this plank approved for my installation method, my subfloor and my radiant heat if I have it?",
+    "Which cleaner should I use, and which will void the finish warranty?",
+    "If the house sells, does any coverage transfer to the buyer?",
+    "Who do I call first if something fails: you or the manufacturer? We handle the claim paperwork for our customers."
+   ]
+  }
+ ],
+ "faq": [
+  {"q": "Does a hardwood floor warranty cover scratches from dogs?", "a": "No. Every residential hardwood finish warranty we have read excludes scratches, gouges and dents, whether from pets, furniture or grit. Finish warranties cover the coating wearing through to bare wood under normal walking traffic. For dog households, species hardness and a matte, low-sheen finish do far more than any warranty length."},
+  {"q": "What is the difference between a 25-year and a 50-year hardwood finish warranty?", "a": "In practice, very little. Both cover only wear-through, both are pro-rated after the first few years, and both exclude the same list of damage. A 50-year number usually signals a thicker aluminum oxide finish, which is good, but the extra 25 years are mostly marketing because almost nobody keeps the receipt that long."},
+  {"q": "Does Wills Flooring offer a warranty on hardwood installation in Seattle?", "a": "Yes. Every installation carries a 1-year workmanship warranty covering the way the floor was put in: loose boards, gaps from a poor install, squeaks from fastening and transition trim. The plank itself is covered by the manufacturer's finish and structural warranties, and we help you file if you ever need to."},
+  {"q": "Is engineered hardwood covered differently than solid?", "a": "Engineered planks add a structural warranty against delamination of the layers, which solid wood does not need. Finish warranties are similar for both. Engineered warranties are also stricter about approved installation methods, so check whether floating, glue-down or nail-down is allowed for your specific product."},
+  {"q": "Do I need a moisture test for the warranty to be valid?", "a": "For any floor over a slab, crawlspace or basement, yes. Manufacturers require documented moisture readings of the subfloor and the planks before installation. Without that record, moisture-related claims are denied. In Seattle, where many older homes sit over damp crawlspaces, this paperwork is the difference between coverage and none."},
+  {"q": "Does the warranty transfer when I sell my Seattle house?", "a": "Usually not. Most manufacturer warranties cover the original purchaser only, and installer workmanship warranties end when the term ends regardless of ownership. If you are buying a home with newer hardwood, ask the seller for the invoice and product paperwork anyway; some brands allow a one-time transfer if registered."},
+  {"q": "What voids a hardwood floor warranty fastest?", "a": "Steam mops, wet mopping and off-label cleaners are the quickest way to lose finish coverage. Installing over a subfloor that was never moisture-tested and letting winter indoor humidity fall below 35 percent are the fastest ways to lose structural coverage. All of these are common in Seattle homes."}
+ ],
+ "faq_title": "Hardwood warranty questions from Seattle homeowners",
+ "faq_sub": "The ones we hear after a claim was denied, answered before you buy.",
+ "related": [
+  ["whats-included-in-a-hardwood-installation-quote-seattle", "what a hardwood installation quote should include"],
+  ["how-thick-should-an-engineered-hardwood-wear-layer-be-sammamish", "how thick a wear layer should be"],
+  ["are-engineered-hardwood-floors-real-hardwood-edmonds", "whether engineered floors are real hardwood"]
+ ],
+ "cta_title": "Get a Seattle hardwood quote with the warranties spelled out",
+ "cta_sub": "We bring samples, test your subfloor for moisture, and put the manufacturer terms and our 1-year workmanship warranty in the written quote. Free, anywhere in Seattle."
+}

@@ -1,7 +1,7 @@
 {
  "slug": "can-carpet-be-installed-in-winter-in-edmonds",
  "title": "Can Carpet Be Installed in Winter in Edmonds? Humidity and Stretching",
- "meta": "Yes, carpet installs fine in an Edmonds winter if the house is heated, the rolls acclimate and the crew power-stretches. Wills Flooring explains humidity and timing.",
+ "meta": "Yes, carpet installs fine in an Edmonds winter if the house is heated, rolls acclimate and the crew power-stretches. Wills Flooring explains humidity and timing.",
  "category": "carpet",
  "city": "Edmonds",
  "time": "8 mins",
@@ -14,16 +14,32 @@
    "lead": "Yes. Carpet can be installed in any Edmonds winter month, as long as the house is heated to at least 65°F, the rolls sit inside for 24 hours first, and the installer power-stretches rather than knee-kicks.",
    "detail": "Carpet is an indoor product installed in an indoor climate. The rain outside matters far less than the temperature inside your walls, and winter is one of the easiest times to get a crew quickly.",
    "tiles": [
-    {"icon": "calendar", "label": "Season", "value": "Any month"},
-    {"icon": "thermo", "label": "Room temperature", "value": "65 to 75°F"},
-    {"icon": "clock", "label": "Acclimation", "value": "24 hours inside"},
-    {"icon": "ruler", "label": "Stretch method", "value": "Power stretcher"}
+    {
+     "icon": "calendar",
+     "label": "Season",
+     "value": "Any month"
+    },
+    {
+     "icon": "thermo",
+     "label": "Room temperature",
+     "value": "65 to 75°F"
+    },
+    {
+     "icon": "clock",
+     "label": "Acclimation",
+     "value": "24 hours inside"
+    },
+    {
+     "icon": "ruler",
+     "label": "Stretch method",
+     "value": "Power stretcher"
+    }
    ],
    "cta": false
   },
   {
    "type": "p",
-   "html": "The question usually arrives in January from a homeowner in the Edmonds Bowl or up in Seaview: the old carpet has to go before guests arrive, but it has rained for eleven days straight and the house feels damp. Will the new carpet stretch properly? Will it ripple in June when the heat goes off? Those are fair questions, because carpet does react to temperature and moisture. The answer is that a heated Edmonds house in February is a normal installation environment, and the few real winter risks are easy to manage once you know what they are."
+   "html": "The question usually arrives in January from a homeowner in the Edmonds Bowl or up in Seaview: the old carpet has to go before guests arrive, but it has rained for eleven days straight and the house feels damp. Will the new carpet stretch properly? Will it ripple in June when the heat goes off? Fair questions, because carpet does react to temperature and moisture. The answer is that a heated Edmonds house in February is a normal installation environment, and the few real winter risks are easy to manage."
   },
   {
    "type": "h2",
@@ -33,10 +49,26 @@
    "type": "cards",
    "cols": 2,
    "items": [
-    {"icon": "thermo", "title": "The work happens at room temperature", "text": "Carpet backing, seam tape and pad adhesive are designed to be installed between about 65 and 95°F. Your furnace already holds the house in that range from November to March. As long as the heat stays on, the crew works in the same conditions they would see in July."},
-    {"icon": "wind", "title": "Ferry-town humidity is an outdoor problem", "text": "Edmonds sits on the water and winter air outside hovers near 90 percent relative humidity. Inside a heated home it drops to 30 to 50 percent because warm air holds more moisture. That is where carpet fiber and latex backing behave most predictably."},
-    {"icon": "calendar", "title": "Crews have open days", "text": "Flooring demand peaks from April through September and again before Thanksgiving. A January or February install in Edmonds often books within a week or two, and you are not competing with every remodel on the block for the same crew."},
-    {"icon": "home", "title": "Ramblers heat evenly", "text": "The 1950s to 1970s ramblers in Westgate and Perrinville are single-story with a central furnace, so every room reaches temperature quickly. Split-levels with a cool daylight basement need the downstairs heated a day early, and we will remind you."}
+    {
+     "icon": "thermo",
+     "title": "The work happens at room temperature",
+     "text": "Carpet backing, seam tape and pad adhesive are designed to be installed between about 65 and 95°F. Your furnace already holds the house in that range from November to March, so the crew works in the same conditions they would see in July."
+    },
+    {
+     "icon": "wind",
+     "title": "Ferry-town humidity is an outdoor problem",
+     "text": "Edmonds sits on the water and winter air outside hovers near 90 percent relative humidity. Inside a heated home it drops to 30 to 50 percent, which is where carpet fiber and latex backing behave most predictably."
+    },
+    {
+     "icon": "calendar",
+     "title": "Crews have open days",
+     "text": "Flooring demand peaks from April through September and again before Thanksgiving. A January or February install in Edmonds often books within a week or two."
+    },
+    {
+     "icon": "home",
+     "title": "Ramblers heat evenly",
+     "text": "The 1950s to 1970s ramblers in Westgate and Perrinville are single-story with a central furnace, so every room reaches temperature quickly. Split-levels need the daylight basement heated a day early."
+    }
    ]
   },
   {
@@ -45,15 +77,39 @@
   },
   {
    "type": "table",
-   "head": ["Where in the house", "Winter risk", "What we check or do"],
-   "rows": [
-    ["Main floor over a crawlspace", "Damp subfloor if crawlspace vents are open and the vapor barrier is torn", "Moisture meter on the plywood. Above 16 percent gets a day of heat and airflow before pad goes down."],
-    ["Daylight basement on concrete", "Slab wicks ground moisture in the wettest months", "Slab RH test. A high reading means a moisture-barrier pad, never a plain rebond that holds water."],
-    ["Bedrooms with north windows", "Condensation drips onto tack strip and pad at the wall", "Pad stays an inch back from problem windows; we show you where a dehumidifier helps the first winter."],
-    ["Condos in the Bowl", "Building humidity is stable, but delivery routes are wet and slick", "Rolls arrive wrapped, runners go down from the door, elevator padding and quiet hours are arranged ahead."],
-    ["Stairs and entry", "A drafty front door stiffens carpet at the landing", "Entry work waits until the space is warm, and stair carpet is cut last so it sits inside longest."]
+   "head": [
+    "Where in the house",
+    "Winter risk",
+    "What we check or do"
    ],
-   "note": "Moisture readings are part of every Wills Flooring estimate at no charge. If a subfloor is genuinely wet, we tell you to fix the source first. We do not carpet over a problem."
+   "rows": [
+    [
+     "Main floor over a crawlspace",
+     "Damp subfloor if crawlspace vents are open and the vapor barrier is torn",
+     "Moisture meter on the plywood. Above 16 percent gets a day of heat before pad goes down."
+    ],
+    [
+     "Daylight basement on concrete",
+     "Slab wicks ground moisture in the wettest months",
+     "Slab RH test. A high reading means a moisture-barrier pad, never plain rebond."
+    ],
+    [
+     "Bedrooms with north windows",
+     "Condensation drips onto tack strip and pad at the wall",
+     "Pad stays an inch back from problem windows; a dehumidifier helps the first winter."
+    ],
+    [
+     "Condos in the Bowl",
+     "Building humidity is stable, but delivery routes are wet and slick",
+     "Rolls arrive wrapped, runners go down, elevator padding and quiet hours are arranged ahead."
+    ],
+    [
+     "Stairs and entry",
+     "A drafty front door stiffens carpet at the landing",
+     "Stair carpet is cut last so it sits inside longest."
+    ]
+   ],
+   "note": "Moisture readings are part of every Wills Flooring estimate. If a subfloor is genuinely wet, we tell you to fix the source first. We do not carpet over a problem."
   },
   {
    "type": "h2",
@@ -67,11 +123,28 @@
    "type": "steps",
    "wide": true,
    "items": [
-    {"icon": "truck", "d": "Delivery day", "text": "Rolls arrive wrapped from a heated warehouse and go straight into the room being carpeted, not the garage.", "note": "An Edmonds garage in January is often 40°F. That is storage, not acclimation."},
-    {"icon": "clock", "d": "24 hours inside", "text": "Carpet and pad rest at room temperature so the backing softens and factory curl relaxes. The thermostat stays at 65 to 75°F through two days after install."},
-    {"icon": "ruler", "d": "Power stretch, not knee kick", "text": "A power stretcher braces against the far wall and pulls the carpet about 1 to 1.5 percent in each direction before it hooks the tack strip. A knee kicker alone cannot reach that tension in anything larger than a closet.", "note": "This is the single step that prevents summer ripples."},
-    {"icon": "flame", "d": "Seams at temperature", "text": "Hot-melt seam tape bonds properly only when the backing is warm. Cold backing gives weak seams that peak later. Warm rooms make this a non-issue."},
-    {"icon": "wind", "d": "48 hours after", "text": "Keep the heat steady and run the bath fan or crack one window a few hours a day. New-carpet odor clears faster with a little air exchange, and stable temperature lets the backing settle."}
+    {
+     "icon": "truck",
+     "d": "Delivery day",
+     "text": "Rolls arrive wrapped from a heated warehouse and go straight into the room being carpeted, not the garage.",
+     "note": "An Edmonds garage in January is often 40°F. That is storage, not acclimation."
+    },
+    {
+     "icon": "clock",
+     "d": "24 hours inside",
+     "text": "Carpet and pad rest at room temperature so the backing softens and factory curl relaxes. The thermostat stays at 65 to 75°F through two days after install."
+    },
+    {
+     "icon": "ruler",
+     "d": "Power stretch, not knee kick",
+     "text": "A power stretcher braces against the far wall and pulls the carpet about 1 to 1.5 percent in each direction before it hooks the tack strip. A knee kicker alone cannot reach that tension in anything larger than a closet.",
+     "note": "This is the single step that prevents summer ripples."
+    },
+    {
+     "icon": "wind",
+     "d": "48 hours after",
+     "text": "Keep the heat steady and run the bath fan or crack one window a few hours a day so odor clears and the backing settles."
+    }
    ]
   },
   {
@@ -127,11 +200,26 @@
    "type": "list",
    "icons": true,
    "items": [
-    {"icon": "x", "html": "<strong>Carpet stored in a cold garage or on a covered porch.</strong> A roll that spent the night at 40°F is not ready to stretch and will relax later."},
-    {"icon": "x", "html": "<strong>Knee-kicker-only installs.</strong> Cheap crews skip the power stretcher to save time. Cold weather hides how little tension is actually in the carpet."},
-    {"icon": "x", "html": "<strong>Rebond pad on a damp slab.</strong> Standard bonded urethane pad soaks up moisture. Daylight basements in Seaview need a moisture-barrier pad if the slab reads high."},
-    {"icon": "x", "html": "<strong>Opening every window to air out the smell.</strong> Flooding the house with 40°F air drops the rooms below what fresh seams want. Crack one window and use fans."},
-    {"icon": "x", "html": "<strong>Ignoring the old pad's story.</strong> Water stains on the pad or rusty tack strip mean something is getting wet. Winter is when the evidence is freshest. Our post on <a href=\"/blog-posts/why-carpet-buckles-and-ripples-lynnwood\">why carpet buckles and ripples</a> shows what a bad stretch looks like a year later."}
+    {
+     "icon": "x",
+     "html": "<strong>Carpet stored in a cold garage or on a covered porch.</strong> A roll that spent the night at 40°F is not ready to stretch and will relax later."
+    },
+    {
+     "icon": "x",
+     "html": "<strong>Knee-kicker-only installs.</strong> Cheap crews skip the power stretcher to save time. Cold weather hides how little tension is actually in the carpet."
+    },
+    {
+     "icon": "x",
+     "html": "<strong>Rebond pad on a damp slab.</strong> Standard bonded urethane pad soaks up moisture. Daylight basements in Seaview need a moisture-barrier pad if the slab reads high."
+    },
+    {
+     "icon": "x",
+     "html": "<strong>Opening every window to air out the smell.</strong> Flooding the house with 40°F air drops the rooms below what fresh seams want. Crack one window and use fans."
+    },
+    {
+     "icon": "x",
+     "html": "<strong>Ignoring the old pad's story.</strong> Water stains on the pad or rusty tack strip mean something is getting wet. Winter is when the evidence is freshest. Our post on <a href=\"/blog-posts/why-carpet-buckles-and-ripples-lynnwood\">why carpet buckles and ripples</a> shows what a bad stretch looks like a year later."
+    }
    ]
   },
   {
@@ -142,19 +230,37 @@
    "type": "list",
    "icons": true,
    "items": [
-    {"icon": "thermo", "html": "<strong>Set the thermostat to 65 to 70°F two days before delivery</strong> and hold it through two days after, including any daylight basement."},
-    {"icon": "box", "html": "<strong>Clear a dry indoor spot for the rolls.</strong> The room being carpeted works. Not the garage, not the carport."},
-    {"icon": "droplet", "html": "<strong>Ask for the subfloor moisture reading.</strong> Any installer working in Edmonds in winter should carry a meter and tell you the number."},
-    {"icon": "ruler", "html": "<strong>Confirm power stretching in writing.</strong> If you are unsure which method you are being sold, read <a href=\"/blog-posts/stretch-in-vs-glue-down-carpet-kirkland\">stretch-in vs glue-down carpet</a>."},
-    {"icon": "home", "html": "<strong>Plan the path from the driveway.</strong> Move cars so the van backs up close and the rolls spend seconds, not minutes, in the rain."},
-    {"icon": "shield", "html": "<strong>Get the warranty in writing.</strong> Wills Flooring covers workmanship for one year, including restretching if an edge ever loosens. A winter install carries the same warranty as a summer one."}
+    {
+     "icon": "thermo",
+     "html": "<strong>Set the thermostat to 65 to 70°F two days before delivery</strong> and hold it through two days after, including any daylight basement."
+    },
+    {
+     "icon": "box",
+     "html": "<strong>Clear a dry indoor spot for the rolls.</strong> The room being carpeted works. Not the garage, not the carport."
+    },
+    {
+     "icon": "droplet",
+     "html": "<strong>Ask for the subfloor moisture reading.</strong> Any installer working in Edmonds in winter should carry a meter and tell you the number."
+    },
+    {
+     "icon": "ruler",
+     "html": "<strong>Confirm power stretching in writing.</strong> If you are unsure which method you are being sold, read <a href=\"/blog-posts/stretch-in-vs-glue-down-carpet-kirkland\">stretch-in vs glue-down carpet</a>."
+    },
+    {
+     "icon": "home",
+     "html": "<strong>Plan the path from the driveway.</strong> Move cars so the van backs up close and the rolls spend seconds, not minutes, in the rain."
+    },
+    {
+     "icon": "shield",
+     "html": "<strong>Get the warranty in writing.</strong> Wills Flooring covers workmanship for one year, including restretching if an edge ever loosens. A winter install carries the same warranty as a summer one."
+    }
    ]
   }
  ],
  "faq": [
   {
    "q": "What temperature does a house need to be for carpet installation?",
-   "a": "Aim for 65 to 75°F in every room being carpeted, starting 24 to 48 hours before the crew arrives and holding for two days after. Below about 60°F the backing stiffens, seam tape bonds poorly and the carpet stretches less than it should, which leads to ripples later."
+   "a": "Aim for 65 to 75°F in every room being carpeted, starting a day or two before the crew arrives and holding for two days after. Below about 60°F the backing stiffens, seam tape bonds poorly and the carpet stretches less than it should."
   },
   {
    "q": "Does Edmonds winter humidity cause carpet to ripple?",
@@ -162,7 +268,7 @@
   },
   {
    "q": "How long does carpet need to acclimate in winter?",
-   "a": "Twenty-four hours inside the heated house is the standard. If the rolls came off a cold truck, give them a full day and night. Pad acclimates faster, but there is no downside to letting both sit together."
+   "a": "Twenty-four hours inside the heated house is the standard. If the rolls came off a cold truck, give them a full day and night. Pad acclimates faster, but let both sit together."
   },
   {
    "q": "Can carpet be installed in a cold basement in winter?",
@@ -180,9 +286,18 @@
  "faq_title": "Winter carpet questions from Edmonds homeowners",
  "faq_sub": "Asked on the phone at our Lynnwood showroom every December through February.",
  "related": [
-  ["how-to-prepare-for-carpet-installation-everett", "how to prepare your home for carpet installation"],
-  ["why-carpet-buckles-and-ripples-lynnwood", "why carpet buckles and ripples"],
-  ["how-far-out-should-you-book-carpet-installation-in-lynnwood", "how far out to book carpet installation"]
+  [
+   "how-to-prepare-for-carpet-installation-everett",
+   "how to prepare your home for carpet installation"
+  ],
+  [
+   "why-carpet-buckles-and-ripples-lynnwood",
+   "why carpet buckles and ripples"
+  ],
+  [
+   "how-far-out-should-you-book-carpet-installation-in-lynnwood",
+   "how far out to book carpet installation"
+  ]
  ],
  "cta_title": "Book your Edmonds carpet install this winter",
  "cta_sub": "We bring samples to the house, meter the subfloor and hand you a firm written price on the spot. Free, no obligation, rain or shine."
