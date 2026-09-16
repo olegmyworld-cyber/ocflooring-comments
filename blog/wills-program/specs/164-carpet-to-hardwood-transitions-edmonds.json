@@ -12,7 +12,7 @@
    "type": "quick",
    "eyebrow": "Short answer",
    "lead": "A professional carpet-to-hardwood transition has no visible metal at all: the tack strip is set back from the hardwood by about the thickness of the carpet, the pad stops at the strip, and the carpet edge is stretched, trimmed and tucked down into that gully so it meets the wood as a clean, tight seam.",
-   "detail": "Metal strips, Z-bars and wood reducers are for when the two floors sit at different heights or the carpet has to be held on a hard surface. In most Edmonds homes, where 3/4 in oak meets carpet over pad, the tuck is the right finish.",
+   "detail": "Metal strips, Z-bars and wood reducers are for when the two floors sit at different heights or the carpet has to be held on a hard surface. In most Edmonds homes, where 3/4 in oak meets carpet over pad, the tuck is the right finish. It is also part of the $0.99 per sq ft installation labor, not an extra line.",
    "tiles": [
     {
      "icon": "ruler",
@@ -35,11 +35,11 @@
      "value": "Under the closed door"
     }
    ],
-   "cta": false
+   "cta": "Price your rooms"
   },
   {
    "type": "p",
-   "html": "Walk through a 1960s Seaview or Westgate rambler and you will find the same detail at every bedroom door: a strip of gold or silver metal where the hallway oak meets the bedroom carpet, often bent, often with carpet fuzz pulling out of it. Homeowners assume that strip is required. It is not. It was the fast way to finish the edge, and it is the first thing we take out when we recarpet an Edmonds house. Here is how a good crew finishes that edge, and how to tell if yours was done right."
+   "html": "Walk through a 1960s Seaview or Westgate rambler and you find the same detail at every bedroom door: gold or silver metal where the hallway oak meets the bedroom carpet, usually bent, usually with fuzz pulling out of it. Homeowners assume that strip is required. It is not. It was the fast way to finish an edge, and it is the first thing we remove when we recarpet. Here is how a good crew finishes that edge."
   },
   {
    "type": "h2",
@@ -52,23 +52,23 @@
     {
      "icon": "layers",
      "title": "The tack strip",
-     "text": "A wood strip with angled pins, nailed to the subfloor parallel to the hardwood edge. Its job is to hold the carpet under tension. Where it sits decides everything: too close to the wood and there is no room to tuck; too far and the carpet edge sags into a gap."
+     "text": "A wood strip with angled pins, nailed to the subfloor parallel to the hardwood edge. It holds the carpet under tension. Where it sits decides everything: too close and there is no room to tuck, too far and the edge sags into a gap."
     },
     {
      "icon": "ruler",
      "title": "The gully",
-     "text": "The gap between the tack strip and the hardwood. It should be a little less than the carpet's thickness, usually around 1/4 to 3/8 in. The trimmed carpet edge is pushed down into it with a stair tool, so the cut edge disappears and the pile stands up flush against the wood.",
+     "text": "The gap between the tack strip and the hardwood, a little less than the carpet's thickness, usually 1/4 to 3/8 in. The trimmed edge is pushed into it with a stair tool, so the cut disappears and the pile stands flush against the wood.",
      "gold": true
     },
     {
      "icon": "grid",
      "title": "The pad",
-     "text": "Carpet cushion stops at the inside edge of the tack strip and is stapled there, never running under the strip or into the gully. Pad in the gully is why some transitions feel spongy and eventually let the carpet pull loose."
+     "text": "Cushion stops at the inside edge of the tack strip and is stapled there, never running under the strip or into the gully. Pad in the gully is why some transitions feel spongy and let the carpet pull loose."
     },
     {
      "icon": "scissors",
      "title": "The trim cut",
-     "text": "The carpet is stretched onto the pins first, then cut with a wall trimmer or knife leaving just enough to tuck. Cut short and the backing shows; cut long and the edge bunches up and wears. This is the step that separates a tight seam from a fuzzy one."
+     "text": "The carpet is stretched onto the pins first, then cut with a wall trimmer leaving just enough to tuck. Cut short and the backing shows, cut long and the edge bunches and wears. This step separates a tight seam from a fuzzy one."
     }
    ]
   },
@@ -105,7 +105,7 @@
      "A sloped wood piece matched to the hardwood; the carpet tucks against it."
     ]
    ],
-   "note": "Each method can be done well or badly. The failures you see in older Edmonds homes are almost always bent binder bars and gullies cut too wide."
+   "note": "Any of these can be done well or badly. The failures in older Edmonds homes are almost always bent binder bars and gullies cut too wide."
   },
   {
    "type": "h2",
@@ -118,37 +118,41 @@
     {
      "icon": "home",
      "d": "Bedroom doorways off a hardwood hall",
-     "text": "The seam sits directly under the closed door, so from the hallway you see wood and from inside you see carpet. Hinge-side to latch-side, straight, not angled.",
+     "text": "The seam sits under the closed door, so the hall shows wood and the room shows carpet. Hinge jamb to latch jamb, straight, not angled.",
      "note": "If the old metal strip left nail holes in the oak, we fill them before tucking."
     },
     {
      "icon": "stairs",
      "d": "Top of a carpeted staircase meeting a hardwood landing",
-     "text": "The carpet wraps the top nosing and tucks to a tack strip on the landing side, or, on a hardwood landing, ends at a reducer. Never a metal bar at the top step; it is a trip point.",
+     "text": "The carpet wraps the top nosing and tucks to a tack strip on the landing side, or ends at a reducer on a hardwood landing. Never a metal bar at the top step; that is a trip point.",
      "note": "Common in Perrinville and Seaview split-entries."
     },
     {
      "icon": "sofa",
      "d": "Open living room to carpeted family room",
-     "text": "With no door to hide under, the seam is placed at the narrowest point of the opening and kept perfectly straight. The carpet direction should run toward the opening so the pile does not show a shadow line.",
+     "text": "With no door to hide under, the seam goes at the narrowest point of the opening and stays perfectly straight. Run the pile toward the opening so it does not throw a shadow line.",
      "note": "We snap a line on the subfloor before the tack strip goes down."
     },
     {
      "icon": "frame",
      "d": "Carpet meeting hardwood at a step-down",
-     "text": "Where a 1970s sunken living room drops to carpet, the hardwood edge gets a stair nosing or bullnose and the carpet tucks beneath it. No metal, nothing to catch a toe.",
+     "text": "Where a 1970s sunken living room drops to carpet, the hardwood edge gets a nosing or bullnose and the carpet tucks beneath it. Nothing to catch a toe.",
      "note": "Older Edmonds owners downsizing into ramblers ask about this one most."
     }
    ]
   },
   {
    "type": "h2",
-   "text": "Scope your Edmonds carpet project"
+   "text": "Price your Edmonds carpet right now"
   },
   {
-   "type": "estimator",
-   "title": "Scope Your Edmonds Carpet Project",
-   "sub": "Tell us the rooms and where they meet your hardwood. We bring samples, measure every doorway, and write a firm price that includes the transitions."
+   "type": "calc",
+   "kind": "carpet",
+   "note": "Labor only, tucked transitions included. Carpet, pad and any wood reducer are quoted at the free estimate."
+  },
+  {
+   "type": "p",
+   "html": "Transitions are labor, and our labor is published: $0.99 per sq ft stretch-in over pad, $1.29 glue-down, $30 per step, 500 sq ft minimum. A Seaview rambler with 900 sq ft of bedrooms and hall is 900 × $0.99 = $891, plus 900 × $0.45 = $405 to pull the old carpet, pad and bent binder bars and haul them off. Tucking the edge at five bedroom doors is part of that, not a per-doorway charge. A reducer or Z-bar, where the heights call for one, is material and is quoted with the carpet."
   },
   {
    "type": "h2",
@@ -163,7 +167,6 @@
     "items": [
      "Hardwood and carpet-plus-pad finish within about 1/4 in of each other",
      "There is a wood subfloor to nail tack strip into",
-     "The carpet is a cut pile or dense loop with a stable backing",
      "The edge is straight and under a door or at a natural room break"
     ]
    },
@@ -174,8 +177,7 @@
     "items": [
      "The height difference is more than about 3/8 in; a tuck leaves a soft ledge",
      "Carpet ends on concrete, tile or a slab where tack strip cannot go",
-     "A loose berber or wool loop is likely to unravel at a raw cut edge",
-     "A wheelchair or walker needs a smooth ramped edge, common in Edmonds retirement moves"
+     "A loose berber or wool loop is likely to unravel at a raw cut edge"
     ]
    }
   },
@@ -184,7 +186,7 @@
    "icon": "moisture",
    "gold": true,
    "title": "Edmonds moisture note: ",
-   "text": "Homes in the Bowl and along the waterfront run higher humidity. Hardwood edges swell slightly in winter, so we leave the gully at the tighter end of the range in summer installs and never force a hardwood reducer hard against the carpet. A transition that is tight in August and loose in February was cut wrong."
+   "text": "Homes in the Bowl and along the waterfront run humid. Hardwood edges swell slightly in winter, so on summer installs we keep the gully at the tighter end of the range and never force a reducer hard against the carpet. A transition tight in August and loose in February was cut wrong."
   },
   {
    "type": "h2",
@@ -196,27 +198,27 @@
    "items": [
     {
      "icon": "alert",
-     "html": "<strong>Metal binder bar at every door.</strong> It was standard in 1970s builder installs. Today it reads as a rental finish and the edges bend up over time. Replace it with a tuck when you recarpet."
+     "html": "<strong>Metal binder bar at every door.</strong> Standard in 1970s builder installs, it reads as a rental finish now and the edges bend up. Replace it with a tuck when you recarpet."
     },
     {
      "icon": "ruler",
-     "html": "<strong>Gully too wide.</strong> When the tack strip sits 3/4 in or more from the wood, the carpet edge has nothing to press against, sags, and the backing shows as a dark line."
+     "html": "<strong>Gully too wide.</strong> With the strip 3/4 in or more from the wood, the edge has nothing to press against, sags, and the backing shows as a dark line."
     },
     {
      "icon": "grid",
-     "html": "<strong>Pad run under the tack strip.</strong> The strip floats, the pins lose bite and the carpet creeps back from the hardwood within a year."
+     "html": "<strong>Pad run under the tack strip.</strong> The strip floats, the pins lose bite, and the carpet creeps back from the wood within a year."
     },
     {
      "icon": "hammer",
-     "html": "<strong>Tack strip nailed into the hardwood.</strong> Some installers put the strip on the oak itself to close a gap. It splits the boards and ruins the edge for the next refinish."
+     "html": "<strong>Tack strip nailed into the hardwood.</strong> Some installers set the strip on the oak itself to close a gap. It splits boards and ruins the edge for the next refinish."
     },
     {
      "icon": "scissors",
-     "html": "<strong>Raw edge not sealed.</strong> On loop and wool carpets the cut edge should be glued or latex-sealed before tucking, or it frays at the door in months."
+     "html": "<strong>Raw edge not sealed.</strong> On loop and wool the cut edge should be latex-sealed before tucking, or it frays at the door within months."
     },
     {
      "icon": "sun",
-     "html": "<strong>Sun-faded oak under the old strip.</strong> Pull a metal bar and you find a pale stripe where the wood never saw light. It blends only with a <a href=\"/services/floor-refinish\">refinish</a> of the hall, so plan both jobs together."
+     "html": "<strong>Sun-faded oak under the old strip.</strong> Pull a metal bar and you find a pale stripe where the wood never saw light. Only a <a href=\"/services/floor-refinish\">refinish</a> of the hall blends it, so plan both together."
     }
    ]
   }
@@ -224,23 +226,23 @@
  "faq": [
   {
    "q": "Do you need a transition strip between carpet and hardwood?",
-   "a": "Not usually. When carpet over pad meets 3/4 in hardwood at roughly the same height, the professional finish is to tuck the carpet edge into a gully next to a tack strip, with no strip at all. A metal or wood transition is needed only when the two floors differ in height or the carpet ends on concrete or tile."
+   "a": "Not usually. When carpet over pad meets 3/4 in hardwood at roughly the same height, the professional finish is to tuck the edge into a gully beside a tack strip, with no hardware at all. A metal or wood transition is needed only when the floors differ in height or the carpet ends on concrete or tile."
   },
   {
    "q": "Where should the carpet to hardwood transition be in a doorway?",
-   "a": "Directly under the door when it is closed. That way each room shows one floor. The seam should run straight from the hinge jamb to the latch jamb. In wide openings without a door, place it at the narrowest point and snap a line so it is perfectly straight."
+   "a": "Directly under the door when it is closed, so each room shows one floor. The seam runs straight from the hinge jamb to the latch jamb. In a wide opening with no door, put it at the narrowest point and snap a line so it stays perfectly straight."
   },
   {
    "q": "Why does my carpet edge pull away from the hardwood?",
-   "a": "Three common causes: the tack strip was set too far from the wood so the edge had nothing to press against, the pad was run under the strip so the pins lost their grip, or the carpet was never stretched properly before trimming. All three are installer errors and all three show up in older Edmonds homes."
+   "a": "Three common causes: the tack strip set too far from the wood, so the edge had nothing to press against; pad run under the strip, so the pins lost grip; or carpet that was never properly stretched before trimming. All three are installer errors, and all three turn up in older Edmonds homes."
   },
   {
    "q": "Can carpet be tucked against hardwood without a tack strip?",
-   "a": "No. The strip is what holds the carpet under tension at the edge. Gluing a carpet edge to the wood or subfloor is a temporary fix that fails and leaves adhesive on the oak. If there is no wood subfloor to nail into, a Z-bar or glue-down tack strip is used instead."
+   "a": "No. The strip is what holds the carpet under tension at the edge. Gluing an edge to the wood or subfloor is a temporary fix that fails and leaves adhesive on the oak. With no wood subfloor to nail into, a Z-bar or glue-down tack strip does the job instead."
   },
   {
    "q": "Can you remove the old metal strips when you recarpet?",
-   "a": "Yes, and we recommend it. We pull the bar, fill the nail holes in the hardwood, set new tack strip at the correct setback and tuck the new carpet. If the wood under the old bar is lighter than the rest of the hall, only a refinish will blend it, so consider scheduling both."
+   "a": "Yes, and we recommend it. We pull the bar, fill the nail holes, set new tack strip at the correct setback and tuck the new carpet, all inside the $0.99 per sq ft labor. If the wood under the old bar is paler than the rest of the hall, only a refinish blends it."
   }
  ],
  "faq_title": "Transition questions from Edmonds homeowners",
@@ -260,5 +262,17 @@
   ]
  ],
  "cta_title": "Get your Edmonds carpet edges finished right",
- "cta_sub": "We measure every doorway, check the height of your hardwood, and price the carpet, pad and transitions in one written quote at your home. Free, no obligation."
+ "cta_sub": "We measure every doorway, check the height of your hardwood, and price the carpet, pad and transitions in one written quote at your home. Free, no obligation.",
+ "offers": [
+  [
+   "Carpet installation, stretch-in",
+   "0.99",
+   "per square foot"
+  ],
+  [
+   "Carpet installation, glue-down",
+   "1.29",
+   "per square foot"
+  ]
+ ]
 }

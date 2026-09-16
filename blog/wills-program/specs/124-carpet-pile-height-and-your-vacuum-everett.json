@@ -7,12 +7,13 @@
  "time": "8 mins",
  "date": "2027-01-18T15:00:00.000Z",
  "keywords": "carpet pile height vacuum, best vacuum for high pile carpet, vacuum hard to push on new carpet, low pile vs high pile carpet, robot vacuum carpet pile height, carpet installation Everett WA",
+ "offers": [["Carpet installation, stretch-in","0.99","per square foot"],["Carpet installation, glue-down","1.29","per square foot"]],
  "blocks": [
   {
    "type": "quick",
    "eyebrow": "Short answer",
    "lead": "Match the carpet to the vacuum you actually own: low and medium pile work with almost anything, dense plush needs a vacuum with height adjustment and a beater bar you can switch off, and shag or long frieze defeats most robot vacuums entirely.",
-   "detail": "The most common complaint after new carpet is not the carpet, it is a vacuum that suddenly will not move. Wills Flooring brings samples to your Everett home, and one of the first things we ask is what you clean with.",
+   "detail": "The most common complaint after new carpet is not the carpet, it is a vacuum that suddenly will not move. Pile height does not change what installation costs, $0.99 per sq ft stretch-in and $30 per step, so choose the height around how you clean, not around the labor bill.",
    "tiles": [
     {
      "icon": "ruler2",
@@ -30,15 +31,16 @@
      "value": "Over 1/2 in"
     },
     {
-     "icon": "wind",
-     "label": "Key feature",
-     "value": "Height adjustment"
+     "icon": "dollar",
+     "label": "Install labor",
+     "value": "$0.99 / sq ft"
     }
-   ]
+   ],
+   "cta": "Try the calculator"
   },
   {
    "type": "p",
-   "html": "A common Reddit thread goes like this: someone in Everett replaces the flattened builder carpet in their Silver Lake two-story with a thick, soft plush, then posts that their upright is impossible to push and the motor smells hot. Nothing is wrong with the carpet or the vacuum. They were never introduced. Pile height, density and fiber style decide how much air a vacuum can pull and how much friction a brush roll fights. Here is how they fit together, so you pick a carpet you can still clean in year five."
+   "html": "A common Reddit thread goes like this: someone replaces the flattened builder carpet in their Silver Lake two-story with a thick, soft plush, then posts that the upright is impossible to push and the motor smells hot. Nothing is wrong with the carpet or the vacuum. Pile height, density and fiber style decide how much air a vacuum pulls and how much friction the brush roll fights. Here is how they fit together."
   },
   {
    "type": "h2",
@@ -51,22 +53,22 @@
     {
      "icon": "ruler2",
      "title": "Low pile (under 1/4 in)",
-     "text": "Berber loops, level-loop commercial styles and tight textured cuts. Fibers stand short and dense, so dirt sits near the surface where any vacuum reaches it. Easiest to clean, firmest underfoot, and the natural choice for hallways, stairs and home offices with rolling chairs."
+     "text": "Berber loops, level-loop commercial styles and tight textured cuts. Fibers stand short and dense, so dirt sits near the surface where any vacuum reaches it. Easiest to clean and the natural choice for hallways, stairs and offices with rolling chairs."
     },
     {
      "icon": "layers",
      "title": "Medium pile (1/4 to 1/2 in)",
-     "text": "Most textured plush and Saxony styles sold today. Enough cushion to feel soft, short enough that a standard upright on its middle setting glides. This is where most Everett bedrooms and family rooms land, and the safest bet if you do not want to think about the vacuum."
+     "text": "Most textured plush and Saxony styles sold today. Enough cushion to feel soft, short enough that a standard upright on its middle setting glides. Where most Everett bedrooms land, and the safest bet if you would rather not think about the vacuum."
     },
     {
      "icon": "sofa",
      "title": "High pile (over 1/2 in)",
-     "text": "Thick plush, frieze with long twisted strands, and shag. Luxurious to sit on, but the fibers wrap brush rolls, block airflow at the head and hide grit deep in the pile. These carpets need a vacuum with a high setting and strong suction rather than an aggressive brush."
+     "text": "Thick plush, long frieze and shag. Luxurious to sit on, but the fibers wrap brush rolls, block airflow and hide grit deep in the pile. They need a vacuum with a high setting and strong suction rather than an aggressive brush."
     },
     {
      "icon": "grid",
      "title": "Density changes everything",
-     "text": "Two carpets with the same pile height can vacuum completely differently. A dense, heavy plush seals against the vacuum head like a gasket and creates suction lock. A looser construction of the same height lets air move. Ask for face weight and density when comparing samples."
+     "text": "Two carpets of the same pile height can vacuum completely differently. A dense, heavy plush seals against the head like a gasket and creates suction lock, while a looser construction lets air move. Ask for face weight and density."
     }
    ]
   },
@@ -108,7 +110,7 @@
      "Best option for shag and long frieze"
     ]
    ],
-   "note": "Look for the Carpet and Rug Institute Seal of Approval on a vacuum. Certified models are tested for soil removal and for not damaging pile, which matters for warranty claims on the carpet."
+   "note": "Look for the Carpet and Rug Institute Seal of Approval on a vacuum. Certified models are tested for soil removal and for not damaging pile, which matters for warranty claims."
   },
   {
    "type": "h2",
@@ -132,22 +134,26 @@
     },
     {
      "icon": "paw",
-     "html": "<strong>\"Pet hair sits on top.\"</strong> Common on frieze and shag, where hair drapes over the strands instead of falling into the pile. A rubber broom or a vacuum head with a rubber-finned brush works better than bristles."
+     "html": "<strong>\"Pet hair sits on top.\"</strong> Common on frieze and shag, where hair drapes over the strands. A rubber broom or a rubber-finned brush head beats bristles."
     },
     {
      "icon": "search",
-     "html": "<strong>\"The robot vacuum keeps dying in the bedroom.\"</strong> Pile over about 3/8 in, thick pad or a tall transition strip. Robots do well on low and medium pile with a firm pad; treat them as a daily supplement, not the deep clean."
+     "html": "<strong>\"The robot keeps dying in the bedroom.\"</strong> Pile over about 3/8 in, thick pad or a tall transition strip. Robots do well on low and medium pile over a firm pad; treat them as a supplement, not the deep clean."
     }
    ]
   },
   {
    "type": "h2",
-   "text": "Scope your Everett carpet project"
+   "text": "Price your Everett carpet job right now"
   },
   {
-   "type": "estimator",
-   "title": "Scope Your Everett Carpet Project",
-   "sub": "Tell us the rooms and stairs. We bring samples and pad to your door, measure, and write a firm price on the spot."
+   "type": "p",
+   "html": "Pile height changes how a room cleans, not what it costs to install. Labor is <strong>$0.99 per sq ft</strong> stretch-in over pad, <strong>$1.29 per sq ft</strong> glue-down on a slab, and <strong>$30 per step</strong>, with a 500 sq ft minimum, for low pile and shag alike. Tear-out and haul-away of the old carpet and pad is $0.45 per sq ft, and moving furniture is $0.25 per sq ft. An upstairs in a Silver Lake two-story, 900 sq ft with a 13-step run, is 900 × $0.99 + 13 × $30 = $1,281 in labor, plus $405 if we pull the old carpet. The carpet and pad themselves are quoted at the free in-home estimate, and a dense medium pile costs more per yard than a thin builder plush."
+  },
+  {
+   "type": "calc",
+   "kind": "carpet",
+   "note": "Labor only. Pile height, density and pad show up in the carpet quote we write at the house."
   },
   {
    "type": "h2",
@@ -160,19 +166,19 @@
     {
      "icon": "layers",
      "d": "Firm, dense pad",
-     "text": "A dense rebond or fiber pad gives the carpet a solid base. The vacuum head rides on the pile, not into it, so it glides and the brush can agitate properly. Also the best base for robot vacuums.",
+     "text": "A dense rebond or fiber pad gives the carpet a solid base, so the head rides on the pile instead of sinking into it and the brush can agitate properly. Also the best base for robots.",
      "note": "Our default recommendation for medium and high pile"
     },
     {
      "icon": "sofa",
      "d": "Soft, thick pad",
-     "text": "Feels wonderful barefoot but lets the whole carpet compress under the vacuum head. Suction lock gets worse, and wheels sink. Pair it only with a looser, lower pile.",
+     "text": "Feels wonderful barefoot but lets the carpet compress under the head. Suction lock gets worse and wheels sink. Pair it only with a looser, lower pile.",
      "note": "Popular in Port Gardner condos where sound matters; choose the carpet to match"
     },
     {
      "icon": "shield",
      "d": "Moisture-barrier pad",
-     "text": "Adds a film layer that keeps pet accidents out of the pad. It does not change vacuum feel, but spot cleaning actually works because liquid stays in the carpet where you can extract it.",
+     "text": "A film layer keeps pet accidents out of the pad. It does not change vacuum feel, but spot cleaning works because the liquid stays where you can extract it.",
      "note": "Worth it in Everett homes with dogs or kids"
     }
    ]
@@ -262,7 +268,7 @@
   },
   {
    "q": "Does pad affect how a carpet vacuums?",
-   "a": "Yes. A firm, dense pad supports the carpet so the vacuum head rides on the pile and glides. A thick soft pad lets everything compress, increasing suction lock and making wheels sink. We match pad to pile at the estimate for exactly this reason."
+   "a": "Yes. A firm, dense pad supports the carpet so the vacuum head rides on the pile and glides. A thick soft pad lets everything compress, increasing suction lock and making wheels sink. Pad is quoted with the carpet at the estimate; the $0.99 per sq ft labor rate is the same under either one."
   }
  ],
  "faq_title": "Carpet and vacuum questions from Everett homeowners",

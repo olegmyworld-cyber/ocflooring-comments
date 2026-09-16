@@ -147,11 +147,11 @@
   {
    "type": "calc",
    "kind": "carpet",
-   "note": "Labor only, 500 sq ft minimum, which most one-bedroom units hit. Carpet and pad are quoted at the estimate."
+   "note": "Labor only, with a 500 sq ft minimum that many one-bedroom units fall under. Carpet and pad are quoted at the estimate."
   },
   {
    "type": "p",
-   "html": "Condo math is worth doing carefully, because units are small. A City Center two-bedroom with 740 sq ft of bedrooms, hall and living room is 740 × $0.99 = $733 in labor, plus 740 × $0.45 = $333 to pull the old carpet and pad and carry them out. A one-bedroom with 430 sq ft still bills at our 500 sq ft minimum, so that line reads 500 × $0.99 = $495. Carpet and pad are quoted at the estimate, and in a condo the pad is worth paying up for: it is what the board checks and what the neighbor below hears."
+   "html": "Condo math is worth doing carefully, because units are small. A City Center two-bedroom with 700 sq ft of bedrooms, hall and living room is 700 × $0.99 = $693 in labor, plus 700 × $0.45 = $315 to pull the old carpet and pad and carry them out. A one-bedroom with 430 sq ft still bills at our 500 sq ft minimum, so that line reads 500 × $0.99 = $495. Carpet and pad are quoted at the estimate, and in a condo the pad is worth paying up for: it is what the board checks and what the neighbor below hears."
   },
   {
    "type": "h2",
