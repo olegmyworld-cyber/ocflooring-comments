@@ -1,0 +1,289 @@
+{
+ "slug": "spc-vs-wpc-vinyl-plank-lynnwood",
+ "title": "SPC vs WPC Vinyl Plank: Which Core Is Right for Your Home?",
+ "meta": "SPC vs WPC vinyl plank: SPC is denser and dent-proof, WPC is warmer and quieter. Which core fits a Lynnwood home, plus Wills Flooring's $2.50 per sq ft rate.",
+ "category": "lvp",
+ "city": "Lynnwood",
+ "time": "8 mins",
+ "date": "2026-10-09T15:00:00.000Z",
+ "keywords": "SPC vs WPC vinyl plank, SPC flooring vs WPC flooring, stone plastic composite vs wood plastic composite, rigid core vinyl plank Lynnwood, best vinyl plank core for home",
+ "offers": [
+  [
+   "Vinyl plank flooring installation",
+   "2.50",
+   "per square foot"
+  ]
+ ],
+ "blocks": [
+  {
+   "type": "quick",
+   "eyebrow": "Short answer",
+   "lead": "SPC is the right core for most Lynnwood homes: it is denser, shrugs off heavy furniture and pet claws, and barely moves in a sunny room. Pick WPC when warmth, quiet and a softer step matter more than dent resistance, such as bedrooms and upstairs family rooms.",
+   "detail": "Both cores are fully waterproof. Wills Flooring installs either one for $2.50 per sq ft in labor with a 500 sq ft minimum, so the choice comes down to how the room is used and what the plank itself costs.",
+   "tiles": [
+    {
+     "icon": "layers",
+     "label": "SPC core",
+     "value": "Limestone + PVC, 4–6 mm"
+    },
+    {
+     "icon": "tree",
+     "label": "WPC core",
+     "value": "Foamed PVC, 5.5–8 mm"
+    },
+    {
+     "icon": "dollar",
+     "label": "Install labor, either core",
+     "value": "$2.50 / sq ft"
+    },
+    {
+     "icon": "stairs",
+     "label": "Stairs",
+     "value": "$100 per stair"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "html": "Walk into any flooring store and the rigid-core vinyl wall is split into two camps with two acronyms, and the salesperson's answer usually depends on what is in stock. At our showroom on 196th St SW in Lynnwood we hear the same question from owners of Alderwood and Martha Lake split-levels almost daily: is SPC or WPC the better plank? Here is what is actually inside each one, where each one fails, and how we match them to the rooms in a typical 1970s Lynnwood house."
+  },
+  {
+   "type": "h2",
+   "text": "What is actually inside the plank"
+  },
+  {
+   "type": "cards",
+   "cols": 2,
+   "items": [
+    {
+     "icon": "layers",
+     "tag": "Stone plastic composite",
+     "title": "SPC: a limestone-heavy core",
+     "text": "SPC cores are mostly ground limestone bound with PVC and stabilizers, pressed into a thin, very dense sheet. The result is stiff and heavy for its size, usually 4 to 6 mm thick before the pad. That density is why SPC resists dents from fridge feet and piano casters, and why it expands and contracts very little when a room heats up."
+    },
+    {
+     "icon": "tree",
+     "tag": "Wood plastic composite",
+     "title": "WPC: a foamed, softer core",
+     "text": "WPC cores use PVC foamed with wood flour or similar fillers, which traps tiny air pockets. That makes the plank thicker, 5.5 to 8 mm, lighter, warmer to the touch and quieter under foot. It also makes it easier to dent under a concentrated point load, and it moves a little more with temperature swings than SPC does."
+    },
+    {
+     "icon": "shield",
+     "title": "The wear layer is a separate decision",
+     "text": "The core keeps the plank flat and waterproof; the clear wear layer on top is what fights scratches. You can buy a 12 mil SPC or a 20 mil WPC. Do not assume the harder core comes with the tougher surface. Read the wear layer in mils as its own spec and pick it for the traffic in the room."
+    },
+    {
+     "icon": "volume",
+     "title": "Attached pad changes the feel more than the core",
+     "text": "Most rigid-core planks now ship with a 1 to 1.5 mm IXPE or cork pad glued to the back. The pad softens step noise and hides tiny subfloor bumps. A padded SPC often feels closer to a WPC than the spec sheets suggest, which is worth knowing before you pay extra for foam in the core."
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "SPC vs WPC, spec by spec"
+  },
+  {
+   "type": "table",
+   "head": [
+    "Spec",
+    "SPC",
+    "WPC"
+   ],
+   "rows": [
+    [
+     "Core density",
+     "High; heavy planks, stiff",
+     "Lower; lighter, slightly flexible"
+    ],
+    [
+     "Typical total thickness",
+     "4–6 mm plus pad",
+     "5.5–8 mm plus pad"
+    ],
+    [
+     "Dent resistance",
+     "Excellent, best for heavy furniture and appliances",
+     "Good, but point loads can leave marks"
+    ],
+    [
+     "Comfort and warmth",
+     "Firm and cool, like tile with give",
+     "Softer and warmer under bare feet"
+    ],
+    [
+     "Sound",
+     "Louder without a good pad",
+     "Quieter, absorbs footfall"
+    ],
+    [
+     "Subfloor imperfections",
+     "Telegraphs bumps; needs a flatter subfloor",
+     "More forgiving of small dips and ridges"
+    ],
+    [
+     "Sun and heat",
+     "Very stable; good for south-facing sliders",
+     "Can expand near hot glass without proper gaps"
+    ],
+    [
+     "Plank cost",
+     "Usually lower, the market default",
+     "Usually higher for the same wear layer"
+    ],
+    [
+     "Wills install labor",
+     "$2.50 per sq ft",
+     "$2.50 per sq ft"
+    ]
+   ],
+   "note": "Labor is the same because the click system and cutting are the same. Plank material, underlayment and tear-out are quoted at the free estimate."
+  },
+  {
+   "type": "h2",
+   "text": "Price your Lynnwood vinyl plank install right now"
+  },
+  {
+   "type": "calc",
+   "kind": "lvp",
+   "note": "Labor only. Choose SPC or WPC at the estimate and we add material to the same quote."
+  },
+  {
+   "type": "h2",
+   "text": "Which core for which room"
+  },
+  {
+   "type": "compare",
+   "a": {
+    "icon": "done",
+    "tag": "SPC",
+    "title": "Choose SPC when",
+    "items": [
+     "Kitchen, laundry, entry or lower level of a split-level",
+     "Heavy appliances, rolling chairs or a big dog",
+     "South- or west-facing room with a slider and afternoon sun",
+     "Slab or basement floor where moisture and stability matter"
+    ]
+   },
+   "b": {
+    "icon": "done",
+    "tag": "WPC",
+    "title": "Choose WPC when",
+    "items": [
+     "Bedrooms, upstairs hallways and bonus rooms",
+     "You walk barefoot and want a warmer, softer step",
+     "A townhome or condo where sound to the neighbor below matters",
+     "The subfloor has minor waves you would rather not fully grind flat"
+    ]
+   }
+  },
+  {
+   "type": "h2",
+   "text": "How the choice plays out in a Lynnwood split-level"
+  },
+  {
+   "type": "steps",
+   "wide": true,
+   "items": [
+    {
+     "icon": "home",
+     "d": "Lower level · 420 sq ft family room on slab",
+     "text": "Concrete, a slider to the back yard, a woodstove corner. SPC for stability and moisture, over a vapor-rated pad.",
+     "note": "Billed at the 500 sq ft minimum: 500 × $2.50 = $1,250 labor"
+    },
+    {
+     "icon": "home",
+     "d": "Main level · 780 sq ft kitchen, dining, living",
+     "text": "Plywood subfloor, fridge and range, kids and a lab. SPC with a 20 mil wear layer, one continuous run with no transitions.",
+     "note": "780 × $2.50 = $1,950 labor"
+    },
+    {
+     "icon": "home",
+     "d": "Upper level · 640 sq ft bedrooms and hall + 7 stairs",
+     "text": "Carpet coming out, quiet and warmth wanted. WPC with attached pad, matched in color to the SPC below.",
+     "note": "640 × $2.50 + 7 × $100 = $2,300 labor"
+    }
+   ]
+  },
+  {
+   "type": "callout",
+   "icon": "alert",
+   "title": "The mistake we fix most often: ",
+   "text": "SPC over a wavy 1960s Lynnwood subfloor. The plank is so stiff it bridges low spots, then clicks and flexes at the joints until they open. If a straightedge shows more than 3/16 in of dip over 10 ft, the floor gets leveled first or the job is not worth doing. We check this at the estimate with the straightedge in hand."
+  },
+  {
+   "type": "h2",
+   "text": "Where each core fails"
+  },
+  {
+   "type": "list",
+   "icons": true,
+   "items": [
+    {
+     "icon": "volume",
+     "html": "<strong>SPC without a pad in a townhome.</strong> Lynnwood's newer townhomes near the light rail often have an HOA sound requirement. Bare SPC over OSB is loud. Specify an attached pad or a separate acoustic underlayment."
+    },
+    {
+     "icon": "sofa",
+     "html": "<strong>WPC under a fridge or upright piano.</strong> Foam compresses. A 300 lb fridge on four small feet will leave dimples in WPC that show in low light. Use SPC, or set the appliance on load-spreading pads."
+    },
+    {
+     "icon": "sun",
+     "html": "<strong>WPC against a south-facing slider.</strong> Direct summer sun through glass can push plank temperature past what the foam likes, and the floor grows toward the wall. Leave the full expansion gap and use SPC in that room."
+    },
+    {
+     "icon": "thermo",
+     "html": "<strong>Either core installed cold.</strong> Planks stored in an unheated garage in January and clicked together the same day will gap when the house warms. Both cores need 48 hours indoors first."
+    },
+    {
+     "icon": "search",
+     "html": "<strong>Buying by acronym alone.</strong> A cheap SPC with a 6 mil wear layer will scratch before a good WPC with 20 mil. Compare the whole spec sheet, and see our <a href=\"/services/lvp-vinyl-flooring\">vinyl plank installation</a> page for the planks we bring to the house."
+    }
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Is SPC or WPC more durable?",
+   "a": "SPC is more durable against dents and heavy loads because its limestone core is far denser. Surface scratch resistance depends on the wear layer, not the core, so a 20 mil WPC can outlast a 12 mil SPC on scratches. For an all-around family floor, a 20 mil SPC is the safer buy."
+  },
+  {
+   "q": "Is SPC or WPC more expensive?",
+   "a": "WPC usually costs more per square foot for a comparable wear layer because the thicker foamed core uses more material. SPC has become the volume product and is generally the cheaper of the two. Wills Flooring's installation labor is $2.50 per sq ft for either, so only the plank line changes."
+  },
+  {
+   "q": "Is WPC really waterproof, or just water resistant?",
+   "a": "The WPC plank itself is waterproof; the core will not swell or delaminate when wet. What is not waterproof is the seam and the subfloor beneath it. Standing water can still reach plywood through the joints, so a leak under either core should be dried out promptly regardless of what the box says."
+  },
+  {
+   "q": "Can I put SPC on the lower level of a Lynnwood split-level?",
+   "a": "Yes, and it is usually the better core for that space. Lower levels in 1960s to 1980s split-levels are often slab on grade with some moisture vapor. SPC is stable over concrete, and we install it over a vapor-rated underlayment after checking the slab for moisture and flatness at the estimate."
+  },
+  {
+   "q": "Does WPC feel warmer than SPC?",
+   "a": "Yes, noticeably. The air pockets in a WPC core insulate slightly, so it does not pull heat from bare feet the way a dense SPC does. In a bedroom that difference is pleasant. In a kitchen most people stop noticing after a week, especially with an attached pad on the SPC."
+  },
+  {
+   "q": "Can I mix SPC and WPC in the same house?",
+   "a": "Yes, if they are from the same color line or a close match and separated at a doorway or stair. Many Lynnwood homes we do use SPC on the main level and WPC in bedrooms. We do not click the two together in one continuous run because the locking systems and thicknesses differ."
+  }
+ ],
+ "faq_title": "SPC and WPC questions from the Lynnwood showroom",
+ "faq_sub": "The ones we hear at the counter on 196th and in the usual Reddit threads.",
+ "related": [
+  [
+   "how-thick-should-vinyl-plank-flooring-be-kirkland",
+   "how thick vinyl plank should be"
+  ],
+  [
+   "rigid-core-vs-flexible-vinyl-plank-edmonds",
+   "rigid core vs flexible vinyl plank"
+  ],
+  [
+   "lvp-vs-laminate-sammamish",
+   "LVP vs laminate"
+  ]
+ ],
+ "cta_title": "Feel both cores in your own house",
+ "cta_sub": "We bring SPC and WPC samples to your Lynnwood home, check the subfloor with a straightedge and hand you a firm written quote on the spot."
+}

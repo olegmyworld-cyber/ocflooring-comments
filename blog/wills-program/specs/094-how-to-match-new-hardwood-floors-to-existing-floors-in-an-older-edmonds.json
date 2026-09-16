@@ -1,0 +1,65 @@
+{
+ "slug": "how-to-match-new-hardwood-floors-to-existing-floors-in-an-older-edmonds",
+ "title": "How to Match New Hardwood Floors to Existing Floors in an Older Edmonds Home",
+ "meta": "Matching new hardwood to old floors in an Edmonds home: lace in unfinished oak, then sand and finish it as one floor. Options and costs from Wills Flooring.",
+ "category": "hardwood",
+ "city": "Edmonds",
+ "time": "9 mins",
+ "date": "2026-12-19T15:00:00.000Z",
+ "keywords": "match new hardwood to existing floors, lace in hardwood flooring, blend new and old hardwood floors, extend hardwood into another room, hardwood floor matching Edmonds, weave in hardwood floor",
+ "offers": [["Hardwood floor installation, engineered or solid", "3.25", "per square foot"], ["Unfinished hardwood installation", "2.75", "per square foot"]],
+ "blocks": [
+  {"type":"quick","eyebrow":"Short answer","lead":"The only way to get a true match is to install unfinished hardwood of the same species and width, lace it into the old boards, then sand and finish the old and new floor together as one.","detail":"Prefinished boards will always read as a second floor, even from the same species. At Wills Flooring's published rates that is $2.75 per sq ft to install the unfinished wood plus $3.99 per sq ft to sand and finish the whole combined area, with a 500 sq ft minimum on each.",
+   "tiles":[{"icon":"hammer","label":"Unfinished install","value":"$2.75 / sq ft"},{"icon":"brush","label":"Sand &amp; finish, all of it","value":"$3.99 / sq ft"},{"icon":"layers","label":"Prefinished install","value":"$3.25 / sq ft"},{"icon":"done","label":"Result","value":"One continuous floor"}],"cta":"Try the calculator"},
+  {"type":"p","html":"The typical Edmonds call goes like this. A 1950s rambler in Seaview or Westgate has red oak in the living room and hall, the kitchen was tiled in 1998, and the owners want to open up the wall and run hardwood through. Or a 1920s house in the Bowl has fir up front and a carpeted addition off the back. The question is the same: can new wood be made to look like 70-year-old wood? Yes, but only one method actually works. Here is how we do it, what it costs, and when we tell people it will not work."},
+  {"type":"h2","text":"Three ways to add hardwood next to old hardwood"},
+  {"type":"cards","cols":3,"items":[
+    {"icon":"done","tag":"True match","title":"Lace in unfinished wood, refinish everything","text":"Remove the threshold, stagger the ends of the old boards, weave new unfinished boards of the same species and width into them, then sand the entire area and apply three coats of Bona finish. There is no seam and no color line. This is the only real match.","gold":true},
+    {"icon":"layers","tag":"Close, with a seam","title":"Prefinished floor plus a transition","text":"Install a prefinished engineered or solid floor in the new room and separate it from the old floor with a flush transition strip at the doorway. Cheaper and faster, but it will always read as a second floor."},
+    {"icon":"palette","tag":"Deliberate contrast","title":"Pick something clearly different","text":"If matching is impossible, stop trying. A different species or a wider plank with a clean threshold looks designed. This is the route for engineered old floors or discontinued species."}
+  ]},
+  {"type":"h2","text":"First, figure out what you have"},
+  {"type":"table","head":["Edmonds home era","What is usually under there","Matching notes"],"rows":[
+    ["1900s to 1930s, the Bowl and near downtown","Old-growth Douglas fir, 3 1/4 in face, sometimes edge-grain","New fir is available but softer and lighter. Lace-in works; expect the new boards to darken toward the old ones over a year or two."],
+    ["1940s to 1960s, Seaview, Westgate, Perrinville","Red oak strip, 2 1/4 in face, 3/4 in thick","Easiest match in the city. Unfinished 2 1/4 in red oak is a stock item. Sand everything together and it disappears."],
+    ["1970s, Esperance and later ramblers","Oak strip or oak parquet, sometimes 3/8 in engineered","Strip oak matches fine. Parquet cannot be laced; use a transition. Thin engineered floors usually cannot take a full sanding."],
+    ["1990s to 2000s remodels","Prefinished engineered oak or maple","Cannot be sanded flush with new wood in most cases. Use a transition or replace the section entirely."]
+   ],"note":"We confirm species, width, thickness and remaining wear layer at the free estimate, usually by pulling a floor register or a threshold."},
+  {"type":"h2","text":"Price your Edmonds hardwood project right now"},
+  {"type":"calc","kind":"hardwood","note":"For a lace-in, price the new area as unfinished hardwood, then add the refinish rate ($3.99 per sq ft) on the combined old and new area. Material and subfloor build-up are quoted at the estimate."},
+  {"type":"h2","text":"How a lace-in actually happens"},
+  {"type":"steps","wide":true,"items":[
+    {"icon":"search","d":"Estimate","text":"We identify species, width and thickness, check how much wood is left above the tongue on the old floor, and measure the subfloor height difference between rooms. Then we source matching unfinished stock through Metropolitan Hardwood."},
+    {"icon":"box","d":"Acclimation, 5 to 10 days","text":"The new wood sits inside the house until its moisture content is within a couple of points of the old floor. Edmonds homes near the water run humid, so we do not skip this."},
+    {"icon":"scissors","d":"Day 1: tear out and stagger","text":"Old tile or carpet comes out. Subfloor is built up so the new boards sit flush. At the old floor's edge we cut back every second or third board a random distance so the joint becomes a staggered zigzag instead of a straight line."},
+    {"icon":"hammer","d":"Day 1 to 2: weave and nail","text":"New boards are fed into the staggered pockets, tongue to groove, and nailed down. Done right, you cannot find the seam."},
+    {"icon":"brush","d":"Day 3 to 5: sand and finish everything","text":"The entire combined floor is sanded to bare wood so old and new start from the same surface, then finished with three coats of Bona water-based. Any stain goes on now."},
+    {"icon":"home","d":"Worked example: Seaview rambler","text":"Existing 600 sq ft of 2 1/4 in red oak, plus 350 sq ft of new kitchen and dining area.","note":"350 × $2.75 = $962.50 install, plus 950 × $3.99 = $3,790.50 refinish, total $4,753 before material and subfloor build-up"}
+  ]},
+  {"type":"h2","text":"When a true match is not possible"},
+  {"type":"compare","a":{"icon":"done","tag":"Lace-in works","title":"Go ahead when","items":["The old floor is solid, 3/4 in thick, with at least 3/32 in of wood above the tongue","Species and board width are still made (red oak, white oak, fir, maple)","The old floor has not been sanded four or more times","You are willing to refinish the old rooms too"]},
+    "b":{"icon":"x","tag":"Use a transition instead","title":"Stop when","items":["The old floor is engineered with a thin wear layer","It is parquet, herringbone or a discontinued species","The old boards are cupped or the subfloor is soft","You only want to refinish the new room and leave the old finish alone"]}},
+  {"type":"callout","icon":"alert","title":"About color: ","text":"Even after sanding, brand-new red oak is slightly pinker and paler than oak that has aged 70 years. On a natural finish the difference fades within a year as the new wood oxidizes. If you want it gone on day one, a light stain over the whole floor at $6.50 per sq ft equalizes everything. Fir is the harder case; new fir starts much lighter and takes longer to catch up."},
+  {"type":"h2","text":"Mistakes that make matched floors look unmatched"},
+  {"type":"list","icons":true,"items":[
+    {"icon":"x","html":"<strong>Butting new boards to a straight line.</strong> A straight joint at the doorway reads as a seam no matter how well the color matches."},
+    {"icon":"x","html":"<strong>Refinishing only the new room.</strong> The old finish has ambered and the new one has not, so the two rooms will never match."},
+    {"icon":"x","html":"<strong>Running the new boards a different direction.</strong> Boards should continue in the same direction as the old ones unless the new room is a deliberate contrast. Which direction that is often depends on joists; see our post on <a href=\"/blog-posts/which-direction-should-hardwood-floors-run-everett\">which way hardwood should run</a>."},
+    {"icon":"x","html":"<strong>Ignoring the height difference.</strong> Old 3/4 in oak over plank subfloor sits at a different height than new wood over plywood. Skipping the build-up leaves a lip at the joint. We shim or add underlayment so the two surfaces meet flush before sanding."},
+    {"icon":"x","html":"<strong>Buying prefinished \"to save the sanding.\"</strong> It saves $3.99 per sq ft on the refinish and costs you a floor that is visibly two floors. If budget is the constraint, a clean transition strip is the honest version of this choice. Compare the options on our <a href=\"/services/hardwood-flooring\">hardwood installation page</a>."}
+  ]}
+ ],
+ "faq": [
+  {"q":"Can you match new hardwood to 70-year-old oak in an Edmonds house?","a":"Yes, if the old floor is solid oak with enough wood left to sand. We lace unfinished oak of the same width into the old boards, sand the entire area together and finish it as one floor. Sanded new oak is slightly paler for the first year, then oxidizes to match."},
+  {"q":"How much does it cost to add hardwood to match my existing floor?","a":"At Wills Flooring's published rates, unfinished hardwood installation is $2.75 per sq ft and refinishing the combined old and new area is $3.99 per sq ft natural or $6.50 with stain. Material, subfloor build-up and old-floor removal are quoted at the free estimate. Each service has a 500 sq ft minimum."},
+  {"q":"Can I match prefinished hardwood to my old floor instead?","a":"You can get close, not identical. Prefinished boards have a factory finish that cannot be sanded flush into an old floor, so you need a transition strip and you accept a visible change. It is the right option when the old floor is engineered or cannot take another sanding."},
+  {"q":"Do I have to refinish the old rooms too?","a":"For a true match, yes. The old finish has ambered and worn for decades and new wood will never match it without sanding both to bare wood. Most Edmonds owners find this a bonus, since a 1950s oak floor usually needs it anyway."},
+  {"q":"What if my old floor is Douglas fir?","a":"Fir can be laced in and refinished the same way, and we do it in older Bowl and downtown Edmonds houses regularly. New fir is lighter and softer than old-growth fir, so the new section starts noticeably paler and takes one to two years to darken. A satin natural finish is the best choice for fir."},
+  {"q":"How long does a lace-in and refinish take?","a":"Plan on five to eight working days for a typical Edmonds project: one to two days for tear-out, build-up and installation, then three to five days for sanding and three coats of finish with cure time between coats. Acclimating the new wood adds about a week before we start."}
+ ],
+ "faq_title": "Matching questions from Edmonds homeowners",
+ "faq_sub": "From estimates in the Bowl, Seaview, Westgate and Perrinville.",
+ "related": [["prefinished-vs-site-finished-hardwood-floors-edmonds","prefinished vs site-finished hardwood"],["hardwood-floor-transitions-and-thresholds-lynnwood","hardwood transitions and thresholds"],["white-oak-vs-red-oak-flooring-seattle","white oak vs red oak"]],
+ "cta_title": "Find out if your Edmonds floor can be matched",
+ "cta_sub": "We identify the species, measure the wear layer, bring matching unfinished samples and give you a firm written quote for the whole job. Free, no obligation."
+}

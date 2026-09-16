@@ -1,0 +1,85 @@
+{
+ "slug": "can-my-hardwood-floors-be-refinished-or-do-they-need-replacing-everett",
+ "title": "Can My Hardwood Floors Be Refinished, or Do They Need Replacing? The Everett Homeowner's Checklist",
+ "meta": "Most Everett hardwood floors can be refinished for $3.99 per sq ft instead of replaced. Wills Flooring's checklist shows how to tell, plus the cases where sanding fails.",
+ "category": "refinish",
+ "city": "Everett",
+ "time": "9 mins",
+ "date": "2026-09-21T15:00:00.000Z",
+ "keywords": "can hardwood floors be refinished or replaced, refinish or replace hardwood floors Everett, how to tell if hardwood floors can be refinished, hardwood floor too thin to refinish, Everett WA floor refinishing",
+ "offers": [["Sand and refinish, natural finish", "3.99", "per square foot"], ["Sand and refinish with stain", "6.50", "per square foot"], ["Screen and recoat", "1.99", "per square foot"]],
+ "blocks": [
+  {"type":"quick","eyebrow":"Short answer","lead":"Most Everett hardwood floors can be refinished; they need replacing only when the wood above the tongue is thinner than about 3/32 in, boards are rotted or badly cupped, or the subfloor under them is failing.","detail":"Refinishing at Wills Flooring costs $3.99 per sq ft all-in for a natural finish, roughly a third of what new hardwood costs once material is included. Run the checklist below and you will know which side of the line your floor is on before anyone quotes you.",
+   "tiles":[{"icon":"ruler2","label":"Minimum wood above tongue","value":"3/32 in"},{"icon":"brush","label":"Refinish, natural","value":"$3.99 / sq ft"},{"icon":"hammer","label":"Replace, labor only","value":"$3.25 / sq ft + material"},{"icon":"refresh","label":"Recoat if finish is intact","value":"$1.99 / sq ft"}]},
+  {"type":"p","html":"We get this call from every part of Everett: a 1915 Riverside house with fir that has gone gray under the windows, a Silver Lake home with builder-grade oak that has been walked on since 1998, a Port Gardner condo where the previous owner's dog left a map of stains. In almost every case the owner has been told by someone, a realtor, a neighbor, a flooring store, that the floor is \"too far gone.\" Usually it isn't. Here is how we actually decide, and how you can decide before we get there."},
+  {"type":"h2","text":"The five-minute checklist"},
+  {"type":"list","icons":true,"items":[
+    {"icon":"ruler2","html":"<strong>Wood thickness.</strong> Solid 3/4 in oak starts with about 1/4 in above the tongue. Each sanding removes 1/32 to 1/16 in. If there is at least 3/32 in left, it can be sanded again. Below that, nails start showing and boards crack."},
+    {"icon":"droplet","html":"<strong>Water damage.</strong> Dark gray or black boards under a window or by a dishwasher can often be sanded out if the wood is still hard. If a screwdriver sinks in, that board is replaced, not refinished."},
+    {"icon":"layers","html":"<strong>Cupping and crowning.</strong> Boards with edges higher than centers are cupped from moisture below. Mild cupping sands flat once the moisture source is fixed. Severe cupping, more than 1/16 in, means the floor may keep moving."},
+    {"icon":"paw","html":"<strong>Pet stains.</strong> Surface stains sand out. Stains that have soaked through the board and blackened the edges usually do not, and those boards get replaced during the refinish."},
+    {"icon":"volume","html":"<strong>Squeaks and bounce.</strong> Squeaks are fixable during a refinish. A bouncy or soft area is a subfloor or joist problem, and no finish fixes that."},
+    {"icon":"search","html":"<strong>Gaps.</strong> Seasonal gaps that open in winter and close in summer are normal in Everett's climate. Gaps you can drop a nickel into year-round point to a dried-out floor or one that has been sanded too many times."}
+  ]},
+  {"type":"h2","text":"How to check wood thickness yourself"},
+  {"type":"steps","wide":true,"items":[
+    {"icon":"vent","d":"Step 1 · Pull a floor register","text":"Lift a heat register and look at the cut edge of the boards. You will see the tongue-and-groove profile and how much wood sits above it."},
+    {"icon":"ruler","d":"Step 2 · Measure above the tongue","text":"A new 3/4 in floor has about 1/4 in. If you measure 3/32 in or more, a full sanding is on the table.","note":"Under 3/32 in: recoat only, or replace"},
+    {"icon":"search","d":"Step 3 · Look for exposed nail heads","text":"Shiny dots along board edges mean the floor has been sanded close to the fasteners. It may still take one careful sanding, but not two."},
+    {"icon":"calendar","d":"Step 4 · Count past sandings","text":"A 1920s Riverside floor has often been sanded three or four times. A 1990s Eastmont floor usually zero or one. History matters as much as age."}
+  ]},
+  {"type":"h2","text":"What refinishing can and cannot fix"},
+  {"type":"table","head":["Problem","Refinish fixes it?","What it takes"],"rows":[
+    ["Scratches, dull or worn finish","Yes","Standard sand and refinish at $3.99 per sq ft, or a $1.99 recoat if the finish is only dull."],
+    ["Gray or sun-faded boards","Yes","Sanding removes the oxidized layer. Fir needs a lighter touch than oak."],
+    ["Surface pet stains","Usually","Sanded out. Deep black edges mean a board swap, quoted per board."],
+    ["Water stains, wood still hard","Usually","Sanded out; a stain coat can blend what remains."],
+    ["Mild cupping","Yes, after the leak is fixed","Floor must dry to normal moisture first, then it sands flat."],
+    ["Rotted or soft boards","No","Boards replaced, then the whole area refinished to match."],
+    ["Floor thinner than 3/32 in","No","Recoat only, or replacement."],
+    ["Bouncy subfloor, failing joists","No","Structural repair first. Refinishing after is optional."]
+  ]},
+  {"type":"h2","text":"Not sure? Answer three questions"},
+  {"type":"quiz","title":"Refinish or replace?","sub":"Answer three questions about your Everett floor. The verdict updates as you go.","min":3,
+   "items":[
+    {"k":"thick","q":"How much wood is above the tongue at a floor register?","opts":[["ok","3/32 in or more"],["thin","Less than 3/32 in"],["unk","I have not checked"]]},
+    {"k":"damage","q":"What is the worst damage?","opts":[["surface","Scratches, dull finish, gray boards"],["stains","Pet or water stains"],["soft","Soft, rotted or badly cupped boards"]]},
+    {"k":"structure","q":"Does any area feel bouncy or soft underfoot?","opts":[["no","No, it is solid"],["yes","Yes, in spots"]]}
+   ],
+   "rules":[
+    {"when":"a.structure==='yes'","h":"Fix the structure first","p":"A soft or bouncy floor points to the subfloor or joists. No amount of sanding fixes that. Once the structure is repaired, most floors can still be refinished rather than replaced."},
+    {"when":"a.thick==='thin'","h":"Recoat or replace","p":"With less than 3/32 in above the tongue, another full sanding risks exposing nails and cracking boards. A screen and recoat at $1.99 per sq ft will refresh an intact finish; otherwise plan for new hardwood."},
+    {"when":"a.damage==='soft'","h":"Replace the damaged boards, refinish the rest","p":"Rotted or badly cupped boards are cut out and replaced with matching stock, then the whole floor is sanded and finished as one. Almost always cheaper than replacing the entire floor."},
+    {"when":"a.damage==='stains'&&a.thick==='ok'","h":"Refinish, with a few board swaps likely","p":"Most stains sand out. The ones that soaked through get replaced during the job. Budget $3.99 per sq ft plus a per-board charge for any replacements."},
+    {"when":"a.thick==='unk'","h":"Probably refinish, but check the register","p":"Surface damage on a floor with unknown thickness is usually a refinish. Pull a heat register and measure, or let us check it at the free estimate."}
+   ],
+   "default":{"h":"Refinish it","p":"Sound wood, enough thickness and only surface damage is the textbook refinishing candidate. Expect $3.99 per sq ft for a natural finish or $6.50 with stain."}},
+  {"type":"h2","text":"Price the refinish for your Everett floor"},
+  {"type":"calc","kind":"refinish","note":"Board replacement, if needed, is quoted per board at the estimate."},
+  {"type":"h2","text":"The Everett floors we see, and what they usually need"},
+  {"type":"cards","cols":2,"items":[
+    {"icon":"home","tag":"1900s to 1920s","title":"Riverside and Bayside fir","text":"Old-growth Douglas fir, soft and beautiful, often sanded several times already. Usually still refinishable once, with a natural finish and satin sheen. We measure thickness before we promise anything."},
+    {"icon":"home","tag":"1940s to 1960s","title":"North Everett and View Ridge oak","text":"Solid 2 1/4 in red oak, thick and forgiving. Almost always a refinish. Common issues are gray boards under old carpet pad and a few pet stains."},
+    {"icon":"home","tag":"1990s to 2000s","title":"Silver Lake and Eastmont builder oak","text":"Prefinished solid or thick engineered oak, usually never sanded. The factory finish is worn but the wood is fresh. A perfect first refinish, and a good time to change the color."},
+    {"icon":"home","tag":"Condos","title":"Port Gardner and waterfront units","text":"Often engineered flooring with a 2 to 4 mm wear layer. Refinishable once if the wear layer is 3 mm or more; otherwise a recoat. We check the edge at a threshold before quoting."}
+  ]},
+  {"type":"h2","text":"When replacing really is the better call"},
+  {"type":"compare","a":{"icon":"done","tag":"Refinish","title":"Refinish when","items":["Wood is 3/32 in or more above the tongue","Damage is finish-deep or limited to a few boards","You like the species and width you already have","You want the job done in 3 to 5 days for $3.99 to $6.50 per sq ft"]},
+    "b":{"icon":"x","tag":"Replace","title":"Replace when","items":["Thin wood or nails already showing across the floor","Long-term leak has rotted or badly cupped a large area","Engineered flooring with a wear layer under 2 mm","You want wide plank or a different species, and refinishing would just delay that spend"]}},
+  {"type":"callout","icon":"alert","title":"Get a second opinion before you tear it out: ","text":"Replacing a 900 sq ft Everett floor costs 900 × $3.25 = $2,925 in labor plus material and removal. Refinishing the same floor is 900 × $3.99 = $3,591 all-in. If anyone tells you a solid floor is unsalvageable, have us measure it first. Our estimate is free and the showroom is 15 minutes down I-5."},
+  {"type":"p","html":"If the checklist says refinish, the next question is usually whether you need a full sanding at all. Our post on <a href=\"/blog-posts/refinish-or-recoat-kirkland\">refinishing vs recoating</a> covers how to tell, and the <a href=\"/services/floor-refinish\">refinishing service page</a> lists everything that is included."}
+ ],
+ "faq": [
+  {"q":"How many times can a solid hardwood floor be refinished?","a":"A 3/4 in solid floor typically takes four to six full sandings over its life, depending on how aggressive each one was. Each sanding removes roughly 1/32 to 1/16 in. Once less than 3/32 in remains above the tongue, you are limited to screen-and-recoat, which removes almost nothing."},
+  {"q":"Can pet stains be sanded out of hardwood floors?","a":"Surface stains and light discoloration usually sand out. Urine that has soaked through and turned the board edges black has chemically changed the wood, and those boards are cut out and replaced during the refinish. A stain coat can help blend any faint marks that remain."},
+  {"q":"Can water-damaged hardwood floors be refinished?","a":"Yes, if the wood is still hard and the moisture source is fixed. Gray and black staining sands out, and mild cupping flattens as the floor dries. Soft, rotted or severely cupped boards are replaced first. We test moisture content before scheduling any sanding."},
+  {"q":"Is it cheaper to refinish or replace hardwood floors in Everett?","a":"Refinishing is almost always cheaper. Wills Flooring refinishes for $3.99 per sq ft all-in for a natural finish. New hardwood is $3.25 per sq ft for labor alone, before material, removal and prep. Replacement makes sense only when the wood is too thin or structurally damaged."},
+  {"q":"Can engineered hardwood floors be refinished?","a":"It depends on the wear layer. Engineered floors with a 3 mm or thicker veneer can take one careful sanding. Thinner wear layers, common in condos and builder-grade product, should only be screened and recoated. We check the exposed edge at a threshold or register before we quote."},
+  {"q":"How do I know if my floor has been sanded before?","a":"Look at a floor register cutout for reduced wood above the tongue, check for exposed nail heads along board edges, and look for dished areas near walls where an edger was used. In older Everett neighborhoods like Riverside, assume at least one prior sanding until proven otherwise."}
+ ],
+ "faq_title": "Refinish-or-replace questions from Everett homeowners",
+ "faq_sub": "Straight answers from the crew that checks the floor before quoting it.",
+ "related": [["how-much-does-it-cost-to-refinish-hardwood-floors-in-seattle","what refinishing costs in Seattle"],["refinish-or-recoat-kirkland","refinish vs recoat"],["can-engineered-hardwood-floors-be-refinished-snohomish","refinishing engineered floors"]],
+ "cta_title": "Find out what your Everett floor can take",
+ "cta_sub": "We measure the wood thickness, test for moisture and tell you honestly whether to refinish, recoat or replace. Free, in your home, no obligation."
+}

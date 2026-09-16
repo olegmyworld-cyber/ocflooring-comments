@@ -350,7 +350,7 @@ def render_schema(spec):
     cat = CAT[spec["category"]]; url = f"{SITE}/blog-posts/{spec['slug']}"
     faqs = [{"@type":"Question","name":strip_tags(f["q"]),"acceptedAnswer":{"@type":"Answer","text":strip_tags(f["a"])}} for f in spec["faq"]]
     graph = [
-      {"@type":"BlogPosting","@id":url+"#article","headline":spec["title"],"description":spec["meta"],"datePublished":spec["date"][:10],"dateModified":spec["date"][:10],"inLanguage":"en-US","mainEntityOfPage":url,
+      {"@type":"BlogPosting","@id":url+"#article","headline":spec["title"],"description":spec["meta"],"datePublished":spec.get("published",spec.get("date","2026-09-16"))[:10],"dateModified":spec.get("date","2026-09-16")[:10],"inLanguage":"en-US","mainEntityOfPage":url,
        "author":{"@type":"Organization","name":"Wills Flooring","url":SITE+"/"},"publisher":{"@type":"Organization","name":"Wills Flooring","url":SITE+"/"},
        "about":{"@type":"Service","name":cat[1]},"keywords":spec.get("keywords","")},
       {"@type":"Service","@id":url+"#service","serviceType":cat[1],"name":cat[1]+(" in "+spec["city"]+", WA" if spec.get("city") else " in Snohomish & King County, WA"),
@@ -445,8 +445,9 @@ def manifest(spec, body):
     cat = CAT[spec["category"]]
     m = {"name": spec["title"], "slug": spec["slug"], "description-small": spec["meta"], "time-to-read": spec.get("time","9 mins"),
             "category-is-connected": cat[0], "features-switch": False,
-            "scheduled-publish-date": spec["date"], "description-big": body}
+            "scheduled-publish-date": spec.get("date"), "description-big": body}
     if spec.get("image"): m["image-main"] = {"url": spec["image"], "alt": spec.get("alt", spec["title"])}
+    if spec.get("id"): m["id"] = spec["id"]   # legacy post: update in place
     return m
 
 def check(body, slug):

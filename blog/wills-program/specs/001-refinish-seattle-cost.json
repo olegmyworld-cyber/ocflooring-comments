@@ -7,64 +7,303 @@
  "time": "9 mins",
  "date": "2026-09-17T15:00:00.000Z",
  "keywords": "hardwood floor refinishing cost Seattle, refinish hardwood floors Seattle WA, cost to refinish wood floors 2026, Seattle floor refinishing price per square foot",
- "offers": [["Sand and refinish, natural finish", "3.99", "per square foot"], ["Sand and refinish with stain", "6.50", "per square foot"], ["Screen and recoat", "1.99", "per square foot"]],
+ "offers": [
+  [
+   "Sand and refinish, natural finish",
+   "3.99",
+   "per square foot"
+  ],
+  [
+   "Sand and refinish with stain",
+   "6.50",
+   "per square foot"
+  ],
+  [
+   "Screen and recoat",
+   "1.99",
+   "per square foot"
+  ]
+ ],
  "blocks": [
-  {"type":"quick","eyebrow":"Short answer","lead":"In Seattle, refinishing hardwood floors costs $3.99 per sq ft for a natural finish, $6.50 with stain, and $1.99 for a screen-and-recoat.","detail":"Those are Wills Flooring's published 2026 rates, with a 500 sq ft minimum. A typical 850 sq ft Seattle main floor lands between $3,400 and $5,500.",
-   "tiles":[{"icon":"dollar","label":"Natural finish","value":"$3.99 / sq ft"},{"icon":"palette","label":"Stained","value":"$6.50 / sq ft"},{"icon":"refresh","label":"Recoat","value":"$1.99 / sq ft"},{"icon":"ruler","label":"Minimum","value":"500 sq ft"}]},
-  {"type":"p","html":"Search Reddit for \"refinish hardwood floors Seattle cost\" and you get quotes from $2 to $9 per square foot and a lot of confused homeowners. The spread is real, but it is not random. Almost all of it comes from four things: whether you actually need sanding, whether you want stain, how many stairs you have, and how much furniture is in the way. This post breaks down each one using our published numbers so you can price your own floor before anyone knocks on your door."},
-  {"type":"h2","text":"What Seattle homeowners actually pay"},
-  {"type":"prices","items":[
-    {"icon":"refresh","tag":"Floor looks dull but no bare wood","price":"$1.99","title":"Screen and recoat","text":"Light abrasion plus one fresh coat of finish. No dust, one day, and you keep the color you have. Only works if the old finish is intact."},
-    {"icon":"brush","tag":"Most popular in Seattle","price":"$3.99","title":"Sand and refinish, natural","text":"Full sanding to bare wood, then three coats of Bona water-based finish. Removes scratches, gray boards and pet stains that have not gone deep.","gold":true},
-    {"icon":"palette","tag":"Change the color","price":"$6.50","title":"Sand, stain and finish","text":"Everything above plus a stain coat and the extra dry time that comes with it. This is how red oak becomes a modern light or espresso floor."}
-   ],"note":"Prices from Wills Flooring's published price list. 500 sq ft minimum. Stairs, dust containment and appliance moves are priced separately below."},
-  {"type":"h2","text":"Why Seattle quotes range so widely"},
-  {"type":"cards","cols":2,"items":[
-    {"icon":"layers","title":"Sanding vs recoating","text":"A recoat is a third of the price of sanding. Many companies only quote full sanding because it pays better. If your finish is dull but not worn through, ask for a recoat first."},
-    {"icon":"palette","title":"Stain adds $2.51 per sq ft","text":"Stain is a second full process: the floor is water-popped, stained, dried overnight and then top-coated. Half of the Seattle floors we stain are going lighter, not darker."},
-    {"icon":"stairs","title":"Stairs are priced per tread","text":"Expect $55 to $75 per tread. A typical Seattle split-level with 13 stairs adds $715 to $975, which explains a lot of the surprise on written quotes."},
-    {"icon":"home","title":"Old Seattle houses","text":"Craftsman and Tudor floors in Ballard, Wallingford and West Seattle are often 90-year-old fir or oak. They sand beautifully but need more patching, and thin fir sometimes limits how many more sandings it can take."}
-  ]},
-  {"type":"h2","text":"Price your Seattle floor right now"},
-  {"type":"calc","kind":"refinish","note":"Seattle parking permits and elevator access for condos are not included; we sort those out at the estimate."},
-  {"type":"h2","text":"Extras that show up on a real Seattle invoice"},
-  {"type":"table","head":["Line item","Wills Flooring price","When it applies"],"rows":[
-    ["Stairs","$55–$75 per tread","Any staircase being refinished. Open-sided and pie treads sit at the top of the range."],
-    ["Dust containment","+$250","Recommended for occupied homes and anyone with allergies. Our sanders are already vacuum-connected; this adds the sealing and air scrubber."],
-    ["Move washer and dryer","+$160 per pair","Laundry rooms with hardwood or when the appliances sit on the work path."],
-    ["Other appliances","+$80 each","Fridge, range and dishwasher moves in kitchens."],
-    ["Board replacement","Quoted on site","Water-damaged or pet-damaged boards that cannot be sanded out."]
-  ],"note":"Furniture moving is handled case by case. Most Seattle customers clear the room themselves or have us move large pieces for a flat fee."},
-  {"type":"h2","text":"Three real-world Seattle examples"},
-  {"type":"steps","wide":true,"items":[
-    {"icon":"home","d":"Ballard bungalow · 620 sq ft","text":"Natural sand and refinish, no stairs, dust containment.","note":"620 × $3.99 + $250 = $2,724"},
-    {"icon":"home","d":"Wallingford split-level · 900 sq ft + 13 stairs","text":"Natural finish, stairs refinished to match.","note":"900 × $3.99 + 13 × $55–$75 = $4,306–$4,566"},
-    {"icon":"home","d":"Capitol Hill condo · 750 sq ft","text":"Sand, stain to a light Scandinavian tone, fridge moved.","note":"750 × $6.50 + $80 = $4,955"}
-  ]},
-  {"type":"h2","text":"When refinishing is not worth it"},
-  {"type":"compare","a":{"icon":"done","tag":"Refinish","title":"Worth it when","items":["Wood is at least 3/32 in above the tongue","Damage is surface scratches, gray finish, light pet stains","You want to keep the character of an original Seattle floor","Budget is under $6 per sq ft"]},
-    "b":{"icon":"x","tag":"Replace","title":"Skip it when","items":["Boards are cupped from a long-term leak","The floor has already been sanded four or more times","Subfloor is soft or bouncy","You want wide-plank or a species the house never had"]}},
-  {"type":"callout","icon":"alert","title":"One Seattle-specific warning: ","text":"Many 1920s to 1950s homes have an old-growth fir floor under carpet. Fir refinishes at the same price as oak but is softer, so a natural finish with no stain and a satin sheen holds up best. We will tell you what you have before we quote."},
-  {"type":"h2","text":"How to get the lowest real price, not the lowest quote"},
-  {"type":"list","icons":true,"items":[
-    {"icon":"search","html":"<strong>Ask whether a recoat is possible.</strong> It is the single biggest saving, and it is only an option while the old finish is still intact."},
-    {"icon":"calendar","html":"<strong>Book in late fall or winter.</strong> Seattle refinishing demand peaks from May to September. Off-season scheduling is easier and we can often bundle rooms."},
-    {"icon":"box","html":"<strong>Clear the rooms yourself.</strong> Every hour a crew spends moving furniture is an hour not sanding."},
-    {"icon":"clipboard","html":"<strong>Get the square footage in writing.</strong> A quote on \"about 1,000 sq ft\" is not a quote. We measure to the foot and bill the measured area, never the whole house."},
-    {"icon":"shield","html":"<strong>Check the warranty.</strong> Wills Flooring backs every refinish with a 1-year workmanship warranty, and we are Bona Certified Craftsmen, which matters for the finish itself."}
-  ]}
+  {
+   "type": "quick",
+   "eyebrow": "Short answer",
+   "lead": "In Seattle, refinishing hardwood floors costs $3.99 per sq ft for a natural finish, $6.50 with stain, and $1.99 for a screen-and-recoat.",
+   "detail": "Those are Wills Flooring's published 2026 rates, with a 500 sq ft minimum. A typical 850 sq ft Seattle main floor lands between $3,400 and $5,500.",
+   "tiles": [
+    {
+     "icon": "dollar",
+     "label": "Natural finish",
+     "value": "$3.99 / sq ft"
+    },
+    {
+     "icon": "palette",
+     "label": "Stained",
+     "value": "$6.50 / sq ft"
+    },
+    {
+     "icon": "refresh",
+     "label": "Recoat",
+     "value": "$1.99 / sq ft"
+    },
+    {
+     "icon": "ruler",
+     "label": "Minimum",
+     "value": "500 sq ft"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "html": "Search Reddit for \"refinish hardwood floors Seattle cost\" and you get quotes from $2 to $9 per square foot and a lot of confused homeowners. The spread is real, but it is not random. Almost all of it comes from four things: whether you actually need sanding, whether you want stain, how many stairs you have, and how much furniture is in the way. This post breaks down each one using our published numbers so you can price your own floor before anyone knocks on your door."
+  },
+  {
+   "type": "h2",
+   "text": "What Seattle homeowners actually pay"
+  },
+  {
+   "type": "prices",
+   "items": [
+    {
+     "icon": "refresh",
+     "tag": "Floor looks dull but no bare wood",
+     "price": "$1.99",
+     "title": "Screen and recoat",
+     "text": "Light abrasion plus one fresh coat of finish. No dust, one day, and you keep the color you have. Only works if the old finish is intact."
+    },
+    {
+     "icon": "brush",
+     "tag": "Most popular in Seattle",
+     "price": "$3.99",
+     "title": "Sand and refinish, natural",
+     "text": "Full sanding to bare wood, then three coats of Bona water-based finish. Removes scratches, gray boards and pet stains that have not gone deep.",
+     "gold": true
+    },
+    {
+     "icon": "palette",
+     "tag": "Change the color",
+     "price": "$6.50",
+     "title": "Sand, stain and finish",
+     "text": "Everything above plus a stain coat and the extra dry time that comes with it. This is how red oak becomes a modern light or espresso floor."
+    }
+   ],
+   "note": "Prices from Wills Flooring's published price list. 500 sq ft minimum. Stairs, dust containment and appliance moves are priced separately below."
+  },
+  {
+   "type": "h2",
+   "text": "Why Seattle quotes range so widely"
+  },
+  {
+   "type": "cards",
+   "cols": 2,
+   "items": [
+    {
+     "icon": "layers",
+     "title": "Sanding vs recoating",
+     "text": "A recoat is a third of the price of sanding. Many companies only quote full sanding because it pays better. If your finish is dull but not worn through, ask for a recoat first."
+    },
+    {
+     "icon": "palette",
+     "title": "Stain adds $2.51 per sq ft",
+     "text": "Stain is a second full process: the floor is water-popped, stained, dried overnight and then top-coated. Half of the Seattle floors we stain are going lighter, not darker."
+    },
+    {
+     "icon": "stairs",
+     "title": "Stairs are priced per tread",
+     "text": "Expect $55 to $75 per tread. A typical Seattle split-level with 13 stairs adds $715 to $975, which explains a lot of the surprise on written quotes."
+    },
+    {
+     "icon": "home",
+     "title": "Old Seattle houses",
+     "text": "Craftsman and Tudor floors in Ballard, Wallingford and West Seattle are often 90-year-old fir or oak. They sand beautifully but need more patching, and thin fir sometimes limits how many more sandings it can take."
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "Price your Seattle floor right now"
+  },
+  {
+   "type": "calc",
+   "kind": "refinish",
+   "note": "Seattle parking permits and elevator access for condos are not included; we sort those out at the estimate."
+  },
+  {
+   "type": "h2",
+   "text": "Extras that show up on a real Seattle invoice"
+  },
+  {
+   "type": "table",
+   "head": [
+    "Line item",
+    "Wills Flooring price",
+    "When it applies"
+   ],
+   "rows": [
+    [
+     "Stairs",
+     "$55–$75 per tread",
+     "Any staircase being refinished. Open-sided and pie treads sit at the top of the range."
+    ],
+    [
+     "Dust containment",
+     "+$250",
+     "Recommended for occupied homes and anyone with allergies. Our sanders are already vacuum-connected; this adds the sealing and air scrubber."
+    ],
+    [
+     "Move washer and dryer",
+     "+$160 per pair",
+     "Laundry rooms with hardwood or when the appliances sit on the work path."
+    ],
+    [
+     "Other appliances",
+     "+$80 each",
+     "Fridge, range and dishwasher moves in kitchens."
+    ],
+    [
+     "Board replacement",
+     "Quoted on site",
+     "Water-damaged or pet-damaged boards that cannot be sanded out."
+    ]
+   ],
+   "note": "Furniture moving is handled case by case. Most Seattle customers clear the room themselves or have us move large pieces for a flat fee."
+  },
+  {
+   "type": "h2",
+   "text": "Three real-world Seattle examples"
+  },
+  {
+   "type": "steps",
+   "wide": true,
+   "items": [
+    {
+     "icon": "home",
+     "d": "Ballard bungalow · 620 sq ft",
+     "text": "Natural sand and refinish, no stairs, dust containment.",
+     "note": "620 × $3.99 + $250 = $2,724"
+    },
+    {
+     "icon": "home",
+     "d": "Wallingford split-level · 900 sq ft + 13 stairs",
+     "text": "Natural finish, stairs refinished to match.",
+     "note": "900 × $3.99 + 13 × $55–$75 = $4,306–$4,566"
+    },
+    {
+     "icon": "home",
+     "d": "Capitol Hill condo · 750 sq ft",
+     "text": "Sand, stain to a light Scandinavian tone, fridge moved.",
+     "note": "750 × $6.50 + $80 = $4,955"
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "When refinishing is not worth it"
+  },
+  {
+   "type": "compare",
+   "a": {
+    "icon": "done",
+    "tag": "Refinish",
+    "title": "Worth it when",
+    "items": [
+     "Wood is at least 3/32 in above the tongue",
+     "Damage is surface scratches, gray finish, light pet stains",
+     "You want to keep the character of an original Seattle floor",
+     "Budget is under $6 per sq ft"
+    ]
+   },
+   "b": {
+    "icon": "x",
+    "tag": "Replace",
+    "title": "Skip it when",
+    "items": [
+     "Boards are cupped from a long-term leak",
+     "The floor has already been sanded four or more times",
+     "Subfloor is soft or bouncy",
+     "You want wide-plank or a species the house never had"
+    ]
+   }
+  },
+  {
+   "type": "callout",
+   "icon": "alert",
+   "title": "One Seattle-specific warning: ",
+   "text": "Many 1920s to 1950s homes have an old-growth fir floor under carpet. Fir refinishes at the same price as oak but is softer, so a natural finish with no stain and a satin sheen holds up best. We will tell you what you have before we quote."
+  },
+  {
+   "type": "h2",
+   "text": "How to get the lowest real price, not the lowest quote"
+  },
+  {
+   "type": "list",
+   "icons": true,
+   "items": [
+    {
+     "icon": "search",
+     "html": "<strong>Ask whether a recoat is possible.</strong> It is the single biggest saving, and it is only an option while the old finish is still intact."
+    },
+    {
+     "icon": "calendar",
+     "html": "<strong>Book in late fall or winter.</strong> Seattle refinishing demand peaks from May to September. Off-season scheduling is easier and we can often bundle rooms."
+    },
+    {
+     "icon": "box",
+     "html": "<strong>Clear the rooms yourself.</strong> Every hour a crew spends moving furniture is an hour not sanding."
+    },
+    {
+     "icon": "clipboard",
+     "html": "<strong>Get the square footage in writing.</strong> A quote on \"about 1,000 sq ft\" is not a quote. We measure to the foot and bill the measured area, never the whole house."
+    },
+    {
+     "icon": "shield",
+     "html": "<strong>Check the warranty.</strong> Wills Flooring backs every refinish with a 1-year workmanship warranty, and we are Bona Certified Craftsmen, which matters for the finish itself."
+    }
+   ]
+  }
  ],
  "faq": [
-  {"q":"How much does it cost to refinish 1,000 sq ft of hardwood floors in Seattle?","a":"At Wills Flooring's published rates, 1,000 sq ft costs $3,990 for a natural finish, $6,500 with stain, or $1,990 for a screen-and-recoat. Stairs, dust containment and appliance moves are extra."},
-  {"q":"Is it cheaper to refinish or replace hardwood floors?","a":"Refinishing is usually a third to half the cost of new hardwood. New engineered hardwood installed by Wills starts at $3.25 per sq ft for labor plus material, so a refinish at $3.99 all-in is almost always the better value if the boards are sound."},
-  {"q":"How long does refinishing take in Seattle?","a":"A natural finish on 800 to 1,000 sq ft takes three to four days including cure time between coats. Stain adds a day. You can walk on the floor in socks after 24 hours and move furniture back after 72."},
-  {"q":"Does the 500 sq ft minimum mean I cannot refinish one small room?","a":"You can, but the job is billed at 500 sq ft. For a 300 sq ft bedroom that means $1,995 at the natural rate. Most Seattle customers add a hallway or a second room to use the minimum fully."},
-  {"q":"Do I need a permit to refinish floors in Seattle?","a":"No. Refinishing is cosmetic work and needs no City of Seattle permit. Condos often require a building notice and elevator reservation, which we help with."},
-  {"q":"Is dustless refinishing really dustless?","a":"Nearly. Our sanders are connected to vacuum systems that capture the majority of dust. The $250 containment option adds plastic sealing of doorways and an air scrubber for occupied homes."}
+  {
+   "q": "How much does it cost to refinish 1,000 sq ft of hardwood floors in Seattle?",
+   "a": "At Wills Flooring's published rates, 1,000 sq ft costs $3,990 for a natural finish, $6,500 with stain, or $1,990 for a screen-and-recoat. Stairs, dust containment and appliance moves are extra."
+  },
+  {
+   "q": "Is it cheaper to refinish or replace hardwood floors?",
+   "a": "Refinishing is usually a third to half the cost of new hardwood. New engineered hardwood installed by Wills starts at $3.25 per sq ft for labor plus material, so a refinish at $3.99 all-in is almost always the better value if the boards are sound."
+  },
+  {
+   "q": "How long does refinishing take in Seattle?",
+   "a": "A natural finish on 800 to 1,000 sq ft takes three to four days including cure time between coats. Stain adds a day. You can walk on the floor in socks after 24 hours and move furniture back after 72."
+  },
+  {
+   "q": "Does the 500 sq ft minimum mean I cannot refinish one small room?",
+   "a": "You can, but the job is billed at 500 sq ft. For a 300 sq ft bedroom that means $1,995 at the natural rate. Most Seattle customers add a hallway or a second room to use the minimum fully."
+  },
+  {
+   "q": "Do I need a permit to refinish floors in Seattle?",
+   "a": "No. Refinishing is cosmetic work and needs no City of Seattle permit. Condos often require a building notice and elevator reservation, which we help with."
+  },
+  {
+   "q": "Is dustless refinishing really dustless?",
+   "a": "Nearly. Our sanders are connected to vacuum systems that capture the majority of dust. The $250 containment option adds plastic sealing of doorways and an air scrubber for occupied homes."
+  }
  ],
  "faq_title": "Seattle refinishing questions we answer every week",
  "faq_sub": "From Google, Reddit and the phone at our Lynnwood showroom.",
- "related": [["hardwood-floor-refinishing-everett-wa-cost-calculator","refinishing prices in Everett"]],
+ "related": [
+  [
+   "hardwood-floor-refinishing-everett-wa",
+   "refinishing prices in Everett"
+  ],
+  [
+   "refinish-or-recoat-kirkland",
+   "refinish or recoat: which one you need"
+  ],
+  [
+   "is-it-worth-refinishing-hardwood-floors-before-selling-a-house",
+   "refinishing before you sell"
+  ]
+ ],
  "cta_title": "Get your exact Seattle price",
  "cta_sub": "We measure, check the wood thickness and hand you a firm written quote on the spot. Free, no obligation, anywhere in Seattle."
 }

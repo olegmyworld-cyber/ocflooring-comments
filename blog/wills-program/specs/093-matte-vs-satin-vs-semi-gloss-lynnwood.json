@@ -1,0 +1,71 @@
+{
+ "slug": "matte-vs-satin-vs-semi-gloss-lynnwood",
+ "title": "Matte vs Satin vs Semi-Gloss: Which Sheen Is Right for Refinished Hardwood Floors?",
+ "meta": "Matte, satin or semi-gloss for refinished hardwood floors? Satin wins for most Lynnwood homes. How each sheen hides scratches and dust, from Wills Flooring.",
+ "category": "refinish",
+ "city": "Lynnwood",
+ "time": "8 mins",
+ "date": "2026-12-18T15:00:00.000Z",
+ "keywords": "matte vs satin hardwood floors, satin vs semi-gloss floor finish, best sheen for hardwood floors, matte hardwood floor finish scratches, hardwood floor sheen levels, Bona finish sheen",
+ "offers": [["Sand and refinish, natural finish", "3.99", "per square foot"], ["Sand and refinish with stain", "6.50", "per square foot"], ["Screen and recoat", "1.99", "per square foot"]],
+ "blocks": [
+  {"type":"quick","eyebrow":"Short answer","lead":"Satin is the right sheen for most refinished hardwood floors. Matte hides scratches best but can look flat and show smudges; semi-gloss shows every scratch, footprint and dust bunny.","detail":"Sheen changes how the floor looks and how it ages, but not what it costs. All three come in the same Bona water-based finish at Wills Flooring's published $3.99 per sq ft natural rate. You choose the sheen at the estimate, and the final coat is the one that sets it.",
+   "tiles":[{"icon":"moon","label":"Matte","value":"Hides most, flattest look"},{"icon":"star","label":"Satin","value":"Best all-rounder"},{"icon":"sun","label":"Semi-gloss","value":"Shows everything"},{"icon":"dollar","label":"Cost difference","value":"$0, same $3.99 / sq ft"}],"cta":"Try the calculator"},
+  {"type":"p","html":"Half the Lynnwood floors we refinish were hiding under carpet in a 1960s or 70s rambler in Alderwood, Meadowdale or Martha Lake. The last finish those oak floors saw was a high-gloss oil-based polyurethane, because that is what everyone used in 1975. So when homeowners pull the carpet up and see shiny amber oak, they assume shiny is what refinished hardwood looks like. It is not. This post explains what sheen actually is, how each level behaves with kids, dogs and low winter sun, and how to pick one you will still like in ten years."},
+  {"type":"h2","text":"What sheen actually measures"},
+  {"type":"cards","cols":2,"items":[
+    {"icon":"sun","title":"It is a reflectance number","text":"Sheen is how much light bounces off the finish at a 60 degree angle, expressed as a percentage. Matte and extra-matte finishes sit roughly in the 5 to 25 range, satin around 35 to 45, semi-gloss around 55 to 65. Gloss is 70 plus."},
+    {"icon":"layers","title":"Only the top coat matters","text":"We apply three coats of Bona water-based finish. The first two are build coats. The last coat is the one you see, so that is where the sheen is set. That also means a screen-and-recoat later can change your sheen without sanding."},
+    {"icon":"palette","title":"Sheen is not color","text":"A matte finish does not make oak lighter and semi-gloss does not make it darker. It changes how deep and wet the wood looks. Higher sheen makes grain and stain look richer; lower sheen makes it look drier and more natural."},
+    {"icon":"shield","title":"Sheen is not durability","text":"A common Reddit thread asks whether matte wears faster. It does not. The protective film is the same product at the same thickness. Matte just has flatting agents mixed in that scatter light. Wear resistance comes from the finish line you choose, not the sheen."}
+  ]},
+  {"type":"h2","text":"Matte, satin and semi-gloss, honestly compared"},
+  {"type":"table","head":["","Matte","Satin","Semi-gloss"],"rows":[
+    ["Scratch visibility","Lowest. Scratches do not catch light.","Low. Fine scratches blend in.","High. Every scratch is a bright line."],
+    ["Dust and pet hair","Shows more, sits on a flat surface","Moderate","Least visible dust, but shows footprints"],
+    ["Footprints and smudges","Can show smudges, especially dark stains","Rarely shows","Shows every sock print"],
+    ["Cleaning","Needs a damp mop; dry dusting streaks","Easy","Easy but shows streaks if not dried"],
+    ["Look","Raw, Scandinavian, modern","Soft glow, classic","Shiny, formal, dated in most homes"],
+    ["Best Lynnwood fit","Light or white oak, modern remodels","Almost everything","Small formal rooms, historic character"]
+   ],"note":"Based on the three Bona water-based sheens we use most. Prices are identical: sheen is a finish choice, not a line item."},
+  {"type":"h2","text":"Price your Lynnwood floor right now"},
+  {"type":"calc","kind":"refinish","note":"Sheen does not change the number. Pick matte, satin or semi-gloss at the estimate and we bring a sample board to your Lynnwood home so you can see it on real oak."},
+  {"type":"h2","text":"Which sheen for which Lynnwood house"},
+  {"type":"steps","wide":true,"items":[
+    {"icon":"home","d":"1960s Alderwood rambler, oak just uncovered","text":"Big west-facing windows and low winter sun raking across the floor. Satin. Semi-gloss would turn every afternoon into a glare show and highlight 50 years of carpet-staple dents.","note":"Typical scope: 850 sq ft × $3.99 = $3,391.50 in satin"},
+    {"icon":"paw","d":"Martha Lake split-level with two dogs","text":"Claw scratches are inevitable. Matte or satin, natural finish, no stain. Dark stain plus high sheen is the worst possible combination for dogs because every scratch shows as a light line.","note":"900 sq ft × $3.99 + 13 stairs × $55 = $4,306"},
+    {"icon":"sparkle","d":"Meadowdale remodel, white oak, light and modern","text":"Matte or extra-matte. This is the one place matte is clearly the right answer. The whole point of the look is wood that reads as raw, and satin starts to add a glow that fights it."},
+    {"icon":"key","d":"Lynnwood townhome being sold","text":"Satin. It photographs well, looks new without looking plastic, and it is what buyers around the light rail corridor expect to see."}
+  ]},
+  {"type":"h2","text":"Sheen mistakes we fix every year"},
+  {"type":"list","icons":true,"items":[
+    {"icon":"x","html":"<strong>Matching the old floor's gloss.</strong> Owners want the new finish to look like the shiny oil-based floor they remember from 1985. Six months later they hate the glare and the scratches. Semi-gloss on a whole main floor is almost never the right call today."},
+    {"icon":"x","html":"<strong>Judging sheen from a wet coat.</strong> Every finish looks glossy when it is wet. Sheen shows only after it dries and, for matte, after it cures for a few days. Do not panic on day one."},
+    {"icon":"x","html":"<strong>Mixing sheens between rooms.</strong> Satin in the living room and semi-gloss in the hall look like two different floors, especially under one continuous run of oak. Pick one sheen for the whole level."},
+    {"icon":"x","html":"<strong>Expecting matte to hide everything.</strong> Matte hides scratches, but it shows dust, smudges and water spots on a dark stain more than satin does. Dark matte floors need more frequent mopping, not less."},
+    {"icon":"x","html":"<strong>Using an acrylic polish to \"add shine\" later.</strong> Those products build a cloudy layer that has to be chemically stripped before a recoat. If you want more sheen, we screen and recoat with a higher-sheen top coat at $1.99 per sq ft instead."}
+  ]},
+  {"type":"callout","icon":"alert","title":"Stain changes the math: ","text":"On a natural oak floor the difference between matte and satin is subtle. On a dark stain it is dramatic. Espresso or dark walnut in matte shows dust and footprints; in semi-gloss it shows scratches like chalk on a blackboard. If you are staining dark at $6.50 per sq ft, satin is the safe middle. See how <a href=\"/blog-posts/hardwood-floor-stain-colors-trending-in-kirkland-for-2026\">stain color trends</a> interact with sheen."},
+  {"type":"h2","text":"How to choose a sheen you will not regret"},
+  {"type":"list","icons":true,"items":[
+    {"icon":"search","html":"<strong>Ask for a sample board in your house.</strong> We bring finished oak boards in matte, satin and semi-gloss to the estimate. Set them on the floor near the biggest window and look at them at noon and at 4 pm."},
+    {"icon":"sun","html":"<strong>Look at the light, not the sample.</strong> Count your windows and note which way they face. West-facing Lynnwood rooms with low afternoon sun push you toward matte or satin. Dim north rooms can handle a little more sheen."},
+    {"icon":"dog","html":"<strong>Be honest about the household.</strong> Dogs, kids under ten, rolling chairs and a gravel driveway all argue for lower sheen. A retired couple with slippers can enjoy semi-gloss in a small den."},
+    {"icon":"refresh","html":"<strong>Remember you can change it.</strong> A <a href=\"/services/floor-refinish\">screen-and-recoat</a> a few years from now can move you from satin to matte or back, as long as the finish is intact. Sheen is the least permanent decision in a refinish."},
+    {"icon":"shield","html":"<strong>Check the product, not just the sheen.</strong> As Bona Certified Craftsmen we use Bona water-based finishes across all three sheens. The finish line drives durability; the sheen drives looks. Ask which product is going on your floor and get it in writing."}
+  ]}
+ ],
+ "faq": [
+  {"q":"Does matte finish scratch more easily than satin or semi-gloss?","a":"No. The finish film is the same product at the same thickness; matte simply has flatting agents that scatter light. Matte hides existing scratches better because they do not catch light, which is why people assume it is tougher. Durability comes from the finish line, not the sheen."},
+  {"q":"Does a different sheen cost more to refinish?","a":"Not at Wills Flooring. Matte, satin and semi-gloss are all the same Bona water-based finish at our published rate of $3.99 per sq ft for a natural refinish or $6.50 with stain. The sheen is set in the final coat and you choose it at the estimate."},
+  {"q":"What sheen do most Lynnwood homeowners choose?","a":"Satin, by a wide margin. It has a soft glow that looks finished without glare, hides fine scratches and dust reasonably well and photographs well for resale. Matte is second and growing, especially on light white oak in modern remodels. Semi-gloss is rare on main floors now."},
+  {"q":"Can I change the sheen without sanding the floor again?","a":"Yes, if the existing finish is intact with no bare wood. A screen-and-recoat lightly abrades the surface and applies one new top coat in the sheen you want, at $1.99 per sq ft with a 500 sq ft minimum. It takes one day and produces very little dust."},
+  {"q":"Is semi-gloss ever the right choice?","a":"Sometimes. Small formal rooms, historic homes where a traditional look matters, or a low-traffic den with no pets. On a busy Lynnwood main floor with windows facing west, semi-gloss shows glare, scratches and footprints daily and most owners end up recoating to satin within a few years."},
+  {"q":"Why does my new matte floor look shiny in spots?","a":"Usually it is not cured yet, or it is a lap mark where two passes of finish overlapped. Bona water-based finishes reach their true sheen after several days of curing. If unevenness remains after two weeks, call us; it is covered by our 1-year workmanship warranty."}
+ ],
+ "faq_title": "Sheen questions from Lynnwood homeowners",
+ "faq_sub": "Asked at the showroom on 196th St SW and at estimates across Alderwood, Meadowdale and Martha Lake.",
+ "related": [["water-based-vs-oil-based-finish-sammamish","water-based vs oil-based finish"],["what-is-the-most-durable-finish-for-hardwood-floors-with-kids-and-dogs","the most durable finish for kids and dogs"],["screening-vs-buffing-vs-sanding-hardwood-floors-lynnwood","screening vs buffing vs sanding"]],
+ "cta_title": "See all three sheens on real oak, in your house",
+ "cta_sub": "We bring matte, satin and semi-gloss sample boards to your Lynnwood home, measure the floor and give you a firm written quote. Free, no obligation."
+}
