@@ -12,7 +12,7 @@
    "type": "quick",
    "eyebrow": "Short answer",
    "lead": "Yes, you can install carpet over radiant floor heat, as long as the carpet and pad together stay under the R-value your system was designed for, usually a combined total of about 2.5 or less, and you use a thin, dense pad instead of a thick foam one.",
-   "detail": "Carpet is an insulator, which is exactly what a heated floor does not want. The trick is choosing a dense, low-pile carpet and a pad made for radiant systems so heat still reaches the room. Wills Flooring installs carpet over hydronic and electric radiant floors across Edmonds and confirms the pad and carpet against the system specs at the free in-home estimate.",
+   "detail": "Carpet is an insulator, which is exactly what a heated floor does not want. The fix is a dense, low-pile carpet and a pad made for radiant systems so heat still reaches the room. Wills Flooring installs carpet over hydronic and electric radiant floors across Edmonds at the published $0.99 per sq ft stretch-in rate and checks both layers against your system specs at the free estimate.",
    "tiles": [
     {
      "icon": "thermo",
@@ -35,11 +35,11 @@
      "value": "Lower than tile"
     }
    ],
-   "cta": false
+   "cta": "Price your rooms"
   },
   {
    "type": "p",
-   "html": "Radiant heat is showing up in more Edmonds remodels every year, especially in the Bowl and Seaview where a full-house remodel gets a hydronic system in the slab or stapled under the subfloor, and in Perrinville and Westgate additions with electric mats. The tile in the bathroom is an easy call. The question comes in the bedrooms, where the owner wants warm floors and a soft surface at the same time. It can be done well. It also gets done badly, usually by picking the carpet first and the pad last. This post covers what to pick, in what order, and where carpet over radiant just does not make sense."
+   "html": "Radiant heat shows up in more Edmonds remodels every year: hydronic in the slab or stapled under the subfloor in Bowl and Seaview remodels, electric mats in Perrinville and Westgate additions. Tile in the bathroom is an easy call. The question comes in the bedrooms, where the owner wants warm floors and a soft surface at once. It gets done badly when the carpet is picked first and the pad last. Here is what to pick, in what order, and where carpet over radiant does not make sense."
   },
   {
    "type": "h2",
@@ -52,22 +52,22 @@
     {
      "icon": "thermo",
      "title": "R-value is the whole story",
-     "text": "Every layer over a radiant tube or cable resists heat flow. Carpet and pad each have an R-value, and they add up. Most systems are designed for a combined total in the low twos; above that the floor surface has to run hotter to heat the room, and many systems simply cannot."
+     "text": "Every layer over a radiant tube or cable resists heat flow. Carpet and pad each have an R-value and they add up. Most systems are designed for a combined total in the low twos; above that the floor has to run hotter than the system can manage."
     },
     {
      "icon": "layers",
      "title": "Pad is the bigger number",
-     "text": "A thick prime foam pad can carry more R-value than the carpet on top of it. A thin, dense rubber, felt or radiant-rated rebond pad carries a fraction of that. Swap only the pad and you can cut the assembly's resistance nearly in half."
+     "text": "A thick prime foam pad can carry more R-value than the carpet on top of it. A thin, dense rubber, felt or radiant-rated rebond carries a fraction of that. Swap only the pad and you cut the assembly's resistance nearly in half."
     },
     {
      "icon": "grid",
      "title": "Dense, low pile conducts best",
-     "text": "Tall, airy plush traps air, and trapped air is insulation. A dense, low-pile cut or loop carpet lets heat through and also wears better in bedrooms and halls. Wool is warmer to the touch but slightly higher in R-value than nylon of the same build."
+     "text": "Tall, airy plush traps air, and trapped air is insulation. A dense, low-pile cut or loop carpet lets heat through and wears better in bedrooms and halls. Wool feels warmer but runs slightly higher in R-value than nylon of the same build."
     },
     {
      "icon": "flame",
      "title": "Output drops, comfort does not",
-     "text": "A carpeted radiant room delivers less heat per square foot than a tiled one, so it warms slower and may need a higher supply temperature. But the surface feels warm at a lower temperature than tile does, so the room feels comfortable sooner than the numbers suggest."
+     "text": "A carpeted radiant room delivers less heat per square foot than a tiled one, so it warms slower. But carpet feels warm at a lower surface temperature than tile, so the room feels comfortable sooner than the numbers suggest."
     }
    ]
   },
@@ -114,16 +114,20 @@
      "Avoid"
     ]
    ],
-   "note": "Ranges are typical manufacturer figures; the number on your carpet and pad spec sheets is what counts. Add the two, and check the total against the limit in your radiant system's manual."
+   "note": "Typical manufacturer figures; the numbers on your own spec sheets are what count. Add the two and check the total against your system's manual."
   },
   {
    "type": "h2",
-   "text": "Scope your Edmonds carpet project"
+   "text": "Price your Edmonds carpet right now"
   },
   {
-   "type": "estimator",
-   "title": "Scope Your Edmonds Carpet Project",
-   "sub": "Tell us the rooms and which ones have radiant heat. We bring low-pile samples and radiant-rated pad to the house, check the system specs and give you a firm written price."
+   "type": "calc",
+   "kind": "carpet",
+   "note": "Labor only. The low-pile carpet and the radiant-rated pad are quoted at the free in-home estimate."
+  },
+  {
+   "type": "p",
+   "html": "Radiant heat does not change the labor rate: $0.99 per sq ft stretch-in, $1.29 glue-down on a slab, $30 per step, 500 sq ft minimum. Three bedrooms and a hall in a Seaview rambler at 780 sq ft is 780 × $0.99 = $772 in labor, plus 780 × $0.45 = $351 to pull and haul the old carpet and pad. The carpet and the low-R pad are quoted at the estimate, and that pad is where this job costs more than a normal one."
   },
   {
    "type": "h2",
@@ -136,25 +140,25 @@
     {
      "icon": "search",
      "d": "Identify the system",
-     "text": "Hydronic tubing in a slab, tubing stapled under a wood subfloor, electric mats over the subfloor, or tubing in panels above it. Each one changes where fasteners can go.",
+     "text": "Tubing in a slab, tubing stapled under a wood subfloor, electric mats, or tubing in panels above the subfloor. Each changes where fasteners can go.",
      "note": "Bring the installation drawings or photos from before the floor was covered."
     },
     {
      "icon": "pin",
      "d": "Map the tubing or cable",
-     "text": "Over a slab or over-subfloor panels, tack strip pins and staples can hit a line. We locate runs by thermal imaging or the layout plan, then place strip and seams away from them.",
+     "text": "Over a slab or over-subfloor panels, pins and staples can hit a line. We locate runs by thermal imaging or the layout plan and set strip and seams clear of them.",
      "note": "Under-subfloor staple-up systems are the easiest: nothing to hit."
     },
     {
      "icon": "layers",
      "d": "Pad and tack strip",
-     "text": "Radiant-rated pad, never thick foam. Over a slab or mats, tack strip is glued or set with short pins along a verified safe line.",
+     "text": "Radiant-rated pad, never thick foam. Over a slab or mats, tack strip is glued or short-pinned along a verified safe line.",
      "note": "Pad seams taped, not stapled, over exposed cable."
     },
     {
      "icon": "thermo",
      "d": "Heat off, then on slowly",
-     "text": "System off or at a low setting during installation so adhesives and stretching behave. After install, bring the temperature up over two or three days rather than all at once.",
+     "text": "System off or low during installation so adhesives and stretching behave. Afterward, bring the temperature up over two or three days.",
      "note": "Same rule as hardwood and vinyl over radiant."
     }
    ]
@@ -195,19 +199,19 @@
   {
    "type": "ul",
    "items": [
-    "Choosing the carpet at the store and letting the installer default to the thickest pad in the truck. The pad decides whether the heat gets through.",
+    "Choosing the carpet first and letting the installer default to the thickest pad in the truck. The pad decides whether heat gets through.",
     "Ignoring the system manual. Most manufacturers publish a maximum floor covering R-value and a maximum surface temperature. Exceeding either can void the system warranty.",
     "Reusing the old thick pad because it looked fine. It was probably chosen for a room that never had heat under it.",
-    "Stapling pad or nailing tack strip over an electric mat without locating the cable. One staple through a cable means a dead zone or a repair through the new carpet.",
+    "Nailing tack strip over an electric mat without locating the cable. One staple through a cable means a dead zone or a repair through the new carpet.",
     "Cranking the thermostat up the day after installation. Rapid heating stresses seams and adhesive before they have settled.",
-    "Expecting tile-level heat output. Carpeted radiant rooms warm more gently; in an Edmonds winter with waterfront humidity they still feel dry and comfortable, just not hot underfoot."
+    "Expecting tile-level heat output. Carpeted radiant rooms warm gently: comfortable in an Edmonds winter, but not hot underfoot."
    ]
   },
   {
    "type": "callout",
    "icon": "thermo",
    "title": "Edmonds zoning tip: ",
-   "text": "Most Edmonds hydronic systems run several zones. If the bedrooms are carpeted and the bath and kitchen are tile, ask your heating contractor to set the carpeted zone to its own supply temperature so the tile does not run cold while the bedroom catches up. Read our post on <a href=\"/blog-posts/carpet-padding-explained-edmonds\">how carpet padding works</a> before choosing the pad."
+   "text": "Most Edmonds hydronic systems run several zones. If the bedrooms are carpeted and the bath is tile, ask your heating contractor to give the carpeted zone its own supply temperature so the tile does not run cold while the bedroom catches up. Read our post on <a href=\"/blog-posts/carpet-padding-explained-edmonds\">how carpet padding works</a> before choosing a pad."
   },
   {
    "type": "h2",
@@ -235,11 +239,11 @@
     },
     {
      "icon": "thermo",
-     "html": "<strong>Who sets the system temperature after install?</strong> Agree with your heating contractor on the ramp-up schedule so nobody blames the carpet or the boiler."
+     "html": "<strong>Who sets the system temperature afterward?</strong> Agree the ramp-up with your heating contractor so nobody blames the carpet or the boiler."
     },
     {
      "icon": "shield",
-     "html": "<strong>Does the carpet warranty allow radiant?</strong> Most do, with a surface temperature cap. Wills Flooring backs the installation with a 1-year workmanship warranty and checks the manufacturer's radiant terms before we order."
+     "html": "<strong>Does the carpet warranty allow radiant?</strong> Most do, with a surface temperature cap. We check the mill's radiant terms before ordering and back the install with a 1-year workmanship warranty."
     }
    ]
   }
@@ -247,7 +251,7 @@
  "faq": [
   {
    "q": "Does carpet block radiant floor heat?",
-   "a": "It reduces it rather than blocking it. Carpet and pad are insulators, so a carpeted radiant room gets less heat per square foot than a tiled one. Keeping the combined R-value of carpet and pad around 2.5 or lower, with a thin dense pad, lets most systems heat the room comfortably."
+   "a": "It reduces it rather than blocking it. Carpet and pad are insulators, so a carpeted radiant room gets less heat per square foot than a tiled one. Keep the combined R-value around 2.5 or lower, with a thin dense pad, and most systems still heat the room comfortably."
   },
   {
    "q": "What is the best carpet pad for radiant heat?",
@@ -259,15 +263,15 @@
   },
   {
    "q": "Can you put carpet over electric radiant floor mats?",
-   "a": "Only if the mat is rated for carpet. Many thin electric mats are designed for tile and stone and their warranties exclude soft floor coverings. Check the mat manufacturer's documentation first; if it allows carpet, the pad rules and cable mapping still apply."
+   "a": "Only if the mat is rated for carpet. Many thin electric mats are made for tile and stone, and their warranties exclude soft floor coverings. Check the maker's documentation first; if it allows carpet, the pad rules and cable mapping still apply."
   },
   {
    "q": "Will tack strip nails damage radiant tubing?",
-   "a": "They can if the tubing sits in the subfloor or directly below it. With under-subfloor staple-up systems there is nothing to hit. Over a slab or over-subfloor panels we locate the runs first and glue or short-pin the strip in a verified safe zone."
+   "a": "They can if the tubing sits in the subfloor or right below it. With staple-up systems under the subfloor there is nothing to hit. Over a slab or over-subfloor panels we locate the runs first, then glue or short-pin the strip in a safe zone."
   },
   {
    "q": "How long after carpet installation can I turn the radiant heat back on?",
-   "a": "Immediately at a low setting, then raise it gradually over two or three days to the normal temperature. A slow ramp lets seams and adhesive settle. The same gradual approach applies whenever the system starts up each fall."
+   "a": "Immediately at a low setting, then raise it gradually over two or three days to normal. A slow ramp lets seams and adhesive settle, and the same approach applies whenever the system starts up each fall."
   }
  ],
  "faq_title": "Carpet and radiant heat questions from Edmonds",
@@ -287,5 +291,17 @@
   ]
  ],
  "cta_title": "Get carpet that lets the heat through",
- "cta_sub": "We bring low-pile samples and radiant-rated pad to your Edmonds home, check them against your system's limits, measure, and hand you a firm written quote on the spot. Free, no obligation."
+ "cta_sub": "We bring low-pile samples and radiant-rated pad to your Edmonds home, check them against your system's limits, measure, and hand you a firm written quote on the spot. Free, no obligation.",
+ "offers": [
+  [
+   "Carpet installation, stretch-in",
+   "0.99",
+   "per square foot"
+  ],
+  [
+   "Carpet installation, glue-down",
+   "1.29",
+   "per square foot"
+  ]
+ ]
 }

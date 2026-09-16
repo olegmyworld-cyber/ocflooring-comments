@@ -11,7 +11,7 @@
   {
    "type": "quick",
    "eyebrow": "Short answer",
-   "lead": "\"Hypoallergenic carpet\" is a marketing term with no legal definition or testing standard behind it. What is real: a short, dense pile that vacuums clean, a synthetic fiber that does not feed dust mites, a Green Label Plus certification for low emissions, and a house kept under 50 percent humidity.",
+   "lead": "\"Hypoallergenic carpet\" is a marketing term with no legal definition or testing standard behind it. What is real: a short, dense pile that vacuums clean, a synthetic fiber that does not feed dust mites, a Green Label Plus certification, and a house kept under 50 percent humidity.",
    "detail": "Wills Flooring brings carpet samples to Everett homes every week, and the allergy question comes up in most of them. This post separates the claims that hold up from the ones printed on the back of the sample board.",
    "tiles": [
     {
@@ -35,11 +35,11 @@
      "value": "Under 50%"
     }
    ],
-   "cta": false
+   "cta": "Price it with the calculator"
   },
   {
    "type": "p",
-   "html": "Everett is a damp city. Riverside and Bayside houses from the 1910s sit on crawlspaces, Silver Lake and Eastmont homes from the 90s have carpet in every bedroom, and Port Gardner condos hold humidity through a long gray winter. Dust mites, which cause more indoor allergy symptoms than anything else, love exactly that. So when a sample board promises hypoallergenic carpet, the real question is whether the carpet and the way you live with it keep mites, dander and pollen from building up. Some of the marketing points at real features. Some of it is just a word."
+   "html": "Everett is a damp city. Riverside and Bayside houses from the 1910s sit on crawlspaces, Silver Lake and Eastmont homes from the 90s have carpet in every bedroom, and Port Gardner condos hold humidity through a long gray winter. Dust mites, which cause more indoor allergy symptoms than anything else, love exactly that. So when a sample board promises hypoallergenic carpet, the real question is whether the carpet and the way you live with it keep mites, dander and pollen from building up."
   },
   {
    "type": "h2",
@@ -56,27 +56,27 @@
     [
      "Hypoallergenic",
      "Marketing",
-     "No agency defines or tests it for carpet. It usually means the fiber is synthetic and the pile is short, which are real features you can check yourself."
+     "No agency defines or tests it for carpet. It usually means a synthetic fiber and a short pile, which are real features you can check yourself."
     ],
     [
      "Green Label Plus",
      "Real",
-     "An independent emissions test run by the Carpet and Rug Institute. It limits VOCs from the carpet, the pad and the adhesive. Look for the logo on the actual product, not the brand."
+     "An independent emissions test from the Carpet and Rug Institute, covering carpet, pad and adhesive. Look for the logo on the product, not the brand."
     ],
     [
      "Antimicrobial fiber treatment",
      "Mostly marketing",
-     "Slows mold growth on the fiber in a lab. Does nothing about dust mites, dander or pollen, which are the allergens that matter."
+     "Slows mold growth on the fiber in a lab. Does nothing about dust mites, dander or pollen."
     ],
     [
      "Stain and soil resistant",
      "Real, indirectly",
-     "Soil-resistant fiber releases dirt to the vacuum more easily, which means fewer trapped particles over time. It is a cleaning benefit that helps allergies."
+     "Soil-resistant fiber releases dirt to the vacuum more easily, so fewer particles stay trapped. A cleaning benefit that helps allergies."
     ],
     [
      "Moisture-barrier pad",
      "Real",
-     "Keeps spills and pet accidents from soaking into the pad and subfloor, where mold and odor start. Worth it in a damp Everett home."
+     "Keeps spills and pet accidents out of the pad and subfloor, where mold and odor start. Worth it in a damp Everett home."
     ]
    ]
   },
@@ -91,17 +91,17 @@
     {
      "icon": "layers",
      "title": "Short, dense pile",
-     "text": "A low loop or a dense short cut pile has less depth for mites and dander to settle into and lets a vacuum reach the backing. Deep frieze and shag hold more and release less. Density matters more than fiber for this."
+     "text": "A low loop or a dense short cut pile has less depth for mites and dander to settle into and lets a vacuum reach the backing. Deep frieze and shag hold more and release less."
     },
     {
      "icon": "wind",
      "title": "A vacuum with a sealed HEPA system",
-     "text": "The carpet is only as clean as the machine. A sealed HEPA vacuum used twice a week removes what the carpet has caught. A leaky bagless unit blows it back into the air, which is the real source of the \"carpet made my allergies worse\" stories."
+     "text": "The carpet is only as clean as the machine. A sealed HEPA vacuum used twice a week removes what the carpet has caught. A leaky bagless unit blows it back into the air."
     },
     {
      "icon": "moisture",
      "title": "Humidity under 50 percent",
-     "text": "Dust mites cannot survive below about 50 percent relative humidity. In Everett that means a dehumidifier in winter, bathroom fans that vent outside, and a dry crawlspace under an older Riverside house. No carpet choice replaces this."
+     "text": "Dust mites cannot survive below about 50 percent relative humidity. In Everett that means a dehumidifier in winter, bath fans that vent outside, and a dry crawlspace under an older Riverside house."
     },
     {
      "icon": "droplet",
@@ -112,12 +112,16 @@
   },
   {
    "type": "h2",
-   "text": "Scope your Everett carpet project"
+   "text": "Price your Everett carpet project"
   },
   {
-   "type": "estimator",
-   "title": "Scope Your Everett Carpet Project",
-   "sub": "Tell us the rooms and stairs. We bring low-pile, Green Label Plus samples to your door, measure, and give you a firm written price on the spot."
+   "type": "p",
+   "html": "None of this costs extra to install. A low, dense, Green Label Plus carpet goes down at the same published labor as the plushest thing on the sample board: <strong>$0.99 per sq ft</strong> stretch-in over pad, $1.29 glue-down, $30 per step, 500 sq ft minimum, plus $0.45 per sq ft to remove the old carpet and pad and $0.25 to move furniture. A Silver Lake upstairs of 900 sq ft with 13 steps is 900 × $0.99 + 13 × $30 = $891 + $390 = $1,281 in labor. The allergy decisions, pile height, density and a moisture-barrier pad, land in the carpet and pad quote, which we write in your house."
+  },
+  {
+   "type": "calc",
+   "kind": "carpet",
+   "note": "Labor only. The carpet and the Green Label Plus pad are quoted at the estimate."
   },
   {
    "type": "h2",
@@ -130,25 +134,25 @@
     {
      "icon": "shield",
      "d": "Nylon",
-     "text": "Synthetic, so it feeds nothing. Resilient enough to be made in dense short piles that vacuum well and hold their shape on stairs. The usual pick for an allergy household that wants carpet to last.",
+     "text": "Synthetic, so it feeds nothing, and resilient enough to be made in dense short piles that vacuum well and hold their shape on stairs. The usual pick for an allergy household.",
      "note": "Ask for a solution-dyed nylon for stain release"
     },
     {
      "icon": "leaf",
      "d": "Triexta",
-     "text": "Synthetic with built-in stain resistance and good soil release. Slightly softer than nylon, which makes it popular in Silver Lake family rooms. Works well in a low, dense construction.",
+     "text": "Synthetic, with built-in stain resistance and good soil release. Slightly softer than nylon, which makes it popular in Silver Lake family rooms.",
      "note": "Check the pile height, not just the brand"
     },
     {
      "icon": "tag",
      "d": "Polyester",
-     "text": "Synthetic and inexpensive, but usually sold in tall, soft piles that trap more. Fine in a low-traffic guest room; a poor choice for the allergy-prone bedroom.",
+     "text": "Synthetic and inexpensive, but usually sold in tall, soft piles that trap more. Fine in a guest room; a poor choice for the allergy-prone bedroom.",
      "note": "Choose it for budget, not for allergies"
     },
     {
      "icon": "tree",
      "d": "Wool",
-     "text": "Natural and low in emissions, but it holds more dust in its scales, sheds fiber for the first months, and a small number of people react to it. Beautiful, but not the allergy pick.",
+     "text": "Natural and low in emissions, but it holds more dust in its scales, sheds fiber for months, and a few people react to it. Beautiful, but not the allergy pick.",
      "note": "Best for a formal room that sees little traffic"
     }
    ]
@@ -158,7 +162,7 @@
    "icon": "alert",
    "gold": true,
    "title": "The first 72 hours matter more than the label: ",
-   "text": "New carpet, pad and any seam sealer release most of their odor in the first three days. Open windows, run fans, and keep an asthmatic child or a sensitive adult out of the room until the smell is gone. Green Label Plus lowers this; it does not eliminate it."
+   "text": "New carpet, pad and seam sealer release most of their odor in the first three days. Open windows, run fans, and keep an asthmatic child or a sensitive adult out of the room until the smell is gone. Green Label Plus lowers this; it does not eliminate it."
   },
   {
    "type": "h2",
@@ -172,7 +176,7 @@
     "title": "Choose a low, dense carpet when",
     "items": [
      "Symptoms are mild and seasonal, mostly pollen",
-     "The room is a bedroom that will be vacuumed twice a week with a sealed HEPA machine",
+     "The room is a bedroom vacuumed twice a week with a sealed HEPA machine",
      "The house holds under 50 percent humidity through winter",
      "You want warmth and quiet in a Port Gardner condo with sound rules"
     ]
@@ -191,7 +195,7 @@
   },
   {
    "type": "p",
-   "html": "For the second column, a hard floor plus a washable area rug gives you the softness without the reservoir. Vinyl plank is the usual pick in Everett bedrooms and basements because it handles moisture; see <a href=\"/blog-posts/carpet-vs-vinyl-plank-for-bedrooms-seattle\">carpet vs vinyl plank for bedrooms</a> for that comparison. We install both, so we have no reason to steer you toward one."
+   "html": "For the second column, a hard floor plus a washable area rug gives you the softness without the reservoir. Vinyl plank is the usual pick in Everett bedrooms and basements because it handles moisture; see <a href=\"/blog-posts/carpet-vs-vinyl-plank-for-bedrooms-seattle\">carpet vs vinyl plank for bedrooms</a>. We install both, so we have no reason to steer you."
   },
   {
    "type": "h2",
@@ -203,23 +207,23 @@
    "items": [
     {
      "icon": "x",
-     "html": "<strong>Buying by the word on the label.</strong> Two carpets can both say hypoallergenic while one is a dense low loop and the other a tall plush. Turn the sample over, check the pile height and the density, and look for the Green Label Plus mark."
+     "html": "<strong>Buying by the word on the label.</strong> Two carpets can both say hypoallergenic while one is a dense low loop and the other a tall plush. Turn the sample over and check the pile height and density."
     },
     {
      "icon": "x",
-     "html": "<strong>Keeping the old pad.</strong> Pad absorbs a decade of dander and spills. Always replace it, and ask for a moisture-barrier pad in rooms with pets or a history of leaks."
+     "html": "<strong>Keeping the old pad.</strong> Pad absorbs a decade of dander and spills. Replace it, and ask for a moisture-barrier pad in rooms with pets."
     },
     {
      "icon": "x",
-     "html": "<strong>Installing over a damp subfloor.</strong> A musty smell in an older Everett house is usually the crawlspace, not the carpet. Fix the moisture first or the new carpet becomes the new mold host."
+     "html": "<strong>Installing over a damp subfloor.</strong> A musty smell in an older Everett house is usually the crawlspace. Fix the moisture first or the new carpet becomes the mold host."
     },
     {
      "icon": "x",
-     "html": "<strong>Skipping the vacuum upgrade.</strong> A low-pile carpet with a bad vacuum is worse than a plush with a good one. The machine is part of the flooring budget."
+     "html": "<strong>Skipping the vacuum upgrade.</strong> A low-pile carpet with a bad vacuum is worse than a plush with a good one. The machine is part of the budget."
     },
     {
      "icon": "x",
-     "html": "<strong>Carpeting the whole house to solve a bedroom problem.</strong> Put the allergy-friendly carpet where the sensitive person sleeps, and use hard floors in the hallways and living areas that carry the most traffic and dirt."
+     "html": "<strong>Carpeting the whole house to solve a bedroom problem.</strong> Put the allergy-friendly carpet where the sensitive person sleeps and use hard floors in the hallways that carry the most dirt."
     }
    ]
   },
@@ -231,10 +235,10 @@
    "type": "ul",
    "items": [
     "Pile height under half an inch and a density you can feel by pressing your thumb into the sample.",
-    "The Green Label Plus logo on the carpet, the pad and any adhesive the installer plans to use.",
+    "The Green Label Plus logo on the carpet, the pad and any adhesive.",
     "Synthetic fiber, ideally nylon or triexta, with soil-release treatment.",
-    "A moisture-barrier pad option for pet rooms and any room over a crawlspace.",
-    "Tack strip installation rather than glue-down where possible, so there is less adhesive in the room."
+    "A moisture-barrier pad for pet rooms and any room over a crawlspace.",
+    "Stretch-in over tack strip rather than glue-down where possible, so there is less adhesive in the room."
    ]
   }
  ],
@@ -245,7 +249,7 @@
   },
   {
    "q": "Does carpet make allergies worse than hard floors?",
-   "a": "It depends on the allergen and the cleaning. Carpet holds particles out of the air until it is disturbed, and a sealed HEPA vacuum removes them. For dust-mite and mold allergies, though, a hard floor is easier to keep clean and dry, and most allergists recommend it in the bedroom."
+   "a": "It depends on the allergen and the cleaning. Carpet holds particles out of the air until it is disturbed, and a sealed HEPA vacuum removes them. For dust-mite and mold allergies, a hard floor is easier to keep clean and dry, and most allergists recommend it in the bedroom."
   },
   {
    "q": "What is Green Label Plus and does it matter?",
@@ -281,5 +285,17 @@
   ]
  ],
  "cta_title": "See the samples that actually help",
- "cta_sub": "We bring low-pile, Green Label Plus carpet and moisture-barrier pad samples to your Everett home, measure, and give you a firm written quote. Free, no pressure."
+ "cta_sub": "We bring low-pile, Green Label Plus carpet and moisture-barrier pad samples to your Everett home, measure, and give you a firm written quote. Free, no pressure.",
+ "offers": [
+  [
+   "Carpet installation, stretch-in",
+   "0.99",
+   "per square foot"
+  ],
+  [
+   "Carpet installation, glue-down",
+   "1.29",
+   "per square foot"
+  ]
+ ]
 }

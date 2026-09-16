@@ -12,12 +12,12 @@
    "type": "quick",
    "eyebrow": "Short answer",
    "lead": "Empty the closets and small items, leave the heavy furniture to the crew if it is in the quote, do not pull the old carpet yourself unless you have agreed to, and expect interior doors to come off for the day.",
-   "detail": "Most Everett carpet jobs are one day per floor. The prep that matters happens the week before: deciding who moves what, who removes the old carpet, and what happens to doors that will not clear the new pile.",
+   "detail": "Most Everett carpet jobs are one day per floor. The prep that matters happens the week before: deciding who moves what, who removes the old carpet, and what happens to doors that will not clear the new pile. Both of those jobs are priced lines, $0.25 and $0.45 per sq ft, on top of the $0.99 per sq ft install.",
    "tiles": [
     {
      "icon": "sofa",
-     "label": "Heavy furniture",
-     "value": "Crew, if quoted"
+     "label": "Furniture moving",
+     "value": "+$0.25 / sq ft"
     },
     {
      "icon": "box",
@@ -26,8 +26,8 @@
     },
     {
      "icon": "truck",
-     "label": "Old carpet",
-     "value": "Crew removes"
+     "label": "Old carpet out",
+     "value": "+$0.45 / sq ft"
     },
     {
      "icon": "frame",
@@ -35,11 +35,11 @@
      "value": "Off for the day"
     }
    ],
-   "cta": "Scope your project"
+   "cta": "Try the calculator"
   },
   {
    "type": "p",
-   "html": "A common Reddit thread asks, \"Installers are coming Tuesday, what do I actually need to do?\" The answer depends on what your quote says, and Everett has every version of the job: a Silver Lake two-story where a Boeing shift worker needs the bedrooms done while the house is empty, a Riverside 1910s home with original doors and uneven floors, and a Port Gardner condo with an elevator to reserve. This is the <a href=\"/services/carpet-installation\">carpet installation</a> checklist we send our own customers, in the order things need to happen."
+   "html": "A common Reddit thread asks, \"Installers are coming Tuesday, what do I actually need to do?\" The answer depends on your quote, and Everett has every version of the job: a Silver Lake two-story emptied while a Boeing shift worker sleeps elsewhere, a Riverside 1910s home with original doors, a Port Gardner condo with an elevator to reserve. This is the <a href=\"/services/carpet-installation\">carpet installation</a> checklist we send our own customers."
   },
   {
    "type": "h2",
@@ -70,19 +70,13 @@
      "Move beds, dressers, sofas, tables",
      "Either",
      "Yes, when it is on the quote",
-     "Tell us at the estimate. It is priced as a line item, not a surprise."
-    ],
-    [
-     "Disconnect electronics, waterbeds, aquariums, pianos",
-     "Yes, or a specialist",
-     "",
-     "We do not move pianos, safes or aquariums."
+     "Tell us at the estimate. It is a priced line, +$0.25 per sq ft, not a surprise."
     ],
     [
      "Remove old carpet, pad and tack strip",
      "Optional",
      "Yes",
-     "Included in our quotes unless you ask to do it yourself."
+     "+$0.45 per sq ft including haul-away, unless you ask to do it yourself."
     ],
     [
      "Take doors off",
@@ -97,7 +91,7 @@
      "Everett condos and townhomes often need a day's notice."
     ]
    ],
-   "note": "Ask for the furniture and tear-out lines to be spelled out on the written quote. That is what removes the day-of argument about who was supposed to do what."
+   "note": "Ask for the furniture and tear-out lines to be spelled out on the written quote. That is what removes the day-of argument about who does what."
   },
   {
    "type": "h2",
@@ -110,33 +104,37 @@
     {
      "icon": "box",
      "title": "You handle the small stuff",
-     "text": "Everything on the floor that fits in a box: shoes, toys, baskets, floor lamps, cords, plants and the contents of closets. Anything on a low shelf that could fall when the wall shakes. Empty dressers of heavy contents if we are moving them; a full dresser is a two-person injury."
+     "text": "Everything on the floor that fits in a box: shoes, toys, baskets, lamps, cords, plants and the contents of closets, plus anything on a low shelf that could fall. Empty dressers of heavy contents if we are moving them."
     },
     {
      "icon": "sofa",
      "title": "The crew handles the big pieces, if quoted",
-     "text": "Beds, dressers, sofas and dining sets move from room to room as we work, then go back at the end. In a bedroom-only job they shift to the hallway or a finished room. Whole-house jobs need a staging plan, usually the garage or the kitchen, which is why we ask at the estimate."
+     "text": "At $0.25 per sq ft, beds, dressers, sofas and dining sets move room to room as we work, then go back at the end. Whole-house jobs need a staging plan, usually the garage or the kitchen, which is why we ask at the estimate."
     },
     {
      "icon": "alert",
      "title": "What no installer moves",
-     "text": "Pianos, gun safes, aquariums, waterbeds, pool tables and most large electronics. Those need a specialty mover or your own arrangements before the day. A grand piano in a Bayside living room has stopped more than one install at 8 a.m."
+     "text": "Pianos, gun safes, aquariums, waterbeds, pool tables and most large electronics. Those need a specialty mover before the day. A grand piano in a Bayside living room has stopped more than one install at 8 a.m."
     },
     {
      "icon": "calendar",
      "title": "Timing for shift workers",
-     "text": "Everett has a lot of Boeing and hospital schedules. If you sleep days, tell us, and we sequence rooms so the bedroom is done first or last. The crew arrives around 8 and a typical main floor is finished by mid afternoon."
+     "text": "Everett runs on Boeing and hospital schedules. If you sleep days, tell us and we sequence rooms so the bedroom is done first or last."
     }
    ]
   },
   {
    "type": "h2",
-   "text": "Scope your Everett carpet project"
+   "text": "Price your Everett carpet project right now"
   },
   {
-   "type": "estimator",
-   "title": "Scope Your Carpet Project",
-   "sub": "Tell us the rooms, the stairs and whether we are moving furniture and removing old carpet. We bring samples and a firm price to your door."
+   "type": "p",
+   "html": "Every prep decision above has a number attached. Installation is <strong>$0.99 per sq ft</strong> stretch-in, <strong>$1.29</strong> glue-down on a slab, <strong>$30 per step</strong> on stairs, with a 500 sq ft minimum. Tear-out with haul-away is <strong>$0.45 per sq ft</strong> and furniture moving is <strong>$0.25</strong>. A Silver Lake two-story, 1,000 sq ft upstairs and 13 stairs with everything handled by us: 1,000 × $0.99 + 13 × $30 + 1,000 × $0.45 + 1,000 × $0.25 = $2,080 labor, plus carpet and pad."
+  },
+  {
+   "type": "calc",
+   "kind": "carpet",
+   "note": "Switch on removal and furniture moving to see what the prep decisions actually cost."
   },
   {
    "type": "h2",
@@ -152,7 +150,7 @@
      "You want one day of disruption instead of a weekend of your own labor",
      "There may be pet stains, mold or an unknown subfloor underneath",
      "The house has stairs; tack strip on stairs is sharp and awkward",
-     "You want disposal handled; Everett transfer station runs cost time and a truck"
+     "You want disposal handled; a transfer station run costs time and a truck"
     ]
    },
    "b": {
@@ -160,10 +158,10 @@
     "tag": "Do it yourself",
     "title": "Choose this when",
     "items": [
-     "The quote gives you a real credit for it, and you have asked",
-     "You are curious what is under it and want to look before the day",
+     "You have asked for it and the quote drops the $0.45 per sq ft removal line",
+     "You want to see what is under the carpet before install day",
      "You can pull every staple and the tack strip without gouging the subfloor",
-     "You can leave the subfloor swept and clean, with nails and debris gone"
+     "You can leave the subfloor swept clean, with nails and debris gone"
     ]
    }
   },
@@ -171,7 +169,7 @@
    "type": "callout",
    "icon": "alert",
    "title": "If you find hardwood under the carpet: ",
-   "text": "Stop and call before the install date. Riverside and Bayside homes from the 1900s to 1920s often have fir or oak under the carpet. You may still want carpet, but you should decide with the wood in view, and the tack strip plan changes so the wood stays refinishable."
+   "text": "Stop and call before the install date. Riverside and Bayside homes from the 1900s to 1920s often have fir or oak under the carpet. You may still want carpet, but decide with the wood in view, and the tack strip plan changes so the wood stays refinishable."
   },
   {
    "type": "h2",
@@ -183,11 +181,11 @@
    "items": [
     {
      "icon": "frame",
-     "html": "<strong>Interior doors come off.</strong> We take them down to work and rehang them at the end. If a thicker pad or a taller pile means a door drags, we tell you. Trimming the bottom of a door is a carpenter's task, not a carpet installer's, and hollow-core doors can only lose so much."
+     "html": "<strong>Interior doors come off.</strong> We take them down to work and rehang them at the end. If a thicker pad or taller pile makes a door drag, we tell you. Trimming a door is a carpenter's task, and hollow-core doors can only lose so much."
     },
     {
      "icon": "grid",
-     "html": "<strong>Baseboards stay.</strong> Carpet is tucked under the baseboard gap. Baseboards set tight to the subfloor in older Everett homes may show a small gap after; a bead of caulk fixes it."
+     "html": "<strong>Baseboards stay.</strong> Carpet is tucked under the baseboard gap. Baseboards set tight to the subfloor in older Everett homes may show a small gap; caulk fixes it."
     },
     {
      "icon": "brush",
@@ -195,7 +193,7 @@
     },
     {
      "icon": "thermo",
-     "html": "<strong>Heat on, windows openable.</strong> Carpet and pad relax and stretch better at room temperature. New carpet has a smell for a day or two; a window cracked open handles it."
+     "html": "<strong>Heat on, windows openable.</strong> Carpet and pad relax and stretch better at room temperature, and new carpet has a smell for a day or two that a cracked window handles."
     }
    ]
   },
@@ -210,12 +208,12 @@
     {
      "icon": "truck",
      "d": "Morning · Arrival and walkthrough",
-     "text": "We confirm the rooms, the carpet and pad, where furniture is going and where we can park the van. In a Port Gardner condo this is when the elevator pad and the quiet-hour window matter."
+     "text": "We confirm the rooms, the carpet and pad, where furniture is going and where the van parks. In a Port Gardner condo this is when the elevator pad and quiet hours matter."
     },
     {
      "icon": "hammer",
      "d": "Mid morning · Tear-out and subfloor",
-     "text": "Old carpet is cut into strips, rolled and hauled with the pad. Staples and tack strip come out, the subfloor is swept and checked for squeaks, soft spots and stains. Anything unexpected gets shown to you before we cover it."
+     "text": "Old carpet is cut into strips, rolled and hauled with the pad. Staples and tack strip come out, the subfloor is swept and checked for squeaks and stains. Anything unexpected is shown to you before we cover it."
     },
     {
      "icon": "layers",
@@ -225,12 +223,12 @@
     {
      "icon": "scissors",
      "d": "Afternoon · Carpet, seams and stretch",
-     "text": "Carpet is rough cut, seamed with a heat iron, then power stretched wall to wall and hooked onto the strip. Edges are tucked, doorways get their transitions, and doors go back on."
+     "text": "Carpet is rough cut, seamed with a heat iron, then power stretched wall to wall onto the strip. Edges are tucked, doorways get transitions, doors go back on."
     },
     {
      "icon": "done",
      "d": "End of day · Furniture back and walkthrough",
-     "text": "Furniture returns, scraps are yours if you want a piece for repairs, and we walk the rooms with you. Vacuuming right away is fine and helps pull up loose fibers from the cut edges."
+     "text": "Furniture returns, scraps are yours if you want a piece for repairs, and we walk the rooms with you. Vacuuming right away is fine."
     }
    ]
   },
@@ -241,21 +239,21 @@
   {
    "type": "ul",
    "items": [
-    "Pets. Carpet day is loud and doors are open. A closed room with a blanket or a day at a friend's house is kinder for everyone.",
-    "Parking. In Riverside and near downtown Everett, street parking near the door saves the crew a lot of carrying.",
-    "The closet floor under a shelving system. Built-in closet systems bolted to the floor need to come out or be planned around.",
-    "Where the leftover carpet goes. Keep a piece the size of a doormat for future repairs; it will match perfectly in a way a new order will not."
+    "Pets. Carpet day is loud and doors are open. A closed room with a blanket, or a day at a friend's house, is kinder for everyone.",
+    "Parking. In Riverside and near downtown Everett, a spot near the door saves the crew a lot of carrying.",
+    "Closet systems bolted to the floor. They need to come out or be planned around.",
+    "Where the leftover carpet goes. Keep a doormat-sized piece for future repairs; it will match in a way a new order never will."
    ]
   }
  ],
  "faq": [
   {
    "q": "Do carpet installers move furniture?",
-   "a": "Most do when it is agreed in advance, and Wills Flooring lists it as a line on the written quote. Beds, dressers, sofas and tables are moved room to room and put back. Pianos, safes, aquariums, waterbeds and large electronics are never moved by the crew and need your own arrangements before the day."
+   "a": "Most do when it is agreed in advance. Wills Flooring lists it as a line on the written quote at $0.25 per sq ft. Beds, dressers, sofas and tables are moved room to room and put back. Pianos, safes, aquariums, waterbeds and large electronics are never moved by the crew."
   },
   {
    "q": "Should I remove the old carpet myself before installation?",
-   "a": "Only if you have asked for it and the quote reflects it. Our quotes include tear-out and disposal, so pulling it yourself rarely saves much and you lose the chance for us to see the subfloor first. If you do it, pull every staple and the tack strip, and sweep the floor clean."
+   "a": "Only if you have asked and the quote reflects it. Tear-out and disposal run $0.45 per sq ft including haul-away, so pulling it yourself saves less than people expect and you lose the chance for us to see the subfloor first. If you do it, pull every staple and the tack strip."
   },
   {
    "q": "Do I need to take the doors off for carpet installation?",
@@ -263,15 +261,15 @@
   },
   {
    "q": "How long does carpet installation take in one day?",
-   "a": "A typical Everett main floor or three bedrooms is one working day, arriving around 8 and finishing mid afternoon, including tear-out. Stairs add several hours. Whole-house jobs with two floors and stairs run two days. Seams and stretching take the same care regardless of the size of the room."
+   "a": "A typical Everett main floor or three bedrooms is one working day, arriving around 8 and finishing mid afternoon, including tear-out. Stairs add several hours at $30 a step. Whole-house jobs with two floors and stairs run two days. Seams and stretching take the same care in any size room."
   },
   {
    "q": "Should I paint before or after new carpet?",
-   "a": "Before. Paint walls and trim ahead of install day so drips land on the old carpet, then do small touch-ups afterward. Baseboards stay in place during carpet installation, so there is no need to wait for them. Never schedule a painter for the same day as the flooring crew."
+   "a": "Before. Paint walls and trim ahead of install day so drips land on the old carpet, then do small touch-ups afterward. Baseboards stay in place during carpet installation, so there is no need to wait for them. Never book a painter for the same day as the flooring crew."
   },
   {
    "q": "Can I vacuum new carpet right away?",
-   "a": "Yes. Vacuuming on day one is fine and helps lift loose fibers left from cutting the edges and seams. Shedding for the first few weeks is normal on cut-pile carpet and is not a defect. Use a vacuum with an adjustable height setting so the beater bar does not fuzz the pile."
+   "a": "Yes. Vacuuming on day one is fine and helps lift loose fibers left from cutting the edges and seams. Shedding for the first few weeks is normal on cut-pile carpet and is not a defect. Use a vacuum with an adjustable height so the beater bar does not fuzz the pile."
   }
  ],
  "faq_title": "Carpet prep questions from Everett homeowners",
@@ -291,5 +289,17 @@
   ]
  ],
  "cta_title": "Book your Everett carpet install",
- "cta_sub": "We bring samples to the house, measure, and put furniture moving and tear-out on the written quote so install day has no surprises. Free estimate anywhere in Everett."
+ "cta_sub": "We bring samples to the house, measure, and put furniture moving and tear-out on the written quote so install day has no surprises. Free estimate anywhere in Everett.",
+ "offers": [
+  [
+   "Carpet installation, stretch-in",
+   "0.99",
+   "per square foot"
+  ],
+  [
+   "Carpet installation, glue-down",
+   "1.29",
+   "per square foot"
+  ]
+ ]
 }

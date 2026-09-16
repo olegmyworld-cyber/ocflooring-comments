@@ -35,11 +35,11 @@
      "value": "Power stretcher"
     }
    ],
-   "cta": false
+   "cta": "Price it with the calculator"
   },
   {
    "type": "p",
-   "html": "The question usually arrives in January from a homeowner in the Edmonds Bowl or up in Seaview: the old carpet has to go before guests arrive, but it has rained for eleven days straight and the house feels damp. Will the new carpet stretch properly? Will it ripple in June when the heat goes off? Fair questions, because carpet does react to temperature and moisture. The answer is that a heated Edmonds house in February is a normal installation environment, and the few real winter risks are easy to manage."
+   "html": "The question usually arrives in January from a homeowner in the Edmonds Bowl or up in Seaview: the old carpet has to go before guests arrive, but it has rained for eleven days straight and the house feels damp. Will the new carpet stretch properly? Will it ripple in June when the heat goes off? Fair questions. The answer is that a heated Edmonds house in February is a normal installation environment."
   },
   {
    "type": "h2",
@@ -52,7 +52,7 @@
     {
      "icon": "thermo",
      "title": "The work happens at room temperature",
-     "text": "Carpet backing, seam tape and pad adhesive are designed to be installed between about 65 and 95°F. Your furnace already holds the house in that range from November to March, so the crew works in the same conditions they would see in July."
+     "text": "Carpet backing, seam tape and pad adhesive are made to be installed between about 65 and 95°F. Your furnace already holds the house in that range from November to March, so the crew works in July conditions."
     },
     {
      "icon": "wind",
@@ -101,7 +101,7 @@
     [
      "Condos in the Bowl",
      "Building humidity is stable, but delivery routes are wet and slick",
-     "Rolls arrive wrapped, runners go down, elevator padding and quiet hours are arranged ahead."
+     "Rolls arrive wrapped, runners go down, and elevator padding and quiet hours are arranged ahead."
     ],
     [
      "Stairs and entry",
@@ -109,7 +109,7 @@
      "Stair carpet is cut last so it sits inside longest."
     ]
    ],
-   "note": "Moisture readings are part of every Wills Flooring estimate. If a subfloor is genuinely wet, we tell you to fix the source first. We do not carpet over a problem."
+   "note": "Moisture readings are part of every Wills Flooring estimate. If a subfloor is genuinely wet, we tell you to fix the source first."
   },
   {
    "type": "h2",
@@ -117,7 +117,7 @@
   },
   {
    "type": "p",
-   "html": "Carpet is a textile with a latex or polyurethane backing. Cold backing is stiff and stretches less for the same force. If an installer stretches a cold carpet only as far as it wants to go that afternoon, the carpet relaxes as the house warms in spring, and the slack shows up as ripples by the first warm week of June. The fix is not to avoid winter. The fix is acclimation plus a power stretcher."
+   "html": "Carpet is a textile with a latex or polyurethane backing. Cold backing is stiff and stretches less for the same force. If an installer stretches a cold carpet only as far as it wants to go that afternoon, the carpet relaxes as the house warms in spring, and the slack shows up as ripples by June. The fix is acclimation plus a power stretcher."
   },
   {
    "type": "steps",
@@ -127,7 +127,7 @@
      "icon": "truck",
      "d": "Delivery day",
      "text": "Rolls arrive wrapped from a heated warehouse and go straight into the room being carpeted, not the garage.",
-     "note": "An Edmonds garage in January is often 40°F. That is storage, not acclimation."
+     "note": "An Edmonds garage in January is 40°F. That is storage, not acclimation."
     },
     {
      "icon": "clock",
@@ -137,7 +137,7 @@
     {
      "icon": "ruler",
      "d": "Power stretch, not knee kick",
-     "text": "A power stretcher braces against the far wall and pulls the carpet about 1 to 1.5 percent in each direction before it hooks the tack strip. A knee kicker alone cannot reach that tension in anything larger than a closet.",
+     "text": "A power stretcher braces against the far wall and pulls the carpet about 1 to 1.5 percent each way before it hooks the tack strip. A knee kicker alone cannot reach that tension in anything bigger than a closet.",
      "note": "This is the single step that prevents summer ripples."
     },
     {
@@ -149,12 +149,16 @@
   },
   {
    "type": "h2",
-   "text": "Scope your Edmonds carpet project"
+   "text": "Price your Edmonds carpet project, any month"
   },
   {
-   "type": "estimator",
-   "title": "Scope Your Edmonds Carpet Project",
-   "sub": "Tell us the rooms and stairs. We bring samples to the house, meter the subfloor and hand you a firm written price on the spot, in any season."
+   "type": "p",
+   "html": "Winter does not change the rate card. Stretch-in over pad is <strong>$0.99 per sq ft</strong>, glue-down $1.29, stairs $30 per step, with a 500 sq ft minimum, $0.45 per sq ft to remove the old carpet and pad and $0.25 to move furniture. A Seaview rambler with 1,100 sq ft and 12 stairs to the daylight basement is 1,100 × $0.99 + 12 × $30 = $1,449 in labor, plus $495 to take the old carpet out. Carpet and pad are quoted at the free estimate, in February the same as in June."
+  },
+  {
+   "type": "calc",
+   "kind": "carpet",
+   "note": "Labor only, the same rate in January as in July. Carpet and pad are quoted at the estimate."
   },
   {
    "type": "h2",
@@ -180,8 +184,8 @@
     "items": [
      "The home is vacant and you cannot run the heat for three days",
      "A basement slab shows active moisture or smells musty after rain",
-     "A leak, gutter overflow or roof issue is still being repaired",
-     "Drywall mud or paint is still drying and humidifying the rooms"
+     "A leak, gutter overflow or roof repair is still in progress",
+     "Drywall mud or paint is still drying in the rooms"
     ]
    }
   },
@@ -190,7 +194,7 @@
    "icon": "alert",
    "gold": true,
    "title": "Vacant house warning: ",
-   "text": "A common Edmonds mistake is carpeting an empty listing with the thermostat at 50°F to save money. The carpet installs stiff, the buyer turns the heat to 70, and the hallway ripples by summer. Run the heat at 65°F for two days before and after, even in an empty house."
+   "text": "A common Edmonds mistake is carpeting an empty listing with the thermostat at 50°F to save money. The carpet installs stiff, the buyer turns the heat to 70, and the hallway ripples by summer. Run the heat at 65°F for two days before and after."
   },
   {
    "type": "h2",
@@ -202,15 +206,11 @@
    "items": [
     {
      "icon": "x",
-     "html": "<strong>Carpet stored in a cold garage or on a covered porch.</strong> A roll that spent the night at 40°F is not ready to stretch and will relax later."
-    },
-    {
-     "icon": "x",
      "html": "<strong>Knee-kicker-only installs.</strong> Cheap crews skip the power stretcher to save time. Cold weather hides how little tension is actually in the carpet."
     },
     {
      "icon": "x",
-     "html": "<strong>Rebond pad on a damp slab.</strong> Standard bonded urethane pad soaks up moisture. Daylight basements in Seaview need a moisture-barrier pad if the slab reads high."
+     "html": "<strong>Rebond pad on a damp slab.</strong> Standard bonded urethane soaks up moisture. Daylight basements in Seaview need a moisture-barrier pad if the slab reads high."
     },
     {
      "icon": "x",
@@ -218,7 +218,7 @@
     },
     {
      "icon": "x",
-     "html": "<strong>Ignoring the old pad's story.</strong> Water stains on the pad or rusty tack strip mean something is getting wet. Winter is when the evidence is freshest. Our post on <a href=\"/blog-posts/why-carpet-buckles-and-ripples-lynnwood\">why carpet buckles and ripples</a> shows what a bad stretch looks like a year later."
+     "html": "<strong>Ignoring the old pad's story.</strong> Water stains on the pad or rusty tack strip mean something is getting wet. Our post on <a href=\"/blog-posts/why-carpet-buckles-and-ripples-lynnwood\">why carpet buckles and ripples</a> shows what a bad stretch looks like a year later."
     }
    ]
   },
@@ -235,10 +235,6 @@
      "html": "<strong>Set the thermostat to 65 to 70°F two days before delivery</strong> and hold it through two days after, including any daylight basement."
     },
     {
-     "icon": "box",
-     "html": "<strong>Clear a dry indoor spot for the rolls.</strong> The room being carpeted works. Not the garage, not the carport."
-    },
-    {
      "icon": "droplet",
      "html": "<strong>Ask for the subfloor moisture reading.</strong> Any installer working in Edmonds in winter should carry a meter and tell you the number."
     },
@@ -248,11 +244,11 @@
     },
     {
      "icon": "home",
-     "html": "<strong>Plan the path from the driveway.</strong> Move cars so the van backs up close and the rolls spend seconds, not minutes, in the rain."
+     "html": "<strong>Plan the path from the driveway.</strong> Move cars so the van backs up close and the rolls spend seconds in the rain."
     },
     {
      "icon": "shield",
-     "html": "<strong>Get the warranty in writing.</strong> Wills Flooring covers workmanship for one year, including restretching if an edge ever loosens. A winter install carries the same warranty as a summer one."
+     "html": "<strong>Get the warranty in writing.</strong> Wills Flooring covers workmanship for one year, including restretching if an edge loosens. A winter install carries the same warranty as a summer one."
     }
    ]
   }
@@ -264,11 +260,11 @@
   },
   {
    "q": "Does Edmonds winter humidity cause carpet to ripple?",
-   "a": "Outdoor humidity does not. Indoor humidity in a heated Edmonds home is moderate all winter. Ripples come from carpet that was stretched cold or with a knee kicker only, then relaxed when the house warmed. Acclimation and a power stretcher prevent it in any month."
+   "a": "Outdoor humidity does not. Indoor humidity in a heated Edmonds home is moderate all winter. Ripples come from carpet stretched cold, or with a knee kicker only, that relaxed when the house warmed. Acclimation and a power stretcher prevent it in any month."
   },
   {
    "q": "How long does carpet need to acclimate in winter?",
-   "a": "Twenty-four hours inside the heated house is the standard. If the rolls came off a cold truck, give them a full day and night. Pad acclimates faster, but let both sit together."
+   "a": "Twenty-four hours inside the heated house is the standard. If the rolls came off a cold truck, give them a full day and night. Pad acclimates faster, but let both sit together in the room being carpeted, not in the garage, and keep the thermostat at 65 to 75°F."
   },
   {
    "q": "Can carpet be installed in a cold basement in winter?",
@@ -280,7 +276,7 @@
   },
   {
    "q": "Is winter cheaper for carpet installation in Edmonds?",
-   "a": "Scheduling is easier and material lead times are shorter in January and February. Wills Flooring quotes every job the same way year-round: we measure, bring samples and give you a firm written number at the free in-home estimate."
+   "a": "Not on the labor line. Stretch-in is $0.99 per sq ft, glue-down $1.29 and stairs $30 a step in January just as in July. What winter saves is time: scheduling is easier and material lead times are shorter, so a January job usually starts sooner than a June one."
   }
  ],
  "faq_title": "Winter carpet questions from Edmonds homeowners",
@@ -300,5 +296,17 @@
   ]
  ],
  "cta_title": "Book your Edmonds carpet install this winter",
- "cta_sub": "We bring samples to the house, meter the subfloor and hand you a firm written price on the spot. Free, no obligation, rain or shine."
+ "cta_sub": "We bring samples to the house, meter the subfloor and hand you a firm written price on the spot. Free, no obligation, rain or shine.",
+ "offers": [
+  [
+   "Carpet installation, stretch-in",
+   "0.99",
+   "per square foot"
+  ],
+  [
+   "Carpet installation, glue-down",
+   "1.29",
+   "per square foot"
+  ]
+ ]
 }

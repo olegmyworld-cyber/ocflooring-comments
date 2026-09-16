@@ -12,7 +12,7 @@
    "type": "quick",
    "eyebrow": "Short answer",
    "lead": "The best carpet for stairs is a dense, low-pile cut carpet in solution-dyed nylon, installed over a thin, firm pad and wrapped tight at every nosing.",
-   "detail": "Stairs wear out three to five times faster than any room in the house because every foot lands on the same three inches of each tread. Fiber resilience, pile density and a pad that does not flex are what keep a staircase looking new. Thick, soft and loopy are the three words to avoid.",
+   "detail": "Stairs wear out three to five times faster than any room because every foot lands on the same three inches of each tread. Fiber resilience, pile density and a pad that does not flex are what keep a staircase looking new. Labor is $30 per step at Wills Flooring; thick, soft and loopy are the three words to avoid.",
    "tiles": [
     {
      "icon": "star",
@@ -30,16 +30,16 @@
      "value": "Thin and firm"
     },
     {
-     "icon": "x",
-     "label": "Avoid",
-     "value": "Thick plush, Berber"
+     "icon": "dollar",
+     "label": "Stair labor",
+     "value": "$30 per step"
     }
    ],
-   "cta": false
+   "cta": "Price your stairs"
   },
   {
    "type": "p",
-   "html": "Lynnwood is a staircase town. The split-levels and tri-levels built in Alderwood, Meadowdale and Martha Lake between the 1960s and 1980s have two short flights that every trip to the kitchen crosses, and the new townhomes going up near the light rail station stack three stories of stairs. So when a Lynnwood homeowner asks us which carpet to use on the stairs, the honest answer is: the toughest one in the house, chosen differently from the bedroom carpet, even if it is the same color."
+   "html": "Lynnwood is a staircase town. The split-levels and tri-levels built in Alderwood, Meadowdale and Martha Lake between the 1960s and 1980s have two short flights that every trip to the kitchen crosses, and the new townhomes near the light rail station stack three stories of stairs. So when a Lynnwood homeowner asks which carpet to use on the stairs, the honest answer is: the toughest one in the house, chosen differently from the bedroom carpet."
   },
   {
    "type": "h2",
@@ -64,13 +64,13 @@
     {
      "icon": "grid",
      "title": "Density over thickness",
-     "text": "Push your thumb into the sample. If you can feel the backing easily, the pile is too sparse for stairs. Look for a face weight around 40 oz and up, a tight twist and a pile height under half an inch. Short and dense outlasts tall and plush on a stair every time.",
+     "text": "Push your thumb into the sample. If you can feel the backing easily, the pile is too sparse for stairs. Look for a face weight of 40 oz and up, a tight twist and a pile under half an inch. Short and dense outlasts tall and plush on a stair.",
      "gold": false
     },
     {
      "icon": "layers",
      "title": "The pad is the hidden variable",
-     "text": "A thick, cushy pad lets the carpet flex over the nosing with every step, which breaks down the backing and loosens the wrap. Stairs want a thin, dense pad, about 3/8 in at 8 lb density, so the carpet stays tight and the tread feels firm underfoot.",
+     "text": "A thick, cushy pad lets the carpet flex over the nosing with every step, which breaks down the backing and loosens the wrap. Stairs want a thin, dense pad, about 3/8 in at 8 lb density, so the carpet stays tight underfoot.",
      "gold": false
     }
    ]
@@ -85,7 +85,7 @@
    "items": [
     {
      "icon": "done",
-     "html": "<strong>Low pile for sure footing.</strong> Deep pile rolls under the ball of the foot on the way down. A low, dense cut pile gives a flat, predictable surface, which matters for kids taking the stairs at a run and for anyone with a cane."
+     "html": "<strong>Low pile for sure footing.</strong> Deep pile rolls under the ball of the foot on the way down. A low, dense cut pile gives a flat, predictable surface, which matters for kids taking the stairs at a run."
     },
     {
      "icon": "lock",
@@ -93,7 +93,7 @@
     },
     {
      "icon": "sun",
-     "html": "<strong>Contrast and pattern.</strong> Split-level stairwells are dim. A carpet with a subtle pattern or a tone that contrasts with the walls helps the eye read each tread edge. Solid, high-sheen carpets hide the edges and cause missteps."
+     "html": "<strong>Contrast and pattern.</strong> Split-level stairwells are dim. A subtle pattern or a tone that contrasts with the walls helps the eye read each tread edge. Solid, high-sheen carpets hide the edges and cause missteps."
     },
     {
      "icon": "home",
@@ -101,7 +101,7 @@
     },
     {
      "icon": "hammer",
-     "html": "<strong>Fix squeaks and loose treads first.</strong> We screw down loose treads and shim risers before a single piece of carpet goes on. A squeak you can hear becomes a wobble you can feel once the carpet hides it."
+     "html": "<strong>Fix squeaks and loose treads first.</strong> We screw down loose treads and shim risers before any carpet goes on. A squeak you can hear becomes a wobble you can feel once carpet hides it."
     }
    ]
   },
@@ -150,13 +150,13 @@
    "text": "Scope your Lynnwood stair project"
   },
   {
-   "type": "estimator",
-   "title": "Scope Your Stair Carpet Project",
-   "sub": "Count the treads and tell us about the landing. We bring dense stair-grade samples to your door and quote a firm price per stair on the spot."
+   "type": "calc",
+   "kind": "carpet",
+   "note": "Labor only, stairs at $30 per step. The carpet and pad are quoted at your free estimate."
   },
   {
    "type": "p",
-   "html": "We do not publish a per-stair carpet price because a straight closed flight, an open-sided flight with a bullnose and a pie-turn landing are three different jobs, and the carpet grade you choose changes the material line. The showroom on 196th St SW is a few minutes from anywhere in Lynnwood, so the easiest way to a real number is to let us count the treads with you and write it down."
+   "html": "Stair labor is published and simple: <strong>$30 per step</strong>, and a landing counts as a step. A Lynnwood split-level with two flights of 7 plus a landing is 15 x $30 = $450 in labor, plus carpet and pad quoted at the estimate. A straight closed flight, an open-sided bullnose and a pie-turn landing all take different amounts of work, but the rate does not change. If we are carpeting rooms on the same visit, those are $0.99 per sq ft with a 500 sq ft minimum."
   },
   {
    "type": "h2",
@@ -191,7 +191,7 @@
    "type": "callout",
    "icon": "alert",
    "title": "A Reddit question we get in person too: ",
-   "text": "\"Can I just use the leftover bedroom carpet on the stairs?\" Only if it passes the thumb test and is a cut pile. Otherwise the bedrooms will look new in five years while the stairs look ten years old, and you will replace the stairs alone, which is the most expensive way to buy carpet."
+   "text": "\"Can I just use the leftover bedroom carpet on the stairs?\" Only if it passes the thumb test and is a cut pile. Otherwise the bedrooms look new in five years while the stairs look ten years old, and you end up recarpeting the stairs alone."
   },
   {
    "type": "h2",
@@ -203,7 +203,7 @@
    "items": [
     {
      "icon": "x",
-     "html": "<strong>Berber and loop pile on stairs.</strong> Loops snag on shoes, claws and vacuums, and the tight backing does not bend cleanly around a nosing. The frayed edge that results cannot be repaired."
+     "html": "<strong>Berber and loop pile on stairs.</strong> Loops snag on shoes, claws and vacuums, and the tight backing does not bend cleanly around a nosing. The frayed edge cannot be repaired."
     },
     {
      "icon": "layers",
@@ -219,7 +219,7 @@
     },
     {
      "icon": "clipboard",
-     "html": "<strong>Skipping the count.</strong> Stairs are quoted per tread, and a landing counts. We measure every step at the free estimate so the written price is the final price. See our <a href=\"/services/carpet-installation\">carpet installation page</a> for what is included."
+     "html": "<strong>Skipping the count.</strong> Stairs are billed per step at $30, and a landing counts. We count every step at the free estimate so the written price is the final price. See our <a href=\"/services/carpet-installation\">carpet installation page</a> for what is included."
     }
    ]
   }
@@ -243,7 +243,7 @@
   },
   {
    "q": "Waterfall or Hollywood: which is better?",
-   "a": "Hollywood, also called cap and band, wraps each nosing tightly and looks tailored on open or bullnose stairs. Waterfall drapes straight down and suits closed flights and thicker carpets. Hollywood takes more labor per stair. Both are safe when installed tight; neither is inherently more durable."
+   "a": "Hollywood, also called cap and band, wraps each nosing tightly and looks tailored on open or bullnose stairs. Waterfall drapes straight down and suits closed flights and thicker carpets. Hollywood takes more labor per stair, but our rate is the same $30 per step either way. Both are safe when installed tight."
   },
   {
    "q": "Can I put a carpet runner over hardwood stairs?",
@@ -267,5 +267,17 @@
   ]
  ],
  "cta_title": "Let us count your treads",
- "cta_sub": "Free in-home estimate anywhere in Lynnwood. We bring stair-grade nylon samples, measure every tread and landing, and hand you a firm written price before we leave."
+ "cta_sub": "Free in-home estimate anywhere in Lynnwood. We bring stair-grade nylon samples, measure every tread and landing, and hand you a firm written price before we leave.",
+ "offers": [
+  [
+   "Carpet installation, stretch-in",
+   "0.99",
+   "per square foot"
+  ],
+  [
+   "Carpet installation, glue-down",
+   "1.29",
+   "per square foot"
+  ]
+ ]
 }

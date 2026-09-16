@@ -8,62 +8,293 @@
  "date": "2026-11-27T15:00:00.000Z",
  "keywords": "carpet seams visible, where should carpet seams go, how to hide carpet seams, carpet seam placement rules, carpet seams showing after installation",
  "blocks": [
-  {"type":"quick","eyebrow":"Short answer","lead":"Carpet seams go where they get the least foot traffic and the least raking light, run with the pile in one direction, and are heat-bonded and edge-sealed so they never fray.","detail":"Nearly every room wider than 12 feet needs at least one seam because that is how wide most carpet comes. A good seam is not invisible on day one because of magic. It is invisible because of where it sits and how it was cut.",
-   "tiles":[{"icon":"ruler","label":"Standard roll width","value":"12 ft"},{"icon":"sun","label":"Run seams","value":"Toward the window"},{"icon":"flame","label":"Bonded with","value":"Heat seam tape"},{"icon":"droplet","label":"Edges","value":"Always sealed"}],"cta":false},
-  {"type":"p","html":"A common Reddit thread goes like this: new carpet, three weeks in, and there is a line across the living room that the homeowner swears was not there at the walk-through. Usually it was there. It just was not lit yet. Winter sun coming low through a south window in a Lynnwood rambler will find a seam that a cloudy July afternoon never showed. This post covers why seams exist, where a careful installer puts them, how they are made, and which carpets hide them best."},
-  {"type":"h2","text":"Why your room needs a seam at all"},
-  {"type":"cards","cols":2,"items":[
-    {"icon":"ruler","title":"Carpet is 12 feet wide","text":"Most residential carpet is woven on a 12 ft loom. Some styles come in 13 ft 6 in or 15 ft widths, which can eliminate a seam in a 13 or 14 ft room, but the selection is smaller and the price per yard is usually higher."},
-    {"icon":"home","title":"Lynnwood rooms are wider than 12 feet","text":"The 1960s to 80s ramblers and split-levels around Alderwood and Meadowdale typically have 13 to 16 ft living rooms and L-shaped family rooms. Almost all of them need one seam. Long hallways with a bedroom wing add a second."},
-    {"icon":"scissors","title":"Fewer seams means more waste","text":"An installer can sometimes avoid a seam by turning the carpet 90 degrees, but that can cost 20 to 30 percent more carpet. On a large room, the seam is usually the cheaper and better-looking answer."},
-    {"icon":"grid","title":"Pattern repeats force seams","text":"Patterned carpet has to line up at every seam. The installer cuts extra to match the repeat, which adds waste but keeps the pattern continuous. If the pattern drifts across the seam, the seam shows no matter how well it is bonded."}
-  ]},
-  {"type":"h2","text":"Where a seam should and should not go"},
-  {"type":"table","head":["Location","Seam placement rule","Why"],"rows":[
-    ["Living room with a big window","Run the seam toward the window, not across the light","Light raking across a seam casts a tiny shadow line. Light running along it does not."],
-    ["Hallway to bedroom wing","Seam runs down the length of the hall, never across it","A cross-hall seam sits under every footstep and wears open."],
-    ["Doorways","Seam sits under the closed door, in the door jamb line","The transition hides it and no one pivots on it."],
-    ["Stairs","No seams on treads; each tread is a separate cut","A seam on a stair nose fails fast under heel traffic."],
-    ["Closets","Put the seam inside the closet if the math allows","Closets are the least-seen square footage in the house."],
-    ["Open-plan great room","Seam along the sofa line or under a rug zone","Furniture and rugs cover it, and the walking lane stays seam-free."]
-  ],"note":"These are the rules we lay out on paper before a single cut. On a free estimate we sketch the seam diagram for you so there are no surprises."},
-  {"type":"h2","text":"Scope your Lynnwood carpet project"},
-  {"type":"estimator","title":"Scope Your Lynnwood Carpet Project","sub":"Tell us the rooms and stairs. We bring the samples to your door, measure, draw the seam plan and give you a firm written price."},
-  {"type":"h2","text":"How a professional seam is actually made"},
-  {"type":"steps","wide":true,"items":[
-    {"icon":"search","d":"1. Check pile direction","text":"Both pieces must come off the roll the same way. Pile that leans opposite directions across a seam looks like two different colors even from the same dye lot."},
-    {"icon":"scissors","d":"2. Row-cut, not straight-cut","text":"On cut-pile carpet the installer parts the pile and cuts between rows from the back. A straight cut through the face leaves a fuzzy edge that never closes."},
-    {"icon":"droplet","d":"3. Seal both edges","text":"A bead of latex seam sealer goes on each cut edge. Skipping this is the number one cause of seams that unravel in year two."},
-    {"icon":"flame","d":"4. Heat-bond the tape","text":"Hot-melt seam tape sits under the joint and a seaming iron melts it as the installer walks the seam, pressing the two edges together while the adhesive is soft."},
-    {"icon":"hammer","d":"5. Stretch last","text":"The carpet is power-stretched onto the tack strip only after the seam is bonded and cooled. Stretching first pulls the seam apart."}
-  ]},
-  {"type":"h2","text":"Which carpets hide seams and which show them"},
-  {"type":"compare","a":{"icon":"done","tag":"Hides seams well","title":"Choose these if seams worry you","items":["Dense cut-pile plush or textured saxony","Frieze with a twisted, irregular pile","Mid-tone colors with a fleck or heather","Solid colors in a heavier face weight"]},
-    "b":{"icon":"x","tag":"Shows seams more","title":"Expect a visible line with these","items":["Loop pile and berber, where every row is a stripe","Light solid colors under a south or west window","Low-pile commercial styles with little pile to hide the joint","Large geometric patterns that must match perfectly"]}},
-  {"type":"callout","icon":"alert","title":"One honest note: ","text":"No seam is invisible from every angle in every light. The goal is a seam you cannot find without getting on your knees. If a Lynnwood installer promises a seam you will never see anywhere in the room, they are overselling."},
-  {"type":"h2","text":"Why seams show up after installation"},
-  {"type":"list","icons":true,"items":[
-    {"icon":"wind","html":"<strong>Peaking.</strong> The seam rises in a ridge because the carpet was stretched too hard or the seam tape was too narrow for the carpet weight. This is an installation fault and should be fixed under warranty."},
-    {"icon":"scissors","html":"<strong>Fraying.</strong> Little tufts pull out along the line. The edges were not sealed. It can be repaired, but the carpet along the seam has already lost pile."},
-    {"icon":"sun","html":"<strong>Shading.</strong> The two pieces look like different shades. The pile direction was reversed on one piece. There is no fix short of replacing that section."},
-    {"icon":"moisture","html":"<strong>Gapping.</strong> A thin line of backing shows. The iron was too cool or moved too fast, so the tape never fully grabbed. A re-seam with fresh tape usually fixes it."},
-    {"icon":"home","html":"<strong>Subfloor telegraphing.</strong> Older Lynnwood split-levels often have a plywood joint or a slight step under the carpet right where the seam lands. That shows as a shadow. We flatten it before the pad goes down."}
-  ]},
-  {"type":"h2","text":"What to ask before the carpet is cut"},
-  {"type":"ul","items":["Ask to see the seam diagram before the order is placed, and ask why each seam sits where it does.","Ask whether a 13 ft 6 in or 15 ft width is available in your style if it would remove a seam in your main room.","Ask whether the installer row-cuts and seals edges. If they hesitate, keep shopping.","Ask what the seam looks like at 3 p.m. in January. It sounds odd, but low winter light through a Martha Lake picture window is the real test.","Ask how peaking is handled. Wills Flooring covers it under the 1-year workmanship warranty and we come back to re-stretch or re-seam."]},
-  {"type":"p","html":"If you are weighing carpet against other options for a wide main room, our post on <a href=\"/blog-posts/berber-vs-plush-vs-frieze-carpet-edmonds\">berber vs plush vs frieze</a> explains how pile style changes what you see at the seam. Our <a href=\"/services/carpet-installation\">carpet installation</a> page covers what happens on install day."}
+  {
+   "type": "quick",
+   "eyebrow": "Short answer",
+   "lead": "Carpet seams go where they get the least foot traffic and the least raking light, run with the pile in one direction, and are heat-bonded and edge-sealed so they never fray.",
+   "detail": "Nearly every room wider than 12 feet needs at least one seam, because that is how wide most carpet comes. Seams do not change the install rate, $0.99 per sq ft stretch-in either way. A good seam is invisible because of where it sits and how it was cut, not because of magic.",
+   "tiles": [
+    {
+     "icon": "ruler",
+     "label": "Standard roll width",
+     "value": "12 ft"
+    },
+    {
+     "icon": "sun",
+     "label": "Run seams",
+     "value": "Toward the window"
+    },
+    {
+     "icon": "flame",
+     "label": "Bonded with",
+     "value": "Heat seam tape"
+    },
+    {
+     "icon": "dollar",
+     "label": "Install labor",
+     "value": "$0.99 / sq ft"
+    }
+   ],
+   "cta": "Try the calculator"
+  },
+  {
+   "type": "p",
+   "html": "A common Reddit thread goes like this: new carpet, three weeks in, and a line across the living room the homeowner swears was not there at the walk-through. Usually it was. It just was not lit yet. Winter sun coming low through a south window in a Lynnwood rambler finds a seam that a cloudy July afternoon never showed. Here is why seams exist, where a careful installer puts them, and which carpets hide them."
+  },
+  {
+   "type": "h2",
+   "text": "Why your room needs a seam at all"
+  },
+  {
+   "type": "cards",
+   "cols": 2,
+   "items": [
+    {
+     "icon": "ruler",
+     "title": "Carpet is 12 feet wide",
+     "text": "Most residential carpet is woven on a 12 ft loom. Some styles come in 13 ft 6 in or 15 ft widths, which can remove a seam in a 13 or 14 ft room, but the selection is smaller and the price per yard is higher."
+    },
+    {
+     "icon": "home",
+     "title": "Lynnwood rooms are wider than 12 feet",
+     "text": "The 1960s to 80s ramblers and split-levels around Alderwood and Meadowdale run 13 to 16 ft across the living room. Almost all need one seam, and a hallway to the bedroom wing adds a second."
+    },
+    {
+     "icon": "scissors",
+     "title": "Fewer seams means more waste",
+     "text": "An installer can sometimes avoid a seam by turning the carpet 90 degrees, but that costs 20 to 30 percent more carpet. In a large room the seam is usually the cheaper and better-looking answer."
+    },
+    {
+     "icon": "grid",
+     "title": "Pattern repeats force seams",
+     "text": "Patterned carpet has to line up at every seam. The installer cuts extra to match the repeat. If the pattern drifts across the seam, the seam shows no matter how well it is bonded."
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "Where a seam should and should not go"
+  },
+  {
+   "type": "table",
+   "head": [
+    "Location",
+    "Seam placement rule",
+    "Why"
+   ],
+   "rows": [
+    [
+     "Living room with a big window",
+     "Run the seam toward the window, not across the light",
+     "Light raking across a seam casts a tiny shadow line. Light running along it does not."
+    ],
+    [
+     "Hallway to bedroom wing",
+     "Seam runs down the length of the hall, never across it",
+     "A cross-hall seam sits under every footstep and wears open."
+    ],
+    [
+     "Doorways",
+     "Seam sits under the closed door, in the door jamb line",
+     "The transition hides it and no one pivots on it."
+    ],
+    [
+     "Stairs",
+     "No seams on treads; each tread is a separate cut",
+     "A seam on a stair nose fails fast under heel traffic."
+    ],
+    [
+     "Open-plan great room",
+     "Seam along the sofa line or under a rug zone",
+     "Furniture and rugs cover it, and the walking lane stays seam-free."
+    ]
+   ],
+   "note": "We lay these rules out on paper before a single cut and sketch the seam diagram at the estimate, so there are no surprises."
+  },
+  {
+   "type": "h2",
+   "text": "Price your Lynnwood carpet project right now"
+  },
+  {
+   "type": "p",
+   "html": "Seam planning is included in the price, not billed on top of it. Stretch-in over pad is <strong>$0.99 per sq ft</strong> with a 500 sq ft minimum, glue-down is <strong>$1.29</strong>, stairs are <strong>$30 per step</strong>, and taking the old carpet and pad away adds <strong>$0.45 per sq ft</strong>. A 1,000 sq ft Alderwood rambler with two seams and 13 stairs is 1,000 × $0.99 + 13 × $30 = $1,380 in labor. What moves is the carpet order: avoiding a seam can mean 20 to 30 percent more material, quoted with samples."
+  },
+  {
+   "type": "calc",
+   "kind": "carpet",
+   "note": "The rate is the same however many seams your rooms need. Carpet, pad and pattern waste are quoted with samples."
+  },
+  {
+   "type": "h2",
+   "text": "How a professional seam is actually made"
+  },
+  {
+   "type": "steps",
+   "wide": true,
+   "items": [
+    {
+     "icon": "search",
+     "d": "1. Check pile direction",
+     "text": "Both pieces must come off the roll the same way. Pile that leans opposite directions across a seam looks like two different colors even from the same dye lot."
+    },
+    {
+     "icon": "scissors",
+     "d": "2. Row-cut, not straight-cut",
+     "text": "On cut-pile carpet the installer parts the pile and cuts between rows from the back. A straight cut through the face leaves a fuzzy edge that never closes."
+    },
+    {
+     "icon": "droplet",
+     "d": "3. Seal both edges",
+     "text": "A bead of latex seam sealer goes on each cut edge. Skipping this is the number one cause of seams that unravel in year two."
+    },
+    {
+     "icon": "flame",
+     "d": "4. Heat-bond the tape",
+     "text": "Hot-melt tape sits under the joint and a seaming iron melts it as the installer walks the seam, pressing the edges together while the adhesive is soft."
+    },
+    {
+     "icon": "hammer",
+     "d": "5. Stretch last",
+     "text": "The carpet is power-stretched onto the tack strip only after the seam is bonded and cooled. Stretching first pulls the seam apart."
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "Which carpets hide seams and which show them"
+  },
+  {
+   "type": "compare",
+   "a": {
+    "icon": "done",
+    "tag": "Hides seams well",
+    "title": "Choose these if seams worry you",
+    "items": [
+     "Dense cut-pile plush or textured saxony",
+     "Frieze with a twisted, irregular pile",
+     "Mid-tone colors with a fleck or heather"
+    ]
+   },
+   "b": {
+    "icon": "x",
+    "tag": "Shows seams more",
+    "title": "Expect a visible line with these",
+    "items": [
+     "Loop pile and berber, where every row is a stripe",
+     "Light solid colors under a south or west window",
+     "Large geometric patterns that must match perfectly"
+    ]
+   }
+  },
+  {
+   "type": "callout",
+   "icon": "alert",
+   "title": "One honest note: ",
+   "text": "No seam is invisible from every angle in every light. The goal is a seam you cannot find without getting on your knees. If a Lynnwood installer promises a seam you will never see anywhere in the room, they are overselling."
+  },
+  {
+   "type": "h2",
+   "text": "Why seams show up after installation"
+  },
+  {
+   "type": "list",
+   "icons": true,
+   "items": [
+    {
+     "icon": "wind",
+     "html": "<strong>Peaking.</strong> The seam rises in a ridge because the carpet was stretched too hard or the tape was too narrow for the carpet weight. That is an installation fault and should be fixed under warranty."
+    },
+    {
+     "icon": "scissors",
+     "html": "<strong>Fraying.</strong> Little tufts pull out along the line. The edges were not sealed. It can be repaired, but the carpet along the seam has already lost pile."
+    },
+    {
+     "icon": "sun",
+     "html": "<strong>Shading.</strong> The two pieces look like different shades because the pile direction was reversed on one. There is no fix short of replacing that section."
+    },
+    {
+     "icon": "moisture",
+     "html": "<strong>Gapping.</strong> A thin line of backing shows. The iron was too cool or moved too fast, so the tape never fully grabbed. A re-seam with fresh tape usually fixes it."
+    },
+    {
+     "icon": "home",
+     "html": "<strong>Subfloor telegraphing.</strong> Older Lynnwood split-levels often have a plywood joint or a slight step right where the seam lands, and it shows as a shadow. We flatten it before the pad goes down."
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "What to ask before the carpet is cut"
+  },
+  {
+   "type": "ul",
+   "items": [
+    "Ask to see the seam diagram before the order is placed, and why each seam sits where it does.",
+    "Ask whether a 13 ft 6 in or 15 ft width exists in your style, if it would remove a seam in the main room.",
+    "Ask whether the installer row-cuts and seals edges. If they hesitate, keep shopping.",
+    "Ask what the seam looks like at 3 p.m. in January. Low winter light through a Martha Lake picture window is the real test.",
+    "Ask how peaking is handled. We cover it under the 1-year workmanship warranty and come back to re-stretch or re-seam."
+   ]
+  },
+  {
+   "type": "p",
+   "html": "Our post on <a href=\"/blog-posts/berber-vs-plush-vs-frieze-carpet-edmonds\">berber vs plush vs frieze</a> explains how pile style changes what you see at a seam, and the <a href=\"/services/carpet-installation\">carpet installation</a> page covers install day."
+  }
  ],
  "faq": [
-  {"q":"Is it normal to see carpet seams after installation?","a":"A faint line in certain light is normal on most carpets, especially loop pile and light solid colors. A seam you can see from the doorway in any light, or one that rises in a ridge, is not normal and points to pile direction, sealing or stretching problems that the installer should correct."},
-  {"q":"Can carpet seams be fixed after the fact?","a":"Often, yes. A peaked seam can be re-stretched and the tape re-ironed. A gapped seam can be re-seamed. A frayed seam can be trimmed and sealed but loses some pile. A seam that shows because the pile direction is reversed cannot be fixed without replacing one piece."},
-  {"q":"How many seams will a typical Lynnwood rambler need?","a":"Usually two to four. One in the living room if it is wider than 12 feet, one at the hallway to the bedroom wing, and one at each bedroom doorway. Bedrooms under 12 feet wide are usually seam-free. We draw the plan at the estimate so you know the count before you commit."},
-  {"q":"Do seams go across the room or along it?","a":"Along the length of the room and toward the main window whenever the layout allows. A seam that runs across the room, especially across a traffic lane or across the light, is the most visible and shortest-lived placement there is."},
-  {"q":"Can you install carpet with no seams at all?","a":"Only in rooms narrower than the roll width, typically under 12 feet, or with a 13 ft 6 in or 15 ft carpet in a slightly larger room. Whole-house seam-free carpet is not realistic. The goal is fewer seams in smarter places, not zero."},
-  {"q":"Does a patterned carpet cost more to seam?","a":"Yes. Every seam on a patterned carpet has to match the repeat, so the installer orders extra to line it up. Waste can go from about 10 percent to 20 percent or more. Budget for the extra carpet before falling in love with a large pattern."}
+  {
+   "q": "Is it normal to see carpet seams after installation?",
+   "a": "A faint line in certain light is normal on most carpets, especially loop pile and light solid colors. A seam you can see from the doorway in any light, or one that rises in a ridge, is not normal, and points to pile direction, sealing or stretching problems the installer should correct."
+  },
+  {
+   "q": "Can carpet seams be fixed after the fact?",
+   "a": "Often, yes. A peaked seam can be re-stretched and the tape re-ironed. A gapped seam can be re-seamed. A frayed seam can be trimmed and sealed but loses some pile. A seam that shows because the pile direction is reversed cannot be fixed without replacing one piece."
+  },
+  {
+   "q": "How many seams will a typical Lynnwood rambler need?",
+   "a": "Usually two to four. One in the living room if it is wider than 12 feet, one where the hallway meets the bedroom wing, and one at each bedroom doorway. Bedrooms under 12 feet wide are usually seam-free. We draw the plan at the estimate so you know the count before you commit."
+  },
+  {
+   "q": "Do seams go across the room or along it?",
+   "a": "Along the length of the room and toward the main window whenever the layout allows. A seam that runs across the room, especially across a traffic lane or across the light, is the most visible and shortest-lived placement there is."
+  },
+  {
+   "q": "Can you install carpet with no seams at all?",
+   "a": "Only in rooms narrower than the roll width, typically under 12 feet, or with a 13 ft 6 in or 15 ft carpet in a slightly larger room. Whole-house seam-free carpet is not realistic. The goal is fewer seams in smarter places, not zero seams."
+  },
+  {
+   "q": "Does a patterned carpet cost more to seam?",
+   "a": "The labor rate does not change; $0.99 per sq ft covers the seaming work either way. The carpet order does change. Every seam on a patterned carpet has to match the repeat, so the installer orders extra to line it up, and waste can go from about 10 percent to 20 percent or more."
+  }
  ],
  "faq_title": "Seam questions from Lynnwood homeowners",
  "faq_sub": "Asked at the showroom on 196th St SW and in every wide living room we measure.",
- "related": [["how-to-measure-for-carpet-everett","how to measure for carpet"],["why-carpet-buckles-and-ripples-lynnwood","why carpet buckles and ripples"],["berber-vs-plush-vs-frieze-carpet-edmonds","berber vs plush vs frieze carpet"]],
+ "related": [
+  [
+   "how-to-measure-for-carpet-everett",
+   "how to measure for carpet"
+  ],
+  [
+   "why-carpet-buckles-and-ripples-lynnwood",
+   "why carpet buckles and ripples"
+  ],
+  [
+   "berber-vs-plush-vs-frieze-carpet-edmonds",
+   "berber vs plush vs frieze carpet"
+  ]
+ ],
  "cta_title": "Get a seam plan with your free estimate",
- "cta_sub": "We measure your Lynnwood rooms, draw where every seam lands, and give you a firm written price on the spot. No obligation."
+ "cta_sub": "We measure your Lynnwood rooms, draw where every seam lands, and give you a firm written price on the spot. No obligation.",
+ "offers": [
+  [
+   "Carpet installation, stretch-in",
+   "0.99",
+   "per square foot"
+  ],
+  [
+   "Carpet installation, glue-down",
+   "1.29",
+   "per square foot"
+  ]
+ ]
 }

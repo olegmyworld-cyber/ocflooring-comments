@@ -12,17 +12,12 @@
    "type": "quick",
    "eyebrow": "Short answer",
    "lead": "Carpet buckles and ripples for four main reasons: it was installed with a knee kicker instead of a power stretcher, humidity or a wet cleaning swelled the backing, heavy furniture was dragged across it, or the pad or backing has broken down with age. The first three can usually be fixed with a re-stretch. The last one means replacing.",
-   "detail": "The test is simple: if the carpet is under about eight years old, the backing is still stiff and the ripples appeared after a specific event, re-stretch it. If it is older, the backing crackles when you fold a corner, or the ripples keep coming back, it is done. Wills Flooring installs carpet across Lynnwood and will tell you which one you have at a free visit.",
+   "detail": "The test is simple: if the carpet is under about eight years old, the backing is still stiff and the ripples showed up after a specific event, re-stretch it. If it is older, the backing crackles when you fold a corner, or the ripples keep coming back, it is done. Replacing it is $0.99 per sq ft in labor at Wills Flooring, $30 per stair, plus the carpet and pad.",
    "tiles": [
     {
      "icon": "hammer",
      "label": "Top cause",
      "value": "No power stretch"
-    },
-    {
-     "icon": "droplet",
-     "label": "Second cause",
-     "value": "Humidity, wet cleaning"
     },
     {
      "icon": "refresh",
@@ -33,13 +28,18 @@
      "icon": "x",
      "label": "Replace when",
      "value": "Backing has failed"
+    },
+    {
+     "icon": "dollar",
+     "label": "New carpet labor",
+     "value": "$0.99 / sq ft"
     }
    ],
-   "cta": false
+   "cta": "Price a replacement"
   },
   {
    "type": "p",
-   "html": "The call usually comes in after a steam cleaning or a humid August: the hallway carpet in an Alderwood split-level has a wave running across it, or the family room in a Martha Lake rambler has a ripple that catches the vacuum. A common Reddit thread asks whether this means the carpet is ruined. Usually it does not. Ripples are a symptom, and the cause decides whether a re-stretch fixes it for good or whether you are throwing money at a carpet that is at the end of its life."
+   "html": "The call usually comes in after a steam cleaning or a humid August: the hallway carpet in an Alderwood split-level has a wave running across it, or the family room in a Martha Lake rambler ripples where the vacuum catches. A common Reddit thread asks whether that means the carpet is ruined. Usually it does not. Ripples are a symptom, and the cause decides whether a re-stretch fixes it for good or whether you are paying to prop up a carpet at the end of its life."
   },
   {
    "type": "h2",
@@ -53,47 +53,42 @@
      "icon": "hammer",
      "tag": "Most common",
      "title": "Never power-stretched",
-     "text": "A knee kicker seats carpet on the tack strip; a power stretcher pulls it tight across the whole room. Crews in a hurry skip the stretcher, and the carpet looks fine for a year. Then it relaxes and waves appear, usually in the longest direction of the room.",
+     "text": "A knee kicker seats carpet on the tack strip; a power stretcher pulls it tight across the whole room. Crews in a hurry skip the stretcher, the carpet looks fine for a year, then it relaxes and waves appear down the longest run of the room.",
      "gold": true
     },
     {
      "icon": "droplet",
      "tag": "Second",
      "title": "Humidity and wet cleaning",
-     "text": "The latex layer that binds most carpet backings expands when damp. A rental steam cleaner that over-wets the carpet, or a Lynnwood house with no air conditioning in a muggy stretch, lets the backing swell. Tight carpet may recover as it dries; loosely stretched carpet stays rippled."
+     "text": "The latex layer that binds most carpet backings expands when damp. A rental steam cleaner that over-wets the carpet, or a Lynnwood house with no air conditioning in a muggy August, lets it swell. Tight carpet recovers as it dries; loosely stretched carpet stays rippled."
     },
     {
      "icon": "sofa",
      "tag": "Third",
      "title": "Dragging heavy furniture",
-     "text": "Sliding a sofa or a loaded dresser pushes a wave of carpet ahead of it and can pop it off the tack strip. The ripple is usually near a wall and shaped like the path the furniture took."
+     "text": "Sliding a sofa or a loaded dresser pushes a wave of carpet ahead of it and can pop it off the tack strip. The ripple sits near a wall, shaped like the path the furniture took."
     },
     {
      "icon": "clock",
      "tag": "Fourth",
      "title": "Backing or pad failure",
-     "text": "After 10 to 15 years the latex dries out and the secondary backing separates from the primary, called delamination. The carpet feels loose and lumpy and the pad may have crumbled underneath. No stretch holds because there is nothing solid to stretch."
-    },
-    {
-     "icon": "layers",
-     "title": "Wrong or worn pad",
-     "text": "A pad that is too thick or too soft for the carpet lets the carpet flex and work loose over years. A pad that has flattened in the walk path leaves the carpet with nowhere to go but up."
+     "text": "After 10 to 15 years the latex dries out and the secondary backing separates from the primary, called delamination. The carpet feels loose and lumpy and the pad may have crumbled. No stretch holds, because there is nothing solid left to stretch."
     },
     {
      "icon": "home",
      "title": "Loose tack strip or a bad seam",
-     "text": "Tack strip that has pulled away from an old plywood subfloor, common in 1970s Lynnwood homes, releases the edge. A seam that was never sealed lets the two pieces creep apart and buckle along the seam line."
+     "text": "Tack strip that has pulled away from an old plywood subfloor, common in 1970s Lynnwood homes, releases the edge. An unsealed seam lets the two pieces creep apart and buckle along the seam line."
     }
    ]
   },
   {
    "type": "h2",
-   "text": "Scope your Lynnwood carpet project"
+   "text": "Price a Lynnwood carpet replacement right now"
   },
   {
-   "type": "estimator",
-   "title": "Scope Your Lynnwood Carpet Project",
-   "sub": "If the carpet is past saving, tell us the rooms and stairs. We bring samples from the Lynnwood showroom and price the job after measuring."
+   "type": "calc",
+   "kind": "carpet",
+   "note": "Labor only. Carpet and pad are quoted at the free in-home estimate."
   },
   {
    "type": "h2",
@@ -108,7 +103,7 @@
     "items": [
      "The carpet is under about eight years old and the pile still looks good",
      "The backing is stiff and does not crackle when you fold a corner",
-     "The ripples appeared after a specific event: a cleaning, a move, a humid month",
+     "The ripples followed one event: a cleaning, a move, a humid month",
      "There is enough carpet at the walls to trim after stretching",
      "The pad underneath is intact"
     ]
@@ -118,7 +113,7 @@
     "tag": "Replace",
     "title": "Time to replace when",
     "items": [
-     "The carpet is 12 or more years old and worn in the walk paths anyway",
+     "It is 12 or more years old and worn in the walk paths anyway",
      "You can feel the backing has gone soft or crunchy",
      "Ripples came back within a year of the last stretch",
      "The pad has crumbled or the subfloor is damp",
@@ -128,7 +123,7 @@
   },
   {
    "type": "p",
-   "html": "Wills Flooring installs carpet; we do not sell re-stretching as a service. That makes us a useful second opinion. If you show us a five-year-old carpet with one wave in the hallway, we will tell you to have it re-stretched by a carpet repair specialist and save the replacement for later. Where we do come in is the other case: an older carpet that is rippling because the backing is finished, which no amount of stretching will hold. That job starts with the right <a href=\"/blog-posts/carpet-padding-explained-edmonds\">pad</a> and a proper power stretch so it never happens again."
+   "html": "Wills Flooring installs carpet; we do not sell re-stretching as a service. That makes us a useful second opinion. If you show us a five-year-old carpet with one wave in the hallway, we will tell you to have it re-stretched by a carpet repair specialist and save the replacement for later. Where we do come in is the other case: an older carpet that is rippling because the backing is finished, which no amount of stretching will hold. That job starts with the right <a href=\"/blog-posts/carpet-padding-explained-edmonds\">pad</a> and a proper power stretch so it never happens again, and the labor side of it is published: a 1,100 sq ft upstairs and hall with 13 stairs is 1,100 × $0.99 + 13 × $30 = $1,089 + $390 = $1,479, plus $0.45 per sq ft to pull and haul the old carpet, plus the carpet and pad, quoted at the estimate."
   },
   {
    "type": "h2",
@@ -146,7 +141,7 @@
     {
      "icon": "layers",
      "d": "2. Fold a corner",
-     "text": "Pull the carpet off the tack strip in a closet and fold it back on itself. Stiff and springy means the backing is alive. Crackling, powdery latex or the two backings separating means it is done."
+     "text": "Pull the carpet off the tack strip in a closet and fold it back on itself. Stiff and springy means the backing is alive. Crackling latex or the two backings separating means it is done."
     },
     {
      "icon": "ruler",
@@ -156,12 +151,12 @@
     {
      "icon": "droplet",
      "d": "4. Think about what happened before",
-     "text": "A cleaning within the last month or a humid spell means the backing swelled. Give it two weeks with windows open or a dehumidifier. If it tightens back up, the carpet is fine but was stretched loosely."
+     "text": "A cleaning in the last month or a humid spell means the backing swelled. Give it two weeks with a dehumidifier. If it tightens back up, the carpet is fine but was stretched loosely."
     },
     {
      "icon": "home",
      "d": "5. Press on the pad",
-     "text": "Press hard with your heel in the walk path and by the ripple. If the pad feels crumbly or you can feel the subfloor, the pad is finished and new carpet needs new pad."
+     "text": "Press hard with your heel in the walk path. If the pad feels crumbly or you can feel the subfloor through it, the pad is finished too."
     }
    ]
   },
@@ -187,11 +182,11 @@
     },
     {
      "icon": "sofa",
-     "html": "<strong>Dragging furniture over it.</strong> Lift or use sliders, especially in Lynnwood townhomes where the rooms are long and narrow and one drag can push a wave the length of the room."
+     "html": "<strong>Dragging furniture over it.</strong> Lift it or use sliders, especially in long, narrow Lynnwood townhome rooms where one drag pushes a wave the whole length."
     },
     {
      "icon": "wallet",
-     "html": "<strong>Paying to stretch a 15-year-old carpet.</strong> The stretch may hold six months. Put the money toward replacement with a proper pad and a power stretch."
+     "html": "<strong>Paying to stretch a 15-year-old carpet.</strong> The stretch may hold six months. New carpet is $0.99 per sq ft in labor plus material, so put the money there."
     }
    ]
   },
@@ -203,10 +198,10 @@
    "type": "ul",
    "items": [
     "Will the carpet be power-stretched in both directions, not just kicked in? Get it in writing.",
-    "What pad is going under it, and is it the density the carpet manufacturer specifies? Too soft a pad shortens the life of any carpet.",
-    "Will the tack strip be replaced where it has loosened from the subfloor? In 1960s and 1970s Meadowdale and Alderwood homes it usually should be.",
+    "What pad is going under it, and is it the density the mill specifies? Too soft a pad shortens the life of any carpet.",
+    "Will loose tack strip be replaced? In 1960s and 1970s Meadowdale and Alderwood homes it usually should be.",
     "How are seams sealed? Seam sealer on every cut edge keeps seams from creeping apart.",
-    "Will the carpet acclimate in the house before installation so it does not expand afterward?",
+    "Will the carpet acclimate in the house before it is installed?",
     "What is the workmanship warranty? At <a href=\"/services/carpet-installation\">Wills Flooring</a> it is one year, and a carpet that ripples inside that year is our problem, not yours."
    ]
   }
@@ -234,7 +229,7 @@
   },
   {
    "q": "Should I replace the pad if I replace the carpet?",
-   "a": "Yes, almost always. Old pad has compressed in the walk paths and may have absorbed spills or pet accidents. A new carpet on an old pad flexes unevenly and works loose sooner. New pad is a small part of the job and it is quoted at the free estimate."
+   "a": "Yes, almost always. Old pad has compressed in the walk paths and may have absorbed spills or pet accidents. New carpet on old pad flexes unevenly and works loose sooner. Labor is the published $0.99 per sq ft either way; the pad itself is quoted with the carpet at the free estimate."
   }
  ],
  "faq_title": "Buckled carpet questions from Lynnwood",
@@ -254,5 +249,17 @@
   ]
  ],
  "cta_title": "Not sure if your Lynnwood carpet can be saved?",
- "cta_sub": "We look at the backing, the pad and the tack strip and tell you straight whether to stretch it or replace it. Free in-home visit, minutes from our Lynnwood showroom."
+ "cta_sub": "We look at the backing, the pad and the tack strip and tell you straight whether to stretch it or replace it. Free in-home visit, minutes from our Lynnwood showroom.",
+ "offers": [
+  [
+   "Carpet installation, stretch-in",
+   "0.99",
+   "per square foot"
+  ],
+  [
+   "Carpet installation, glue-down",
+   "1.29",
+   "per square foot"
+  ]
+ ]
 }

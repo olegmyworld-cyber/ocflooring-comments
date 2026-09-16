@@ -11,8 +11,8 @@
   {
    "type": "quick",
    "eyebrow": "Short answer",
-   "lead": "Lay every sample flat on the floor of the room it is for, look at it in morning light, evening light and lamp light, then fold it, walk on it and rub it with the dog. Whatever still looks right after all of that is your carpet.",
-   "detail": "Carpet chosen under showroom lights in a warehouse comes back looking two shades different in a Seattle living room. That is the whole reason our showroom is a van. Here is the method we use on every in-home visit, so you can use it whether or not we are the ones holding the samples.",
+   "lead": "Lay every sample flat on the floor of the room it is for, look at it in morning light, evening light and lamp light, then fold it, walk on it and rub it with the dog. Whatever still looks right after all that is your carpet.",
+   "detail": "Carpet chosen under showroom lights comes back looking two shades different in a Seattle living room. That is the whole reason our showroom is a van. Here is the method we use on every in-home visit.",
    "tiles": [
     {
      "icon": "sun",
@@ -35,11 +35,11 @@
      "value": "A day, ideally two"
     }
    ],
-   "cta": false
+   "cta": "Price it with the calculator"
   },
   {
    "type": "p",
-   "html": "A common Reddit thread asks why carpet always looks darker and grayer once it is installed than it did in the store. It is not the carpet. It is the light. A Ballard bedroom facing north under a February sky has nothing in common with a lit showroom in an industrial park, and a Capitol Hill condo with one window gets even less. Choosing carpet at home fixes that, but only if you do it properly. Holding a sample up against the wall for ten seconds is not the method."
+   "html": "A common Reddit thread asks why carpet always looks darker and grayer once it is installed than it did in the store. It is not the carpet, it is the light. A Ballard bedroom facing north under a February sky has nothing in common with a lit showroom, and a Capitol Hill condo with one window gets even less. Choosing at home fixes that, but only if you do it properly."
   },
   {
    "type": "h2",
@@ -52,7 +52,7 @@
     {
      "icon": "box",
      "title": "Six to ten, not thirty",
-     "text": "More than ten samples on the floor and you stop seeing them. Narrow first by fiber and pile for the room, then bring a spread of tones. We pre-sort on the van before we ring the bell."
+     "text": "More than ten samples on the floor and you stop seeing them. Narrow by fiber and pile for the room first, then bring a spread of tones. We pre-sort on the van before we ring the bell."
     },
     {
      "icon": "ruler",
@@ -67,7 +67,7 @@
     {
      "icon": "home",
      "title": "Every room it is going in",
-     "text": "The same oatmeal carpet reads warm in a south-facing Queen Anne bedroom and gray in the basement. If it is going in three rooms, look at it in all three, not the one with the best light."
+     "text": "The same oatmeal carpet reads warm in a south-facing Queen Anne bedroom and gray in the basement. If it is going in three rooms, look at it in all three."
     }
    ]
   },
@@ -101,7 +101,7 @@
     [
      "Against the adjoining floor",
      "Set the sample at the doorway where it will meet hardwood or vinyl plank.",
-     "Old fir floors in Craftsman homes are orange; pick a carpet that flatters them, not fights them."
+     "Old fir floors in Craftsman homes are orange. Pick a carpet that flatters them."
     ]
    ],
    "note": "Leave the samples overnight. Most people change their first choice by the next morning."
@@ -116,15 +116,15 @@
    "items": [
     {
      "icon": "search",
-     "html": "<strong>The fold, or grin, test.</strong> Bend the sample backward with the pile facing out. If you see a lot of backing between the tufts, the carpet is thin and will mat in a hallway. A dense carpet barely grins."
+     "html": "<strong>The fold, or grin, test.</strong> Bend the sample backward with the pile facing out. If you see a lot of backing between the tufts, the carpet is thin and will mat in a hallway."
     },
     {
      "icon": "sofa",
-     "html": "<strong>Walk on it in socks and in shoes.</strong> On the pad, on the floor, next to the bed where your feet land first. Plush feels great here; loop feels firm. Neither is wrong, but decide with your feet."
+     "html": "<strong>Walk on it in socks and in shoes.</strong> On the pad, next to the bed where your feet land first. Plush feels great there; loop feels firm. Decide with your feet."
     },
     {
      "icon": "dog",
-     "html": "<strong>Rub it with the pet.</strong> Drag the sample across the dog or the cat's bed. Some fibers release hair with a shake; others hold it like Velcro. You will live with this every day."
+     "html": "<strong>Rub it with the pet.</strong> Drag the sample across the dog or the cat's bed. Some fibers release hair with a shake; others hold it like Velcro."
     },
     {
      "icon": "droplet",
@@ -132,22 +132,26 @@
     },
     {
      "icon": "brush",
-     "html": "<strong>Brush the pile both ways.</strong> Cut-pile carpets shade: the same color looks lighter or darker depending on direction. If that bothers you on a sample, it will bother you across a whole room."
+     "html": "<strong>Brush the pile both ways.</strong> Cut-pile carpets shade: the same color looks lighter or darker by direction. If that bothers you on a sample, it will bother you across a room."
     },
     {
      "icon": "sparkle",
-     "html": "<strong>Press a wet thumb, then vacuum.</strong> Cheap fiber crushes and stays crushed. Good nylon and triexta spring back. It takes thirty seconds and saves years of regret."
+     "html": "<strong>Press a wet thumb, then vacuum.</strong> Cheap fiber crushes and stays crushed. Good nylon and triexta spring back. Thirty seconds, years of regret saved."
     }
    ]
   },
   {
    "type": "h2",
-   "text": "Scope your Seattle carpet project"
+   "text": "Price your Seattle carpet project"
   },
   {
-   "type": "estimator",
-   "title": "Scope Your Seattle Carpet Project",
-   "sub": "Tell us the rooms and stairs. We bring the pre-sorted samples and the matching pad to your door, measure, and give you a firm written price before we leave."
+   "type": "p",
+   "html": "The sample stage is also the price stage, because the labor is already settled. Wills Flooring charges <strong>$0.99 per sq ft</strong> to stretch carpet in over pad, $1.29 for glue-down, and $30 per step, with a 500 sq ft minimum, $0.45 per sq ft to pull the old carpet and pad out and $0.25 to move furniture. A Ballard bungalow with 700 sq ft upstairs and 13 steps is 700 × $0.99 + 13 × $30 = $693 + $390 = $1,083 in labor. The sample you choose decides the rest: carpet and pad are quoted in your living room, on the spot."
+  },
+  {
+   "type": "calc",
+   "kind": "carpet",
+   "note": "Labor only. The carpet and pad you pick are the part we quote at the estimate."
   },
   {
    "type": "h2",
@@ -160,7 +164,7 @@
     {
      "icon": "phone",
      "d": "Before the visit",
-     "text": "A short call: which rooms, kids, pets, allergies, hard-floor color it meets, and the look you have in mind. That is what we pre-sort the van by.",
+     "text": "A short call: which rooms, kids, pets, allergies, the hard-floor color it meets, and the look you have in mind. That is what we pre-sort the van by.",
      "note": "Photos of the rooms help"
     },
     {
@@ -172,13 +176,13 @@
     {
      "icon": "ruler",
      "d": "Measure and check",
-     "text": "Every room to the inch, including stairs and closets, plus a look at the subfloor and existing tack strip. Seam placement is planned around the light and the traffic.",
+     "text": "Every room to the inch, including stairs and closets, plus a look at the subfloor and existing tack strip. Seams are planned around the light and the traffic.",
      "note": "This is where a mystery quote becomes a real one"
     },
     {
      "icon": "clipboard",
      "d": "Firm written quote, on the spot",
-     "text": "Carpet, pad, removal, stairs and moving furniture, itemized. You can keep samples overnight and decide the next day.",
+     "text": "Carpet, pad, removal, stairs and furniture moving, itemized. The labor lines come straight off the published rate card, so the only number being decided that day is the carpet and pad.",
      "note": "No obligation, no follow-up pressure"
     }
    ]
@@ -208,9 +212,9 @@
     "items": [
      "Deciding from a photo or a two-inch swatch",
      "Holding samples vertically against a wall",
-     "Picking under warehouse lights, then being surprised at home",
-     "Choosing a pale color for a hallway used by a dog and two kids",
-     "Falling for a texture that shows every footprint and vacuum line"
+     "Picking under warehouse lights",
+     "Choosing a pale hallway color with a dog and two kids",
+     "Falling for a texture that shows every footprint"
     ]
    }
   },
@@ -219,7 +223,7 @@
    "icon": "alert",
    "gold": true,
    "title": "Honest note on color: ",
-   "text": "Carpet installed across a whole room reads about a shade lighter and a touch more saturated than the sample on the floor, because there is more of it and it reflects on itself. If you are torn between two, take the slightly darker or grayer one. This is the single most common correction we make for Seattle customers."
+   "text": "Carpet installed across a whole room reads about a shade lighter and a touch more saturated than the sample on the floor, because there is more of it and it reflects on itself. If you are torn between two, take the slightly darker or grayer one."
   },
   {
    "type": "h2",
@@ -243,7 +247,7 @@
     },
     {
      "icon": "search",
-     "html": "<strong>Do the fold test on every sample</strong> before you fall in love with a color. See our guide to <a href=\"/blog-posts/nylon-vs-polyester-vs-triexta-vs-wool-carpet-sammamish\">carpet fibers</a> for what the fold is telling you."
+     "html": "<strong>Do the fold test on every sample</strong> before you fall in love with a color. Our guide to <a href=\"/blog-posts/nylon-vs-polyester-vs-triexta-vs-wool-carpet-sammamish\">carpet fibers</a> explains what the fold is telling you."
     },
     {
      "icon": "clock",
@@ -251,7 +255,7 @@
     },
     {
      "icon": "clipboard",
-     "html": "<strong>Get the pad, seams and removal on the quote.</strong> The sample is the fun part; the quote is what you live with. Learn more about how the visit works on our <a href=\"/services/carpet-installation\">carpet installation page</a>."
+     "html": "<strong>Get the pad, seams and removal on the quote.</strong> The sample is the fun part; the quote is what you live with. See how the visit works on our <a href=\"/services/carpet-installation\">carpet installation page</a>."
     }
    ]
   }
@@ -259,7 +263,7 @@
  "faq": [
   {
    "q": "Why does carpet look different at home than in the store?",
-   "a": "Store lighting is bright, even and usually cool white. A Seattle living room is dimmer, warmer at night and gray by day, and the carpet sits next to your walls and floors instead of other carpet. Samples laid flat in the room at three times of day remove the surprise."
+   "a": "Store lighting is bright, even and usually cool white. A Seattle living room is dimmer, warmer at night and gray by day, and the carpet sits next to your walls and floors instead of other carpet. Samples laid flat at three times of day remove the surprise."
   },
   {
    "q": "How many carpet samples should I look at?",
@@ -271,7 +275,7 @@
   },
   {
    "q": "Does the mobile showroom cost anything?",
-   "a": "No. The in-home visit with samples, measuring and a written quote is free and carries no obligation. It is how Wills Flooring has sold carpet since 2013, because carpet chosen in the room it is going in gets fewer regrets and fewer callbacks."
+   "a": "No. The in-home visit with samples, measuring and a written quote is free and carries no obligation. The labor side is published anyway, at $0.99 per sq ft stretch-in and $30 a step, so the visit is really about seeing the carpet in your own light and pricing the material."
   },
   {
    "q": "Can I keep the samples for a few days?",
@@ -299,5 +303,17 @@
   ]
  ],
  "cta_title": "Have the showroom come to you",
- "cta_sub": "We bring pre-sorted carpet samples and pad to your Seattle home, lay them out in your light, measure and hand you a firm written price on the spot. Free, no obligation."
+ "cta_sub": "We bring pre-sorted carpet samples and pad to your Seattle home, lay them out in your light, measure and hand you a firm written price on the spot. Free, no obligation.",
+ "offers": [
+  [
+   "Carpet installation, stretch-in",
+   "0.99",
+   "per square foot"
+  ],
+  [
+   "Carpet installation, glue-down",
+   "1.29",
+   "per square foot"
+  ]
+ ]
 }

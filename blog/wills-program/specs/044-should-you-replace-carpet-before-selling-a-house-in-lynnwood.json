@@ -1,76 +1,343 @@
 {
  "slug": "should-you-replace-carpet-before-selling-a-house-in-lynnwood",
  "title": "Should You Replace Carpet Before Selling a House in Lynnwood?",
- "meta": "Replace carpet before selling a Lynnwood house? When new carpet pays off, when cleaning is enough and when to check for oak under it. Wills Flooring explains.",
+ "meta": "Replace carpet before selling a Lynnwood house? New carpet is $0.99 per sq ft in labor plus $0.45 to tear out the old. Wills Flooring on when it pays off.",
  "category": "carpet",
  "city": "Lynnwood",
  "time": "8 mins",
  "date": "2026-10-30T15:00:00.000Z",
  "keywords": "replace carpet before selling house, new carpet before selling Lynnwood, should I replace carpet or give credit, carpet for selling a house, carpet installation Lynnwood WA",
  "blocks": [
-  {"type":"quick","eyebrow":"Short answer","lead":"Replace it if the carpet is stained, matted, smells of pets or is more than about 10 years old. Clean it if it is under five years old and simply dirty. And in a Lynnwood rambler or split-level, lift a corner first, because there is often oak underneath that is worth more than any new carpet.","detail":"New neutral carpet is one of the cheapest changes that transforms listing photos. Wills Flooring brings samples to the house, measures and gives a firm written price at a free estimate, and we tell you honestly if cleaning or refinishing would serve you better.",
-   "tiles":[{"icon":"calendar","label":"Replace if older than","value":"~10 years"},{"icon":"clock","label":"Typical install","value":"1–2 days"},{"icon":"palette","label":"Safest color","value":"Warm greige"},{"icon":"home","label":"Check underneath","value":"1960s–80s homes"}],"cta":"Scope your project"},
-  {"type":"p","html":"Every spring we get the same call from Alderwood, Martha Lake and Meadowdale: \"We are listing in six weeks, the carpet is tired, do we replace it or just offer a credit?\" Lynnwood buyers right now are mostly first-timers and light-rail commuters comparing your house against new townhomes with fresh floors. Tired carpet is the first thing they photograph and the last thing they forget. But replacing it is not always the right move, so here is how we walk sellers through the decision."},
-  {"type":"h2","text":"Find out in 30 seconds"},
-  {"type":"quiz","title":"Replace, clean, or refinish what is underneath?","sub":"Answer three questions about the carpet you have now.","min":3,
-   "items":[
-    {"k":"cond","q":"How does the carpet look and smell?","opts":[["bad","Stains, matting or pet odor"],["ok","Dirty but intact"]]},
-    {"k":"age","q":"How old is it?","opts":[["old","10+ years or unknown"],["new","Under 5 years"],["mid","5 to 10 years"]]},
-    {"k":"under","q":"What is under it?","opts":[["oak","Hardwood (or a 1960s to 80s house and you have not checked)"],["ply","Plywood or concrete"]]}
+  {
+   "type": "quick",
+   "eyebrow": "Short answer",
+   "lead": "Replace it if the carpet is stained, matted, smells of pets or is more than about 10 years old. Clean it if it is under five years old and simply dirty. And in a Lynnwood rambler or split-level, lift a corner first, because there is often oak underneath that is worth more than any new carpet.",
+   "detail": "New neutral carpet is one of the cheapest changes that transforms listing photos. Labor is $0.99 per sq ft stretched in, $0.45 per sq ft to tear out and haul away the old carpet and pad, and $30 per stair, with the carpet and pad quoted at the free estimate. We will also tell you honestly if cleaning or refinishing serves you better.",
+   "tiles": [
+    {
+     "icon": "calendar",
+     "label": "Replace if older than",
+     "value": "~10 years"
+    },
+    {
+     "icon": "dollar",
+     "label": "Install labor",
+     "value": "$0.99 / sq ft"
+    },
+    {
+     "icon": "palette",
+     "label": "Safest color",
+     "value": "Warm greige"
+    },
+    {
+     "icon": "home",
+     "label": "Check underneath",
+     "value": "1960s–80s homes"
+    }
    ],
-   "rules":[
-    {"when":"a.under==='oak'","h":"Pull it up and look before you spend anything","p":"Most Lynnwood ramblers and split-levels from the 1960s to 1980s have oak under the carpet. A refinished original floor outsells new carpet with every buyer we meet. Have us check the wood before you order carpet."},
-    {"when":"a.cond==='bad'","h":"Replace it","p":"Stains and odor cannot be photographed away, and buyers assume the worst about what is under a stained carpet. A mid-grade neutral carpet with new pad is the fix. Book it before the photographer, not after."},
-    {"when":"a.age==='old'","h":"Replace it, even if it looks acceptable","p":"Carpet over 10 years old has crushed pad and traffic lanes that show in listing photos under bright light. Buyers will price it as a replacement anyway, and they will overestimate the cost when they do."},
-    {"when":"a.age==='new'&&a.cond==='ok'","h":"Professional cleaning is enough","p":"Carpet under five years old with no damage cleans up well. Have it hot-water extracted a week before photos, restretch any ripples, and spend the carpet money on paint and lighting instead."}
+   "cta": "Price the replacement"
+  },
+  {
+   "type": "p",
+   "html": "Every spring we get the same call from Alderwood, Martha Lake and Meadowdale: \"We are listing in six weeks, the carpet is tired, do we replace it or just offer a credit?\" Lynnwood buyers right now are mostly first-timers and light-rail commuters comparing your house against new townhomes with fresh floors. Tired carpet is the first thing they photograph and the last thing they forget. But replacing it is not always the right move, so here is how we walk sellers through the decision."
+  },
+  {
+   "type": "h2",
+   "text": "Find out in 30 seconds"
+  },
+  {
+   "type": "quiz",
+   "title": "Replace, clean, or refinish what is underneath?",
+   "sub": "Answer three questions about the carpet you have now.",
+   "min": 3,
+   "items": [
+    {
+     "k": "cond",
+     "q": "How does the carpet look and smell?",
+     "opts": [
+      [
+       "bad",
+       "Stains, matting or pet odor"
+      ],
+      [
+       "ok",
+       "Dirty but intact"
+      ]
+     ]
+    },
+    {
+     "k": "age",
+     "q": "How old is it?",
+     "opts": [
+      [
+       "old",
+       "10+ years or unknown"
+      ],
+      [
+       "new",
+       "Under 5 years"
+      ],
+      [
+       "mid",
+       "5 to 10 years"
+      ]
+     ]
+    },
+    {
+     "k": "under",
+     "q": "What is under it?",
+     "opts": [
+      [
+       "oak",
+       "Hardwood (or a 1960s to 80s house and you have not checked)"
+      ],
+      [
+       "ply",
+       "Plywood or concrete"
+      ]
+     ]
+    }
    ],
-   "default":{"h":"Probably replace the worst rooms only","p":"Five to ten year old carpet is a judgment call. Replace the stairs, hallway and living room if they show traffic lanes; clean the bedrooms if they are intact. Mixing is fine as long as the colors read as intentional."}},
-  {"type":"h2","text":"What Lynnwood buyers are comparing you against"},
-  {"type":"cards","cols":2,"items":[
-    {"icon":"home","title":"New townhomes near the light rail","text":"Much of the Lynnwood buyer pool has just toured new construction around the City Center station with vinyl plank main floors and fresh carpet upstairs. Your 1978 split-level does not need to match that, but 15-year-old beige carpet next to it looks like work."},
-    {"icon":"wallet","title":"First-time buyers with no cash left","text":"After a down payment and closing costs, most Lynnwood first-timers have no budget for floors. A house that needs carpet on day one gets mentally discounted by more than the carpet costs. That gap is the whole argument for replacing before listing."},
-    {"icon":"search","title":"Inspectors and pet odor","text":"Pet urine soaks into pad and subfloor. New carpet over a contaminated pad still smells in August. If a dog lived on it, the pad must go and the subfloor may need sealing, which is a detail buyers' inspectors specifically sniff for."},
-    {"icon":"layers","title":"The oak underneath","text":"Alderwood and Meadowdale ramblers from the 1960s and 70s were built with oak strip floors and carpeted over in the 1990s. <a href=\"/blog-posts/is-it-worth-refinishing-hardwood-floors-before-selling-a-house\">Refinished oak</a> is the single most requested feature in local listings. Check before you buy carpet."}
-  ]},
-  {"type":"h2","text":"Your four options, honestly compared"},
-  {"type":"table","head":["Option","Best when","Downside"],"rows":[
-    ["Replace with mid-grade neutral carpet","Carpet is stained, old or smells; plywood subfloor underneath","Money spent up front; must be done before photos"],
-    ["Professional cleaning and restretch","Carpet is under 5 years old and intact","Does nothing for crushed pad, traffic lanes or odor"],
-    ["Refinish the hardwood underneath","1960s to 80s house with oak under the carpet","Takes 3 to 5 days and the house must be mostly empty"],
-    ["Offer a flooring credit instead","You are out of time or selling as-is","Buyers overestimate the cost, discount harder, and some lenders limit credits"]
-  ],"note":"We do not publish a carpet price online because fiber, pad and room layout change it too much. We measure and give a firm number at a free in-home estimate."},
-  {"type":"h2","text":"Scope your Lynnwood carpet replacement"},
-  {"type":"estimator","title":"Scope Your Pre-Sale Carpet Project","sub":"Tell us the rooms and stairs. We bring samples to the house and leave you a firm written price."},
-  {"type":"h2","text":"Which carpet to buy when you are selling"},
-  {"type":"list","icons":true,"items":[
-    {"icon":"tag","html":"<strong>Mid-grade, not premium.</strong> Buyers cannot tell a 40 oz nylon from a 60 oz one in a showing. They can tell new from old. Spend on the pad and the color, not the top tier."},
-    {"icon":"layers","html":"<strong><a href=\"/services/carpet-installation\">Polyester or triexta texture</a>, short pile.</strong> Both are stain-resistant, come in the right neutrals and photograph cleanly. A short textured pile hides footprints and vacuum lines during showings."},
-    {"icon":"palette","html":"<strong>Warm greige or light taupe.</strong> Not white, which shows every showing. Not dark, which shrinks a 1970s bedroom. Ask to see the sample against your wall paint in daylight."},
-    {"icon":"grid","html":"<strong>A 6 to 8 lb rebond pad.</strong> New pad is most of why new carpet feels new underfoot. This is the one place we push sellers not to go cheap."},
-    {"icon":"stairs","html":"<strong>Do the stairs and hallway first.</strong> If budget is tight, the stairs and upper hall are what every buyer touches. Bedrooms can follow in the same color if cash allows."}
-  ]},
-  {"type":"h2","text":"Mistakes that waste the money"},
-  {"type":"callout","icon":"alert","title":"The expensive one: ","text":"Ordering carpet before anyone checks what is under it. We have pulled up brand-new carpet in Martha Lake to find clean oak that could have been refinished for the listing. Lift a corner in a closet, or have us look at the free estimate before you commit."},
-  {"type":"ul","items":["Replacing only one bedroom in a slightly different color. Buyers notice the mismatch and assume the rest is next.","Installing new carpet over the old pad to save a little. Odor and crushed spots come straight through.","Scheduling install after the photographer. The photos are the listing; the carpet has to be in before the camera.","Choosing a trendy pattern or a bold color. You are decorating for the widest possible buyer, not for yourself.","Waiting until the week before listing. Order to install is usually one to two weeks, and spring in Lynnwood books up fast."]},
-  {"type":"h2","text":"How to line it up with your listing date"},
-  {"type":"steps","wide":true,"items":[
-    {"icon":"search","d":"6 weeks out","text":"Free in-home estimate. We lift a corner, check the pad and subfloor, and tell you whether carpet, cleaning or a refinish is the smart spend.","note":"If oak turns up, see our guide to refinishing before a sale"},
-    {"icon":"clipboard","d":"5 weeks out","text":"Pick a neutral from the samples in your own light and sign the firm written quote. Carpet is ordered and the pad is confirmed.","note":"Lead time is usually 1 to 2 weeks"},
-    {"icon":"truck","d":"3 weeks out","text":"Tear-out and install, usually one day for three bedrooms and a hall, two days with stairs and a living room. Old carpet and pad hauled away.","note":"Rooms need to be empty; we can move large pieces"},
-    {"icon":"sun","d":"2 weeks out","text":"Paint touch-ups, staging, photos. Fresh carpet under bright listing photos is the payoff.","note":"Vacuum once before photos, no cleaning needed"}
-  ]}
+   "rules": [
+    {
+     "when": "a.under==='oak'",
+     "h": "Pull it up and look before you spend anything",
+     "p": "Most Lynnwood ramblers and split-levels from the 1960s to 1980s have oak under the carpet. A refinished original floor outsells new carpet with every buyer we meet. Have us check the wood before you order carpet."
+    },
+    {
+     "when": "a.cond==='bad'",
+     "h": "Replace it",
+     "p": "Stains and odor cannot be photographed away, and buyers assume the worst about what is under a stained carpet. A mid-grade neutral carpet with new pad is the fix. Book it before the photographer, not after."
+    },
+    {
+     "when": "a.age==='old'",
+     "h": "Replace it, even if it looks acceptable",
+     "p": "Carpet over 10 years old has crushed pad and traffic lanes that show in listing photos under bright light. Buyers will price it as a replacement anyway, and they will overestimate the cost when they do."
+    },
+    {
+     "when": "a.age==='new'&&a.cond==='ok'",
+     "h": "Professional cleaning is enough",
+     "p": "Carpet under five years old with no damage cleans up well. Have it hot-water extracted a week before photos, restretch any ripples, and spend the carpet money on paint and lighting instead."
+    }
+   ],
+   "default": {
+    "h": "Probably replace the worst rooms only",
+    "p": "Five to ten year old carpet is a judgment call. Replace the stairs, hallway and living room if they show traffic lanes; clean the bedrooms if they are intact. Mixing is fine as long as the colors read as intentional."
+   }
+  },
+  {
+   "type": "h2",
+   "text": "What Lynnwood buyers are comparing you against"
+  },
+  {
+   "type": "cards",
+   "cols": 2,
+   "items": [
+    {
+     "icon": "home",
+     "title": "New townhomes near the light rail",
+     "text": "Much of the Lynnwood buyer pool has just toured new construction around the City Center station with vinyl plank main floors and fresh carpet upstairs. Your 1978 split-level does not need to match that, but 15-year-old beige carpet next to it looks like work."
+    },
+    {
+     "icon": "wallet",
+     "title": "First-time buyers with no cash left",
+     "text": "After a down payment and closing costs, most Lynnwood first-timers have no budget for floors. A house that needs carpet on day one gets mentally discounted by more than the carpet costs. That gap is the whole argument for replacing before listing."
+    },
+    {
+     "icon": "search",
+     "title": "Inspectors and pet odor",
+     "text": "Pet urine soaks into pad and subfloor. New carpet over a contaminated pad still smells in August. If a dog lived on it, the pad must go and the subfloor may need sealing, which is a detail buyers' inspectors specifically sniff for."
+    },
+    {
+     "icon": "layers",
+     "title": "The oak underneath",
+     "text": "Alderwood and Meadowdale ramblers from the 1960s and 70s were built with oak strip floors and carpeted over in the 1990s. <a href=\"/blog-posts/is-it-worth-refinishing-hardwood-floors-before-selling-a-house\">Refinished oak</a> is the single most requested feature in local listings. Check before you buy carpet."
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "Your four options, honestly compared"
+  },
+  {
+   "type": "table",
+   "head": [
+    "Option",
+    "Best when",
+    "Downside"
+   ],
+   "rows": [
+    [
+     "Replace with mid-grade neutral carpet",
+     "Carpet is stained, old or smells; plywood subfloor underneath",
+     "Money spent up front; must be done before photos"
+    ],
+    [
+     "Professional cleaning and restretch",
+     "Carpet is under 5 years old and intact",
+     "Does nothing for crushed pad, traffic lanes or odor"
+    ],
+    [
+     "Refinish the hardwood underneath",
+     "1960s to 80s house with oak under the carpet",
+     "Takes 3 to 5 days and the house must be mostly empty"
+    ],
+    [
+     "Offer a flooring credit instead",
+     "You are out of time or selling as-is",
+     "Buyers overestimate the cost, discount harder, and some lenders limit credits"
+    ]
+   ],
+   "note": "Our labor is published: $0.99 per sq ft stretched in, $1.29 glue-down, $30 per stair, $0.45 per sq ft for tear-out and haul-away, 500 sq ft minimum. A 1,100 sq ft upstairs with 13 stairs is 1,100 x ($0.99 + $0.45) + 13 x $30 = $1,974 in labor, plus the carpet and pad you choose."
+  },
+  {
+   "type": "h2",
+   "text": "Scope your Lynnwood carpet replacement"
+  },
+  {
+   "type": "calc",
+   "kind": "carpet",
+   "note": "Labor only, tear-out included when you tick it. Carpet and pad are quoted at the estimate."
+  },
+  {
+   "type": "h2",
+   "text": "Which carpet to buy when you are selling"
+  },
+  {
+   "type": "list",
+   "icons": true,
+   "items": [
+    {
+     "icon": "tag",
+     "html": "<strong>Mid-grade, not premium.</strong> Buyers cannot tell a 40 oz nylon from a 60 oz one in a showing. They can tell new from old. Labor is $0.99 per sq ft whatever grade you pick, so put the difference into the pad and the color, not the top tier."
+    },
+    {
+     "icon": "layers",
+     "html": "<strong><a href=\"/services/carpet-installation\">Polyester or triexta texture</a>, short pile.</strong> Both are stain-resistant, come in the right neutrals and photograph cleanly. A short textured pile hides footprints and vacuum lines during showings."
+    },
+    {
+     "icon": "palette",
+     "html": "<strong>Warm greige or light taupe.</strong> Not white, which shows every showing. Not dark, which shrinks a 1970s bedroom. Ask to see the sample against your wall paint in daylight."
+    },
+    {
+     "icon": "grid",
+     "html": "<strong>A 6 to 8 lb rebond pad.</strong> New pad is most of why new carpet feels new underfoot. This is the one place we push sellers not to go cheap."
+    },
+    {
+     "icon": "stairs",
+     "html": "<strong>Do the stairs and hallway first.</strong> If budget is tight, the stairs and upper hall are what every buyer touches. Bedrooms can follow in the same color if cash allows."
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "Mistakes that waste the money"
+  },
+  {
+   "type": "callout",
+   "icon": "alert",
+   "title": "The expensive one: ",
+   "text": "Ordering carpet before anyone checks what is under it. We have pulled up brand-new carpet in Martha Lake to find clean oak that could have been refinished for the listing. Lift a corner in a closet, or have us look at the free estimate before you commit."
+  },
+  {
+   "type": "ul",
+   "items": [
+    "Replacing only one bedroom in a slightly different color. Buyers notice the mismatch and assume the rest is next.",
+    "Installing new carpet over the old pad to save a little. Odor and crushed spots come straight through.",
+    "Scheduling install after the photographer. The photos are the listing; the carpet has to be in before the camera.",
+    "Choosing a trendy pattern or a bold color. You are decorating for the widest possible buyer, not for yourself.",
+    "Waiting until the week before listing. Order to install is usually one to two weeks, and spring in Lynnwood books up fast."
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "How to line it up with your listing date"
+  },
+  {
+   "type": "steps",
+   "wide": true,
+   "items": [
+    {
+     "icon": "search",
+     "d": "6 weeks out",
+     "text": "Free in-home estimate. We lift a corner, check the pad and subfloor, and tell you whether carpet, cleaning or a refinish is the smart spend.",
+     "note": "If oak turns up, see our guide to refinishing before a sale"
+    },
+    {
+     "icon": "clipboard",
+     "d": "5 weeks out",
+     "text": "Pick a neutral from the samples in your own light and sign the firm written quote. Carpet is ordered and the pad is confirmed.",
+     "note": "Lead time is usually 1 to 2 weeks"
+    },
+    {
+     "icon": "truck",
+     "d": "3 weeks out",
+     "text": "Tear-out and install, usually one day for three bedrooms and a hall, two days with stairs and a living room. Old carpet and pad hauled away.",
+     "note": "Tear-out and install labor on 1,100 sq ft with stairs runs about $1,974"
+    },
+    {
+     "icon": "sun",
+     "d": "2 weeks out",
+     "text": "Paint touch-ups, staging, photos. Fresh carpet under bright listing photos is the payoff.",
+     "note": "Vacuum once before photos, no cleaning needed"
+    }
+   ]
+  }
  ],
  "faq": [
-  {"q":"Does new carpet increase the sale price of a house in Lynnwood?","a":"It rarely adds more than it costs on paper, but it removes a reason for buyers to discount or walk. In Lynnwood, where most buyers are first-timers comparing against new townhomes, a house that needs carpet gets mentally marked down by more than a carpet job costs. New carpet protects the price rather than inflating it."},
-  {"q":"Is it better to replace the carpet or give the buyer a credit?","a":"Replace it, in most cases. Buyers overestimate what carpet costs, so a credit almost always ends up larger than the actual job. Credits can also be capped by the buyer's lender. A credit only makes sense if you are out of time or selling to an investor who plans to remodel."},
-  {"q":"How do I know if there is hardwood under my carpet?","a":"Pull back a corner in a closet or near a floor vent. Lynnwood ramblers and split-levels built from the 1960s through the early 1980s very often have oak strip flooring under the carpet. If you find wood, have us check its condition before spending anything on new carpet."},
-  {"q":"What color carpet sells a house best?","a":"A warm greige or light taupe in a short textured pile. It photographs as clean and neutral, works with most wall colors, and hides footprints during showings. Avoid very light carpet that shows every visitor and dark carpet that makes 1970s bedrooms feel smaller than they are."},
-  {"q":"How long before listing should I schedule carpet installation?","a":"Book the estimate about six weeks before your listing date. Ordering usually takes one to two weeks and installation takes one to two days, which leaves time for paint touch-ups and photos. Spring is the busiest season in Lynnwood, so add a week of margin if you are listing in April or May."},
-  {"q":"Can I just replace the carpet in the worst rooms?","a":"Yes, as long as the new and old carpets are clearly separated by a doorway or a stair and the colors read as intentional. Stairs, upper hallway and living room show wear first and matter most in showings. Bedrooms with intact carpet can be professionally cleaned instead."}
+  {
+   "q": "Does new carpet increase the sale price of a house in Lynnwood?",
+   "a": "It rarely adds more than it costs on paper, but it removes a reason for buyers to discount or walk. In Lynnwood, where most buyers are first-timers comparing against new townhomes, a house that needs carpet gets marked down by more than a $0.99 per sq ft install and the carpet on top of it. New carpet protects the price rather than inflating it."
+  },
+  {
+   "q": "Is it better to replace the carpet or give the buyer a credit?",
+   "a": "Replace it, in most cases. Buyers overestimate what carpet costs, so a credit almost always ends up larger than the job. Our labor on a 1,100 sq ft upstairs with stairs is about $1,974 including tear-out, plus carpet and pad, while the credit a buyer asks for is usually several thousand. Credits can also be capped by the buyer's lender."
+  },
+  {
+   "q": "How do I know if there is hardwood under my carpet?",
+   "a": "Pull back a corner in a closet or near a floor vent. Lynnwood ramblers and split-levels built from the 1960s through the early 1980s very often have oak strip flooring under the carpet. If you find wood, have us check its condition before spending anything on new carpet."
+  },
+  {
+   "q": "What color carpet sells a house best?",
+   "a": "A warm greige or light taupe in a short textured pile. It photographs as clean and neutral, works with most wall colors, and hides footprints during showings. Avoid very light carpet that shows every visitor and dark carpet that makes 1970s bedrooms feel smaller than they are."
+  },
+  {
+   "q": "How long before listing should I schedule carpet installation?",
+   "a": "Book the estimate about six weeks before your listing date. Ordering usually takes one to two weeks and installation takes one to two days, which leaves time for paint touch-ups and photos. Spring is the busiest season in Lynnwood, so add a week of margin if you are listing in April or May."
+  },
+  {
+   "q": "Can I just replace the carpet in the worst rooms?",
+   "a": "Yes, as long as the new and old carpets are clearly separated by a doorway or a stair and the colors read as intentional. Stairs, upper hallway and living room show wear first and matter most in showings. Bedrooms with intact carpet can be professionally cleaned instead."
+  }
  ],
  "faq_title": "Pre-sale carpet questions from Lynnwood sellers",
  "faq_sub": "Asked at estimates in Alderwood, Martha Lake and Meadowdale, and at our showroom on 196th.",
- "related": [["whats-under-my-carpet-kirkland","what is under your carpet"],["carpet-vs-hardwood-for-resale-value-in-edmonds","carpet vs hardwood for resale"],["how-far-out-should-you-book-carpet-installation-in-lynnwood","how far out to book carpet installation"]],
+ "related": [
+  [
+   "whats-under-my-carpet-kirkland",
+   "what is under your carpet"
+  ],
+  [
+   "carpet-vs-hardwood-for-resale-value-in-edmonds",
+   "carpet vs hardwood for resale"
+  ],
+  [
+   "how-far-out-should-you-book-carpet-installation-in-lynnwood",
+   "how far out to book carpet installation"
+  ]
+ ],
  "cta_title": "Get an honest answer before you list",
- "cta_sub": "We come to your Lynnwood home with samples, lift a corner, and tell you whether to replace, clean or refinish. Firm written price on the spot, free, no obligation."
+ "cta_sub": "We come to your Lynnwood home with samples, lift a corner, and tell you whether to replace, clean or refinish. Firm written price on the spot, free, no obligation.",
+ "offers": [
+  [
+   "Carpet installation, stretch-in",
+   "0.99",
+   "per square foot"
+  ],
+  [
+   "Carpet installation, glue-down",
+   "1.29",
+   "per square foot"
+  ]
+ ]
 }

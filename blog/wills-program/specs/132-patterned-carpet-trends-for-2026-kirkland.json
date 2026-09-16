@@ -12,7 +12,7 @@
    "type": "quick",
    "eyebrow": "Short answer",
    "lead": "In 2026 Kirkland designers are picking quiet, small-scale patterns: tone-on-tone cut and loop geometrics, soft trellis, linen-look textures and striped stair runners, almost always in warm neutrals rather than bold color.",
-   "detail": "The look is pattern you notice from the doorway and forget when you sit down. Big florals and high-contrast prints are what people are pulling out, not putting in.",
+   "detail": "The look is pattern you notice from the doorway and forget when you sit down. Big florals and high-contrast prints are what people pull out, not put in. Labor is the same $0.99 per sq ft as a solid; pattern costs you in material, not in the rate.",
    "tiles": [
     {
      "icon": "grid",
@@ -30,16 +30,16 @@
      "value": "Cut and loop, wool blends"
     },
     {
-     "icon": "stairs",
-     "label": "Where it goes",
-     "value": "Stairs, bedrooms, dens"
+     "icon": "dollar",
+     "label": "Install labor",
+     "value": "$0.99 / sq ft"
     }
    ],
-   "cta": false
+   "cta": "Price your rooms"
   },
   {
    "type": "p",
-   "html": "The question comes up at almost every Kirkland estimate now: \"Is patterned carpet back, or will it look dated in three years?\" It is back, but not the way it left. The 1990s flecked berber and the mid-2000s hotel scroll are gone. What designers working in Houghton, Juanita and Bridle Trails are specifying instead is pattern built into the texture of the carpet, in colors that behave like a solid. Here are the patterns we are actually installing, where they work, and the installation details that decide whether a patterned floor looks custom or crooked."
+   "html": "The question comes up at almost every Kirkland estimate now: \"Is patterned carpet back, or will it look dated in three years?\" It is back, but not the way it left. The 1990s flecked berber and the mid-2000s hotel scroll are gone. Designers in Houghton, Juanita and Bridle Trails are specifying pattern built into the texture of the carpet, in colors that behave like a solid. Here is what we are installing, where it works, and what decides whether a patterned floor looks custom or crooked."
   },
   {
    "type": "h2",
@@ -53,38 +53,38 @@
      "icon": "grid",
      "tag": "Most requested",
      "title": "Tone-on-tone geometric",
-     "text": "Small squares, diamonds or a soft trellis cut into a loop base, all in one color. The pattern is light and shadow from the height difference between cut and loop yarn. It hides footprints and vacuum tracks, which is why designers put it in bedrooms.",
+     "text": "Small squares, diamonds or a soft trellis cut into a loop base, all one color. The pattern is light and shadow from the height difference between cut and loop yarn. It hides footprints and vacuum tracks, which is why it lands in bedrooms.",
      "gold": true
     },
     {
      "icon": "layers",
      "tag": "Modern classic",
      "title": "Herringbone loop",
-     "text": "A tight herringbone worked into a level loop. It borrows from the herringbone wood and tile Eastside remodels have used for years and ties a carpeted bedroom to a hardwood hall. Best in a mid-tone where the pattern reads but does not shout."
+     "text": "A tight herringbone worked into a level loop. It borrows from the herringbone wood and tile Eastside remodels have used for years and ties a carpeted bedroom to a hardwood hall. Best in a mid-tone that reads without shouting."
     },
     {
      "icon": "leaf",
      "tag": "Quiet luxury",
      "title": "Linen and sisal textures",
-     "text": "Not a printed pattern at all: a fine woven-look loop that mimics linen or sisal. Kirkland buyers get the natural-fiber look without the staining and stiffness of real sisal. Usually a wool or wool-nylon blend in oat, flax or sand."
+     "text": "Not a printed pattern at all: a fine woven-look loop that mimics linen or sisal, without the staining and stiffness of real sisal. Usually a wool or wool-nylon blend in oat, flax or sand."
     },
     {
      "icon": "stairs",
      "tag": "Stairs and halls",
      "title": "Striped runners",
-     "text": "Three or four related neutrals in narrow stripes running down a staircase or hallway. Stripes make a short hall feel longer and give stairs a tailored look. On Kirkland split-levels this is the single most common patterned request."
+     "text": "Three or four related neutrals in narrow stripes down a staircase or hallway. Stripes make a short hall feel longer and give stairs a tailored look. On Kirkland split-levels this is the most common patterned request."
     },
     {
      "icon": "sparkle",
      "tag": "Rising",
      "title": "Organic and abstract",
-     "text": "Soft, irregular shapes like watercolor or worn stone, tufted in two close tones. A favorite for media rooms and primary suites because it forgives spills and pet traffic better than any solid: there is no clean field for a stain to sit in."
+     "text": "Soft, irregular shapes like watercolor or worn stone, tufted in two close tones. A favorite for media rooms and primary suites because it forgives spills better than any solid: there is no clean field for a stain to sit in."
     },
     {
      "icon": "x",
      "tag": "Fading",
      "title": "High-contrast prints",
-     "text": "Black and cream animal prints, large florals and bold tile motifs still sell as area rugs, but as wall-to-wall they are leaving Kirkland specs. Buyers read them as a personal choice they will have to replace, and resale is always in the back of the mind here."
+     "text": "Black and cream animal prints, large florals and bold tile motifs still sell as area rugs, but as wall-to-wall they are leaving Kirkland specs. Buyers read them as a choice they will have to pay to replace."
     }
    ]
   },
@@ -118,12 +118,7 @@
     [
      "Media room or basement",
      "Larger organic pattern",
-     "Low light flattens texture, so a bigger repeat still shows."
-    ],
-    [
-     "Home office",
-     "Linen-look loop",
-     "Rolling chairs need a low, dense loop. Texture reads as pattern without a repeat."
+     "Low light flattens texture, so a bigger repeat still reads."
     ],
     [
      "Main floor living room",
@@ -131,16 +126,20 @@
      "Most Kirkland main floors are hardwood now. Where carpet stays, rugs carry the pattern."
     ]
    ],
-   "note": "These are the choices we see across Juanita, Rose Hill and Finn Hill remodels. Your light and furniture will shift them."
+   "note": "What we see across Juanita, Rose Hill and Finn Hill remodels. Your light and furniture will shift it."
   },
   {
    "type": "h2",
-   "text": "Scope your Kirkland carpet project"
+   "text": "Price your Kirkland carpet right now"
   },
   {
-   "type": "estimator",
-   "title": "Scope your Kirkland carpet project",
-   "sub": "Tell us the rooms and stairs. We bring patterned samples to your house so you can see the repeat in your own light, then hand you a firm written price."
+   "type": "calc",
+   "kind": "carpet",
+   "note": "Labor only, at the same rate as a solid carpet. The patterned carpet and pad are quoted at the free estimate."
+  },
+  {
+   "type": "p",
+   "html": "Pattern does not change our labor rate: $0.99 per sq ft stretch-in over pad, $1.29 glue-down, $30 per step, 500 sq ft minimum. A Juanita staircase of 15 steps with a 400 sq ft upstairs hall bills at that minimum: 500 × $0.99 + 15 × $30 = $495 + $450 = $945 in labor, plus the patterned carpet and pad, quoted at the estimate. The repeat pushes up the material order, not the crew's hours."
   },
   {
    "type": "h2",
@@ -148,7 +147,7 @@
   },
   {
    "type": "p",
-   "html": "A patterned carpet is only as good as its seams. On a solid, a seam that wanders an inch is invisible. On a 4 in geometric, an inch off is a crooked floor you see every morning. Here is what a proper patterned installation involves and why it takes longer than a solid."
+   "html": "A patterned carpet is only as good as its seams. On a solid, a seam that wanders an inch is invisible. On a 4 in geometric, an inch off is a crooked floor you see every morning. Here is what a proper patterned installation involves."
   },
   {
    "type": "steps",
@@ -157,23 +156,23 @@
     {
      "icon": "ruler",
      "d": "Measure the repeat",
-     "text": "Every pattern has a length and width repeat on the spec sheet. The layout is planned so seams land on a full repeat and the pattern runs square to the longest wall."
+     "text": "Every pattern has a length and width repeat on the spec sheet. Seams are planned to land on a full repeat, square to the longest wall."
     },
     {
      "icon": "box",
      "d": "Order the extra",
-     "text": "Patterned carpet needs a higher waste factor than solid because every cut has to land on the repeat, especially for stairs and L-shaped rooms.",
+     "text": "Patterned carpet carries a higher waste factor than solid, because every cut has to land on the repeat. Stairs and L-shaped rooms cost the most.",
      "note": "We calculate it at the measure so there is one order, not two."
     },
     {
      "icon": "scissors",
      "d": "Cut to pattern, then to room",
-     "text": "Each piece is cut on the repeat line first, then trimmed to the room. Cutting to the room first is how patterns end up half a diamond off at the seam."
+     "text": "Each piece is cut on the repeat line first, then trimmed to the room. Cutting to the room first is how patterns end up half a diamond off."
     },
     {
      "icon": "stairs",
      "d": "Stretch, check, align the stairs",
-     "text": "The carpet is power-stretched, then checked with a straightedge across the pattern before the last edge is tucked. Runner stripes are centered on each tread and carried straight down every riser."
+     "text": "The carpet is power-stretched, then checked with a straightedge across the pattern before the last edge is tucked. Runner stripes are centered on each tread and carried down every riser."
     }
    ]
   },
@@ -187,15 +186,15 @@
    "items": [
     {
      "icon": "palette",
-     "html": "<strong>Warm greige and mushroom.</strong> The cool gray of every Kirkland flip from 2015 to 2021 is out. Pattern in a warm gray-beige reads as texture and sits well next to white oak."
+     "html": "<strong>Warm greige and mushroom.</strong> The cool gray of every 2015 to 2021 Kirkland flip is out. A warm gray-beige reads as texture next to white oak."
     },
     {
      "icon": "leaf",
-     "html": "<strong>Oat, flax and sand.</strong> The linen-look loops live here. They pull light into north-facing bedrooms in Juanita and Finn Hill that feel dim from November to March."
+     "html": "<strong>Oat, flax and sand.</strong> The linen-look loops live here, and they pull light into north-facing Juanita and Finn Hill bedrooms that feel dim all winter."
     },
     {
      "icon": "sun",
-     "html": "<strong>Clay and rust as one accent stripe.</strong> A single warm stripe in a neutral runner is how most Kirkland owners bring in color without committing a room to it."
+     "html": "<strong>Clay and rust as one accent stripe.</strong> A single warm stripe in a neutral runner brings in color without committing a room to it."
     },
     {
      "icon": "moon",
@@ -242,19 +241,19 @@
    "items": [
     {
      "icon": "search",
-     "html": "<strong>What is the repeat, and where will the seams fall?</strong> A good installer can show you on the room sketch before the carpet is ordered. If a patterned quote carries the same labor time as a solid, they plan to cut it like a solid."
+     "html": "<strong>What is the repeat, and where will the seams fall?</strong> A good installer shows you on the room sketch before the carpet is ordered. If nobody has drawn a seam plan, they intend to cut it like a solid."
     },
     {
      "icon": "home",
-     "html": "<strong>Can I see the sample at night?</strong> Tone-on-tone patterns change completely under warm lamps. Our <a href=\"/services/carpet-installation\">mobile showroom</a> leaves samples with you overnight for this reason."
+     "html": "<strong>Can I see the sample at night?</strong> Tone-on-tone patterns change under warm lamps, so our <a href=\"/services/carpet-installation\">mobile showroom</a> leaves samples with you overnight."
     },
     {
      "icon": "layers",
-     "html": "<strong>What pad does this pattern want?</strong> Cut and loop holds its definition longer on a firm, dense pad. A soft pad lets the loops crush and the pattern blur."
+     "html": "<strong>What pad does this pattern want?</strong> Cut and loop holds its definition on a firm, dense pad. A soft pad lets the loops crush and the pattern blur."
     },
     {
      "icon": "stairs",
-     "html": "<strong>How will the stairs be wrapped?</strong> Waterfall, wrapped nose or a runner with exposed treads each use different lengths and show the pattern differently. Our post on <a href=\"/blog-posts/what-is-the-best-carpet-for-stairs-lynnwood\">carpet for stairs</a> covers the tradeoffs."
+     "html": "<strong>How will the stairs be wrapped?</strong> Waterfall, wrapped nose and runners with exposed treads each show the pattern differently, all at $30 per step. Our post on <a href=\"/blog-posts/what-is-the-best-carpet-for-stairs-lynnwood\">carpet for stairs</a> covers the tradeoffs."
     },
     {
      "icon": "shield",
@@ -270,11 +269,11 @@
   },
   {
    "q": "Does patterned carpet make a room look smaller?",
-   "a": "A large, high-contrast pattern can. A small tonal pattern does the opposite: it adds depth without breaking up the floor, and lengthwise stripes make halls and stair runs feel longer. Keep the repeat under about 6 in and the colors in one family and the room reads bigger."
+   "a": "A large, high-contrast pattern can. A small tonal pattern does the opposite: it adds depth without breaking up the floor, and stripes make halls and stair runs feel longer. Keep the repeat under about 6 in and the colors in one family."
   },
   {
    "q": "Does patterned carpet cost more to install than solid carpet?",
-   "a": "It usually takes more material and more labor time, because every cut has to land on the pattern repeat and seams have to align. How much more depends on the repeat size and how many seams your rooms need. We measure and quote it as a firm number at the free in-home estimate."
+   "a": "Our labor is the same published rate either way: $0.99 per sq ft stretch-in, $1.29 glue-down, $30 per step, 500 sq ft minimum. What goes up is material, because every cut has to land on the repeat, so the waste factor climbs. We measure the repeat and quote the carpet at the free estimate."
   },
   {
    "q": "Which patterned carpet hides dirt and pet hair best?",
@@ -282,11 +281,11 @@
   },
   {
    "q": "Can you put a patterned runner on stairs that already have hardwood treads?",
-   "a": "Yes. A runner over finished treads with a few inches of wood showing on each side is one of the most popular Kirkland stair looks. Stripes are centered on the tread and carried straight down each riser. Pie-shaped or curved stairs make alignment much harder, so we look at the stair first."
+   "a": "Yes. A runner over finished treads with a few inches of wood showing each side is one of the most popular Kirkland stair looks, and it is billed the same $30 per step. Stripes are centered on the tread and carried down each riser. Curved stairs make alignment much harder."
   },
   {
    "q": "Will patterned carpet hurt resale value in Kirkland?",
-   "a": "Tonal, small-scale pattern in a warm neutral will not; buyers read it as texture. Strong personal patterns can, because a buyer sees replacement cost. If you might sell within a couple of years, keep the pattern on the stairs and hall and stay solid in the bedrooms."
+   "a": "Tonal, small-scale pattern in a warm neutral will not; buyers read it as texture. Strong personal patterns can, because a buyer prices the replacement. If you might sell soon, keep pattern on the stairs and hall and stay solid in the bedrooms."
   }
  ],
  "faq_title": "Patterned carpet questions from Kirkland homeowners",
@@ -306,5 +305,17 @@
   ]
  ],
  "cta_title": "See the pattern in your own light",
- "cta_sub": "Our mobile showroom brings 2026 patterned samples to your Kirkland home, plans the seams and stair alignment on the spot, and leaves you with a firm written price. Free, no obligation."
+ "cta_sub": "Our mobile showroom brings 2026 patterned samples to your Kirkland home, plans the seams and stair alignment on the spot, and leaves you with a firm written price. Free, no obligation.",
+ "offers": [
+  [
+   "Carpet installation, stretch-in",
+   "0.99",
+   "per square foot"
+  ],
+  [
+   "Carpet installation, glue-down",
+   "1.29",
+   "per square foot"
+  ]
+ ]
 }

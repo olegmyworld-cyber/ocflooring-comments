@@ -30,16 +30,16 @@
      "value": "Backing and pad"
     },
     {
-     "icon": "wind",
-     "label": "Ventilate for",
-     "value": "72 hours"
+     "icon": "dollar",
+     "label": "Install labor",
+     "value": "$0.99 / sq ft"
     }
    ],
-   "cta": "Scope your project"
+   "cta": "Try the calculator"
   },
   {
    "type": "p",
-   "html": "This question comes up most in Sammamish for a reason. Klahanie, Trossachs and the newer plateau neighborhoods are full of tightly built 1990s to 2010s homes with heat-recovery ventilators and windows that stay shut from October to April. A family with a baby, a dog and someone with asthma orders carpet for four bedrooms, and the smell has nowhere to go. Here is what the smell is, what the labels mean, what the research says about safety, and how to clear it out of a sealed-up house in a rainy week."
+   "html": "This question comes up most in Sammamish for a reason. Klahanie, Trossachs and the newer plateau neighborhoods are full of tightly built 1990s to 2010s homes with heat-recovery ventilators and windows that stay shut from October to April. A family with a baby, a dog and someone with asthma orders carpet for four bedrooms, and the smell has nowhere to go. Here is what it is, what the labels mean, and how to clear it out of a sealed-up house."
   },
   {
    "type": "h2",
@@ -53,7 +53,7 @@
      "icon": "layers",
      "tag": "The main source",
      "title": "Latex backing (4-PC)",
-     "text": "Almost all broadloom carpet has a secondary backing glued on with styrene-butadiene latex. A by-product of that latex, 4-phenylcyclohexene, is what you smell. Human noses detect it at astonishingly low levels, which is why a room can smell strongly while instruments barely register it.",
+     "text": "Almost all broadloom carpet has a secondary backing glued on with styrene-butadiene latex. A by-product of that latex, 4-phenylcyclohexene, is what you smell. Noses detect it at astonishingly low levels, which is why a room can reek while instruments barely register it.",
      "gold": true
     },
     {
@@ -64,12 +64,12 @@
     {
      "icon": "droplet",
      "title": "Adhesive (glue-down only)",
-     "text": "Glue-down installations add carpet adhesive to the mix. Nearly every residential job in Sammamish is stretch-in over pad with tack strip, which uses no adhesive at all, so this one rarely applies to a house."
+     "text": "Glue-down, our $1.29 per sq ft rate, adds carpet adhesive to the mix. Nearly every residential job in Sammamish is stretch-in over pad at $0.99, which uses no adhesive at all, so this one rarely applies to a house."
     },
     {
      "icon": "leaf",
      "title": "The fiber itself",
-     "text": "Nylon, polyester, triexta and wool fibers contribute very little to the smell. Topical stain treatments applied at the mill can add a faint chemical note for a day. The fiber is not the problem people assume it is."
+     "text": "Nylon, polyester, triexta and wool contribute very little to the smell. Topical stain treatments applied at the mill can add a faint chemical note for a day. The fiber is not the problem people assume."
     }
    ]
   },
@@ -90,7 +90,7 @@
      "CRI Green Label Plus",
      "Carpet and Rug Institute",
      "Carpet, tested by an independent lab",
-     "Total VOCs, 4-PC, formaldehyde and other specific compounds must fall under set limits after 14 days in a test chamber. The main mark to look for; most mainstream carpet lines now carry it."
+     "Total VOCs, 4-PC, formaldehyde and other compounds must fall under set limits after 14 days in a test chamber. The main mark to look for; most mainstream lines carry it."
     ],
     [
      "CRI Green Label (pad)",
@@ -99,19 +99,13 @@
      "The pad version of the program. Ask for it by name; it is not automatic just because the carpet is Green Label Plus."
     ],
     [
-     "FloorScore",
-     "Resilient Floor Covering Institute with SCS",
-     "Hard flooring, some carpet tile",
-     "Common on vinyl plank and laminate. Useful if you are mixing carpet bedrooms with vinyl plank living areas."
-    ],
-    [
      "Greenguard Gold",
      "UL",
      "Products used in schools and healthcare",
-     "A stricter chamber test than Green Label Plus with limits based on children's exposure. Fewer carpets carry it, mostly premium lines."
+     "A stricter chamber test than Green Label Plus, with limits based on children's exposure. Fewer carpets carry it."
     ]
    ],
-   "note": "We bring the spec sheet with every sample. If a carpet does not list its certification, we can find out before you order."
+   "note": "We bring the spec sheet with every sample, and if a carpet does not list its certification we find out before you order."
   },
   {
    "type": "h2",
@@ -119,16 +113,20 @@
   },
   {
    "type": "p",
-   "html": "The honest summary: measured VOC emissions from new carpet are low, they peak in the first 24 to 72 hours, and they drop to background levels within a couple of weeks. The compound behind the smell, 4-PC, has been studied since the 1980s and has not been shown to cause harm at the levels found in homes. That said, three groups deserve extra care. People with asthma or chemical sensitivity can react to the smell itself even when the concentration is medically trivial. Newborns spend hours a day inches from the floor. And an unrelated worry got attached to carpet in the last decade: PFAS-based stain treatments. Most major mills stopped using PFAS on residential carpet several years ago, and we can confirm it product by product. For a deeper look at fiber choices, see <a href=\"/blog-posts/nylon-vs-polyester-vs-triexta-vs-wool-carpet-sammamish\">our comparison of nylon, polyester, triexta and wool</a>."
+   "html": "The honest summary: VOC emissions from new carpet are low, peak in the first 24 to 72 hours, and drop to background levels within a couple of weeks. The compound behind the smell, 4-PC, has been studied since the 1980s and has not been shown to cause harm at the levels found in homes. That said, two groups deserve extra care: people with asthma or chemical sensitivity, who react to the smell itself even when the concentration is medically trivial, and newborns, who spend hours a day inches from the floor. A separate worry got attached to carpet in the last decade, PFAS stain treatments. Most major mills dropped PFAS from residential carpet years ago, and we confirm it product by product. For a deeper look at fiber choices, see <a href=\"/blog-posts/nylon-vs-polyester-vs-triexta-vs-wool-carpet-sammamish\">our comparison of nylon, polyester, triexta and wool</a>."
   },
   {
    "type": "h2",
-   "text": "Scope your Sammamish carpet project"
+   "text": "Price your Sammamish carpet project right now"
   },
   {
-   "type": "estimator",
-   "title": "Scope Your Carpet Project",
-   "sub": "Tell us the rooms. We bring Green Label Plus samples and low-odor pad options to your door with a firm written price."
+   "type": "p",
+   "html": "You can price the labor before you pick a color. Stretch-in over pad, which is what a plateau house gets, is <strong>$0.99 per sq ft</strong> on a 500 sq ft minimum, stairs are <strong>$30 per step</strong>, and tear-out with haul-away adds <strong>$0.45 per sq ft</strong>. Four bedrooms, a hall and the stairs in a Klahanie two-story, call it 1,200 sq ft and 14 steps: 1,200 × $0.99 + 14 × $30 = $1,608 in labor. Carpet and pad are quoted on top, and that is where the low-VOC decisions live."
+  },
+  {
+   "type": "calc",
+   "kind": "carpet",
+   "note": "Labor only. Green Label Plus carpet and low-odor pad are quoted with their spec sheets at the estimate."
   },
   {
    "type": "h2",
@@ -141,27 +139,27 @@
     {
      "icon": "calendar",
      "d": "Before install",
-     "text": "Schedule the job for a stretch when you can run the house a few degrees warmer and open windows for an hour or two, even in the rain. Warm air speeds off-gassing; ventilation removes it."
+     "text": "Book the job for a stretch when you can run the house a few degrees warmer and open windows an hour or two, even in the rain. Warm air speeds off-gassing; ventilation removes it."
     },
     {
      "icon": "wind",
      "d": "Install day",
-     "text": "Open windows on two sides of the house for cross-flow. If you have an HRV or ERV, set it to its highest continuous setting. Run bathroom fans. Vacuum the new carpet once the crew leaves to pull loose fiber."
+     "text": "Open windows on two sides for cross-flow, set an HRV or ERV to its highest continuous setting, and run bathroom fans. Vacuum once the crew leaves to pull loose fiber."
     },
     {
      "icon": "thermo",
      "d": "Days 1 to 3",
-     "text": "Keep the HRV on high and the thermostat at 72 or above. Leave bedroom doors open so no room becomes a pocket. Most families notice the smell drop sharply by the second morning."
+     "text": "Keep the HRV on high and the thermostat at 72 or above, and leave bedroom doors open so no room becomes a pocket. Most families notice the smell drop sharply by the second morning."
     },
     {
      "icon": "baby",
      "d": "Nursery and kids' rooms",
-     "text": "If a newborn or an asthmatic child sleeps in a newly carpeted room, have them sleep elsewhere for the first two or three nights. Not because it is dangerous, because it is easy and removes the worry."
+     "text": "If a newborn or an asthmatic child sleeps in a newly carpeted room, move them for two or three nights. Not because it is dangerous, because it is easy and removes the worry."
     },
     {
      "icon": "done",
      "d": "Week 2",
-     "text": "Any remaining smell is faint and mostly from the pad. If a strong odor persists past two weeks, something else is going on; see the warning below."
+     "text": "Any remaining smell is faint and mostly pad. If a strong odor persists past two weeks, something else is going on; see the warning below."
     }
    ]
   },
@@ -175,23 +173,19 @@
    "items": [
     {
      "icon": "award",
-     "html": "<strong>Insist on Green Label Plus carpet and Green Label pad.</strong> Both, not just the carpet. The pad is the piece most people forget to ask about."
+     "html": "<strong>Insist on Green Label Plus carpet and Green Label pad.</strong> Both, not just the carpet. The pad is the piece people forget to ask about."
     },
     {
      "icon": "layers",
-     "html": "<strong>Upgrade the pad to felt or a low-odor foam.</strong> A dense felt or fiber pad costs a little more than standard rebond, emits less, and often feels better underfoot in bedrooms. We bring pad samples too."
+     "html": "<strong>Upgrade the pad to felt or a low-odor foam.</strong> A dense felt or fiber pad costs a little more than rebond, emits less, and feels better underfoot in bedrooms. We bring pad samples too."
     },
     {
      "icon": "lock",
-     "html": "<strong>Stay with stretch-in installation.</strong> It uses no adhesive. Glue-down is for commercial spaces and a few specialty products; there is almost never a reason for it in a Sammamish home."
+     "html": "<strong>Stay with stretch-in installation.</strong> It uses no adhesive. Glue-down is for slabs, commercial spaces and specialty products; there is rarely a reason for it in a plateau home."
     },
     {
      "icon": "leaf",
-     "html": "<strong>Consider wool for the nursery.</strong> Wool has a natural, faint lanolin smell rather than a chemical one, and takes no topical stain treatment. It costs more and is a poor choice in a damp basement, but for an upstairs bedroom it is the lowest-odor option there is."
-    },
-    {
-     "icon": "tag",
-     "html": "<strong>Ask about solution-dyed fiber with no topical treatment.</strong> Solution-dyed nylon and triexta have color built into the fiber and need fewer surface chemicals. Some lines skip topical stain treatment entirely."
+     "html": "<strong>Consider wool for the nursery.</strong> Wool smells faintly of lanolin rather than latex and takes no topical stain treatment. It costs more as a material and does poorly in a damp basement, but for an upstairs bedroom it is the lowest-odor option there is."
     }
    ]
   },
@@ -199,33 +193,33 @@
    "type": "callout",
    "icon": "alert",
    "title": "A smell that will not quit is not the carpet: ",
-   "text": "New carpet odor fades on a curve. If a musty or sharp smell is still strong after two weeks, or gets worse in wet weather, the usual causes are a damp slab or subfloor under the pad, an old pet-urine spot in the subfloor that the new carpet is now holding in, or a leak. Call us; we will pull a corner and look rather than guess."
+   "text": "New carpet odor fades on a curve. If a musty or sharp smell is still strong after two weeks, or gets worse in wet weather, the usual causes are a damp subfloor under the pad, an old pet-urine spot the new carpet is holding in, or a leak. Call us; we pull a corner and look rather than guess."
   }
  ],
  "faq": [
   {
    "q": "How long does new carpet smell last?",
-   "a": "Two to three days in a house with windows open or an HRV running, up to a week or two in a closed house in winter. The smell peaks in the first 24 hours and drops on a curve. If it is still strong after two weeks, suspect moisture under the pad or an old subfloor odor rather than the carpet."
+   "a": "Two to three days with windows open or an HRV running, up to a week or two in a closed house in winter. The smell peaks in the first 24 hours, then drops on a curve. If it is still strong after two weeks, suspect moisture under the pad or an old subfloor odor, not the carpet."
   },
   {
    "q": "Is new carpet smell toxic to babies?",
-   "a": "The measured levels of 4-PC and other VOCs from certified carpet are far below health thresholds, and no study has tied new carpet odor to harm in infants. That said, a baby sleeps close to the floor, so it costs nothing to choose Green Label Plus carpet and pad and let the room air out for two or three nights first."
+   "a": "Measured levels of 4-PC and other VOCs from certified carpet are far below health thresholds, and no study has tied new carpet odor to harm in infants. Still, a baby sleeps close to the floor, so choose Green Label Plus carpet and pad and let the room air out two or three nights first."
   },
   {
    "q": "What does Green Label Plus actually test?",
-   "a": "An independent lab places the carpet in a sealed chamber and measures total VOCs, 4-PC, formaldehyde and a list of individual compounds over 14 days. The carpet passes only if every one stays under the program's limits. The mark is on the sample back or spec sheet, and a separate Green Label exists for pad."
+   "a": "An independent lab puts the carpet in a sealed chamber and measures total VOCs, 4-PC, formaldehyde and a list of individual compounds over 14 days. It passes only if every one stays under the program's limits. The mark is on the sample back or spec sheet, and a separate Green Label covers pad."
   },
   {
    "q": "Does carpet off-gas forever?",
-   "a": "No. Emissions from carpet drop by well over 90 percent in the first two weeks and settle at background levels afterward. Old carpet does not emit VOCs in any meaningful amount; its air-quality issues, if any, come from dust, dander and moisture trapped in the pile, which is a cleaning question, not a chemical one."
+   "a": "No. Emissions drop by well over 90 percent in the first two weeks and settle at background levels. Old carpet does not emit VOCs in any meaningful amount; its air-quality issues come from dust, dander and moisture trapped in the pile, which is a cleaning question, not a chemical one."
   },
   {
    "q": "Is wool carpet lower VOC than nylon?",
-   "a": "Generally yes. Wool fiber needs no topical stain treatment and its faint natural smell is lanolin, not latex. But the backing on a wool broadloom can still use latex, so check for Green Label Plus regardless of fiber. Wool costs considerably more and does poorly in damp basements, so it is best for upstairs bedrooms."
+   "a": "Generally yes. Wool needs no topical stain treatment and its faint natural smell is lanolin, not latex. But a wool broadloom's backing can still use latex, so check for Green Label Plus regardless of fiber. Wool costs considerably more and does poorly in damp basements, so keep it upstairs."
   },
   {
    "q": "Does Wills Flooring carry low-VOC carpet in Sammamish?",
-   "a": "Yes. Most of the carpet lines we bring to Sammamish homes carry Green Label Plus, and we can bring Green Label pad and felt pad options alongside them. Our mobile showroom comes to your house with samples and spec sheets, measures every room, and leaves a firm written quote. The estimate is free."
+   "a": "Yes. Most of the lines we bring to Sammamish homes carry Green Label Plus, and we can bring Green Label and felt pad options alongside them. Installation labor is published: $0.99 per sq ft stretch-in, $30 per stair, 500 sq ft minimum. The carpet and pad are quoted with spec sheets at the free estimate."
   }
  ],
  "faq_title": "New carpet smell questions from the plateau",
@@ -245,5 +239,17 @@
   ]
  ],
  "cta_title": "See the labels before you buy",
- "cta_sub": "We bring Green Label Plus carpet and low-odor pad samples with their spec sheets to your Sammamish home, measure, and give you a firm written price on the spot. Free, no obligation."
+ "cta_sub": "We bring Green Label Plus carpet and low-odor pad samples with their spec sheets to your Sammamish home, measure, and give you a firm written price on the spot. Free, no obligation.",
+ "offers": [
+  [
+   "Carpet installation, stretch-in",
+   "0.99",
+   "per square foot"
+  ],
+  [
+   "Carpet installation, glue-down",
+   "1.29",
+   "per square foot"
+  ]
+ ]
 }

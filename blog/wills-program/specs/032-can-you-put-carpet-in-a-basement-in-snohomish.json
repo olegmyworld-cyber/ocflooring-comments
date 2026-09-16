@@ -12,7 +12,7 @@
    "type": "quick",
    "eyebrow": "Short answer",
    "lead": "Yes, you can carpet a Snohomish basement, but only after the slab passes a moisture test, and only with synthetic fiber and a moisture-resistant pad.",
-   "detail": "Most basement carpet failures we see are not carpet problems, they are water problems that were never measured. Test first, then choose the carpet around what the test says.",
+   "detail": "Most basement carpet failures are not carpet problems, they are water problems nobody measured. Test first, then choose the carpet around what the test says. Labor is $0.99 per sq ft stretched in over pad or $1.29 glued straight to the slab, with carpet and pad quoted at the estimate.",
    "tiles": [
     {
      "icon": "moisture",
@@ -30,16 +30,16 @@
      "value": "Moisture barrier"
     },
     {
-     "icon": "thermo",
-     "label": "Target RH",
-     "value": "Under 60%"
+     "icon": "dollar",
+     "label": "Labor",
+     "value": "$0.99 or $1.29 / sq ft"
     }
    ],
-   "cta": false
+   "cta": "Price your basement"
   },
   {
    "type": "p",
-   "html": "Snohomish is a crawlspace town more than a basement town, but the daylight basements on Fobes Hill and the sloped lots around Blackmans Lake, plus the partial cellars under older houses downtown, bring this question up every fall. Someone wants a warm media room below grade and wonders whether carpet is asking for trouble. Here is how we actually decide, in the order we decide it."
+   "html": "Snohomish is a crawlspace town more than a basement town, but the daylight basements on Fobes Hill, the sloped lots around Blackmans Lake and the partial cellars downtown bring this question up every fall. Someone wants a warm media room below grade and wonders whether carpet is asking for trouble. Here is how we decide, in order."
   },
   {
    "type": "h2",
@@ -52,7 +52,7 @@
     {
      "icon": "search",
      "d": "Look for the obvious",
-     "text": "Efflorescence (white powder) on the walls, a tide line, rust at the base of the water heater, a musty smell after a week of rain. Any of these means a drainage fix comes before flooring, not after.",
+     "text": "Efflorescence on the walls, a tide line, rust at the base of the water heater, a musty smell after a week of rain. Any of these means a drainage fix comes before flooring.",
      "note": "Free at the estimate; we walk the whole basement."
     },
     {
@@ -64,14 +64,13 @@
     {
      "icon": "thermo",
      "d": "In-slab RH probe",
-     "text": "For finished basements we prefer a relative humidity probe drilled into the slab. Carpet and pad manufacturers generally want the slab under about 75 to 80 percent RH depending on the product, and the room air under 60 percent.",
+     "text": "For finished basements we prefer a relative humidity probe drilled into the slab. Pad and carpet makers generally want the slab under about 75 to 80 percent RH, and the room air under 60 percent.",
      "note": "This is the number that decides which pad you can use."
     },
     {
      "icon": "home",
      "d": "Check the walls and window wells",
-     "text": "Snohomish acreage lots with well water and clay soil hold water against foundations. Window wells without drains and downspouts dumping at the foundation are the two things we flag most often.",
-     "note": "Fixing these is cheaper than replacing carpet twice."
+     "text": "Snohomish acreage lots with clay soil hold water against foundations. Window wells without drains, and downspouts dumping at the foundation, are the two things we flag most."
     }
    ]
   },
@@ -87,23 +86,23 @@
      "icon": "layers",
      "tag": "Best fit",
      "title": "Olefin (polypropylene)",
-     "text": "Olefin does not absorb water, will not mildew from a damp slab, and is the fiber used in most purpose-built basement and outdoor carpets. It crushes faster than nylon in a hallway, but a basement family room is not a hallway. Loop and Berber styles hide the crushing well.",
+     "text": "Olefin does not absorb water, will not mildew from a damp slab, and is the fiber in most purpose-built basement carpets. It crushes faster than nylon in a hallway, but a basement family room is not a hallway. Loop and Berber styles hide the crushing.",
      "gold": true
     },
     {
      "icon": "shield",
      "title": "Solution-dyed polyester or triexta",
-     "text": "Both resist moisture and stains well and feel softer underfoot than olefin. Triexta in particular handles the wet-dog, wet-boots traffic that Snohomish basements get from the back door. Choose solution-dyed so a flood or a cleaning mishap does not leave a bleach line."
+     "text": "Both resist moisture and stains and feel softer underfoot than olefin. Triexta handles the wet-boots traffic Snohomish basements get from the back door. Choose solution-dyed so a cleaning mishap does not leave a bleach line."
     },
     {
      "icon": "grid",
      "title": "Carpet tiles",
-     "text": "Modular tiles with a hard vinyl or fiberglass back are the safest option when the slab tests borderline. If one corner gets wet, you lift a dozen tiles, dry the slab and put them back. The look is more office than living room unless you choose a plush tile."
+     "text": "Modular tiles with a hard vinyl or fiberglass back are the safest option when the slab tests borderline. If a corner gets wet you lift a dozen tiles, dry the slab and put them back. The look is more office than living room."
     },
     {
      "icon": "x",
      "title": "Skip these",
-     "text": "Wool, jute-backed carpet, anything with a natural fiber backing, and thick high-pile cut piles. Wool holds water and feeds mildew, jute rots, and dense high pile slows drying to a crawl. They are wonderful upstairs and simply wrong down here."
+     "text": "Wool, jute-backed carpet, anything with a natural fiber backing, and thick high-pile cut piles. Wool holds water and feeds mildew, jute rots, and dense pile dries slowly. All are wonderful upstairs and wrong down here."
     }
    ]
   },
@@ -122,17 +121,17 @@
     [
      "Rebond (bonded urethane foam)",
      "Only with a film face",
-     "Standard rebond is a sponge. A vapor-barrier film on top keeps slab moisture out of the backing, but the pad can still hold water if the slab weeps."
+     "Standard rebond is a sponge. A vapor-barrier film on top keeps slab moisture out of the backing, but the pad still holds water if the slab weeps."
     ],
     [
      "Synthetic fiber pad",
      "Good",
-     "Dense, flat, does not absorb much water, and dries fast. Firmer feel, which most people accept in a basement."
+     "Dense, flat, absorbs little water and dries fast. Firmer feel, which most people accept in a basement."
     ],
     [
      "Flat rubber",
      "Best for damp slabs",
-     "Closed-cell rubber barely absorbs water and gives a solid feel. Costs more, and the slab must be flat because rubber shows every bump."
+     "Closed-cell rubber barely absorbs water and feels solid. Costs more, and the slab must be flat because rubber shows every bump."
     ],
     [
      "Frothed or memory-foam pad",
@@ -142,19 +141,19 @@
     [
      "No pad, direct glue-down",
      "Good for tiles and commercial loop",
-     "Nothing to hold water, easy to dry, fastest to reinstall after a leak. Harder underfoot, which is why most families choose a pad."
+     "Nothing to hold water, easy to dry, fastest to reinstall after a leak. This is the $1.29 glue-down rate, and it is what we use on borderline slabs."
     ]
    ],
-   "note": "Pad tiers and fibers are chosen at the free estimate once we have the slab reading. Wills Flooring carpet pricing is quoted on site, not published."
+   "note": "Stretch-in over a barrier pad is $0.99 per sq ft in labor, glue-down straight to the slab $1.29, both with a 500 sq ft minimum. Carpet and pad are quoted once we have the slab reading."
   },
   {
    "type": "h2",
    "text": "Scope your Snohomish basement carpet project"
   },
   {
-   "type": "estimator",
-   "title": "Scope Your Basement Carpet",
-   "sub": "Tell us the area and stairs. We bring olefin, triexta and tile samples plus a moisture meter to your house."
+   "type": "calc",
+   "kind": "carpet",
+   "note": "Labor only. Pick glue-down at $1.29 if the slab reading points that way; carpet and pad are quoted on site."
   },
   {
    "type": "h2",
@@ -168,10 +167,9 @@
     "title": "Go ahead when",
     "items": [
      "The 72-hour tape test stays dry and the RH probe is in range",
-     "There is no history of standing water, ever",
-     "The basement is heated and conditioned like the rest of the house",
-     "You are choosing olefin, triexta or solution-dyed polyester with a barrier pad",
-     "A dehumidifier is part of the plan, not an afterthought"
+     "No history of standing water, ever",
+     "The basement is heated like the rest of the house",
+     "Olefin, triexta or solution-dyed polyester over a barrier pad"
     ]
    },
    "b": {
@@ -179,23 +177,22 @@
     "tag": "Choose something else",
     "title": "Stop when",
     "items": [
-     "The slab has flooded once, even if it was years ago",
-     "Efflorescence or a tide line is visible on the walls",
-     "The space is unheated or the door to the backyard is the main entry",
-     "You want wool, thick plush or a natural-backed carpet",
-     "The room doubles as a laundry or utility area with a floor drain"
+     "The slab has flooded once, even years ago",
+     "Efflorescence or a tide line on the walls",
+     "The space is unheated, or the yard door is the main entry",
+     "You want wool, thick plush or a natural-backed carpet"
     ]
    }
   },
   {
    "type": "p",
-   "html": "When we tell a Snohomish homeowner no on carpet, the usual replacement is a rigid-core <a href=\"/services/lvp-vinyl-flooring\">vinyl plank</a> over the slab with a large area rug on top: warm where you sit, waterproof everywhere else. Wills Flooring installs vinyl plank at $2.50 per sq ft labor with a 500 sq ft minimum."
+   "html": "When we tell a Snohomish homeowner no on carpet, the usual replacement is a rigid-core <a href=\"/services/lvp-vinyl-flooring\">vinyl plank</a> over the slab with a large area rug on top: warm where you sit, waterproof everywhere else. Compare the labor first. A 700 sq ft daylight basement is 700 x $1.29 = $903 in glue-down carpet labor against 700 x $2.50 = $1,750 for plank, both plus material."
   },
   {
    "type": "callout",
    "icon": "alert",
    "title": "One Snohomish-specific warning: ",
-   "text": "Wood stoves and pellet stoves are common in local basements and they dry the room air in winter, which hides a wet slab. A basement that smells fine in January can be at 70 percent RH by April. Test in the wet months, not during the heating season."
+   "text": "Wood and pellet stoves are common in local basements and they dry the room air in winter, which hides a wet slab. A basement that smells fine in January can be at 70 percent RH by April. Test in the wet months."
   },
   {
    "type": "h2",
@@ -209,13 +206,13 @@
      "icon": "home",
      "tag": "Clearview, 1998 daylight basement",
      "title": "Carpet approved",
-     "text": "Slab probe came in comfortably under the limit, downspouts already ran to daylight, and the room had a heat register. They chose a solution-dyed triexta loop over a film-faced rebond, with a dehumidifier on a drain line. Two winters in, no odor, no cupping at the seams."
+     "text": "The slab probe came in under the limit, downspouts already ran to daylight and the room had a heat register. They chose a solution-dyed triexta loop over a film-faced rebond, with a dehumidifier on a drain line. Two winters in, no odor and no seam cupping."
     },
     {
      "icon": "home",
      "tag": "Downtown, 1912 farmhouse cellar",
      "title": "Carpet declined",
-     "text": "Tape test fogged in a day and there was a visible tide line eight inches up the block wall. We recommended a sump and perimeter drain first, then a glue-down carpet tile or vinyl plank. Putting a pad on that floor would have meant tearing it out within a year."
+     "text": "The tape test fogged in a day and a tide line ran eight inches up the block wall. We recommended a sump and perimeter drain first, then glue-down carpet tile or vinyl plank. A pad on that floor would have come out within a year."
     }
    ]
   },
@@ -233,11 +230,11 @@
     },
     {
      "icon": "droplet",
-     "html": "<strong>Run a dehumidifier from day one.</strong> Below 60 percent room RH, mildew simply does not get started. Put it on a hose to a drain so you never have to empty it."
+     "html": "<strong>Run a dehumidifier from day one.</strong> Below 60 percent room RH, mildew never gets started. Put it on a hose to a drain so you never have to empty it."
     },
     {
      "icon": "layers",
-     "html": "<strong>Pick the pad for the slab, not for the feel.</strong> A slightly firmer synthetic or rubber pad is the difference between a ten-year floor and a three-year one."
+     "html": "<strong>Pick the pad for the slab, not for the feel.</strong> A firmer synthetic or rubber pad is the difference between a ten-year floor and a three-year one."
     },
     {
      "icon": "scissors",
@@ -245,7 +242,7 @@
     },
     {
      "icon": "clipboard",
-     "html": "<strong>Get the pad, fiber and moisture barrier named on the quote.</strong> Our written estimate lists all three so you can compare it honestly against anyone else's, and see the <a href=\"/services/carpet-installation\">carpet installation</a> page for what is included."
+     "html": "<strong>Get the pad, fiber and moisture barrier named on the quote.</strong> Ours lists all three next to the labor rate, so you can compare it honestly against anyone else's. See the <a href=\"/services/carpet-installation\">carpet installation</a> page for what is included."
     }
    ]
   }
@@ -253,7 +250,7 @@
  "faq": [
   {
    "q": "Can you put carpet directly on a concrete basement floor?",
-   "a": "Physically yes, but you should not glue standard carpet straight to a bare slab without a moisture test. Direct glue-down works well for carpet tiles and commercial loop when the slab is dry. For a family room, a moisture-barrier pad under stretch-in carpet is the more comfortable and safer approach."
+   "a": "Physically yes, but not without a moisture test first. Direct glue-down, which we bill at $1.29 per sq ft, works well for carpet tiles and commercial loop when the slab is dry. For a family room, stretch-in carpet over a moisture-barrier pad at $0.99 per sq ft is more comfortable underfoot."
   },
   {
    "q": "What is the best carpet for a basement in Washington?",
@@ -261,7 +258,7 @@
   },
   {
    "q": "Does carpet in a basement cause mold?",
-   "a": "Carpet does not cause mold. Trapped moisture with no way to dry does. Wool or jute-backed carpet on a weeping slab with a foam pad will grow mildew. Synthetic carpet on a tested slab with a barrier pad and room humidity under 60 percent will not."
+   "a": "Carpet does not cause mold. Trapped moisture with no way to dry does. Wool or jute-backed carpet on a weeping slab with a foam pad will grow mildew. Synthetic carpet on a tested slab, over a barrier pad, with room humidity under 60 percent, will not."
   },
   {
    "q": "How do I know if my basement slab is too wet for carpet?",
@@ -269,11 +266,11 @@
   },
   {
    "q": "Should I put a vapor barrier under basement carpet?",
-   "a": "Yes, in some form. The simplest is a pad with a vapor-barrier film face. For damp slabs a closed-cell rubber pad does the same job with less risk. A loose plastic sheet under regular pad is not recommended because it traps water on top of itself and wrinkles under the carpet."
+   "a": "Yes, in some form. The simplest is a pad with a vapor-barrier film face. For damp slabs a closed-cell rubber pad does the same job with less risk. A loose plastic sheet under regular pad is not recommended, because it traps water on top of itself and wrinkles under the carpet."
   },
   {
    "q": "Is vinyl plank better than carpet for a Snohomish basement?",
-   "a": "For a basement with any moisture history, yes. Rigid-core vinyl plank does not care about a damp slab, and a large area rug on top gives you the softness where you sit. Wills Flooring installs vinyl plank at $2.50 per sq ft labor, with material quoted at the free estimate."
+   "a": "For a basement with any moisture history, yes. Rigid-core vinyl plank does not care about a damp slab, and an area rug gives you softness where you sit. On price, carpet labor is $0.99 per sq ft stretched in or $1.29 glued down and plank is $2.50, so carpet is cheaper to install but riskier below grade."
   }
  ],
  "faq_title": "Basement carpet questions from Snohomish homeowners",
@@ -293,5 +290,17 @@
   ]
  ],
  "cta_title": "Get a moisture reading and a firm carpet quote",
- "cta_sub": "We bring the meter, the samples and the pad options to your Snohomish basement, then hand you a written price on the spot. Free, no obligation."
+ "cta_sub": "We bring the meter, the samples and the pad options to your Snohomish basement, then hand you a written price on the spot. Free, no obligation.",
+ "offers": [
+  [
+   "Carpet installation, stretch-in",
+   "0.99",
+   "per square foot"
+  ],
+  [
+   "Carpet installation, glue-down",
+   "1.29",
+   "per square foot"
+  ]
+ ]
 }

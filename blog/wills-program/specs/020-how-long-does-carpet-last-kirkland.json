@@ -12,7 +12,7 @@
    "type": "quick",
    "eyebrow": "Short answer",
    "lead": "Most carpet lasts 5 to 15 years: builder-grade polyester 5 to 7, mid-grade nylon 10 to 12, quality nylon or triexta on a good pad 15 or more, and wool 20 plus. Replace it when the pile stops recovering, the pad has broken down, or odors survive a professional cleaning.",
-   "detail": "Fiber sets the ceiling, but pad, vacuuming and traffic decide whether you reach it. Most of the carpet we replace in Kirkland is not worn through; it is matted, tired and sitting on a pad that turned to crumbs years ago.",
+   "detail": "Fiber sets the ceiling, but pad, vacuuming and traffic decide whether you reach it. Most of the carpet we replace in Kirkland is not worn through; it is matted, tired and sitting on a pad that turned to crumbs years ago. Replacing it is $0.99 per sq ft in labor, $0.45 to pull the old carpet and pad out, plus the carpet and pad you choose.",
    "tiles": [
     {
      "icon": "clock",
@@ -35,11 +35,11 @@
      "value": "20+ years"
     }
    ],
-   "cta": false
+   "cta": "Price a replacement"
   },
   {
    "type": "p",
-   "html": "Kirkland has a lot of carpet at the end of its second life. Homes in Juanita, Rose Hill and Totem Lake built between the 1970s and 1990s were carpeted at construction, recarpeted once around 2005, and are now being weighed by owners who either want to stay another decade or want to sell to buyers with high expectations. Both groups ask the same question in different words: is it done, or can it go another few years? Here is how we answer it standing on the carpet."
+   "html": "Kirkland has a lot of carpet at the end of its second life. Homes in Juanita, Rose Hill and Totem Lake built between the 1970s and 1990s were carpeted at construction, recarpeted once around 2005, and are now being weighed by owners who either want to stay another decade or want to sell to buyers with high expectations. Both groups ask the same thing: is it done, or can it go another few years?"
   },
   {
    "type": "h2",
@@ -104,13 +104,13 @@
     {
      "icon": "home",
      "title": "Traffic lanes and crushing",
-     "text": "The path from the garage door to the kitchen takes thousands of steps a week and the guest room takes a few dozen. Crushed pile in the lane reflects light differently, so the lane looks dirty even when it is clean. Nylon springs back from this; polyester and olefin do not.",
+     "text": "The path from the garage door to the kitchen takes thousands of steps a week and the guest room takes a few dozen. Crushed pile in the lane reflects light differently, so it looks dirty even when it is clean. Nylon springs back; polyester and olefin do not.",
      "gold": false
     },
     {
      "icon": "wind",
      "title": "Grit, not dirt",
-     "text": "Fine sand tracked in from the Cross Kirkland Corridor trail or a gravel driveway sits at the base of the pile and cuts fibers every time you walk. Weekly vacuuming roughly doubles carpet life because it removes the grit before it does the damage.",
+     "text": "Fine sand tracked in from the Cross Kirkland Corridor trail or a gravel driveway sits at the base of the pile and cuts fibers every time you walk. Weekly vacuuming roughly doubles carpet life because it removes grit before it does damage.",
      "gold": false
     },
     {
@@ -131,7 +131,7 @@
    "items": [
     {
      "icon": "search",
-     "html": "<strong>Matting that a cleaning does not fix.</strong> If the traffic lane still looks flat and dark after a professional hot-water extraction, the fibers have lost their twist. No product brings it back."
+     "html": "<strong>Matting that a cleaning does not fix.</strong> If the traffic lane still looks flat and dark after a professional hot-water extraction, the fibers have lost their twist. Nothing brings it back."
     },
     {
      "icon": "layers",
@@ -164,13 +164,13 @@
    "text": "Scope your Kirkland carpet replacement"
   },
   {
-   "type": "estimator",
-   "title": "Scope Your Carpet Replacement",
-   "sub": "Tell us the rooms and stairs. We bring samples to your Kirkland home, check the pad and subfloor, and quote a firm price on the spot."
+   "type": "calc",
+   "kind": "carpet",
+   "note": "Labor only, including tear-out if you tick it. The new carpet and pad are quoted at your free estimate."
   },
   {
    "type": "p",
-   "html": "We do not publish a per-square-foot carpet price because the answer depends on the fiber and pad you choose, and a 15-year carpet and a 6-year carpet are legitimately different products. What we do promise is a firm written price at the free estimate, and an honest opinion about whether your current carpet has years left. Sometimes the right quote is a re-stretch and a cleaning, and we will say so."
+   "html": "Replacement labor is published: <strong>$0.99 per sq ft</strong> stretched in over pad, $1.29 glue-down, $30 per step, $0.45 per sq ft to haul the old carpet and pad away and $0.25 per sq ft if we move furniture. A 1,100 sq ft Rose Hill upper floor with 13 stairs is 1,100 x ($0.99 + $0.45) + 13 x $30 = $1,974 in labor, plus carpet and pad quoted at the estimate. We will also tell you honestly whether your current carpet has years left. Sometimes the right answer is a re-stretch and a cleaning."
   },
   {
    "type": "h2",
@@ -205,7 +205,7 @@
    "type": "callout",
    "icon": "key",
    "title": "Selling in Kirkland: ",
-   "text": "Buyers in Houghton, Bridle Trails and along the Juanita waterfront discount tired carpet by more than it costs to replace, and fresh neutral carpet photographs well. Before you recarpet, though, lift a corner in a closet. Many 1970s and 1980s Kirkland homes have oak under the carpet, and a refinish can be the better upgrade."
+   "text": "Buyers in Houghton, Bridle Trails and along the Juanita waterfront discount tired carpet by more than it costs to replace, and fresh neutral carpet photographs well. Before you recarpet, lift a corner in a closet. Many 1970s and 1980s Kirkland homes have oak under the carpet, and a refinish at $3.99 per sq ft can be the better upgrade."
   },
   {
    "type": "h2",
@@ -261,7 +261,7 @@
   },
   {
    "q": "Should I replace carpet before selling my Kirkland house?",
-   "a": "Usually yes if the carpet is stained, matted or dated, because Kirkland buyers discount it heavily and new neutral carpet photographs well. Check under a corner first; if there is hardwood beneath, refinishing may return more. If the carpet is clean and under eight years old, a professional cleaning is often enough."
+   "a": "Usually yes if the carpet is stained, matted or dated, because Kirkland buyers discount it heavily and new neutral carpet photographs well. Labor is $0.99 per sq ft plus $0.45 to tear the old carpet out, so it is a cheap listing fix. Check under a corner first: if there is hardwood beneath, refinishing may return more."
   }
  ],
  "faq_title": "Carpet lifespan questions from Kirkland homeowners",
@@ -281,5 +281,17 @@
   ]
  ],
  "cta_title": "Get an honest verdict on your carpet",
- "cta_sub": "Free in-home estimate anywhere in Kirkland. We check the pad, look under a corner and tell you whether to clean, re-stretch or replace, with a firm written price if it is time."
+ "cta_sub": "Free in-home estimate anywhere in Kirkland. We check the pad, look under a corner and tell you whether to clean, re-stretch or replace, with a firm written price if it is time.",
+ "offers": [
+  [
+   "Carpet installation, stretch-in",
+   "0.99",
+   "per square foot"
+  ],
+  [
+   "Carpet installation, glue-down",
+   "1.29",
+   "per square foot"
+  ]
+ ]
 }

@@ -12,7 +12,7 @@
    "type": "quick",
    "eyebrow": "Short answer",
    "lead": "The best carpet for pets is a dense, cut-pile carpet in solution-dyed nylon or triexta, installed over a moisture-barrier pad.",
-   "detail": "Fiber decides whether stains come out, pile style decides whether claws snag, and the pad decides whether an accident reaches your subfloor. Get all three right and a dog household in Everett can keep carpet looking good for 10 to 15 years.",
+   "detail": "Fiber decides whether stains come out, pile decides whether claws snag, and the pad decides whether an accident reaches your subfloor. Labor is $0.99 per sq ft stretched in and $30 per stair; the carpet and pad are quoted at the estimate. Get all three right and a dog household in Everett keeps carpet looking good for 10 to 15 years.",
    "tiles": [
     {
      "icon": "paw",
@@ -35,7 +35,7 @@
      "value": "Loop and Berber"
     }
    ],
-   "cta": false
+   "cta": "Price your rooms"
   },
   {
    "type": "p",
@@ -89,7 +89,7 @@
   },
   {
    "type": "p",
-   "html": "If you remember one thing: ask whether the nylon is <strong>solution-dyed</strong>. The pet lines that hold up in real Everett homes, with wet dogs coming in from the Silver Lake trail, are solution-dyed nylon or triexta. \"Stain-resistant\" on a polyester label means spilled juice, not a 90-pound dog that got sick on the landing."
+   "html": "If you remember one thing: ask whether the nylon is <strong>solution-dyed</strong>. The pet lines that hold up in real Everett homes, with wet dogs in from the Silver Lake trail, are solution-dyed nylon or triexta. \"Stain-resistant\" on a polyester label means spilled juice, not a sick 90-pound dog."
   },
   {
    "type": "h2",
@@ -103,26 +103,26 @@
      "icon": "x",
      "tag": "Avoid",
      "title": "Loop pile and Berber",
-     "text": "A dog's dewclaw or a cat's nail catches a single loop and pulls it. Once a loop is pulled, the run travels down the row and cannot be fixed invisibly. Berber also hides fur deep in the loops where a vacuum cannot reach. We replace snagged Berber in Everett every month.",
+     "text": "A dog's dewclaw or a cat's nail catches a single loop and pulls it. Once a loop runs, it travels down the row and cannot be fixed invisibly. Berber also hides fur deep in the loops where a vacuum cannot reach it.",
      "gold": false
     },
     {
      "icon": "done",
      "tag": "Best",
      "title": "Dense cut pile, textured or frieze",
-     "text": "Cut pile has no loops to catch. A textured cut pile with a tight twist hides footprints and vacuum tracks, and a frieze hides fur in its curl. Look for a face weight around 40 oz and up with a short pile, under half an inch, so claws do not dig in.",
+     "text": "Cut pile has no loops to catch. A textured cut pile with a tight twist hides footprints and vacuum tracks, and a frieze hides fur in its curl. Look for a face weight of 40 oz and up with a pile under half an inch.",
      "gold": true
     },
     {
      "icon": "palette",
      "title": "Color and pattern",
-     "text": "Mid-tone, multi-flecked colors hide shed fur from both black and golden dogs. Solid pale carpet shows every paw print and solid dark carpet shows every light hair. A subtle patterned cut pile is the most forgiving option and is easy to find in pet lines.",
+     "text": "Mid-tone, multi-flecked colors hide shed fur from both black and golden dogs. Solid pale carpet shows every paw print and solid dark carpet shows every light hair. A subtle patterned cut pile is the most forgiving option in any pet line.",
      "gold": false
     },
     {
      "icon": "wind",
      "title": "Odor and fur",
-     "text": "Short, dense pile traps less fur and lets a vacuum pull it out. Deep plush and shag are fur magnets and hold odor at the base of the pile. If you have a heavy shedder, a low profile is worth more than any stain treatment on the label.",
+     "text": "Short, dense pile traps less fur and lets a vacuum pull it out. Deep plush and shag hold fur and odor at the base of the pile. With a heavy shedder, a low profile is worth more than any stain treatment on the label.",
      "gold": false
     }
    ]
@@ -137,7 +137,7 @@
    "items": [
     {
      "icon": "droplet",
-     "html": "<strong>Moisture-barrier pad.</strong> A standard rebond pad is a sponge. Urine goes through the carpet, into the pad and onto the subfloor, where you can never fully clean it. A pad with a sealed film on top keeps liquid where it can be extracted. This is the single best upgrade for a pet home."
+     "html": "<strong>Moisture-barrier pad.</strong> A standard rebond pad is a sponge: urine goes through the carpet, into the pad and onto the subfloor, where you can never fully clean it. A pad with a sealed film on top keeps liquid where it can be extracted. Best single upgrade for a pet home."
     },
     {
      "icon": "layers",
@@ -145,11 +145,11 @@
     },
     {
      "icon": "shield",
-     "html": "<strong>Pet-specific carpet backing.</strong> Several lines add a moisture-resistant secondary backing on the carpet itself. With a barrier pad you get two layers of protection, which is how we spec finished basements in Eastmont and Silver Lake."
+     "html": "<strong>Pet-specific carpet backing.</strong> Several lines add a moisture-resistant secondary backing on the carpet itself. With a barrier pad that is two layers of protection, which is how we spec finished basements in Eastmont."
     },
     {
      "icon": "alert",
-     "html": "<strong>Know the trade-off.</strong> A barrier pad holds liquid on top, so an accident under a couch can sit there. You still have to find it. An enzyme cleaner and a blacklight are cheap tools every pet owner should keep."
+     "html": "<strong>Know the trade-off.</strong> A barrier pad holds liquid on top, so an accident under a couch can sit there until you find it. An enzyme cleaner and a blacklight are cheap tools every pet owner should keep."
     }
    ]
   },
@@ -158,13 +158,13 @@
    "text": "Scope your Everett carpet project"
   },
   {
-   "type": "estimator",
-   "title": "Scope Your Pet-Friendly Carpet Project",
-   "sub": "Tell us the rooms and stairs. We bring pet-line samples and a barrier pad to your door and quote a firm price on the spot."
+   "type": "calc",
+   "kind": "carpet",
+   "note": "Labor only. The pet-rated carpet and barrier pad are quoted at your free estimate."
   },
   {
    "type": "p",
-   "html": "We do not publish a per-square-foot carpet number because the fibers and pads above sit in different tiers, and the gap between a polyester special and a solution-dyed nylon with barrier pad is real. What we can promise is a firm written price at the free estimate, with samples on your floor next to the dog. Everett is about 15 minutes from our Lynnwood showroom."
+   "html": "Labor is the easy part of the number: <strong>$0.99 per sq ft</strong> stretched in over pad, $30 per step, plus $0.45 per sq ft to pull the old carpet out and haul it away. Three Everett bedrooms and a hall at 700 sq ft with 14 stairs is 700 x $0.99 + 14 x $30 = $1,113 in labor. The pet-line carpet and barrier pad swing the rest, and we quote those with samples on your floor next to the dog."
   },
   {
    "type": "h2",
@@ -183,14 +183,14 @@
     {
      "icon": "stairs",
      "d": "Stairs and landings",
-     "text": "Dogs launch off stairs and wear them 3 to 5 times faster than a room. Use the densest nylon in the house, short pile, and a firm pad.",
+     "text": "Dogs launch off stairs and wear them 3 to 5 times faster than a room. Use the densest nylon in the house, short pile, firm pad.",
      "note": "A runner over the original fir is common in 1920s Riverside and Bayside homes."
     },
     {
      "icon": "home",
      "d": "Family room",
      "text": "This is where wet dogs shake off. Many Everett families put vinyl plank here and carpet only the bedrooms and stairs.",
-     "note": "See our post on carpet vs vinyl plank for bedrooms for that split."
+     "note": "See our post on carpet vs vinyl plank for bedrooms."
     },
     {
      "icon": "x",
@@ -233,7 +233,7 @@
    "type": "callout",
    "icon": "alert",
    "title": "One honest note: ",
-   "text": "If a pet has already soaked the existing carpet, the subfloor under it usually smells too. New carpet and pad alone will not fix that. We seal or replace stained subfloor at tear-out, and we tell you before we quote if we see it."
+   "text": "If a pet has already soaked the existing carpet, the subfloor under it usually smells too, and new carpet alone will not fix that. We seal or replace stained subfloor at tear-out, and we tell you before we quote if we see it."
   },
   {
    "type": "h2",
@@ -301,5 +301,17 @@
   ]
  ],
  "cta_title": "Bring the samples to the dog",
- "cta_sub": "Free in-home estimate anywhere in Everett. We bring pet-rated carpet and pad samples, measure every room and hand you a firm written price before we leave."
+ "cta_sub": "Free in-home estimate anywhere in Everett. We bring pet-rated carpet and pad samples, measure every room and hand you a firm written price before we leave.",
+ "offers": [
+  [
+   "Carpet installation, stretch-in",
+   "0.99",
+   "per square foot"
+  ],
+  [
+   "Carpet installation, glue-down",
+   "1.29",
+   "per square foot"
+  ]
+ ]
 }

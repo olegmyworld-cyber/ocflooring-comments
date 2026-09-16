@@ -12,7 +12,7 @@
    "type": "quick",
    "eyebrow": "Short answer",
    "lead": "For a busy Sammamish household with kids and a dog, buy nylon or triexta. Polyester is the value pick for bedrooms and low-traffic rooms, and wool is the premium pick when you want the best look and feel and can keep pet accidents off it.",
-   "detail": "Fiber decides how a carpet wears, how it handles stains and how it feels. Density and pad decide the rest. Wills Flooring brings all four fibers to your house so you can compare them on your own floor before you commit.",
+   "detail": "Fiber decides how a carpet wears, how it handles stains and how it feels. Density and pad decide the rest. Installation labor is the same $0.99 per sq ft whichever fiber you choose, so the fiber only moves the material line. We bring all four to your house so you can compare them on your own floor.",
    "tiles": [
     {
      "icon": "shield",
@@ -35,11 +35,11 @@
      "value": "Wool"
     }
    ],
-   "cta": false
+   "cta": "Price your rooms"
   },
   {
    "type": "p",
-   "html": "Every carpet store sells the same four fibers under a hundred brand names, and the sales pitch usually leans toward whatever is on promotion. The fiber is the single most important choice you make about a carpet, more than color, more than style, because it decides whether the upstairs hall in your Klahanie or Trossachs house still looks good after eight years of soccer cleats and a golden retriever. Here is how the four compare when you strip away the marketing, and which one we would put in each room of a typical plateau home."
+   "html": "Every carpet store sells the same four fibers under a hundred brand names, and the pitch usually leans toward whatever is on promotion. Fiber is the single most important choice you make about a carpet, more than color or style, because it decides whether the upstairs hall in your Klahanie or Trossachs house still looks good after eight years of soccer cleats and a golden retriever. Here is how the four compare with the marketing stripped away."
   },
   {
    "type": "h2",
@@ -53,25 +53,25 @@
      "icon": "shield",
      "tag": "The workhorse",
      "title": "Nylon",
-     "text": "Nylon has the best resilience of any synthetic: the fibers bend under foot and spring back for years, which is why it resists matting in halls and on stairs. It is not naturally stain resistant and relies on a topical treatment that wears off over time, so spills need quick attention. Type 6,6 nylon is the premium version. Expect twelve to fifteen years or more in a family home."
+     "text": "Nylon has the best resilience of any synthetic: the fibers bend under foot and spring back for years, which is why it resists matting in halls and on stairs. It is not naturally stain resistant and relies on a topical treatment that wears off, so spills need quick attention. Type 6,6 is the premium version. Expect twelve to fifteen years in a family home."
     },
     {
      "icon": "droplet",
      "tag": "The value pick",
      "title": "Polyester (PET)",
-     "text": "Polyester is inherently stain resistant, takes bright, saturated colors and is often made from recycled bottles. It costs the least of the four. Its weakness is resilience: the fibers crush and mat in traffic lanes, so a plush polyester in a busy hall looks tired in five to seven years. It also holds oily stains once it has them. Excellent in bedrooms and guest rooms."
+     "text": "Polyester is inherently stain resistant, takes bright colors and is often made from recycled bottles. It costs the least of the four. Its weakness is resilience: the fibers crush and mat in traffic lanes, so a plush polyester in a busy hall looks tired in five to seven years. Excellent in bedrooms and guest rooms."
     },
     {
      "icon": "sparkle",
      "tag": "The newer hybrid",
      "title": "Triexta (PTT)",
-     "text": "Triexta is a polyester cousin engineered to fix polyester's problems. Its stain resistance is permanent and built into the fiber, it is soft, and its resilience sits between polyester and nylon, close enough to nylon for most homes. It is partly made from corn-based material. It can be harder to clean oily soil from, and it costs more than polyester, roughly on par with mid-grade nylon."
+     "text": "Triexta is a polyester cousin engineered to fix polyester's problems. Its stain resistance is permanent and built into the fiber, it is soft, and its resilience sits close enough to nylon for most homes. It is partly corn-based. Oily soil is harder to clean out of it, and it costs about what mid-grade nylon does."
     },
     {
      "icon": "leaf",
      "tag": "The premium natural",
      "title": "Wool",
-     "text": "Wool is naturally resilient, flame resistant, hides soil well and can last twenty-five years. It feels and looks like nothing else. It is also the most expensive fiber, absorbs moisture, can be damaged by pet urine and harsh cleaners, and sheds for the first months. It wants a firm pad and a dry room, which rules out damp lower levels in Sammamish homes."
+     "text": "Wool is naturally resilient, flame resistant, hides soil well and can last twenty-five years. It feels and looks like nothing else. It is also the most expensive fiber, absorbs moisture, is damaged by pet urine and harsh cleaners, and sheds for the first months. It wants a firm pad and a dry room."
     }
    ]
   },
@@ -139,16 +139,20 @@
      "Living rooms, main bedrooms, formal spaces"
     ]
    ],
-   "note": "Within each fiber, face weight, twist and density change performance more than the brand does. A dense polyester can outlast a thin nylon."
+   "note": "Within each fiber, face weight, twist and density change performance more than the brand does, and a dense polyester can outlast a thin nylon. Relative cost here is material only; our installation labor is $0.99 per sq ft for all four."
   },
   {
    "type": "h2",
    "text": "Scope your Sammamish carpet project"
   },
   {
-   "type": "estimator",
-   "title": "Scope Your Carpet Project",
-   "sub": "Tell us the rooms and stairs. We bring nylon, polyester, triexta and wool samples to the house and quote the full job in writing."
+   "type": "calc",
+   "kind": "carpet",
+   "note": "Labor only, the same rate for all four fibers. The carpet and pad are quoted with the samples."
+  },
+  {
+   "type": "p",
+   "html": "Labor does not care which fiber you pick: <strong>$0.99 per sq ft</strong> stretched in over pad, $30 per step, plus $0.45 per sq ft to take the old carpet out. A 1,400 sq ft upstairs in Klahanie with 16 stairs is 1,400 x $0.99 + 16 x $30 = $1,386 + $480 = $1,866 in labor. Wool or polyester, that number is identical. What changes is the carpet and pad quote, which we write up with the samples on your floor."
   },
   {
    "type": "h2",
@@ -238,11 +242,11 @@
     },
     {
      "icon": "sun",
-     "html": "<strong>Non-solution-dyed nylon in a south-facing bonus room.</strong> Big plateau windows fade carpet in stripes where the sun lands. Solution-dyed fibers, where color runs through the strand, hold up far better."
+     "html": "<strong>Non-solution-dyed nylon in a south-facing bonus room.</strong> Big plateau windows fade carpet in stripes where the sun lands. Solution-dyed fiber, with color running through the strand, holds up far better."
     },
     {
      "icon": "search",
-     "html": "<strong>Trusting the fiber name on the label alone.</strong> Ask for face weight and density in writing. A common Reddit thread on carpet quality comes down to exactly this: two carpets with the same fiber and very different construction."
+     "html": "<strong>Trusting the fiber name alone.</strong> Ask for face weight and density in writing. A common Reddit thread on carpet quality comes down to exactly this: two carpets, same fiber, very different construction."
     },
     {
      "icon": "layers",
@@ -274,7 +278,7 @@
   },
   {
    "q": "Does the fiber affect how much the carpet costs?",
-   "a": "Yes, significantly. Polyester is generally the least expensive, nylon and triexta sit in the middle, and wool costs the most, often several times a basic polyester. Construction matters too, so a dense premium polyester can cost more than a thin nylon. We quote the complete installed job in writing at the free in-home estimate."
+   "a": "It changes the material, not the labor. Polyester is generally the least expensive, nylon and triexta sit in the middle, and wool costs the most, often several times a basic polyester. Installation is $0.99 per sq ft stretched in and $30 per step whatever you choose, so we quote the carpet and pad separately at the free estimate."
   }
  ],
  "faq_title": "Carpet fiber questions from Sammamish families",
@@ -294,5 +298,17 @@
   ]
  ],
  "cta_title": "Compare all four fibers on your own floor",
- "cta_sub": "We bring nylon, polyester, triexta and wool samples to your Sammamish home, measure every room and stair, and write one firm quote for the whole job."
+ "cta_sub": "We bring nylon, polyester, triexta and wool samples to your Sammamish home, measure every room and stair, and write one firm quote for the whole job.",
+ "offers": [
+  [
+   "Carpet installation, stretch-in",
+   "0.99",
+   "per square foot"
+  ],
+  [
+   "Carpet installation, glue-down",
+   "1.29",
+   "per square foot"
+  ]
+ ]
 }

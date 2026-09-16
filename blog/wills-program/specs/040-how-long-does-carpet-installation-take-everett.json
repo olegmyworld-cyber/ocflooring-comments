@@ -12,7 +12,7 @@
    "type": "quick",
    "eyebrow": "Short answer",
    "lead": "A single bedroom takes about an hour to carpet, a staircase two to four hours, and a typical three-bedroom Everett house is done in one long day or two comfortable ones.",
-   "detail": "Tear-out, furniture, seams and stairs are what stretch a job. Add one to two weeks before install day for the carpet to arrive after you choose it at the free in-home estimate, and you have the whole timeline.",
+   "detail": "Tear-out, furniture, seams and stairs are what stretch a job, and each has a price: $0.45 per sq ft to haul the old carpet and pad away, $0.25 per sq ft for us to move furniture, $30 per stair on top of the $0.99 per sq ft install. Add one to two weeks for the carpet to arrive.",
    "tiles": [
     {
      "icon": "home",
@@ -35,11 +35,11 @@
      "value": "1–2 weeks"
     }
    ],
-   "cta": "Scope your project"
+   "cta": "Price and time your job"
   },
   {
    "type": "p",
-   "html": "Everett homeowners ask this for practical reasons: a Boeing shift schedule to work around, a tenant moving into a Silver Lake rental on the first, or a Port Gardner condo with a four-hour elevator reservation. So instead of a vague \"it depends,\" here is what each room actually takes, what makes a job run long, and how the days line up from the estimate to the last vacuum pass."
+   "html": "Everett homeowners ask this for practical reasons: a Boeing shift to work around, a tenant moving into a Silver Lake rental on the first, or a Port Gardner condo with a four-hour elevator reservation. So instead of a vague \"it depends,\" here is what each room takes and how the days line up from estimate to last vacuum pass."
   },
   {
    "type": "h2",
@@ -61,7 +61,7 @@
     [
      "Primary bedroom with walk-in closet",
      "1.5–2 hours",
-     "Two doorways and a closet with shelving means more cuts and often a seam at the closet door."
+     "Two doorways and a closet with shelving mean more cuts and often a seam at the closet door."
     ],
     [
      "Hallway",
@@ -81,12 +81,12 @@
     [
      "Basement or bonus room, 400 sq ft",
      "2–3 hours",
-     "Concrete slabs need a different tack strip and often a moisture check first; posts and bulkheads add cuts."
+     "Slabs need different tack strip and a moisture check first; posts and bulkheads add cuts."
     ],
     [
      "Whole 1,600 sq ft house, 3 bedrooms, hall, living room, stairs",
      "1 long day or 2 days",
-     "Tear-out of the old carpet, four or more seams and stairs make this a two-day job for one crew."
+     "Tear-out, four or more seams and stairs make this a two-day job for one crew."
     ]
    ],
    "note": "Times are for a two-person Wills Flooring crew on stretch-in carpet over pad. Glue-down and commercial installs run differently."
@@ -102,28 +102,28 @@
     {
      "icon": "truck",
      "d": "8:00 · Arrival and tear-out",
-     "text": "Old carpet is cut into strips, rolled, and carried out with the pad. Tack strip is inspected and replaced where rusty or loose. Staples come out of stairs one by one.",
+     "text": "Old carpet is cut into strips, rolled and carried out with the pad. Tack strip is inspected and replaced where rusty. Staples come out of stairs one by one.",
      "note": "About 20 minutes per room, an hour for stairs."
     },
     {
      "icon": "search",
      "d": "9:00 · Subfloor check",
-     "text": "Squeaks get screwed down, high nails set, and any soft spot gets flagged. In Riverside and Bayside homes from the 1910s and 20s this is where we find uneven planks that need a skim of patch before pad goes down."
+     "text": "Squeaks get screwed down, high nails set and soft spots flagged. In Riverside and Bayside homes from the 1910s and 20s this is where we find uneven planks that need a skim of patch before pad goes down."
     },
     {
      "icon": "layers",
      "d": "9:30 · Pad and tack strip",
-     "text": "New pad rolled out, seams taped, stapled every few inches. Tack strip nailed around the room perimeter about a half inch off the wall."
+     "text": "New pad rolled out, seams taped, stapled every few inches. Tack strip nailed around the perimeter about a half inch off the wall."
     },
     {
      "icon": "scissors",
      "d": "10:30 · Carpet cut, seamed and stretched",
-     "text": "Carpet is rough-cut in the largest room, seams ironed with hot-melt tape, then power-stretched wall to wall and hooked on the tack strip. Trimmed and tucked at the base."
+     "text": "Carpet is rough-cut in the largest room, seams ironed with hot-melt tape, then power-stretched wall to wall and hooked on the tack strip, trimmed and tucked at the base."
     },
     {
      "icon": "stairs",
      "d": "2:00 · Stairs and transitions",
-     "text": "Stairs last, since they are the slowest. Doorway transitions to hardwood, tile or vinyl plank are set and the seams to the hall are finished."
+     "text": "Stairs go last, since they are the slowest. Doorway transitions to hardwood, tile or plank are set and the seams to the hall are finished."
     },
     {
      "icon": "done",
@@ -138,9 +138,9 @@
    "text": "Scope your Everett carpet project"
   },
   {
-   "type": "estimator",
-   "title": "Scope Your Carpet Timeline",
-   "sub": "Enter the area and stairs and tick tear-out or furniture. We bring samples and a firm price to your door, about 15 minutes from our Lynnwood showroom."
+   "type": "calc",
+   "kind": "carpet",
+   "note": "Tick tear-out and furniture moving to see what the time-savers cost. Carpet and pad are quoted at the estimate."
   },
   {
    "type": "h2",
@@ -154,33 +154,33 @@
      "icon": "sofa",
      "tag": "Biggest factor",
      "title": "Furniture still in the rooms",
-     "text": "A cleared room is an hour. The same room with a bed, dresser and a desk full of cables is closer to two, because the crew moves everything twice and works in halves. We move furniture when asked, but clearing it yourself is the fastest thing you can do for the schedule.",
+     "text": "A cleared room is an hour. The same room with a bed, dresser and a desk full of cables is closer to two, because the crew moves everything twice and works in halves. We move furniture for $0.25 per sq ft, but clearing it yourself is the cheapest way to shorten the day.",
      "gold": true
     },
     {
      "icon": "truck",
      "title": "Tear-out and disposal",
-     "text": "Pulling old carpet, pad and thousands of staples adds a quarter to a third to the day. Old glued-down pad on a slab, common in Everett daylight basements, can add hours of scraping before new pad goes down, and disposal means a second trip to the truck for every room."
+     "text": "Pulling old carpet, pad and thousands of staples adds a quarter to a third to the day, and it is $0.45 per sq ft including haul-away. Old glued pad on a slab, common in Everett daylight basements, adds hours of scraping."
     },
     {
      "icon": "scissors",
      "title": "Seams and patterns",
-     "text": "Any room wider than 12 ft gets a seam, since carpet comes in 12 ft rolls. Patterned or striped carpet has to be matched at every seam and on every stair tread, which can double the cutting time on a hallway and stair run."
+     "text": "Any room wider than 12 ft gets a seam, since carpet comes in 12 ft rolls. Patterned or striped carpet has to be matched at every seam and on every stair tread, which can double the cutting time."
     },
     {
      "icon": "home",
      "title": "Old houses and odd rooms",
-     "text": "Riverside bungalows with out-of-square rooms, bay windows and radiators need many more cuts than a 2005 Silver Lake box. Closets under stairs, angled walls in attic bedrooms and built-in cabinets are the slowest square footage in the house by far."
+     "text": "Riverside bungalows with out-of-square rooms, bay windows and radiators need many more cuts than a 2005 Silver Lake box. Closets under stairs and angled attic walls are the slowest square footage in the house."
     },
     {
      "icon": "key",
      "title": "Condo logistics",
-     "text": "Port Gardner and downtown Everett buildings often require an elevator reservation, a loading zone and work only between 9 and 5. A job that is four hours of actual work can occupy a full day on the calendar once the building rules are added."
+     "text": "Port Gardner and downtown buildings often require an elevator reservation, a loading zone and work only between 9 and 5. Four hours of work can occupy a full calendar day once the building rules are added."
     },
     {
      "icon": "moisture",
      "title": "Subfloor surprises",
-     "text": "A soft spot near a slider, a damp basement slab or a squeak that turns out to be a cracked joist stops the clock until it is fixed. We check the subfloor at the estimate to catch most of this ahead of install day."
+     "text": "A soft spot near a slider, a damp basement slab or a squeak that turns out to be a cracked joist stops the clock until it is fixed. We check the subfloor at the estimate to catch most of this ahead of time."
     }
    ]
   },
@@ -188,7 +188,7 @@
    "type": "callout",
    "icon": "alert",
    "title": "Everett rental turnover tip: ",
-   "text": "If a tenant leaves on the 30th and the next one arrives on the 1st, book the estimate two to three weeks before move-out so the carpet is in our warehouse on the 30th. Tear-out and install on a vacant 1,000 sq ft unit is one day. The bottleneck is never the install; it is choosing the carpet late."
+   "text": "If a tenant leaves on the 30th and the next arrives on the 1st, book the estimate two to three weeks before move-out so the carpet is in our warehouse on the 30th. Tear-out and install on a vacant 1,000 sq ft unit is one day and 1,000 x ($0.99 + $0.45) = $1,440 in labor, plus carpet and pad. The bottleneck is never the install; it is choosing the carpet late."
   },
   {
    "type": "h2",
@@ -203,8 +203,8 @@
     "items": [
      "Free in-home estimate: about an hour, samples in hand, firm written price on the spot",
      "Carpet and pad ordered: in-stock lines arrive in a few days, special orders in one to three weeks",
-     "Scheduling: we confirm a date and an arrival window when the material lands",
-     "Your prep: clear the rooms, remove doors that swing over carpet if needed"
+     "Scheduling: we confirm a date and arrival window when the material lands",
+     "Your prep: clear the rooms, or add furniture moving at $0.25 per sq ft"
     ]
    },
    "b": {
@@ -215,7 +215,7 @@
      "One bedroom, empty: about an hour",
      "Three bedrooms, hall and stairs: a full day",
      "Whole house with tear-out and seams: two days",
-     "Walk on it immediately; furniture back the same evening"
+     "Walk on it immediately, furniture back the same evening"
     ]
    }
   },
@@ -245,7 +245,7 @@
     },
     {
      "icon": "clipboard",
-     "html": "<strong>Ask for the arrival window and the crew size in writing.</strong> Wills Flooring's <a href=\"/services/carpet-installation\">carpet installation</a> quote lists both, along with tear-out and furniture moving if you want them, with a 1-year workmanship warranty."
+     "html": "<strong>Ask for the arrival window and crew size in writing.</strong> Our <a href=\"/services/carpet-installation\">carpet installation</a> quote lists both, with tear-out at $0.45 and furniture moving at $0.25 per sq ft if you want them."
     }
    ]
   }
@@ -265,15 +265,15 @@
   },
   {
    "q": "How far in advance should I schedule carpet installation in Everett?",
-   "a": "Two to three weeks is comfortable. The estimate takes an hour, in-stock carpet arrives in a few days and special orders take one to three weeks. Install dates are usually available within a week of the material landing. For a rental turnover, book the estimate before the tenant moves out."
+   "a": "Two to three weeks is comfortable. The estimate takes an hour, in-stock carpet arrives in a few days and special orders take one to three weeks. Install dates are usually open within a week of the material landing. For a rental turnover, book the estimate before the tenant moves out."
   },
   {
    "q": "Do I need to remove old carpet before installation?",
-   "a": "No. Tear-out and disposal of old carpet and pad are part of the job when you ask for them, and it adds roughly a quarter to a third to the install time. If you want to pull it yourself to save money, leave the tack strip in place unless it is rusty or damaged."
+   "a": "No. Tear-out and disposal of the old carpet and pad are a line on the quote at $0.45 per sq ft, and they add roughly a quarter to a third to the install time. If you want to pull it yourself to save that, leave the tack strip in place unless it is rusty or damaged."
   },
   {
    "q": "Does carpet installation take longer in a condo?",
-   "a": "The work itself takes the same time, but the day is longer. Buildings like those near Port Gardner require elevator reservations, loading zone timing and quiet hours, so a four-hour job often occupies a full calendar day. We coordinate with the building manager before install day."
+   "a": "The work takes the same time, but the day is longer. Buildings near Port Gardner require elevator reservations, loading zone timing and quiet hours, so a four-hour job often occupies a full calendar day. We coordinate with the building manager before install day."
   }
  ],
  "faq_title": "Carpet timeline questions from Everett homeowners and landlords",
@@ -293,5 +293,17 @@
   ]
  ],
  "cta_title": "Get a firm price and a firm date",
- "cta_sub": "We measure every room, bring the samples and tell you exactly how many hours your job takes. Free, anywhere in Everett, 15 minutes from our Lynnwood showroom."
+ "cta_sub": "We measure every room, bring the samples and tell you exactly how many hours your job takes. Free, anywhere in Everett.",
+ "offers": [
+  [
+   "Carpet installation, stretch-in",
+   "0.99",
+   "per square foot"
+  ],
+  [
+   "Carpet installation, glue-down",
+   "1.29",
+   "per square foot"
+  ]
+ ]
 }

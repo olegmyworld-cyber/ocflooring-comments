@@ -15,9 +15,9 @@
    "detail": "Hard floors let the same allergens stay airborne and recirculate until they settle. The honest answer depends on how you clean, how damp the house is, and who in the family is allergic to what. Snohomish homes add mud, dogs, wood smoke and crawlspace moisture to the equation.",
    "tiles": [
     {
-     "icon": "search",
-     "label": "Verdict",
-     "value": "Depends on upkeep"
+     "icon": "dollar",
+     "label": "Install labor",
+     "value": "$0.99 / sq ft"
     },
     {
      "icon": "paw",
@@ -35,11 +35,11 @@
      "value": "Under 50 percent"
     }
    ],
-   "cta": "Scope your project"
+   "cta": "Try the calculator"
   },
   {
    "type": "p",
-   "html": "A common Reddit thread asks whether ripping out carpet cured someone's allergies, and the replies split evenly between yes, no and it was the cat. That matches the science, which is messier than either side admits. Around Snohomish the question has a local flavor: acreage that tracks in mud and grass pollen, dogs that sleep on the bedroom floor, a wood stove putting fine ash into the air all winter, and a vented crawlspace under a 1920s farmhouse near Blackmans Lake keeping the floor damp enough for dust mites to thrive. Here is what the studies actually found, which carpet and pad choices matter, and where carpet should and should not go in an allergic household."
+   "html": "A common Reddit thread asks whether ripping out carpet cured someone's allergies, and the replies split evenly between yes, no and it was the cat. That matches the science, which is messier than either side admits. Around Snohomish the question has a local flavor: acreage that tracks in mud and grass pollen, dogs on the bedroom floor, a wood stove putting fine ash into the air all winter, and a vented crawlspace under a farmhouse near Blackmans Lake keeping the floor damp enough for mites. Here is what the studies found and where carpet belongs in an allergic household."
   },
   {
    "type": "h2",
@@ -52,22 +52,22 @@
     {
      "icon": "chart",
      "title": "Airborne dust is often lower in carpeted rooms",
-     "text": "Several room-comparison studies have measured fewer fine particles in the air above carpet than above hard floors, because the pile holds dust down instead of letting footsteps kick it back up. That holds only while the carpet is cleaned; a neglected carpet becomes a reservoir that releases allergen with every step."
+     "text": "Room-comparison studies have measured fewer fine particles in the air above carpet than above hard floors, because the pile holds dust down instead of letting footsteps kick it up. That holds only while the carpet is cleaned; a neglected one becomes a reservoir that releases allergen with every step."
     },
     {
      "icon": "alert",
      "title": "Dust mite allergen is higher in carpet",
-     "text": "Mites live in the pile and pad and feed on skin flakes. Studies consistently find more mite allergen in carpet than on bare floors, especially in humid homes. Mites need relative humidity above about 50 percent, which is why a damp Snohomish crawlspace matters more than the carpet itself."
+     "text": "Mites live in the pile and pad and feed on skin flakes. Studies consistently find more mite allergen in carpet than on bare floors, especially in humid homes. Mites need humidity above about 50 percent, which is why a damp Snohomish crawlspace matters more than the carpet."
     },
     {
      "icon": "search",
      "title": "No consistent link to asthma",
-     "text": "Large reviews of the evidence have not found that living with carpet causes asthma or makes it worse in a consistent way. One often-cited country-level comparison showed asthma rising while carpet sales fell, which proves nothing either way but undercuts the idea that removing carpet is a cure."
+     "text": "Large reviews have not found that living with carpet causes asthma or makes it worse in any consistent way. One often-cited country-level comparison showed asthma rising while carpet sales fell, which proves nothing either way but undercuts the idea that removal is a cure."
     },
     {
      "icon": "paw",
      "title": "Pet dander goes everywhere",
-     "text": "Dander is small, sticky and airborne. It settles on carpet, but also on couches, bedding and hard floors. Households with a dog measure dander on every surface. The floor is one part of the picture, not the cause."
+     "text": "Dander is small, sticky and airborne. It settles on carpet, but also on couches, bedding and hard floors. Households with a dog measure dander on every surface, so the floor is one part of the picture, not the cause."
     }
    ]
   },
@@ -107,11 +107,6 @@
      "Wood smoke and fine ash",
      "Settles in pile near the stove",
      "Hard floor in the stove zone, carpet elsewhere; HEPA vacuum"
-    ],
-    [
-     "VOCs from new carpet",
-     "Brief odor in the first few days",
-     "Green Label Plus carpet and pad, ventilate for 72 hours"
     ]
    ]
   },
@@ -125,7 +120,7 @@
    "items": [
     {
      "icon": "layers",
-     "html": "<strong>Low, dense pile.</strong> A short frieze or a tight loop holds less dust per square foot and releases it to the vacuum more easily than a deep plush. Shag is the worst choice."
+     "html": "<strong>Low, dense pile.</strong> A short frieze or tight loop holds less dust and gives it up to the vacuum more easily than a deep plush. Shag is the worst choice."
     },
     {
      "icon": "tag",
@@ -136,10 +131,6 @@
      "html": "<strong>A dense pad with a moisture barrier.</strong> Pad is where mites and pet accidents collect. A dense rebond or felt pad with a sealed top layer keeps liquids on the surface so they can be extracted instead of soaking in."
     },
     {
-     "icon": "award",
-     "html": "<strong>Green Label Plus carpet and pad.</strong> Certified low emissions. It does not affect mites or dander, but it removes one variable for sensitive people in the first week."
-    },
-    {
      "icon": "x",
      "html": "<strong>Skip antimicrobial claims.</strong> Treatments marketed as allergen-fighting have little evidence behind them. The vacuum and the humidity level do the work, not the label."
     }
@@ -147,12 +138,16 @@
   },
   {
    "type": "h2",
-   "text": "Scope your Snohomish carpet project"
+   "text": "Price your Snohomish carpet project right now"
   },
   {
-   "type": "estimator",
-   "title": "Scope Your Carpet Project",
-   "sub": "Tell us the rooms. We bring low-pile, allergy-friendly samples and pad options to your door with a firm written price."
+   "type": "p",
+   "html": "Stretch-in over pad is <strong>$0.99 per sq ft</strong> with a 500 sq ft minimum, glue-down is <strong>$1.29</strong>, stairs are <strong>$30 per step</strong>, and pulling the old carpet and pad with haul-away adds <strong>$0.45 per sq ft</strong>. Three bedrooms, a hall and the stairs in a Clearview house, say 800 sq ft and 12 steps: 800 × $0.99 + 12 × $30 = $1,152 in labor, plus $360 to take the old carpet and its allergen-loaded pad away."
+  },
+  {
+   "type": "calc",
+   "kind": "carpet",
+   "note": "Labor only. Low-pile carpet and barrier pad are quoted with samples at the free estimate."
   },
   {
    "type": "h2",
@@ -167,7 +162,6 @@
     "items": [
      "Upstairs bedrooms with a dehumidified, dry house",
      "Kids' rooms and playrooms where a soft floor matters",
-     "A home office or media room with no pets on the floor",
      "Stairs and upper halls, which never get wet"
     ]
    },
@@ -195,27 +189,27 @@
     {
      "icon": "wind",
      "d": "Weekly",
-     "text": "HEPA-filter vacuum with a sealed body, slow overlapping passes, twice a week in rooms where the dog sleeps. A cheap vacuum without HEPA blows the fine allergen straight back into the air."
+     "text": "HEPA vacuum with a sealed body, slow overlapping passes, twice a week where the dog sleeps. A cheap vacuum without HEPA blows the fine allergen straight back into the air."
     },
     {
      "icon": "droplet",
      "d": "Monthly",
-     "text": "Check indoor humidity with an inexpensive hygrometer. Above 50 percent, run a dehumidifier or look at the crawlspace. Dry air is the single most effective mite control there is."
+     "text": "Check indoor humidity with a cheap hygrometer. Above 50 percent, run a dehumidifier or look at the crawlspace. Dry air is the most effective mite control there is."
     },
     {
      "icon": "home",
      "d": "Every day at the door",
-     "text": "Shoes off, a real outdoor mat and a washable indoor mat. Most of the pollen and mud in a Snohomish house arrives on boots and paws."
+     "text": "Shoes off, a real outdoor mat and a washable indoor mat. Most pollen and mud in a Snohomish house arrives on boots and paws."
     },
     {
      "icon": "mop",
      "d": "Every 12 to 18 months",
-     "text": "Professional hot-water extraction, then dry the carpet fully within 24 hours with fans. Damp carpet after cleaning is how mold starts, so avoid cleaning in the wettest weeks of winter."
+     "text": "Professional hot-water extraction, then dry the carpet fully within 24 hours with fans. Damp carpet after cleaning is how mold starts, so skip the wettest weeks of winter."
     },
     {
      "icon": "calendar",
      "d": "Every 10 to 15 years",
-     "text": "Replace it. Old pad in particular holds decades of allergen no cleaning reaches. When we pull carpet in a 1990s house, the pad is usually the worst part."
+     "text": "Replace it. Old pad holds decades of allergen no cleaning reaches. When we pull carpet in a 1990s house, the pad is the worst part."
     }
    ]
   },
@@ -223,21 +217,21 @@
    "type": "callout",
    "icon": "alert",
    "title": "Fix the crawlspace before you blame the carpet: ",
-   "text": "Many Snohomish homes on Fobes Hill and out toward Clearview sit over vented crawlspaces with standing water in winter. That moisture rises through the subfloor and keeps carpet and pad damp enough for mites and mold no matter how often you vacuum. A vapor barrier and a dehumidifier do more for an allergic family than any flooring change, and they protect hardwood and vinyl plank too."
+   "text": "Many Snohomish homes on Fobes Hill and out toward Clearview sit over vented crawlspaces with standing water in winter. That moisture rises through the subfloor and keeps carpet and pad damp enough for mites and mold no matter how often you vacuum. A vapor barrier and a dehumidifier do more for an allergic family than any flooring change."
   },
   {
    "type": "p",
-   "html": "If you decide carpet is not the right call for a particular room, we install <a href=\"/services/lvp-vinyl-flooring\">vinyl plank</a> and hardwood in the same visit and can mix surfaces by room. Bedrooms in carpet and the entry, kitchen and stove zone in a hard surface is the most common allergy-conscious layout we install in Snohomish."
+   "html": "If carpet is not the right call for a particular room, we install <a href=\"/services/lvp-vinyl-flooring\">vinyl plank</a> in the same visit and mix surfaces by room. Carpet labor runs $0.99 per sq ft and vinyl plank $2.50, so keeping carpet in the bedrooms and putting a hard surface at the entry, kitchen and stove zone is the most common allergy-conscious layout we install in Snohomish."
   }
  ],
  "faq": [
   {
    "q": "Does removing carpet help allergies?",
-   "a": "Sometimes, mainly for people allergic to dust mites in a humid house. For dander and pollen, removal changes little because those settle on every surface. Many families report no difference after pulling carpet, and a few report more sneezing because dust that was held in the pile is now airborne with every footstep. Vacuuming and humidity control matter more than the surface."
+   "a": "Sometimes, mainly for people allergic to dust mites in a humid house. For dander and pollen, removal changes little because those settle on every surface. Some families report more sneezing afterward, because dust that was held in the pile is now airborne with every footstep. Vacuuming and humidity control matter more than the surface."
   },
   {
    "q": "Is carpet or hardwood better for asthma?",
-   "a": "The evidence does not clearly favor either. Carpet holds particles down between cleanings; hard floors let them recirculate but are easier to clean completely. For asthma triggered by dust mites, hard floors in the bedroom with a dehumidified house is the safer choice. For most other triggers, a well-vacuumed low-pile carpet is fine."
+   "a": "The evidence does not clearly favor either. Carpet holds particles down between cleanings; hard floors let them recirculate but are easier to clean completely. For asthma triggered by dust mites, a hard floor in the bedroom plus a dehumidified house is safer. For most other triggers, a well-vacuumed low-pile carpet is fine."
   },
   {
    "q": "What is the best carpet for allergy sufferers?",
@@ -245,15 +239,15 @@
   },
   {
    "q": "How often should you vacuum carpet if you have allergies?",
-   "a": "Once a week minimum with a sealed HEPA vacuum, twice a week in rooms where pets sleep, using slow overlapping passes rather than quick ones. A vacuum without a HEPA filter and a sealed body pushes the smallest allergen particles back into the air, which can make symptoms worse right after cleaning."
+   "a": "Once a week minimum with a sealed HEPA vacuum, twice a week in rooms where pets sleep, using slow overlapping passes rather than quick ones. A vacuum without a HEPA filter and a sealed body pushes the smallest particles back into the air, which can make symptoms worse right after cleaning."
   },
   {
    "q": "Do dust mites live in carpet?",
-   "a": "Yes, in the pile and especially in the pad, wherever there are skin flakes to eat and humidity above about 50 percent. Below that humidity they struggle to survive. In a Snohomish house over a damp crawlspace the fix is a vapor barrier and a dehumidifier; in a dry house, weekly vacuuming keeps populations low."
+   "a": "Yes, in the pile and especially in the pad, wherever there are skin flakes to eat and humidity above about 50 percent. Below that they struggle to survive. In a Snohomish house over a damp crawlspace the fix is a vapor barrier and a dehumidifier; in a dry house, weekly vacuuming keeps them low."
   },
   {
    "q": "Does Wills Flooring install allergy-friendly carpet in Snohomish?",
-   "a": "Yes. Our mobile showroom brings low-pile nylon and triexta samples, Green Label Plus pad and moisture-barrier pad options to your Snohomish home, measures every room, and leaves a firm written quote. We can also quote vinyl plank or hardwood for the entry and stove zone in the same visit. Estimates are free."
+   "a": "Yes. We bring low-pile nylon and triexta samples, Green Label Plus carpet and moisture-barrier pad to your Snohomish home, measure, and leave a firm written quote. Labor is $0.99 per sq ft stretch-in, $30 per stair, 500 sq ft minimum, with carpet and pad quoted separately. Estimates are free."
   }
  ],
  "faq_title": "Carpet and allergy questions from Snohomish",
@@ -273,5 +267,17 @@
   ]
  ],
  "cta_title": "Pick the carpet that suits your allergies",
- "cta_sub": "We bring low-pile, allergy-conscious samples and pad options to your Snohomish home, measure, and give you a firm written price on the spot. Free, no obligation."
+ "cta_sub": "We bring low-pile, allergy-conscious samples and pad options to your Snohomish home, measure, and give you a firm written price on the spot. Free, no obligation.",
+ "offers": [
+  [
+   "Carpet installation, stretch-in",
+   "0.99",
+   "per square foot"
+  ],
+  [
+   "Carpet installation, glue-down",
+   "1.29",
+   "per square foot"
+  ]
+ ]
 }

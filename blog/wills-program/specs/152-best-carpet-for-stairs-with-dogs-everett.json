@@ -12,7 +12,7 @@
    "type": "quick",
    "eyebrow": "Short answer",
    "lead": "The best stair carpet for a house with dogs is a dense, low-pile nylon or solution-dyed triexta in a textured cut pile, installed waterfall-style over a firm pad.",
-   "detail": "Cut pile gives paws something to grip, nylon and triexta spring back from claws and daily thundering, and a firm pad keeps the nosing tight so the carpet does not slide or wrinkle. Skip loops, skip plush, skip soft pads on stairs.",
+   "detail": "Cut pile gives paws something to grip, nylon and triexta spring back from claws and daily thundering, and a firm pad keeps the nosing tight so the carpet does not slide. Labor is $30 per step at Wills Flooring, $0.99 per sq ft for the rooms they lead to, with the carpet and pad quoted at the estimate.",
    "tiles": [
     {
      "icon": "paw",
@@ -31,15 +31,15 @@
     },
     {
      "icon": "stairs",
-     "label": "Install",
-     "value": "Waterfall, no seams"
+     "label": "Stair labor",
+     "value": "$30 per step"
     }
    ],
-   "cta": false
+   "cta": "Price your stairs"
   },
   {
    "type": "p",
-   "html": "If you live in one of the split-entry homes around Silver Lake or Eastmont, your dog goes up and down that one staircase thirty times a day. A common Reddit thread asks whether a big dog can even use carpeted stairs safely, and the answer is yes, as long as the carpet is chosen for grip and recovery instead of softness. This post covers the fiber, the pile, the pad and the install details that make Everett stairs safe for a dog and tolerable for the person cleaning them."
+   "html": "In the split-entry homes around Silver Lake and Eastmont, the dog goes up and down that one staircase thirty times a day. A common Reddit thread asks whether a big dog can safely use carpeted stairs at all. It can, as long as the carpet is picked for grip and recovery instead of softness. Here is the fiber, the pile, the pad and the install detail that make Everett stairs safe for a dog."
   },
   {
    "type": "h2",
@@ -52,22 +52,22 @@
     {
      "icon": "paw",
      "title": "Claws twist on every tread",
-     "text": "A dog does not step on a stair, it launches. Rear claws dig into the nosing and twist as the dog pushes off. Loop carpets snag and unravel under that motion. Cut pile just gets brushed, which is why textured cut pile lasts longer on dog stairs."
+     "text": "A dog does not step on a stair, it launches. Rear claws dig into the nosing and twist as it pushes off. Loops snag and unravel under that motion; cut pile just gets brushed, which is why it lasts longer."
     },
     {
      "icon": "refresh",
      "title": "Crushing in the same three inches",
-     "text": "Dogs use the middle of each tread and hit the same spot every trip. Pile that cannot recover mats into a shiny track within a year. Nylon has the best crush recovery of any fiber. Polyester is soft on day one and flat by year two on stairs."
+     "text": "Dogs hit the same middle three inches of each tread every trip. Pile that cannot recover mats into a shiny track within a year. Nylon has the best crush recovery; polyester is soft on day one and flat by year two."
     },
     {
      "icon": "droplet",
      "title": "Wet paws and the occasional accident",
-     "text": "Everett rain means damp paws on the stairs from October to May. Solution-dyed fibers, where color runs through the strand, shrug off pet enzyme cleaners and bleach-based spot removers. Stock-dyed carpet can lose color where you clean it most."
+     "text": "Everett rain means damp paws on the stairs from October to May. Solution-dyed fiber, colored through the strand, shrugs off enzyme cleaners and bleach-based spot removers. Stock-dyed carpet loses color where you clean it most."
     },
     {
      "icon": "wind",
      "title": "Hair and dander collection",
-     "text": "Stairs are hard to vacuum, so hair builds up in the corner where the tread meets the riser. Lower, denser pile holds less hair and releases it faster to a stair tool or a handheld vacuum. Deep frieze on stairs is a hair trap."
+     "text": "Stairs are hard to vacuum, so hair packs into the corner where tread meets riser. Low, dense pile holds less of it and gives it up faster to a stair tool. Deep frieze on stairs is a hair trap."
     }
    ]
   },
@@ -107,15 +107,9 @@
      "Good resilience, natural texture grips well",
      "Absorbs pet urine, hard to fully neutralize",
      "Beautiful but risky with a puppy or senior dog"
-    ],
-    [
-     "Olefin",
-     "Poor recovery, crushes fast",
-     "Stain-proof but attracts oils from paws",
-     "Skip for stairs"
     ]
    ],
-   "note": "Ranking is based on how the fibers behave on stair nosings specifically, where twist and recovery matter more than anywhere else in the house."
+   "note": "Ranked on how the fibers behave on stair nosings, where twist and recovery matter most."
   },
   {
    "type": "h2",
@@ -131,8 +125,7 @@
      "Individual tufts flex under a paw and give claws a grip",
      "Nothing to snag, so no runs or pulled loops",
      "Hides tracking better than a smooth plush",
-     "Low to medium pile height, high face weight and density",
-     "Works with a stair rod or nosing detail if you want a finished look"
+     "Low to medium pile height, high face weight and density"
     ]
    },
    "b": {
@@ -143,19 +136,22 @@
      "Berber and level loops snag on claws and unravel across a tread",
      "Smooth plush shows every footprint and mats fast on the nosing",
      "Deep frieze feels great but traps hair and rolls under a paw",
-     "Very soft, thick pile compresses so much the tread edge rounds off",
-     "Patterned loops lose the pattern where the dog lands"
+     "Very soft, thick pile compresses so much the tread edge rounds off"
     ]
    }
   },
   {
    "type": "h2",
-   "text": "Scope your Everett stairs right now"
+   "text": "Price your Everett stairs right now"
   },
   {
-   "type": "estimator",
-   "title": "Scope Your Everett Stair Carpet Project",
-   "sub": "Count the treads, note any landing or pie-shaped steps, and we bring dog-rated nylon and triexta samples to the house with a firm written price."
+   "type": "calc",
+   "kind": "carpet",
+   "note": "Labor only, stairs counted per step. The dog-rated carpet and the firm stair pad are quoted at the free estimate."
+  },
+  {
+   "type": "p",
+   "html": "A Silver Lake split-entry is the standard version of this job: 13 treads up from the entry plus 620 sq ft of bedrooms and hall above. That is 620 × $0.99 + 13 × $30 = $614 + $390 = $1,004 in labor, with 620 × $0.45 = $279 to pull and haul the old carpet, plus the nylon or triexta and the firm stair pad from the estimate. Stairs are listed separately, so you see what the flight costs."
   },
   {
    "type": "h2",
@@ -167,11 +163,11 @@
    "items": [
     {
      "icon": "layers",
-     "html": "<strong>Firm, dense pad, on the thinner side.</strong> A soft, thick pad lets the carpet roll over the nosing under a dog's weight. That is how a paw slips. Stairs want a dense pad that holds the tread edge crisp."
+     "html": "<strong>Firm, dense pad, on the thinner side.</strong> A soft, thick pad lets the carpet roll over the nosing under a dog's weight, and that is how a paw slips. Stairs want a dense pad that keeps the tread edge crisp."
     },
     {
      "icon": "stairs",
-     "html": "<strong>Waterfall over the nosing, not wrapped and tacked under.</strong> Waterfall installation runs the carpet smoothly over the edge of each tread. It gives a continuous surface with nothing for a claw to catch on and nothing to work loose."
+     "html": "<strong>Waterfall over the nosing, not wrapped and tacked under.</strong> The carpet runs smoothly over the edge of each tread, so there is nothing for a claw to catch on and nothing to work loose."
     },
     {
      "icon": "scissors",
@@ -179,11 +175,11 @@
     },
     {
      "icon": "hammer",
-     "html": "<strong>Tack strip set back correctly.</strong> Everett split-entries often have a short lower flight where the old strip was set too close to the riser. We reset it so the carpet stays tight without a hard ridge under the pad."
+     "html": "<strong>Tack strip set back correctly.</strong> Everett split-entries often have a lower flight where the old strip sits too close to the riser. We reset it so the carpet stays tight with no ridge under the pad."
     },
     {
      "icon": "shield",
-     "html": "<strong>Stair treads need more fastening, not less.</strong> Each tread is stapled through the pad at the crotch of the step and stretched over the nosing. A loose stair carpet is dangerous for a dog and a person. Wills backs the install with a <a href=\"/services/carpet-installation\">1-year workmanship warranty</a>."
+     "html": "<strong>Stair treads need more fastening, not less.</strong> Each tread is stapled through the pad at the crotch of the step and stretched over the nosing. Loose stair carpet is dangerous for dog and owner alike, and ours carries a <a href=\"/services/carpet-installation\">1-year workmanship warranty</a>."
     }
    ]
   },
@@ -194,10 +190,10 @@
   {
    "type": "ul",
    "items": [
-    "Your dog is a heavy shedder and you cannot commit to vacuuming the stairs weekly. Hair packed into the tread corners is the number one complaint we hear a year later.",
+    "Your dog is a heavy shedder and you will not vacuum the stairs weekly. Hair packed into the tread corners is the complaint we hear a year later.",
     "The dog has a history of marking on the stairs. Carpet and pad both absorb urine, and no stain warranty covers the pad. Hardwood treads with a washable runner may serve you better.",
     "You are selling within a year and the rest of the house is hardwood. Everett buyers coming from Seattle often expect bare wood stairs; see our note on <a href=\"/blog-posts/should-you-replace-carpet-before-selling-a-house-in-lynnwood\">replacing carpet before a sale</a>.",
-    "The stairs are already hardwood and the dog slips. Try clear stair treads or a bound runner first. A full carpet install to solve traction is more than the problem needs.",
+    "The stairs are already hardwood and the dog slips. Try clear treads or a bound runner first; a full carpet install is more than the problem needs.",
     "The staircase is open-sided with pie-shaped treads and you want a loop. A loop on a pie tread is a snag waiting to happen."
    ]
   },
@@ -219,7 +215,7 @@
     },
     {
      "icon": "paw",
-     "html": "<strong>Test traction with your own dog.</strong> Our mobile showroom brings full samples to your Everett home. Lay one on a tread and let the dog take a few steps. You will know in a minute."
+     "html": "<strong>Test traction with your own dog.</strong> Our mobile showroom brings full samples to the house. Lay one on a tread and let the dog take a few steps."
     },
     {
      "icon": "palette",
@@ -231,7 +227,7 @@
     },
     {
      "icon": "truck",
-     "html": "<strong>Plan the day.</strong> Stair installs take a few hours for a straight flight. Everett is about 15 minutes from our Lynnwood showroom, so a single-flight job is usually done before the dog needs its afternoon walk."
+     "html": "<strong>Plan the day.</strong> A straight flight takes a few hours, and Everett is about 15 minutes from our Lynnwood showroom, so it is done before the dog needs its afternoon walk."
     }
    ]
   }
@@ -239,11 +235,11 @@
  "faq": [
   {
    "q": "Is carpet or hardwood safer for dogs on stairs?",
-   "a": "Carpet, by a wide margin. Hardwood treads are slick for claws, and dogs that slip once start hesitating or jumping the last three steps, which is how joint injuries happen. A dense textured cut pile gives paws a surface to grip. If you love wood stairs, a bound runner over the treads is the compromise."
+   "a": "Carpet, by a wide margin. Hardwood treads are slick for claws, and a dog that slips once starts hesitating or jumping the last three steps, which is how joint injuries happen. Dense textured cut pile gives paws something to grip. If you love wood stairs, a bound runner is the compromise."
   },
   {
    "q": "Is berber carpet okay on stairs with dogs?",
-   "a": "We advise against it. Berber and other loop carpets snag on claws, and one pulled loop on a stair nosing turns into a run across the whole tread. Small, calm dogs may never cause a problem, but with a large or excitable dog a textured cut pile is the safer bet."
+   "a": "We advise against it. Berber and other loops snag on claws, and one pulled loop on a nosing turns into a run across the whole tread. Small, calm dogs may never cause a problem, but with a large or excitable dog, textured cut pile is the safer bet."
   },
   {
    "q": "What pile height is best for dog stairs?",
@@ -251,7 +247,7 @@
   },
   {
    "q": "How do I clean dog hair off carpeted stairs?",
-   "a": "Use a handheld vacuum or a stair tool weekly, working the corner where tread meets riser. A rubber squeegee or a damp rubber glove pulls embedded hair out of low pile fast. Have the stairs hot-water extracted with the rest of the house every 12 to 18 months."
+   "a": "Use a handheld vacuum or a stair tool weekly, working the corner where tread meets riser. A rubber squeegee or damp rubber glove pulls embedded hair out of low pile fast. Have the stairs extracted with the rest of the house every 12 to 18 months."
   },
   {
    "q": "Will a stain warranty cover dog urine on stairs?",
@@ -259,7 +255,7 @@
   },
   {
    "q": "Can Wills Flooring carpet just the stairs in my Everett home?",
-   "a": "Yes. Stair-only jobs are common, especially in split-entry homes where the main floors are hardwood or vinyl plank. We measure the flight, note landings and pie treads, bring samples to the house and give you a firm written quote at the visit."
+   "a": "Yes. Stair-only jobs are common in split-entry homes where the main floors are hardwood or vinyl plank. Stairs are priced per step at $30, so a 14-tread flight is $420 of labor. We confirm the total at the free visit, since the per-square-foot rate carries a 500 sq ft minimum on floor area."
   }
  ],
  "faq_title": "Dog stair questions from Everett homeowners",
@@ -279,5 +275,17 @@
   ]
  ],
  "cta_title": "Let your dog test the samples",
- "cta_sub": "We bring dog-rated nylon and triexta stair samples to your Everett home, measure every tread and hand you a firm written price. Free, no obligation."
+ "cta_sub": "We bring dog-rated nylon and triexta stair samples to your Everett home, measure every tread and hand you a firm written price. Free, no obligation.",
+ "offers": [
+  [
+   "Carpet installation, stretch-in",
+   "0.99",
+   "per square foot"
+  ],
+  [
+   "Carpet installation, glue-down",
+   "1.29",
+   "per square foot"
+  ]
+ ]
 }

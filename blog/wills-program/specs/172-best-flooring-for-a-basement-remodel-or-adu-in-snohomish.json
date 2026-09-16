@@ -35,11 +35,11 @@
      "value": "Lean harder toward plank"
     }
    ],
-   "cta": false
+   "cta": "Price it with the calculator"
   },
   {
    "type": "p",
-   "html": "The question usually arrives like this: \"We're finishing the daylight basement on Fobes Hill for my mother-in-law\" or \"We're turning the shop on our Clearview acreage into a rental ADU. Carpet or vinyl?\" Both are good floors. The mistake is treating the whole space as one decision. A Snohomish basement has a slab that breathes moisture, an exterior door that lets in mud and dog paws, and at least one room where somebody wants to walk barefoot. Those are three different floors."
+   "html": "The question usually arrives like this: \"We're finishing the daylight basement on Fobes Hill for my mother-in-law\" or \"We're turning the shop on our Clearview acreage into a rental ADU. Carpet or vinyl?\" Both are good floors. The mistake is treating the whole space as one decision. A Snohomish basement has a slab that breathes moisture, an exterior door that lets in mud, and at least one room where somebody wants to walk barefoot."
   },
   {
    "type": "h2",
@@ -52,22 +52,22 @@
     {
      "icon": "moisture",
      "title": "Moisture test the concrete",
-     "text": "A calcium chloride or in-slab relative humidity test tells you how much vapor is coming up through the floor. Older Snohomish slabs often have no vapor barrier under them. A high reading does not rule out carpet or plank, but it decides the pad and the barrier."
+     "text": "A calcium chloride or in-slab relative humidity test tells you how much vapor is coming up through the floor. Older Snohomish slabs often have no vapor barrier under them. A high reading decides the pad and the barrier."
     },
     {
      "icon": "droplet",
      "title": "Look for past water",
-     "text": "Efflorescence (white powder), a tide line on the drywall, rust on the furnace feet or a musty smell near the sump all mean water has visited. Fix the source first: gutters, grading, drain tile or a sump that actually runs. Flooring cannot fix a wet basement."
+     "text": "Efflorescence, a tide line on the drywall, rust on the furnace feet or a musty smell near the sump all mean water has visited. Fix the source first: gutters, grading, drain tile or a sump that actually runs."
     },
     {
      "icon": "ruler2",
      "title": "Check flatness and cracks",
-     "text": "Basement slabs pitch toward drains and crack along control joints. Carpet hides almost all of that. Click-lock vinyl plank does not, so low spots get patched and high spots get ground before planks go down."
+     "text": "Basement slabs pitch toward drains and crack along control joints. Carpet hides almost all of that. Click-lock plank does not, so low spots get patched and high spots ground before planks go down."
     },
     {
      "icon": "thermo",
      "title": "Plan the heat",
-     "text": "A slab in February sits in the low 50s. Carpet with a good pad feels warm to bare feet. Vinyl plank feels like the slab under it unless the underlayment adds some insulation or the room has its own heater."
+     "text": "A slab in February sits in the low 50s. Carpet and pad feel warm to bare feet. Vinyl plank feels like the slab under it unless the room has its own heat."
     }
    ]
   },
@@ -86,7 +86,7 @@
     [
      "Exterior entry, mudroom, stairs landing",
      "Vinyl plank",
-     "Mud, wet boots and dog paws come in here. Plank wipes clean; carpet at an exterior door in Snohomish is brown by March."
+     "Mud, wet boots and dog paws come in here. Plank wipes clean; carpet at a Snohomish exterior door is brown by March."
     ],
     [
      "Kitchenette and dining nook",
@@ -101,24 +101,28 @@
     [
      "Bedrooms",
      "Carpet",
-     "Warmth underfoot, quiet, and the softest landing for kids and older parents. Use a moisture-barrier pad below grade."
+     "Warmth, quiet and a soft landing for kids and older parents. Use a moisture-barrier pad below grade."
     ],
     [
      "TV or media room",
      "Carpet",
-     "Sound absorption matters more in a concrete box than anywhere else in the house. Carpet and pad soak up the echo."
+     "Sound absorption matters more in a concrete box than anywhere else in the house."
     ]
    ],
-   "note": "A transition strip at each doorway lets you change floors cleanly. Plan it so the transitions land under doors, not mid-hallway."
+   "note": "A transition strip at each doorway lets you change floors cleanly. Plan them to land under doors, not mid-hallway."
   },
   {
    "type": "h2",
-   "text": "Scope your Snohomish basement or ADU floor"
+   "text": "Price your Snohomish basement or ADU floor"
   },
   {
-   "type": "estimator",
-   "title": "Scope Your Snohomish Basement Project",
-   "sub": "Tell us the rooms and stairs. We bring carpet and vinyl plank samples to the house, test the slab, measure, and hand you one firm written price for the whole zoned floor."
+   "type": "p",
+   "html": "Carpet labor below grade is published. Stretch-in over pad, on a wood subfloor or a dry slab with concrete tack strip, is <strong>$0.99 per sq ft</strong>. Glue-down straight to the concrete is $1.29. Stairs are $30 per step, there is a 500 sq ft minimum, old carpet out is $0.45 per sq ft and furniture moving $0.25. A Fobes Hill basement with two 12 by 12 bedrooms and a 20 by 16 TV room is 608 sq ft: 608 × $0.99 = $601.92 stretch-in, or 608 × $1.29 = $784.32 glued down. Vinyl plank in the wet zones is $2.50 per sq ft. Carpet, pad and plank are quoted at the estimate."
+  },
+  {
+   "type": "calc",
+   "kind": "carpet",
+   "note": "Labor only. Glue-down is the slab option. Carpet, pad and plank are quoted at the estimate."
   },
   {
    "type": "h2",
@@ -138,11 +142,11 @@
     },
     {
      "icon": "scissors",
-     "html": "<strong>Low, dense pile.</strong> A tight loop or a short dense cut pile dries faster if something does go wrong and resists the crushing that heavy furniture on a slab causes."
+     "html": "<strong>Low, dense pile.</strong> A tight loop or short dense cut pile dries faster if something goes wrong and resists the crushing that heavy furniture on a slab causes."
     },
     {
      "icon": "hammer",
-     "html": "<strong>Tack strip made for concrete.</strong> Regular tack strip pins pull out of old slab. Concrete-pin strip or an adhesive strip holds the stretch for the life of the carpet."
+     "html": "<strong>Tack strip made for concrete.</strong> Regular pins pull out of old slab. Concrete-pin or adhesive strip holds the stretch for the life of the carpet."
     }
    ]
   },
@@ -157,23 +161,18 @@
     {
      "icon": "box",
      "d": "Rigid core over flexible",
-     "text": "SPC (stone-plastic core) planks stay flat over a cold slab and shrug off temperature swings between a heated bedroom and an unheated storage room. Thin flexible planks telegraph every slab flaw."
+     "text": "SPC planks stay flat over a cold slab and shrug off the swing between a heated bedroom and an unheated storage room. Thin flexible planks telegraph every slab flaw."
     },
     {
      "icon": "layers",
      "d": "Underlayment with a vapor rating",
      "text": "Many planks have an attached pad, but below grade you still want a barrier: either an attached pad rated for concrete or a separate vapor-rated underlayment. Never stack two pads.",
-     "note": "Check the plank warranty: most void below-grade coverage if the slab moisture reading is above their limit."
-    },
-    {
-     "icon": "ruler",
-     "d": "Expansion gap at every wall and post",
-     "text": "Basements have furnace platforms, posts and stair stringers. Each one needs the same gap as a wall. Pinning a floating floor at a post is how it buckles in July."
+     "note": "Most plank warranties void below-grade coverage above their slab moisture limit."
     },
     {
      "icon": "stairs",
      "d": "Stairs and the landing",
-     "text": "Basement stairs usually stay carpeted, which is fine. The plank at the bottom needs a proper stair nose or transition so the last tread is not a trip edge."
+     "text": "Basement stairs usually stay carpeted at $30 a step, which is fine. The plank at the bottom needs a proper stair nose so the last tread is not a trip edge."
     }
    ]
   },
@@ -190,7 +189,7 @@
     "items": [
      "You will not see the floor between tenants",
      "Pets are allowed or likely",
-     "The unit has its own exterior entry straight into living space",
+     "The unit's exterior door opens straight into living space",
      "You want one floor type and fewer transitions"
     ]
    },
@@ -210,7 +209,7 @@
    "type": "callout",
    "icon": "alert",
    "title": "One Snohomish-specific note: ",
-   "text": "Many rural properties here are on well water and septic. If the ADU adds a bathroom and laundry, the sewer ejector pit usually lives in that floor. Keep hard flooring around the lid and keep it accessible. We have pulled up a lot of carpet glued over one."
+   "text": "Many rural properties here are on well water and septic. If the ADU adds a bathroom and laundry, the sewer ejector pit usually lives in that floor. Keep hard flooring around the lid and keep it accessible."
   },
   {
    "type": "h2",
@@ -222,19 +221,19 @@
    "items": [
     {
      "icon": "x",
-     "html": "<strong>Carpet straight onto the slab with a standard pad.</strong> Two winters later the pad smells and the backing has a dark bloom. A barrier pad prevents all of it."
+     "html": "<strong>Carpet straight onto the slab with a standard pad.</strong> Two winters later the pad smells and the backing has a dark bloom. A barrier pad prevents it."
     },
     {
      "icon": "x",
-     "html": "<strong>Laminate in a basement.</strong> It looks like plank, but the core is wood fiber. One overflowing utility sink swells the seams for good. Choose vinyl plank below grade, not laminate."
+     "html": "<strong>Laminate in a basement.</strong> It looks like plank, but the core is wood fiber. One overflowing utility sink swells the seams for good."
     },
     {
      "icon": "x",
-     "html": "<strong>Carpet in a room with a floor drain.</strong> The drain is there because someone expected water. Respect that."
+     "html": "<strong>Carpet in a room with a floor drain.</strong> The drain is there because someone expected water."
     },
     {
      "icon": "x",
-     "html": "<strong>Finishing the floor before the framing and drywall are done.</strong> Drywall dust and dropped screws ruin new carpet and scratch new plank. Flooring goes in last, after paint."
+     "html": "<strong>Finishing the floor before the framing and drywall are done.</strong> Dust and dropped screws ruin new carpet and scratch new plank. Flooring goes in last, after paint."
     }
    ]
   },
@@ -248,23 +247,23 @@
    "items": [
     {
      "icon": "search",
-     "html": "<strong>Get a slab moisture reading in writing.</strong> Ask us to do it at the free estimate. The number decides your pad and your plank warranty."
+     "html": "<strong>Get a slab moisture reading in writing.</strong> We do it at the free estimate. The number decides your pad and your plank warranty."
     },
     {
      "icon": "grid",
-     "html": "<strong>Draw the zones on the plan.</strong> Mark each room carpet or plank and put every transition under a door. Read our <a href=\"/blog-posts/can-you-put-carpet-in-a-basement-in-snohomish\">basement carpet post</a> for what a below-grade carpet order should say."
+     "html": "<strong>Draw the zones on the plan.</strong> Mark each room carpet or plank and put every transition under a door. Read our <a href=\"/blog-posts/can-you-put-carpet-in-a-basement-in-snohomish\">basement carpet post</a> for what a below-grade order should say."
     },
     {
      "icon": "clipboard",
-     "html": "<strong>Ask for both samples at the same visit.</strong> Our mobile showroom brings <a href=\"/services/carpet-installation\">carpet</a> and <a href=\"/services/lvp-vinyl-flooring\">vinyl plank</a> boards together, so you can see the carpet color next to the plank color in your own basement light."
+     "html": "<strong>Ask for both samples at the same visit.</strong> Our mobile showroom brings <a href=\"/services/carpet-installation\">carpet</a> and <a href=\"/services/lvp-vinyl-flooring\">vinyl plank</a> boards together, so you see the carpet color next to the plank color in your own basement light."
     },
     {
      "icon": "calendar",
-     "html": "<strong>Schedule flooring after paint and trim.</strong> Baseboards can go on before carpet if the right gap is left; for plank we prefer to set them after."
+     "html": "<strong>Schedule flooring after paint and trim.</strong> Baseboards can go on before carpet if the right gap is left; for plank we set them after."
     },
     {
      "icon": "shield",
-     "html": "<strong>Keep the paperwork.</strong> Pad spec, plank moisture limit and our 1-year workmanship warranty go in one folder with the ADU permit."
+     "html": "<strong>Keep the paperwork.</strong> Pad spec, plank moisture limit and our 1-year workmanship warranty go in the folder with the ADU permit."
     }
    ]
   }
@@ -272,19 +271,19 @@
  "faq": [
   {
    "q": "Is carpet a bad idea in a Snohomish basement?",
-   "a": "Not if the slab tests reasonably dry, the basement has never flooded, and you use a synthetic carpet on a moisture-barrier pad. Carpet is a bad idea in basement rooms with a floor drain, an exterior door, plumbing appliances or a history of seepage. Zone those rooms in vinyl plank instead."
+   "a": "Not if the slab tests reasonably dry, the basement has never flooded, and you use a synthetic carpet on a moisture-barrier pad. Carpet is a bad idea in rooms with a floor drain, an exterior door, plumbing appliances or a history of seepage. Zone those in vinyl plank."
   },
   {
    "q": "Can I put vinyl plank and carpet in the same open basement room?",
-   "a": "Yes. A common layout runs plank from the exterior door across the kitchenette and stops at a straight line where the sitting area begins, with a flush transition strip. It looks intentional if the line follows a beam, a change in ceiling height or a furniture edge."
+   "a": "Yes. A common layout runs plank from the exterior door across the kitchenette and stops at a straight line where the sitting area begins, with a flush transition. It looks intentional if the line follows a beam or a change in ceiling height."
   },
   {
    "q": "Do I need a vapor barrier under carpet on concrete?",
-   "a": "Below grade, yes. Use a rebond pad with a sealed moisture-barrier film on top rather than a loose plastic sheet, which bunches and traps water. The pad does the job and stays put under the stretch."
+   "a": "Below grade, yes. Use a rebond pad with a sealed moisture-barrier film rather than a loose plastic sheet, which bunches and traps water. If the slab reads high, we glue the carpet down at $1.29 per sq ft instead of stretching it, which removes the pad question entirely."
   },
   {
    "q": "Will vinyl plank be freezing cold in a Snohomish basement?",
-   "a": "It will feel like the slab, which sits around 50 to 55 degrees in winter. A plank with a thicker attached pad or a separate insulating underlayment helps, and area rugs in the sitting area help more. Bedrooms are where carpet earns its place."
+   "a": "It will feel like the slab, which sits around 50 to 55 degrees in winter. A plank with a thicker attached pad helps, and area rugs help more. Bedrooms are where carpet earns its place, at $0.99 per sq ft to install."
   },
   {
    "q": "Which floor is better for a rental ADU?",
@@ -292,7 +291,7 @@
   },
   {
    "q": "Does the flooring go in before or after the ADU inspection?",
-   "a": "Rough inspections happen before flooring. Final inspection usually wants the finished floor in place, especially at the stairs and any egress. Schedule the flooring after drywall and paint, and keep the transition and stair-nose details ready for the inspector."
+   "a": "Rough inspections happen before flooring. Final inspection usually wants the finished floor in place, especially at the stairs and any egress. Schedule flooring after drywall and paint, and keep the transition and stair-nose details ready for the inspector."
   }
  ],
  "faq_title": "Basement and ADU flooring questions from Snohomish",
@@ -312,5 +311,17 @@
   ]
  ],
  "cta_title": "Get one price for the whole basement",
- "cta_sub": "We bring carpet and vinyl plank samples together, test the slab, measure every room and write a firm quote on the spot. Free, anywhere in Snohomish County."
+ "cta_sub": "We bring carpet and vinyl plank samples together, test the slab, measure every room and write a firm quote on the spot. Free, anywhere in Snohomish County.",
+ "offers": [
+  [
+   "Carpet installation, stretch-in",
+   "0.99",
+   "per square foot"
+  ],
+  [
+   "Carpet installation, glue-down",
+   "1.29",
+   "per square foot"
+  ]
+ ]
 }

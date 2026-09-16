@@ -1,7 +1,7 @@
 {
  "slug": "whole-house-carpet-installation-in-kirkland",
  "title": "Whole-House Carpet Installation in Kirkland: A Real Cost Example",
- "meta": "How a whole-house carpet job in Kirkland is measured and itemized: rooms to square yards, waste, pad, stairs, removal. Wills Flooring walks through one home.",
+ "meta": "Whole-house carpet in Kirkland, itemized: 1,150 sq ft at $0.99 per sq ft labor, 14 stairs at $30 a step, plus carpet and pad quoted at the free estimate.",
  "category": "carpet",
  "city": "Kirkland",
  "time": "8 mins",
@@ -11,35 +11,35 @@
   {
    "type": "quick",
    "eyebrow": "Short answer",
-   "lead": "A whole-house carpet job is priced from six numbers: the measured square yards of carpet after waste, the pad, the stairs counted one by one, the labor to install, the old carpet coming out, and the furniture that has to move. Material is usually the biggest of the six, and the fiber you pick swings it more than anything else.",
-   "detail": "Rather than post a number that would be wrong for your house, this walks through a real Kirkland two-story the way we measure and itemize it, so you can see which lines move and by how much. Wills Flooring brings samples to your home and hands you the firm written version on the spot.",
+   "lead": "A whole-house carpet job is six lines, and three of them are published: stretch-in labor at $0.99 per sq ft, stairs at $30 per step, and pulling the old carpet and pad out at $0.45 per sq ft.",
+   "detail": "The house below is a real Kirkland two-story with 1,150 sq ft of carpet and 14 steps: 1,150 × $0.99 + 14 × $30 = $1,558.50 in labor, plus $517.50 for tear-out. The carpet and pad are quoted at the free estimate and are still the biggest line on the page.",
    "tiles": [
     {
-     "icon": "ruler",
-     "label": "Measured in",
-     "value": "Square yards"
-    },
-    {
-     "icon": "layers",
-     "label": "Waste and seams",
-     "value": "10 to 15%"
+     "icon": "dollar",
+     "label": "Installation labor",
+     "value": "$0.99 / sq ft"
     },
     {
      "icon": "stairs",
      "label": "Stairs",
-     "value": "Priced per step"
+     "value": "$30 per step"
+    },
+    {
+     "icon": "truck",
+     "label": "Old carpet out",
+     "value": "+$0.45 / sq ft"
     },
     {
      "icon": "tag",
-     "label": "Biggest swing",
-     "value": "Fiber choice"
+     "label": "Carpet and pad",
+     "value": "Quoted at the estimate"
     }
    ],
-   "cta": false
+   "cta": "Price it with the calculator"
   },
   {
    "type": "p",
-   "html": "The house in this example is a real type we see constantly on the Eastside: a 1988 two-story in Juanita with a carpeted upstairs, carpeted family room and a straight staircase, being recarpeted before a family moves in. The same layout shows up across Finn Hill, Rose Hill and the newer parts of Totem Lake. Kirkland buyers expect the carpet to look and feel like it belongs in a house at that price, which is why the fiber and pad lines in this example lean toward the middle of the range rather than the bottom."
+   "html": "The house in this example is a real type we see constantly on the Eastside: a 1988 two-story in Juanita with a carpeted upstairs, carpeted family room and a straight staircase, being recarpeted before a family moves in. The same layout shows up across Finn Hill, Rose Hill and the newer parts of Totem Lake. Kirkland buyers expect carpet that belongs in a house at that price, which is why the fiber and pad here sit mid-range rather than at the bottom."
   },
   {
    "type": "h2",
@@ -70,7 +70,7 @@
     {
      "icon": "ruler",
      "d": "Convert to square yards and add waste",
-     "text": "Carpet is sold from 12 ft rolls in square yards. Room widths that do not fit a 12 ft roll create seams and offcuts, so the order is about 12 percent above the floor area on this layout.",
+     "text": "Carpet is sold from 12 ft rolls in square yards. Widths that do not fit the roll create seams and offcuts, so the order runs about 12 percent above the floor area.",
      "note": "1,150 sq ft ÷ 9 = 128 sq yd, plus waste = about 143 sq yd ordered"
     }
    ]
@@ -84,50 +84,50 @@
    "head": [
     "Line on the quote",
     "What drives it in this house",
-    "Rough share of the total"
+    "What it comes to here"
    ],
    "rows": [
     [
      "Carpet material",
      "143 sq yd of the chosen product. A mid-grade nylon here; polyester would drop it, wool would more than double it.",
-     "Roughly half"
+     "Quoted at the estimate, usually about half the job"
     ],
     [
      "Pad",
      "The same square yards of an 8 lb rebond pad, upgraded to a moisture-barrier pad in the primary bedroom for the dog.",
-     "Around a tenth"
+     "Quoted with the carpet"
     ],
     [
      "Installation labor",
      "Stretch-in over tack strip in every room, seams placed where furniture and traffic hide them.",
-     "A fifth to a quarter"
+     "1,150 × $0.99 = $1,138.50"
     ],
     [
      "Stairs",
      "14 steps wrapped in the same carpet, per step. Open-sided or pie steps would cost more each.",
-     "About a tenth"
+     "14 × $30 = $420"
     ],
     [
      "Old carpet removal and disposal",
-     "About 1,150 sq ft of carpet and pad out, tack strip checked and replaced where rusted.",
-     "A few percent"
+     "About 1,150 sq ft of carpet and pad out, tack strip replaced where rusted.",
+     "1,150 × $0.45 = $517.50"
     ],
     [
      "Furniture",
-     "House was empty in this example. Occupied homes add a line for beds and dressers.",
-     "None here"
+     "House was empty in this example. An occupied house adds $0.25 per sq ft.",
+     "$0 here, $287.50 if furnished"
     ]
    ],
-   "note": "Shares are rounded from this one job so you can see what moves the number. Your house and your fiber choice will shift them; we give firm dollar figures only after measuring."
+   "note": "Labor, stairs, removal and furniture are published Wills Flooring rates, so those lines are fixed before we walk in. Carpet and pad are quoted once you pick them, and that is where two houses of the same size stop matching."
   },
   {
    "type": "h2",
    "text": "Scope your Kirkland carpet project"
   },
   {
-   "type": "estimator",
-   "title": "Scope Your Kirkland Carpet Project",
-   "sub": "Rooms, stairs, removal and furniture. We bring samples to the house, measure every room, and hand you the firm itemized quote on the spot."
+   "type": "calc",
+   "kind": "carpet",
+   "note": "Labor only. Carpet and pad are the two lines we quote after measuring your rooms."
   },
   {
    "type": "h2",
@@ -147,16 +147,17 @@
      "icon": "star",
      "tag": "What we quoted",
      "title": "Mid-grade nylon, 8 lb pad",
-     "text": "Resilient enough for a family and a dog, holds its texture on the staircase, and reads as quality to a Kirkland buyer. The material line rises by roughly a third over polyester and the pad by a little. This is the sweet spot for most Juanita and Finn Hill homes.",
+     "text": "Resilient enough for a family and a dog, holds its texture on the staircase, and reads as quality to a Kirkland buyer. The material line rises by roughly a third over polyester and the pad by a little, while the $1,558.50 of labor does not move. This is the sweet spot for most Juanita and Finn Hill homes.",
      "gold": true
     },
     {
      "icon": "award",
      "tag": "Premium",
      "title": "Wool or patterned nylon, upgraded pad",
-     "text": "For a Houghton or Bridle Trails home where the carpet is a design feature. Wool or a patterned loop can double the material line or more, and patterns add waste for matching. Worth it in a primary suite; rarely worth it in kids' rooms."
+     "text": "For a Houghton or Bridle Trails home where the carpet is a design feature. Wool or a patterned loop can double the material line, and patterns add waste for matching. Worth it in a primary suite, rarely in kids' rooms."
     }
-   ]
+   ],
+   "note": "Labor, stairs and tear-out are identical in all three: $1,558.50 plus $517.50 on this house. The entire difference between these columns is the carpet and the pad."
   },
   {
    "type": "h2",
@@ -181,7 +182,7 @@
     "title": "These barely moved it",
     "items": [
      "Color and style within the same fiber and grade",
-     "Removal of the old carpet",
+     "Removal of the old carpet and pad, at $0.45 per sq ft",
      "Choosing tack strip stretch-in over other methods",
      "Doing the whole house at once versus room by room (whole house is cheaper per yard)"
     ]
@@ -191,8 +192,8 @@
    "type": "callout",
    "icon": "alert",
    "gold": true,
-   "title": "Why we do not print a whole-house dollar figure: ",
-   "text": "Two Kirkland homes with the same square footage can differ by half depending on fiber, stairs and seams. A number on a blog post would be wrong for your house in one direction or the other. We measure and quote in person, and the price we write down is the price you pay."
+   "title": "Why the labor number is firm and the material number is not: ",
+   "text": "Two Kirkland houses of the same size get the same $0.99 per sq ft, the same $30 a step and the same $0.45 tear-out. What separates them is the carpet and pad, which can differ by half on identical square footage. That is the number we will not guess at over the phone."
   },
   {
    "type": "h2",
@@ -204,7 +205,7 @@
    "items": [
     {
      "icon": "x",
-     "html": "<strong>Ordering from the room dimensions instead of a seam diagram.</strong> Carpet comes 12 ft wide. A 13 ft room needs a seam and an extra strip, and guessing the yardage without a layout leaves you short or paying for a roll you do not need. See <a href=\"/blog-posts/how-to-measure-for-carpet-everett\">how to measure for carpet</a> before you order anything."
+     "html": "<strong>Ordering from room dimensions instead of a seam diagram.</strong> Carpet comes 12 ft wide, so a 13 ft room needs a seam and an extra strip. See <a href=\"/blog-posts/how-to-measure-for-carpet-everett\">how to measure for carpet</a> before you order anything."
     },
     {
      "icon": "x",
@@ -216,7 +217,7 @@
     },
     {
      "icon": "x",
-     "html": "<strong>Recarpeting room by room over two years.</strong> Dye lots change, minimums repeat, and you pay setup twice. One order, one install, one seam diagram."
+     "html": "<strong>Recarpeting room by room over two years.</strong> Dye lots change, the 500 sq ft minimum repeats, and you pay setup twice. One order, one install, one seam diagram."
     },
     {
      "icon": "x",
@@ -235,7 +236,6 @@
     "The stair count, and whether any steps are open on one side or pie-shaped.",
     "Where pets sleep, so the pad upgrade goes in the right room.",
     "Whether the house will be empty or furnished on install day.",
-    "Your move-in or listing date, so the order and install fit before it.",
     "Your budget priority: softest feel, longest life, or lowest total. It changes the fiber we bring."
    ]
   }
@@ -243,15 +243,15 @@
  "faq": [
   {
    "q": "How is whole-house carpet measured and priced?",
-   "a": "Room by room, in square feet converted to square yards, with a seam diagram that accounts for the 12 ft roll width. Waste of 10 to 15 percent is normal. Stairs are counted and priced per step. Pad, labor, removal and furniture moving are separate lines on the written quote."
+   "a": "Room by room, in square feet converted to square yards, with a seam diagram for the 12 ft roll width. Labor is $0.99 per sq ft stretch-in, so 1,150 sq ft is $1,138.50, plus $30 per step, $0.45 per sq ft for tear-out and $0.25 if we move furniture. Carpet and pad are quoted separately."
   },
   {
    "q": "What is the biggest cost in a whole-house carpet job?",
-   "a": "The carpet material itself, usually about half of the total. The fiber and grade you choose move that line more than anything else. Polyester is the least, nylon costs roughly a third more, and wool or patterned carpet can double it or more."
+   "a": "The carpet material, usually about half the total and the one line we cannot publish. Labor on this house is a fixed $1,558.50 including the 14 stairs. The fiber moves the material line more than anything else: polyester is the least, nylon roughly a third more, wool or patterned carpet double or more."
   },
   {
    "q": "Is it cheaper to carpet the whole house at once?",
-   "a": "Yes, per square yard. One roll order, one installation setup and one seam plan cost less than doing rooms over two years. You also avoid dye-lot differences between rooms and the minimum charges that apply to small jobs."
+   "a": "Yes. One roll order, one setup and one seam plan cost less than doing rooms over two years, and the 500 sq ft labor minimum only applies once. A single 300 sq ft bedroom still bills at 500 × $0.99 = $495, so small jobs pay for area they do not use."
   },
   {
    "q": "How much extra carpet is needed for waste?",
@@ -259,11 +259,11 @@
   },
   {
    "q": "Should the stairs get the same carpet as the bedrooms?",
-   "a": "Usually the same color for a continuous look, but the stairs should be at least as durable as anything in the house. If the bedrooms get polyester on a budget, put nylon on the staircase. Stairs are priced per step, and open-sided steps take longer to wrap."
+   "a": "Usually the same color for a continuous look, but the stairs should be at least as durable as anything in the house. If the bedrooms get polyester on a budget, put nylon on the staircase. Stairs are $30 per step, 14 of them here, and open-sided steps take longer to wrap."
   },
   {
    "q": "How long does a whole-house carpet installation take in Kirkland?",
-   "a": "Two days for a typical two-story like the example: upstairs and stairs the first day, main floor the second. An empty house goes faster. Furniture moving and old carpet removal add time, and we confirm the schedule when we hand you the quote."
+   "a": "Two days for a typical two-story like the example: upstairs and stairs the first day, main floor the second. An empty house goes faster. Furniture moving, at $0.25 per sq ft, and old carpet removal both add time, and we confirm the schedule when we hand you the quote."
   }
  ],
  "faq_title": "Whole-house carpet questions from Kirkland homeowners",
@@ -287,5 +287,17 @@
   ]
  ],
  "cta_title": "Get your house measured and itemized",
- "cta_sub": "We bring samples to your Kirkland home, measure every room and stair, draw the seam plan and hand you a firm written quote with every line shown. Free, no obligation."
+ "cta_sub": "We bring samples to your Kirkland home, measure every room and stair, draw the seam plan and hand you a firm written quote with the carpet and pad priced next to the published labor. Free, no obligation.",
+ "offers": [
+  [
+   "Carpet installation, stretch-in",
+   "0.99",
+   "per square foot"
+  ],
+  [
+   "Carpet installation, glue-down",
+   "1.29",
+   "per square foot"
+  ]
+ ]
 }

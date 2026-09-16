@@ -1,7 +1,7 @@
 {
  "slug": "carpet-removal-and-disposal-sammamish",
  "title": "Carpet Removal and Disposal: What It Costs and What's Included in Sammamish",
- "meta": "Carpet removal is priced by area, stairs and install method. What a Sammamish tear-out includes, what drives the cost and when to DIY it. Wills Flooring.",
+ "meta": "Carpet removal and disposal is $0.45 per sq ft at Wills Flooring, haul-away included. What a Sammamish tear-out covers, and when ripping it out yourself pays.",
  "category": "carpet",
  "city": "Sammamish",
  "time": "8 mins",
@@ -11,23 +11,23 @@
   {
    "type": "quick",
    "eyebrow": "Short answer",
-   "lead": "Carpet removal and disposal is a separate line on a carpet quote, priced by the floor area, the number of stairs, and how the old carpet was installed, and when Wills Flooring installs your new carpet the tear-out, pad removal, tack strip check and haul-away are written into the same firm quote.",
-   "detail": "Stretch-in carpet over pad in a Sammamish bedroom comes up in minutes. Glued-down carpet on a slab, pet-soaked pad, or fourteen stairs of stapled runner is a different job. That is why we price it after we see it, at the free in-home estimate, and never by a guess over the phone.",
+   "lead": "Removing old carpet and pad and hauling it away is $0.45 per sq ft at Wills Flooring, its own line next to installation labor of $0.99 per sq ft stretch-in or $1.29 glue-down, stairs $30 per step.",
+   "detail": "That line covers cutting and rolling the old carpet, pulling the pad and every staple, checking the tack strip and taking it all to the transfer station the same day. Scraping glued-down carpet, sealing a pet-soaked subfloor and replacing failed tack strip are extra, quoted once we see them.",
    "tiles": [
     {
-     "icon": "ruler",
-     "label": "Priced by",
-     "value": "Area, stairs, method"
-    },
-    {
      "icon": "truck",
-     "label": "Included",
-     "value": "Carpet, pad, haul-away"
+     "label": "Removal and haul-away",
+     "value": "+$0.45 / sq ft"
     },
     {
-     "icon": "hammer",
-     "label": "Tack strip",
-     "value": "Reused if sound"
+     "icon": "layers",
+     "label": "Includes",
+     "value": "Carpet, pad, staples"
+    },
+    {
+     "icon": "dollar",
+     "label": "New carpet labor",
+     "value": "$0.99 / sq ft"
     },
     {
      "icon": "clock",
@@ -35,15 +35,15 @@
      "value": "Half a day"
     }
    ],
-   "cta": false
+   "cta": "Price your tear-out"
   },
   {
    "type": "p",
-   "html": "A Sammamish carpet job is rarely small. Klahanie, Trossachs and Sahalee homes from the 1990s and 2000s often have carpet through the whole upstairs, down the main staircase and across a bonus room, and after fifteen years of kids and a golden retriever it all needs to go at once. The first question we get is whether removal is included, and the second is whether it is cheaper to rip it out yourself before the crew arrives. This post answers both honestly, explains what drives the price, and lists exactly what a proper tear-out covers so you can compare quotes line by line."
+   "html": "A Sammamish carpet job is rarely small. Klahanie, Trossachs and Sahalee homes from the 1990s and 2000s often carry carpet through the whole upstairs, down the main staircase and across a bonus room, and after fifteen years of kids and a golden retriever it all goes at once. The first question we get is whether removal is included, and the second is whether it is cheaper to rip it out yourself first. Both are answered below, along with what the tear-out line actually buys you."
   },
   {
    "type": "h2",
-   "text": "What drives the removal price"
+   "text": "What the $0.45 covers, and what sits outside it"
   },
   {
    "type": "cards",
@@ -52,22 +52,22 @@
     {
      "icon": "ruler",
      "title": "Square footage and layout",
-     "text": "Big open rooms roll up fast. Closets, hallways with many doorways and rooms with built-ins take longer per square foot because every edge has to be cut and every corner pried."
+     "text": "The rate is flat per square foot, so open rooms and fiddly closets bill the same. That is deliberate: you can work out your own removal line before we arrive."
     },
     {
      "icon": "stairs",
      "title": "Stairs",
-     "text": "Each tread is cut, pried and de-stapled by hand, and stair pad is usually glued or stapled heavily. A fourteen-step Sammamish staircase can take as long as two bedrooms."
+     "text": "Each tread is cut, pried and de-stapled by hand, and stair pad is usually glued or heavily stapled. Stairs are counted per step, not in the floor area, so we list them separately on the quote."
     },
     {
      "icon": "layers",
      "title": "How it was installed",
-     "text": "Stretch-in over pad is quick. Glued-down carpet in a basement or bonus room over slab must be scraped, and the adhesive residue affects what can go down next. Double-stick installations are the slowest."
+     "text": "Stretch-in over pad is what the $0.45 assumes. Glued-down carpet over a slab has to be scraped and the adhesive residue dealt with, which counts as subfloor prep and is quoted after we look. Double-stick is the slowest of all."
     },
     {
      "icon": "paw",
      "title": "Condition and weight",
-     "text": "Wet, pet-soaked or moldy pad is heavier, must be bagged, and often means the subfloor needs cleaning or sealing before new pad goes down. Disposal is charged by weight, so a soaked pad literally costs more to get rid of."
+     "text": "Wet, pet-soaked or moldy pad must be bagged, and the subfloor underneath often needs cleaning or sealing before new pad goes down. The tear-out rate still applies; the sealing is a separate line we price once we see the plywood."
     }
    ]
   },
@@ -86,37 +86,37 @@
     [
      "Cut, roll and remove old carpet",
      "Yes",
-     "Rolled in manageable sections and carried out, not dragged through the house."
+     "Rolled in sections and carried out, not dragged through the house."
     ],
     [
      "Remove old pad",
      "Yes",
-     "Always replaced with new pad; old pad is compressed and often holds odor."
+     "Old pad is compressed and often holds odor, so it always gets replaced."
     ],
     [
      "Pull staples and scrape pad residue",
      "Yes",
-     "Hundreds of staples per room on a wood subfloor. Every one gets pulled."
+     "Hundreds per room on a wood subfloor. Every one gets pulled."
     ],
     [
      "Inspect tack strip",
      "Yes",
-     "Reused if sound and the right height; rusty, loose or broken strip is replaced and priced at the estimate."
+     "Reused if sound and the right height. Rusty, loose or broken strip is replaced, priced at the estimate."
     ],
     [
      "Sweep and inspect subfloor",
      "Yes",
-     "Squeaks screwed down where accessible; soft spots reported before new carpet goes down."
+     "Squeaks screwed down where we can reach them; soft spots reported before new carpet goes down."
     ],
     [
      "Haul-away and disposal",
      "Yes",
-     "Loaded on our truck the same day and taken to a licensed transfer station. Nothing left in the driveway."
+     "Loaded the same day and taken to a licensed transfer station. Nothing left in the driveway."
     ],
     [
      "Furniture moving",
      "Case by case",
-     "Most owners clear rooms; large pieces can be moved by the crew for a fee set at the estimate."
+     "Most owners clear the rooms. We move furniture for $0.25 per sq ft if you would rather not."
     ],
     [
      "Subfloor odor sealing or repair",
@@ -124,16 +124,20 @@
      "Needed after long-term pet damage. Priced once we see the subfloor."
     ]
    ],
-   "note": "All of this appears as its own line on the written quote so you can see what the removal is and what the installation is. No dollar figures are quoted until we have measured and looked."
+   "note": "Everything marked Yes is covered by the $0.45 per sq ft removal line. Only the items marked Case by case or Quoted wait for the estimate, and they are written as separate lines so you can see exactly what you are paying for."
   },
   {
    "type": "h2",
-   "text": "Scope your Sammamish carpet project"
+   "text": "Price your Sammamish tear-out right now"
   },
   {
-   "type": "estimator",
-   "title": "Scope Your Sammamish Carpet Project",
-   "sub": "Tell us the area, the stairs and whether the old carpet needs to go. We measure, check the subfloor, bring samples and hand you a firm written price that includes the tear-out."
+   "type": "calc",
+   "kind": "carpet",
+   "note": "Tick Remove old carpet and pad to add the $0.45 per sq ft tear-out. Carpet and pad are quoted at the estimate."
+  },
+  {
+   "type": "p",
+   "html": "A real Klahanie job: 1,450 sq ft of bedrooms, hall and bonus room upstairs plus a 14-step staircase. Removal is 1,450 × $0.45 = $653. Installation is 1,450 × $0.99 + 14 × $30 = $1,436 + $420 = $1,856. That is $2,509 of labor on one line-item quote, plus the carpet and pad, quoted at the estimate because the product you pick moves the total more than we do."
   },
   {
    "type": "h2",
@@ -146,7 +150,7 @@
     {
      "icon": "box",
      "d": "Before we arrive",
-     "text": "Rooms cleared of small items, closets emptied, pets in another room. Open a window for dust.",
+     "text": "Rooms cleared of small items, closets emptied, pets shut in another room.",
      "note": "Vacuum first if the carpet is very dirty; it keeps the dust down during cutting."
     },
     {
@@ -158,19 +162,19 @@
     {
      "icon": "layers",
      "d": "Pad out",
-     "text": "Pad is pulled, bagged if wet or contaminated, and staples are pulled or driven flush across the whole subfloor.",
+     "text": "Pad is pulled, bagged if wet, and staples are pulled or driven flush across the whole subfloor.",
      "note": "This is the slow, unglamorous part."
     },
     {
      "icon": "search",
      "d": "Subfloor check",
-     "text": "Tack strip inspected, squeaks screwed down, any soft or stained areas photographed and discussed before the new pad goes down.",
+     "text": "Tack strip inspected, squeaks screwed down, soft or stained areas photographed and discussed before new pad goes down.",
      "note": "Pet stains on the subfloor get an enzyme clean or sealer, quoted separately."
     },
     {
      "icon": "truck",
      "d": "Haul-away",
-     "text": "Everything loaded and taken to a licensed transfer station the same day. In most cases new pad and carpet start going in right after.",
+     "text": "Everything goes to a licensed transfer station the same day, and new pad and carpet usually start right after.",
      "note": "Whole upstairs plus stairs: tear-out is usually a morning."
     }
    ]
@@ -187,9 +191,8 @@
     "title": "Do it yourself when",
     "items": [
      "It is stretch-in carpet over pad, not glued down",
-     "You have a truck or trailer to get to the King County transfer station, which charges by weight",
+     "You have a truck or trailer for the King County transfer station, which charges by weight",
      "You are willing to pull every staple, not just the carpet",
-     "Your HOA allows a short-term bin or a loaded trailer in the driveway",
      "You want to see the subfloor early, before the estimate"
     ]
    },
@@ -201,8 +204,7 @@
      "Carpet is glued down or on stairs",
      "The pad is pet-soaked or moldy; that is a mask-and-bag job",
      "There is a lot of it; a whole Sammamish upstairs is a full weekend for two people",
-     "Your HOA is strict about debris and vehicles, which most plateau associations are",
-     "Any saving is small once weight-based disposal and your time are counted"
+     "The saving is the $0.45 line, and the dump fees and your weekend eat most of it"
     ]
    }
   },
@@ -213,19 +215,18 @@
   {
    "type": "ul",
    "items": [
-    "Pulling the carpet but leaving the pad and staples. Installers still have to do the slow part, so the line barely changes.",
+    "Pulling the carpet but leaving the pad and staples. The slow part is still there, so the tear-out line barely moves.",
     "Ripping out tack strip that was fine. Now it has to be replaced and the subfloor has extra nail holes.",
-    "Leaving rolls in the garage for the crew to haul. Disposal weight is the same whether we cut it or you did.",
     "Cutting carpet with a utility knife on a hardwood floor you plan to keep. If there is wood under the carpet, tell us before anyone cuts.",
     "Piling old carpet at the curb. Sammamish curbside pickup does not take it, and most HOAs fine for it.",
-    "Painting or refinishing the room after tear-out but before install. Staple pulling and stretching scuff fresh base paint; sequence the trades."
+    "Painting after tear-out but before install. Staple pulling and stretching scuff fresh base paint."
    ]
   },
   {
    "type": "callout",
    "icon": "leaf",
    "title": "Where old carpet goes: ",
-   "text": "Most old carpet from the Eastside ends up as garbage at a transfer station because recycling programs for used carpet in Washington are limited and depend on fiber type. If your old carpet is a single-fiber nylon, ask us about recycling options at the estimate; sometimes there is one, often there is not. We will tell you the truth rather than promise a green outcome we cannot deliver. For what happens next, see <a href=\"/blog-posts/how-to-prepare-for-carpet-installation-everett\">how to prepare for carpet installation</a>."
+   "text": "Most old Eastside carpet ends up as garbage at a transfer station, because Washington recycling programs for used carpet are limited and depend on fiber type. If yours is a single-fiber nylon, ask at the estimate; sometimes there is an option, often there is not. We would rather say that than promise a green outcome we cannot deliver. For what happens next, see <a href=\"/blog-posts/how-to-prepare-for-carpet-installation-everett\">how to prepare for carpet installation</a>."
   },
   {
    "type": "h2",
@@ -241,15 +242,15 @@
     },
     {
      "icon": "paw",
-     "html": "<strong>Be honest about pet accidents.</strong> Stained pad and subfloor need sealing before new carpet. Knowing in advance avoids a mid-job surprise."
+     "html": "<strong>Be honest about pet accidents.</strong> Stained subfloor needs sealing before new carpet, and knowing in advance keeps it off the surprise list."
     },
     {
      "icon": "clipboard",
-     "html": "<strong>Ask for removal as its own line.</strong> If a quote buries it in the total, you cannot compare it against another quote or against doing it yourself."
+     "html": "<strong>Ask for removal as its own line.</strong> Ours is $0.45 per sq ft. If a quote buries tear-out in the total, you cannot compare it against another bid or against doing it yourself."
     },
     {
      "icon": "home",
-     "html": "<strong>Check your HOA rules on debris.</strong> Klahanie, Trossachs and Sahalee all have rules about bins and trailers. Our same-day haul-away avoids the issue."
+     "html": "<strong>Check your HOA rules on debris.</strong> Klahanie, Trossachs and Sahalee all restrict bins and trailers. Same-day haul-away avoids the issue."
     },
     {
      "icon": "calendar",
@@ -261,23 +262,23 @@
  "faq": [
   {
    "q": "Is carpet removal included in the price of new carpet?",
-   "a": "With Wills Flooring it is written into the same firm quote as its own line, so you see the removal separately from the installation. Some quotes exclude it or leave it vague, so always ask whether tear-out, pad removal and haul-away are covered before you compare totals."
+   "a": "It is its own published line: $0.45 per sq ft for carpet, pad, staples and haul-away, sitting next to the $0.99 per sq ft installation labor on the same firm quote. Other bids sometimes exclude tear-out or leave it vague, so ask before you compare totals."
   },
   {
    "q": "What drives the cost of carpet removal?",
-   "a": "Floor area, the number of stairs, whether the carpet is stretched over pad or glued down, and the condition of the pad. Wet or pet-soaked pad is heavier and needs bagging, and disposal is charged by weight. Removal is priced at the free in-home estimate once we have seen it."
+   "a": "Floor area sets the published part: $0.45 per sq ft, haul-away included. What sits outside it is glued-down carpet that needs scraping, a pet-damaged subfloor that needs sealing, and tack strip that has to be replaced. Those are quoted as separate lines once we have seen the floor."
   },
   {
    "q": "How long does it take to remove carpet from a whole upstairs?",
-   "a": "For a typical Sammamish upstairs with three or four bedrooms, a hall and a staircase, tear-out takes a morning for our crew, including staple pulling and haul-away. New pad and carpet usually start the same day."
+   "a": "For a typical Sammamish upstairs with three or four bedrooms, a hall and a staircase, tear-out takes our crew a morning, staple pulling and haul-away included. New pad and carpet usually start the same afternoon."
   },
   {
    "q": "Can I dispose of old carpet at the King County transfer station?",
-   "a": "Yes, as garbage charged by weight. Cut it into rolls you can lift and tape them. Sammamish curbside collection does not take carpet, and leaving it at the curb usually draws an HOA notice."
+   "a": "Yes, as garbage charged by weight, so cut it into rolls you can lift and tape them shut. Sammamish curbside collection does not take carpet, and leaving it at the curb usually draws an HOA notice within a day or two on the plateau."
   },
   {
    "q": "Should I remove the carpet myself to save money?",
-   "a": "Only if it is stretch-in carpet, you pull every staple and the pad, and you have a way to haul it. The saving is usually modest once disposal weight and a weekend of work are counted, and glued or stair carpet is best left to the crew."
+   "a": "You save the $0.45 per sq ft line, about $653 on a 1,450 sq ft upstairs. To earn it you pull the pad and every staple and haul it to the transfer station, where you pay by weight. Worth it for stretch-in carpet; not for glued or stair carpet."
   },
   {
    "q": "Do you reuse the old tack strip?",
@@ -301,5 +302,17 @@
   ]
  ],
  "cta_title": "Get removal and installation on one written quote",
- "cta_sub": "We measure, check what is under the old carpet, bring samples and hand you a firm written price with the tear-out itemized, on the spot. Free, no obligation, anywhere in Sammamish."
+ "cta_sub": "We measure, check what is under the old carpet, bring samples and hand you a firm written price with the tear-out itemized, on the spot. Free, no obligation, anywhere in Sammamish.",
+ "offers": [
+  [
+   "Carpet installation, stretch-in",
+   "0.99",
+   "per square foot"
+  ],
+  [
+   "Carpet installation, glue-down",
+   "1.29",
+   "per square foot"
+  ]
+ ]
 }

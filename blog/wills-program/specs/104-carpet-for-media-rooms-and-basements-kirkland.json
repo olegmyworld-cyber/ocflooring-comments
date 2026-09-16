@@ -7,33 +7,34 @@
  "time": "8 mins",
  "date": "2026-12-29T15:00:00.000Z",
  "keywords": "best carpet for media room, carpet for home theater soundproofing, basement carpet acoustics, does carpet reduce noise, carpet installation Kirkland WA, carpet pad for sound",
+ "offers": [["Carpet installation, stretch-in","0.99","per square foot"],["Carpet installation, glue-down","1.29","per square foot"]],
  "blocks": [
   {
    "type": "quick",
    "eyebrow": "Short answer",
-   "lead": "Carpet is the most effective flooring you can put in a Kirkland media room or finished basement for sound, because it absorbs the echo inside the room and softens footfall and impact noise traveling to the rooms above and beside it.",
-   "detail": "What carpet does not do is stop bass from a subwoofer passing through walls and framing. Treat it as the floor half of an acoustic plan: dense cut pile over a thick, dense pad handles the floor, and the walls and ceiling handle the rest.",
+   "lead": "Carpet is the most effective flooring for sound in a Kirkland media room or finished basement, because it absorbs echo inside the room and softens footfall reaching the rooms above and beside it.",
+   "detail": "What it does not do is stop subwoofer bass passing through walls and framing. Treat it as the floor half of an acoustic plan: dense cut pile over a dense pad handles the floor, and labor for that floor is published, $0.99 per sq ft stretch-in or $1.29 glued to a slab.",
    "tiles": [
     {"icon": "volume", "label": "Room echo", "value": "Cut biggest"},
     {"icon": "stairs", "label": "Footfall upstairs", "value": "Softened"},
     {"icon": "layers", "label": "Pad", "value": "Thicker, denser"},
-    {"icon": "moisture", "label": "Basement slab", "value": "Test first"}
+    {"icon": "dollar", "label": "Install labor", "value": "$0.99 / sq ft"}
    ],
-   "cta": false
+   "cta": "Try the calculator"
   },
   {
    "type": "p",
-   "html": "Kirkland is full of bonus rooms over garages, daylight basements on Finn Hill and Juanita slopes, and 1990s Rose Hill two-stories where the family room sits directly under the bedrooms. Someone puts a projector and a big speaker system in one of those rooms and quickly learns two things: the room sounds like a gym, and the kids upstairs hear every explosion. Flooring is the cheapest place to start fixing both, and carpet is the only floor that addresses them at once. Here is what it actually does, what it does not, and how to specify it."
+   "html": "Kirkland is full of bonus rooms over garages, daylight basements on Finn Hill and Juanita slopes, and 1990s Rose Hill two-stories where the family room sits under the bedrooms. Someone puts a projector and a big speaker system in one of those rooms and learns two things fast: the room sounds like a gym, and the kids upstairs hear every explosion. Carpet is the only floor that addresses both at once. Here is what it does, what it does not, and how to specify it."
   },
   {"type": "h2", "text": "What carpet does, and does not do, for sound"},
   {
    "type": "cards",
    "cols": 2,
    "items": [
-    {"icon": "volume", "tag": "Biggest win", "title": "Absorbs reflections inside the room", "text": "Hard floors bounce midrange and treble back at you, which is the slap and hollowness you hear in an empty basement. Carpet and pad soak up much of that energy, so dialogue is clearer and you can run the system quieter. Thicker pile and pad absorb more, especially at speech frequencies.", "gold": true},
-    {"icon": "stairs", "tag": "Second win", "title": "Cuts impact noise to rooms below and beside", "text": "Footsteps, dropped remotes, chairs scraping and kids jumping are impact noise. Carpet over a good pad reduces it dramatically compared with vinyl plank or hardwood, which is why the bedroom above a carpeted bonus room is a calmer place to sleep."},
-    {"icon": "x", "tag": "Honest limit", "title": "Does little for airborne bass", "text": "Low frequencies from a subwoofer travel through the framing, drywall and ductwork. No carpet stops that. If bass through the ceiling is the complaint, the fixes are decoupling the sub from the floor, isolation clips or a second drywall layer, not a thicker rug."},
-    {"icon": "home", "title": "Evens out the room's tone", "text": "A carpeted floor plus soft furniture and curtains is often enough treatment for a casual media room. A dedicated theater still benefits from wall panels, but starting with the floor means you may never need them."}
+    {"icon": "volume", "tag": "Biggest win", "title": "Absorbs reflections inside the room", "text": "Hard floors bounce midrange and treble back at you, which is the slap you hear in an empty basement. Carpet and pad soak up much of that energy, so dialogue is clearer and you can run the system quieter. Thicker pile and pad absorb more.", "gold": true},
+    {"icon": "stairs", "tag": "Second win", "title": "Cuts impact noise to rooms below and beside", "text": "Footsteps, dropped remotes and kids jumping are impact noise. Carpet over a good pad cuts it dramatically compared with vinyl plank or hardwood, which is why the bedroom above a carpeted bonus room is a calmer place to sleep."},
+    {"icon": "x", "tag": "Honest limit", "title": "Does little for airborne bass", "text": "Low frequencies travel through framing, drywall and ductwork. No carpet stops that. If bass through the ceiling is the complaint, the fixes are decoupling the sub, isolation clips or a second drywall layer."},
+    {"icon": "home", "title": "Evens out the room's tone", "text": "A carpeted floor plus soft furniture and curtains is often enough for a casual media room. A dedicated theater still benefits from wall panels, but starting with the floor means you may never need them."}
    ]
   },
   {"type": "h2", "text": "Pile and pad: the acoustic recipe"},
@@ -41,20 +42,24 @@
    "type": "table",
    "head": ["Choice", "Best for sound", "Why"],
    "rows": [
-    ["Pile style", "Dense cut pile: plush, textured saxony or a tight frieze", "More fiber mass per square foot absorbs more energy. Low, tight loops and Berbers absorb noticeably less."],
-    ["Pile height", "Medium to tall, about 1/2 in to 3/4 in", "Taller pile absorbs more midrange. Beyond that, vacuuming and furniture legs become the problem."],
-    ["Fiber", "Nylon or triexta", "Both keep their density under a heavy sectional and recliners. Polyester is fine for a lightly used room but mats sooner under a couch."],
+    ["Pile style", "Dense cut pile: plush, textured saxony or a tight frieze", "More fiber mass absorbs more energy. Tight loops and Berbers absorb noticeably less."],
+    ["Pile height", "Medium to tall, about 1/2 in to 3/4 in", "Taller pile absorbs more midrange. Beyond that, vacuuming gets harder."],
+    ["Fiber", "Nylon or triexta", "Both keep their density under a heavy sectional. Polyester mats sooner under a couch."],
     ["Pad type", "Dense rebond or a felt or fiber pad", "Density does more than thickness for impact noise. A firm, heavy pad under a plush carpet outperforms a soft, thick one."],
-    ["Pad thickness", "7/16 in for most rooms", "Thicker pads feel luxurious but can void carpet warranties and loosen seams. Stay within the carpet maker's spec."],
+    ["Pad thickness", "7/16 in for most rooms", "Thicker pads can void warranties and loosen seams. Stay within the carpet maker's spec."],
     ["Basement slab", "Pad with a moisture-barrier face", "Below grade, the pad must also keep slab vapor out of the carpet backing. Test the slab before choosing."]
    ],
-   "note": "We bring pad samples in each density to the estimate so you can feel the difference underfoot before you decide."
+   "note": "We bring pad samples in each density so you can feel the difference before you decide."
   },
-  {"type": "h2", "text": "Scope your Kirkland media room or basement carpet"},
+  {"type": "h2", "text": "Price your Kirkland media room carpet right now"},
   {
-   "type": "estimator",
-   "title": "Scope Your Media Room Carpet",
-   "sub": "Tell us the area and stairs. We bring dense cut-pile samples, pad options and a slab moisture meter to your Kirkland home."
+   "type": "p",
+   "html": "The labor side is published and simple. Stretch-in carpet over pad, which is how most bonus rooms and basements are done, is <strong>$0.99 per sq ft</strong>. Carpet bonded straight to a slab, the glue-down method some Kirkland basements and commercial rooms call for, is <strong>$1.29 per sq ft</strong>. Stairs are <strong>$30 per step</strong>, tear-out and haul-away is $0.45 per sq ft, and moving the sectional and racks is $0.25 per sq ft, with a 500 sq ft minimum. A 600 sq ft Rose Hill bonus room plus the 14 stairs down to it is 600 × $0.99 + 14 × $30 = $1,014 in labor. Glued to a Finn Hill slab instead, that room is 600 × $1.29 = $774. The dense cut pile and heavy pad that do the acoustic work are quoted separately at the free in-home estimate."
+  },
+  {
+   "type": "calc",
+   "kind": "carpet",
+   "note": "Pick glue-down if the carpet bonds directly to a basement slab. Acoustic pad choice shows up in the material quote, not in the labor above."
   },
   {"type": "h2", "text": "Basement vs bonus room: two different jobs"},
   {
@@ -64,10 +69,10 @@
     "tag": "Basement on a slab",
     "title": "Plan for",
     "items": [
-     "A 72-hour plastic tape test on the slab before choosing anything",
-     "Synthetic fiber only; skip wool and natural backings below grade",
+     "A 72-hour plastic tape test on the slab first",
+     "Synthetic fiber only, no wool or natural backings below grade",
      "A moisture-barrier pad or a dense synthetic pad",
-     "A dehumidifier in the room, especially in Kirkland's wet spring",
+     "A dehumidifier in the room through Kirkland's wet spring",
      "Seams placed away from the coldest exterior wall"
     ]
    },
@@ -76,11 +81,11 @@
     "tag": "Bonus room over a garage or living space",
     "title": "Plan for",
     "items": [
-     "The densest pad the carpet warranty allows, for the floor below",
+     "The densest pad the warranty allows, for the floor below",
      "Screwing down any squeaky subfloor before the carpet goes in",
-     "Sealing gaps at the walls and around ducts, where sound leaks",
-     "Extra pad density under the speaker and seating zone",
-     "Carpet on the stairs down, since that is the loudest surface in the house"
+     "Sealing gaps at walls and ducts, where sound leaks",
+     "Extra pad density under the seating zone",
+     "Carpet on the stairs down, the loudest surface in the house"
     ]
    }
   },
@@ -89,17 +94,17 @@
    "type": "steps",
    "wide": true,
    "items": [
-    {"icon": "search", "d": "Estimate visit", "text": "We measure, look at where the seating, screen wall and speakers will sit, check the slab or subfloor, and bring cut-pile samples in the darker tones media rooms usually want.", "note": "Free, about an hour. Bring your equipment plan if you have one."},
-    {"icon": "hammer", "d": "Prep", "text": "Old carpet out, subfloor screwed tight, slab spots ground flat, tack strip set. In a basement we confirm the moisture reading before the pad is unrolled.", "note": "Squeaks are far easier to fix now than after the carpet is stretched."},
+    {"icon": "search", "d": "Estimate visit", "text": "We measure, look at where the seating, screen and speakers will sit, check the slab or subfloor, and bring cut-pile samples in the darker tones media rooms want.", "note": "Free, about an hour. Bring your equipment plan."},
+    {"icon": "hammer", "d": "Prep", "text": "Old carpet out, subfloor screwed tight, slab spots ground flat, tack strip set. In a basement we confirm the moisture reading before the pad unrolls.", "note": "Squeaks are far easier to fix now than after stretching."},
     {"icon": "layers", "d": "Pad and seams", "text": "Pad seams are taped and run perpendicular to the carpet seams. Carpet seams go under the seating, never across the main walkway to the screen.", "note": "Plush carpets hide seams well; frieze hides them best."},
-    {"icon": "done", "d": "Stretch and finish", "text": "Power-stretched, trimmed and tucked. We finish transitions to the hallway or stairs so the doorway does not become a trip and a rattle.", "note": "Most media rooms are one day. Whole basements are one to two."}
+    {"icon": "done", "d": "Stretch and finish", "text": "Power-stretched, trimmed and tucked, with a clean transition at the doorway.", "note": "Most media rooms are one day. Whole basements are one to two."}
    ]
   },
   {
    "type": "callout",
    "icon": "alert",
    "title": "Home gyms are a different animal: ",
-   "text": "Plenty of Kirkland basements double as a gym. Dropped dumbbells and treadmill vibration will crush any plush carpet and still thump upstairs. Put rubber gym tile in that zone and carpet the theater side, and you get the right floor under each activity."
+   "text": "Plenty of Kirkland basements double as a gym. Dropped dumbbells and treadmill vibration crush plush carpet and still thump upstairs. Put rubber gym tile in that zone and carpet the theater side."
   },
   {"type": "h2", "text": "Mistakes that waste the acoustic benefit"},
   {
@@ -107,9 +112,9 @@
    "icons": true,
    "items": [
     {"icon": "layers", "html": "<strong>Choosing a low, tight loop because it looks modern.</strong> It sheds and cleans nicely, but for sound it behaves closer to a hard floor. Save loops for hallways."},
-    {"icon": "volume", "html": "<strong>Expecting carpet to fix bass complaints.</strong> Isolate the subwoofer on a platform and treat the ceiling if that is the problem. Carpet handles echo and footsteps, not thump through joists."},
-    {"icon": "moisture", "html": "<strong>Skipping the slab test in a basement.</strong> A plush carpet over a soft pad on a damp Finn Hill slab is a mildew farm. If the slab fails, we say so, and <a href=\"/blog-posts/can-you-put-carpet-in-a-basement-in-snohomish\">basement carpet rules</a> apply."},
-    {"icon": "sofa", "html": "<strong>Putting the seam down the middle of the room.</strong> Under a sectional it disappears; under the projector light it never does."},
+    {"icon": "volume", "html": "<strong>Expecting carpet to fix bass.</strong> Isolate the subwoofer on a platform and treat the ceiling. Carpet handles echo and footsteps, not thump through joists."},
+    {"icon": "moisture", "html": "<strong>Skipping the slab test.</strong> Plush carpet on a damp Finn Hill slab is a mildew farm. If the slab fails we say so, and <a href=\"/blog-posts/can-you-put-carpet-in-a-basement-in-snohomish\">basement carpet rules</a> apply."},
+    {"icon": "sofa", "html": "<strong>Putting the seam down the middle.</strong> Under a sectional it disappears; under projector light it never does."},
     {"icon": "shield", "html": "<strong>Buying the thickest pad on the shelf.</strong> Over the carpet maker's limit, seams peak and the warranty is gone. Denser beats thicker every time."}
    ]
   },
@@ -118,21 +123,21 @@
    "type": "list",
    "icons": true,
    "items": [
-    {"icon": "clipboard", "html": "<strong>Know where the seats and speakers go.</strong> It sets seam placement and where we add pad density."},
+    {"icon": "clipboard", "html": "<strong>Know where the seats and speakers go.</strong> It sets seam placement and pad density."},
     {"icon": "moisture", "html": "<strong>Run the slab tape test yourself</strong> if the room is below grade, a week before we visit."},
-    {"icon": "hammer", "html": "<strong>Walk the room upstairs while someone walks below</strong> and note the squeaks. We fix them before the pad goes down."},
+    {"icon": "hammer", "html": "<strong>Note the squeaks</strong> before we arrive. We fix them before the pad goes down."},
     {"icon": "palette", "html": "<strong>Pick a mid-dark, low-sheen color.</strong> Media rooms want minimal screen reflection; dark carpet also hides popcorn."},
-    {"icon": "phone", "html": "<strong>Ask for pile weight, density and pad density in writing.</strong> Those three numbers predict both the sound and the wear. Our <a href=\"/services/carpet-installation\">carpet installation</a> page shows what a Wills quote lists."}
+    {"icon": "phone", "html": "<strong>Ask for pile weight, density and pad density in writing.</strong> Those three predict both the sound and the wear. Our <a href=\"/services/carpet-installation\">carpet installation</a> page shows what a Wills quote lists."}
    ]
   }
  ],
  "faq": [
-  {"q": "Does carpet really reduce noise in a media room?", "a": "Yes, in two ways. It absorbs sound reflecting inside the room, which makes dialogue clearer and reduces the hollow echo of a hard-floored basement, and it cuts impact noise like footsteps traveling to rooms below and beside it. It does not block low bass passing through framing and drywall."},
+  {"q": "Does carpet really reduce noise in a media room?", "a": "Yes, in two ways. It absorbs sound reflecting inside the room, which makes dialogue clearer and kills the hollow echo of a hard-floored basement, and it cuts impact noise like footsteps reaching rooms below. It does not block low bass passing through framing and drywall."},
   {"q": "What type of carpet is best for soundproofing?", "a": "A dense cut pile such as plush, textured saxony or a tight frieze in nylon or triexta, at medium to tall pile height, over a dense rebond or felt pad. Fiber mass absorbs sound, so the heavier the carpet and pad per square foot, the more it does."},
   {"q": "Is thicker carpet pad better for sound?", "a": "Denser is better than thicker. A firm, heavy pad reduces impact noise more than a soft, thick one and keeps seams flat. Stay within the pad thickness the carpet manufacturer allows, usually 7/16 in or less, or you risk voiding the warranty."},
-  {"q": "Can I put carpet in a Kirkland basement for a home theater?", "a": "Yes, if the slab passes a moisture test. Below grade you want synthetic fiber, a moisture-barrier or dense synthetic pad, and a dehumidifier during Kirkland's wet months. If the slab has ever flooded or shows a tide line, fix drainage first or choose a different floor."},
+  {"q": "Can I put carpet in a Kirkland basement for a home theater?", "a": "Yes, if the slab passes a moisture test. Below grade you want synthetic fiber, a moisture-barrier pad and a dehumidifier through Kirkland's wet months. Labor is $0.99 per sq ft stretched over pad or $1.29 glued to the slab. If the slab has flooded, fix drainage first."},
   {"q": "Will carpet stop the subwoofer from bothering people upstairs?", "a": "No. Bass travels through the structure, not the floor surface. Set the subwoofer on an isolation platform, keep it off shared walls and consider ceiling treatment in the room above. Carpet will still make the room itself sound far better."},
-  {"q": "Carpet or vinyl plank with a rug for a media room?", "a": "For sound, wall-to-wall carpet wins because the pad covers the entire floor and there are no hard surfaces reflecting around the rug. Vinyl plank with a rug is the better choice only when the basement has a moisture problem carpet cannot live with."}
+  {"q": "Carpet or vinyl plank with a rug for a media room?", "a": "For sound, wall-to-wall carpet wins: the pad covers the whole floor and nothing hard reflects around the rug. It is also the cheaper install, $0.99 per sq ft against $2.50 for vinyl plank. Choose plank and a rug only when the basement has a moisture problem carpet cannot live with."}
  ],
  "faq_title": "Media room and basement carpet questions from Kirkland",
  "faq_sub": "Asked about Finn Hill daylight basements, Rose Hill bonus rooms and everything with a projector.",
@@ -142,5 +147,5 @@
   ["best-flooring-for-a-basement-remodel-or-adu-in-snohomish", "best flooring for a basement remodel"]
  ],
  "cta_title": "Make your Kirkland media room sound right",
- "cta_sub": "We bring dense cut-pile samples, pad options and a moisture meter to your house, plan the seams around your seating and hand you a firm written quote. Free, no obligation."
+ "cta_sub": "We bring dense cut-pile samples, pad options and a moisture meter, plan the seams around your seating and hand you a firm written quote. Free, no obligation."
 }

@@ -12,7 +12,7 @@
    "type": "quick",
    "eyebrow": "Short answer",
    "lead": "Yes, for the stains it was designed for: coffee, wine and juice on a solution-dyed fiber blot out almost completely. It does much less against mud, grease, soot and pet urine, which are soil and odor problems, not dye problems.",
-   "detail": "Around Snohomish, with dogs, acreage, wood stoves and well water, that gap matters. Here is how the technology works, where it fails, and how to pick a carpet that survives your actual house.",
+   "detail": "Around Snohomish, with dogs, acreage, wood stoves and well water, that gap matters. Our labor is flat either way at $0.99 per sq ft stretch-in, so the fiber choice is purely a material choice. Here is how the technology works, where it fails, and what survives your actual house.",
    "tiles": [
     {
      "icon": "droplet",
@@ -35,11 +35,11 @@
      "value": "Fade in years"
     }
    ],
-   "cta": false
+   "cta": "Price your rooms"
   },
   {
    "type": "p",
-   "html": "Every carpet sample we bring to a Snohomish house has a stain warranty printed on the back, and every homeowner asks the same thing: is that real, or marketing? A common Reddit thread puts it bluntly, \"my stain-resistant carpet is covered in stains.\" Usually the carpet did exactly what it promised and the stains are something else. \"Stain\" has a narrow meaning to a carpet mill and a wide one to a family with two Labs and a driveway that turns to mud in November. Our <a href=\"/services/carpet-installation\">carpet installation page</a> explains how the free in-home estimate works; this post explains the fiber."
+   "html": "Every carpet sample we bring to a Snohomish house has a stain warranty printed on the back, and every homeowner asks the same thing: is that real, or marketing? A common Reddit thread puts it bluntly, \"my stain-resistant carpet is covered in stains.\" Usually the carpet did what it promised and the marks are something else. \"Stain\" means one narrow thing to a carpet mill and a much wider thing to a family with two Labs and a driveway that turns to mud in November. Our <a href=\"/services/carpet-installation\">carpet installation page</a> covers the process; this post covers the fiber."
   },
   {
    "type": "h2",
@@ -52,22 +52,22 @@
     {
      "icon": "palette",
      "title": "A stain is a dye that finds a dye site",
-     "text": "Red wine and grape juice stain carpet because they contain acid dyes that bond to the same open sites the mill used to color the fiber. Stain resistance means blocking those sites, or not having them at all."
+     "text": "Red wine and grape juice stain carpet because their acid dyes bond to the same open sites the mill used to color the fiber. Stain resistance means blocking those sites, or not having any."
     },
     {
      "icon": "lock",
      "title": "Solution-dyed fiber has no open sites",
-     "text": "Polyester, triexta and solution-dyed nylon get their color mixed into the plastic before the fiber is spun. There is nowhere for a dye to grab. That is why a spill of red wine blots out of these fibers almost completely."
+     "text": "Polyester, triexta and solution-dyed nylon get their color mixed into the plastic before the fiber is spun, so there is nowhere for a dye to grab. That is why red wine blots out of them almost completely."
     },
     {
      "icon": "shield",
      "title": "Treated nylon blocks sites with a coating",
-     "text": "Standard nylon is dyed after spinning and has open sites, so mills add a dye blocker and a repellent. It works, but hot water, harsh cleaners and traffic wear it away over three to seven years."
+     "text": "Standard nylon is dyed after spinning and has open sites, so mills add a dye blocker and a repellent. It works, but hot water, harsh cleaners and traffic wear it off in three to seven years."
     },
     {
      "icon": "mop",
      "title": "Soil is not a stain",
-     "text": "Mud, grease, wood-stove soot and body oil do not dye the fiber; they coat it. Stain resistance does nothing here. Soil resistance depends on how easily the fiber releases dirt to a vacuum and an extractor."
+     "text": "Mud, grease, wood-stove soot and body oil do not dye the fiber, they coat it. Stain resistance does nothing here. What matters is how easily the fiber releases dirt to a vacuum and an extractor."
     }
    ]
   },
@@ -92,15 +92,15 @@
     ],
     [
      "Driveway and field mud",
-     "Dries and vacuums, but fine clay sticks to polyester",
+     "Vacuums up, but fine clay clings to polyester",
      "Releases well; nylon sheds soil best",
      "Entry mats, let it dry, vacuum, then extract"
     ],
     [
      "Dog urine",
-     "Little dye stain, but urine soaks the pad and the odor stays",
+     "No dye stain, but urine soaks the pad and the odor stays",
      "Same, plus the treatment is stripped by the ammonia",
-     "Moisture-barrier pad and enzyme cleaner within the hour"
+     "Barrier pad, enzyme cleaner within the hour"
     ],
     [
      "Wood-stove soot and ash",
@@ -113,24 +113,22 @@
      "Rust-orange tide marks after a wet cleaning",
      "Same; the iron is in the water, not the fiber",
      "Filtered or softened water for any cleaning"
-    ],
-    [
-     "Cooking grease and body oil",
-     "Weakest point of polyester; darkens traffic lanes",
-     "Better, but still needs extraction",
-     "Regular hot-water extraction, not spot spray"
     ]
    ],
-   "note": "Mud, soot and iron water are the three Snohomish problems the stain warranty does not touch. Pick the fiber for those."
+   "note": "Mud, soot and iron water are the three Snohomish problems no stain warranty touches. Pick the fiber for those."
   },
   {
    "type": "h2",
-   "text": "Scope your Snohomish carpet project"
+   "text": "Price your Snohomish carpet right now"
   },
   {
-   "type": "estimator",
-   "title": "Scope Your Snohomish Carpet Project",
-   "sub": "Tell us the rooms and the traffic. We bring the right fiber samples, a moisture-barrier pad option, and a firm written price."
+   "type": "calc",
+   "kind": "carpet",
+   "note": "Labor only. The fiber and pad you choose are quoted at the free in-home estimate."
+  },
+  {
+   "type": "p",
+   "html": "Fiber does not change what we charge to install it. Stretch-in over pad is $0.99 per sq ft, glue-down over a basement slab is $1.29, stairs are $30 per step, tear-out and haul-away are $0.45 per sq ft, and 500 sq ft is the minimum billed. A 1,200 sq ft Fobes Hill upstairs is 1,200 × $0.99 = $1,188 in labor plus 1,200 × $0.45 = $540 of tear-out. The fiber and pad ride on top of that, quoted at the estimate, and that is where solution-dyed nylon separates from bargain polyester."
   },
   {
    "type": "h2",
@@ -143,31 +141,31 @@
     {
      "icon": "search",
      "d": "Ask for a real sample",
-     "text": "We leave samples at the house for a few days. Use them. A swatch you can pour coffee on tells you more than any label.",
+     "text": "We leave samples at the house for a few days. Use them: a swatch you can pour coffee on beats any label.",
      "note": "Every fiber we carry has a swatch you can ruin"
     },
     {
      "icon": "droplet",
      "d": "Pour, wait, blot",
-     "text": "Put a spoon of red wine on the sample and leave it overnight. Blot with cold water in the morning. Solution-dyed fiber comes clean; treated nylon should too if the treatment is intact.",
+     "text": "Put a spoon of red wine on the sample overnight, then blot with cold water. Solution-dyed fiber comes clean, and treated nylon should too if the treatment is intact.",
      "note": "If it stains overnight, it will stain in your living room"
     },
     {
      "icon": "mop",
      "d": "Rub in a little mud and oil",
-     "text": "Let real driveway mud dry on it, then vacuum. Rub a fingerprint of cooking oil into another corner. This is the test polyester tends to lose and nylon tends to win.",
+     "text": "Let driveway mud dry on it, then vacuum. Rub a fingerprint of cooking oil into another corner. Polyester tends to lose this test; nylon tends to win it.",
      "note": "Watch for graying, not spotting"
     },
     {
      "icon": "water",
      "d": "Wet it with your tap water",
-     "text": "On a well with iron, wet the sample with your own water and let it dry. If a tan ring appears, plan to clean with filtered water no matter which carpet you buy.",
+     "text": "On a well with iron, wet the sample with your own water and let it dry. A tan ring means cleaning with filtered water, whichever carpet you buy.",
      "note": "Clearview and Fobes Hill wells are the usual suspects"
     },
     {
      "icon": "dog",
      "d": "Think about the pad",
-     "text": "If dogs live inside, the pad matters as much as the fiber. A moisture-barrier pad keeps urine on top where an enzyme cleaner can reach it.",
+     "text": "With dogs inside, the pad matters as much as the fiber. A moisture-barrier pad keeps urine on top, where an enzyme cleaner can reach it.",
      "note": "We bring both pad types to the estimate"
     }
    ]
@@ -185,8 +183,7 @@
     "items": [
      "The main threats are drinks, food and kids",
      "Shoes come off at the door and dogs stay off the carpet",
-     "Rooms are bedrooms and a bonus room, not the mudroom path",
-     "You will vacuum weekly and extract yearly"
+     "Rooms are bedrooms and a bonus room, not the mudroom path"
     ]
    },
    "b": {
@@ -196,7 +193,6 @@
     "items": [
      "Dogs track in from a wet yard or pasture daily",
      "A wood stove or pellet stove runs all winter",
-     "The carpet runs from the garage door through the family room",
      "Anyone in the house has accidents, human or animal"
     ]
    }
@@ -205,7 +201,7 @@
    "type": "callout",
    "icon": "alert",
    "title": "Read the exclusions before you rely on the warranty: ",
-   "text": "Most carpet stain warranties exclude pet urine, vomit, bleach, hot beverages, grease, mustard and anything from a well with iron. They also require professional hot-water extraction on a schedule, with receipts. In Snohomish that list covers half of what lands on a floor, so treat the warranty as a bonus, not a plan."
+   "text": "Most carpet stain warranties exclude pet urine, vomit, bleach, hot beverages, grease, mustard and anything from a well with iron, and they require professional extraction on a schedule, with receipts. In Snohomish that list covers half of what lands on a floor, so treat the warranty as a bonus, not a plan."
   },
   {
    "type": "h2",
@@ -217,23 +213,23 @@
    "items": [
     {
      "icon": "flame",
-     "html": "<strong>Cleaning with hot water and a store spot spray.</strong> Heat and high-pH cleaners strip the treatment from nylon and can set protein stains. Cold water and blotting first, always."
+     "html": "<strong>Hot water and a store spot spray.</strong> Heat and high-pH cleaners strip the treatment from nylon and can set protein stains. Cold water and blotting first, always."
     },
     {
      "icon": "mop",
-     "html": "<strong>Scrubbing.</strong> Rubbing frays the fiber tips so they scatter light differently. The \"stain\" that stays is actually a damaged patch of pile."
+     "html": "<strong>Scrubbing.</strong> Rubbing frays the fiber tips so they scatter light. The \"stain\" that stays is a damaged patch of pile."
     },
     {
      "icon": "layers",
-     "html": "<strong>Skipping the barrier pad because the fiber is stain-proof.</strong> The fiber shrugs off the urine; the pad and subfloor under it do not. That is where the odor lives."
+     "html": "<strong>Skipping the barrier pad because the fiber is stain-proof.</strong> The fiber shrugs off urine; the pad under it does not, and that is where the odor lives."
     },
     {
      "icon": "wind",
-     "html": "<strong>Ignoring soil.</strong> Traffic lanes from mud and soot gray the carpet long before any spill stains it. Doormats and a yearly extraction do more than any fiber chemistry."
+     "html": "<strong>Ignoring soil.</strong> Mud and soot gray the traffic lanes long before a spill stains anything. Doormats and a yearly extraction beat fiber chemistry."
     },
     {
      "icon": "tag",
-     "html": "<strong>Choosing the lightest color because the label says stain-resistant.</strong> Resistance is not invisibility. A mid-tone fleck hides what does get through, as our guide to the <a href=\"/blog-posts/what-is-the-best-carpet-for-pets-everett\">best carpet for pets</a> covers in detail."
+     "html": "<strong>Choosing the lightest color because the label says stain-resistant.</strong> Resistance is not invisibility. A mid-tone fleck hides what gets through, as our guide to the <a href=\"/blog-posts/what-is-the-best-carpet-for-pets-everett\">best carpet for pets</a> explains."
     }
    ]
   },
@@ -247,7 +243,7 @@
    "items": [
     {
      "icon": "search",
-     "html": "<strong>Is this fiber solution-dyed or treated?</strong> Solution-dyed keeps its resistance for life; treated fades and can sometimes be reapplied."
+     "html": "<strong>Solution-dyed or treated?</strong> Solution-dyed keeps its resistance for life; treated fades and can sometimes be reapplied."
     },
     {
      "icon": "paw",
@@ -255,15 +251,15 @@
     },
     {
      "icon": "layers",
-     "html": "<strong>What pad is quoted?</strong> Ask for the moisture-barrier option as a separate line so you can see the difference."
+     "html": "<strong>What pad is quoted?</strong> Ask for the moisture-barrier option as its own line, since the labor rate is the same on either one."
     },
     {
      "icon": "clipboard",
-     "html": "<strong>What cleaning schedule keeps the warranty valid?</strong> Usually professional extraction every 12 to 24 months with receipts kept."
+     "html": "<strong>What keeps the warranty valid?</strong> Usually professional extraction every 12 to 24 months, receipts kept."
     },
     {
      "icon": "home",
-     "html": "<strong>Can you leave the samples for a week?</strong> We can. Coffee, mud and your own tap water will tell you more than a brochure."
+     "html": "<strong>Can you leave the samples for a week?</strong> We can. Coffee, mud and your own tap water beat a brochure."
     }
    ]
   }
@@ -271,11 +267,11 @@
  "faq": [
   {
    "q": "Does stain-resistant carpet really resist stains?",
-   "a": "Yes, against water-based dye stains such as wine, coffee and juice. Solution-dyed polyester, triexta and solution-dyed nylon have no open dye sites, so those spills blot out. It does not resist soil, grease, soot or odor, which are the bigger problems in most Snohomish homes."
+   "a": "Yes, against water-based dye stains like wine, coffee and juice. Solution-dyed polyester, triexta and nylon have no open dye sites, so those spills blot out. It does nothing for soil, grease, soot or odor, which are the bigger problems in most Snohomish homes."
   },
   {
    "q": "Is stain-resistant carpet good for dogs?",
-   "a": "It helps with the visible stain from urine, but not with the odor, which soaks into the pad and subfloor. For dogs, pair a solution-dyed fiber with a moisture-barrier pad and clean accidents within the hour with an enzyme cleaner. Nylon releases tracked-in mud better than polyester."
+   "a": "It helps with the visible stain from urine, not the odor, which soaks into the pad and subfloor. For dogs, pair a solution-dyed fiber with a moisture-barrier pad and hit accidents within the hour with an enzyme cleaner. Nylon also releases tracked-in mud better than polyester does."
   },
   {
    "q": "Does stain resistance wear off?",
@@ -283,15 +279,15 @@
   },
   {
    "q": "Why did my stain-resistant carpet turn gray in the hallway?",
-   "a": "That is soil, not stain. Fine mud, wood-stove soot and oils coat the fiber and scatter light. Polyester holds oily soil the most. Weekly vacuuming, doormats and a yearly hot-water extraction reverse most of it; a fiber change fixes it for good."
+   "a": "That is soil, not stain. Fine mud, wood-stove soot and oils coat the fiber and scatter light, and polyester holds oily soil worst. Weekly vacuuming, doormats and a yearly extraction reverse most of it; changing fiber fixes it for good."
   },
   {
    "q": "Can well water stain carpet when I clean it?",
-   "a": "Yes. Water with dissolved iron leaves tan or orange rings as the carpet dries, and no fiber is immune. If your Snohomish home is on a well with iron, clean spills with bottled or filtered water and tell any carpet cleaner to use their own tank water, not your hose bib."
+   "a": "Yes. Water with dissolved iron leaves tan or orange rings as the carpet dries, and no fiber is immune. On a Snohomish well with iron, clean spills with filtered water and tell any carpet cleaner to use their own tank, not your hose bib."
   },
   {
    "q": "Which carpet fiber is most stain-resistant?",
-   "a": "Solution-dyed nylon and triexta are the best all-around, because they resist dye stains and release soil well. Polyester resists dye stains just as well but holds oily soil. Wool is naturally soil-resistant but stains more easily. The right pick depends on what actually lands on your floor."
+   "a": "Solution-dyed nylon and triexta are the best all-around: they resist dye stains and release soil well. Polyester resists dye stains just as well but holds oily soil. Wool hides soil but stains more easily. The right pick depends on what lands on your floor."
   }
  ],
  "faq_title": "Stain questions from Snohomish kitchens and mudrooms",
@@ -311,5 +307,17 @@
   ]
  ],
  "cta_title": "Spill something on our samples first",
- "cta_sub": "We bring stain-resistant and nylon samples to your Snohomish home, leave them for the coffee test, measure every room and write a firm price. Free, no pressure."
+ "cta_sub": "We bring stain-resistant and nylon samples to your Snohomish home, leave them for the coffee test, measure every room and write a firm price. Free, no pressure.",
+ "offers": [
+  [
+   "Carpet installation, stretch-in",
+   "0.99",
+   "per square foot"
+  ],
+  [
+   "Carpet installation, glue-down",
+   "1.29",
+   "per square foot"
+  ]
+ ]
 }
