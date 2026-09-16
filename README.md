@@ -44,3 +44,23 @@ refinishing Everett WA" and the Snohomish County long tail.
 
 Verified in headless Chromium: calculator math (min billing, stair range,
 add-ons), quiz verdicts, FAQ toggles, no horizontal overflow at 320–1200 px.
+
+### Wills Flooring blog program (2026-09-16)
+
+200 question-led posts for willsflooring.com (Webflow site `66cc1f4542ee0c42e43d0303`,
+Blog Posts collection `66cecfc7e7f88d2528ab474e`), one per day from 2026-09-17, across
+hardwood refinishing, hardwood installation, vinyl plank and carpet in Seattle, Everett,
+Lynnwood, Kirkland, Edmonds, Sammamish and Snohomish. Everything lives in
+[`blog/wills-program/`](blog/wills-program/):
+
+- `plan.py` / `plan.json` — the 200 titles, slugs, categories, cities and publish dates.
+- `SPEC_GUIDE.md` — writing rules, brand facts, published prices, block types.
+- `specs/NNN-<slug>.json` — one spec per post; `legacy/` holds rewrites of the five old posts.
+- `render.py` — spec → Apple-style Webflow rich-text body (`out/`, git-ignored) plus CMS fieldData.
+- `validate.py`, `qa.mjs` — plan/style checks and headless-Chromium checks (calculator, FAQ, mobile overflow).
+- `UPLOAD.md`, `uploaded/` — how posts are pushed to Webflow as drafts, and the item ids created.
+- `PUBLISH_LOG.md` — written by the daily Routine "Wills Flooring daily blog publish"
+  (15:30 UTC), which flips due drafts to live if they have an Image Main.
+
+Carpet posts use a price-free scope estimator because Wills publishes no carpet price.
+Hero images are left empty on purpose; the owner adds them in the Webflow Editor.
