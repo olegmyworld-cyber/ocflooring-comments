@@ -11,8 +11,8 @@
   {
    "type": "quick",
    "eyebrow": "Short answer",
-   "lead": "Quality carpet buys you a denser pile, a better fiber, a tighter twist, a heavier backing and a firmer pad. Cheap carpet gives you the same look on day one and a crushed, matted hallway by year three.",
-   "detail": "The difference is not softness or color; both tiers come in every color. It is how the carpet handles traffic, mud and dogs, which is exactly what a Snohomish house throws at it. Here is what each spec on the label does and where the extra money actually goes.",
+   "lead": "Quality carpet buys a denser pile, a better fiber, a tighter twist, a heavier backing and a firmer pad. Cheap carpet gives you the same look on day one and a crushed, matted hallway by year three.",
+   "detail": "The difference is not softness or color. It is how the carpet handles traffic, mud and dogs. Installation is $0.99 per sq ft either way, so every dollar of the upgrade goes into the carpet and pad.",
    "tiles": [
     {
      "icon": "grid",
@@ -39,7 +39,7 @@
   },
   {
    "type": "p",
-   "html": "Snohomish homeowners are practical people. The ones we visit on acreage off Fobes Hill or out toward Clearview usually have a big-box flyer on the counter and a fair question: the carpet on sale looks the same as the one that costs twice as much, so what is the difference? The two carpets are built to survive different amounts of walking, and a farmhouse with a mudroom, a wood stove and two dogs is the hardest test there is. This guide reads the label for you; our <a href=\"/services/carpet-installation\">carpet installation</a> team brings the samples to the house."
+   "html": "Snohomish homeowners are practical people. The ones we visit on acreage off Fobes Hill or out toward Clearview usually have a big-box flyer on the counter and a fair question: the carpet on sale looks the same as the one that costs twice as much, so what is the difference? The two carpets are built to survive different amounts of walking, and a farmhouse with a mudroom, a wood stove and two dogs is the hardest test there is. Our <a href=\"/services/carpet-installation\">carpet installation</a> team brings both to the house."
   },
   {
    "type": "h2",
@@ -59,12 +59,6 @@
      "Polyester (PET), sometimes olefin",
      "Nylon or triexta",
      "Nylon and triexta spring back after crushing; polyester mats in the hallway and holds oily soil from boots and dogs."
-    ],
-    [
-     "Face weight",
-     "Under 30 oz per sq yd",
-     "40 oz and up",
-     "More yarn per yard is more material to wear through, but weight alone is easy to fake with tall, loose pile."
     ],
     [
      "Density",
@@ -110,17 +104,17 @@
     {
      "icon": "home",
      "title": "The hall and the stairs",
-     "text": "Low density plus a loose twist means every step crushes the pile and it does not stand back up. Within a couple of years the path from the back door to the kitchen is a darker, flatter lane while the corners still look new."
+     "text": "Low density plus a loose twist means every step crushes the pile and it does not stand back up. Within a couple of years the path from the back door to the kitchen is a darker, flatter lane."
     },
     {
      "icon": "paw",
      "title": "Mud, dogs and well water",
-     "text": "Polyester attracts oily soil, so paw prints and the ring around a dog bed set in. Iron in Snohomish well water leaves rust-toned spots on piece-dyed carpet. Solution-dyed nylon or triexta shrugs both off."
+     "text": "Polyester attracts oily soil, so paw prints and the ring around a dog bed set in. Iron in Snohomish well water leaves rust-toned spots on piece-dyed carpet. Solution-dyed nylon shrugs both off."
     },
     {
      "icon": "scissors",
      "title": "Seams and edges",
-     "text": "Thin backing shows seam lines, frays at doorways and pulls loose from tack strip. Over a crawlspace with seasonal humidity, a light backing also ripples sooner."
+     "text": "Thin backing shows seam lines, frays at doorways and pulls loose from tack strip. Over a crawlspace, a light backing also ripples sooner."
     },
     {
      "icon": "layers",
@@ -135,7 +129,7 @@
   },
   {
    "type": "p",
-   "html": "Here is the part that surprises people: the install costs the same either way. Wills Flooring charges <strong>$0.99 per sq ft</strong> to stretch carpet in over pad, $1.29 for glue-down, and $30 per step, with a 500 sq ft minimum, $0.45 per sq ft to pull the old carpet and pad out and $0.25 to move furniture. A 1,000 sq ft main floor with 13 steps is 1,000 × $0.99 + 13 × $30 = $990 + $390 = $1,380 in labor, whether you buy the bargain polyester or the dense nylon. The whole cheap-versus-quality decision sits in the carpet and pad, which we quote at the free in-home estimate."
+   "html": "Here is the part that surprises people: the install costs the same either way. Wills Flooring charges <strong>$0.99 per sq ft</strong> to stretch carpet in over pad, $1.29 for glue-down and $30 per step, with a 500 sq ft minimum, $0.45 per sq ft to pull the old carpet out and $0.25 to move furniture. A 1,000 sq ft main floor with 13 steps is 1,000 × $0.99 + 13 × $30 = $1,380 in labor, bargain polyester or dense nylon. The whole cheap-versus-quality decision sits in the carpet and pad, quoted at the free estimate."
   },
   {
    "type": "calc",
@@ -165,20 +159,20 @@
     {
      "icon": "refresh",
      "d": "3. Twist",
-     "text": "Five turns per inch or more, heat-set. Pinch a tuft: a tight, defined tip is good, a frayed, splaying one is not.",
-     "note": "Frieze and textured cut piles usually carry the highest twist"
+     "text": "Five turns per inch or more, heat-set. Pinch a tuft: a tight, defined tip is good, a frayed one is not.",
+     "note": "Frieze and textured cut piles carry the highest twist"
     },
     {
      "icon": "layers",
      "d": "4. Pad",
-     "text": "An 8 lb rebond pad at 7/16 in is the standard for living areas, firmer and thinner on stairs. A thick, soft pad feels luxurious at the store and shortens the carpet's life at home.",
+     "text": "An 8 lb rebond pad at 7/16 in is standard for living areas, firmer and thinner on stairs. A thick, soft pad feels luxurious at the store and shortens the carpet's life.",
      "note": "Our <a href=\"/blog-posts/carpet-padding-explained-edmonds\">padding guide</a> goes deeper"
     },
     {
      "icon": "shield",
      "d": "5. Warranty language",
      "text": "Find the texture retention and abrasive wear terms. Ignore the headline stain number; it is the least meaningful line on the label.",
-     "note": "Pet warranties are worth reading closely for what they exclude"
+     "note": "Pet warranties are worth reading for what they exclude"
     }
    ]
   },
@@ -193,10 +187,10 @@
     "tag": "Go cheap",
     "title": "The bargain tier makes sense when",
     "items": [
-     "It is a rental, a guest room or a room you plan to remodel within five years",
+     "It is a rental, a guest room or a room you will remodel within five years",
      "You are refreshing a house for sale and need clean, not durable",
-     "The room sees a few footsteps a day, like a formal living room",
-     "The budget only stretches to one tier and the hall is getting hard flooring anyway"
+     "The room sees a few footsteps a day",
+     "The budget stretches to one tier and the hall is getting hard flooring anyway"
     ]
    },
    "b": {
@@ -228,19 +222,19 @@
    "items": [
     {
      "icon": "x",
-     "html": "<strong>Buying by softness.</strong> The plushest sample in the stack is usually the tallest, loosest pile, which is the one that mats. Judge by pinching the pile and reading the density, not by petting it."
+     "html": "<strong>Buying by softness.</strong> The plushest sample in the stack is usually the tallest, loosest pile, which is the one that mats. Judge by pinching the pile and reading the density."
     },
     {
      "icon": "x",
-     "html": "<strong>Buying by the stain warranty.</strong> Almost every fiber has a stain treatment now. Texture retention is the term that tells you whether the hall will still look good."
+     "html": "<strong>Buying by the stain warranty.</strong> Almost every fiber has a stain treatment now. Texture retention tells you whether the hall will still look good."
     },
     {
      "icon": "x",
-     "html": "<strong>One carpet for the whole house.</strong> Put the dense nylon on the stairs and hall and a less expensive carpet in the bedrooms. Same color family, different spec, and nobody can see the change at a doorway."
+     "html": "<strong>One carpet for the whole house.</strong> Put the dense nylon on the stairs and hall and a less expensive carpet in the bedrooms. Same color family, different spec, and nobody sees the change at a doorway."
     },
     {
      "icon": "x",
-     "html": "<strong>Skipping the subfloor.</strong> Snohomish farmhouses and older ramblers over crawlspaces often have soft or damp plywood. Carpet hides it for a year and then the seams and the smell tell on it."
+     "html": "<strong>Skipping the subfloor.</strong> Snohomish farmhouses over crawlspaces often have soft or damp plywood. Carpet hides it for a year, then the seams tell on it."
     }
    ]
   },
@@ -266,7 +260,7 @@
     },
     {
      "icon": "search",
-     "html": "<strong>Ask how the crew stretches.</strong> Power stretcher, not knee kicker only, on every room over a few feet wide."
+     "html": "<strong>Ask how the crew stretches.</strong> Power stretcher, not knee kicker only, in every room over a few feet wide."
     },
     {
      "icon": "moisture",
@@ -278,27 +272,27 @@
  "faq": [
   {
    "q": "Is expensive carpet really worth it?",
-   "a": "In hallways, stairs, family rooms and any home with dogs or kids, yes. The extra money buys density, twist and a resilient fiber. It never buys extra labor: the install is $0.99 per sq ft either way, so the upgrade is pure material. In a guest room, a budget carpet on a firm pad is fine."
+   "a": "In hallways, stairs, family rooms and any home with dogs or kids, yes. The extra money buys density, twist and a resilient fiber. It never buys extra labor: the install is $0.99 per sq ft either way, so the upgrade is pure material."
   },
   {
    "q": "What is the single most important carpet spec?",
-   "a": "Density. It combines face weight and pile height into one number that predicts how the carpet resists crushing. A short, dense carpet outlasts a tall, heavy one. If the spec sheet does not list it, divide face weight by pile height in inches and multiply by 36."
+   "a": "Density. It combines face weight and pile height into one number that predicts how the carpet resists crushing. A short, dense carpet outlasts a tall, heavy one. If the spec sheet omits it, divide face weight by pile height in inches and multiply by 36."
   },
   {
    "q": "Is nylon carpet better than polyester?",
-   "a": "For durability, yes. Nylon and triexta recover from crushing and resist oily soil, which is why they belong on stairs and in halls. Polyester is softer and stain resistant but mats under traffic. In a low-traffic Snohomish bedroom, polyester can be perfectly sensible."
+   "a": "For durability, yes. Nylon and triexta recover from crushing and resist oily soil, which is why they belong on stairs and in halls. Polyester is softer and stain resistant but mats under traffic. In a low-traffic Snohomish bedroom it can be perfectly sensible."
   },
   {
    "q": "Does a thicker pad make cheap carpet last longer?",
-   "a": "No. A firmer pad does. A thick, soft pad lets the carpet backing flex and fatigue with every step. An 8 lb rebond pad at 7/16 in for rooms and a firmer, thinner pad on stairs is the combination that extends carpet life, and neither choice changes the $0.99 labor rate."
+   "a": "No. A firmer pad does. A thick, soft pad lets the carpet backing flex and fatigue with every step. An 8 lb rebond at 7/16 in for rooms and a firmer, thinner pad on stairs is what extends carpet life, and neither changes the $0.99 labor rate."
   },
   {
    "q": "How long should quality carpet last compared to cheap carpet?",
-   "a": "With a good pad and proper stretching, a dense nylon or triexta carpet commonly looks good for 12 to 15 years in a family home. Budget polyester in the same hallway often mats within two to three years and is replaced within five to seven."
+   "a": "With a good pad and proper stretching, a dense nylon or triexta commonly looks good for 12 to 15 years in a family home. Budget polyester in the same hallway often mats within two to three years and is replaced within five to seven."
   },
   {
    "q": "Can I mix cheap and quality carpet in one house?",
-   "a": "Yes, and it is the smartest way to spend. Use the dense, higher-twist carpet in the hall, stairs and family room, and a less expensive carpet in the same color family in the bedrooms. Wills Flooring brings both tiers to your Snohomish home so you can compare them room by room."
+   "a": "Yes, and it is the smartest way to spend. Use the dense, higher-twist carpet in the hall, stairs and family room, and a cheaper carpet in the same color family in the bedrooms. The labor is $0.99 per sq ft across all of it, so you are only trading material."
   }
  ],
  "faq_title": "Cheap vs quality carpet: questions from Snohomish homeowners",

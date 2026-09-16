@@ -32,9 +32,9 @@
    "cols": 2,
    "items": [
     {"icon": "star", "tag": "Strongest signal", "title": "Condition beats material", "text": "Agents tell us the same thing every year: clean, current flooring of any kind shows better than tired hardwood or matted carpet. A buyer who sees a pet stain deducts far more than the fix costs. Whatever you choose must look new in the photos.", "gold": true},
-    {"icon": "home", "title": "Hardwood in the shared rooms", "text": "Living, dining, kitchen and entry are where buyers picture themselves. Hardwood there reads as quality and continuity, especially in the open remodels common in the Bowl. It is what competing listings will have."},
+    {"icon": "home", "title": "Hardwood in the shared rooms", "text": "Living, dining, kitchen and entry are where buyers picture themselves. Hardwood there reads as quality, especially in the open remodels common in the Bowl. It is what competing listings will have."},
     {"icon": "moon", "title": "Carpet upstairs is not a negative", "text": "Fresh, neutral carpet is what most Edmonds buyers still want upstairs: warmth, quiet, bare feet in February. Nobody walks away because the bedrooms are carpeted. They walk away because the carpet is beige from 1998."},
-    {"icon": "droplet", "title": "Waterfront humidity shows in floors", "text": "Homes near the water carry more moisture year round, and inspectors look for cupped hardwood and musty carpet in lower levels. A dry lower level with new carpet reassures; damp anything scares."}
+    {"icon": "droplet", "title": "Waterfront humidity shows in floors", "text": "Homes near the water carry more moisture, and inspectors look for cupped hardwood and musty carpet downstairs. A dry lower level with new carpet reassures; damp anything scares."}
    ]
   },
   {"type": "h2", "text": "Room by room: what to do before you list"},
@@ -82,7 +82,7 @@
     "items": [
      "The room is a bedroom, stair run or lower level",
      "There is no hardwood under the existing carpet",
-     "You are listing within a month and need a one-day install",
+     "You are listing within a month and need a fast install",
      "The buyer pool is downsizers who value warmth and quiet",
      "You want the biggest visual lift per dollar spent"
     ]
@@ -134,12 +134,12 @@
   {"q": "Does carpet lower resale value?", "a": "Worn, stained or dated carpet does. Fresh neutral carpet in bedrooms, on stairs or in a lower level does not, and many Edmonds downsizers prefer it there. At $0.99 per sq ft of labor it is also the cheapest way to make a listing look cared for. Carpet in living areas, kitchens or bathrooms is what hurts."},
   {"q": "Is it worth installing hardwood floors just to sell a house?", "a": "On the main living level, usually yes, especially if oak is already under the carpet and only needs refinishing at $3.99 per sq ft. Installing new hardwood throughout a house you are about to leave rarely pays back in full; buyers reward the shared rooms and accept carpet in the bedrooms."},
   {"q": "Should I replace carpet or offer a flooring credit when selling?", "a": "Replace it. A credit asks buyers to imagine the result and hire a contractor after closing, so most discount the offer heavily. New carpet is a one-day job that changes the photos and the showings immediately, and the labor is $0.99 per sq ft."},
-  {"q": "What carpet color is best for resale?", "a": "A warm neutral: greige, soft taupe or a light warm gray in a medium pile with a subtle texture. It photographs cleanly, matches most wall colors and hides footprints. Avoid stark white, cool blue-grays and anything patterned."},
+  {"q": "What carpet color is best for resale?", "a": "A warm neutral: greige, soft taupe or a light warm gray in a medium pile with a subtle texture. It photographs cleanly, matches most wall colors and hides footprints at showings. Avoid stark white, cool blue-grays and anything patterned."},
   {"q": "Do buyers in Edmonds prefer carpet or hardwood in bedrooms?", "a": "It is split, and it leans to carpet more than in Seattle. Retirees downsizing here like warmth and quiet underfoot; younger families like hardwood but rarely walk away over carpeted bedrooms. Fresh carpet upstairs and hardwood downstairs satisfies both."},
   {"q": "Can I put new carpet over the old hardwood to sell faster?", "a": "You can, but you should not. Agents lift a corner, and hidden hardwood makes buyers wonder what else is covered. Refinishing wood you already own is nearly always the better return, and it is what the listing next door will have done."}
  ],
  "faq_title": "Resale flooring questions from Edmonds sellers",
- "faq_sub": "From the Bowl, Seaview, Perrinville and Westgate, usually the week the agent visits.",
+ "faq_sub": "From the Bowl, Seaview and Westgate, usually the week the agent visits.",
  "related": [
   ["should-you-replace-carpet-before-selling-a-house-in-lynnwood", "whether to replace carpet before selling"],
   ["is-it-worth-refinishing-hardwood-floors-before-selling-a-house", "refinishing before you sell"],

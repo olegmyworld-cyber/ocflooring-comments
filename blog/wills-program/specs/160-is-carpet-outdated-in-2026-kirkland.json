@@ -12,7 +12,7 @@
    "type": "quick",
    "eyebrow": "Short answer",
    "lead": "Carpet is not outdated in 2026, but wall-to-wall carpet on a main floor is. It has moved upstairs, into bedrooms, bonus rooms, stairs and media rooms, where it still beats every hard floor on comfort, sound and warmth.",
-   "detail": "Buyers in Kirkland expect hardwood or vinyl plank in living rooms, kitchens and hallways. The same buyers walk into a carpeted bedroom and feel relieved. The question is not whether carpet is dated, it is which rooms it belongs in.",
+   "detail": "Buyers in Kirkland expect hardwood or vinyl plank in living rooms, kitchens and hallways. The same buyers walk into a carpeted bedroom and feel relieved. Carpet is also the cheapest floor we install, $0.99 per sq ft in labor against $2.50 for vinyl plank and $3.25 for hardwood, so the question is not whether carpet is dated, it is which rooms it belongs in.",
    "tiles": [
     {
      "icon": "sofa",
@@ -30,16 +30,16 @@
      "value": "Sound and warmth"
     },
     {
-     "icon": "calendar",
-     "label": "Typical life",
-     "value": "8 to 15 years"
+     "icon": "dollar",
+     "label": "Carpet labor",
+     "value": "$0.99 / sq ft"
     }
    ],
-   "cta": false
+   "cta": "Compare the numbers"
   },
   {
    "type": "p",
-   "html": "A common Reddit thread asks whether putting carpet in a house makes it look like a 1990s rental. The honest answer from a company that installs both carpet and hardwood every week: it depends entirely on the room. We pull carpet out of Kirkland living rooms in Houghton and Rose Hill almost every month and replace it with hardwood or vinyl plank. We also install new carpet upstairs in those same houses on the same job. Both decisions are correct."
+   "html": "A common Reddit thread asks whether carpet makes a house look like a 1990s rental. The honest answer from a company that installs both carpet and hardwood every week: it depends on the room. We pull carpet out of Houghton and Rose Hill living rooms most months and put hardwood or vinyl plank down. We also lay new carpet upstairs in those same houses, on the same job."
   },
   {
    "type": "h2",
@@ -52,7 +52,7 @@
     {
      "icon": "home",
      "title": "Open-plan main floors",
-     "text": "Kitchens now flow into living rooms, and nobody wants a carpet edge six feet from a stove. Once the kitchen is hard floor, the living room follows. That is the real reason carpet left the main floor, not fashion."
+     "text": "Kitchens now flow into living rooms, and nobody wants a carpet edge six feet from a stove. Once the kitchen is hard floor the living room follows. That is why carpet left the main floor, not fashion."
     },
     {
      "icon": "chart",
@@ -62,12 +62,12 @@
     {
      "icon": "paw",
      "title": "Pets and allergies",
-     "text": "Older cut-pile carpet held pet hair and dust. Modern low-pile and triexta carpets release it far better, but the reputation stuck. Vinyl plank arrived at the same time and took the pet-owner market."
+     "text": "Older cut pile held pet hair and dust. Low-pile nylon and triexta release it far better, but the reputation stuck, and vinyl plank arrived in time to take the pet-owner market."
     },
     {
      "icon": "tag",
      "title": "Builder-grade memories",
-     "text": "Most of what people remember as dated is thin polyester on a cheap pad, worn flat in the traffic lane after five years. Good carpet on a dense pad does not look like that at year ten."
+     "text": "What people remember as dated is thin polyester on a cheap pad, flat in the traffic lane after five years. Good carpet on a dense pad does not look like that at year ten."
     }
    ]
   },
@@ -126,11 +126,11 @@
    "items": [
     {
      "icon": "volume",
-     "html": "<strong>Sound.</strong> A carpeted upstairs over a hardwood main floor is the quietest house layout there is. Vinyl plank with the best underlayment still transmits footfall that carpet on a pad simply absorbs. Anyone in a Kirkland townhome or Totem Lake condo with a neighbor below already knows this."
+     "html": "<strong>Sound.</strong> A carpeted upstairs over a hardwood main floor is the quietest layout there is. Vinyl plank on the best underlayment still transmits footfall that carpet on a pad absorbs. Anyone in a Totem Lake condo with a neighbor below knows it."
     },
     {
      "icon": "thermo",
-     "html": "<strong>Warmth.</strong> Carpet and pad add measurable insulation over a crawlspace or a garage. On the plateau side of Bridle Trails, where many 1970s and 1980s homes have bedrooms over unheated garages, that is the difference between socks and no socks."
+     "html": "<strong>Warmth.</strong> Carpet and pad add real insulation over a crawlspace or a garage. In Bridle Trails, where 1970s and 1980s homes put bedrooms over unheated garages, that is the difference between socks and no socks."
     },
     {
      "icon": "shield",
@@ -138,22 +138,26 @@
     },
     {
      "icon": "wallet",
-     "html": "<strong>Speed and disruption.</strong> A whole upstairs is usually carpeted in one day with no sanding, no cure time and no furniture in the garage for a week."
+     "html": "<strong>Speed, disruption and cost.</strong> A whole upstairs is carpeted in one day, with no sanding and no cure time, at the lowest labor rate on our price list."
     },
     {
      "icon": "refresh",
-     "html": "<strong>Easy resets.</strong> Replacing bedroom carpet before a sale is a one-day job. Refinishing a scratched hardwood bedroom is not."
+     "html": "<strong>Easy resets.</strong> Replacing bedroom carpet before a sale is a one-day job at $0.99 per sq ft plus $0.45 to take the old carpet away. Refinishing a scratched hardwood bedroom is neither as quick nor as cheap."
     }
    ]
   },
   {
    "type": "h2",
-   "text": "Scope your Kirkland carpet project"
+   "text": "Price your Kirkland carpet right now"
   },
   {
-   "type": "estimator",
-   "title": "Scope Your Kirkland Carpet Project",
-   "sub": "Tell us which rooms and stairs. We bring current samples to your house, measure, and give you a firm written price on the spot."
+   "type": "calc",
+   "kind": "carpet",
+   "note": "Labor only. Carpet and pad are quoted at the free in-home estimate, where the real money in a carpet job sits."
+  },
+  {
+   "type": "p",
+   "html": "Money is part of why carpet stayed upstairs. Our labor for stretch-in carpet is $0.99 per sq ft with $30 per step, against $2.50 per sq ft and $100 per stair for vinyl plank and $3.25 per sq ft and $125 per stair for hardwood. A 900 sq ft Juanita upstairs with 14 stairs is 900 × $0.99 + 14 × $30 = $891 + $420 = $1,311 in carpet labor. The same floor in vinyl plank is 900 × $2.50 + 14 × $100 = $2,250 + $1,400 = $3,650. Carpet and pad are quoted on top of that at the estimate, and so is the plank, but the gap does not close."
   },
   {
    "type": "h2",
@@ -197,7 +201,7 @@
     {
      "icon": "chart",
      "title": "Main floor of a house you are selling",
-     "text": "If the living room is carpeted and the kitchen is not, Kirkland buyers will price a floor replacement into their offer. Hardwood or vinyl plank on the main level pays for itself in most Eastside listings. Carpet upstairs does not need to change."
+     "text": "If the living room is carpeted and the kitchen is not, Kirkland buyers price a floor replacement into their offer. Hardwood or vinyl plank on the main level pays for itself in most Eastside listings. Upstairs does not need to change."
     },
     {
      "icon": "droplet",
@@ -207,12 +211,12 @@
     {
      "icon": "dog",
      "title": "Dogs with accidents",
-     "text": "A puppy or a senior dog with a bladder problem will defeat any carpet eventually. Use it in the bedrooms the dog does not sleep in, and put a waterproof pad under any carpet the dog uses."
+     "text": "A puppy or a senior dog will defeat any carpet eventually. Use it in the rooms the dog does not sleep in, and put a waterproof pad under any carpet it does."
     },
     {
      "icon": "sun",
      "title": "Below-grade rooms without a moisture plan",
-     "text": "A Kirkland daylight basement can be carpeted, but only after a moisture test and with a pad that does not absorb water. Skipping that step is why basement carpet gets its reputation."
+     "text": "A Kirkland daylight basement can be carpeted, but only after a moisture test and with a pad that does not absorb water. Skipping that is why basement carpet has its reputation."
     }
    ]
   },
@@ -221,7 +225,7 @@
    "icon": "alert",
    "gold": true,
    "title": "The mistake we see most: ",
-   "text": "Homeowners replace good bedroom carpet with vinyl plank because they read that carpet is dated, then live with cold floors and echo upstairs. If the carpet is under eight years old and not worn, keep it and spend the money on the main floor instead."
+   "text": "Homeowners replace good bedroom carpet with vinyl plank because they read that carpet is dated, then live with cold floors and echo upstairs. If the carpet is under eight years old and not worn, keep it and put the money into the main floor, where a hard floor earns it back."
   },
   {
    "type": "h2",
@@ -249,11 +253,11 @@
     },
     {
      "icon": "search",
-     "html": "<strong>Look at samples in your own light.</strong> Kirkland bedrooms facing the lake get very different light from Rose Hill rooms facing the trees. We bring the samples to you so you can see them where they will live."
+     "html": "<strong>Look at samples in your own light.</strong> Bedrooms facing the lake get very different light from Rose Hill rooms facing the trees. We bring samples to the house for exactly that reason."
     },
     {
      "icon": "clipboard",
-     "html": "<strong>Get the whole plan in one quote.</strong> The best-looking houses we work on do carpet upstairs and hardwood or vinyl plank downstairs on one visit, with matching transitions. Ask for both on the same <a href=\"/contact\">free estimate</a>."
+     "html": "<strong>Get the whole plan in one quote.</strong> The best houses we work on do carpet upstairs and hardwood or vinyl plank downstairs on one visit, with matching transitions. Ask for both at the same <a href=\"/contact\">free estimate</a>."
     }
    ]
   }
@@ -281,7 +285,7 @@
   },
   {
    "q": "Should I carpet stairs in a house with hardwood downstairs?",
-   "a": "It is the most common Kirkland setup we install: hardwood main floor, carpeted stairs and bedrooms. A carpet runner over hardwood stairs is the other option. Either is safer and quieter than bare wood treads, especially with kids or dogs."
+   "a": "It is the most common Kirkland setup we install: hardwood main floor, carpeted stairs and bedrooms. Stairs are $30 per step in labor, so a 14-tread flight is $420 plus the carpet. A runner over hardwood treads is the other option, and either is safer and quieter than bare wood."
   }
  ],
  "faq_title": "Carpet questions from Kirkland homeowners",
@@ -301,5 +305,17 @@
   ]
  ],
  "cta_title": "See current carpet in your own rooms",
- "cta_sub": "Our mobile showroom brings the samples to your Kirkland home. We measure, check the stairs and give you a firm written price on the spot. Free, no obligation."
+ "cta_sub": "Our mobile showroom brings the samples to your Kirkland home. We measure, check the stairs and give you a firm written price on the spot. Free, no obligation.",
+ "offers": [
+  [
+   "Carpet installation, stretch-in",
+   "0.99",
+   "per square foot"
+  ],
+  [
+   "Carpet installation, glue-down",
+   "1.29",
+   "per square foot"
+  ]
+ ]
 }
