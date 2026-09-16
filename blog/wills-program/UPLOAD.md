@@ -47,3 +47,19 @@ Open items for the owner:
 4. **Pricing gaps.** Carpet posts use the price-free estimator because Wills publishes no
    carpet rate. Confirm carpet pricing, that install rates are labor-only, and the $100 LVP
    stair price the calculator assumes.
+
+## Carpet repricing (2026-09-16)
+
+Carpet labor was published for the first time after market research across King and Snohomish
+County, deliberately set at the low end: $0.99/sq ft stretch-in, $1.29 glue-down, $30 per step,
+$0.45/sq ft removal and haul-away, $0.25/sq ft furniture, 500 sq ft minimum. All 50 carpet posts
+moved off the price-free estimator onto the carpet calculator and were re-pushed to Webflow in
+place, still as drafts. All 200 stored bodies were then re-verified byte-for-byte against a fresh
+local render.
+
+The rate lives in one place, `CALC["carpet"]` in render.py. To change it: edit that entry, re-render,
+and re-push the 50 carpet items. The posts quote the numbers in prose too, so a change of more than a
+few cents also needs the carpet specs revised.
+
+**Publishing is PAUSED.** Routine `trig_01W2ziMwdhrCCpEf7xKPJShg` is disabled at the owner's request.
+Re-enable it only when the owner says go.

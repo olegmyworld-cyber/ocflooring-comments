@@ -285,10 +285,10 @@ def render_calc(kind, extra_note=None):
     rates = ",".join(f'{k}:{r}' for k,_,_,r in c["seg"]); names = ",".join(f"{k}:'{lab}'" for k,lab,_,_ in c["seg"])
     def _aj(a):
         k, lab, v = a[0], re.sub("&amp;", "&", a[2]), a[4]
-        per = len(a) > 5 and a[5]
-        amt = f"billed*{v}" if per else f"{v}"
-        note = f"' + ' \u00b7 '+billed.toLocaleString()+' sq ft \u00d7 ${v}'" if per else "'"
-        return ("if(g('rc-%s')&&g('rc-%s').checked){var _v=%s;add+=_v;html+=row('%s%s,money(_v))}" % (k, k, amt, lab, note))
+        if not (len(a) > 5 and a[5]):   # flat fee: keep the original emit byte-for-byte
+            return "if(g('rc-%s')&&g('rc-%s').checked){add+=%s;html+=row('%s',money(%s))}" % (k, k, v, lab, v)
+        note = "' + ' \u00b7 '+billed.toLocaleString()+' sq ft \u00d7 $%s'" % v
+        return "if(g('rc-%s')&&g('rc-%s').checked){var _v=billed*%s;add+=_v;html+=row('%s%s,money(_v))}" % (k, k, v, lab, note)
     addjs = "".join(_aj(a) for a in c["addons"])
     appljs = f"var ap=g('rc-appliances');if(ap){{var q=Math.max(0,parseInt(ap.value||'0',10));if(q>0){{add+=q*{c['appl']};html+=row('Other appliances · '+q+' × ${c['appl']}',money(q*{c['appl']}))}}}}" if c["appl"] else ""
     lo,hi,slab = c["stairs"]
