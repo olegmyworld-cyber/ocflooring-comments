@@ -329,7 +329,8 @@ def render_estimator(spec):
 
 def render_quiz(q):
     items = "".join(f'<div class="oq-q" data-k="{it["k"]}"><span>{i+1}. {it["q"]}</span><div class="oq-btns">' + "".join(f'<button type="button" data-v="{v}">{l}</button>' for v,l in it["opts"]) + '</div></div>' for i,it in enumerate(q["items"]))
-    rules = "".join(f"if({r['when']}){{h='{r['h']}';p='{r['p']}'}}else " for r in q["rules"]) + f"{{h='{q['default']['h']}';p='{q['default']['p']}'}}"
+    J = lambda x: json.dumps(x, ensure_ascii=False).replace("</", "<\\/")
+    rules = "".join(f"if({r['when']}){{h={J(r['h'])};p={J(r['p'])}}}else " for r in q["rules"]) + f"{{h={J(q['default']['h'])};p={J(q['default']['p'])}}}"
     return emb(QUIZ_CSS) + "\n\n" + emb(f'''<section class="ap ap-panel oq" aria-labelledby="oq-title">
   <h3 id="oq-title" class="ap-h" style="font-size:28px">{q["title"]}</h3>
   <p class="ap-sub" style="margin-bottom:18px">{q.get("sub","Answer honestly. The verdict updates as you go.")}</p>
