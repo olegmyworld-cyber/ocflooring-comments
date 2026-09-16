@@ -31,9 +31,9 @@
    "type": "cards",
    "cols": 2,
    "items": [
-    {"icon": "star", "tag": "Strongest signal", "title": "Condition beats material", "text": "Agents tell us the same thing every year: clean, current flooring of any kind shows better than tired hardwood or matted carpet. A buyer who sees a pet stain deducts far more than it costs to fix. Whatever you choose, it must look new in the photos.", "gold": true},
+    {"icon": "star", "tag": "Strongest signal", "title": "Condition beats material", "text": "Agents tell us the same thing every year: clean, current flooring of any kind shows better than tired hardwood or matted carpet. A buyer who sees a pet stain deducts far more than the fix costs. Whatever you choose must look new in the photos.", "gold": true},
     {"icon": "home", "title": "Hardwood in the shared rooms", "text": "Living, dining, kitchen and entry are where buyers picture themselves. Hardwood there reads as quality and continuity, especially in the open remodels common in the Bowl. It is what competing listings will have."},
-    {"icon": "moon", "title": "Carpet upstairs is not a negative", "text": "Fresh, neutral carpet is what most Edmonds buyers still want upstairs: warmth, quiet, bare feet on a February morning. Nobody walks away because the bedrooms are carpeted. They walk away because the carpet is beige from 1998."},
+    {"icon": "moon", "title": "Carpet upstairs is not a negative", "text": "Fresh, neutral carpet is what most Edmonds buyers still want upstairs: warmth, quiet, bare feet in February. Nobody walks away because the bedrooms are carpeted. They walk away because the carpet is beige from 1998."},
     {"icon": "droplet", "title": "Waterfront humidity shows in floors", "text": "Homes near the water carry more moisture year round, and inspectors look for cupped hardwood and musty carpet in lower levels. A dry lower level with new carpet reassures; damp anything scares."}
    ]
   },
@@ -47,7 +47,7 @@
     ["Bedrooms", "New neutral carpet, medium pile, mid-tone.", "At $0.99 per sq ft of labor it is the best cost-to-impression ratio in the house, and what buyers expect."],
     ["Stairs", "Match the upper level: carpet if the bedrooms are, wood if the main floor continues.", "A safety and noise concern for older buyers; carpet reads as safer to downsizers."],
     ["Lower level or basement", "New carpet over a moisture-barrier pad, after testing the slab.", "Buyers expect carpet here; hardwood below grade is a red flag to inspectors."],
-    ["Bathrooms and laundry", "Never carpet. Hard surface only.", "Carpet in a bathroom is one of the few flooring choices that actively costs offers."]
+    ["Bathrooms and laundry", "Never carpet. Hard surface only.", "One of the few flooring choices that actively costs offers."]
    ],
    "note": "A full hardwood house is not wrong, it is simply more than the market usually pays back."
   },
@@ -94,7 +94,7 @@
     "items": [
      "The room is the living, dining or entry level",
      "Oak is already under the carpet and only needs refinishing",
-     "Neighboring listings in the Bowl or Seaview all show hardwood",
+     "Neighboring listings all show hardwood",
      "You have four to six weeks before photos",
      "You plan to stay a few years and sell later"
     ]

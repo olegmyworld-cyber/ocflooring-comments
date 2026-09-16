@@ -171,7 +171,7 @@
     },
     {
      "icon": "scissors",
-     "html": "<strong>No seams on a tread.</strong> A stair tread should be one piece of carpet. Seams on the nosing are the first thing a dog's claw finds and the first place the carpet fails."
+     "html": "<strong>No seams on a tread.</strong> A tread should be one piece. A seam on the nosing is the first thing a claw finds and the first place the carpet fails."
     },
     {
      "icon": "hammer",
@@ -191,8 +191,8 @@
    "type": "ul",
    "items": [
     "Your dog is a heavy shedder and you will not vacuum the stairs weekly. Hair packed into the tread corners is the complaint we hear a year later.",
-    "The dog has a history of marking on the stairs. Carpet and pad both absorb urine, and no stain warranty covers the pad. Hardwood treads with a washable runner may serve you better.",
-    "You are selling within a year and the rest of the house is hardwood. Everett buyers coming from Seattle often expect bare wood stairs; see our note on <a href=\"/blog-posts/should-you-replace-carpet-before-selling-a-house-in-lynnwood\">replacing carpet before a sale</a>.",
+    "The dog marks on the stairs. Carpet and pad both absorb urine and no stain warranty covers the pad, so hardwood treads with a washable runner may serve you better.",
+    "You are selling within a year and the rest of the house is hardwood. Everett buyers from Seattle often expect bare wood stairs; see our note on <a href=\"/blog-posts/should-you-replace-carpet-before-selling-a-house-in-lynnwood\">replacing carpet before a sale</a>.",
     "The stairs are already hardwood and the dog slips. Try clear treads or a bound runner first; a full carpet install is more than the problem needs.",
     "The staircase is open-sided with pie-shaped treads and you want a loop. A loop on a pie tread is a snag waiting to happen."
    ]
@@ -207,11 +207,11 @@
    "items": [
     {
      "icon": "search",
-     "html": "<strong>Read the label for fiber and dye method.</strong> You want nylon or triexta, ideally solution-dyed. Ask the rep to point to those words, not to the marketing name."
+     "html": "<strong>Read the label for fiber and dye method.</strong> Nylon or triexta, ideally solution-dyed. Ask the rep to point at those words, not the marketing name."
     },
     {
      "icon": "ruler",
-     "html": "<strong>Press the sample.</strong> Fold it backwards over your knuckle. If you see the backing easily, it is not dense enough for a stair nosing."
+     "html": "<strong>Press the sample.</strong> Fold it back over your knuckle. If the backing shows easily, it is not dense enough for a nosing."
     },
     {
      "icon": "paw",
@@ -219,7 +219,7 @@
     },
     {
      "icon": "palette",
-     "html": "<strong>Match color to the dog.</strong> A flecked mid tone near your dog's coat color hides hair between vacuuming. A black lab on cream carpet is a daily chore."
+     "html": "<strong>Match color to the dog.</strong> A flecked mid tone near your dog's coat hides hair between vacuums. A black lab on cream carpet is a daily chore."
     },
     {
      "icon": "clipboard",
