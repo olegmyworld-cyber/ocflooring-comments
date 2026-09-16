@@ -33,12 +33,18 @@ Target `words` between 1,150 and 1,700.
 | Hardwood on stairs | $125 per stair | |
 | Laminate installation | $2.50 / sq ft | labor; 500 sq ft min; $100 per stair |
 | Vinyl plank (LVP) installation | $2.50 / sq ft | labor; 500 sq ft min; stairs $100 per stair |
-| Carpet installation | **not published** | never state a Wills carpet price or "from $X" |
+| Carpet installation, stretch-in over pad | $0.99 / sq ft | labor; 500 sq ft min; carpet and pad quoted separately |
+| Carpet installation, glue-down | $1.29 / sq ft | slabs, basements, commercial; 500 sq ft min |
+| Carpet on stairs | $30 per step | |
+| Remove old carpet and pad | +$0.45 / sq ft | includes haul-away |
+| Move furniture | +$0.25 / sq ft | |
 
 Rules: refinishing prices are all-in (labor + finish). Installation prices are labor; material, underlayment,
-old-floor removal and subfloor prep are "quoted at the free estimate". For carpet posts, talk about what
-drives price, fiber and pad tiers, and comparisons, but never a Wills dollar figure. Industry-wide ranges are
-allowed only if clearly labeled as national/regional averages, not Wills prices, and used sparingly.
+old-floor removal and subfloor prep are "quoted at the free estimate" unless a rate above covers them.
+Carpet now HAS published labor rates (set 2026-09-16 from King and Snohomish County market research, priced
+at the low end on purpose): use them the same way as the other services, and say plainly that carpet and pad
+are quoted separately because material is what moves the number. Industry-wide ranges are allowed only if
+clearly labeled as national/regional averages, not Wills prices, and used sparingly.
 
 ## Voice and content rules
 
@@ -84,7 +90,7 @@ allowed only if clearly labeled as national/regional averages, not Wills prices,
  "time": "8 mins",
  "date": "copy from plan.json",
  "keywords": "4–6 comma-separated search phrases people type",
- "offers": [["Sand and refinish, natural finish", "3.99", "per square foot"]],   // only priced services; omit for carpet
+ "offers": [["Sand and refinish, natural finish", "3.99", "per square foot"]],   // all four categories have published rates
  "blocks": [ ... ],
  "faq": [{"q": "...", "a": "..."}],           // 5–7 items, 35–70 words each, direct answers, no HTML
  "faq_title": "...", "faq_sub": "...",
@@ -93,7 +99,7 @@ allowed only if clearly labeled as national/regional averages, not Wills prices,
 }
 ```
 
-`offers` names for priced services: refinish → the three refinishing rates; hardwood → "Hardwood floor installation, engineered or solid" 3.25 and "Unfinished hardwood installation" 2.75; lvp → "Vinyl plank flooring installation" 2.50.
+`offers` names for priced services: refinish → the three refinishing rates; hardwood → "Hardwood floor installation, engineered or solid" 3.25 and "Unfinished hardwood installation" 2.75; lvp → "Vinyl plank flooring installation" 2.50; carpet → "Carpet installation, stretch-in" 0.99 and "Carpet installation, glue-down" 1.29.
 
 ## Block types (use 6–10 blocks between the `quick` block and the end; exactly one `calc` or `estimator`)
 
@@ -117,7 +123,7 @@ Use `"cta": false` when the post has an `estimator` instead of a `calc`, or set 
 {"type":"compare","a":{"icon":"done","tag":"Option A","title":"Choose this when","items":["...","..."]},"b":{"icon":"x","tag":"Option B","title":"Choose that when","items":["...","..."]}}
 {"type":"callout","icon":"alert","gold":true,"title":"Lead-in: ","text":"One important warning or tip."}
 {"type":"calc","kind":"refinish | hardwood | lvp","note":"optional one-line note shown under the result"}
-{"type":"estimator","title":"Scope Your Carpet Project","sub":"Tell us the rooms; we bring samples and a firm price."}
+{"type":"estimator","title":"Scope Your Carpet Project","sub":"..."}   // price-free fallback; only for services with no published rate (tile, countertops)
 {"type":"quiz","title":"Should you refinish or replace?","sub":"Answer three questions.","min":3,
  "items":[{"k":"age","q":"How old is the floor?","opts":[["new","Under 20 years"],["old","20+ years"]]}, ...],
  "rules":[{"when":"a.age==='old'&&a.damage==='deep'","h":"Verdict heading","p":"Verdict text."}],
@@ -125,7 +131,7 @@ Use `"cta": false` when the post has an `estimator` instead of a `calc`, or set 
 ```
 Quiz `when` is a JavaScript expression over the answers object `a` (keys are the `k` values, values are the option keys).
 
-`calc` kinds: refinish (natural/stain/recoat + stairs + dust + washer/dryer + appliances), hardwood (engineered/solid/unfinished + stairs $125), lvp (vinyl plank/laminate + stairs $100). Carpet posts use `estimator`.
+`calc` kinds: refinish (natural/stain/recoat + stairs + dust + washer/dryer + appliances), hardwood (engineered/solid/unfinished + stairs $125), lvp (vinyl plank/laminate + stairs $100), carpet (stretch-in/glue-down + stairs $30 + removal and furniture per sq ft).
 
 ## Structure that works
 

@@ -21,16 +21,11 @@ for f in files:
         if spec.get(k) != pl[pk]: P(f"{k} differs from plan: {spec.get(k)!r} vs {pl[pk]!r}")
     meta = spec.get("meta", "")
     if not 120 <= len(meta) <= 160: P(f"meta length {len(meta)}")
-    if spec["category"] == "carpet":
-        if spec.get("offers"): P("carpet post has offers")
-        kinds = [b["type"] for b in spec["blocks"]]
-        if "calc" in kinds: P("carpet post uses calc"); 
-        if "estimator" not in kinds: P("carpet post lacks estimator")
-    else:
-        if not spec.get("offers"): P("missing offers")
-        kinds = [b for b in spec["blocks"] if b["type"] == "calc"]
-        if len(kinds) != 1: P(f"{len(kinds)} calc blocks")
-        elif kinds[0]["kind"] != spec["category"]: P(f"calc kind {kinds[0]['kind']} != category")
+    if not spec.get("offers"): P("missing offers")
+    kinds = [b for b in spec["blocks"] if b["type"] == "calc"]
+    if len(kinds) != 1: P(f"{len(kinds)} calc blocks")
+    elif kinds[0]["kind"] != spec["category"]: P(f"calc kind {kinds[0]['kind']} != category")
+    if any(b["type"] == "estimator" for b in spec["blocks"]): P("estimator block (all categories are priced now)")
     if spec["blocks"][0]["type"] != "quick": P("first block not quick")
     if not 5 <= len(spec.get("faq", [])) <= 8: P(f"faq count {len(spec.get('faq', []))}")
     for r in spec.get("related", []):

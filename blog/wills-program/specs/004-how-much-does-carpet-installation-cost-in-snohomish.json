@@ -116,9 +116,8 @@
    "text": "Scope your Snohomish carpet project"
   },
   {
-   "type": "estimator",
-   "title": "Scope Your Snohomish Carpet Project",
-   "sub": "Tell us the rooms and stairs. We bring the samples, measure and hand you a firm written price at the house."
+   "type": "calc",
+   "kind": "carpet"
   },
   {
    "type": "h2",
@@ -294,5 +293,17 @@
   ]
  ],
  "cta_title": "Get a firm Snohomish carpet price",
- "cta_sub": "We bring the samples and pad to your house, measure every room and stair, and write the price on the spot. Free, no obligation, anywhere in Snohomish."
+ "cta_sub": "We bring the samples and pad to your house, measure every room and stair, and write the price on the spot. Free, no obligation, anywhere in Snohomish.",
+ "offers": [
+  [
+   "Carpet installation, stretch-in",
+   "0.99",
+   "per square foot"
+  ],
+  [
+   "Carpet installation, glue-down",
+   "1.29",
+   "per square foot"
+  ]
+ ]
 }

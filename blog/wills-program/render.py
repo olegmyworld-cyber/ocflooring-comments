@@ -270,15 +270,26 @@ CALC = {
    seg=[("lam","Laminate","$2.50",2.50),("lvp","Vinyl plank","$2.50",2.50)], default="lam", minsf=500,
    stairs=(100,100,"$100 per stair"), addons=[], appl=None,
    note="Installation labor only, 500 sq ft minimum. Plank, underlayment and old-floor removal are quoted separately at the free estimate."),
+ "carpet": dict(title="Carpet Installation Calculator", sub="Real Wills Flooring labor pricing. Carpet and pad are quoted separately once you pick the style you like.",
+   seg=[("stretch","Stretch-in","$0.99",0.99),("glue","Glue-down","$1.29",1.29)], default="stretch", minsf=500,
+   stairs=(30,30,"$30 per step"),
+   addons=[("rem","truck","Remove old carpet &amp; pad","+$0.45 per sq ft",0.45,True),("furn","sofa","Move furniture","+$0.25 per sq ft",0.25,True)], appl=None,
+   note="Installation labor only, 500 sq ft minimum. Carpet, pad and any subfloor repair are quoted at the free in-home estimate."),
 }
 
 def render_calc(kind, extra_note=None):
     c = CALC[kind]; n=len(c["seg"])
     seg = "".join('<button type="button"%s data-v="%s">%s <em>%s</em></button>' % (' class="on"' if k==c["default"] else "", k, lab, pr) for k,lab,pr,_ in c["seg"])
-    addons = "".join(f'<label class="rc-field rc-row"><span><span class="rc-lab ap-lab-ic">{ic(icn)}{lab}</span><small>{pr}</small></span><span class="rc-sw"><input id="rc-{k}" type="checkbox"><i></i></span></label>' for k,icn,lab,pr,_ in c["addons"])
+    addons = "".join(f'<label class="rc-field rc-row"><span><span class="rc-lab ap-lab-ic">{ic(a[1])}{a[2]}</span><small>{a[3]}</small></span><span class="rc-sw"><input id="rc-{a[0]}" type="checkbox"><i></i></span></label>' for a in c["addons"])
     appl = (f'<label class="rc-field rc-row"><span><span class="rc-lab ap-lab-ic">{ic("plug")}Other appliances</span><small>+${c["appl"]} each</small></span><span class="rc-step"><button type="button" data-d="-1" aria-label="Fewer">−</button><input id="rc-appliances" type="number" min="0" value="0" inputmode="numeric"><button type="button" data-d="1" aria-label="More">+</button></span></label>') if c["appl"] else ""
     rates = ",".join(f'{k}:{r}' for k,_,_,r in c["seg"]); names = ",".join(f"{k}:'{lab}'" for k,lab,_,_ in c["seg"])
-    addjs = "".join(f"if(g('rc-{k}')&&g('rc-{k}').checked){{add+={v};html+=row('{re.sub('&amp;','&',lab)}',money({v}))}}" for k,_,lab,_,v in c["addons"])
+    def _aj(a):
+        k, lab, v = a[0], re.sub("&amp;", "&", a[2]), a[4]
+        per = len(a) > 5 and a[5]
+        amt = f"billed*{v}" if per else f"{v}"
+        note = f"' + ' \u00b7 '+billed.toLocaleString()+' sq ft \u00d7 ${v}'" if per else "'"
+        return ("if(g('rc-%s')&&g('rc-%s').checked){var _v=%s;add+=_v;html+=row('%s%s,money(_v))}" % (k, k, amt, lab, note))
+    addjs = "".join(_aj(a) for a in c["addons"])
     appljs = f"var ap=g('rc-appliances');if(ap){{var q=Math.max(0,parseInt(ap.value||'0',10));if(q>0){{add+=q*{c['appl']};html+=row('Other appliances · '+q+' × ${c['appl']}',money(q*{c['appl']}))}}}}" if c["appl"] else ""
     lo,hi,slab = c["stairs"]
     html_ = f'''<!-- Wills Flooring — {c["title"]} -->
@@ -307,7 +318,7 @@ function live(){{if(!g('rc-result').hidden)calc()}}
 document.querySelectorAll('.rc-seg button').forEach(function(b){{b.addEventListener('click',function(){{document.querySelectorAll('.rc-seg button').forEach(function(x){{x.classList.remove('on')}});b.classList.add('on');g('rc-finish').value=b.getAttribute('data-v');live()}})}});
 document.querySelectorAll('.rc-step button').forEach(function(b){{b.addEventListener('click',function(){{var i=g('rc-appliances');i.value=Math.max(0,(parseInt(i.value||'0',10))+parseInt(b.getAttribute('data-d'),10));live()}})}});
 g('rc-calc').addEventListener('click',calc);g('rc-reset').addEventListener('click',function(){{g('rc-area').value=850;g('rc-finish').value='{c["default"]}';document.querySelectorAll('.rc-seg button').forEach(function(x){{x.classList.toggle('on',x.getAttribute('data-v')==='{c["default"]}')}});g('rc-stairs').value=0;document.querySelectorAll('.rc-sw input').forEach(function(x){{x.checked=false}});if(g('rc-appliances'))g('rc-appliances').value=0;g('rc-result').hidden=true}});
-['rc-area','rc-stairs','rc-appliances'{"".join(",'rc-"+k+"'" for k,_,_,_,_ in c["addons"])}].forEach(function(id){{var e=g(id);if(e)e.addEventListener('change',live)}});}})();
+['rc-area','rc-stairs','rc-appliances'{"".join(",'rc-"+a[0]+"'" for a in c["addons"])}].forEach(function(id){{var e=g(id);if(e)e.addEventListener('change',live)}});}})();
 </script>'''
     return emb(CALC_CSS) + "\n\n" + emb(html_)
 
