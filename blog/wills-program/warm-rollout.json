@@ -1,0 +1,1430 @@
+[
+ {
+  "n": 1,
+  "slug": "how-much-does-it-cost-to-refinish-hardwood-floors-in-seattle",
+  "id": "6aa9e4214e18075875156202",
+  "spec": "specs/001-refinish-seattle-cost.json",
+  "live": false
+ },
+ {
+  "n": 2,
+  "slug": "how-much-does-hardwood-floor-installation-cost-in-lynnwood",
+  "id": "6aa9e531b196331d6d3afa59",
+  "spec": "specs/002-how-much-does-hardwood-floor-installation-cost-in-lynnwood.json",
+  "live": false
+ },
+ {
+  "n": 3,
+  "slug": "how-much-does-vinyl-plank-flooring-installation-cost-in-edmonds",
+  "id": "6aa9e611a765e6616e45f9d5",
+  "spec": "specs/003-how-much-does-vinyl-plank-flooring-installation-cost-in-edmonds.json",
+  "live": false
+ },
+ {
+  "n": 4,
+  "slug": "how-much-does-carpet-installation-cost-in-snohomish",
+  "id": "6aa9e755e671af91065f58ba",
+  "spec": "specs/004-how-much-does-carpet-installation-cost-in-snohomish.json",
+  "live": false
+ },
+ {
+  "n": 5,
+  "slug": "can-my-hardwood-floors-be-refinished-or-do-they-need-replacing-everett",
+  "id": "6aa9e874ffd49f0fe470bc43",
+  "spec": "specs/005-can-my-hardwood-floors-be-refinished-or-do-they-need-replacing-everett.json",
+  "live": false
+ },
+ {
+  "n": 6,
+  "slug": "engineered-vs-solid-hardwood-kirkland",
+  "id": "6aa9e95c90b22cd549e4462f",
+  "spec": "specs/006-engineered-vs-solid-hardwood-kirkland.json",
+  "live": false
+ },
+ {
+  "n": 7,
+  "slug": "lvp-vs-laminate-sammamish",
+  "id": "6aa9ea36dce8f2a457fcfc9d",
+  "spec": "specs/007-lvp-vs-laminate-sammamish.json",
+  "live": false
+ },
+ {
+  "n": 8,
+  "slug": "carpet-vs-vinyl-plank-for-bedrooms-seattle",
+  "id": "6aa9eb1e030a0472ffc1afdb",
+  "spec": "specs/008-carpet-vs-vinyl-plank-for-bedrooms-seattle.json",
+  "live": false
+ },
+ {
+  "n": 9,
+  "slug": "how-long-does-hardwood-floor-refinishing-take-lynnwood",
+  "id": "6aa9ed3cb5a4ca016db769cf",
+  "spec": "specs/009-how-long-does-hardwood-floor-refinishing-take-lynnwood.json",
+  "live": false
+ },
+ {
+  "n": 10,
+  "slug": "can-hardwood-floors-be-installed-over-a-concrete-slab-edmonds",
+  "id": "6aa9eeccf9847903b4d99b1e",
+  "spec": "specs/010-can-hardwood-floors-be-installed-over-a-concrete-slab-edmonds.json",
+  "live": false
+ },
+ {
+  "n": 11,
+  "slug": "luxury-vinyl-plank-vs-hardwood-snohomish",
+  "id": "6aa9f04919a022238fbde35b",
+  "spec": "specs/011-luxury-vinyl-plank-vs-hardwood-snohomish.json",
+  "live": false
+ },
+ {
+  "n": 12,
+  "slug": "what-is-the-best-carpet-for-pets-everett",
+  "id": "6aa9f1438486baafce1b6827",
+  "spec": "specs/012-what-is-the-best-carpet-for-pets-everett.json",
+  "live": false
+ },
+ {
+  "n": 13,
+  "slug": "refinish-or-recoat-kirkland",
+  "id": "6aa9f22db5a4ca016db881fd",
+  "spec": "specs/013-refinish-or-recoat-kirkland.json",
+  "live": false
+ },
+ {
+  "n": 14,
+  "slug": "can-you-put-hardwood-floors-in-a-kitchen-bathroom-or-basement-sammamish",
+  "id": "6aa9f47a1c1dddc928cb75ff",
+  "spec": "specs/014-can-you-put-hardwood-floors-in-a-kitchen-bathroom-or-basement-sammamish.json",
+  "live": false
+ },
+ {
+  "n": 15,
+  "slug": "is-vinyl-plank-flooring-really-waterproof-seattle",
+  "id": "6aa9f575faa59780983c656a",
+  "spec": "specs/015-is-vinyl-plank-flooring-really-waterproof-seattle.json",
+  "live": false
+ },
+ {
+  "n": 16,
+  "slug": "what-is-the-best-carpet-for-stairs-lynnwood",
+  "id": "6aa9f65507461b9166363b3c",
+  "spec": "specs/016-what-is-the-best-carpet-for-stairs-lynnwood.json",
+  "live": false
+ },
+ {
+  "n": 17,
+  "slug": "is-dustless-hardwood-floor-refinishing-really-dustless-edmonds",
+  "id": "6aa9f746a839c6e198cb9705",
+  "spec": "specs/017-is-dustless-hardwood-floor-refinishing-really-dustless-edmonds.json",
+  "live": false
+ },
+ {
+  "n": 18,
+  "slug": "what-is-the-best-hardwood-flooring-for-dogs-snohomish",
+  "id": "6aa9f81dcb9a9b2905df37f5",
+  "spec": "specs/018-what-is-the-best-hardwood-flooring-for-dogs-snohomish.json",
+  "live": false
+ },
+ {
+  "n": 19,
+  "slug": "can-vinyl-plank-be-installed-over-tile-hardwood-concrete-or-old-vinyl",
+  "id": "6aa9f8fd03e22a7eeca71b6b",
+  "spec": "specs/019-can-vinyl-plank-be-installed-over-tile-hardwood-concrete-or-old-vinyl.json",
+  "live": false
+ },
+ {
+  "n": 20,
+  "slug": "how-long-does-carpet-last-kirkland",
+  "id": "6aa9fce1210d6dddce26c2bb",
+  "spec": "specs/020-how-long-does-carpet-last-kirkland.json",
+  "live": false
+ },
+ {
+  "n": 21,
+  "slug": "water-based-vs-oil-based-finish-sammamish",
+  "id": "6aa9ff8f0dfacd64e7686742",
+  "spec": "specs/021-water-based-vs-oil-based-finish-sammamish.json",
+  "live": false
+ },
+ {
+  "n": 22,
+  "slug": "white-oak-vs-red-oak-flooring-seattle",
+  "id": "6aaa0144bb8539239b734a4a",
+  "spec": "specs/022-white-oak-vs-red-oak-flooring-seattle.json",
+  "live": false
+ },
+ {
+  "n": 23,
+  "slug": "spc-vs-wpc-vinyl-plank-lynnwood",
+  "id": "6aaa022002c0770bddd02cd5",
+  "spec": "specs/023-spc-vs-wpc-vinyl-plank-lynnwood.json",
+  "live": false
+ },
+ {
+  "n": 24,
+  "slug": "carpet-padding-explained-edmonds",
+  "id": "6aaadb95381e55c6cebd7433",
+  "spec": "specs/024-carpet-padding-explained-edmonds.json",
+  "live": false
+ },
+ {
+  "n": 25,
+  "slug": "can-engineered-hardwood-floors-be-refinished-snohomish",
+  "id": "6aaadeba0b31134f938f9014",
+  "spec": "specs/025-can-engineered-hardwood-floors-be-refinished-snohomish.json",
+  "live": false
+ },
+ {
+  "n": 26,
+  "slug": "how-long-does-hardwood-floor-installation-take-everett",
+  "id": "6aaadfa40b31134f938febfd",
+  "spec": "specs/026-how-long-does-hardwood-floor-installation-take-everett.json",
+  "live": false
+ },
+ {
+  "n": 27,
+  "slug": "how-thick-should-vinyl-plank-flooring-be-kirkland",
+  "id": "6aaae0e69ec54daca6f0fbe7",
+  "spec": "specs/027-how-thick-should-vinyl-plank-flooring-be-kirkland.json",
+  "live": false
+ },
+ {
+  "n": 28,
+  "slug": "nylon-vs-polyester-vs-triexta-vs-wool-carpet-sammamish",
+  "id": "6aaae1d906a655bec95ea862",
+  "spec": "specs/028-nylon-vs-polyester-vs-triexta-vs-wool-carpet-sammamish.json",
+  "live": false
+ },
+ {
+  "n": 29,
+  "slug": "how-many-times-can-hardwood-floors-be-refinished-before-theyre-done",
+  "id": "6aaae35339da8726b355d774",
+  "spec": "specs/029-how-many-times-can-hardwood-floors-be-refinished-before-theyre-done.json",
+  "live": false
+ },
+ {
+  "n": 30,
+  "slug": "nail-down-vs-glue-down-vs-floating-hardwood-lynnwood",
+  "id": "6aaae438907b79e394d9d28c",
+  "spec": "specs/030-nail-down-vs-glue-down-vs-floating-hardwood-lynnwood.json",
+  "live": false
+ },
+ {
+  "n": 31,
+  "slug": "what-is-the-best-vinyl-plank-flooring-for-dogs-edmonds",
+  "id": "6aa9f47e7bdeeffc937edf12",
+  "spec": "specs/031-what-is-the-best-vinyl-plank-flooring-for-dogs-edmonds.json",
+  "live": false
+ },
+ {
+  "n": 32,
+  "slug": "can-you-put-carpet-in-a-basement-in-snohomish",
+  "id": "6aa9f5644552b82c93c4b674",
+  "spec": "specs/032-can-you-put-carpet-in-a-basement-in-snohomish.json",
+  "live": false
+ },
+ {
+  "n": 33,
+  "slug": "can-pet-urine-stains-be-sanded-out-of-hardwood-floors-everett",
+  "id": "6aa9f669b0bed33a19d797d9",
+  "spec": "specs/033-can-pet-urine-stains-be-sanded-out-of-hardwood-floors-everett.json",
+  "live": false
+ },
+ {
+  "n": 34,
+  "slug": "do-hardwood-floors-need-to-acclimate-before-installation-kirkland",
+  "id": "6aa9f746a64281b2efe14f52",
+  "spec": "specs/034-do-hardwood-floors-need-to-acclimate-before-installation-kirkland.json",
+  "live": false
+ },
+ {
+  "n": 35,
+  "slug": "does-vinyl-plank-flooring-scratch-sammamish",
+  "id": "6aa9f81ccb9a9b2905df3790",
+  "spec": "specs/035-does-vinyl-plank-flooring-scratch-sammamish.json",
+  "live": false
+ },
+ {
+  "n": 36,
+  "slug": "how-much-does-it-cost-to-carpet-stairs-in-seattle",
+  "id": "6aa9f8e4faa59780983d8a3d",
+  "spec": "specs/036-how-much-does-it-cost-to-carpet-stairs-in-seattle.json",
+  "live": false
+ },
+ {
+  "n": 37,
+  "slug": "do-i-need-to-move-out-while-my-hardwood-floors-are-refinished-lynnwood",
+  "id": "6aaae6583bca1446b6a48b23",
+  "spec": "specs/037-do-i-need-to-move-out-while-my-hardwood-floors-are-refinished-lynnwood.json",
+  "live": false
+ },
+ {
+  "n": 38,
+  "slug": "prefinished-vs-site-finished-hardwood-floors-edmonds",
+  "id": "6aaae7c49ec54daca6f2012d",
+  "spec": "specs/038-prefinished-vs-site-finished-hardwood-floors-edmonds.json",
+  "live": false
+ },
+ {
+  "n": 39,
+  "slug": "does-vinyl-plank-flooring-look-cheap-snohomish",
+  "id": "6aaae8c4b7a7afe711543f0f",
+  "spec": "specs/039-does-vinyl-plank-flooring-look-cheap-snohomish.json",
+  "live": false
+ },
+ {
+  "n": 40,
+  "slug": "how-long-does-carpet-installation-take-everett",
+  "id": "6aaaea3a39da8726b3589d15",
+  "spec": "specs/040-how-long-does-carpet-installation-take-everett.json",
+  "live": false
+ },
+ {
+  "n": 41,
+  "slug": "hardwood-floor-stain-colors-trending-in-kirkland-for-2026",
+  "id": "6aa9fd1e99185e580d5edd12",
+  "spec": "specs/041-hardwood-floor-stain-colors-trending-in-kirkland-for-2026.json",
+  "live": false
+ },
+ {
+  "n": 42,
+  "slug": "wide-plank-vs-narrow-plank-hardwood-sammamish",
+  "id": "6aa9ff91b64d4b73485f2a52",
+  "spec": "specs/042-wide-plank-vs-narrow-plank-hardwood-sammamish.json",
+  "live": false
+ },
+ {
+  "n": 43,
+  "slug": "click-lock-vs-glue-down-vinyl-plank-seattle",
+  "id": "6aaa0142b64d4b73485ff0a1",
+  "spec": "specs/043-click-lock-vs-glue-down-vinyl-plank-seattle.json",
+  "live": false
+ },
+ {
+  "n": 44,
+  "slug": "should-you-replace-carpet-before-selling-a-house-in-lynnwood",
+  "id": "6aaa021fca99e1f7a60165c5",
+  "spec": "specs/044-should-you-replace-carpet-before-selling-a-house-in-lynnwood.json",
+  "live": false
+ },
+ {
+  "n": 45,
+  "slug": "can-red-oak-floors-be-stained-to-look-like-white-oak-edmonds",
+  "id": "6aaa034e02c0770bddd0f18a",
+  "spec": "specs/045-can-red-oak-floors-be-stained-to-look-like-white-oak-edmonds.json",
+  "live": false
+ },
+ {
+  "n": 46,
+  "slug": "can-hardwood-be-installed-over-existing-hardwood-tile-or-vinyl-snohomish",
+  "id": "6aaaeba63d72121a5669456c",
+  "spec": "specs/046-can-hardwood-be-installed-over-existing-hardwood-tile-or-vinyl-snohomish.json",
+  "live": false
+ },
+ {
+  "n": 47,
+  "slug": "do-you-need-underlayment-under-vinyl-plank-flooring-everett",
+  "id": "6aaaec7c97d81695653ed0bb",
+  "spec": "specs/047-do-you-need-underlayment-under-vinyl-plank-flooring-everett.json",
+  "live": false
+ },
+ {
+  "n": 48,
+  "slug": "best-carpet-for-rental-properties-in-kirkland",
+  "id": "6aa9f4a92dbefc31ec2a9445",
+  "spec": "specs/048-best-carpet-for-rental-properties-in-kirkland.json",
+  "live": false
+ },
+ {
+  "n": 49,
+  "slug": "is-it-worth-refinishing-hardwood-floors-before-selling-a-house",
+  "id": "6aa9f5c4a64281b2efe14044",
+  "spec": "specs/049-is-it-worth-refinishing-hardwood-floors-before-selling-a-house.json",
+  "live": false
+ },
+ {
+  "n": 50,
+  "slug": "hardwood-vs-luxury-vinyl-plank-for-resale-value-in-seattle",
+  "id": "6aa9f6af33611cf69fc3791e",
+  "spec": "specs/050-hardwood-vs-luxury-vinyl-plank-for-resale-value-in-seattle.json",
+  "live": false
+ },
+ {
+  "n": 51,
+  "slug": "can-you-put-vinyl-plank-in-bathrooms-kitchens-and-laundry-rooms-lynnwood",
+  "id": "6aa9f7820d59d403a4d165e8",
+  "spec": "specs/051-can-you-put-vinyl-plank-in-bathrooms-kitchens-and-laundry-rooms-lynnwood.json",
+  "live": false
+ },
+ {
+  "n": 52,
+  "slug": "berber-vs-plush-vs-frieze-carpet-edmonds",
+  "id": "6aa9f86acb9a9b2905df5ee6",
+  "spec": "specs/052-berber-vs-plush-vs-frieze-carpet-edmonds.json",
+  "live": false
+ },
+ {
+  "n": 53,
+  "slug": "how-soon-can-you-walk-on-refinished-hardwood-floors-and-move-furniture",
+  "id": "6aa9f95f73b077ae41cba2b1",
+  "spec": "specs/053-how-soon-can-you-walk-on-refinished-hardwood-floors-and-move-furniture.json",
+  "live": false
+ },
+ {
+  "n": 54,
+  "slug": "which-direction-should-hardwood-floors-run-everett",
+  "id": "6aaadb94f97ed7056629d714",
+  "spec": "specs/054-which-direction-should-hardwood-floors-run-everett.json",
+  "live": false
+ },
+ {
+  "n": 55,
+  "slug": "how-much-does-vinyl-plank-on-stairs-cost-in-kirkland",
+  "id": "6aaadeb62a5737e0f46d4b8a",
+  "spec": "specs/055-how-much-does-vinyl-plank-on-stairs-cost-in-kirkland.json",
+  "live": false
+ },
+ {
+  "n": 56,
+  "slug": "low-voc-carpet-sammamish",
+  "id": "6aaadfa431192d06f57cd628",
+  "spec": "specs/056-low-voc-carpet-sammamish.json",
+  "live": false
+ },
+ {
+  "n": 57,
+  "slug": "why-are-my-hardwood-floors-turning-gray-or-black-seattle",
+  "id": "6aaae0e7b9fbaf65379dacb6",
+  "spec": "specs/057-why-are-my-hardwood-floors-turning-gray-or-black-seattle.json",
+  "live": false
+ },
+ {
+  "n": 58,
+  "slug": "how-much-does-herringbone-or-chevron-hardwood-flooring-cost-to-install",
+  "id": "6aaae1da9e52a5a9f8f48ceb",
+  "spec": "specs/058-how-much-does-herringbone-or-chevron-hardwood-flooring-cost-to-install.json",
+  "live": false
+ },
+ {
+  "n": 59,
+  "slug": "does-vinyl-plank-flooring-need-to-acclimate-before-installation-edmonds",
+  "id": "6aaae352d2f04d9afca546b4",
+  "spec": "specs/059-does-vinyl-plank-flooring-need-to-acclimate-before-installation-edmonds.json",
+  "live": false
+ },
+ {
+  "n": 60,
+  "slug": "is-carpet-bad-for-allergies-snohomish",
+  "id": "6aaae437af3a23895daaeed6",
+  "spec": "specs/060-is-carpet-bad-for-allergies-snohomish.json",
+  "live": false
+ },
+ {
+  "n": 61,
+  "slug": "can-water-damaged-hardwood-floors-be-refinished-everett",
+  "id": "6aaae658bcbbbd4034185228",
+  "spec": "specs/061-can-water-damaged-hardwood-floors-be-refinished-everett.json",
+  "live": false
+ },
+ {
+  "n": 62,
+  "slug": "how-much-does-it-cost-to-install-hardwood-on-stairs-in-kirkland",
+  "id": "6aa9fd1c416a442774ca1efc",
+  "spec": "specs/062-how-much-does-it-cost-to-install-hardwood-on-stairs-in-kirkland.json",
+  "live": false
+ },
+ {
+  "n": 63,
+  "slug": "why-is-my-vinyl-plank-floor-buckling-or-gapping-sammamish",
+  "id": "6aa9fe024a462bffd5ba0081",
+  "spec": "specs/063-why-is-my-vinyl-plank-floor-buckling-or-gapping-sammamish.json",
+  "live": false
+ },
+ {
+  "n": 64,
+  "slug": "can-carpet-be-installed-over-existing-carpet-hardwood-or-concrete",
+  "id": "6aa9fec6ba83249976e15790",
+  "spec": "specs/064-can-carpet-be-installed-over-existing-carpet-hardwood-or-concrete.json",
+  "live": false
+ },
+ {
+  "n": 65,
+  "slug": "screening-vs-buffing-vs-sanding-hardwood-floors-lynnwood",
+  "id": "6aa9f47df53d669600b758f7",
+  "spec": "specs/065-screening-vs-buffing-vs-sanding-hardwood-floors-lynnwood.json",
+  "live": false
+ },
+ {
+  "n": 66,
+  "slug": "can-you-install-hardwood-floors-over-radiant-heat-edmonds",
+  "id": "6aa9f585b0bed33a19d71c97",
+  "spec": "specs/066-can-you-install-hardwood-floors-over-radiant-heat-edmonds.json",
+  "live": false
+ },
+ {
+  "n": 67,
+  "slug": "how-long-does-vinyl-plank-installation-take-snohomish",
+  "id": "6aa9f663faa59780983cef3f",
+  "spec": "specs/067-how-long-does-vinyl-plank-installation-take-snohomish.json",
+  "live": false
+ },
+ {
+  "n": 68,
+  "slug": "how-to-prepare-for-carpet-installation-everett",
+  "id": "6aa9f746457f2238297008a2",
+  "spec": "specs/068-how-to-prepare-for-carpet-installation-everett.json",
+  "live": false
+ },
+ {
+  "n": 69,
+  "slug": "whats-under-my-carpet-kirkland",
+  "id": "6aa9f81cc6534e4d68761f7e",
+  "spec": "specs/069-whats-under-my-carpet-kirkland.json",
+  "live": false
+ },
+ {
+  "n": 70,
+  "slug": "hickory-vs-maple-vs-oak-flooring-sammamish",
+  "id": "6aa9f8e9f03c33e46dd05a01",
+  "spec": "specs/070-hickory-vs-maple-vs-oak-flooring-sammamish.json",
+  "live": false
+ },
+ {
+  "n": 71,
+  "slug": "should-you-install-vinyl-plank-yourself-seattle",
+  "id": "6aa9ff982dbefc31ec2c2c0a",
+  "spec": "specs/071-should-you-install-vinyl-plank-yourself-seattle.json",
+  "live": false
+ },
+ {
+  "n": 72,
+  "slug": "carpet-seams-lynnwood",
+  "id": "6aaa0141f403ded91de01ba1",
+  "spec": "specs/072-carpet-seams-lynnwood.json",
+  "live": false
+ },
+ {
+  "n": 73,
+  "slug": "how-to-refinish-old-fir-floors-in-a-1920s-edmonds-house-without-ruining",
+  "id": "6aaa02208aafd408efd8eb9b",
+  "spec": "specs/073-how-to-refinish-old-fir-floors-in-a-1920s-edmonds-house-without-ruining.json",
+  "live": false
+ },
+ {
+  "n": 74,
+  "slug": "how-much-extra-hardwood-flooring-should-you-order-snohomish",
+  "id": "6aaa034c72a2c777d6197e58",
+  "spec": "specs/074-how-much-extra-hardwood-flooring-should-you-order-snohomish.json",
+  "live": false
+ },
+ {
+  "n": 75,
+  "slug": "best-flooring-for-everett-rental-properties",
+  "id": "6aaae7c27c4e772420ca147b",
+  "spec": "specs/075-best-flooring-for-everett-rental-properties.json",
+  "live": false
+ },
+ {
+  "n": 76,
+  "slug": "stretch-in-vs-glue-down-carpet-kirkland",
+  "id": "6aaae8c19d3227de05db9bd7",
+  "spec": "specs/076-stretch-in-vs-glue-down-carpet-kirkland.json",
+  "live": false
+ },
+ {
+  "n": 77,
+  "slug": "should-you-refinish-hardwood-floors-before-or-after-painting",
+  "id": "6aaaea3a3bca1446b6a6734d",
+  "spec": "specs/077-should-you-refinish-hardwood-floors-before-or-after-painting.json",
+  "live": false
+ },
+ {
+  "n": 78,
+  "slug": "do-you-need-underlayment-under-hardwood-floors-seattle",
+  "id": "6aaaeba95da77dbef0cbaa08",
+  "spec": "specs/078-do-you-need-underlayment-under-hardwood-floors-seattle.json",
+  "live": false
+ },
+ {
+  "n": 79,
+  "slug": "is-vinyl-plank-flooring-toxic-lynnwood",
+  "id": "6aaaec7e2735840ba98f6bd9",
+  "spec": "specs/079-is-vinyl-plank-flooring-toxic-lynnwood.json",
+  "live": false
+ },
+ {
+  "n": 80,
+  "slug": "best-carpet-for-kids-rooms-and-playrooms-in-edmonds",
+  "id": "6aaad9584a7cfdb222ee57e4",
+  "spec": "specs/080-best-carpet-for-kids-rooms-and-playrooms-in-edmonds.json",
+  "live": false
+ },
+ {
+  "n": 81,
+  "slug": "can-hardwood-floors-be-refinished-in-winter-snohomish",
+  "id": "6aaadeb726f6496d0777d75e",
+  "spec": "specs/081-can-hardwood-floors-be-refinished-in-winter-snohomish.json",
+  "live": false
+ },
+ {
+  "n": 82,
+  "slug": "what-subfloor-prep-is-needed-before-installing-hardwood-floors-everett",
+  "id": "6aa9f4aef53d669600b7720e",
+  "spec": "specs/082-what-subfloor-prep-is-needed-before-installing-hardwood-floors-everett.json",
+  "live": false
+ },
+ {
+  "n": 83,
+  "slug": "can-vinyl-plank-flooring-be-repaired-kirkland",
+  "id": "6aa9f5a503754383c1d254b0",
+  "spec": "specs/083-can-vinyl-plank-flooring-be-repaired-kirkland.json",
+  "live": false
+ },
+ {
+  "n": 84,
+  "slug": "carpet-tiles-vs-wall-to-wall-carpet-sammamish",
+  "id": "6aa9f66d2dbefc31ec2b5c25",
+  "spec": "specs/084-carpet-tiles-vs-wall-to-wall-carpet-sammamish.json",
+  "live": false
+ },
+ {
+  "n": 85,
+  "slug": "what-does-a-500-sq-ft-minimum-mean-for-refinishing-one-room-seattle",
+  "id": "6aa9f751457f223829700b29",
+  "spec": "specs/085-what-does-a-500-sq-ft-minimum-mean-for-refinishing-one-room-seattle.json",
+  "live": false
+ },
+ {
+  "n": 86,
+  "slug": "should-you-install-hardwood-floors-yourself-lynnwood",
+  "id": "6aa9f823c6534e4d6876228f",
+  "spec": "specs/086-should-you-install-hardwood-floors-yourself-lynnwood.json",
+  "live": false
+ },
+ {
+  "n": 87,
+  "slug": "can-vinyl-plank-go-over-radiant-floor-heat-edmonds",
+  "id": "6aa9f8f3f53d669600b86be1",
+  "spec": "specs/087-can-vinyl-plank-go-over-radiant-floor-heat-edmonds.json",
+  "live": false
+ },
+ {
+  "n": 88,
+  "slug": "what-is-the-best-carpet-for-high-traffic-areas-snohomish",
+  "id": "6aaae0e020a67b2e27c2f000",
+  "spec": "specs/088-what-is-the-best-carpet-for-high-traffic-areas-snohomish.json",
+  "live": false
+ },
+ {
+  "n": 89,
+  "slug": "can-i-refinish-just-one-room-of-hardwood-everett",
+  "id": "6aa9fd1efaa59780983e9dc4",
+  "spec": "specs/089-can-i-refinish-just-one-room-of-hardwood-everett.json",
+  "live": false
+ },
+ {
+  "n": 90,
+  "slug": "hardwood-floors-in-kirkland-condos-and-second-floors",
+  "id": "6aa9ffd30dfacd64e76883c4",
+  "spec": "specs/090-hardwood-floors-in-kirkland-condos-and-second-floors.json",
+  "live": false
+ },
+ {
+  "n": 91,
+  "slug": "what-to-look-for-in-vinyl-plank-flooring-sammamish",
+  "id": "6aaa021c0dfacd64e7695b22",
+  "spec": "specs/091-what-to-look-for-in-vinyl-plank-flooring-sammamish.json",
+  "live": false
+ },
+ {
+  "n": 92,
+  "slug": "light-vs-dark-carpet-seattle",
+  "id": "6aaae351c359813802fc6188",
+  "spec": "specs/092-light-vs-dark-carpet-seattle.json",
+  "live": false
+ },
+ {
+  "n": 93,
+  "slug": "matte-vs-satin-vs-semi-gloss-lynnwood",
+  "id": "6aaae44fa394c236024bdfee",
+  "spec": "specs/093-matte-vs-satin-vs-semi-gloss-lynnwood.json",
+  "live": false
+ },
+ {
+  "n": 94,
+  "slug": "how-to-match-new-hardwood-floors-to-existing-floors-in-an-older-edmonds",
+  "id": "6aaae65b67bb4fbfec0a1b8a",
+  "spec": "specs/094-how-to-match-new-hardwood-floors-to-existing-floors-in-an-older-edmonds.json",
+  "live": false
+ },
+ {
+  "n": 95,
+  "slug": "why-vinyl-plank-floors-lift-and-peak-snohomish",
+  "id": "6aaae7c72735840ba98e0e85",
+  "spec": "specs/095-why-vinyl-plank-floors-lift-and-peak-snohomish.json",
+  "live": false
+ },
+ {
+  "n": 96,
+  "slug": "how-to-measure-for-carpet-everett",
+  "id": "6aaae8c4b7a7afe711543f97",
+  "spec": "specs/096-how-to-measure-for-carpet-everett.json",
+  "live": false
+ },
+ {
+  "n": 97,
+  "slug": "how-to-fix-scratches-in-hardwood-floors-without-a-full-refinish-kirkland",
+  "id": "6aaaeba89ec54daca6f28a4b",
+  "spec": "specs/097-how-to-fix-scratches-in-hardwood-floors-without-a-full-refinish-kirkland.json",
+  "live": false
+ },
+ {
+  "n": 98,
+  "slug": "how-to-choose-a-hardwood-floor-color-for-dark-pacific-northwest-winters",
+  "id": "6aaaece13d72121a5669c291",
+  "spec": "specs/098-how-to-choose-a-hardwood-floor-color-for-dark-pacific-northwest-winters.json",
+  "live": false
+ },
+ {
+  "n": 99,
+  "slug": "how-flat-does-a-subfloor-need-to-be-for-vinyl-plank-seattle",
+  "id": "6aa9f4adca99e1f7a6ffb9ec",
+  "spec": "specs/099-how-flat-does-a-subfloor-need-to-be-for-vinyl-plank-seattle.json",
+  "live": false
+ },
+ {
+  "n": 100,
+  "slug": "best-carpet-for-a-home-office-lynnwood",
+  "id": "6aa9f5ac40215a6ea94c89e5",
+  "spec": "specs/100-best-carpet-for-a-home-office-lynnwood.json",
+  "live": false
+ },
+ {
+  "n": 101,
+  "slug": "are-refinished-hardwood-floors-safe-for-babies-and-pets-edmonds",
+  "id": "6aa9f69a27cbd2fafc332f93",
+  "spec": "specs/101-are-refinished-hardwood-floors-safe-for-babies-and-pets-edmonds.json",
+  "live": false
+ },
+ {
+  "n": 102,
+  "slug": "can-hardwood-floors-be-installed-in-winter-snohomish",
+  "id": "6aa9f770f7e811bb4f4a0ee0",
+  "spec": "specs/102-can-hardwood-floors-be-installed-in-winter-snohomish.json",
+  "live": false
+ },
+ {
+  "n": 103,
+  "slug": "vinyl-plank-in-everett-condos",
+  "id": "6aa9f84e07461b9166368cfe",
+  "spec": "specs/103-vinyl-plank-in-everett-condos.json",
+  "live": false
+ },
+ {
+  "n": 104,
+  "slug": "carpet-for-media-rooms-and-basements-kirkland",
+  "id": "6aa9f929d0cfa7ffab0b8979",
+  "spec": "specs/104-carpet-for-media-rooms-and-basements-kirkland.json",
+  "live": false
+ },
+ {
+  "n": 105,
+  "slug": "how-to-prepare-your-sammamish-home-for-hardwood-floor-refinishing",
+  "id": "6aaaef2b80036c0e0acdb5e2",
+  "spec": "specs/105-how-to-prepare-your-sammamish-home-for-hardwood-floor-refinishing.json",
+  "live": false
+ },
+ {
+  "n": 106,
+  "slug": "whats-included-in-a-hardwood-installation-quote-seattle",
+  "id": "6aaaf7d3e64da23b9243e136",
+  "spec": "specs/106-whats-included-in-a-hardwood-installation-quote-seattle.json",
+  "live": false
+ },
+ {
+  "n": 107,
+  "slug": "vinyl-plank-over-uneven-floors-and-crawlspaces-in-older-lynnwood-homes",
+  "id": "6aaaf9e68f4d1f26439fc8b1",
+  "spec": "specs/107-vinyl-plank-over-uneven-floors-and-crawlspaces-in-older-lynnwood-homes.json",
+  "live": false
+ },
+ {
+  "n": 108,
+  "slug": "carpet-vs-hardwood-for-resale-value-in-edmonds",
+  "id": "6aaadb972c1c99f0337b4f84",
+  "spec": "specs/108-carpet-vs-hardwood-for-resale-value-in-edmonds.json",
+  "live": false
+ },
+ {
+  "n": 109,
+  "slug": "how-much-does-it-cost-to-refinish-hardwood-stairs-in-snohomish",
+  "id": "6aaa0224cd9368034eb9807c",
+  "spec": "specs/109-how-much-does-it-cost-to-refinish-hardwood-stairs-in-snohomish.json",
+  "live": false
+ },
+ {
+  "n": 110,
+  "slug": "how-a-mobile-flooring-showroom-works-everett",
+  "id": "6aaadeba26f6496d0777d928",
+  "spec": "specs/110-how-a-mobile-flooring-showroom-works-everett.json",
+  "live": false
+ },
+ {
+  "n": 111,
+  "slug": "vinyl-plank-vs-tile-in-bathrooms-kirkland",
+  "id": "6aaadfa468122e206354fe33",
+  "spec": "specs/111-vinyl-plank-vs-tile-in-bathrooms-kirkland.json",
+  "live": false
+ },
+ {
+  "n": 112,
+  "slug": "wall-to-wall-carpet-vs-area-rug-over-hardwood-sammamish",
+  "id": "6aaae0e6eb11c5ab0d1461e4",
+  "spec": "specs/112-wall-to-wall-carpet-vs-area-rug-over-hardwood-sammamish.json",
+  "live": false
+ },
+ {
+  "n": 113,
+  "slug": "can-parquet-floors-be-refinished-seattle",
+  "id": "6aa9fd1c8aafd408efd852da",
+  "spec": "specs/113-can-parquet-floors-be-refinished-seattle.json",
+  "live": false
+ },
+ {
+  "n": 114,
+  "slug": "hardwood-floor-transitions-and-thresholds-lynnwood",
+  "id": "6aa9ff8fb74d535018746f13",
+  "spec": "specs/114-hardwood-floor-transitions-and-thresholds-lynnwood.json",
+  "live": false
+ },
+ {
+  "n": 115,
+  "slug": "which-direction-should-vinyl-plank-flooring-run-edmonds",
+  "id": "6aaa01437fe064bb1635a86b",
+  "spec": "specs/115-which-direction-should-vinyl-plank-flooring-run-edmonds.json",
+  "live": false
+ },
+ {
+  "n": 116,
+  "slug": "can-carpet-be-installed-over-a-squeaky-subfloor-snohomish",
+  "id": "6aa9f4a818b36bc8164a4966",
+  "spec": "specs/116-can-carpet-be-installed-over-a-squeaky-subfloor-snohomish.json",
+  "live": false
+ },
+ {
+  "n": 117,
+  "slug": "can-gaps-in-hardwood-floors-be-fixed-during-refinishing-everett",
+  "id": "6aa9f5ca4a462bffd5b7f717",
+  "spec": "specs/117-can-gaps-in-hardwood-floors-be-fixed-during-refinishing-everett.json",
+  "live": false
+ },
+ {
+  "n": 118,
+  "slug": "hardwood-over-a-crawlspace-kirkland",
+  "id": "6aa9f6b140215a6ea94d05ca",
+  "spec": "specs/118-hardwood-over-a-crawlspace-kirkland.json",
+  "live": false
+ },
+ {
+  "n": 119,
+  "slug": "herringbone-vinyl-plank-sammamish",
+  "id": "6aaae1da52c8e8ef64b12127",
+  "spec": "specs/119-herringbone-vinyl-plank-sammamish.json",
+  "live": false
+ },
+ {
+  "n": 120,
+  "slug": "is-wool-carpet-worth-the-price-seattle",
+  "id": "6aaae3529e52a5a9f8f54574",
+  "spec": "specs/120-is-wool-carpet-worth-the-price-seattle.json",
+  "live": false
+ },
+ {
+  "n": 121,
+  "slug": "why-does-my-refinished-floor-look-blotchy-lynnwood",
+  "id": "6aaae43ab7a7afe711527a5d",
+  "spec": "specs/121-why-does-my-refinished-floor-look-blotchy-lynnwood.json",
+  "live": false
+ },
+ {
+  "n": 122,
+  "slug": "are-engineered-hardwood-floors-real-hardwood-edmonds",
+  "id": "6aa9f7adf03c33e46dcfd492",
+  "spec": "specs/122-are-engineered-hardwood-floors-real-hardwood-edmonds.json",
+  "live": false
+ },
+ {
+  "n": 123,
+  "slug": "vinyl-plank-in-sunrooms-and-south-facing-rooms-snohomish",
+  "id": "6aa9f892c74f1df16b9b8625",
+  "spec": "specs/123-vinyl-plank-in-sunrooms-and-south-facing-rooms-snohomish.json",
+  "live": false
+ },
+ {
+  "n": 124,
+  "slug": "carpet-pile-height-and-your-vacuum-everett",
+  "id": "6aa9f99db1bdbd045aac9dbd",
+  "spec": "specs/124-carpet-pile-height-and-your-vacuum-everett.json",
+  "live": false
+ },
+ {
+  "n": 125,
+  "slug": "what-does-bona-certified-craftsman-mean-and-why-does-it-matter",
+  "id": "6aaa022627cbd2fafc3700ef",
+  "spec": "specs/125-what-does-bona-certified-craftsman-mean-and-why-does-it-matter.json",
+  "live": false
+ },
+ {
+  "n": 126,
+  "slug": "how-thick-should-an-engineered-hardwood-wear-layer-be-sammamish",
+  "id": "6aaae65780c5d42246fb138e",
+  "spec": "specs/126-how-thick-should-an-engineered-hardwood-wear-layer-be-sammamish.json",
+  "live": false
+ },
+ {
+  "n": 127,
+  "slug": "how-much-does-it-cost-to-replace-carpet-with-vinyl-plank-in-seattle",
+  "id": "6aaae7c439da8726b3573dc2",
+  "spec": "specs/127-how-much-does-it-cost-to-replace-carpet-with-vinyl-plank-in-seattle.json",
+  "live": false
+ },
+ {
+  "n": 128,
+  "slug": "why-carpet-buckles-and-ripples-lynnwood",
+  "id": "6aaae8c29d3227de05db9c3c",
+  "spec": "specs/128-why-carpet-buckles-and-ripples-lynnwood.json",
+  "live": false
+ },
+ {
+  "n": 129,
+  "slug": "diy-hardwood-floor-refinishing-vs-hiring-a-pro-in-edmonds",
+  "id": "6aaaea3b3de0d0477f9d50b6",
+  "spec": "specs/129-diy-hardwood-floor-refinishing-vs-hiring-a-pro-in-edmonds.json",
+  "live": false
+ },
+ {
+  "n": 130,
+  "slug": "what-is-the-best-hardwood-flooring-for-high-traffic-areas-snohomish",
+  "id": "6aaaeba84ca3195535fe5d15",
+  "spec": "specs/130-what-is-the-best-hardwood-flooring-for-high-traffic-areas-snohomish.json",
+  "live": false
+ },
+ {
+  "n": 131,
+  "slug": "whole-house-vinyl-plank-installation-in-everett",
+  "id": "6aaaec7d3bca1446b6a7c8b7",
+  "spec": "specs/131-whole-house-vinyl-plank-installation-in-everett.json",
+  "live": false
+ },
+ {
+  "n": 132,
+  "slug": "patterned-carpet-trends-for-2026-kirkland",
+  "id": "6aaa034df403ded91de09b49",
+  "spec": "specs/132-patterned-carpet-trends-for-2026-kirkland.json",
+  "live": false
+ },
+ {
+  "n": 133,
+  "slug": "can-you-change-the-color-of-hardwood-floors-without-sanding-sammamish",
+  "id": "6aa9f4cbf403ded91ddcc36c",
+  "spec": "specs/133-can-you-change-the-color-of-hardwood-floors-without-sanding-sammamish.json",
+  "live": false
+ },
+ {
+  "n": 134,
+  "slug": "how-much-does-it-cost-to-remove-old-carpet-or-flooring-before-hardwood",
+  "id": "6aa9f59aadf4d902529c534d",
+  "spec": "specs/134-how-much-does-it-cost-to-remove-old-carpet-or-flooring-before-hardwood.json",
+  "live": false
+ },
+ {
+  "n": 135,
+  "slug": "how-to-clean-vinyl-plank-floors-lynnwood",
+  "id": "6aa9f66307461b9166364006",
+  "spec": "specs/135-how-to-clean-vinyl-plank-floors-lynnwood.json",
+  "live": false
+ },
+ {
+  "n": 136,
+  "slug": "can-you-install-carpet-over-radiant-floor-heat-edmonds",
+  "id": "6aaadb932e072ab2014a622c",
+  "spec": "specs/136-can-you-install-carpet-over-radiant-floor-heat-edmonds.json",
+  "live": false
+ },
+ {
+  "n": 137,
+  "slug": "how-to-clean-and-maintain-refinished-hardwood-floors-so-they-last-20",
+  "id": "6aaa0220e5f312d7025e10a5",
+  "spec": "specs/137-how-to-clean-and-maintain-refinished-hardwood-floors-so-they-last-20.json",
+  "live": false
+ },
+ {
+  "n": 138,
+  "slug": "baseboards-and-quarter-round-everett",
+  "id": "6aaadeb88a84e9991ad11d62",
+  "spec": "specs/138-baseboards-and-quarter-round-everett.json",
+  "live": false
+ },
+ {
+  "n": 139,
+  "slug": "do-you-have-to-remove-baseboards-to-install-vinyl-plank-kirkland",
+  "id": "6aaae0e03af5a3e4e031d528",
+  "spec": "specs/139-do-you-have-to-remove-baseboards-to-install-vinyl-plank-kirkland.json",
+  "live": false
+ },
+ {
+  "n": 140,
+  "slug": "carpet-removal-and-disposal-sammamish",
+  "id": "6aaae1d968122e206355ae4a",
+  "spec": "specs/140-carpet-removal-and-disposal-sammamish.json",
+  "live": false
+ },
+ {
+  "n": 141,
+  "slug": "refinishing-hardwood-floors-in-seattle-condos",
+  "id": "6aaae43980c5d42246fa18b0",
+  "spec": "specs/141-refinishing-hardwood-floors-in-seattle-condos.json",
+  "live": false
+ },
+ {
+  "n": 142,
+  "slug": "hardwood-floors-in-a-new-build-vs-a-remodel-lynnwood",
+  "id": "6aa9f7c518b36bc8164b3d43",
+  "spec": "specs/142-hardwood-floors-in-a-new-build-vs-a-remodel-lynnwood.json",
+  "live": false
+ },
+ {
+  "n": 143,
+  "slug": "rigid-core-vs-flexible-vinyl-plank-edmonds",
+  "id": "6aa9f89104475926203d3fda",
+  "spec": "specs/143-rigid-core-vs-flexible-vinyl-plank-edmonds.json",
+  "live": false
+ },
+ {
+  "n": 144,
+  "slug": "does-stain-resistant-carpet-actually-work-snohomish",
+  "id": "6aaae65a930892c1c32a87e2",
+  "spec": "specs/144-does-stain-resistant-carpet-actually-work-snohomish.json",
+  "live": false
+ },
+ {
+  "n": 145,
+  "slug": "does-refinishing-hardwood-floors-increase-home-value-in-everett",
+  "id": "6aaae7c698ce32e8e5bbd0d1",
+  "spec": "specs/145-does-refinishing-hardwood-floors-increase-home-value-in-everett.json",
+  "live": false
+ },
+ {
+  "n": 146,
+  "slug": "how-long-after-hardwood-installation-can-you-walk-on-it-and-move",
+  "id": "6aaae8c70b31134f9393c33a",
+  "spec": "specs/146-how-long-after-hardwood-installation-can-you-walk-on-it-and-move.json",
+  "live": false
+ },
+ {
+  "n": 147,
+  "slug": "is-vinyl-plank-a-good-choice-for-sammamishs-wet-climate",
+  "id": "6aaaeba667bb4fbfec0b49a1",
+  "spec": "specs/147-is-vinyl-plank-a-good-choice-for-sammamishs-wet-climate.json",
+  "live": false
+ },
+ {
+  "n": 148,
+  "slug": "what-does-a-carpet-warranty-actually-cover-seattle",
+  "id": "6aaaec7b3bca1446b6a7c777",
+  "spec": "specs/148-what-does-a-carpet-warranty-actually-cover-seattle.json",
+  "live": false
+ },
+ {
+  "n": 149,
+  "slug": "can-refinishing-fix-squeaky-hardwood-floors-lynnwood",
+  "id": "6aaaee3f0b31134f93967fb2",
+  "spec": "specs/149-can-refinishing-fix-squeaky-hardwood-floors-lynnwood.json",
+  "live": false
+ },
+ {
+  "n": 150,
+  "slug": "hardwood-vs-laminate-flooring-edmonds",
+  "id": "6aaaefd592f763963e89cca4",
+  "spec": "specs/150-hardwood-vs-laminate-flooring-edmonds.json",
+  "live": false
+ },
+ {
+  "n": 151,
+  "slug": "best-flooring-for-garage-conversions-adus-and-dadus-in-snohomish",
+  "id": "6aaafb4fab19d4165323c883",
+  "spec": "specs/151-best-flooring-for-garage-conversions-adus-and-dadus-in-snohomish.json",
+  "live": false
+ },
+ {
+  "n": 153,
+  "slug": "can-sun-faded-hardwood-floors-under-rugs-be-fixed-kirkland",
+  "id": "6aaadb93fe4656c6089f6c2b",
+  "spec": "specs/153-can-sun-faded-hardwood-floors-under-rugs-be-fixed-kirkland.json",
+  "live": false
+ },
+ {
+  "n": 154,
+  "slug": "expansion-gaps-in-hardwood-floors-sammamish",
+  "id": "6aaadeb7c359813802faf2c1",
+  "spec": "specs/154-expansion-gaps-in-hardwood-floors-sammamish.json",
+  "live": false
+ },
+ {
+  "n": 155,
+  "slug": "cheap-vs-premium-vinyl-plank-seattle",
+  "id": "6aaadfa3b88e0d0ac59d92ed",
+  "spec": "specs/155-cheap-vs-premium-vinyl-plank-seattle.json",
+  "live": false
+ },
+ {
+  "n": 156,
+  "slug": "carpet-in-lynnwood-condos",
+  "id": "6aaae0e339da8726b354a502",
+  "spec": "specs/156-carpet-in-lynnwood-condos.json",
+  "live": false
+ },
+ {
+  "n": 157,
+  "slug": "how-to-refinish-hardwood-floors-with-a-dog-in-the-house-edmonds",
+  "id": "6aaae1db39da8726b3554a02",
+  "spec": "specs/157-how-to-refinish-hardwood-floors-with-a-dog-in-the-house-edmonds.json",
+  "live": false
+ },
+ {
+  "n": 158,
+  "slug": "eco-friendly-hardwood-flooring-options-for-snohomish-homes",
+  "id": "6aaae35352c8e8ef64b1bf90",
+  "spec": "specs/158-eco-friendly-hardwood-flooring-options-for-snohomish-homes.json",
+  "live": false
+ },
+ {
+  "n": 159,
+  "slug": "vinyl-plank-in-kitchens-everett",
+  "id": "6aaa021e2e0051841e382781",
+  "spec": "specs/159-vinyl-plank-in-kitchens-everett.json",
+  "live": false
+ },
+ {
+  "n": 160,
+  "slug": "is-carpet-outdated-in-2026-kirkland",
+  "id": "6aaae438b7a7afe711527972",
+  "spec": "specs/160-is-carpet-outdated-in-2026-kirkland.json",
+  "live": false
+ },
+ {
+  "n": 161,
+  "slug": "can-bamboo-floors-be-refinished-sammamish",
+  "id": "6aaae659c359813802fd859a",
+  "spec": "specs/161-can-bamboo-floors-be-refinished-sammamish.json",
+  "live": false
+ },
+ {
+  "n": 162,
+  "slug": "what-does-a-hardwood-floor-warranty-actually-cover-seattle",
+  "id": "6aaae7c506a655bec96083de",
+  "spec": "specs/162-what-does-a-hardwood-floor-warranty-actually-cover-seattle.json",
+  "live": false
+ },
+ {
+  "n": 163,
+  "slug": "vinyl-plank-vs-engineered-hardwood-for-resale-in-lynnwood",
+  "id": "6aaae8c1281e8ecf0c5ce3bf",
+  "spec": "specs/163-vinyl-plank-vs-engineered-hardwood-for-resale-in-lynnwood.json",
+  "live": false
+ },
+ {
+  "n": 164,
+  "slug": "carpet-to-hardwood-transitions-edmonds",
+  "id": "6aaaea3aeb11c5ab0d15514d",
+  "spec": "specs/164-carpet-to-hardwood-transitions-edmonds.json",
+  "live": false
+ },
+ {
+  "n": 165,
+  "slug": "cupped-or-crowned-hardwood-floors-snohomish",
+  "id": "6aa9fd1d03e22a7eeca875f9",
+  "spec": "specs/165-cupped-or-crowned-hardwood-floors-snohomish.json",
+  "live": false
+ },
+ {
+  "n": 166,
+  "slug": "is-hardwood-flooring-worth-it-in-everett-rental-properties",
+  "id": "6aaaeba8df7455ea41a44c96",
+  "spec": "specs/166-is-hardwood-flooring-worth-it-in-everett-rental-properties.json",
+  "live": false
+ },
+ {
+  "n": 167,
+  "slug": "does-vinyl-plank-need-a-moisture-test-over-concrete-kirkland",
+  "id": "6aaaec7cc4db5b2723f81f5e",
+  "spec": "specs/167-does-vinyl-plank-need-a-moisture-test-over-concrete-kirkland.json",
+  "live": false
+ },
+ {
+  "n": 168,
+  "slug": "carpet-cushion-vs-carpet-pad-sammamish",
+  "id": "6aaaee3ec7e20061b3d22e61",
+  "spec": "specs/168-carpet-cushion-vs-carpet-pad-sammamish.json",
+  "live": false
+ },
+ {
+  "n": 169,
+  "slug": "how-to-get-a-light-scandinavian-look-on-red-oak-floors-in-seattle",
+  "id": "6aaadeb926f6496d0777d89c",
+  "spec": "specs/169-how-to-get-a-light-scandinavian-look-on-red-oak-floors-in-seattle.json",
+  "live": false
+ },
+ {
+  "n": 170,
+  "slug": "how-to-prevent-scratches-on-new-hardwood-floors-lynnwood",
+  "id": "6aaadfa60b31134f938fed8a",
+  "spec": "specs/170-how-to-prevent-scratches-on-new-hardwood-floors-lynnwood.json",
+  "live": false
+ },
+ {
+  "n": 171,
+  "slug": "vinyl-plank-vs-sheet-vinyl-vs-vinyl-tile-edmonds",
+  "id": "6aaae0e73de0d0477f9a304c",
+  "spec": "specs/171-vinyl-plank-vs-sheet-vinyl-vs-vinyl-tile-edmonds.json",
+  "live": false
+ },
+ {
+  "n": 172,
+  "slug": "best-flooring-for-a-basement-remodel-or-adu-in-snohomish",
+  "id": "6aa9fe0203e22a7eeca89fcc",
+  "spec": "specs/172-best-flooring-for-a-basement-remodel-or-adu-in-snohomish.json",
+  "live": false
+ },
+ {
+  "n": 173,
+  "slug": "old-wax-or-oil-finish-on-hardwood-floors-everett",
+  "id": "6aa9ff91f403ded91ddfc7c8",
+  "spec": "specs/173-old-wax-or-oil-finish-on-hardwood-floors-everett.json",
+  "live": false
+ },
+ {
+  "n": 174,
+  "slug": "how-to-choose-hardwood-flooring-from-samples-kirkland",
+  "id": "6aaa0144faa5978098413b0e",
+  "spec": "specs/174-how-to-choose-hardwood-flooring-from-samples-kirkland.json",
+  "live": false
+ },
+ {
+  "n": 175,
+  "slug": "do-rolling-chairs-and-heavy-furniture-dent-vinyl-plank-sammamish",
+  "id": "6aaa0221ba83249976e230bc",
+  "spec": "specs/175-do-rolling-chairs-and-heavy-furniture-dent-vinyl-plank-sammamish.json",
+  "live": false
+ },
+ {
+  "n": 176,
+  "slug": "how-to-choose-carpet-from-samples-at-home-seattle",
+  "id": "6aaae351b9fbaf65379ee547",
+  "spec": "specs/176-how-to-choose-carpet-from-samples-at-home-seattle.json",
+  "live": false
+ },
+ {
+  "n": 177,
+  "slug": "can-painted-hardwood-floors-be-refinished-back-to-natural-wood-lynnwood",
+  "id": "6aaae439cea70d379009814f",
+  "spec": "specs/177-can-painted-hardwood-floors-be-refinished-back-to-natural-wood-lynnwood.json",
+  "live": false
+ },
+ {
+  "n": 178,
+  "slug": "why-maple-floors-are-hard-to-stain-edmonds",
+  "id": "6aaae6573bca1446b6a48add",
+  "spec": "specs/178-why-maple-floors-are-hard-to-stain-edmonds.json",
+  "live": false
+ },
+ {
+  "n": 179,
+  "slug": "whats-included-in-a-vinyl-plank-installation-quote-in-snohomish",
+  "id": "6aaae72da394c236024d9e5d",
+  "spec": "specs/179-whats-included-in-a-vinyl-plank-installation-quote-in-snohomish.json",
+  "live": false
+ },
+ {
+  "n": 180,
+  "slug": "hypoallergenic-carpet-everett",
+  "id": "6aaa021d7fe064bb1635f926",
+  "spec": "specs/180-hypoallergenic-carpet-everett.json",
+  "live": false
+ },
+ {
+  "n": 181,
+  "slug": "how-to-compare-hardwood-refinishing-quotes-in-kirkland",
+  "id": "6aaae815281e8ecf0c5c92ea",
+  "spec": "specs/181-how-to-compare-hardwood-refinishing-quotes-in-kirkland.json",
+  "live": false
+ },
+ {
+  "n": 182,
+  "slug": "hand-scraped-wire-brushed-or-smooth-hardwood-sammamish",
+  "id": "6aaa034c7bdeeffc938270da",
+  "spec": "specs/182-hand-scraped-wire-brushed-or-smooth-hardwood-sammamish.json",
+  "live": false
+ },
+ {
+  "n": 183,
+  "slug": "transition-strips-from-vinyl-plank-to-tile-carpet-and-hardwood-seattle",
+  "id": "6aaaea3a3de0d0477f9d4fe7",
+  "spec": "specs/183-transition-strips-from-vinyl-plank-to-tile-carpet-and-hardwood-seattle.json",
+  "live": false
+ },
+ {
+  "n": 184,
+  "slug": "how-far-out-should-you-book-carpet-installation-in-lynnwood",
+  "id": "6aaaeba68a84e9991ad4336a",
+  "spec": "specs/184-how-far-out-should-you-book-carpet-installation-in-lynnwood.json",
+  "live": false
+ },
+ {
+  "n": 185,
+  "slug": "when-is-the-best-time-of-year-to-refinish-hardwood-floors-in-edmonds",
+  "id": "6aaaece47c4e772420cb6f28",
+  "spec": "specs/185-when-is-the-best-time-of-year-to-refinish-hardwood-floors-in-edmonds.json",
+  "live": false
+ },
+ {
+  "n": 186,
+  "slug": "best-flooring-for-mudrooms-and-entryways-in-rainy-snohomish",
+  "id": "6aaaee3fef810cb4861f6686",
+  "spec": "specs/186-best-flooring-for-mudrooms-and-entryways-in-rainy-snohomish.json",
+  "live": false
+ },
+ {
+  "n": 187,
+  "slug": "best-vinyl-plank-for-rentals-with-pets-in-everett",
+  "id": "6aaaef2a51b2d659b14d4191",
+  "spec": "specs/187-best-vinyl-plank-for-rentals-with-pets-in-everett.json",
+  "live": false
+ },
+ {
+  "n": 188,
+  "slug": "whole-house-carpet-installation-in-kirkland",
+  "id": "6aaadeb6c359813802faf276",
+  "spec": "specs/188-whole-house-carpet-installation-in-kirkland.json",
+  "live": false
+ },
+ {
+  "n": 189,
+  "slug": "refinish-the-old-hardwood-or-cover-it-with-vinyl-plank-sammamish",
+  "id": "6aaadfa48c168bc9a09c9f9d",
+  "spec": "specs/189-refinish-the-old-hardwood-or-cover-it-with-vinyl-plank-sammamish.json",
+  "live": false
+ },
+ {
+  "n": 190,
+  "slug": "do-hardwood-floors-increase-home-value-in-seattle",
+  "id": "6aaae0e7cea70d379007acb1",
+  "spec": "specs/190-do-hardwood-floors-increase-home-value-in-seattle.json",
+  "live": false
+ },
+ {
+  "n": 191,
+  "slug": "vinyl-plank-flooring-trends-for-2026-lynnwood",
+  "id": "6aaae1dbcea70d3790085771",
+  "spec": "specs/191-vinyl-plank-flooring-trends-for-2026-lynnwood.json",
+  "live": false
+ },
+ {
+  "n": 192,
+  "slug": "can-carpet-be-installed-in-winter-in-edmonds",
+  "id": "6aaae43798ce32e8e5bafc6e",
+  "spec": "specs/192-can-carpet-be-installed-in-winter-in-edmonds.json",
+  "live": false
+ },
+ {
+  "n": 193,
+  "slug": "how-thick-does-hardwood-need-to-be-to-refinish-snohomish",
+  "id": "6aaae65ab9fbaf65379f7c89",
+  "spec": "specs/193-how-thick-does-hardwood-need-to-be-to-refinish-snohomish.json",
+  "live": false
+ },
+ {
+  "n": 194,
+  "slug": "how-far-out-should-you-book-hardwood-installation-in-everett",
+  "id": "6aaae7c55da77dbef0c9c60e",
+  "spec": "specs/194-how-far-out-should-you-book-hardwood-installation-in-everett.json",
+  "live": false
+ },
+ {
+  "n": 195,
+  "slug": "can-vinyl-plank-be-installed-in-winter-in-kirkland",
+  "id": "6aaae8c439da8726b357c8db",
+  "spec": "specs/195-can-vinyl-plank-be-installed-in-winter-in-kirkland.json",
+  "live": false
+ },
+ {
+  "n": 196,
+  "slug": "which-rooms-should-have-carpet-sammamish",
+  "id": "6aaaeba529c820ed524b8ff1",
+  "spec": "specs/196-which-rooms-should-have-carpet-sammamish.json",
+  "live": false
+ },
+ {
+  "n": 197,
+  "slug": "what-is-the-most-durable-finish-for-hardwood-floors-with-kids-and-dogs",
+  "id": "6aaaece39ec54daca6f32aeb",
+  "spec": "specs/197-what-is-the-most-durable-finish-for-hardwood-floors-with-kids-and-dogs.json",
+  "live": false
+ },
+ {
+  "n": 198,
+  "slug": "hardwood-floor-installation-in-lynnwood",
+  "id": "6aaaee3fd131c32ddd280286",
+  "spec": "specs/198-hardwood-floor-installation-in-lynnwood.json",
+  "live": false
+ },
+ {
+  "n": 199,
+  "slug": "vinyl-plank-installation-in-edmonds",
+  "id": "6aaaef2a1e477366f0342fb5",
+  "spec": "specs/199-vinyl-plank-installation-in-edmonds.json",
+  "live": false
+ },
+ {
+  "n": 200,
+  "slug": "cheap-vs-quality-carpet-snohomish",
+  "id": "6aaaeff91e477366f03487c2",
+  "spec": "specs/200-cheap-vs-quality-carpet-snohomish.json",
+  "live": false
+ },
+ {
+  "n": 0,
+  "slug": "5-benefits-of-choosing-quartz-countertops-for-your-kitchen-renovation",
+  "id": "66ced4e98c3276520686e6d7",
+  "spec": "legacy/5-benefits-of-choosing-quartz-countertops-for-your-kitchen-renovation.json",
+  "live": true
+ },
+ {
+  "n": 0,
+  "slug": "ceramic-vs-porcelain-tile-flooring-which-is-better-for-your-space",
+  "id": "66ced46ecb67820876384d36",
+  "spec": "legacy/ceramic-vs-porcelain-tile-flooring-which-is-better-for-your-space.json",
+  "live": true
+ },
+ {
+  "n": 0,
+  "slug": "common-mistakes-to-avoid-when-refinishing-hardwood-floors",
+  "id": "66ced51d039c441c7562fcce",
+  "spec": "legacy/common-mistakes-to-avoid-when-refinishing-hardwood-floors.json",
+  "live": true
+ },
+ {
+  "n": 0,
+  "slug": "luxurious-kitchen-renovations-adding-value-with-marble-countertops",
+  "id": "66ced4af8c3276520686b7e1",
+  "spec": "legacy/luxurious-kitchen-renovations-adding-value-with-marble-countertops.json",
+  "live": true
+ },
+ {
+  "n": 0,
+  "slug": "why-laminate-flooring-unraveling-the-advantages-and-benefits",
+  "id": "66ced555a46d1b79961582b4",
+  "spec": "legacy/why-laminate-flooring-unraveling-the-advantages-and-benefits.json",
+  "live": true
+ }
+]
