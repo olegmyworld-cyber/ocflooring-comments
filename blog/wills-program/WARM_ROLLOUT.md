@@ -16,3 +16,13 @@ Each agent takes a slice by array index and, for every entry:
 
 **Nothing is published.** `live: true` entries are already-published posts whose new body waits for the
 owner's next Webflow site publish. Post 152 is excluded; it was done first as the preview.
+
+
+## Verification gotcha (learned 2026-09-17)
+
+The collection holds **206** items: 200 scheduled posts, the 5 legacy rewrites, and the original
+Everett refinishing post. A reconciliation that pages `limit:100` at offsets 0 and 100 silently
+covers only 200 of them and will report "all clear" while missing six. Always page until
+`offset >= pagination.total`, and cross-check the count against `pagination.total` rather than
+against an expected number. The laminate post was found cold this way only because its local
+record happened to lack the `warm` flag.
