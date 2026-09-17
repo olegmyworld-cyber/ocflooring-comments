@@ -112,21 +112,25 @@ def ib(n, gold=False):
 def emb(inner): return "<div data-rt-embed-type='true'>" + inner + "</div>"
 
 BASE_CSS = r"""<style>
-.ap{--ink:#1d1d1f;--ink2:#6e6e73;--bg:#f5f5f7;--card:#fff;--line:rgba(0,0,0,.08);--navy:#071730;--navy2:#03101f;--gold:#ea8a2a;--r:24px;font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display","SF Pro Text","Helvetica Neue",Inter,system-ui,sans-serif;color:var(--ink);-webkit-font-smoothing:antialiased}
+.ap{--ink:#1d1d1f;--ink2:#6e6e73;--bg:#faf6f1;--card:#fff;--line:rgba(0,0,0,.08);--navy:#071730;--navy2:#03101f;--gold:#ea8a2a;--r:24px;font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display","SF Pro Text","Helvetica Neue",Inter,system-ui,sans-serif;color:var(--ink);-webkit-font-smoothing:antialiased}
 .ap *{box-sizing:border-box}
 .w-richtext a:not(.ap-btn):not(.star),.blog-post-content-wrapper a:not(.ap-btn):not(.star){display:inline!important;color:#071730!important;text-decoration:underline!important;text-underline-offset:3px;text-decoration-thickness:1px}
 .w-richtext a:not(.ap-btn):not(.star):hover,.blog-post-content-wrapper a:not(.ap-btn):not(.star):hover{color:#ea8a2a!important}
 .w-richtext a.ap-btn,.blog-post-content-wrapper a.ap-btn{display:inline-flex!important;text-decoration:none!important}
 .ap-ic{width:20px;height:20px;flex:0 0 auto;stroke:currentColor;fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;vertical-align:-4px}
-.ap-ib{display:inline-flex;align-items:center;justify-content:center;width:40px;height:40px;border-radius:12px;background:rgba(7,23,48,.06);color:#071730;margin-bottom:12px}
+.ap-ib{display:inline-flex;align-items:center;justify-content:center;width:40px;height:40px;border-radius:12px;background:rgba(234,138,42,.13);color:#c46a12;margin-bottom:12px}
+.ap-ib.navy{background:rgba(7,23,48,.06);color:#071730}
 .ap-ib.gold{background:rgba(234,138,42,.14);color:#c46a12}
 .ap-tile .ap-ib{width:32px;height:32px;border-radius:10px;margin-bottom:8px}
 .ap-tile .ap-ib .ap-ic{width:17px;height:17px}
 .ap-lab-ic{display:inline-flex;align-items:center;gap:8px}
-.ap-lab-ic .ap-ic{width:18px;height:18px;color:#6e6e73}
-.ap-li-ic{display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:7px;background:rgba(7,23,48,.06);color:#071730;margin-right:8px;vertical-align:-5px}
+.ap-lab-ic .ap-ic{width:18px;height:18px;color:#c46a12}
+.ap-li-ic{display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:7px;background:rgba(234,138,42,.13);color:#c46a12;margin-right:8px;vertical-align:-5px}
 .ap-li-ic .ap-ic{width:14px;height:14px}
 .ap-panel{background:var(--bg);border-radius:28px;padding:36px 28px;margin:28px 0}
+.w-richtext > h2,.blog-post-content-wrapper > h2,.post-body > h2{position:relative;padding-top:18px}
+.w-richtext > h2::before,.blog-post-content-wrapper > h2::before,.post-body > h2::before{content:"";position:absolute;top:0;left:0;width:44px;height:4px;border-radius:2px;background:#ea8a2a}
+.w-richtext > h3,.blog-post-content-wrapper > h3,.post-body > h3{color:#a8570d}
 @media(max-width:680px){.ap-panel{padding:24px 18px;border-radius:22px}}
 .ap-card{background:var(--card);border-radius:var(--r);padding:26px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
 .ap-eyebrow{display:block;font-size:13px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--gold);margin-bottom:10px}
@@ -143,9 +147,9 @@ BASE_CSS = r"""<style>
 .ap-tile{background:var(--card);border-radius:18px;padding:18px 18px 16px}
 .ap-tile b{display:block;font-size:12px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--ink2);margin-bottom:6px}
 .ap-tile span.v{display:block;font-size:24px;font-weight:700;letter-spacing:-.02em;color:var(--ink)}
-.ap-num{display:block;font-size:34px;font-weight:700;letter-spacing:-.03em;color:var(--ink);margin-bottom:6px}
+.ap-num{display:block;font-size:34px;font-weight:700;letter-spacing:-.03em;color:#c46a12;margin-bottom:6px}
 html body .post-body .ap-card p, .ap-card p{margin:0!important;font-size:15.5px!important;line-height:1.55!important;color:var(--ink2)!important}
-.ap-price{font-size:44px;font-weight:700;letter-spacing:-.03em;color:var(--ink);line-height:1;margin:10px 0 6px}
+.ap-price{font-size:44px;font-weight:700;letter-spacing:-.03em;color:#c46a12;line-height:1;margin:10px 0 6px}
 .ap-price small{font-size:15px;font-weight:500;color:var(--ink2);letter-spacing:0;margin-left:4px}
 .ap-tag{display:inline-block;font-size:12px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--ink2);background:var(--bg);border-radius:999px;padding:5px 11px}
 .ap-tag.gold{color:#9a5410;background:rgba(234,138,42,.14)}
