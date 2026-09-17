@@ -62,5 +62,8 @@ Lynnwood, Kirkland, Edmonds, Sammamish and Snohomish. Everything lives in
 - `PUBLISH_LOG.md` — written by the daily Routine "Wills Flooring daily blog publish"
   (15:30 UTC), which flips due drafts to live if they have an Image Main.
 
-Carpet posts use a price-free scope estimator because Wills publishes no carpet price.
-Hero images are left empty on purpose; the owner adds them in the Webflow Editor.
+Carpet labor is priced from King/Snohomish market research (stretch-in $0.99, glue-down $1.29,
+stairs $30, removal +$0.45, furniture +$0.25 per sq ft, 500 sq ft minimum), so carpet posts use the
+same calculator as the other categories. All 206 posts carry the warm palette added 2026-09-17.
+Hero images are the owner's to add in the Webflow Editor; `HERO_IMAGES_NEEDED.md` lists what is
+still missing. Publishing is paused until Oleg says go.

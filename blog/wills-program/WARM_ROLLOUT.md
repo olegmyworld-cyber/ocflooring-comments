@@ -26,3 +26,21 @@ covers only 200 of them and will report "all clear" while missing six. Always pa
 `offset >= pagination.total`, and cross-check the count against `pagination.total` rather than
 against an expected number. The laminate post was found cold this way only because its local
 record happened to lack the `warm` flag.
+
+## Final reconciliation (2026-09-17)
+
+Paged the whole collection (`limit:100` at offsets 0, 100, 200 — `pagination.total` 206, all 206 fetched)
+and compared every stored `description-big` byte-for-byte, by SHA-1, against a fresh `render.py` run of
+all 200 specs plus the 5 legacy rewrites, and the hand-maintained `wills-hardwood-floor-refinishing-everett-wa.html`
+for the original Everett post.
+
+```
+fetched 206 of total 206
+missing from CMS: []
+body mismatches: 0
+cold (missing --bg:#faf6f1 or rgba(234,138,42,.13)): 0
+drafts: 199   live: 7
+```
+
+The warm palette is on every post. Draft/live status is unchanged: the only live items are the six that
+were already live plus the stairs post Oleg published himself.

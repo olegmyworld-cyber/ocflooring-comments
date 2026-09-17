@@ -34,8 +34,10 @@ images and slugs untouched, bodies replaced with the new design (`uploaded/legac
 
 Open items for the owner:
 
-1. **Hero images.** Every scheduled post has an empty Image Main. The daily Routine holds a
-   post rather than publishing it when the image is missing, and names the slug.
+1. **Hero images.** As of 2026-09-17 Oleg has added heroes to 81 of the 199 scheduled drafts;
+   118 are still empty, including all 26 of the earliest posts (2026-09-17 through 2026-10-12).
+   The daily Routine holds a post rather than publishing it when the image is missing, and names
+   the slug, so the schedule stalls on the first empty one. Work queue: `HERO_IMAGES_NEEDED.md`.
 2. **Site publish.** The template hero change (image right, text left) and the five updated
    legacy bodies only reach the live site after a Webflow publish. Close Designer tabs first:
    an open tab once overwrote a post body on publish.
