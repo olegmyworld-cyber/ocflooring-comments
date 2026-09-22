@@ -26,3 +26,21 @@ removed for the live post. Fixing the stairs post needs Oleg's call.
 
 Reference for whoever does fix it: local body is 45,012 chars,
 sha1 `825692402ab94e3af15e5e68cefe01e1dda1b15b`, schema dates `2026-09-17` / `2027-12-31`.
+
+## 2026-09-22 16:2x UTC — stairs post schema date fixed (Oleg approved, foreground)
+
+`best-carpet-for-stairs-with-dogs-everett` (6aaafc2d8f4d1f2643a0869a) advertised
+`datePublished` / `dateModified` of `2027-02-15`, a future date, because it was published
+early on 2026-09-17 out of its 2027 slot. Both now read `2026-09-17`.
+
+Sequence, with the verification gate that made this safe:
+
+1. Pushed the corrected `description-big` with `update_collection_items`, no `isDraft`.
+   `lastPublished` stayed at 2026-09-17T01:46:59Z, confirming the push only staged.
+2. Read the item back and hashed the stored body in Bash, not by eye:
+   stored 45,012 chars sha1 `825692402ab94e3af15e5e68cefe01e1dda1b15b`, local identical. MATCH.
+   Image, slug, name, category and hero all preserved; `isDraft` still false.
+3. Only then `publish_collection_items` on that one item. `publishedItemIds` returned it,
+   `errors` empty.
+
+Nothing else was touched and the site itself was not published.
