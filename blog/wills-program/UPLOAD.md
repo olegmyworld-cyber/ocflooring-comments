@@ -34,10 +34,10 @@ images and slugs untouched, bodies replaced with the new design (`uploaded/legac
 
 Open items for the owner:
 
-1. **Hero images.** As of 2026-09-22 every scheduled post through **2026-11-14** has an Image
-   Main (59 in a row, no gaps), so the queue has about eight weeks of runway. Later dates are
-   still patchy. The daily Routine holds a post rather than publishing it when the image is
-   missing, and names the slug. `HERO_IMAGES_NEEDED.md` is the 2026-09-17 snapshot and is stale.
+1. ~~**Hero images.**~~ **Done.** As of 2026-09-22 all 206 items have an Image Main, confirmed
+   by filtering the collection on `image-main exists=false` (0 results) and `exists=true` (206).
+   `HERO_IMAGES_NEEDED.md` is obsolete. The Routine still holds a post whose hero is missing,
+   which now only matters if one is removed.
 
 2. **Six dates already passed unused.** The plan started 2026-09-17; the Routine has been
    disabled since 2026-09-16, so 2026-09-17 through 2026-09-22 came and went as drafts. On its
