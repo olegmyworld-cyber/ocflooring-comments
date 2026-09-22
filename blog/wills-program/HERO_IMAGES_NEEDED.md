@@ -1,5 +1,10 @@
 # Hero images still needed
 
+> **STALE as of 2026-09-22.** Oleg has since filled every hero through **2026-11-14** (59
+> consecutive scheduled posts, no gaps). The table below is the 2026-09-17 snapshot and
+> over-reports what is missing. Regenerate it from the live collection before using it as a
+> work queue.
+
 Generated 2026-09-17 from the live Blog Posts collection. 199 scheduled drafts, 81 already have an
 Image Main, **118 still do not**. The daily Routine holds a post rather than publishing it when the
 hero is missing, so the schedule stalls on the first empty one.

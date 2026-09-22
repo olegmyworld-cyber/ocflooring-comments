@@ -34,14 +34,19 @@ images and slugs untouched, bodies replaced with the new design (`uploaded/legac
 
 Open items for the owner:
 
-1. **Hero images.** As of 2026-09-17 Oleg has added heroes to 81 of the 199 scheduled drafts;
-   118 are still empty, including all 26 of the earliest posts (2026-09-17 through 2026-10-12).
-   The daily Routine holds a post rather than publishing it when the image is missing, and names
-   the slug, so the schedule stalls on the first empty one. Work queue: `HERO_IMAGES_NEEDED.md`.
-2. **Site publish.** The template hero change (image right, text left) and the five updated
+1. **Hero images.** As of 2026-09-22 every scheduled post through **2026-11-14** has an Image
+   Main (59 in a row, no gaps), so the queue has about eight weeks of runway. Later dates are
+   still patchy. The daily Routine holds a post rather than publishing it when the image is
+   missing, and names the slug. `HERO_IMAGES_NEEDED.md` is the 2026-09-17 snapshot and is stale.
+
+2. **Six dates already passed unused.** The plan started 2026-09-17; the Routine has been
+   disabled since 2026-09-16, so 2026-09-17 through 2026-09-22 came and went as drafts. On its
+   first fire the Routine publishes every *due* draft, which would push all six live in one day.
+   Either accept the batch or shift `scheduled-publish-date` forward before enabling it.
+4. **Site publish.** The template hero change (image right, text left) and the five updated
    legacy bodies only reach the live site after a Webflow publish. Close Designer tabs first:
    an open tab once overwrote a post body on publish.
-3. **Dead CSS.** `blog/wills-hardwood-floor-refinishing-everett-wa.html` (CMS item
+5. **Dead CSS.** `blog/wills-hardwood-floor-refinishing-everett-wa.html` (CMS item
    `6aa9c8c879f234ee20d70b90`) still carries a per-post hero override targeting
    `.section_hero.is-default`. The template elements now carry `blog-hero*` classes only, so
    after the site publish that override matches nothing. Harmless, but it can be stripped
