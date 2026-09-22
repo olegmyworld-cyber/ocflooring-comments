@@ -51,9 +51,10 @@ Open items for the owner:
    `.section_hero.is-default`. The template elements now carry `blog-hero*` classes only, so
    after the site publish that override matches nothing. Harmless, but it can be stripped
    once the publish has happened. Do not strip it before, or the live post loses its hero.
-4. **Pricing gaps.** Carpet posts use the price-free estimator because Wills publishes no
-   carpet rate. Confirm carpet pricing, that install rates are labor-only, and the $100 LVP
-   stair price the calculator assumes.
+6. **Pricing still unconfirmed by Oleg.** Carpet has published labor rates as of 2026-09-16, so
+   no post uses the price-free estimator any more. Open: whether $0.99/sq ft stretch-in clears
+   the carpet sub's cost, whether stair pricing should split (straight vs winder/open-sided),
+   that install rates are labor-only, and the $100 LVP stair price the calculator assumes.
 
 ## Carpet repricing (2026-09-16)
 
