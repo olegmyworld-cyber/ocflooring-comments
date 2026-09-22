@@ -71,3 +71,31 @@ few cents also needs the carpet specs revised.
 
 **Publishing is PAUSED.** Routine `trig_01W2ziMwdhrCCpEf7xKPJShg` is disabled at the owner's request.
 Re-enable it only when the owner says go.
+
+## Schedule rebase (2026-09-22)
+
+The Routine sat disabled from 2026-09-16, so 2026-09-17 through 2026-09-22 passed unpublished.
+Rather than let the first fire dump six due drafts at once, every scheduled date moved forward
+six days: the queue now runs **2026-09-23 to 2027-04-10**, one post per day. `plan.py` start
+date changed, all 200 specs re-dated, `uploaded/*.json` refreshed, `SCHEDULE.md` written.
+
+Both CMS date batches were pushed with `scheduled-publish-date` only and no `isDraft`, so draft
+status was preserved (100 + 99 items returned, all still drafts).
+
+### Known gap: schema dates inside the bodies
+
+`render.py` writes the spec date into the JSON-LD as `datePublished` / `dateModified`, so the
+199 drafts now carry dates six days behind their new slot, and the already-live stairs post
+(`6aaafc2d8f4d1f2643a0869a`) still advertises `datePublished: 2027-02-15`, a future date on a
+live page. Bodies are ~45 KB each, too large to re-push from the main session in bulk.
+
+The Routine now closes this on its own: on each publish day it re-renders the post and pushes
+the fresh `description-big` alongside flipping the item live, so every post goes live with
+correct schema dates. The stairs post is fixed on the first run.
+
+### The already-live post
+
+`best-carpet-for-stairs-with-dogs-everett` is post #152, slot 2027-02-21, but Oleg published it
+on 2026-09-17. `plan.py` carries an `ALREADY_LIVE` override so its schema dates read the real
+publish date and its slot is kept in a `slot` field. Add to that map any other post published
+out of order.

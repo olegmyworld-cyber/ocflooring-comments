@@ -5,9 +5,20 @@
  "category": "carpet",
  "city": "Snohomish",
  "time": "8 mins",
- "date": "2027-01-10T15:00:00.000Z",
+ "date": "2027-01-16T15:00:00.000Z",
  "keywords": "carpet over squeaky subfloor, fix squeaky floor before carpet, squeaky subfloor under carpet, subfloor screws before carpet, how to stop floor squeaks carpet installation",
- "offers": [["Carpet installation, stretch-in","0.99","per square foot"],["Carpet installation, glue-down","1.29","per square foot"]],
+ "offers": [
+  [
+   "Carpet installation, stretch-in",
+   "0.99",
+   "per square foot"
+  ],
+  [
+   "Carpet installation, glue-down",
+   "1.29",
+   "per square foot"
+  ]
+ ],
  "blocks": [
   {
    "type": "quick",

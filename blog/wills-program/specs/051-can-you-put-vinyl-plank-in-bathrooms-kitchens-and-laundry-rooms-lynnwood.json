@@ -5,60 +5,271 @@
  "category": "lvp",
  "city": "Lynnwood",
  "time": "8 mins",
- "date": "2026-11-06T15:00:00.000Z",
+ "date": "2026-11-12T15:00:00.000Z",
  "keywords": "vinyl plank in bathroom, can you put LVP in a laundry room, vinyl plank flooring kitchen, is vinyl plank ok for bathrooms, vinyl plank installation Lynnwood WA",
- "offers": [["Vinyl plank flooring installation", "2.50", "per square foot"]],
+ "offers": [
+  [
+   "Vinyl plank flooring installation",
+   "2.50",
+   "per square foot"
+  ]
+ ],
  "blocks": [
-  {"type":"quick","eyebrow":"Short answer","lead":"Yes to all three, and wet rooms are where vinyl plank makes the most sense. The planks themselves are waterproof. The subfloor under them is not, so the job succeeds or fails on details: a sealed perimeter, the toilet flange, the tub and shower edge, and how the washer and dishwasher are handled.","detail":"Wills Flooring installs vinyl plank for $2.50 per sq ft labor with a 500 sq ft minimum, which is why most Lynnwood wet-room jobs are bundled with a hallway or kitchen to use the minimum fully.",
-   "tiles":[{"icon":"dollar","label":"Install labor","value":"$2.50 / sq ft"},{"icon":"ruler","label":"Minimum","value":"500 sq ft"},{"icon":"layers","label":"Best core","value":"Rigid SPC"},{"icon":"droplet","label":"Weak point","value":"Edges, not planks"}]},
-  {"type":"p","html":"Walk into any 1970s split-level in Alderwood or Martha Lake and you will find the same three floors: cracked sheet vinyl in the bathroom, a peeling kitchen floor and a laundry room with a rust ring under the washer. Owners ask whether vinyl plank can go in all of them or whether the bathroom still needs tile. It can go in all of them. But \"waterproof\" on the box is about the plank, and the plank is not what leaks. Here is what actually keeps water out of your subfloor, room by room."},
-  {"type":"h2","text":"Room by room: what matters"},
-  {"type":"cards","cols":3,"items":[
-    {"icon":"droplet","tag":"Bathroom","title":"The toilet and the tub edge","text":"We pull the toilet, run plank under it and reset with a new wax ring rather than cutting around the base. The gap along the tub and shower gets 100 percent silicone, not the caulk from the trim aisle. Those two spots are where nearly every bathroom floor fails."},
-    {"icon":"flame","tag":"Kitchen","title":"Dishwasher, fridge and sink","text":"The dishwasher must be able to come out for service, so we check its clearance before the floor goes down and plan the height. Under the fridge line and dishwasher we recommend a leak pan. The sink cabinet gets the perimeter sealed where the plank meets the toe kick."},
-    {"icon":"washer","tag":"Laundry","title":"The washer and the drain","text":"Rigid core plank handles a washer's weight and vibration; flexible LVP can dent under the feet. A washer pan with a drain is cheap insurance over a floating floor. Where the laundry sits on a slab, as in many Lynnwood daylight basements, a vapor barrier goes down first."}
-  ]},
-  {"type":"h2","text":"How wet-room vinyl plank actually fails"},
-  {"type":"table","head":["Failure","Cause","Prevention"],"rows":[
-    ["Swollen or soft subfloor at the toilet","Plank cut around the toilet base, water wicks under it","Pull the toilet, floor under it, reset with a new ring"],
-    ["Black line along the tub","Latex caulk or no caulk at the tub edge","100 percent silicone, checked yearly"],
-    ["Planks lifting at the seams","Standing water sat for days, or a thick soft underlayment flexed the locks","Rigid core with attached pad, no extra foam, wipe up puddles"],
-    ["Musty smell","Water under a floating floor with no way out","Perimeter sealed, leak pans under appliances, slab vapor barrier"],
-    ["Dents under washer feet","Thin flexible LVP under a 200 lb machine","Rigid SPC core, 5 mm or thicker, or a washer pan"],
-    ["Peaking near the dishwasher","No expansion gap under the toe kick","Leave the gap; cover it with the kick, not with glue"]
-  ],"note":"None of these are plank failures. Every one is an installation or sealing detail, which is why who installs it matters more than which box you buy."},
-  {"type":"h2","text":"Lynnwood houses have a few extra wrinkles"},
-  {"type":"list","icons":true,"items":[
-    {"icon":"alert","html":"<strong>Old sheet vinyl may contain asbestos.</strong> Kitchen and bath floors installed before about 1980, common in Alderwood and Meadowdale ramblers, can have asbestos in the backing or adhesive. If it is flat and stuck down, the safest move is to leave it and float the new plank over it. Never sand or scrape it without testing."},
-    {"icon":"basement","html":"<strong>Basement laundry rooms on a slab.</strong> Split-levels have the laundry on the lower level over concrete. That slab needs a moisture test and a 6 mil vapor barrier before any plank, or you get the musty smell within a year."},
-    {"icon":"home","html":"<strong>Small rooms and the 500 sq ft minimum.</strong> A Lynnwood hall bath is 40 sq ft and a laundry room is 60. Doing them alone still bills at 500 sq ft, so we combine them with the kitchen and hallway on the same floor. See the math below."}
-  ]},
-  {"type":"h2","text":"Price your Lynnwood wet-room vinyl plank right now"},
-  {"type":"calc","kind":"lvp","note":"Small rooms bill at the 500 sq ft minimum, so bundle the kitchen, hall and baths. Toilet reset, leak pans and old-floor removal are quoted at the free estimate."},
-  {"type":"h2","text":"Making the minimum work for you"},
-  {"type":"steps","wide":true,"items":[
-    {"icon":"home","d":"Martha Lake rambler · kitchen 180 + hall 90 + 2 baths 100 + laundry 60 = 430 sq ft","text":"All four rooms in one rigid-core plank, toilets pulled and reset, silicone at both tubs, washer pan added. Bills at the 500 sq ft minimum.","note":"500 × $2.50 = $1,250 labor; plank, pans and toilet resets quoted on site"},
-    {"icon":"home","d":"Alderwood split-level · whole main level 750 sq ft + 7 stairs","text":"Kitchen, dining, hall and bath together, stairs to the lower level wrapped in matching plank down to a slab laundry with vapor barrier.","note":"750 × $2.50 + 7 × $100 = $2,575 labor"},
-    {"icon":"home","d":"Meadowdale remodel · bathroom only, 60 sq ft","text":"We will do it, but it bills at 500 sq ft: 500 × $2.50 = $1,250. Most owners add the hallway or wait to bundle it with the kitchen."}
-  ]},
-  {"type":"h2","text":"When vinyl plank is the wrong answer"},
-  {"type":"compare","a":{"icon":"done","tag":"Vinyl plank","title":"Go ahead when","items":["Family bathrooms, powder rooms, kitchens and laundry rooms with normal use","You want one continuous floor from kitchen through hall to bath","The subfloor is sound and the room can be sealed at every edge","Budget or timeline rules out tile"]},
-    "b":{"icon":"x","tag":"Think again","title":"Choose tile or fix the room first when","items":["A curbless or wet-room shower drains onto the floor itself","The subfloor is already soft or the toilet rocks","There is a history of flooding with no plan to stop it","You want a floor that can take standing water for days without any concern"]}},
-  {"type":"callout","icon":"alert","title":"The honest limit: ","text":"Vinyl plank is waterproof from above for the kind of water a bathroom or laundry actually produces: splashes, drips, a tub overflow you catch that day. It is not a substitute for a shower pan, and it will not save a subfloor if a supply line bursts while you are on vacation. A floating floor also traps water underneath it if that happens, so leak pans and a sealed perimeter are not optional extras."},
-  {"type":"h2","text":"What to ask any installer about wet rooms"},
-  {"type":"ul","items":["Will you pull and reset the toilets, or cut around them? The right answer is pull and reset.","What sealant goes along the tub and shower? You want 100 percent silicone named on the quote.","Is the plank rigid core, and does it have an attached pad? Under a washer you want SPC, 5 mm or thicker.","What happens to the old sheet vinyl? In a pre-1980 Lynnwood house, over is often safer than out.","Is there a slab under the laundry, and what is the moisture reading? Every Wills <a href=\"/services/lvp-vinyl-flooring\">vinyl plank installation</a> over concrete starts with that test."]}
+  {
+   "type": "quick",
+   "eyebrow": "Short answer",
+   "lead": "Yes to all three, and wet rooms are where vinyl plank makes the most sense. The planks themselves are waterproof. The subfloor under them is not, so the job succeeds or fails on details: a sealed perimeter, the toilet flange, the tub and shower edge, and how the washer and dishwasher are handled.",
+   "detail": "Wills Flooring installs vinyl plank for $2.50 per sq ft labor with a 500 sq ft minimum, which is why most Lynnwood wet-room jobs are bundled with a hallway or kitchen to use the minimum fully.",
+   "tiles": [
+    {
+     "icon": "dollar",
+     "label": "Install labor",
+     "value": "$2.50 / sq ft"
+    },
+    {
+     "icon": "ruler",
+     "label": "Minimum",
+     "value": "500 sq ft"
+    },
+    {
+     "icon": "layers",
+     "label": "Best core",
+     "value": "Rigid SPC"
+    },
+    {
+     "icon": "droplet",
+     "label": "Weak point",
+     "value": "Edges, not planks"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "html": "Walk into any 1970s split-level in Alderwood or Martha Lake and you will find the same three floors: cracked sheet vinyl in the bathroom, a peeling kitchen floor and a laundry room with a rust ring under the washer. Owners ask whether vinyl plank can go in all of them or whether the bathroom still needs tile. It can go in all of them. But \"waterproof\" on the box is about the plank, and the plank is not what leaks. Here is what actually keeps water out of your subfloor, room by room."
+  },
+  {
+   "type": "h2",
+   "text": "Room by room: what matters"
+  },
+  {
+   "type": "cards",
+   "cols": 3,
+   "items": [
+    {
+     "icon": "droplet",
+     "tag": "Bathroom",
+     "title": "The toilet and the tub edge",
+     "text": "We pull the toilet, run plank under it and reset with a new wax ring rather than cutting around the base. The gap along the tub and shower gets 100 percent silicone, not the caulk from the trim aisle. Those two spots are where nearly every bathroom floor fails."
+    },
+    {
+     "icon": "flame",
+     "tag": "Kitchen",
+     "title": "Dishwasher, fridge and sink",
+     "text": "The dishwasher must be able to come out for service, so we check its clearance before the floor goes down and plan the height. Under the fridge line and dishwasher we recommend a leak pan. The sink cabinet gets the perimeter sealed where the plank meets the toe kick."
+    },
+    {
+     "icon": "washer",
+     "tag": "Laundry",
+     "title": "The washer and the drain",
+     "text": "Rigid core plank handles a washer's weight and vibration; flexible LVP can dent under the feet. A washer pan with a drain is cheap insurance over a floating floor. Where the laundry sits on a slab, as in many Lynnwood daylight basements, a vapor barrier goes down first."
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "How wet-room vinyl plank actually fails"
+  },
+  {
+   "type": "table",
+   "head": [
+    "Failure",
+    "Cause",
+    "Prevention"
+   ],
+   "rows": [
+    [
+     "Swollen or soft subfloor at the toilet",
+     "Plank cut around the toilet base, water wicks under it",
+     "Pull the toilet, floor under it, reset with a new ring"
+    ],
+    [
+     "Black line along the tub",
+     "Latex caulk or no caulk at the tub edge",
+     "100 percent silicone, checked yearly"
+    ],
+    [
+     "Planks lifting at the seams",
+     "Standing water sat for days, or a thick soft underlayment flexed the locks",
+     "Rigid core with attached pad, no extra foam, wipe up puddles"
+    ],
+    [
+     "Musty smell",
+     "Water under a floating floor with no way out",
+     "Perimeter sealed, leak pans under appliances, slab vapor barrier"
+    ],
+    [
+     "Dents under washer feet",
+     "Thin flexible LVP under a 200 lb machine",
+     "Rigid SPC core, 5 mm or thicker, or a washer pan"
+    ],
+    [
+     "Peaking near the dishwasher",
+     "No expansion gap under the toe kick",
+     "Leave the gap; cover it with the kick, not with glue"
+    ]
+   ],
+   "note": "None of these are plank failures. Every one is an installation or sealing detail, which is why who installs it matters more than which box you buy."
+  },
+  {
+   "type": "h2",
+   "text": "Lynnwood houses have a few extra wrinkles"
+  },
+  {
+   "type": "list",
+   "icons": true,
+   "items": [
+    {
+     "icon": "alert",
+     "html": "<strong>Old sheet vinyl may contain asbestos.</strong> Kitchen and bath floors installed before about 1980, common in Alderwood and Meadowdale ramblers, can have asbestos in the backing or adhesive. If it is flat and stuck down, the safest move is to leave it and float the new plank over it. Never sand or scrape it without testing."
+    },
+    {
+     "icon": "basement",
+     "html": "<strong>Basement laundry rooms on a slab.</strong> Split-levels have the laundry on the lower level over concrete. That slab needs a moisture test and a 6 mil vapor barrier before any plank, or you get the musty smell within a year."
+    },
+    {
+     "icon": "home",
+     "html": "<strong>Small rooms and the 500 sq ft minimum.</strong> A Lynnwood hall bath is 40 sq ft and a laundry room is 60. Doing them alone still bills at 500 sq ft, so we combine them with the kitchen and hallway on the same floor. See the math below."
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "Price your Lynnwood wet-room vinyl plank right now"
+  },
+  {
+   "type": "calc",
+   "kind": "lvp",
+   "note": "Small rooms bill at the 500 sq ft minimum, so bundle the kitchen, hall and baths. Toilet reset, leak pans and old-floor removal are quoted at the free estimate."
+  },
+  {
+   "type": "h2",
+   "text": "Making the minimum work for you"
+  },
+  {
+   "type": "steps",
+   "wide": true,
+   "items": [
+    {
+     "icon": "home",
+     "d": "Martha Lake rambler · kitchen 180 + hall 90 + 2 baths 100 + laundry 60 = 430 sq ft",
+     "text": "All four rooms in one rigid-core plank, toilets pulled and reset, silicone at both tubs, washer pan added. Bills at the 500 sq ft minimum.",
+     "note": "500 × $2.50 = $1,250 labor; plank, pans and toilet resets quoted on site"
+    },
+    {
+     "icon": "home",
+     "d": "Alderwood split-level · whole main level 750 sq ft + 7 stairs",
+     "text": "Kitchen, dining, hall and bath together, stairs to the lower level wrapped in matching plank down to a slab laundry with vapor barrier.",
+     "note": "750 × $2.50 + 7 × $100 = $2,575 labor"
+    },
+    {
+     "icon": "home",
+     "d": "Meadowdale remodel · bathroom only, 60 sq ft",
+     "text": "We will do it, but it bills at 500 sq ft: 500 × $2.50 = $1,250. Most owners add the hallway or wait to bundle it with the kitchen."
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "When vinyl plank is the wrong answer"
+  },
+  {
+   "type": "compare",
+   "a": {
+    "icon": "done",
+    "tag": "Vinyl plank",
+    "title": "Go ahead when",
+    "items": [
+     "Family bathrooms, powder rooms, kitchens and laundry rooms with normal use",
+     "You want one continuous floor from kitchen through hall to bath",
+     "The subfloor is sound and the room can be sealed at every edge",
+     "Budget or timeline rules out tile"
+    ]
+   },
+   "b": {
+    "icon": "x",
+    "tag": "Think again",
+    "title": "Choose tile or fix the room first when",
+    "items": [
+     "A curbless or wet-room shower drains onto the floor itself",
+     "The subfloor is already soft or the toilet rocks",
+     "There is a history of flooding with no plan to stop it",
+     "You want a floor that can take standing water for days without any concern"
+    ]
+   }
+  },
+  {
+   "type": "callout",
+   "icon": "alert",
+   "title": "The honest limit: ",
+   "text": "Vinyl plank is waterproof from above for the kind of water a bathroom or laundry actually produces: splashes, drips, a tub overflow you catch that day. It is not a substitute for a shower pan, and it will not save a subfloor if a supply line bursts while you are on vacation. A floating floor also traps water underneath it if that happens, so leak pans and a sealed perimeter are not optional extras."
+  },
+  {
+   "type": "h2",
+   "text": "What to ask any installer about wet rooms"
+  },
+  {
+   "type": "ul",
+   "items": [
+    "Will you pull and reset the toilets, or cut around them? The right answer is pull and reset.",
+    "What sealant goes along the tub and shower? You want 100 percent silicone named on the quote.",
+    "Is the plank rigid core, and does it have an attached pad? Under a washer you want SPC, 5 mm or thicker.",
+    "What happens to the old sheet vinyl? In a pre-1980 Lynnwood house, over is often safer than out.",
+    "Is there a slab under the laundry, and what is the moisture reading? Every Wills <a href=\"/services/lvp-vinyl-flooring\">vinyl plank installation</a> over concrete starts with that test."
+   ]
+  }
  ],
  "faq": [
-  {"q":"Is vinyl plank really OK in a bathroom?","a":"Yes. The planks are waterproof and rigid-core products handle the humidity swings of a bathroom without issue. The risk is water reaching the subfloor at the toilet base or the tub edge, so the toilet should be pulled and reset over the plank and the tub edge sealed with 100 percent silicone."},
-  {"q":"Can vinyl plank go under a washer and dryer?","a":"Yes, with a rigid SPC core at least 5 mm thick so the feet do not dent it, and ideally a washer pan on top. Flexible thin LVP can dent and shift under a spinning washer. On a slab laundry room, as in many Lynnwood split-levels, a vapor barrier goes under the plank first."},
-  {"q":"Should I run the vinyl plank under the dishwasher and fridge?","a":"Under the fridge, yes, so it can roll out. Under the dishwasher, only if the height still allows it to slide out for service; otherwise we stop the plank at the toe kick line and shim the dishwasher level. We check the clearance before installation and recommend a leak pan under both."},
-  {"q":"Do I need to remove old bathroom or kitchen vinyl first?","a":"Not if it is flat and firmly stuck down. Sheet vinyl installed before about 1980 may contain asbestos in the backing or adhesive, so leaving it in place and floating the new plank over it is usually the safest and cheapest route. Loose, curling or cushioned vinyl does need to come out."},
-  {"q":"What does it cost to put vinyl plank in just one bathroom?","a":"Wills Flooring's labor rate is $2.50 per sq ft with a 500 sq ft minimum, so a bathroom alone bills at 500 × $2.50 = $1,250 in labor. Most Lynnwood homeowners bundle the bathroom with the kitchen, hallway or laundry room so the minimum covers rooms they actually need done."},
-  {"q":"Is tile better than vinyl plank for a bathroom?","a":"Tile handles standing water indefinitely and is the right choice for curbless showers and rooms that flood. For a normal family bathroom, vinyl plank is warmer, quieter, faster to install and far more forgiving of a slightly imperfect subfloor. Both work; the room and your tolerance for grout decide it."}
+  {
+   "q": "Is vinyl plank really OK in a bathroom?",
+   "a": "Yes. The planks are waterproof and rigid-core products handle the humidity swings of a bathroom without issue. The risk is water reaching the subfloor at the toilet base or the tub edge, so the toilet should be pulled and reset over the plank and the tub edge sealed with 100 percent silicone."
+  },
+  {
+   "q": "Can vinyl plank go under a washer and dryer?",
+   "a": "Yes, with a rigid SPC core at least 5 mm thick so the feet do not dent it, and ideally a washer pan on top. Flexible thin LVP can dent and shift under a spinning washer. On a slab laundry room, as in many Lynnwood split-levels, a vapor barrier goes under the plank first."
+  },
+  {
+   "q": "Should I run the vinyl plank under the dishwasher and fridge?",
+   "a": "Under the fridge, yes, so it can roll out. Under the dishwasher, only if the height still allows it to slide out for service; otherwise we stop the plank at the toe kick line and shim the dishwasher level. We check the clearance before installation and recommend a leak pan under both."
+  },
+  {
+   "q": "Do I need to remove old bathroom or kitchen vinyl first?",
+   "a": "Not if it is flat and firmly stuck down. Sheet vinyl installed before about 1980 may contain asbestos in the backing or adhesive, so leaving it in place and floating the new plank over it is usually the safest and cheapest route. Loose, curling or cushioned vinyl does need to come out."
+  },
+  {
+   "q": "What does it cost to put vinyl plank in just one bathroom?",
+   "a": "Wills Flooring's labor rate is $2.50 per sq ft with a 500 sq ft minimum, so a bathroom alone bills at 500 × $2.50 = $1,250 in labor. Most Lynnwood homeowners bundle the bathroom with the kitchen, hallway or laundry room so the minimum covers rooms they actually need done."
+  },
+  {
+   "q": "Is tile better than vinyl plank for a bathroom?",
+   "a": "Tile handles standing water indefinitely and is the right choice for curbless showers and rooms that flood. For a normal family bathroom, vinyl plank is warmer, quieter, faster to install and far more forgiving of a slightly imperfect subfloor. Both work; the room and your tolerance for grout decide it."
+  }
  ],
  "faq_title": "Wet-room vinyl plank questions from Lynnwood homeowners",
  "faq_sub": "From estimates in Alderwood, Martha Lake and Meadowdale, and walk-ins at our showroom on 196th St SW.",
- "related": [["is-vinyl-plank-flooring-really-waterproof-seattle","is vinyl plank really waterproof"],["vinyl-plank-vs-tile-in-bathrooms-kirkland","vinyl plank vs tile in bathrooms"],["vinyl-plank-in-kitchens-everett","vinyl plank in kitchens"]],
+ "related": [
+  [
+   "is-vinyl-plank-flooring-really-waterproof-seattle",
+   "is vinyl plank really waterproof"
+  ],
+  [
+   "vinyl-plank-vs-tile-in-bathrooms-kirkland",
+   "vinyl plank vs tile in bathrooms"
+  ],
+  [
+   "vinyl-plank-in-kitchens-everett",
+   "vinyl plank in kitchens"
+  ]
+ ],
  "cta_title": "Get your bathroom, kitchen and laundry priced together",
  "cta_sub": "We bring rigid-core samples to your Lynnwood home, check the toilets, appliances and slab, and give you one firm written price. Free, no obligation."
 }

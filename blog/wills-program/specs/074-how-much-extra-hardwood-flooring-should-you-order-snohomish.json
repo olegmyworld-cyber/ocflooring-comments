@@ -5,67 +5,308 @@
  "category": "hardwood",
  "city": "Snohomish",
  "time": "8 mins",
- "date": "2026-11-29T15:00:00.000Z",
+ "date": "2026-12-05T15:00:00.000Z",
  "keywords": "hardwood flooring waste factor, how much extra hardwood flooring to order, flooring overage percentage, how many boxes of hardwood do I need, hardwood flooring calculator with waste",
- "offers": [["Hardwood floor installation, engineered or solid", "3.25", "per square foot"], ["Unfinished hardwood installation", "2.75", "per square foot"]],
+ "offers": [
+  [
+   "Hardwood floor installation, engineered or solid",
+   "3.25",
+   "per square foot"
+  ],
+  [
+   "Unfinished hardwood installation",
+   "2.75",
+   "per square foot"
+  ]
+ ],
  "blocks": [
-  {"type":"quick","eyebrow":"Short answer","lead":"Order 7 to 10 percent more hardwood than your measured floor area for a straight lay, 12 to 15 percent for a diagonal or a house full of angles and closets, and 15 to 20 percent for herringbone or chevron.","detail":"Then round up to whole boxes and keep one unopened box for future repairs. Wills Flooring bills installation labor at $3.25 per sq ft on the measured floor, not on the boxes you buy, so the overage only affects material.",
-   "tiles":[{"icon":"ruler","label":"Straight lay","value":"7–10%"},{"icon":"grid","label":"Diagonal / cut-up plan","value":"12–15%"},{"icon":"layers","label":"Herringbone","value":"15–20%"},{"icon":"box","label":"Keep for repairs","value":"1 box"}]},
-  {"type":"p","html":"Every hardwood job in Snohomish County starts with the same question, usually asked while standing in a half-gutted farmhouse kitchen: how many boxes? Order too few and the job stops for two weeks while the mill ships another pallet, and the new pallet might not match. Order too many and you have $600 of oak in the barn. The waste factor is how you land in between. Here is what it covers, what changes it, and how to do the math for your own house."},
-  {"type":"h2","text":"What the waste factor actually pays for"},
-  {"type":"cards","cols":2,"items":[
-    {"icon":"scissors","title":"End cuts at every wall","text":"Each row ends with a cut board. The offcut goes back into the next row when it is long enough. When it is under about 8 inches it becomes waste. More walls and more short rows mean more of these."},
-    {"icon":"search","title":"Boards you reject","text":"Every box has a few planks with a chipped tongue, a milling defect or a color you do not want in the middle of the room. Rustic and character grades have more of them by design. Select grade has fewer."},
-    {"icon":"hammer","title":"Installer mistakes","text":"A mis-cut, a board damaged by the flooring nailer, a plank split at a knot. A good crew wastes little, but zero is not real. Budget for it."},
-    {"icon":"box","title":"Future repairs","text":"Dye lots and mill runs change. In five years, when a dishwasher leaks in the Clearview kitchen, matching boards from a new run rarely blend. One extra box today is cheap insurance."}
-  ]},
-  {"type":"h2","text":"Waste percentage by layout and floor"},
-  {"type":"table","head":["Situation","Add this much","Notes"],"rows":[
-    ["Open rectangular rooms, straight lay, 3 to 5 in planks","7%","Few walls, long runs, offcuts reused. The minimum we recommend."],
-    ["Typical home with hallways, closets, several rooms","10%","Every closet and doorway adds short rows and cuts."],
-    ["Diagonal (45 degree) installation","12–15%","Every row starts and ends with an angled cut that cannot be reused."],
-    ["Herringbone or chevron","15–20%","Pattern requires border cuts on every wall and precise lengths. Chevron is at the top of the range."],
-    ["Wide plank, 7 in and up, long lengths","+2–3% on top","Fewer boards per box means one rejected plank is a bigger share."],
-    ["Rustic or character grade","+3–5% on top","More knots, checks and color outliers you will want to cull."],
-    ["Unfinished, site-finished floor","Slightly less","Small defects get filled and sanded out instead of culled. Installs at $2.75 per sq ft plus finishing."]
-  ],"note":"Percentages are applied to the measured floor area, then rounded up to full boxes. Box coverage varies by product, typically 18 to 30 sq ft each."},
-  {"type":"h2","text":"Price your Snohomish hardwood installation"},
-  {"type":"calc","kind":"hardwood","note":"Labor is billed on the measured floor. Material, including your waste overage, is quoted separately once you pick a plank."},
-  {"type":"h2","text":"A worked example: a 1,280 sq ft Fobes Hill farmhouse"},
-  {"type":"steps","wide":true,"items":[
-    {"icon":"ruler","d":"1. Measure the floor","text":"Living room, dining room, kitchen, hallway and three bedrooms, measured wall to wall including closets.","note":"Measured area: 1,280 sq ft"},
-    {"icon":"grid","d":"2. Pick the waste factor","text":"Straight lay, but seven rooms, four closets and a hallway with an offset, so this is the typical-home row, not the open-room row.","note":"1,280 × 1.10 = 1,408 sq ft of material"},
-    {"icon":"box","d":"3. Convert to boxes","text":"The 5 in engineered white oak they chose covers 22.5 sq ft per box.","note":"1,408 ÷ 22.5 = 62.6, round up to 63 boxes"},
-    {"icon":"shield","d":"4. Add the repair box","text":"One more unopened box goes on a shelf in the shop, labeled with the product name and run number.","note":"Order 64 boxes = 1,440 sq ft"},
-    {"icon":"dollar","d":"5. Labor is separate","text":"Wills Flooring installs the measured area, not the ordered area.","note":"1,280 × $3.25 = $4,160 labor, plus material and any subfloor prep quoted at the estimate"}
-  ]},
-  {"type":"h2","text":"Why Snohomish houses tend to need the higher number"},
-  {"type":"list","icons":true,"items":[
-    {"icon":"home","html":"<strong>Additions and odd angles.</strong> Farmhouses around Blackmans Lake and out toward Clearview have been added onto three or four times. Walls that are not square to each other turn every row into a taper cut."},
-    {"icon":"flame","html":"<strong>Wood stove hearths.</strong> Flooring has to be cut around a hearth pad, and the angled cuts along a corner hearth do not go back into the field."},
-    {"icon":"stairs","html":"<strong>Stair landings and nosings.</strong> Landings are small rooms with four walls. Stair treads are $125 per stair at Wills Flooring and use their own material, so count them separately."},
-    {"icon":"moisture","html":"<strong>Crawlspace moisture.</strong> Not a waste issue directly, but if the subfloor reads high, we may need to wait or add a vapor retarder, and you do not want to be short on boards when the job restarts."},
-    {"icon":"tree","html":"<strong>Character grades are popular here.</strong> Snohomish buyers lean toward knotty hickory and rustic oak that fit an older house. Those grades come with more planks you will want to set aside."}
-  ]},
-  {"type":"h2","text":"Ordering too much vs too little"},
-  {"type":"compare","a":{"icon":"done","tag":"Order a little more","title":"The cheaper mistake","items":["An extra box or two costs less than a return trip","Leftovers cover a future repair with a matching run","Some suppliers take back unopened boxes for a restocking fee","The job finishes on schedule"]},
-    "b":{"icon":"x","tag":"Order too little","title":"The expensive mistake","items":["The crew stops and reschedules, often two or more weeks out","A new pallet can be a different run and a visibly different color","Rush shipping on hardwood is costly","Half-finished floors in a lived-in house are miserable"]}},
-  {"type":"callout","icon":"alert","title":"Do not trust the box math on the shelf tag: ","text":"Retail flooring calculators often default to a 5 percent overage. That works for a single empty rectangular room and almost nowhere else. For a whole Snohomish house, use 10 percent as your floor, not your ceiling."},
-  {"type":"h2","text":"How to get the count right the first time"},
-  {"type":"ul","items":["Have the installer measure, not the salesperson. We measure every room on the free estimate and hand you the square footage in writing.","Decide on the layout direction and pattern before ordering. Diagonal and herringbone change the number a lot.","Ask for the exact box coverage of the product you picked. Two similar planks can differ by 5 sq ft per box.","Ask whether all boxes will ship from one run. If not, mix boards from different boxes as you install so any variation spreads out.","Store the extra box flat, indoors, in the same conditions as the floor. A box in a damp Snohomish barn will not match in five years."]},
-  {"type":"p","html":"Layout direction changes the waste number, so read <a href=\"/blog-posts/which-direction-should-hardwood-floors-run-everett\">which direction hardwood floors should run</a> before you order. Our <a href=\"/services/hardwood-flooring\">hardwood installation</a> page explains what is included in the labor rate."}
+  {
+   "type": "quick",
+   "eyebrow": "Short answer",
+   "lead": "Order 7 to 10 percent more hardwood than your measured floor area for a straight lay, 12 to 15 percent for a diagonal or a house full of angles and closets, and 15 to 20 percent for herringbone or chevron.",
+   "detail": "Then round up to whole boxes and keep one unopened box for future repairs. Wills Flooring bills installation labor at $3.25 per sq ft on the measured floor, not on the boxes you buy, so the overage only affects material.",
+   "tiles": [
+    {
+     "icon": "ruler",
+     "label": "Straight lay",
+     "value": "7–10%"
+    },
+    {
+     "icon": "grid",
+     "label": "Diagonal / cut-up plan",
+     "value": "12–15%"
+    },
+    {
+     "icon": "layers",
+     "label": "Herringbone",
+     "value": "15–20%"
+    },
+    {
+     "icon": "box",
+     "label": "Keep for repairs",
+     "value": "1 box"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "html": "Every hardwood job in Snohomish County starts with the same question, usually asked while standing in a half-gutted farmhouse kitchen: how many boxes? Order too few and the job stops for two weeks while the mill ships another pallet, and the new pallet might not match. Order too many and you have $600 of oak in the barn. The waste factor is how you land in between. Here is what it covers, what changes it, and how to do the math for your own house."
+  },
+  {
+   "type": "h2",
+   "text": "What the waste factor actually pays for"
+  },
+  {
+   "type": "cards",
+   "cols": 2,
+   "items": [
+    {
+     "icon": "scissors",
+     "title": "End cuts at every wall",
+     "text": "Each row ends with a cut board. The offcut goes back into the next row when it is long enough. When it is under about 8 inches it becomes waste. More walls and more short rows mean more of these."
+    },
+    {
+     "icon": "search",
+     "title": "Boards you reject",
+     "text": "Every box has a few planks with a chipped tongue, a milling defect or a color you do not want in the middle of the room. Rustic and character grades have more of them by design. Select grade has fewer."
+    },
+    {
+     "icon": "hammer",
+     "title": "Installer mistakes",
+     "text": "A mis-cut, a board damaged by the flooring nailer, a plank split at a knot. A good crew wastes little, but zero is not real. Budget for it."
+    },
+    {
+     "icon": "box",
+     "title": "Future repairs",
+     "text": "Dye lots and mill runs change. In five years, when a dishwasher leaks in the Clearview kitchen, matching boards from a new run rarely blend. One extra box today is cheap insurance."
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "Waste percentage by layout and floor"
+  },
+  {
+   "type": "table",
+   "head": [
+    "Situation",
+    "Add this much",
+    "Notes"
+   ],
+   "rows": [
+    [
+     "Open rectangular rooms, straight lay, 3 to 5 in planks",
+     "7%",
+     "Few walls, long runs, offcuts reused. The minimum we recommend."
+    ],
+    [
+     "Typical home with hallways, closets, several rooms",
+     "10%",
+     "Every closet and doorway adds short rows and cuts."
+    ],
+    [
+     "Diagonal (45 degree) installation",
+     "12–15%",
+     "Every row starts and ends with an angled cut that cannot be reused."
+    ],
+    [
+     "Herringbone or chevron",
+     "15–20%",
+     "Pattern requires border cuts on every wall and precise lengths. Chevron is at the top of the range."
+    ],
+    [
+     "Wide plank, 7 in and up, long lengths",
+     "+2–3% on top",
+     "Fewer boards per box means one rejected plank is a bigger share."
+    ],
+    [
+     "Rustic or character grade",
+     "+3–5% on top",
+     "More knots, checks and color outliers you will want to cull."
+    ],
+    [
+     "Unfinished, site-finished floor",
+     "Slightly less",
+     "Small defects get filled and sanded out instead of culled. Installs at $2.75 per sq ft plus finishing."
+    ]
+   ],
+   "note": "Percentages are applied to the measured floor area, then rounded up to full boxes. Box coverage varies by product, typically 18 to 30 sq ft each."
+  },
+  {
+   "type": "h2",
+   "text": "Price your Snohomish hardwood installation"
+  },
+  {
+   "type": "calc",
+   "kind": "hardwood",
+   "note": "Labor is billed on the measured floor. Material, including your waste overage, is quoted separately once you pick a plank."
+  },
+  {
+   "type": "h2",
+   "text": "A worked example: a 1,280 sq ft Fobes Hill farmhouse"
+  },
+  {
+   "type": "steps",
+   "wide": true,
+   "items": [
+    {
+     "icon": "ruler",
+     "d": "1. Measure the floor",
+     "text": "Living room, dining room, kitchen, hallway and three bedrooms, measured wall to wall including closets.",
+     "note": "Measured area: 1,280 sq ft"
+    },
+    {
+     "icon": "grid",
+     "d": "2. Pick the waste factor",
+     "text": "Straight lay, but seven rooms, four closets and a hallway with an offset, so this is the typical-home row, not the open-room row.",
+     "note": "1,280 × 1.10 = 1,408 sq ft of material"
+    },
+    {
+     "icon": "box",
+     "d": "3. Convert to boxes",
+     "text": "The 5 in engineered white oak they chose covers 22.5 sq ft per box.",
+     "note": "1,408 ÷ 22.5 = 62.6, round up to 63 boxes"
+    },
+    {
+     "icon": "shield",
+     "d": "4. Add the repair box",
+     "text": "One more unopened box goes on a shelf in the shop, labeled with the product name and run number.",
+     "note": "Order 64 boxes = 1,440 sq ft"
+    },
+    {
+     "icon": "dollar",
+     "d": "5. Labor is separate",
+     "text": "Wills Flooring installs the measured area, not the ordered area.",
+     "note": "1,280 × $3.25 = $4,160 labor, plus material and any subfloor prep quoted at the estimate"
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "Why Snohomish houses tend to need the higher number"
+  },
+  {
+   "type": "list",
+   "icons": true,
+   "items": [
+    {
+     "icon": "home",
+     "html": "<strong>Additions and odd angles.</strong> Farmhouses around Blackmans Lake and out toward Clearview have been added onto three or four times. Walls that are not square to each other turn every row into a taper cut."
+    },
+    {
+     "icon": "flame",
+     "html": "<strong>Wood stove hearths.</strong> Flooring has to be cut around a hearth pad, and the angled cuts along a corner hearth do not go back into the field."
+    },
+    {
+     "icon": "stairs",
+     "html": "<strong>Stair landings and nosings.</strong> Landings are small rooms with four walls. Stair treads are $125 per stair at Wills Flooring and use their own material, so count them separately."
+    },
+    {
+     "icon": "moisture",
+     "html": "<strong>Crawlspace moisture.</strong> Not a waste issue directly, but if the subfloor reads high, we may need to wait or add a vapor retarder, and you do not want to be short on boards when the job restarts."
+    },
+    {
+     "icon": "tree",
+     "html": "<strong>Character grades are popular here.</strong> Snohomish buyers lean toward knotty hickory and rustic oak that fit an older house. Those grades come with more planks you will want to set aside."
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "Ordering too much vs too little"
+  },
+  {
+   "type": "compare",
+   "a": {
+    "icon": "done",
+    "tag": "Order a little more",
+    "title": "The cheaper mistake",
+    "items": [
+     "An extra box or two costs less than a return trip",
+     "Leftovers cover a future repair with a matching run",
+     "Some suppliers take back unopened boxes for a restocking fee",
+     "The job finishes on schedule"
+    ]
+   },
+   "b": {
+    "icon": "x",
+    "tag": "Order too little",
+    "title": "The expensive mistake",
+    "items": [
+     "The crew stops and reschedules, often two or more weeks out",
+     "A new pallet can be a different run and a visibly different color",
+     "Rush shipping on hardwood is costly",
+     "Half-finished floors in a lived-in house are miserable"
+    ]
+   }
+  },
+  {
+   "type": "callout",
+   "icon": "alert",
+   "title": "Do not trust the box math on the shelf tag: ",
+   "text": "Retail flooring calculators often default to a 5 percent overage. That works for a single empty rectangular room and almost nowhere else. For a whole Snohomish house, use 10 percent as your floor, not your ceiling."
+  },
+  {
+   "type": "h2",
+   "text": "How to get the count right the first time"
+  },
+  {
+   "type": "ul",
+   "items": [
+    "Have the installer measure, not the salesperson. We measure every room on the free estimate and hand you the square footage in writing.",
+    "Decide on the layout direction and pattern before ordering. Diagonal and herringbone change the number a lot.",
+    "Ask for the exact box coverage of the product you picked. Two similar planks can differ by 5 sq ft per box.",
+    "Ask whether all boxes will ship from one run. If not, mix boards from different boxes as you install so any variation spreads out.",
+    "Store the extra box flat, indoors, in the same conditions as the floor. A box in a damp Snohomish barn will not match in five years."
+   ]
+  },
+  {
+   "type": "p",
+   "html": "Layout direction changes the waste number, so read <a href=\"/blog-posts/which-direction-should-hardwood-floors-run-everett\">which direction hardwood floors should run</a> before you order. Our <a href=\"/services/hardwood-flooring\">hardwood installation</a> page explains what is included in the labor rate."
+  }
  ],
  "faq": [
-  {"q":"Is 10 percent extra hardwood enough?","a":"For a typical house with several rooms, closets and hallways installed in a straight lay, yes. Drop to 7 percent only for a single open room. Go to 12 to 15 percent for a diagonal, and 15 to 20 percent for herringbone or chevron. Then round up to whole boxes."},
-  {"q":"Do I pay installation labor on the extra boxes?","a":"Not with Wills Flooring. We bill hardwood installation at $3.25 per sq ft on the measured floor area, with a 500 sq ft minimum. The overage only affects how much material you buy. Material is quoted separately at the free estimate."},
-  {"q":"How many boxes of hardwood do I need for 1,000 sq ft?","a":"Multiply 1,000 by your waste factor, then divide by the box coverage. At 10 percent and 22 sq ft per box: 1,100 ÷ 22 = 50 boxes. Add one for future repairs. Box coverage varies by product, so check the label rather than assuming."},
-  {"q":"Can I return unopened boxes of hardwood?","a":"Often, but not always. Many suppliers accept unopened boxes within a set window with a restocking fee, and special orders are usually final. Ask before ordering. We still recommend keeping at least one box for repairs regardless of the return policy."},
-  {"q":"Does engineered hardwood need the same waste factor as solid?","a":"Yes for the same layout. Engineered boxes often cover more square footage and have fewer culls, so the practical waste can be a bit lower, but the cut waste from walls and angles is identical. Use the same percentages and round up to whole boxes."},
-  {"q":"Why does herringbone need so much more material?","a":"Every plank at every wall gets an angled cut, and the pattern needs consistent lengths, so offcuts rarely go back into the field. Chevron adds a mitered cut on every board. Budget 15 to 20 percent extra and expect the install to take longer as well."}
+  {
+   "q": "Is 10 percent extra hardwood enough?",
+   "a": "For a typical house with several rooms, closets and hallways installed in a straight lay, yes. Drop to 7 percent only for a single open room. Go to 12 to 15 percent for a diagonal, and 15 to 20 percent for herringbone or chevron. Then round up to whole boxes."
+  },
+  {
+   "q": "Do I pay installation labor on the extra boxes?",
+   "a": "Not with Wills Flooring. We bill hardwood installation at $3.25 per sq ft on the measured floor area, with a 500 sq ft minimum. The overage only affects how much material you buy. Material is quoted separately at the free estimate."
+  },
+  {
+   "q": "How many boxes of hardwood do I need for 1,000 sq ft?",
+   "a": "Multiply 1,000 by your waste factor, then divide by the box coverage. At 10 percent and 22 sq ft per box: 1,100 ÷ 22 = 50 boxes. Add one for future repairs. Box coverage varies by product, so check the label rather than assuming."
+  },
+  {
+   "q": "Can I return unopened boxes of hardwood?",
+   "a": "Often, but not always. Many suppliers accept unopened boxes within a set window with a restocking fee, and special orders are usually final. Ask before ordering. We still recommend keeping at least one box for repairs regardless of the return policy."
+  },
+  {
+   "q": "Does engineered hardwood need the same waste factor as solid?",
+   "a": "Yes for the same layout. Engineered boxes often cover more square footage and have fewer culls, so the practical waste can be a bit lower, but the cut waste from walls and angles is identical. Use the same percentages and round up to whole boxes."
+  },
+  {
+   "q": "Why does herringbone need so much more material?",
+   "a": "Every plank at every wall gets an angled cut, and the pattern needs consistent lengths, so offcuts rarely go back into the field. Chevron adds a mitered cut on every board. Budget 15 to 20 percent extra and expect the install to take longer as well."
+  }
  ],
  "faq_title": "Waste factor questions from Snohomish homeowners",
  "faq_sub": "From farmhouse remodels, acreage builds and the phone at our Lynnwood showroom.",
- "related": [["which-direction-should-hardwood-floors-run-everett","which direction hardwood should run"],["how-much-does-herringbone-or-chevron-hardwood-flooring-cost-to-install","herringbone and chevron installation cost"],["wide-plank-vs-narrow-plank-hardwood-sammamish","wide plank vs narrow plank"]],
+ "related": [
+  [
+   "which-direction-should-hardwood-floors-run-everett",
+   "which direction hardwood should run"
+  ],
+  [
+   "how-much-does-herringbone-or-chevron-hardwood-flooring-cost-to-install",
+   "herringbone and chevron installation cost"
+  ],
+  [
+   "wide-plank-vs-narrow-plank-hardwood-sammamish",
+   "wide plank vs narrow plank"
+  ]
+ ],
  "cta_title": "Get your square footage and box count in writing",
  "cta_sub": "We measure every room, recommend the right overage for your layout and hand you a firm written labor quote on the spot. Free anywhere in Snohomish."
 }

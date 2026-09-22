@@ -222,7 +222,11 @@ def slugify(title, city):
     parts=t.split("-")
     while parts and parts[-1] in STOP: parts.pop()
     return "-".join(parts)
-plan=[]; start=datetime.date(2026,9,17)
+# Posts Oleg published ahead of their slot. Their schema dates must read the real publish
+# date, not the future slot, or a live post advertises datePublished in the future.
+ALREADY_LIVE = {"best-carpet-for-stairs-with-dogs-everett": "2026-09-17"}
+
+plan=[]; start=datetime.date(2026,9,23)
 banks=[("refinish",R,0),("hardwood",H,2),("lvp",L,4),("carpet",C,6)]
 day=0
 for i in range(50):
@@ -232,6 +236,11 @@ for i in range(50):
         if "{city}" not in bank[i] and cat in ("refinish","hardwood","lvp","carpet"): pass
         plan.append({"n":len(plan)+1,"cat":cat,"city":city,"city_in_title":"{city}" in bank[i],"title":title,"slug":slug,"date":(start+datetime.timedelta(days=day)).isoformat()+"T15:00:00.000Z"})
         day+=1
+for p in plan:
+    if p["slug"] in ALREADY_LIVE:
+        p["slot"]=p["date"]
+        p["date"]=ALREADY_LIVE[p["slug"]]+"T15:00:00.000Z"
+        p["live"]=True
 slugs=[p["slug"] for p in plan]; assert len(set(slugs))==200, [s for s in slugs if slugs.count(s)>1]
 json.dump(plan,open(__file__.replace("plan.py","plan.json"),"w"),indent=1)
 print(len(plan),"posts,",plan[0]["date"][:10],"to",plan[-1]["date"][:10])

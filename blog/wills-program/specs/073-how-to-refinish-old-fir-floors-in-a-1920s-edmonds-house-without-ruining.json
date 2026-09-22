@@ -5,57 +5,260 @@
  "category": "refinish",
  "city": "Edmonds",
  "time": "9 mins",
- "date": "2026-11-28T15:00:00.000Z",
+ "date": "2026-12-04T15:00:00.000Z",
  "keywords": "refinish old fir floors, douglas fir floor refinishing, 1920s fir floors sanding, can fir floors be refinished, fir floor refinishing Edmonds WA",
- "offers": [["Sand and refinish, natural finish", "3.99", "per square foot"], ["Sand and refinish with stain", "6.50", "per square foot"], ["Screen and recoat", "1.99", "per square foot"]],
+ "offers": [
+  [
+   "Sand and refinish, natural finish",
+   "3.99",
+   "per square foot"
+  ],
+  [
+   "Sand and refinish with stain",
+   "6.50",
+   "per square foot"
+  ],
+  [
+   "Screen and recoat",
+   "1.99",
+   "per square foot"
+  ]
+ ],
  "blocks": [
-  {"type":"quick","eyebrow":"Short answer","lead":"Old-growth fir floors can be refinished safely if you measure the wood thickness first, sand with the grain using fine grits, leave the color natural and finish with a water-based satin.","detail":"Wills Flooring refinishes fir at the same $3.99 per sq ft natural rate as oak. The price is not the risk. The risk is a crew that treats a 100-year-old softwood like a modern hardwood and sands through it.",
-   "tiles":[{"icon":"dollar","label":"Natural finish","value":"$3.99 / sq ft"},{"icon":"ruler","label":"Check first","value":"Wood above tongue"},{"icon":"palette","label":"Stain","value":"Usually skip it"},{"icon":"brush","label":"Best finish","value":"Water-based satin"}]},
-  {"type":"p","html":"Pull up the carpet in a 1920s bungalow in the Edmonds Bowl or the older streets near downtown and there is a good chance you find tight-grained Douglas fir, not oak. It was the local wood when these houses went up, milled from trees that grew for centuries. It is beautiful, it is soft, and it has usually already been sanded two or three times. That combination is why so many fir refinishing jobs go wrong. Here is how to keep yours from being one of them."},
-  {"type":"h2","text":"What makes fir different from oak"},
-  {"type":"cards","cols":2,"items":[
-    {"icon":"layers","title":"It is soft","text":"Douglas fir scores about half of red oak on the Janka hardness scale. A dropped pan or a dog's nails leave marks faster. That is not a reason to avoid refinishing. It is a reason to choose the finish and sheen carefully so those marks stay quiet."},
-    {"icon":"ruler","title":"It is often thin","text":"Original fir flooring was milled at roughly the same thickness as oak, but 100 years of sanding takes its toll. Many Edmonds floors have a quarter inch or less above the tongue. That is one more sanding, maybe two, and only if the crew is careful."},
-    {"icon":"tree","title":"The grain tears out","text":"Fir has hard latewood bands and soft earlywood between them. Sand across the grain with a coarse grit and the soft bands dig out, leaving a washboard you can feel with your socks."},
-    {"icon":"palette","title":"It takes stain unevenly","text":"Those same alternating bands absorb stain at different rates. A dark stain on fir goes blotchy and stripy in a way that no amount of skill fully controls. The natural amber color is the color it wants to be."}
-  ]},
-  {"type":"h2","text":"The five ways fir floors get ruined"},
-  {"type":"list","icons":true,"items":[
-    {"icon":"alert","html":"<strong>Starting at 36 grit.</strong> A drum sander with a coarse belt removes fir far faster than oak. On a thin floor that first pass can expose tongues and nail heads. We start finer and take more passes."},
-    {"icon":"wind","html":"<strong>Sanding across the grain.</strong> Some crews do a diagonal first cut to flatten cupped boards. On fir that leaves cross-grain scratches that show through every finish."},
-    {"icon":"palette","html":"<strong>Chasing a gray or espresso look.</strong> The dark modern floors people save on Pinterest are white oak. Forcing that on fir produces blotches, and the soft wood telegraphs every future scratch as a light line."},
-    {"icon":"droplet","html":"<strong>Skipping wood conditioner when stain is used.</strong> If a client insists on a light stain, the floor needs a conditioner or a water-pop first. Skip it and the result is uneven."},
-    {"icon":"hammer","html":"<strong>Aggressive filling.</strong> Old fir has seasonal gaps. Trowel-filling every gap in November means the filler cracks out in August when the boards swell in Edmonds waterfront humidity."}
-  ]},
-  {"type":"h2","text":"Price your Edmonds fir floor right now"},
-  {"type":"calc","kind":"refinish","note":"Fir refinishes at the same rates as oak. Choose natural unless you have already seen a stained fir sample you love."},
-  {"type":"h2","text":"How we sand a 1920s fir floor"},
-  {"type":"steps","wide":true,"items":[
-    {"icon":"search","d":"Before quoting","text":"We pull a heat register or a threshold and measure the wood above the tongue. Under 3/32 in and we talk about a screen and recoat or a replacement plan instead of sanding.","note":"This takes five minutes and prevents the worst outcome."},
-    {"icon":"box","d":"Day 1, morning","text":"Rooms cleared, doorways sealed for dust containment if requested, nails set below the surface, loose boards face-nailed and the holes filled."},
-    {"icon":"layers","d":"Day 1, afternoon","text":"First pass with a medium grit, straight with the grain, drum sander speed kept low. Edger work kept to the last inch so the edger swirls do not show."},
-    {"icon":"brush","d":"Day 2","text":"Fine grit pass, then a buffer with a screen to blend edger and field. Vacuum, tack, first coat of Bona water-based sealer."},
-    {"icon":"done","d":"Days 3 and 4","text":"Two more coats of finish, light abrasion between coats. Satin sheen by default because it hides the marks that a soft wood will collect.","note":"A 750 sq ft Bowl bungalow main floor: 750 × $3.99 = $2,993. Add $250 for full dust containment."}
-  ]},
-  {"type":"h2","text":"Should you stain fir or leave it natural?"},
-  {"type":"compare","a":{"icon":"done","tag":"Leave it natural","title":"Right for almost every fir floor","items":["The amber-orange glow is what makes these floors valuable","Water-based finish keeps it lighter; oil-based pushes it deeper orange","Scratches blend into the natural color","Costs $3.99 per sq ft instead of $6.50"]},
-    "b":{"icon":"x","tag":"Stain it","title":"Only when you accept the tradeoffs","items":["Light or whitewash tones can work with a conditioner and a test patch","Dark stain will look striped and every scratch shows pale","Adds a day and $2.51 per sq ft","Get a sample on your actual floor before committing"]}},
-  {"type":"callout","icon":"alert","title":"Edmonds-specific warning: ","text":"Houses in Seaview and the Bowl sit close to the water, and unheated crawlspaces stay damp most of the winter. If your fir floor is cupped, we check the crawlspace moisture before sanding. Sanding a cupped floor flat while it is wet guarantees a crowned floor when it dries."},
-  {"type":"h2","text":"Questions to ask any refinisher before they touch fir"},
-  {"type":"ul","items":["Have you measured the thickness above the tongue, and what did you find?","What grit will you start with, and will every pass run with the grain?","Are you Bona Certified? Wills Flooring crews are, and the certification covers exactly the sealer and finish systems fir needs.","What happens to the gaps? The right answer is to fill only the ones that will not move, not every seam in the house.","Can I see a fir floor you finished, not an oak one? Fir photos look different and you should know what you are buying."]},
-  {"type":"p","html":"If you are not sure what is under your carpet yet, our post on <a href=\"/blog-posts/whats-under-my-carpet-kirkland\">what is under my carpet</a> covers how to tell fir from oak before you pull it all up. The full process is on our <a href=\"/services/floor-refinish\">floor refinishing</a> page."}
+  {
+   "type": "quick",
+   "eyebrow": "Short answer",
+   "lead": "Old-growth fir floors can be refinished safely if you measure the wood thickness first, sand with the grain using fine grits, leave the color natural and finish with a water-based satin.",
+   "detail": "Wills Flooring refinishes fir at the same $3.99 per sq ft natural rate as oak. The price is not the risk. The risk is a crew that treats a 100-year-old softwood like a modern hardwood and sands through it.",
+   "tiles": [
+    {
+     "icon": "dollar",
+     "label": "Natural finish",
+     "value": "$3.99 / sq ft"
+    },
+    {
+     "icon": "ruler",
+     "label": "Check first",
+     "value": "Wood above tongue"
+    },
+    {
+     "icon": "palette",
+     "label": "Stain",
+     "value": "Usually skip it"
+    },
+    {
+     "icon": "brush",
+     "label": "Best finish",
+     "value": "Water-based satin"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "html": "Pull up the carpet in a 1920s bungalow in the Edmonds Bowl or the older streets near downtown and there is a good chance you find tight-grained Douglas fir, not oak. It was the local wood when these houses went up, milled from trees that grew for centuries. It is beautiful, it is soft, and it has usually already been sanded two or three times. That combination is why so many fir refinishing jobs go wrong. Here is how to keep yours from being one of them."
+  },
+  {
+   "type": "h2",
+   "text": "What makes fir different from oak"
+  },
+  {
+   "type": "cards",
+   "cols": 2,
+   "items": [
+    {
+     "icon": "layers",
+     "title": "It is soft",
+     "text": "Douglas fir scores about half of red oak on the Janka hardness scale. A dropped pan or a dog's nails leave marks faster. That is not a reason to avoid refinishing. It is a reason to choose the finish and sheen carefully so those marks stay quiet."
+    },
+    {
+     "icon": "ruler",
+     "title": "It is often thin",
+     "text": "Original fir flooring was milled at roughly the same thickness as oak, but 100 years of sanding takes its toll. Many Edmonds floors have a quarter inch or less above the tongue. That is one more sanding, maybe two, and only if the crew is careful."
+    },
+    {
+     "icon": "tree",
+     "title": "The grain tears out",
+     "text": "Fir has hard latewood bands and soft earlywood between them. Sand across the grain with a coarse grit and the soft bands dig out, leaving a washboard you can feel with your socks."
+    },
+    {
+     "icon": "palette",
+     "title": "It takes stain unevenly",
+     "text": "Those same alternating bands absorb stain at different rates. A dark stain on fir goes blotchy and stripy in a way that no amount of skill fully controls. The natural amber color is the color it wants to be."
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "The five ways fir floors get ruined"
+  },
+  {
+   "type": "list",
+   "icons": true,
+   "items": [
+    {
+     "icon": "alert",
+     "html": "<strong>Starting at 36 grit.</strong> A drum sander with a coarse belt removes fir far faster than oak. On a thin floor that first pass can expose tongues and nail heads. We start finer and take more passes."
+    },
+    {
+     "icon": "wind",
+     "html": "<strong>Sanding across the grain.</strong> Some crews do a diagonal first cut to flatten cupped boards. On fir that leaves cross-grain scratches that show through every finish."
+    },
+    {
+     "icon": "palette",
+     "html": "<strong>Chasing a gray or espresso look.</strong> The dark modern floors people save on Pinterest are white oak. Forcing that on fir produces blotches, and the soft wood telegraphs every future scratch as a light line."
+    },
+    {
+     "icon": "droplet",
+     "html": "<strong>Skipping wood conditioner when stain is used.</strong> If a client insists on a light stain, the floor needs a conditioner or a water-pop first. Skip it and the result is uneven."
+    },
+    {
+     "icon": "hammer",
+     "html": "<strong>Aggressive filling.</strong> Old fir has seasonal gaps. Trowel-filling every gap in November means the filler cracks out in August when the boards swell in Edmonds waterfront humidity."
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "Price your Edmonds fir floor right now"
+  },
+  {
+   "type": "calc",
+   "kind": "refinish",
+   "note": "Fir refinishes at the same rates as oak. Choose natural unless you have already seen a stained fir sample you love."
+  },
+  {
+   "type": "h2",
+   "text": "How we sand a 1920s fir floor"
+  },
+  {
+   "type": "steps",
+   "wide": true,
+   "items": [
+    {
+     "icon": "search",
+     "d": "Before quoting",
+     "text": "We pull a heat register or a threshold and measure the wood above the tongue. Under 3/32 in and we talk about a screen and recoat or a replacement plan instead of sanding.",
+     "note": "This takes five minutes and prevents the worst outcome."
+    },
+    {
+     "icon": "box",
+     "d": "Day 1, morning",
+     "text": "Rooms cleared, doorways sealed for dust containment if requested, nails set below the surface, loose boards face-nailed and the holes filled."
+    },
+    {
+     "icon": "layers",
+     "d": "Day 1, afternoon",
+     "text": "First pass with a medium grit, straight with the grain, drum sander speed kept low. Edger work kept to the last inch so the edger swirls do not show."
+    },
+    {
+     "icon": "brush",
+     "d": "Day 2",
+     "text": "Fine grit pass, then a buffer with a screen to blend edger and field. Vacuum, tack, first coat of Bona water-based sealer."
+    },
+    {
+     "icon": "done",
+     "d": "Days 3 and 4",
+     "text": "Two more coats of finish, light abrasion between coats. Satin sheen by default because it hides the marks that a soft wood will collect.",
+     "note": "A 750 sq ft Bowl bungalow main floor: 750 × $3.99 = $2,993. Add $250 for full dust containment."
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "Should you stain fir or leave it natural?"
+  },
+  {
+   "type": "compare",
+   "a": {
+    "icon": "done",
+    "tag": "Leave it natural",
+    "title": "Right for almost every fir floor",
+    "items": [
+     "The amber-orange glow is what makes these floors valuable",
+     "Water-based finish keeps it lighter; oil-based pushes it deeper orange",
+     "Scratches blend into the natural color",
+     "Costs $3.99 per sq ft instead of $6.50"
+    ]
+   },
+   "b": {
+    "icon": "x",
+    "tag": "Stain it",
+    "title": "Only when you accept the tradeoffs",
+    "items": [
+     "Light or whitewash tones can work with a conditioner and a test patch",
+     "Dark stain will look striped and every scratch shows pale",
+     "Adds a day and $2.51 per sq ft",
+     "Get a sample on your actual floor before committing"
+    ]
+   }
+  },
+  {
+   "type": "callout",
+   "icon": "alert",
+   "title": "Edmonds-specific warning: ",
+   "text": "Houses in Seaview and the Bowl sit close to the water, and unheated crawlspaces stay damp most of the winter. If your fir floor is cupped, we check the crawlspace moisture before sanding. Sanding a cupped floor flat while it is wet guarantees a crowned floor when it dries."
+  },
+  {
+   "type": "h2",
+   "text": "Questions to ask any refinisher before they touch fir"
+  },
+  {
+   "type": "ul",
+   "items": [
+    "Have you measured the thickness above the tongue, and what did you find?",
+    "What grit will you start with, and will every pass run with the grain?",
+    "Are you Bona Certified? Wills Flooring crews are, and the certification covers exactly the sealer and finish systems fir needs.",
+    "What happens to the gaps? The right answer is to fill only the ones that will not move, not every seam in the house.",
+    "Can I see a fir floor you finished, not an oak one? Fir photos look different and you should know what you are buying."
+   ]
+  },
+  {
+   "type": "p",
+   "html": "If you are not sure what is under your carpet yet, our post on <a href=\"/blog-posts/whats-under-my-carpet-kirkland\">what is under my carpet</a> covers how to tell fir from oak before you pull it all up. The full process is on our <a href=\"/services/floor-refinish\">floor refinishing</a> page."
+  }
  ],
  "faq": [
-  {"q":"Can old fir floors be refinished at all?","a":"Yes, as long as there is enough wood left above the tongue. Most 1920s fir floors in Edmonds can take at least one more careful sanding. The risk is a crew that sands too aggressively. We measure before quoting and tell you honestly if a recoat is the safer move."},
-  {"q":"How much does it cost to refinish fir floors in Edmonds?","a":"Wills Flooring charges the same for fir as for oak: $3.99 per sq ft for a natural finish with three coats of Bona water-based finish, $6.50 with stain, $1.99 for a screen and recoat if the old finish is intact. There is a 500 sq ft minimum."},
-  {"q":"Why do refinishers say not to stain fir?","a":"Fir has hard and soft bands that absorb stain at different rates, so dark stains look striped and blotchy. Its natural amber color is also what most buyers want in a 1920s house. If you want a lighter or whitewashed look, it can work with a conditioner and a test patch first."},
-  {"q":"Will my fir floor look orange?","a":"Fir has a warm amber tone that deepens with age and sun. A water-based finish keeps it closest to the raw wood color. Oil-based polyurethane ambers further and pushes the floor toward orange over time. Most Edmonds clients choose water-based for that reason."},
-  {"q":"Can gaps in an old fir floor be filled?","a":"Some can. Small, stable gaps get filled with a flexible filler tinted to the wood. Wide seasonal gaps that open in winter and close in summer should be left alone, because rigid filler cracks out. A few boards with large gaps can be replaced with reclaimed fir."},
-  {"q":"How long does a fir refinish take?","a":"Three to four days for a typical 700 to 1,000 sq ft main floor with a natural finish. Fir needs more passes at finer grits than oak, so the sanding day can run longer. You can walk on it in socks after 24 hours and move furniture back after 72."}
+  {
+   "q": "Can old fir floors be refinished at all?",
+   "a": "Yes, as long as there is enough wood left above the tongue. Most 1920s fir floors in Edmonds can take at least one more careful sanding. The risk is a crew that sands too aggressively. We measure before quoting and tell you honestly if a recoat is the safer move."
+  },
+  {
+   "q": "How much does it cost to refinish fir floors in Edmonds?",
+   "a": "Wills Flooring charges the same for fir as for oak: $3.99 per sq ft for a natural finish with three coats of Bona water-based finish, $6.50 with stain, $1.99 for a screen and recoat if the old finish is intact. There is a 500 sq ft minimum."
+  },
+  {
+   "q": "Why do refinishers say not to stain fir?",
+   "a": "Fir has hard and soft bands that absorb stain at different rates, so dark stains look striped and blotchy. Its natural amber color is also what most buyers want in a 1920s house. If you want a lighter or whitewashed look, it can work with a conditioner and a test patch first."
+  },
+  {
+   "q": "Will my fir floor look orange?",
+   "a": "Fir has a warm amber tone that deepens with age and sun. A water-based finish keeps it closest to the raw wood color. Oil-based polyurethane ambers further and pushes the floor toward orange over time. Most Edmonds clients choose water-based for that reason."
+  },
+  {
+   "q": "Can gaps in an old fir floor be filled?",
+   "a": "Some can. Small, stable gaps get filled with a flexible filler tinted to the wood. Wide seasonal gaps that open in winter and close in summer should be left alone, because rigid filler cracks out. A few boards with large gaps can be replaced with reclaimed fir."
+  },
+  {
+   "q": "How long does a fir refinish take?",
+   "a": "Three to four days for a typical 700 to 1,000 sq ft main floor with a natural finish. Fir needs more passes at finer grits than oak, so the sanding day can run longer. You can walk on it in socks after 24 hours and move furniture back after 72."
+  }
  ],
  "faq_title": "Fir floor questions from Edmonds homeowners",
  "faq_sub": "From bungalows in the Bowl, Seaview ramblers and the phone at our Lynnwood showroom.",
- "related": [["how-thick-does-hardwood-need-to-be-to-refinish-snohomish","how thick hardwood needs to be to refinish"],["water-based-vs-oil-based-finish-sammamish","water-based vs oil-based finish"],["can-gaps-in-hardwood-floors-be-fixed-during-refinishing-everett","fixing gaps during refinishing"]],
+ "related": [
+  [
+   "how-thick-does-hardwood-need-to-be-to-refinish-snohomish",
+   "how thick hardwood needs to be to refinish"
+  ],
+  [
+   "water-based-vs-oil-based-finish-sammamish",
+   "water-based vs oil-based finish"
+  ],
+  [
+   "can-gaps-in-hardwood-floors-be-fixed-during-refinishing-everett",
+   "fixing gaps during refinishing"
+  ]
+ ],
  "cta_title": "Get your fir floor measured before anyone sands it",
  "cta_sub": "We check the thickness, the crawlspace moisture and the old finish, then hand you a firm written price on the spot. Free anywhere in Edmonds."
 }

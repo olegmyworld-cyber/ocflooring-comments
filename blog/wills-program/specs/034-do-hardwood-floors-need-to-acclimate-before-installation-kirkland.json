@@ -5,63 +5,280 @@
  "category": "hardwood",
  "city": "Kirkland",
  "time": "8 mins",
- "date": "2026-10-20T15:00:00.000Z",
+ "date": "2026-10-26T15:00:00.000Z",
  "keywords": "hardwood floor acclimation how long, do hardwood floors need to acclimate, acclimate engineered hardwood, hardwood installation Kirkland WA, wood floor moisture content before install",
- "offers": [["Hardwood floor installation, engineered or solid", "3.25", "per square foot"], ["Unfinished hardwood installation", "2.75", "per square foot"]],
+ "offers": [
+  [
+   "Hardwood floor installation, engineered or solid",
+   "3.25",
+   "per square foot"
+  ],
+  [
+   "Unfinished hardwood installation",
+   "2.75",
+   "per square foot"
+  ]
+ ],
  "blocks": [
-  {"type":"quick","eyebrow":"Short answer","lead":"Yes. Solid hardwood needs three to seven days in the room where it will be installed, engineered usually needs 48 to 72 hours, and both need the house running at normal living conditions the whole time.","detail":"The calendar is only a guide. What we actually wait for is the wood's moisture content to land within a few percent of the subfloor's. In a Kirkland house in October that can take longer than the box says.",
-   "tiles":[{"icon":"calendar","label":"Solid","value":"3–7 days"},{"icon":"clock","label":"Engineered","value":"48–72 hrs"},{"icon":"moisture","label":"Target gap","value":"Within 2–4%"},{"icon":"thermo","label":"House at","value":"60–80°F, 30–50% RH"}]},
-  {"type":"p","html":"Ask this on a Kirkland remodel and you will hear everything from \"two weeks minimum\" to \"just open the boxes.\" Both can be right for a specific product in a specific house. The problem is that most people treat acclimation as a number of days when it is really a moisture target. Below is how we handle it on Juanita, Rose Hill and Bridle Trails jobs, why lakefront houses are different, and how to keep it from wrecking your schedule."},
-  {"type":"h2","text":"What acclimation is actually doing"},
-  {"type":"cards","cols":2,"items":[
-    {"icon":"droplet","title":"Wood moves with moisture, not temperature","text":"A hardwood board swells across its width as it takes on moisture and shrinks as it dries. Temperature by itself barely matters. Acclimation lets the boards reach the moisture level they will live at in your house, so the movement happens in the box, not in your floor."},
-    {"icon":"ruler","title":"The target is a gap, not a date","text":"Industry practice for solid strip flooring is to install when the wood is within about 4 percent of the subfloor's moisture content, and within about 2 percent for wide plank. Engineered has its own manufacturer spec. We measure both with a pin meter and write the numbers on the quote."},
-    {"icon":"home","title":"The house has to be a house","text":"Acclimating in a garage or a room with no heat is worse than not acclimating at all. The HVAC has to be running at the settings you will actually live with, ideally for a week before the wood arrives, so the subfloor is stable too."},
-    {"icon":"layers","title":"Engineered is more forgiving, not immune","text":"Cross-ply construction keeps engineered planks far more stable, and some manufacturers say sealed cartons need no acclimation at all. We still bring them inside 48 hours early. Kirkland deliveries in a rainy week arrive with the cartons colder and damper than the house."}
-  ]},
-  {"type":"h2","text":"How long, by product and by season"},
-  {"type":"table","head":["Flooring","Typical acclimation","Kirkland notes"],"rows":[
-    ["Solid oak or maple, 2 1/4 in strip","3–5 days","The most forgiving solid. Builder homes in Rose Hill and Totem Lake usually have a plywood subfloor that reads 8–10 percent, which strip oak matches quickly."],
-    ["Solid, 5 in plank and wider","5–7 days, sometimes 10","Wide boards show every percent of movement as a visible gap. Lakefront houses in Juanita and Houghton run higher indoor humidity and can push this past a week."],
-    ["Unfinished solid, site-finished","5–7 days","Same as above, plus the floor cures for several more days after finishing. Plan the whole job at two weeks in the house."],
-    ["Engineered, 3/8 to 3/4 in","48–72 hours","Open the cartons, spread them across the rooms, keep the HVAC running. Check the manufacturer sheet; a few products void warranty if acclimated wrong."],
-    ["Any hardwood over a fresh slab or new drywall","Wait for the house first","New concrete and wet paint dump moisture into the air for weeks. Acclimating wood in a house that is still drying just teaches it the wrong number."]
-  ],"note":"Ranges reflect what we see on Kirkland jobs, not a guarantee. The meter readings decide the install date."},
-  {"type":"h2","text":"Why Kirkland houses need a little more patience"},
-  {"type":"p","html":"Kirkland sits between the lake and the hills, and the two ends of town behave differently. A 1970s split-level in Finn Hill or Juanita, two blocks from the water and over a vented crawlspace, often reads 55 to 60 percent indoor humidity in October. A 2005 two-story in Bridle Trails with a sealed crawl and a modern furnace can sit at 38 percent the same week. The wood from the same pallet acclimates to two different numbers. That is why we meter the subfloor at the estimate, not on delivery day."},
-  {"type":"callout","icon":"alert","title":"The over-acclimation trap: ","text":"Leaving solid hardwood for three weeks in a damp Kirkland house in November lets it swell before it goes down. Then the furnace runs all winter, the boards dry and shrink, and you get gaps in February. Longer is not safer. Matching the subfloor is safer, and if the house is running wet, fixing the humidity comes first."},
-  {"type":"h2","text":"Price your Kirkland hardwood installation right now"},
-  {"type":"calc","kind":"hardwood","note":"Acclimation time is included in every Wills Flooring install schedule at no extra charge; material and delivery are quoted separately."},
-  {"type":"h2","text":"How the timeline actually runs on a Wills job"},
-  {"type":"steps","wide":true,"items":[
-    {"icon":"search","d":"Estimate day","text":"We meter the subfloor and the room humidity, check the crawlspace vents and note the HVAC settings. You get a firm written quote and a realistic install window.","note":"Free, and it sets the acclimation plan."},
-    {"icon":"truck","d":"Delivery, 3–7 days before install","text":"Material is delivered inside the house, stacked flat off the floor with the cartons opened or cross-stacked so air moves through. Never the garage."},
-    {"icon":"moisture","d":"Day before install","text":"We meter the boards again. If the gap to the subfloor is inside the target, we install. If not, we wait, and we tell you why instead of nailing down a problem."},
-    {"icon":"hammer","d":"Install days","text":"An 800 sq ft Rose Hill main floor takes about two days for engineered or strip solid. Site-finished floors add sanding and three coats of finish after.","note":"800 × $3.25 = $2,600 labor for engineered or solid"}
-  ]},
-  {"type":"h2","text":"Skipping acclimation vs doing it right"},
-  {"type":"compare","a":{"icon":"done","tag":"Done right","title":"What you get","items":["Tight seams that stay tight through a Kirkland winter","No cupping when the lake humidity climbs in fall","Manufacturer warranty stays valid","Install date confirmed by a meter reading, not a guess"]},
-    "b":{"icon":"x","tag":"Skipped or rushed","title":"What tends to happen","items":["Gaps between boards after the first heating season","Cupped or crowned planks near exterior doors","Buckling at the walls if the expansion gap fills","A warranty claim the manufacturer can deny on the acclimation clause"]}},
-  {"type":"h2","text":"How to keep acclimation from derailing your remodel"},
-  {"type":"list","icons":true,"items":[
-    {"icon":"calendar","html":"<strong>Order the wood before the painters finish.</strong> Delivery can land while other trades are still working, as long as the house is closed up and the HVAC is on. Just keep the cartons out of the paint room."},
-    {"icon":"thermo","html":"<strong>Set the thermostat to how you live, then leave it.</strong> Swinging between 60 at night and 74 during the day changes indoor humidity every cycle. A steady setting acclimates wood faster."},
-    {"icon":"moisture","html":"<strong>Ask for the meter readings in writing.</strong> Subfloor, room humidity and board moisture on install day. Any installer in Kirkland who will not give you those numbers is guessing."},
-    {"icon":"layers","html":"<strong>Consider engineered for a tight timeline.</strong> If you are closing on a Houghton house and moving in ten days later, engineered gets you a finished floor with a two-day acclimation instead of a week. Our <a href=\"/blog-posts/engineered-vs-solid-hardwood-kirkland\">engineered vs solid</a> post covers the tradeoffs."},
-    {"icon":"shield","html":"<strong>Get it all in one quote.</strong> Wills Flooring's <a href=\"/services/hardwood-flooring\">hardwood installation</a> at $3.25 per sq ft includes the metering and the acclimation schedule, backed by a 1-year workmanship warranty."}
-  ]}
+  {
+   "type": "quick",
+   "eyebrow": "Short answer",
+   "lead": "Yes. Solid hardwood needs three to seven days in the room where it will be installed, engineered usually needs 48 to 72 hours, and both need the house running at normal living conditions the whole time.",
+   "detail": "The calendar is only a guide. What we actually wait for is the wood's moisture content to land within a few percent of the subfloor's. In a Kirkland house in October that can take longer than the box says.",
+   "tiles": [
+    {
+     "icon": "calendar",
+     "label": "Solid",
+     "value": "3–7 days"
+    },
+    {
+     "icon": "clock",
+     "label": "Engineered",
+     "value": "48–72 hrs"
+    },
+    {
+     "icon": "moisture",
+     "label": "Target gap",
+     "value": "Within 2–4%"
+    },
+    {
+     "icon": "thermo",
+     "label": "House at",
+     "value": "60–80°F, 30–50% RH"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "html": "Ask this on a Kirkland remodel and you will hear everything from \"two weeks minimum\" to \"just open the boxes.\" Both can be right for a specific product in a specific house. The problem is that most people treat acclimation as a number of days when it is really a moisture target. Below is how we handle it on Juanita, Rose Hill and Bridle Trails jobs, why lakefront houses are different, and how to keep it from wrecking your schedule."
+  },
+  {
+   "type": "h2",
+   "text": "What acclimation is actually doing"
+  },
+  {
+   "type": "cards",
+   "cols": 2,
+   "items": [
+    {
+     "icon": "droplet",
+     "title": "Wood moves with moisture, not temperature",
+     "text": "A hardwood board swells across its width as it takes on moisture and shrinks as it dries. Temperature by itself barely matters. Acclimation lets the boards reach the moisture level they will live at in your house, so the movement happens in the box, not in your floor."
+    },
+    {
+     "icon": "ruler",
+     "title": "The target is a gap, not a date",
+     "text": "Industry practice for solid strip flooring is to install when the wood is within about 4 percent of the subfloor's moisture content, and within about 2 percent for wide plank. Engineered has its own manufacturer spec. We measure both with a pin meter and write the numbers on the quote."
+    },
+    {
+     "icon": "home",
+     "title": "The house has to be a house",
+     "text": "Acclimating in a garage or a room with no heat is worse than not acclimating at all. The HVAC has to be running at the settings you will actually live with, ideally for a week before the wood arrives, so the subfloor is stable too."
+    },
+    {
+     "icon": "layers",
+     "title": "Engineered is more forgiving, not immune",
+     "text": "Cross-ply construction keeps engineered planks far more stable, and some manufacturers say sealed cartons need no acclimation at all. We still bring them inside 48 hours early. Kirkland deliveries in a rainy week arrive with the cartons colder and damper than the house."
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "How long, by product and by season"
+  },
+  {
+   "type": "table",
+   "head": [
+    "Flooring",
+    "Typical acclimation",
+    "Kirkland notes"
+   ],
+   "rows": [
+    [
+     "Solid oak or maple, 2 1/4 in strip",
+     "3–5 days",
+     "The most forgiving solid. Builder homes in Rose Hill and Totem Lake usually have a plywood subfloor that reads 8–10 percent, which strip oak matches quickly."
+    ],
+    [
+     "Solid, 5 in plank and wider",
+     "5–7 days, sometimes 10",
+     "Wide boards show every percent of movement as a visible gap. Lakefront houses in Juanita and Houghton run higher indoor humidity and can push this past a week."
+    ],
+    [
+     "Unfinished solid, site-finished",
+     "5–7 days",
+     "Same as above, plus the floor cures for several more days after finishing. Plan the whole job at two weeks in the house."
+    ],
+    [
+     "Engineered, 3/8 to 3/4 in",
+     "48–72 hours",
+     "Open the cartons, spread them across the rooms, keep the HVAC running. Check the manufacturer sheet; a few products void warranty if acclimated wrong."
+    ],
+    [
+     "Any hardwood over a fresh slab or new drywall",
+     "Wait for the house first",
+     "New concrete and wet paint dump moisture into the air for weeks. Acclimating wood in a house that is still drying just teaches it the wrong number."
+    ]
+   ],
+   "note": "Ranges reflect what we see on Kirkland jobs, not a guarantee. The meter readings decide the install date."
+  },
+  {
+   "type": "h2",
+   "text": "Why Kirkland houses need a little more patience"
+  },
+  {
+   "type": "p",
+   "html": "Kirkland sits between the lake and the hills, and the two ends of town behave differently. A 1970s split-level in Finn Hill or Juanita, two blocks from the water and over a vented crawlspace, often reads 55 to 60 percent indoor humidity in October. A 2005 two-story in Bridle Trails with a sealed crawl and a modern furnace can sit at 38 percent the same week. The wood from the same pallet acclimates to two different numbers. That is why we meter the subfloor at the estimate, not on delivery day."
+  },
+  {
+   "type": "callout",
+   "icon": "alert",
+   "title": "The over-acclimation trap: ",
+   "text": "Leaving solid hardwood for three weeks in a damp Kirkland house in November lets it swell before it goes down. Then the furnace runs all winter, the boards dry and shrink, and you get gaps in February. Longer is not safer. Matching the subfloor is safer, and if the house is running wet, fixing the humidity comes first."
+  },
+  {
+   "type": "h2",
+   "text": "Price your Kirkland hardwood installation right now"
+  },
+  {
+   "type": "calc",
+   "kind": "hardwood",
+   "note": "Acclimation time is included in every Wills Flooring install schedule at no extra charge; material and delivery are quoted separately."
+  },
+  {
+   "type": "h2",
+   "text": "How the timeline actually runs on a Wills job"
+  },
+  {
+   "type": "steps",
+   "wide": true,
+   "items": [
+    {
+     "icon": "search",
+     "d": "Estimate day",
+     "text": "We meter the subfloor and the room humidity, check the crawlspace vents and note the HVAC settings. You get a firm written quote and a realistic install window.",
+     "note": "Free, and it sets the acclimation plan."
+    },
+    {
+     "icon": "truck",
+     "d": "Delivery, 3–7 days before install",
+     "text": "Material is delivered inside the house, stacked flat off the floor with the cartons opened or cross-stacked so air moves through. Never the garage."
+    },
+    {
+     "icon": "moisture",
+     "d": "Day before install",
+     "text": "We meter the boards again. If the gap to the subfloor is inside the target, we install. If not, we wait, and we tell you why instead of nailing down a problem."
+    },
+    {
+     "icon": "hammer",
+     "d": "Install days",
+     "text": "An 800 sq ft Rose Hill main floor takes about two days for engineered or strip solid. Site-finished floors add sanding and three coats of finish after.",
+     "note": "800 × $3.25 = $2,600 labor for engineered or solid"
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "Skipping acclimation vs doing it right"
+  },
+  {
+   "type": "compare",
+   "a": {
+    "icon": "done",
+    "tag": "Done right",
+    "title": "What you get",
+    "items": [
+     "Tight seams that stay tight through a Kirkland winter",
+     "No cupping when the lake humidity climbs in fall",
+     "Manufacturer warranty stays valid",
+     "Install date confirmed by a meter reading, not a guess"
+    ]
+   },
+   "b": {
+    "icon": "x",
+    "tag": "Skipped or rushed",
+    "title": "What tends to happen",
+    "items": [
+     "Gaps between boards after the first heating season",
+     "Cupped or crowned planks near exterior doors",
+     "Buckling at the walls if the expansion gap fills",
+     "A warranty claim the manufacturer can deny on the acclimation clause"
+    ]
+   }
+  },
+  {
+   "type": "h2",
+   "text": "How to keep acclimation from derailing your remodel"
+  },
+  {
+   "type": "list",
+   "icons": true,
+   "items": [
+    {
+     "icon": "calendar",
+     "html": "<strong>Order the wood before the painters finish.</strong> Delivery can land while other trades are still working, as long as the house is closed up and the HVAC is on. Just keep the cartons out of the paint room."
+    },
+    {
+     "icon": "thermo",
+     "html": "<strong>Set the thermostat to how you live, then leave it.</strong> Swinging between 60 at night and 74 during the day changes indoor humidity every cycle. A steady setting acclimates wood faster."
+    },
+    {
+     "icon": "moisture",
+     "html": "<strong>Ask for the meter readings in writing.</strong> Subfloor, room humidity and board moisture on install day. Any installer in Kirkland who will not give you those numbers is guessing."
+    },
+    {
+     "icon": "layers",
+     "html": "<strong>Consider engineered for a tight timeline.</strong> If you are closing on a Houghton house and moving in ten days later, engineered gets you a finished floor with a two-day acclimation instead of a week. Our <a href=\"/blog-posts/engineered-vs-solid-hardwood-kirkland\">engineered vs solid</a> post covers the tradeoffs."
+    },
+    {
+     "icon": "shield",
+     "html": "<strong>Get it all in one quote.</strong> Wills Flooring's <a href=\"/services/hardwood-flooring\">hardwood installation</a> at $3.25 per sq ft includes the metering and the acclimation schedule, backed by a 1-year workmanship warranty."
+    }
+   ]
+  }
  ],
  "faq": [
-  {"q":"How long does hardwood need to acclimate before installation?","a":"Solid hardwood usually needs three to seven days inside the house at normal living conditions, longer for wide plank or damp homes. Engineered hardwood usually needs 48 to 72 hours. The real test is a moisture meter: the boards should be within about 2 to 4 percent of the subfloor before nailing."},
-  {"q":"Can you install hardwood flooring the same day it is delivered?","a":"For most solid hardwood, no. For some engineered products in sealed cartons the manufacturer allows it, but we still prefer 48 hours indoors. In Kirkland the risk of same-day installation is cartons arriving cold and damp from a rainy delivery and then shrinking once the furnace dries them."},
-  {"q":"Does engineered hardwood need to acclimate?","a":"Less than solid, but usually yes. The cross-ply core keeps engineered planks stable, so 48 to 72 hours in the room is typical. Check your product's installation sheet, because acclimating outside the manufacturer's stated method can void the warranty, and some brands ask for the cartons to stay sealed."},
-  {"q":"What happens if hardwood floors are not acclimated?","a":"Boards installed too wet shrink after the first heating season and leave gaps. Boards installed too dry swell in fall humidity and cup or buckle against the walls. Either way the fix is expensive and the manufacturer can decline a warranty claim. Metering before installation avoids all of it."},
-  {"q":"Where should hardwood be stored while it acclimates?","a":"In the rooms where it will be installed, stacked flat and off the subfloor, with the cartons opened or cross-stacked so air moves through them. Never in a garage, basement or unheated space. The house should be closed up with the heating or cooling running at normal settings."},
-  {"q":"Does Kirkland's climate change how long wood floors acclimate?","a":"Somewhat. Homes near Lake Washington in Juanita, Houghton and Finn Hill run higher indoor humidity in fall and winter, which can stretch solid hardwood acclimation past a week. Newer, tighter homes in Bridle Trails or Rose Hill usually hit the target in a few days. The meter reading decides, not the neighborhood."}
+  {
+   "q": "How long does hardwood need to acclimate before installation?",
+   "a": "Solid hardwood usually needs three to seven days inside the house at normal living conditions, longer for wide plank or damp homes. Engineered hardwood usually needs 48 to 72 hours. The real test is a moisture meter: the boards should be within about 2 to 4 percent of the subfloor before nailing."
+  },
+  {
+   "q": "Can you install hardwood flooring the same day it is delivered?",
+   "a": "For most solid hardwood, no. For some engineered products in sealed cartons the manufacturer allows it, but we still prefer 48 hours indoors. In Kirkland the risk of same-day installation is cartons arriving cold and damp from a rainy delivery and then shrinking once the furnace dries them."
+  },
+  {
+   "q": "Does engineered hardwood need to acclimate?",
+   "a": "Less than solid, but usually yes. The cross-ply core keeps engineered planks stable, so 48 to 72 hours in the room is typical. Check your product's installation sheet, because acclimating outside the manufacturer's stated method can void the warranty, and some brands ask for the cartons to stay sealed."
+  },
+  {
+   "q": "What happens if hardwood floors are not acclimated?",
+   "a": "Boards installed too wet shrink after the first heating season and leave gaps. Boards installed too dry swell in fall humidity and cup or buckle against the walls. Either way the fix is expensive and the manufacturer can decline a warranty claim. Metering before installation avoids all of it."
+  },
+  {
+   "q": "Where should hardwood be stored while it acclimates?",
+   "a": "In the rooms where it will be installed, stacked flat and off the subfloor, with the cartons opened or cross-stacked so air moves through them. Never in a garage, basement or unheated space. The house should be closed up with the heating or cooling running at normal settings."
+  },
+  {
+   "q": "Does Kirkland's climate change how long wood floors acclimate?",
+   "a": "Somewhat. Homes near Lake Washington in Juanita, Houghton and Finn Hill run higher indoor humidity in fall and winter, which can stretch solid hardwood acclimation past a week. Newer, tighter homes in Bridle Trails or Rose Hill usually hit the target in a few days. The meter reading decides, not the neighborhood."
+  }
  ],
  "faq_title": "Acclimation questions from Kirkland remodels",
  "faq_sub": "What homeowners, contractors and designers ask us before the wood is delivered.",
- "related": [["engineered-vs-solid-hardwood-kirkland","engineered vs solid hardwood in Kirkland"],["how-long-does-hardwood-floor-installation-take-everett","how long hardwood installation takes"],["expansion-gaps-in-hardwood-floors-sammamish","expansion gaps in hardwood floors"]],
+ "related": [
+  [
+   "engineered-vs-solid-hardwood-kirkland",
+   "engineered vs solid hardwood in Kirkland"
+  ],
+  [
+   "how-long-does-hardwood-floor-installation-take-everett",
+   "how long hardwood installation takes"
+  ],
+  [
+   "expansion-gaps-in-hardwood-floors-sammamish",
+   "expansion gaps in hardwood floors"
+  ]
+ ],
  "cta_title": "Get your Kirkland install scheduled the right way",
  "cta_sub": "We meter the subfloor, plan the acclimation around your move-in date and hand you a firm written quote at the free estimate. No obligation."
 }

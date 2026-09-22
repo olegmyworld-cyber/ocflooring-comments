@@ -5,62 +5,270 @@
  "category": "lvp",
  "city": "Seattle",
  "time": "8 mins",
- "date": "2026-12-24T15:00:00.000Z",
+ "date": "2026-12-30T15:00:00.000Z",
  "keywords": "how flat does subfloor need to be for vinyl plank, subfloor flatness tolerance LVP, 3/16 inch over 10 feet, vinyl plank over uneven floor, subfloor prep for vinyl plank Seattle, flat vs level subfloor",
- "offers": [["Vinyl plank flooring installation", "2.50", "per square foot"]],
+ "offers": [
+  [
+   "Vinyl plank flooring installation",
+   "2.50",
+   "per square foot"
+  ]
+ ],
  "blocks": [
-  {"type":"quick","eyebrow":"Short answer","lead":"Most vinyl plank manufacturers require the subfloor to be flat within 3/16 inch over 10 feet, and some rigid-core products tighten that to 1/8 inch over 6 feet. Flat is the requirement; level is not.","detail":"A 1920s Ballard floor that slopes two inches from the front door to the kitchen can be perfect for vinyl plank as long as the slope is smooth. A brand-new plywood floor with a 1/4 inch hump at one joist is not. Wills Flooring installs vinyl plank at $2.50 per sq ft labor; flattening work is quoted at the free estimate after we put a straightedge on the floor.",
-   "tiles":[{"icon":"ruler","label":"Common tolerance","value":"3/16 in over 10 ft"},{"icon":"ruler2","label":"Strict products","value":"1/8 in over 6 ft"},{"icon":"dollar","label":"Install labor","value":"$2.50 / sq ft"},{"icon":"hammer","label":"Flattening","value":"Quoted at estimate"}],"cta":"Try the calculator"},
-  {"type":"p","html":"This question comes up in every older Seattle neighborhood we work in. Wallingford and Ballard Craftsmans sit on 100-year-old fir plank subfloors that have cupped and settled. Capitol Hill and Queen Anne condos have concrete slabs with high spots from the original pour. Beacon Hill and West Seattle houses have had three layers of flooring added and removed, each leaving a ridge. Homeowners hear that vinyl plank is forgiving and assume it will go over anything. It is forgiving of moisture and abuse. It is not forgiving of bumps, and a floor that is not flat enough fails at the joints within a year."},
-  {"type":"h2","text":"Flat is not the same as level"},
-  {"type":"compare","a":{"icon":"done","tag":"Flat","title":"What vinyl plank needs","items":["No high or low spot greater than the tolerance under a 10 ft straightedge","Smooth transitions between subfloor sheets and old patches","No ridges at joists, seams or old nail lines","A steady slope across the whole room is fine"]},
-    "b":{"icon":"x","tag":"Level","title":"What it does not need","items":["A floor that reads zero on a builder's level","Correcting a house that has settled evenly toward one corner","Raising a Seattle basement slab that drains toward a floor drain","Anything that would require leveling the whole room"]}},
-  {"type":"h2","text":"Why vinyl plank cares so much"},
-  {"type":"cards","cols":3,"items":[
-    {"icon":"layers","title":"Click joints break over humps","text":"Every plank flexes over a high spot as you walk on it. The locking lip on a click joint is a few millimeters of plastic; flex it a few thousand times and it cracks. The joint opens and the plank lifts."},
-    {"icon":"volume","title":"Rigid core bridges dips","text":"SPC and other rigid planks span a low spot instead of following it. You get a hollow sound, a slight bounce and eventually a broken joint at the edge of the dip. The stiffer the plank, the more this happens."},
-    {"icon":"search","title":"Flexible vinyl telegraphs","text":"Thin, flexible LVP does the opposite: it molds itself to every ridge and nail head so you see the subfloor pattern through the plank in the right light. Common over old fir plank floors in Seattle."}
-  ]},
-  {"type":"h2","text":"Price your Seattle vinyl plank floor right now"},
-  {"type":"calc","kind":"lvp","note":"Labor only. Subfloor flattening, underlayment plywood, old-floor removal and moisture testing are itemized at the free estimate once we have checked the floor with a straightedge."},
-  {"type":"h2","text":"How we check flatness at the estimate"},
-  {"type":"steps","wide":true,"items":[
-    {"icon":"ruler","d":"10-foot straightedge","text":"We lay an aluminum straightedge across the floor in several directions and slide a gauge under it. Any gap wider than the plank's tolerance gets marked with a crayon."},
-    {"icon":"grid","d":"Map the room","text":"High spots and low spots get circled so you can see how much of the floor is out. A single hump at a joist is a 20-minute fix. A wavy fir plank floor across the whole room is a different job."},
-    {"icon":"moisture","d":"Moisture and sound","text":"On slabs we test moisture, since a flattening compound needs a dry base. On wood floors we walk for soft spots and squeaks, which are fixed before any flattening starts."},
-    {"icon":"clipboard","d":"Written prep line item","text":"The quote lists exactly what flattening is needed, in square feet or spots, and why. If a 1920s Wallingford floor needs a layer of underlayment plywood, you see that as its own line."}
-  ]},
-  {"type":"h2","text":"The fix for each kind of unflat floor"},
-  {"type":"table","head":["Seattle subfloor situation","How it fails tolerance","The fix"],"rows":[
-    ["Plywood or OSB with a hump at a joist","High spot, usually a crowned joist or a proud sheet edge","Sand or grind the hump; set sheet edges with screws"],
-    ["Plywood with a low spot or old patch","Dip up to 1/2 inch","Floor patch or feather-finish compound, sanded smooth"],
-    ["Old fir plank subfloor, cupped boards","Continuous ridges every 3 to 6 inches","Overlay with 1/4 inch or 3/8 inch underlayment plywood, screwed on a grid"],
-    ["Concrete slab, Capitol Hill or Queen Anne condo","High spots from the pour, low spots at drains","Grind highs; self-leveling compound over lows after a moisture test"],
-    ["Old vinyl or linoleum with an embossed pattern","Texture telegraphs through thin LVP","Skim coat with embossing leveler, or go over it with rigid SPC"],
-    ["Ceramic tile with wide grout lines","Grout depressions","Fill grout lines with patch, or remove tile if it is loose or cracked"]
-   ],"note":"Prep is priced at the estimate. In older Seattle houses it is often the largest variable in a vinyl plank quote, which is why we will not quote it over the phone."},
-  {"type":"h2","text":"When the subfloor is beyond flattening"},
-  {"type":"callout","icon":"alert","title":"Stop and fix the structure first: ","text":"A floor that bounces, a slope that changed in the last year, or plywood that is soft or dark near an exterior wall is not a flatness problem. It is a joist, moisture or foundation problem, and no amount of leveling compound is the right answer. We will tell you that at the estimate and hold off on the flooring quote until it is dealt with."},
-  {"type":"h2","text":"Mistakes that hide a bad subfloor for about a year"},
-  {"type":"list","icons":true,"items":[
-    {"icon":"x","html":"<strong>Thick pad to smooth the bumps.</strong> A soft, thick underlayment lets planks flex more over a hump, not less. Most manufacturers limit pad to about 1.5 mm for exactly this reason. See our post on <a href=\"/blog-posts/do-you-need-underlayment-under-vinyl-plank-flooring-everett\">underlayment for vinyl plank</a>."},
-    {"icon":"x","html":"<strong>Believing \"installs over any subfloor\" marketing.</strong> The same box that says that also has a flatness tolerance printed in the installation instructions, and the warranty depends on it."},
-    {"icon":"x","html":"<strong>Skipping the straightedge because the floor looks fine.</strong> A 3/16 inch hump is invisible to the eye and obvious to a click joint. Check the whole room, not just the doorway."},
-    {"icon":"x","html":"<strong>Flattening only the high spots.</strong> Grinding a hump often reveals the low areas on either side of it. Flat means both directions."},
-    {"icon":"x","html":"<strong>Going thicker to compensate.</strong> A thicker rigid plank bridges more, which sounds better but means it bounces over dips and cracks at the edges. The right thickness is the one whose tolerance your prepped floor meets. Our <a href=\"/services/lvp-vinyl-flooring\">vinyl plank installation service</a> matches the plank to the floor, not the other way around."}
-  ]}
+  {
+   "type": "quick",
+   "eyebrow": "Short answer",
+   "lead": "Most vinyl plank manufacturers require the subfloor to be flat within 3/16 inch over 10 feet, and some rigid-core products tighten that to 1/8 inch over 6 feet. Flat is the requirement; level is not.",
+   "detail": "A 1920s Ballard floor that slopes two inches from the front door to the kitchen can be perfect for vinyl plank as long as the slope is smooth. A brand-new plywood floor with a 1/4 inch hump at one joist is not. Wills Flooring installs vinyl plank at $2.50 per sq ft labor; flattening work is quoted at the free estimate after we put a straightedge on the floor.",
+   "tiles": [
+    {
+     "icon": "ruler",
+     "label": "Common tolerance",
+     "value": "3/16 in over 10 ft"
+    },
+    {
+     "icon": "ruler2",
+     "label": "Strict products",
+     "value": "1/8 in over 6 ft"
+    },
+    {
+     "icon": "dollar",
+     "label": "Install labor",
+     "value": "$2.50 / sq ft"
+    },
+    {
+     "icon": "hammer",
+     "label": "Flattening",
+     "value": "Quoted at estimate"
+    }
+   ],
+   "cta": "Try the calculator"
+  },
+  {
+   "type": "p",
+   "html": "This question comes up in every older Seattle neighborhood we work in. Wallingford and Ballard Craftsmans sit on 100-year-old fir plank subfloors that have cupped and settled. Capitol Hill and Queen Anne condos have concrete slabs with high spots from the original pour. Beacon Hill and West Seattle houses have had three layers of flooring added and removed, each leaving a ridge. Homeowners hear that vinyl plank is forgiving and assume it will go over anything. It is forgiving of moisture and abuse. It is not forgiving of bumps, and a floor that is not flat enough fails at the joints within a year."
+  },
+  {
+   "type": "h2",
+   "text": "Flat is not the same as level"
+  },
+  {
+   "type": "compare",
+   "a": {
+    "icon": "done",
+    "tag": "Flat",
+    "title": "What vinyl plank needs",
+    "items": [
+     "No high or low spot greater than the tolerance under a 10 ft straightedge",
+     "Smooth transitions between subfloor sheets and old patches",
+     "No ridges at joists, seams or old nail lines",
+     "A steady slope across the whole room is fine"
+    ]
+   },
+   "b": {
+    "icon": "x",
+    "tag": "Level",
+    "title": "What it does not need",
+    "items": [
+     "A floor that reads zero on a builder's level",
+     "Correcting a house that has settled evenly toward one corner",
+     "Raising a Seattle basement slab that drains toward a floor drain",
+     "Anything that would require leveling the whole room"
+    ]
+   }
+  },
+  {
+   "type": "h2",
+   "text": "Why vinyl plank cares so much"
+  },
+  {
+   "type": "cards",
+   "cols": 3,
+   "items": [
+    {
+     "icon": "layers",
+     "title": "Click joints break over humps",
+     "text": "Every plank flexes over a high spot as you walk on it. The locking lip on a click joint is a few millimeters of plastic; flex it a few thousand times and it cracks. The joint opens and the plank lifts."
+    },
+    {
+     "icon": "volume",
+     "title": "Rigid core bridges dips",
+     "text": "SPC and other rigid planks span a low spot instead of following it. You get a hollow sound, a slight bounce and eventually a broken joint at the edge of the dip. The stiffer the plank, the more this happens."
+    },
+    {
+     "icon": "search",
+     "title": "Flexible vinyl telegraphs",
+     "text": "Thin, flexible LVP does the opposite: it molds itself to every ridge and nail head so you see the subfloor pattern through the plank in the right light. Common over old fir plank floors in Seattle."
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "Price your Seattle vinyl plank floor right now"
+  },
+  {
+   "type": "calc",
+   "kind": "lvp",
+   "note": "Labor only. Subfloor flattening, underlayment plywood, old-floor removal and moisture testing are itemized at the free estimate once we have checked the floor with a straightedge."
+  },
+  {
+   "type": "h2",
+   "text": "How we check flatness at the estimate"
+  },
+  {
+   "type": "steps",
+   "wide": true,
+   "items": [
+    {
+     "icon": "ruler",
+     "d": "10-foot straightedge",
+     "text": "We lay an aluminum straightedge across the floor in several directions and slide a gauge under it. Any gap wider than the plank's tolerance gets marked with a crayon."
+    },
+    {
+     "icon": "grid",
+     "d": "Map the room",
+     "text": "High spots and low spots get circled so you can see how much of the floor is out. A single hump at a joist is a 20-minute fix. A wavy fir plank floor across the whole room is a different job."
+    },
+    {
+     "icon": "moisture",
+     "d": "Moisture and sound",
+     "text": "On slabs we test moisture, since a flattening compound needs a dry base. On wood floors we walk for soft spots and squeaks, which are fixed before any flattening starts."
+    },
+    {
+     "icon": "clipboard",
+     "d": "Written prep line item",
+     "text": "The quote lists exactly what flattening is needed, in square feet or spots, and why. If a 1920s Wallingford floor needs a layer of underlayment plywood, you see that as its own line."
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "The fix for each kind of unflat floor"
+  },
+  {
+   "type": "table",
+   "head": [
+    "Seattle subfloor situation",
+    "How it fails tolerance",
+    "The fix"
+   ],
+   "rows": [
+    [
+     "Plywood or OSB with a hump at a joist",
+     "High spot, usually a crowned joist or a proud sheet edge",
+     "Sand or grind the hump; set sheet edges with screws"
+    ],
+    [
+     "Plywood with a low spot or old patch",
+     "Dip up to 1/2 inch",
+     "Floor patch or feather-finish compound, sanded smooth"
+    ],
+    [
+     "Old fir plank subfloor, cupped boards",
+     "Continuous ridges every 3 to 6 inches",
+     "Overlay with 1/4 inch or 3/8 inch underlayment plywood, screwed on a grid"
+    ],
+    [
+     "Concrete slab, Capitol Hill or Queen Anne condo",
+     "High spots from the pour, low spots at drains",
+     "Grind highs; self-leveling compound over lows after a moisture test"
+    ],
+    [
+     "Old vinyl or linoleum with an embossed pattern",
+     "Texture telegraphs through thin LVP",
+     "Skim coat with embossing leveler, or go over it with rigid SPC"
+    ],
+    [
+     "Ceramic tile with wide grout lines",
+     "Grout depressions",
+     "Fill grout lines with patch, or remove tile if it is loose or cracked"
+    ]
+   ],
+   "note": "Prep is priced at the estimate. In older Seattle houses it is often the largest variable in a vinyl plank quote, which is why we will not quote it over the phone."
+  },
+  {
+   "type": "h2",
+   "text": "When the subfloor is beyond flattening"
+  },
+  {
+   "type": "callout",
+   "icon": "alert",
+   "title": "Stop and fix the structure first: ",
+   "text": "A floor that bounces, a slope that changed in the last year, or plywood that is soft or dark near an exterior wall is not a flatness problem. It is a joist, moisture or foundation problem, and no amount of leveling compound is the right answer. We will tell you that at the estimate and hold off on the flooring quote until it is dealt with."
+  },
+  {
+   "type": "h2",
+   "text": "Mistakes that hide a bad subfloor for about a year"
+  },
+  {
+   "type": "list",
+   "icons": true,
+   "items": [
+    {
+     "icon": "x",
+     "html": "<strong>Thick pad to smooth the bumps.</strong> A soft, thick underlayment lets planks flex more over a hump, not less. Most manufacturers limit pad to about 1.5 mm for exactly this reason. See our post on <a href=\"/blog-posts/do-you-need-underlayment-under-vinyl-plank-flooring-everett\">underlayment for vinyl plank</a>."
+    },
+    {
+     "icon": "x",
+     "html": "<strong>Believing \"installs over any subfloor\" marketing.</strong> The same box that says that also has a flatness tolerance printed in the installation instructions, and the warranty depends on it."
+    },
+    {
+     "icon": "x",
+     "html": "<strong>Skipping the straightedge because the floor looks fine.</strong> A 3/16 inch hump is invisible to the eye and obvious to a click joint. Check the whole room, not just the doorway."
+    },
+    {
+     "icon": "x",
+     "html": "<strong>Flattening only the high spots.</strong> Grinding a hump often reveals the low areas on either side of it. Flat means both directions."
+    },
+    {
+     "icon": "x",
+     "html": "<strong>Going thicker to compensate.</strong> A thicker rigid plank bridges more, which sounds better but means it bounces over dips and cracks at the edges. The right thickness is the one whose tolerance your prepped floor meets. Our <a href=\"/services/lvp-vinyl-flooring\">vinyl plank installation service</a> matches the plank to the floor, not the other way around."
+    }
+   ]
+  }
  ],
  "faq": [
-  {"q":"What is the flatness tolerance for vinyl plank flooring?","a":"The most common specification is 3/16 inch over 10 feet, meaning no high or low spot larger than 3/16 inch under a 10-foot straightedge. Some rigid-core and thinner products specify 1/8 inch over 6 feet. Always check the installation instructions for the exact plank you buy, since the warranty depends on meeting them."},
-  {"q":"Does my floor need to be level for vinyl plank?","a":"No. Vinyl plank needs a flat surface, not a level one. Many older Seattle houses slope an inch or two across a room from settling, and that is fine as long as the slope is smooth. What breaks planks is humps, dips and ridges, not an even slope."},
-  {"q":"Can vinyl plank go over an old fir plank subfloor?","a":"Not directly in most Seattle houses. Old fir planks are cupped and gapped, which creates a ridge every few inches that either breaks click joints or telegraphs through thinner planks. The standard fix is a layer of underlayment plywood screwed over the fir, which creates a flat surface and quiets the floor."},
-  {"q":"How do you flatten a concrete slab for vinyl plank?","a":"High spots are ground down and low spots are filled with a self-leveling or patching compound, after a moisture test confirms the slab is dry enough for the compound to bond. In Capitol Hill and Queen Anne condos this is often a few spots rather than the whole floor, and it is quoted by area at the estimate."},
-  {"q":"How much does subfloor prep add to a vinyl plank installation?","a":"It depends entirely on the floor, which is why Wills Flooring quotes it at the free in-home estimate after checking with a straightedge. A couple of humps are minor; a full plywood overlay on an old Seattle fir floor is a meaningful line item. Installation labor itself is $2.50 per sq ft with a 500 sq ft minimum."},
-  {"q":"Will a thicker vinyl plank hide an uneven subfloor?","a":"No, it changes the failure rather than preventing it. Thin flexible planks follow every ridge and show it; thick rigid planks bridge dips and then crack at the joints or sound hollow. Meeting the flatness tolerance is required for every thickness, and the manufacturer's warranty assumes you did."}
+  {
+   "q": "What is the flatness tolerance for vinyl plank flooring?",
+   "a": "The most common specification is 3/16 inch over 10 feet, meaning no high or low spot larger than 3/16 inch under a 10-foot straightedge. Some rigid-core and thinner products specify 1/8 inch over 6 feet. Always check the installation instructions for the exact plank you buy, since the warranty depends on meeting them."
+  },
+  {
+   "q": "Does my floor need to be level for vinyl plank?",
+   "a": "No. Vinyl plank needs a flat surface, not a level one. Many older Seattle houses slope an inch or two across a room from settling, and that is fine as long as the slope is smooth. What breaks planks is humps, dips and ridges, not an even slope."
+  },
+  {
+   "q": "Can vinyl plank go over an old fir plank subfloor?",
+   "a": "Not directly in most Seattle houses. Old fir planks are cupped and gapped, which creates a ridge every few inches that either breaks click joints or telegraphs through thinner planks. The standard fix is a layer of underlayment plywood screwed over the fir, which creates a flat surface and quiets the floor."
+  },
+  {
+   "q": "How do you flatten a concrete slab for vinyl plank?",
+   "a": "High spots are ground down and low spots are filled with a self-leveling or patching compound, after a moisture test confirms the slab is dry enough for the compound to bond. In Capitol Hill and Queen Anne condos this is often a few spots rather than the whole floor, and it is quoted by area at the estimate."
+  },
+  {
+   "q": "How much does subfloor prep add to a vinyl plank installation?",
+   "a": "It depends entirely on the floor, which is why Wills Flooring quotes it at the free in-home estimate after checking with a straightedge. A couple of humps are minor; a full plywood overlay on an old Seattle fir floor is a meaningful line item. Installation labor itself is $2.50 per sq ft with a 500 sq ft minimum."
+  },
+  {
+   "q": "Will a thicker vinyl plank hide an uneven subfloor?",
+   "a": "No, it changes the failure rather than preventing it. Thin flexible planks follow every ridge and show it; thick rigid planks bridge dips and then crack at the joints or sound hollow. Meeting the flatness tolerance is required for every thickness, and the manufacturer's warranty assumes you did."
+  }
  ],
  "faq_title": "Subfloor questions from Seattle homeowners",
  "faq_sub": "From Ballard fir floors to Capitol Hill slabs.",
- "related": [["vinyl-plank-over-uneven-floors-and-crawlspaces-in-older-lynnwood-homes","vinyl plank over uneven floors in older homes"],["can-vinyl-plank-be-installed-over-tile-hardwood-concrete-or-old-vinyl","installing vinyl plank over tile, hardwood, concrete or old vinyl"],["do-you-need-underlayment-under-vinyl-plank-flooring-everett","underlayment under vinyl plank"]],
+ "related": [
+  [
+   "vinyl-plank-over-uneven-floors-and-crawlspaces-in-older-lynnwood-homes",
+   "vinyl plank over uneven floors in older homes"
+  ],
+  [
+   "can-vinyl-plank-be-installed-over-tile-hardwood-concrete-or-old-vinyl",
+   "installing vinyl plank over tile, hardwood, concrete or old vinyl"
+  ],
+  [
+   "do-you-need-underlayment-under-vinyl-plank-flooring-everett",
+   "underlayment under vinyl plank"
+  ]
+ ],
  "cta_title": "Get your Seattle subfloor checked with a straightedge",
  "cta_sub": "We measure flatness, moisture and structure, then hand you a firm written quote with every prep item listed. Free, no obligation, anywhere in Seattle."
 }

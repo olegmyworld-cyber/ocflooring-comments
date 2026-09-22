@@ -5,63 +5,292 @@
  "category": "hardwood",
  "city": "Seattle",
  "time": "8 mins",
- "date": "2026-12-03T15:00:00.000Z",
+ "date": "2026-12-09T15:00:00.000Z",
  "keywords": "underlayment under hardwood floors, do you need underlayment for hardwood, felt paper under hardwood flooring, underlayment for engineered hardwood, vapor barrier under hardwood floor",
- "offers": [["Hardwood floor installation, engineered or solid", "3.25", "per square foot"], ["Unfinished hardwood installation", "2.75", "per square foot"]],
+ "offers": [
+  [
+   "Hardwood floor installation, engineered or solid",
+   "3.25",
+   "per square foot"
+  ],
+  [
+   "Unfinished hardwood installation",
+   "2.75",
+   "per square foot"
+  ]
+ ],
  "blocks": [
-  {"type":"quick","eyebrow":"Short answer","lead":"Yes, almost always, but the underlayment depends on how the floor is fastened: nail-down hardwood gets a layer of asphalt felt or rosin paper, floating engineered hardwood gets a foam or cork pad, and glue-down hardwood gets a moisture barrier, not a pad.","detail":"Underlayment is a thin layer between the subfloor and the flooring. It is not the same as the subfloor and it does not fix an uneven one. Wills Flooring installs hardwood at $3.25 per sq ft labor, with underlayment quoted at the free estimate.",
-   "tiles":[{"icon":"hammer","label":"Nail-down","value":"Felt or rosin paper"},{"icon":"layers","label":"Floating","value":"Foam or cork pad"},{"icon":"droplet","label":"Glue-down","value":"Moisture barrier"},{"icon":"dollar","label":"Install labor","value":"$3.25 / sq ft"}]},
-  {"type":"p","html":"A common Reddit thread asks whether the black paper the installer rolled out under a new oak floor was actually necessary or just a line item. It was necessary. It was also cheap, which is why nobody talks about it. In Seattle the question gets more interesting because so many houses have subfloors the underlayment was never designed for: diagonal 1x6 planks in a Wallingford Craftsman, a concrete slab in a Beacon Hill daylight basement, or a Capitol Hill condo with a sound-rating rule in the HOA documents. This post covers what underlayment does for each installation method and what changes in older Seattle houses."},
-  {"type":"h2","text":"Underlayment by installation method"},
-  {"type":"table","head":["How the floor is fastened","Underlayment","What it does","What it does not do"],"rows":[
-    ["Nail-down solid or engineered over plywood","15 lb asphalt felt or rosin paper","Slows moisture vapor from below, reduces board-on-plywood squeaks, lets boards slide slightly during install","Does not add cushion or sound control, does not flatten anything"],
-    ["Floating engineered over plywood or slab","Foam, cork or rubber pad, often with a built-in vapor film","Cushions the floor, absorbs footfall noise, bridges tiny imperfections, blocks slab vapor","Does not fix dips over 3/16 in across 10 ft"],
-    ["Glue-down engineered over slab or plywood","None as a pad. A moisture barrier or a moisture-controlling adhesive","Stops slab vapor from reaching the wood","Cannot be a foam pad; glue needs a hard bond"],
-    ["Solid hardwood over concrete","Plywood on a vapor barrier, or sleepers, then felt","Creates a nailable surface and a dry gap","Not a thin roll product. This is a subfloor build-up"]
-  ],"note":"Every installation at Wills Flooring includes a moisture check of the subfloor before we choose the underlayment. Concrete gets a meter test, not a guess."},
-  {"type":"h2","text":"What underlayment actually does for hardwood"},
-  {"type":"cards","cols":2,"items":[
-    {"icon":"moisture","title":"Slows vapor from below","text":"Seattle crawlspaces are damp from October to May. Felt paper under a nail-down floor is a vapor retarder, not a barrier. It slows the moisture that would otherwise cup the boards, while still letting the wood breathe."},
-    {"icon":"volume","title":"Quiets the floor","text":"Wood boards rubbing on wood subfloor squeak. A layer of felt between them stops most of it. Under a floating floor, a pad is where nearly all of the footfall and echo control comes from."},
-    {"icon":"home","title":"Protects downstairs neighbors","text":"Condo buildings in Belltown, Capitol Hill and Queen Anne often require an IIC sound rating of 50 or more for hard floors. A cork or rubber underlayment under a floating or glued floor is how you meet it."},
-    {"icon":"ruler","title":"Bridges tiny imperfections","text":"A pad hides very minor texture in the subfloor, like a sanded seam or a staple line. It does not hide a dip. Anything more than 3/16 in over 10 ft needs a leveling compound or sanding before any hardwood goes down."}
-  ]},
-  {"type":"h2","text":"Price your Seattle hardwood installation"},
-  {"type":"calc","kind":"hardwood","note":"Labor only. Underlayment, moisture barrier, subfloor flattening and any plywood overlay are quoted at the free estimate after we see what is under the current floor."},
-  {"type":"h2","text":"Seattle subfloors and what they need"},
-  {"type":"steps","wide":true,"items":[
-    {"icon":"home","d":"1920s Craftsman, Ballard or Wallingford","text":"Diagonal 1x6 fir plank subfloor with gaps and cupped edges. A nail-down floor needs a 3/8 or 1/2 in plywood overlay first, then felt. Without the overlay, the new boards flex and squeak wherever they cross a plank gap.","note":"Overlay is quoted per sheet at the estimate"},
-    {"icon":"basement","d":"Beacon Hill daylight basement on a slab","text":"Solid hardwood is out. Engineered hardwood glued down with a moisture-controlling adhesive, or floated over a pad with a vapor film, after a moisture test reads within the manufacturer's limit.","note":"A wet slab means a different floor, not a thicker barrier"},
-    {"icon":"lock","d":"Capitol Hill condo, third floor","text":"Floating engineered over an acoustic cork or rubber pad rated to meet the HOA's IIC requirement. We pull the HOA flooring rules before recommending a product.","note":"Elevator booking and quiet hours are handled at scheduling"},
-    {"icon":"layers","d":"1950s West Seattle rambler, plywood or planks","text":"Many have straight 1x8 planks over joists. If they are tight and flat, a nail-down with felt works. If gapped or cupped, add the plywood overlay."},
-    {"icon":"refresh","d":"Newer Magnolia or Green Lake townhouse","text":"Flat 3/4 in OSB or plywood. Nail-down with felt, or floating engineered with a pad. The simplest case."}
-  ]},
-  {"type":"h2","text":"Felt vs rosin paper vs foam pad"},
-  {"type":"compare","a":{"icon":"done","tag":"Nail-down","title":"Asphalt felt or rosin paper","items":["Felt is a mild vapor retarder; rosin paper is mostly a slip sheet and squeak barrier","Both are thin and let the nailer seat boards tightly","Felt is the better choice over crawlspaces, which is most of Seattle","Neither adds any cushion; that is not their job"]},
-    "b":{"icon":"x","tag":"Never under nail-down","title":"Foam or cork pad","items":["A soft pad under nailed boards lets them move, so fasteners loosen and joints open","Pads are for floating floors, or glued under glue-down as a sound layer only when the manufacturer allows it","Thick pads under engineered floating floors can void the flooring warranty; use what the plank maker specifies","A pad with a vapor film is mandatory when floating over concrete"]}},
-  {"type":"callout","icon":"alert","title":"Underlayment is not a leveling tool: ","text":"Every few months we see a floor someone tried to flatten with two layers of foam. The pad compresses under the heavy spots and the floor rocks. Fix the subfloor first with a leveling compound, plywood or sanding. Then the underlayment does its actual job."},
-  {"type":"h2","text":"Mistakes that show up a year later"},
-  {"type":"list","icons":true,"items":[
-    {"icon":"moisture","html":"<strong>Skipping felt over a crawlspace.</strong> The floor looks fine in August and cups by February. Seattle winter humidity in an unsealed crawlspace pushes vapor straight into the boards."},
-    {"icon":"droplet","html":"<strong>Plastic sheeting under a nail-down floor.</strong> A true vapor barrier traps moisture in the plywood and can rot the subfloor. Felt is meant to be breathable."},
-    {"icon":"layers","html":"<strong>Doubling up pads under a floating floor.</strong> Too much cushion lets the click joints flex and eventually break. One pad, the thickness the manufacturer allows."},
-    {"icon":"volume","html":"<strong>Ignoring the HOA sound rule.</strong> The condo board can require you to pull the floor. Getting the IIC rating in writing before installation is cheaper than redoing it."}
-  ]},
-  {"type":"h2","text":"What to ask your installer"},
-  {"type":"ul","items":["Which underlayment are you using, and why that one for my subfloor and my fastening method?","Did you test the subfloor for moisture, and what did it read?","Does my plank manufacturer approve this underlayment? Their warranty depends on it.","If my subfloor is plank, are you adding a plywood overlay, and what thickness?","For condos: what IIC rating does this assembly deliver, and can you put it in writing for the HOA?"]},
-  {"type":"p","html":"Fastening method drives the underlayment choice, so read <a href=\"/blog-posts/nail-down-vs-glue-down-vs-floating-hardwood-lynnwood\">nail-down vs glue-down vs floating hardwood</a> if you have not picked one yet. Our <a href=\"/services/hardwood-flooring\">hardwood installation</a> page explains what the labor rate includes."}
+  {
+   "type": "quick",
+   "eyebrow": "Short answer",
+   "lead": "Yes, almost always, but the underlayment depends on how the floor is fastened: nail-down hardwood gets a layer of asphalt felt or rosin paper, floating engineered hardwood gets a foam or cork pad, and glue-down hardwood gets a moisture barrier, not a pad.",
+   "detail": "Underlayment is a thin layer between the subfloor and the flooring. It is not the same as the subfloor and it does not fix an uneven one. Wills Flooring installs hardwood at $3.25 per sq ft labor, with underlayment quoted at the free estimate.",
+   "tiles": [
+    {
+     "icon": "hammer",
+     "label": "Nail-down",
+     "value": "Felt or rosin paper"
+    },
+    {
+     "icon": "layers",
+     "label": "Floating",
+     "value": "Foam or cork pad"
+    },
+    {
+     "icon": "droplet",
+     "label": "Glue-down",
+     "value": "Moisture barrier"
+    },
+    {
+     "icon": "dollar",
+     "label": "Install labor",
+     "value": "$3.25 / sq ft"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "html": "A common Reddit thread asks whether the black paper the installer rolled out under a new oak floor was actually necessary or just a line item. It was necessary. It was also cheap, which is why nobody talks about it. In Seattle the question gets more interesting because so many houses have subfloors the underlayment was never designed for: diagonal 1x6 planks in a Wallingford Craftsman, a concrete slab in a Beacon Hill daylight basement, or a Capitol Hill condo with a sound-rating rule in the HOA documents. This post covers what underlayment does for each installation method and what changes in older Seattle houses."
+  },
+  {
+   "type": "h2",
+   "text": "Underlayment by installation method"
+  },
+  {
+   "type": "table",
+   "head": [
+    "How the floor is fastened",
+    "Underlayment",
+    "What it does",
+    "What it does not do"
+   ],
+   "rows": [
+    [
+     "Nail-down solid or engineered over plywood",
+     "15 lb asphalt felt or rosin paper",
+     "Slows moisture vapor from below, reduces board-on-plywood squeaks, lets boards slide slightly during install",
+     "Does not add cushion or sound control, does not flatten anything"
+    ],
+    [
+     "Floating engineered over plywood or slab",
+     "Foam, cork or rubber pad, often with a built-in vapor film",
+     "Cushions the floor, absorbs footfall noise, bridges tiny imperfections, blocks slab vapor",
+     "Does not fix dips over 3/16 in across 10 ft"
+    ],
+    [
+     "Glue-down engineered over slab or plywood",
+     "None as a pad. A moisture barrier or a moisture-controlling adhesive",
+     "Stops slab vapor from reaching the wood",
+     "Cannot be a foam pad; glue needs a hard bond"
+    ],
+    [
+     "Solid hardwood over concrete",
+     "Plywood on a vapor barrier, or sleepers, then felt",
+     "Creates a nailable surface and a dry gap",
+     "Not a thin roll product. This is a subfloor build-up"
+    ]
+   ],
+   "note": "Every installation at Wills Flooring includes a moisture check of the subfloor before we choose the underlayment. Concrete gets a meter test, not a guess."
+  },
+  {
+   "type": "h2",
+   "text": "What underlayment actually does for hardwood"
+  },
+  {
+   "type": "cards",
+   "cols": 2,
+   "items": [
+    {
+     "icon": "moisture",
+     "title": "Slows vapor from below",
+     "text": "Seattle crawlspaces are damp from October to May. Felt paper under a nail-down floor is a vapor retarder, not a barrier. It slows the moisture that would otherwise cup the boards, while still letting the wood breathe."
+    },
+    {
+     "icon": "volume",
+     "title": "Quiets the floor",
+     "text": "Wood boards rubbing on wood subfloor squeak. A layer of felt between them stops most of it. Under a floating floor, a pad is where nearly all of the footfall and echo control comes from."
+    },
+    {
+     "icon": "home",
+     "title": "Protects downstairs neighbors",
+     "text": "Condo buildings in Belltown, Capitol Hill and Queen Anne often require an IIC sound rating of 50 or more for hard floors. A cork or rubber underlayment under a floating or glued floor is how you meet it."
+    },
+    {
+     "icon": "ruler",
+     "title": "Bridges tiny imperfections",
+     "text": "A pad hides very minor texture in the subfloor, like a sanded seam or a staple line. It does not hide a dip. Anything more than 3/16 in over 10 ft needs a leveling compound or sanding before any hardwood goes down."
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "Price your Seattle hardwood installation"
+  },
+  {
+   "type": "calc",
+   "kind": "hardwood",
+   "note": "Labor only. Underlayment, moisture barrier, subfloor flattening and any plywood overlay are quoted at the free estimate after we see what is under the current floor."
+  },
+  {
+   "type": "h2",
+   "text": "Seattle subfloors and what they need"
+  },
+  {
+   "type": "steps",
+   "wide": true,
+   "items": [
+    {
+     "icon": "home",
+     "d": "1920s Craftsman, Ballard or Wallingford",
+     "text": "Diagonal 1x6 fir plank subfloor with gaps and cupped edges. A nail-down floor needs a 3/8 or 1/2 in plywood overlay first, then felt. Without the overlay, the new boards flex and squeak wherever they cross a plank gap.",
+     "note": "Overlay is quoted per sheet at the estimate"
+    },
+    {
+     "icon": "basement",
+     "d": "Beacon Hill daylight basement on a slab",
+     "text": "Solid hardwood is out. Engineered hardwood glued down with a moisture-controlling adhesive, or floated over a pad with a vapor film, after a moisture test reads within the manufacturer's limit.",
+     "note": "A wet slab means a different floor, not a thicker barrier"
+    },
+    {
+     "icon": "lock",
+     "d": "Capitol Hill condo, third floor",
+     "text": "Floating engineered over an acoustic cork or rubber pad rated to meet the HOA's IIC requirement. We pull the HOA flooring rules before recommending a product.",
+     "note": "Elevator booking and quiet hours are handled at scheduling"
+    },
+    {
+     "icon": "layers",
+     "d": "1950s West Seattle rambler, plywood or planks",
+     "text": "Many have straight 1x8 planks over joists. If they are tight and flat, a nail-down with felt works. If gapped or cupped, add the plywood overlay."
+    },
+    {
+     "icon": "refresh",
+     "d": "Newer Magnolia or Green Lake townhouse",
+     "text": "Flat 3/4 in OSB or plywood. Nail-down with felt, or floating engineered with a pad. The simplest case."
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "Felt vs rosin paper vs foam pad"
+  },
+  {
+   "type": "compare",
+   "a": {
+    "icon": "done",
+    "tag": "Nail-down",
+    "title": "Asphalt felt or rosin paper",
+    "items": [
+     "Felt is a mild vapor retarder; rosin paper is mostly a slip sheet and squeak barrier",
+     "Both are thin and let the nailer seat boards tightly",
+     "Felt is the better choice over crawlspaces, which is most of Seattle",
+     "Neither adds any cushion; that is not their job"
+    ]
+   },
+   "b": {
+    "icon": "x",
+    "tag": "Never under nail-down",
+    "title": "Foam or cork pad",
+    "items": [
+     "A soft pad under nailed boards lets them move, so fasteners loosen and joints open",
+     "Pads are for floating floors, or glued under glue-down as a sound layer only when the manufacturer allows it",
+     "Thick pads under engineered floating floors can void the flooring warranty; use what the plank maker specifies",
+     "A pad with a vapor film is mandatory when floating over concrete"
+    ]
+   }
+  },
+  {
+   "type": "callout",
+   "icon": "alert",
+   "title": "Underlayment is not a leveling tool: ",
+   "text": "Every few months we see a floor someone tried to flatten with two layers of foam. The pad compresses under the heavy spots and the floor rocks. Fix the subfloor first with a leveling compound, plywood or sanding. Then the underlayment does its actual job."
+  },
+  {
+   "type": "h2",
+   "text": "Mistakes that show up a year later"
+  },
+  {
+   "type": "list",
+   "icons": true,
+   "items": [
+    {
+     "icon": "moisture",
+     "html": "<strong>Skipping felt over a crawlspace.</strong> The floor looks fine in August and cups by February. Seattle winter humidity in an unsealed crawlspace pushes vapor straight into the boards."
+    },
+    {
+     "icon": "droplet",
+     "html": "<strong>Plastic sheeting under a nail-down floor.</strong> A true vapor barrier traps moisture in the plywood and can rot the subfloor. Felt is meant to be breathable."
+    },
+    {
+     "icon": "layers",
+     "html": "<strong>Doubling up pads under a floating floor.</strong> Too much cushion lets the click joints flex and eventually break. One pad, the thickness the manufacturer allows."
+    },
+    {
+     "icon": "volume",
+     "html": "<strong>Ignoring the HOA sound rule.</strong> The condo board can require you to pull the floor. Getting the IIC rating in writing before installation is cheaper than redoing it."
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "What to ask your installer"
+  },
+  {
+   "type": "ul",
+   "items": [
+    "Which underlayment are you using, and why that one for my subfloor and my fastening method?",
+    "Did you test the subfloor for moisture, and what did it read?",
+    "Does my plank manufacturer approve this underlayment? Their warranty depends on it.",
+    "If my subfloor is plank, are you adding a plywood overlay, and what thickness?",
+    "For condos: what IIC rating does this assembly deliver, and can you put it in writing for the HOA?"
+   ]
+  },
+  {
+   "type": "p",
+   "html": "Fastening method drives the underlayment choice, so read <a href=\"/blog-posts/nail-down-vs-glue-down-vs-floating-hardwood-lynnwood\">nail-down vs glue-down vs floating hardwood</a> if you have not picked one yet. Our <a href=\"/services/hardwood-flooring\">hardwood installation</a> page explains what the labor rate includes."
+  }
  ],
  "faq": [
-  {"q":"Can you install hardwood floors without underlayment?","a":"You can nail hardwood directly to plywood and it will hold, but it will squeak more and take on more moisture from below. Felt paper is inexpensive and takes minutes to roll out, so there is no good reason to skip it. Floating floors and floors over concrete should never go down without underlayment."},
-  {"q":"What is the best underlayment for nail-down hardwood?","a":"Fifteen pound asphalt felt is the standard and the right choice over a crawlspace, which is most Seattle houses. Rosin paper works as a slip sheet and squeak reducer but does little for moisture. Never use foam or plastic sheeting under a nailed floor."},
-  {"q":"Do engineered hardwood floors need underlayment?","a":"It depends on how they are installed. Floating engineered floors need a foam, cork or rubber pad, with a vapor film if over concrete. Nail-down engineered gets felt like solid wood. Glue-down engineered gets no pad, only a moisture barrier or a moisture-controlling adhesive."},
-  {"q":"Does underlayment fix an uneven subfloor?","a":"No. Underlayment hides tiny surface texture, not dips or humps. Anything over about 3/16 in across 10 ft needs a leveling compound, sanding or a plywood overlay before hardwood goes down. We check flatness at the free estimate and quote the fix separately."},
-  {"q":"Do I need a vapor barrier under hardwood floors in Seattle?","a":"Over a crawlspace, use a vapor retarder like felt, which slows moisture without trapping it. Over concrete, you need a true vapor barrier: a film under a floating floor or a moisture-blocking adhesive under a glue-down. The slab should also be metered before installation."},
-  {"q":"What underlayment do I need for a Seattle condo?","a":"One that meets your building's sound requirement, often an IIC rating of 50 or higher for the complete floor assembly. Acoustic cork or rubber pads under a floating or glued engineered floor usually qualify. We read the HOA flooring rules before recommending a product and put the rating in writing."}
+  {
+   "q": "Can you install hardwood floors without underlayment?",
+   "a": "You can nail hardwood directly to plywood and it will hold, but it will squeak more and take on more moisture from below. Felt paper is inexpensive and takes minutes to roll out, so there is no good reason to skip it. Floating floors and floors over concrete should never go down without underlayment."
+  },
+  {
+   "q": "What is the best underlayment for nail-down hardwood?",
+   "a": "Fifteen pound asphalt felt is the standard and the right choice over a crawlspace, which is most Seattle houses. Rosin paper works as a slip sheet and squeak reducer but does little for moisture. Never use foam or plastic sheeting under a nailed floor."
+  },
+  {
+   "q": "Do engineered hardwood floors need underlayment?",
+   "a": "It depends on how they are installed. Floating engineered floors need a foam, cork or rubber pad, with a vapor film if over concrete. Nail-down engineered gets felt like solid wood. Glue-down engineered gets no pad, only a moisture barrier or a moisture-controlling adhesive."
+  },
+  {
+   "q": "Does underlayment fix an uneven subfloor?",
+   "a": "No. Underlayment hides tiny surface texture, not dips or humps. Anything over about 3/16 in across 10 ft needs a leveling compound, sanding or a plywood overlay before hardwood goes down. We check flatness at the free estimate and quote the fix separately."
+  },
+  {
+   "q": "Do I need a vapor barrier under hardwood floors in Seattle?",
+   "a": "Over a crawlspace, use a vapor retarder like felt, which slows moisture without trapping it. Over concrete, you need a true vapor barrier: a film under a floating floor or a moisture-blocking adhesive under a glue-down. The slab should also be metered before installation."
+  },
+  {
+   "q": "What underlayment do I need for a Seattle condo?",
+   "a": "One that meets your building's sound requirement, often an IIC rating of 50 or higher for the complete floor assembly. Acoustic cork or rubber pads under a floating or glued engineered floor usually qualify. We read the HOA flooring rules before recommending a product and put the rating in writing."
+  }
  ],
  "faq_title": "Underlayment questions from Seattle homeowners",
  "faq_sub": "From Craftsman remodels, basement projects and condo boards across the city.",
- "related": [["nail-down-vs-glue-down-vs-floating-hardwood-lynnwood","nail-down vs glue-down vs floating"],["what-subfloor-prep-is-needed-before-installing-hardwood-floors-everett","subfloor prep before hardwood"],["do-you-need-underlayment-under-vinyl-plank-flooring-everett","underlayment under vinyl plank"]],
+ "related": [
+  [
+   "nail-down-vs-glue-down-vs-floating-hardwood-lynnwood",
+   "nail-down vs glue-down vs floating"
+  ],
+  [
+   "what-subfloor-prep-is-needed-before-installing-hardwood-floors-everett",
+   "subfloor prep before hardwood"
+  ],
+  [
+   "do-you-need-underlayment-under-vinyl-plank-flooring-everett",
+   "underlayment under vinyl plank"
+  ]
+ ],
  "cta_title": "Find out what is under your floor",
  "cta_sub": "We check the subfloor, meter for moisture and hand you a firm written price for the right underlayment and installation. Free anywhere in Seattle."
 }

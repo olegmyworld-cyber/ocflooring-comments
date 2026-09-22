@@ -5,64 +5,284 @@
  "category": "lvp",
  "city": "Kirkland",
  "time": "8 mins",
- "date": "2026-12-08T15:00:00.000Z",
+ "date": "2026-12-14T15:00:00.000Z",
  "keywords": "can vinyl plank flooring be repaired, replace one vinyl plank, how to replace a damaged LVP plank, vinyl plank repair Kirkland, fix gouge in vinyl plank flooring",
- "offers": [["Vinyl plank flooring installation", "2.50", "per square foot"]],
+ "offers": [
+  [
+   "Vinyl plank flooring installation",
+   "2.50",
+   "per square foot"
+  ]
+ ],
  "blocks": [
-  {"type":"quick","eyebrow":"Short answer","lead":"Yes. One damaged vinyl plank can be cut out and replaced in an hour or two, and the floor around it stays put.","detail":"Click-lock planks in the middle of a room are replaced by cutting the damaged plank out, trimming the locking edges off a new one and gluing it in. Glue-down planks are heated, lifted and re-glued. The catch is having a matching plank on hand.",
-   "tiles":[{"icon":"clock","label":"Typical repair","value":"1–2 hours"},{"icon":"box","label":"You need","value":"1 matching plank"},{"icon":"scissors","label":"Click-lock method","value":"Cut and glue"},{"icon":"dollar","label":"Full replacement labor","value":"$2.50 / sq ft"}]},
-  {"type":"p","html":"The question usually arrives with a photo: a dropped cast-iron pan in a Houghton kitchen, a rolling chair that dug a trench in a Rose Hill home office, or a Juanita garage-to-den conversion where a paint can went through the wear layer. Kirkland homeowners tend to have good vinyl plank (20 mil wear layers are the norm on the Eastside), so the damage is almost always one or two planks, not the floor. Here is how a repair actually works, when it is worth doing, and when the honest answer is to replace the room."},
-  {"type":"h2","text":"First, decide whether it is damage or just a mark"},
-  {"type":"list","icons":true,"items":[
-    {"icon":"mop","html":"<strong>Scuffs and rubber marks</strong> come off with a melamine sponge or a little mineral spirits on a rag. No repair needed."},
-    {"icon":"sun","html":"<strong>Fine scratches in the wear layer</strong> are cosmetic. A vinyl floor polish or a color-matched scratch pen hides them. They do not let water in and they do not spread."},
-    {"icon":"alert","html":"<strong>Gouges through the print layer</strong> show a white or gray core. That plank needs replacing; the design cannot be recreated with a marker."},
-    {"icon":"flame","html":"<strong>Burns, melts and chemical stains</strong> (a hot pan, nail polish remover, rubber-backed mat discoloration) are permanent. Replace the plank."},
-    {"icon":"droplet","html":"<strong>Lifted edges or peaking</strong> are usually not damage at all but an expansion problem. Replacing the plank will not fix it; see <a href=\"/blog-posts/why-is-my-vinyl-plank-floor-buckling-or-gapping-sammamish\">why vinyl plank buckles and gaps</a>."}
-  ]},
-  {"type":"h2","text":"How a pro replaces one click-lock plank mid-floor"},
-  {"type":"steps","wide":true,"items":[
-    {"icon":"search","d":"1. Match","text":"Find a leftover plank from the original box, or order the same SKU and color lot. If the color was discontinued, we look for the closest match and put it somewhere less visible, swapping a good plank from under a rug into the damaged spot."},
-    {"icon":"ruler","d":"2. Score the center","text":"Tape off the neighbors. Using a straightedge, cut a rectangle out of the middle of the damaged plank with a sharp utility knife or oscillating tool, staying 1 in inside the edges so the neighboring locking joints are not touched."},
-    {"icon":"scissors","d":"3. Free the edges","text":"With the center gone, the remaining strips can be pulled toward the middle and unhooked from the surrounding planks without lifting them."},
-    {"icon":"hammer","d":"4. Trim the new plank","text":"Cut the bottom lip off the groove side and the tongue off the end so it drops in from above. This turns a click plank into a drop-in patch; it will not lock anymore, which is why step 5 matters."},
-    {"icon":"droplet","d":"5. Glue and weight","text":"Apply a thin bead of vinyl seam adhesive or construction adhesive along the trimmed edges and to the subfloor. Set the plank, roll it, wipe squeeze-out immediately, and leave a weight on it overnight."}
-  ]},
-  {"type":"callout","icon":"alert","title":"Near a wall? ","text":"If the damaged plank is within three or four rows of a wall, it is often cleaner to pull the baseboard or quarter round and unclick the rows back to it, replace the plank properly, and re-click. No glue, no trimmed edges, and the joint keeps its warranty."},
-  {"type":"h2","text":"Glue-down planks are a different job"},
-  {"type":"cards","cols":2,"items":[
-    {"icon":"flame","title":"Heat and lift","text":"A heat gun or hair dryer softens the pressure-sensitive adhesive. A stiff putty knife under one corner lifts the plank in one piece most of the time, without disturbing its neighbors."},
-    {"icon":"mop","title":"Scrape the bed","text":"Old adhesive gets scraped flat. Any ridges left behind telegraph through the new plank as bumps, so this step takes longer than the lift."},
-    {"icon":"brush","title":"Re-glue","text":"New adhesive is spread thin with a small trowel, allowed to flash to tacky, then the plank is set, rolled and weighted. Foot traffic can resume in a few hours, but no rolling loads for 24."},
-    {"icon":"home","title":"Kirkland condos","text":"Glue-down is common in Totem Lake and downtown Kirkland condos because of sound rules. Repairs are quieter and quicker than a click floor, but the adhesive smell means opening a window for the afternoon."}
-  ]},
-  {"type":"h2","text":"When one plank turns into a new floor: price it in Kirkland"},
-  {"type":"calc","kind":"lvp","note":"If the damage is water related or spans more than a few planks, replacing the room is often cheaper than chasing repairs. Plank material is quoted separately."},
-  {"type":"h2","text":"Repair or replace: the honest thresholds"},
-  {"type":"compare","a":{"icon":"done","tag":"Repair","title":"Fix the plank when","items":["One to five planks are damaged and you have matching stock","The rest of the floor is sound, flat and less than 10 years old","The damage is impact, a burn or a gouge, not water","The floor is glue-down, or the planks are near a wall"]},
-    "b":{"icon":"x","tag":"Replace","title":"Redo the room when","items":["The color is discontinued and no close match exists","Damage came from a leak, and the subfloor or core is swollen","The wear layer is under 12 mil and showing wear paths everywhere","You are already planning to sell; Kirkland buyers notice patched floors"]}},
-  {"type":"h2","text":"What a repair costs versus a room"},
-  {"type":"table","head":["Situation","What it involves","What to budget"],"rows":[
-    ["One plank, click-lock, mid-floor","Cut-out and glue-in, about 90 minutes","A service call plus the plank. Most companies have a minimum visit charge; ask before booking."],
-    ["One plank, glue-down","Heat, lift, scrape, re-glue","A service call, a plank and adhesive. Similar to the above."],
-    ["Five planks after a dishwasher leak","Pull to the wall, check subfloor, dry it, replace planks","A half day. If the subfloor is wet, drying time pushes it to two visits."],
-    ["Full room, 500 sq ft","Tear out old planks, install new","500 × $2.50 = $1,250 Wills labor, plus plank and any prep quoted at the estimate"],
-    ["Whole main floor, 1,200 sq ft with 14 stairs","New floor throughout","1,200 × $2.50 + 14 × $100 = $4,400 Wills labor, plus material"]
-  ],"note":"Wills Flooring publishes installation labor at $2.50 per sq ft with a 500 sq ft minimum and $100 per stair. Small repair visits are priced on request."},
-  {"type":"h2","text":"Make the next repair easy"},
-  {"type":"ul","items":["Keep at least one full box of leftover planks from the original install, stored flat in the house, not the garage. Kirkland garages swing 40 degrees between January and July and warp the planks.","Write the SKU, color name and lot number on the box lid. Retailers change names every few years.","Use felt pads under chairs and a hard-floor chair mat under anything with wheels.","If a plank is damaged near a wall, repair it sooner rather than later, before furniture and rugs make the unclick method impractical.","Ask your installer for the adhesive brand that was used on a glue-down floor so the repair matches."]}
+  {
+   "type": "quick",
+   "eyebrow": "Short answer",
+   "lead": "Yes. One damaged vinyl plank can be cut out and replaced in an hour or two, and the floor around it stays put.",
+   "detail": "Click-lock planks in the middle of a room are replaced by cutting the damaged plank out, trimming the locking edges off a new one and gluing it in. Glue-down planks are heated, lifted and re-glued. The catch is having a matching plank on hand.",
+   "tiles": [
+    {
+     "icon": "clock",
+     "label": "Typical repair",
+     "value": "1–2 hours"
+    },
+    {
+     "icon": "box",
+     "label": "You need",
+     "value": "1 matching plank"
+    },
+    {
+     "icon": "scissors",
+     "label": "Click-lock method",
+     "value": "Cut and glue"
+    },
+    {
+     "icon": "dollar",
+     "label": "Full replacement labor",
+     "value": "$2.50 / sq ft"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "html": "The question usually arrives with a photo: a dropped cast-iron pan in a Houghton kitchen, a rolling chair that dug a trench in a Rose Hill home office, or a Juanita garage-to-den conversion where a paint can went through the wear layer. Kirkland homeowners tend to have good vinyl plank (20 mil wear layers are the norm on the Eastside), so the damage is almost always one or two planks, not the floor. Here is how a repair actually works, when it is worth doing, and when the honest answer is to replace the room."
+  },
+  {
+   "type": "h2",
+   "text": "First, decide whether it is damage or just a mark"
+  },
+  {
+   "type": "list",
+   "icons": true,
+   "items": [
+    {
+     "icon": "mop",
+     "html": "<strong>Scuffs and rubber marks</strong> come off with a melamine sponge or a little mineral spirits on a rag. No repair needed."
+    },
+    {
+     "icon": "sun",
+     "html": "<strong>Fine scratches in the wear layer</strong> are cosmetic. A vinyl floor polish or a color-matched scratch pen hides them. They do not let water in and they do not spread."
+    },
+    {
+     "icon": "alert",
+     "html": "<strong>Gouges through the print layer</strong> show a white or gray core. That plank needs replacing; the design cannot be recreated with a marker."
+    },
+    {
+     "icon": "flame",
+     "html": "<strong>Burns, melts and chemical stains</strong> (a hot pan, nail polish remover, rubber-backed mat discoloration) are permanent. Replace the plank."
+    },
+    {
+     "icon": "droplet",
+     "html": "<strong>Lifted edges or peaking</strong> are usually not damage at all but an expansion problem. Replacing the plank will not fix it; see <a href=\"/blog-posts/why-is-my-vinyl-plank-floor-buckling-or-gapping-sammamish\">why vinyl plank buckles and gaps</a>."
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "How a pro replaces one click-lock plank mid-floor"
+  },
+  {
+   "type": "steps",
+   "wide": true,
+   "items": [
+    {
+     "icon": "search",
+     "d": "1. Match",
+     "text": "Find a leftover plank from the original box, or order the same SKU and color lot. If the color was discontinued, we look for the closest match and put it somewhere less visible, swapping a good plank from under a rug into the damaged spot."
+    },
+    {
+     "icon": "ruler",
+     "d": "2. Score the center",
+     "text": "Tape off the neighbors. Using a straightedge, cut a rectangle out of the middle of the damaged plank with a sharp utility knife or oscillating tool, staying 1 in inside the edges so the neighboring locking joints are not touched."
+    },
+    {
+     "icon": "scissors",
+     "d": "3. Free the edges",
+     "text": "With the center gone, the remaining strips can be pulled toward the middle and unhooked from the surrounding planks without lifting them."
+    },
+    {
+     "icon": "hammer",
+     "d": "4. Trim the new plank",
+     "text": "Cut the bottom lip off the groove side and the tongue off the end so it drops in from above. This turns a click plank into a drop-in patch; it will not lock anymore, which is why step 5 matters."
+    },
+    {
+     "icon": "droplet",
+     "d": "5. Glue and weight",
+     "text": "Apply a thin bead of vinyl seam adhesive or construction adhesive along the trimmed edges and to the subfloor. Set the plank, roll it, wipe squeeze-out immediately, and leave a weight on it overnight."
+    }
+   ]
+  },
+  {
+   "type": "callout",
+   "icon": "alert",
+   "title": "Near a wall? ",
+   "text": "If the damaged plank is within three or four rows of a wall, it is often cleaner to pull the baseboard or quarter round and unclick the rows back to it, replace the plank properly, and re-click. No glue, no trimmed edges, and the joint keeps its warranty."
+  },
+  {
+   "type": "h2",
+   "text": "Glue-down planks are a different job"
+  },
+  {
+   "type": "cards",
+   "cols": 2,
+   "items": [
+    {
+     "icon": "flame",
+     "title": "Heat and lift",
+     "text": "A heat gun or hair dryer softens the pressure-sensitive adhesive. A stiff putty knife under one corner lifts the plank in one piece most of the time, without disturbing its neighbors."
+    },
+    {
+     "icon": "mop",
+     "title": "Scrape the bed",
+     "text": "Old adhesive gets scraped flat. Any ridges left behind telegraph through the new plank as bumps, so this step takes longer than the lift."
+    },
+    {
+     "icon": "brush",
+     "title": "Re-glue",
+     "text": "New adhesive is spread thin with a small trowel, allowed to flash to tacky, then the plank is set, rolled and weighted. Foot traffic can resume in a few hours, but no rolling loads for 24."
+    },
+    {
+     "icon": "home",
+     "title": "Kirkland condos",
+     "text": "Glue-down is common in Totem Lake and downtown Kirkland condos because of sound rules. Repairs are quieter and quicker than a click floor, but the adhesive smell means opening a window for the afternoon."
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "When one plank turns into a new floor: price it in Kirkland"
+  },
+  {
+   "type": "calc",
+   "kind": "lvp",
+   "note": "If the damage is water related or spans more than a few planks, replacing the room is often cheaper than chasing repairs. Plank material is quoted separately."
+  },
+  {
+   "type": "h2",
+   "text": "Repair or replace: the honest thresholds"
+  },
+  {
+   "type": "compare",
+   "a": {
+    "icon": "done",
+    "tag": "Repair",
+    "title": "Fix the plank when",
+    "items": [
+     "One to five planks are damaged and you have matching stock",
+     "The rest of the floor is sound, flat and less than 10 years old",
+     "The damage is impact, a burn or a gouge, not water",
+     "The floor is glue-down, or the planks are near a wall"
+    ]
+   },
+   "b": {
+    "icon": "x",
+    "tag": "Replace",
+    "title": "Redo the room when",
+    "items": [
+     "The color is discontinued and no close match exists",
+     "Damage came from a leak, and the subfloor or core is swollen",
+     "The wear layer is under 12 mil and showing wear paths everywhere",
+     "You are already planning to sell; Kirkland buyers notice patched floors"
+    ]
+   }
+  },
+  {
+   "type": "h2",
+   "text": "What a repair costs versus a room"
+  },
+  {
+   "type": "table",
+   "head": [
+    "Situation",
+    "What it involves",
+    "What to budget"
+   ],
+   "rows": [
+    [
+     "One plank, click-lock, mid-floor",
+     "Cut-out and glue-in, about 90 minutes",
+     "A service call plus the plank. Most companies have a minimum visit charge; ask before booking."
+    ],
+    [
+     "One plank, glue-down",
+     "Heat, lift, scrape, re-glue",
+     "A service call, a plank and adhesive. Similar to the above."
+    ],
+    [
+     "Five planks after a dishwasher leak",
+     "Pull to the wall, check subfloor, dry it, replace planks",
+     "A half day. If the subfloor is wet, drying time pushes it to two visits."
+    ],
+    [
+     "Full room, 500 sq ft",
+     "Tear out old planks, install new",
+     "500 × $2.50 = $1,250 Wills labor, plus plank and any prep quoted at the estimate"
+    ],
+    [
+     "Whole main floor, 1,200 sq ft with 14 stairs",
+     "New floor throughout",
+     "1,200 × $2.50 + 14 × $100 = $4,400 Wills labor, plus material"
+    ]
+   ],
+   "note": "Wills Flooring publishes installation labor at $2.50 per sq ft with a 500 sq ft minimum and $100 per stair. Small repair visits are priced on request."
+  },
+  {
+   "type": "h2",
+   "text": "Make the next repair easy"
+  },
+  {
+   "type": "ul",
+   "items": [
+    "Keep at least one full box of leftover planks from the original install, stored flat in the house, not the garage. Kirkland garages swing 40 degrees between January and July and warp the planks.",
+    "Write the SKU, color name and lot number on the box lid. Retailers change names every few years.",
+    "Use felt pads under chairs and a hard-floor chair mat under anything with wheels.",
+    "If a plank is damaged near a wall, repair it sooner rather than later, before furniture and rugs make the unclick method impractical.",
+    "Ask your installer for the adhesive brand that was used on a glue-down floor so the repair matches."
+   ]
+  }
  ],
  "faq": [
-  {"q":"Can you replace just one vinyl plank without removing the whole floor?","a":"Yes. On a click-lock floor the damaged plank is cut out from the center, the neighbors stay locked, and a new plank with its locking edges trimmed is glued into the opening. On a glue-down floor the plank is heated, lifted and re-glued. Either way the surrounding floor is untouched."},
-  {"q":"What if my vinyl plank color has been discontinued?","a":"Check first with the original installer or retailer, since lots sometimes remain in warehouses. If nothing matches, we swap a good plank from a hidden spot (inside a closet or under the fridge) into the damaged area, then put the closest available match in the hidden spot where nobody will compare it."},
-  {"q":"Can deep scratches in vinyl plank be fixed without replacing the plank?","a":"Scratches that stay within the clear wear layer can be minimized with a vinyl floor polish or a color-matched repair marker, and they are cosmetic only. Once a scratch goes through the printed design layer and shows the core, no filler recreates the pattern, and replacing the plank is the only clean fix."},
-  {"q":"Will a glued-in replacement plank look different from the rest?","a":"If it is from the same lot, no. If it is a newer lot of the same SKU, there may be a slight shade difference, which is why we choose the least visible location for any mismatch. The trimmed edges are hidden under the neighboring planks and are not visible from above."},
-  {"q":"Is it cheaper to repair vinyl plank or replace the room in Kirkland?","a":"For one to five damaged planks with matching stock, a repair is always cheaper. Once damage is water related, spans a section of the room, or the color is unavailable, a new room at Wills Flooring's $2.50 per sq ft installation labor (500 sq ft minimum) plus material usually costs less than repeated repair visits."},
-  {"q":"Can I do the repair myself?","a":"A confident DIYer can replace a single click-lock plank with a utility knife, straightedge, adhesive and patience. The risks are cutting into a neighboring plank or trimming the new plank too much so it rocks. If the floor is under a manufacturer warranty, a professional repair keeps the paperwork clean."}
+  {
+   "q": "Can you replace just one vinyl plank without removing the whole floor?",
+   "a": "Yes. On a click-lock floor the damaged plank is cut out from the center, the neighbors stay locked, and a new plank with its locking edges trimmed is glued into the opening. On a glue-down floor the plank is heated, lifted and re-glued. Either way the surrounding floor is untouched."
+  },
+  {
+   "q": "What if my vinyl plank color has been discontinued?",
+   "a": "Check first with the original installer or retailer, since lots sometimes remain in warehouses. If nothing matches, we swap a good plank from a hidden spot (inside a closet or under the fridge) into the damaged area, then put the closest available match in the hidden spot where nobody will compare it."
+  },
+  {
+   "q": "Can deep scratches in vinyl plank be fixed without replacing the plank?",
+   "a": "Scratches that stay within the clear wear layer can be minimized with a vinyl floor polish or a color-matched repair marker, and they are cosmetic only. Once a scratch goes through the printed design layer and shows the core, no filler recreates the pattern, and replacing the plank is the only clean fix."
+  },
+  {
+   "q": "Will a glued-in replacement plank look different from the rest?",
+   "a": "If it is from the same lot, no. If it is a newer lot of the same SKU, there may be a slight shade difference, which is why we choose the least visible location for any mismatch. The trimmed edges are hidden under the neighboring planks and are not visible from above."
+  },
+  {
+   "q": "Is it cheaper to repair vinyl plank or replace the room in Kirkland?",
+   "a": "For one to five damaged planks with matching stock, a repair is always cheaper. Once damage is water related, spans a section of the room, or the color is unavailable, a new room at Wills Flooring's $2.50 per sq ft installation labor (500 sq ft minimum) plus material usually costs less than repeated repair visits."
+  },
+  {
+   "q": "Can I do the repair myself?",
+   "a": "A confident DIYer can replace a single click-lock plank with a utility knife, straightedge, adhesive and patience. The risks are cutting into a neighboring plank or trimming the new plank too much so it rocks. If the floor is under a manufacturer warranty, a professional repair keeps the paperwork clean."
+  }
  ],
  "faq_title": "Vinyl plank repair questions from Kirkland",
  "faq_sub": "From Houghton kitchens to Totem Lake condos.",
- "related": [["does-vinyl-plank-flooring-scratch-sammamish","does vinyl plank scratch"],["why-is-my-vinyl-plank-floor-buckling-or-gapping-sammamish","why vinyl plank buckles or gaps"],["click-lock-vs-glue-down-vinyl-plank-seattle","click-lock vs glue-down vinyl plank"]],
+ "related": [
+  [
+   "does-vinyl-plank-flooring-scratch-sammamish",
+   "does vinyl plank scratch"
+  ],
+  [
+   "why-is-my-vinyl-plank-floor-buckling-or-gapping-sammamish",
+   "why vinyl plank buckles or gaps"
+  ],
+  [
+   "click-lock-vs-glue-down-vinyl-plank-seattle",
+   "click-lock vs glue-down vinyl plank"
+  ]
+ ],
  "cta_title": "Not sure if it is a repair or a replacement?",
  "cta_sub": "Send us a photo or book a free visit. We will tell you honestly whether one plank fixes it, and quote the room if it does not. Kirkland is a short drive from our Lynnwood showroom."
 }

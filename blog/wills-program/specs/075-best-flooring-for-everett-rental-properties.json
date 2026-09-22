@@ -5,63 +5,293 @@
  "category": "lvp",
  "city": "Everett",
  "time": "8 mins",
- "date": "2026-11-30T15:00:00.000Z",
+ "date": "2026-12-06T15:00:00.000Z",
  "keywords": "best flooring for rental property, vinyl plank for rentals, landlord flooring Everett WA, LVP rental property, durable flooring for tenants",
- "offers": [["Vinyl plank flooring installation", "2.50", "per square foot"]],
+ "offers": [
+  [
+   "Vinyl plank flooring installation",
+   "2.50",
+   "per square foot"
+  ]
+ ],
  "blocks": [
-  {"type":"quick","eyebrow":"Short answer","lead":"For most Everett rentals the best flooring is a 20 mil wear layer, rigid-core vinyl plank in a mid-tone wood look, installed wall to wall including bathrooms and laundry.","detail":"It survives tenants, water and turnover without refinishing or replacement. Wills Flooring installs vinyl plank for $2.50 per sq ft labor with a 500 sq ft minimum, and the plank itself is quoted at the free estimate.",
-   "tiles":[{"icon":"dollar","label":"Installation labor","value":"$2.50 / sq ft"},{"icon":"shield","label":"Wear layer for rentals","value":"20 mil"},{"icon":"water","label":"Water","value":"Waterproof core"},{"icon":"stairs","label":"Stairs","value":"$100 per stair"}]},
-  {"type":"p","html":"Everett landlords ask us the same thing whether they own a Silver Lake duplex, a 1920s Riverside four-plex or a Port Gardner condo they rent to a Boeing engineer: what floor can I put in once and stop thinking about? Carpet gets replaced every second or third tenant. Laminate swells at the first dishwasher leak. Hardwood is lovely and then a tenant's dog and a rolling office chair take $4 per sq ft off it. Vinyl plank is the answer for a reason, but only the right vinyl plank. Here is how to choose it and what it costs to install."},
-  {"type":"h2","text":"Why vinyl plank wins in a rental"},
-  {"type":"cards","cols":2,"items":[
-    {"icon":"water","title":"Waterproof, not water-resistant","text":"A rigid SPC or WPC core does not swell. An overflowing tub, a pet accident that sits all weekend or a washer hose failure gets mopped up and the floor stays flat. That single trait is why carpet and laminate lose in rentals."},
-    {"icon":"refresh","title":"Zero refinishing, cheap repairs","text":"There is nothing to sand or recoat between tenants. A gouged plank in a click-lock floor can be swapped, and a floating floor comes up cleanly if you ever change your mind."},
-    {"icon":"sofa","title":"One floor everywhere","text":"Running the same plank through living areas, bedrooms, kitchen and bath means no transitions to trip on, no carpet to steam clean at turnover, and a unit that photographs clean for the next listing."},
-    {"icon":"dog","title":"Tenant-proof surface","text":"A 20 mil wear layer shrugs off dog nails, dragged furniture and cheap rolling chairs. It is the same spec used in light commercial spaces, which is roughly what a rental is."}
-  ]},
-  {"type":"h2","text":"How the options compare over ten years in a rental"},
-  {"type":"table","head":["Floor","Water","Tenant damage","Turnover work","Typical rental lifespan"],"rows":[
-    ["Vinyl plank, 20 mil rigid core","Waterproof","Scratch and dent resistant, planks replaceable","Mop and inspect","15–20 years"],
-    ["Carpet, mid-grade","Stains and holds odor","Wear paths, pet stains, burns","Steam clean or replace","5–7 years"],
-    ["Laminate","Swells at edges when wet","Scratch resistant, chips at corners","Replace damaged sections, hard to match","8–12 years"],
-    ["Hardwood, prefinished","Cups and stains","Dents, scratches, pet urine into the grain","Refinish at $3.99 per sq ft, tenants must vacate","20+ years but with refinish cycles"],
-    ["Sheet vinyl","Waterproof","Tears and gouges are permanent","Replace whole room","8–10 years"]
-  ],"note":"Lifespans are general industry expectations for rental use, not warranty terms. Wills Flooring prices apply only to the installation labor rows."},
-  {"type":"h2","text":"Price your Everett rental floor right now"},
-  {"type":"calc","kind":"lvp","note":"Labor only. Plank, underlayment and old-carpet removal are quoted at the free estimate. We bring rental-grade samples to the unit."},
-  {"type":"h2","text":"The spec sheet that matters for a rental"},
-  {"type":"list","icons":true,"items":[
-    {"icon":"shield","html":"<strong>20 mil wear layer, not 12.</strong> The wear layer is the clear top film that takes the abuse. Twelve mil is a homeowner spec. Twenty mil is what holds up to strangers who did not pay for the floor."},
-    {"icon":"layers","html":"<strong>Rigid SPC core.</strong> Stone-plastic composite is denser and more dent-resistant than WPC, and it bridges the small subfloor waves you find in older Everett buildings without telegraphing them."},
-    {"icon":"palette","html":"<strong>Mid-tone, low-variation color.</strong> A medium brown or greige with modest grain variation hides dust, hair and scuffs. Very dark shows dust; very light shows dirt; heavy variation makes replacement planks stand out."},
-    {"icon":"layers","html":"<strong>Attached pad.</strong> An attached underlayment quiets footfall in upstairs units and skips a separate underlayment step. Check the product's IIC rating if you rent condos with HOA sound rules."},
-    {"icon":"box","html":"<strong>Buy two extra boxes.</strong> Keep them in the unit's storage closet. When a tenant drops a cast-iron pan, you replace one plank instead of one room."}
-  ]},
-  {"type":"h2","text":"When vinyl plank is not the right call"},
-  {"type":"compare","a":{"icon":"done","tag":"Vinyl plank","title":"Choose it for","items":["Single-family and duplex rentals in Silver Lake, Eastmont and Pinehurst","Basement and ground-floor units on slab","Anything with a dog policy","Unit-wide flooring including kitchens and baths"]},
-    "b":{"icon":"x","tag":"Consider something else","title":"Think twice when","items":["A Riverside or Bayside craftsman still has sound original fir or oak. Refinishing it usually beats covering it.","A high-end Port Gardner condo where hardwood is the local buyer and renter expectation","Bedrooms in a family rental where tenants specifically want carpet underfoot","Sunroom-style spaces with all-day direct sun and no climate control"]}},
-  {"type":"h2","text":"What a real Everett unit costs to install"},
-  {"type":"steps","wide":true,"items":[
-    {"icon":"home","d":"Silver Lake duplex, one side · 940 sq ft","text":"Carpet and old vinyl removed, rigid-core plank through every room including the bath and laundry.","note":"940 × $2.50 = $2,350 labor, plus plank and removal quoted at the estimate"},
-    {"icon":"stairs","d":"Eastmont two-story · 1,150 sq ft + 13 stairs","text":"Whole house plus the staircase in matching plank with stair nosings.","note":"1,150 × $2.50 + 13 × $100 = $4,175 labor"},
-    {"icon":"home","d":"Port Gardner condo · 720 sq ft","text":"Plank with attached acoustic pad to meet the HOA sound requirement, installed between tenants in two days.","note":"720 × $2.50 = $1,800 labor"}
-  ]},
-  {"type":"callout","icon":"alert","title":"Turnover timing: ","text":"A 900 to 1,200 sq ft Everett unit takes our crew one to two days including tear-out. Book the install for the gap between move-out and move-in and the floor is ready to walk on the same day it is finished. The showroom is about 15 minutes down I-5 in Lynnwood, so samples come to you fast."},
-  {"type":"h2","text":"Landlord mistakes we see every month"},
-  {"type":"ul","items":["Buying the cheapest plank at a big-box store with a 6 or 8 mil wear layer. It looks fine for one tenant and then scratches white.","Skipping the bathroom and laundry to save money, then dealing with the one leak that ruins the adjoining hallway.","Choosing a trendy light gray that shows every footprint and dates the unit in three years.","Installing over old carpet pad or loose vinyl instead of paying for proper removal and a flat subfloor.","Not keeping spare planks, so a one-plank repair turns into a room that no longer matches."]},
-  {"type":"p","html":"If your building has a pet policy, read <a href=\"/blog-posts/best-vinyl-plank-for-rentals-with-pets-in-everett\">the best vinyl plank for rentals with pets</a>. For the full installation process see our <a href=\"/services/lvp-vinyl-flooring\">vinyl plank flooring</a> page."}
+  {
+   "type": "quick",
+   "eyebrow": "Short answer",
+   "lead": "For most Everett rentals the best flooring is a 20 mil wear layer, rigid-core vinyl plank in a mid-tone wood look, installed wall to wall including bathrooms and laundry.",
+   "detail": "It survives tenants, water and turnover without refinishing or replacement. Wills Flooring installs vinyl plank for $2.50 per sq ft labor with a 500 sq ft minimum, and the plank itself is quoted at the free estimate.",
+   "tiles": [
+    {
+     "icon": "dollar",
+     "label": "Installation labor",
+     "value": "$2.50 / sq ft"
+    },
+    {
+     "icon": "shield",
+     "label": "Wear layer for rentals",
+     "value": "20 mil"
+    },
+    {
+     "icon": "water",
+     "label": "Water",
+     "value": "Waterproof core"
+    },
+    {
+     "icon": "stairs",
+     "label": "Stairs",
+     "value": "$100 per stair"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "html": "Everett landlords ask us the same thing whether they own a Silver Lake duplex, a 1920s Riverside four-plex or a Port Gardner condo they rent to a Boeing engineer: what floor can I put in once and stop thinking about? Carpet gets replaced every second or third tenant. Laminate swells at the first dishwasher leak. Hardwood is lovely and then a tenant's dog and a rolling office chair take $4 per sq ft off it. Vinyl plank is the answer for a reason, but only the right vinyl plank. Here is how to choose it and what it costs to install."
+  },
+  {
+   "type": "h2",
+   "text": "Why vinyl plank wins in a rental"
+  },
+  {
+   "type": "cards",
+   "cols": 2,
+   "items": [
+    {
+     "icon": "water",
+     "title": "Waterproof, not water-resistant",
+     "text": "A rigid SPC or WPC core does not swell. An overflowing tub, a pet accident that sits all weekend or a washer hose failure gets mopped up and the floor stays flat. That single trait is why carpet and laminate lose in rentals."
+    },
+    {
+     "icon": "refresh",
+     "title": "Zero refinishing, cheap repairs",
+     "text": "There is nothing to sand or recoat between tenants. A gouged plank in a click-lock floor can be swapped, and a floating floor comes up cleanly if you ever change your mind."
+    },
+    {
+     "icon": "sofa",
+     "title": "One floor everywhere",
+     "text": "Running the same plank through living areas, bedrooms, kitchen and bath means no transitions to trip on, no carpet to steam clean at turnover, and a unit that photographs clean for the next listing."
+    },
+    {
+     "icon": "dog",
+     "title": "Tenant-proof surface",
+     "text": "A 20 mil wear layer shrugs off dog nails, dragged furniture and cheap rolling chairs. It is the same spec used in light commercial spaces, which is roughly what a rental is."
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "How the options compare over ten years in a rental"
+  },
+  {
+   "type": "table",
+   "head": [
+    "Floor",
+    "Water",
+    "Tenant damage",
+    "Turnover work",
+    "Typical rental lifespan"
+   ],
+   "rows": [
+    [
+     "Vinyl plank, 20 mil rigid core",
+     "Waterproof",
+     "Scratch and dent resistant, planks replaceable",
+     "Mop and inspect",
+     "15–20 years"
+    ],
+    [
+     "Carpet, mid-grade",
+     "Stains and holds odor",
+     "Wear paths, pet stains, burns",
+     "Steam clean or replace",
+     "5–7 years"
+    ],
+    [
+     "Laminate",
+     "Swells at edges when wet",
+     "Scratch resistant, chips at corners",
+     "Replace damaged sections, hard to match",
+     "8–12 years"
+    ],
+    [
+     "Hardwood, prefinished",
+     "Cups and stains",
+     "Dents, scratches, pet urine into the grain",
+     "Refinish at $3.99 per sq ft, tenants must vacate",
+     "20+ years but with refinish cycles"
+    ],
+    [
+     "Sheet vinyl",
+     "Waterproof",
+     "Tears and gouges are permanent",
+     "Replace whole room",
+     "8–10 years"
+    ]
+   ],
+   "note": "Lifespans are general industry expectations for rental use, not warranty terms. Wills Flooring prices apply only to the installation labor rows."
+  },
+  {
+   "type": "h2",
+   "text": "Price your Everett rental floor right now"
+  },
+  {
+   "type": "calc",
+   "kind": "lvp",
+   "note": "Labor only. Plank, underlayment and old-carpet removal are quoted at the free estimate. We bring rental-grade samples to the unit."
+  },
+  {
+   "type": "h2",
+   "text": "The spec sheet that matters for a rental"
+  },
+  {
+   "type": "list",
+   "icons": true,
+   "items": [
+    {
+     "icon": "shield",
+     "html": "<strong>20 mil wear layer, not 12.</strong> The wear layer is the clear top film that takes the abuse. Twelve mil is a homeowner spec. Twenty mil is what holds up to strangers who did not pay for the floor."
+    },
+    {
+     "icon": "layers",
+     "html": "<strong>Rigid SPC core.</strong> Stone-plastic composite is denser and more dent-resistant than WPC, and it bridges the small subfloor waves you find in older Everett buildings without telegraphing them."
+    },
+    {
+     "icon": "palette",
+     "html": "<strong>Mid-tone, low-variation color.</strong> A medium brown or greige with modest grain variation hides dust, hair and scuffs. Very dark shows dust; very light shows dirt; heavy variation makes replacement planks stand out."
+    },
+    {
+     "icon": "layers",
+     "html": "<strong>Attached pad.</strong> An attached underlayment quiets footfall in upstairs units and skips a separate underlayment step. Check the product's IIC rating if you rent condos with HOA sound rules."
+    },
+    {
+     "icon": "box",
+     "html": "<strong>Buy two extra boxes.</strong> Keep them in the unit's storage closet. When a tenant drops a cast-iron pan, you replace one plank instead of one room."
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "When vinyl plank is not the right call"
+  },
+  {
+   "type": "compare",
+   "a": {
+    "icon": "done",
+    "tag": "Vinyl plank",
+    "title": "Choose it for",
+    "items": [
+     "Single-family and duplex rentals in Silver Lake, Eastmont and Pinehurst",
+     "Basement and ground-floor units on slab",
+     "Anything with a dog policy",
+     "Unit-wide flooring including kitchens and baths"
+    ]
+   },
+   "b": {
+    "icon": "x",
+    "tag": "Consider something else",
+    "title": "Think twice when",
+    "items": [
+     "A Riverside or Bayside craftsman still has sound original fir or oak. Refinishing it usually beats covering it.",
+     "A high-end Port Gardner condo where hardwood is the local buyer and renter expectation",
+     "Bedrooms in a family rental where tenants specifically want carpet underfoot",
+     "Sunroom-style spaces with all-day direct sun and no climate control"
+    ]
+   }
+  },
+  {
+   "type": "h2",
+   "text": "What a real Everett unit costs to install"
+  },
+  {
+   "type": "steps",
+   "wide": true,
+   "items": [
+    {
+     "icon": "home",
+     "d": "Silver Lake duplex, one side · 940 sq ft",
+     "text": "Carpet and old vinyl removed, rigid-core plank through every room including the bath and laundry.",
+     "note": "940 × $2.50 = $2,350 labor, plus plank and removal quoted at the estimate"
+    },
+    {
+     "icon": "stairs",
+     "d": "Eastmont two-story · 1,150 sq ft + 13 stairs",
+     "text": "Whole house plus the staircase in matching plank with stair nosings.",
+     "note": "1,150 × $2.50 + 13 × $100 = $4,175 labor"
+    },
+    {
+     "icon": "home",
+     "d": "Port Gardner condo · 720 sq ft",
+     "text": "Plank with attached acoustic pad to meet the HOA sound requirement, installed between tenants in two days.",
+     "note": "720 × $2.50 = $1,800 labor"
+    }
+   ]
+  },
+  {
+   "type": "callout",
+   "icon": "alert",
+   "title": "Turnover timing: ",
+   "text": "A 900 to 1,200 sq ft Everett unit takes our crew one to two days including tear-out. Book the install for the gap between move-out and move-in and the floor is ready to walk on the same day it is finished. The showroom is about 15 minutes down I-5 in Lynnwood, so samples come to you fast."
+  },
+  {
+   "type": "h2",
+   "text": "Landlord mistakes we see every month"
+  },
+  {
+   "type": "ul",
+   "items": [
+    "Buying the cheapest plank at a big-box store with a 6 or 8 mil wear layer. It looks fine for one tenant and then scratches white.",
+    "Skipping the bathroom and laundry to save money, then dealing with the one leak that ruins the adjoining hallway.",
+    "Choosing a trendy light gray that shows every footprint and dates the unit in three years.",
+    "Installing over old carpet pad or loose vinyl instead of paying for proper removal and a flat subfloor.",
+    "Not keeping spare planks, so a one-plank repair turns into a room that no longer matches."
+   ]
+  },
+  {
+   "type": "p",
+   "html": "If your building has a pet policy, read <a href=\"/blog-posts/best-vinyl-plank-for-rentals-with-pets-in-everett\">the best vinyl plank for rentals with pets</a>. For the full installation process see our <a href=\"/services/lvp-vinyl-flooring\">vinyl plank flooring</a> page."
+  }
  ],
  "faq": [
-  {"q":"How much does it cost to install vinyl plank in an Everett rental?","a":"Wills Flooring installs vinyl plank for $2.50 per sq ft labor with a 500 sq ft minimum, and stairs are $100 per stair. A 900 sq ft unit is $2,250 in labor. The plank, underlayment and removal of old carpet are quoted separately at the free estimate."},
-  {"q":"What wear layer should a rental vinyl plank have?","a":"Twenty mil. A 12 mil wear layer is the typical homeowner spec and will show scratches under tenant use. Twenty mil is a light-commercial rating and is the difference between a floor that lasts one lease and one that lasts fifteen years."},
-  {"q":"Is vinyl plank better than carpet for rental bedrooms?","a":"For durability and turnover cost, yes. Carpet in a rental usually needs replacement every five to seven years and steam cleaning between tenants. Plank needs a mop. Some family renters do prefer carpet underfoot in bedrooms, so an area rug is a common compromise."},
-  {"q":"Can vinyl plank go in a basement unit on a concrete slab?","a":"Yes. Rigid-core plank is one of the few floors suited to slab basements, which are common in older Everett multi-family buildings. We test the slab for moisture first and use a vapor barrier if needed. Solid hardwood should not go there."},
-  {"q":"Will an HOA allow vinyl plank in an upstairs condo?","a":"Usually, if the product or underlayment meets the building's sound rating, often an IIC of 50 or higher. Plank with an attached acoustic pad typically qualifies. We check the HOA flooring rules for Port Gardner and similar buildings before recommending a product."},
-  {"q":"How long does installation take between tenants?","a":"One to two days for a typical 900 to 1,200 sq ft unit, including tear-out of old carpet. The floor can be walked on immediately, so you can schedule the install in the gap between move-out and move-in without losing a month of rent."}
+  {
+   "q": "How much does it cost to install vinyl plank in an Everett rental?",
+   "a": "Wills Flooring installs vinyl plank for $2.50 per sq ft labor with a 500 sq ft minimum, and stairs are $100 per stair. A 900 sq ft unit is $2,250 in labor. The plank, underlayment and removal of old carpet are quoted separately at the free estimate."
+  },
+  {
+   "q": "What wear layer should a rental vinyl plank have?",
+   "a": "Twenty mil. A 12 mil wear layer is the typical homeowner spec and will show scratches under tenant use. Twenty mil is a light-commercial rating and is the difference between a floor that lasts one lease and one that lasts fifteen years."
+  },
+  {
+   "q": "Is vinyl plank better than carpet for rental bedrooms?",
+   "a": "For durability and turnover cost, yes. Carpet in a rental usually needs replacement every five to seven years and steam cleaning between tenants. Plank needs a mop. Some family renters do prefer carpet underfoot in bedrooms, so an area rug is a common compromise."
+  },
+  {
+   "q": "Can vinyl plank go in a basement unit on a concrete slab?",
+   "a": "Yes. Rigid-core plank is one of the few floors suited to slab basements, which are common in older Everett multi-family buildings. We test the slab for moisture first and use a vapor barrier if needed. Solid hardwood should not go there."
+  },
+  {
+   "q": "Will an HOA allow vinyl plank in an upstairs condo?",
+   "a": "Usually, if the product or underlayment meets the building's sound rating, often an IIC of 50 or higher. Plank with an attached acoustic pad typically qualifies. We check the HOA flooring rules for Port Gardner and similar buildings before recommending a product."
+  },
+  {
+   "q": "How long does installation take between tenants?",
+   "a": "One to two days for a typical 900 to 1,200 sq ft unit, including tear-out of old carpet. The floor can be walked on immediately, so you can schedule the install in the gap between move-out and move-in without losing a month of rent."
+  }
  ],
  "faq_title": "Rental flooring questions from Everett landlords",
  "faq_sub": "From duplex owners, condo investors and property managers who call our Lynnwood showroom.",
- "related": [["best-vinyl-plank-for-rentals-with-pets-in-everett","vinyl plank for rentals with pets"],["is-hardwood-flooring-worth-it-in-everett-rental-properties","hardwood in Everett rentals"],["best-carpet-for-rental-properties-in-kirkland","carpet for rental properties"]],
+ "related": [
+  [
+   "best-vinyl-plank-for-rentals-with-pets-in-everett",
+   "vinyl plank for rentals with pets"
+  ],
+  [
+   "is-hardwood-flooring-worth-it-in-everett-rental-properties",
+   "hardwood in Everett rentals"
+  ],
+  [
+   "best-carpet-for-rental-properties-in-kirkland",
+   "carpet for rental properties"
+  ]
+ ],
  "cta_title": "Get a firm price for your Everett unit",
  "cta_sub": "We bring rental-grade plank samples to the property, measure every room and hand you a written quote on the spot. Free, and we can schedule around your turnover."
 }

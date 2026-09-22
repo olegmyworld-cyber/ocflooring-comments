@@ -5,9 +5,20 @@
  "category": "carpet",
  "city": "Everett",
  "time": "8 mins",
- "date": "2026-12-21T15:00:00.000Z",
+ "date": "2026-12-27T15:00:00.000Z",
  "keywords": "how to measure for carpet, carpet waste factor, carpet roll width 12 feet, how much carpet do I need for stairs, carpet square yards calculator, measuring a room for carpet with seams",
- "offers": [["Carpet installation, stretch-in","0.99","per square foot"],["Carpet installation, glue-down","1.29","per square foot"]],
+ "offers": [
+  [
+   "Carpet installation, stretch-in",
+   "0.99",
+   "per square foot"
+  ],
+  [
+   "Carpet installation, glue-down",
+   "1.29",
+   "per square foot"
+  ]
+ ],
  "blocks": [
   {
    "type": "quick",

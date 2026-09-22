@@ -5,64 +5,300 @@
  "category": "carpet",
  "city": "Snohomish",
  "time": "8 mins",
- "date": "2026-12-13T15:00:00.000Z",
+ "date": "2026-12-19T15:00:00.000Z",
  "keywords": "best carpet for high traffic areas, most durable carpet for hallways and stairs, nylon vs triexta carpet durability, carpet density for high traffic, carpet installation Snohomish WA",
- "offers": [["Carpet installation, stretch-in","0.99","per square foot"],["Carpet installation, glue-down","1.29","per square foot"]],
+ "offers": [
+  [
+   "Carpet installation, stretch-in",
+   "0.99",
+   "per square foot"
+  ],
+  [
+   "Carpet installation, glue-down",
+   "1.29",
+   "per square foot"
+  ]
+ ],
  "blocks": [
-  {"type":"quick","eyebrow":"Short answer","lead":"For hallways, stairs and family rooms, the best carpet is a dense, low-pile nylon (or a solution-dyed triexta if stains worry you more than crushing) in a mid-tone flecked or textured pattern, installed over a firm, dense pad.","detail":"Fiber decides whether the pile springs back, density decides whether it mats, color decides whether you see the dirt, and the pad decides how long all of that lasts. The tough stuff costs no more to install: Wills Flooring labor is $0.99 per sq ft stretch-in and $30 per step either way, so the carpet and pad you pick, quoted at the free estimate, is what moves the total.",
-   "tiles":[{"icon":"award","label":"Fiber","value":"Nylon or triexta"},{"icon":"layers","label":"Pile","value":"Low and dense"},{"icon":"palette","label":"Color","value":"Mid-tone, flecked"},{"icon":"dollar","label":"Install labor","value":"$0.99 / sq ft"}],"cta":"Try the calculator"},
-  {"type":"p","html":"High traffic in Snohomish is not the same as high traffic in a city condo. Out on Fobes Hill and along the Clearview corridor it means muddy boots straight from the barn, two dogs that shake off on the stairs, and a wood stove that puts fine ash in the air all winter. The hall from the mudroom to the kitchen takes more abuse in a year than a guest bedroom takes in twenty. This post is about choosing carpet for that hall, those stairs and the family room."},
-  {"type":"h2","text":"What heavy traffic actually does to carpet"},
-  {"type":"cards","cols":2,"items":[
-    {"icon":"layers","title":"Crushing and matting","text":"Pile fibers get bent flat and stop springing back. This is the most visible wear on stairs and in walk paths, and it is driven by fiber resilience and density, not by color or brand."},
-    {"icon":"mop","title":"Soiling","text":"Grit works down into the pile and abrades fibers from the inside, while oils from feet and paws bind dirt to the yarn. Snohomish mud and wood-stove ash are the culprits."},
-    {"icon":"sun","title":"Wear paths and fading","text":"A visible trail where traffic concentrates, worse in south-facing farmhouse rooms where sun fades the trail while the edges stay dark."},
-    {"icon":"scissors","title":"Fuzzing and seam wear","text":"Loose fibers pull out at seams and stair nosings. Loop piles snag on dog claws; cut piles shed. Good installation and a firm pad reduce both."}
-  ]},
-  {"type":"h2","text":"Fiber ranking for wear"},
-  {"type":"table","head":["Fiber","Resilience (crush recovery)","Stain resistance","Best use in a busy Snohomish house"],"rows":[
-    ["Nylon (type 6 and 6,6)","Excellent; springs back best of any synthetic","Good when treated; wine and pet accidents need quick cleanup","Stairs, hallways, family rooms: the benchmark for high traffic"],
-    ["Triexta (PTT)","Very good; slightly softer than nylon underfoot","Excellent and built into the fiber, not a topical treatment","Family rooms and kids' rooms with dogs, mud and spills"],
-    ["Polyester (PET)","Fair; mats in traffic lanes within a few years","Very good against water-based stains, poor against oily ones","Bedrooms and low-traffic guest rooms only"],
-    ["Olefin (polypropylene)","Poor in cut pile; acceptable in tight loop","Good against stains, poor against oils; can crush permanently","Basements, utility rooms and outdoor-adjacent areas in loop only"],
-    ["Wool","Very good natural resilience","Fair; absorbs liquids, needs prompt attention","Living rooms where you want the look and will maintain it"]
-  ],"note":"Fiber is the biggest single choice. A dense polyester still mats in a hallway that a mid-grade nylon shrugs off."},
-  {"type":"h2","text":"Reading the label: the numbers that predict wear"},
-  {"type":"list","icons":true,"items":[
-    {"icon":"grid","html":"<strong>Density.</strong> How tightly the tufts are packed. Push your fingers into the sample; if you can easily feel the backing, it is too loose for a hallway. High-traffic carpet should feel like a brush, not a lawn."},
-    {"icon":"refresh","html":"<strong>Twist level.</strong> Often 5 or more per inch on frieze and hard-wearing textures. Higher twist holds its shape longer and hides footprints."},
-    {"icon":"ruler","html":"<strong>Pile height.</strong> Lower is better for traffic. Aim for a pile under half an inch on stairs and halls. Tall, soft plush feels wonderful for a year and then shows every step."},
-    {"icon":"chart","html":"<strong>Face weight.</strong> Ounces of fiber per square yard, useful only alongside density. A heavy but loose carpet still mats."},
-    {"icon":"shield","html":"<strong>Performance rating.</strong> Many manufacturers print a traffic or performance rating on the back label. Choose the top tier for halls and stairs, and ask us to explain the scale at the estimate."}
-  ]},
-  {"type":"h2","text":"Price your Snohomish carpet job right now"},
-  {"type":"p","html":"Durable carpet costs no more to install than the soft stuff. Our labor is published: <strong>$0.99 per sq ft</strong> stretch-in over pad, <strong>$1.29 per sq ft</strong> glue-down on a slab, and <strong>$30 per step</strong>, with a 500 sq ft minimum. Tear-out of the old carpet and pad, haul-away included, adds $0.45 per sq ft; moving furniture adds $0.25. A Fobes Hill job covering 900 sq ft of hall, family room and two bedrooms plus 14 stairs is 900 × $0.99 + 14 × $30 = $1,311 in labor, plus $405 for tear-out, plus the carpet and pad, quoted at the free in-home estimate."},
-  {"type":"calc","kind":"carpet","note":"The nylon or triexta you choose for a busy hall costs more per yard than a builder polyester, but the labor above is the same for both."},
-  {"type":"h2","text":"Style: which pile hides the most"},
-  {"type":"compare","a":{"icon":"done","tag":"Textured cut pile or frieze","title":"Best all-rounder","items":["High-twist yarns hide footprints and vacuum marks","Multi-tone flecked colors camouflage tracked-in mud","Soft enough for a family room, tough enough for the hall","Dog claws do not snag it the way they snag loops"]},
-    "b":{"icon":"paw","tag":"Dense low loop (level or berber)","title":"Toughest, with caveats","items":["Very hard wearing and easy to vacuum clean","Shows less crushing than any cut pile","Loops can snag and run if a dog claw or a chair leg catches one","Best in a mudroom-adjacent hall, less so with big dogs"]}},
-  {"type":"callout","icon":"layers","gold":true,"title":"The pad does half the work: ","text":"Traffic areas need a firm, dense pad, thinner rather than thicker. A soft, thick pad feels luxurious for a month and then lets the carpet flex, which breaks down the backing and opens seams. Stairs especially want a dense pad; see <a href=\"/blog-posts/carpet-padding-explained-edmonds\">how carpet padding works</a>."},
-  {"type":"h2","text":"Mistakes that shorten carpet life in a Snohomish house"},
-  {"type":"ul","items":["Choosing a light, solid color for the hall because it matched the paint. It shows every paw print.","Buying the softest plush in the store for the stairs. Soft plush is the fastest carpet to mat on treads.","Skipping the entry mat. A walk-off mat inside every exterior door removes most of the grit before it reaches the carpet.","Ignoring the crawlspace. Damp Snohomish crawlspaces send moisture up through the subfloor, and musty carpet wears faster.","Waiting too long between professional cleanings. Hot-water extraction every 12 to 18 months keeps grit from cutting fibers."]},
-  {"type":"h2","text":"Room-by-room picks"},
-  {"type":"steps","wide":true,"items":[
-    {"icon":"stairs","d":"Stairs","text":"Dense, low-pile nylon in a textured cut pile or a tight loop, mid-tone with fleck, over a firm pad. Wrapped or capped at the nosing so the edge does not fray.","note":"The single hardest-working carpet in the house"},
-    {"icon":"home","d":"Hallway from the mudroom","text":"Same nylon or a solution-dyed triexta, in the darkest mid tone you can live with.","note":"Pair with a serious walk-off mat at the door"},
-    {"icon":"sofa","d":"Family room","text":"Triexta or nylon frieze in a flecked multi-tone. Soft enough to sit on, tough enough for dogs and a wood stove.","note":"Keep the stove hearth zone clear of carpet"},
-    {"icon":"moon","d":"Main bedroom and guest rooms","text":"Here softness can win. Polyester or a plush nylon is fine because traffic is light.","note":"Save the budget for the stairs and hall"}
-  ]}
+  {
+   "type": "quick",
+   "eyebrow": "Short answer",
+   "lead": "For hallways, stairs and family rooms, the best carpet is a dense, low-pile nylon (or a solution-dyed triexta if stains worry you more than crushing) in a mid-tone flecked or textured pattern, installed over a firm, dense pad.",
+   "detail": "Fiber decides whether the pile springs back, density decides whether it mats, color decides whether you see the dirt, and the pad decides how long all of that lasts. The tough stuff costs no more to install: Wills Flooring labor is $0.99 per sq ft stretch-in and $30 per step either way, so the carpet and pad you pick, quoted at the free estimate, is what moves the total.",
+   "tiles": [
+    {
+     "icon": "award",
+     "label": "Fiber",
+     "value": "Nylon or triexta"
+    },
+    {
+     "icon": "layers",
+     "label": "Pile",
+     "value": "Low and dense"
+    },
+    {
+     "icon": "palette",
+     "label": "Color",
+     "value": "Mid-tone, flecked"
+    },
+    {
+     "icon": "dollar",
+     "label": "Install labor",
+     "value": "$0.99 / sq ft"
+    }
+   ],
+   "cta": "Try the calculator"
+  },
+  {
+   "type": "p",
+   "html": "High traffic in Snohomish is not the same as high traffic in a city condo. Out on Fobes Hill and along the Clearview corridor it means muddy boots straight from the barn, two dogs that shake off on the stairs, and a wood stove that puts fine ash in the air all winter. The hall from the mudroom to the kitchen takes more abuse in a year than a guest bedroom takes in twenty. This post is about choosing carpet for that hall, those stairs and the family room."
+  },
+  {
+   "type": "h2",
+   "text": "What heavy traffic actually does to carpet"
+  },
+  {
+   "type": "cards",
+   "cols": 2,
+   "items": [
+    {
+     "icon": "layers",
+     "title": "Crushing and matting",
+     "text": "Pile fibers get bent flat and stop springing back. This is the most visible wear on stairs and in walk paths, and it is driven by fiber resilience and density, not by color or brand."
+    },
+    {
+     "icon": "mop",
+     "title": "Soiling",
+     "text": "Grit works down into the pile and abrades fibers from the inside, while oils from feet and paws bind dirt to the yarn. Snohomish mud and wood-stove ash are the culprits."
+    },
+    {
+     "icon": "sun",
+     "title": "Wear paths and fading",
+     "text": "A visible trail where traffic concentrates, worse in south-facing farmhouse rooms where sun fades the trail while the edges stay dark."
+    },
+    {
+     "icon": "scissors",
+     "title": "Fuzzing and seam wear",
+     "text": "Loose fibers pull out at seams and stair nosings. Loop piles snag on dog claws; cut piles shed. Good installation and a firm pad reduce both."
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "Fiber ranking for wear"
+  },
+  {
+   "type": "table",
+   "head": [
+    "Fiber",
+    "Resilience (crush recovery)",
+    "Stain resistance",
+    "Best use in a busy Snohomish house"
+   ],
+   "rows": [
+    [
+     "Nylon (type 6 and 6,6)",
+     "Excellent; springs back best of any synthetic",
+     "Good when treated; wine and pet accidents need quick cleanup",
+     "Stairs, hallways, family rooms: the benchmark for high traffic"
+    ],
+    [
+     "Triexta (PTT)",
+     "Very good; slightly softer than nylon underfoot",
+     "Excellent and built into the fiber, not a topical treatment",
+     "Family rooms and kids' rooms with dogs, mud and spills"
+    ],
+    [
+     "Polyester (PET)",
+     "Fair; mats in traffic lanes within a few years",
+     "Very good against water-based stains, poor against oily ones",
+     "Bedrooms and low-traffic guest rooms only"
+    ],
+    [
+     "Olefin (polypropylene)",
+     "Poor in cut pile; acceptable in tight loop",
+     "Good against stains, poor against oils; can crush permanently",
+     "Basements, utility rooms and outdoor-adjacent areas in loop only"
+    ],
+    [
+     "Wool",
+     "Very good natural resilience",
+     "Fair; absorbs liquids, needs prompt attention",
+     "Living rooms where you want the look and will maintain it"
+    ]
+   ],
+   "note": "Fiber is the biggest single choice. A dense polyester still mats in a hallway that a mid-grade nylon shrugs off."
+  },
+  {
+   "type": "h2",
+   "text": "Reading the label: the numbers that predict wear"
+  },
+  {
+   "type": "list",
+   "icons": true,
+   "items": [
+    {
+     "icon": "grid",
+     "html": "<strong>Density.</strong> How tightly the tufts are packed. Push your fingers into the sample; if you can easily feel the backing, it is too loose for a hallway. High-traffic carpet should feel like a brush, not a lawn."
+    },
+    {
+     "icon": "refresh",
+     "html": "<strong>Twist level.</strong> Often 5 or more per inch on frieze and hard-wearing textures. Higher twist holds its shape longer and hides footprints."
+    },
+    {
+     "icon": "ruler",
+     "html": "<strong>Pile height.</strong> Lower is better for traffic. Aim for a pile under half an inch on stairs and halls. Tall, soft plush feels wonderful for a year and then shows every step."
+    },
+    {
+     "icon": "chart",
+     "html": "<strong>Face weight.</strong> Ounces of fiber per square yard, useful only alongside density. A heavy but loose carpet still mats."
+    },
+    {
+     "icon": "shield",
+     "html": "<strong>Performance rating.</strong> Many manufacturers print a traffic or performance rating on the back label. Choose the top tier for halls and stairs, and ask us to explain the scale at the estimate."
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "Price your Snohomish carpet job right now"
+  },
+  {
+   "type": "p",
+   "html": "Durable carpet costs no more to install than the soft stuff. Our labor is published: <strong>$0.99 per sq ft</strong> stretch-in over pad, <strong>$1.29 per sq ft</strong> glue-down on a slab, and <strong>$30 per step</strong>, with a 500 sq ft minimum. Tear-out of the old carpet and pad, haul-away included, adds $0.45 per sq ft; moving furniture adds $0.25. A Fobes Hill job covering 900 sq ft of hall, family room and two bedrooms plus 14 stairs is 900 × $0.99 + 14 × $30 = $1,311 in labor, plus $405 for tear-out, plus the carpet and pad, quoted at the free in-home estimate."
+  },
+  {
+   "type": "calc",
+   "kind": "carpet",
+   "note": "The nylon or triexta you choose for a busy hall costs more per yard than a builder polyester, but the labor above is the same for both."
+  },
+  {
+   "type": "h2",
+   "text": "Style: which pile hides the most"
+  },
+  {
+   "type": "compare",
+   "a": {
+    "icon": "done",
+    "tag": "Textured cut pile or frieze",
+    "title": "Best all-rounder",
+    "items": [
+     "High-twist yarns hide footprints and vacuum marks",
+     "Multi-tone flecked colors camouflage tracked-in mud",
+     "Soft enough for a family room, tough enough for the hall",
+     "Dog claws do not snag it the way they snag loops"
+    ]
+   },
+   "b": {
+    "icon": "paw",
+    "tag": "Dense low loop (level or berber)",
+    "title": "Toughest, with caveats",
+    "items": [
+     "Very hard wearing and easy to vacuum clean",
+     "Shows less crushing than any cut pile",
+     "Loops can snag and run if a dog claw or a chair leg catches one",
+     "Best in a mudroom-adjacent hall, less so with big dogs"
+    ]
+   }
+  },
+  {
+   "type": "callout",
+   "icon": "layers",
+   "gold": true,
+   "title": "The pad does half the work: ",
+   "text": "Traffic areas need a firm, dense pad, thinner rather than thicker. A soft, thick pad feels luxurious for a month and then lets the carpet flex, which breaks down the backing and opens seams. Stairs especially want a dense pad; see <a href=\"/blog-posts/carpet-padding-explained-edmonds\">how carpet padding works</a>."
+  },
+  {
+   "type": "h2",
+   "text": "Mistakes that shorten carpet life in a Snohomish house"
+  },
+  {
+   "type": "ul",
+   "items": [
+    "Choosing a light, solid color for the hall because it matched the paint. It shows every paw print.",
+    "Buying the softest plush in the store for the stairs. Soft plush is the fastest carpet to mat on treads.",
+    "Skipping the entry mat. A walk-off mat inside every exterior door removes most of the grit before it reaches the carpet.",
+    "Ignoring the crawlspace. Damp Snohomish crawlspaces send moisture up through the subfloor, and musty carpet wears faster.",
+    "Waiting too long between professional cleanings. Hot-water extraction every 12 to 18 months keeps grit from cutting fibers."
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "Room-by-room picks"
+  },
+  {
+   "type": "steps",
+   "wide": true,
+   "items": [
+    {
+     "icon": "stairs",
+     "d": "Stairs",
+     "text": "Dense, low-pile nylon in a textured cut pile or a tight loop, mid-tone with fleck, over a firm pad. Wrapped or capped at the nosing so the edge does not fray.",
+     "note": "The single hardest-working carpet in the house"
+    },
+    {
+     "icon": "home",
+     "d": "Hallway from the mudroom",
+     "text": "Same nylon or a solution-dyed triexta, in the darkest mid tone you can live with.",
+     "note": "Pair with a serious walk-off mat at the door"
+    },
+    {
+     "icon": "sofa",
+     "d": "Family room",
+     "text": "Triexta or nylon frieze in a flecked multi-tone. Soft enough to sit on, tough enough for dogs and a wood stove.",
+     "note": "Keep the stove hearth zone clear of carpet"
+    },
+    {
+     "icon": "moon",
+     "d": "Main bedroom and guest rooms",
+     "text": "Here softness can win. Polyester or a plush nylon is fine because traffic is light.",
+     "note": "Save the budget for the stairs and hall"
+    }
+   ]
+  }
  ],
  "faq": [
-  {"q":"What is the most durable carpet fiber for high-traffic areas?","a":"Nylon. It has the best crush recovery of any carpet fiber, which is what keeps stairs and hallways from matting into visible paths. Triexta is a close second and has better built-in stain resistance, so it is often the better pick where dogs and kids are the main traffic. Polyester and olefin mat much sooner in walk paths."},
-  {"q":"Is berber or loop carpet good for high-traffic hallways?","a":"A dense, low loop wears extremely well and hides crushing better than cut pile, so it is a strong choice for halls and bonus rooms. The drawback is snagging: a dog claw or dragged chair leg can pull a loop and start a run. In homes with large dogs we usually steer toward a high-twist textured cut pile instead."},
-  {"q":"What color carpet is best for high-traffic areas?","a":"A mid tone with flecks or a subtle multi-color pattern. Very light carpet shows soil and very dark carpet shows lint, pet hair and wood-stove ash. Flecked mid tones in gray, taupe or mushroom hide tracked-in Snohomish mud between vacuumings and look good with both farmhouse and modern finishes."},
-  {"q":"Does carpet padding matter for high-traffic areas?","a":"Yes, as much as the carpet. Traffic areas need a firm, dense pad that is thinner rather than thicker. A soft, thick pad lets the carpet flex under every step, which breaks down the backing, stretches seams and speeds up matting. Stairs in particular need a dense pad so the carpet stays tight on the nosing."},
-  {"q":"How long should high-traffic carpet last?","a":"A dense nylon or triexta over a firm pad, vacuumed regularly and professionally cleaned every 12 to 18 months, should look good for 10 to 15 years in a busy Snohomish household. A soft polyester plush in the same hallway often shows matting within 3 to 5 years. Fiber, density and pad drive the difference more than price."},
-  {"q":"Does Wills Flooring help pick high-traffic carpet?","a":"Yes. Our mobile showroom brings nylon, triexta and loop samples rated for heavy traffic to your Snohomish home, so you see them in your own light. Labor is $0.99 per sq ft stretch-in, $1.29 glue-down and $30 per step; we measure the halls and stairs, price the carpet and pad you like, and leave a firm written quote."}
+  {
+   "q": "What is the most durable carpet fiber for high-traffic areas?",
+   "a": "Nylon. It has the best crush recovery of any carpet fiber, which is what keeps stairs and hallways from matting into visible paths. Triexta is a close second and has better built-in stain resistance, so it is often the better pick where dogs and kids are the main traffic. Polyester and olefin mat much sooner in walk paths."
+  },
+  {
+   "q": "Is berber or loop carpet good for high-traffic hallways?",
+   "a": "A dense, low loop wears extremely well and hides crushing better than cut pile, so it is a strong choice for halls and bonus rooms. The drawback is snagging: a dog claw or dragged chair leg can pull a loop and start a run. In homes with large dogs we usually steer toward a high-twist textured cut pile instead."
+  },
+  {
+   "q": "What color carpet is best for high-traffic areas?",
+   "a": "A mid tone with flecks or a subtle multi-color pattern. Very light carpet shows soil and very dark carpet shows lint, pet hair and wood-stove ash. Flecked mid tones in gray, taupe or mushroom hide tracked-in Snohomish mud between vacuumings and look good with both farmhouse and modern finishes."
+  },
+  {
+   "q": "Does carpet padding matter for high-traffic areas?",
+   "a": "Yes, as much as the carpet. Traffic areas need a firm, dense pad that is thinner rather than thicker. A soft, thick pad lets the carpet flex under every step, which breaks down the backing, stretches seams and speeds up matting. Stairs in particular need a dense pad so the carpet stays tight on the nosing."
+  },
+  {
+   "q": "How long should high-traffic carpet last?",
+   "a": "A dense nylon or triexta over a firm pad, vacuumed regularly and professionally cleaned every 12 to 18 months, should look good for 10 to 15 years in a busy Snohomish household. A soft polyester plush in the same hallway often shows matting within 3 to 5 years. Fiber, density and pad drive the difference more than price."
+  },
+  {
+   "q": "Does Wills Flooring help pick high-traffic carpet?",
+   "a": "Yes. Our mobile showroom brings nylon, triexta and loop samples rated for heavy traffic to your Snohomish home, so you see them in your own light. Labor is $0.99 per sq ft stretch-in, $1.29 glue-down and $30 per step; we measure the halls and stairs, price the carpet and pad you like, and leave a firm written quote."
+  }
  ],
  "faq_title": "High-traffic carpet questions from Snohomish",
  "faq_sub": "From farmhouses on acreage to townhomes near downtown.",
- "related": [["what-is-the-best-carpet-for-pets-everett","the best carpet for pets"],["what-is-the-best-carpet-for-stairs-lynnwood","the best carpet for stairs"],["nylon-vs-polyester-vs-triexta-vs-wool-carpet-sammamish","nylon vs polyester vs triexta vs wool"]],
+ "related": [
+  [
+   "what-is-the-best-carpet-for-pets-everett",
+   "the best carpet for pets"
+  ],
+  [
+   "what-is-the-best-carpet-for-stairs-lynnwood",
+   "the best carpet for stairs"
+  ],
+  [
+   "nylon-vs-polyester-vs-triexta-vs-wool-carpet-sammamish",
+   "nylon vs polyester vs triexta vs wool"
+  ]
+ ],
  "cta_title": "See high-traffic samples in your own hallway",
  "cta_sub": "We bring the tough stuff to your Snohomish door, explain the labels, measure the stairs and halls, and leave you with a firm written price. Free, no obligation."
 }

@@ -5,62 +5,277 @@
  "category": "lvp",
  "city": "Sammamish",
  "time": "9 mins",
- "date": "2026-12-16T15:00:00.000Z",
+ "date": "2026-12-22T15:00:00.000Z",
  "keywords": "what to look for in vinyl plank flooring, vinyl plank wear layer mil, SPC vs WPC which is better, how to choose luxury vinyl plank, vinyl plank flooring Sammamish",
- "offers": [["Vinyl plank flooring installation", "2.50", "per square foot"]],
+ "offers": [
+  [
+   "Vinyl plank flooring installation",
+   "2.50",
+   "per square foot"
+  ]
+ ],
  "blocks": [
-  {"type":"quick","eyebrow":"Short answer","lead":"Judge vinyl plank by five specs, in this order: wear layer (20 mil or more for a busy Sammamish house), core type (SPC for stability, WPC for comfort), total thickness (5 mm or more), the locking system, and the actual warranty terms. Then, and only then, the look.","detail":"Brand names matter less than what is printed on the spec sheet, because most brands sell several tiers under one label. Wills Flooring installs any plank you choose for $2.50 per sq ft of labor, so the money you save on the right spec goes into the plank, not the install.",
-   "tiles":[{"icon":"shield","label":"Wear layer","value":"20 mil or more"},{"icon":"layers","label":"Core","value":"SPC or WPC"},{"icon":"ruler2","label":"Thickness","value":"5–8 mm"},{"icon":"dollar","label":"Install labor","value":"$2.50 / sq ft"}]},
-  {"type":"p","html":"A common Reddit thread asks which vinyl plank brand is best, and the replies contradict each other because the same brand makes a 6 mil builder plank and a 28 mil commercial plank. Sammamish homes are hard on floors: open-plan main floors in Trossachs and Pine Lake where the kitchen, dining and family room are one 900 sq ft surface, two big dogs, a mudroom full of soccer cleats, and south-facing windows that bake the floor all summer. The plank that survives that is defined by its spec sheet. Here is how to read one."},
-  {"type":"h2","text":"Wear layer: the one number that predicts lifespan"},
-  {"type":"table","head":["Wear layer","Where it belongs","What happens in a busy Sammamish home"],"rows":[
-    ["6 mil","Nowhere you care about","Scratches through at the kitchen sink within two or three years; common in flips and rentals"],
-    ["12 mil","Guest bedrooms, closets, light-use rooms","Fine where shoes come off; shows dog-claw scratches in a hallway"],
-    ["20 mil","Main floors, kitchens, mudrooms, kids and dogs","The residential sweet spot. Handles claws, chairs and grit for 15 to 20 years with normal care"],
-    ["28 to 40 mil","Commercial spaces, rentals with heavy turnover","Overkill for most homes, but a reasonable upgrade for a mudroom or a home gym"]
-  ],"note":"Mil is thousandths of an inch, not millimeters. 20 mil is about 0.5 mm of clear protective layer over the printed design."},
-  {"type":"h2","text":"Core: what the plank is made of underneath"},
-  {"type":"cards","cols":2,"items":[
-    {"icon":"layers","title":"SPC (stone plastic composite)","text":"Limestone-filled rigid core. Densest, most dimensionally stable and most dent resistant. The right choice for sunny rooms, big open floors, kitchens and anywhere heavy furniture sits. Slightly firmer and cooler underfoot. This is what we recommend for most Sammamish main floors.","gold":true},
-    {"icon":"sofa","title":"WPC (wood plastic composite)","text":"Foamed rigid core. Thicker, warmer, quieter and more forgiving of small subfloor bumps. Dents more easily under a piano leg or a dropped can, and expands more in heat. Good for bedrooms, bonus rooms and basements where comfort matters more than stability."},
-    {"icon":"droplet","title":"Flexible LVP (no rigid core)","text":"Thin solid vinyl, usually glued down. Excellent in bathrooms and small rooms, and the most repairable. Telegraphs every subfloor imperfection, so it needs a flat surface and is rarely the right pick for a floating install over an old floor."},
-    {"icon":"alert","title":"Watch for","text":"Rigid core planks sold as SPC but under 4 mm total thickness, and WPC with no published density. Ask for the spec sheet, not the brochure."}
-  ]},
-  {"type":"h2","text":"Price your Sammamish installation"},
-  {"type":"calc","kind":"lvp","note":"Installation labor only. The plank you choose, underlayment and any subfloor prep are quoted at the free in-home estimate."},
-  {"type":"h2","text":"Locking system, bevel and plank size"},
-  {"type":"list","icons":true,"items":[
-    {"icon":"lock","html":"<strong>Locking system.</strong> Angle-angle and drop-lock joints are both fine when the core is rigid. The test is whether two planks click together firmly by hand and stay flat. Joints that need a mallet on every row hint at poor tolerances that will gap later."},
-    {"icon":"ruler","html":"<strong>Total thickness.</strong> 5 to 8 mm including any attached pad. Thicker is more forgiving over an imperfect subfloor and feels more solid, but thickness alone says nothing about wear. A thick 12 mil plank is still a 12 mil plank."},
-    {"icon":"layers","html":"<strong>Attached pad.</strong> Convenient and quieter. Check that the plank maker allows an extra underlayment if you want one, because many void the warranty when you double up."},
-    {"icon":"frame","html":"<strong>Bevel and texture.</strong> A micro-bevel and embossed-in-register texture (grain you can feel that follows the print) make a floor look like wood in a bright Sammamish great room. Painted bevels wear white at the edges; skip those."},
-    {"icon":"grid","html":"<strong>Plank size and repeat.</strong> 7 in wide by 48 in or longer suits large open plans. Ask how many unique boards are in a box; fewer than 10 patterns means you will spot repeats across 900 sq ft."}
-  ]},
-  {"type":"h2","text":"Reading the warranty like a contractor"},
-  {"type":"compare","a":{"icon":"done","tag":"Strong warranty","title":"Signs the maker stands behind the plank","items":["Residential wear warranty of 20 years or more, with the wear layer stated","Pet warranty that covers scratches and accidents, not just stains","Waterproof warranty that includes topical spills and standing water for a stated time","Clear installation requirements you can actually meet"]},
-    "b":{"icon":"x","tag":"Weak warranty","title":"Red flags","items":["Lifetime warranty with no wear layer listed anywhere","Scratches, indentation and gloss loss all excluded","Coverage void if any underlayment is used, or if installed over any existing floor","Waterproof claim limited to the plank, not the floor or the subfloor"]}},
-  {"type":"callout","icon":"water","gold":true,"title":"Waterproof means the plank, not the floor: ","text":"Every rigid core plank is waterproof in the sense that the plank itself will not swell. Water still runs through the seams to the subfloor. In a Sammamish house with a wet mudroom or a leaking dishwasher, that is the difference between wiping up and pulling planks."},
-  {"type":"h2","text":"Specs that sound important but are not"},
-  {"type":"ul","items":["The brand name. Every major manufacturer sells 6 mil and 20 mil planks under the same logo; the tier matters, not the logo.","\"Commercial grade\" without a number. If the wear layer is not printed, the phrase means nothing.","Total thickness by itself. A 9 mm WPC with a 12 mil wear layer will scratch before a 5 mm SPC with 20 mil.","Shine or sheen. Low-gloss finishes hide scratches better and look more like wood; high gloss is a showroom trick.","Price per box in isolation. A plank that lasts 20 years at $2.50 per sq ft of labor is cheaper than one replaced twice; see <a href=\"/blog-posts/cheap-vs-premium-vinyl-plank-seattle\">cheap vs premium vinyl plank</a>."]},
-  {"type":"h2","text":"The checklist to bring to the estimate"},
-  {"type":"steps","wide":true,"items":[
-    {"icon":"shield","d":"Wear layer","text":"20 mil minimum for main floors, kitchens, mudrooms and anywhere dogs run. 12 mil is acceptable in bedrooms only."},
-    {"icon":"layers","d":"Core","text":"SPC for the open main floor and sunny rooms; WPC where you want warmth and quiet and the furniture is light."},
-    {"icon":"lock","d":"Joint and format","text":"Firm hand-click, 7 in by 48 in or larger for open plans, 10 or more unique prints per box."},
-    {"icon":"clipboard","d":"Warranty","text":"Wear layer stated in writing, pets covered, waterproof terms that mention spills, and installation rules you can meet.","note":"Example: 900 sq ft main floor + 14 stairs = 900 × $2.50 + 14 × $100 = $3,650 Wills labor, plus the plank you chose"}
-  ]}
+  {
+   "type": "quick",
+   "eyebrow": "Short answer",
+   "lead": "Judge vinyl plank by five specs, in this order: wear layer (20 mil or more for a busy Sammamish house), core type (SPC for stability, WPC for comfort), total thickness (5 mm or more), the locking system, and the actual warranty terms. Then, and only then, the look.",
+   "detail": "Brand names matter less than what is printed on the spec sheet, because most brands sell several tiers under one label. Wills Flooring installs any plank you choose for $2.50 per sq ft of labor, so the money you save on the right spec goes into the plank, not the install.",
+   "tiles": [
+    {
+     "icon": "shield",
+     "label": "Wear layer",
+     "value": "20 mil or more"
+    },
+    {
+     "icon": "layers",
+     "label": "Core",
+     "value": "SPC or WPC"
+    },
+    {
+     "icon": "ruler2",
+     "label": "Thickness",
+     "value": "5–8 mm"
+    },
+    {
+     "icon": "dollar",
+     "label": "Install labor",
+     "value": "$2.50 / sq ft"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "html": "A common Reddit thread asks which vinyl plank brand is best, and the replies contradict each other because the same brand makes a 6 mil builder plank and a 28 mil commercial plank. Sammamish homes are hard on floors: open-plan main floors in Trossachs and Pine Lake where the kitchen, dining and family room are one 900 sq ft surface, two big dogs, a mudroom full of soccer cleats, and south-facing windows that bake the floor all summer. The plank that survives that is defined by its spec sheet. Here is how to read one."
+  },
+  {
+   "type": "h2",
+   "text": "Wear layer: the one number that predicts lifespan"
+  },
+  {
+   "type": "table",
+   "head": [
+    "Wear layer",
+    "Where it belongs",
+    "What happens in a busy Sammamish home"
+   ],
+   "rows": [
+    [
+     "6 mil",
+     "Nowhere you care about",
+     "Scratches through at the kitchen sink within two or three years; common in flips and rentals"
+    ],
+    [
+     "12 mil",
+     "Guest bedrooms, closets, light-use rooms",
+     "Fine where shoes come off; shows dog-claw scratches in a hallway"
+    ],
+    [
+     "20 mil",
+     "Main floors, kitchens, mudrooms, kids and dogs",
+     "The residential sweet spot. Handles claws, chairs and grit for 15 to 20 years with normal care"
+    ],
+    [
+     "28 to 40 mil",
+     "Commercial spaces, rentals with heavy turnover",
+     "Overkill for most homes, but a reasonable upgrade for a mudroom or a home gym"
+    ]
+   ],
+   "note": "Mil is thousandths of an inch, not millimeters. 20 mil is about 0.5 mm of clear protective layer over the printed design."
+  },
+  {
+   "type": "h2",
+   "text": "Core: what the plank is made of underneath"
+  },
+  {
+   "type": "cards",
+   "cols": 2,
+   "items": [
+    {
+     "icon": "layers",
+     "title": "SPC (stone plastic composite)",
+     "text": "Limestone-filled rigid core. Densest, most dimensionally stable and most dent resistant. The right choice for sunny rooms, big open floors, kitchens and anywhere heavy furniture sits. Slightly firmer and cooler underfoot. This is what we recommend for most Sammamish main floors.",
+     "gold": true
+    },
+    {
+     "icon": "sofa",
+     "title": "WPC (wood plastic composite)",
+     "text": "Foamed rigid core. Thicker, warmer, quieter and more forgiving of small subfloor bumps. Dents more easily under a piano leg or a dropped can, and expands more in heat. Good for bedrooms, bonus rooms and basements where comfort matters more than stability."
+    },
+    {
+     "icon": "droplet",
+     "title": "Flexible LVP (no rigid core)",
+     "text": "Thin solid vinyl, usually glued down. Excellent in bathrooms and small rooms, and the most repairable. Telegraphs every subfloor imperfection, so it needs a flat surface and is rarely the right pick for a floating install over an old floor."
+    },
+    {
+     "icon": "alert",
+     "title": "Watch for",
+     "text": "Rigid core planks sold as SPC but under 4 mm total thickness, and WPC with no published density. Ask for the spec sheet, not the brochure."
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "Price your Sammamish installation"
+  },
+  {
+   "type": "calc",
+   "kind": "lvp",
+   "note": "Installation labor only. The plank you choose, underlayment and any subfloor prep are quoted at the free in-home estimate."
+  },
+  {
+   "type": "h2",
+   "text": "Locking system, bevel and plank size"
+  },
+  {
+   "type": "list",
+   "icons": true,
+   "items": [
+    {
+     "icon": "lock",
+     "html": "<strong>Locking system.</strong> Angle-angle and drop-lock joints are both fine when the core is rigid. The test is whether two planks click together firmly by hand and stay flat. Joints that need a mallet on every row hint at poor tolerances that will gap later."
+    },
+    {
+     "icon": "ruler",
+     "html": "<strong>Total thickness.</strong> 5 to 8 mm including any attached pad. Thicker is more forgiving over an imperfect subfloor and feels more solid, but thickness alone says nothing about wear. A thick 12 mil plank is still a 12 mil plank."
+    },
+    {
+     "icon": "layers",
+     "html": "<strong>Attached pad.</strong> Convenient and quieter. Check that the plank maker allows an extra underlayment if you want one, because many void the warranty when you double up."
+    },
+    {
+     "icon": "frame",
+     "html": "<strong>Bevel and texture.</strong> A micro-bevel and embossed-in-register texture (grain you can feel that follows the print) make a floor look like wood in a bright Sammamish great room. Painted bevels wear white at the edges; skip those."
+    },
+    {
+     "icon": "grid",
+     "html": "<strong>Plank size and repeat.</strong> 7 in wide by 48 in or longer suits large open plans. Ask how many unique boards are in a box; fewer than 10 patterns means you will spot repeats across 900 sq ft."
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "Reading the warranty like a contractor"
+  },
+  {
+   "type": "compare",
+   "a": {
+    "icon": "done",
+    "tag": "Strong warranty",
+    "title": "Signs the maker stands behind the plank",
+    "items": [
+     "Residential wear warranty of 20 years or more, with the wear layer stated",
+     "Pet warranty that covers scratches and accidents, not just stains",
+     "Waterproof warranty that includes topical spills and standing water for a stated time",
+     "Clear installation requirements you can actually meet"
+    ]
+   },
+   "b": {
+    "icon": "x",
+    "tag": "Weak warranty",
+    "title": "Red flags",
+    "items": [
+     "Lifetime warranty with no wear layer listed anywhere",
+     "Scratches, indentation and gloss loss all excluded",
+     "Coverage void if any underlayment is used, or if installed over any existing floor",
+     "Waterproof claim limited to the plank, not the floor or the subfloor"
+    ]
+   }
+  },
+  {
+   "type": "callout",
+   "icon": "water",
+   "gold": true,
+   "title": "Waterproof means the plank, not the floor: ",
+   "text": "Every rigid core plank is waterproof in the sense that the plank itself will not swell. Water still runs through the seams to the subfloor. In a Sammamish house with a wet mudroom or a leaking dishwasher, that is the difference between wiping up and pulling planks."
+  },
+  {
+   "type": "h2",
+   "text": "Specs that sound important but are not"
+  },
+  {
+   "type": "ul",
+   "items": [
+    "The brand name. Every major manufacturer sells 6 mil and 20 mil planks under the same logo; the tier matters, not the logo.",
+    "\"Commercial grade\" without a number. If the wear layer is not printed, the phrase means nothing.",
+    "Total thickness by itself. A 9 mm WPC with a 12 mil wear layer will scratch before a 5 mm SPC with 20 mil.",
+    "Shine or sheen. Low-gloss finishes hide scratches better and look more like wood; high gloss is a showroom trick.",
+    "Price per box in isolation. A plank that lasts 20 years at $2.50 per sq ft of labor is cheaper than one replaced twice; see <a href=\"/blog-posts/cheap-vs-premium-vinyl-plank-seattle\">cheap vs premium vinyl plank</a>."
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "The checklist to bring to the estimate"
+  },
+  {
+   "type": "steps",
+   "wide": true,
+   "items": [
+    {
+     "icon": "shield",
+     "d": "Wear layer",
+     "text": "20 mil minimum for main floors, kitchens, mudrooms and anywhere dogs run. 12 mil is acceptable in bedrooms only."
+    },
+    {
+     "icon": "layers",
+     "d": "Core",
+     "text": "SPC for the open main floor and sunny rooms; WPC where you want warmth and quiet and the furniture is light."
+    },
+    {
+     "icon": "lock",
+     "d": "Joint and format",
+     "text": "Firm hand-click, 7 in by 48 in or larger for open plans, 10 or more unique prints per box."
+    },
+    {
+     "icon": "clipboard",
+     "d": "Warranty",
+     "text": "Wear layer stated in writing, pets covered, waterproof terms that mention spills, and installation rules you can meet.",
+     "note": "Example: 900 sq ft main floor + 14 stairs = 900 × $2.50 + 14 × $100 = $3,650 Wills labor, plus the plank you chose"
+    }
+   ]
+  }
  ],
  "faq": [
-  {"q":"What wear layer should vinyl plank flooring have?","a":"20 mil for main floors, kitchens, mudrooms and any room with dogs or kids; that is the residential sweet spot and typically lasts 15 to 20 years. 12 mil is acceptable in bedrooms and closets. 6 mil is builder or rental grade and scratches through in a few years. 28 mil and up is commercial and rarely necessary at home."},
-  {"q":"Is SPC or WPC vinyl plank better?","a":"SPC is denser, more dent resistant and more stable in heat, so it is better for open main floors, kitchens and sunny rooms. WPC is thicker, warmer and quieter but dents more easily and expands more. For a typical Sammamish main floor we recommend SPC; WPC is a good fit for bedrooms, bonus rooms and basements."},
-  {"q":"Does the brand of vinyl plank matter?","a":"Far less than the spec sheet. Most major brands sell several tiers, from 6 mil builder planks to 20 and 28 mil premium lines, under the same name. Two planks from different brands with the same wear layer, core and thickness will perform about the same. Compare the printed specs and the warranty terms, not the logo."},
-  {"q":"How thick should vinyl plank flooring be?","a":"5 to 8 mm total, including any attached pad, is the normal range for rigid core planks. Thicker feels more solid and hides small subfloor bumps, but thickness does not predict scratch resistance; the wear layer does. A 5 mm SPC with a 20 mil wear layer will outlast a 9 mm WPC with 12 mil."},
-  {"q":"What does a vinyl plank warranty actually cover?","a":"A strong residential warranty states the wear layer, covers wear-through for 20 or more years, includes pet scratches and accidents, and defines waterproof terms including spills. Weak ones exclude scratches, indentation and gloss loss, void coverage if any underlayment is used, and prorate heavily. Read the exclusions page before the cover page."},
-  {"q":"How much does vinyl plank installation cost in Sammamish?","a":"Wills Flooring's published installation labor is $2.50 per sq ft with a 500 sq ft minimum, plus $100 per stair. A 900 sq ft main floor with 14 stairs is $3,650 in labor. The plank, underlayment, old-floor removal and subfloor prep are quoted at the free in-home estimate after we measure and you pick from the samples."}
+  {
+   "q": "What wear layer should vinyl plank flooring have?",
+   "a": "20 mil for main floors, kitchens, mudrooms and any room with dogs or kids; that is the residential sweet spot and typically lasts 15 to 20 years. 12 mil is acceptable in bedrooms and closets. 6 mil is builder or rental grade and scratches through in a few years. 28 mil and up is commercial and rarely necessary at home."
+  },
+  {
+   "q": "Is SPC or WPC vinyl plank better?",
+   "a": "SPC is denser, more dent resistant and more stable in heat, so it is better for open main floors, kitchens and sunny rooms. WPC is thicker, warmer and quieter but dents more easily and expands more. For a typical Sammamish main floor we recommend SPC; WPC is a good fit for bedrooms, bonus rooms and basements."
+  },
+  {
+   "q": "Does the brand of vinyl plank matter?",
+   "a": "Far less than the spec sheet. Most major brands sell several tiers, from 6 mil builder planks to 20 and 28 mil premium lines, under the same name. Two planks from different brands with the same wear layer, core and thickness will perform about the same. Compare the printed specs and the warranty terms, not the logo."
+  },
+  {
+   "q": "How thick should vinyl plank flooring be?",
+   "a": "5 to 8 mm total, including any attached pad, is the normal range for rigid core planks. Thicker feels more solid and hides small subfloor bumps, but thickness does not predict scratch resistance; the wear layer does. A 5 mm SPC with a 20 mil wear layer will outlast a 9 mm WPC with 12 mil."
+  },
+  {
+   "q": "What does a vinyl plank warranty actually cover?",
+   "a": "A strong residential warranty states the wear layer, covers wear-through for 20 or more years, includes pet scratches and accidents, and defines waterproof terms including spills. Weak ones exclude scratches, indentation and gloss loss, void coverage if any underlayment is used, and prorate heavily. Read the exclusions page before the cover page."
+  },
+  {
+   "q": "How much does vinyl plank installation cost in Sammamish?",
+   "a": "Wills Flooring's published installation labor is $2.50 per sq ft with a 500 sq ft minimum, plus $100 per stair. A 900 sq ft main floor with 14 stairs is $3,650 in labor. The plank, underlayment, old-floor removal and subfloor prep are quoted at the free in-home estimate after we measure and you pick from the samples."
+  }
  ],
  "faq_title": "Vinyl plank spec questions from the Sammamish plateau",
  "faq_sub": "From open-plan main floors in Trossachs to bonus rooms in Klahanie.",
- "related": [["how-thick-should-vinyl-plank-flooring-be-kirkland","how thick vinyl plank should be"],["spc-vs-wpc-vinyl-plank-lynnwood","SPC vs WPC vinyl plank"],["cheap-vs-premium-vinyl-plank-seattle","cheap vs premium vinyl plank"]],
+ "related": [
+  [
+   "how-thick-should-vinyl-plank-flooring-be-kirkland",
+   "how thick vinyl plank should be"
+  ],
+  [
+   "spc-vs-wpc-vinyl-plank-lynnwood",
+   "SPC vs WPC vinyl plank"
+  ],
+  [
+   "cheap-vs-premium-vinyl-plank-seattle",
+   "cheap vs premium vinyl plank"
+  ]
+ ],
  "cta_title": "See 20 mil SPC on your own floor",
  "cta_sub": "Our mobile showroom brings spec-checked samples to your Sammamish home. We measure, check the subfloor and hand you a firm written quote for labor and plank on the spot. Free, no obligation."
 }

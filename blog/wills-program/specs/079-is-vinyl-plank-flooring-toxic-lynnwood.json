@@ -5,65 +5,294 @@
  "category": "lvp",
  "city": "Lynnwood",
  "time": "8 mins",
- "date": "2026-12-04T15:00:00.000Z",
+ "date": "2026-12-10T15:00:00.000Z",
  "keywords": "is vinyl plank flooring toxic, vinyl plank VOCs, phthalate free vinyl flooring, FloorScore certified flooring, is LVP safe for babies",
- "offers": [["Vinyl plank flooring installation", "2.50", "per square foot"]],
+ "offers": [
+  [
+   "Vinyl plank flooring installation",
+   "2.50",
+   "per square foot"
+  ]
+ ],
  "blocks": [
-  {"type":"quick","eyebrow":"Short answer","lead":"Vinyl plank sold by established manufacturers in the US today is low-VOC and phthalate-free, and independently certified products are safe for nurseries and bedrooms; the risk sits in uncertified imports, old pre-2015 vinyl and the adhesive used on glue-down jobs.","detail":"Look for FloorScore or GreenGuard Gold on the box and a phthalate-free statement from the manufacturer. Wills Flooring installs vinyl plank for $2.50 per sq ft labor and brings certified samples to your home.",
-   "tiles":[{"icon":"award","label":"Look for","value":"FloorScore"},{"icon":"leaf","label":"Or","value":"GreenGuard Gold"},{"icon":"x","label":"Avoid","value":"Uncertified imports"},{"icon":"dollar","label":"Install labor","value":"$2.50 / sq ft"}]},
-  {"type":"p","html":"Lynnwood is full of young families in new townhomes near the light rail and in the 1970s split-levels around Martha Lake and Alderwood, and a lot of them are putting vinyl plank in a nursery or a playroom. So the question comes up every week at the 196th St showroom: is this stuff safe to have a baby crawl on? The honest answer is that it depends on the box, and it is easy to check. Here is what is in a vinyl plank, which chemicals people worry about, what the certifications mean and where the exposure actually comes from."},
-  {"type":"h2","text":"What a vinyl plank is made of"},
-  {"type":"cards","cols":2,"items":[
-    {"icon":"shield","title":"Wear layer","text":"A clear polyurethane coating, often with ceramic bead or aluminum oxide additives. This is the surface you touch. It is inert once cured and is the same chemistry used on prefinished hardwood."},
-    {"icon":"palette","title":"Print film","text":"A thin printed layer that gives the wood or stone look. Inks are sealed under the wear layer and are not an exposure source in a finished plank."},
-    {"icon":"layers","title":"Core","text":"PVC plus plasticizers, and in rigid-core plank, limestone powder (SPC) or wood-plastic composite (WPC). The plasticizer is where phthalates used to live. Most brands moved to non-phthalate plasticizers around 2015."},
-    {"icon":"volume","title":"Attached pad","text":"Foam, cork or a recycled rubber layer. Some pads have their own VOC emissions, which is why a certification should cover the whole plank including the pad."}
-  ]},
-  {"type":"h2","text":"The certifications and what each one actually tests"},
-  {"type":"table","head":["Label","Who runs it","What it certifies","How much to trust it"],"rows":[
-    ["FloorScore","SCS Global Services, based on California's CDPH emissions standard","VOC emissions from the finished flooring product, tested in a chamber, meets indoor air limits","The flooring-industry standard. Widely used, third-party verified."],
-    ["GreenGuard Gold","UL Solutions","Stricter VOC emission limits designed for schools and healthcare, covering over 360 chemicals","The stricter of the two. Common on premium lines."],
-    ["Phthalate-free","Manufacturer claim","The plasticizer is not an ortho-phthalate","Not third-party unless backed by a listed test. Most major brands are; check the spec sheet."],
-    ["CARB Phase 2 / TSCA Title VI","California and US EPA","Formaldehyde from composite wood","Applies to laminate and engineered hardwood cores, not vinyl. A vinyl plank claiming it is mostly marketing."],
-    ["Declare or HPD","International Living Future Institute, HPD Collaborative","Full ingredient disclosure","Rare on consumer flooring, but the strongest transparency if you find it."]
-  ],"note":"Certifications apply to specific product lines, not brands. Ask for the certificate for the exact plank you are buying."},
-  {"type":"h2","text":"Price your Lynnwood vinyl plank installation"},
-  {"type":"calc","kind":"lvp","note":"Labor only. The plank is quoted at the free estimate, and we bring FloorScore-certified options to your door."},
-  {"type":"h2","text":"Where the real exposure comes from"},
-  {"type":"list","icons":true,"items":[
-    {"icon":"droplet","html":"<strong>Adhesive on glue-down installs.</strong> Flooring glue can emit more VOCs than the plank itself. If you choose glue-down, specify a low-VOC adhesive. Click-lock floating floors use no glue at all, which is one reason they dominate residential work."},
-    {"icon":"clock","html":"<strong>The first few days.</strong> Whatever a certified plank emits, most of it happens in the first 72 hours after unboxing. Acclimating the boxes in a garage and ventilating the room after install covers it."},
-    {"icon":"calendar","html":"<strong>Old vinyl, not new vinyl.</strong> Sheet vinyl and vinyl tile from before roughly 2010 to 2015 can contain ortho-phthalates, and older 9x9 tiles may contain asbestos. Tearing those out carelessly is a bigger exposure than any new plank. We handle removal properly."},
-    {"icon":"tag","html":"<strong>Bargain imports with no paperwork.</strong> Plank sold with no certification and no manufacturer spec sheet is a gamble. The price difference to a certified product is usually under a dollar per square foot."},
-    {"icon":"thermo","html":"<strong>Heat.</strong> Emissions rise with temperature. Plank in a south-facing sunroom or over radiant heat set too high will off-gas more than the same plank in a north bedroom. Keep radiant floors within the manufacturer's limit."}
-  ]},
-  {"type":"h2","text":"How vinyl plank compares to the alternatives"},
-  {"type":"compare","a":{"icon":"done","tag":"Certified vinyl plank","title":"Where it stands","items":["Low emissions once certified; comparable to prefinished hardwood","No formaldehyde-based glue, unlike laminate and some engineered cores","Waterproof, so no mold under it after a spill, which is its own air-quality win","Downside: it is plastic, and end-of-life recycling is limited"]},
-    "b":{"icon":"leaf","tag":"If you want zero plastic","title":"Other honest options","items":["Site-finished hardwood with water-based finish: the finish is the only emission source and it cures in days","Prefinished hardwood: check for FloorScore as well; the coating chemistry is similar","Wool carpet with a natural pad: low emissions but not waterproof","Laminate: needs CARB Phase 2 or TSCA Title VI for its wood core"]}},
-  {"type":"callout","icon":"baby","title":"For nurseries and playrooms: ","text":"Choose a FloorScore or GreenGuard Gold click-lock plank, install it floating with no adhesive, air the room out for three days with a window cracked and a fan running, and you are done. That is the setup we recommend to Lynnwood parents, and it is what we would put in our own kids' rooms."},
-  {"type":"h2","text":"A five-step check before you buy"},
-  {"type":"steps","wide":true,"items":[
-    {"icon":"search","d":"1. Find the certification","text":"On the box, on the spec sheet or on the certifier's public database. FloorScore and UL both publish searchable lists."},
-    {"icon":"clipboard","d":"2. Confirm phthalate-free","text":"Look for the statement on the manufacturer's technical data sheet, not just a retail tag."},
-    {"icon":"layers","d":"3. Check the pad","text":"If the plank has an attached pad, make sure the certification covers the whole product, pad included."},
-    {"icon":"hammer","d":"4. Pick the install method","text":"Floating click-lock avoids adhesive entirely. If glue-down is needed on a slab, specify a low-VOC adhesive in writing."},
-    {"icon":"wind","d":"5. Plan the first week","text":"Acclimate boxes outside the living space if possible. After installation, ventilate for two to three days before a baby sleeps in the room."}
-  ]},
-  {"type":"h2","text":"Questions to ask the seller"},
-  {"type":"ul","items":["Which certification does this exact product line carry, and can I see the certificate?","Is the plasticizer phthalate-free, and is that on the technical data sheet?","Does the certification include the attached pad?","If glued, which adhesive, and what is its VOC content?","How old is this stock? Certified products change formulations; a current spec sheet should match the box."]},
-  {"type":"p","html":"If you are comparing budget and premium lines, our post on <a href=\"/blog-posts/cheap-vs-premium-vinyl-plank-seattle\">cheap vs premium vinyl plank</a> covers where the extra dollar goes. For install details see our <a href=\"/services/lvp-vinyl-flooring\">vinyl plank flooring</a> page."}
+  {
+   "type": "quick",
+   "eyebrow": "Short answer",
+   "lead": "Vinyl plank sold by established manufacturers in the US today is low-VOC and phthalate-free, and independently certified products are safe for nurseries and bedrooms; the risk sits in uncertified imports, old pre-2015 vinyl and the adhesive used on glue-down jobs.",
+   "detail": "Look for FloorScore or GreenGuard Gold on the box and a phthalate-free statement from the manufacturer. Wills Flooring installs vinyl plank for $2.50 per sq ft labor and brings certified samples to your home.",
+   "tiles": [
+    {
+     "icon": "award",
+     "label": "Look for",
+     "value": "FloorScore"
+    },
+    {
+     "icon": "leaf",
+     "label": "Or",
+     "value": "GreenGuard Gold"
+    },
+    {
+     "icon": "x",
+     "label": "Avoid",
+     "value": "Uncertified imports"
+    },
+    {
+     "icon": "dollar",
+     "label": "Install labor",
+     "value": "$2.50 / sq ft"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "html": "Lynnwood is full of young families in new townhomes near the light rail and in the 1970s split-levels around Martha Lake and Alderwood, and a lot of them are putting vinyl plank in a nursery or a playroom. So the question comes up every week at the 196th St showroom: is this stuff safe to have a baby crawl on? The honest answer is that it depends on the box, and it is easy to check. Here is what is in a vinyl plank, which chemicals people worry about, what the certifications mean and where the exposure actually comes from."
+  },
+  {
+   "type": "h2",
+   "text": "What a vinyl plank is made of"
+  },
+  {
+   "type": "cards",
+   "cols": 2,
+   "items": [
+    {
+     "icon": "shield",
+     "title": "Wear layer",
+     "text": "A clear polyurethane coating, often with ceramic bead or aluminum oxide additives. This is the surface you touch. It is inert once cured and is the same chemistry used on prefinished hardwood."
+    },
+    {
+     "icon": "palette",
+     "title": "Print film",
+     "text": "A thin printed layer that gives the wood or stone look. Inks are sealed under the wear layer and are not an exposure source in a finished plank."
+    },
+    {
+     "icon": "layers",
+     "title": "Core",
+     "text": "PVC plus plasticizers, and in rigid-core plank, limestone powder (SPC) or wood-plastic composite (WPC). The plasticizer is where phthalates used to live. Most brands moved to non-phthalate plasticizers around 2015."
+    },
+    {
+     "icon": "volume",
+     "title": "Attached pad",
+     "text": "Foam, cork or a recycled rubber layer. Some pads have their own VOC emissions, which is why a certification should cover the whole plank including the pad."
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "The certifications and what each one actually tests"
+  },
+  {
+   "type": "table",
+   "head": [
+    "Label",
+    "Who runs it",
+    "What it certifies",
+    "How much to trust it"
+   ],
+   "rows": [
+    [
+     "FloorScore",
+     "SCS Global Services, based on California's CDPH emissions standard",
+     "VOC emissions from the finished flooring product, tested in a chamber, meets indoor air limits",
+     "The flooring-industry standard. Widely used, third-party verified."
+    ],
+    [
+     "GreenGuard Gold",
+     "UL Solutions",
+     "Stricter VOC emission limits designed for schools and healthcare, covering over 360 chemicals",
+     "The stricter of the two. Common on premium lines."
+    ],
+    [
+     "Phthalate-free",
+     "Manufacturer claim",
+     "The plasticizer is not an ortho-phthalate",
+     "Not third-party unless backed by a listed test. Most major brands are; check the spec sheet."
+    ],
+    [
+     "CARB Phase 2 / TSCA Title VI",
+     "California and US EPA",
+     "Formaldehyde from composite wood",
+     "Applies to laminate and engineered hardwood cores, not vinyl. A vinyl plank claiming it is mostly marketing."
+    ],
+    [
+     "Declare or HPD",
+     "International Living Future Institute, HPD Collaborative",
+     "Full ingredient disclosure",
+     "Rare on consumer flooring, but the strongest transparency if you find it."
+    ]
+   ],
+   "note": "Certifications apply to specific product lines, not brands. Ask for the certificate for the exact plank you are buying."
+  },
+  {
+   "type": "h2",
+   "text": "Price your Lynnwood vinyl plank installation"
+  },
+  {
+   "type": "calc",
+   "kind": "lvp",
+   "note": "Labor only. The plank is quoted at the free estimate, and we bring FloorScore-certified options to your door."
+  },
+  {
+   "type": "h2",
+   "text": "Where the real exposure comes from"
+  },
+  {
+   "type": "list",
+   "icons": true,
+   "items": [
+    {
+     "icon": "droplet",
+     "html": "<strong>Adhesive on glue-down installs.</strong> Flooring glue can emit more VOCs than the plank itself. If you choose glue-down, specify a low-VOC adhesive. Click-lock floating floors use no glue at all, which is one reason they dominate residential work."
+    },
+    {
+     "icon": "clock",
+     "html": "<strong>The first few days.</strong> Whatever a certified plank emits, most of it happens in the first 72 hours after unboxing. Acclimating the boxes in a garage and ventilating the room after install covers it."
+    },
+    {
+     "icon": "calendar",
+     "html": "<strong>Old vinyl, not new vinyl.</strong> Sheet vinyl and vinyl tile from before roughly 2010 to 2015 can contain ortho-phthalates, and older 9x9 tiles may contain asbestos. Tearing those out carelessly is a bigger exposure than any new plank. We handle removal properly."
+    },
+    {
+     "icon": "tag",
+     "html": "<strong>Bargain imports with no paperwork.</strong> Plank sold with no certification and no manufacturer spec sheet is a gamble. The price difference to a certified product is usually under a dollar per square foot."
+    },
+    {
+     "icon": "thermo",
+     "html": "<strong>Heat.</strong> Emissions rise with temperature. Plank in a south-facing sunroom or over radiant heat set too high will off-gas more than the same plank in a north bedroom. Keep radiant floors within the manufacturer's limit."
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "How vinyl plank compares to the alternatives"
+  },
+  {
+   "type": "compare",
+   "a": {
+    "icon": "done",
+    "tag": "Certified vinyl plank",
+    "title": "Where it stands",
+    "items": [
+     "Low emissions once certified; comparable to prefinished hardwood",
+     "No formaldehyde-based glue, unlike laminate and some engineered cores",
+     "Waterproof, so no mold under it after a spill, which is its own air-quality win",
+     "Downside: it is plastic, and end-of-life recycling is limited"
+    ]
+   },
+   "b": {
+    "icon": "leaf",
+    "tag": "If you want zero plastic",
+    "title": "Other honest options",
+    "items": [
+     "Site-finished hardwood with water-based finish: the finish is the only emission source and it cures in days",
+     "Prefinished hardwood: check for FloorScore as well; the coating chemistry is similar",
+     "Wool carpet with a natural pad: low emissions but not waterproof",
+     "Laminate: needs CARB Phase 2 or TSCA Title VI for its wood core"
+    ]
+   }
+  },
+  {
+   "type": "callout",
+   "icon": "baby",
+   "title": "For nurseries and playrooms: ",
+   "text": "Choose a FloorScore or GreenGuard Gold click-lock plank, install it floating with no adhesive, air the room out for three days with a window cracked and a fan running, and you are done. That is the setup we recommend to Lynnwood parents, and it is what we would put in our own kids' rooms."
+  },
+  {
+   "type": "h2",
+   "text": "A five-step check before you buy"
+  },
+  {
+   "type": "steps",
+   "wide": true,
+   "items": [
+    {
+     "icon": "search",
+     "d": "1. Find the certification",
+     "text": "On the box, on the spec sheet or on the certifier's public database. FloorScore and UL both publish searchable lists."
+    },
+    {
+     "icon": "clipboard",
+     "d": "2. Confirm phthalate-free",
+     "text": "Look for the statement on the manufacturer's technical data sheet, not just a retail tag."
+    },
+    {
+     "icon": "layers",
+     "d": "3. Check the pad",
+     "text": "If the plank has an attached pad, make sure the certification covers the whole product, pad included."
+    },
+    {
+     "icon": "hammer",
+     "d": "4. Pick the install method",
+     "text": "Floating click-lock avoids adhesive entirely. If glue-down is needed on a slab, specify a low-VOC adhesive in writing."
+    },
+    {
+     "icon": "wind",
+     "d": "5. Plan the first week",
+     "text": "Acclimate boxes outside the living space if possible. After installation, ventilate for two to three days before a baby sleeps in the room."
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "Questions to ask the seller"
+  },
+  {
+   "type": "ul",
+   "items": [
+    "Which certification does this exact product line carry, and can I see the certificate?",
+    "Is the plasticizer phthalate-free, and is that on the technical data sheet?",
+    "Does the certification include the attached pad?",
+    "If glued, which adhesive, and what is its VOC content?",
+    "How old is this stock? Certified products change formulations; a current spec sheet should match the box."
+   ]
+  },
+  {
+   "type": "p",
+   "html": "If you are comparing budget and premium lines, our post on <a href=\"/blog-posts/cheap-vs-premium-vinyl-plank-seattle\">cheap vs premium vinyl plank</a> covers where the extra dollar goes. For install details see our <a href=\"/services/lvp-vinyl-flooring\">vinyl plank flooring</a> page."
+  }
  ],
  "faq": [
-  {"q":"Is vinyl plank flooring safe for babies and toddlers?","a":"Certified vinyl plank is. Choose a FloorScore or GreenGuard Gold product that is phthalate-free, install it floating without adhesive, and ventilate the room for a few days. Emissions after that window are very low. Uncertified plank with no spec sheet is the version to avoid in a nursery."},
-  {"q":"Does vinyl plank flooring off-gas?","a":"All manufactured flooring emits something at first, including hardwood finishes. Certified vinyl plank emits very little, and most of it happens in the first 72 hours after unboxing. Airing the room out after installation handles it. Glue-down adhesive is usually a larger source than the plank."},
-  {"q":"Are phthalates still used in vinyl plank?","a":"Most major manufacturers switched to non-phthalate plasticizers around 2015 and say so on their technical data sheets. Some low-cost imports have not. Look for a phthalate-free statement on the spec sheet, not just a shelf tag, and be careful with older sheet vinyl you are removing."},
-  {"q":"What does FloorScore certified mean?","a":"FloorScore is a third-party certification run by SCS Global Services. The finished flooring product is tested in a chamber for VOC emissions against California's indoor air standard. It is the most common flooring air-quality label and covers the plank, and when specified, the attached pad."},
-  {"q":"Is vinyl plank worse than laminate for indoor air?","a":"Not usually. Laminate has a wood-fiber core bonded with resins that can release formaldehyde, which is why it needs CARB Phase 2 or TSCA Title VI compliance. Certified vinyl plank has no formaldehyde-based core. Both are fine when certified; neither is fine when it is an unknown import."},
-  {"q":"How much does vinyl plank installation cost in Lynnwood?","a":"Wills Flooring installs vinyl plank for $2.50 per sq ft labor with a 500 sq ft minimum, and stairs are $100 each. A 700 sq ft upstairs with two bedrooms and a hall is $1,750 in labor. The certified plank and any underlayment are quoted at the free estimate."}
+  {
+   "q": "Is vinyl plank flooring safe for babies and toddlers?",
+   "a": "Certified vinyl plank is. Choose a FloorScore or GreenGuard Gold product that is phthalate-free, install it floating without adhesive, and ventilate the room for a few days. Emissions after that window are very low. Uncertified plank with no spec sheet is the version to avoid in a nursery."
+  },
+  {
+   "q": "Does vinyl plank flooring off-gas?",
+   "a": "All manufactured flooring emits something at first, including hardwood finishes. Certified vinyl plank emits very little, and most of it happens in the first 72 hours after unboxing. Airing the room out after installation handles it. Glue-down adhesive is usually a larger source than the plank."
+  },
+  {
+   "q": "Are phthalates still used in vinyl plank?",
+   "a": "Most major manufacturers switched to non-phthalate plasticizers around 2015 and say so on their technical data sheets. Some low-cost imports have not. Look for a phthalate-free statement on the spec sheet, not just a shelf tag, and be careful with older sheet vinyl you are removing."
+  },
+  {
+   "q": "What does FloorScore certified mean?",
+   "a": "FloorScore is a third-party certification run by SCS Global Services. The finished flooring product is tested in a chamber for VOC emissions against California's indoor air standard. It is the most common flooring air-quality label and covers the plank, and when specified, the attached pad."
+  },
+  {
+   "q": "Is vinyl plank worse than laminate for indoor air?",
+   "a": "Not usually. Laminate has a wood-fiber core bonded with resins that can release formaldehyde, which is why it needs CARB Phase 2 or TSCA Title VI compliance. Certified vinyl plank has no formaldehyde-based core. Both are fine when certified; neither is fine when it is an unknown import."
+  },
+  {
+   "q": "How much does vinyl plank installation cost in Lynnwood?",
+   "a": "Wills Flooring installs vinyl plank for $2.50 per sq ft labor with a 500 sq ft minimum, and stairs are $100 each. A 700 sq ft upstairs with two bedrooms and a hall is $1,750 in labor. The certified plank and any underlayment are quoted at the free estimate."
+  }
  ],
  "faq_title": "Vinyl plank safety questions from Lynnwood parents",
  "faq_sub": "Asked every week at our 196th St SW showroom.",
- "related": [["cheap-vs-premium-vinyl-plank-seattle","cheap vs premium vinyl plank"],["what-to-look-for-in-vinyl-plank-flooring-sammamish","what to look for in vinyl plank"],["low-voc-carpet-sammamish","low-VOC carpet"]],
+ "related": [
+  [
+   "cheap-vs-premium-vinyl-plank-seattle",
+   "cheap vs premium vinyl plank"
+  ],
+  [
+   "what-to-look-for-in-vinyl-plank-flooring-sammamish",
+   "what to look for in vinyl plank"
+  ],
+  [
+   "low-voc-carpet-sammamish",
+   "low-VOC carpet"
+  ]
+ ],
  "cta_title": "See certified plank in your own living room",
  "cta_sub": "We bring FloorScore-certified samples to your Lynnwood home, measure and hand you a firm written price on the spot. Free, no obligation."
 }

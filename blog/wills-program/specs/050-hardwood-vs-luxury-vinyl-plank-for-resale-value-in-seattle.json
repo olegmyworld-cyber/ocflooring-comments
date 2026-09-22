@@ -5,66 +5,292 @@
  "category": "hardwood",
  "city": "Seattle",
  "time": "8 mins",
- "date": "2026-11-05T15:00:00.000Z",
+ "date": "2026-11-11T15:00:00.000Z",
  "keywords": "hardwood vs vinyl plank resale value, does LVP hurt resale value, hardwood or LVP Seattle, luxury vinyl plank home value, hardwood flooring installation Seattle",
- "offers": [["Hardwood floor installation, engineered or solid", "3.25", "per square foot"], ["Unfinished hardwood installation", "2.75", "per square foot"]],
+ "offers": [
+  [
+   "Hardwood floor installation, engineered or solid",
+   "3.25",
+   "per square foot"
+  ],
+  [
+   "Unfinished hardwood installation",
+   "2.75",
+   "per square foot"
+  ]
+ ],
  "blocks": [
-  {"type":"quick","eyebrow":"Short answer","lead":"In Seattle single-family homes, hardwood wins on resale, especially in 1900s to 1950s neighborhoods like Ballard, Wallingford and Queen Anne where buyers expect real wood and appraisers and agents call it out by name. Luxury vinyl plank is the smarter resale choice in condos with sound rules, basements, rentals, and any house where the budget cannot stretch to hardwood done right.","detail":"Wills Flooring installs hardwood for $3.25 per sq ft and vinyl plank for $2.50 per sq ft, labor only, 500 sq ft minimum. The labor gap is small; the material gap and the buyer's reaction are where the decision gets made.",
-   "tiles":[{"icon":"tree","label":"Hardwood install","value":"$3.25 / sq ft"},{"icon":"layers","label":"Vinyl plank install","value":"$2.50 / sq ft"},{"icon":"stairs","label":"Hardwood stairs","value":"$125 each"},{"icon":"stairs","label":"LVP stairs","value":"$100 each"}]},
-  {"type":"p","html":"A common Reddit thread asks whether putting LVP in a Seattle house \"kills resale.\" It does not kill anything, but the market here is unusual. Seattle has one of the highest concentrations of original hardwood floors on the West Coast, buyers grew up touring Craftsman bungalows with fir and oak, and listing copy leans hard on the phrase \"hardwoods throughout.\" That shapes how each floor is valued. Here is how we advise sellers and long-term owners, house type by house type."},
-  {"type":"h2","text":"How Seattle buyers read each floor"},
-  {"type":"cards","cols":2,"items":[
-    {"icon":"home","title":"Pre-1960 houses: hardwood is the baseline","text":"In Ballard, Wallingford, Green Lake, Magnolia and West Seattle, buyers assume there is wood in the house. LVP over original fir reads as covering something up. Refinishing what is there or installing new hardwood keeps the house in its expected category."},
-    {"icon":"frame","title":"Condos and townhomes: LVP is normal","text":"Capitol Hill and Belltown condo buyers expect vinyl plank or engineered wood, and HOAs often require a sound-rated floor. A quality LVP with a documented acoustic rating is a selling point, not a compromise, and it survives a rental history."},
-    {"icon":"basement","title":"Basements: LVP wins outright","text":"Basements and daylight lower levels here see slab moisture and the occasional wet winter. Buyers and inspectors both prefer a waterproof floor down there. Hardwood in a basement raises questions; vinyl plank answers them."},
-    {"icon":"chart","title":"Appraisals and listing language","text":"Appraisers note flooring type as a quality adjustment, and agents lead with hardwood when they have it. LVP gets described as \"luxury vinyl\" or \"waterproof flooring.\" Neither word carries the same weight in a local listing as \"refinished original hardwoods.\""}
-  ]},
-  {"type":"h2","text":"Head to head on what affects value"},
-  {"type":"table","head":["Factor","Hardwood","Luxury vinyl plank"],"rows":[
-    ["Wills install labor","$3.25 per sq ft, $125 per stair","$2.50 per sq ft, $100 per stair"],
-    ["Material","Quoted separately; higher per sq ft, wide range by species and wear layer","Quoted separately; lower, narrower range"],
-    ["Useful life","50 to 100 years with refinishing; engineered 30 plus","15 to 25 years, then replaced"],
-    ["Can it be renewed?","Yes: recoat or refinish at $1.99 to $3.99 per sq ft","No: damaged planks replaced, whole floor eventually replaced"],
-    ["Water and pets","Vulnerable to standing water; scratches can be sanded out","Waterproof planks; scratches are permanent"],
-    ["Buyer perception in local houses","Premium, expected in older neighborhoods","Practical, accepted in condos, basements and rentals"],
-    ["Effect on appraisal","Positive quality adjustment","Neutral to slightly positive versus carpet"]
-  ],"note":"Prices are Wills Flooring's published installation rates. Material for either floor is quoted at the free in-home estimate after you pick a product from our samples."},
-  {"type":"h2","text":"Price your Seattle hardwood installation right now"},
-  {"type":"calc","kind":"hardwood","note":"For vinyl plank, our LVP calculator uses $2.50 per sq ft and $100 per stair. Both are labor; material is quoted at the estimate."},
-  {"type":"h2","text":"The real cost gap on a 1,000 sq ft main floor"},
-  {"type":"list","icons":true,"items":[
-    {"icon":"dollar","html":"<strong>Labor: $750 apart on 1,000 sq ft.</strong> Hardwood: 1,000 × $3.25 = $3,250. Vinyl plank: 1,000 × $2.50 = $2,500. Labor is not what makes hardwood expensive."},
-    {"icon":"stairs","html":"<strong>Stairs: $325 apart on 13 stairs.</strong> Hardwood 13 × $125 = $1,625; LVP 13 × $100 = $1,300. A typical split-level or Craftsman with a finished upstairs has 13 to 15."},
-    {"icon":"box","html":"<strong>Material is the gap.</strong> Engineered or solid hardwood costs meaningfully more per square foot than vinyl plank, and the range within hardwood is wide. That is where a $5,000 project becomes a $10,000 one, and it is why we bring samples to the house rather than quoting from a spreadsheet."},
-    {"icon":"refresh","html":"<strong>Over 25 years the gap narrows.</strong> Vinyl plank gets replaced once in that time. Hardwood gets a $1.99 recoat or a $3.99 refinish and keeps going. If you are staying, hardwood is usually cheaper per year. If you are selling in two years, the up-front difference is what matters."},
-    {"icon":"tree","html":"<strong>Unfinished hardwood is the middle path.</strong> Installed at $2.75 per sq ft plus site finishing, it matches original floors in older houses here exactly, which is what those buyers pay for."}
-  ]},
-  {"type":"h2","text":"Which one, by house type"},
-  {"type":"compare","a":{"icon":"tree","tag":"Hardwood","title":"Install hardwood when","items":["The house is a pre-1960 Craftsman, Tudor or bungalow in a neighborhood where wood is expected","You are extending or matching existing hardwood on the main floor","You plan to own for 10 plus years and want a floor you renew instead of replace","The listing will lead with \"hardwoods throughout\" and the price point supports it"]},
-    "b":{"icon":"layers","tag":"Vinyl plank","title":"Install LVP when","items":["It is a condo with HOA sound rules or an elevator-and-quiet-hours install window","The space is a basement, ADU, or mother-in-law unit","The property is or will be a rental","Budget is fixed and hardwood would mean a thin veneer or a cheap species to hit the number"]}},
-  {"type":"callout","icon":"alert","title":"Before you buy either: ","text":"Check under the carpet. A large share of houses here built before 1960 have original fir or oak under the carpet or old vinyl. Refinishing that floor at $3.99 per sq ft beats installing anything new for resale, because \"original refinished hardwood\" is the phrase Seattle buyers pay the most for. We check at every estimate before recommending new flooring."},
-  {"type":"h2","text":"Mistakes that hurt resale with either floor"},
-  {"type":"ul","items":["Installing LVP over sound original hardwood in a Craftsman. Buyers who find wood under the vinyl assume damage, and you lose the premium the house already had.","Putting a thin-veneer engineered hardwood in a high-traffic house to hit a price. When it cannot be refinished, it behaves like LVP at hardwood cost.","Mixing hardwood and LVP on the same open-plan level with a flush transition. It reads as a repair. Use a doorway or a stair as the break."]},
-  {"type":"h2","text":"What to ask before you decide"},
-  {"type":"list","icons":true,"items":[
-    {"icon":"search","html":"<strong>What is under my current floor?</strong> We lift a corner at every estimate. The answer changes the whole recommendation."},
-    {"icon":"layers","html":"<strong>If hardwood, how thick is the wear layer?</strong> 3 mm or more can be refinished later. Under 2 mm cannot, which matters for a 30-year hold and for the buyer's inspector."},
-    {"icon":"clipboard","html":"<strong>What will the listing say?</strong> Ask your agent which phrase sells in your neighborhood. In Ballard it is <a href=\"/services/hardwood-flooring\">hardwood</a>; in a Belltown high-rise it is waterproof and sound-rated."},
-    {"icon":"lock","html":"<strong>For condos: what does the HOA require in writing?</strong> Sound rating, elevator booking, and work hours all shape the product choice."},
-    {"icon":"shield","html":"<strong>What warranty follows the floor?</strong> Wills Flooring's 1-year workmanship warranty covers either installation, and as a Metropolitan Hardwood distributor we can source matching hardwood for repairs years later."}
-  ]}
+  {
+   "type": "quick",
+   "eyebrow": "Short answer",
+   "lead": "In Seattle single-family homes, hardwood wins on resale, especially in 1900s to 1950s neighborhoods like Ballard, Wallingford and Queen Anne where buyers expect real wood and appraisers and agents call it out by name. Luxury vinyl plank is the smarter resale choice in condos with sound rules, basements, rentals, and any house where the budget cannot stretch to hardwood done right.",
+   "detail": "Wills Flooring installs hardwood for $3.25 per sq ft and vinyl plank for $2.50 per sq ft, labor only, 500 sq ft minimum. The labor gap is small; the material gap and the buyer's reaction are where the decision gets made.",
+   "tiles": [
+    {
+     "icon": "tree",
+     "label": "Hardwood install",
+     "value": "$3.25 / sq ft"
+    },
+    {
+     "icon": "layers",
+     "label": "Vinyl plank install",
+     "value": "$2.50 / sq ft"
+    },
+    {
+     "icon": "stairs",
+     "label": "Hardwood stairs",
+     "value": "$125 each"
+    },
+    {
+     "icon": "stairs",
+     "label": "LVP stairs",
+     "value": "$100 each"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "html": "A common Reddit thread asks whether putting LVP in a Seattle house \"kills resale.\" It does not kill anything, but the market here is unusual. Seattle has one of the highest concentrations of original hardwood floors on the West Coast, buyers grew up touring Craftsman bungalows with fir and oak, and listing copy leans hard on the phrase \"hardwoods throughout.\" That shapes how each floor is valued. Here is how we advise sellers and long-term owners, house type by house type."
+  },
+  {
+   "type": "h2",
+   "text": "How Seattle buyers read each floor"
+  },
+  {
+   "type": "cards",
+   "cols": 2,
+   "items": [
+    {
+     "icon": "home",
+     "title": "Pre-1960 houses: hardwood is the baseline",
+     "text": "In Ballard, Wallingford, Green Lake, Magnolia and West Seattle, buyers assume there is wood in the house. LVP over original fir reads as covering something up. Refinishing what is there or installing new hardwood keeps the house in its expected category."
+    },
+    {
+     "icon": "frame",
+     "title": "Condos and townhomes: LVP is normal",
+     "text": "Capitol Hill and Belltown condo buyers expect vinyl plank or engineered wood, and HOAs often require a sound-rated floor. A quality LVP with a documented acoustic rating is a selling point, not a compromise, and it survives a rental history."
+    },
+    {
+     "icon": "basement",
+     "title": "Basements: LVP wins outright",
+     "text": "Basements and daylight lower levels here see slab moisture and the occasional wet winter. Buyers and inspectors both prefer a waterproof floor down there. Hardwood in a basement raises questions; vinyl plank answers them."
+    },
+    {
+     "icon": "chart",
+     "title": "Appraisals and listing language",
+     "text": "Appraisers note flooring type as a quality adjustment, and agents lead with hardwood when they have it. LVP gets described as \"luxury vinyl\" or \"waterproof flooring.\" Neither word carries the same weight in a local listing as \"refinished original hardwoods.\""
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "Head to head on what affects value"
+  },
+  {
+   "type": "table",
+   "head": [
+    "Factor",
+    "Hardwood",
+    "Luxury vinyl plank"
+   ],
+   "rows": [
+    [
+     "Wills install labor",
+     "$3.25 per sq ft, $125 per stair",
+     "$2.50 per sq ft, $100 per stair"
+    ],
+    [
+     "Material",
+     "Quoted separately; higher per sq ft, wide range by species and wear layer",
+     "Quoted separately; lower, narrower range"
+    ],
+    [
+     "Useful life",
+     "50 to 100 years with refinishing; engineered 30 plus",
+     "15 to 25 years, then replaced"
+    ],
+    [
+     "Can it be renewed?",
+     "Yes: recoat or refinish at $1.99 to $3.99 per sq ft",
+     "No: damaged planks replaced, whole floor eventually replaced"
+    ],
+    [
+     "Water and pets",
+     "Vulnerable to standing water; scratches can be sanded out",
+     "Waterproof planks; scratches are permanent"
+    ],
+    [
+     "Buyer perception in local houses",
+     "Premium, expected in older neighborhoods",
+     "Practical, accepted in condos, basements and rentals"
+    ],
+    [
+     "Effect on appraisal",
+     "Positive quality adjustment",
+     "Neutral to slightly positive versus carpet"
+    ]
+   ],
+   "note": "Prices are Wills Flooring's published installation rates. Material for either floor is quoted at the free in-home estimate after you pick a product from our samples."
+  },
+  {
+   "type": "h2",
+   "text": "Price your Seattle hardwood installation right now"
+  },
+  {
+   "type": "calc",
+   "kind": "hardwood",
+   "note": "For vinyl plank, our LVP calculator uses $2.50 per sq ft and $100 per stair. Both are labor; material is quoted at the estimate."
+  },
+  {
+   "type": "h2",
+   "text": "The real cost gap on a 1,000 sq ft main floor"
+  },
+  {
+   "type": "list",
+   "icons": true,
+   "items": [
+    {
+     "icon": "dollar",
+     "html": "<strong>Labor: $750 apart on 1,000 sq ft.</strong> Hardwood: 1,000 × $3.25 = $3,250. Vinyl plank: 1,000 × $2.50 = $2,500. Labor is not what makes hardwood expensive."
+    },
+    {
+     "icon": "stairs",
+     "html": "<strong>Stairs: $325 apart on 13 stairs.</strong> Hardwood 13 × $125 = $1,625; LVP 13 × $100 = $1,300. A typical split-level or Craftsman with a finished upstairs has 13 to 15."
+    },
+    {
+     "icon": "box",
+     "html": "<strong>Material is the gap.</strong> Engineered or solid hardwood costs meaningfully more per square foot than vinyl plank, and the range within hardwood is wide. That is where a $5,000 project becomes a $10,000 one, and it is why we bring samples to the house rather than quoting from a spreadsheet."
+    },
+    {
+     "icon": "refresh",
+     "html": "<strong>Over 25 years the gap narrows.</strong> Vinyl plank gets replaced once in that time. Hardwood gets a $1.99 recoat or a $3.99 refinish and keeps going. If you are staying, hardwood is usually cheaper per year. If you are selling in two years, the up-front difference is what matters."
+    },
+    {
+     "icon": "tree",
+     "html": "<strong>Unfinished hardwood is the middle path.</strong> Installed at $2.75 per sq ft plus site finishing, it matches original floors in older houses here exactly, which is what those buyers pay for."
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "Which one, by house type"
+  },
+  {
+   "type": "compare",
+   "a": {
+    "icon": "tree",
+    "tag": "Hardwood",
+    "title": "Install hardwood when",
+    "items": [
+     "The house is a pre-1960 Craftsman, Tudor or bungalow in a neighborhood where wood is expected",
+     "You are extending or matching existing hardwood on the main floor",
+     "You plan to own for 10 plus years and want a floor you renew instead of replace",
+     "The listing will lead with \"hardwoods throughout\" and the price point supports it"
+    ]
+   },
+   "b": {
+    "icon": "layers",
+    "tag": "Vinyl plank",
+    "title": "Install LVP when",
+    "items": [
+     "It is a condo with HOA sound rules or an elevator-and-quiet-hours install window",
+     "The space is a basement, ADU, or mother-in-law unit",
+     "The property is or will be a rental",
+     "Budget is fixed and hardwood would mean a thin veneer or a cheap species to hit the number"
+    ]
+   }
+  },
+  {
+   "type": "callout",
+   "icon": "alert",
+   "title": "Before you buy either: ",
+   "text": "Check under the carpet. A large share of houses here built before 1960 have original fir or oak under the carpet or old vinyl. Refinishing that floor at $3.99 per sq ft beats installing anything new for resale, because \"original refinished hardwood\" is the phrase Seattle buyers pay the most for. We check at every estimate before recommending new flooring."
+  },
+  {
+   "type": "h2",
+   "text": "Mistakes that hurt resale with either floor"
+  },
+  {
+   "type": "ul",
+   "items": [
+    "Installing LVP over sound original hardwood in a Craftsman. Buyers who find wood under the vinyl assume damage, and you lose the premium the house already had.",
+    "Putting a thin-veneer engineered hardwood in a high-traffic house to hit a price. When it cannot be refinished, it behaves like LVP at hardwood cost.",
+    "Mixing hardwood and LVP on the same open-plan level with a flush transition. It reads as a repair. Use a doorway or a stair as the break."
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "What to ask before you decide"
+  },
+  {
+   "type": "list",
+   "icons": true,
+   "items": [
+    {
+     "icon": "search",
+     "html": "<strong>What is under my current floor?</strong> We lift a corner at every estimate. The answer changes the whole recommendation."
+    },
+    {
+     "icon": "layers",
+     "html": "<strong>If hardwood, how thick is the wear layer?</strong> 3 mm or more can be refinished later. Under 2 mm cannot, which matters for a 30-year hold and for the buyer's inspector."
+    },
+    {
+     "icon": "clipboard",
+     "html": "<strong>What will the listing say?</strong> Ask your agent which phrase sells in your neighborhood. In Ballard it is <a href=\"/services/hardwood-flooring\">hardwood</a>; in a Belltown high-rise it is waterproof and sound-rated."
+    },
+    {
+     "icon": "lock",
+     "html": "<strong>For condos: what does the HOA require in writing?</strong> Sound rating, elevator booking, and work hours all shape the product choice."
+    },
+    {
+     "icon": "shield",
+     "html": "<strong>What warranty follows the floor?</strong> Wills Flooring's 1-year workmanship warranty covers either installation, and as a Metropolitan Hardwood distributor we can source matching hardwood for repairs years later."
+    }
+   ]
+  }
  ],
  "faq": [
-  {"q":"Does luxury vinyl plank hurt resale value in Seattle?","a":"Not in condos, basements or rentals, where buyers expect it. In pre-1960 single-family neighborhoods like Ballard, Wallingford and Queen Anne it can, because buyers expect hardwood and read LVP as covering something up. In those houses, refinishing original wood or installing new hardwood protects the price better."},
-  {"q":"How much more does hardwood cost to install than vinyl plank?","a":"At Wills Flooring the labor difference is $0.75 per sq ft: $3.25 for hardwood versus $2.50 for vinyl plank, plus $125 versus $100 per stair. On 1,000 sq ft and 13 stairs that is $1,075 more in labor. Material is the larger gap and is quoted at the free estimate."},
-  {"q":"Is engineered hardwood as good for resale as solid?","a":"Yes, if the wear layer is 3 mm or thicker so it can be refinished. Buyers and appraisers treat engineered and solid hardwood the same in Seattle listings. A thin-veneer engineered floor that cannot be sanded is closer to LVP in how it ages, so ask for the wear layer thickness in writing."},
-  {"q":"Should I put hardwood or LVP in a Seattle basement for resale?","a":"Vinyl plank. Seattle basements and daylight lower levels deal with slab moisture and occasional water, and buyers' inspectors know it. A waterproof floor down there removes a question mark. Hardwood belongs on the main and upper floors where it adds value without moisture risk."},
-  {"q":"Is it better to refinish my old hardwood or replace it with LVP before selling?","a":"Refinish, almost always. A natural refinish at $3.99 per sq ft costs less than new LVP with material and gives the listing the phrase Seattle buyers pay most for: refinished original hardwood. Replace only if the wood is too thin to sand or has structural water damage."},
-  {"q":"What flooring do Seattle condo buyers prefer?","a":"A quality vinyl plank or engineered hardwood with a documented sound rating. Most Capitol Hill, Belltown and Queen Anne buildings require an IIC rating for hard floors, and buyers know a floor that meets it will not become an HOA problem. Carpet is the choice that hurts condo resale, not LVP."}
+  {
+   "q": "Does luxury vinyl plank hurt resale value in Seattle?",
+   "a": "Not in condos, basements or rentals, where buyers expect it. In pre-1960 single-family neighborhoods like Ballard, Wallingford and Queen Anne it can, because buyers expect hardwood and read LVP as covering something up. In those houses, refinishing original wood or installing new hardwood protects the price better."
+  },
+  {
+   "q": "How much more does hardwood cost to install than vinyl plank?",
+   "a": "At Wills Flooring the labor difference is $0.75 per sq ft: $3.25 for hardwood versus $2.50 for vinyl plank, plus $125 versus $100 per stair. On 1,000 sq ft and 13 stairs that is $1,075 more in labor. Material is the larger gap and is quoted at the free estimate."
+  },
+  {
+   "q": "Is engineered hardwood as good for resale as solid?",
+   "a": "Yes, if the wear layer is 3 mm or thicker so it can be refinished. Buyers and appraisers treat engineered and solid hardwood the same in Seattle listings. A thin-veneer engineered floor that cannot be sanded is closer to LVP in how it ages, so ask for the wear layer thickness in writing."
+  },
+  {
+   "q": "Should I put hardwood or LVP in a Seattle basement for resale?",
+   "a": "Vinyl plank. Seattle basements and daylight lower levels deal with slab moisture and occasional water, and buyers' inspectors know it. A waterproof floor down there removes a question mark. Hardwood belongs on the main and upper floors where it adds value without moisture risk."
+  },
+  {
+   "q": "Is it better to refinish my old hardwood or replace it with LVP before selling?",
+   "a": "Refinish, almost always. A natural refinish at $3.99 per sq ft costs less than new LVP with material and gives the listing the phrase Seattle buyers pay most for: refinished original hardwood. Replace only if the wood is too thin to sand or has structural water damage."
+  },
+  {
+   "q": "What flooring do Seattle condo buyers prefer?",
+   "a": "A quality vinyl plank or engineered hardwood with a documented sound rating. Most Capitol Hill, Belltown and Queen Anne buildings require an IIC rating for hard floors, and buyers know a floor that meets it will not become an HOA problem. Carpet is the choice that hurts condo resale, not LVP."
+  }
  ],
  "faq_title": "Hardwood vs LVP resale questions from Seattle owners",
  "faq_sub": "From estimates in Ballard, Wallingford, Capitol Hill and West Seattle.",
- "related": [["luxury-vinyl-plank-vs-hardwood-snohomish","luxury vinyl plank vs hardwood"],["do-hardwood-floors-increase-home-value-in-seattle","do hardwood floors increase home value"],["vinyl-plank-vs-engineered-hardwood-for-resale-in-lynnwood","vinyl plank vs engineered hardwood for resale"]],
+ "related": [
+  [
+   "luxury-vinyl-plank-vs-hardwood-snohomish",
+   "luxury vinyl plank vs hardwood"
+  ],
+  [
+   "do-hardwood-floors-increase-home-value-in-seattle",
+   "do hardwood floors increase home value"
+  ],
+  [
+   "vinyl-plank-vs-engineered-hardwood-for-resale-in-lynnwood",
+   "vinyl plank vs engineered hardwood for resale"
+  ]
+ ],
  "cta_title": "See both floors in your Seattle house before you choose",
  "cta_sub": "We bring hardwood and vinyl plank samples to your door, check what is under your current floor and give a firm written price for each option. Free, no obligation."
 }

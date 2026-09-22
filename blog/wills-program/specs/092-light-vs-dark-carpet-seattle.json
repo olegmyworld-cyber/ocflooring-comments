@@ -5,70 +5,296 @@
  "category": "carpet",
  "city": "Seattle",
  "time": "8 mins",
- "date": "2026-12-17T15:00:00.000Z",
+ "date": "2026-12-23T15:00:00.000Z",
  "keywords": "light vs dark carpet, best carpet color to hide dirt, carpet color that hides wear, does dark carpet show wear, carpet color for Seattle homes, best carpet color for traffic areas",
- "offers": [["Carpet installation, stretch-in","0.99","per square foot"],["Carpet installation, glue-down","1.29","per square foot"]],
+ "offers": [
+  [
+   "Carpet installation, stretch-in",
+   "0.99",
+   "per square foot"
+  ],
+  [
+   "Carpet installation, glue-down",
+   "1.29",
+   "per square foot"
+  ]
+ ],
  "blocks": [
-  {"type":"quick","eyebrow":"Short answer","lead":"Neither. A mid-tone carpet with flecks or a subtle pattern hides wear far better than a light solid or a dark solid.","detail":"Light solids show soil and traffic lanes. Dark solids show lint, pet hair and fading. The middle of the range, with two or three tones blended into the yarn, hides all of it. In Seattle's gray winter light, that mid-tone should lean warm.",
-   "tiles":[{"icon":"palette","label":"Hides wear best","value":"Mid-tone, flecked"},{"icon":"sun","label":"Light solids show","value":"Soil, traffic lanes"},{"icon":"moon","label":"Dark solids show","value":"Lint, hair, fading"},{"icon":"dollar","label":"Install labor","value":"$0.99 / sq ft"}],"cta":"Try the calculator"},
-  {"type":"p","html":"The question usually arrives at our Lynnwood showroom as a photo. A Wallingford living room with north-facing windows, a dog, two kids, and a homeowner who wants carpet that looks clean in five years. Or a Capitol Hill condo owner who loves charcoal but worries it will show every crumb. The honest answer is that color matters less than most people think, and the wrong color plus the wrong fiber is what actually goes bad. This post covers what wear looks like and how to test a sample in your own Seattle light."},
-  {"type":"h2","text":"What \"wear\" actually looks like on carpet"},
-  {"type":"cards","cols":2,"items":[
-    {"icon":"grid","title":"Traffic lanes","text":"The path from the hallway to the sofa gets walked a thousand times more than the corners. Fibers crush and lose their twist, so the lane reflects light differently. This is a texture change first and a color change second, which is why it shows on every solid color."},
-    {"icon":"droplet","title":"Soiling","text":"Seattle mud, coffee and the gray film that comes off shoes. Soiling darkens carpet, so it shows most on pale colors. Pilling from a cheap vacuum looks like soiling too."},
-    {"icon":"sun","title":"Fading","text":"South and west windows in Queen Anne and West Seattle bleach carpet over the years. Fading lightens carpet, so it shows most on dark and saturated colors. The strip under the window ends up two shades off from the rest."},
-    {"icon":"paw","title":"Lint, hair and dander","text":"Anything lighter than the carpet sits on top of it and shows. Golden retriever hair on espresso carpet is visible from the doorway. Black lab hair on oatmeal carpet is the same problem in reverse."}
-  ]},
-  {"type":"h2","text":"Light, mid-tone and dark, side by side"},
-  {"type":"table","head":["What you are hiding","Light carpet","Mid-tone flecked","Dark carpet"],"rows":[
-    ["Traffic lane matting","Shows, especially in halls","Hides well, flecks break up the sheen change","Shows as a dull path"],
-    ["Mud and soil","Shows quickly","Hides well","Hides well"],
-    ["Pet hair and lint","Hides light hair, shows dark","Hides most","Shows light hair and lint"],
-    ["Sun fading","Barely visible","Barely visible","Visible in 3 to 5 years near windows"],
-    ["Room brightness","Bounces light, feels bigger","Neutral","Absorbs light, feels smaller"],
-    ["Seattle buyer reaction","Safe if it is clean","Safest overall","Polarizing"]
-   ],"note":"Based on the callbacks and replacements we see, not lab data. Fiber and pile style shift every row."},
-  {"type":"h2","text":"Price your Seattle carpet job right now"},
-  {"type":"p","html":"Color does not change what installation costs. Our labor is <strong>$0.99 per sq ft</strong> for stretch-in carpet over pad, <strong>$1.29 per sq ft</strong> for glue-down on a slab or in a basement, and <strong>$30 per step</strong>, with a 500 sq ft minimum. Tear-out of the old carpet and pad including haul-away is $0.45 per sq ft, and we move furniture for $0.25 per sq ft. A Wallingford job covering 600 sq ft of living room, hall and one bedroom plus 13 stairs is 600 × $0.99 + 13 × $30 = $984 in labor, plus $270 to pull the old carpet. The carpet and pad are quoted separately at the free in-home estimate, because that is where color and fiber actually show up in the price."},
-  {"type":"calc","kind":"carpet","note":"Labor is the same whatever shade you pick. The yarn is where a patterned or premium color costs more."},
-  {"type":"h2","text":"The Seattle light problem"},
-  {"type":"callout","icon":"alert","title":"Check your sample at 4 pm in December: ","text":"Seattle daylight in winter is cool, blue and gone by late afternoon. A cool gray carpet that looked crisp under showroom lights turns flat and slightly purple in a north-facing Ballard bedroom. Warm greige, oatmeal and taupe with a brown fleck hold up in low light. We bring samples to the house for exactly this reason."},
-  {"type":"h2","text":"Fiber and texture matter more than color"},
-  {"type":"list","icons":true,"items":[
-    {"icon":"layers","html":"<strong>Nylon and triexta keep their shape.</strong> Traffic lanes are fibers that lost their twist. Nylon and triexta bounce back; polyester crushes and stays crushed. A mid-tone polyester still shows a lane within two years in a busy Seattle hallway."},
-    {"icon":"scissors","html":"<strong>Frieze and textured cut pile hide footprints.</strong> The twisted, slightly random surface never looks uniformly flat, so a crushed path blends in. Plush and saxony show every footprint and vacuum stroke, in any color."},
-    {"icon":"grid","html":"<strong>Loop pile shows lanes fast.</strong> Berber-style loops flatten in one direction and reflect light like a comb. It hides soil well but not traffic. Fine for a guest room, poor for a stair landing."},
-    {"icon":"sparkle","html":"<strong>Flecks and patterns do the heavy lifting.</strong> A two-tone or three-tone yarn breaks up the eye's ability to see one crushed patch. This is why hotel corridors are never a solid color."},
-    {"icon":"paw","html":"<strong>Match the carpet to the pet, not the sofa.</strong> Light dog, go lighter. Dark dog, go darker. Two dogs of different colors, go mid-tone with a fleck that contains both."}
-  ]},
-  {"type":"h2","text":"Color mistakes we get called to replace"},
-  {"type":"steps","wide":true,"items":[
-    {"icon":"x","d":"Pure white or cream on stairs","text":"A Magnolia client picked a bright cream plush for a 14-tread staircase. Beautiful for one year. Stair noses take the hardest wear in the house and every step showed a gray crescent."},
-    {"icon":"x","d":"Charcoal solid in a sunny room","text":"West Seattle, south-facing family room, charcoal saxony. Three summers later the six feet nearest the slider was a visibly lighter gray. Furniture moves showed the outline."},
-    {"icon":"x","d":"Cool gray in a north-facing room","text":"The most common one since the gray trend. It reads blue and cold in Seattle winter light and makes a small Green Lake bedroom feel like a basement."},
-    {"icon":"x","d":"Choosing from a 3-inch swatch","text":"A swatch shows the yarn color, not how carpet looks in a 12-foot run under your windows. Mid-tones look darker in bulk than on a card."}
-  ]},
-  {"type":"h2","text":"How to pick a color that still looks good in five years"},
-  {"type":"list","icons":true,"items":[
-    {"icon":"search","html":"<strong>Start one shade darker than your instinct</strong> if the room is light-filled, and one shade lighter if it faces north. Then confirm with a full-size sample on the floor."},
-    {"icon":"sun","html":"<strong>Look at it three times.</strong> Morning, mid-afternoon and at night under your own bulbs. Seattle rooms can change character completely between noon and 4 pm."},
-    {"icon":"home","html":"<strong>Check it against what is staying.</strong> Old fir trim in a Craftsman is orange; oak cabinets are yellow; painted trim is usually warm white. A gray carpet fights all three."},
-    {"icon":"layers","html":"<strong>Pick the fiber first, color second.</strong> A nylon or triexta in a mid-tone fleck will outlast a polyester in the perfect shade. See our guide to <a href=\"/blog-posts/nylon-vs-polyester-vs-triexta-vs-wool-carpet-sammamish\">carpet fibers</a>."},
-    {"icon":"clipboard","html":"<strong>Keep a piece of the remnant.</strong> Ask the installer to leave you an offcut. It lets you test cleaners, and it is the only way to patch a burn or a pet spot later. Details on <a href=\"/services/carpet-installation\">our carpet installation service</a>."}
-  ]}
+  {
+   "type": "quick",
+   "eyebrow": "Short answer",
+   "lead": "Neither. A mid-tone carpet with flecks or a subtle pattern hides wear far better than a light solid or a dark solid.",
+   "detail": "Light solids show soil and traffic lanes. Dark solids show lint, pet hair and fading. The middle of the range, with two or three tones blended into the yarn, hides all of it. In Seattle's gray winter light, that mid-tone should lean warm.",
+   "tiles": [
+    {
+     "icon": "palette",
+     "label": "Hides wear best",
+     "value": "Mid-tone, flecked"
+    },
+    {
+     "icon": "sun",
+     "label": "Light solids show",
+     "value": "Soil, traffic lanes"
+    },
+    {
+     "icon": "moon",
+     "label": "Dark solids show",
+     "value": "Lint, hair, fading"
+    },
+    {
+     "icon": "dollar",
+     "label": "Install labor",
+     "value": "$0.99 / sq ft"
+    }
+   ],
+   "cta": "Try the calculator"
+  },
+  {
+   "type": "p",
+   "html": "The question usually arrives at our Lynnwood showroom as a photo. A Wallingford living room with north-facing windows, a dog, two kids, and a homeowner who wants carpet that looks clean in five years. Or a Capitol Hill condo owner who loves charcoal but worries it will show every crumb. The honest answer is that color matters less than most people think, and the wrong color plus the wrong fiber is what actually goes bad. This post covers what wear looks like and how to test a sample in your own Seattle light."
+  },
+  {
+   "type": "h2",
+   "text": "What \"wear\" actually looks like on carpet"
+  },
+  {
+   "type": "cards",
+   "cols": 2,
+   "items": [
+    {
+     "icon": "grid",
+     "title": "Traffic lanes",
+     "text": "The path from the hallway to the sofa gets walked a thousand times more than the corners. Fibers crush and lose their twist, so the lane reflects light differently. This is a texture change first and a color change second, which is why it shows on every solid color."
+    },
+    {
+     "icon": "droplet",
+     "title": "Soiling",
+     "text": "Seattle mud, coffee and the gray film that comes off shoes. Soiling darkens carpet, so it shows most on pale colors. Pilling from a cheap vacuum looks like soiling too."
+    },
+    {
+     "icon": "sun",
+     "title": "Fading",
+     "text": "South and west windows in Queen Anne and West Seattle bleach carpet over the years. Fading lightens carpet, so it shows most on dark and saturated colors. The strip under the window ends up two shades off from the rest."
+    },
+    {
+     "icon": "paw",
+     "title": "Lint, hair and dander",
+     "text": "Anything lighter than the carpet sits on top of it and shows. Golden retriever hair on espresso carpet is visible from the doorway. Black lab hair on oatmeal carpet is the same problem in reverse."
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "Light, mid-tone and dark, side by side"
+  },
+  {
+   "type": "table",
+   "head": [
+    "What you are hiding",
+    "Light carpet",
+    "Mid-tone flecked",
+    "Dark carpet"
+   ],
+   "rows": [
+    [
+     "Traffic lane matting",
+     "Shows, especially in halls",
+     "Hides well, flecks break up the sheen change",
+     "Shows as a dull path"
+    ],
+    [
+     "Mud and soil",
+     "Shows quickly",
+     "Hides well",
+     "Hides well"
+    ],
+    [
+     "Pet hair and lint",
+     "Hides light hair, shows dark",
+     "Hides most",
+     "Shows light hair and lint"
+    ],
+    [
+     "Sun fading",
+     "Barely visible",
+     "Barely visible",
+     "Visible in 3 to 5 years near windows"
+    ],
+    [
+     "Room brightness",
+     "Bounces light, feels bigger",
+     "Neutral",
+     "Absorbs light, feels smaller"
+    ],
+    [
+     "Seattle buyer reaction",
+     "Safe if it is clean",
+     "Safest overall",
+     "Polarizing"
+    ]
+   ],
+   "note": "Based on the callbacks and replacements we see, not lab data. Fiber and pile style shift every row."
+  },
+  {
+   "type": "h2",
+   "text": "Price your Seattle carpet job right now"
+  },
+  {
+   "type": "p",
+   "html": "Color does not change what installation costs. Our labor is <strong>$0.99 per sq ft</strong> for stretch-in carpet over pad, <strong>$1.29 per sq ft</strong> for glue-down on a slab or in a basement, and <strong>$30 per step</strong>, with a 500 sq ft minimum. Tear-out of the old carpet and pad including haul-away is $0.45 per sq ft, and we move furniture for $0.25 per sq ft. A Wallingford job covering 600 sq ft of living room, hall and one bedroom plus 13 stairs is 600 × $0.99 + 13 × $30 = $984 in labor, plus $270 to pull the old carpet. The carpet and pad are quoted separately at the free in-home estimate, because that is where color and fiber actually show up in the price."
+  },
+  {
+   "type": "calc",
+   "kind": "carpet",
+   "note": "Labor is the same whatever shade you pick. The yarn is where a patterned or premium color costs more."
+  },
+  {
+   "type": "h2",
+   "text": "The Seattle light problem"
+  },
+  {
+   "type": "callout",
+   "icon": "alert",
+   "title": "Check your sample at 4 pm in December: ",
+   "text": "Seattle daylight in winter is cool, blue and gone by late afternoon. A cool gray carpet that looked crisp under showroom lights turns flat and slightly purple in a north-facing Ballard bedroom. Warm greige, oatmeal and taupe with a brown fleck hold up in low light. We bring samples to the house for exactly this reason."
+  },
+  {
+   "type": "h2",
+   "text": "Fiber and texture matter more than color"
+  },
+  {
+   "type": "list",
+   "icons": true,
+   "items": [
+    {
+     "icon": "layers",
+     "html": "<strong>Nylon and triexta keep their shape.</strong> Traffic lanes are fibers that lost their twist. Nylon and triexta bounce back; polyester crushes and stays crushed. A mid-tone polyester still shows a lane within two years in a busy Seattle hallway."
+    },
+    {
+     "icon": "scissors",
+     "html": "<strong>Frieze and textured cut pile hide footprints.</strong> The twisted, slightly random surface never looks uniformly flat, so a crushed path blends in. Plush and saxony show every footprint and vacuum stroke, in any color."
+    },
+    {
+     "icon": "grid",
+     "html": "<strong>Loop pile shows lanes fast.</strong> Berber-style loops flatten in one direction and reflect light like a comb. It hides soil well but not traffic. Fine for a guest room, poor for a stair landing."
+    },
+    {
+     "icon": "sparkle",
+     "html": "<strong>Flecks and patterns do the heavy lifting.</strong> A two-tone or three-tone yarn breaks up the eye's ability to see one crushed patch. This is why hotel corridors are never a solid color."
+    },
+    {
+     "icon": "paw",
+     "html": "<strong>Match the carpet to the pet, not the sofa.</strong> Light dog, go lighter. Dark dog, go darker. Two dogs of different colors, go mid-tone with a fleck that contains both."
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "Color mistakes we get called to replace"
+  },
+  {
+   "type": "steps",
+   "wide": true,
+   "items": [
+    {
+     "icon": "x",
+     "d": "Pure white or cream on stairs",
+     "text": "A Magnolia client picked a bright cream plush for a 14-tread staircase. Beautiful for one year. Stair noses take the hardest wear in the house and every step showed a gray crescent."
+    },
+    {
+     "icon": "x",
+     "d": "Charcoal solid in a sunny room",
+     "text": "West Seattle, south-facing family room, charcoal saxony. Three summers later the six feet nearest the slider was a visibly lighter gray. Furniture moves showed the outline."
+    },
+    {
+     "icon": "x",
+     "d": "Cool gray in a north-facing room",
+     "text": "The most common one since the gray trend. It reads blue and cold in Seattle winter light and makes a small Green Lake bedroom feel like a basement."
+    },
+    {
+     "icon": "x",
+     "d": "Choosing from a 3-inch swatch",
+     "text": "A swatch shows the yarn color, not how carpet looks in a 12-foot run under your windows. Mid-tones look darker in bulk than on a card."
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "How to pick a color that still looks good in five years"
+  },
+  {
+   "type": "list",
+   "icons": true,
+   "items": [
+    {
+     "icon": "search",
+     "html": "<strong>Start one shade darker than your instinct</strong> if the room is light-filled, and one shade lighter if it faces north. Then confirm with a full-size sample on the floor."
+    },
+    {
+     "icon": "sun",
+     "html": "<strong>Look at it three times.</strong> Morning, mid-afternoon and at night under your own bulbs. Seattle rooms can change character completely between noon and 4 pm."
+    },
+    {
+     "icon": "home",
+     "html": "<strong>Check it against what is staying.</strong> Old fir trim in a Craftsman is orange; oak cabinets are yellow; painted trim is usually warm white. A gray carpet fights all three."
+    },
+    {
+     "icon": "layers",
+     "html": "<strong>Pick the fiber first, color second.</strong> A nylon or triexta in a mid-tone fleck will outlast a polyester in the perfect shade. See our guide to <a href=\"/blog-posts/nylon-vs-polyester-vs-triexta-vs-wool-carpet-sammamish\">carpet fibers</a>."
+    },
+    {
+     "icon": "clipboard",
+     "html": "<strong>Keep a piece of the remnant.</strong> Ask the installer to leave you an offcut. It lets you test cleaners, and it is the only way to patch a burn or a pet spot later. Details on <a href=\"/services/carpet-installation\">our carpet installation service</a>."
+    }
+   ]
+  }
  ],
  "faq": [
-  {"q":"Does dark carpet hide dirt better than light carpet?","a":"Dark carpet hides mud, soil and most spills better, but it shows lint, dust, light pet hair and sun fading more. Light carpet is the reverse. A mid-tone with a fleck hides the widest range of everyday wear, which is why it is our default recommendation for busy Seattle households."},
-  {"q":"What carpet color hides traffic patterns best?","a":"Traffic patterns are crushed fibers, not stains, so texture matters more than shade. A textured cut pile or frieze in a mid-tone, multi-color yarn hides lanes best. Color alone will not save a plush or a loop pile in a hallway that gets walked constantly."},
-  {"q":"Is gray carpet still a good choice in Seattle?","a":"Warm gray and greige still sell well. Cool, blue-leaning gray is the one we steer people away from in Seattle because winter daylight is already cool and north-facing rooms make it look cold and flat. Test a sample in the actual room before committing."},
-  {"q":"Will light carpet make my small room look bigger?","a":"Yes, lighter carpet reflects more light and visually pushes the walls out, which helps small Capitol Hill and Green Lake bedrooms. Choose a light oatmeal or sand with a fleck rather than a pure cream, so it stays bright without showing every footprint."},
-  {"q":"What carpet color is best for resale in Seattle?","a":"Buyers expect neutral: warm greige, taupe, oatmeal or a soft mid-gray. Anything saturated or very dark narrows the pool. Keep bedrooms, halls and stairs consistent so the house reads as one deliberate decision instead of several leftover ones."},
-  {"q":"Does Wills Flooring bring carpet samples to my house?","a":"Yes. We are a mobile showroom based in Lynnwood. We bring full-size samples to your Seattle home, look at them in your rooms and your light, and measure. Labor is published at $0.99 per sq ft stretch-in and $30 per step, so you leave the free estimate with a firm written price."},
-  {"q":"Does carpet color change the installation price?","a":"No. We charge $0.99 per sq ft for stretch-in labor, $1.29 for glue-down and $30 per step no matter what shade you choose, with a 500 sq ft minimum. Color can change the carpet itself, since patterned and premium yarns cost more per yard, and that part is quoted at the estimate."}
+  {
+   "q": "Does dark carpet hide dirt better than light carpet?",
+   "a": "Dark carpet hides mud, soil and most spills better, but it shows lint, dust, light pet hair and sun fading more. Light carpet is the reverse. A mid-tone with a fleck hides the widest range of everyday wear, which is why it is our default recommendation for busy Seattle households."
+  },
+  {
+   "q": "What carpet color hides traffic patterns best?",
+   "a": "Traffic patterns are crushed fibers, not stains, so texture matters more than shade. A textured cut pile or frieze in a mid-tone, multi-color yarn hides lanes best. Color alone will not save a plush or a loop pile in a hallway that gets walked constantly."
+  },
+  {
+   "q": "Is gray carpet still a good choice in Seattle?",
+   "a": "Warm gray and greige still sell well. Cool, blue-leaning gray is the one we steer people away from in Seattle because winter daylight is already cool and north-facing rooms make it look cold and flat. Test a sample in the actual room before committing."
+  },
+  {
+   "q": "Will light carpet make my small room look bigger?",
+   "a": "Yes, lighter carpet reflects more light and visually pushes the walls out, which helps small Capitol Hill and Green Lake bedrooms. Choose a light oatmeal or sand with a fleck rather than a pure cream, so it stays bright without showing every footprint."
+  },
+  {
+   "q": "What carpet color is best for resale in Seattle?",
+   "a": "Buyers expect neutral: warm greige, taupe, oatmeal or a soft mid-gray. Anything saturated or very dark narrows the pool. Keep bedrooms, halls and stairs consistent so the house reads as one deliberate decision instead of several leftover ones."
+  },
+  {
+   "q": "Does Wills Flooring bring carpet samples to my house?",
+   "a": "Yes. We are a mobile showroom based in Lynnwood. We bring full-size samples to your Seattle home, look at them in your rooms and your light, and measure. Labor is published at $0.99 per sq ft stretch-in and $30 per step, so you leave the free estimate with a firm written price."
+  },
+  {
+   "q": "Does carpet color change the installation price?",
+   "a": "No. We charge $0.99 per sq ft for stretch-in labor, $1.29 for glue-down and $30 per step no matter what shade you choose, with a 500 sq ft minimum. Color can change the carpet itself, since patterned and premium yarns cost more per yard, and that part is quoted at the estimate."
+  }
  ],
  "faq_title": "Carpet color questions from Seattle homeowners",
  "faq_sub": "The ones we hear at estimates in Ballard, West Seattle and Capitol Hill.",
- "related": [["how-to-choose-carpet-from-samples-at-home-seattle","choosing carpet from samples at home"],["carpet-vs-vinyl-plank-for-bedrooms-seattle","carpet vs vinyl plank for bedrooms"],["what-is-the-best-carpet-for-pets-everett","the best carpet for pets"]],
+ "related": [
+  [
+   "how-to-choose-carpet-from-samples-at-home-seattle",
+   "choosing carpet from samples at home"
+  ],
+  [
+   "carpet-vs-vinyl-plank-for-bedrooms-seattle",
+   "carpet vs vinyl plank for bedrooms"
+  ],
+  [
+   "what-is-the-best-carpet-for-pets-everett",
+   "the best carpet for pets"
+  ]
+ ],
  "cta_title": "See the colors in your own Seattle light",
  "cta_sub": "We bring the samples, check them in your rooms at the time of day you actually live in them, and give you a firm written price. Free, no obligation."
 }

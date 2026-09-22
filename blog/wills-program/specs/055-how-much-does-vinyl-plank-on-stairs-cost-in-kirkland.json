@@ -5,62 +5,283 @@
  "category": "lvp",
  "city": "Kirkland",
  "time": "8 mins",
- "date": "2026-11-10T15:00:00.000Z",
+ "date": "2026-11-16T15:00:00.000Z",
  "keywords": "vinyl plank on stairs cost, LVP stairs cost per step, vinyl plank stairs Kirkland, luxury vinyl plank staircase installation, stair nosing for vinyl plank, replace carpet on stairs with vinyl plank",
- "offers": [["Vinyl plank flooring installation", "2.50", "per square foot"]],
+ "offers": [
+  [
+   "Vinyl plank flooring installation",
+   "2.50",
+   "per square foot"
+  ]
+ ],
  "blocks": [
-  {"type":"quick","eyebrow":"Short answer","lead":"Wills Flooring installs vinyl plank on stairs for $100 per stair in labor, so a typical 13-stair Kirkland staircase is $1,300 in labor on top of the $2.50 per sq ft floor rate, plus the plank and stair nosing you choose.","detail":"Stairs cost about four times more per square foot than open floor because every tread, riser and nosing is cut and fitted by hand. Old carpet removal, tack strips and squeak fixes are quoted at the free estimate.",
-   "tiles":[{"icon":"stairs","label":"Stair labor","value":"$100 per stair"},{"icon":"dollar","label":"Floor labor","value":"$2.50 / sq ft"},{"icon":"ruler","label":"Floor minimum","value":"500 sq ft"},{"icon":"home","label":"13-stair staircase","value":"$1,300 labor"}],"cta":"Try the calculator"},
-  {"type":"p","html":"Kirkland has a lot of stairs. Juanita and Finn Hill are full of 1970s and 80s split-levels with two short flights, Houghton and Rose Hill townhomes stack three floors on two staircases, and half the Bridle Trails remodels we see are open two-story entries where the staircase is the first thing a buyer looks at. So when someone pricing new vinyl plank for the main floor asks \"and how much to do the stairs too?\", the answer changes the quote by a thousand dollars or more. This post shows the math, what the plank and nosing add, and when stairs are a bad place for vinyl."},
-  {"type":"h2","text":"What the published numbers are"},
-  {"type":"prices","items":[
-    {"icon":"stairs","tag":"Per tread and riser","price":"$100","unit":"/ stair","title":"Vinyl plank on stairs","text":"Labor to fit the tread, the riser and the stair nosing on one step. Includes cutting around balusters and skirt boards on a standard closed-stringer staircase.","gold":true},
-    {"icon":"layers","tag":"Open floor areas","price":"$2.50","unit":"/ sq ft","title":"Vinyl plank or laminate floors","text":"Installation labor for the rooms, halls and landings. 500 sq ft minimum. Landings are measured as floor area, not counted as stairs."}
-   ],"note":"From Wills Flooring's published price list. Plank material, stair nosing, underlayment, old carpet removal and subfloor prep are quoted at the free in-home estimate."},
-  {"type":"h2","text":"Three Kirkland staircases, with the math"},
-  {"type":"steps","wide":true,"items":[
-    {"icon":"home","d":"Juanita split-level · 900 sq ft + 13 stairs","text":"Main floor in vinyl plank plus the flight up to the bedrooms. Carpet removed from both.","note":"900 × $2.50 + 13 × $100 = $3,550 labor, plus plank and nosing"},
-    {"icon":"home","d":"Houghton townhome · 1,200 sq ft + 2 flights of 14","text":"Three levels, two staircases, one landing counted as floor area.","note":"1,200 × $2.50 + 28 × $100 = $5,800 labor, plus materials"},
-    {"icon":"home","d":"Rose Hill rambler · 650 sq ft + 4 steps to the family room","text":"Short step-down between the kitchen and the sunken family room, done to match the new floor.","note":"650 × $2.50 + 4 × $100 = $2,025 labor, plus materials"}
-  ]},
-  {"type":"h2","text":"What else is on a real stair invoice"},
-  {"type":"table","head":["Line item","How it is priced","Notes for Kirkland stairs"],"rows":[
-    ["Plank material","Per sq ft, quoted with samples","A standard 3 ft wide stair uses about 3 to 4 sq ft of plank per step including the riser, so 13 stairs need roughly 45 to 55 sq ft plus waste."],
-    ["Stair nosing","Per piece, matched to the plank","One per step. Flush nosing looks best and costs more; overlap nosing is cheaper and adds a small lip. This is the biggest material variable on stairs."],
-    ["Carpet, pad and tack strip removal","Quoted at the estimate","Hundreds of staples per flight. Most Kirkland staircases we see have carpet over bare plywood treads or over the original oak."],
-    ["Squeak and tread repair","Quoted at the estimate","Split-level stairs from the 1970s often need treads re-screwed to the stringers before anything goes on top."],
-    ["Riser finish","Included when planked; painting quoted","Risers can be planked to match or painted white for a two-tone look. Painted risers save a little material and read as more custom."],
-    ["Open-sided or pie-shaped stairs","Quoted at the estimate","Returns on open ends and angled treads take extra fitting. Common in Bridle Trails and lakefront homes with sweeping stairs."]
-  ]},
-  {"type":"h2","text":"Price your Kirkland floor and stairs right now"},
-  {"type":"calc","kind":"lvp","note":"Enter the tread count for every flight. Landings count as floor area. Nosing and plank are added at the estimate."},
-  {"type":"h2","text":"How a vinyl plank staircase is actually built"},
-  {"type":"list","icons":true,"items":[
-    {"icon":"scissors","html":"<strong>Strip and prep.</strong> Carpet, pad, tack strip and staples come off. Treads are checked for level and screwed tight. Any old overhang that would trap the new nosing is cut back flush with the riser."},
-    {"icon":"layers","html":"<strong>Risers first.</strong> Each riser is cut to fit the skirt boards and glued in place. Getting the riser tight to the tread above hides the seam."},
-    {"icon":"ruler","html":"<strong>Treads cut to the room, not to a template.</strong> Split-level stairs are rarely square. Each tread is scribed to its own skirt boards, which is where the $100 per stair goes."},
-    {"icon":"lock","html":"<strong>Glue, not click.</strong> Floating click planks are fine on floors but a stair tread must never move. Treads and nosings are set in construction adhesive, and the nosing is also fastened through the face or from below."},
-    {"icon":"done","html":"<strong>Nosing last, then caulk.</strong> The stair nose caps the front edge and takes the hardest wear. A matching color-matched caulk at the skirt board finishes it."}
-  ]},
-  {"type":"h2","text":"When vinyl plank on stairs is the wrong call"},
-  {"type":"compare","a":{"icon":"done","tag":"Vinyl plank stairs","title":"A good fit when","items":["The same plank runs on the floor above and below, so the stairs tie the levels together","The staircase is closed on both sides with straight treads","Dogs, kids or a rental make carpet a cleaning problem","You want a hard surface on a budget well under hardwood"]},
-    "b":{"icon":"x","tag":"Think twice","title":"Consider carpet or hardwood when","items":["The staircase is the showpiece of an open Bridle Trails or lakefront entry where buyers expect real wood","Treads are open-sided with returns, curved or pie-shaped; fitting costs climb fast and seams show","Anyone in the house is unsteady on their feet; a hard smooth tread is slipperier than carpet","There is original oak under the carpet that could be refinished at $55 to $75 per tread instead"]}},
-  {"type":"callout","icon":"alert","title":"Check what is under the carpet first: ","text":"A surprising number of Kirkland split-levels from the 1970s have solid oak treads under the carpet. If they are sound, refinishing them and running vinyl plank on the floors only is often cheaper than planking the stairs and looks more expensive. We pull a corner of carpet at the estimate to find out."},
-  {"type":"h2","text":"Questions to ask before you sign a stair quote"},
-  {"type":"ul","items":["Is the nosing flush or overlap, and is it the same manufacturer as the plank?","Are treads glued and fastened, or just floating?","Does the count include the top step onto the landing?","What happens if the treads squeak or are out of level once the carpet is off?","Is old carpet removal and disposal in the price or a separate line?"]},
-  {"type":"p","html":"If you are still weighing carpet against a hard surface for the stairs, our post on <a href=\"/blog-posts/what-is-the-best-carpet-for-stairs-lynnwood\">the best carpet for stairs</a> covers the other side of the decision. Either way, the free in-home estimate includes a look under the existing carpet so the quote you get is the price you pay."}
+  {
+   "type": "quick",
+   "eyebrow": "Short answer",
+   "lead": "Wills Flooring installs vinyl plank on stairs for $100 per stair in labor, so a typical 13-stair Kirkland staircase is $1,300 in labor on top of the $2.50 per sq ft floor rate, plus the plank and stair nosing you choose.",
+   "detail": "Stairs cost about four times more per square foot than open floor because every tread, riser and nosing is cut and fitted by hand. Old carpet removal, tack strips and squeak fixes are quoted at the free estimate.",
+   "tiles": [
+    {
+     "icon": "stairs",
+     "label": "Stair labor",
+     "value": "$100 per stair"
+    },
+    {
+     "icon": "dollar",
+     "label": "Floor labor",
+     "value": "$2.50 / sq ft"
+    },
+    {
+     "icon": "ruler",
+     "label": "Floor minimum",
+     "value": "500 sq ft"
+    },
+    {
+     "icon": "home",
+     "label": "13-stair staircase",
+     "value": "$1,300 labor"
+    }
+   ],
+   "cta": "Try the calculator"
+  },
+  {
+   "type": "p",
+   "html": "Kirkland has a lot of stairs. Juanita and Finn Hill are full of 1970s and 80s split-levels with two short flights, Houghton and Rose Hill townhomes stack three floors on two staircases, and half the Bridle Trails remodels we see are open two-story entries where the staircase is the first thing a buyer looks at. So when someone pricing new vinyl plank for the main floor asks \"and how much to do the stairs too?\", the answer changes the quote by a thousand dollars or more. This post shows the math, what the plank and nosing add, and when stairs are a bad place for vinyl."
+  },
+  {
+   "type": "h2",
+   "text": "What the published numbers are"
+  },
+  {
+   "type": "prices",
+   "items": [
+    {
+     "icon": "stairs",
+     "tag": "Per tread and riser",
+     "price": "$100",
+     "unit": "/ stair",
+     "title": "Vinyl plank on stairs",
+     "text": "Labor to fit the tread, the riser and the stair nosing on one step. Includes cutting around balusters and skirt boards on a standard closed-stringer staircase.",
+     "gold": true
+    },
+    {
+     "icon": "layers",
+     "tag": "Open floor areas",
+     "price": "$2.50",
+     "unit": "/ sq ft",
+     "title": "Vinyl plank or laminate floors",
+     "text": "Installation labor for the rooms, halls and landings. 500 sq ft minimum. Landings are measured as floor area, not counted as stairs."
+    }
+   ],
+   "note": "From Wills Flooring's published price list. Plank material, stair nosing, underlayment, old carpet removal and subfloor prep are quoted at the free in-home estimate."
+  },
+  {
+   "type": "h2",
+   "text": "Three Kirkland staircases, with the math"
+  },
+  {
+   "type": "steps",
+   "wide": true,
+   "items": [
+    {
+     "icon": "home",
+     "d": "Juanita split-level · 900 sq ft + 13 stairs",
+     "text": "Main floor in vinyl plank plus the flight up to the bedrooms. Carpet removed from both.",
+     "note": "900 × $2.50 + 13 × $100 = $3,550 labor, plus plank and nosing"
+    },
+    {
+     "icon": "home",
+     "d": "Houghton townhome · 1,200 sq ft + 2 flights of 14",
+     "text": "Three levels, two staircases, one landing counted as floor area.",
+     "note": "1,200 × $2.50 + 28 × $100 = $5,800 labor, plus materials"
+    },
+    {
+     "icon": "home",
+     "d": "Rose Hill rambler · 650 sq ft + 4 steps to the family room",
+     "text": "Short step-down between the kitchen and the sunken family room, done to match the new floor.",
+     "note": "650 × $2.50 + 4 × $100 = $2,025 labor, plus materials"
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "What else is on a real stair invoice"
+  },
+  {
+   "type": "table",
+   "head": [
+    "Line item",
+    "How it is priced",
+    "Notes for Kirkland stairs"
+   ],
+   "rows": [
+    [
+     "Plank material",
+     "Per sq ft, quoted with samples",
+     "A standard 3 ft wide stair uses about 3 to 4 sq ft of plank per step including the riser, so 13 stairs need roughly 45 to 55 sq ft plus waste."
+    ],
+    [
+     "Stair nosing",
+     "Per piece, matched to the plank",
+     "One per step. Flush nosing looks best and costs more; overlap nosing is cheaper and adds a small lip. This is the biggest material variable on stairs."
+    ],
+    [
+     "Carpet, pad and tack strip removal",
+     "Quoted at the estimate",
+     "Hundreds of staples per flight. Most Kirkland staircases we see have carpet over bare plywood treads or over the original oak."
+    ],
+    [
+     "Squeak and tread repair",
+     "Quoted at the estimate",
+     "Split-level stairs from the 1970s often need treads re-screwed to the stringers before anything goes on top."
+    ],
+    [
+     "Riser finish",
+     "Included when planked; painting quoted",
+     "Risers can be planked to match or painted white for a two-tone look. Painted risers save a little material and read as more custom."
+    ],
+    [
+     "Open-sided or pie-shaped stairs",
+     "Quoted at the estimate",
+     "Returns on open ends and angled treads take extra fitting. Common in Bridle Trails and lakefront homes with sweeping stairs."
+    ]
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "Price your Kirkland floor and stairs right now"
+  },
+  {
+   "type": "calc",
+   "kind": "lvp",
+   "note": "Enter the tread count for every flight. Landings count as floor area. Nosing and plank are added at the estimate."
+  },
+  {
+   "type": "h2",
+   "text": "How a vinyl plank staircase is actually built"
+  },
+  {
+   "type": "list",
+   "icons": true,
+   "items": [
+    {
+     "icon": "scissors",
+     "html": "<strong>Strip and prep.</strong> Carpet, pad, tack strip and staples come off. Treads are checked for level and screwed tight. Any old overhang that would trap the new nosing is cut back flush with the riser."
+    },
+    {
+     "icon": "layers",
+     "html": "<strong>Risers first.</strong> Each riser is cut to fit the skirt boards and glued in place. Getting the riser tight to the tread above hides the seam."
+    },
+    {
+     "icon": "ruler",
+     "html": "<strong>Treads cut to the room, not to a template.</strong> Split-level stairs are rarely square. Each tread is scribed to its own skirt boards, which is where the $100 per stair goes."
+    },
+    {
+     "icon": "lock",
+     "html": "<strong>Glue, not click.</strong> Floating click planks are fine on floors but a stair tread must never move. Treads and nosings are set in construction adhesive, and the nosing is also fastened through the face or from below."
+    },
+    {
+     "icon": "done",
+     "html": "<strong>Nosing last, then caulk.</strong> The stair nose caps the front edge and takes the hardest wear. A matching color-matched caulk at the skirt board finishes it."
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "When vinyl plank on stairs is the wrong call"
+  },
+  {
+   "type": "compare",
+   "a": {
+    "icon": "done",
+    "tag": "Vinyl plank stairs",
+    "title": "A good fit when",
+    "items": [
+     "The same plank runs on the floor above and below, so the stairs tie the levels together",
+     "The staircase is closed on both sides with straight treads",
+     "Dogs, kids or a rental make carpet a cleaning problem",
+     "You want a hard surface on a budget well under hardwood"
+    ]
+   },
+   "b": {
+    "icon": "x",
+    "tag": "Think twice",
+    "title": "Consider carpet or hardwood when",
+    "items": [
+     "The staircase is the showpiece of an open Bridle Trails or lakefront entry where buyers expect real wood",
+     "Treads are open-sided with returns, curved or pie-shaped; fitting costs climb fast and seams show",
+     "Anyone in the house is unsteady on their feet; a hard smooth tread is slipperier than carpet",
+     "There is original oak under the carpet that could be refinished at $55 to $75 per tread instead"
+    ]
+   }
+  },
+  {
+   "type": "callout",
+   "icon": "alert",
+   "title": "Check what is under the carpet first: ",
+   "text": "A surprising number of Kirkland split-levels from the 1970s have solid oak treads under the carpet. If they are sound, refinishing them and running vinyl plank on the floors only is often cheaper than planking the stairs and looks more expensive. We pull a corner of carpet at the estimate to find out."
+  },
+  {
+   "type": "h2",
+   "text": "Questions to ask before you sign a stair quote"
+  },
+  {
+   "type": "ul",
+   "items": [
+    "Is the nosing flush or overlap, and is it the same manufacturer as the plank?",
+    "Are treads glued and fastened, or just floating?",
+    "Does the count include the top step onto the landing?",
+    "What happens if the treads squeak or are out of level once the carpet is off?",
+    "Is old carpet removal and disposal in the price or a separate line?"
+   ]
+  },
+  {
+   "type": "p",
+   "html": "If you are still weighing carpet against a hard surface for the stairs, our post on <a href=\"/blog-posts/what-is-the-best-carpet-for-stairs-lynnwood\">the best carpet for stairs</a> covers the other side of the decision. Either way, the free in-home estimate includes a look under the existing carpet so the quote you get is the price you pay."
+  }
  ],
  "faq": [
-  {"q":"How much does it cost to put vinyl plank on 13 stairs?","a":"At Wills Flooring's published rate of $100 per stair, 13 stairs is $1,300 in labor. Add the plank itself, roughly 45 to 55 sq ft including risers and waste, and 13 pieces of matching stair nosing. Old carpet removal and any tread repairs are quoted at the free estimate."},
-  {"q":"Why do stairs cost so much more per square foot than floors?","a":"A stair step is three separate cuts fitted by hand: the tread scribed to both skirt boards, the riser, and the nosing. A 3 sq ft step takes as long as 40 to 50 sq ft of open floor. On floors we install at $2.50 per sq ft; on stairs the same time is billed at $100 per step."},
-  {"q":"Can you use click-lock vinyl plank on stairs?","a":"You can use the planks, but not the click method. Stairs must be glued down so nothing shifts under foot, and the stair nosing has to be fastened, not floated. We install stair treads in construction adhesive and fasten the nosing even when the same plank floats on the floors."},
-  {"q":"Do I need special stair nosing for vinyl plank?","a":"Yes. Stair nosing is a molded piece that caps the front edge of each tread and takes the most wear on the staircase. Flush nosing sits level with the plank and looks like a solid tread; overlap nosing is cheaper and leaves a small lip. Use the plank manufacturer's nosing so the color and wear layer match."},
-  {"q":"Is vinyl plank on stairs slippery?","a":"More than carpet, about the same as hardwood. Textured, matte planks with a low-gloss wear layer are the least slippery. Skip high-gloss planks on stairs, and for households with young kids or older parents, a stair runner over the plank or carpet on the stairs alone is a fair compromise."},
-  {"q":"Does the 500 sq ft minimum apply to stairs?","a":"The 500 sq ft minimum is a floor-area minimum and stairs are billed per step alongside it. Most of our Kirkland stair jobs come with a floor job, so the minimum is already met. For stairs on their own, we confirm the scope and price at the free estimate."}
+  {
+   "q": "How much does it cost to put vinyl plank on 13 stairs?",
+   "a": "At Wills Flooring's published rate of $100 per stair, 13 stairs is $1,300 in labor. Add the plank itself, roughly 45 to 55 sq ft including risers and waste, and 13 pieces of matching stair nosing. Old carpet removal and any tread repairs are quoted at the free estimate."
+  },
+  {
+   "q": "Why do stairs cost so much more per square foot than floors?",
+   "a": "A stair step is three separate cuts fitted by hand: the tread scribed to both skirt boards, the riser, and the nosing. A 3 sq ft step takes as long as 40 to 50 sq ft of open floor. On floors we install at $2.50 per sq ft; on stairs the same time is billed at $100 per step."
+  },
+  {
+   "q": "Can you use click-lock vinyl plank on stairs?",
+   "a": "You can use the planks, but not the click method. Stairs must be glued down so nothing shifts under foot, and the stair nosing has to be fastened, not floated. We install stair treads in construction adhesive and fasten the nosing even when the same plank floats on the floors."
+  },
+  {
+   "q": "Do I need special stair nosing for vinyl plank?",
+   "a": "Yes. Stair nosing is a molded piece that caps the front edge of each tread and takes the most wear on the staircase. Flush nosing sits level with the plank and looks like a solid tread; overlap nosing is cheaper and leaves a small lip. Use the plank manufacturer's nosing so the color and wear layer match."
+  },
+  {
+   "q": "Is vinyl plank on stairs slippery?",
+   "a": "More than carpet, about the same as hardwood. Textured, matte planks with a low-gloss wear layer are the least slippery. Skip high-gloss planks on stairs, and for households with young kids or older parents, a stair runner over the plank or carpet on the stairs alone is a fair compromise."
+  },
+  {
+   "q": "Does the 500 sq ft minimum apply to stairs?",
+   "a": "The 500 sq ft minimum is a floor-area minimum and stairs are billed per step alongside it. Most of our Kirkland stair jobs come with a floor job, so the minimum is already met. For stairs on their own, we confirm the scope and price at the free estimate."
+  }
  ],
  "faq_title": "Vinyl plank stair questions from Kirkland",
  "faq_sub": "From Juanita split-levels to Houghton townhomes.",
- "related": [["click-lock-vs-glue-down-vinyl-plank-seattle","click-lock vs glue-down vinyl plank"],["how-much-does-it-cost-to-install-hardwood-on-stairs-in-kirkland","hardwood on stairs cost in Kirkland"],["how-thick-should-vinyl-plank-flooring-be-kirkland","how thick vinyl plank should be"]],
+ "related": [
+  [
+   "click-lock-vs-glue-down-vinyl-plank-seattle",
+   "click-lock vs glue-down vinyl plank"
+  ],
+  [
+   "how-much-does-it-cost-to-install-hardwood-on-stairs-in-kirkland",
+   "hardwood on stairs cost in Kirkland"
+  ],
+  [
+   "how-thick-should-vinyl-plank-flooring-be-kirkland",
+   "how thick vinyl plank should be"
+  ]
+ ],
  "cta_title": "Get a firm price for your floors and stairs",
  "cta_sub": "We bring plank and nosing samples to your Kirkland home, count every step, look under the carpet, and leave a written quote on the spot. Free, no obligation."
 }

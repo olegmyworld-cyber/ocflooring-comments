@@ -5,9 +5,20 @@
  "category": "carpet",
  "city": "Sammamish",
  "time": "8 mins",
- "date": "2027-01-06T15:00:00.000Z",
+ "date": "2027-01-12T15:00:00.000Z",
  "keywords": "wall to wall carpet vs area rug, area rug over hardwood floors, carpet or rug over hardwood, should I carpet over hardwood, carpet vs rug bedroom Sammamish",
- "offers": [["Carpet installation, stretch-in","0.99","per square foot"],["Carpet installation, glue-down","1.29","per square foot"]],
+ "offers": [
+  [
+   "Carpet installation, stretch-in",
+   "0.99",
+   "per square foot"
+  ],
+  [
+   "Carpet installation, glue-down",
+   "1.29",
+   "per square foot"
+  ]
+ ],
  "blocks": [
   {
    "type": "quick",

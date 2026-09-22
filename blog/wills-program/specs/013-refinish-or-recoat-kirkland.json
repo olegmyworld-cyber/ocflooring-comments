@@ -5,80 +5,397 @@
  "category": "refinish",
  "city": "Kirkland",
  "time": "8 mins",
- "date": "2026-09-29T15:00:00.000Z",
+ "date": "2026-10-05T15:00:00.000Z",
  "keywords": "refinish or recoat hardwood floors, screen and recoat vs refinish, hardwood floor recoat Kirkland WA, do my hardwood floors need refinishing, buff and coat hardwood floors cost",
- "offers": [["Sand and refinish, natural finish", "3.99", "per square foot"], ["Sand and refinish with stain", "6.50", "per square foot"], ["Screen and recoat", "1.99", "per square foot"]],
+ "offers": [
+  [
+   "Sand and refinish, natural finish",
+   "3.99",
+   "per square foot"
+  ],
+  [
+   "Sand and refinish with stain",
+   "6.50",
+   "per square foot"
+  ],
+  [
+   "Screen and recoat",
+   "1.99",
+   "per square foot"
+  ]
+ ],
  "blocks": [
-  {"type":"quick","eyebrow":"Short answer","lead":"If your finish is dull or lightly scratched but no bare wood shows, you need a screen and recoat at $1.99 per sq ft. If scratches reach the wood, boards have gone gray, or you want a different color, you need a full sand and refinish at $3.99 natural or $6.50 with stain.","detail":"The difference is not cosmetic. A recoat adds one coat of finish on top of the old one. A refinish removes everything and starts over with three coats. Pick wrong in either direction and you either waste money or watch a new coat peel.",
-   "tiles":[{"icon":"refresh","label":"Screen and recoat","value":"$1.99 / sq ft"},{"icon":"brush","label":"Sand and refinish","value":"$3.99 / sq ft"},{"icon":"palette","label":"Refinish with stain","value":"$6.50 / sq ft"},{"icon":"ruler","label":"Minimum","value":"500 sq ft"}],"cta":"Try the calculator"},
-  {"type":"p","html":"A common Reddit thread asks: \"My oak floors look tired and scratched, does that mean sanding?\" Usually not. Most of the 1980s and 1990s oak we see in Kirkland, in Juanita, Rose Hill and Totem Lake, has a worn top coat and a perfectly good floor under it. The trouble is that a recoat pays a contractor half as much, so some crews never mention it, while others recoat floors that should have been sanded and the coat fails within a year. Here is how we decide, and how you can check before anyone comes out."},
-  {"type":"h2","text":"Three tests you can do in ten minutes"},
-  {"type":"steps","wide":true,"items":[
-    {"icon":"droplet","d":"1. The water drop test","text":"Put a few drops of water on the worst traffic lane, near the kitchen sink and inside the front door. If it beads for two or three minutes, the finish is intact. If it soaks in and the wood darkens, the finish is gone and a recoat cannot help.","note":"Test the bad spots, not the middle of the living room."},
-    {"icon":"search","d":"2. The scratch test","text":"Look at a scratch in raking light from a flashlight. If the scratch is the same color as the floor, it is only in the finish. If it shows lighter raw wood inside, the wood is exposed.","note":"White-looking scratches in the finish are recoat territory."},
-    {"icon":"mop","d":"3. The residue test","text":"Wipe a hidden patch with a rag and a little mineral spirits. A cloudy, gummy residue means the floor has been treated with a polish or acrylic restorer. New finish will not bond to that and a recoat will peel.","note":"Bona Polish, Rejuvenate and Mop &amp; Glo are the usual culprits."}
-  ]},
-  {"type":"p","html":"If the water beads, the scratches are finish-only and the rag comes back clean, you are almost certainly a recoat. If any one of the three fails, keep reading, because the answer shifts to a refinish."},
-  {"type":"h2","text":"What a recoat can and cannot fix"},
-  {"type":"table","head":["What you see","Recoat","Refinish"],"rows":[
-    ["Dull, hazy or cloudy finish","Yes","Not needed"],
-    ["Fine surface scratches, vacuum and chair marks","Yes","Not needed"],
-    ["Scratches showing raw wood","No","Yes"],
-    ["Gray or black boards near doors and sinks","No","Yes, sometimes with board replacement"],
-    ["Pet stains, water rings","No","Yes, if they have not gone deep"],
-    ["You want a lighter or darker color","No","Yes, stain at $6.50 per sq ft"],
-    ["Cupping, gouges, loose boards","No","Yes, plus repairs"],
-    ["Polish or acrylic residue on the floor","Only after a chemical strip","Yes"],
-    ["Factory prefinished floor with aluminum oxide","Yes, with special abrasion","Yes"]
-  ],"note":"A recoat renews the protective layer. It does not remove anything below it. Whatever you see in the wood today, you will still see under the new coat, just shinier."},
-  {"type":"h2","text":"Price your Kirkland floor right now"},
-  {"type":"calc","kind":"refinish","note":"Run it twice: once on Recoat and once on Natural. The gap is what the water drop test is really deciding for you."},
-  {"type":"p","html":"For a 1,100 sq ft Juanita rambler, the two paths are 1,100 × $1.99 = $2,189 for a recoat and 1,100 × $3.99 = $4,389 for a natural refinish. That $2,200 difference is exactly why it is worth ten minutes with a glass of water and a flashlight."},
-  {"type":"h2","text":"Not sure? Answer four questions"},
-  {"type":"quiz","title":"Recoat or refinish: the quick verdict","sub":"Answer honestly. We give the same answer at the estimate.","min":4,
-   "items":[
-    {"k":"wood","q":"Can you see raw, lighter wood in any scratch or traffic lane?","opts":[["yes","Yes"],["no","No"]]},
-    {"k":"polish","q":"Has anyone used a floor polish or restorer product on it?","opts":[["yes","Yes or not sure"],["no","Never"]]},
-    {"k":"color","q":"Do you want to change the color?","opts":[["yes","Yes"],["no","Keep it"]]},
-    {"k":"stains","q":"Any gray boards, pet stains or water marks?","opts":[["yes","Yes"],["no","No"]]}
+  {
+   "type": "quick",
+   "eyebrow": "Short answer",
+   "lead": "If your finish is dull or lightly scratched but no bare wood shows, you need a screen and recoat at $1.99 per sq ft. If scratches reach the wood, boards have gone gray, or you want a different color, you need a full sand and refinish at $3.99 natural or $6.50 with stain.",
+   "detail": "The difference is not cosmetic. A recoat adds one coat of finish on top of the old one. A refinish removes everything and starts over with three coats. Pick wrong in either direction and you either waste money or watch a new coat peel.",
+   "tiles": [
+    {
+     "icon": "refresh",
+     "label": "Screen and recoat",
+     "value": "$1.99 / sq ft"
+    },
+    {
+     "icon": "brush",
+     "label": "Sand and refinish",
+     "value": "$3.99 / sq ft"
+    },
+    {
+     "icon": "palette",
+     "label": "Refinish with stain",
+     "value": "$6.50 / sq ft"
+    },
+    {
+     "icon": "ruler",
+     "label": "Minimum",
+     "value": "500 sq ft"
+    }
    ],
-   "rules":[
-    {"when":"a.color==='yes'","h":"Sand, stain and finish","p":"A color change means removing the old finish completely. That is a full sand at $6.50 per sq ft with stain, or $3.99 if you decide to go natural after seeing the bare oak."},
-    {"when":"a.wood==='yes'||a.stains==='yes'","h":"Full sand and refinish","p":"Exposed wood or discolored boards are below the finish, so a recoat would seal them in. Plan on the natural refinish at $3.99 per sq ft, with any board replacement quoted at the estimate."},
-    {"when":"a.polish==='yes'","h":"Recoat, but only after a strip","p":"Your floor may qualify for a recoat, but polish residue has to come off first or the new coat will peel. We test a patch at the estimate and price the strip before touching the floor."}
+   "cta": "Try the calculator"
+  },
+  {
+   "type": "p",
+   "html": "A common Reddit thread asks: \"My oak floors look tired and scratched, does that mean sanding?\" Usually not. Most of the 1980s and 1990s oak we see in Kirkland, in Juanita, Rose Hill and Totem Lake, has a worn top coat and a perfectly good floor under it. The trouble is that a recoat pays a contractor half as much, so some crews never mention it, while others recoat floors that should have been sanded and the coat fails within a year. Here is how we decide, and how you can check before anyone comes out."
+  },
+  {
+   "type": "h2",
+   "text": "Three tests you can do in ten minutes"
+  },
+  {
+   "type": "steps",
+   "wide": true,
+   "items": [
+    {
+     "icon": "droplet",
+     "d": "1. The water drop test",
+     "text": "Put a few drops of water on the worst traffic lane, near the kitchen sink and inside the front door. If it beads for two or three minutes, the finish is intact. If it soaks in and the wood darkens, the finish is gone and a recoat cannot help.",
+     "note": "Test the bad spots, not the middle of the living room."
+    },
+    {
+     "icon": "search",
+     "d": "2. The scratch test",
+     "text": "Look at a scratch in raking light from a flashlight. If the scratch is the same color as the floor, it is only in the finish. If it shows lighter raw wood inside, the wood is exposed.",
+     "note": "White-looking scratches in the finish are recoat territory."
+    },
+    {
+     "icon": "mop",
+     "d": "3. The residue test",
+     "text": "Wipe a hidden patch with a rag and a little mineral spirits. A cloudy, gummy residue means the floor has been treated with a polish or acrylic restorer. New finish will not bond to that and a recoat will peel.",
+     "note": "Bona Polish, Rejuvenate and Mop &amp; Glo are the usual culprits."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "html": "If the water beads, the scratches are finish-only and the rag comes back clean, you are almost certainly a recoat. If any one of the three fails, keep reading, because the answer shifts to a refinish."
+  },
+  {
+   "type": "h2",
+   "text": "What a recoat can and cannot fix"
+  },
+  {
+   "type": "table",
+   "head": [
+    "What you see",
+    "Recoat",
+    "Refinish"
    ],
-   "default":{"h":"Screen and recoat","p":"Intact finish, no contamination, same color: this is the $1.99 per sq ft job. One day, no sanding dust, and the floor looks new by evening."}},
-  {"type":"h2","text":"Why Kirkland homeowners get sold the wrong one"},
-  {"type":"cards","cols":2,"items":[
-    {"icon":"dollar","title":"The recoat is half the ticket","text":"At $1.99 versus $3.99 per sq ft, a recoat is less than half the revenue for the contractor on the same house. Some companies simply do not offer it. If a quote arrives with only a sanding price and nobody put water on your floor, ask why.","gold":false},
-    {"icon":"alert","title":"The recoat that peels","text":"The opposite failure is a crew that recoats over polish or over a worn-through finish because it was the quick sale. Within months the new coat flakes in sheets at the traffic lanes. Fixing it means a full sand anyway, so you have paid twice.","gold":false},
-    {"icon":"calendar","title":"The maintenance math","text":"A floor recoated every 5 to 8 years may never need sanding again. A floor that is left until bare wood shows needs a full sand every 15 to 20 years, and oak only has so many sandings in it. The cheap job is also the one that preserves the floor.","gold":true},
-    {"icon":"key","title":"Kirkland resale expectations","text":"Buyers in Houghton and Bridle Trails expect floors that photograph well. If your floor passes the three tests, a recoat the week before listing is the cheapest cosmetic upgrade in the house, and it is done in a day.","gold":false}
-  ]},
-  {"type":"h2","text":"What each job looks like in your house"},
-  {"type":"compare","a":{"icon":"refresh","tag":"Screen and recoat","title":"What to expect","items":["One day on site, sometimes a half day","Buffer with a fine screen, then one coat of Bona water-based finish","Almost no dust; furniture out of the room, not out of the house","Walk in socks that evening, furniture back the next day","Same color, same wood, renewed sheen"]},
-   "b":{"icon":"brush","tag":"Sand and refinish","title":"What to expect","items":["Three to four days, five with stain","Sanded to bare wood, then three coats","Vacuum-connected sanders; add $250 for full dust containment","Socks after 24 hours, furniture after 72","Any color, scratches and stains gone, stairs done to match"]}},
-  {"type":"callout","icon":"alert","title":"Before we come out: ","text":"Do not use a shine or restorer product to make the floor look better for the estimate. It hides what we need to see, and if it is an acrylic polish it can turn a $1.99 recoat into a stripping job. Just sweep and leave the floor honest."},
-  {"type":"h2","text":"Mistakes that turn a $1.99 job into a $3.99 job"},
-  {"type":"list","icons":true,"items":[
-    {"icon":"clock","html":"<strong>Waiting one more year.</strong> The finish protects the wood. Once the water soaks in at the back door, that board is graying and the recoat window has closed for the whole room."},
-    {"icon":"x","html":"<strong>Using polish products.</strong> They give six weeks of shine and then a permanent bonding problem. Clean with a pH-neutral hardwood cleaner and nothing else."},
-    {"icon":"hammer","html":"<strong>DIY recoating a prefinished floor.</strong> Factory aluminum oxide finishes are harder than the abrasives in a rental buffer. The coat looks fine for a month and then flakes. It needs the right abrasive and an adhesion test."},
-    {"icon":"paw","html":"<strong>Ignoring the one pet spot.</strong> A single dark spot can often be replaced with a matching board and blended during a refinish. Recoated over, it is sealed in for another decade."},
-    {"icon":"clipboard","html":"<strong>Skipping the adhesion test.</strong> Our Bona Certified Craftsmen apply a test patch in a closet before any recoat. If it does not bond, we tell you and re-quote. Read more about <a href=\"/services/floor-refinish\">how we refinish floors</a> before booking."}
-  ]}
+   "rows": [
+    [
+     "Dull, hazy or cloudy finish",
+     "Yes",
+     "Not needed"
+    ],
+    [
+     "Fine surface scratches, vacuum and chair marks",
+     "Yes",
+     "Not needed"
+    ],
+    [
+     "Scratches showing raw wood",
+     "No",
+     "Yes"
+    ],
+    [
+     "Gray or black boards near doors and sinks",
+     "No",
+     "Yes, sometimes with board replacement"
+    ],
+    [
+     "Pet stains, water rings",
+     "No",
+     "Yes, if they have not gone deep"
+    ],
+    [
+     "You want a lighter or darker color",
+     "No",
+     "Yes, stain at $6.50 per sq ft"
+    ],
+    [
+     "Cupping, gouges, loose boards",
+     "No",
+     "Yes, plus repairs"
+    ],
+    [
+     "Polish or acrylic residue on the floor",
+     "Only after a chemical strip",
+     "Yes"
+    ],
+    [
+     "Factory prefinished floor with aluminum oxide",
+     "Yes, with special abrasion",
+     "Yes"
+    ]
+   ],
+   "note": "A recoat renews the protective layer. It does not remove anything below it. Whatever you see in the wood today, you will still see under the new coat, just shinier."
+  },
+  {
+   "type": "h2",
+   "text": "Price your Kirkland floor right now"
+  },
+  {
+   "type": "calc",
+   "kind": "refinish",
+   "note": "Run it twice: once on Recoat and once on Natural. The gap is what the water drop test is really deciding for you."
+  },
+  {
+   "type": "p",
+   "html": "For a 1,100 sq ft Juanita rambler, the two paths are 1,100 × $1.99 = $2,189 for a recoat and 1,100 × $3.99 = $4,389 for a natural refinish. That $2,200 difference is exactly why it is worth ten minutes with a glass of water and a flashlight."
+  },
+  {
+   "type": "h2",
+   "text": "Not sure? Answer four questions"
+  },
+  {
+   "type": "quiz",
+   "title": "Recoat or refinish: the quick verdict",
+   "sub": "Answer honestly. We give the same answer at the estimate.",
+   "min": 4,
+   "items": [
+    {
+     "k": "wood",
+     "q": "Can you see raw, lighter wood in any scratch or traffic lane?",
+     "opts": [
+      [
+       "yes",
+       "Yes"
+      ],
+      [
+       "no",
+       "No"
+      ]
+     ]
+    },
+    {
+     "k": "polish",
+     "q": "Has anyone used a floor polish or restorer product on it?",
+     "opts": [
+      [
+       "yes",
+       "Yes or not sure"
+      ],
+      [
+       "no",
+       "Never"
+      ]
+     ]
+    },
+    {
+     "k": "color",
+     "q": "Do you want to change the color?",
+     "opts": [
+      [
+       "yes",
+       "Yes"
+      ],
+      [
+       "no",
+       "Keep it"
+      ]
+     ]
+    },
+    {
+     "k": "stains",
+     "q": "Any gray boards, pet stains or water marks?",
+     "opts": [
+      [
+       "yes",
+       "Yes"
+      ],
+      [
+       "no",
+       "No"
+      ]
+     ]
+    }
+   ],
+   "rules": [
+    {
+     "when": "a.color==='yes'",
+     "h": "Sand, stain and finish",
+     "p": "A color change means removing the old finish completely. That is a full sand at $6.50 per sq ft with stain, or $3.99 if you decide to go natural after seeing the bare oak."
+    },
+    {
+     "when": "a.wood==='yes'||a.stains==='yes'",
+     "h": "Full sand and refinish",
+     "p": "Exposed wood or discolored boards are below the finish, so a recoat would seal them in. Plan on the natural refinish at $3.99 per sq ft, with any board replacement quoted at the estimate."
+    },
+    {
+     "when": "a.polish==='yes'",
+     "h": "Recoat, but only after a strip",
+     "p": "Your floor may qualify for a recoat, but polish residue has to come off first or the new coat will peel. We test a patch at the estimate and price the strip before touching the floor."
+    }
+   ],
+   "default": {
+    "h": "Screen and recoat",
+    "p": "Intact finish, no contamination, same color: this is the $1.99 per sq ft job. One day, no sanding dust, and the floor looks new by evening."
+   }
+  },
+  {
+   "type": "h2",
+   "text": "Why Kirkland homeowners get sold the wrong one"
+  },
+  {
+   "type": "cards",
+   "cols": 2,
+   "items": [
+    {
+     "icon": "dollar",
+     "title": "The recoat is half the ticket",
+     "text": "At $1.99 versus $3.99 per sq ft, a recoat is less than half the revenue for the contractor on the same house. Some companies simply do not offer it. If a quote arrives with only a sanding price and nobody put water on your floor, ask why.",
+     "gold": false
+    },
+    {
+     "icon": "alert",
+     "title": "The recoat that peels",
+     "text": "The opposite failure is a crew that recoats over polish or over a worn-through finish because it was the quick sale. Within months the new coat flakes in sheets at the traffic lanes. Fixing it means a full sand anyway, so you have paid twice.",
+     "gold": false
+    },
+    {
+     "icon": "calendar",
+     "title": "The maintenance math",
+     "text": "A floor recoated every 5 to 8 years may never need sanding again. A floor that is left until bare wood shows needs a full sand every 15 to 20 years, and oak only has so many sandings in it. The cheap job is also the one that preserves the floor.",
+     "gold": true
+    },
+    {
+     "icon": "key",
+     "title": "Kirkland resale expectations",
+     "text": "Buyers in Houghton and Bridle Trails expect floors that photograph well. If your floor passes the three tests, a recoat the week before listing is the cheapest cosmetic upgrade in the house, and it is done in a day.",
+     "gold": false
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "What each job looks like in your house"
+  },
+  {
+   "type": "compare",
+   "a": {
+    "icon": "refresh",
+    "tag": "Screen and recoat",
+    "title": "What to expect",
+    "items": [
+     "One day on site, sometimes a half day",
+     "Buffer with a fine screen, then one coat of Bona water-based finish",
+     "Almost no dust; furniture out of the room, not out of the house",
+     "Walk in socks that evening, furniture back the next day",
+     "Same color, same wood, renewed sheen"
+    ]
+   },
+   "b": {
+    "icon": "brush",
+    "tag": "Sand and refinish",
+    "title": "What to expect",
+    "items": [
+     "Three to four days, five with stain",
+     "Sanded to bare wood, then three coats",
+     "Vacuum-connected sanders; add $250 for full dust containment",
+     "Socks after 24 hours, furniture after 72",
+     "Any color, scratches and stains gone, stairs done to match"
+    ]
+   }
+  },
+  {
+   "type": "callout",
+   "icon": "alert",
+   "title": "Before we come out: ",
+   "text": "Do not use a shine or restorer product to make the floor look better for the estimate. It hides what we need to see, and if it is an acrylic polish it can turn a $1.99 recoat into a stripping job. Just sweep and leave the floor honest."
+  },
+  {
+   "type": "h2",
+   "text": "Mistakes that turn a $1.99 job into a $3.99 job"
+  },
+  {
+   "type": "list",
+   "icons": true,
+   "items": [
+    {
+     "icon": "clock",
+     "html": "<strong>Waiting one more year.</strong> The finish protects the wood. Once the water soaks in at the back door, that board is graying and the recoat window has closed for the whole room."
+    },
+    {
+     "icon": "x",
+     "html": "<strong>Using polish products.</strong> They give six weeks of shine and then a permanent bonding problem. Clean with a pH-neutral hardwood cleaner and nothing else."
+    },
+    {
+     "icon": "hammer",
+     "html": "<strong>DIY recoating a prefinished floor.</strong> Factory aluminum oxide finishes are harder than the abrasives in a rental buffer. The coat looks fine for a month and then flakes. It needs the right abrasive and an adhesion test."
+    },
+    {
+     "icon": "paw",
+     "html": "<strong>Ignoring the one pet spot.</strong> A single dark spot can often be replaced with a matching board and blended during a refinish. Recoated over, it is sealed in for another decade."
+    },
+    {
+     "icon": "clipboard",
+     "html": "<strong>Skipping the adhesion test.</strong> Our Bona Certified Craftsmen apply a test patch in a closet before any recoat. If it does not bond, we tell you and re-quote. Read more about <a href=\"/services/floor-refinish\">how we refinish floors</a> before booking."
+    }
+   ]
+  }
  ],
  "faq": [
-  {"q":"How often should hardwood floors be recoated?","a":"Every 5 to 8 years in a typical Kirkland family home, sooner in a house with large dogs or a lot of traffic through the kitchen. The rule is to recoat while the water drop test still passes. Once water soaks in, you have moved from recoat to refinish."},
-  {"q":"Can a recoat remove scratches?","a":"Only scratches that are in the finish itself. Screening levels those out and the new coat fills them. Scratches that reach the wood will still be visible, although a fresh coat of finish makes them less obvious. Deep scratches need a sand."},
-  {"q":"Can you recoat a prefinished hardwood floor?","a":"Yes, but not with a standard screen. Factory finishes with aluminum oxide need a specific abrasion and often a bonding agent. We test a patch first. Most 1990s and 2000s prefinished oak floors in Kirkland recoat well when prepared correctly."},
-  {"q":"Does a recoat change the color of the floor?","a":"No. Bona water-based finish is clear and stays clear, so the floor keeps its current color and only regains sheen and protection. If the floor currently has an oil-based finish, a water-based recoat will not add more amber over time."},
-  {"q":"Can I recoat just one room?","a":"Yes, and it usually blends well because the color does not change. The 500 sq ft minimum still applies, so a single 250 sq ft room is billed at 500. Most people add the hallway or a second room to use the minimum fully."},
-  {"q":"How long does a screen and recoat take?","a":"Most homes are finished in one day. The floor is walkable in socks the same evening and can take furniture the next day. A full refinish takes three to four days plus cure time, so the recoat also wins on disruption."}
+  {
+   "q": "How often should hardwood floors be recoated?",
+   "a": "Every 5 to 8 years in a typical Kirkland family home, sooner in a house with large dogs or a lot of traffic through the kitchen. The rule is to recoat while the water drop test still passes. Once water soaks in, you have moved from recoat to refinish."
+  },
+  {
+   "q": "Can a recoat remove scratches?",
+   "a": "Only scratches that are in the finish itself. Screening levels those out and the new coat fills them. Scratches that reach the wood will still be visible, although a fresh coat of finish makes them less obvious. Deep scratches need a sand."
+  },
+  {
+   "q": "Can you recoat a prefinished hardwood floor?",
+   "a": "Yes, but not with a standard screen. Factory finishes with aluminum oxide need a specific abrasion and often a bonding agent. We test a patch first. Most 1990s and 2000s prefinished oak floors in Kirkland recoat well when prepared correctly."
+  },
+  {
+   "q": "Does a recoat change the color of the floor?",
+   "a": "No. Bona water-based finish is clear and stays clear, so the floor keeps its current color and only regains sheen and protection. If the floor currently has an oil-based finish, a water-based recoat will not add more amber over time."
+  },
+  {
+   "q": "Can I recoat just one room?",
+   "a": "Yes, and it usually blends well because the color does not change. The 500 sq ft minimum still applies, so a single 250 sq ft room is billed at 500. Most people add the hallway or a second room to use the minimum fully."
+  },
+  {
+   "q": "How long does a screen and recoat take?",
+   "a": "Most homes are finished in one day. The floor is walkable in socks the same evening and can take furniture the next day. A full refinish takes three to four days plus cure time, so the recoat also wins on disruption."
+  }
  ],
  "faq_title": "Recoat questions from Kirkland homeowners",
  "faq_sub": "The ones we answer at the door before the water drop test.",
- "related": [["screening-vs-buffing-vs-sanding-hardwood-floors-lynnwood","screening vs buffing vs sanding explained"],["how-to-fix-scratches-in-hardwood-floors-without-a-full-refinish-kirkland","fixing scratches without a full refinish"],["can-my-hardwood-floors-be-refinished-or-do-they-need-replacing-everett","refinish or replace checklist"]],
+ "related": [
+  [
+   "screening-vs-buffing-vs-sanding-hardwood-floors-lynnwood",
+   "screening vs buffing vs sanding explained"
+  ],
+  [
+   "how-to-fix-scratches-in-hardwood-floors-without-a-full-refinish-kirkland",
+   "fixing scratches without a full refinish"
+  ],
+  [
+   "can-my-hardwood-floors-be-refinished-or-do-they-need-replacing-everett",
+   "refinish or replace checklist"
+  ]
+ ],
  "cta_title": "Let us do the water drop test with you",
  "cta_sub": "Free in-home estimate anywhere in Kirkland. We test the finish, check for polish residue and tell you honestly whether it is a $1.99 or a $3.99 job."
 }

@@ -5,63 +5,295 @@
  "category": "refinish",
  "city": "Edmonds",
  "time": "8 mins",
- "date": "2026-12-26T15:00:00.000Z",
+ "date": "2027-01-01T15:00:00.000Z",
  "keywords": "are refinished hardwood floors safe for babies, hardwood floor finish VOCs pets, how long after refinishing floors is it safe for baby, Bona finish safe for pets, low VOC floor finish, refinishing floors with a newborn",
- "offers": [["Sand and refinish, natural finish", "3.99", "per square foot"], ["Sand and refinish with stain", "6.50", "per square foot"], ["Screen and recoat", "1.99", "per square foot"]],
+ "offers": [
+  [
+   "Sand and refinish, natural finish",
+   "3.99",
+   "per square foot"
+  ],
+  [
+   "Sand and refinish with stain",
+   "6.50",
+   "per square foot"
+  ],
+  [
+   "Screen and recoat",
+   "1.99",
+   "per square foot"
+  ]
+ ],
  "blocks": [
-  {"type":"quick","eyebrow":"Short answer","lead":"Yes. Refinished hardwood floors finished with Bona water-based products are safe for babies and pets once cured: keep everyone off for 24 hours, keep pets and crawlers off for 72, and treat the floor as fully cured after 7 days.","detail":"The finish we use is low-VOC and GREENGUARD Gold certified for indoor air quality, a fraction of the fumes of traditional oil-based polyurethane. The real exposure risks are sanding dust and the first day of finish odor, and both are managed by leaving the house during the work and airing it out. Our published rate is $3.99 per sq ft, the same finish for every household.",
-   "tiles":[{"icon":"clock","label":"Walk in socks","value":"24 hours"},{"icon":"paw","label":"Pets and crawlers","value":"72 hours"},{"icon":"calendar","label":"Fully cured","value":"7 days"},{"icon":"dollar","label":"Natural refinish","value":"$3.99 / sq ft"}],"cta":"Try the calculator"},
-  {"type":"p","html":"Edmonds has two households asking this question. Young families buying a 1950s Seaview or Westgate rambler with oak under the carpet, often with a baby on the way, and retirees in the Bowl with a dog who has the run of the house. Both hear \"polyurethane\" and picture the headache-inducing fumes of a 1980s refinish. That product still exists, but we do not use it. Here is what is in the air on each day of a refinish, when it is gone, and how to plan around a newborn or a nervous dog."},
-  {"type":"h2","text":"What is actually in the air, day by day"},
-  {"type":"cards","cols":2,"items":[
-    {"icon":"wind","title":"Sanding day: wood dust","text":"The biggest exposure of the whole job, and it has nothing to do with finish. Fine dust from old finish and oak is an irritant, and a real problem for infants and pets. Our sanders run on vacuum systems; the $250 dust containment option adds sealed doorways and an air scrubber."},
-    {"icon":"droplet","title":"Coat days: water-based finish","text":"Bona water-based finishes cure by evaporation of water and a small amount of solvent. There is a mild odor for a few hours after each coat that is gone by the next morning with the windows cracked. No lingering solvent smell."},
-    {"icon":"palette","title":"If you stain: an extra day","text":"Stain is the most solvent-heavy step in a refinish. Oil-based stains carry more VOCs and need an overnight dry before finish goes on. If you have a newborn, a natural finish with no stain removes this step entirely."},
-    {"icon":"alert","title":"Old finishes and lead","text":"Homes built before 1978, which includes most of the Bowl and Seaview, can have lead paint on stair edges, baseboards and painted floor borders. We identify painted wood before sanding and handle it separately. Never let anyone sand painted trim in an occupied home without checking."}
-  ]},
-  {"type":"h2","text":"The cure timeline and what it means for your household"},
-  {"type":"table","head":["When","The floor","Baby","Dog or cat"],"rows":[
-    ["Sanding day","Bare wood, dust in the air","Out of the house","Out of the house"],
-    ["Coat days (2 to 3 days)","Wet finish, mild odor for hours","Out of the house, or upstairs with doors closed and windows open","Out of the house; wet finish and paws are a bad mix"],
-    ["24 hours after last coat","Dry to the touch, walk in socks","Carried, not crawling","Still off; nails dent soft finish"],
-    ["72 hours","Hard enough for furniture","Crawling and playing is fine","Back on the floor, nails trimmed"],
-    ["7 days","Fully cured","Everything normal, rugs down","Everything normal, water bowls on a mat"],
-    ["14 days","Full chemical resistance","Wipe spills normally","Accidents wipe up without marking"]
-   ],"note":"Water-based finish cures fast but keeps hardening for two weeks. Soft finish under a dog's nails on day two is the most common way a new floor gets marked."},
-  {"type":"h2","text":"Price your Edmonds refinish right now"},
-  {"type":"calc","kind":"refinish","note":"Add dust containment for any home with an infant, a pet that stays, or allergies. It is the single most useful add-on for air quality during the job."},
-  {"type":"h2","text":"Water-based Bona vs oil-based polyurethane"},
-  {"type":"compare","a":{"icon":"done","tag":"Bona water-based, what we use","title":"Why it is the family choice","items":["Low VOC, GREENGUARD Gold certified for indoor air","Odor gone within hours of each coat","Walk in 24 hours, furniture in 72, full cure in 7 days","Does not amber, so the light oak stays light","Three coats in a single visit"]},
-    "b":{"icon":"x","tag":"Oil-based polyurethane","title":"Why we do not use it in occupied homes","items":["Strong solvent odor that lingers for days, sometimes weeks","VOC levels several times higher","Each coat needs a day or more to dry; cure runs to 30 days","Ambers noticeably over time","Not suitable for a home with a newborn or asthma"]}},
-  {"type":"callout","icon":"alert","title":"About the word \"non-toxic\": ","text":"No floor finish is safe to breathe while it is wet, water-based included. What makes Bona water-based safe for families is that the exposure window is short and the cured film is inert and certified for indoor air. Plan to be out during coats, ventilate after, and the finished floor is one of the cleanest surfaces in the house for a crawling baby."},
-  {"type":"h2","text":"How to plan a refinish around a baby or a pet"},
-  {"type":"steps","wide":true,"items":[
-    {"icon":"calendar","d":"Book three to five days away","text":"For a natural finish on a typical Edmonds rambler, plan for four nights out. Grandparents, a Kingston ferry trip, a friend's place. Boarding the dog is cheaper than repairing a floor."},
-    {"icon":"home","d":"Or split the house","text":"If you must stay, we can often do the main floor while the family lives upstairs with doors closed and a window open. Dust containment is required for this, and you still need to be out for the coat itself."},
-    {"icon":"wind","d":"Ventilate on return","text":"Open windows and run fans for the first afternoon back. Edmonds humidity near the water slows drying a little, so give the last coat the full 24 hours before walking on it."},
-    {"icon":"paw","d":"Trim nails before the dog comes home","text":"Day three finish is walkable but still hardening. Trimmed nails and a runner in the dog's favorite path for the first week prevent the marks we most often get called about."},
-    {"icon":"baby","d":"Rugs and play mats after day seven","text":"Rugs put down early trap solvent and can leave a faint print. After a week, foam play mats and rugs go down, and the floor is ready for full-time crawling."}
-  ]},
-  {"type":"h2","text":"What we would not do in a house with a baby"},
-  {"type":"list","icons":true,"items":[
-    {"icon":"x","html":"<strong>Use oil-based polyurethane or oil-modified sealers.</strong> The odor and cure time are the problem, not the cured film. There is no situation in an occupied Edmonds home where we would recommend it."},
-    {"icon":"x","html":"<strong>Skip dust containment.</strong> Sanding dust settles into vents, cribs and soft toys and comes back out for weeks. The $250 containment step keeps it in the work area."},
-    {"icon":"x","html":"<strong>Sand painted trim or borders without checking for lead.</strong> Pre-1978 homes need it identified first. We do."},
-    {"icon":"x","html":"<strong>Let the family move back on day one.</strong> A floor that is dry to the touch is not cured. One more night away is cheaper than a marked floor."},
-    {"icon":"x","html":"<strong>Clean the new floor with anything but a hardwood cleaner.</strong> Steam mops, vinegar and oil soaps damage the finish and leave residue where a baby's hands go. Details in our post on <a href=\"/blog-posts/how-to-clean-and-maintain-refinished-hardwood-floors-so-they-last-20\">cleaning refinished floors</a>, and on our <a href=\"/services/floor-refinish\">refinishing service page</a>."}
-  ]}
+  {
+   "type": "quick",
+   "eyebrow": "Short answer",
+   "lead": "Yes. Refinished hardwood floors finished with Bona water-based products are safe for babies and pets once cured: keep everyone off for 24 hours, keep pets and crawlers off for 72, and treat the floor as fully cured after 7 days.",
+   "detail": "The finish we use is low-VOC and GREENGUARD Gold certified for indoor air quality, a fraction of the fumes of traditional oil-based polyurethane. The real exposure risks are sanding dust and the first day of finish odor, and both are managed by leaving the house during the work and airing it out. Our published rate is $3.99 per sq ft, the same finish for every household.",
+   "tiles": [
+    {
+     "icon": "clock",
+     "label": "Walk in socks",
+     "value": "24 hours"
+    },
+    {
+     "icon": "paw",
+     "label": "Pets and crawlers",
+     "value": "72 hours"
+    },
+    {
+     "icon": "calendar",
+     "label": "Fully cured",
+     "value": "7 days"
+    },
+    {
+     "icon": "dollar",
+     "label": "Natural refinish",
+     "value": "$3.99 / sq ft"
+    }
+   ],
+   "cta": "Try the calculator"
+  },
+  {
+   "type": "p",
+   "html": "Edmonds has two households asking this question. Young families buying a 1950s Seaview or Westgate rambler with oak under the carpet, often with a baby on the way, and retirees in the Bowl with a dog who has the run of the house. Both hear \"polyurethane\" and picture the headache-inducing fumes of a 1980s refinish. That product still exists, but we do not use it. Here is what is in the air on each day of a refinish, when it is gone, and how to plan around a newborn or a nervous dog."
+  },
+  {
+   "type": "h2",
+   "text": "What is actually in the air, day by day"
+  },
+  {
+   "type": "cards",
+   "cols": 2,
+   "items": [
+    {
+     "icon": "wind",
+     "title": "Sanding day: wood dust",
+     "text": "The biggest exposure of the whole job, and it has nothing to do with finish. Fine dust from old finish and oak is an irritant, and a real problem for infants and pets. Our sanders run on vacuum systems; the $250 dust containment option adds sealed doorways and an air scrubber."
+    },
+    {
+     "icon": "droplet",
+     "title": "Coat days: water-based finish",
+     "text": "Bona water-based finishes cure by evaporation of water and a small amount of solvent. There is a mild odor for a few hours after each coat that is gone by the next morning with the windows cracked. No lingering solvent smell."
+    },
+    {
+     "icon": "palette",
+     "title": "If you stain: an extra day",
+     "text": "Stain is the most solvent-heavy step in a refinish. Oil-based stains carry more VOCs and need an overnight dry before finish goes on. If you have a newborn, a natural finish with no stain removes this step entirely."
+    },
+    {
+     "icon": "alert",
+     "title": "Old finishes and lead",
+     "text": "Homes built before 1978, which includes most of the Bowl and Seaview, can have lead paint on stair edges, baseboards and painted floor borders. We identify painted wood before sanding and handle it separately. Never let anyone sand painted trim in an occupied home without checking."
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "The cure timeline and what it means for your household"
+  },
+  {
+   "type": "table",
+   "head": [
+    "When",
+    "The floor",
+    "Baby",
+    "Dog or cat"
+   ],
+   "rows": [
+    [
+     "Sanding day",
+     "Bare wood, dust in the air",
+     "Out of the house",
+     "Out of the house"
+    ],
+    [
+     "Coat days (2 to 3 days)",
+     "Wet finish, mild odor for hours",
+     "Out of the house, or upstairs with doors closed and windows open",
+     "Out of the house; wet finish and paws are a bad mix"
+    ],
+    [
+     "24 hours after last coat",
+     "Dry to the touch, walk in socks",
+     "Carried, not crawling",
+     "Still off; nails dent soft finish"
+    ],
+    [
+     "72 hours",
+     "Hard enough for furniture",
+     "Crawling and playing is fine",
+     "Back on the floor, nails trimmed"
+    ],
+    [
+     "7 days",
+     "Fully cured",
+     "Everything normal, rugs down",
+     "Everything normal, water bowls on a mat"
+    ],
+    [
+     "14 days",
+     "Full chemical resistance",
+     "Wipe spills normally",
+     "Accidents wipe up without marking"
+    ]
+   ],
+   "note": "Water-based finish cures fast but keeps hardening for two weeks. Soft finish under a dog's nails on day two is the most common way a new floor gets marked."
+  },
+  {
+   "type": "h2",
+   "text": "Price your Edmonds refinish right now"
+  },
+  {
+   "type": "calc",
+   "kind": "refinish",
+   "note": "Add dust containment for any home with an infant, a pet that stays, or allergies. It is the single most useful add-on for air quality during the job."
+  },
+  {
+   "type": "h2",
+   "text": "Water-based Bona vs oil-based polyurethane"
+  },
+  {
+   "type": "compare",
+   "a": {
+    "icon": "done",
+    "tag": "Bona water-based, what we use",
+    "title": "Why it is the family choice",
+    "items": [
+     "Low VOC, GREENGUARD Gold certified for indoor air",
+     "Odor gone within hours of each coat",
+     "Walk in 24 hours, furniture in 72, full cure in 7 days",
+     "Does not amber, so the light oak stays light",
+     "Three coats in a single visit"
+    ]
+   },
+   "b": {
+    "icon": "x",
+    "tag": "Oil-based polyurethane",
+    "title": "Why we do not use it in occupied homes",
+    "items": [
+     "Strong solvent odor that lingers for days, sometimes weeks",
+     "VOC levels several times higher",
+     "Each coat needs a day or more to dry; cure runs to 30 days",
+     "Ambers noticeably over time",
+     "Not suitable for a home with a newborn or asthma"
+    ]
+   }
+  },
+  {
+   "type": "callout",
+   "icon": "alert",
+   "title": "About the word \"non-toxic\": ",
+   "text": "No floor finish is safe to breathe while it is wet, water-based included. What makes Bona water-based safe for families is that the exposure window is short and the cured film is inert and certified for indoor air. Plan to be out during coats, ventilate after, and the finished floor is one of the cleanest surfaces in the house for a crawling baby."
+  },
+  {
+   "type": "h2",
+   "text": "How to plan a refinish around a baby or a pet"
+  },
+  {
+   "type": "steps",
+   "wide": true,
+   "items": [
+    {
+     "icon": "calendar",
+     "d": "Book three to five days away",
+     "text": "For a natural finish on a typical Edmonds rambler, plan for four nights out. Grandparents, a Kingston ferry trip, a friend's place. Boarding the dog is cheaper than repairing a floor."
+    },
+    {
+     "icon": "home",
+     "d": "Or split the house",
+     "text": "If you must stay, we can often do the main floor while the family lives upstairs with doors closed and a window open. Dust containment is required for this, and you still need to be out for the coat itself."
+    },
+    {
+     "icon": "wind",
+     "d": "Ventilate on return",
+     "text": "Open windows and run fans for the first afternoon back. Edmonds humidity near the water slows drying a little, so give the last coat the full 24 hours before walking on it."
+    },
+    {
+     "icon": "paw",
+     "d": "Trim nails before the dog comes home",
+     "text": "Day three finish is walkable but still hardening. Trimmed nails and a runner in the dog's favorite path for the first week prevent the marks we most often get called about."
+    },
+    {
+     "icon": "baby",
+     "d": "Rugs and play mats after day seven",
+     "text": "Rugs put down early trap solvent and can leave a faint print. After a week, foam play mats and rugs go down, and the floor is ready for full-time crawling."
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "What we would not do in a house with a baby"
+  },
+  {
+   "type": "list",
+   "icons": true,
+   "items": [
+    {
+     "icon": "x",
+     "html": "<strong>Use oil-based polyurethane or oil-modified sealers.</strong> The odor and cure time are the problem, not the cured film. There is no situation in an occupied Edmonds home where we would recommend it."
+    },
+    {
+     "icon": "x",
+     "html": "<strong>Skip dust containment.</strong> Sanding dust settles into vents, cribs and soft toys and comes back out for weeks. The $250 containment step keeps it in the work area."
+    },
+    {
+     "icon": "x",
+     "html": "<strong>Sand painted trim or borders without checking for lead.</strong> Pre-1978 homes need it identified first. We do."
+    },
+    {
+     "icon": "x",
+     "html": "<strong>Let the family move back on day one.</strong> A floor that is dry to the touch is not cured. One more night away is cheaper than a marked floor."
+    },
+    {
+     "icon": "x",
+     "html": "<strong>Clean the new floor with anything but a hardwood cleaner.</strong> Steam mops, vinegar and oil soaps damage the finish and leave residue where a baby's hands go. Details in our post on <a href=\"/blog-posts/how-to-clean-and-maintain-refinished-hardwood-floors-so-they-last-20\">cleaning refinished floors</a>, and on our <a href=\"/services/floor-refinish\">refinishing service page</a>."
+    }
+   ]
+  }
  ],
  "faq": [
-  {"q":"How long after refinishing hardwood floors is it safe for a baby?","a":"With Bona water-based finish, the floor is dry enough to walk on in socks after 24 hours and hard enough for crawling and play after 72 hours. Treat it as fully cured after 7 days, which is when rugs and play mats go down. Keep the baby out of the house during sanding and the finish coats themselves."},
-  {"q":"Are Bona floor finishes low VOC?","a":"Yes. Bona water-based finishes are low-VOC and GREENGUARD Gold certified for indoor air quality, which is the certification used for schools and healthcare spaces. They contain a fraction of the solvents in traditional oil-based polyurethane, and the odor from a coat is gone within hours with ventilation."},
-  {"q":"Can my dog stay in the house during floor refinishing?","a":"Not in the work area, and ideally not in the house on sanding and coat days. Dust is an irritant, wet finish on paws is a mess, and a dog walking on day-one finish leaves permanent nail marks. Board the dog or keep them upstairs behind a closed door with dust containment in place, and bring them back at 72 hours with trimmed nails."},
-  {"q":"Is it safe to refinish floors while pregnant?","a":"With a water-based finish and dust containment, the main precaution is being out of the house during sanding and each coat and ventilating on return. Skip stain if you can, since oil-based stain is the most solvent-heavy step. Talk to your doctor, and tell us so we can schedule coats when you will be out."},
-  {"q":"Do refinished floors off-gas after they are dry?","a":"Water-based finishes off-gas for a short period, mostly in the first 24 to 48 hours, and are essentially inert once cured at 7 days. Oil-based polyurethane can off-gas for weeks. If you can smell finish a week after a water-based refinish, call us; it usually means a ventilation problem, not a finish problem."},
-  {"q":"How much does a family-safe refinish cost in Edmonds?","a":"The finish is the same for every job, so it is our published rate: $3.99 per sq ft for a natural finish or $6.50 with stain, with a 500 sq ft minimum. Dust containment adds $250 and we recommend it for any home with an infant, pets or allergies. A 900 sq ft Seaview rambler runs 900 × $3.99 + $250 = $3,841."}
+  {
+   "q": "How long after refinishing hardwood floors is it safe for a baby?",
+   "a": "With Bona water-based finish, the floor is dry enough to walk on in socks after 24 hours and hard enough for crawling and play after 72 hours. Treat it as fully cured after 7 days, which is when rugs and play mats go down. Keep the baby out of the house during sanding and the finish coats themselves."
+  },
+  {
+   "q": "Are Bona floor finishes low VOC?",
+   "a": "Yes. Bona water-based finishes are low-VOC and GREENGUARD Gold certified for indoor air quality, which is the certification used for schools and healthcare spaces. They contain a fraction of the solvents in traditional oil-based polyurethane, and the odor from a coat is gone within hours with ventilation."
+  },
+  {
+   "q": "Can my dog stay in the house during floor refinishing?",
+   "a": "Not in the work area, and ideally not in the house on sanding and coat days. Dust is an irritant, wet finish on paws is a mess, and a dog walking on day-one finish leaves permanent nail marks. Board the dog or keep them upstairs behind a closed door with dust containment in place, and bring them back at 72 hours with trimmed nails."
+  },
+  {
+   "q": "Is it safe to refinish floors while pregnant?",
+   "a": "With a water-based finish and dust containment, the main precaution is being out of the house during sanding and each coat and ventilating on return. Skip stain if you can, since oil-based stain is the most solvent-heavy step. Talk to your doctor, and tell us so we can schedule coats when you will be out."
+  },
+  {
+   "q": "Do refinished floors off-gas after they are dry?",
+   "a": "Water-based finishes off-gas for a short period, mostly in the first 24 to 48 hours, and are essentially inert once cured at 7 days. Oil-based polyurethane can off-gas for weeks. If you can smell finish a week after a water-based refinish, call us; it usually means a ventilation problem, not a finish problem."
+  },
+  {
+   "q": "How much does a family-safe refinish cost in Edmonds?",
+   "a": "The finish is the same for every job, so it is our published rate: $3.99 per sq ft for a natural finish or $6.50 with stain, with a 500 sq ft minimum. Dust containment adds $250 and we recommend it for any home with an infant, pets or allergies. A 900 sq ft Seaview rambler runs 900 × $3.99 + $250 = $3,841."
+  }
  ],
  "faq_title": "Safety questions from Edmonds families and pet owners",
  "faq_sub": "From the Bowl, Seaview, Westgate and Perrinville.",
- "related": [["how-to-refinish-hardwood-floors-with-a-dog-in-the-house-edmonds","refinishing with a dog in the house"],["water-based-vs-oil-based-finish-sammamish","water-based vs oil-based finish"],["is-dustless-hardwood-floor-refinishing-really-dustless-edmonds","whether dustless refinishing is really dustless"]],
+ "related": [
+  [
+   "how-to-refinish-hardwood-floors-with-a-dog-in-the-house-edmonds",
+   "refinishing with a dog in the house"
+  ],
+  [
+   "water-based-vs-oil-based-finish-sammamish",
+   "water-based vs oil-based finish"
+  ],
+  [
+   "is-dustless-hardwood-floor-refinishing-really-dustless-edmonds",
+   "whether dustless refinishing is really dustless"
+  ]
+ ],
  "cta_title": "Plan a refinish around your family, not the other way",
  "cta_sub": "We check the wood, identify any painted trim, schedule coats for when you are out and give you a firm written quote. Free, no obligation, anywhere in Edmonds."
 }

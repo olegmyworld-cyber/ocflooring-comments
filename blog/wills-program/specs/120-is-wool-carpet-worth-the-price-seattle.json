@@ -5,9 +5,20 @@
  "category": "carpet",
  "city": "Seattle",
  "time": "8 mins",
- "date": "2027-01-14T15:00:00.000Z",
+ "date": "2027-01-20T15:00:00.000Z",
  "keywords": "is wool carpet worth it, wool carpet pros and cons, wool vs nylon carpet Seattle, wool carpet moths Pacific Northwest, best carpet for Seattle homes",
- "offers": [["Carpet installation, stretch-in","0.99","per square foot"],["Carpet installation, glue-down","1.29","per square foot"]],
+ "offers": [
+  [
+   "Carpet installation, stretch-in",
+   "0.99",
+   "per square foot"
+  ],
+  [
+   "Carpet installation, glue-down",
+   "1.29",
+   "per square foot"
+  ]
+ ],
  "blocks": [
   {
    "type": "quick",
