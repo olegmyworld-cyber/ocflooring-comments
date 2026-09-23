@@ -99,3 +99,19 @@ correct schema dates. The stairs post is fixed on the first run.
 on 2026-09-17. `plan.py` carries an `ALREADY_LIVE` override so its schema dates read the real
 publish date and its slot is kept in a `slot` field. Add to that map any other post published
 out of order.
+
+## Daily body refresh dropped (2026-09-23)
+
+The Routine no longer re-renders and re-pushes `description-big` before publishing. It now just
+checks the hero image and publishes the due draft as it stands.
+
+That step existed only to correct the JSON-LD `datePublished`, which for the 199 remaining posts
+reads **six days before** the date the post actually goes live (a consequence of the 2026-09-22
+schedule rebase: the stored bodies carry the pre-rebase date). Cost was a 44 KB body round-trip
+plus a transcription risk, every post, every day. Oleg's call, and the right one: a slightly-early
+publish date is unremarkable to search engines, and the bodies are correct in every other respect.
+
+Accepted consequence: every post from 2026-09-24 onward goes live with `datePublished` and
+`dateModified` six days earlier than its live date. Post 1 (2026-09-23) was published under the
+old procedure, so its dates are exact. If this ever needs fixing in bulk, re-render from `specs/`
+and push — the local files are already correct.
