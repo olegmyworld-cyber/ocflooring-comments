@@ -44,3 +44,20 @@ Sequence, with the verification gate that made this safe:
    `errors` empty.
 
 Nothing else was touched and the site itself was not published.
+
+## 2026-09-23 — post 1 of 200 published
+
+**Published:** `how-much-does-it-cost-to-refinish-hardwood-floors-in-seattle` (6aa9e4214e18075875156202)
+"How Much Does It Cost to Refinish Hardwood Floors in Seattle? (2026 Real Prices)"
+
+Held: none. Failed: none. One due draft, hero image present.
+
+The stored body still carried the pre-rebase `datePublished: 2026-09-17`; re-rendered and pushed
+so it reads `2026-09-23`. Verified before publishing: stored 44,085 chars
+sha1 `75f2d15aeb96c8b88cbe026276fc52658fb262c9`, identical to `out/`. Published with
+`errors: []`.
+
+Oleg published the Webflow site on 2026-09-22T19:30:17Z (both custom domains), so this post
+went live on the updated template, not the old one. That blocker is cleared.
+
+Oleg also gave standing permission on this date to publish on schedule without checking in first.
