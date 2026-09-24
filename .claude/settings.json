@@ -1,11 +1,29 @@
 {
   "permissions": {
+    "defaultMode": "bypassPermissions",
     "allow": [
+      "Bash",
+      "Read",
+      "Edit",
+      "Write",
+      "MultiEdit",
+      "Grep",
+      "Glob",
+      "LS",
+      "WebFetch",
+      "WebSearch",
+      "NotebookRead",
+      "NotebookEdit",
+      "TodoRead",
+      "TodoWrite",
       "mcp__Webflow__data_cms_tool",
+      "mcp__Webflow__data_sites_tool",
+      "mcp__Webflow__data_pages_tool",
       "mcp__Webflow__get_asset_preview",
       "mcp__Semrush__get_report_schema",
       "mcp__Semrush__execute_report",
-      "mcp__Webflow__data_pages_tool"
+      "mcp__Claude_Code_Remote__get_trigger",
+      "mcp__Claude_Code_Remote__list_triggers"
     ]
   }
 }
