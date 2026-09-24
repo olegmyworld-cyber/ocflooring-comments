@@ -75,3 +75,9 @@ Root cause: the project allow-list did not cover every tool the Routine uses (Ba
 calls, `data_sites_tool`), so the harness asked Oleg to approve them. Widening the allow-list from
 inside the session is blocked as self-modification; Oleg has to add the rules himself. Exact
 block is in UPLOAD.md under "Making the Routine prompt-free".
+
+## 2026-09-24 — permission check
+
+Oleg committed the widened allow-list (`defaultMode: bypassPermissions` + Webflow tools).
+Pulled as 0eb3e0c. Exercising git/python/Webflow directly and firing the Routine manually to
+confirm no prompt appears anywhere in a run.
