@@ -115,3 +115,32 @@ Accepted consequence: every post from 2026-09-24 onward goes live with `datePubl
 `dateModified` six days earlier than its live date. Post 1 (2026-09-23) was published under the
 old procedure, so its dates are exact. If this ever needs fixing in bulk, re-render from `specs/`
 and push — the local files are already correct.
+
+## Making the Routine prompt-free (2026-09-24)
+
+The Routine fires into this session, and every tool call not on the allow-list makes Claude Code
+ask Oleg for approval. That is what looked like "asking for permission each time". OC Flooring's
+routine does not do this only because that session's allow-list already covers its tools.
+
+Claude cannot widen its own allow-list (auto mode blocks it as self-modification), so this is a
+one-time edit for Oleg. Merge the following into `.claude/settings.json` → `permissions.allow`:
+
+```json
+"mcp__Webflow__data_cms_tool",
+"mcp__Webflow__data_sites_tool",
+"mcp__Webflow__data_pages_tool",
+"mcp__Webflow__get_asset_preview",
+"mcp__Claude_Code_Remote__get_trigger",
+"mcp__Claude_Code_Remote__list_triggers",
+"Bash(cd:*)", "Bash(git pull:*)", "Bash(git fetch:*)", "Bash(git add:*)",
+"Bash(git commit:*)", "Bash(git push:*)", "Bash(git status:*)", "Bash(git log:*)",
+"Bash(python3:*)", "Bash(cat:*)", "Bash(echo:*)", "Bash(ls:*)",
+"Bash(tail:*)", "Bash(head:*)", "Bash(grep:*)"
+```
+
+Or run `/permissions` in the session and add them there. After that the daily run needs nothing
+from Oleg.
+
+Why not schedule natively inside Webflow instead: Webflow's Designer has a per-item "Schedule"
+option, but the Data API (which is all this session can reach) does not expose it, so the only
+way to use it is to open each of the 198 remaining drafts in the Designer and set a date by hand.

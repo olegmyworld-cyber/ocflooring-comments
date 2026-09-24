@@ -61,3 +61,17 @@ Oleg published the Webflow site on 2026-09-22T19:30:17Z (both custom domains), s
 went live on the updated template, not the old one. That blocker is cleared.
 
 Oleg also gave standing permission on this date to publish on schedule without checking in first.
+
+## 2026-09-24 — post 2 of 200 published (late)
+
+**Published:** `how-much-does-hardwood-floor-installation-cost-in-lynnwood` (6aa9e531b196331d6d3afa59)
+"How Much Does Hardwood Floor Installation Cost in Lynnwood? 2026 Labor and Material Prices"
+
+The 15:40 UTC Routine run was interrupted by a Claude Code permission prompt before it reached
+the publish call, so the post went out later in the day when Oleg came back to the session.
+Published as-is, hero present, `errors: []`. Held: none.
+
+Root cause: the project allow-list did not cover every tool the Routine uses (Bash git/python
+calls, `data_sites_tool`), so the harness asked Oleg to approve them. Widening the allow-list from
+inside the session is blocked as self-modification; Oleg has to add the rules himself. Exact
+block is in UPLOAD.md under "Making the Routine prompt-free".
