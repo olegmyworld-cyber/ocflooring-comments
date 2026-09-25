@@ -89,3 +89,5 @@ confirm no prompt appears anywhere in a run.
 
 Scheduled 15:40 UTC run, published as-is, hero present, `errors: []`. Held: none.
 First run under the widened allow-list: no permission prompt at any step.
+
+2026-09-25 17:15 UTC — manual run on Oleg's revised prompt: nothing due (posts 1–3 already live). No-op. Revised prompt installed on the Routine.
