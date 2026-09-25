@@ -81,3 +81,11 @@ block is in UPLOAD.md under "Making the Routine prompt-free".
 Oleg committed the widened allow-list (`defaultMode: bypassPermissions` + Webflow tools).
 Pulled as 0eb3e0c. Exercising git/python/Webflow directly and firing the Routine manually to
 confirm no prompt appears anywhere in a run.
+
+## 2026-09-25 — post 3 of 200 published
+
+**Published:** `how-much-does-vinyl-plank-flooring-installation-cost-in-edmonds` (6aa9e611a765e6616e45f9d5)
+"How Much Does Vinyl Plank Flooring Installation Cost in Edmonds? 2026 Prices"
+
+Scheduled 15:40 UTC run, published as-is, hero present, `errors: []`. Held: none.
+First run under the widened allow-list: no permission prompt at any step.
