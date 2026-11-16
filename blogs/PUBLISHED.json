@@ -322,5 +322,17 @@
   "published_on": "2026-11-12",
   "inbound_links_added": true,
   "note": "published by scheduled run 2026-11-12; inbound links added"
+ },
+ {
+  "slug": "black-stains-hardwood-can-they-be-sanded-out",
+  "published_on": "2026-11-16",
+  "inbound_links_added": true,
+  "note": "published by scheduled run 2026-11-16; inbound links added (publish_date 2026-11-13; missed by earlier runs)"
+ },
+ {
+  "slug": "what-home-inspectors-flag-hardwood-floors",
+  "published_on": "2026-11-16",
+  "inbound_links_added": true,
+  "note": "published by scheduled run 2026-11-16; inbound links added"
  }
 ]
