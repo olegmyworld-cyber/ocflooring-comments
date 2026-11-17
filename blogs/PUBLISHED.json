@@ -334,5 +334,11 @@
   "published_on": "2026-11-16",
   "inbound_links_added": true,
   "note": "published by scheduled run 2026-11-16; inbound links added"
+ },
+ {
+  "slug": "cost-to-tile-a-shower",
+  "published_on": "2026-11-17",
+  "inbound_links_added": true,
+  "note": "published by scheduled run 2026-11-17; inbound links added"
  }
 ]
