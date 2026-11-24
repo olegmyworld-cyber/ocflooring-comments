@@ -363,5 +363,10 @@
   "published_on": "2026-11-23",
   "inbound_links_added": true,
   "note": "published by scheduled run 2026-11-23; inbound links added"
+ },
+ {
+  "slug": "large-format-tile-installation",
+  "published_on": "2026-11-24",
+  "inbound_links_added": true
  }
 ]
